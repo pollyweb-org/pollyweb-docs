@@ -7,7 +7,7 @@
 1. **What is the .Length function?**
 
     `{.Length}` 
-    * is a synonym of [`.Size`](<🔩 {.Size}.md>).
+    * is a synonym of [`.Size`](<Size ⓕ.md>).
 
     ---
     <br/>

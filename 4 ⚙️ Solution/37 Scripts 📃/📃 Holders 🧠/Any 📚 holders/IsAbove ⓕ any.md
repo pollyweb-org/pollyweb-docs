@@ -25,7 +25,7 @@
     ||                               | `A` | `A` | ✅ True
     ||                               | `ABC` | `XZ` | ✅ True
     | `Empties` | Are ignored | `$empty` | `1` | ❌ False
-    | `Lists` | Use [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Length}.md>) | `[A,B]` | `[C]` | ✅ True
+    | `Lists` | Use [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>) | `[A,B]` | `[C]` | ✅ True
     | `Others` | Are blocked | `{A:1}` | `{A:2}` | 🚫 Blocked
     | | | `{A:1}` | `1` | 🚫 Blocked
 

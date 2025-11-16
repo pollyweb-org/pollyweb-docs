@@ -128,7 +128,7 @@
 
 1. **How to pass YAML objects to a [Command ⌘](<Command ⌘.md>)?**
 
-    [Commands ⌘](<Command ⌘.md>) parse inputs with the [`.Evaluate`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) function.
+    [Commands ⌘](<Command ⌘.md>) parse inputs with the [`.Evaluate`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) function.
 
     ```yaml
     # in multiple lines as a YAML object
@@ -184,7 +184,7 @@
 
 1. **How to pass [Holders 🧠](<Holder 🧠.md>) to a [Command ⌘](<Command ⌘.md>)?**
 
-    [Commands ⌘](<Command ⌘.md>) also parse [Holder 🧠](<Holder 🧠.md>) inputs with the [`.Evaluate`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) function.
+    [Commands ⌘](<Command ⌘.md>) also parse [Holder 🧠](<Holder 🧠.md>) inputs with the [`.Evaluate`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) function.
 
     ```yaml
     - <CMD> >> $out:    # single value

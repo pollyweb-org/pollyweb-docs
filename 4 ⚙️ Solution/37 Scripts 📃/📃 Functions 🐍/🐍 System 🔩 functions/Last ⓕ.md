@@ -4,7 +4,7 @@
 
 > Purpose
 * Counts back from a starting point.
-* For [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>), it's the opposite of [`.First`](<🔩 {.First}.md>)
+* For [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>), it's the opposite of [`.First`](<First ⓕ.md>)
 * For [Period 🧠 holders](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>), it's similar but not the same as [`.This`](<time/🔩 This.md>) and [`.Previous`](<time/🔩 Previous.md>)
 
 > Used by [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
@@ -30,10 +30,10 @@
     |-|-
     |`.Last(period)` | Returns a [Period 🧠 holder](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>)
     |[`$txt`](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)`.Last(n)`| Returns the last `n` characters of a [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)
-    |               |If `n` exceeds [`.Length`](<🔩 {.Length}.md>), returns the [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)
+    |               |If `n` exceeds [`.Length`](<Length ⓕ.md>), returns the [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)
     |[`$txt`](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)`.Last` | Equals `$txt.Last(1)`
     |[`$lst`](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)`.Last(n)`| Returns the last `n` items of a [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
-    |               |If `n` exceeds [`.Length`](<🔩 {.Length}.md>), returns the [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
+    |               |If `n` exceeds [`.Length`](<Length ⓕ.md>), returns the [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
     |[`$lst`](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)`.Last` | Equals `$lst.Last(1)`
     |[`$mapList`](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)`.Last({A:1},n)`| Applies [`.Filter`](<../../📃 Holders 🧠/Set 📚 holders/Filter ⓕ set.md>) then `.Last(n)`
     |[`$mapList`](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)`.Last({A:1})` | Equals `$mapList.Last({A:1},1)`
@@ -43,7 +43,7 @@
 
 1. **What are examples of .Last for times?**
 
-    For time related strings, [`.Last`](<🔩 {.Last}.md>) returns a [Period 🧠 holder](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>) for [`.IsIn`](<../../📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>) and [`.IsBetween`](<../../📃 Holders 🧠/Any 📚 holders/IsBetween ⓕ any.md>).
+    For time related strings, [`.Last`](<Last ⓕ.md>) returns a [Period 🧠 holder](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>) for [`.IsIn`](<../../📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>) and [`.IsBetween`](<../../📃 Holders 🧠/Any 📚 holders/IsBetween ⓕ any.md>).
 
     | Example | Returns
     |-|-

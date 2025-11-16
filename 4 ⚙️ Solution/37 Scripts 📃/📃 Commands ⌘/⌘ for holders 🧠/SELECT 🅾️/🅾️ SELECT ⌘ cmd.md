@@ -16,7 +16,7 @@
 
 1. **What's the SELECT syntax?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml
     SELECT:
@@ -30,13 +30,13 @@
     |Input|Purpose||
     |-|-|-
     | `All` | Uses [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) to format item properties
-    | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) on the 1st item
-    | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) on the last item
-    | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Distinct}.md>) to group results 
+    | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) on the 1st item
+    | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) on the last item
+    | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>) to group results 
     | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Cross}.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
     | `Where` | Uses [`.Filter`](<../../../📃 Holders 🧠/Set 📚 holders/Filter ⓕ set.md>) to filter [List 🧠](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) items 
     | `OrderBy`| Uses [`Set.Sort`](<../../../📃 Holders 🧠/Set 📚 holders/Sort ⓕ set.md>) to order the [List 🧠](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) items
-    | `Limit` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>) to limit the items returned
+    | `Limit` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ.md>) to limit the items returned
 
     ---
     <br/>

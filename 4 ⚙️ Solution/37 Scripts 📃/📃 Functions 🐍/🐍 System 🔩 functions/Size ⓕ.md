@@ -7,7 +7,7 @@
 1. **What is the .Size function?**
 
     `{.Size}` 
-    * also known as [`.Length`](<🔩 {.Length}.md>)
+    * also known as [`.Length`](<Length ⓕ.md>)
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the size or length 
     * of a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).

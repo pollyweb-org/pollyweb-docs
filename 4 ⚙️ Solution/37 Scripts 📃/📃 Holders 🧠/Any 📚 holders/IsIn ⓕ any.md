@@ -85,7 +85,7 @@
     Value  | List |Result
     |-|-|-
     [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) | [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 This.md>)`(year)` | ✅ True
-    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>)| [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Last}.md>)`(year)` | ✅ True
+    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>)| [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)`(year)` | ✅ True
     [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>)| [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Previous.md>)`(day)`| ❌ False
     
     

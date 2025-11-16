@@ -10,7 +10,7 @@
 
     `{.Format}`
     * is a [{Function} 🐍][Function] 
-    * that calls [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>)
+    * that calls [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>)
     * to format every item of a [Set 🧠 holder][Set]
     * into a [List 🧠 holder][List].
 
@@ -171,7 +171,7 @@
     │ 6 │ 4 │  │   - C: B.Add(50%) │  │ P6 │ 8 │ 6 │  
     └───┴───┘  └───────────────────┘  └────┴───┴───┘
     ```
-    Uses: [`PUT`][PUT] [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) [`.Take`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Take}.md>)
+    Uses: [`PUT`][PUT] [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) [`.Take`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Take ⓕ.md>)
 
     ---
     <br/>
