@@ -10,7 +10,7 @@
     `{.IsIn}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that verifies if a value is in a list, 
-    * similar to [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) from the value's perspective.
+    * similar to [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ.md>) from the value's perspective.
 
     ---
     <br/>
@@ -84,9 +84,9 @@
 
     Value  | List |Result
     |-|-|-
-    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) | [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 This.md>)`(year)` | ✅ True
-    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>)| [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)`(year)` | ✅ True
-    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>)| [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Previous.md>)`(day)`| ❌ False
+    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>) | [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/This ⓕ.md>)`(year)` | ✅ True
+    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>)| [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)`(year)` | ✅ True
+    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>)| [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Previous ⓕ.md>)`(day)`| ❌ False
     
     
     ---

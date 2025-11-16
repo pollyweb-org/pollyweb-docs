@@ -68,7 +68,7 @@
     - REPEAT
     ```
 
-    Uses: [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) [`REPEAT`](<../../⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`TEMP`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`WAIT`](<🧘 WAIT ⌘ cmd.md>)
+    Uses: [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>) [`REPEAT`](<../../⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`TEMP`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`WAIT`](<🧘 WAIT ⌘ cmd.md>)
     
 
     

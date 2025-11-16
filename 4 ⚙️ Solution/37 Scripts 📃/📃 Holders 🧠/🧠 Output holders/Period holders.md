@@ -9,7 +9,7 @@
     `Period` holders 
     * are [Holders 🧠][Holder] that represent a span of time 
     * i.e., the interval between two [Time 🧠 holders][time]
-    * returned by [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 This.md>), [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>), [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Previous.md>), and [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>).
+    * returned by [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/This ⓕ.md>), [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>), [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Previous ⓕ.md>), and [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>).
 
     ---
     <br/>
@@ -18,10 +18,10 @@
 
     |[{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)|Purpose
     |-|-
-    |[`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>)   | Returns the period between 2 [Time 🧠 holders][time]
-    |[`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 This.md>)   | Returns the current named period
+    |[`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>)   | Returns the period between 2 [Time 🧠 holders][time]
+    |[`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/This ⓕ.md>)   | Returns the current named period
     |[`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)   | Returns the last named period
-    |[`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Previous.md>)| Returns the previous named period
+    |[`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Previous ⓕ.md>)| Returns the previous named period
 
     ---
     <br/>

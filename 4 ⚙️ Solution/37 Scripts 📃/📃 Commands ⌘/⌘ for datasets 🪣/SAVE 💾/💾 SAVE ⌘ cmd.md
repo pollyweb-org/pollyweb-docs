@@ -183,7 +183,7 @@
                 Now.Add(30 days)
     ```
 
-    Uses: [`.Lower`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Lower ⓕ.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/time/🔩 Now.md>) [`.Add`](<../../../📃 Holders 🧠/Any 📚 holders/Add ⓕ any.md>) 
+    Uses: [`.Lower`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Lower ⓕ.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>) [`.Add`](<../../../📃 Holders 🧠/Any 📚 holders/Add ⓕ any.md>) 
 
     ---
     <br/>

@@ -241,7 +241,7 @@
     | Function | Holder `$p` | Example | Result
     |-|-|-|-
     | [`.Add`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Add ⓕ any.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
-    | [`.Diff`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
+    | [`.Diff`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
     | [`.IsIn`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>) | `A` | `$.IsIn([A,B])` | `True`
     | [`.Length`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>) | `[A,B]` | `$p.Length()` | `2`
     | [`.Size`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>) | `[A,B]` | `$p.Size()` | `2`

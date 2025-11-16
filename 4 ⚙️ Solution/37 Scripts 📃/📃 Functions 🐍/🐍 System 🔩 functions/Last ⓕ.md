@@ -5,7 +5,7 @@
 > Purpose
 * Counts back from a starting point.
 * For [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>), it's the opposite of [`.First`](<First ⓕ.md>)
-* For [Period 🧠 holders](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>), it's similar but not the same as [`.This`](<time/🔩 This.md>) and [`.Previous`](<time/🔩 Previous.md>)
+* For [Period 🧠 holders](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>), it's similar but not the same as [`.This`](<time/This ⓕ.md>) and [`.Previous`](<time/Previous ⓕ.md>)
 
 > Used by [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
 
@@ -47,12 +47,12 @@
 
     | Example | Returns
     |-|-
-    | `.Last(60 minutes)` | From [`.Now`](<time/🔩 Now.md>)[`.Minus`](<../../📃 Holders 🧠/Any 📚 holders/Minus ⓕ any.md>)`(60 minutes)` to [`.Now`](<time/🔩 Now.md>)
+    | `.Last(60 minutes)` | From [`.Now`](<time/Now ⓕ.md>)[`.Minus`](<../../📃 Holders 🧠/Any 📚 holders/Minus ⓕ any.md>)`(60 minutes)` to [`.Now`](<time/Now ⓕ.md>)
     | `.Last(hour)` | `.Last(60 minutes)`
     | `.Last(2 hours)` | `.Last(120 minutes)`
     | `.Last(day)` | `.Last(24 hours)`
     | `.Last(2 days)` | `.Last(48 hours)`
-    | `.Last(1 month)` | From [`.Now`](<time/🔩 Now.md>)[`.Minus`](<../../📃 Holders 🧠/Any 📚 holders/Minus ⓕ any.md>)`(1 month)` to [`.Now`](<time/🔩 Now.md>)
+    | `.Last(1 month)` | From [`.Now`](<time/Now ⓕ.md>)[`.Minus`](<../../📃 Holders 🧠/Any 📚 holders/Minus ⓕ any.md>)`(1 month)` to [`.Now`](<time/Now ⓕ.md>)
     | `.Last(month)` | `.Last(1 month)`
     | `.Last(2 months)` | `.Last(2 months)`
     | `.Last(quarter)` | `.Last(3 months)`

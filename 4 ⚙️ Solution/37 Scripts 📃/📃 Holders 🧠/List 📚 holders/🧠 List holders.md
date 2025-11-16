@@ -31,7 +31,7 @@
 
     Group | [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) |Type| Purpose 
     |-|-|-|-
-    |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Contains a given item?
+    |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ.md>) |bool| Contains a given item?
     |       | [`.Equals`](<../Any 📚 holders/Equals ⓕ any.md>)   |bool| Has these items in this order?
     |       | [`.Differs`](<../Any 📚 holders/Differs ⓕ any.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../Any 📚 holders/Is ⓕ any.md>)       |bool| Has these items in any order?
@@ -48,7 +48,7 @@
     |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[list][list]| Same as [`.Append`][.Append]
     |       | [`.Remove`][.Remove]   |[list][list]| Remove items from the list
     |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) |[list][list]| Same as [`.Remove`][.Remove]
-    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[list][list]| Same as [`.Remove`][.Remove]
+    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) |[list][list]| Same as [`.Remove`][.Remove]
     
     
     ---
