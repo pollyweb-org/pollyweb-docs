@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) [`.IsNot`](<.IsNot 🔩 any.md>)
+> Used by [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/assert/🔩 Assert.md>) [`.IsNot`](<IsNot ⓕ any.md>)
 
 ## FAQ
 

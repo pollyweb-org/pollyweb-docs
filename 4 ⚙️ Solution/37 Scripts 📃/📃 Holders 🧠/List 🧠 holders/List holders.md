@@ -33,10 +33,10 @@
     |-|-|-|-
     |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Contains}.md>) |bool| Contains a given item?
     |       | [`.Equals`](<../Any 🧠 holders/Equals ⓕ any.md>)   |bool| Has these items in this order?
-    |       | [`.Differs`](<../Any 🧠 holders/.Differs 🔩 any.md>)  |bool| Does not equal this other list?
-    |       | [`.Is`](<../Any 🧠 holders/.Is 🔩 any.md>)       |bool| Has these items in any order?
-    |       | [`.IsNot`](<../Any 🧠 holders/.IsNot 🔩 any.md>)    |bool| Are any of these items missing?
-    |Size   | [`.IsEmpty`](<../Any 🧠 holders/.IsEmpty 🔩 any.md>)  | bool| Is empty?
+    |       | [`.Differs`](<../Any 🧠 holders/Differs ⓕ any.md>)  |bool| Does not equal this other list?
+    |       | [`.Is`](<../Any 🧠 holders/Is ⓕ any.md>)       |bool| Has these items in any order?
+    |       | [`.IsNot`](<../Any 🧠 holders/IsNot ⓕ any.md>)    |bool| Are any of these items missing?
+    |Size   | [`.IsEmpty`](<../Any 🧠 holders/IsEmpty ⓕ any.md>)  | bool| Is empty?
     |       | [`.IsOne`](<IsOne ⓕ list.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<AreMany ⓕ list.md>)  | bool| Has more than one item?
     |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
@@ -47,7 +47,7 @@
     |Change | [`.Append`][.Append]     |[list][list]| Add items to the list
     |       | [`.Add`](<../Any 🧠 holders/Add ⓕ any.md>) |[list][list]| Same as [`.Append`][.Append]
     |       | [`.Remove`][.Remove]   |[list][list]| Remove items from the list
-    |       | [`.Minus`](<../Any 🧠 holders/.Minus 🔩 any.md>) |[list][list]| Same as [`.Remove`][.Remove]
+    |       | [`.Minus`](<../Any 🧠 holders/Minus ⓕ any.md>) |[list][list]| Same as [`.Remove`][.Remove]
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Diff}.md>) |[list][list]| Same as [`.Remove`][.Remove]
     
     
@@ -94,7 +94,7 @@
         - B.IsBetween(20,29)
         - C.IsIn(X,Y)
     ```
-    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../Any 🧠 holders/.IsBetween 🔩 any.md>) [`.IsIn`](<../Any 🧠 holders/.IsIn 🔩 any.md>)
+    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../Any 🧠 holders/IsBetween ⓕ any.md>) [`.IsIn`](<../Any 🧠 holders/IsIn ⓕ any.md>)
 
     ---
     <br/>

@@ -80,7 +80,7 @@
 
 1. **What are examples of .IsIn for times?**
 
-    For times, the behavior is the same as [`.IsBetween`](<.IsBetween 🔩 any.md>) - i.e., only two values are required in the input list: the lower end and the upper end.
+    For times, the behavior is the same as [`.IsBetween`](<IsBetween ⓕ any.md>) - i.e., only two values are required in the input list: the lower end and the upper end.
 
     Value  | List |Result
     |-|-|-
