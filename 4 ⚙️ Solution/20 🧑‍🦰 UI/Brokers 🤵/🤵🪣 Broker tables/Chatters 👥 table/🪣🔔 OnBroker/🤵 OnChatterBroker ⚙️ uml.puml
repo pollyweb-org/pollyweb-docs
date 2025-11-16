@@ -1,0 +1,24 @@
+@startuml OnChatterBroker
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Chatters 🪣" as table
+    participant "OnBroker 📃" as handler
+end box
+
+participant "Wallet 👱" as wallet
+
+activate script
+    script -> table: SAVE 💾 {BROKER}
+
+activate table
+    table --> handler: BROKER 🔔
+deactivate table
+
+activate handler
+    handler --> wallet: INFO ℹ️ {Reason}
+    handler --> wallet: INFO ℹ️ {Shared binds}
+    handler --> wallet: INFO ℹ️ {Shared tokens}
+deactivate handler
+
+@enduml

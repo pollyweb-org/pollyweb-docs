@@ -1,0 +1,27 @@
+@startuml OnChatterHost
+
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Chatters 🪣" as table
+    participant "OnHost 📃" as handler
+end box
+
+participant "Host 🤲" as host
+
+
+
+activate script
+    script -> table: SAVE 💾 {HOST}
+
+
+activate table
+    table --> handler: HOST 🔔
+deactivate table
+
+activate handler
+    handler --> host: SEND 📬 {Hello 🐌}
+deactivate handler
+
+@enduml
