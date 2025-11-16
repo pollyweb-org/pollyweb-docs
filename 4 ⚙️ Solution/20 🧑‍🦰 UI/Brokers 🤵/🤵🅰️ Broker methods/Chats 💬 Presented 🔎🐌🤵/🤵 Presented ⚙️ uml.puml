@@ -6,17 +6,17 @@ participant "Finder 🔎" as finder
 box "Broker 🤵 domain"  #FFFFFA
     participant "Presented@ 📃" as broker
     participant "Chats 🪣" as chats
-    participant "Binds 🪣" as binds
-    participant "Tokens 🪣" as tokens
+    'participant "Binds 🪣" as binds
+    'participant "Tokens 🪣" as tokens
 end box
 
 'box "User Interface (UI)"  #FFFFFF
-  participant "Wallet 👱" as wallet
-'  participant "Notifier 📣\nbff" as notifier
+'participant "Wallet 👱" as wallet
+'participant "Notifier 📣\nbff" as notifier
 'end box
 
 'participant "Printer 🖨️\nsupplier" as printer
-participant "Host 🤗" as host
+'participant "Host 🤗" as host
     
 
 activate finder
@@ -24,12 +24,8 @@ activate finder
 deactivate finder
 
 activate broker
-    broker -> chats: READ
-    broker -> binds: 
-    broker -> tokens: 
-    broker --> wallet: INFO ⓘ {origin}
-    broker --> wallet: INFO ⓘ {tokens}
-    broker --> host: SEND 🐌 Hello 
+    broker -> chats: READ 🧲 
+    broker -> chats: SAVE 💾 {PRESENTED}
 deactivate broker
 
 
