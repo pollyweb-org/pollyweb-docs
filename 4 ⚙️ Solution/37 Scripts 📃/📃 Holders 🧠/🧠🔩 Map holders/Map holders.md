@@ -37,15 +37,15 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Type | Details 
     |-|-|-|-
-    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>) | bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
-    |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/🔩 {.IsNotEmpty}.md>) | bool | Does it contain a map?
+    | Assess| [`.IsEmpty`](<../🧠🔩 Any holders/any.IsEmpty2 🔩 ext.md>) | bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
+    |       | [`.IsNotEmpty`](<../🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | bool | Does it contain a map?
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | bool | Is it the same map meaning?
     |       | [`.IsNot`](<../🧠🔩 Any holders/🔩 {.IsNot}.md>) | bool | Is it a different meaning?
     |       | [`.Equals`](<../🧠🔩 Any holders/🔩 {.Equals}.md>) | bool | Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) 
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | bool | Same as [`.IsNot`](<../🧠🔩 Any holders/🔩 {.IsNot}.md>)
     |Read | [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) | [map][map] | Return a pair with a given key
     || [`.Keys`](<map.Keys 🔩 ext.md>) | [list](<../🧠🔩 List holders/List holders.md>)  |Return all pair keys as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
-    || [`.Value`](<../🧠🔩 Any holders/Any.Value 🔩 ext.md>) | any | Return the value of a given key
+    || [`.Value`](<../🧠🔩 Any holders/any.Value2 🔩 ext.md>) | any | Return the value of a given key
     || [`.Values`](<map.Values 🔩 ext.md>) | [list](<../🧠🔩 List holders/List holders.md>) | Return all pair values as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
     |Change | [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>) |[map][map]|  Change or add one or more pairs
     ||[`.Add`](<../🧠🔩 Any holders/🔩 {.Add}.md>) | [map][map] | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)

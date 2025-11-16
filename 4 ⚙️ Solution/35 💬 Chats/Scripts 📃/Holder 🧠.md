@@ -36,8 +36,8 @@
 
     | [{Function} 🐍](<Function 🐍.md>) | Purpose
     |-|-|
-    | [`.IsEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>) | Is it empty?
-    | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsNotEmpty}.md>) | Is not empty?
+    | [`.IsEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.IsEmpty2 🔩 ext.md>) | Is it empty?
+    | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/any.IsNotEmpty 🔩 ext.md>) | Is not empty?
     | [`.Equals`](<../../37 Scripts 📃/📃 Holders 🧠/🧠🔩 Any holders/🔩 {.Equals}.md>) | Is it the same content?
     | [`.Differs`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | Is it a different content?
     | [`.Is`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Is}.md>) | Is it the same meaning?

@@ -13,7 +13,7 @@
 
     Inputs|Details | Example
     |-|-|-|
-    |`$list`| [List 🧠](<../../📃 Holders 🧠/🧠🔩 List holders/List holders.md>) of values | `[1,2,3]`
+    |`$list`| [List 🧠](<List holders.md>) of values | `[1,2,3]`
     |`order`| Order of values, defaults to `+` | `+` `-`
     
 
