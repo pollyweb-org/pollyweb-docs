@@ -45,7 +45,7 @@
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Differs}.md>) | bool | Same as [`.IsNot`](<../🧠🔩 Any holders/🔩 {.IsNot}.md>)
     |Read | [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Key}.md>) | [map][map] | Return a pair with a given key
     || [`.Keys`](<Map.Keys 🔩 ext.md>) | [list](<../🧠🔩 List holders/List holders.md>)  |Return all pair keys as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
-    || [`.Value`](<../🧠🔩 Any holders/🔩 {.Value}.md>) | any | Return the value of a given key
+    || [`.Value`](<../🧠🔩 Any holders/Any.Value 🔩 ext.md>) | any | Return the value of a given key
     || [`.Values`](<Map.Values 🔩 ext.md>) | [list](<../🧠🔩 List holders/List holders.md>) | Return all pair values as a [List 🧠](<../🧠🔩 List holders/List holders.md>)
     |Change | [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>) |[map][map]|  Change or add one or more pairs
     ||[`.Add`](<../🧠🔩 Any holders/🔩 {.Add}.md>) | [map][map] | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Set}.md>)
