@@ -28,11 +28,11 @@
     |       | [`.IsIn`](<../🧠🔩 Any holders/.IsIn 🔩 any.md>)       |bool| Is it in a given [Period 🧠 holder](<../🧠 Output holders/Period holders.md>)?
     |Assess   | [`.IsEmpty`](<../🧠🔩 Any holders/.IsEmpty 🔩 any.md>) |bool| Is it empty, i.e. no time given?
     |         | [`.IsNotEmpty`](<../🧠🔩 Any holders/.IsNotEmpty 🔩 any.md>) |bool| Is it not empty?
-    |Change | [`.Advance`](<.Advance 🔩 time.md>) |[time](< Time holders.md>)| What if we add time?
-    |       | [`.Add`](<../🧠🔩 Any holders/.Add 🔩 any.md>) |[time](< Time holders.md>)| Same as [`.Advance`](<.Advance 🔩 time.md>)Time 🧠 functions/🔩 .Advance.md
-    |       | [`.Plus`](<../🧠🔩 Any holders/.Plus 🔩 any.md>) |[time](< Time holders.md>)| Same as [`.Advance`](<.Advance 🔩 time.md>)Time 🧠 functions/🔩 .Advance.md
-    |       | [`.GoBack`](<.GoBack 🔩 time.md>) |[time](< Time holders.md>)| What if we remove time?
-    |       | [`.Minus`](<../🧠🔩 Any holders/.Minus 🔩 any.md>)|[time](< Time holders.md>)| Same as [`.GoBack`](<.GoBack 🔩 time.md>)Time 🧠 functions/🔩 .GoBack.md
+    |Change | [`.Advance`](<{.Advance} time.md>) |[time](< Time holders.md>)| What if we add time?
+    |       | [`.Add`](<../🧠🔩 Any holders/.Add 🔩 any.md>) |[time](< Time holders.md>)| Same as [`.Advance`](<{.Advance} time.md>)Time 🧠 functions/🔩 .Advance.md
+    |       | [`.Plus`](<../🧠🔩 Any holders/.Plus 🔩 any.md>) |[time](< Time holders.md>)| Same as [`.Advance`](<{.Advance} time.md>)Time 🧠 functions/🔩 .Advance.md
+    |       | [`.GoBack`](<{.GoBack} time.md>) |[time](< Time holders.md>)| What if we remove time?
+    |       | [`.Minus`](<../🧠🔩 Any holders/.Minus 🔩 any.md>)|[time](< Time holders.md>)| Same as [`.GoBack`](<{.GoBack} time.md>)Time 🧠 functions/🔩 .GoBack.md
   
 
     ---
