@@ -69,7 +69,7 @@
                 New.Status: NEW_STATUS
                 Old.Status: OLD_STATUS
     ```
-    Uses: [`.IsAbove`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAbove}.md>) [`.Now`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Now}.md>)
+    Uses: [`.IsAbove`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsAbove}.md>) [`.Now`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍🧠 Time functions/🔩 {.Now}.md>)
 
     ---
     <br/>
