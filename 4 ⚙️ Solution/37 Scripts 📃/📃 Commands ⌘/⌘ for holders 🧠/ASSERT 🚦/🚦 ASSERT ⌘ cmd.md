@@ -69,7 +69,7 @@
 
 1. **What's the syntax for boolean assertions?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 {.Evaluate}.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Evaluate}.md>) syntax.
 
     ```yaml
     ASSERT|$object:
@@ -88,7 +88,7 @@
 
     > **Note** 
     * If `AllOf`, `AnyOf`, or `OneOf` are set, 
-    * then [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>) will only be called if [`.IsNotEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>), 
+    * then [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>) will only be called if [`.IsNotEmpty`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsNotEmpty}.md>), 
     * to allow optional inputs to be validated only if they have an assigned value.
 
 
@@ -145,7 +145,7 @@
     > Note
     * The [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/asserts/🔩 Assert.md>) of `C.IsIn(X,Y)` returns `False` because the property `C` doesn't event exist in the third list item.
     * However, that doesn't break the overall assertion.
-    * This is because `AllOf` is set, and it doesn't include `C`, allowing `C` to be asserted only when [`.IsNotEmpty`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.IsNotEmpty}.md>).
+    * This is because `AllOf` is set, and it doesn't include `C`, allowing `C` to be asserted only when [`.IsNotEmpty`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsNotEmpty}.md>).
 
     ---
     <br/>

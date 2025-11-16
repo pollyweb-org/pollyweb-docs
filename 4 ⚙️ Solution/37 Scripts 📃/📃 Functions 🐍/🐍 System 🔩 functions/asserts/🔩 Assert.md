@@ -33,7 +33,7 @@
 
     |Assertion|Example|Behavior
     |-|-|-
-    |[`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `$h` | Returns [`.IsNotEmpty`](<../🔩 {.IsNotEmpty}.md>)
+    |[`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `$h` | Returns [`.IsNotEmpty`](<../../../📃 Holders 🧠/🧠🔩 Any holders/🔩 {.IsNotEmpty}.md>)
     |[`.Function`](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)`(`[`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)`)`| `.Is($h,7)` | Returns the function result
     | [`$holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)`.`[`Function`](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | `$h.Is(7)` | Returns `False` if [`.IsEmpty`](<../../../📃 Holders 🧠/🧠🔩 Any holders/Any.IsEmpty 🔩 ext.md>)
     ||| Otherwise the [function](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) result 
