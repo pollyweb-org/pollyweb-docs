@@ -44,7 +44,7 @@
 
     |Value | Lower | Upper 
     |-|-|-
-    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>) | `$starts` | `$expires` 
+    [`.Now`](<../Time 📚 holders/Now ⓕ.md>) | `$starts` | `$expires` 
     
     ---
     <br/>

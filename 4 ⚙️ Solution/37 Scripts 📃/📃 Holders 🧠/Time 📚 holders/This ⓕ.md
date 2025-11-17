@@ -1,15 +1,15 @@
 # 😃🔩 Talker `{.This}` function
 
-> Part of [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 ## FAQ
 
 1. **What is the .This function?**
 
     `{.This}` 
-    * is a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns a [Period 🧠 holder](<../../../📃 Holders 🧠/🧠 Output holders/Period holders.md>)
-    * to be used with the [`.IsIn` function](<../../../📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>).
+    * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
+    * that returns a [Period 🧠 holder](<../🧠 Output holders/Period holders.md>)
+    * to be used with the [`.IsIn` function](<../Any 📚 holders/IsIn ⓕ any.md>).
 
     ---
     <br/>
@@ -43,14 +43,14 @@
 
 1. **How to use .This in a Script?**
 
-    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that asserts if a date is from the current year.
+    Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that asserts if a date is from the current year.
 
     ```yaml
     📃 Example:
     - ASSERT:
         $date.IsIn(.This(year))
     ```
-    Uses: [`ASSERT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)  [`.IsIn`](<../../../📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>)
+    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)  [`.IsIn`](<../Any 📚 holders/IsIn ⓕ any.md>)
 
     ---
     <br/>

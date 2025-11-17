@@ -1,6 +1,6 @@
 # 😃🔩 Talker `{.Previous}` function
 
-> Part of [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 
 ## FAQ
@@ -8,9 +8,9 @@
 1. **What is the .Previous function?**
 
     `{.Previous}` 
-    * is a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
+    * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * similar to [`.This`](<This ⓕ.md>)
-    * that returns a [Period 🧠 holder](<../../../📃 Holders 🧠/🧠 Output holders/Period holders.md>)
+    * that returns a [Period 🧠 holder](<../🧠 Output holders/Period holders.md>)
     * representing the previous period relative to [`.Now`](<Now ⓕ.md>).
 
 
@@ -52,13 +52,13 @@
 
 1. **How to use .Previous in Scripts?**
 
-    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) 
+    Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) 
     ```yaml
     📃 Example
     - ASSERT:
         - $date.IsIn(.Previous(month))
     ```
-    Uses: [`.IsIn`](<../../../📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>)
+    Uses: [`.IsIn`](<../Any 📚 holders/IsIn ⓕ any.md>)
 
     ---
     <br/>

@@ -29,6 +29,6 @@
     | `3.Minus(1)`| `2` | `3`[`.Sum`](<../Num 📚 holders/Sum ⓕ num.md>)`(-1)`  | -
     | `ABAC.Minus(A)` | `BC` | `ABCD`[`.Remove`](<Remove ⓕ.md>)`(A)`
     | `[A,B,A,C].Minus(A)` | `[B,C]` | `[A,B,C,D]`[`.Remove`](<Remove ⓕ.md>)`(A)`
-    | [`.Today`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Today ⓕ.md>)`.Minus(1 month)` | A month ago | [`.Today`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Today ⓕ.md>)[`.GoBack`](<../Time 📚 holders/GoBack ⓕ time.md>)`(1 month ago)`
-    | [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>)`.Minus(1 hour)` | An hour ago | [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>)[`.GoBack`](<../Time 📚 holders/GoBack ⓕ time.md>)`(1 hour ago)`
+    | [`.Today`](<../Time 📚 holders/Today ⓕ.md>)`.Minus(1 month)` | A month ago | [`.Today`](<../Time 📚 holders/Today ⓕ.md>)[`.GoBack`](<../Time 📚 holders/GoBack ⓕ time.md>)`(1 month ago)`
+    | [`.Now`](<../Time 📚 holders/Now ⓕ.md>)`.Minus(1 hour)` | An hour ago | [`.Now`](<../Time 📚 holders/Now ⓕ.md>)[`.GoBack`](<../Time 📚 holders/GoBack ⓕ time.md>)`(1 hour ago)`
     |

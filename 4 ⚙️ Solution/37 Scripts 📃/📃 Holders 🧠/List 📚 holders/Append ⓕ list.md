@@ -10,7 +10,7 @@
 1. **What's the syntax of list.Append?**
 
     ```yaml
-    .Append($list, appendixes...)
+    $list.Append(appendixes...)
     ```
 
     Input | Purpose | Example

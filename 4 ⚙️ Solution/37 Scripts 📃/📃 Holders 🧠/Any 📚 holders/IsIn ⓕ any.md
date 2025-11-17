@@ -84,9 +84,9 @@
 
     Value  | List |Result
     |-|-|-
-    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>) | [`.This`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/This ⓕ.md>)`(year)` | ✅ True
-    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>)| [`.Last`](<Last ⓕ.md>)`(year)` | ✅ True
-    [`.Now`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>)| [`.Previous`](<../../📃 Functions 🐍/🐍 System 🔩 functions/time/Previous ⓕ.md>)`(day)`| ❌ False
+    [`.Now`](<../Time 📚 holders/Now ⓕ.md>) | [`.This`](<../Time 📚 holders/This ⓕ.md>)`(year)` | ✅ True
+    [`.Now`](<../Time 📚 holders/Now ⓕ.md>)| [`.Last`](<Last ⓕ.md>)`(year)` | ✅ True
+    [`.Now`](<../Time 📚 holders/Now ⓕ.md>)| [`.Previous`](<../Time 📚 holders/Previous ⓕ.md>)`(day)`| ❌ False
     
     
     ---

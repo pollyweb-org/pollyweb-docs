@@ -25,7 +25,7 @@
     ||[`.Last`](<../Any 📚 holders/Last ⓕ.md>) | [set][set], [map][map] | Return the last `n` [Maps 🧠][map] with [`.Filter`][.Filter]
     ||[`.Filter`][.Filter] | [set][set] | Return [Maps 🧠][map] that match a given filter
     ||[`.Where`](<Where ⓕ set.md>) | [set][set] | Equals [`.Filter`][.Filter]
-    |Merge| [`.Cross`](<../../📃 Functions 🐍/🐍 System 🔩 functions/sets/Cross ⓕ.md>) | [set][set] | Cross multiple [Set 🧠 holders][set]
+    |Merge| [`.Cross`](<Cross ⓕ.md>) | [set][set] | Cross multiple [Set 🧠 holders][set]
     |Change | [`Set.Sort`](<Sort ⓕ set.md>) | [set][set] | Sort [Maps 🧠][map] by key
     || [`.Format`](<Format ⓕ set.md>) | [set][set] | Select and rename [Map 🧠][map] keys
     ||[`.Append`][.Append]     |[set][set]| Add items to the list
