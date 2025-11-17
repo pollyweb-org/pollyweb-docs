@@ -51,7 +51,12 @@ def _replace_simple(md_files: Iterable[str], pattern: re.Pattern[str], replaceme
         except Exception:
             continue
 
-        # collect spans of existing markdown links so we can skip matches
+        if "{{" not in content:
+            continue
+
+        if not pattern.search(content):
+            continue
+
         link_spans: list[tuple[int, int]] = [m.span() for m in link_pattern.finditer(content)]
 
         def inside_link(pos: int) -> bool:
