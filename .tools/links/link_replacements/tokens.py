@@ -5,6 +5,7 @@ from __future__ import annotations
 import os
 import re
 from pathlib import Path
+from threading import RLock
 from typing import Callable, Dict, Iterable, Optional
 
 from broken_links.common import normalize_string
@@ -14,13 +15,23 @@ from .mentions import find_dynamic_target, format_dynamic_link_text
 HARDCODED_HANDLERS: Dict[str, Dict[str, object]] = {}
 TRIPLE_BRACE_PATTERN = re.compile(r"\{\{\{([^{}]+)\}\}\}")
 
-_SIMPLE_CONTENT_CACHE: Dict[str, str] = {}
+_SIMPLE_CONTENT_CACHE: Dict[str, Dict[str, object]] = {}
+_SIMPLE_CACHE_LOCK = RLock()
+LINK_PATTERN = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
+PATTERN_NEEDLES: Dict[int, str] = {}
+TOKEN_LITERAL_EXTRACT = re.compile(r"`\??([^`]+)`\??")
+
+
+def _register_literal_pattern(pattern: re.Pattern[str], token_literal: str) -> re.Pattern[str]:
+    PATTERN_NEEDLES[id(pattern)] = token_literal
+    return pattern
 
 
 def clear_simple_replacer_cache() -> None:
     """Reset cached file contents used by simple token replacers."""
 
-    _SIMPLE_CONTENT_CACHE.clear()
+    with _SIMPLE_CACHE_LOCK:
+        _SIMPLE_CONTENT_CACHE.clear()
 
 
 def register_hardcoded(
@@ -42,67 +53,104 @@ def register_hardcoded(
     return decorator
 
 
-def _read_cached_content(path: Path) -> Optional[str]:
+def _get_cached_entry(path: Path) -> Optional[Dict[str, object]]:
     key = str(path)
+    with _SIMPLE_CACHE_LOCK:
+        entry = _SIMPLE_CONTENT_CACHE.get(key)
+    if entry is not None:
+        return entry
+
     try:
-        return _SIMPLE_CONTENT_CACHE[key]
-    except KeyError:
-        try:
-            text = path.read_text(encoding="utf-8")
-        except Exception:
-            return None
-        _SIMPLE_CONTENT_CACHE[key] = text
-        return text
+        text = path.read_text(encoding="utf-8")
+    except Exception:
+        return None
+
+    entry = {"content": text, "link_spans": None, "lower": None}
+    with _SIMPLE_CACHE_LOCK:
+        _SIMPLE_CONTENT_CACHE[key] = entry
+    return entry
 
 
-def _replace_simple(md_files: Iterable[str], pattern: re.Pattern[str], replacement: str) -> int:
-    """Replace occurrences of pattern with replacement, but skip matches
-    that are already inside existing markdown links (e.g. [text](<...>)).
+def _replace_simple(
+    md_files: Iterable[str],
+    pattern: re.Pattern[str],
+    replacement: str,
+    *,
+    needle: Optional[str] = None,
+) -> int:
+    """Replace occurrences of pattern with replacement while respecting existing links."""
 
-    This prevents nested or malformed links when multiple replacement
-    passes run over the same files.
-    """
     total = 0
-    link_pattern = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
-
     for md_file in md_files:
         path = Path(md_file)
-        content = _read_cached_content(path)
-        if content is None:
+        entry = _get_cached_entry(path)
+        if entry is None:
             continue
 
-        if "{{" not in content:
+        content = entry.get("content")
+        if not isinstance(content, str) or "{{" not in content:
             continue
+
+        if needle is None:
+            needle = PATTERN_NEEDLES.get(id(pattern))
+            if needle is None:
+                match = TOKEN_LITERAL_EXTRACT.search(pattern.pattern)
+                if match:
+                    candidate = match.group(1)
+                    needle = re.sub(r"\\(.)", r"\1", candidate)
+                    PATTERN_NEEDLES[id(pattern)] = needle
+
+        if needle:
+            if needle in content:
+                pass
+            else:
+                lower = entry.get("lower")
+                if lower is None:
+                    lower = content.lower()
+                    entry["lower"] = lower
+                if needle.lower() not in lower:
+                    continue
 
         if not pattern.search(content):
             continue
 
-        link_spans: list[tuple[int, int]] = [m.span() for m in link_pattern.finditer(content)]
-
-        def inside_link(pos: int) -> bool:
-            for a, b in link_spans:
-                if a <= pos < b:
-                    return True
-            return False
+        link_spans = entry.get("link_spans")
+        if link_spans is None:
+            link_spans = [m.span() for m in LINK_PATTERN.finditer(content)]
+            entry["link_spans"] = link_spans
 
         changes = 0
 
-        def _repl(m: re.Match[str]) -> str:
-            nonlocal changes
-            if inside_link(m.start()):
-                return m.group(0)
-            changes += 1
-            return replacement
+        if link_spans:
+            spans = tuple(link_spans)
+
+            def _repl(m: re.Match[str]) -> str:
+                nonlocal changes
+                pos = m.start()
+                for a, b in spans:
+                    if a <= pos < b:
+                        return m.group(0)
+                changes += 1
+                return replacement
+        else:
+            def _repl(m: re.Match[str]) -> str:
+                nonlocal changes
+                changes += 1
+                return replacement
 
         new_content = pattern.sub(_repl, content)
+        if not changes:
+            continue
 
-        if changes:
-            try:
-                path.write_text(new_content, encoding="utf-8")
-            except Exception:
-                continue
-            _SIMPLE_CONTENT_CACHE[str(path)] = new_content
-            total += changes
+        try:
+            path.write_text(new_content, encoding="utf-8")
+        except Exception:
+            continue
+
+        entry["content"] = new_content
+        entry["link_spans"] = None
+        entry["lower"] = None
+        total += changes
 
     return total
 
@@ -111,7 +159,9 @@ def _simple_pattern_for(token_literal: str) -> re.Pattern[str]:
     """Build a simple regex pattern matching {{ `Token` }} variants for a token literal."""
 
     pattern = rf"\{{\{{[\s\u00A0\u200B\u200C\u200D]*`?{re.escape(token_literal)}`?[\s\u00A0\u200B\u200C\u200D]*\}}\}}"
-    return re.compile(pattern, re.IGNORECASE)
+    compiled = re.compile(pattern, re.IGNORECASE)
+    PATTERN_NEEDLES[id(compiled)] = token_literal
+    return compiled
 
 
 def _make_hardcoded_replacer(func_name: str, token_literal: str, token_key: str, replacement: str, token_label: str):
@@ -124,7 +174,7 @@ def _make_hardcoded_replacer(func_name: str, token_literal: str, token_key: str,
     pattern = _simple_pattern_for(token_literal)
 
     def replacer(md_files: Iterable[str]) -> int:
-        return _replace_simple(md_files, pattern, replacement)
+        return _replace_simple(md_files, pattern, replacement, needle=token_literal)
 
     replacer.__name__ = func_name
     globals()[func_name] = replacer
@@ -157,44 +207,44 @@ WALLETS_REPLACEMENT = "[Wallet 🧑‍🦰 apps](<🧑‍🦰 Wallet 🛠️ app
 
 @register_hardcoded("placeholder", replacement=PLACEHOLDER_REPLACEMENT, token_label="Placeholder")
 def replace_placeholder_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Placeholder`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Placeholder")
     return _replace_simple(md_files, pattern, PLACEHOLDER_REPLACEMENT)
 
 
 @register_hardcoded("holder", replacement=HOLDER_REPLACEMENT, token_label="Holder")
 def replace_holder_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Holder`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Holder")
     return _replace_simple(md_files, pattern, HOLDER_REPLACEMENT)
 
 
 def replace_msg_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?\$\.Msg`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("$.Msg")
     # Use the holder file for $.Msg (emoji then token then '🧠 holder')
     replacement = "[`$.Msg` 🧠 holder](<📨 $.Msg 🧠 holder.md>)"
-    return _replace_simple(md_files, pattern, replacement)
+    return _replace_simple(md_files, pattern, replacement, needle="$.Msg")
 
 
 @register_hardcoded("hosts", replacement=HOSTS_REPLACEMENT, token_label="Hosts")
 def replace_hosts_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hosts`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Hosts")
     return _replace_simple(md_files, pattern, HOSTS_REPLACEMENT)
 
 
 @register_hardcoded("host", replacement=HOST_REPLACEMENT, token_label="Host")
 def replace_host_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Host`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Host")
     return _replace_simple(md_files, pattern, HOST_REPLACEMENT)
 
 
 @register_hardcoded("hosted", replacement='[Hosted 📦 domain](<📦👥 Hosted domain.md>)', token_label="Hosted")
 def replace_hosted_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hosted`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Hosted")
     return _replace_simple(md_files, pattern, '[Hosted 📦 domain](<📦👥 Hosted domain.md>)')
 
 
 @register_hardcoded("hosteds", replacement='[Hosted 📦 domains](<📦👥 Hosted domain.md>)', token_label="Hosteds")
 def replace_hosteds_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hosteds`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Hosteds")
     return _replace_simple(md_files, pattern, '[Hosted 📦 domains](<📦👥 Hosted domain.md>)')
 
 
@@ -202,19 +252,19 @@ def replace_hosteds_tokens(md_files):
 TRUST_REPLACEMENT = "[Trust 🫡](<🫡 Domain Trust.md>)"
 @register_hardcoded("trust", replacement=TRUST_REPLACEMENT, token_label="Trust")
 def replace_trust_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Trust`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Trust")
     return _replace_simple(md_files, pattern, TRUST_REPLACEMENT)
 
 
 @register_hardcoded("trusted", replacement='[Trusted 🫡](<🫡 Domain Trust.md>)', token_label="Trusted")
 def replace_trusted_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Trusted`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Trusted")
     return _replace_simple(md_files, pattern, '[Trusted 🫡](<🫡 Domain Trust.md>)')
 
 
 @register_hardcoded("holders", replacement='[Holders 🧠](<Holder 🧠.md>)', token_label="Holders")
 def replace_holders_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Holders`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Holders")
     return _replace_simple(md_files, pattern, '[Holders 🧠](<Holder 🧠.md>)')
 
 
@@ -222,13 +272,13 @@ def replace_holders_tokens(md_files):
 HELPER_REPLACEMENT = "[Helper 🤲 domain](<🤲👥 Helper domain.md>)"
 @register_hardcoded("helper", replacement=HELPER_REPLACEMENT, token_label="Helper")
 def replace_helper_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Helper`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Helper")
     return _replace_simple(md_files, pattern, HELPER_REPLACEMENT)
 
 
 @register_hardcoded("helpers", replacement='[Helper 🤲 domains](<🤲👥 Helper domain.md>)', token_label="Helpers")
 def replace_helpers_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Helpers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Helpers")
     return _replace_simple(md_files, pattern, '[Helper 🤲 domains](<🤲👥 Helper domain.md>)')
 
 
@@ -236,13 +286,13 @@ def replace_helpers_tokens(md_files):
 HOSTER_REPLACEMENT = "[Hoster ☁️ helper domain](<☁️🤲 Hoster helper.md>)"
 @register_hardcoded("hoster", replacement=HOSTER_REPLACEMENT, token_label="Hoster")
 def replace_hoster_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hoster`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Hoster")
     return _replace_simple(md_files, pattern, HOSTER_REPLACEMENT)
 
 
 @register_hardcoded("hosters", replacement='[Hoster ☁️ helper domains](<☁️🤲 Hoster helper.md>)', token_label="Hosters")
 def replace_hosters_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Hosters`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Hosters")
     return _replace_simple(md_files, pattern, '[Hoster ☁️ helper domains](<☁️🤲 Hoster helper.md>)')
 
 
@@ -250,13 +300,13 @@ def replace_hosters_tokens(md_files):
 TALKER_REPLACEMENT = "[Talker 😃 helper domain](<😃🤲 Talker helper.md>)"
 @register_hardcoded("talker", replacement=TALKER_REPLACEMENT, token_label="Talker")
 def replace_talker_helper_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Talker`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Talker")
     return _replace_simple(md_files, pattern, TALKER_REPLACEMENT)
 
 
 @register_hardcoded("talkers", replacement='[Talker 😃 helper domains](<😃🤲 Talker helper.md>)', token_label="Talkers")
 def replace_talkers_helper_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Talkers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Talkers")
     return _replace_simple(md_files, pattern, '[Talker 😃 helper domains](<😃🤲 Talker helper.md>)')
 
 
@@ -264,13 +314,13 @@ def replace_talkers_helper_tokens(md_files):
 FINDER_REPLACEMENT = "[Finder 🔎 domain](<🔎 Finder 🫥 agent.md>)"
 @register_hardcoded("finder", replacement=FINDER_REPLACEMENT, token_label="Finder")
 def replace_finder_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Finder`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Finder")
     return _replace_simple(md_files, pattern, FINDER_REPLACEMENT)
 
 
 @register_hardcoded("finders", replacement='[Finder 🔎 domains](<🔎 Finder 🫥 agent.md>)', token_label="Finders")
 def replace_finders_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Finders`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Finders")
     return _replace_simple(md_files, pattern, '[Finder 🔎 domains](<🔎 Finder 🫥 agent.md>)')
 
 
@@ -278,13 +328,13 @@ def replace_finders_tokens(md_files):
 ROLE_REPLACEMENT = "[Role 🎭](<👥🎭 Domain Role.md>)"
 @register_hardcoded("role", replacement=ROLE_REPLACEMENT, token_label="Role")
 def replace_role_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Role`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Role")
     return _replace_simple(md_files, pattern, ROLE_REPLACEMENT)
 
 
 @register_hardcoded("roles", replacement='[Roles 🎭](<👥🎭 Domain Role.md>)', token_label="Roles")
 def replace_roles_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Roles`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Roles")
     return _replace_simple(md_files, pattern, '[Roles 🎭](<👥🎭 Domain Role.md>)')
 
 
@@ -292,13 +342,13 @@ def replace_roles_tokens(md_files):
 ASYNC_MESSAGES_REPLACEMENT = "[Async Messages 🐌](<Async Messages 🐌.md>)"
 @register_hardcoded("asyncmessages", replacement=ASYNC_MESSAGES_REPLACEMENT, token_label="Async Messages")
 def replace_async_messages_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Async Messages`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Async Messages")
     return _replace_simple(md_files, pattern, ASYNC_MESSAGES_REPLACEMENT)
 
 
 @register_hardcoded("asyncmessage", replacement='[Async Message 🐌](<Async Messages 🐌.md>)', token_label="Async Message")
 def replace_async_message_token(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Async Message`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    pattern = _simple_pattern_for("Async Message")
     return _replace_simple(md_files, pattern, '[Async Message 🐌](<Async Messages 🐌.md>)')
 
 
