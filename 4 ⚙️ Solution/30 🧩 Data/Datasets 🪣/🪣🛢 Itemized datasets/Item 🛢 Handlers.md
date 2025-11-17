@@ -42,7 +42,7 @@
     |-|-|-
     | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to handle | `MyHandler`
     | `[events]` | Events to handle | `INSERTED, WIPED`
-    | `{asserts}` | Filter events with [`.Assert`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/assert/Assert ⓕ.md>) |
+    | `{asserts}` | Filter events with [`.Assert`](<../../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/Assert ⓕ.md>) |
     |           | on the latest version of the item | `Item.A`
     |           | on the new property versions | `New.A`
     |           | and on old property versions | `Old.A`
@@ -69,7 +69,7 @@
                 New.Status: NEW_STATUS
                 Old.Status: OLD_STATUS
     ```
-    Uses: [`.IsAbove`](<../../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsAbove ⓕ any.md>) [`.Now`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/time/Now ⓕ.md>)
+    Uses: [`.IsAbove`](<../../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsAbove ⓕ any.md>) [`.Now`](<../../../37 Scripts 📃/📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>)
 
     ---
     <br/>

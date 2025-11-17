@@ -42,10 +42,10 @@
     | [`.Differs`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Differs ⓕ any.md>) | Is it a different content?
     | [`.Is`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Is ⓕ any.md>) | Is it the same meaning?
     | [`.IsNot`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsNot ⓕ any.md>) | Is it a different meaning?
-    | [`.Assert`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/assert/Assert ⓕ.md>)  | Is the assertion valid?
-    | [`.AllOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/assert/AllOf ⓕ.md>) | Are all assertions valid?
-    | [`.AnyOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/assert/AnyOf ⓕ.md>) | Is any assertion valid?
-    | [`.OneOf`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/assert/OneOf ⓕ.md>) | Is a single assertion valid?
+    | [`.Assert`](<../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/Assert ⓕ.md>)  | Is the assertion valid?
+    | [`.AllOf`](<../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/AllOf ⓕ.md>) | Are all assertions valid?
+    | [`.AnyOf`](<../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/AnyOf ⓕ.md>) | Is any assertion valid?
+    | [`.OneOf`](<../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/OneOf ⓕ.md>) | Is a single assertion valid?
 
     ---
     <br/>

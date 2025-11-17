@@ -17,12 +17,12 @@
 1. **What's the .AreMany syntax?**
 
     ```yaml
-    .AreMany(list)
+    $list.AreMany
     ```
 
     Input | Purpose | Example
     |-|-|-
-    |`list` | [List 🧠 holder](<🧠 List holders.md>) | `$lst`
+    |`$list` | [List 🧠 holder](<🧠 List holders.md>) | `$lst`
 
     ---
     <br/>
