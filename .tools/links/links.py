@@ -1,5 +1,7 @@
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor
+from contextlib import nullcontext
 from pathlib import Path
 from typing import List, Optional, Tuple
 
@@ -22,23 +24,59 @@ from broken_links import (
     print_results,
 )
 from link_replacements import (
+    add_emoji_to_table_rows,
     configure_context,
     find_dynamic_target,
     format_dynamic_link_text,
     find_uppercase_token_target,
-    replace_curly_at_mentions, replace_curly_upper_mentions, add_emoji_to_table_rows,
-    replace_placeholder_tokens, replace_msg_tokens, replace_hosts_tokens, replace_host_tokens,
-    replace_issuer_tokens, replace_issuers_tokens, replace_vaults_tokens, replace_vault_tokens,
-    replace_token_tokens, replace_tokens_tokens, replace_script_tokens, replace_chat_tokens,
-    replace_chats_tokens, replace_command_tokens, replace_commands_tokens, replace_settings_tokens,
-    replace_placeholders_tokens, replace_domain_tokens, replace_domains_tokens, replace_dataset_tokens,
-    replace_datasets_tokens, replace_message_tokens, replace_messages_tokens, replace_schema_tokens,
-    replace_schemas_tokens, replace_chat_msg_tokens, replace_broker_tokens, replace_brokers_tokens, replace_seller_tokens,
-    replace_function_tokens, replace_functions_tokens, replace_scripts_tokens, replace_item_tokens,
-    replace_items_tokens, replace_itemizer_tokens, replace_itemizers_tokens, replace_talker_tokens,
-    replace_talkers_tokens, replace_itemized_dataset_tokens, replace_itemized_datasets_tokens,
-    replace_notifier_tokens, replace_notifiers_tokens, replace_prompt_broker_tokens, replace_dynamic_tokens,
-    replace_triple_brace_tokens
+    replace_bool_tokens, replace_bools_tokens,
+    replace_broker_tokens,
+    replace_brokers_tokens,
+    replace_chat_msg_tokens,
+    replace_chat_tokens,
+    replace_chats_tokens,
+    replace_command_tokens,
+    replace_commands_tokens,
+    replace_curly_at_mentions,
+    replace_curly_upper_mentions,
+    replace_dataset_tokens,
+    replace_datasets_tokens,
+    replace_domain_tokens,
+    replace_domains_tokens,
+    replace_dynamic_tokens,
+    replace_function_tokens,
+    replace_functions_tokens,
+    replace_host_tokens,
+    replace_hosts_tokens,
+    replace_item_tokens,
+    replace_itemizer_tokens,
+    replace_itemizers_tokens,
+    replace_itemized_dataset_tokens,
+    replace_itemized_datasets_tokens,
+    replace_items_tokens,
+    replace_issuer_tokens,
+    replace_issuers_tokens,
+    replace_message_tokens,
+    replace_messages_tokens,
+    replace_msg_tokens,
+    replace_notifier_tokens,
+    replace_notifiers_tokens,
+    replace_placeholder_tokens,
+    replace_placeholders_tokens,
+    replace_prompt_broker_tokens,
+    replace_schema_tokens,
+    replace_schemas_tokens,
+    replace_script_tokens,
+    replace_scripts_tokens,
+    replace_settings_tokens,
+    replace_seller_tokens,
+    replace_talker_tokens,
+    replace_talkers_tokens,
+    replace_token_tokens,
+    replace_tokens_tokens,
+    replace_triple_brace_tokens,
+    replace_vault_tokens,
+    replace_vaults_tokens,
 )
 from link_replacements.tokens import HARDCODED_HANDLERS
 
@@ -63,6 +101,26 @@ AT_IDENTIFIER_STEM_ALIASES: dict[str, list[str]] = {
 
 yes_memory = []
 all_memory = False
+
+
+MAX_PARALLEL_WORKERS = max(1, min(32, (os.cpu_count() or 1)))
+
+
+def _parallel_process(paths: List[str], worker, executor: Optional[ThreadPoolExecutor] = None):
+    if not paths:
+        return []
+    results = []
+    if MAX_PARALLEL_WORKERS <= 1 or executor is None or len(paths) == 1:
+        for path in paths:
+            outcome = worker(path)
+            if outcome:
+                results.append(outcome)
+        return results
+
+    for outcome in executor.map(worker, paths):
+        if outcome:
+            results.append(outcome)
+    return results
 
 
 def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Path]]:
@@ -392,6 +450,8 @@ def apply_replacement_pass(md_files, file_dict):
         (replace_vault_tokens, (), "Replaced {n} {Vault} tokens ✅"),
         (replace_token_tokens, (), "Replaced {n} {Token} tokens ✅"),
         (replace_tokens_tokens, (), "Replaced {n} {Tokens} tokens ✅"),
+        (replace_bool_tokens, (), "Replaced {n} {Bool} tokens ✅"),
+        (replace_bools_tokens, (), "Replaced {n} {Bools} tokens ✅"),
         (replace_chat_tokens, (), "Replaced {n} {Chat} tokens ✅"),
         (replace_chats_tokens, (), "Replaced {n} {Chats} tokens ✅"),
         (replace_command_tokens, (), "Replaced {n} {Command} tokens ✅"),
@@ -747,75 +807,33 @@ def runit(project_directory, entryPoint):
         if not changes and not broken_links and not malformed_links and not replacement_char_hits:
             break
     # As a final targeted pass, ensure holder-style tokens like '{{$.Inputs}}'
-    # from the YAML Successful Tests are actually replaced in files. Some of
-    # the generic replacement helpers may not catch every '$.' pattern, so
-    # perform a deterministic substitution based on the YAML expectations.
+    # from the YAML Successful Tests are actually replaced in files. The work
+    # is done per file to avoid re-reading the same document multiple times and
+    # is parallelised to speed things up on multi-core machines.
+    holder_specs: List[dict[str, object]] = []
     for test in successful_tests:
         raw_given = test['Given']
         token = raw_given.strip('{}')
-        # Only consider the holder-style tokens that start with '$.'
         if not token.startswith('$.'):
             continue
         expected_file = test['LinkFile']
         expected_text = test['LinkText']
-        # build the markdown replacement e.g. "[`$.Inputs` 🧠 holder](<▶️ $.Inputs 🧠 holder.md>)"
         replacement_markdown = f"[{expected_text}](<{expected_file}>)"
-        # match occurrences of {{ $.Inputs }} with optional backticks/spaces
-        pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?" + re.escape(token) + r"`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-        for path in md_files:
-            try:
-                text = Path(path).read_text(encoding='utf-8')
-            except Exception:
-                continue
-            new_text, n = pattern.subn(replacement_markdown, text)
-            if n:
-                Path(path).write_text(new_text, encoding='utf-8')
-                print(f"Auto-replaced {n} occurrences of {token} in {path}")
+        pattern = re.compile(
+            r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?" + re.escape(token) + r"`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
+            re.IGNORECASE,
+        )
+        holder_specs.append({
+            "token": token,
+            "pattern": pattern,
+            "replacement": replacement_markdown,
+        })
 
-    # Additional targeted pass: resolve any remaining holder-style tokens,
-    # including variants like '{{$.Inputs placeholder}}', using the same logic
-    # as compute_expected_replacement to determine the correct link target.
-    holder_token_pattern = re.compile(r"\{\{([^}]+)\}\}")
-    for path in md_files:
-        try:
-            text = Path(path).read_text(encoding='utf-8')
-        except Exception:
-            continue
+    executor_context = (
+        ThreadPoolExecutor(max_workers=MAX_PARALLEL_WORKERS)
+        if MAX_PARALLEL_WORKERS > 1 else nullcontext()
+    )
 
-        def holder_sub(match):
-            inner = match.group(1)
-            stripped = inner.strip()
-            if stripped.startswith('`') and stripped.endswith('`') and len(stripped) > 2:
-                stripped = stripped[1:-1]
-            normalized_token = ' '.join(stripped.split())
-            lowered = normalized_token.lower()
-            if not (normalized_token.startswith('$.') or lowered.endswith(' holders')):
-                return match.group(0)
-
-            result = compute_expected_replacement(normalized_token, f"{{{{{normalized_token}}}}}", md_files, file_dict, project_directory)
-            if not result:
-                return match.group(0)
-            link_text, target_path = result
-            placeholder_suffix = normalized_token.endswith(' placeholder') or normalized_token.endswith(' placeholders')
-            if placeholder_suffix:
-                link_text = f"`{normalized_token}` 🧠 holder"
-            elif normalized_token.startswith('$.') and '🧠' not in link_text:
-                link_text = f"`{normalized_token}` 🧠 holder"
-            try:
-                rel_path = os.path.relpath(target_path, Path(path).parent)
-            except Exception:
-                rel_path = target_path.name
-            return f"[{link_text}](<{rel_path}>)"
-
-        new_text, replacements = holder_token_pattern.subn(holder_sub, text)
-        if replacements:
-            Path(path).write_text(new_text, encoding='utf-8')
-            print(f"Auto-linked {replacements} holder tokens in {path}")
-
-    # Harmonize existing Markdown links so their basenames match the canonical
-    # filenames declared in links.yaml Successful Tests. This catches cases where
-    # files were renamed (emoji changes, etc.) but old links still point to the
-    # previous basename.
     canonical_targets: dict[str, list[Path]] = {}
     for test in successful_tests:
         expected_file = test.get('LinkFile')
@@ -829,47 +847,160 @@ def runit(project_directory, entryPoint):
         canonical_targets.setdefault(normalized_basename, []).extend(matches)
 
     link_target_pattern = re.compile(r"\(<([^>]+)>\)")
-    for path_str in md_files:
-        doc_path = Path(path_str)
-        try:
-            text = doc_path.read_text(encoding='utf-8')
-        except Exception:
-            continue
-
-        def canonicalize_link(match: re.Match[str]) -> str:
-            target_url = match.group(1)
-            basename = os.path.basename(target_url)
-            normalized = normalize_string(os.path.splitext(basename)[0])
-            targets = canonical_targets.get(normalized)
-            if not targets:
-                return match.group(0)
-            if any(target.name == basename for target in targets):
-                return match.group(0)
-            target_path = targets[0]
-            try:
-                rel_path = os.path.relpath(target_path, doc_path.parent)
-            except Exception:
-                rel_path = target_path.name
-            rel_path = rel_path.replace(os.sep, '/')
-            print(f"Retargeted link basename '{basename}' to '{target_path.name}' in {doc_path}")
-            return f"(<{rel_path}>)"
-
-        new_text, replacements = link_target_pattern.subn(canonicalize_link, text)
-        if replacements:
-            doc_path.write_text(new_text, encoding='utf-8')
-
-    # After replacement passes, scan for any remaining unresolved {{...}} tokens and report them
+    holder_token_pattern = re.compile(r"\{\{([^}]+)\}\}")
     token_pattern = re.compile(r"\{\{([^}]+)\}\}")
-    unresolved: dict[str, list[tuple[int, str]]] = {}
-    for path in md_files:
-        try:
-            text = Path(path).read_text(encoding="utf-8")
-        except Exception:
-            continue
-        for m in token_pattern.finditer(text):
-            # compute 1-based line number
-            line = text.count("\n", 0, m.start()) + 1
-            unresolved.setdefault(path, []).append((line, m.group(1)))
+
+    with executor_context as pool:
+        active_pool = pool if isinstance(pool, ThreadPoolExecutor) else None
+
+        if holder_specs:
+            def _replace_holder_tokens(path_str: str):
+                path = Path(path_str)
+                try:
+                    original = path.read_text(encoding='utf-8')
+                except Exception:
+                    return None
+
+                if '{{' not in original:
+                    return None
+
+                updated = original
+                hit_log: List[tuple[str, int]] = []
+                for spec in holder_specs:
+                    updated_candidate, count = spec["pattern"].subn(spec["replacement"], updated)
+                    if count:
+                        hit_log.append((spec["token"], count))
+                    updated = updated_candidate
+
+                if not hit_log:
+                    return None
+
+                if updated != original:
+                    path.write_text(updated, encoding='utf-8')
+                return path_str, hit_log
+
+            holder_results = _parallel_process(md_files, _replace_holder_tokens, active_pool)
+            for path_str, hit_log in holder_results:
+                for token, count in hit_log:
+                    print(f"Auto-replaced {count} occurrences of {token} in {path_str}")
+
+        def _auto_link_holder_tokens(path_str: str):
+            path = Path(path_str)
+            try:
+                text = path.read_text(encoding='utf-8')
+            except Exception:
+                return None
+
+            if '{{' not in text:
+                return None
+
+            def holder_sub(match):
+                inner = match.group(1)
+                stripped = inner.strip()
+                if stripped.startswith('`') and stripped.endswith('`') and len(stripped) > 2:
+                    stripped = stripped[1:-1]
+                normalized_token = ' '.join(stripped.split())
+                lowered = normalized_token.lower()
+                if not (normalized_token.startswith('$.') or lowered.endswith(' holders')):
+                    return match.group(0)
+
+                result = compute_expected_replacement(
+                    normalized_token,
+                    f"{{{{{normalized_token}}}}}",
+                    md_files,
+                    file_dict,
+                    project_directory,
+                )
+                if not result:
+                    return match.group(0)
+                link_text, target_path = result
+                placeholder_suffix = normalized_token.endswith(' placeholder') or normalized_token.endswith(' placeholders')
+                if placeholder_suffix:
+                    link_text = f"`{normalized_token}` 🧠 holder"
+                elif normalized_token.startswith('$.') and '🧠' not in link_text:
+                    link_text = f"`{normalized_token}` 🧠 holder"
+                try:
+                    rel_path = os.path.relpath(target_path, path.parent)
+                except Exception:
+                    rel_path = target_path.name
+                return f"[{link_text}](<{rel_path}>)"
+
+            new_text, replacements = holder_token_pattern.subn(holder_sub, text)
+            if not replacements:
+                return None
+
+            path.write_text(new_text, encoding='utf-8')
+            return path_str, replacements
+
+        auto_link_results = _parallel_process(md_files, _auto_link_holder_tokens, active_pool)
+        for path_str, replacements in auto_link_results:
+            print(f"Auto-linked {replacements} holder tokens in {path_str}")
+
+        def _canonicalize_links(path_str: str):
+            doc_path = Path(path_str)
+            try:
+                text = doc_path.read_text(encoding='utf-8')
+            except Exception:
+                return None
+
+            if '(<' not in text:
+                return None
+
+            messages: List[str] = []
+
+            def canonicalize_link(match: re.Match[str]) -> str:
+                target_url = match.group(1)
+                basename = os.path.basename(target_url)
+                normalized = normalize_string(os.path.splitext(basename)[0])
+                targets = canonical_targets.get(normalized)
+                if not targets:
+                    return match.group(0)
+                if any(target.name == basename for target in targets):
+                    return match.group(0)
+                target_path = targets[0]
+                try:
+                    rel_path = os.path.relpath(target_path, doc_path.parent)
+                except Exception:
+                    rel_path = target_path.name
+                rel_path = rel_path.replace(os.sep, '/')
+                messages.append(f"Retargeted link basename '{basename}' to '{target_path.name}' in {doc_path}")
+                return f"(<{rel_path}>)"
+
+            new_text, replacements = link_target_pattern.subn(canonicalize_link, text)
+            if not replacements:
+                return None
+
+            doc_path.write_text(new_text, encoding='utf-8')
+            return messages
+
+        canonical_messages = _parallel_process(md_files, _canonicalize_links, active_pool)
+        for message_list in canonical_messages:
+            for message in message_list:
+                print(message)
+
+        def _scan_unresolved(path_str: str):
+            path = Path(path_str)
+            try:
+                text = path.read_text(encoding="utf-8")
+            except Exception:
+                return None
+
+            if '{{' not in text:
+                return None
+
+            hits: List[tuple[int, str]] = []
+            for m in token_pattern.finditer(text):
+                line = text.count("\n", 0, m.start()) + 1
+                hits.append((line, m.group(1)))
+
+            if not hits:
+                return None
+
+            return path_str, hits
+
+        unresolved_entries = _parallel_process(md_files, _scan_unresolved, active_pool)
+
+    unresolved: dict[str, list[tuple[int, str]]] = {path: hits for path, hits in unresolved_entries}
 
     unresolved_tokens_set: set[str] = set()
     for hits in unresolved.values():
@@ -882,9 +1013,9 @@ def runit(project_directory, entryPoint):
 
     if unresolved:
         print("\nUnresolved {{...}} tokens found in files:")
-        for p, hits in unresolved.items():
+        for path_str, hits in unresolved.items():
             for line, token in hits:
-                abs_path = Path(p).resolve()
+                abs_path = Path(path_str).resolve()
                 quoted_path = quote(abs_path.as_posix(), safe="/")
                 uri = f"vscode://file{quoted_path}:{line}"
                 display = f"{os.path.relpath(abs_path, project_directory)}:{line}"
