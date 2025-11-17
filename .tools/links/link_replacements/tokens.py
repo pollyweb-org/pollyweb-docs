@@ -5,7 +5,7 @@ from __future__ import annotations
 import os
 import re
 from pathlib import Path
-from typing import Callable, Dict, Iterable
+from typing import Callable, Dict, Iterable, Optional
 
 from broken_links.common import normalize_string
 from .mentions import find_dynamic_target, format_dynamic_link_text
@@ -13,6 +13,14 @@ from .mentions import find_dynamic_target, format_dynamic_link_text
 
 HARDCODED_HANDLERS: Dict[str, Dict[str, object]] = {}
 TRIPLE_BRACE_PATTERN = re.compile(r"\{\{\{([^{}]+)\}\}\}")
+
+_SIMPLE_CONTENT_CACHE: Dict[str, str] = {}
+
+
+def clear_simple_replacer_cache() -> None:
+    """Reset cached file contents used by simple token replacers."""
+
+    _SIMPLE_CONTENT_CACHE.clear()
 
 
 def register_hardcoded(
@@ -34,6 +42,19 @@ def register_hardcoded(
     return decorator
 
 
+def _read_cached_content(path: Path) -> Optional[str]:
+    key = str(path)
+    try:
+        return _SIMPLE_CONTENT_CACHE[key]
+    except KeyError:
+        try:
+            text = path.read_text(encoding="utf-8")
+        except Exception:
+            return None
+        _SIMPLE_CONTENT_CACHE[key] = text
+        return text
+
+
 def _replace_simple(md_files: Iterable[str], pattern: re.Pattern[str], replacement: str) -> int:
     """Replace occurrences of pattern with replacement, but skip matches
     that are already inside existing markdown links (e.g. [text](<...>)).
@@ -46,9 +67,8 @@ def _replace_simple(md_files: Iterable[str], pattern: re.Pattern[str], replaceme
 
     for md_file in md_files:
         path = Path(md_file)
-        try:
-            content = path.read_text(encoding="utf-8")
-        except Exception:
+        content = _read_cached_content(path)
+        if content is None:
             continue
 
         if "{{" not in content:
@@ -81,6 +101,7 @@ def _replace_simple(md_files: Iterable[str], pattern: re.Pattern[str], replaceme
                 path.write_text(new_content, encoding="utf-8")
             except Exception:
                 continue
+            _SIMPLE_CONTENT_CACHE[str(path)] = new_content
             total += changes
 
     return total

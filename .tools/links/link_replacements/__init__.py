@@ -12,6 +12,7 @@ from .mentions import (
 )
 from .tables import add_emoji_to_table_rows
 from .tokens import (
+    clear_simple_replacer_cache,
     replace_bool_tokens,
     replace_bools_tokens,
     replace_broker_tokens,
@@ -64,6 +65,7 @@ from .tokens import (
 __all__ = [
     "add_emoji_to_table_rows",
     "configure_context",
+    "clear_simple_replacer_cache",
     "find_dynamic_target",
     "format_dynamic_link_text",
     "find_uppercase_token_target",
