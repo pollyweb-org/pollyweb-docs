@@ -24,6 +24,7 @@ from broken_links import (
     print_results,
 )
 from link_replacements import (
+    clear_simple_replacer_cache,
     add_emoji_to_table_rows,
     configure_context,
     find_dynamic_target,
@@ -435,6 +436,8 @@ def apply_replacement_pass(md_files, file_dict):
 
     changes_made = False
 
+    clear_simple_replacer_cache()
+
     # Define replacer tasks with signature (callable, args, success_message_template)
     tasks = [
         (replace_prompt_broker_tokens, (), "Replaced {n} {Prompt@Broker} tokens ✅"),
@@ -483,7 +486,7 @@ def apply_replacement_pass(md_files, file_dict):
         (replace_itemized_datasets_tokens, (), "Replaced {n} {Itemized datasets} tokens ✅"),
         (replace_notifier_tokens, (), "Replaced {n} {Notifier} tokens ✅"),
         (replace_notifiers_tokens, (), "Replaced {n} {Notifiers} tokens ✅"),
-    (replace_dynamic_tokens, (file_dict, HARDCODED_HANDLERS), "Replaced {n} dynamic {...} tokens ✅"),
+        (replace_dynamic_tokens, (file_dict, HARDCODED_HANDLERS), "Replaced {n} dynamic {...} tokens ✅"),
         (add_emoji_to_table_rows, (), "Added emojis to {n} table rows ✅"),
     ]
 
