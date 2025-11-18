@@ -1,6 +1,6 @@
 @startuml OnChatOpened
 
-'participant "Wallet 👱" as wallet
+participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "Opened@ 📃" as script
@@ -9,6 +9,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Chatters 🪣" as chatters
 end box
 
+wallet --> script: Opened 🐌
 
 activate script
     script -> chats: SAVE 💾 {OPENED}
