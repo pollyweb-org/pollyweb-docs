@@ -1,4 +1,4 @@
-@startuml OnBindRemoved
+@startuml OnChatRemoved
  
 participant "Wallet 👱" as wallet
 

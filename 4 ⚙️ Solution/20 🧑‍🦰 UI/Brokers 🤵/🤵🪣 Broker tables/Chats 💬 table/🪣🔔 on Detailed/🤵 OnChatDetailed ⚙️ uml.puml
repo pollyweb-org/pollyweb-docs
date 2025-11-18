@@ -3,7 +3,7 @@
 'participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "OnCreated 📃" as script
+    participant "OnCreated 🔔" as script
     participant "Chats 🪣" as table
     participant "OnDetailed 🔔" as handler
 end box
@@ -18,7 +18,7 @@ activate script
 deactivate script
 
 activate table
-    table --> handler: INSERTED 🔔
+    table --> handler: DETAILED 🔔
 deactivate table
 
 activate handler
