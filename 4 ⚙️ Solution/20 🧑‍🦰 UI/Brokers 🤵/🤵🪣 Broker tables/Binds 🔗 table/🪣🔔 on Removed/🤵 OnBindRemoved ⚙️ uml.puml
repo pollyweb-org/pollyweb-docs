@@ -1,15 +1,17 @@
 @startuml OnBindRemoved
  
-'participant "Wallet 👱" as wallet
+participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Script 📃" as script
+    participant "Pop@ 📃" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
     participant "OnRemoved 🔔" as handler
 end box
 
 participant "Vault 🗄️" as vault
+
+wallet --> script: Pop 🐌
 
 activate script
     script -> binds: DELETE 🗑️

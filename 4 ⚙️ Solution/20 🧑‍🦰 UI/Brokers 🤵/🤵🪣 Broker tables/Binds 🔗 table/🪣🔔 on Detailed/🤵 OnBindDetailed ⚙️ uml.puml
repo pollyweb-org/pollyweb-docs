@@ -1,41 +1,50 @@
 @startuml OnBindDetailed
  
 'participant "Wallet 👱" as wallet
-participant "Vault 🗄️" as vault
+'participant "Vault 🗄️" as vault
 
 box Broker 🤵 domain #FFFFFA
-    participant "Bind@ 📃" as script
+    participant "OnCreated 🔔" as created
+    'participant "Bind@ 📃" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
-    participant "OnCreated 🔔" as handler
+    participant "OnDetailed 🔔" as detailed
 end box
 
 participant "Wallet 👱" as wallet
 
 
-activate vault
-    vault --> script: Bind 🐌
-deactivate vault
 
-activate script
-    script -> binds: SAVE 💾 {CREATED}
-deactivate script
-
+created -> binds: SAVE 💾 {DETAILED}
 activate binds
-    binds --> handler: CREATED 🔔
+    binds --> detailed: DETAILED 🔔
 deactivate binds
 
-activate handler
-    handler -> wallet: CONFIRM 👍
-deactivate handler
+activate detailed
+    detailed -> wallet: CONFIRM 👍 {accept?} 
+deactivate detailed
 
-activate wallet
-    wallet --> handler: 
-deactivate wallet
+alt Kept
 
-activate handler
-    handler ->  binds: ️SAVE 💾 {KEPT}
-deactivate handler
+    activate wallet
+        wallet --> detailed: Yes
+'    deactivate wallet
 
+    activate detailed
+        detailed ->  binds: SAVE 💾 {KEPT}
+    deactivate detailed
+
+
+else Rejected
+
+'    activate wallet
+        wallet --> detailed: No
+    deactivate wallet
+
+    activate detailed
+        detailed ->  binds: SAVE 💾 {REJECTED}
+    deactivate detailed
+
+end alt
 
 @enduml 
