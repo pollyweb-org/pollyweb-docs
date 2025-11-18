@@ -1,0 +1,34 @@
+@startuml OnBindCreated
+ 
+'participant "Wallet 👱" as wallet
+participant "Vault 🗄️" as vault
+
+box Broker 🤵 domain #FFFFFA
+    participant "Bind@ 📃" as script
+    'participant "Wallets 🪣" as wallets
+    participant "Binds 🪣" as binds
+    participant "OnCreated 🔔" as handler
+end box
+
+participant "Graph 🕸" as graph
+
+
+activate vault
+    vault --> script: Bind 🐌
+deactivate vault
+
+activate script
+    script -> binds: SAVE 💾 {CREATED}
+deactivate script
+
+activate binds
+    binds --> handler: CREATED 🔔
+deactivate binds
+
+activate handler
+    handler -> graph: TRANSLATE 🈯 
+    handler ->  binds: ️SAVE 💾 {DETAILED}
+deactivate handler
+
+
+@enduml 
