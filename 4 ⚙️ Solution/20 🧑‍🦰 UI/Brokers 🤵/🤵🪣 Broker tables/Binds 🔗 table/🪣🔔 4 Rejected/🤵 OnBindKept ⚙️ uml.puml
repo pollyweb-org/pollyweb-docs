@@ -1,4 +1,4 @@
-@startuml OnBindRejected
+@startuml OnBindKept
  
 'participant "Wallet 👱" as wallet
 
@@ -6,21 +6,21 @@ box Broker 🤵 domain #FFFFFA
     participant "OnDetailed 🔔" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
-    participant "OnRejected 🔔" as handler
+    participant "OnKept 🔔" as handler
 end box
 
 participant "Vault 🗄️" as vault
 
 activate script
-    script -> binds: SAVE 💾 {REJECTED}
+    script -> binds: SAVE 💾 {KEPT}
 deactivate script
 
 activate binds
-    binds --> handler: REJECTED 🔔
+    binds --> handler: KEPT 🔔
 deactivate binds
 
 activate handler
-    handler --> vault: SEND 📬 {Bound@ false}
+    handler --> vault: SEND 📬 {Bound@ true}
 deactivate handler
 
 

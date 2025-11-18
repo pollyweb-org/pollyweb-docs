@@ -1,11 +1,11 @@
-@startuml OnChatCreated
+@startuml OnChatInserted
 
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "Locate@ 📃" as script
     participant "Chats 🪣" as table
-    participant "OnCreated 🔔" as handler
+    participant "OnInserted 🔔" as handler
 end box
 
 participant "Graph 🕸" as graph
@@ -14,16 +14,16 @@ wallet --> script: Locate 🐌
 
 
 activate script
-    script -> table: SAVE 💾 {CREATED}
+    script -> table: SAVE 💾 
 deactivate script
 
 activate table
-    table --> handler: CREATED 🔔
+    table --> handler: INSERTED 🔔
 deactivate table
 
 activate handler
     handler -> graph: TRANSLATE 🈯
-    handler -> table: SAVE 💾 {DETAILED}
+    handler -> table: SAVE 💾 {TRANSLATED}
 deactivate handler
 
 @enduml 
