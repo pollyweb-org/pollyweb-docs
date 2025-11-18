@@ -1,11 +1,11 @@
-@startuml OnChatLocated
+@startuml OnChatTranslated
 
 'participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "OnCreated 🔔" as script
+    participant "OnInserted 🔔" as script
     participant "Chats 🪣" as table
-    participant "OnDetailed 🔔" as handler
+    participant "OnTranslated 🔔" as handler
 end box
 
 participant "Notifier 📣" as notifier
@@ -14,11 +14,11 @@ participant "Notifier 📣" as notifier
 
 
 activate script
-    script -> table: SAVE 💾 {DETAILED}
+    script -> table: SAVE 💾 {TRANSLATED}
 deactivate script
 
 activate table
-    table --> handler: DETAILED 🔔
+    table --> handler: TRANSLATED 🔔
 deactivate table
 
 activate handler

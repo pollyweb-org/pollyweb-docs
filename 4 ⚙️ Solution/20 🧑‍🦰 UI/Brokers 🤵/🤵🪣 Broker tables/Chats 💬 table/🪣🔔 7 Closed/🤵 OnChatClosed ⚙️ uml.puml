@@ -1,0 +1,26 @@
+@startuml OnChatClosed
+ 
+'participant "Wallet 👱" as wallet
+'participant "Vault 🗄️" as vault
+participant "Host 🤗" as host
+
+box Broker 🤵 domain #FFFFFA
+    participant "Pop@ 📃" as script
+    'participant "Wallets 🪣" as wallets
+    participant "Binds 🪣" as binds
+    participant "OnClosed 🔔" as handler
+end box
+
+
+host --> script: Goodbye 🐌
+
+activate script
+    script -> binds: SAVE 💾 {CLOSED}
+deactivate script
+
+activate binds
+    binds --> handler: CLOSED 🔔
+deactivate binds
+
+
+@enduml 
