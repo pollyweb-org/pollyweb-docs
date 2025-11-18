@@ -69,7 +69,7 @@ Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Holders 🧠/Time 📚 holde
 
 [Handler 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) |  [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Events
 |-|-|-
-| [`OnTokenPurged` 📃](<../🪣🔔 6 Purged/🤵 OnTokenPurged 📃 handler.md>) | [`Remove@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | `WIPED`
+| [`OnTokenPurged` 📃](<../🪣🔔 8 Purged/🤵 OnTokenPurged 📃 handler.md>) | [`Remove@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | `WIPED`
 | [`OnTokenChanges` 📃](<../🪣🔔 0 Altered/🤵 OnTokenAltered 📃 handler.md>) | [`Updated@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ALTERED`
 | [`OnTokenAccepted` 📃](<../🪣🔔 3 Accepted/🤵 OnTokenKept 📃 handler.md>) | [`Accepted@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) | `UPDATED`
 
