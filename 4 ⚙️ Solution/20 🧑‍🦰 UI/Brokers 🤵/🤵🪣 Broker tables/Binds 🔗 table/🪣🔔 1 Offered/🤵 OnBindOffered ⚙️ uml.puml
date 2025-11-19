@@ -1,4 +1,4 @@
-@startuml OnBindCreated
+@startuml OnBindOffered
  
 'participant "Wallet 👱" as wallet
 participant "Vault 🗄️" as vault
@@ -7,7 +7,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Bind@ 📃" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
-    participant "OnCreated 🔔" as handler
+    participant "OnOffered 🔔" as handler
 end box
 
 participant "Graph 🕸" as graph
@@ -18,11 +18,11 @@ activate vault
 deactivate vault
 
 activate script
-    script -> binds: SAVE 💾 {CREATED}
+    script -> binds: SAVE 💾 {OFFERED}
 deactivate script
 
 activate binds
-    binds --> handler: CREATED 🔔
+    binds --> handler: OFFERED 🔔
 deactivate binds
 
 activate handler
