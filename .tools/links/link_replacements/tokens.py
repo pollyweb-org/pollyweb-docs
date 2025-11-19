@@ -22,6 +22,39 @@ PATTERN_NEEDLES: Dict[int, str] = {}
 TOKEN_LITERAL_EXTRACT = re.compile(r"`\??([^`]+)`\??")
 
 
+def _build_dot_function_index(md_files: Iterable[str]) -> Dict[str, Path]:
+    """Map normalized dot-function tokens (e.g. '.UUID') to canonical files."""
+
+    index: Dict[str, Path] = {}
+    for path_str in md_files:
+        path = Path(path_str)
+        if path.suffix.lower() != ".md":
+            continue
+        stem = path.stem
+        if "ⓕ" not in stem:
+            continue
+
+        left, sep, _ = stem.partition("ⓕ")
+        if not sep:
+            continue
+
+        token_left = normalize_string(left)
+        if not token_left:
+            continue
+
+        existing = index.get(token_left)
+        if existing is None:
+            index[token_left] = path
+            continue
+
+        existing_score = (len(existing.parts), str(existing))
+        candidate_score = (len(path.parts), str(path))
+        if candidate_score < existing_score:
+            index[token_left] = path
+
+    return index
+
+
 def _register_literal_pattern(pattern: re.Pattern[str], token_literal: str) -> re.Pattern[str]:
     PATTERN_NEEDLES[id(pattern)] = token_literal
     return pattern
@@ -180,6 +213,11 @@ def _make_hardcoded_replacer(func_name: str, token_literal: str, token_key: str,
     globals()[func_name] = replacer
     HARDCODED_HANDLERS[token_key] = {"func": replacer, "replacement": replacement, "token_label": token_label}
     return replacer
+
+
+_DOT_FUNCTION_PATTERN = re.compile(
+    r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?\.(\w+)`?[\s\u00A0\u200B\u200C\u200D]*\}\}"
+)
 
 
 PLACEHOLDER_REPLACEMENT = "[Placeholder 🧠](<Holder 🧠.md>)"
@@ -922,6 +960,74 @@ def replace_functions_tokens(md_files):
     return _replace_simple(md_files, pattern, "[{Functions} 🐍](<Function 🐍.md>)")
 
 
+def replace_dot_function_tokens(md_files: Iterable[str]) -> int:
+    """Replace tokens like ``{{.UUID}}`` with links to their ⓕ function docs."""
+
+    function_index = _build_dot_function_index(md_files)
+    if not function_index:
+        return 0
+
+    total = 0
+
+    for md_file in md_files:
+        path = Path(md_file)
+        entry = _get_cached_entry(path)
+        if not entry:
+            continue
+
+        content = entry["content"]
+        if "{{." not in content:
+            continue
+
+        link_spans = entry.get("link_spans")
+        if link_spans is None:
+            spans = [m.span() for m in LINK_PATTERN.finditer(content)]
+            entry["link_spans"] = spans
+            link_spans = spans
+
+        spans_tuple = tuple(link_spans)
+
+        def inside_link(pos: int) -> bool:
+            return any(a <= pos < b for a, b in spans_tuple)
+
+        changes = 0
+
+        def _repl(match: re.Match[str]) -> str:
+            nonlocal changes
+            if inside_link(match.start()):
+                return match.group(0)
+
+            token_name = match.group(1)
+            normalized_token = normalize_string(token_name)
+            target_path = function_index.get(normalized_token)
+            if not target_path:
+                return match.group(0)
+
+            try:
+                rel_path = os.path.relpath(target_path, path.parent)
+            except Exception:
+                rel_path = target_path.name
+
+            changes += 1
+            return f"[`.{token_name}`](<{rel_path}>)"
+
+        new_content = _DOT_FUNCTION_PATTERN.sub(_repl, content)
+        if not changes:
+            continue
+
+        try:
+            path.write_text(new_content, encoding="utf-8")
+        except Exception:
+            continue
+
+        entry["content"] = new_content
+        entry["link_spans"] = None
+        entry["lower"] = None
+        total += changes
+
+    return total
+
+
 @register_hardcoded("scripts", replacement=SCRIPTS_REPLACEMENT, token_label="Scripts")
 def replace_scripts_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Scripts`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
@@ -1073,6 +1179,7 @@ __all__ = [
     "replace_streamers_tokens",
     "replace_function_tokens",
     "replace_functions_tokens",
+    "replace_dot_function_tokens",
     "replace_scripts_tokens",
     "replace_item_tokens",
     "replace_items_tokens",

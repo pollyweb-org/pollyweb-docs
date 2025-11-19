@@ -542,11 +542,18 @@ Successful Tests:
 
   FUNCTIONS:
 
-  - Given: '{{{.UUID}}}'
-    LinkText: "`{.UUID}`"
-    LinkFile: '🔩 {.UUID}.md'
+  - Given: '{{.UUID}}'
+    LinkText: "`.UUID`"
+    LinkFile: 'UUID ⓕ.md'
     Reasons: |
-      same as "{{Request Sync}}"
+      For `.Word`,
+      the file is called `Word ⓕ.md`,
+      ending with " ⓕ.md".
+
+  - Given: '{{.Now}}'
+    LinkText: "`.Now`"
+    LinkFile: 'Now ⓕ.md'
+    Reasons: same as {{.UUID}}.
 
   TABLES 🪣:
 
