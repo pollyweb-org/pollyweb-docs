@@ -1,0 +1,29 @@
+@startuml OnTokenPurged
+
+participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Pop@ 📃" as remove
+    participant "Tokens 🪣" as tokens
+    participant "OnPurged 🔔" as purge
+end box
+
+participant "Notifier 📣" as notifier
+
+wallet --> remove: Pop 🐌
+
+activate remove
+    remove -> tokens: DELETE 🗑️ {undo}
+deactivate remove
+
+
+    tokens --> tokens: wait
+activate tokens
+    tokens --> purge: PURGED 🔔
+deactivate tokens
+
+activate purge
+    purge --> notifier: SEND 📬 {Remove 🐌}
+deactivate purge
+
+@enduml 
