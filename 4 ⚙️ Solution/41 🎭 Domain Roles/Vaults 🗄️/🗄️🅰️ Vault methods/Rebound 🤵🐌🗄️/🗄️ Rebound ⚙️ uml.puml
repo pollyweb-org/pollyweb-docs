@@ -1,0 +1,29 @@
+@startuml Bound@Vault
+
+participant "Broker 🤵" as broker
+'participant "Consumer 💼" as consumer
+'participant "Graph 🕸" as graph
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Rebound@ 📃" as vault
+'end box
+'box Itemizer 🛢 domain #FFFFFA
+    participant "Hooks 🪣" as hooks
+    'participant "Binds 🪣" as binds
+    participant "Talker 😃" as talker
+end box
+
+
+activate broker
+    broker --> vault: Rebound 🐌 {hook}
+deactivate broker
+
+activate vault
+    vault -> hooks: READ {hook}
+    vault -> talker: REEL 🎣 {hook}
+deactivate vault
+
+activate talker
+deactivate talker
+
+@enduml 

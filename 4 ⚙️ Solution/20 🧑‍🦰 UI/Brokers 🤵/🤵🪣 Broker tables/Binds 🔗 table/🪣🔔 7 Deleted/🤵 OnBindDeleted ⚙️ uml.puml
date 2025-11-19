@@ -1,22 +1,23 @@
-@startuml OnBindRemoved
+@startuml OnBindDeleted
  
-participant "Wallet 👱" as wallet
+'participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Pop@ 📃" as script
+    participant "OnRemoved 🔔" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
-    participant "OnRemoved 🔔" as handler
+    participant "OnDeleted 🔔" as handler
 end box
 
 participant "Vault 🗄️" as vault
 
-wallet --> script: Pop 🐌
+'wallet --> script: Pop 🐌
 
 activate script
-    script -> binds: DELETE 🗑️
+    script -> binds: SAVE 💾 {.Delete}
 deactivate script
 
+binds --> binds: wait...
 activate binds
     binds --> handler: DELETED 🔔
 deactivate binds

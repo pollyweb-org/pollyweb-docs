@@ -21,7 +21,6 @@
     Body:
         Hook: $Bind.Hook
         Bind: $Bind.ID
-        Accepted: True
 ```
 
 Uses||

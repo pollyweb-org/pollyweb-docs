@@ -20,7 +20,7 @@ activate binds
 deactivate binds
 
 activate handler
-    handler --> vault: SEND 📬 {Bound@ true}
+    handler --> vault: SEND 📬 {Bound@}
 deactivate handler
 
 
