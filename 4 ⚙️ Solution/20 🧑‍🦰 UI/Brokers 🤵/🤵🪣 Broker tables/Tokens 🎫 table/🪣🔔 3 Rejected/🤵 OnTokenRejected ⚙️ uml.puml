@@ -1,0 +1,32 @@
+@startuml OnTokenRejected
+
+participant "Issuer 🎴" as issuer
+
+box Broker 🤵 domain #FFFFFA
+    participant "Offer@ 📃" as script
+    participant "Tokens 🪣" as tokens
+    participant "OnRejected 🔔" as change
+end box
+
+participant "Wallet 👱" as wallet
+'participant "Notifier 📣" as notifier
+
+' The issuer offers a token to the broker
+issuer --> script: Offer 🐌
+
+activate script
+    ' The Broker asks the wallet if it wants to save the token
+    script --> wallet: CONFIRM {accept}   
+
+    script -> tokens: SAVE 💾 {REJECTED}
+deactivate script
+
+activate tokens
+    tokens --> change: REJECTED 🔔
+deactivate tokens
+
+activate change
+    change --> issuer: SEND 📬 {Rejected 🐌}
+deactivate change
+
+@enduml 

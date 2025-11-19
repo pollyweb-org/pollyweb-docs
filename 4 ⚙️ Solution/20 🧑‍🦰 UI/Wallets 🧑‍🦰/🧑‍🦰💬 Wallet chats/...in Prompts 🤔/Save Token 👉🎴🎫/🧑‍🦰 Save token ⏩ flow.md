@@ -7,8 +7,6 @@
     * offered by an [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
 
 
-<br/>
-
 ## 💬 Chat 
 
 Consider the following excerpt from the [Book restaurant table 🤝 use case](<../../../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>).

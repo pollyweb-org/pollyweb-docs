@@ -1,0 +1,34 @@
+@startuml OnTokenOffered
+ 
+'participant "Wallet 👱" as wallet
+participant "Vault 🗄️" as vault
+
+box Broker 🤵 domain #FFFFFA
+    participant "Offer@ 📃" as script
+    'participant "Wallets 🪣" as wallets
+    participant "Tokens 🪣" as tokens
+    participant "OnOffered 🔔" as handler
+end box
+
+participant "Graph 🕸" as graph
+
+
+activate vault
+    vault --> script: Offer 🐌
+deactivate vault
+
+activate script
+    script -> tokens: SAVE 💾 {OFFERED}
+deactivate script
+
+activate tokens
+    tokens --> handler: OFFERED 🔔
+deactivate tokens
+
+activate handler
+    handler -> graph: TRANSLATE 🈯 
+    handler ->  tokens: SAVE 💾 {DETAILED}
+deactivate handler
+
+
+@enduml 
