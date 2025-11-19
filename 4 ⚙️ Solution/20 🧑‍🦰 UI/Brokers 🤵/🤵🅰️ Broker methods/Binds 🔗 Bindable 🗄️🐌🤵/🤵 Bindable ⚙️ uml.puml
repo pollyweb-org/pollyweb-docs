@@ -11,8 +11,8 @@ box Broker 🤵 domain  #FFFFFA
     participant "Binds 🪣" as binds
 end box
 
-participant "Graph 🕸" as graph
-participant "Wallet 👱" as wallet
+'participant "Graph 🕸" as graph
+'participant "Wallet 👱" as wallet
 
 
 vault --> broker: Bindable 🐌 
@@ -21,16 +21,9 @@ deactivate vault
 activate broker
     'Read the chats
     broker -> chats: READ 🧲 
-    broker -> binds: 
-    broker -> broker: CHAT 💬
-    broker -> graph: TRANSLATE 🈯 {schema}
-    broker -> wallet: CONFIRM 👍
-    broker -> binds: SAVE 💾 {hook}
+    'broker -> binds: 
+    broker -> binds: SAVE 💾 {OFFERED}
 deactivate broker
-
-activate binds
-    binds --> vault: SEND 📬 Bound 🐌 {hook} 
-deactivate binds
 
 
 @enduml 

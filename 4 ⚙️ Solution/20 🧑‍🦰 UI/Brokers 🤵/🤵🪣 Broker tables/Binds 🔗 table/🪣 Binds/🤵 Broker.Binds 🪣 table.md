@@ -16,6 +16,7 @@ Table: Binds
 Key: Vault, Wallet, Schema
 
 Parents:
+    Chat: { Chats.ID: Binds.Chat }
     Wallet: { Wallets.ID: Binds.Wallet }
     Vault: { Domains.Name: Binds.Vault }
 
@@ -56,10 +57,18 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 
 ```yaml
 # READ|Binds@Broker|<bind-id>
+
+# From Bind@Broker
 ID: <bind-id>
-Wallet: <wallet-uuid>
+Chat: <chat-uuid>
 Vault: any-vault.dom
-VaultTitle: Any Vault
 Schema: any-authority.dom/ANY-SCHEMA:1.0
+Language: en-US
+
+# From OnBindOffered
+VaultTitle: Any Vault
 SchemaTitle: Any Schema
+
+# From OnAccepted
+Wallet: <wallet-uuid>
 ```
