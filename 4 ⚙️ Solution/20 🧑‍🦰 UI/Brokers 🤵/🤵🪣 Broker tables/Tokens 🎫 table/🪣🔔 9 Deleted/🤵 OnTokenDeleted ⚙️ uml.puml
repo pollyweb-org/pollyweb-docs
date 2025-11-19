@@ -1,15 +1,14 @@
-@startuml OnTokenRemoved
+@startuml OnTokenExpired
 
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as pop
     participant "Tokens 🪣" as tokens
-    participant "OnRemoved 🔔" as removed
+    participant "OnDeleted 🔔" as deleted
 end box
 
-'participant "Notifier 📣" as notifier
-
+participant "Notifier 📣" as notifier
 
 wallet --> pop: Pop 🐌
 
@@ -18,12 +17,14 @@ activate pop
     pop -> tokens: SAVE 💾 {REMOVED}
 deactivate pop
 
+
+    tokens --> tokens: wait
 activate tokens
-    tokens --> removed: REMOVED 🔔
+    tokens --> deleted: DELETED 🔔
 deactivate tokens
 
-'activate removed
-'    removed --> notifier: SEND 📬 {Remove 🐌}
-'deactivate removed
+activate deleted
+    deleted --> notifier: SEND 📬 {Remove 🐌}
+deactivate deleted
 
 @enduml 
