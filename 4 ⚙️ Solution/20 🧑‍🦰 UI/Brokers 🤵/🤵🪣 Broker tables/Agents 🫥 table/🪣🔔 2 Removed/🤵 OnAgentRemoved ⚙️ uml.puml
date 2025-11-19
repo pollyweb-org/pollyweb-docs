@@ -1,0 +1,28 @@
+@startuml OnAgentRemoved
+
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Agents 🪣" as agents
+    participant "OnRemoved 🔔" as handler
+end box
+
+participant "Vault 🗄️" as vault
+'participant "Wallet 👱" as wallet
+'participant "Notifier 📣" as notifier
+'wallet --> script: Pop 🐌
+
+activate script
+    script -> agents: SAVE 💾
+activate agents
+    script -> agents: DELETE 🗑 ️
+deactivate script
+    agents --> handler: CHANGED 🔔
+deactivate agents
+
+activate handler
+    handler --> vault: SEND 📬 {Unassigned@}
+deactivate handler
+
+
+@enduml 

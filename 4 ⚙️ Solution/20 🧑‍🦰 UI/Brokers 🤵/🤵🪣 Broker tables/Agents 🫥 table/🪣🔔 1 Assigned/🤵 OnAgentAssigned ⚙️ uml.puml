@@ -1,0 +1,30 @@
+@startuml OnAgentAssigned
+
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Agents 🪣" as agents
+    participant "OnAssigned 🔔" as handler
+end box
+
+participant "Vault 🗄️" as vault
+participant "Wallet 👱" as wallet
+'participant "Notifier 📣" as notifier
+'wallet --> script: Pop 🐌
+
+activate script
+    script -> agents: SAVE 💾
+deactivate script
+
+activate agents
+    agents --> handler: CHANGED 🔔
+deactivate agents
+
+activate handler
+    handler --> vault: SEND 📬 {Assigned@}
+    handler --> wallet: INFO ⓘ {agent assigned}
+deactivate handler
+
+
+
+@enduml 
