@@ -1,11 +1,11 @@
-@startuml OnTokenRemoved
+@startuml OnTokenRestored
 
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as pop
     participant "Tokens 🪣" as tokens
-    participant "OnRemoved 🔔" as removed
+    participant "OnRestored 🔔" as restored
 end box
 
 'participant "Notifier 📣" as notifier
@@ -15,15 +15,12 @@ wallet --> pop: Pop 🐌
 
 activate pop
     wallet --> pop: {remove}
-    pop -> tokens: SAVE 💾 {REMOVED}
+    wallet --> pop: {restore}
+    pop -> tokens: SAVE 💾 {RESTORED}
 deactivate pop
 
 activate tokens
-    tokens --> removed: REMOVED 🔔
+    tokens --> restored: RESTORED 🔔
 deactivate tokens
-
-'activate removed
-'    removed --> notifier: SEND 📬 {Remove 🐌}
-'deactivate removed
 
 @enduml 
