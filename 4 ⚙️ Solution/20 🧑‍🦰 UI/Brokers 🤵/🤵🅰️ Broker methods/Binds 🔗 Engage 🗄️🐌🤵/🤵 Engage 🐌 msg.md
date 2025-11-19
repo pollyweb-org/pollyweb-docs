@@ -13,7 +13,6 @@
     * with a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) previously [bound 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
     * in the best interest of the user.
 
-<br/>
 
 ## Async Message 🐌
 
