@@ -8,7 +8,7 @@
 
 ## Diagram
 
-![alt text](<🤵 OnTokenPurged ⚙️ uml.png>)
+![alt text](<🤵 OnTokenExpired ⚙️ uml.png>)
 
 
 ## How to call
