@@ -1,0 +1,28 @@
+@startuml OnBindRemoved
+ 
+participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Pop@ 📃" as script
+    'participant "Wallets 🪣" as wallets
+    participant "Binds 🪣" as binds
+    participant "OnRemoved 🔔" as handler
+end box
+
+'participant "Vault 🗄️" as vault
+
+wallet --> script: Pop 🐌
+
+activate script
+    script -> binds: SAVE 💾 {REMOVED}
+deactivate script
+
+activate binds
+    binds --> handler: REMOVED 🔔
+deactivate binds
+
+activate handler
+    handler --> binds: SAVE 💾 {.Delete: N hours}
+deactivate handler
+
+@enduml 

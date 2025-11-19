@@ -12,24 +12,15 @@
 
 ```yaml
 📃 OnBindRemoved:
-
-# Assert the inputs
-- ASSERT|$Item:
-    AllOf: Vault, ID
-    Texts: Vault
-    UUIDs: ID
     
-# Inform the Vault
-- SEND:
-    Header:
-        To: $Item.Vault
-        Subject: Unbound@Vault
-    Body:
-        Bind: $Item.ID
+# Schedule a random deletion time for the Bind
+#  to block Vaults from guessing why users unbound
+- SAVE|$Bind:
+    .Delete: .Now.Add({.Random} hours)  
 ```
 
 Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
-| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Unbound@Vault` 🅰️ method](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>) 
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | {{.Now}} {{.Add}} {{.Random}} 
 |
