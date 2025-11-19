@@ -13,6 +13,7 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 # Binds.yaml
 Prefix: Broker
 Table: Binds
+Item: Bind
 Key: Vault, Wallet, Schema
 
 Parents:
@@ -58,17 +59,18 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ```yaml
 # READ|Binds@Broker|<bind-id>
 
-# From Bind@Broker
+# Automatic
 ID: <bind-id>
+
+# From Bind@Broker
+Hook: <hook-uuid>
 Chat: <chat-uuid>
 Vault: any-vault.dom
 Schema: any-authority.dom/ANY-SCHEMA:1.0
+Wallet: <wallet-uuid>
 Language: en-US
 
 # From OnBindOffered
 VaultTitle: Any Vault
 SchemaTitle: Any Schema
-
-# From OnAccepted
-Wallet: <wallet-uuid>
 ```

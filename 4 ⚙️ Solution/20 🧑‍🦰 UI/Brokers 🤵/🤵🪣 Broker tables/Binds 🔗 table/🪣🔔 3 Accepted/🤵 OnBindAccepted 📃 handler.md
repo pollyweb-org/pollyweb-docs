@@ -1,8 +1,8 @@
-# 🤵 OnBindGiven 📃 handler
+# 🤵 OnBindAccepted 📃 handler
 
 > Purpose
 
-* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that informs a [Vault 🗄️ domain](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was added.
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that informs a [Vault 🗄️ domain](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was accepted.
   
 ## Diagram
 
@@ -11,22 +11,17 @@
 ## Script
 
 ```yaml
-📃 OnBindCreated:
+📃 OnBindAccepted:
 
-# Assert the inputs
-- ASSERT|$Item:
-    AllOf: Vault, ID, Hook
-    Texts: Vault
-    UUIDs: ID, Hook
-    
 # Inform the Vault
 - SEND:
     Header:
-        To: $Item.Vault
+        To: $Bind.Vault
         Subject: Bound@Vault
     Body:
-        Hook: $Item.Hook
-        Bind: $Item.ID
+        Hook: $Bind.Hook
+        Bind: $Bind.ID
+        Accepted: True
 ```
 
 Uses||
