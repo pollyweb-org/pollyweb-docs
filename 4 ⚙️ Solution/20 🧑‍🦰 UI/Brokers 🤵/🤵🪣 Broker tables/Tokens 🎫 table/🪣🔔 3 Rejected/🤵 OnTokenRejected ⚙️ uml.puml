@@ -16,8 +16,15 @@ issuer --> script: Offer 🐌
 
 activate script
     ' The Broker asks the wallet if it wants to save the token
-    script --> wallet: CONFIRM {accept}   
+    script --> wallet: CONFIRM 👍 {save?}   
+deactivate script
 
+activate wallet
+    ' The wallet rejects the token
+    wallet --> script: {no}
+deactivate wallet
+
+activate script
     script -> tokens: SAVE 💾 {REJECTED}
 deactivate script
 
