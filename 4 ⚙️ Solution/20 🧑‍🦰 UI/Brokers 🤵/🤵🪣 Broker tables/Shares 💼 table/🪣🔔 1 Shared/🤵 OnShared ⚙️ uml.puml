@@ -1,0 +1,26 @@
+@startuml OnShared
+
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Shares 🪣" as table
+    participant "OnShared 🔔" as handler
+end box
+
+participant "Consumer 💼" as consumer
+
+
+activate script
+    script -> table: SAVE 💾 {SHARED}
+deactivate script
+
+activate table
+    table --> handler: SHARED 🔔
+deactivate table
+
+activate handler
+    handler --> consumer: SEND 📬 {Receive 🐌}
+deactivate handler
+
+@enduml
