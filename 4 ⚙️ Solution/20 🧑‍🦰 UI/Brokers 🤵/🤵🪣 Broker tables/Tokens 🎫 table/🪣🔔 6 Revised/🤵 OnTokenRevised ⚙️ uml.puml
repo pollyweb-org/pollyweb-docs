@@ -1,0 +1,36 @@
+@startuml OnTokenRevised
+ 
+
+'participant "Vault 🗄️" as vault
+'participant "Graph 🕸" as graph
+participant "Issuer 🎴" as issuer
+
+box Broker 🤵 domain #FFFAFA
+    participant "Revise@ 📃" as script
+    participant "OnLanguage 🔔" as script
+    'participant "Wallets 🪣" as wallets
+    participant "Tokens 🪣" as tokens
+    participant "OnRevised 🔔" as handler
+end box
+
+participant "Wallet 👱" as wallet
+
+
+activate issuer
+    issuer --> script: Revise 🐌
+deactivate issuer
+
+activate script
+    script -> tokens: SAVE 💾 {status}
+deactivate script
+
+activate tokens
+    tokens --> handler: UPDATED 🔔
+deactivate tokens
+
+activate handler
+    handler --> wallet: INFO ⓘ {status}
+deactivate handler
+
+
+@enduml 

@@ -1,4 +1,4 @@
-@startuml OnChatTranslated
+@startuml OnTokenTranslated
  
 'participant "Wallet 👱" as wallet
 
