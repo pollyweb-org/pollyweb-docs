@@ -1,0 +1,32 @@
+@startuml OnBindTranslated
+ 
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Wallets 🪣" as wallets
+    participant "OnLanguage 🔔" as script
+    'participant "Wallets 🪣" as wallets
+    participant "Binds 🪣" as binds
+    participant "OnTranslated 🔔" as handler
+end box
+
+'participant "Vault 🗄️" as vault
+
+participant "Graph 🕸" as graph
+
+wallets --> script: UPDATED 🔔
+activate script
+    script -> binds: SAVE 💾 {language}
+deactivate script
+
+activate binds
+    binds --> handler: UPDATED 🔔
+deactivate binds
+
+activate handler
+    handler -> graph: TRANSLATE 🈯 
+    handler -> binds: SAVE 💾 {DETAILED}
+deactivate handler
+
+
+@enduml 

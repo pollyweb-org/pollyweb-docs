@@ -6,7 +6,7 @@
   
 ## Diagram
 
-![alt text](<🤵 OnBindKept ⚙️ uml.png>)
+![alt text](<🤵 OnBindRejected ⚙️ uml.png>)
 
 ## Script
 
