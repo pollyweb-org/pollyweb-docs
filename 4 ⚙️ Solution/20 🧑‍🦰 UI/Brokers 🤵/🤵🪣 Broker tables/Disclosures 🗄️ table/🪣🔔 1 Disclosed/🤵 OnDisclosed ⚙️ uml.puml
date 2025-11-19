@@ -1,0 +1,26 @@
+@startuml OnDisclosed
+
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Disclosures 🪣" as table
+    participant "OnDisclosed 📃" as handler
+end box
+
+participant "Vault 🗄️" as vault
+
+
+activate script
+    script -> table: SAVE 💾 {DISCLOSED}
+deactivate script
+
+activate table
+    table --> handler: DISCLOSED 🔔
+deactivate table
+
+activate handler
+    handler --> vault: SEND 📬 {Disclose 🐌}
+deactivate handler
+
+@enduml
