@@ -37,7 +37,7 @@
     .State: OFFERED
     .Delete: 1 hour
 
-    # From Bind@Broker
+    # From Bindable@Broker
     Hook: $.Msg.Hook 
     Chat: $.Msg.Chat
     Vault: $.Msg.From

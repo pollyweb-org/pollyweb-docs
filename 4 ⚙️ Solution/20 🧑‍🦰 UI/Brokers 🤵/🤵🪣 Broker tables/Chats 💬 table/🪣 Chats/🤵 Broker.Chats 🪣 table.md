@@ -37,7 +37,7 @@ Handlers:
 
 Handlers:
 
-    OnChatTerminated:       # On Join@Broker + Terminate
+    OnChatTerminated:       # On Pop@Broker + Terminate
         Events: UPDATED     # >> call Terminated@Host
         Assert: 
             New.Status: TERMINATED
