@@ -7,8 +7,6 @@
     * with a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) previously [bound 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
     * in the best interest of the user.
 
-<br/>
-
 
 ## Chat
 
