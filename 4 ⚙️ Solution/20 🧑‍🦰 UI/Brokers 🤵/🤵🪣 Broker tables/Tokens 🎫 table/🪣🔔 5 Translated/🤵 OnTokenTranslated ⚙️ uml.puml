@@ -1,0 +1,32 @@
+@startuml OnChatTranslated
+ 
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Wallets 🪣" as wallets
+    participant "OnLanguage 🔔" as script
+    'participant "Wallets 🪣" as wallets
+    participant "Tokens 🪣" as tokens
+    participant "OnTranslated 🔔" as handler
+end box
+
+'participant "Vault 🗄️" as vault
+
+participant "Graph 🕸" as graph
+
+wallets --> script: UPDATED 🔔
+activate script
+    script -> tokens: SAVE 💾 {language}
+deactivate script
+
+activate tokens
+    tokens --> handler: UPDATED 🔔
+deactivate tokens
+
+activate handler
+    handler -> graph: TRANSLATE 🈯 
+    handler -> tokens: SAVE 💾 {DETAILED}
+deactivate handler
+
+
+@enduml 
