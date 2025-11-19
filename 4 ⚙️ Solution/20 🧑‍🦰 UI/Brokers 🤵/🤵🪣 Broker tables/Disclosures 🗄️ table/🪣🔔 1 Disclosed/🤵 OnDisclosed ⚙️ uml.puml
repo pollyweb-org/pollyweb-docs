@@ -5,7 +5,7 @@
 box Broker 🤵 domain #FFFFFA
     participant "Script 📃" as script
     participant "Disclosures 🪣" as table
-    participant "OnDisclosed 📃" as handler
+    participant "OnDisclosed 🔔" as handler
 end box
 
 participant "Vault 🗄️" as vault
