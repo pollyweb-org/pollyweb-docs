@@ -1,0 +1,47 @@
+# 🤵 OnBindDetailed 📃 handler
+
+> Purpose
+* Confirms if a user accepts a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>).
+
+## Flow
+
+![alt text](<🤵 OnBindDetailed ⚙️ uml.png>)
+
+## Script
+
+```yaml
+📃 OnBindDetailed:
+
+# Rename for readability
+- PUT|$Item >> $bind
+    
+# Set the Chat context
+- CHAT:
+    Broker: $.Hosted.Domain
+    Chat: $.Bind.Chat
+
+# Ask for confirmation
+- CONFIRM >> $accepted: 
+    Text: |
+        Accept bind? 
+        - Schema: ´$bind.SchemaTitle´
+        - Vault: ´$bind.VaultTitle´ 
+    Details:
+        $bind.Description
+
+# Save the bind
+- IF|$accepted:
+    Then: 
+        SAVE|$bind:
+            .State: ACCEPTED
+    Else:
+        SAVE|$bind:
+            .State: REJECTED
+```
+
+Uses||
+|-|-
+[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) |  [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) [`CONFIRM`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`PUT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
+| [Holders 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Hosted`](<../../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
+|
+
