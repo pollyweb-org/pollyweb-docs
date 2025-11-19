@@ -107,7 +107,7 @@
     Handlers:
         # Handlers these OnX scripts
         OnTimeout: 
-            Events: EXPIRED, WIPED
+            Events: EXPIRED, PURGED
         OnChange: 
             Events: ALTERED
         OnSomeStatus:
