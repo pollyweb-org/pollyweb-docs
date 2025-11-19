@@ -87,15 +87,15 @@
 
     Group |  Method | Purpose
     |-|-|-
-    |[`🧑‍🦰 Setup`][Wallet]| [📣🚀 Onboard](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>) | Onboard a [Wallet 🧑‍🦰 app][Wallet]
+    |[`🧑‍🦰 Wallet`][Wallet]| [📣🚀 Onboard](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>) | Onboard a [Wallet 🧑‍🦰 app][Wallet]
     |  | [🧑‍🦰🐌 Translate](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>) | Change the language of a [Wallet 🧑‍🦰][Wallet]
+    | | [🧑‍🦰🐌 Pop](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | Summons the [Broker 🤵][Broker] for help 
     | [`💬 Chats`][Chat]  | [🧑‍🦰🚀 Locate](<../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | Parse the [Locator 🔆][Locator] on the [Broker 🤵][Broker]
     | | [🧑‍🦰🚀 Chats](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>) | Fetch [Chats 💬][Chat] from the [Broker 🤵][Broker]
     | | [🤗🐌 Prompt](<../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) |   [Prompt 🤔][Prompt] intent from [Host 🤗 domain][Host] 
     | |[🔎🐌 Presented](<../🤵🅰️ Broker methods/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>) | A [Finder 🔎 domain](<../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) finished the intro
     | |[🤗🐌 Goodbye](<../🤵🅰️ Broker methods/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 🐌 msg.md>) | A [Host 🤗 domain][Host] ended the [Chat 💬][Chat]
     | | [👀🐌 Promote](<../🤵🅰️ Broker methods/Locators 🔆 Promote 👀🐌🤵/🤵 Promote 🐌 msg.md>) |  Check-in into the selected [Locator 🔆][Locator]
-    | | [🧑‍🦰🐌 Join](<../🤵🅰️ Broker methods/Chats 💬 Join 🧑‍🦰🐌🤵/🤵 Join 🐌 msg.md>) | Ask for the [Broker 🤵][Broker] to join a [Chat 💬][Chat] 
     |[`🔗 Binds`][Bind]|  [🗄️🐌 Bindable](<../🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>) | [Vaults 🗄️][Vault] offer to bind [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
     | [`🎫 Tokens`][Token] |  [🎴🐌 Offer](<../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) | [Issuers 🎴][Issuer] offer an issued [Token 🎫][Token] 
     || [🧑‍🦰🐌 Saved][Saved@Broker] | A [Wallet 🧑‍🦰][Wallet] saved a [Token 🎫][Token] locally

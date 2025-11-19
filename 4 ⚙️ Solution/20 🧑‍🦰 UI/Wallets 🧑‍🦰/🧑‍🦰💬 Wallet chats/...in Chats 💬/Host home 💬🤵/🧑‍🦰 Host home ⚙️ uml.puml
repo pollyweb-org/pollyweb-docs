@@ -1,23 +1,23 @@
-@startuml
+@startuml 
 ' ----------------------
 
-actor "User\nin chat" as user
+actor "User" as user
 
-box "User Interface (UI)"  #FFFFFF
-  participant "Wallet 👱\n(app)" as wallet
-  participant "Notifier 📣\n(domain)" as notifier  
-  participant "Broker 🤵\n(domain)" as broker
-end box
+'box "User Interface (UI)"  #FFFFFF
+  participant "Wallet 👱" as wallet
+  'participant "Notifier 📣" as notifier  
+  participant "Broker 🤵" as broker
+'end box
 
-participant "Host 🤗\n(domain)" as host
+participant "Host 🤗" as host
 
 ' The host is prompting the user
-host --> wallet: ⏪ Prompt 🤔
+'host --> wallet: ⏪ Prompt 🤔
 
 ' The user invokes the broker's talker
 user --> wallet: broker 🤵
 activate wallet
-    wallet --> broker: 1) Join 🐌
+    wallet --> broker: 1) Pop 🐌
 deactivate wallet
 
 ' The broker shows the chat options

@@ -16,7 +16,7 @@ participant "Host 🤗" as host
 ' The user invokes the broker's talker
 user --> wallet: broker 🤵
 activate wallet
-    wallet --> broker: 1) Join 🐌
+    wallet --> broker: 1) Pop 🐌
 deactivate wallet
 
 ' The broker shows the chat options

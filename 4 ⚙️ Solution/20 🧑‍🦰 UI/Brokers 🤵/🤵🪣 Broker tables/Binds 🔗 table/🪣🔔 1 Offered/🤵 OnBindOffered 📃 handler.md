@@ -2,7 +2,7 @@
 
 > Purpose
 * Translates a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) offered by a [Vault 🗄️ domain](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
-* Reacts to the [`Bind@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
+* Reacts to the [`Bindable@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
 
 ## Flow
 

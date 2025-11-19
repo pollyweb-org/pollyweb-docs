@@ -1,12 +1,7 @@
 @startuml OnBindDetailed
  
-'participant "Wallet 👱" as wallet
-'participant "Vault 🗄️" as vault
-
 box Broker 🤵 domain #FFFFFA
     participant "OnCreated 🔔" as created
-    'participant "Bind@ 📃" as script
-    'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
     participant "OnDetailed 🔔" as detailed
 end box
