@@ -13,35 +13,35 @@
 📃 OnBindDetailed:
 
 # Rename for readability
-- PUT|$Item >> $bind
+- PUT|$Item >> $Bind
     
 # Set the Chat context
 - CHAT:
     Broker: $.Hosted.Domain
-    Chat: $.Bind.Chat
+    Chat: $Bind.Chat
 
 # Ask for confirmation
 - CONFIRM >> $accepted: 
     Text: |
         Accept bind? 
-        - Schema: ´$bind.SchemaTitle´
-        - Vault: ´$bind.VaultTitle´ 
+        - Schema: ´$Bind.SchemaTitle´
+        - Vault: ´$Bind.VaultTitle´ 
     Details:
-        $bind.Description
+        $Bind.Description
 
 # Save the bind
 - IF|$accepted:
     Then: 
-        SAVE|$bind:
+        SAVE|$Bind:
             .State: ACCEPTED
     Else:
-        SAVE|$bind:
+        SAVE|$Bind:
             .State: REJECTED
 ```
 
 Uses||
 |-|-
-[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) |  [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) [`CONFIRM`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`PUT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
+[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) |  [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) [`CONFIRM`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>)  [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
 | [Holders 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Hosted`](<../../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 |
 
