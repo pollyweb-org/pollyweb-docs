@@ -3,7 +3,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 from contextlib import nullcontext
 from pathlib import Path
-from typing import List, Optional, Tuple
+from typing import Iterable, List, Optional, Tuple
 
 import yaml
 from urllib.parse import quote
@@ -44,6 +44,7 @@ from link_replacements import (
     replace_datasets_tokens,
     replace_domain_tokens,
     replace_domains_tokens,
+    replace_dot_function_tokens,
     replace_dynamic_tokens,
     replace_function_tokens,
     replace_functions_tokens,
@@ -124,6 +125,43 @@ def _parallel_process(paths: List[str], worker, executor: Optional[ThreadPoolExe
     return results
 
 
+def _find_dot_function_target(token: str, md_files: Iterable[str]) -> Optional[Path]:
+    """Locate the markdown file documenting a ``{{.token}}`` function."""
+
+    core = token.lstrip('.').strip()
+    if not core:
+        return None
+
+    normalized_core = normalize_string(core)
+    candidates: list[tuple[int, int, str, Path]] = []
+
+    for path_str in md_files:
+        path = Path(path_str)
+        if path.suffix.lower() != ".md":
+            continue
+
+        stem = path.stem
+        if "ⓕ" not in stem:
+            continue
+
+        left, sep, right = stem.partition("ⓕ")
+        if not sep:
+            continue
+
+        left_norm = normalize_string(left)
+        if left_norm != normalized_core:
+            continue
+
+        suffix = right.strip()
+        candidates.append((len(suffix), len(path.parts), str(path), path))
+
+    if not candidates:
+        return None
+
+    candidates.sort()
+    return candidates[0][3]
+
+
 def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Path]]:
     before, after = token.split('@', 1)
     normalized_before = normalize_string(before)
@@ -188,6 +226,11 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
         if resolved:
             label, path = resolved
             return f"`{token}` {label}", path
+
+    if token.startswith('.'):
+        dot_target = _find_dot_function_target(token, md_files)
+        if dot_target:
+            return f"`{token}`", dot_target
 
     if token.isupper():
         # Special-case tokens that start with a dot (e.g. .PROMPT).
@@ -475,6 +518,7 @@ def apply_replacement_pass(md_files, file_dict):
         (replace_seller_tokens, (), "Replaced {n} {Seller} tokens ✅"),
         (replace_function_tokens, (), "Replaced {n} {Function} tokens ✅"),
         (replace_functions_tokens, (), "Replaced {n} {Functions} tokens ✅"),
+        (replace_dot_function_tokens, (), "Replaced {n} dotted function tokens ✅"),
         (replace_scripts_tokens, (), "Replaced {n} {Scripts} tokens ✅"),
         (replace_item_tokens, (), "Replaced {n} {Item} tokens ✅"),
         (replace_items_tokens, (), "Replaced {n} {Items} tokens ✅"),
@@ -759,16 +803,8 @@ def runit(project_directory, entryPoint):
             if not found:
                 raise ValueError(f"No matching file for {given}: {expected_linkfile}")
         else:
-            helper_candidates = {
-                normalize_string(token),
-                normalize_string(f"{{{token}}}"),
-            }
-            expected_found = any(
-                normalize_string(os.path.basename(path)[:-3]) in helper_candidates
-                and os.path.basename(path) == expected_linkfile
-                for path in md_files
-            )
-            if not expected_found:
+            target_path = _find_dot_function_target(token, md_files)
+            if not target_path or target_path.name != expected_linkfile:
                 raise ValueError(f"No helper file for {given}: {expected_linkfile}")
     print("YAML tests passed!")
 
@@ -958,15 +994,28 @@ def runit(project_directory, entryPoint):
                 targets = canonical_targets.get(normalized)
                 if not targets:
                     return match.group(0)
-                if any(target.name == basename for target in targets):
+                canonical = targets[0]
+
+                needs_update = basename != canonical.name
+                if not needs_update:
+                    if target_url == basename:
+                        needs_update = True
+                    else:
+                        candidate_path = doc_path.parent / target_url
+                        if not candidate_path.exists():
+                            needs_update = True
+
+                if not needs_update:
                     return match.group(0)
-                target_path = targets[0]
+
                 try:
-                    rel_path = os.path.relpath(target_path, doc_path.parent)
+                    rel_path = os.path.relpath(canonical, doc_path.parent)
                 except Exception:
-                    rel_path = target_path.name
+                    rel_path = canonical.name
                 rel_path = rel_path.replace(os.sep, '/')
-                messages.append(f"Retargeted link basename '{basename}' to '{target_path.name}' in {doc_path}")
+                if rel_path == target_url:
+                    return match.group(0)
+                messages.append(f"Retargeted link basename '{basename}' to '{canonical.name}' in {doc_path}")
                 return f"(<{rel_path}>)"
 
             new_text, replacements = link_target_pattern.subn(canonicalize_link, text)

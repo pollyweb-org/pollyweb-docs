@@ -30,7 +30,7 @@
     |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) |[text][text]| Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
     |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) |[text][text]| Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
     |       | [`.Translate`](<Translate ⓕ.md>) |[text][text]| Translates between languages
-    |Create | [`.UUID`](<../../📃 Functions 🐍/🐍 System 🔩 functions/generators/🔩 {.UUID}.md>) |[text][text]| Returns a new unique ID
+    |Create | [`.UUID`](<../../📃 Functions 🐍/🐍 System 🔩 functions/generators/UUID ⓕ.md>) |[text][text]| Returns a new unique ID
     |Parse|[`.Locator`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Locator ⓕ.md>) | [map](<../Map 📚 holders/🧠 Map holders.md>) | Parses a [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) string
     |     |[`.Schema`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Schema ⓕ.md>)  | [map](<../Map 📚 holders/🧠 Map holders.md>) | Parses a [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) string
 

@@ -1,4 +1,4 @@
-# 🤵 OnBindRemoved 📃 handler
+# 🤵 OnBindDeleted 📃 handler
 
 > Purpose
 
@@ -11,25 +11,20 @@
 ## Script
 
 ```yaml
-📃 OnBindRemoved:
-
-# Assert the inputs
-- ASSERT|$Item:
-    AllOf: Vault, ID
-    Texts: Vault
-    UUIDs: ID
+📃 OnBindDeleted:
     
 # Inform the Vault
 - SEND:
     Header:
-        To: $Item.Vault
+        To: $Bind.Vault
         Subject: Unbound@Vault
     Body:
-        Bind: $Item.ID
+        Bind: $Bind.ID
 ```
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) |  [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+|[Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Binds` 🪣 table](<../🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Unbound@Vault` 🅰️ method](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>) 
 |
