@@ -14,6 +14,7 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 # Chats.yaml
 Prefix: Broker
 Table: Chats
+Item: Chat
 Key: ID
 
 Parents:

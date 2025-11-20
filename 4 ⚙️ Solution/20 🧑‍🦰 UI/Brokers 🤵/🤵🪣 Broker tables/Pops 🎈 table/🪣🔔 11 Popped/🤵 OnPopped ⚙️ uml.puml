@@ -1,0 +1,46 @@
+@startuml Pop@Broker
+ 
+participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Pop@ 📃" as pop
+    participant "Pops 🪣" as pops
+    participant "OnPopped@ 🔔" as popped
+    participant "Chats 🪣" as chats
+    'participant "Chatters 🪣" as chatters
+    'participant "OnBubble@ 🔔" as bubble
+    participant "OnOpened@ 🔔" as opened
+end box
+
+
+wallet --> pop: Pop 🐌 {hook}
+
+activate pop
+    pop -> pops: SAVE 💾
+deactivate pop
+
+activate pops
+    pops --> popped: INSERTED 🔔
+deactivate pops
+
+activate popped
+    popped -> chats: SAVE 💾 {hook}
+deactivate popped
+
+activate chats
+    chats --> wallet: Open 🐌 {hook, chat}
+deactivate chats
+
+activate wallet
+    wallet --> chats: Opened 🐌 {chat}
+deactivate wallet
+
+activate chats
+    chats -> opened: OPENED 🔔
+deactivate chats
+
+activate opened
+    opened -> pops: SAVE 💾 {OPENED}
+deactivate opened
+
+@enduml 
