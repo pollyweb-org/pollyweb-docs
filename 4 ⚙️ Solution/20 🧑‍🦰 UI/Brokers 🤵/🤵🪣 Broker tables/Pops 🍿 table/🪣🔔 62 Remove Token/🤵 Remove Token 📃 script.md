@@ -6,7 +6,7 @@
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements [`Remove Token` ⏩ flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
 
 > Flow
-* Called by the [`Pop Token` 📃 handler](<../🪣🔔 4 Token/🤵 Pop Token 📃 handler.md>)
+* Called by the [`Pop Token` 📃 handler](<../🪣🔔 61 Token/🤵 Pop Token 📃 handler.md>)
 
 ## Script
 
