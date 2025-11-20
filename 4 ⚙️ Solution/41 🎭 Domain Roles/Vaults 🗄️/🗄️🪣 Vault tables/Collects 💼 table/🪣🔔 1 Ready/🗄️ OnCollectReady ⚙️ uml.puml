@@ -1,0 +1,26 @@
+@startuml OnCollectReady
+
+participant "Broker 🤵" as broker
+box Vault 🗄️ domain #FFFFFA
+    participant "Disclose 📃" as script
+    participant "Collects 🪣" as collects
+    participant "OnReady 🔔" as ready
+end box
+participant "Consumer 💼" as consumer
+
+
+broker --> script: Disclose 🐌
+
+activate script
+    script -> collects: SAVE 💾 {READY}
+deactivate script
+
+activate collects
+    collects --> ready: READY 🔔 
+deactivate collects
+
+activate ready
+    ready --> consumer: Collect 🐌 
+deactivate ready
+
+@enduml 
