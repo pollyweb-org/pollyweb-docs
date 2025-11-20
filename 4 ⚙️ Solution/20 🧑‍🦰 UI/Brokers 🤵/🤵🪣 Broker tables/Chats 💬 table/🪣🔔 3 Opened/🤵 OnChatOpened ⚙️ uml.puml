@@ -6,9 +6,12 @@ box Broker 🤵 domain #FFFFFA
     participant "Opened@ 📃" as script
     participant "Chats 🪣" as chats
     participant "OnOpened 🔔" as handler
-    participant "Pops 🪣" as pops
     participant "Chatters 🪣" as chatters
 end box
+
+participant "Finder 🔎" as finder
+
+
 
 wallet --> script: Opened 🐌
 
@@ -21,11 +24,15 @@ activate chats
 deactivate chats
 
 activate handler
-    alt is pop?     
-        handler -> pops: SAVE 💾 {OPENED}
-    else
-        handler -> chatters: SAVE 💾 {FINDER}
-    end
+    handler -> chatters: SAVE 💾 {FINDER}
 deactivate handler
+
+activate chatters
+    chatters --> finder: 
+deactivate chatters
+
+activate finder
+    finder --> chats: Presented 🐌 {PRESENTED} 
+deactivate finder
 
 @enduml
