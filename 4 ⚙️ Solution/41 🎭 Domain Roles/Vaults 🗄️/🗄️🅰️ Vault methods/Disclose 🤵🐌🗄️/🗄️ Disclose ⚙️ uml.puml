@@ -1,14 +1,13 @@
-@startuml Wallet: Share()
+@startuml Disclose@Broker
 
-'participant "User 🧑" as user
 participant "Broker 🤵" as broker
-participant "Consumer 💼" as consumer
-box Hoster ☁️ domain #FFFFFA
-    participant "Vault 🗄️" as vault
-    'participant "Script 📃" as script
+box Vault 🗄️️ domain #FFFFFA
+    participant "Script 📃" as vault
     participant "Talker 😃" as talker
+    participant "Hosted 📦" as hosted
 end box
-participant "Hosted 📦" as hosted
+'participant "Consumer 💼" as consumer
+
 
 broker --> vault: Disclose 🐌
 
@@ -32,8 +31,8 @@ activate talker
 deactivate talker
 
 activate vault
-    vault -> vault: SAVE 💾 {data}
-    vault --> consumer: Consume 🐌 {data}
+    vault -> vault: SAVE 💾 {READY, data}
+    'vault --> consumer: Consume 🐌 {data}
 deactivate vault
 
 @enduml 

@@ -1,15 +1,9 @@
 @startuml Collet@Vault
 
-'participant "Broker 🤵" as broker
 participant "Consumer 💼" as consumer
-'participant "Graph 🕸" as graph
 
-box Hoster ☁️ domain #FFFFFA
-    participant "Vault 🗄️" as vault
-    'participant "Talker 😃" as talker
-end box
-
-box Itemizer 🛢 domain #FFFFFA
+box Vault 🗄️️ domain #FFFFFA
+    participant "Collect@ 📃" as vault
     participant "Collects 🪣" as collects
 end box
 
@@ -17,7 +11,7 @@ end box
 activate consumer
     consumer -> vault: Collect 🚀 {collect}
     activate vault
-        vault -> collects: READ {collect}
+        vault -> collects: READ 🧲 {collect}
         vault -> consumer: RETURN {data}
     deactivate vault
 
