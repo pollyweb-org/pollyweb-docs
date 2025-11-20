@@ -8,7 +8,7 @@ box Broker 🤵 domain #FFFFFA
     'participant "Offers 🪣" as offers
     participant "Tokens 🪣" as tokens
 end box
-participant "Issuer 🎴" as issuer
+'participant "Issuer 🎴" as issuer
 
 
 activate wallet
@@ -20,12 +20,12 @@ activate broker
     'broker -> offers: READ {offer}
     'broker -> tokens: READ {token}
     broker -> tokens: READ 🧲 {$wallet.Offers: token}
-    broker --> tokens: SAVE 💾 {$token.Status: ACTIVE}
+    broker -> tokens: SAVE 💾 {$token.Status: ACTIVE}
 deactivate broker
 
-activate tokens
-    tokens --> issuer: SEND 📬 {Accepted 🐌}
-deactivate tokens
+'activate tokens
+'    tokens --> issuer: SEND 📬 {Accepted 🐌}
+'deactivate tokens
 
 
 @enduml 

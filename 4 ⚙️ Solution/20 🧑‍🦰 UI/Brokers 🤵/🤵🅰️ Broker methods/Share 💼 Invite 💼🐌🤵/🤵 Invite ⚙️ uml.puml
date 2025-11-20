@@ -4,11 +4,11 @@ participant "Consumer 💼 " as host
 
 box "Broker 🤵" #FFFFFA
     participant "Handler 📃" as broker
+    participant "Chatters 🪣" as invitee
 end box
 
 participant "Graph 🕸" as graph
 participant "Wallet 🧑" as user
-participant "Helper 🤲" as invitee
 
 
 activate host
@@ -16,9 +16,16 @@ activate host
 deactivate host
 
 activate broker
-    broker -> graph: SEND Translate 🚀
-    broker -> user: CONFIRM 🤔
-    broker --> invitee: SEND Invited 🐌 
+    broker -> graph: TRANSLATE 🈯
+    broker --> user: CONFIRM 🤔
+deactivate broker
+
+activate user
+    user --> broker: 
+deactivate user
+
+activate broker
+    broker -> invitee: SAVE 💾 {HELPER} 
 deactivate broker
 
 @enduml 
