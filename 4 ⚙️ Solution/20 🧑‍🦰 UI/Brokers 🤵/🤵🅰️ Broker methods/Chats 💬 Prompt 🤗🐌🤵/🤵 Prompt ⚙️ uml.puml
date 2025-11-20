@@ -1,0 +1,22 @@
+@startuml Prompt@Broker
+
+participant "Wallet 👱" as wallet
+
+box "Broker 🤵 domain"  #FFFFFA
+    participant "Prompt@ 📃" as broker
+    participant "Chatters 🪣" as chatters
+    participant "Prompts 🪣" as prompts
+end box
+    
+
+activate wallet
+    wallet --> broker : Prompt 🐌
+deactivate wallet
+
+activate broker
+    broker -> chatters: READ 🧲 
+    broker -> prompts: SAVE 💾 
+deactivate broker
+
+
+@enduml

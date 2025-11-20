@@ -12,6 +12,7 @@ participant "Host 🤗" as host
 
 activate script
     script -> table: SAVE 💾 {HOST}
+deactivate script
 
 activate table
     table --> handler: HOST 🔔

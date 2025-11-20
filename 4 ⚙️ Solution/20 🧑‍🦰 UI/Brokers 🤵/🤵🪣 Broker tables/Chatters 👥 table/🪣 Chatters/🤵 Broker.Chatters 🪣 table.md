@@ -26,11 +26,12 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 # Chats.yaml
 Prefix: Broker
 Table: Chatters
+Item: Chatter
 Key: Chat, Domain
 
 Parents:
-    Chat: { Chats.ID: Chatters.Chat }
-    Domain: { Domains.Name: Chatters.Domain }
+    Chat: { Chats.ID: Chatter.Chat }
+    Domain: { Domains.Name: Chatter.Domain }
 
 Handlers:
     OnFinder: FINDER
