@@ -1,4 +1,4 @@
-@startuml Pop@Broker
+@startuml OnPopInserted
  
 participant "Wallet 👱" as wallet
 
@@ -29,7 +29,7 @@ activate chats
 deactivate chats
 
 activate wallet
-    wallet --> pops: Popped 🐌 {OPENED}
+    wallet --> pops: Popped 🐌 {POPPED}
 deactivate wallet
 
 
