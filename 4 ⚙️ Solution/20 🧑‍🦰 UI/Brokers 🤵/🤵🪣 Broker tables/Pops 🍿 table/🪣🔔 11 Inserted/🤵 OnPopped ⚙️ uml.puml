@@ -3,68 +3,33 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    'participant "Pop@ 📃" as pop
+    participant "Pop@ 📃" as pop
     participant "Pops 🪣" as pops
     participant "Popped@ 🔔" as popped
-    participant "Hello@ 📃" as introduced
+    participant "Opened@ 📃" as opened
 end box
 
-box "Talker 😃" #FFFFFA
-    participant "Engine ⚙️" as engine
-    participant "Talkers 🪣" as talkers
-end box
 
-'participant "Vault 🗄️" as vault
+wallet --> pop: Pop 🐌 
 
-'activate wallet 
-    wallet --> pops: Pop 🐌 
-'deactivate wallet
-
-'activate pops
-'    pops -> pop
-'deactivate pops
+activate pop
+    pop -> pops: SAVE 💾
+deactivate pop
 
 activate pops
     pops --> popped: INSERTED 🔔
 deactivate pops
 
 activate popped
-    popped -> engine: REGISTER 🔆 {script}
+    popped --> wallet: SEND 📬 Open 🐌 {pop}
 deactivate popped
-
-activate engine
-    engine -> talkers: SAVE 💾
-    engine -> popped: {locator}
-deactivate engine
-
-activate popped
-    popped --> wallet: SEND 📬 Assess 🐌
-deactivate popped
-
-'activate wallet
-'    wallet --> locate: Locate 🐌 {locator}
-'deactivate wallet
-
-'activate locate
-'    locate --> wallet: SEND 📬 Open 🐌 {locator}
-'deactivate locate
-
 
 activate wallet
-    wallet --> introduced:
+    wallet --> opened: Opened 🐌 
 deactivate wallet
 
-activate introduced
-    'introduced -> engine: CHAT 💬
-    introduced -> engine: TALK 😃
-deactivate introduced
-
-'activate popX
-'deactivate popX
-
-activate engine
-    engine -> talkers: READ 🧲
-    engine -> : RUN 🏃 {script} 
-deactivate engine
+activate opened
+    opened -> pops: SAVE 💾 {OPENED}
+deactivate opened
 
 @enduml 
