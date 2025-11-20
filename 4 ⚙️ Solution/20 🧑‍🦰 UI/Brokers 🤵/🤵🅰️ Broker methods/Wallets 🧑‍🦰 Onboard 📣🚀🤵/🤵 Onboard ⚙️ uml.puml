@@ -1,0 +1,23 @@
+@startuml Onboard@Broker
+
+ 
+'participant "Wallet 👱" as wallet
+participant "Notifier 📣" as wallet
+
+box Broker 🤵️ domain #FFFFFA
+    participant "Onboard@  📃" as broker
+    participant "Wallets 🪣" as wallets
+end box
+
+activate wallet
+    wallet -> broker: Onboard 🚀
+
+    activate broker
+        broker -> wallets: SAVE 💾
+        broker -> wallet: {wallet.ID}
+    deactivate broker
+
+deactivate wallet
+
+
+@enduml 
