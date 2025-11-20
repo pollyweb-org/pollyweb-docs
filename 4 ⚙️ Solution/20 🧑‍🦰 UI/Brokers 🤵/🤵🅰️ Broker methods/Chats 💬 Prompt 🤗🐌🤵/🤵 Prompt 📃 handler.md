@@ -3,10 +3,6 @@
 > Purpose
 * Implements the [`Prompt@Broker` 🅰️ method](<🤵 Prompt 🐌 msg.md>)
 
-> Dependencies
-* Depends on the [`PromptEmoji` 📃 script](<🤵 Prompt 📃 emoji.md>)
-
-
 ## Script
 
 ```yaml
@@ -17,45 +13,36 @@
 
 # Assert the message
 - ASSERT|$.Msg:
-    AllOf: Chat, Emoji, Format, Hook
+    AllOf: Chat, Format, Hook
     UUIDs: Chat, Hook
     Texts: Emoji, Format
     Times: Expires
 
-# Get the Chat participant
+# Assert the Sender is a Chatter
 - READ >> $chatter:
     Set: Broker.Chatters
     Key: 
         Chat: $.Msg.Chat
         Domain: $.Msg.From
 
-# Get the Chat
-- PUT|$chatter.Chat >> $chat
+# Assert the Chat is active
+- ASSERT|$chatter.Chat:
+    .State: ACTIVE
 
-# Calculate the emoji
-- RUN|PromptEmoji >> $emoji:
-    Format: $.Msg.Format
-    PromptEmoji: $.Msg.Emoji
-    ChatEmoji: $chat.Emoji
+# Save the Prompt
+- SAVE|Broker.Prompts:
+    Chat: $.Msg.Chat
+    Hook: $.Msg.Hook
     Role: $chatter.Role
-
-# Forward to the notifier
-- SEND: 
-    Header:
-        To: $chat.Notifier
-        Subject: Prompt@Notifier    
-    Body:
-        Wallet: $chat.Wallet
-        Chat: $.Msg.Chat
-        Sender: $.Msg.From
-        Hook: $.Msg.Hook
-        Format: $.Msg.Format
-        Emoji: $emoji
+    Emoji: $.Msg.Emoji
+    Format: $.Msg.Format
+    Sender: $.Msg.From
+    Wallet: $chatter.Chat.Wallet
+    Expires: $.Msg.Expires
 ```
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)  [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)  [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Chatters`](<../../🤵🪣 Broker tables/Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) [`Chats`](<../../🤵🪣 Broker tables/Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
-| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | [`PromptEmoji` 📃 script](<🤵 Prompt 📃 emoji.md>)
 |

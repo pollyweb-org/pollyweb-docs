@@ -110,12 +110,12 @@
             Events: EXPIRED, PURGED
         OnChange: 
             Events: ALTERED
-        OnSomeStatus:
+        OnSomeState:
             Events: UPDATED
             Assert: 
                 Item.Expires.IsAbove(.Now):
-                New.Status: NEW_STATUS
-                Old.Status: OLD_STATUS
+                New.State: NEW_STATE
+                Old.State: OLD_STATE
     ```
     
     Uses||

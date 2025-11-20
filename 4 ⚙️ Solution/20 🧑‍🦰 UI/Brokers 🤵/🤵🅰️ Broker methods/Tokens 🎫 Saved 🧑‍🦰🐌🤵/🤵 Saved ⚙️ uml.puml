@@ -20,7 +20,7 @@ activate broker
     'broker -> offers: READ {offer}
     'broker -> tokens: READ {token}
     broker -> tokens: READ 🧲 {$wallet.Offers: token}
-    broker -> tokens: SAVE 💾 {$token.Status: ACTIVE}
+    broker -> tokens: SAVE 💾 {$token.State: ACTIVE}
 deactivate broker
 
 'activate tokens

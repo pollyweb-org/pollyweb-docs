@@ -41,12 +41,12 @@ Handlers:
     OnChatTerminated:       # On Pop@Broker + Terminate
         Events: UPDATED     # >> call Terminated@Host
         Assert: 
-            New.Status: TERMINATED
+            New.State: TERMINATED
 
     OnChatWrapped:          # On Wrap@Broker
         Events: UPDATED     # >> call @Advertise
         Assert:
-            New.Status: WRAPPED
+            New.State: WRAPPED
 ```
 
 ## Links

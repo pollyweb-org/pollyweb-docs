@@ -66,8 +66,8 @@
             Events: UPDATED
             Assert: 
                 Item.Expires.IsAbove(.Now):
-                New.Status: NEW_STATUS
-                Old.Status: OLD_STATUS
+                New.State: NEW_STATE
+                Old.State: OLD_STATE
     ```
     Uses: [`.IsAbove`](<../../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsAbove ⓕ any.md>) [`.Now`](<../../../37 Scripts 📃/📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>)
 
