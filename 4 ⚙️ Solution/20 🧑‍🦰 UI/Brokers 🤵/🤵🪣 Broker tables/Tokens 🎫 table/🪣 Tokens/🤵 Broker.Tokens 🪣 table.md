@@ -31,10 +31,10 @@ Propagate:
 
 Views:
     Offered: 
-        - Status: OFFERED
+        - .State: OFFERED
     Active: 
         - .Now.IsBetween(Starts, Expires)
-        - Status: ACTIVE
+        - .State: ACTIVE
 
 Handlers:
 
