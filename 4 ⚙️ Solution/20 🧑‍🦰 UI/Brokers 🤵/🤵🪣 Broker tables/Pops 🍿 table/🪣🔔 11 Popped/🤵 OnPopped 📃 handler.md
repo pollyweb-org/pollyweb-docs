@@ -1,51 +1,31 @@
-# 🤵📃 Pop handler
-
-> Purpose
-* [Script 📃](<🤵 Pop 🐌 msg.md>) that implements the [`Pop@Broker` 🅰️ method](<🤵 Pop 🐌 msg.md>)
+# 🤵📃 OnPopped handler
 
 
 ## Diagram
 
-![alt text](<🤵 Pop ⚙️ uml.png>)
-
+![alt text](<🤵 OnPopped ⚙️ uml.png>)
 
 
 ## Script
 
 
 ```yaml
-📃 Pop@Broker: 
-
-# Assert $.Msg
-- ASSERT|$.Msg:
-    - AllOf: Hook 
-    - UUIDs: Hook
-
-# Get the Wallet
-- READ >> $wallet:
-    Set: Broker.Wallets
-    Key: $.Msg.From
-
-# Verify the Message
-- VERIFY|$.Msg:
-    Key: $wallet.PublicKey
-
-# Assign the Hello@Host Locator key
-- CASE|$.Msg.Context >> $handler:
-    BIND: PopBind@Broker
-    HOST: PopHost@Broker
-    ISSUER: PopIssuer@Broker
-    TOKEN: PopToken@Broker
-    VAULT: PopVault@Broker
+📃 OnPopped: 
 
 # Request the Wallet to open a chat
 - SEND:
     Header:
-        To: $wallet.Notifier
-        Subject: Assess@Notifier
+        To: $Pop.Notifier
+        Subject: Open@Notifier
     Body:
-        Hook: $.Msg.Hook
-        Locator: $locator
+        Wallet: <wallet-uuid>
+        Hook: <hook-uuid>
+        Chat: <chat-uuid>
+        PrivateKey: <private-key>
+        Host: another-domain.dom
+        HostTitle: Any Other Domain, Inc.
+        SmallIcon: <base64>
+        BigIcon: <base46>
 ```
 
 Uses||
