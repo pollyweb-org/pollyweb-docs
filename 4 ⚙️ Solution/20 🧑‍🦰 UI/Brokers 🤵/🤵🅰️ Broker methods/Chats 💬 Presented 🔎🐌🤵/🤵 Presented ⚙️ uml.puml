@@ -1,22 +1,12 @@
 @startuml Presented@Broker
-' ------------
 
 participant "Finder 🔎" as finder
 
 box "Broker 🤵 domain"  #FFFFFA
     participant "Presented@ 📃" as broker
     participant "Chats 🪣" as chats
-    'participant "Binds 🪣" as binds
-    'participant "Tokens 🪣" as tokens
 end box
 
-'box "User Interface (UI)"  #FFFFFF
-'participant "Wallet 👱" as wallet
-'participant "Notifier 📣\nbff" as notifier
-'end box
-
-'participant "Printer 🖨️\nsupplier" as printer
-'participant "Host 🤗" as host
     
 
 activate finder

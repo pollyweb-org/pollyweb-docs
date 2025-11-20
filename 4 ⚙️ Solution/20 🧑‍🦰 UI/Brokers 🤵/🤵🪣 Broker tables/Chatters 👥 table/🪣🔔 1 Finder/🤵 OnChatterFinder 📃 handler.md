@@ -13,21 +13,16 @@
 ```yaml
 📃 OnChatterFinder:
 
-# Rename for legibility
-- PUT|$Item >> $chatter
-- PUT|$Item.Chat >> $chat
-- PUT|$Item.Chat.Wallet >> $wallet
-
 # Ask the finder to introduce the Host
 - SEND:
     Header:
-        To: $chatter.Domain
+        To: $Chatter.Domain
         Subject: Present@Finder
     Body:
-        Chat: $chat.ID
-        Host: $chat.Host
-        Language: $chat.Language
-        Reviewer: $wallet.Reviewer
+        Chat: $Chatter.Chat
+        Host: $Chatter.Chat.Domain
+        Language: $Chatter.Chat.Language
+        Reviewer: $Chatter.Chat.Wallet.Reviewer
 ```
 
 

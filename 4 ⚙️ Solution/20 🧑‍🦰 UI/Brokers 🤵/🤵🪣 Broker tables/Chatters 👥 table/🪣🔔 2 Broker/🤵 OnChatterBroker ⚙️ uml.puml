@@ -4,21 +4,25 @@ box Broker 🤵 domain #FFFFFA
     participant "Script 📃" as script
     participant "Chatters 🪣" as table
     participant "OnBroker 📃" as handler
+    participant "Talker 😃" as talker
 end box
 
 participant "Wallet 👱" as wallet
 
 activate script
     script -> table: SAVE 💾 {BROKER}
+deactivate script
 
 activate table
     table --> handler: BROKER 🔔
 deactivate table
 
 activate handler
+    handler -> talker: CHAT 💬
     handler --> wallet: INFO ⓘ {reason}
     handler --> wallet: INFO ⓘ {shared binds}
     handler --> wallet: INFO ⓘ {shared tokens}
+    handler -> table: SAVE 💾 {HOST}
 deactivate handler
 
 @enduml
