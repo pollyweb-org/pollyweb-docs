@@ -13,6 +13,7 @@ participant "Helper 🤲" as helper
 
 activate script
     script -> table: SAVE 💾 {HELPER}
+deactivate script
 
 activate table
     table --> handler: HELPER 🔔

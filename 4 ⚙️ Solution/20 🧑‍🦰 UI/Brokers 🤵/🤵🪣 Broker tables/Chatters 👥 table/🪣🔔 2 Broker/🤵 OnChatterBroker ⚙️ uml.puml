@@ -1,13 +1,17 @@
 @startuml OnChatterBroker
 
+participant "Finder 🔎" as finder
+
 box Broker 🤵 domain #FFFFFA
-    participant "Script 📃" as script
+    participant "Presented@ 📃" as script
     participant "Chatters 🪣" as table
     participant "OnBroker 📃" as handler
     participant "Talker 😃" as talker
 end box
 
 participant "Wallet 👱" as wallet
+
+finder --> script: Presented 🐌
 
 activate script
     script -> table: SAVE 💾 {BROKER}
