@@ -16,7 +16,7 @@
 
 # Update the Prompt with the emoji
 - SAVE|$Prompt:
-    .State: Emojied
+    .State: EMOJIED
     Emoji: $emoji
 ```
 Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
@@ -26,17 +26,8 @@ Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control 
 
 # Verify the Prompt
 - ASSERT|$Prompt:
-    AllOf: Format
-    Texts: Format, Emoji
-
-# Verify the Prompt's Chat
-- ASSERT|$Prompt.Chat:
-    Text: Emoji
-
-# Verify the Prompt's Chatter
-- ASSERT|$Prompt.Chatter:
-    AllOf: Role
-    Text: Role
+    AllOf: Format, Role
+    Texts: Format, Role, PromptEmoji, ChatEmoji
 
 # Set the emoji
 - CASE|$Prompt.Format:
@@ -46,35 +37,35 @@ Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control 
     FAILURE: RETURN|❌
 
     INFO: 
-        CASE|$Prompt.Chatter.Role:
+        CASE|$Prompt.Role:
             VAULT: RETURN|ⓘ
             $: RETURN|ℹ️
 
     SUCCESS: 
-        CASE|$Prompt.Chatter.Role:
+        CASE|$Prompt.Role:
             VAULT: RETURN|☑️
             $: RETURN|✅
 
     TEXT:
-        CASE|$Prompt.Chatter.Role:
+        CASE|$Prompt.Role:
             VAULT: RETURN|💭
             $: RETURN|💬
 
     $: 
         # Agents always ask with 🫥
-        - IF|$Prompt.Chatter.Role.Is(VAULT):
+        - IF|$Prompt.Role.Is(VAULT):
             RETURN|🫥
 
 # Default emoji
 - PUT|😃 >> $emoji
 
 # Override if in Chat
-- IF|$Prompt.Chat.Emoji:
-    PUT|$Prompt.Chat.Emoji >> $emoji
+- IF|$Prompt.ChatEmoji:
+    PUT|$Prompt.ChatEmoji >> $emoji
 
 # Override if in Prompt
-- IF|$Prompt.Emoji: 
-    PUT|$Prompt.Emoji >> $emoji
+- IF|$Prompt.PromptEmoji: 
+    PUT|$Prompt.PromptEmoji >> $emoji
 
 # Block special emojis
 - IF|$emoji.IsIn(⏳❌ⓘℹ️☑️✅😃🫥💬💭):
