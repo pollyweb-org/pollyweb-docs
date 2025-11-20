@@ -2,7 +2,7 @@
 
 ## Diagram
 
-![alt text](<📃 Remove Vault/🤵 Remove Vault ⚙️ uml.png>)
+![alt text](<../🪣🔔 22 Remove Vault/🤵 Remove Vault ⚙️ uml.png>)
 
 ## Script
 

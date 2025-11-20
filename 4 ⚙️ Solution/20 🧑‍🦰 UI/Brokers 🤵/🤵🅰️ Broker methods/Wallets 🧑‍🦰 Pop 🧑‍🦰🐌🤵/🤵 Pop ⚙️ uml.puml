@@ -5,7 +5,7 @@ participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as pop
     participant "Wallets 🪣" as wallets
-    participant "Locate@ 📃" as assess
+    'participant "Locate@ 📃" as locate
     participant "Hello@ 📃" as introduced
     'participant "Wallets 🪣" as wallets
 end box
@@ -33,16 +33,21 @@ activate engine
 deactivate engine
 
 activate pop
-    pop --> wallet: SEND 📬 Open 🐌 {locator}
+    pop --> wallet: SEND 📬 Assess 🐌 {locator}
 deactivate pop
 
-activate wallet
-    wallet --> assess: Locate 🐌 {locator}
-deactivate wallet
+'activate wallet
+'    wallet --> locate: Locate 🐌 {locator}
+'deactivate wallet
 
-activate assess
-    assess --> introduced:
-deactivate assess
+'activate locate
+'    locate --> wallet: SEND 📬 Open 🐌 {locator}
+'deactivate locate
+
+
+activate wallet
+    wallet --> introduced:
+deactivate wallet
 
 activate introduced
     'introduced -> engine: CHAT 💬

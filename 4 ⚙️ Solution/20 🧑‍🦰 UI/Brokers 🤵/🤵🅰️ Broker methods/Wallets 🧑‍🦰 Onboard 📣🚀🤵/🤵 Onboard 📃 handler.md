@@ -14,19 +14,15 @@
 # Verify the Notifier as a client
 # READ|Notifiers@Broker|$.Msg.From >> $notifier
 
-# Generate a new Wallet ID
-- PUT|.UUID >> $wallet
-
 # Save the Wallet
-- SAVE|Broker.Wallets:
-    Wallet: $wallet
+- SAVE|Broker.Wallets >> $wallet:
     Notifier: $.Msg.From
     PublicKey: $.Msg.PublicKey
     Language: $.Msg.Language
 
 # Return the ID
 - RETURN:
-    $wallet
+    $wallet.ID
 ```
 
 Uses||
