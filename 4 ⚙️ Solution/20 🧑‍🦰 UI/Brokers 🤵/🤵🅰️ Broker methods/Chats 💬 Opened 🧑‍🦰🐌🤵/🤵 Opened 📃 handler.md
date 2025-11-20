@@ -27,7 +27,7 @@
 
 # Process the Chat state
 - SAVE|$chat:
-    .Status: OPENED
+    .State: OPENED
 ```
 
 Uses||

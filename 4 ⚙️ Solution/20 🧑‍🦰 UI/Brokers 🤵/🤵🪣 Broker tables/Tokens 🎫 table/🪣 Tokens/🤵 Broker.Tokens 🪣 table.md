@@ -50,8 +50,8 @@ Handlers:
     OnTokenAccepted: 
         Events: UPDATED
         Assert: 
-            New.Status: ACTIVE
-            Old.Status: OFFERED
+            New.State: ACTIVE
+            Old.State: OFFERED
 ```
 
 Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>) [`.IsBetween`](<../../../../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsBetween ⓕ any.md>) 

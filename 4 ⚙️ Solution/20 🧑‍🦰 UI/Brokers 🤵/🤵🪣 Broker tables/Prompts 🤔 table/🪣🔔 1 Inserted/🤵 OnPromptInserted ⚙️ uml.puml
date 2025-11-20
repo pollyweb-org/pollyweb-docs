@@ -20,6 +20,7 @@ activate table
 deactivate table
 
 activate handler
+    handler -> handler: Emoji? 🤔
     handler -> table: SAVE 💾 {EMOJIED}
 deactivate handler
 

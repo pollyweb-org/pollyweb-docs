@@ -35,7 +35,7 @@
 
 # Process the Chat state
 - SAVE|$chat:
-    .Status: PRESENTED
+    .State: PRESENTED
 ```
 
 Uses||

@@ -26,9 +26,13 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ```yaml
 # From Prompt@Broker 
 ID: <prompt-uuid>       # ID on the Prompt
+Chat: <chat-uuid>       # Chat where the Prompt was sent
 Hook: <hook-uuid>       # Hook for the Host for replies
-Format: INFO            # Format of the Prompt
 Role: VAULT             # Role of the Chatter sending the Prompt
+Emoji: 🤔               # Emoji of the Prompt
+Format: INFO            # Format of the Prompt
+Sender: any-host.dom    # Sender of the Prompt
 Wallet: <wallet-uuid>   # Wallet to send the Prompt
+Expires: 2024-12-31T23:59:59Z  # Cache expiration time 
 ```
 
