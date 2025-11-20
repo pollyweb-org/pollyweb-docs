@@ -7,16 +7,37 @@ box Talker 😃 domain #FFFFFA
     'participant "Handler 📃" as talker
 end box
 
+box Host 🤗 domain #FFFFFA
+    participant "Hello@ 📃" as hello
+end box
+
+
+participant "Wallet 👱" as wallet
+
 
 activate script
-    script -> locate: REGISTER 🔆 {key, script}
+    script -> locate: REGISTER 🔆 {script}
 deactivate script
 
 activate locate
     locate -> talkers: SAVE 💾
-    locate -> script
+    locate -> script: {locator}
 deactivate locate
 
 activate script
+    script --> wallet: SEND 📬 Assess 🐌
+deactivate script
+
+activate wallet
+    wallet --> hello: 
+deactivate wallet
+
+activate hello
+    'hello -> talker: CHAT 💬
+    hello -> talker: TALK 😃
+deactivate hello
+
+activate talkers
+deactivate talkers
     
 @enduml
