@@ -9,13 +9,10 @@
 ```yaml
 📃 OnChatOpened:
 
-# Rename for legibility
-- PUT|$Item >> $chat
-
 # Add the finder to the chat
 - SAVE|Broker.Chatters:
-    Chat: $chat.ID
-    Domain: $chat.Wallet.Finder
+    Chat: $Chat.ID
+    Domain: $Chat.Wallet.Finder
 ```
 
 

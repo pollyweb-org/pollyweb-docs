@@ -1,6 +1,6 @@
 # 🤵 Send Bind 📃 script
 
-> Part of [`Query` 📃 handler](<../🤵 Query 📃 handler.md>)
+> Part of [`Query` 📃 handler](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 📃 handler.md>)
 
 ## Script
 
