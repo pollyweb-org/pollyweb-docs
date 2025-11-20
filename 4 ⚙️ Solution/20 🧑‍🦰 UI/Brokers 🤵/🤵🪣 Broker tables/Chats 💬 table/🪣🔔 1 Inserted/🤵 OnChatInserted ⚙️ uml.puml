@@ -3,27 +3,21 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Locate@ 📃" as script
     participant "Chats 🪣" as table
     participant "OnInserted 🔔" as handler
 end box
 
 participant "Graph 🕸" as graph
 
-wallet --> script: Locate 🐌
-
-
-activate script
-    script -> table: SAVE 💾 
-deactivate script
-
+wallet --> table: Locate 🐌
 activate table
+    wallet --> table: Pop 🐌
     table --> handler: INSERTED 🔔
 deactivate table
 
 activate handler
     handler -> graph: TRANSLATE 🈯
-    handler -> table: SAVE 💾 {TRANSLATED}
+    handler -> table: SAVE 💾 {DETAILED}
 deactivate handler
 
 @enduml 

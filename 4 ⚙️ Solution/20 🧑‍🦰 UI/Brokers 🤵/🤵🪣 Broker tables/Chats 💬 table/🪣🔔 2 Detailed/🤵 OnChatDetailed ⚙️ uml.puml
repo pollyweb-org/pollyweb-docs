@@ -1,28 +1,36 @@
-@startuml OnChatTranslated
+@startuml OnChatDetailed
 
-'participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "OnInserted 🔔" as script
     participant "Chats 🪣" as table
-    participant "OnTranslated 🔔" as handler
+    participant "OnDetailed 🔔" as handler
 end box
 
 participant "Notifier 📣" as notifier
+participant "Wallet 👱" as wallet
 
 'wallet --> script: Pop 🐌
 
 
 activate script
-    script -> table: SAVE 💾 {TRANSLATED}
+    script -> table: SAVE 💾 {DETAILED}
 deactivate script
 
 activate table
-    table --> handler: TRANSLATED 🔔
+    table --> handler: DETAILED 🔔
 deactivate table
 
 activate handler
     handler --> notifier: SEND 📬 {Open 🐌}
 deactivate handler
+
+activate notifier
+    notifier --> wallet: 
+deactivate notifier
+
+activate wallet 
+    wallet --> table: Opened 🐌 {OPENED}
+deactivate wallet
 
 @enduml 

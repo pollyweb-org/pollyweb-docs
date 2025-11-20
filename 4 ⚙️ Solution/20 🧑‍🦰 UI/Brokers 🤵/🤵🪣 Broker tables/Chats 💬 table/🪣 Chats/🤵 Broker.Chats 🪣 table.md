@@ -72,27 +72,22 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ```yaml
 # READ|Chats|<chat-id>
 
-ID: <chat-uuid>
+# From Locate@Broker, Pop@Broker
+ID: <chat-uuid>         # Automatic Chat ID
+Hook: <hook-uuid>       # Wallet hook reference
+Host: any-host.dom      # Host domain name
+Origin: <chat-uuid>     # Origin chat (if any)
+Wallet: <wallet-uuid>   # Wallet reference
+Language: en-us         # To change the language of the chat
 
-# Wallet info
-Wallet: <wallet-uuid>
+# From OnChatInserted
+HostTitle: Any Host     # Host title from a Graph
+Description: Bla, bla   # Host description from a Graph
+SmallIcon: <base64>     # Host small icon from a Graph
+BigIcon: <base64>       # Host big icon from a Graph
 
-# To change the language of the chat
-Language: en-us
-
-# Host info
-Host: any-host.dom
-Host$: Any Host
-Emoji: 😃
-
-# For Wallets to sign messages
-PrivateKey: <PrivateKey>
-
-# For domains to verify Wallet messages
-PublicKey: <PublicKey>
-
-# Origin chat (if any)
-Origin: <origin-chat-uuid>
+# from Opened@Broker
+PublicKey: <PublicKey>  # For domains to verify Wallet messages
 ```
 
 Property|Type|Details|Origin|Purpose

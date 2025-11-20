@@ -5,11 +5,8 @@ participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as pop
     participant "Pops 🪣" as pops
-    participant "OnPopped@ 🔔" as popped
+    participant "OnInserted@ 🔔" as popped
     participant "Chats 🪣" as chats
-    'participant "Chatters 🪣" as chatters
-    'participant "OnBubble@ 🔔" as bubble
-    participant "OnOpened@ 🔔" as opened
 end box
 
 
@@ -32,15 +29,8 @@ activate chats
 deactivate chats
 
 activate wallet
-    wallet --> chats: Opened 🐌 {chat}
+    wallet --> pops: Popped 🐌 {OPENED}
 deactivate wallet
 
-activate chats
-    chats -> opened: OPENED 🔔
-deactivate chats
-
-activate opened
-    opened -> pops: SAVE 💾 {OPENED}
-deactivate opened
 
 @enduml 
