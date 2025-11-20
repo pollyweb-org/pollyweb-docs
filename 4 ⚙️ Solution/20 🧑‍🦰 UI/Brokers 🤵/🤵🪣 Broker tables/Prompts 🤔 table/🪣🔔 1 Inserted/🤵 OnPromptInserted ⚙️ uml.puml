@@ -1,0 +1,26 @@
+@startuml OnPromptInserted
+
+participant "Host 🤗" as host
+
+box Broker 🤵 domain #FFFFFA
+    participant "Prompt@ 📃" as script
+    participant "Prompts 🪣" as table
+    participant "OnInserted 🔔" as handler
+end box
+
+
+host --> script: Prompt 🐌
+
+activate script
+    script -> table: SAVE 💾
+deactivate script
+
+activate table
+    table --> handler: SHARED 🔔
+deactivate table
+
+activate handler
+    handler -> table: SAVE 💾 {EMOJIED}
+deactivate handler
+
+@enduml

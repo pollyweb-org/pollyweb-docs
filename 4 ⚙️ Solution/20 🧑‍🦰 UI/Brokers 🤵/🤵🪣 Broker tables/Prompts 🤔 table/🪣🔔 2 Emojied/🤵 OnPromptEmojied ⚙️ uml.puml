@@ -1,0 +1,30 @@
+@startuml OnPromptEmojied
+
+
+box Broker 🤵 domain #FFFFFA
+    participant "OnInserted 🔔" as script
+    participant "Prompts 🪣" as table
+    participant "OnEmojied 🔔" as handler
+end box
+
+participant "Notifier 📣" as notifier
+participant "Wallet 👱" as wallet
+
+
+activate script
+    script -> table: SAVE 💾
+deactivate script
+
+activate table
+    table --> handler: EMOJIED 🔔
+deactivate table
+
+activate handler
+    handler --> notifier: SEND 📬 {Prompt 🐌}
+deactivate handler
+
+activate notifier
+    notifier --> wallet: 
+deactivate notifier
+
+@enduml

@@ -13,6 +13,7 @@ Datasetter
 Datasetters
 Distincts
 Elon
+Emojied
 enduml
 Ephemerals
 Fier
