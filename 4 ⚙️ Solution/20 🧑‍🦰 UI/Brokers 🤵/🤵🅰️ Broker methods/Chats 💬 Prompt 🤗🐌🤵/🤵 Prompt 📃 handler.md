@@ -6,7 +6,6 @@
 > Dependencies
 * Depends on the [`PromptEmoji` 📃 script](<🤵 Prompt 📃 emoji.md>)
 
-<br/>
 
 ## Script
 
