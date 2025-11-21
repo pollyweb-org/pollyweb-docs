@@ -45,15 +45,13 @@
     |       | [`.Equals`](<../Any 📚 holders/Equals ⓕ any.md>) |bool| Same as [`.Is`](<../Any 📚 holders/Is ⓕ any.md>)
     |       | [`.Differs`](<../Any 📚 holders/Differs ⓕ any.md>) |bool| Same as [`.IsNot`](<../Any 📚 holders/IsNot ⓕ any.md>)
     |Lists  | [`.IsIn`](<../Any 📚 holders/IsIn ⓕ any.md>) |bool| Is it in a given list of numbers?
-    |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/generators/Random ⓕ.md>) |[num][num]| Returns a random number
-    |Change | [`.Sum`](<Sum ⓕ num.md>) |[num][num]| Adds numbers
-    |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[num][num]| Same as [`.Sum`](<Sum ⓕ num.md>)
-    |       | [`.Plus`](<../Any 📚 holders/Plus ⓕ any.md>) |[num][num]| Same as [`.Sum`](<Sum ⓕ num.md>) | What if we add numbers?
-    |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) |[num][num]| Subtracts numbers
-    |       | [`.Times`](<Times ⓕ num.md>) |[num][num]| Multiplies numbers
-    |       | [`.Calculate`](<Calculate ⓕ num.md>) |[num][num]| Calculates formulas
-    |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) |[num][num]| Distance between 2 numbers
+    |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/generators/Random ⓕ.md>) |[num](<🧠 Num holders.md>)| Returns a random number
+    |Change | [`.Sum`](<Sum ⓕ num.md>) |[num](<🧠 Num holders.md>)| Adds numbers
+    |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<Sum ⓕ num.md>)
+    |       | [`.Plus`](<../Any 📚 holders/Plus ⓕ any.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<Sum ⓕ num.md>) | What if we add numbers?
+    |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) |[num](<🧠 Num holders.md>)| Subtracts numbers
+    |       | [`.Times`](<Times ⓕ num.md>) |[num](<🧠 Num holders.md>)| Multiplies numbers
+    |       | [`.Calculate`](<Calculate ⓕ num.md>) |[num](<🧠 Num holders.md>)| Calculates formulas
+    |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) |[num](<🧠 Num holders.md>)| Distance between 2 numbers
     ---
     <br/>
-
-[num]: <Num holders.md>

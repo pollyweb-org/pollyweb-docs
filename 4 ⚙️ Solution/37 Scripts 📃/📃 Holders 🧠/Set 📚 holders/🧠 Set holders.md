@@ -7,7 +7,7 @@
 1. **What are Set holders?**
 
     `Set` holders 
-    * are [List 🧠 holders](<../List 📚 holders/🧠 List holders.md>) that contain [Maps 🧠][map]
+    * are [List 🧠 holders](<../List 📚 holders/🧠 List holders.md>) that contain [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>)
         * e.g. `[{A:11,B:12}, {A:21,B:22}]`
     * typically representing a collection of similar objects
         * e.g. an [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>), [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
@@ -20,24 +20,16 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns | Details 
     |-|-|-|-
-    |Read | [`.First`][.First] | [set][set], [map][map] | Return the first `n` [Maps 🧠][map] with [`.Filter`][.Filter]
-    ||[`.Take`][.Take] | [set][set], [map][map] | Equals [`.First`][.First]
-    ||[`.Last`](<../Any 📚 holders/Last ⓕ.md>) | [set][set], [map][map] | Return the last `n` [Maps 🧠][map] with [`.Filter`][.Filter]
-    ||[`.Filter`][.Filter] | [set][set] | Return [Maps 🧠][map] that match a given filter
-    ||[`.Where`](<Where ⓕ set.md>) | [set][set] | Equals [`.Filter`][.Filter]
-    |Merge| [`.Cross`](<Cross ⓕ.md>) | [set][set] | Cross multiple [Set 🧠 holders][set]
-    |Change | [`Set.Sort`](<Sort ⓕ set.md>) | [set][set] | Sort [Maps 🧠][map] by key
-    || [`.Format`](<Format ⓕ set.md>) | [set][set] | Select and rename [Map 🧠][map] keys
-    ||[`.Append`][.Append]     |[set][set]| Add items to the list
-    |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[set][set]| Same as [`.Append`][.Append]
+        |Read | [`.First`](<../Any 📚 holders/First ⓕ.md>) | [set](<🧠 Set holders.md>), [map](<../Map 📚 holders/🧠 Map holders.md>) | Return the first `n` [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) with [`.Filter`](<Filter ⓕ set.md>)
+        ||[`.Take`](<../Any 📚 holders/Take ⓕ.md>) | [set](<🧠 Set holders.md>), [map](<../Map 📚 holders/🧠 Map holders.md>) | Equals [`.First`](<../Any 📚 holders/First ⓕ.md>)
+        ||[`.Last`](<../Any 📚 holders/Last ⓕ.md>) | [set](<🧠 Set holders.md>), [map](<../Map 📚 holders/🧠 Map holders.md>) | Return the last `n` [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) with [`.Filter`](<Filter ⓕ set.md>)
+        ||[`.Filter`](<Filter ⓕ set.md>) | [set](<🧠 Set holders.md>) | Return [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) that match a given filter
+        ||[`.Where`](<Where ⓕ set.md>) | [set](<🧠 Set holders.md>) | Equals [`.Filter`](<Filter ⓕ set.md>)
+        |Merge| [`.Cross`](<Cross ⓕ.md>) | [set](<🧠 Set holders.md>) | Cross multiple [Set 🧠 holders](<🧠 Set holders.md>)
+        |Change | [`Set.Sort`](<Sort ⓕ set.md>) | [set](<🧠 Set holders.md>) | Sort [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) by key
+        || [`.Format`](<Format ⓕ set.md>) | [set](<🧠 Set holders.md>) | Select and rename [Map 🧠](<../Map 📚 holders/🧠 Map holders.md>) keys
+        ||[`.Append`](<../List 📚 holders/Append ⓕ list.md>)     |[set](<🧠 Set holders.md>)| Add items to the list
+        |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[set](<🧠 Set holders.md>)| Same as [`.Append`](<../List 📚 holders/Append ⓕ list.md>)
 
     ---
     <br/>
-
-[list]: <List holders.md>
-[.First]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.First}.md>
-[.Take]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Take}.md>
-[map]: <Map holders.md>
-[.Filter]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Filter}.md>
-[set]: <Set holders.md>
-[.Append]: <../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>

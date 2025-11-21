@@ -43,18 +43,16 @@
     |       | [`.IsNot`](<../Any 📚 holders/IsNot ⓕ any.md>) | bool | Is it a different meaning?
     |       | [`.Equals`](<../Any 📚 holders/Equals ⓕ any.md>) | bool | Same as [`.Is`](<../Any 📚 holders/Is ⓕ any.md>) 
     |       | [`.Differs`](<../Any 📚 holders/Differs ⓕ any.md>) | bool | Same as [`.IsNot`](<../Any 📚 holders/IsNot ⓕ any.md>)
-    |Read | [`.Key`](<../Any 📚 holders/Key ⓕ.md>) | [map][map] | Return a pair with a given key
+    |Read | [`.Key`](<../Any 📚 holders/Key ⓕ.md>) | [map](<🧠 Map holders.md>) | Return a pair with a given key
     || [`.Keys`](<Keys ⓕ map.md>) | [list](<../List 📚 holders/🧠 List holders.md>)  |Return all pair keys as a [List 🧠](<../List 📚 holders/🧠 List holders.md>)
     || [`.Value`](<../Any 📚 holders/Value ⓕ any.md>) | any | Return the value of a given key
     || [`.Values`](<Values ⓕ map.md>) | [list](<../List 📚 holders/🧠 List holders.md>) | Return all pair values as a [List 🧠](<../List 📚 holders/🧠 List holders.md>)
-    |Change | [`.Set`](<../Any 📚 holders/Set ⓕ.md>) |[map][map]|  Change or add one or more pairs
-    ||[`.Add`](<../Any 📚 holders/Add ⓕ any.md>) | [map][map] | Same as [`.Set`](<../Any 📚 holders/Set ⓕ.md>)
-    |       | [`.Plus`](<../Any 📚 holders/Plus ⓕ any.md>) | [map][map] | Same as [`.Set`](<../Any 📚 holders/Set ⓕ.md>)
-    |       | [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>) | [map][map] | Remove one or more keys
-    |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) | [map][map] | Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
-    |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) | [map][map] | Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
+    |Change | [`.Set`](<../Any 📚 holders/Set ⓕ.md>) |[map](<🧠 Map holders.md>)|  Change or add one or more pairs
+    ||[`.Add`](<../Any 📚 holders/Add ⓕ any.md>) | [map](<🧠 Map holders.md>) | Same as [`.Set`](<../Any 📚 holders/Set ⓕ.md>)
+    |       | [`.Plus`](<../Any 📚 holders/Plus ⓕ any.md>) | [map](<🧠 Map holders.md>) | Same as [`.Set`](<../Any 📚 holders/Set ⓕ.md>)
+    |       | [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>) | [map](<🧠 Map holders.md>) | Remove one or more keys
+    |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) | [map](<🧠 Map holders.md>) | Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
+    |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) | [map](<🧠 Map holders.md>) | Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
 
     ---
     <br/>
-
-[map]: <Map holders.md>

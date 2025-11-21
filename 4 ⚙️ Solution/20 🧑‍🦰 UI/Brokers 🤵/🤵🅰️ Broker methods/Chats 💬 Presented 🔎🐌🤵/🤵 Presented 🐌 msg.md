@@ -6,7 +6,7 @@
 
 > Purpose
 
-* The [Finder 🔎 domain][Finder] finished the introduction.
+* The [Finder 🔎 domain](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) finished the introduction.
 
 > Used by 
 
@@ -27,13 +27,8 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-| Header |`From`|text| [Finder 🔎][Finder] | [`Present@`][Present@]
-|        |`To`|text| [Broker 🤵][Broker]  | [`Present@`][Present@] |
+| Header |`From`|text| [Finder 🔎](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Present@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
+|        |`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)  | [`Present@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) |
 |        | `Subject` |text| `Presented@Broker`
-| Body   | `Chat`  | uuid   | [Chat 💬 ID][Chat] | [`Present@`][Present@]
+| Body   | `Chat`  | uuid   | [Chat 💬 ID](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Present@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
 |
-
-[Present@]: <../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>
-[Chat]: <../../../../35 💬 Chats/Chats 💬/💬 Chat.md>
-[Finder]: <../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>
-[Broker]: <../../🤵 Broker helper/🤵 Broker 🤲 helper.md>
