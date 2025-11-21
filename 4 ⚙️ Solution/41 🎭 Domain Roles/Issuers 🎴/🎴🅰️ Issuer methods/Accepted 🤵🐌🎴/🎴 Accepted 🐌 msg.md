@@ -3,11 +3,13 @@
 > Flow
 * Part of the [🧑‍🦰👉🎴 Save Token @ Issuer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) flow.
 
+> Implementation
+* Implemented by the [`Accepted` 📃 script](<🎴 Accepted 📃 handler.md>)
+
 > Purpose
 * Tells an [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>) 
     * if a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) was accepted or rejected.
 
-<br/>
 
 ## Async Message 🐌
 

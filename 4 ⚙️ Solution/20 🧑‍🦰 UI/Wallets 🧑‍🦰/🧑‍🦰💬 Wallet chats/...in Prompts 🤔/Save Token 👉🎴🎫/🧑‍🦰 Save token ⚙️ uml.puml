@@ -2,16 +2,16 @@
 
 
 ' ----------------------
-actor "User" as user
-participant "Wallet 👱" as wallet
-participant "Notifier 📣" as notifier
-participant "Broker 🤵" as broker
+'actor "User" as user
+'participant "Notifier 📣" as notifier
 ''participant "Graph 🕸" as graph
 participant "Issuer 🎴" as issuer
+participant "Broker 🤵" as broker
+participant "Wallet 👱" as wallet
 
 
-''activate issuer
-''    issuer --> wallet: 1) ⏪ Prompt 🤔 {transact?}
+activate issuer
+    issuer --> wallet: 1) Prompt ⏩ {issuing your token...}
 ''deactivate issuer
 
 ''activate wallet
@@ -19,8 +19,8 @@ participant "Issuer 🎴" as issuer
 ''    wallet --> issuer: 
 ''deactivate wallet
 
-activate issuer
-    issuer --> broker: 1) Offer 🐌 {hook}
+''activate issuer
+    issuer --> broker: 2) Offer 🐌 {hook}
 deactivate issuer
 
 activate broker
@@ -30,7 +30,7 @@ activate broker
 ''        graph --> broker: {translation}
 ''    deactivate graph
 
-    broker -> wallet: 2) ⏪ Prompt 🤔 {save?}
+    broker -> wallet: 3) Prompt ⏩ {save?}
 ''deactivate broker
 
 ''activate wallet 
@@ -42,7 +42,7 @@ activate broker
 
 
 ''activate broker
-    broker --> wallet: 3) Save 🐌 {token}
+    broker --> wallet: 4) Save 🐌 {token, hook}
 deactivate broker
 
 ' NOTIFY
@@ -53,25 +53,25 @@ deactivate broker
 ' ACCEPT
 activate wallet
     ' DOWNLOAD
-    wallet -> issuer: 4) Issued 🚀
+    wallet -> issuer: 5) Issued 🚀 {hook}
     ''activate issuer
     ''    issuer -> wallet: {token}
     ''deactivate issuer
     ''wallet -> wallet: save
 
     ' CONFIRM
-    wallet --> broker: 5) Saved 🐌 { token, path }
+    wallet --> broker: 6) Saved 🐌 {token, path}
 deactivate wallet
 
 activate broker
 ''end group
 
-    broker --> issuer: 6) Accepted {hook, token} 🐌
+    broker --> issuer: 7) Accepted {hook} 🐌
 deactivate broker
 
-''activate issuer
-''    issuer --> wallet: 9) ⏪ Prompt 🤔
-''deactivate issuer
+activate issuer
+    issuer --> wallet: 8) Prompt ⏩ {saved to your wallet}
+deactivate issuer
 
 
 ' ----------------------
