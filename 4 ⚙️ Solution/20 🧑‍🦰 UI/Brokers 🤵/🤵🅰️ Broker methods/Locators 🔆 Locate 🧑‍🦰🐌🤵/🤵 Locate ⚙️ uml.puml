@@ -10,7 +10,7 @@ participant "Wallet 👱" as wallet
 box "Broker 🤵" #FFFFFA
     participant "Handler 📃" as broker
     participant "Wallets 🪣" as wallets
-    participant "Engine ⚙️" as engine
+    participant "Chats 🪣" as chats
 end box
 
 
@@ -23,20 +23,7 @@ deactivate wallet
 activate broker
 
     broker -> wallets: READ 🧲 {from}
-
-    broker -> engine: RUN 🏃 Resolve-Alias 
-    activate engine
-        engine -> broker: {$locator}
-    deactivate engine
-    
-    broker -> engine: RUN 🏃 Save-Chat
-    activate engine
-        engine -> broker: {chat}
-    deactivate engine
-
-    broker -> engine: RUN 🏃 Save-Host
-
-
+    broker -> chats: SAVE 💾 
 
 deactivate broker
 
