@@ -17,11 +17,12 @@
         Subject: About@Graph
     Body:
         Domain: $Chat.Host
-        Language: $Chat.Language
+        Language: $Chat.Wallet.Language
 
 # Save the Host info
 - SAVE|$Chat:
     .State: DETAILED
+    Language: $Chat.Wallet.Language
     HostTitle: $domain.Title
     Description: $domain.Description
     SmallIcon: $domain.SmallIcon

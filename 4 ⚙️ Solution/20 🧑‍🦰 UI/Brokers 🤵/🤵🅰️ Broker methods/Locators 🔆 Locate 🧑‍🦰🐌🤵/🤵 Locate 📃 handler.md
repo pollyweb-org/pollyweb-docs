@@ -38,32 +38,12 @@
 - VERIFY|$.Msg:
     Key: $wallet.PublicKey
 
-# Parse the locator
-- PARSE >> $locator:
-    Locator: $.Msg.Body.Locator
-
-# Resolve any ALIAS locator
-- IF|$locator.IsAlias:
-
-    # Send the request to the Printer
-    - SEND >> $resolved:
-        Header:
-            To: $locator.Host
-            Subject: Resolve@Printer
-        Body:
-            Locator: $.Msg.Locator
-
-    # Parse the locator again
-    - PARSE >> $locator:
-        Locator: $resolved
-
 # Create a new Chat
 - SAVE|Broker.Chats >> $chat:
+    Hook: $.Msg.Hook
+    Origin: $.Msg.Origin
     Wallet: $wallet.ID
-    Host: $locator.Host
-    Key: $locator.Key
-    Parameters: $locator.Parameters
-    PublicKey: $keys.PublicKey     
+    Locator: $.Msg.Locator
 ```
 
 > Continues on the [`Present@Finder` 📃 handler](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 📃 handler.md>)

@@ -17,7 +17,7 @@
 
     A `FOR` *️⃣
     * is a flow [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)  
-    * that runs a list of [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
+    * that runs a list of [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * in an orderly sequence
     * for each item in a given list.
   
