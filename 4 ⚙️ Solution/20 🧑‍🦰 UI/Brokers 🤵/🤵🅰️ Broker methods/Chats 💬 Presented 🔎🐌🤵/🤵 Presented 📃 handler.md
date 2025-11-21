@@ -28,10 +28,14 @@
 # Verify the message
 - VERIFY|$.Msg
 
-# Read the chat
+# Read the chatter
 - READ >> $chat:
-    Set: Broker.Chats
-    Key: $.Msg.Chat
+    Set: Broker.Chatters
+    Key: 
+        Domain: $.Msg.From
+        Chat: $.Msg.Chat
+    Assert:
+        Role: FINDER
 
 # Process the Chat state
 - SAVE|$chat:

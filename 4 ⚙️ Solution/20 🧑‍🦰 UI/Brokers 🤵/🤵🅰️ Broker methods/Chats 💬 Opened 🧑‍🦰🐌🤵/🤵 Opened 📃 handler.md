@@ -14,16 +14,25 @@
 
 # Verify the required inputs
 - ASSERT|$.Msg:
-    OneOf: Chat
-    UUIDs: Chat
+    AllOf: Chat, PublicKey
+    UUIDs: Chat, From
+    Texts: PublicKey
 
-# Verify the message
-- VERIFY|$.Msg
+# Get the Wallet
+- READ >> $wallet:
+    Set: Broker.Wallets
+    Key: $.Msg.From
+
+# Verify the message with the Wallet's PublicKey
+- VERIFY|$.Msg:
+    PublicKey: $wallet.PublicKey
 
 # Read the chat
 - READ >> $chat:
     Set: Broker.Chats
     Key: $.Msg.Chat
+    Assert: 
+        Wallet: $wallet.ID
 
 # Process the Chat state
 - SAVE|$chat:
