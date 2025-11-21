@@ -241,6 +241,8 @@ CONSUMER_REPLACEMENT = "[Consumer 💼 domain](<💼🎭 Consumer role.md>)"
 CONSUMERS_REPLACEMENT = "[Consumer 💼 domains](<💼🎭 Consumer role.md>)"
 WALLET_REPLACEMENT = "[Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet 🛠️ app.md>)"
 WALLETS_REPLACEMENT = "[Wallet 🧑‍🦰 apps](<🧑‍🦰 Wallet 🛠️ app.md>)"
+GRAPH_REPLACEMENT = "[Graph 🕸 domain](<🕸🤲 Graph helper.md>)"
+GRAPHS_REPLACEMENT = "[Graph 🕸 domains](<🕸🤲 Graph helper.md>)"
 
 
 @register_hardcoded("placeholder", replacement=PLACEHOLDER_REPLACEMENT, token_label="Placeholder")
@@ -902,6 +904,18 @@ def replace_streamers_tokens(md_files):
     return _replace_simple(md_files, pattern, STREAMERS_REPLACEMENT)
 
 
+@register_hardcoded("graph", replacement=GRAPH_REPLACEMENT, token_label="Graph")
+def replace_graph_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Graph`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, GRAPH_REPLACEMENT)
+
+
+@register_hardcoded("graphs", replacement=GRAPHS_REPLACEMENT, token_label="Graphs")
+def replace_graphs_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Graphs`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, GRAPHS_REPLACEMENT)
+
+
 @register_hardcoded("subscriber", replacement=SUBSCRIBER_REPLACEMENT, token_label="Subscriber")
 def replace_subscriber_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Subscriber`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
@@ -1177,6 +1191,8 @@ __all__ = [
     "replace_subscribers_tokens",
     "replace_streamer_tokens",
     "replace_streamers_tokens",
+    "replace_graph_tokens",
+    "replace_graphs_tokens",
     "replace_function_tokens",
     "replace_functions_tokens",
     "replace_dot_function_tokens",
