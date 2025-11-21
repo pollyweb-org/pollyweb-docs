@@ -2,7 +2,7 @@
 
 > Implements the [Broker 🤵 domain][Broker domain]
 
-> Stores [Chats 💬][Chats]
+> Stores [Chats 💬][Chat]
 
 
 
@@ -109,27 +109,20 @@ Emoji: 😃                # New chat emoji
 
 Property|Type|Details|Origin|Purpose
 |-|-|-|-|-
-|`ID`|uuid | [Chat 💬][Chat] ID |[`Locate@`][Locate@]| [`Chats@`][Chats@]
-|`Wallet`| uuid | [Wallet 🧑‍🦰][Wallet app] ID | [`Locate@`][Locate@] | [`Chats@`][Chats@]
-|`Host` | text | [Host 🤗][Host domain] name |[`Locate@`][Locate@]| [`Chats@`][Chats@]
-|`Host$`|text | [Host 🤗][Host domain] title |[`Locate@`][Locate@]| [`Chats@`][Chats@]
-|`Emoji`|text | [Manifest 📜][Manifest] emoji |[`Locate@`][Locate@]| [`Chats@`][Chats@]
+|`ID`|uuid | [Chat 💬][Chat] ID |[`Locate@`][Locate@]| [`Chats@`][Chat@]
+|`Wallet`| uuid | [Wallet 🧑‍🦰][Wallet app] ID | [`Locate@`][Locate@] | [`Chats@`][Chat@]
+|`Host` | text | [Host 🤗][Host domain] name |[`Locate@`][Locate@]| [`Chats@`][Chat@]
+|`Host$`|text | [Host 🤗][Host domain] title |[`Locate@`][Locate@]| [`Chats@`][Chat@]
+|`Emoji`|text | [Manifest 📜][Manifest] emoji |[`Locate@`][Locate@]| [`Chats@`][Chat@]
 |`PublicKey` | text | [Wallet 🧑‍🦰][Wallet app] verification |[`Locate@`][Locate@]| [`Chat@`][Chat@]
 |`Origin` | uuid | Parent [Chat 💬][Chat] |[`Locate@`][Locate@] | [`Presented@`][Presented@]
 |
 
-[`Abandoned@Host` 🅰️ method][Abandoned@Host method]
-[`.AllOf`][.AllOf]
-
-[.AllOf]: <../../../../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/AllOf ⓕ.md>
 [Abandoned@]: <../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>
-[Abandoned@Host method]: <../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>
 [About@]: <../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 📃 handler.md>
 [Broker domain]: <../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>
 [Chat]: <../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>
 [Chat@]: <../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>
-[Chats]: <../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>
-[Chats@]: <../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>
 [Chatters]: <../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>
 [Domains]: <../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>
 [domains]: <../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>
