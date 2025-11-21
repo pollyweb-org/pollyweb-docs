@@ -3,13 +3,13 @@
 
 # 👥🚀🕸 Schema @ Graph
 
-> Part of [Graph 🕸 domain][Graph]
+> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
 
 > Purpose
 
-* Gets the schema of a [Schema 🧩][Schema] 
-    * as defined in [`.MANIFEST/CODE` 🧩][CODE] 
-    * of [domain Manifests 📜][Manifest].
+* Gets the schema of a [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
+    * as defined in [`.MANIFEST/CODE` 🧩](<../../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>) 
+    * of [domain Manifests 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 * When the schema references other schemas with `$ref`, 
     * this method returns the final merged schema for independent validation 
     * i.e., there's no need for further calls to get the referenced schemas.
@@ -30,10 +30,10 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header|`From`|text| The name of the [domain 👥][Domain] asking
-|       |`To`|text| [Graph 🕸 domain][Graph] name
+| Header|`From`|text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `Schema@Graph`
-| Body  | `Schema`    |text| [Schema 🧩][Schema]
+| Body  | `Schema`    |text| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 || `Language`  |text| Translation, defaults to `en-us`
 
 
@@ -53,16 +53,8 @@ Format: IsElectric, Size, NeedsAssistant, DateOfBirth
 |-|-|-
 | `Title`    |text| Translated schema title
 | `Description` |text| Translated schema description
-| `Version`  | text | [Schema 🧩][Schema] version
-| `Inherits` | text | The base [Schema 🧩][Schema], if inherited
+| `Version`  | text | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) version
+| `Inherits` | text | The base [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>), if inherited
 | `Location` |text| URL to read the Schema from, if external
 | `Format`   |text| The structure of the Schema
 |
-
-
-
-[Schema]: <../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>
-[Manifest]: <../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>
-[CODE]: <../../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>
-[Graph]: <../../🕸 Graph/🕸🤲 Graph helper.md>
-[Domain]: <../../../../40 👥 Domains/👥 Domain/👥 Domain.md>

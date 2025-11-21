@@ -11,7 +11,6 @@ from urllib.parse import quote
 
 REFERENCE_DEFINITION_PATTERN = re.compile(r"^\[[^\]]+\]:\s*<[^>]+>\s*$")
 REFERENCE_DEFINITION_CAPTURE_PATTERN = re.compile(r"^\[(?P<label>[^\]]+)\]:\s*<(?P<target>[^>]+)>\s*$")
-INLINE_LINK_PATTERN = re.compile(r"\[(?P<text>[^\]]+)\]\(<(?P<target>[^>]+)>\)")
 REFERENCE_LINK_USAGE_PATTERN = re.compile(r"\[(?P<text>[^\]]+)\]\[(?P<label>[^\]]+)\]")
 
 # Instructions on how to run this script:
@@ -339,82 +338,42 @@ def validate_reference_targets(md_files: List[str], project_directory: str) -> N
     raise FileNotFoundError("One or more reference links point to missing files. See details above.")
 
 
-def _allocate_reference_label(
-    preferred: str,
-    target: str,
-    assigned: dict[str, str],
-    existing: dict[str, str],
-) -> str:
-    """Assign a reference label ensuring uniqueness for the given target."""
+def _collapse_reference_links_in_document(doc_path: Path) -> Optional[int]:
+    """Collapse reference links to inline links within a single markdown document."""
 
-    base = _sanitize_reference_label(preferred)
-    if not base:
-        base = os.path.splitext(os.path.basename(target))[0] or target
-        base = _sanitize_reference_label(base)
-    if not base:
-        base = "reference"
+    try:
+        original_content = doc_path.read_text(encoding='utf-8')
+    except Exception:
+        return None
 
-    candidate = base
-    suffix = 2
-    while True:
-        current = assigned.get(candidate)
-        if current is None:
-            current = existing.get(candidate)
-        if current is None or current == target:
-            assigned[candidate] = target
-            return candidate
-        candidate = f"{base} {suffix}"
-        suffix += 1
+    lines = original_content.splitlines()
+    body_lines, existing_refs, raw_label_map = _gather_existing_reference_definitions(lines)
+    if not existing_refs:
+        return 0
 
-
-def _convert_inline_links_to_references(
-    body_lines: List[str],
-    reference_lookup: dict[str, str],
-    existing_refs: dict[str, str],
-    raw_label_map: dict[str, tuple[str, str]],
-) -> tuple[List[str], dict[str, str], int]:
-    """Transform inline links into reference links within the provided lines."""
+    def _resolve_target(label: str) -> Optional[str]:
+        sanitized = _sanitize_reference_label(label)
+        target = existing_refs.get(sanitized)
+        if target is not None:
+            return target
+        raw_entry = raw_label_map.get(label)
+        if raw_entry:
+            return raw_entry[1]
+        return None
 
     converted_lines: List[str] = []
-    assigned: dict[str, str] = {}
     replacements = 0
     code_fence_active = False
-
-    def replace_match(match: re.Match[str]) -> str:
-        nonlocal replacements
-        text = match.group('text')
-        target = match.group('target')
-        basename = os.path.basename(target)
-        preferred_label = (
-            reference_lookup.get(basename)
-            or reference_lookup.get(target)
-            or _sanitize_reference_label(text)
-        )
-        label = _allocate_reference_label(preferred_label, target, assigned, existing_refs)
-        replacements += 1
-        return f"[{text}][{label}]"
 
     def replace_reference_usage(match: re.Match[str]) -> str:
         nonlocal replacements
         text = match.group('text')
         original_label = match.group('label')
-        sanitized_label = _sanitize_reference_label(original_label)
-        target = None
-        raw_entry = raw_label_map.get(original_label)
-        if raw_entry:
-            sanitized_label, target = raw_entry
+        target = _resolve_target(original_label)
         if target is None:
-            target = existing_refs.get(sanitized_label)
-        if target is None:
-            target = assigned.get(sanitized_label)
-        if target is None:
-            return match.group(0)
-
-        label = _allocate_reference_label(sanitized_label, target, assigned, existing_refs)
-        if label == original_label:
             return match.group(0)
         replacements += 1
-        return f"[{text}][{label}]"
+        return f"[{text}](<{target}>)"
 
     for line in body_lines:
         stripped = line.lstrip()
@@ -427,140 +386,53 @@ def _convert_inline_links_to_references(
             converted_lines.append(line)
             continue
 
-        new_line, _ = INLINE_LINK_PATTERN.subn(replace_match, line)
-        new_line, _ = REFERENCE_LINK_USAGE_PATTERN.subn(replace_reference_usage, new_line)
+        new_line, _ = REFERENCE_LINK_USAGE_PATTERN.subn(replace_reference_usage, line)
         converted_lines.append(new_line)
 
-    return converted_lines, assigned, replacements
-
-
-def extract_reference_links(
-    md_files: List[str],
-    project_directory: str,
-    successful_tests: List[dict],
-) -> int:
-    """Convert inline links to reference links in the Broker Chats table document."""
-
-    target_basename = "🤵 Broker.Chats 🪣 table.md"
-    target_path: Optional[Path] = None
-    for path_str in md_files:
-        if os.path.basename(path_str) == target_basename:
-            target_path = Path(path_str)
-            break
-
-    if target_path is None or not target_path.exists():
+    if replacements == 0:
         return 0
-
-    try:
-        original_content = target_path.read_text(encoding='utf-8')
-    except Exception:
-        return 0
-
-    if (
-        INLINE_LINK_PATTERN.search(original_content) is None
-        and REFERENCE_LINK_USAGE_PATTERN.search(original_content) is None
-    ):
-        return 0
-
-    reference_lookup: dict[str, str] = {}
-    for test in successful_tests:
-        link_file = test.get('LinkFile')
-        link_text = test.get('LinkText')
-        if not link_file or not link_text:
-            continue
-        sanitized = _sanitize_reference_label(link_text)
-        if not sanitized:
-            continue
-        reference_lookup.setdefault(os.path.basename(link_file), sanitized)
-        for alias in HARDCODED_FILE_ALIASES.get(link_file, []):
-            reference_lookup.setdefault(os.path.basename(alias), sanitized)
-
-    lines = original_content.splitlines()
-    body_lines, existing_refs, raw_label_map = _gather_existing_reference_definitions(lines)
-    converted_lines, assigned_refs, replacements = _convert_inline_links_to_references(
-        body_lines,
-        reference_lookup,
-        existing_refs,
-        raw_label_map,
-    )
-
-    body_text = '\n'.join(converted_lines)
-    used_labels: List[str] = []
-    for match in re.finditer(r"\[[^\]]+\]\[([^\]]+)\]", body_text):
-        label = match.group(1)
-        if label not in used_labels:
-            used_labels.append(label)
-
-    label_to_target: dict[str, str] = {}
-    for label in used_labels:
-        target = assigned_refs.get(label) or existing_refs.get(label)
-        if not target or label in label_to_target:
-            continue
-        label_to_target[label] = target
-
-    sort_key = lambda label: (label.casefold(), label)
-
-    target_to_label: dict[str, str] = {}
-    alias_map: dict[str, str] = {}
-    for label in sorted(label_to_target, key=sort_key):
-        target = label_to_target[label]
-        canonical = target_to_label.setdefault(target, label)
-        if canonical != label:
-            alias_map[label] = canonical
-
-    if alias_map:
-        pattern = re.compile(r"\[([^\]]+)\]\[(" + "|".join(map(re.escape, alias_map)) + r")\]")
-
-        def _rewrite_alias(match: re.Match[str]) -> str:
-            nonlocal replacements
-            text = match.group(1)
-            original_label = match.group(2)
-            canonical_label = alias_map[original_label]
-            replacements += 1
-            return f"[{text}][{canonical_label}]"
-
-        body_text = pattern.sub(_rewrite_alias, body_text)
-        converted_lines = body_text.split('\n')
-
-        used_labels = []
-        for match in re.finditer(r"\[[^\]]+\]\[([^\]]+)\]", body_text):
-            label = match.group(1)
-            if label not in used_labels:
-                used_labels.append(label)
-
-        label_to_target = {}
-        for label in used_labels:
-            target = assigned_refs.get(label) or existing_refs.get(label)
-            if not target or label in label_to_target:
-                continue
-            label_to_target[label] = target
-
-    final_refs: List[str] = [f"[{label}]: <{label_to_target[label]}>" for label in sorted(label_to_target, key=sort_key)]
 
     output_lines = converted_lines
     while output_lines and not output_lines[-1].strip():
         output_lines.pop()
 
-    if final_refs:
-        output_lines.append('')
-        output_lines.extend(final_refs)
-
     ends_with_newline = original_content.endswith('\n')
     new_content = '\n'.join(output_lines)
-    if ends_with_newline or final_refs:
+    if ends_with_newline:
         new_content += '\n'
 
     if new_content == original_content:
         return 0
 
     try:
-        target_path.write_text(new_content, encoding='utf-8')
+        doc_path.write_text(new_content, encoding='utf-8')
     except Exception:
-        return 0
+        return None
 
-    relative_path = os.path.relpath(target_path, project_directory)
-    print(f"Extract step: converted {replacements} inline links to references in {relative_path} ✅")
     return replacements
+
+
+def collapse_reference_links(md_files: List[str], project_directory: str) -> int:
+    """Collapse reference links into inline links across all markdown files."""
+
+    total_replacements = 0
+    per_file_changes: List[tuple[Path, int]] = []
+
+    for path_str in md_files:
+        doc_path = Path(path_str)
+        if doc_path.suffix.lower() != '.md':
+            continue
+
+        replacements = _collapse_reference_links_in_document(doc_path)
+        if replacements:
+            per_file_changes.append((doc_path, replacements))
+            total_replacements += replacements
+
+    for doc_path, replacements in per_file_changes:
+        relative_path = os.path.relpath(doc_path, project_directory)
+        print(f"Reference collapse: converted {replacements} reference links to inline in {relative_path} ✅")
+
+    return total_replacements
 
 
 def compute_expected_replacement(token: str, given_raw: str, md_files: list[str], file_dict: dict[str, List[tuple[str, str]]], project_directory: str) -> Optional[Tuple[str, Path]]:
@@ -1420,7 +1292,7 @@ def runit(project_directory, entryPoint):
         print("\nThese tokens were not replaced by the replacement passes.\n")
     validate_failed_tests(failed_tests, md_files, file_dict, project_directory, unresolved_tokens_set)
 
-    extract_reference_links(md_files, project_directory, successful_tests)
+    collapse_reference_links(md_files, project_directory)
     validate_reference_targets(md_files, project_directory)
 
     success_errors = []

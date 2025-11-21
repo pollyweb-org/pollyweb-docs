@@ -13,16 +13,11 @@
    
     |Type|Inputs|Output
     |-|-|-
-    |[Text 🧠][Text]|`ABC`|`ABC`
-    |[Num 🧠][Num]|`123`|`123`
-    |[Maps 🧠][Maps]|`{A:1}.Value` | `1`
-    |[Lists 🧠][Lists]|`{A:1,B:2}`, `B` | `2`
+    |[Text 🧠](<../Text 📚 holders/🧠 Text holders.md>)|`ABC`|`ABC`
+    |[Num 🧠](<../Num 📚 holders/🧠 Num holders.md>)|`123`|`123`
+    |[Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>)|`{A:1}.Value` | `1`
+    |[Lists 🧠](<../List 📚 holders/🧠 List holders.md>)|`{A:1,B:2}`, `B` | `2`
 
 
     ---
     <br/>
-
-[Text]: <../../📃 Holders 🧠/🧠 Holder types/Text holders.md>
-[Num]: <../../📃 Holders 🧠/🧠 Holder types/Num holders.md>
-[Maps]: <../../📃 Holders 🧠/🧠 Holder types/Map holders.md>
-[Lists]: <../../📃 Holders 🧠/🧠 Holder types/List holders.md>

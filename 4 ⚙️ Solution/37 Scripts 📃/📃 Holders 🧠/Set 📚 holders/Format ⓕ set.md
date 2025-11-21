@@ -1,18 +1,18 @@
 # 😃🔩 Talker `{$set.Format}` function
 
-> Part of [{Function} 🐍][Function]
+> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by  [`SELECT`][SELECT]
+> Used by  [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
 
 ## FAQ
 
 1. **What is the .Format function?**
 
     `{.Format}`
-    * is a [{Function} 🐍][Function] 
+    * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that calls [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>)
-    * to format every item of a [Set 🧠 holder][Set]
-    * into a [List 🧠 holder][List].
+    * to format every item of a [Set 🧠 holder](<🧠 Set holders.md>)
+    * into a [List 🧠 holder](<../List 📚 holders/🧠 List holders.md>).
 
 
     ---
@@ -29,7 +29,7 @@
 
     Inputs|Details | Example
     |-|-|-|
-    |`$set`| [Set 🧠 holder][Set] to format | `{A:1},{A:2}`
+    |`$set`| [Set 🧠 holder](<🧠 Set holders.md>) to format | `{A:1},{A:2}`
     |`format...`| Format to apply | `A` `A,B` `[A,B]` `{X:A, Y:B}`
     
 
@@ -39,7 +39,7 @@
 
 
 
-1. **How to create a value [List 🧠][List] from a [Set 🧠 holder][Set]?**
+1. **How to create a value [List 🧠](<../List 📚 holders/🧠 List holders.md>) from a [Set 🧠 holder](<🧠 Set holders.md>)?**
   
     ```yaml
     # Let's turn this      
@@ -52,7 +52,7 @@
     ```
     
    
-    Here are the [Scripts 📃][Script] with [`INFO`][INFO].
+    Here are the [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) with [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>).
 
     ```yaml   
     ┌─────────────────────┬──────────────┬─────────────┐
@@ -61,7 +61,7 @@
     │ INFO|$lst.Format(A) │ INFO|$lst(A) │ INFO|$lst.A │ 
     └─────────────────────┴──────────────┴─────────────┘    
     ```
-    Here are the [Scripts 📃][Script] with [`CALL`][CALL] and [`PUT`][PUT].
+    Here are the [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) and [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>).
     
     ```yaml
     ┌─────────────────────────┬─────────────────────┐
@@ -80,7 +80,7 @@
 
 
 
-1. **How to extract some keys from a [Set 🧠 holder][Set]?**
+1. **How to extract some keys from a [Set 🧠 holder](<🧠 Set holders.md>)?**
   
     ```yaml
     # Let's turn this      # Into this
@@ -92,7 +92,7 @@
     └────┴────┴───┘        └────┴────┘
     ```
     
-    Here are the [Scripts 📃][Script] with [`INFO`][INFO].
+    Here are the [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) with [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>).
 
     ```yaml   
     ┌───────────────────────┬────────────────┐
@@ -101,7 +101,7 @@
     │ INFO|$lst.Format(A,B) │ INFO|$lst(A,B) │ 
     └───────────────────────┴────────────────┘    
     ```
-    Here are the [Scripts 📃][Script] with [`CALL`][CALL].
+    Here are the [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
     
     ```yaml
     ┌─────────────────────────┬─────────────────────┐
@@ -131,7 +131,7 @@
     └────┴────┴───┘        └───────┴──────┘
     ```
 
-    Here are the [Scripts 📃][Script].
+    Here are the [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
     ```yaml
     ┌─────────────────────────────────────────────────────────┐
@@ -151,7 +151,7 @@
     └────────────────────────────┴────────────────────────────┘
     ```
 
-    Uses: [`CALL`][CALL] [`INFO`][INFO] [`PUT`][PUT]
+    Uses: [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
 
     ---
@@ -160,7 +160,7 @@
 
 
 
-1. **How to apply transformations on [Set 🧠 holders][Set]?**
+1. **How to apply transformations on [Set 🧠 holders](<🧠 Set holders.md>)?**
   
     ```yaml
     # List     📃 Script:             # Result
@@ -171,16 +171,7 @@
     │ 6 │ 4 │  │   - C: B.Add(50%) │  │ P6 │ 8 │ 6 │  
     └───┴───┘  └───────────────────┘  └────┴───┴───┘
     ```
-    Uses: [`PUT`][PUT] [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) [`.Take`](<../Any 📚 holders/Take ⓕ.md>)
+    Uses: [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) [`.Take`](<../Any 📚 holders/Take ⓕ.md>)
 
     ---
     <br/>
-
-[Set]: <../../📃 Holders 🧠/🧠 Holder types/Set holders.md>
-[SELECT]: <../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>
-[Function]: <../../../35 💬 Chats/Scripts 📃/Function 🐍.md>
-[List]: <../../📃 Holders 🧠/🧠 Holder types/List holders.md>
-[Script]: <../../../35 💬 Chats/Scripts 📃/Script 📃.md>
-[INFO]: <../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>
-[PUT]: <../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>
-[CALL]: <../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>

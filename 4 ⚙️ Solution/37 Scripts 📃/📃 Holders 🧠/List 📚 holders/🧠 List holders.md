@@ -39,16 +39,16 @@
     |Size   | [`.IsEmpty`](<../Any 📚 holders/IsEmpty ⓕ any.md>)  | bool| Is empty?
     |       | [`.IsOne`](<IsOne ⓕ list.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<AreMany ⓕ list.md>)  | bool| Has more than one item?
-    |       | [`.Size`][.Size]     | [num][num]| Returns the number of items
-    |       | [`.Length`](<../Any 📚 holders/Length ⓕ.md>)   |  [num][num]| Equals [`.Size`][.Size]
-    |Read   | [`.First`](<../Any 📚 holders/First ⓕ.md>)   |[list][list], any| Get the first `n` items
-    |       | [`.Last`](<../Any 📚 holders/Last ⓕ.md>)   |[list][list], any| Get the last `n` items
-    |       | [`.Distinct`](<Distinct ⓕ.md>) |[list][list]| Return only unique items
-    |Change | [`.Append`][.Append]     |[list][list]| Add items to the list
-    |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[list][list]| Same as [`.Append`][.Append]
-    |       | [`.Remove`][.Remove]   |[list][list]| Remove items from the list
-    |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) |[list][list]| Same as [`.Remove`][.Remove]
-    |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) |[list][list]| Same as [`.Remove`][.Remove]
+    |       | [`.Size`](<../Any 📚 holders/Size ⓕ.md>)     | [num](<../Num 📚 holders/🧠 Num holders.md>)| Returns the number of items
+    |       | [`.Length`](<../Any 📚 holders/Length ⓕ.md>)   |  [num](<../Num 📚 holders/🧠 Num holders.md>)| Equals [`.Size`](<../Any 📚 holders/Size ⓕ.md>)
+    |Read   | [`.First`](<../Any 📚 holders/First ⓕ.md>)   |[list](<🧠 List holders.md>), any| Get the first `n` items
+    |       | [`.Last`](<../Any 📚 holders/Last ⓕ.md>)   |[list](<🧠 List holders.md>), any| Get the last `n` items
+    |       | [`.Distinct`](<Distinct ⓕ.md>) |[list](<🧠 List holders.md>)| Return only unique items
+    |Change | [`.Append`](<Append ⓕ list.md>)     |[list](<🧠 List holders.md>)| Add items to the list
+    |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Append`](<Append ⓕ list.md>)
+    |       | [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)   |[list](<🧠 List holders.md>)| Remove items from the list
+    |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
+    |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
     
     
     ---
@@ -104,7 +104,7 @@
 
 1. **How to append into lists?**
 
-    Using the [`.Append`][.Append] or [`.Add` functions](<../Any 📚 holders/Add ⓕ any.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
+    Using the [`.Append`](<Append ⓕ list.md>) or [`.Add` functions](<../Any 📚 holders/Add ⓕ any.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
     
     ```yaml   
     ┌────────────────────────┬─────────────┐
@@ -116,7 +116,7 @@
     └────────────────────────┴─────────────┘    
     ```
 
-    Or use  `+>` instead of `>>` to append to a [List 🧠][list] with [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>).
+    Or use  `+>` instead of `>>` to append to a [List 🧠](<🧠 List holders.md>) with [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>).
     
     ```yaml
     📃 Example:
@@ -139,7 +139,7 @@
 
 1. **How to merge two lists?**
 
-    Using the [`.Append`][.Append] or [`.Add` functions](<../Any 📚 holders/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
+    Using the [`.Append`](<Append ⓕ list.md>) or [`.Add` functions](<../Any 📚 holders/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
 
     ```yaml   
     ┌────────────────────┬──────────────┐
@@ -202,7 +202,7 @@
     <br/>
 
 
-1. **How to take some properties from a [List 🧠][list] of [Map 🧠](<../Map 📚 holders/🧠 Map holders.md>)?**
+1. **How to take some properties from a [List 🧠](<🧠 List holders.md>) of [Map 🧠](<../Map 📚 holders/🧠 Map holders.md>)?**
   
     Using the [`.Format` function](<../Set 📚 holders/Format ⓕ set.md>) in one of 3 forms:
     * with the [`CALL` commands](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>),
@@ -253,10 +253,3 @@
 
     ---
     <br/>
-
-
-[list]: <List holders.md>
-[.Size]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Size}.md>
-[num]: <Num holders.md>
-[.Append]: <../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>
-[.Remove]: <../../📃 Functions 🐍/🐍 System 🔩 functions/🔩 {.Remove}.md>
