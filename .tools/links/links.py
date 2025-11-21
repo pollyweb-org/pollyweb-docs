@@ -420,9 +420,6 @@ def extract_reference_links(
         raw_label_map,
     )
 
-    if replacements == 0:
-        return 0
-
     body_text = '\n'.join(converted_lines)
     used_labels: List[str] = []
     for match in re.finditer(r"\[[^\]]+\]\[([^\]]+)\]", body_text):
