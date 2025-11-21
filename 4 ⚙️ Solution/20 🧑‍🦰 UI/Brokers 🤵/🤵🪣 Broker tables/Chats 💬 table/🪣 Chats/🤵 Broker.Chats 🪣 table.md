@@ -70,7 +70,7 @@ Handlers:
 |`PRESENTED`|[OnPresented](<../🪣🔔 5 Presented/🤵 OnChatPresented 📃 handler.md>) | [`Prompt@`](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) | [Notifier 📣](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
 |`STARTED`|[OnStarted](<../🪣🔔 6 Started/🤵 OnChatStarted 📃 handler.md>) | [`Hello@`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
 |`UPDATED`|[OnLocalized](<../🪣🔔 7 Localized/🤵 OnChatLocalized 📃 handler.md>) | [`Translate@`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 📃 handler.md>) | [Graph 🕸](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>)
-|`ABANDONED`|[OnAbandoned](<../🪣🔔 8 Abandoned/🤵 OnChatAbandoned 📃 handler.md>) | [`Abandoned@`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned2 🐌 msg.md>) | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
+|`ABANDONED`|[OnAbandoned](<../🪣🔔 8 Abandoned/🤵 OnChatAbandoned 📃 handler.md>) | [`Abandoned@`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
 |`DONE`|[OnDone](<../🪣🔔 9 Done/🤵 OnChatDone 📃 handler.md>)
 |
 
