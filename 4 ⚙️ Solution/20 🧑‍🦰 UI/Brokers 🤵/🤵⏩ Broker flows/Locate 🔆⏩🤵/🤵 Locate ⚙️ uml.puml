@@ -1,7 +1,7 @@
 @startuml Locate
 ' ------------
 
-actor User as user  
+'actor User as user  
 
 'box "User Interface (UI)"  #FFFFFF
   participant "Wallet 👱" as wallet
@@ -14,53 +14,47 @@ participant "Finder 🔎" as finder
 participant "Host 🤗" as host
 
 
-wallet --> broker: 0) Locate 🐌
+wallet --> broker: 1) Locate 🐌
 
 activate broker
 
     group Resolve, if .ALIAS 🧩 and not cached 
 
-        broker -> printer: 1) Resolve 🚀
-
-        activate printer
-            printer -> broker: {host locator}
-        deactivate printer
+        broker -> printer: 2) Resolve 🚀
 
     end group
 
     'alt No host session?
 
-        broker --> wallet: 2) ⏪ Open 💬
+        broker --> wallet: 3) Open 🐌
     deactivate broker
     
     activate wallet
-        wallet --> broker: 
+        wallet --> broker: 4) Opened 🐌
     deactivate wallet
 
     activate broker   
 
-        broker --> finder: 3) Present ⏩
+        broker --> finder: 5) Present 🐌    
         deactivate broker
             activate finder
-                finder --> wallet: 4) ⏪ Prompt ⓘ {intro}
-                finder --> broker
+                finder --> wallet: 6) ⏪ Prompt
+                finder --> broker: 7) Presented 🐌
             deactivate finder
         activate broker
 
     'end alt
 
-    broker --> wallet: 5) ⏪ Prompt ⓘ {origin}
-    broker --> wallet: 6) ⏪ Prompt ⓘ {tokens}
-    broker --> host:  7) Hello 🐌
+    broker --> wallet: 8) ⏪ Prompt  
+    broker --> host:  9) Hello 🐌
 deactivate broker
 
 activate host
-    host --> wallet: 8) ⏪ Prompt ⓘ {context}
-    host --> wallet: 9) ⏪ Prompt 😃 {what do you need?}
+    host --> wallet: A) ⏪ Prompt 
 deactivate host
 
-    user --> wallet: reply
-deactivate wallet
+'    user --> wallet: reply
+'deactivate wallet
 
 
 ' ------------

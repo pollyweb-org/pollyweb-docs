@@ -1,4 +1,4 @@
-@startuml OnChatRemoved
+@startuml OnChatLeft
  
 participant "Wallet 👱" as wallet
 
@@ -13,11 +13,12 @@ participant "Host 🤗" as host
 wallet --> script: Pop 🐌
 
 activate script
-    script -> binds: DELETE 🗑️
+    wallet --> script: leave
+    script -> binds: SAVE 💾 {LEFT}
 deactivate script
 
 activate binds
-    binds --> handler: DELETED 🔔
+    binds --> handler: LEFT 🔔
 deactivate binds
 
 activate handler
