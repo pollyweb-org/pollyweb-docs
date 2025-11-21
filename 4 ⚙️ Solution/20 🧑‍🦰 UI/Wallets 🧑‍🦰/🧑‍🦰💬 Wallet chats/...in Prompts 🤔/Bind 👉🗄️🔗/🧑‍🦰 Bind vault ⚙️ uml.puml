@@ -2,68 +2,28 @@
 
  
 ' ---------------------
-actor User as user
-participant "Wallet 👱" as wallet
-participant "Notifier 📣" as notifier
-participant "Broker 🤵" as broker
-participant "Graph 🕸" as graph
+''actor User as user
+''participant "Notifier 📣" as notifier
+''participant "Graph 🕸" as graph
 participant "Vault 🗄️" as vault
+participant "Broker 🤵" as broker
+participant "Wallet 👱" as wallet
 
-' ---------------------
-' WELCOME!
-' ---------------------
+
 
 activate vault
-vault --> wallet: 1) ⏪ Prompt 🤔 {what?}
+    vault -> wallet: 1) Prompt ⏩ "Hi! What do you need?"
+    vault --> broker: 2) Bindable 🐌 {offered schemas}
+deactivate vault    
+
+activate broker
+    broker -> wallet: 3) Prompt ⏩ "Bind?"
+    broker --> vault: 4) Bound 🐌 {selected schemas} 
+deactivate broker
+
+activate vault
+    vault --> wallet: 5) Prompt ⏩ "Bound!"
 deactivate vault
-
-activate wallet
-user --> wallet: bind
-wallet --> vault: 
-deactivate wallet
-
-activate vault
-
-group Offer binds
-
-    vault --> broker: 2) Bindable 🐌 {codes}
-    deactivate vault    
-
-    activate broker
- 
-        ' Translate.
-        broker -> graph: 3) Translate 🚀
-        activate graph
-            graph -> broker: {translations}
-        deactivate
-        
-        ' RAISE BINDABLE!
-        broker --> wallet: 4) ⏪ Prompt 🤔 {which?}
-    deactivate broker
-
-    activate wallet
-
-end group
-
-
-' BIND @ USER
-
-user --> wallet: select
-
-
-group Bind vault
-
-    wallet --> broker: {selected codes}
-    deactivate wallet
-
-    activate broker
-        broker --> vault: 5) Bound 🐌 {codes} 
-    deactivate broker
-
-end group
-
-
-
 
 ' ---------------------
 @enduml 
