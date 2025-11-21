@@ -1,25 +1,25 @@
 @startuml OnChatPresented
 
-'participant "Finder 🔎" as finder
+participant "Finder 🔎" as finder
 
 box Broker 🤵 domain #FFFFFA
-    'participant "Presented@ 📃" as script
+    participant "Presented@ 📃" as script
     participant "Chats 🪣" as chats
     participant "OnPresented 🔔" as handler
     participant "Chatters 🪣" as chatters
 end box
 
-'activate finder
-'    finder -> script: Presented 🐌
-'deactivate finder
+activate finder
+    finder -> script: Presented 🐌
+deactivate finder
 
-'activate script
-'    script -> chats: SAVE 💾 {PRESENTED}
-'deactivate script
+activate script
+    script -> chats: SAVE 💾 {PRESENTED}
+deactivate script
 
-'activate chats
+activate chats
     chats --> handler: PRESENTED 🔔
-'deactivate chats
+deactivate chats
 
 activate handler
     handler -> chatters: SAVE 💾 {BROKER}
