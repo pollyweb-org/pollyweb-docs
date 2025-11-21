@@ -1,0 +1,27 @@
+@startuml OnTokenRejected
+
+participant "Broker 🤵" as broker
+
+box Issuer 🎴 domain #FFFFFA
+    participant "Rejected@ 📃" as script
+    participant "Tokens 🪣" as tokens
+    participant "OnRejected 🔔" as handler
+    participant "Talker 😃" as talker
+end box
+
+
+broker --> script: Rejected 🐌 {hook}
+
+activate script
+    script -> tokens: SAVE 💾 {REJECTED}
+deactivate script
+
+activate tokens
+    tokens --> handler: REJECTED 🔔
+deactivate tokens
+
+activate handler
+    handler --> talker: REEL 🎣
+deactivate handler
+
+@enduml 
