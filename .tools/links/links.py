@@ -10,6 +10,7 @@ import yaml
 from urllib.parse import quote
 
 REFERENCE_DEFINITION_PATTERN = re.compile(r"^\[[^\]]+\]:\s*<[^>]+>\s*$")
+REFERENCE_DEFINITION_CAPTURE_PATTERN = re.compile(r"^\[(?P<label>[^\]]+)\]:\s*<(?P<target>[^>]+)>\s*$")
 INLINE_LINK_PATTERN = re.compile(r"\[(?P<text>[^\]]+)\]\(<(?P<target>[^>]+)>\)")
 REFERENCE_LINK_USAGE_PATTERN = re.compile(r"\[(?P<text>[^\]]+)\]\[(?P<label>[^\]]+)\]")
 
@@ -257,22 +258,85 @@ def _gather_existing_reference_definitions(lines: List[str]) -> tuple[List[str],
     references: dict[str, str] = {}
     raw_label_map: dict[str, tuple[str, str]] = {}
     for tail in tail_lines:
-        match = REFERENCE_DEFINITION_PATTERN.match(tail.strip())
+        stripped = tail.strip()
+        match = REFERENCE_DEFINITION_CAPTURE_PATTERN.match(stripped)
         if not match:
             continue
-        label_start = tail.find('[')
-        label_end = tail.find(']', label_start + 1)
-        target_start = tail.find('<', label_end)
-        target_end = tail.rfind('>')
-        if label_start == -1 or label_end == -1 or target_start == -1 or target_end == -1:
-            continue
-        raw_label = tail[label_start + 1:label_end]
+        raw_label = match.group('label')
         label = _sanitize_reference_label(raw_label)
-        target = tail[target_start + 1:target_end]
+        target = match.group('target')
         references[label] = target
         raw_label_map[raw_label] = (label, target)
 
     return body_lines, references, raw_label_map
+
+
+def _is_external_reference_target(target: str) -> bool:
+    lowered = target.lower()
+    return (
+        lowered.startswith('http://')
+        or lowered.startswith('https://')
+        or lowered.startswith('mailto:')
+        or lowered.startswith('tel:')
+        or lowered.startswith('data:')
+        or lowered.startswith('vscode:')
+        or lowered.startswith('//')
+        or lowered.startswith('#')
+    )
+
+
+def _resolve_reference_target_path(doc_path: Path, target: str) -> Optional[Path]:
+    target = target.strip()
+    if not target or _is_external_reference_target(target):
+        return None
+
+    base_target = target.split('#', 1)[0].strip()
+    base_target = base_target.split('?', 1)[0].strip()
+    if not base_target:
+        return None
+
+    target_path = Path(base_target)
+    if target_path.is_absolute():
+        return target_path.resolve()
+
+    return (doc_path.parent / target_path).resolve()
+
+
+def validate_reference_targets(md_files: List[str], project_directory: str) -> None:
+    missing: List[tuple[Path, int, str, str]] = []
+
+    for path_str in md_files:
+        doc_path = Path(path_str)
+        try:
+            lines = doc_path.read_text(encoding='utf-8').splitlines()
+        except Exception:
+            continue
+
+        for idx, line in enumerate(lines, 1):
+            match = REFERENCE_DEFINITION_CAPTURE_PATTERN.match(line.strip())
+            if not match:
+                continue
+            label = match.group('label')
+            target = match.group('target')
+            resolved = _resolve_reference_target_path(doc_path, target)
+            if resolved is None:
+                continue
+            if not resolved.exists():
+                missing.append((doc_path, idx, label, target))
+
+    if not missing:
+        return
+
+    print("\nMissing reference targets detected:")
+    project_root = Path(project_directory).resolve()
+    for doc_path, line_no, label, target in missing:
+        abs_path = doc_path.resolve()
+        display = f"{os.path.relpath(abs_path, project_root)}:{line_no}"
+        uri = f"vscode://file{quote(abs_path.as_posix(), safe='/')}:{line_no}"
+        file_link = f"\x1b]8;;{uri}\x1b\\{display}\x1b]8;;\x1b\\"
+        print(f" - {file_link} -> [{label}] <{target}>")
+
+    raise FileNotFoundError("One or more reference links point to missing files. See details above.")
 
 
 def _allocate_reference_label(
@@ -1357,6 +1421,7 @@ def runit(project_directory, entryPoint):
     validate_failed_tests(failed_tests, md_files, file_dict, project_directory, unresolved_tokens_set)
 
     extract_reference_links(md_files, project_directory, successful_tests)
+    validate_reference_targets(md_files, project_directory)
 
     success_errors = []
     for test in successful_tests:
