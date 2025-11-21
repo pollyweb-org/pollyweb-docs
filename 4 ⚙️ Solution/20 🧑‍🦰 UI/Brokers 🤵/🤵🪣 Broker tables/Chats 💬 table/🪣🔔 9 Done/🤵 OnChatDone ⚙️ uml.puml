@@ -1,4 +1,4 @@
-@startuml OnChatClosed
+@startuml OnChatDone
  
 'participant "Wallet 👱" as wallet
 'participant "Vault 🗄️" as vault
@@ -18,16 +18,16 @@ participant "Advertizer 👀" as ads
 host --> script: Goodbye 🐌
 
 activate script
-    script -> binds: SAVE 💾 {CLOSED}
+    script -> binds: SAVE 💾 {DONE}
 deactivate script
 
 activate binds
-    binds --> handler: CLOSED 🔔
+    binds --> handler: DONE 🔔
 deactivate binds
 
 activate handler
-    'handler -> reviewer: NOTIFY 🔔 {Closed chat}
-    'handler -> ads: NOTIFY 🔔 {Closed chat}
+    'handler -> reviewer: NOTIFY 🔔 {Done chat}
+    'handler -> ads: NOTIFY 🔔 {Done chat}
 deactivate handler
 
 @enduml 

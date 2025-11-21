@@ -24,6 +24,8 @@
 ```yaml
 📃 OnChatterBroker:
 
+- PUT|$Chatter.Chat >> $chat
+
 # Load the chat
 - CHAT|$chat
 
