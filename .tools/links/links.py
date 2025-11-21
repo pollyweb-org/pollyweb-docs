@@ -435,6 +435,42 @@ def extract_reference_links(
         label_to_target[label] = target
 
     sort_key = lambda label: (label.casefold(), label)
+
+    target_to_label: dict[str, str] = {}
+    alias_map: dict[str, str] = {}
+    for label in sorted(label_to_target, key=sort_key):
+        target = label_to_target[label]
+        canonical = target_to_label.setdefault(target, label)
+        if canonical != label:
+            alias_map[label] = canonical
+
+    if alias_map:
+        pattern = re.compile(r"\[([^\]]+)\]\[(" + "|".join(map(re.escape, alias_map)) + r")\]")
+
+        def _rewrite_alias(match: re.Match[str]) -> str:
+            nonlocal replacements
+            text = match.group(1)
+            original_label = match.group(2)
+            canonical_label = alias_map[original_label]
+            replacements += 1
+            return f"[{text}][{canonical_label}]"
+
+        body_text = pattern.sub(_rewrite_alias, body_text)
+        converted_lines = body_text.split('\n')
+
+        used_labels = []
+        for match in re.finditer(r"\[[^\]]+\]\[([^\]]+)\]", body_text):
+            label = match.group(1)
+            if label not in used_labels:
+                used_labels.append(label)
+
+        label_to_target = {}
+        for label in used_labels:
+            target = assigned_refs.get(label) or existing_refs.get(label)
+            if not target or label in label_to_target:
+                continue
+            label_to_target[label] = target
+
     final_refs: List[str] = [f"[{label}]: <{label_to_target[label]}>" for label in sorted(label_to_target, key=sort_key)]
 
     output_lines = converted_lines
