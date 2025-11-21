@@ -1,11 +1,11 @@
-@startuml OnChatLeft
+@startuml OnChatAbandoned
  
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "Pop@ 📃" as script
     participant "Binds 🪣" as binds
-    participant "OnLeft 🔔" as handler
+    participant "OnAbandoned 🔔" as handler
 end box
 
 participant "Host 🤗" as host
@@ -14,11 +14,11 @@ wallet --> script: Pop 🐌
 
 activate script
     wallet --> script: {leave}
-    script -> binds: SAVE 💾 {LEFT}
+    script -> binds: SAVE 💾 {ABANDONED}
 deactivate script
 
 activate binds
-    binds --> handler: LEFT 🔔
+    binds --> handler: ABANDONED 🔔
 deactivate binds
 
 activate handler
