@@ -1,15 +1,17 @@
 @startuml OnChatterHelper
 
 'participant "Wallet 👱" as wallet
+participant "Host 🤗" as host
 
 box Broker 🤵 domain #FFFFFA
-    participant "Script 📃" as script
+    participant "Invite@ 📃" as script
     participant "Chatters 🪣" as table
-    participant "OnHelper 📃" as handler
+    participant "OnHelper 🔔" as handler
 end box
 
 participant "Helper 🤲" as helper
 
+host --> script: Invite 🐌
 
 activate script
     script -> table: SAVE 💾 {HELPER}

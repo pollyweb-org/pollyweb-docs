@@ -4,7 +4,6 @@ participant "Wallet 👱" as wallet
 
 box "Broker 🤵 domain"  #FFFFFA
     participant "Opened@ 📃" as broker
-    participant "Pops 🪣" as pops
     participant "Chats 🪣" as chats
 end box
     
@@ -14,13 +13,8 @@ activate wallet
 deactivate wallet
 
 activate broker
-    alt is pop?
-        broker -> pops: READ 🧲 
-        broker -> pops: SAVE 💾 {OPENED}
-    else
-        broker -> chats: READ 🧲 
-        broker -> chats: SAVE 💾 {OPENED}
-    end
+    broker -> chats: READ 🧲 
+    broker -> chats: SAVE 💾 {OPENED}
 deactivate broker
 
 @enduml
