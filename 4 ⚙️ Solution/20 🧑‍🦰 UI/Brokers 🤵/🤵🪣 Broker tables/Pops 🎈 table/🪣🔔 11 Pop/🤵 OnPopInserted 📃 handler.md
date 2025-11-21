@@ -21,7 +21,6 @@
         Wallet: <wallet-uuid>
         Hook: <hook-uuid>
         Chat: <chat-uuid>
-        PrivateKey: <private-key>
         Host: another-domain.dom
         HostTitle: Any Other Domain, Inc.
         SmallIcon: <base64>

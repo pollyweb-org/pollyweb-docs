@@ -9,7 +9,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Binds 🪣" as binds
 end box
 
-participant "Vault 🗄️" as vault
+'participant "Vault 🗄️" as vault
 
 activate wallet 
     wallet --> script: Unbind Vault
@@ -36,10 +36,10 @@ activate script
     script -> script: PARALLEL 
     activate script
         script -> binds: DELETE 🗑️ 
-        script --> vault: SEND 📬 {Unbound@}
+        'script --> vault: SEND 📬 {Unbound@}
     deactivate script
 
-    script --> wallet: SEND 📬 {Updated@}
+    'script --> wallet: SEND 📬 {Updated@}
 deactivate script
  
 @enduml 

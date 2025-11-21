@@ -1,35 +1,33 @@
-
 # 🧑‍🦰🐌🤵 Opened @ Broker
-
-<!-- TODO: add the code -->
-<!-- TODO: add a script diagram -->
 
 > Purpose
 
-* The [Finder 🔎 domain](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) finished the introduction.
+* A [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) 
+    * informs the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
+    * that a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
+    * is ready to receive [Prompts 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>).
 
-> Used by 
-
-* [`Present` ⏩ flow](<../../../../50 🫥 Agent domains/Finders 🔎/🔎⏩ Finder flows/Present 🔎⏩🧑‍🦰/🔎 Present ⏩ flow.md>)
-
-<br/>
 
 ## Async Message 🐌
 
 ```yaml
 Header:
-    From: any-finder.dom
+    From: <wallet-uuid>
     To: any-broker.dom
-    Subject: Presented@Broker
+    Subject: Opened@Broker
 
 Body:
     Chat: <chat-uuid>
+    PublicKey: <public-key>
 ```
 
-|Object|Property|Type|Description|Origin
-|-|-|-|-|-
-| Header |`From`|text| [Finder 🔎](<../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Present@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
-|        |`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)  | [`Present@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) |
-|        | `Subject` |text| `Presented@Broker`
-| Body   | `Chat`  | uuid   | [Chat 💬 ID](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Present@`](<../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
+|Object|Property|Type|Description|Origin|Purpose
+|-|-|-|-|-|-
+| Header |`From`|text| [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | [`Open@`][Open@]
+|        |`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)  | [`Open@`][Open@] |
+|        | `Subject` |text| `Opened@Broker` | 
+| Body   | `Chat`  | uuid   | [Chat 💬 ID](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Open@`][Open@]
+|| `PublicKey`|string  | To verify messages || [`Prompted@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>) [`Reply@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) [`Download@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 call.md>)
 |
+
+[Open@]: <../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>

@@ -16,6 +16,13 @@ Item: Pop
 
 Parents:
     Wallet: { Wallets.ID: Chats.Wallet }
+
+Handlers:
+    OnPopInserted: 
+        Events: INSERTED
+    OnPopBind: 
+        Events: POPPED
+        Assert: 
 ```
 
 ## Links

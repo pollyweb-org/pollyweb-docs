@@ -2,13 +2,14 @@
 
 
 box Broker 🤵 domain #FFFFFA
+    participant "Chatters 🪣" as chatters
     participant "OnBroker 🔔" as script
     participant "Chats 🪣" as chats
     participant "OnActivated 🔔" as handler
-    participant "Chatters 🪣" as chatters
 end box
 
 
+chatters --> script: BROKER 🔔
 
 activate script
     script -> chats: SAVE 💾 {ACTIVATED}
