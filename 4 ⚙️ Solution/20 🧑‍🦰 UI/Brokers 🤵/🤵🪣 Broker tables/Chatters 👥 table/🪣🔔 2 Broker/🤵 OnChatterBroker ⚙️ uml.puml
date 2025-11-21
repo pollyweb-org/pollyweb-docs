@@ -1,6 +1,5 @@
 @startuml OnChatterBroker
 
-'participant "Finder 🔎" as finder
 
 box Broker 🤵 domain #FFFFFA
     participant "Chats 🪣" as chats
