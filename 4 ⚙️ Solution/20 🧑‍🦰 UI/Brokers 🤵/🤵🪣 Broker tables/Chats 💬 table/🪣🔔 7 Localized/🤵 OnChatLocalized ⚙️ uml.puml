@@ -21,7 +21,7 @@ deactivate chats
 
 activate handler
     handler -> graph: TRANSLATE 🈯 
-    handler -> chats: SAVE 💾 {DETAILED}
+    handler -> chats: SAVE 💾 {translation}
 deactivate handler
 
 
