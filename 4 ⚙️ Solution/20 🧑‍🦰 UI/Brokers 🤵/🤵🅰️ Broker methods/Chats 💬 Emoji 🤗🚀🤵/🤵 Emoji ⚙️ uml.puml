@@ -1,0 +1,23 @@
+@startuml Emoji@Broker
+
+
+participant "Host 🤗" as host 
+
+box Broker 🤵 domain #FFFFFA
+    participant "Emoji@ 📃" as broker
+    participant "Chatters 🪣" as chatters
+    participant "Chats 🪣" as chats
+end box
+
+activate host
+host -> broker: Chat 🚀 {chat, emoji}
+
+    activate broker
+        broker -> chatters: READ 🧲
+        broker -> chats: SAVE 💾 {emoji}
+        broker -> host: 
+    deactivate broker
+
+deactivate host
+
+@enduml 

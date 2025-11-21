@@ -27,7 +27,7 @@ activate handler
     handler --> wallet: INFO ⓘ {reason}
     handler --> wallet: INFO ⓘ {shared binds}
     handler --> wallet: INFO ⓘ {shared tokens}
-    handler -> table: SAVE 💾 {HOST}
+    handler -> chats: SAVE 💾 {ACTIVE}
 deactivate handler
 
 @enduml
