@@ -12,22 +12,6 @@
 ```yaml
 📃 OnChatInserted:
 
-# Get the Host details from the Graph
-- SEND >> $domain:
-    Header:
-        To: $.Hosted.Graph
-        Subject: About@Graph
-    Body:
-        Domain: $Chat.Host
-        Language: $Chat.Language
-
-# Save the Host info
-- SAVE|$Chat:
-    .State: DETAILED
-    HostTitle: $domain.Title
-    Description: $domain.Description
-    SmallIcon: $domain.SmallIcon
-    BigIcon: $domain.BigIcon
 ```
 
 Uses||
