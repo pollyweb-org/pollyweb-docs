@@ -7,7 +7,7 @@ box Broker 🤵 domain #FFFFFA
     participant "OnInserted 🔔" as handler
 end box
 
-participant "Graph 🕸" as graph
+
 
 wallet --> table: Locate 🐌
 activate table
@@ -16,8 +16,7 @@ activate table
 deactivate table
 
 activate handler
-    handler -> graph: TRANSLATE 🈯
-    handler -> table: SAVE 💾 {DETAILED}
+    handler -> table: SAVE 💾 {RESOLVED}
 deactivate handler
 
 @enduml 

@@ -1,0 +1,23 @@
+@startuml OnChatResolved
+
+box Broker 🤵 domain #FFFFFA
+    participant "OnInserted 🔔" as inserted
+    participant "Chats 🪣" as table
+    participant "OnResolved 🔔" as handler
+end box
+
+participant "Graph 🕸" as graph
+
+
+inserted -> table: SAVE 💾 {RESOLVED}
+
+activate table
+    table --> handler: RESOLVED 🔔
+deactivate table
+
+activate handler
+    handler -> graph: SEND 📬 {About 🚀}
+    handler -> table: SAVE 💾 {DETAILED}
+deactivate handler
+
+@enduml 
