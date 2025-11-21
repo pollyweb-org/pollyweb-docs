@@ -2,7 +2,7 @@
 
 
 box Broker 🤵 domain #FFFFFA
-    participant "OnInserted 🔔" as script
+    'participant "OnResolved 🔔" as script
     participant "Chats 🪣" as table
     participant "OnDetailed 🔔" as handler
 end box
@@ -13,13 +13,13 @@ participant "Wallet 👱" as wallet
 'wallet --> script: Pop 🐌
 
 
-activate script
-    script -> table: SAVE 💾 {DETAILED}
-deactivate script
+'activate script
+'    script -> table: SAVE 💾 {DETAILED}
+'deactivate script
 
-activate table
+'activate table
     table --> handler: DETAILED 🔔
-deactivate table
+'deactivate table
 
 activate handler
     handler --> notifier: SEND 📬 {Open 🐌}
