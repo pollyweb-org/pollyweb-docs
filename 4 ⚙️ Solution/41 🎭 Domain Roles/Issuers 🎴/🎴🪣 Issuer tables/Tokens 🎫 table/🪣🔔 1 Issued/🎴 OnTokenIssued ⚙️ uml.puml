@@ -1,0 +1,24 @@
+@startuml OnTokenIssued
+
+box Issuer 🎴 domain #FFFFFA
+    participant ".ISSUE 📃" as script
+    participant "Tokens 🪣" as tokens
+    participant "OnIssued 🔔" as handler
+end box
+
+participant "Broker 🤵" as broker
+
+
+activate script
+    script -> tokens: SAVE 💾 {ISSUED}
+deactivate script
+
+activate tokens
+    tokens --> handler: ISSUED 🔔
+deactivate tokens
+
+activate handler
+    handler --> broker: SEND 📬 {Offer 🐌}
+deactivate handler
+
+@enduml 
