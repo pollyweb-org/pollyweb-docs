@@ -1,5 +1,6 @@
 import os
 import re
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from contextlib import nullcontext
 from pathlib import Path
@@ -230,6 +231,8 @@ def _sanitize_reference_label(label: str) -> str:
     cleaned = label.replace('`', '').strip()
     if _GENERAL_EMOJI_RE:
         cleaned = _GENERAL_EMOJI_RE.sub('', cleaned)
+    cleaned = cleaned.translate({ord(ch): None for ch in ('\u200B', '\u200C', '\u200D', '\uFE0E', '\uFE0F')})
+    cleaned = ''.join(ch for ch in cleaned if unicodedata.category(ch) != 'So')
     cleaned = re.sub(r"\s+", " ", cleaned).strip()
     return cleaned
 
@@ -389,7 +392,10 @@ def extract_reference_links(
     except Exception:
         return 0
 
-    if INLINE_LINK_PATTERN.search(original_content) is None:
+    if (
+        INLINE_LINK_PATTERN.search(original_content) is None
+        and REFERENCE_LINK_USAGE_PATTERN.search(original_content) is None
+    ):
         return 0
 
     reference_lookup: dict[str, str] = {}
@@ -431,7 +437,8 @@ def extract_reference_links(
             continue
         label_to_target[label] = target
 
-    final_refs: List[str] = [f"[{label}]: <{label_to_target[label]}>" for label in sorted(label_to_target)]
+    sort_key = lambda label: (label.casefold(), label)
+    final_refs: List[str] = [f"[{label}]: <{label_to_target[label]}>" for label in sorted(label_to_target, key=sort_key)]
 
     output_lines = converted_lines
     while output_lines and not output_lines[-1].strip():
