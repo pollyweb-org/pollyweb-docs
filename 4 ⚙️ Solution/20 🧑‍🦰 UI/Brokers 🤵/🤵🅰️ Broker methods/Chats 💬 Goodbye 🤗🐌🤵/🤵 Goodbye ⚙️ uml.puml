@@ -9,16 +9,14 @@ box Broker 🤵 domain #FFFFFA
     participant "Chats 🪣" as chats
 end box
 
-participant "Reviewer ⭐" as reviewer
-participant "Advertizer 👀" as ads
-
 
 activate host
     host --> broker: Goodbye 🐌
 deactivate host
 
 activate broker    
-    
+    broker -> chats: READ 🧲
+    broker -> chats: SAVE 💾 {CLOSED}
 deactivate broker
 
 

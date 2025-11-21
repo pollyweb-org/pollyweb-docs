@@ -11,6 +11,9 @@ box Broker 🤵 domain #FFFFFA
     participant "OnClosed 🔔" as handler
 end box
 
+participant "Reviewer ⭐" as reviewer
+participant "Advertizer 👀" as ads
+
 
 host --> script: Goodbye 🐌
 
@@ -22,5 +25,9 @@ activate binds
     binds --> handler: CLOSED 🔔
 deactivate binds
 
+activate handler
+    'handler -> reviewer: NOTIFY 🔔 {Closed chat}
+    'handler -> ads: NOTIFY 🔔 {Closed chat}
+deactivate handler
 
 @enduml 
