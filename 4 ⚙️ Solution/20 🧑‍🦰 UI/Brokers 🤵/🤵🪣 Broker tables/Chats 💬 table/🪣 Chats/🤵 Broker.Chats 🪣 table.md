@@ -118,7 +118,12 @@ Property|Type|Details|Origin|Purpose
 |`Origin` | uuid | Parent [Chat 💬][Chat] |[`Locate@`][Locate@] | [`Presented@`][Presented@]
 |
 
+[`Abandoned@Host` 🅰️ method][Abandoned@Host method]
+[`.AllOf`][.AllOf]
+
+[.AllOf]: <../../../../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/AllOf ⓕ.md>
 [Abandoned@]: <../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>
+[Abandoned@Host method]: <../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>
 [About@]: <../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 📃 handler.md>
 [Broker domain]: <../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>
 [Chat]: <../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>
@@ -127,6 +132,7 @@ Property|Type|Details|Origin|Purpose
 [Chats@]: <../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>
 [Chatters]: <../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>
 [Domains]: <../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>
+[domains]: <../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>
 [Finder domain]: <../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>
 [Graph domain]: <../../../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>
 [Handler]: <../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>
@@ -158,4 +164,3 @@ Property|Type|Details|Origin|Purpose
 [Updated@Notifier method]: <../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>
 [Wallet app]: <../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>
 [Wallets]: <../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>
-[domains]: <../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>
