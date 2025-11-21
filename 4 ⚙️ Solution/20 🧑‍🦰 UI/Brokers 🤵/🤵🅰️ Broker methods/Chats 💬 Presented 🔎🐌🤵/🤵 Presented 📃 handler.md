@@ -20,13 +20,13 @@
 ```yaml
 📃 Presented@Broker:
 
+# Verify the message
+- VERIFY|$.Msg
+
 # Verify the required inputs
 - ASSERT|$.Msg:
     OneOf: Chat
     UUIDs: Chat
-
-# Verify the message
-- VERIFY|$.Msg
 
 # Read the chatter
 - READ >> $chat:
