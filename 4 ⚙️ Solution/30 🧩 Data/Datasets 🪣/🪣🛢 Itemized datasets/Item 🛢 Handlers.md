@@ -30,7 +30,8 @@
 1. **How to register an Event Handler?**
 
     ```yaml
-    Table: <name>
+    Table: <table-name>
+    Item: <item-name>
 
     Handlers:
         <handler>: 
@@ -53,6 +54,7 @@
     ```yaml
     # Example
     Table: ORDERS
+    Item: ORDER
 
     Handlers: 
 

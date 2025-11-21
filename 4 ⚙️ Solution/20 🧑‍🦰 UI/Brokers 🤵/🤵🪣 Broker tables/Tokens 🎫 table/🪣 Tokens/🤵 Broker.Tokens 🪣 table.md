@@ -20,6 +20,7 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 
 Prefix: Broker
 Table: Tokens
+Item: Token
 Key: ID
 
 Parents:
