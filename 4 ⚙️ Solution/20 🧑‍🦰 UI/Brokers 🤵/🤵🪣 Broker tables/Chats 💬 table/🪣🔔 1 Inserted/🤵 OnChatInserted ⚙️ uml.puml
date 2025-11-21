@@ -5,6 +5,7 @@ participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Chats 🪣" as table
     participant "OnInserted 🔔" as handler
+    participant "Talker 😃" as talker
 end box
 
 participant "Printer 🖨️" as printer
@@ -18,14 +19,19 @@ deactivate table
 
 activate handler
 
-    alt If locator is ALIAS
-        handler -> printer: SEND 📬 {Resolve 🚀, locator}
-    
+    handler -> talker: PARSE 🔆 {locator}
+
+    group WHILE locator.IsAlias 
+
+        handler -> printer: SEND 🚀 Resolve 
+
         activate printer
-            printer -> handler: {HOST locator}
+            printer -> handler: {host locator}
         deactivate printer
 
-    end
+        handler -> talker: PARSE 🔆 {locator}
+
+    end group
 
     handler -> table: SAVE 💾 {RESOLVED}
 deactivate handler
