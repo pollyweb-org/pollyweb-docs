@@ -8,7 +8,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Goodbye@ 📃" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
-    participant "OnClosed 🔔" as handler
+    participant "OnDone 🔔" as handler
 end box
 
 participant "Reviewer ⭐" as reviewer

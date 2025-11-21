@@ -69,18 +69,18 @@ Handlers:
     OnChatTerminated: PRESENTED > TERMINATED # call Terminated@Host
     OnChatWrapped: PRESENTED > WRAPPED
 
-| Event  🔔 | [Handler 📃](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
-|-|-|-
-|`ALTERED`|[OnAltered](<../🪣🔔 0 Altered/🤵 OnChatAltered 📃 handler.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
-|`INSERTED`|[OnInserted](<../🪣🔔 1 Inserted/🤵 OnChatInserted 📃 handler.md>)
-|`RESOLVED`|[OnResolved](<../🪣🔔 2 Resolved/🤵 OnChatResolved 📃 handler.md>)
-|`DETAILED`|[OnDetailed](<../🪣🔔 3 Detailed/🤵 OnChatDetailed 📃 handler.md>)
-|`OPENED`|[OnOpened](<../🪣🔔 4 Opened/🤵 OnChatOpened 📃 script.md>)
-|`PRESENTED`|[OnPresented](<../🪣🔔 5 Presented/🤵 OnChatPresented 📃 handler.md>)
-|`ACTIVATED`|[OnActivated](<../🪣🔔 6 Activated/🤵 OnChatActivated 📃 handler.md>)
-||{{OnChatTranslated}}
-||{{OnChatAbandoned}}
-||{{OnChatClosed}}
+| Event  🔔 | .Status| [Handler 📃](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+|-|-|-|-
+|`ALTERED`||[OnAltered](<../🪣🔔 0 Altered/🤵 OnChatAltered 📃 handler.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) 
+|`INSERTED`||[OnInserted](<../🪣🔔 1 Inserted/🤵 OnChatInserted 📃 handler.md>) | {{Resolve@Printer}}
+||`RESOLVED`|[OnResolved](<../🪣🔔 2 Resolved/🤵 OnChatResolved 📃 handler.md>) | {{About@Graph}}
+||`DETAILED`|[OnDetailed](<../🪣🔔 3 Detailed/🤵 OnChatDetailed 📃 handler.md>) | {{Open@Notifier}}
+||`OPENED`|[OnOpened](<../🪣🔔 4 Opened/🤵 OnChatOpened 📃 script.md>) | {{Present@Finder}}
+||`PRESENTED`|[OnPresented](<../🪣🔔 5 Presented/🤵 OnChatPresented 📃 handler.md>)
+||`STARTED`|[OnStarted](<../🪣🔔 6 Started/🤵 OnChatStarted 📃 handler.md>)
+|`UPDATED`||[OnLocalized](<../🪣🔔 7 Localized/🤵 OnChatLocalized 📃 handler.md>)
+||`LEFT`|[OnLeft](<../🪣🔔 8 Left/🤵 OnChatLeft 📃 handler.md>)
+||`DONE`|[OnDone](<../🪣🔔 9 Done/🤵 OnChatDone 📃 handler.md>)
 
 
 ## Example
