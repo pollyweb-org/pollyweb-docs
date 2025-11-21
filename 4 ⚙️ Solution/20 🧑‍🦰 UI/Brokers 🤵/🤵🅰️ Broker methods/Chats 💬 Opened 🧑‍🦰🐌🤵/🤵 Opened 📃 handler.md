@@ -28,6 +28,7 @@
 # Process the Chat state
 - SAVE|$chat:
     .State: OPENED
+    PublicKey: $.Msg.PublicKey
 ```
 
 Uses||
