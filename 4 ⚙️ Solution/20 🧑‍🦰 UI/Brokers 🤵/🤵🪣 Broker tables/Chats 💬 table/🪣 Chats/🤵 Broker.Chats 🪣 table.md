@@ -124,7 +124,6 @@ Property|Type|Details|Origin|Purpose
 [Chat]: <../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>
 [Chat@]: <../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>
 [Chatters]: <../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>
-[Domains]: <../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>
 [domains]: <../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>
 [Finder domain]: <../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>
 [Graph domain]: <../../../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>
