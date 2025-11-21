@@ -115,7 +115,7 @@
     |-|-|-
     |[🤵 Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Hello`](<../🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | The user started a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | | [`Home`](<../🤗🅰️ Host methods/Home 🤵🐌🤗/🤗 Home 🐌 msg.md>) | Show the top menu on the [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-    | | [`Abandoned`](<../🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) |  The user abandoned a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+    | | [`Abandoned`](<../🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned2 🐌 msg.md>) |  The user abandoned a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | | [`Summarize`](<../🤗🅰️ Host methods/Summarize 🤵🐌🤗/🤗 Summarize 🐌 msg.md>) | Return a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) advertising summary
     |[🧑‍🦰 Wallet](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | [`Prompted`](<../🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>) | Return a [Prompt's 🤔](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) content
     | | [`Reply`](<../🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) | Accept the reply to a [Prompt 🤔](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)
