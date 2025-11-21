@@ -60,28 +60,19 @@ Handlers:
 
 ## Handlers
 
-
-    OnChatChanges: ALTERED                   # call Updated@Notifier
-    OnChatCreated: CREATED                   # call Translate@Graph
-    OnChatLocated: CREATED > LOCATED         # call Open@Notifier
-    OnChatOpened: LOCATED > OPENED           # call Present@Finder
-    OnChatPresented: OPENED > PRESENTED      # call Hello@Host
-    OnChatTerminated: PRESENTED > TERMINATED # call Terminated@Host
-    OnChatWrapped: PRESENTED > WRAPPED
-
-| Event  🔔 | .Status| [Handler 📃](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+| Event  🔔 | [Handler 📃](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Target
 |-|-|-|-
-|`ALTERED`||[OnAltered](<../🪣🔔 0 Altered/🤵 OnChatAltered 📃 handler.md>) | [`Update@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) 
-|`INSERTED`||[OnInserted](<../🪣🔔 1 Inserted/🤵 OnChatInserted 📃 handler.md>) | {{Resolve@Printer}}
-||`RESOLVED`|[OnResolved](<../🪣🔔 2 Resolved/🤵 OnChatResolved 📃 handler.md>) | {{About@Graph}}
-||`DETAILED`|[OnDetailed](<../🪣🔔 3 Detailed/🤵 OnChatDetailed 📃 handler.md>) | {{Open@Notifier}}
-||`OPENED`|[OnOpened](<../🪣🔔 4 Opened/🤵 OnChatOpened 📃 script.md>) | {{Present@Finder}}
-||`PRESENTED`|[OnPresented](<../🪣🔔 5 Presented/🤵 OnChatPresented 📃 handler.md>)
-||`STARTED`|[OnStarted](<../🪣🔔 6 Started/🤵 OnChatStarted 📃 handler.md>)
-|`UPDATED`||[OnLocalized](<../🪣🔔 7 Localized/🤵 OnChatLocalized 📃 handler.md>)
-||`LEFT`|[OnLeft](<../🪣🔔 8 Left/🤵 OnChatLeft 📃 handler.md>)
-||`DONE`|[OnDone](<../🪣🔔 9 Done/🤵 OnChatDone 📃 handler.md>)
-
+|`ALTERED`|[OnAltered](<../🪣🔔 0 Altered/🤵 OnChatAltered 📃 handler.md>) | [`Update@`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | [Notifier 📣](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
+|`INSERTED`|[OnInserted](<../🪣🔔 1 Inserted/🤵 OnChatInserted 📃 handler.md>) | [`Resolve@`](<../../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Resolve 👥🚀🖨️/🖨️ Resolve 📃 handler.md>) | [Printer 🖨️](<../../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>)
+|`RESOLVED`|[OnResolved](<../🪣🔔 2 Resolved/🤵 OnChatResolved 📃 handler.md>) | [`About@`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 📃 handler.md>) |{{Graph}}
+|`DETAILED`|[OnDetailed](<../🪣🔔 3 Detailed/🤵 OnChatDetailed 📃 handler.md>) | [`Open@`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) | [Notifier 📣](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
+|`OPENED`|[OnOpened](<../🪣🔔 4 Opened/🤵 OnChatOpened 📃 script.md>) | [`Present@`](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | [Finder 🔎](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>)
+|`PRESENTED`|[OnPresented](<../🪣🔔 5 Presented/🤵 OnChatPresented 📃 handler.md>) | [`Prompt@`](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) | [Notifier 📣](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
+|`STARTED`|[OnStarted](<../🪣🔔 6 Started/🤵 OnChatStarted 📃 handler.md>) | [`Hello@`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
+|`UPDATED`|[OnLocalized](<../🪣🔔 7 Localized/🤵 OnChatLocalized 📃 handler.md>) | [`Translate@`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 📃 handler.md>) | {{Graph}}
+|`ABANDONED`|[OnAbandoned](<../🪣🔔 8 Abandoned/🤵 OnChatAbandoned 📃 handler.md>) | [`Abandoned@`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
+|`DONE`|[OnDone](<../🪣🔔 9 Done/🤵 OnChatDone 📃 handler.md>)
+|
 
 ## Example
 
