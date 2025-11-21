@@ -121,6 +121,16 @@ Successful Tests:
     LinkFile: "🔎 Finder 🫥 agent.md"
     Reasons: This is hardcoded.
 
+  # 🕸 Graph helper domain
+  - Given: '{{Graph}}'
+    LinkText: "Graph 🕸 domain"
+    LinkFile: "🕸🤲 Graph helper.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Graphs}}'
+    LinkText: "Graph 🕸 domains"
+    LinkFile: "🕸🤲 Graph helper.md"
+    Reasons: This is hardcoded.
+
   # 🤲 Helper domain
   - Given: "{{Helper}}"
     LinkText: "Helper 🤲 domain"
