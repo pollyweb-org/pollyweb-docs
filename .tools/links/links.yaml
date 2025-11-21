@@ -542,6 +542,7 @@ Successful Tests:
 
   FUNCTIONS:
 
+  # .UUID ⓕ
   - Given: '{{.UUID}}'
     LinkText: "`.UUID`"
     LinkFile: 'UUID ⓕ.md'
@@ -550,9 +551,16 @@ Successful Tests:
       the file is called `Word ⓕ.md`,
       ending with " ⓕ.md".
 
+  # .Now ⓕ
   - Given: '{{.Now}}'
     LinkText: "`.Now`"
     LinkFile: 'Now ⓕ.md'
+    Reasons: same as {{.UUID}}.
+
+  # Assert ⓕ
+  - Given: '{{.Assert}}'
+    LinkText: "`.Assert`"
+    LinkFile: 'Assert ⓕ.md'
     Reasons: same as {{.UUID}}.
 
   TABLES 🪣:

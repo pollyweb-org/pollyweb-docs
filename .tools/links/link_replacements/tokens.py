@@ -17,7 +17,7 @@ TRIPLE_BRACE_PATTERN = re.compile(r"\{\{\{([^{}]+)\}\}\}")
 
 _SIMPLE_CONTENT_CACHE: Dict[str, Dict[str, object]] = {}
 _SIMPLE_CACHE_LOCK = RLock()
-LINK_PATTERN = re.compile(r"\[.*?\]\(<.*?>\)", re.DOTALL)
+LINK_PATTERN = re.compile(r"\[[^\]]+?\]\(<[^>]+?>\)", re.DOTALL)
 PATTERN_NEEDLES: Dict[int, str] = {}
 TOKEN_LITERAL_EXTRACT = re.compile(r"`\??([^`]+)`\??")
 

@@ -4,6 +4,7 @@ participant "Finder 🔎" as finder
 
 box "Broker 🤵 domain"  #FFFFFA
     participant "Presented@ 📃" as broker
+    participant "Chatters 🪣" as chatters
     participant "Chats 🪣" as chats
 end box
 
@@ -14,7 +15,7 @@ activate finder
 deactivate finder
 
 activate broker
-    broker -> chats: READ 🧲 
+    broker -> chatters: READ 🧲 
     broker -> chats: SAVE 💾 {PRESENTED}
 deactivate broker
 

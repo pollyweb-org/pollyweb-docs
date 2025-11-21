@@ -1,17 +1,16 @@
-# 🤵📃 Presented
+# 🤵 Goodbye 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Presented@Broker`](<🤵 Presented 🐌 msg.md>) method.
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Goodbye@Broker`](<🤵 Goodbye 🐌 msg.md>) method.
 
 ## Diagram
 
-![alt text](<🤵 Presented ⚙️ uml.png>)
-
+![alt text](<🤵 Goodbye ⚙️ uml.png>)
 
 ## Script
 
 ```yaml
-📃 Presented@Broker:
+📃 Goodbye@Broker:
 
 # Verify the message
 - VERIFY|$.Msg
@@ -28,11 +27,11 @@
         Domain: $.Msg.From
         Chat: $.Msg.Chat
     Assert:
-        Role: FINDER
+        Role: HOST
 
 # Process the Chat state
 - SAVE|$chatter.Chat:
-    .State: PRESENTED
+    .State: CLOSED
 ```
 
 Uses||
