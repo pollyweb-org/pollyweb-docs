@@ -4,9 +4,9 @@
 
 box Broker 🤵 domain #FFFFFA
     participant "Chats 🪣" as chats
-    participant "Opened@ 📃" as script
+    participant "OnOpened 🔔" as script
     participant "Chatters 🪣" as table
-    participant "OnFinder 📃" as handler
+    participant "OnFinder 🔔" as handler
 end box
 
 participant "Finder 🔎" as finder

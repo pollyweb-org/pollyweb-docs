@@ -3,9 +3,9 @@
 'participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Script 📃" as script
+    participant "OnBroker 🔔" as script
     participant "Chatters 🪣" as table
-    participant "OnHost 📃" as handler
+    participant "OnHost 🔔" as handler
 end box
 
 participant "Host 🤗" as host
