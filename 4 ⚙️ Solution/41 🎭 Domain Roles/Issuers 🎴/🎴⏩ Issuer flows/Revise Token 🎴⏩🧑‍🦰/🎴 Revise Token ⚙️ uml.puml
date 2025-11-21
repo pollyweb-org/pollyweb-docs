@@ -3,15 +3,15 @@
 
 ' ----------------------
 
-actor User as user
-participant "Wallet 👱" as wallet
-participant "Notifier 📣" as notifier
-participant "Broker 🤵" as broker
+'actor User as user
+'participant "Notifier 📣" as notifier
 participant "Issuer 🎴" as issuer
+participant "Broker 🤵" as broker
+participant "Wallet 👱" as wallet
 
 issuer --> broker: 1) Revise 🐌
 activate broker
-    broker --> wallet: 2) ⏪ Prompt 🤔 {revoked}     
+    broker --> wallet: 2) Prompt ⏩ {revoked}     
 deactivate broker
 
 ' ----------------------

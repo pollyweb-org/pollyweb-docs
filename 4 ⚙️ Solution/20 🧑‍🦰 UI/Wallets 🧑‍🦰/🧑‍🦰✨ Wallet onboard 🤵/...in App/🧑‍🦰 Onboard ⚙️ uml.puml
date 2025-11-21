@@ -2,10 +2,10 @@
 
 ' -----------
 actor User as user
-participant "Wallet 👱\napp" as wallet
-participant "Notifier 📣\nbff" as notifier
-participant "Broker 🤵\nhost" as broker
-participant "Vault 🗄️\ndomains" as vault
+participant "Wallet 👱" as wallet
+participant "Notifier 📣" as notifier
+participant "Broker 🤵" as broker
+participant "Vault 🗄️" as vault
 
 ' WALLET
 user --> wallet: install

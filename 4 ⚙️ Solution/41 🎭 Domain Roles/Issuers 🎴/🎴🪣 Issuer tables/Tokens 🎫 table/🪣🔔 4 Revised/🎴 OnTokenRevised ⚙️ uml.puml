@@ -1,0 +1,24 @@
+@startuml OnTokenRevised
+
+box Issuer 🎴 domain #FFFFFA
+    participant "Script@ 📃" as script
+    participant "Tokens 🪣" as tokens
+    participant "OnRevised 🔔" as handler
+end box
+
+participant "Broker 🤵" as broker
+
+
+activate script
+    script -> tokens: SAVE 💾 {status}
+deactivate script
+
+activate tokens
+    tokens --> handler: UPDATE 🔔
+deactivate tokens
+
+activate handler
+    handler --> broker: SEND 📬 {Revise 🐌}
+deactivate handler
+
+@enduml 

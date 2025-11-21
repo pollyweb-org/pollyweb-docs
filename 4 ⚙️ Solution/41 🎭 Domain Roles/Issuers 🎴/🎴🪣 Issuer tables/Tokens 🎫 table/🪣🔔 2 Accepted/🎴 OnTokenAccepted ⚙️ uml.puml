@@ -1,0 +1,27 @@
+@startuml OnTokenAccepted
+
+participant "Broker 🤵" as broker
+
+box Issuer 🎴 domain #FFFFFA
+    participant "Accepted@ 📃" as script
+    participant "Tokens 🪣" as tokens
+    participant "OnAccepted 🔔" as handler
+    participant "Talker 😃" as talker
+end box
+
+
+broker --> script: Accepted 🐌 {hook}
+
+activate script
+    script -> tokens: SAVE 💾 {ACCEPTED}
+deactivate script
+
+activate tokens
+    tokens --> handler: ACCEPTED 🔔
+deactivate tokens
+
+activate handler
+    handler --> talker: REEL 🎣
+deactivate handler
+
+@enduml 
