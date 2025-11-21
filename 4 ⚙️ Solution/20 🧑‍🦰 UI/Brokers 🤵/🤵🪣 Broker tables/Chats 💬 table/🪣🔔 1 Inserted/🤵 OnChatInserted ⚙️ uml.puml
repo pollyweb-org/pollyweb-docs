@@ -7,6 +7,7 @@ box Broker 🤵 domain #FFFFFA
     participant "OnInserted 🔔" as handler
 end box
 
+participant "Printer 🖨️" as printer
 
 
 wallet --> table: Locate 🐌
@@ -16,6 +17,16 @@ activate table
 deactivate table
 
 activate handler
+
+    alt If locator is ALIAS
+        handler -> printer: SEND 📬 {Resolve 🚀, locator}
+    
+        activate printer
+            printer -> handler: {HOST locator}
+        deactivate printer
+
+    end
+
     handler -> table: SAVE 💾 {RESOLVED}
 deactivate handler
 
