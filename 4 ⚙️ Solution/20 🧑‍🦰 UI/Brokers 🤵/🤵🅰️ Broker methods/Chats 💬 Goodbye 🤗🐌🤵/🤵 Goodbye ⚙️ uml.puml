@@ -6,6 +6,7 @@ participant "Host 🤗" as host
 box Broker 🤵 domain #FFFFFA
     participant "Goodbye@ 📃" as broker
     'participant "Wallets 🪣" as wallets
+    participant "Chatters 🪣" as chatters
     participant "Chats 🪣" as chats
 end box
 
@@ -15,7 +16,7 @@ activate host
 deactivate host
 
 activate broker    
-    broker -> chats: READ 🧲
+    broker -> chatters: READ 🧲
     broker -> chats: SAVE 💾 {CLOSED}
 deactivate broker
 
