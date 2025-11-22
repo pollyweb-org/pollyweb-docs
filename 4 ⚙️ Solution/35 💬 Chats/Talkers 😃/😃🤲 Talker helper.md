@@ -3,7 +3,7 @@
 # 😃 Talker domain role
 <!-- https://quip.com/J24GAMbu7HKF/-Talker -->
 
-> Implemented by [Hoster ☁️ helper domain](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
+> Implemented by [Hoster ☁️ helper domain](<../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>)
 
 <br/>
 
@@ -11,7 +11,7 @@
 
     [Talkers 😃](<😃🤲 Talker helper.md>) 
     * are [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) roles
-    * implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>).
+    * implemented by [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>).
     * to run [Scripts 📃](<../Scripts 📃/Script 📃.md>) 
     * for the purpose of rendering dialogs in a [💬 Chat](<../Chats 💬/💬 Chat.md>)
     
@@ -23,7 +23,7 @@
 
     [Talkers 😃](<😃🤲 Talker helper.md>) dramatically reduce the time to build [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>).
 
-    * They allow [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) to manage the workflow state on behalf of [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<../Chats 💬/🤔 Prompt.md>) communications, and invoking [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) only when it's necessary to execute business-specific logic.
+    * They allow [Hoster ☁️ helper domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>) to manage the workflow state on behalf of [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>), removing the undifferentiated heavy-lifting of handling [Prompts 🤔](<../Chats 💬/🤔 Prompt.md>) communications, and invoking [Hosted 📦 domains](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) only when it's necessary to execute business-specific logic.
     ---
     <br/>
 
