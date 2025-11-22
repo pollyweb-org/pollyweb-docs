@@ -1,0 +1,27 @@
+@startuml OnBindOffered
+
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Binds 🪣" as binds
+    participant "OnOffered 🔔" as trigger
+    'participant "Talker 😃" as talker
+end box
+
+participant "Broker 🤵" as broker
+
+
+activate script
+    script -> binds: SAVE 💾 {OFFERED}
+deactivate script
+
+activate binds
+    binds --> trigger: OFFERED 🔔
+deactivate binds
+
+activate trigger
+    trigger --> broker: SEND 📬 {Bindable 🐌} 
+deactivate trigger
+
+
+@enduml 

@@ -1,0 +1,27 @@
+@startuml OnBindRebound
+
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Binds 🪣" as binds
+    participant "OnRebound 🔔" as trigger
+    'participant "Talker 😃" as talker
+end box
+
+participant "Broker 🤵" as broker
+
+
+activate script
+    script -> binds: SAVE 💾 {REBOUND}
+deactivate script
+
+activate binds
+    binds --> trigger: REBOUND 🔔
+deactivate binds
+
+activate trigger
+    trigger --> broker: SEND 📬 {Bindable 🐌} 
+deactivate trigger
+
+
+@enduml 

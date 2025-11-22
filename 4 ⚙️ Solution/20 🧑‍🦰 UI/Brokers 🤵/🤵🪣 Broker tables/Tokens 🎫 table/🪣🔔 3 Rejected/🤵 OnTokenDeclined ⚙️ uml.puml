@@ -1,11 +1,11 @@
-@startuml OnTokenRejected
+@startuml OnTokenDeclined
 
 participant "Issuer 🎴" as issuer
 
 box Broker 🤵 domain #FFFFFA
     participant "Offer@ 📃" as script
     participant "Tokens 🪣" as tokens
-    participant "OnRejected 🔔" as change
+    participant "OnDeclined 🔔" as change
 end box
 
 participant "Wallet 👱" as wallet
@@ -33,7 +33,7 @@ activate tokens
 deactivate tokens
 
 activate change
-    change --> issuer: SEND 📬 {Rejected 🐌}
+    change --> issuer: SEND 📬 {Declined 🐌}
 deactivate change
 
 @enduml 

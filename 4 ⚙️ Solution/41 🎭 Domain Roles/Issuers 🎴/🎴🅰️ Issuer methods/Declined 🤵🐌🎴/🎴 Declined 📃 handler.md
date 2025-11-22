@@ -1,9 +1,9 @@
-# 🎴 Rejected 📃 handler
+# 🎴 Declined 📃 handler
 
 ## Script
 
 ```yaml
-📃 Rejected@Issuer:
+📃 Declined@Issuer:
 
 # Get the Hook
 - READ >> $hook:

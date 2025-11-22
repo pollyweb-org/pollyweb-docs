@@ -30,7 +30,7 @@ The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script �
 - ISSUE >> $token
 - IF|{$accepted}:
     Then: SUCCESS|Saved to your wallet.
-    Else: FAILURE|You rejected the token.
+    Else: FAILURE|You declined the token.
 ```
 Uses: [`FAILURE`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>) [`IF`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`INFO`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`ISSUE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) [`SUCCESS`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) 
 

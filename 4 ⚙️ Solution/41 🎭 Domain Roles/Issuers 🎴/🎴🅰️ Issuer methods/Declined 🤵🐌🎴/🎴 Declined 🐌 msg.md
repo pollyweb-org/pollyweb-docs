@@ -1,4 +1,4 @@
-# 🤵🐌🎴 Rejected @ Issuer
+# 🤵🐌🎴 Declined @ Issuer
 
 ## Async Message 🐌
 
@@ -6,7 +6,7 @@
 Header:
     From: any-broker.dom
     To: any-issuer.dom
-    Subject: Rejected@Issuer
+    Subject: Declined@Issuer
 
 Body:
     Hook: <hook-uuid>
@@ -27,7 +27,7 @@ Body:
 
 ## FAQ
 
-1. **Why do Issuers need to know if the user rejected?**
+1. **Why do Issuers need to know if the user declined?**
 
     This allows the [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>) to force the user to save the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>), as in the following example from the [Buy entry at a dance club 🤝 use case](<../../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/12 🌐 Web: Buy entry 🎟️.md>).
 
