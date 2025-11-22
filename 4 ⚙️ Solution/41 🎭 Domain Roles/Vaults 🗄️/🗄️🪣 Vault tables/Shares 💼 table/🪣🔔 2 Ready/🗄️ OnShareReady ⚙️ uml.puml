@@ -1,7 +1,7 @@
 @startuml OnCollectReady
 
 box Vault 🗄️ domain #FFFFFA
-    participant "OnAsked@ 🔔" as script
+    participant "OnAsked 🔔" as script
     participant "Shares 🪣" as shares
     participant "OnReady 🔔" as ready
 end box
