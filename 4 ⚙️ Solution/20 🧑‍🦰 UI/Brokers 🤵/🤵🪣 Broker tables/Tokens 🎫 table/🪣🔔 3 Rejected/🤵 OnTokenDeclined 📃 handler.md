@@ -1,13 +1,13 @@
-# 🤵 OnTokenRejected 📃 handler
+# 🤵 OnTokenDeclined 📃 handler
 
 ## Diagram
 
-![alt text](<🤵 OnTokenRejected ⚙️ uml.png>)
+![alt text](<🤵 OnTokenDeclined ⚙️ uml.png>)
 
 ## Script
 
 ```yaml
-📃 OnTokenRejected:
+📃 OnTokenDeclined:
 
 # Assert the item
 - ASSERT|$Token:
@@ -27,5 +27,5 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
-| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Reject@Issuer` 🅰️ method](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Rejected 🤵🐌🎴/🎴 Rejected 🐌 msg.md>) |
+| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Reject@Issuer` 🅰️ method](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Declined 🤵🐌🎴/🎴 Declined 🐌 msg.md>) |
 |

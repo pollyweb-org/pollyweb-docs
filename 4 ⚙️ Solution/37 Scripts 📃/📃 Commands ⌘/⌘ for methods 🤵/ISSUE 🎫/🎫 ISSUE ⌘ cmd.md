@@ -68,7 +68,7 @@
 
    - IF|$token:
         Then: SUCCESS|Saved to your wallet.
-        Else: FAILURE|You rejected the token.
+        Else: FAILURE|You declined the token.
    ```
    Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)  
    
