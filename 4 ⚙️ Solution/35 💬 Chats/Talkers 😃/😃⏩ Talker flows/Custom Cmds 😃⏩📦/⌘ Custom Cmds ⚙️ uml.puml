@@ -3,9 +3,9 @@
 box Hoster ☁️ domain #FFFFFA
     participant "Talker 😃\nResources" as back
     participant "Talker 😃\nLogic" as talker
-    participant "Hosted 🧑‍💻\nResources" as hoster
+    participant "Hosted 📦\nResources" as hoster
 end box
-participant "Hosted 🧑‍💻\non-prem" as hosted
+participant "Hosted 📦\non-prem" as hosted
 
 hosted -> hoster: upload handler
 hosted -> hoster: upload cmd

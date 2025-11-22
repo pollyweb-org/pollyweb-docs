@@ -21,7 +21,7 @@
 1. **What's the syntax of ASYNC?**
 
     ```yaml
-    ASYNC|<task> >> $output:
+    ASYNC|<task> >> $hook:
         {input}
     ```
 
@@ -29,7 +29,7 @@
     |-|-|-
     | `<task>` | The name of the task to execute | `Build`
     | `$input` | Optional inputs for the task | `A` `[A,B]` `{A:1}`
-    | `$output` | Optional [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) for results | `$result`
+    | `$hook` | Optional [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>) hook [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `$hook`
 
     ---
     <br/>
