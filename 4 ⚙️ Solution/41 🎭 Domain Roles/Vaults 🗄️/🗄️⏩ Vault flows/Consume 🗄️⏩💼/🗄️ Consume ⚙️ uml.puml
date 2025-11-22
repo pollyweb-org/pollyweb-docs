@@ -1,23 +1,23 @@
 @startuml Wallet: Share()
 
 
-participant "Consumer 💼\n(domain)" as consumer
-participant "Vault 🗄️\n(domain)" as vault
-participant "Graph 🕸\n(domain)" as graph
+participant "Vault 🗄️" as vault
+participant "Consumer 💼" as consumer
+participant "Graph 🕸" as graph
 
 activate vault
 vault -> graph: 1) Trusts 🚀 {consumer}
-vault -> vault: cache
+''vault -> vault: cache
 vault --> consumer: 2) Consume 🐌
 deactivate vault
 
 activate consumer
     consumer -> graph: 3) Trusts 🚀 {vault}
     consumer -> vault: 4) Collect 🚀
-    activate vault
-        vault -> vault: uncache
-        vault -> consumer: {data}
-    deactivate vault
+    'activate vault
+        ''vault -> vault: uncache
+    '    vault -> consumer: {data}
+    'deactivate vault
 
 deactivate consumer
 

@@ -1,0 +1,27 @@
+@startuml OnCollectReady
+
+box Vault 🗄️ domain #FFFFFA
+    participant "OnAsked@ 🔔" as script
+    participant "Shares 🪣" as shares
+    participant "OnReady 🔔" as ready
+end box
+participant "Consumer 💼" as consumer
+
+
+activate script
+    script -> shares: SAVE 💾 {READY}
+deactivate script
+
+activate shares
+    shares --> ready: READY 🔔 
+deactivate shares
+
+activate ready
+    ready --> consumer: SEND 📬 {Consume 🐌}
+deactivate ready
+
+activate consumer
+    consumer -> shares: Collect 🚀
+deactivate consumer
+
+@enduml 

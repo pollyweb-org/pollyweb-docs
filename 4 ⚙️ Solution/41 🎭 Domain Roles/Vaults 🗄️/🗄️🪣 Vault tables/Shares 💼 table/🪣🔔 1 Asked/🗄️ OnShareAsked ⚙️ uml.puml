@@ -1,0 +1,38 @@
+@startuml OnShareAsked
+
+participant "Broker 🤵" as broker
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Disclose@ 📃" as script
+    participant "Shares 🪣" as shares
+    participant "OnAsked 🔔" as asked
+end box
+
+participant "Hosted 📦" as hosted
+
+
+
+broker --> script: Disclose 🐌
+
+activate script
+    script -> shares: SAVE 💾 {ASKED}
+deactivate script
+
+activate shares
+    shares --> asked: ASKED 🔔 
+deactivate shares
+
+activate asked
+    asked --> hosted: ASYNC 🐌
+
+activate hosted
+    asked -> asked: WAIT
+deactivate asked
+    hosted --> asked: Handled 🐌
+deactivate hosted
+
+activate asked
+    asked -> shares: UPDATE 💾 {READY}
+deactivate asked
+
+@enduml 
