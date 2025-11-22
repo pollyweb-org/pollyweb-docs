@@ -43,7 +43,7 @@
     |-|-|-
     | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to handle | `MyHandler`
     | `[events]` | Events to handle | `INSERTED, PURGED`
-    | `{asserts}` | Filter events with [`.Assert`](<../../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/Assert ⓕ.md>) |
+    | `{asserts}` | Filter events with [`.Assert`](<../../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Assert ⓕ.md>) |
     |           | on the latest version of the item | `Item.A`
     |           | on the new property versions | `New.A`
     |           | and on old property versions | `Old.A`
