@@ -3,7 +3,7 @@
 
 # 👥🚀🕸 Trusted @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 
 
 * Verifies if there’s a path of [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) 
@@ -35,7 +35,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|text| The name of the sender [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `Trusted@Graph`
 | Body  | `Domain`  |text| The [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name to assess.
 |       | `Role`    | enum   | The domain role to assess: `VAULT`, `CONSUMER`, `*`

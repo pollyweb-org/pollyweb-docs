@@ -3,7 +3,7 @@
 
 # 👥🚀🕸 Schema @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 
 > Purpose
 
@@ -31,7 +31,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
-|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `Schema@Graph`
 | Body  | `Schema`    |text| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 || `Language`  |text| Translation, defaults to `en-us`

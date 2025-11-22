@@ -3,7 +3,7 @@
 
 # 👥🚀🕸 Public Key @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 
 
 * Returns the historical public key of an [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) by the name of the key.
@@ -31,7 +31,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
-|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `PublicKey@Graph`
 |Body   | `Issuer`  |text| [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
 |       | `DKIM`|text| [DKIM 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) name

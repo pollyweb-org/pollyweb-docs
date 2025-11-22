@@ -3,7 +3,7 @@
 
 # 👥🚀🕸 Queryable @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 
 
 * From the given list of and domain-and-code pairs, 
@@ -33,7 +33,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
-|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `Queryable@Graph`
 | Body  | `Consumer`|text| [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) name
 |       | `Binds`   | object[]   | List of [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) objects

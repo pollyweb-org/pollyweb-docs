@@ -1,6 +1,6 @@
 # 👥🚀🕸 Form @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 
 
 > Used in
@@ -24,7 +24,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|text| The name of the sender [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `Form@Graph`
 | Body  | `Domain`  |text| The [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name to lookup
 |       | `Form`    | string   | The name of form to return

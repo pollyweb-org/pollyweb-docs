@@ -1,7 +1,7 @@
 # 👥🚀🕸 Domain @ Graph
 
 > Implementation
-* Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+* Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 * Implemented by the [`Domain` 📃 handler](<🕸 About 📃 handler.md>)
 
 > Purpose
@@ -28,7 +28,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) querying
-|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `About@Graph`
 | Body  | `Domain`  |text| The name of another [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to look up
 |       | `Language`|text| Language to translate, defaults to `en-us`

@@ -5,7 +5,7 @@
 
 
 > Implementation
-* Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+* Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 
 > Purpose
 * [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
@@ -53,7 +53,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header|`From`|text| Requester [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>) name
+|       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `Translate@Graph`
 |Body   | `Language`|text| Target language
 || `Domain`     | string  | [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to translate
