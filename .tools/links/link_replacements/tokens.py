@@ -420,27 +420,27 @@ def replace_wallet_tokens(md_files):
 
 def replace_issuer_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Issuer`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    replacement = "[Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)"
+    replacement = "[Issuer 🎴 domain](<🎴🎭 Issuer role.md>)"
     return _replace_simple(md_files, pattern, replacement)
 
 
 def replace_issuers_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Issuers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    replacement = "[Issuer 🎴 domains](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)"
+    replacement = "[Issuer 🎴 domains](<🎴🎭 Issuer role.md>)"
     return _replace_simple(md_files, pattern, replacement)
 
 
-@register_hardcoded("vaults", replacement="[Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)", token_label="Vaults")
+@register_hardcoded("vaults", replacement="[Vault 🗄️ domains](<🗄️🎭 Vault role.md>)", token_label="Vaults")
 def replace_vaults_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Vaults`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    replacement = "[Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)"
+    replacement = "[Vault 🗄️ domains](<🗄️🎭 Vault role.md>)"
     return _replace_simple(md_files, pattern, replacement)
 
 
-@register_hardcoded("vault", replacement="[Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)", token_label="Vault")
+@register_hardcoded("vault", replacement="[Vault 🗄️ domain](<🗄️🎭 Vault role.md>)", token_label="Vault")
 def replace_vault_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Vault`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    replacement = "[Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)"
+    replacement = "[Vault 🗄️ domain](<🗄️🎭 Vault role.md>)"
     return _replace_simple(md_files, pattern, replacement)
 
 

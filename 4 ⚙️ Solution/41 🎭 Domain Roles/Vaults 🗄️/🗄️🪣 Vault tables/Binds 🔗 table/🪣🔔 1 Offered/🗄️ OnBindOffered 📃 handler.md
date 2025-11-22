@@ -1,7 +1,7 @@
 # 🗄️ OnBindOffered 📃 handler
 
 > Implementation 
-* Part of the [Vault 🗄️ domain](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
+* Part of the [Vault 🗄️ domain](<../../../🗄️🎭 Vault role.md>)
 
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) 
@@ -17,5 +17,31 @@
 ## Script
 
 ```yaml
+📃 OnBindOffered:
 
+# Assert the Bind
+- ASSERT|$Bind:
+    - AllOf: Broker, Hook, Chat, Schemas
+    - Texts: Broker
+    - UUIDs: Hook, Chat
+    - Lists: Schemas
+    - Schemas.Length.IsAtLeast(1)
+
+# Send the message to the Broker
+- SEND:
+    Header:
+        To: $Bind.Broker
+        Subject: Bindable@Broker
+    Body:
+        Hook: $Bind.Hook
+        Chat: $Bind.Chat
+        Schemas: $Bind.Schemas
 ```
+
+Uses||
+|-|-
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsAtLeast`](<../../../../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsAtLeast ⓕ any.md>)
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Vault.Binds`](<../🪣 Binds/🗄️ Vault.Binds 🪣 table.md>)
+| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Bindable@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
+|
