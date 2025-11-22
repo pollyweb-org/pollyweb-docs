@@ -1,0 +1,28 @@
+@startuml OnBindUnbound
+
+participant "Broker 🤵" as broker
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Unbound 🐌" as script
+    participant "Binds 🪣" as binds
+    participant "OnUnbound 🔔" as trigger
+    participant "BIND ⌘" as bind
+end box
+
+
+broker --> script: Unbound 🐌
+
+activate script
+    script -> binds: SAVE 💾 {UNBOUND}
+deactivate script
+
+activate binds
+    binds --> trigger: UNBOUND 🔔
+deactivate binds
+
+activate trigger
+    trigger --> bind: REEL 🎣 {hook}
+deactivate trigger
+
+
+@enduml 
