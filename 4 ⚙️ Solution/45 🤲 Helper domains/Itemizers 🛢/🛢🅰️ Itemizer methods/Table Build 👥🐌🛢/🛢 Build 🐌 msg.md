@@ -1,6 +1,6 @@
 # 👥🐌🛢 Build
 
-> Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
+> Part of [Itemizer 🛢 helper](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>)
 
 
 > Purpose
@@ -35,7 +35,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    |`From`|text| [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)  name
-| |         `To` |text| [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
+| |         `To` |text| [Itemizer 🛢 domain](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>) name
 | |         `Subject` |text| `Build@Itemizer`
 | Body      | `Name`     | string    |  [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) name
 |           | `Key`        | string[]  | Index for [`Save@`](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>) and [`Read@`](<../Item Read 👥🚀🛢/🛢 Read 🚀 call.md>)

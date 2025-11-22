@@ -1,6 +1,6 @@
 # 👥🐌🛢 Destroy
 
-> Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
+> Part of [Itemizer 🛢 helper](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>)
 
 > Purpose
 
@@ -21,7 +21,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    |`From`|text| [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) name
-|           |`To`|text| [Itemizer 🛢 domain](<../../🛢🤲 Itemizer helper.md>) name
+|           |`To`|text| [Itemizer 🛢 domain](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>) name
 |           | `Subject`     | string    | `Destroy@Itemizer`
 | Body      | `Table`     | string    | Name of the table
 |

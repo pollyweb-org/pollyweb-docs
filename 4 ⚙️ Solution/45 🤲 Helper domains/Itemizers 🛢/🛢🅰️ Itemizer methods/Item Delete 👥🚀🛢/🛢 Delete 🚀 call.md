@@ -1,6 +1,6 @@
 # 👥🚀🛢 Delete @ Itemizer
 
-> Part of [Itemizer 🛢 helper](<../../🛢🤲 Itemizer helper.md>)
+> Part of [Itemizer 🛢 helper](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>)
 
 > Implements the  [`DELETE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) commands via the [`.DELETE` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE 📃 script.md>).
 
@@ -31,7 +31,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    |`From`|text| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
-|           |`To`|text| [Itemizer 🛢](<../../🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+|           |`To`|text| [Itemizer 🛢](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>) from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |           | `Subject`     | string    | `Delete@Itemizer`
 | Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) for traceability
 |         | `Set`    | string  | `Set` from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
@@ -65,7 +65,7 @@ Body:
 1. **How to know if the item was deleted on timeout?**
 
     [Talker 😃 helper domains](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) can register a hook on [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) to listen to delete events on the [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
-    * Upon deletion, [Itemizer 🛢 helper domains](<../../🛢🤲 Itemizer helper.md>) invoke the [`Raised@Itemizer` 🔔 event](<../../🛢🔔 Itemizer events/🛢🔔 Raised.md>).
+    * Upon deletion, [Itemizer 🛢 helper domains](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>) invoke the [`Raised@Itemizer` 🔔 event](<../../🛢🔔 Itemizer events/🛢🔔 Raised.md>).
 
     ---
     <br/>
