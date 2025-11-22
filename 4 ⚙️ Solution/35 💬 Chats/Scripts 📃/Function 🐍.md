@@ -13,7 +13,7 @@
     |Format|Details
     |-|-
     | [`{$holder}`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 Functions types/🧠 {$holder}.md>) | The value of a [holder 🧠](<Holder 🧠.md>).
-    | [`{/path/to/file}`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 Functions types/📄 {file}.md>) | A file in the [Hoster ☁️](<../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>) file system.
+    | [`{/path/to/file}`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 Functions types/📄 {file}.md>) | A file in the [Hoster ☁️](<../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️🤲 Hoster helper.md>) file system.
     | [`{handler(args)}`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>) | Logic in a code handler - e.g., python.
     | `{.helper(args)}`| Pre-built functions - e.g., `Sum()`
     

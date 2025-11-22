@@ -7,7 +7,7 @@
 1. **What is the Inbound file?**
 
     The `📥 Inbound.yaml` file 
-    * tells the [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>) 
+    * tells the [Hoster ☁️ domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️🤲 Hoster helper.md>) 
     * where to forward [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) to.
 
     ---
@@ -44,7 +44,7 @@
 1. **How is traffic processed over HTTP?**
 
     Using the [`PublicKey.txt`](<🔑📄 PublicKey file.md>) file,
-    * [Hosted 📦 domains](<../📦👥 Hosted domain.md>) decrypt the messages received from [Hoster ☁️ domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>), 
+    * [Hosted 📦 domains](<../📦👥 Hosted domain.md>) decrypt the messages received from [Hoster ☁️ domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️🤲 Hoster helper.md>), 
     * and encrypt the replies and outbound messages.
 
     ---

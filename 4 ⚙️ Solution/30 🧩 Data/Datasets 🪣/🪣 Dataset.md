@@ -7,7 +7,7 @@
 
 1. **How to define a Dataset?**
 
-    Resource Pools are defined in four ways in the [🪣 Pools file](<../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🗺️📄 Map file.md>) of [Hoster ☁️ domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>).
+    Resource Pools are defined in four ways in the [🪣 Pools file](<../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🗺️📄 Map file.md>) of [Hoster ☁️ domains](<../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️🤲 Hoster helper.md>).
 
     |Format| Details
     |-|-
