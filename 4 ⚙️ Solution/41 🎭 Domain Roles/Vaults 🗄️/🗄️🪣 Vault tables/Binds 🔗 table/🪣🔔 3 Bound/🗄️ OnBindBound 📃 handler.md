@@ -1,23 +1,24 @@
-# 🗄️ OnBindRejected 📃 handler
+# 🗄️ OnBindBound 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to the [`Rejected@Vault` 🅰️ method](<../../../🗄️🅰️ Vault methods/Rejected 🤵🐌🗄️/🗄️ Rejected 🐌 msg.md>).
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to the [`Bound@Vault` 🅰️ method](<../../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>).
  
 <br/>
 
 ## Diagram
 
-![alt text](<🗄️ OnBindRejected ⚙️ uml.png>)
+![alt text](<🗄️ OnBindBound ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnBindRejected:
+📃 OnBindBound:
 
 # Return the call
-- REEL|$Bind.ID
+- REEL|$Bind.ID:
+    Bound: $Bind.Bound
 ```
 
 Uses||
