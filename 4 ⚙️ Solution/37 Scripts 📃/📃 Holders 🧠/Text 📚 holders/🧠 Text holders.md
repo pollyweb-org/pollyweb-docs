@@ -20,7 +20,7 @@
     |Lists  | [`.IsIn`](<../Any 📚 holders/IsIn ⓕ any.md>) |bool| Is it in a given list of texts?
     |Chars| [`.Length`](<../Any 📚 holders/Length ⓕ.md>) |[num](<../Num 📚 holders/🧠 Num holders.md>)| How many chars does it contain?
     |       | [`.Size`](<../Any 📚 holders/Size ⓕ.md>) |[num](<../Num 📚 holders/🧠 Num holders.md>)| Same as [`.Length`](<../Any 📚 holders/Length ⓕ.md>)
-    |       | [`.First`](<../Any 📚 holders/First ⓕ.md>) |[text](<🧠 Text holders.md>)| What's the first char?
+    |       | [`.First`](<First ⓕ text.md>) |[text](<🧠 Text holders.md>)| What's the first char?
     |       | [`.Last`](<../Any 📚 holders/Last ⓕ.md>) |[text](<🧠 Text holders.md>)| What's the last char?
     |       | [`.Contains`](<../Any 📚 holders/Contains ⓕ any.md>) |bool| Does it contain a given char?
     |Change | [`.Append`](<Append ⓕ text.md>) |[text](<🧠 Text holders.md>)| What we append the given string?

@@ -10,7 +10,7 @@
 
     `{.First}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the start of a [Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) or [List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>).
+    * that returns the start of a [Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>), [List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>), or [Set 🧠 holder](<../Set 📚 holders/🧠 Set holders.md>).
 
 
     ---
@@ -20,13 +20,8 @@
 
     |Input|Behavior
     |-|-
-    |[`$txt`](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)`.First(n)`| Returns the first `n` characters of a [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)
-    |               |If `n` exceeds [`.Length`](<../../📃 Holders 🧠/Any 📚 holders/Length ⓕ.md>), returns the [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)
-    |[`$txt`](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)`.First` | Equals `$txt.First(1)`
-    |[`$lst`](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)`.First(n)`| Returns the first `n` items of a [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
-    |               |If `n` exceeds [`.Length`](<../../📃 Holders 🧠/Any 📚 holders/Length ⓕ.md>), returns the [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
-    |[`$lst`](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)`.First` | Equals `$lst.First(1)`
-    |[`$mapList`](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)`.First({A:1},n)`| Applies [`.Filter`](<../../📃 Holders 🧠/Set 📚 holders/Filter ⓕ set.md>) then `.First(n)`
-    |[set](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>)`.First({A:1})` | Equals `$mapList.First({A:1},1)`
+    |[Text 🧠 holder](<../Text 📚 holders/🧠 Text holders.md>) | See {{.First text}}
+    |[List](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)| See {{.First list}}
+    |[Set](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>) | See {{.First set}}
     ---
     <br/>

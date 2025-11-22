@@ -573,6 +573,24 @@ Successful Tests:
     LinkFile: 'Assert ⓕ.md'
     Reasons: same as {{.UUID}}.
 
+  # First ⓕ text
+  - Given: '{{.First text}}'
+    LinkText: "`.First`"
+    LinkFile: 'First ⓕ text.md'
+    Reasons: similar to {{.UUID}}, but ends with " ⓕ text.md".
+
+  # First ⓕ list
+  - Given: '{{.First list}}'
+    LinkText: "`.First`"
+    LinkFile: 'First ⓕ list.md'
+    Reasons: similar to {{.UUID}}, but ends with " ⓕ list.md".
+
+  # First ⓕ set
+  - Given: '{{.First set}}'
+    LinkText: "`.First`"
+    LinkFile: 'First ⓕ set.md'
+    Reasons: similar to {{.UUID}}, but ends with " ⓕ set.md".
+
   TABLES 🪣:
 
   - Given: '{{Talker.Hooks table}}' 

@@ -41,7 +41,7 @@
     |       | [`.AreMany`](<AreMany ⓕ list.md>)  | bool| Has more than one item?
     |       | [`.Size`](<../Any 📚 holders/Size ⓕ.md>)     | [num](<../Num 📚 holders/🧠 Num holders.md>)| Returns the number of items
     |       | [`.Length`](<../Any 📚 holders/Length ⓕ.md>)   |  [num](<../Num 📚 holders/🧠 Num holders.md>)| Equals [`.Size`](<../Any 📚 holders/Size ⓕ.md>)
-    |Read   | [`.First`](<../Any 📚 holders/First ⓕ.md>)   |[list](<🧠 List holders.md>), any| Get the first `n` items
+    |Read   | [`.First`](<First ⓕ list.md>)   |[list](<🧠 List holders.md>), any| Get the first `n` items
     |       | [`.Last`](<../Any 📚 holders/Last ⓕ.md>)   |[list](<🧠 List holders.md>), any| Get the last `n` items
     |       | [`.Distinct`](<Distinct ⓕ.md>) |[list](<🧠 List holders.md>)| Return only unique items
     |Change | [`.Append`](<Append ⓕ list.md>)     |[list](<🧠 List holders.md>)| Add items to the list
