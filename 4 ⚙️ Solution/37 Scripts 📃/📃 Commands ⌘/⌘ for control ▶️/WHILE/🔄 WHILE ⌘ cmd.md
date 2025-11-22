@@ -30,7 +30,7 @@
 
     | Input | Purpose | Example
     |-|-|-
-    | `<assertion>` | [`.Assert`](<../../../📃 Holders 🧠/List 📚 holders/Assert ⓕ.md>) to evaluate | `$x.Length.IsAbove(0)`
+    | `<assertion>` | [`.Assert`](<../../../📃 Holders 🧠/Any 📚 holders/Assert ⓕ.md>) to evaluate | `$x.Length.IsAbove(0)`
     | `<command>`   | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) to execute | [`SAVE`](<../../⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
     | `BREAK`| Special command to stop
 

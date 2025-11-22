@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.AllOf`](<AllOf ⓕ.md>) [`.AnyOf`](<AnyOf ⓕ.md>) [`.OneOf`](<OneOf ⓕ.md>)
+> Used by [`.AllOf`](<../List 📚 holders/AllOf ⓕ.md>) [`.AnyOf`](<../List 📚 holders/AnyOf ⓕ.md>) [`.OneOf`](<../List 📚 holders/OneOf ⓕ.md>)
 
 ## FAQ
 
