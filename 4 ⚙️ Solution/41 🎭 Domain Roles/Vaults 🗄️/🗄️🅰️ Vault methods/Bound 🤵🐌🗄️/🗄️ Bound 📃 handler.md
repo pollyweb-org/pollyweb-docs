@@ -31,10 +31,8 @@
 - READ >> $hook:
     Set: Talker.Hooks
     Key: $.Msg.Hook
-
-# Confirm it's the same Broker
-- ASSERT|$.Msg:
-    From: $hook.Broker
+    Assert: 
+        Broker: $.Msg.From
 
 # Save the Bind
 - SAVE|Vault.Binds:
