@@ -21,7 +21,7 @@ activate binds
 deactivate binds
 
 activate trigger
-    trigger --> bind: REEL 🎣 {id, schema}
+    trigger --> bind: REEL 🎣 {id, true}
 deactivate trigger
 
 
