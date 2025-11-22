@@ -1,14 +1,13 @@
 @startuml OnBindUnbound
 
 participant "Broker 🤵" as broker
-
 box Vault 🗄️ domain #FFFFFA
     participant "Unbound 🐌" as script
     participant "Binds 🪣" as binds
     participant "OnUnbound 🔔" as trigger
-    participant "BIND ⌘" as bind
+    ''participant "Talker 😃" as talker
 end box
-
+participant "Hosted 📦" as hosted
 
 broker --> script: Unbound 🐌
 
@@ -21,7 +20,8 @@ activate binds
 deactivate binds
 
 activate trigger
-    trigger --> bind: REEL 🎣 {hook}
+    trigger --> hosted: ASYNC 👷🏼 {Unbound}
+    trigger -> binds: DELETE 🗑️
 deactivate trigger
 
 
