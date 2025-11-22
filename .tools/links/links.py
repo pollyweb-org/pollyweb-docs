@@ -139,7 +139,7 @@ def _find_dot_function_target(token: str, md_files: Iterable[str]) -> Optional[P
         return None
 
     normalized_core = normalize_string(core)
-    candidates: list[tuple[int, int, str, Path]] = []
+    candidates: list[tuple[int, int, int, str, Path]] = []
 
     for path_str in md_files:
         path = Path(path_str)
@@ -155,17 +155,22 @@ def _find_dot_function_target(token: str, md_files: Iterable[str]) -> Optional[P
             continue
 
         left_norm = normalize_string(left)
-        if left_norm != normalized_core:
+        right_norm = normalize_string(right)
+
+        combo_match = bool(right_norm) and left_norm + right_norm == normalized_core
+        direct_match = left_norm == normalized_core
+        if not (direct_match or combo_match):
             continue
 
         suffix = right.strip()
-        candidates.append((len(suffix), len(path.parts), str(path), path))
+        sort_key = (0 if combo_match else 1, len(suffix), len(path.parts), str(path))
+        candidates.append((*sort_key, path))
 
     if not candidates:
         return None
 
     candidates.sort()
-    return candidates[0][3]
+    return candidates[0][4]
 
 
 def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Path]]:
@@ -446,7 +451,8 @@ def compute_expected_replacement(token: str, given_raw: str, md_files: list[str]
     if token.startswith('.'):
         dot_target = _find_dot_function_target(token, md_files)
         if dot_target:
-            return f"`{token}`", dot_target
+            display_token = token.split()[0]
+            return f"`{display_token}`", dot_target
 
     if token.isupper():
         # Special-case tokens that start with a dot (e.g. .PROMPT).
