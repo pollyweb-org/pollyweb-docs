@@ -3,33 +3,43 @@
 participant "Broker 🤵" as broker
 
 box Vault 🗄️ domain #FFFFFA
-    participant "Disclose@ 📃" as script
+    'participant "Disclose@ 📃" as script
     participant "Shares 🪣" as shares
     participant "OnAsked 🔔" as asked
+    participant "Talker 😃" as talker
 end box
 
 participant "Hosted 📦" as hosted
 
 
 
-broker --> script: Disclose 🐌
+broker --> shares: Disclose 🐌
 
-activate script
-    script -> shares: SAVE 💾 {ASKED}
-deactivate script
+''activate script
+''    script -> shares: SAVE 💾 {ASKED}
+''deactivate script
 
 activate shares
     shares --> asked: ASKED 🔔 
 deactivate shares
 
 activate asked
-    asked --> hosted: ASYNC 🐌
+    asked -> talker: ASYNC 👷🏼 {disclose}
 
+activate talker
+    talker --> hosted: Handle 🐌 {hook, disclose}
 activate hosted
-    asked -> asked: WAIT
+    talker -> asked: {hook}
+deactivate talker
+    asked --> asked: WAIT 🧘 {hook}
 deactivate asked
-    hosted --> asked: Handled 🐌
+
+    hosted --> talker: Handled 🐌 {hook, data}
 deactivate hosted
+
+activate talker
+    talker --> asked: REEL 🎣 {hook, data}
+deactivate talker
 
 activate asked
     asked -> shares: UPDATE 💾 {READY}

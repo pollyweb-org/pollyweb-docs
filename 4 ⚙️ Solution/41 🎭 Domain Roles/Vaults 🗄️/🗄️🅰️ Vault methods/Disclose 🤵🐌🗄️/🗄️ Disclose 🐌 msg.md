@@ -24,10 +24,11 @@ Header:
     Subject: Disclose@Vault
     
 Body:
-    Chat: <chat-uuid>
-    Consumer: any-coffee-shop.dom
-    Language: en-us
-    Bind: <bind-uuid>
+    Bind: <bind-uuid>   # Vault Bind
+    Chat: <chat-uuid>   # Broker Chat
+    Hook: <hook-uuid>   # Consumer Hook
+    Language: en-us     # Shared data language
+    Consumer: any-consumer.dom
 ```
 
 |Object|Property|Type|Description|Origin
@@ -35,8 +36,9 @@ Body:
 | Header|`From`|text| [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 ||`To`|text| [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 || `Subject` |text| `Disclose@Vault`
-|Body| `Chat`| uuid | [Chat 💬 ID](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+|Body|  `Bind` | uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+|| `Chat`| uuid | [Chat 💬 ID](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+|| `Hook` | uuid| [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>)  hook | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) 
 || `Consumer` |text| [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 || `Language` | enum | ISO code | [`Language@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>)
-|| `Bind` | uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 |

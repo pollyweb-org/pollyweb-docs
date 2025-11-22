@@ -14,17 +14,9 @@
 # Verify the signature
 - VERIFY|$.Msg
 
-# Get for the data
-- ASYNC|Disclosure >> $hook:
-    $.Msg
-
-# Get the data
-- WAIT|$hook >> $data
-
 # Create the collect
-- SAVE|Vault.Collects:
-    .State: READY
-    .Delete: 5 minutes # Temporary
+- SAVE|Vault.Shares:
+    .State: ASKED
     Consumer: $.Msg.From
     Data: $data
 ```

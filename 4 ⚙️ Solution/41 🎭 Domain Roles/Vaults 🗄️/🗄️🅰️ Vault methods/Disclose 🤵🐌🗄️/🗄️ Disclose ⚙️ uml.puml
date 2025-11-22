@@ -4,35 +4,15 @@ participant "Broker 🤵" as broker
 box Vault 🗄️️ domain #FFFFFA
     participant "Script 📃" as vault
     participant "Talker 😃" as talker
-    participant "Hosted 📦" as hosted
+    participant "Shares 🪣" as shares
 end box
-'participant "Consumer 💼" as consumer
 
 
 broker --> vault: Disclose 🐌
 
 activate vault    
     vault -> talker: TRUSTS 🫡 {consumer}
-    vault -> talker: ASYNC 👷🏼 {disclose}
-
-activate talker
-    talker --> hosted: Handle 🐌 {hook, disclose}
-activate hosted
-    talker -> vault: {hook}
-deactivate talker
-    vault --> vault: WAIT 🧘 {hook}
-deactivate vault
-
-    hosted --> talker: Handled 🐌 {hook, data}
-deactivate hosted
-
-activate talker
-    talker --> vault: REEL 🎣 {hook}
-deactivate talker
-
-activate vault
-    vault -> vault: SAVE 💾 {READY, data}
-    'vault --> consumer: Consume 🐌 {data}
+    vault -> shares: SAVE 💾 {ASKED}
 deactivate vault
 
 @enduml 

@@ -33,10 +33,11 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ```yaml
 # From Disclose@Vault
 ID: <share-uuid>
-Chat: <chat-uuid>
-Bind: <bind-uuid>
-Consumer: any-broker.dom
-Language: en-us
+Bind: <bind-uuid>   # Vault bind
+Chat: <chat-uuid>   # Broker chat
+Hook: <hook-uuid>   # Consumer hook
+Language: en-us     # Data language
+Consumer: any-consumer.dom
 
 # From OnSharedAsked
 Data: {...}
