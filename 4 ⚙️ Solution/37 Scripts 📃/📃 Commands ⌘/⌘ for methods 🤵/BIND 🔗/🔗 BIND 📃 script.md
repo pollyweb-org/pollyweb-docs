@@ -1,8 +1,7 @@
 # 😃📃 `.BIND` script
 
-> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`BIND`](<🔗 BIND ⌘ cmd.md>) command.
-
-> Invokes the [`Bindable@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
+> Purpose
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`BIND`](<🔗 BIND ⌘ cmd.md>) command.
 
 
 ## How to call
@@ -35,15 +34,7 @@
     Schemas: $Schemas
     User: $User
 
-# Send the message to the Broker
-- SEND:
-    Header:
-        To: $.Chat.Broker
-        Subject: Bindable@Broker
-    Body:
-        Hook: $hook.Hook
-        Chat: $.Chat.ID
-        Schemas: $Schemas
+
 
 # Wait for the shared data
 #- WAIT >> $shared:
