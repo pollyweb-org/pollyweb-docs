@@ -30,7 +30,7 @@
 
 1. **What does the architecture look like?**
 
-    ![alt text](<☁️ Hoster.png>)
+    ![alt text](<☁️🏞️ Hoster img.png>)
 
     ---
     <br/>
