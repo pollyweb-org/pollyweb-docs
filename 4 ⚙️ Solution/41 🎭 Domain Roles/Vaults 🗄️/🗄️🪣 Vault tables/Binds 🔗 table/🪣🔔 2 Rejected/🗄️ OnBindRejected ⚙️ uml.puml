@@ -22,7 +22,7 @@ activate binds
 deactivate binds
 
 activate trigger
-    trigger --> bind: REEL 🎣 {id}
+    trigger --> bind: REEL 🎣 {id, false}
 deactivate trigger
 
 

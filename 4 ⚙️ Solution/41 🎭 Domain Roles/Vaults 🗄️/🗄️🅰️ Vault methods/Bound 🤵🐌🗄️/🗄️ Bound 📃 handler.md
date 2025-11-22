@@ -6,11 +6,8 @@
 > Purpose
 
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Bound@Vault` 🅰️ method](<🗄️ Bound 🐌 msg.md>).
+* Returns a [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to the [`BIND` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND 📃 script.md>).
 
-> Called by 
-
-* Called by the [`BIND` 🔗 command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>)
-* which then calls the [`Bindable@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>) 
 
 
 
@@ -28,22 +25,15 @@
 - VERIFY|$.Msg
 
 # Resolve the callback
-- READ >> $hook:
-    Set: Talker.Hooks
-    Key: $.Msg.Hook
+- READ >> $bind:
+    Set: Vault.Binds
+    Key: $.Msg.Offer
     Assert: 
         Broker: $.Msg.From
 
 # Save the Bind
-- SAVE|Vault.Binds:
-    Bind: $.Msg.Bind
-    Broker: $hook.Broker
-    Schema: $hook.Schema
-    User: $hook.User
-
-# Continue the Chat
-- REEL|$hook:
-    $.Msg.Bind
+- SAVE|$bind:
+    .State: BOUND
 ```
 
 Uses||

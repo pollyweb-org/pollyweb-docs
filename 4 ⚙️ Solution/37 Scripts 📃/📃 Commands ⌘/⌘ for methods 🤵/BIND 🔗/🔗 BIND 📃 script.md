@@ -42,12 +42,12 @@ Uses: [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
     User: $User
 
 # Wait for the bound schema
-- WAIT >> $schema:
+- WAIT >> $bound:
     Hook: $bind.ID
 
 # Return the schema
 - RETURN:
-    $schema
+    $bound
 ```
 
 
