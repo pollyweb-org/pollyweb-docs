@@ -33,7 +33,7 @@
 - IF|$accepted:
     Then: 
         SAVE|$Bind:
-            .State: ACCEPTED
+            .State: BOUND
     Else:
         SAVE|$Bind:
             .State: REJECTED

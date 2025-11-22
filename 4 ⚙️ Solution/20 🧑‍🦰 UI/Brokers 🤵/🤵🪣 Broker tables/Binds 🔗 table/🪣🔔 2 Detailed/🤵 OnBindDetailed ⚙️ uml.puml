@@ -20,18 +20,18 @@ activate detailed
     detailed -> wallet: CONFIRM 👍 {accept?} 
 deactivate detailed
 
-alt Kept
+alt 
 
     activate wallet
         wallet --> detailed: Yes
 '    deactivate wallet
 
     activate detailed
-        detailed ->  binds: SAVE 💾 {ACCEPTED}
+        detailed ->  binds: SAVE 💾 {BOUND}
     deactivate detailed
 
 
-else Rejected
+else 
 
 '    activate wallet
         wallet --> detailed: No

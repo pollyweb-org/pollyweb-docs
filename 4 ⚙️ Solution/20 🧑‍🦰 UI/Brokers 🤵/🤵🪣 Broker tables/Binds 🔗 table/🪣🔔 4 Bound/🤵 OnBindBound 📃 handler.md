@@ -1,4 +1,4 @@
-# 🤵 OnBindAccepted 📃 handler
+# 🤵 OnBindBound 📃 handler
 
 > Purpose
 
@@ -6,12 +6,12 @@
   
 ## Diagram
 
-![alt text](<🤵 OnBindAccepted ⚙️ uml.png>)
+![alt text](<🤵 OnBindBound ⚙️ uml.png>)
 
 ## Script
 
 ```yaml
-📃 OnBindAccepted:
+📃 OnBindBound:
 
 # Inform the Vault
 - SEND:
