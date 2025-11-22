@@ -3,7 +3,7 @@
 # ⏰🤲 Alarm helper
 
 > Used by 
-* [Itemizer 🛢 helper domain](<../Itemizers 🛢/🛢🤲 Itemizer helper.md>)
+* [Itemizer 🛢 helper domain](<../Itemizers 🛢/🛢 Itemizer helper/🛢🤲 Itemizer helper.md>)
 
 <br/>
 

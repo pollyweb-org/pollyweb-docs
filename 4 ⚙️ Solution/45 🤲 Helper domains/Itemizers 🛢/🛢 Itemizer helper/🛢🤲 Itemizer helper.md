@@ -1,0 +1,47 @@
+# 🛢 Itemizer helper
+
+
+## FAQ
+
+1. **What's an Itemizer?**
+
+    An [Itemizer 🛢 helper domain](<🛢🤲 Itemizer helper.md>)
+    * is a [Helper 🤲 domain](<../../$ Helpers 🤲/🤲👥 Helper domain.md>)
+    * that manages [Itemized 🪣 datasets](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
+    * on behalf of other [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
+
+    ---
+    <br/>
+
+1. **What are the inbound messages supported?**
+
+    |Scope|[Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Purpose
+    |-|-|-
+    |Item   | [🚀 `Delete`](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)| Delete an item
+    |       | [🚀 `Get`](<../🛢🅰️ Itemizer methods/Item Read 👥🚀🛢/🛢 Read 🚀 call.md>) | Get an item
+    |       | [🚀 `Save`](<../🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 call.md>) | Save an item
+    |       | [🚀 `Undo`](<../🛢🅰️ Itemizer methods/Item Undo 👥🚀🛢/🛢 Undo 🚀 call.md>) | Undo a delete
+    |Table  | [🐌 `Build`](<../🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) | Build a table
+    |       | [🐌 `Burn`](<../🛢🅰️ Itemizer methods/Table Burn 👥🐌🛢/🛢 Burn 🐌 msg.md>) | Destroy a table
+    |       | [🚀 `List`](<../🛢🅰️ Itemizer methods/Table List 👥🚀🛢/🛢 List 🚀 call.md>) | List all tables
+
+1. **What are the triggers supported?**
+   
+    |[Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Purpose
+    |-|-
+    | [🔔 `Triggered`](<../../Alarms ⏰/⏰🔔 Alarm events/⏰🔔 Triggered.md>) | Informs on item changes
+
+    ---
+    <br/>
+
+1. **How are they mapped to script commands?**
+
+    [Command ⌘](<../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
+    |-|-
+    |[🧲 `READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Calls [`Read@Itemizer` 🅰️ ](<../🛢🅰️ Itemizer methods/Item Read 👥🚀🛢/🛢 Read 🚀 call.md>)
+    |[💾 `SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Calls [`Save@Itemizer` 🅰️ ](<../🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
+    |[🗑️ `DELETE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | Calls [`Delete@Itemizer` 🅰️ ](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)
+    |[↩️ `UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) | Calls [`Undo@Itemizer` 🅰️ ](<../🛢🅰️ Itemizer methods/Item Undo 👥🚀🛢/🛢 Undo 🚀 call.md>)
+
+    ---
+    <br/>

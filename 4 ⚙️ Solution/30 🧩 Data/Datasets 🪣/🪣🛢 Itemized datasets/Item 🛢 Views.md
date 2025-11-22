@@ -15,7 +15,7 @@
 
     Views 
     * allow [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to be simpler, 
-    * by moving the filtering logic to an [Itemizer 🛢 helper domain](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🤲 Itemizer helper.md>).
+    * by moving the filtering logic to an [Itemizer 🛢 helper domain](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢 Itemizer helper/🛢🤲 Itemizer helper.md>).
 
     ---
     <br/>
