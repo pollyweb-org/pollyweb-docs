@@ -1,0 +1,21 @@
+@startuml Rejected@Vault
+
+participant "Broker 🤵" as broker
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Rejected 🐌" as vault
+    participant "Binds 🪣" as binds
+end box
+
+
+activate broker
+    broker --> vault: Rejected 🐌 {hook}
+deactivate broker
+
+activate vault
+    vault -> binds: READ {hook}
+    vault -> binds: SAVE 💾 {REJECTED}
+deactivate vault
+
+
+@enduml 

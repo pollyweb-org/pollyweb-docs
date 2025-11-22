@@ -20,8 +20,8 @@
 
     |Input|Behavior
     |-|-
-    |[Text 🧠 holder](<../Text 📚 holders/🧠 Text holders.md>) | See {{.First text}}
-    |[List](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)| See {{.First list}}
-    |[Set](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>) | See {{.First set}}
+    |[Text 🧠](<../Text 📚 holders/🧠 Text holders.md>) | See [`.First text`](<../Text 📚 holders/First ⓕ text.md>)
+    |[List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)| See [`.First list`](<../List 📚 holders/First ⓕ list.md>)
+    |[Set 🧠](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>) | See [`.First set`](<../Set 📚 holders/First ⓕ set.md>)
     ---
     <br/>

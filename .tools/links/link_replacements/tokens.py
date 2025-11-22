@@ -15,6 +15,14 @@ from .mentions import find_dynamic_target, format_dynamic_link_text
 HARDCODED_HANDLERS: Dict[str, Dict[str, object]] = {}
 TRIPLE_BRACE_PATTERN = re.compile(r"\{\{\{([^{}]+)\}\}\}")
 
+def _find_basename(md_files: Iterable[str], basename: str) -> Optional[Path]:
+    """Return the first markdown file whose basename matches the provided name."""
+
+    for candidate in md_files:
+        if os.path.basename(candidate) == basename:
+            return Path(candidate)
+    return None
+
 _SIMPLE_CONTENT_CACHE: Dict[str, Dict[str, object]] = {}
 _SIMPLE_CACHE_LOCK = RLock()
 LINK_PATTERN = re.compile(r"\[[^\]]+?\]\(<[^>]+?>\)", re.DOTALL)
@@ -26,31 +34,42 @@ def _build_dot_function_index(md_files: Iterable[str]) -> Dict[str, Path]:
     """Map normalized dot-function tokens (e.g. '.UUID') to canonical files."""
 
     index: Dict[str, Path] = {}
-    for path_str in md_files:
-        path = Path(path_str)
-        if path.suffix.lower() != ".md":
-            continue
-        stem = path.stem
-        if "ⓕ" not in stem:
-            continue
 
-        left, sep, _ = stem.partition("ⓕ")
-        if not sep:
-            continue
+    def maybe_store(key: str, path: Path) -> None:
+        if not key:
+            return
 
-        token_left = normalize_string(left)
-        if not token_left:
-            continue
-
-        existing = index.get(token_left)
+        existing = index.get(key)
         if existing is None:
-            index[token_left] = path
-            continue
+            index[key] = path
+            return
 
         existing_score = (len(existing.parts), str(existing))
         candidate_score = (len(path.parts), str(path))
         if candidate_score < existing_score:
-            index[token_left] = path
+            index[key] = path
+
+    for path_str in md_files:
+        path = Path(path_str)
+        if path.suffix.lower() != ".md":
+            continue
+
+        stem = path.stem
+        if "ⓕ" not in stem:
+            continue
+
+        left, sep, right = stem.partition("ⓕ")
+        if not sep:
+            continue
+
+        token_left = normalize_string(left)
+        token_right = normalize_string(right)
+        if not token_left:
+            continue
+
+        maybe_store(token_left, path)
+        if token_right:
+            maybe_store(f"{token_left}{token_right}", path)
 
     return index
 
@@ -216,7 +235,7 @@ def _make_hardcoded_replacer(func_name: str, token_literal: str, token_key: str,
 
 
 _DOT_FUNCTION_PATTERN = re.compile(
-    r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?\.(\w+)`?[\s\u00A0\u200B\u200C\u200D]*\}\}"
+    r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?\.(\w+(?:[\s\u00A0\u200B\u200C\u200D]+\w+)*)`?[\s\u00A0\u200B\u200C\u200D]*\}\}"
 )
 
 
