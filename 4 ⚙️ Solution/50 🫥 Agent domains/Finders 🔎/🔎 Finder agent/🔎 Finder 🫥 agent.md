@@ -65,7 +65,7 @@
 
     |[Streamer&nbsp;🎭](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>)|Purpose
     |-|-
-    | [🕸&nbsp;Graphs](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) to receive updates on [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) across the NLWeb, including their public identity, [trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>). 
+    | [🕸&nbsp;Graphs](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) to receive updates on [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) across the NLWeb, including their public identity, [trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>). 
     | [🔥&nbsp;Firewalls](<../../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) | Finders subscribe to [Firewall 🔥 domains](<../../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to quickly react to threats. 
     | [⭐&nbsp;Reviewers](<../../Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | Finders subscribe to [Reviewer ⭐ domains](<../../Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to receive updates of domain ranks across the NLWeb, as a result of user feedback. 
     | [👀&nbsp;Advertisers](<../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | Finders subscribe to [Advertiser 👀 domains](<../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) to know which ads to show to users in addition to search results from [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>). 
@@ -96,7 +96,7 @@
 1. **Why not merge Finders and Graphs?**
 
     Finders leverage conversations with artificial intelligence, requiring them to comply with contextualized Artificial Intelligence (AI) legislation (e.g., the European Union AI Act). 
-    * Conversely, [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) are typically AI-free, allowing to be more generic.
+    * Conversely, [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) are typically AI-free, allowing to be more generic.
 
 
     ---

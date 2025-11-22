@@ -71,7 +71,7 @@
     |-|-
     | [📜 Manifest](<../Manifests 📜/📜 Manifest/📜 Manifest.md>)  | When a version is omitted in the [Schema 🧩](<🧩 Schema Code.md>) in its [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) definition, then it is assumed to be `1.0`.
     | [📨 Message](<../Messages 📨/📨 Message/📨 Message.md>) | When a version is omitted in a [domain Messages 📨](<../Messages 📨/📨 Message/📨 Message.md>), then it is also assumed to be `1.0`.
-    | [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>), then the [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) returns the latest version.
+    | [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>), then the [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) returns the latest version.
 
     ---
     <br/>
@@ -105,7 +105,7 @@
 
     For resilience and performance, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) cannot read [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) directly from the source.
 
-    * Instead, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) for a schema definition, by passing the [Schema 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>).
+    * Instead, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) for a schema definition, by passing the [Schema 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>).
 
         ```yaml
         # Sample request to read a schema.
@@ -157,7 +157,7 @@
 
     No. 
     - [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) don't need `nlweb.dom` to be online to access its [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>), for that matter).
-    - Instead, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) to look up schema definitions.
+    - Instead, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) should rely on [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) to look up schema definitions.
 
     ---
     <br/>
@@ -197,7 +197,7 @@
 1. **Wouldn't JSON be faster than YAML?**
 
     Yes, JSON is much faster than YAML. 
-    - But, because of [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>), the performance of either protocol is irrelevant in this context. 
+    - But, because of [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>), the performance of either protocol is irrelevant in this context. 
     - NLWeb advocates for human readability, with YAML format allowing comments and being closer to structured natural language in this context.
 
     ---

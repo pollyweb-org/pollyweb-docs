@@ -64,6 +64,6 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 - Performance at a global scale is assured by:
   * a distributed cluster of [Listener 👂 helper domains](<../45 🤲 Helper domains/Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) that propagate [Schema Codes 🧩](<../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and [Trusts 🫡](<../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) from [domain Manifests 📜](<../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) in near-real time;
-  * and [Graph 🕸 helper domains](<../45 🤲 Helper domains/Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/👥 Domain/👥 Domain.md>).
+  * and [Graph 🕸 helper domains](<../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) that cache them to support high-performant queries from any [domain 👥](<../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
   ---

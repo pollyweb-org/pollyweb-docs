@@ -1,6 +1,6 @@
 # 🕸 Graph.About 🪣 table
 
-> Part of the [Graph 🕸 domain](<../../../🕸 Graph/🕸🤲 Graph helper.md>)
+> Part of the [Graph 🕸 domain](<../../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 
 ## Schema
 

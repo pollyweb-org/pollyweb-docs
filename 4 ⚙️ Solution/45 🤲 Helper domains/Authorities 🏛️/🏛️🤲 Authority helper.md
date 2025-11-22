@@ -36,6 +36,6 @@
 
     They shouldn't. 
     
-    * Instead, domains should rely on [Graphs 🕸](<../Graphs 🕸/🕸 Graph/🕸🤲 Graph helper.md>) to index the [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) on their behalf.
+    * Instead, domains should rely on [Graphs 🕸](<../Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) to index the [Schema Codes 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) on their behalf.
 
     ---

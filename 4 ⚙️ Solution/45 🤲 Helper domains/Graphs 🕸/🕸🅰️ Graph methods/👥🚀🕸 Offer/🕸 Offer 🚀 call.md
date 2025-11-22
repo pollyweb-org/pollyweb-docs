@@ -2,7 +2,7 @@
 
 # 👥🚀🕸 Offer @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸 Graph/🕸🤲 Graph helper.md>)
+> Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 
 
 * Returns details about a given ServiceID in a Host's Manifest.
