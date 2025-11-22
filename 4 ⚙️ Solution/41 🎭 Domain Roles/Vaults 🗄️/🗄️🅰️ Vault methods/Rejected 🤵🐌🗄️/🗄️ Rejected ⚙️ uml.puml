@@ -13,7 +13,7 @@ activate broker
 deactivate broker
 
 activate vault
-    vault -> binds: READ {hook}
+    vault -> binds: READ 🧲 {hook}
     vault -> binds: SAVE 💾 {REJECTED}
 deactivate vault
 
