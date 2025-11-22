@@ -5,8 +5,8 @@
 
 > Data access
 
-* [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by [Hoster ☁️ helper domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) when setting a [Hosted 📦 domain](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
-* [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) by [Hoster ☁️ helper domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>) when handling [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+* [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by [Hoster ☁️ helper domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>) when setting a [Hosted 📦 domain](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
+* [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) by [Hoster ☁️ helper domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>) when handling [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 
 ## Schema
 

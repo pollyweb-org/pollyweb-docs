@@ -2,7 +2,7 @@
 
 # 📦 Hosted domain
 
-> Part of [Hoster ☁️ helper domain](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
+> Part of [Hoster ☁️ helper domain](<../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>)
 
 <br/>
 
@@ -11,7 +11,7 @@
  
     |#|Step
     |-|-
-    |1| [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to a [Hoster ☁️ domain](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
+    |1| [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to a [Hoster ☁️ domain](<../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>)
     |2| [Clone](<../Syncers 🔃/🔃⏩ Syncer flows/10 🔃⏩🗂️ Clone.md>) the files to a local folder
     |3| Spin up an HTTP backend endpoint
     |4| Edit the files and [sync](<../Syncers 🔃/🔃⏩ Syncer flows/20 🔃⏩🗂️ Sync.md>) the changes
@@ -59,7 +59,7 @@
       
     | Dependency | Purpose
     |-|-
-    | [🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | To authenticate and [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with the [Hoster ☁️ ](<../../45 🤲 Helper domains/Hosters ☁️/☁️🤲 Hoster helper.md>)
+    | [🧑‍🦰 Wallet](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | To authenticate and [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with the [Hoster ☁️ ](<../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster/☁️🤲 Hoster helper.md>)
     | [💳 Payer](<../../50 🫥 Agent domains/Payers 💳/💳🫥 Payer agent.md>) | To pay for usage and subscription plans.
     | [🆔 Identity](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | To authenticate the domain user.
     | [🧑‍💻 Editor](<../../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>) | To manage the settings of the hosted [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>).
