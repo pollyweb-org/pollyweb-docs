@@ -4,7 +4,7 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Frontend@ 📃" as broker
+    participant "Frontend 🚀" as broker
     participant "Frontend 🪣" as frontend
 end box
 

@@ -3,7 +3,7 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Localize@ 📃" as handler
+    participant "Pop 🐌" as handler
     participant "Wallets 🪣" as wallets
     participant "OnLocalized 🔔" as script
     participant "Binds 🪣" as binds
