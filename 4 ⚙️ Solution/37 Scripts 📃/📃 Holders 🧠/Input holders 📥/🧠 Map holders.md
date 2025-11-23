@@ -45,8 +45,8 @@
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ.md>) | bool | Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>)
     |Read | [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Key ⓕ.md>) | [map](<🧠 Map holders.md>) | Return a pair with a given key
     || [`.Keys`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Keys ⓕ map.md>) | [list](<🧠 List holders.md>)  |Return all pair keys as a [List 🧠](<🧠 List holders.md>)
-    || [`.Value`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Value ⓕ any.md>) | any | Return the value of a given key
-    || [`.Values`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Values ⓕ map.md>) | [list](<🧠 List holders.md>) | Return all pair values as a [List 🧠](<🧠 List holders.md>)
+    || [`.Value`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Value ⓕ.md>) | any | Return the value of a given key
+    || [`.Values`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Values ⓕ.md>) | [list](<🧠 List holders.md>) | Return all pair values as a [List 🧠](<🧠 List holders.md>)
     |Change | [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>) |[map](<🧠 Map holders.md>)|  Change or add one or more pairs
     ||[`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) | [map](<🧠 Map holders.md>) | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ.md>) | [map](<🧠 Map holders.md>) | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)

@@ -5,7 +5,7 @@
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 
-> Works with [`.Keys`](<Keys ⓕ map.md>) [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Key ⓕ.md>) [`.Value`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Value ⓕ any.md>) 
+> Works with [`.Keys`](<Keys ⓕ map.md>) [`.Key`](<Key ⓕ.md>) [`.Value`](<Value ⓕ.md>) 
 
 > Purpose
 * Extract values from [Maps 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)

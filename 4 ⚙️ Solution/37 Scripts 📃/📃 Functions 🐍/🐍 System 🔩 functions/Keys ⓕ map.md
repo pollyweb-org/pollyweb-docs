@@ -4,7 +4,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Works with [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Key ⓕ.md>) and [`.Value`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Value ⓕ any.md>)
+> Works with [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Key ⓕ.md>) and [`.Value`](<Value ⓕ.md>)
 
 ## FAQ
 
