@@ -1,0 +1,22 @@
+@startuml OnChatActivated
+
+
+box Broker 🤵 domain #FFFFFA
+    participant "Opened 🐌" as opened
+    participant "OnBroker 🔔" as script
+    participant "Chats 🪣" as chats
+    participant "OnActivated 🔔" as handler
+    participant "Chatters 🪣" as chatters
+end box
+
+opened -->  chats: SAVE 💾 {ACTIVE}
+
+activate chats
+    chats --> handler: ACTIVE 🔔
+deactivate chats
+
+activate handler
+    handler -> chatters: SAVE 💾 {HOST}
+deactivate handler
+
+@enduml
