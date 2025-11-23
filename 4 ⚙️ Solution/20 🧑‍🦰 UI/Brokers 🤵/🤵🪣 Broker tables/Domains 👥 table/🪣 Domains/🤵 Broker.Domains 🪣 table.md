@@ -4,23 +4,27 @@
 
 > Stores details on [Host 🤗 domains](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 
-
+<br/>
 
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
 ```yaml
-# Domains.yaml
 Prefix: Broker
 Table: Domains
+Item: Domain
 Key: Name
 
 Handlers:
-    OnDomainAdded: 
+    OnDomainInserted: 
         Events: INSERTED 
+    OnDomainLocalized: 
+        Events: UPDATED
+        Assert: New.Language
 ```
 
+<br/>
 
 ## Example
 

@@ -1,0 +1,26 @@
+@startuml OnDomainUnbound
+
+participant "Wallet 👱" as wallet 
+box Broker 🤵 domain #FFFFFA
+    participant "Domains 🪣" as domains
+    participant "OnUnbound 🔔" as script
+    participant "Binds 🪣" as binds
+end box
+
+activate wallet 
+    wallet --> domains: Pop 🐌 {UNBOUND}
+deactivate wallet
+
+activate domains
+    domains --> script: UNBOUND 🔔 
+deactivate domains
+
+activate script
+    script -> script: PARALLEL 
+    activate script
+        script -> binds: SAVE 💾 {REMOVED}
+    deactivate script
+deactivate script 
+
+
+@enduml 
