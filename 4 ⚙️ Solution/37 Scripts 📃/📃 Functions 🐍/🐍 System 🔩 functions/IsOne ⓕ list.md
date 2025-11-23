@@ -9,7 +9,7 @@
 
     `{.IsOne}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns True if there's only one item in a given [List 🧠 holder](<🧠 List holders.md>)
+    * that returns True if there's only one item in a given [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
     * or False otherwise.
 
     ---

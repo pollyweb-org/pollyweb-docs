@@ -1,18 +1,18 @@
-# 😃🔩 Talker `{.AllOf}` function
+# 😃🔩 Talker `{.AnyOf}` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 > Used by [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
 
-> Similar to [`.AnyOf`](<AnyOf ⓕ.md>) [`.OneOf`](<OneOf ⓕ.md>)
+> Similar to [`.AllOf`](<AllOf ⓕ.md>) [`.OneOf`](<OneOf ⓕ.md>)
 
 ## FAQ
 
-1. **What is the .AllOf function?**
+1. **What is the .AnyOf function?**
 
-    `{.AllOf}` 
+    `{.AnyOf}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns `True` if all of the given assertions return [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)
+    * that returns `True` if any of the given assertion returns [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)
     * or `False` otherwise.
 
     ---
@@ -21,14 +21,13 @@
 1. **What's the syntax?**
 
     ```yaml
-    .AllOf(assertions...)
+    .AnyOf(assertions...)
     ```
-   
+
     Input | Purpose
     |-|-
-    | `assertions...` | [List 🧠](<🧠 List holders.md>) of assertions for [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)
-
-
+    | `assertions...` | [List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) of assertions for [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)
+   
     ---
     <br/>
 
@@ -36,12 +35,14 @@
 
      ```yaml
     ┌──────────────────────┬──────────────────────┐
-    │ With .AllOf          │ Same as              │ 
+    │ With .AnyOf          │ Same as              │ 
     ├──────────────────────┼──────────────────────┤
-    │ - IF|.AllOf($a, $b): │ - IF|$a:             │
-    │     RUN|Something    │    - IF|$b:          │
-    │                      │        RUN|Something │
+    │ - IF|.AnyOf($a, $b): │ - IF|$a:             │
+    │     RUN|Something    │     RUN|Something    │
+    │                      │ - IF|$b:             │
+    │                      │     RUN|Something    │
     └──────────────────────┴──────────────────────┘   
     ```
 
+    ---
     <br/>

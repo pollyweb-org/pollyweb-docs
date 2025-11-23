@@ -41,9 +41,9 @@
     |        | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>) |bool| Equal comparison alias for `.Is`
     |        | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) |bool| Not-equal alias for `.IsNot`
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) |bool| Is it one of the accepted values?
-    |Combine| [`.AllOf`](<../List 📚 holders/AllOf ⓕ.md>) |bool| Are all of these booleans `true`?
-    |       | [`.AnyOf`](<../List 📚 holders/AnyOf ⓕ.md>) |bool| Is any of these booleans `true`?
-    |       | [`.OneOf`](<../List 📚 holders/OneOf ⓕ.md>) |bool| Is exactly one of them `true`?
+    |Combine| [`.AllOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>) |bool| Are all of these booleans `true`?
+    |       | [`.AnyOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/AnyOf ⓕ.md>) |bool| Is any of these booleans `true`?
+    |       | [`.OneOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/OneOf ⓕ.md>) |bool| Is exactly one of them `true`?
     |Default| [`.Default`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Default ⓕ any.md>) |bool| Substitute a fallback when empty
     
     ---

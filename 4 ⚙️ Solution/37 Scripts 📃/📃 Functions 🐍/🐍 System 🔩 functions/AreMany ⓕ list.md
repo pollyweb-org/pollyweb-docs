@@ -8,7 +8,7 @@
 
     `{.AreMany}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns `True` if a [List 🧠 holder](<🧠 List holders.md>) as more than 1 item
+    * that returns `True` if a [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) as more than 1 item
     * or `False` otherwise.
 
     ---
@@ -22,7 +22,7 @@
 
     Input | Purpose | Example
     |-|-|-
-    |`$list` | [List 🧠 holder](<🧠 List holders.md>) | `$lst`
+    |`$list` | [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) | `$lst`
 
     ---
     <br/>

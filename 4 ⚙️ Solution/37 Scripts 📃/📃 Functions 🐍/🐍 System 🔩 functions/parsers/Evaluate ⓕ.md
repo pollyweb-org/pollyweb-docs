@@ -86,7 +86,7 @@
 
 1. **How does .Evaluate work with YAML arrays?**
 
-    Arrays are merged with the [`.Append`](<../../../📃 Holders 🧠/List 📚 holders/Append ⓕ list.md>) function, as in the following [`PUT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
+    Arrays are merged with the [`.Append`](<../Append ⓕ list.md>) function, as in the following [`PUT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
     PUT|[1,2] >> $l1

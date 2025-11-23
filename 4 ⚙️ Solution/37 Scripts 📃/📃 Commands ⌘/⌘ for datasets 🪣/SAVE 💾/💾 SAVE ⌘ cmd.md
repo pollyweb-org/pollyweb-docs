@@ -187,7 +187,7 @@
                 Now.Add(30 days)
     ```
 
-    Uses: [`.Lower`](<../../../📃 Holders 🧠/List 📚 holders/Lower ⓕ.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>) [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) 
+    Uses: [`.Lower`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Lower ⓕ.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>) [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) 
 
     ---
     <br/>
