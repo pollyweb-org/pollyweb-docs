@@ -43,7 +43,7 @@
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) |bool| Is it the same number?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>) |bool| Is it a different number?
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ.md>) |bool| Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>)
-    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) |bool| Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>)
+    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ.md>) |bool| Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>)
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) |bool| Is it in a given list of numbers?
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Random ⓕ.md>) |[num](<🧠 Num holders.md>)| Returns a random number
     |Change | [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ num.md>) |[num](<🧠 Num holders.md>)| Adds numbers

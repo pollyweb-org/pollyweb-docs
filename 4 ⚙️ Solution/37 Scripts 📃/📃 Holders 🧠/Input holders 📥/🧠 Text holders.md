@@ -16,7 +16,7 @@
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) | bool | Does it have the same meaning?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>) | bool | Does it have another meaning?
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ.md>) | bool | Is it exactly the same string of chars?
-    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) | bool | Is it a different string of chars?
+    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ.md>) | bool | Is it a different string of chars?
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) |bool| Is it in a given list of texts?
     |Chars| [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>) |[num](<🧠 Num holders.md>)| How many chars does it contain?
     |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>) |[num](<🧠 Num holders.md>)| Same as [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>)

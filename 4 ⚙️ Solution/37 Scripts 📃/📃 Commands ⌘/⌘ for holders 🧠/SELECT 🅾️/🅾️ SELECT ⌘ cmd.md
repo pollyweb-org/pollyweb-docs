@@ -34,7 +34,7 @@
     | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) and [`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>) on the last item
     | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>) to group results 
     | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Cross ⓕ.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)
-    | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ set.md>) to filter [List 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) items 
+    | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ.md>) to filter [List 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) items 
     | `OrderBy`| Uses [`Set.Sort`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Sort ⓕ set.md>) to order the [List 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) items
     | `Limit` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ set.md>) to limit the items returned
 

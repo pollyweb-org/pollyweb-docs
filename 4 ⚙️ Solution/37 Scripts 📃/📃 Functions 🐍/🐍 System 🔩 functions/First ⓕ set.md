@@ -20,7 +20,7 @@
 
     |Input|Behavior
     |-|-
-    |[`$set`](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)`.First({A:1},n)`| Applies [`.Filter`](<Filter ⓕ set.md>) then `.First(n)`
+    |[`$set`](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)`.First({A:1},n)`| Applies [`.Filter`](<Filter ⓕ.md>) then `.First(n)`
     |[$set](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)`.First({A:1})` | Equals `$set.First({A:1},1)`
     ---
     <br/>

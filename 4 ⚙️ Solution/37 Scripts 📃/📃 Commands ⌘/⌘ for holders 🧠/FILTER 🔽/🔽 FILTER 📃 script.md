@@ -25,5 +25,5 @@
 Uses||
 |-|-
 |[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>) [`RETURN`](<../../⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)
-| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ set.md>)
+| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ.md>)
 |
