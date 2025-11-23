@@ -12,7 +12,7 @@
     |-|-
     | [Lists 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) | Same as [`.First`](<First ⓕ.md>)
     | [Texts 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | Same as [`.First`](<First ⓕ.md>)
-    | [Nums 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) | Same as [`.Calculate`](<Calculate ⓕ num.md>)
+    | [Nums 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) | Same as [`.Calculate`](<Calculate ⓕ.md>)
 
 
     ---

@@ -60,7 +60,7 @@
 
     |Function|Purpose
     |-|-
-    |[`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ any.md>)  | A list property contains a given value?
+    |[`.Contains`](<Contains ⓕ.md>)  | A list property contains a given value?
     |[`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>)    | A property equals a given value?
     |[`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>)   | A property does not equal a given value?
     |[`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ any.md>)| A property is between two given values?
