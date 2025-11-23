@@ -34,7 +34,7 @@
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) |Returns| Details 
     |-|-|-|-
     | Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ.md>) |bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
-    |       | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>) |bool| Does it contain a number?
+    |       | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ.md>) |bool| Does it contain a number?
     |Bounds | [`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAbove ⓕ.md>) |bool| Is it above a given number?
     |       | [`.IsAtLeast`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAtLeast ⓕ.md>) |bool| Is it equal or above a number?
     |       | [`.IsAtMost`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAtMost ⓕ.md>) |bool| Is it equal or below a number?
