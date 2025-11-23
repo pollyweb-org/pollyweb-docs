@@ -22,7 +22,7 @@
     |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>) |[num](<🧠 Num holders.md>)| Same as [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>)
     |       | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ text.md>) |[text](<🧠 Text holders.md>)| What's the first char?
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) |[text](<🧠 Text holders.md>)| What's the last char?
-    |       | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ any.md>) |bool| Does it contain a given char?
+    |       | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ.md>) |bool| Does it contain a given char?
     |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>) |[text](<🧠 Text holders.md>)| What we append the given string?
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) |[text](<🧠 Text holders.md>)| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ any.md>) |[text](<🧠 Text holders.md>)| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)

@@ -51,7 +51,7 @@
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ any.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ num.md>) | What if we add numbers?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ any.md>) |[num](<🧠 Num holders.md>)| Subtracts numbers
     |       | [`.Times`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Times ⓕ num.md>) |[num](<🧠 Num holders.md>)| Multiplies numbers
-    |       | [`.Calculate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Calculate ⓕ num.md>) |[num](<🧠 Num holders.md>)| Calculates formulas
+    |       | [`.Calculate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Calculate ⓕ.md>) |[num](<🧠 Num holders.md>)| Calculates formulas
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) |[num](<🧠 Num holders.md>)| Distance between 2 numbers
     ---
     <br/>
