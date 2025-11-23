@@ -3,7 +3,7 @@
 participant "Consumer 💼" as consumer
 
 box Vault 🗄️️ domain #FFFFFA
-    participant "Collect@ 📃" as vault
+    participant "Collect 🚀" as vault
     participant "Shares 🪣" as shares
 end box
 
