@@ -2,11 +2,11 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Language@Broker`](<🤵 Language 🐌 msg.md>) method.
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Language@Broker`](<🤵 Localize 🐌 msg.md>) method.
 
 ## Flow
 
-![alt text](<🤵 Language ⚙️ uml.png>)
+![alt text](<🤵 Localize ⚙️ uml.png>)
 
 ## Script
 
