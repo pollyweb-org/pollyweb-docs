@@ -27,7 +27,7 @@
     ||[`.Where`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Where ⓕ set.md>) | [set](<🧠 Set holders.md>) | Equals [`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ set.md>)
     |Merge| [`.Cross`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Cross ⓕ.md>) | [set](<🧠 Set holders.md>) | Cross multiple [Set 🧠 holders](<🧠 Set holders.md>)
     |Change | [`Set.Sort`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sort ⓕ set.md>) | [set](<🧠 Set holders.md>) | Sort [Maps 🧠](<🧠 Map holders.md>) by key
-    || [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ set.md>) | [set](<🧠 Set holders.md>) | Select and rename [Map 🧠](<🧠 Map holders.md>) keys
+    || [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>) | [set](<🧠 Set holders.md>) | Select and rename [Map 🧠](<🧠 Map holders.md>) keys
     ||[`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)     |[set](<🧠 Set holders.md>)| Add items to the list
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) |[set](<🧠 Set holders.md>)| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)
 

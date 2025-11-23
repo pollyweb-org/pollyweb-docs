@@ -186,7 +186,7 @@
 
 1. **How to format a list of objects?**
 
-    Using the [`.Format` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ set.md>) or the [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) command.
+    Using the [`.Format` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>) or the [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) command.
 
     ```yaml
     ┌───────────────────────────┬───────────────────┐
@@ -204,7 +204,7 @@
 
 1. **How to take some properties from a [List 🧠](<🧠 List holders.md>) of [Map 🧠](<🧠 Map holders.md>)?**
   
-    Using the [`.Format` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ set.md>) in one of 3 forms:
+    Using the [`.Format` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>) in one of 3 forms:
     * with the [`CALL` commands](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>),
     * or as `$holder.property` for a single property on [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>),
     * or as `$holder(prop-1, prop-N)` for a multiple properties.
