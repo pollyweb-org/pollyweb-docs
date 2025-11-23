@@ -35,10 +35,10 @@
    
     |Type| Meaning | This | Differs ✅
     |-|-|-|-
-    |[Text 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>)| Different meaning | `a`|`b`  
-    |[Num 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Num holders.md>)| Different math results| `1` | `1.1`
-    |[List 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)| Different sequence | `[1,3,2]` | `[1,2,3]`
-    |[Map 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>)| Different pair content | `{A:2}` | `{A:1}`
+    |[Text 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| Different meaning | `a`|`b`  
+    |[Num 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>)| Different math results| `1` | `1.1`
+    |[List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)| Different sequence | `[1,3,2]` | `[1,2,3]`
+    |[Map 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)| Different pair content | `{A:2}` | `{A:1}`
     
     ---
     <br/>

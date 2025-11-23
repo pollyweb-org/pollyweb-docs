@@ -12,8 +12,8 @@
    
     |Type|Inputs|Output
     |-|-|-
-    |[Maps 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>)|`{A:1}` | `A`
-    |[Lists 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)|`{A:1,B:2}`, `B` | `{B:1}`
+    |[Maps 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)|`{A:1}` | `A`
+    |[Lists 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)|`{A:1,B:2}`, `B` | `{B:1}`
 
     ---
     <br/>

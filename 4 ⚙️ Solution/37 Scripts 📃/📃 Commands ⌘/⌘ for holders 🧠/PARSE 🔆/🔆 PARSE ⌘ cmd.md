@@ -29,7 +29,7 @@
     | `Locator` | Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) input for [`.Locator`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Locator ⓕ.md>)
     | `Schema`| Optional [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) input for [`.Schema`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Schema ⓕ.md>) 
     | `$out` | [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the answer from the parser function
-    |        | Upon multiple inputs, returns a [map](<../../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>) of outputs
+    |        | Upon multiple inputs, returns a [map](<../../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) of outputs
 
     ---
     <br/>

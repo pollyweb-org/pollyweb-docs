@@ -21,16 +21,16 @@
     |-|-|
     | `PUT\|$in >> $out` | Puts the content of a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) in another
     || Equals `PUT >> $out: $in`
-    | `PUT\|*{$in}* >> $out` | Interpolates [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) into a [Text 🧠 holder](<../../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>)
+    | `PUT\|*{$in}* >> $out` | Interpolates [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) into a [Text 🧠 holder](<../../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)
     || Equals `PUT >> $out: *{$in}*`    
     | `PUT\|$obj >> $out: *` | Formats [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) properties with [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>)
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>)` >> $out: $obj,*`
-    | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) with [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>)
+    | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) with [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>)
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>)` >> $out: $lst,*`
-    | `PUT\|* +> $lst` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>)
+    | `PUT\|* +> $lst` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>)
     || Equals `PUT +> $lst: *`
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>)` >> $lst: $lst,*`
-    `PUT\|$l1,$l2 >> $out` | Merges two [List 🧠 holders](<../../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>)
+    `PUT\|$l1,$l2 >> $out` | Merges two [List 🧠 holders](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>)
     || Equals `PUT >> $out: $l1 $l2`
     || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>)` >> $out: $l1,$l2`  
     | `PUT\|* >> $out` | Puts any other content in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
@@ -72,7 +72,7 @@
 
 
 
-1. **What's an PUT example with [Map 🧠 holders](<../../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>)?**
+1. **What's an PUT example with [Map 🧠 holders](<../../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)?**
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |

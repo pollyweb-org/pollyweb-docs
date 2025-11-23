@@ -10,7 +10,7 @@
 
     `{$text.First}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the start of a [Text 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>).
+    * that returns the start of a [Text 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>).
   
     ---
     <br/>
@@ -19,9 +19,9 @@
 
     |Input|Behavior
     |-|-
-    |[`$txt`](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>)`.First(n)`| Returns the first `n` characters of a [Text 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>)
-    |               |If `n` exceeds [`.Length`](<Length ⓕ.md>), returns the [Text 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>)
-    |[`$txt`](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>)`.First` | Equals `$txt.First(1)`
+    |[`$txt`](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)`.First(n)`| Returns the first `n` characters of a [Text 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)
+    |               |If `n` exceeds [`.Length`](<Length ⓕ.md>), returns the [Text 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)
+    |[`$txt`](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)`.First` | Equals `$txt.First(1)`
     
     ---
     <br/>

@@ -1,6 +1,6 @@
 # 😃ⓕ `set.Filter` extension
 
-> Part of [Set 🧠 holder](<../🧠 Input holders/🧠 Set holders.md>)
+> Part of [Set 🧠 holder](<../Input holders 📥/🧠 Set holders.md>)
 
 > Used by [`FILTER`](<../../📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) 
 
@@ -15,7 +15,7 @@
 
     Inputs|Type|Details | Example
     |-|-|-|-
-    |`$set`| [Set 🧠](<../🧠 Input holders/🧠 Set holders.md>) | Items to be filtered | `{A:1},{A:2}`
+    |`$set`| [Set 🧠](<../Input holders 📥/🧠 Set holders.md>) | Items to be filtered | `{A:1},{A:2}`
     |`filters...`| list | Boolean evaluations | `A.Is(2)` `A:2`
 
     ---
@@ -23,7 +23,7 @@
 
 1. **What are example outputs?**
 
-    ||Input [Set 🧠](<../🧠 Input holders/🧠 Set holders.md>)|Input filter|Output
+    ||Input [Set 🧠](<../Input holders 📥/🧠 Set holders.md>)|Input filter|Output
     |-|-|-|-
     || `[]` | `A:1` | `[]`
     || `{A:1}` | `[]` | 🚫 Blocked

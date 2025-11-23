@@ -1,6 +1,6 @@
 # 😃 Append ⓕ text
 
-> Part of [Text 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>)
+> Part of [Text 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)
 
 > Used by [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) 
 
@@ -14,7 +14,7 @@
 
     Input | Purpose | Example
     |-|-|-
-    |`$text` | Original [Text 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>) | `AB` `$str`
+    |`$text` | Original [Text 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | `AB` `$str`
     |`appendixes...` | string to append, | `CD`
     
 
