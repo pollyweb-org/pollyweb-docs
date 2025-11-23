@@ -4,7 +4,7 @@
 participant "Vault 🗄️" as vault
 
 box Broker 🤵 domain  #FFFFFA
-    participant "Bindable@ 📃" as broker
+    participant "Bindable 🐌" as broker
     'participant "Talker 😃" as talker
     'participant "Script 📃" as script
     participant "Chats 🪣" as chats

@@ -5,7 +5,7 @@
 participant "Host 🤗" as host
 
 box Broker 🤵 domain #FFFFFA
-    participant "Goodbye@ 📃" as script
+    participant "Goodbye 🐌" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
     participant "OnDone 🔔" as handler

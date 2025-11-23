@@ -8,7 +8,7 @@ box Talker 😃 domain #FFFFFA
 end box
 
 box Host 🤗 domain #FFFFFA
-    participant "Hello@ 📃" as hello
+    participant "Hello 🐌" as hello
 end box
 
 

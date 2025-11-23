@@ -3,7 +3,7 @@
 participant "Wallet 👱" as wallet
 
 box "Broker 🤵 domain"  #FFFFFA
-    participant "Opened@ 📃" as broker
+    participant "Opened 🐌" as broker
     participant "Chats 🪣" as chats
 end box
     

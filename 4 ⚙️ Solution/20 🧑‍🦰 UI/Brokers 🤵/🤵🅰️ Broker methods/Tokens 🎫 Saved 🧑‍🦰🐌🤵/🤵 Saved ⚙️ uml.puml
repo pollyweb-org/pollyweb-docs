@@ -3,7 +3,7 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Saved@ 📃" as broker
+    participant "Saved 🐌" as broker
     participant "Wallets 🪣" as wallets
     'participant "Offers 🪣" as offers
     participant "Tokens 🪣" as tokens

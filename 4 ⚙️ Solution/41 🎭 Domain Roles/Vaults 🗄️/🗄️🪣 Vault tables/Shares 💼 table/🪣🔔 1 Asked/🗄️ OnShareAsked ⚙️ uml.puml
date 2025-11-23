@@ -3,7 +3,7 @@
 participant "Broker 🤵" as broker
 
 box Vault 🗄️ domain #FFFFFA
-    'participant "Disclose@ 📃" as script
+    'participant "Disclose 🐌" as script
     participant "Shares 🪣" as shares
     participant "OnAsked 🔔" as asked
     participant "Talker 😃" as talker
