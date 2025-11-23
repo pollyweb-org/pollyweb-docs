@@ -36,13 +36,13 @@
 
     | [{Function} 🐍](<Function 🐍.md>) | Purpose
     |-|-|
-    | [`.IsEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsEmpty ⓕ any.md>) | Is it empty?
-    | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsNotEmpty ⓕ any.md>) | Is not empty?
-    | [`.Equals`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Equals ⓕ any.md>) | Is it the same content?
-    | [`.Differs`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Differs ⓕ any.md>) | Is it a different content?
-    | [`.Is`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Is ⓕ any.md>) | Is it the same meaning?
-    | [`.IsNot`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsNot ⓕ any.md>) | Is it a different meaning?
-    | [`.Assert`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Assert ⓕ.md>)  | Is the assertion valid?
+    | [`.IsEmpty`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>) | Is it empty?
+    | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>) | Is not empty?
+    | [`.Equals`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>) | Is it the same content?
+    | [`.Differs`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) | Is it a different content?
+    | [`.Is`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>) | Is it the same meaning?
+    | [`.IsNot`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ any.md>) | Is it a different meaning?
+    | [`.Assert`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)  | Is the assertion valid?
     | [`.AllOf`](<../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/AllOf ⓕ.md>) | Are all assertions valid?
     | [`.AnyOf`](<../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/AnyOf ⓕ.md>) | Is any assertion valid?
     | [`.OneOf`](<../../37 Scripts 📃/📃 Holders 🧠/List 📚 holders/OneOf ⓕ.md>) | Is a single assertion valid?
@@ -136,7 +136,7 @@
 
 1. **How to get get the length of a list?**    
 
-    Use the [`{.Size} function`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Size ⓕ.md>) with `$p.Length()` or `$p.Size()`.
+    Use the [`{.Size} function`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>) with `$p.Length()` or `$p.Size()`.
 
     Here's a [Script 📃](<Script 📃.md>).
     ```yaml
@@ -240,11 +240,11 @@
   
     | Function | Holder `$p` | Example | Result
     |-|-|-|-
-    | [`.Add`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Add ⓕ any.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
-    | [`.Diff`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Diff ⓕ.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
-    | [`.IsIn`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/IsIn ⓕ any.md>) | `A` | `$.IsIn([A,B])` | `True`
-    | [`.Length`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Size ⓕ.md>) | `[A,B]` | `$p.Length()` | `2`
-    | [`.Size`](<../../37 Scripts 📃/📃 Holders 🧠/Any 📚 holders/Size ⓕ.md>) | `[A,B]` | `$p.Size()` | `2`
+    | [`.Add`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) | `[A,B]` | `$p.Add(C)` | `[A,B,C]`
+    | [`.Diff`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) | `[A,B,C]` | `$p.Diff(B)` | `[A,C]`
+    | [`.IsIn`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) | `A` | `$.IsIn([A,B])` | `True`
+    | [`.Length`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>) | `[A,B]` | `$p.Length()` | `2`
+    | [`.Size`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>) | `[A,B]` | `$p.Size()` | `2`
     
     ---
     <br/>

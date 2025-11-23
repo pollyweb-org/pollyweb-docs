@@ -11,7 +11,7 @@
     A `DEFAULT`
     * is a handler [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that assigns default values when they are missing
-    * by leveraging the [`.Default`](<../../../📃 Holders 🧠/Any 📚 holders/Default ⓕ any.md>) function.
+    * by leveraging the [`.Default`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Default ⓕ any.md>) function.
   
     ---
     <br/>

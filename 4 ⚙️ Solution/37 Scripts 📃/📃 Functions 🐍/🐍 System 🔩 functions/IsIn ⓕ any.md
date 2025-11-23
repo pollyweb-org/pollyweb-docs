@@ -84,9 +84,9 @@
 
     Value  | List |Result
     |-|-|-
-    [`.Now`](<../Time 📚 holders/Now ⓕ.md>) | [`.This`](<../Time 📚 holders/This ⓕ.md>)`(year)` | ✅ True
-    [`.Now`](<../Time 📚 holders/Now ⓕ.md>)| [`.Last`](<Last ⓕ.md>)`(year)` | ✅ True
-    [`.Now`](<../Time 📚 holders/Now ⓕ.md>)| [`.Previous`](<../Time 📚 holders/Previous ⓕ.md>)`(day)`| ❌ False
+    [`.Now`](<../../📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>) | [`.This`](<../../📃 Holders 🧠/Time 📚 holders/This ⓕ.md>)`(year)` | ✅ True
+    [`.Now`](<../../📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>)| [`.Last`](<Last ⓕ.md>)`(year)` | ✅ True
+    [`.Now`](<../../📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>)| [`.Previous`](<../../📃 Holders 🧠/Time 📚 holders/Previous ⓕ.md>)`(day)`| ❌ False
     
     
     ---

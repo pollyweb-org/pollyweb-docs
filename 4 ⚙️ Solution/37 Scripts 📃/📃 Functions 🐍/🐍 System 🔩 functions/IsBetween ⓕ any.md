@@ -44,7 +44,7 @@
 
     |Value | Lower | Upper 
     |-|-|-
-    [`.Now`](<../Time 📚 holders/Now ⓕ.md>) | `$starts` | `$expires` 
+    [`.Now`](<../../📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>) | `$starts` | `$expires` 
     
     ---
     <br/>

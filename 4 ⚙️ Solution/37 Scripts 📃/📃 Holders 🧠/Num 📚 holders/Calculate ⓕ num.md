@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Take`](<../Any 📚 holders/Take ⓕ.md>)
+> Used by [`.Take`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Take ⓕ.md>)
 
 ## FAQ
 

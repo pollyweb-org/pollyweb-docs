@@ -37,22 +37,22 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Type | Details 
     |-|-|-|-
-    | Assess| [`.IsEmpty`](<../Any 📚 holders/IsEmpty ⓕ any.md>) | bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
-    |       | [`.IsNotEmpty`](<../Any 📚 holders/IsNotEmpty ⓕ any.md>) | bool | Does it contain a map?
-    |Compare| [`.Is`](<../Any 📚 holders/Is ⓕ any.md>) | bool | Is it the same map meaning?
-    |       | [`.IsNot`](<../Any 📚 holders/IsNot ⓕ any.md>) | bool | Is it a different meaning?
-    |       | [`.Equals`](<../Any 📚 holders/Equals ⓕ any.md>) | bool | Same as [`.Is`](<../Any 📚 holders/Is ⓕ any.md>) 
-    |       | [`.Differs`](<../Any 📚 holders/Differs ⓕ any.md>) | bool | Same as [`.IsNot`](<../Any 📚 holders/IsNot ⓕ any.md>)
-    |Read | [`.Key`](<../Any 📚 holders/Key ⓕ.md>) | [map](<🧠 Map holders.md>) | Return a pair with a given key
+    | Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>) | bool| Is it an empty [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)?
+    |       | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>) | bool | Does it contain a map?
+    |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>) | bool | Is it the same map meaning?
+    |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ any.md>) | bool | Is it a different meaning?
+    |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>) | bool | Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>) 
+    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) | bool | Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ any.md>)
+    |Read | [`.Key`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Key ⓕ.md>) | [map](<🧠 Map holders.md>) | Return a pair with a given key
     || [`.Keys`](<Keys ⓕ map.md>) | [list](<../List 📚 holders/🧠 List holders.md>)  |Return all pair keys as a [List 🧠](<../List 📚 holders/🧠 List holders.md>)
-    || [`.Value`](<../Any 📚 holders/Value ⓕ any.md>) | any | Return the value of a given key
+    || [`.Value`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Value ⓕ any.md>) | any | Return the value of a given key
     || [`.Values`](<Values ⓕ map.md>) | [list](<../List 📚 holders/🧠 List holders.md>) | Return all pair values as a [List 🧠](<../List 📚 holders/🧠 List holders.md>)
-    |Change | [`.Set`](<../Any 📚 holders/Set ⓕ.md>) |[map](<🧠 Map holders.md>)|  Change or add one or more pairs
-    ||[`.Add`](<../Any 📚 holders/Add ⓕ any.md>) | [map](<🧠 Map holders.md>) | Same as [`.Set`](<../Any 📚 holders/Set ⓕ.md>)
-    |       | [`.Plus`](<../Any 📚 holders/Plus ⓕ any.md>) | [map](<🧠 Map holders.md>) | Same as [`.Set`](<../Any 📚 holders/Set ⓕ.md>)
-    |       | [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>) | [map](<🧠 Map holders.md>) | Remove one or more keys
-    |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) | [map](<🧠 Map holders.md>) | Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
-    |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) | [map](<🧠 Map holders.md>) | Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
+    |Change | [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>) |[map](<🧠 Map holders.md>)|  Change or add one or more pairs
+    ||[`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) | [map](<🧠 Map holders.md>) | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)
+    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ any.md>) | [map](<🧠 Map holders.md>) | Same as [`.Set`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)
+    |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>) | [map](<🧠 Map holders.md>) | Remove one or more keys
+    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ any.md>) | [map](<🧠 Map holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
+    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) | [map](<🧠 Map holders.md>) | Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
 
     ---
     <br/>

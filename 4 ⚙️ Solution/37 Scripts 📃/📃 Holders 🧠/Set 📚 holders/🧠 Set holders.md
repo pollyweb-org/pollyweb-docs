@@ -21,15 +21,15 @@
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns | Details 
     |-|-|-|-
     |Read | [`.First`](<First ⓕ set.md>) | [set](<🧠 Set holders.md>), [map](<../Map 📚 holders/🧠 Map holders.md>) | Return the first `n` [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) with [`.Filter`](<Filter ⓕ set.md>)
-    ||[`.Take`](<../Any 📚 holders/Take ⓕ.md>) | [set](<🧠 Set holders.md>), [map](<../Map 📚 holders/🧠 Map holders.md>) | Equals [`.First`](<First ⓕ set.md>)
-    ||[`.Last`](<../Any 📚 holders/Last ⓕ.md>) | [set](<🧠 Set holders.md>), [map](<../Map 📚 holders/🧠 Map holders.md>) | Return the last `n` [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) with [`.Filter`](<Filter ⓕ set.md>)
+    ||[`.Take`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Take ⓕ.md>) | [set](<🧠 Set holders.md>), [map](<../Map 📚 holders/🧠 Map holders.md>) | Equals [`.First`](<First ⓕ set.md>)
+    ||[`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) | [set](<🧠 Set holders.md>), [map](<../Map 📚 holders/🧠 Map holders.md>) | Return the last `n` [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) with [`.Filter`](<Filter ⓕ set.md>)
     ||[`.Filter`](<Filter ⓕ set.md>) | [set](<🧠 Set holders.md>) | Return [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) that match a given filter
     ||[`.Where`](<Where ⓕ set.md>) | [set](<🧠 Set holders.md>) | Equals [`.Filter`](<Filter ⓕ set.md>)
     |Merge| [`.Cross`](<Cross ⓕ.md>) | [set](<🧠 Set holders.md>) | Cross multiple [Set 🧠 holders](<🧠 Set holders.md>)
     |Change | [`Set.Sort`](<Sort ⓕ set.md>) | [set](<🧠 Set holders.md>) | Sort [Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>) by key
     || [`.Format`](<Format ⓕ set.md>) | [set](<🧠 Set holders.md>) | Select and rename [Map 🧠](<../Map 📚 holders/🧠 Map holders.md>) keys
     ||[`.Append`](<../List 📚 holders/Append ⓕ list.md>)     |[set](<🧠 Set holders.md>)| Add items to the list
-    |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[set](<🧠 Set holders.md>)| Same as [`.Append`](<../List 📚 holders/Append ⓕ list.md>)
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) |[set](<🧠 Set holders.md>)| Same as [`.Append`](<../List 📚 holders/Append ⓕ list.md>)
 
     ---
     <br/>

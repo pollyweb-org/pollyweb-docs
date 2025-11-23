@@ -31,24 +31,24 @@
 
     Group | [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) |Type| Purpose 
     |-|-|-|-
-    |Query  | [`.Contains`](<../Any 📚 holders/Contains ⓕ any.md>) |bool| Contains a given item?
-    |       | [`.Equals`](<../Any 📚 holders/Equals ⓕ any.md>)   |bool| Has these items in this order?
-    |       | [`.Differs`](<../Any 📚 holders/Differs ⓕ any.md>)  |bool| Does not equal this other list?
-    |       | [`.Is`](<../Any 📚 holders/Is ⓕ any.md>)       |bool| Has these items in any order?
-    |       | [`.IsNot`](<../Any 📚 holders/IsNot ⓕ any.md>)    |bool| Are any of these items missing?
-    |Size   | [`.IsEmpty`](<../Any 📚 holders/IsEmpty ⓕ any.md>)  | bool| Is empty?
+    |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ any.md>) |bool| Contains a given item?
+    |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>)   |bool| Has these items in this order?
+    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>)  |bool| Does not equal this other list?
+    |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>)       |bool| Has these items in any order?
+    |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ any.md>)    |bool| Are any of these items missing?
+    |Size   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>)  | bool| Is empty?
     |       | [`.IsOne`](<IsOne ⓕ list.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<AreMany ⓕ list.md>)  | bool| Has more than one item?
-    |       | [`.Size`](<../Any 📚 holders/Size ⓕ.md>)     | [num](<../Num 📚 holders/🧠 Num holders.md>)| Returns the number of items
-    |       | [`.Length`](<../Any 📚 holders/Length ⓕ.md>)   |  [num](<../Num 📚 holders/🧠 Num holders.md>)| Equals [`.Size`](<../Any 📚 holders/Size ⓕ.md>)
+    |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>)     | [num](<../Num 📚 holders/🧠 Num holders.md>)| Returns the number of items
+    |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>)   |  [num](<../Num 📚 holders/🧠 Num holders.md>)| Equals [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>)
     |Read   | [`.First`](<First ⓕ list.md>)   |[list](<🧠 List holders.md>), any| Get the first `n` items
-    |       | [`.Last`](<../Any 📚 holders/Last ⓕ.md>)   |[list](<🧠 List holders.md>), any| Get the last `n` items
+    |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)   |[list](<🧠 List holders.md>), any| Get the last `n` items
     |       | [`.Distinct`](<Distinct ⓕ.md>) |[list](<🧠 List holders.md>)| Return only unique items
     |Change | [`.Append`](<Append ⓕ list.md>)     |[list](<🧠 List holders.md>)| Add items to the list
-    |       | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Append`](<Append ⓕ list.md>)
-    |       | [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)   |[list](<🧠 List holders.md>)| Remove items from the list
-    |       | [`.Minus`](<../Any 📚 holders/Minus ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
-    |       | [`.Diff`](<../Any 📚 holders/Diff ⓕ.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../Any 📚 holders/Remove ⓕ.md>)
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Append`](<Append ⓕ list.md>)
+    |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)   |[list](<🧠 List holders.md>)| Remove items from the list
+    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
+    |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
     
     
     ---
@@ -94,7 +94,7 @@
         - B.IsBetween(20,29)
         - C.IsIn(X,Y)
     ```
-    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../Any 📚 holders/IsBetween ⓕ any.md>) [`.IsIn`](<../Any 📚 holders/IsIn ⓕ any.md>)
+    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ any.md>) [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>)
 
     ---
     <br/>
@@ -104,7 +104,7 @@
 
 1. **How to append into lists?**
 
-    Using the [`.Append`](<Append ⓕ list.md>) or [`.Add` functions](<../Any 📚 holders/Add ⓕ any.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
+    Using the [`.Append`](<Append ⓕ list.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
     
     ```yaml   
     ┌────────────────────────┬─────────────┐
@@ -125,7 +125,7 @@
     # Results in [A,B]    
     ```
 
-    Here's a alternative syntax using the [`.Add` function](<../Any 📚 holders/Add ⓕ any.md>) in a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
+    Here's a alternative syntax using the [`.Add` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) in a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
 
     ```yaml
     📃 Example:
@@ -139,7 +139,7 @@
 
 1. **How to merge two lists?**
 
-    Using the [`.Append`](<Append ⓕ list.md>) or [`.Add` functions](<../Any 📚 holders/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
+    Using the [`.Append`](<Append ⓕ list.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
 
     ```yaml   
     ┌────────────────────┬──────────────┐

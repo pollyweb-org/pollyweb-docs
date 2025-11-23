@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Take`](<../../📃 Holders 🧠/Any 📚 holders/Take ⓕ.md>) 
+> Used by [`.Take`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Take ⓕ.md>) 
 
 ## FAQ
 
@@ -21,7 +21,7 @@
     |Input|Behavior
     |-|-
     |[`$lst`](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)`.First(n)`| Returns the first `n` items of a [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
-    |               |If `n` exceeds [`.Length`](<../../📃 Holders 🧠/Any 📚 holders/Length ⓕ.md>), returns the [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
+    |               |If `n` exceeds [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>), returns the [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
     |[`$lst`](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)`.First` | Equals `$lst.First(1)`
     
     ---

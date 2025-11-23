@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Diff`](<../../📃 Holders 🧠/Any 📚 holders/Diff ⓕ.md>) [`.Minus`](<../../📃 Holders 🧠/Any 📚 holders/Minus ⓕ any.md>)
+> Used by [`.Diff`](<Diff ⓕ.md>) [`.Minus`](<Minus ⓕ any.md>)
 
 ## FAQ 
 

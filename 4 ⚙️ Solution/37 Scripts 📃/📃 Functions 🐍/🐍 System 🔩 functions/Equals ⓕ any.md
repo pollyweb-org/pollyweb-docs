@@ -36,10 +36,10 @@
 
     Type| Meaning | This | Equals ✅
     |-|-|-|-
-    |[Texts 🧠](<../Text 📚 holders/🧠 Text holders.md>)| Same spoken words | `a` | `A` 
-    |[Nums 🧠](<../Num 📚 holders/🧠 Num holders.md>)|  Same mathematical result | `01`| `1.0` 
-    |[Lists 🧠](<../List 📚 holders/🧠 List holders.md>)|  Same ordered sequence | `[1,2]` | `[1,2]`
-    |[Maps 🧠](<../Map 📚 holders/🧠 Map holders.md>)|  Same map despite order | `{A:1,B:2}` | `{B:2,A:1}`
+    |[Texts 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)| Same spoken words | `a` | `A` 
+    |[Nums 🧠](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>)|  Same mathematical result | `01`| `1.0` 
+    |[Lists 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)|  Same ordered sequence | `[1,2]` | `[1,2]`
+    |[Maps 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)|  Same map despite order | `{A:1,B:2}` | `{B:2,A:1}`
 
     ---
     <br/>

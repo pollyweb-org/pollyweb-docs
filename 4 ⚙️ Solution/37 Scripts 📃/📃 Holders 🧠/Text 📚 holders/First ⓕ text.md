@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Take`](<../../📃 Holders 🧠/Any 📚 holders/Take ⓕ.md>) 
+> Used by [`.Take`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Take ⓕ.md>) 
 
 ## FAQ
 
@@ -20,7 +20,7 @@
     |Input|Behavior
     |-|-
     |[`$txt`](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)`.First(n)`| Returns the first `n` characters of a [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)
-    |               |If `n` exceeds [`.Length`](<../../📃 Holders 🧠/Any 📚 holders/Length ⓕ.md>), returns the [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)
+    |               |If `n` exceeds [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>), returns the [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)
     |[`$txt`](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)`.First` | Equals `$txt.First(1)`
     
     ---
