@@ -17,11 +17,11 @@
 
     |Type| Behavior
     |-|-
-    | [Texts 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
+    | [Texts 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
     | [Lists 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
     | [Maps 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>)
     | [Num 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Num holders.md>) | Returns the distance between numbers
-    | [Time 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) | Returns the [Period 🧠](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>) between timestamps
+    | [Time 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Time holders.md>) | Returns the [Period 🧠](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>) between timestamps
     
     ---
     <br/>
@@ -56,7 +56,7 @@
 
 
 
-1. **What's an example of .Diff for [Time 🧠 holders](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>)?**
+1. **What's an example of .Diff for [Time 🧠 holders](<../../📃 Holders 🧠/🧠 Input holders/🧠 Time holders.md>)?**
 
     Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 

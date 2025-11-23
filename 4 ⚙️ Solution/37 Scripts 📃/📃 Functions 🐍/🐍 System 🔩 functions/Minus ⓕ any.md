@@ -13,11 +13,11 @@
 
     |Type| Behavior
     |-|-
-    | [Texts 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
+    | [Texts 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
     | [Lists 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
     | [Maps 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>)
     | [Num 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Num holders.md>) | Same as [`.Sum`](<Sum ⓕ num.md>) with negative additions
-    | [Time 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) | Same as [`.GoBack`](<GoBack ⓕ time.md>)
+    | [Time 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Time holders.md>) | Same as [`.GoBack`](<GoBack ⓕ time.md>)
     
     ---
     <br/>

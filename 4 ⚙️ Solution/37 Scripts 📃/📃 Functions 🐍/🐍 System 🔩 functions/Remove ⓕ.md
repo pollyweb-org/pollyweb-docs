@@ -10,7 +10,7 @@
 
     |Type| Behavior
     |-|-
-    | [Texts 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)| Removes all instances of a substring
+    | [Texts 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>)| Removes all instances of a substring
     | [Lists 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)  | Removes all matching list items
     | [Maps 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>) | Remove a matching property
     
@@ -26,7 +26,7 @@
     ---
     <br/>
 
-1. **What are .Remove examples for [Text 🧠 holders](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)?**
+1. **What are .Remove examples for [Text 🧠 holders](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>)?**
 
     | From | Remove | Output | Explanation
     |-|-|-|-
