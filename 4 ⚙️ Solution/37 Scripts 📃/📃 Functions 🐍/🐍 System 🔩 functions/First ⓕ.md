@@ -10,7 +10,7 @@
 
     `{.First}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the start of a [Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>), [List 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>), or [Set 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 Set holders.md>).
+    * that returns the start of a [Text 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>), [List 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>), or [Set 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 Set holders.md>).
 
 
     ---
@@ -20,7 +20,7 @@
 
     |Input|Behavior
     |-|-
-    |[Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | See [`.First text`](<First ⓕ text.md>)
+    |[Text 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>) | See [`.First text`](<First ⓕ text.md>)
     |[List 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)| See [`.First list`](<First ⓕ list.md>)
     |[Set 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Set holders.md>) | See [`.First set`](<../../📃 Holders 🧠/Set 📚 holders/First ⓕ set.md>)
     ---
