@@ -1,3 +1,4 @@
+<!-- MERGE -->
 # 🧠🔩 List.Sort extension
 
 > Part of [List 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)

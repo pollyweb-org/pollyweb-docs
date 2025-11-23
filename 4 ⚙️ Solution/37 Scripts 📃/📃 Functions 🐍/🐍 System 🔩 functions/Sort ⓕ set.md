@@ -1,3 +1,4 @@
+<!-- MERGE -->
 # 🧠🔩 Set.Sort extension
 
 > Part of [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)
