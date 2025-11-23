@@ -51,7 +51,7 @@
     |Input 1 | Input 2 |Output
     |-|-|-
     |`$items` |`SupID:X` | Items 2, 3, and 4
-    |`$items` |`SupID`[`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>)`(X)` <br/> `Price`[`.IsAtLeast`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAtLeast ⓕ any.md>)`(30)`  | Items 3 and 4
+    |`$items` |`SupID`[`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>)`(X)` <br/> `Price`[`.IsAtLeast`](<IsAtLeast ⓕ.md>)`(30)`  | Items 3 and 4
 
     ---
     <br/>
@@ -69,9 +69,9 @@
     |[`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>)        | A property is similar to a given value?
     |[`.IsNot`](<IsNot ⓕ.md>)        | A property is not similar to given value?
     |[`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAbove ⓕ any.md>)   | A property is above a given value?
-    |[`.IsAtLeast`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAtLeast ⓕ any.md>) | A property is equal or above a value?
-    |[`.IsBelow`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBelow ⓕ any.md>)   | A property is below a value?
-    |[`.IsAtMost`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAtMost ⓕ any.md>)  | A property is equal or below a value?
+    |[`.IsAtLeast`](<IsAtLeast ⓕ.md>) | A property is equal or above a value?
+    |[`.IsBelow`](<IsBelow ⓕ.md>)   | A property is below a value?
+    |[`.IsAtMost`](<IsAtMost ⓕ.md>)  | A property is equal or below a value?
     |[`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>)   | A property is empty?
     |[`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>)   | A property is not empty?
     
