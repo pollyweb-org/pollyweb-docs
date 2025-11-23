@@ -11,7 +11,7 @@
     `{.Sum}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that adds numbers and [`.Calculate`](<Calculate ⓕ num.md>) formulas
-    * to an original [Num 🧠 holder](<🧠 Num holders.md>).
+    * to an original [Num 🧠 holder](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>).
 
     ---
     <br/>
