@@ -139,7 +139,7 @@
 
 1. **How to merge two lists?**
 
-    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ list.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
+    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ list.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml   
     ┌────────────────────┬──────────────┐

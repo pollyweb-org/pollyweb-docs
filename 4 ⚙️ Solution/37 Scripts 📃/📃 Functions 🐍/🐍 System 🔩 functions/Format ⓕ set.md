@@ -10,7 +10,7 @@
 
     `{.Format}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that calls [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>)
+    * that calls [`.Evaluate`](<Evaluate ⓕ.md>)
     * to format every item of a [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)
     * into a [List 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>).
 
