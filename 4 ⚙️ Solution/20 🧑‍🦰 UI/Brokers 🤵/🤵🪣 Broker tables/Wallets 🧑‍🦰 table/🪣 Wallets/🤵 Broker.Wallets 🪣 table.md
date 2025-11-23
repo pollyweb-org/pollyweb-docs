@@ -9,7 +9,7 @@
 > Usage
 
 * Inserted by [`Onboard@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
-* Updated by [`Language@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>)
+* Updated by [`Language@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Localize 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>)
 
 <br/>
 

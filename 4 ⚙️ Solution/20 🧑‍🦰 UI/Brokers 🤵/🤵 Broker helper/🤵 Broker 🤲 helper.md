@@ -88,7 +88,7 @@
     Group |  Method | Purpose
     |-|-|-
     |[`🧑‍🦰 Wallet`](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)| [📣🚀 Onboard](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>) | Onboard a [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-    |  | [🧑‍🦰🐌 Translate](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Language 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>) | Change the language of a [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    |  | [🧑‍🦰🐌 Translate](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Localize 🧑‍🦰🐌🤵/🤵 Language 🐌 msg.md>) | Change the language of a [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | | [🧑‍🦰🐌 Pop](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | Summons the [Broker 🤵](<🤵 Broker 🤲 helper.md>) for help 
     | [`💬 Chats`](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  | [🧑‍🦰🚀 Locate](<../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | Parse the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) on the [Broker 🤵](<🤵 Broker 🤲 helper.md>)
     | | [🧑‍🦰🚀 Chats](<../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>) | Fetch [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from the [Broker 🤵](<🤵 Broker 🤲 helper.md>)

@@ -1,0 +1,32 @@
+@startuml OnWalletLocalized
+ 
+participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Localize@ 📃" as handler
+    participant "Wallets 🪣" as wallets
+    participant "OnLocalized 🔔" as script
+    participant "Binds 🪣" as binds
+    participant "Tokens 🪣" as tokens
+    participant "Chats 🪣" as chats
+end box
+
+
+wallet --> handler: Localize 🐌
+activate handler
+    handler -> wallets: SAVED 💾 {language}
+deactivate
+
+activate wallets
+    wallets --> script: UPDATED 🔔
+deactivate wallets
+
+activate script
+    script -> binds: SAVE 💾 {language}
+    script -> tokens: 
+    script -> chats: 
+deactivate script
+
+
+
+@enduml 
