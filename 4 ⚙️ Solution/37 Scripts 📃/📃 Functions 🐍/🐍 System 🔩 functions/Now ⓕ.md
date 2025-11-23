@@ -10,7 +10,7 @@
     `{.Now}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the current time
-    * based on the [`$.Chat`](<../../📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>) timezone and language.
+    * based on the [`$.Chat`](<../../📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>) timezone and language.
 
     ---
     <br/>

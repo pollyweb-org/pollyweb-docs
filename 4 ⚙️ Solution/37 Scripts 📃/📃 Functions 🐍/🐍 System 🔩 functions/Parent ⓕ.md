@@ -10,7 +10,7 @@
 
     `{.Parent}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the [`$.Parent` 🧠 holder](<../../📃 Holders 🧠/🧠 System holders/$.Parent ▶️/▶️ $.Parent 🧠 holder.md>).
+    * that returns the [`$.Parent` 🧠 holder](<../../📃 Holders 🧠/System holders 🔩/$.Parent ▶️/▶️ $.Parent 🧠 holder.md>).
 
     ---
     <br/>

@@ -19,10 +19,10 @@
     Input | Purpose | Example
     |-|-|-
     | `From` | Original language            | `en-us`
-    | | Defaults to [`$.Script`](<../../../📃 Holders 🧠/🧠 System holders/$.Script 📃/📃 $.Script 🧠 holder.md>)`.Language`
+    | | Defaults to [`$.Script`](<../../../📃 Holders 🧠/System holders 🔩/$.Script 📃/📃 $.Script 🧠 holder.md>)`.Language`
     | `To`   | Destination language         | `pt-br`
-    | | Defaults to [`$.Chat`](<../../../📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>)`.Language` | 
-    | | Or to [`$.Msg`](<../../../📃 Holders 🧠/🧠 System holders/$.Msg 📨/📨 $.Msg 🧠 holder.md>)`.Language`
+    | | Defaults to [`$.Chat`](<../../../📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>)`.Language` | 
+    | | Or to [`$.Msg`](<../../../📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)`.Language`
     | `Text` | Text to translate via [`.Translate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>) | `Hi, ´John´!`
     |       | Doesn't translate between `´´`
     | `Domain` | Domain for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | `any-domain.dom`

@@ -30,7 +30,7 @@
     |-|-|-
     | `$context` | Optional input [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)  | `$p`
     |`To`| Destination domain | `any-broker.dom`
-    |    | Defaults to [`$.Hosted`](<../../../📃 Holders 🧠/🧠 System holders/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)`.Domain`
+    |    | Defaults to [`$.Hosted`](<../../../📃 Holders 🧠/System holders 🔩/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)`.Domain`
     | `Subject` | Message subject | `Unbound@Vault`
     | `{body}` | `Body` property dictionary  | `{A:1, B:2}`
     | `$response` | Response [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) <br/> for [Synchronous Calls 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Calls 🚀.md>) | `$r`

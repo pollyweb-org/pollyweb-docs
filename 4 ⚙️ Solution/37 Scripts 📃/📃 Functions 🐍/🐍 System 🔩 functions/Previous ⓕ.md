@@ -10,7 +10,7 @@
     `{.Previous}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * similar to [`.This`](<This ⓕ.md>)
-    * that returns a [Period 🧠 holder](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>)
+    * that returns a [Period 🧠 holder](<../../📃 Holders 🧠/Output holders 📤/Period holders.md>)
     * representing the previous period relative to [`.Now`](<Now ⓕ.md>).
 
 
