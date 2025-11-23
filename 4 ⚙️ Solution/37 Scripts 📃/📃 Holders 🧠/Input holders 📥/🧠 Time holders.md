@@ -31,8 +31,8 @@
     |Change | [`.Advance`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Advance ⓕ.md>) |[time](<🧠 Time holders.md>)| What if we add time?
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) |[time](<🧠 Time holders.md>)| Same as [`.Advance`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Advance ⓕ.md>)Time 🧠 functions/🔩 .Advance.md
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ.md>) |[time](<🧠 Time holders.md>)| Same as [`.Advance`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Advance ⓕ.md>)Time 🧠 functions/🔩 .Advance.md
-    |       | [`.GoBack`](<../../📃 Functions 🐍/🐍 System 🔩 functions/GoBack ⓕ time.md>) |[time](<🧠 Time holders.md>)| What if we remove time?
-    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ.md>)|[time](<🧠 Time holders.md>)| Same as [`.GoBack`](<../../📃 Functions 🐍/🐍 System 🔩 functions/GoBack ⓕ time.md>)Time 🧠 functions/🔩 .GoBack.md
+    |       | [`.GoBack`](<../../📃 Functions 🐍/🐍 System 🔩 functions/GoBack ⓕ.md>) |[time](<🧠 Time holders.md>)| What if we remove time?
+    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ.md>)|[time](<🧠 Time holders.md>)| Same as [`.GoBack`](<../../📃 Functions 🐍/🐍 System 🔩 functions/GoBack ⓕ.md>)Time 🧠 functions/🔩 .GoBack.md
   
 
     ---
