@@ -58,7 +58,7 @@
     - ASSERT:
         - $date.IsIn(.Previous(month))
     ```
-    Uses: [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>)
+    Uses: [`.IsIn`](<IsIn ⓕ.md>)
 
     ---
     <br/>

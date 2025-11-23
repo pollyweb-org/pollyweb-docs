@@ -64,7 +64,7 @@
     |[`.Equals`](<Equals ⓕ.md>)    | A property equals a given value?
     |[`.Differs`](<Differs ⓕ.md>)   | A property does not equal a given value?
     |[`.IsBetween`](<IsBetween ⓕ.md>)| A property is between two given values?
-    |[`.IsIn`](<IsIn ⓕ any.md>)        | A property is in a given list?
+    |[`.IsIn`](<IsIn ⓕ.md>)        | A property is in a given list?
     |[`.IsNotIn`](<IsNotIn ⓕ.md>)   | A property is not in a given list?
     |[`.Is`](<Is ⓕ.md>)        | A property is similar to a given value?
     |[`.IsNot`](<IsNot ⓕ.md>)        | A property is not similar to given value?
