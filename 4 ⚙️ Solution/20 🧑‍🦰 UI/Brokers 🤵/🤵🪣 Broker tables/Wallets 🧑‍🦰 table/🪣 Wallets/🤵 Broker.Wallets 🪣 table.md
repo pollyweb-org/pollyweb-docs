@@ -8,8 +8,8 @@
 
 > Usage
 
-* Inserted by [`Onboard@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
-* Updated by [`Localize@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Localize 🧑‍🦰🐌🤵/🤵 Localize 🐌 msg.md>)
+* Inserted by the [`Onboard@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
+* Updated by the [`Pop@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
 
 <br/>
 
