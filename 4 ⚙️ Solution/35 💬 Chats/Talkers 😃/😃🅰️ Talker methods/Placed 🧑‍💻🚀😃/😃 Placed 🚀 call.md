@@ -12,7 +12,7 @@
 > Purpose
 
 * Reads a [Holder 🧠](<../../../Scripts 📃/Holder 🧠.md>)
-* The holder [`$.Chat`](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>) contains [Chat 💬](<../../../Chats 💬/💬 Chat.md>) details.
+* The holder [`$.Chat`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>) contains [Chat 💬](<../../../Chats 💬/💬 Chat.md>) details.
 
 <br/>
 

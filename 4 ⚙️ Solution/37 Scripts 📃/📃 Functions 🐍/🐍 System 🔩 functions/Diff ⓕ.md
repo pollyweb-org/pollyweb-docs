@@ -21,7 +21,7 @@
     | [Lists 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
     | [Maps 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>)
     | [Num 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) | Returns the distance between numbers
-    | [Time 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) | Returns the [Period 🧠](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>) between timestamps
+    | [Time 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) | Returns the [Period 🧠](<../../📃 Holders 🧠/Output holders 📤/Period holders.md>) between timestamps
     
     ---
     <br/>

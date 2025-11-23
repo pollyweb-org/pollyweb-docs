@@ -29,8 +29,8 @@
     | Parameter | Details | Example | Default
     |-|-|-|-
     | `text`| Text to be translated | `Hi!`
-    | `from`| Current language | `en-us` | [`$.Script`](<../../📃 Holders 🧠/🧠 System holders/$.Script 📃/📃 $.Script 🧠 holder.md>).Language 
-    | `to`| Translated language | `pt-br`| [`$.Chat`](<../../📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>).Language
+    | `from`| Current language | `en-us` | [`$.Script`](<../../📃 Holders 🧠/System holders 🔩/$.Script 📃/📃 $.Script 🧠 holder.md>).Language 
+    | `to`| Translated language | `pt-br`| [`$.Chat`](<../../📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>).Language
 
     ---
     <br/>

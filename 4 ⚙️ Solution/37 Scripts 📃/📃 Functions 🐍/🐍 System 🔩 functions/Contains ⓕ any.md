@@ -10,7 +10,7 @@
     |Type|Returns|Behavior
     |-|-|-
     |[Text 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)   |bool| Is the given [Text 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) a subs string?
-    |[Period 🧠](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>) |bool| Is the given [Time 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) in the date interval?
+    |[Period 🧠](<../../📃 Holders 🧠/Output holders 📤/Period holders.md>) |bool| Is the given [Time 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) in the date interval?
     |[List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)   |bool| Is the given value in the [List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)?
     |[Map 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)    |bool| Is the given key in the [`.Keys`](<Keys ⓕ map.md>) list?
     |[Set 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)    |bool| Is the given [Map 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) in the [Set 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)?

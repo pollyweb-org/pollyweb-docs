@@ -7,7 +7,7 @@
 
 > Data access
 * Saved by the [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) command
-* Loaded into the [`$.Chat` 🧠 holder](<../../../../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>) 
+* Loaded into the [`$.Chat` 🧠 holder](<../../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>) 
 
 
 ## Schema

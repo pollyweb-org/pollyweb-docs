@@ -177,7 +177,7 @@
     | `$out`| Output [Holder 🧠](<Holder 🧠.md>) | `$reply`
     | `<prop-n>` | Property of an object |`Details`
     | `<val-n>` | Value of a property   | `Hi!`
-    | `$holder-n` | [Holder 🧠](<Holder 🧠.md>)    | [`$.Inputs`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 System holders/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)
+    | `$holder-n` | [Holder 🧠](<Holder 🧠.md>)    | [`$.Inputs`](<../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)
 
     ---
     <br/>

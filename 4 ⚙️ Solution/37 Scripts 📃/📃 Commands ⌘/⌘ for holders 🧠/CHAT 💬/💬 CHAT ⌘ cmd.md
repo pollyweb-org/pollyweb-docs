@@ -7,7 +7,7 @@
 1. **What's the CHAT command for?**
 
     The `CHAT` command
-    * sets the [`$.Chat` 🧠 holder](<../../../📃 Holders 🧠/🧠 System holders/$.Chat 💬/💬 $.Chat 🧠 holder.md>) holder
+    * sets the [`$.Chat` 🧠 holder](<../../../📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>) holder
     * with a new or existing [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     * to provide language and format context for [Prompts 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>).
 
