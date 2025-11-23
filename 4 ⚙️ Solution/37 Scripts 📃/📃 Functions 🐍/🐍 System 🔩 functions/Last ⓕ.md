@@ -43,7 +43,7 @@
 
 1. **What are examples of .Last for times?**
 
-    For time related strings, [`.Last`](<Last ⓕ.md>) returns a [Period 🧠 holder](<../../📃 Holders 🧠/Output holders 📤/Period holders.md>) for [`.IsIn`](<IsIn ⓕ any.md>) and [`.IsBetween`](<IsBetween ⓕ.md>).
+    For time related strings, [`.Last`](<Last ⓕ.md>) returns a [Period 🧠 holder](<../../📃 Holders 🧠/Output holders 📤/Period holders.md>) for [`.IsIn`](<IsIn ⓕ.md>) and [`.IsBetween`](<IsBetween ⓕ.md>).
 
     | Example | Returns
     |-|-

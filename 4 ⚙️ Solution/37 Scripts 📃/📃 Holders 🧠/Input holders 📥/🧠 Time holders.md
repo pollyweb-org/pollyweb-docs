@@ -25,7 +25,7 @@
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)      |[period](<../Output holders 📤/Period holders.md>)| What's the given last period?
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) |[period](<../Output holders 📤/Period holders.md>)| How long between two times?
     |Compare| [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ.md>)  |bool| Is it between two given times?
-    |       | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>)       |bool| Is it in a given [Period 🧠 holder](<../Output holders 📤/Period holders.md>)?
+    |       | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)       |bool| Is it in a given [Period 🧠 holder](<../Output holders 📤/Period holders.md>)?
     |Assess   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ.md>) |bool| Is it empty, i.e. no time given?
     |         | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ.md>) |bool| Is it not empty?
     |Change | [`.Advance`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Advance ⓕ.md>) |[time](<🧠 Time holders.md>)| What if we add time?
