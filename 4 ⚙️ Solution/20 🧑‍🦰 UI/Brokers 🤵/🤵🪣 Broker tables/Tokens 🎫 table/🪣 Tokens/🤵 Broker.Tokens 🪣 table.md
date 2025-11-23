@@ -10,6 +10,7 @@
 * Read by [`Frontend@Broker`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>) 
 * Written by [`Offer@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) [`Saved@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) [`Revise@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
 
+<br/>
 
 ## Schema
 
@@ -66,7 +67,7 @@ Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System �
 | Link | Table | Stores
 |-|-|-
 | Parent    | [`Wallets` 🪣](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) |
-|           | [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+|           | [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domain 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 
 
 ## Handlers
@@ -77,7 +78,7 @@ Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System �
 | [`OnTokenChanges` 📃](<../🪣🔔 0 Altered/🤵 OnTokenAltered 📃 handler.md>) | [`Updated@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ALTERED`
 | [`OnTokenAccepted` 📃](<../🪣🔔 4 Accepted/🤵 OnTokenAccepted 📃 handler.md>) | [`Accepted@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) | `UPDATED`
 
-
+<br/>
 
 ## Example
 
