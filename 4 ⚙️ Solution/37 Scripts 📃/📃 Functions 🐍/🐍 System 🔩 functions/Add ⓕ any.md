@@ -12,7 +12,7 @@
     |[`Num` 🧠](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>) | Same as [`.Sum`](<../../📃 Holders 🧠/Num 📚 holders/Sum ⓕ num.md>) 
     |[`Time` 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) | Same as [`.Advance`](<Advance ⓕ time.md>) 
     |[`List` 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) | Same as [`.Append`](<../../📃 Holders 🧠/List 📚 holders/Append ⓕ list.md>) 
-    |[`Text` 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | Same as [`.Append`](<../../📃 Holders 🧠/Text 📚 holders/Append ⓕ text.md>) 
+    |[`Text` 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | Same as [`.Append`](<Append ⓕ text.md>) 
     |[`Map` 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | Same as [`.Set`](<Set ⓕ.md>) 
 
     ---
