@@ -47,7 +47,7 @@
     |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)     |[list](<🧠 List holders.md>)| Add items to the list
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) |[list](<🧠 List holders.md>)| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)   |[list](<🧠 List holders.md>)| Remove items from the list
-    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
+    |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
     
     
