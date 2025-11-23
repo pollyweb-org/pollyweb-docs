@@ -1,0 +1,27 @@
+@startuml OnPopLocalize
+ 
+participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "OnWallet 🔔" as onWallet
+    participant "Pops 🪣" as pops
+    participant "OnLocalize 🔔" as localized
+end box
+
+wallet --> onWallet: Pop 🐌 {WALLET}
+
+activate onWallet
+    wallet --> onWallet: {localize}
+    onWallet --> pops: SAVE 💾 {LOCALIZE}
+deactivate onWallet
+
+activate pops
+    pops -> localized: LOCALIZE 🔔
+deactivate pops
+
+activate localized
+    localized -> localized: CHAT 💬 
+    localized -> wallet: PROMPT 🤔 {...}
+deactivate localized
+
+@enduml 

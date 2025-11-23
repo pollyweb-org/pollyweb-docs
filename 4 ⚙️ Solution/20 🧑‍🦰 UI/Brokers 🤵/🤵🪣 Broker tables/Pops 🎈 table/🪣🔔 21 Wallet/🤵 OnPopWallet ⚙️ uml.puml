@@ -5,7 +5,6 @@ participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Pops 🪣" as pops
     participant "OnWallet 🔔" as popped
-    participant "Talker 😃" as talker
 end box
 
 wallet --> pops: Pop 🐌 {WALLET}
@@ -15,7 +14,7 @@ activate pops
 deactivate pops
 
 activate popped
-    popped -> talker: CHAT 💬 
+    popped -> popped: CHAT 💬 
     popped -> wallet: ONE 🤔 {what?}
     popped -> pops: SAVE 💾 {...}
 deactivate popped
