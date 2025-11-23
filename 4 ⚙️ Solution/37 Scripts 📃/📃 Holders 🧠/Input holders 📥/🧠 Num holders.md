@@ -47,7 +47,7 @@
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) |bool| Is it in a given list of numbers?
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Random ⓕ.md>) |[num](<🧠 Num holders.md>)| Returns a random number
     |Change | [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ num.md>) |[num](<🧠 Num holders.md>)| Adds numbers
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ num.md>)
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ num.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ any.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ num.md>) | What if we add numbers?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ any.md>) |[num](<🧠 Num holders.md>)| Subtracts numbers
     |       | [`.Times`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Times ⓕ num.md>) |[num](<🧠 Num holders.md>)| Multiplies numbers

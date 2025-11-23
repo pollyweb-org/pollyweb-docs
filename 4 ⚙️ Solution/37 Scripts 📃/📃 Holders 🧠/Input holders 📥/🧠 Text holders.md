@@ -24,7 +24,7 @@
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) |[text](<🧠 Text holders.md>)| What's the last char?
     |       | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ any.md>) |bool| Does it contain a given char?
     |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>) |[text](<🧠 Text holders.md>)| What we append the given string?
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) |[text](<🧠 Text holders.md>)| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) |[text](<🧠 Text holders.md>)| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ any.md>) |[text](<🧠 Text holders.md>)| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>) |[text](<🧠 Text holders.md>)| What if we remove the given string?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ any.md>) |[text](<🧠 Text holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)

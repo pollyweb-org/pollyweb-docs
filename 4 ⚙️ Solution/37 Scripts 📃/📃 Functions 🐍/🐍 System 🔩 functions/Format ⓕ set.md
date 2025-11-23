@@ -171,7 +171,7 @@
     │ 6 │ 4 │  │   - C: B.Add(50%) │  │ P6 │ 8 │ 6 │  
     └───┴───┘  └───────────────────┘  └────┴───┴───┘
     ```
-    Uses: [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) [`.Take`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Take ⓕ.md>)
+    Uses: [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.Add`](<Add ⓕ.md>) [`.Take`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Take ⓕ.md>)
 
     ---
     <br/>
