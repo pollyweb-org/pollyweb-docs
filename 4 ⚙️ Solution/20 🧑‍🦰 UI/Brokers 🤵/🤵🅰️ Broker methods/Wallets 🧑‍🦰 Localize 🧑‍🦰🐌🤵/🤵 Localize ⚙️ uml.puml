@@ -1,19 +1,19 @@
-@startuml Language@Broker
+@startuml Localize@Broker
  
 participant "Wallet 👱" as wallet
 
 box Broker 🤵️ domain #FFFFFA
-    participant "Language@  📃" as broker
+    participant "Localize 🐌" as broker
     participant "Wallets 🪣" as wallets
 end box
 
 
 activate wallet
-    wallet --> broker: Language 🐌
+    wallet --> broker: Localize 🐌
 deactivate wallet
 
 activate broker
-    broker -> wallets: READ {wallet}
+    broker -> wallets: READ 🧲
     broker -> wallets: SAVE 💾 {language}
 deactivate broker
 

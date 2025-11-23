@@ -3,10 +3,10 @@
 <!-- Source: https://github.com/jorgemjfonseca/domain-trust-framework/blob/143c4c876bdd0dd8b120bdfecf20ef6b268ad20f/python/roles/broker/BROKER_WALLETS.py#L76 -->
 
 
-# 🧑‍🦰🐌🤵 Translate @ [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+# 🧑‍🦰🐌🤵 Localize @ [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 
 > Part of the [`Set Language` 💬 chat](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in App 🏠/Set Language 💬🤵/🧑‍🦰 Set Language ⏩ flow.md>)
-*  Implemented by [`Language` 📃 handler](<🤵 Language 📃 handler.md>)
+*  Implemented by [`Localize` 📃 handler](<🤵 Localize 📃 handler.md>)
 
 > Purpose
 * The user requests the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
@@ -23,7 +23,7 @@
 Header: 
     From: <wallet-uuid>
     To: any-broker.dom
-    Subject: Language@Broker
+    Subject: Localize@Broker
 
 Body:
     Language: en-us
@@ -34,6 +34,6 @@ Body:
 |-|-|-|-|-
 |Header|`From`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 ||`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
-||`Subject`|text| `Language@Broker`
+||`Subject`|text| `Localize@Broker`
 |Body|`Language`| enum | ISO language code.
 |

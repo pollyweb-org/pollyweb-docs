@@ -1,6 +1,6 @@
 # 🤵 Get Wallet 📃 script
 
-> Part of the [`Language` 📃 handler](<../🤵 Language 📃 handler.md>)
+> Part of the [`Language` 📃 handler](<../🤵 Localize 📃 handler.md>)
 
 
 ## Script
