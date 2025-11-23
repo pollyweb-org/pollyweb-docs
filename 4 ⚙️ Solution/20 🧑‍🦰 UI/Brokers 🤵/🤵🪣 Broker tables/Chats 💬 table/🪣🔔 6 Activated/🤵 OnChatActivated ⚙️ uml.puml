@@ -5,7 +5,6 @@ box Broker 🤵 domain #FFFFFA
     participant "Opened 🐌" as opened
     participant "Chats 🪣" as chats
     participant "OnActivated 🔔" as handler
-    participant "Pops 🪣" as pops
     participant "Chatters 🪣" as chatters
 end box
 
@@ -17,7 +16,7 @@ deactivate chats
 
 activate handler
     alt IF is Broker
-        handler -> pops: SAVE 💾 {POPPED}
+        handler -> chatters: SAVE 💾 {POP}
     else
         handler -> chatters: SAVE 💾 {HOST}
     end alt

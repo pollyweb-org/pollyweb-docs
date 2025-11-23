@@ -5,6 +5,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Chats 🪣" as chats
     participant "Chatters 🪣" as table
     participant "OnPop 🔔" as handler
+    participant "Pops 🪣" as pops
 end box
 
 
@@ -19,7 +20,7 @@ activate table
 deactivate table
 
 activate handler
-    
+    handler -> pops: SAVE 💾 {POPPED}
 deactivate handler
 
 

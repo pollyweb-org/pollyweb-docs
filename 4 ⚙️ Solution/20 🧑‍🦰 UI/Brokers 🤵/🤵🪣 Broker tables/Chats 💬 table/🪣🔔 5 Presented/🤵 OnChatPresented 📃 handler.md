@@ -16,6 +16,7 @@
 
 # Add the Broker to the chat
 - SAVE|Broker.Chatters:
+    .State: BROKER
     Chat: $Chat.ID
     Domain: $.Hosted.Domain
     Role: VAULT

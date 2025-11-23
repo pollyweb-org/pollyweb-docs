@@ -1,6 +1,12 @@
 # 🤵 OnChatActivated ⚙️ handler
 
-<!-- TODO: Finish -->
+<br/>
+
+## Diagram
+
+![alt text](<🤵 OnChatActivated ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 
@@ -8,9 +14,20 @@
 ```yaml
 📃 OnChatActivated:
 
-# Add the HOST participant
-- SAVE|Broker.Chatters:
-    Chat: $Chat.ID
-    Domain: $Chat.Host
-    Role: HOST
+# On Pop@Broker
+- IF|$Chat.Host.Is($.Hosted.Domain):
+
+    Then: # Pop the Chat 
+        SAVE|Broker.Chatters:
+            .State: POP
+            Chat: $Chat.ID
+            Domain: $.Hosted.Domain
+            Role: VAULT
+
+    Else: # Add the HOST participant
+        SAVE|Broker.Chatters:
+            .State: HOST
+            Chat: $Chat.ID
+            Domain: $Chat.Host
+            Role: HOST
 ```
