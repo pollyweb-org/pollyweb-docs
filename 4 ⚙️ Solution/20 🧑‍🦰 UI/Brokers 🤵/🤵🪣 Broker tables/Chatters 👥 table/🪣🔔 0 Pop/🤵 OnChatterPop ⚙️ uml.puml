@@ -1,0 +1,26 @@
+@startuml OnChatterPop
+
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "Chats 🪣" as chats
+    participant "Chatters 🪣" as table
+    participant "OnPop 🔔" as handler
+end box
+
+
+wallet --> chats: Opened 🐌
+
+activate chats
+    chats --> table: SAVE 💾 {POP}
+deactivate chats
+
+activate table
+    table --> handler: POP 🔔
+deactivate table
+
+activate handler
+    
+deactivate handler
+
+
+@enduml

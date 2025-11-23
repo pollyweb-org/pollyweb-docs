@@ -14,6 +14,7 @@ activate broker
     broker -> chats: SAVE 💾 {ACTIVE}
 deactivate broker
 
+
 activate chats
     chats --> table: SAVE 💾 {HOST}
 deactivate chats
