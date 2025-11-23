@@ -27,11 +27,18 @@ Handlers:
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 ```yaml
-# READ|Hosts|<host>
-
+# From Chat,Bind,Token propagation
 Name: any-domain.dom
+Wallet: <wallet-uuid>
+
+# From OnDomainAdded, OnPopLocalize
+Language: en-US
 Title: Any Domain
 Description: bla, bla...
 SmallIcon: <base64>
 BigIcon: <base64>
+
+# From Pop@Broker
+Blocked: false
+Muted: false
 ```

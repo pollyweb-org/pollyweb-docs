@@ -18,9 +18,13 @@ Item: Chat
 Key: ID
 
 Parents:
-    Wallet: { Wallets.ID: Chats.Wallet }
-    Host: { Domains.Name: Chats.Host }
-    Pop: { Pops.ID: Chats.Pop }
+    Wallet: 
+        Wallets.ID: Chats.Wallet
+    Pop: 
+        Pops.ID: Chats.Pop
+    Host: 
+        Domains.Name: Chats.Host, 
+        Domains.Wallet: Chats.Wallet
 
 Propagate:
     - Host

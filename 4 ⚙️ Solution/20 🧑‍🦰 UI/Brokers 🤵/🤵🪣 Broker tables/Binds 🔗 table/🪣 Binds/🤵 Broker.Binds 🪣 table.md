@@ -17,9 +17,13 @@ Item: Bind
 Key: Vault, Wallet, Schema
 
 Parents:
-    Chat: { Chats.ID: Binds.Chat }
-    Wallet: { Wallets.ID: Binds.Wallet }
-    Vault: { Domains.Name: Binds.Vault }
+    Chat: 
+        Chats.ID: Binds.Chat
+    Wallet: 
+        Wallets.ID: Binds.Wallet
+    Vault: 
+        Domains.Name: Binds.Vault
+        Domains.Wallet: Binds.Wallet
 
 Propagate:
     - Vault

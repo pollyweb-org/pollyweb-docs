@@ -24,8 +24,11 @@ Item: Token
 Key: ID
 
 Parents:
-    Wallet: { Wallets.ID: Tokens.Wallet }
-    Issuer: { Domains.Name: Tokens.Issuer }
+    Wallet: 
+        Wallets.ID: Tokens.Wallet
+    Issuer: 
+        Domains.Name: Tokens.Issuer
+        Domains.Wallet: Tokens.Wallet
 
 Propagate:
     - Issuer

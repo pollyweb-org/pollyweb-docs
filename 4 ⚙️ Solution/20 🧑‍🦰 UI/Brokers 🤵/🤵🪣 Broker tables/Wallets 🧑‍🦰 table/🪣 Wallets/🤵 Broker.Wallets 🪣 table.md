@@ -27,10 +27,10 @@ Parents:
     Notifier: { Notifiers.Name: Wallets.Notifier }
 
 Children:
-    Chats: { Chats.Wallet: Wallets.ID }
     Binds: { Binds.Wallet: Wallet.ID }
-    Tokens: { Tokens.Active.Wallet: Wallet.ID }
-    Offers: { Tokens.Offers.Wallet: Wallet.ID }
+    Chats: { Chats.Wallet: Wallets.ID }
+    Tokens: { Tokens.Wallet: Wallet.ID }
+    Domains: { Domains.Wallet: Wallet.ID }
 
 Distincts: 
     Hosts: Chats.Host
