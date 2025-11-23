@@ -65,9 +65,9 @@
     |[`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>)   | A property does not equal a given value?
     |[`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ any.md>)| A property is between two given values?
     |[`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>)        | A property is in a given list?
-    |[`.IsNotIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotIn ⓕ any.md>)   | A property is not in a given list?
+    |[`.IsNotIn`](<IsNotIn ⓕ.md>)   | A property is not in a given list?
     |[`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>)        | A property is similar to a given value?
-    |[`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ any.md>)        | A property is not similar to given value?
+    |[`.IsNot`](<IsNot ⓕ.md>)        | A property is not similar to given value?
     |[`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAbove ⓕ any.md>)   | A property is above a given value?
     |[`.IsAtLeast`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAtLeast ⓕ any.md>) | A property is equal or above a value?
     |[`.IsBelow`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBelow ⓕ any.md>)   | A property is below a value?
