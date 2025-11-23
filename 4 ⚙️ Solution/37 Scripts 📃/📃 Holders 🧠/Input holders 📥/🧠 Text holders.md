@@ -10,10 +10,10 @@
     |-|-|-|-
     | Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>) | bool | Is it an empty text?
     |       | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>) | bool | Is it text, not just spaces?
-    |Bounds | [`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAbove ⓕ any.md>) | bool | Is it after in alphabetical order?
+    |Bounds | [`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAbove ⓕ.md>) | bool | Is it after in alphabetical order?
     |       | [`.IsBelow`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBelow ⓕ.md>) | bool | Is it before in alphabetical order?
     |       | [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ any.md>) | bool | Is it between in alphabetical order?
-    |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>) | bool | Does it have the same meaning?
+    |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) | bool | Does it have the same meaning?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>) | bool | Does it have another meaning?
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>) | bool | Is it exactly the same string of chars?
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) | bool | Is it a different string of chars?

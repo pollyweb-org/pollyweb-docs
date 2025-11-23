@@ -51,7 +51,7 @@
     |Input 1 | Input 2 |Output
     |-|-|-
     |`$items` |`SupID:X` | Items 2, 3, and 4
-    |`$items` |`SupID`[`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>)`(X)` <br/> `Price`[`.IsAtLeast`](<IsAtLeast ⓕ.md>)`(30)`  | Items 3 and 4
+    |`$items` |`SupID`[`.Is`](<Is ⓕ.md>)`(X)` <br/> `Price`[`.IsAtLeast`](<IsAtLeast ⓕ.md>)`(30)`  | Items 3 and 4
 
     ---
     <br/>
@@ -66,9 +66,9 @@
     |[`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ any.md>)| A property is between two given values?
     |[`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>)        | A property is in a given list?
     |[`.IsNotIn`](<IsNotIn ⓕ.md>)   | A property is not in a given list?
-    |[`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>)        | A property is similar to a given value?
+    |[`.Is`](<Is ⓕ.md>)        | A property is similar to a given value?
     |[`.IsNot`](<IsNot ⓕ.md>)        | A property is not similar to given value?
-    |[`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAbove ⓕ any.md>)   | A property is above a given value?
+    |[`.IsAbove`](<IsAbove ⓕ.md>)   | A property is above a given value?
     |[`.IsAtLeast`](<IsAtLeast ⓕ.md>) | A property is equal or above a value?
     |[`.IsBelow`](<IsBelow ⓕ.md>)   | A property is below a value?
     |[`.IsAtMost`](<IsAtMost ⓕ.md>)  | A property is equal or below a value?

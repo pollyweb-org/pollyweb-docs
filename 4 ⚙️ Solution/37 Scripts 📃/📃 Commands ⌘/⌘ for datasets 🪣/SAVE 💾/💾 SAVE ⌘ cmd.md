@@ -170,7 +170,7 @@
     
     - SAVE|$item
     ```
-    Uses: [`SELECT`](<../../⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>)
+    Uses: [`SELECT`](<../../⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>)
 
     ---
     <br/>

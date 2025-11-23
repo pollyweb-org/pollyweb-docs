@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`PARSE`](<../../📃 Commands ⌘/⌘ for holders 🧠/PARSE 🔆/🔆 PARSE ⌘ cmd.md>) [`.Is`](<Is ⓕ any.md>) [`.IsNot`](<IsNot ⓕ.md>)
+> Used by [`PARSE`](<../../📃 Commands ⌘/⌘ for holders 🧠/PARSE 🔆/🔆 PARSE ⌘ cmd.md>) [`.Is`](<Is ⓕ.md>) [`.IsNot`](<IsNot ⓕ.md>)
 
 ## FAQ 
 

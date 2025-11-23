@@ -10,7 +10,7 @@
     `{.IsAtLeast}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` 
-    * if one input [`.Equals`](<Equals ⓕ any.md>) or [`.IsAbove`](<IsAbove ⓕ any.md>) the other
+    * if one input [`.Equals`](<Equals ⓕ any.md>) or [`.IsAbove`](<IsAbove ⓕ.md>) the other
     * or `False` otherwise.
 
     ---

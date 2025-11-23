@@ -83,7 +83,7 @@
     | `$object`| Optional initial context | [`$.Msg`](<../../../📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`.Inputs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Inputs ⓕ.md>)
     | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)
     | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>)`(A,B)`
-    | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) with  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>) | `:any-domain.dom`
+    | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) with  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) | `:any-domain.dom`
     
 
     > **Note** 
@@ -156,7 +156,7 @@
 
     > This example uses 
     * [`.Parse`](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>) to break a [`Locator`](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-    *  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>) to compare [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+    *  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) to compare [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 
     ```yaml
     📃 Example:
