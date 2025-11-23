@@ -43,7 +43,7 @@
             A: 1
             B: 2
     ```
-    Uses: [`.Add`](<../../../📃 Holders 🧠/Any 📚 holders/Add ⓕ any.md>) [`.Now`](<../../../📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>) [`CALL`](<../../⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>)
+    Uses: [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) [`.Now`](<../../../📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>) [`CALL`](<../../⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>)
 
     ---
     <br/>

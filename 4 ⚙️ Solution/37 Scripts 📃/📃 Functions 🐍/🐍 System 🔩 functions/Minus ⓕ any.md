@@ -1,0 +1,34 @@
+# 😃🔩 Talker `{.Minus}` function
+
+> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+
+> Purpose
+* Similar to [`.Add`](<Add ⓕ any.md>), [`.Plus`](<Plus ⓕ any.md>), but for negative values.
+* Similar to [`.Diff`](<Diff ⓕ.md>) in some scenarios, for flexibility.
+
+## FAQ 
+
+
+1. **What's the behavior of .Minus by type?**
+
+    |Type| Behavior
+    |-|-
+    | [Texts 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
+    | [Lists 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>) 
+    | [Maps 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | Same as [`.Remove`](<Remove ⓕ.md>)
+    | [Num 🧠](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>) | Same as [`.Sum`](<../../📃 Holders 🧠/Num 📚 holders/Sum ⓕ num.md>) with negative additions
+    | [Time 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) | Same as [`.GoBack`](<../../📃 Holders 🧠/Time 📚 holders/GoBack ⓕ time.md>)
+    
+    ---
+    <br/>
+
+1. **What are examples of .Minus?**
+
+    | Example| Returns | Same as
+    |-|-|-
+    | `3.Minus(1)`| `2` | `3`[`.Sum`](<../../📃 Holders 🧠/Num 📚 holders/Sum ⓕ num.md>)`(-1)`  | -
+    | `ABAC.Minus(A)` | `BC` | `ABCD`[`.Remove`](<Remove ⓕ.md>)`(A)`
+    | `[A,B,A,C].Minus(A)` | `[B,C]` | `[A,B,C,D]`[`.Remove`](<Remove ⓕ.md>)`(A)`
+    | [`.Today`](<../../📃 Holders 🧠/Time 📚 holders/Today ⓕ.md>)`.Minus(1 month)` | A month ago | [`.Today`](<../../📃 Holders 🧠/Time 📚 holders/Today ⓕ.md>)[`.GoBack`](<../../📃 Holders 🧠/Time 📚 holders/GoBack ⓕ time.md>)`(1 month ago)`
+    | [`.Now`](<../../📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>)`.Minus(1 hour)` | An hour ago | [`.Now`](<../../📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>)[`.GoBack`](<../../📃 Holders 🧠/Time 📚 holders/GoBack ⓕ time.md>)`(1 hour ago)`
+    |

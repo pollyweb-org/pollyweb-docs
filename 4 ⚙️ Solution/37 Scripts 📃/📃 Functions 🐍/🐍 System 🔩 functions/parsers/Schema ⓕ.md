@@ -2,7 +2,7 @@
 
 > Part of [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by [`.Is`](<../../../📃 Holders 🧠/Any 📚 holders/Is ⓕ any.md>) [`.IsNot`](<../../../📃 Holders 🧠/Any 📚 holders/IsNot ⓕ any.md>)
+> Used by [`.Is`](<../Is ⓕ any.md>) [`.IsNot`](<../IsNot ⓕ any.md>)
 
 ## FAQ 
 

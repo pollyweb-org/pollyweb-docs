@@ -12,7 +12,7 @@
 
     `{.OneOf}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns `True` if one (and only one) of the given inputs returns [`.IsNotEmpty`](<../Any 📚 holders/IsNotEmpty ⓕ any.md>)
+    * that returns `True` if one (and only one) of the given inputs returns [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>)
     * or `False` otherwise.
 
     ---
@@ -26,7 +26,7 @@
    
     Input | Purpose
     |-|-
-    | `assertions...` | [List 🧠](<🧠 List holders.md>) of assertions for [`.Assert`](<../Any 📚 holders/Assert ⓕ.md>)
+    | `assertions...` | [List 🧠](<🧠 List holders.md>) of assertions for [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)
 
 
     ---

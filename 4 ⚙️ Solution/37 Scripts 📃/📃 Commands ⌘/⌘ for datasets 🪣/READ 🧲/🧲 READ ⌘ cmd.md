@@ -52,7 +52,7 @@
     |-|-|-
     | `Set` | Name of resource pool | `MyPool`
     | `Key`  | Key to look up in the pool | `1` `$h` `{A:1,B:2}`
-    | `Assert` | [`.Assert`](<../../../📃 Holders 🧠/Any 📚 holders/Assert ⓕ.md>) filters | `Type:Admin`
+    | `Assert` | [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) filters | `Type:Admin`
     | `Get`  | [List 🧠](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) of fields to retrieve | `A,B` `{Alias:A}`
     |        | Makes the `$item` readonly
     | `Expand` | Parents and children to get| `Customer, Lines`

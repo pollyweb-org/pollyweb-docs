@@ -31,7 +31,7 @@
     | [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)    | `.Today` | `2024-09-21` `21/09/2024`
     | Custom |      `.Today(Ddd, Mmmm DD)` | `Mon, September 21`
     | UTC |      `.Today(UTC)` | `2024-09-21T00:00:00Z`
-    | [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) | `.Today` |`2024-09-21T00:00:00Z`
+    | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) | `.Today` |`2024-09-21T00:00:00Z`
     
     ---
     <br/>

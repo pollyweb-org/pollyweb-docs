@@ -12,7 +12,7 @@
 
     `{.AllOf}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns `True` if all of the given assertions return [`.Assert`](<../Any 📚 holders/Assert ⓕ.md>)
+    * that returns `True` if all of the given assertions return [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)
     * or `False` otherwise.
 
     ---
@@ -26,7 +26,7 @@
    
     Input | Purpose
     |-|-
-    | `assertions...` | [List 🧠](<🧠 List holders.md>) of assertions for [`.Assert`](<../Any 📚 holders/Assert ⓕ.md>)
+    | `assertions...` | [List 🧠](<🧠 List holders.md>) of assertions for [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)
 
 
     ---

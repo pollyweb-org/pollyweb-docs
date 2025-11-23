@@ -34,17 +34,17 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
-    |Assess| [`.IsEmpty`](<../Any 📚 holders/IsEmpty ⓕ any.md>) |bool| Is it unset or missing?
-    |      | [`.IsNotEmpty`](<../Any 📚 holders/IsNotEmpty ⓕ any.md>) |bool| Has a value been provided?
-    |Compare| [`.Is`](<../Any 📚 holders/Is ⓕ any.md>) |bool| Is it the expected boolean?
-    |        | [`.IsNot`](<../Any 📚 holders/IsNot ⓕ any.md>) |bool| Is it the opposite value?
-    |        | [`.Equals`](<../Any 📚 holders/Equals ⓕ any.md>) |bool| Equal comparison alias for `.Is`
-    |        | [`.Differs`](<../Any 📚 holders/Differs ⓕ any.md>) |bool| Not-equal alias for `.IsNot`
-    |Lists  | [`.IsIn`](<../Any 📚 holders/IsIn ⓕ any.md>) |bool| Is it one of the accepted values?
+    |Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>) |bool| Is it unset or missing?
+    |      | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>) |bool| Has a value been provided?
+    |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>) |bool| Is it the expected boolean?
+    |        | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ any.md>) |bool| Is it the opposite value?
+    |        | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>) |bool| Equal comparison alias for `.Is`
+    |        | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) |bool| Not-equal alias for `.IsNot`
+    |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) |bool| Is it one of the accepted values?
     |Combine| [`.AllOf`](<../List 📚 holders/AllOf ⓕ.md>) |bool| Are all of these booleans `true`?
     |       | [`.AnyOf`](<../List 📚 holders/AnyOf ⓕ.md>) |bool| Is any of these booleans `true`?
     |       | [`.OneOf`](<../List 📚 holders/OneOf ⓕ.md>) |bool| Is exactly one of them `true`?
-    |Default| [`.Default`](<../Any 📚 holders/Default ⓕ any.md>) |bool| Substitute a fallback when empty
+    |Default| [`.Default`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Default ⓕ any.md>) |bool| Substitute a fallback when empty
     
     ---
     <br/>

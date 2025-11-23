@@ -2,7 +2,7 @@
 
 > Part of [List 🧠 holder](<🧠 List holders.md>)
 
-> Used by [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
+> Used by [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
 
 ## FAQ
 

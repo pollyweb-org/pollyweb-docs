@@ -2,7 +2,7 @@
 
 > Part of [Text 🧠 holder](<🧠 Text holders.md>)
 
-> Used by [`.Add`](<../Any 📚 holders/Add ⓕ any.md>) 
+> Used by [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) 
 
 ## FAQ
 
