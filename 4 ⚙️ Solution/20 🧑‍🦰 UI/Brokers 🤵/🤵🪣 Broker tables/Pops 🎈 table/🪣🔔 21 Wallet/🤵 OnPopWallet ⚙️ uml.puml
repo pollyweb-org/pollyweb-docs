@@ -3,17 +3,12 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Popped 🐌" as pop
     participant "Pops 🪣" as pops
-    participant "OnPopped@ 🔔" as popped
+    participant "OnWallet 🔔" as popped
     participant "Talker 😃" as talker
 end box
 
-wallet --> pop: Popped 🐌 {chat}
-
-activate pop
-    pop -> pops: SAVE 💾 {POPPED}
-deactivate pop
+wallet --> pops: Pop 🐌 {WALLET}
 
 activate pops
     pops --> popped: POPPED 🔔
@@ -21,14 +16,7 @@ deactivate pops
 
 activate popped
     popped -> talker: CHAT 💬 
-    popped --> wallet: ONE 🤔 {what?}
-deactivate popped
-
-activate wallet
-    wallet --> popped: 
-deactivate wallet
-
-activate popped
+    popped -> wallet: ONE 🤔 {what?}
     popped -> pops: SAVE 💾 {...}
 deactivate popped
 

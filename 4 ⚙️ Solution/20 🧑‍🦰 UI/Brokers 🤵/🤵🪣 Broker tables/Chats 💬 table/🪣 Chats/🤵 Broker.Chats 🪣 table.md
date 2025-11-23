@@ -20,6 +20,7 @@ Key: ID
 Parents:
     Wallet: { Wallets.ID: Chats.Wallet }
     Host: { Domains.Name: Chats.Host }
+    Pop: { Pops.ID: Chats.Pop }
 
 Propagate:
     - Host
@@ -81,11 +82,16 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ```yaml
 # READ|Chats|<chat-id>
 
-# From Locate@Broker, Pop@Broker
+# From Pop@Broker, Locate@Broker
 ID: <chat-uuid>          # Automatic Chat ID
 Hook: <hook-uuid>        # Wallet hook reference
-Origin: <chat-uuid>      # Origin chat (if any)
 Wallet: <wallet-uuid>    # Wallet reference
+
+# From Pop@Broker
+Pop: <pop-uuid>          # Pop reference
+
+# From Locate@Broker
+Origin: <chat-uuid>      # Origin chat (if any)
 Locator: $.Msg.Locator   # Locator to parse on insert
 
 # From OnChatInserted
