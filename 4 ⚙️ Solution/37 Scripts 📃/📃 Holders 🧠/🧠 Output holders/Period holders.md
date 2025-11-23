@@ -30,13 +30,13 @@
     
     | Property | Type | Example 
     |-|-|-
-    | `Seconds`  | [num](<../Num 📚 holders/🧠 Num holders.md>) |  `264473`
-    | `Minutes`  | [num](<../Num 📚 holders/🧠 Num holders.md>) | `123`
-    | `Hours`    | [num](<../Num 📚 holders/🧠 Num holders.md>) | `123`
-    | `Days`     | [num](<../Num 📚 holders/🧠 Num holders.md>) |  `123`
-    | `Months`   | [num](<../Num 📚 holders/🧠 Num holders.md>) | `123`
-    | `Years`    | [num](<../Num 📚 holders/🧠 Num holders.md>) | `123345`
-    | `Weeks`    | [num](<../Num 📚 holders/🧠 Num holders.md>) | `123`
+    | `Seconds`  | [num](<../🧠 Input holders/🧠 Num holders.md>) |  `264473`
+    | `Minutes`  | [num](<../🧠 Input holders/🧠 Num holders.md>) | `123`
+    | `Hours`    | [num](<../🧠 Input holders/🧠 Num holders.md>) | `123`
+    | `Days`     | [num](<../🧠 Input holders/🧠 Num holders.md>) |  `123`
+    | `Months`   | [num](<../🧠 Input holders/🧠 Num holders.md>) | `123`
+    | `Years`    | [num](<../🧠 Input holders/🧠 Num holders.md>) | `123345`
+    | `Weeks`    | [num](<../🧠 Input holders/🧠 Num holders.md>) | `123`
     | `Time`       | [text](<../Text 📚 holders/🧠 Text holders.md>) | `352h 42m 06s`
     | `Verbose(n)` | [text](<../Text 📚 holders/🧠 Text holders.md>) | `1 month, 3 days, and 6 hours` 
     |

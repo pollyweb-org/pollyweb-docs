@@ -11,8 +11,8 @@
     |Type| Behavior
     |-|-
     | [Texts 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)| Removes all instances of a substring
-    | [Lists 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)  | Removes all matching list items
-    | [Maps 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | Remove a matching property
+    | [Lists 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)  | Removes all matching list items
+    | [Maps 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>) | Remove a matching property
     
     ---
     <br/>
@@ -39,7 +39,7 @@
 
 
 
-1. **What are .Remove examples for [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)?**
+1. **What are .Remove examples for [List 🧠 holders](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)?**
 
     | From | Remove | Output  | Reasons
     |-|-|-|-
@@ -50,7 +50,7 @@
     <br>
 
 
-1. **What are .Remove examples for [Map 🧠 holders](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)?**
+1. **What are .Remove examples for [Map 🧠 holders](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>)?**
 
     | From | Remove | Output  | Behavior
     |-|-|-|-

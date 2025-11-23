@@ -10,7 +10,7 @@
 
     `{$list.First}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the start of a [List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>).
+    * that returns the start of a [List 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>).
 
 
     ---
@@ -20,9 +20,9 @@
 
     |Input|Behavior
     |-|-
-    |[`$lst`](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)`.First(n)`| Returns the first `n` items of a [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
-    |               |If `n` exceeds [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>), returns the [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
-    |[`$lst`](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)`.First` | Equals `$lst.First(1)`
+    |[`$lst`](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)`.First(n)`| Returns the first `n` items of a [List 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)
+    |               |If `n` exceeds [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>), returns the [List 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)
+    |[`$lst`](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)`.First` | Equals `$lst.First(1)`
     
     ---
     <br/>

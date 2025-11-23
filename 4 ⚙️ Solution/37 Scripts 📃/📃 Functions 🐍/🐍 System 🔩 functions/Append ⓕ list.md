@@ -1,6 +1,6 @@
 # 😃 Append ⓕ list
 
-> Part of [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
+> Part of [List 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)
 
 > Used by [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
 
@@ -15,7 +15,7 @@
 
     Input | Purpose | Example
     |-|-|-
-    |`$list` |  [List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) of items |  `[A,B]` `$list`
+    |`$list` |  [List 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) of items |  `[A,B]` `$list`
     |`appendixes...` | item to append, |  `C`
     |           | or items to merge | `[C,D]` `C,D`
 

@@ -39,8 +39,8 @@
     |Size   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>)  | bool| Is empty?
     |       | [`.IsOne`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsOne ⓕ list.md>)    | bool| Has only one item?
     |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/AreMany ⓕ list.md>)  | bool| Has more than one item?
-    |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>)     | [num](<../Num 📚 holders/🧠 Num holders.md>)| Returns the number of items
-    |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>)   |  [num](<../Num 📚 holders/🧠 Num holders.md>)| Equals [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>)
+    |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>)     | [num](<🧠 Num holders.md>)| Returns the number of items
+    |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>)   |  [num](<🧠 Num holders.md>)| Equals [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>)
     |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ list.md>)   |[list](<🧠 List holders.md>), any| Get the first `n` items
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)   |[list](<🧠 List holders.md>), any| Get the last `n` items
     |       | [`.Distinct`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>) |[list](<🧠 List holders.md>)| Return only unique items
@@ -202,7 +202,7 @@
     <br/>
 
 
-1. **How to take some properties from a [List 🧠](<🧠 List holders.md>) of [Map 🧠](<../Map 📚 holders/🧠 Map holders.md>)?**
+1. **How to take some properties from a [List 🧠](<🧠 List holders.md>) of [Map 🧠](<🧠 Map holders.md>)?**
   
     Using the [`.Format` function](<../Set 📚 holders/Format ⓕ set.md>) in one of 3 forms:
     * with the [`CALL` commands](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>),

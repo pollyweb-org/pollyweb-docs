@@ -1,6 +1,6 @@
 # 🧠🔩 List.Sort extension
 
-> Part of [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
+> Part of [List 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)
 
 ## FAQ
 
@@ -13,7 +13,7 @@
 
     Inputs|Details | Example
     |-|-|-|
-    |`$list`| [List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) of values | `[1,2,3]`
+    |`$list`| [List 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) of values | `[1,2,3]`
     |`order`| Order of values, defaults to `+` | `+` `-`
     
 

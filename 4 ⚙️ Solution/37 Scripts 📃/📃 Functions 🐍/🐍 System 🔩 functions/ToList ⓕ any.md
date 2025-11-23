@@ -9,7 +9,7 @@
 
     `{.ToList}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that converts a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) into a [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>).
+    * that converts a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) into a [List 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>).
 
     ---
     <br/>

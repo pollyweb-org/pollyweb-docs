@@ -4,7 +4,7 @@
 
 > Purpose
 * Counts back from a starting point.
-* For [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>), it's the opposite of [`.First`](<First ⓕ.md>)
+* For [List 🧠 holders](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>), it's the opposite of [`.First`](<First ⓕ.md>)
 * For [Period 🧠 holders](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>), it's similar but not the same as [`.This`](<This ⓕ.md>) and [`.Previous`](<Previous ⓕ.md>)
 
 > Used by [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
@@ -32,11 +32,11 @@
     |[`$txt`](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)`.Last(n)`| Returns the last `n` characters of a [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)
     |               |If `n` exceeds [`.Length`](<Length ⓕ.md>), returns the [Text 🧠 holder](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)
     |[`$txt`](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)`.Last` | Equals `$txt.Last(1)`
-    |[`$lst`](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)`.Last(n)`| Returns the last `n` items of a [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
-    |               |If `n` exceeds [`.Length`](<Length ⓕ.md>), returns the [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
-    |[`$lst`](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)`.Last` | Equals `$lst.Last(1)`
-    |[`$mapList`](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)`.Last({A:1},n)`| Applies [`.Filter`](<../../📃 Holders 🧠/Set 📚 holders/Filter ⓕ set.md>) then `.Last(n)`
-    |[`$mapList`](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)`.Last({A:1})` | Equals `$mapList.Last({A:1},1)`
+    |[`$lst`](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)`.Last(n)`| Returns the last `n` items of a [List 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)
+    |               |If `n` exceeds [`.Length`](<Length ⓕ.md>), returns the [List 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)
+    |[`$lst`](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)`.Last` | Equals `$lst.Last(1)`
+    |[`$mapList`](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>)`.Last({A:1},n)`| Applies [`.Filter`](<../../📃 Holders 🧠/Set 📚 holders/Filter ⓕ set.md>) then `.Last(n)`
+    |[`$mapList`](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>)`.Last({A:1})` | Equals `$mapList.Last({A:1},1)`
     ---
     <br/>
 

@@ -36,5 +36,5 @@ Body:
 ||`Inviter`  | string  | [Consumer 💼 ](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) | [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 ||`Schema`     | string  | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 ||`Hook` | uuid    | Hook | [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)|[`Collect@`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
-||`Inputs`| [map](<../../../../37 Scripts 📃/📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)   | Inputs | [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+||`Inputs`| [map](<../../../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>)   | Inputs | [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 |

@@ -29,7 +29,7 @@
 
 1. **What's the output of the schema function?**
 
-    The output is a [Map 🧠 holder](<../../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) with the following fields:
+    The output is a [Map 🧠 holder](<../../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>) with the following fields:
 
     ```yaml
     Authority: any-authority.dom
