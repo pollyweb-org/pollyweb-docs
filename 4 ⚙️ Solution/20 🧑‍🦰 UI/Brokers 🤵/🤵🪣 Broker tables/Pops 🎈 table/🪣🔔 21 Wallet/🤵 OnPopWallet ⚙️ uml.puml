@@ -1,11 +1,11 @@
 @startuml OnPopPopped
  
 participant "Wallet 👱" as wallet
-
 box Broker 🤵 domain #FFFFFA
     participant "Pops 🪣" as pops
     participant "OnWallet 🔔" as popped
 end box
+
 
 wallet --> pops: Pop 🐌 {WALLET}
 

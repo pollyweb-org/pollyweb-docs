@@ -1,7 +1,6 @@
 @startuml OnPopInserted
  
 participant "Wallet 👱" as wallet
-
 box Broker 🤵 domain #FFFFFA
     participant "Pop 🐌" as pop
     participant "Pops 🪣" as pops

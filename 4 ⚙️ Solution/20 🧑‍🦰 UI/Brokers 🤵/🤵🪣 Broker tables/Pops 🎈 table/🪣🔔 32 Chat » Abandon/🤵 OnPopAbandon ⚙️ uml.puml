@@ -1,0 +1,29 @@
+@startuml OnPopAbandon
+ 
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "OnChat 🔔" as onChat
+    participant "Pops 🪣" as pops
+    participant "OnAbandon 🔔" as abandoned
+    participant "Chats 🪣" as chats
+end box
+
+
+wallet --> onChat: Pop 🐌 {CHAT}
+
+activate onChat
+    wallet --> onChat: {abandon}
+    onChat -> pops: SAVE 💾 {ABANDON}
+deactivate onChat
+
+activate pops
+    pops --> abandoned: ABANDON 🔔
+deactivate pops
+
+activate abandoned
+    abandoned -> abandoned: CHAT 💬 
+    abandoned -> wallet: CONFIRM 🤔 {abandon?}
+    abandoned -> chats: SAVE 💾 {ABANDONED}
+deactivate abandoned
+
+@enduml 
