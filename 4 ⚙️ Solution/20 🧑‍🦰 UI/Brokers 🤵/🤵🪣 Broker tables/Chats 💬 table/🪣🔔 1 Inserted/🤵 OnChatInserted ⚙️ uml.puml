@@ -18,22 +18,25 @@ activate table
 deactivate table
 
 activate handler
-
-    handler -> talker: PARSE 🔆 {locator}
-
-    group WHILE locator.IsAlias 
-
-        handler -> printer: SEND 🚀 Resolve 
-
-        activate printer
-            printer -> handler: {host locator}
-        deactivate printer
+    group IF key.IsEmpty
 
         handler -> talker: PARSE 🔆 {locator}
 
+        group WHILE locator.IsAlias 
+
+            handler -> printer: SEND 🚀 Resolve 
+
+            activate printer
+                printer -> handler: {host locator}
+            deactivate printer
+
+            handler -> talker: PARSE 🔆 {locator}
+
+        end group
     end group
 
     handler -> table: SAVE 💾 {RESOLVED}
+
 deactivate handler
 
 @enduml 

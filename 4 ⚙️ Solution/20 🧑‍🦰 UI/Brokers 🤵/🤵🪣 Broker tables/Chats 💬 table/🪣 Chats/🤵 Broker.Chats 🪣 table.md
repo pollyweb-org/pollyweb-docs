@@ -82,23 +82,24 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 # READ|Chats|<chat-id>
 
 # From Locate@Broker, Pop@Broker
-ID: <chat-uuid>         # Automatic Chat ID
-Hook: <hook-uuid>       # Wallet hook reference
-Origin: <chat-uuid>     # Origin chat (if any)
-Wallet: <wallet-uuid>   # Wallet reference
-Locator: $.Msg.Locator  # Locator to parse on insert
+ID: <chat-uuid>          # Automatic Chat ID
+Hook: <hook-uuid>        # Wallet hook reference
+Origin: <chat-uuid>      # Origin chat (if any)
+Wallet: <wallet-uuid>    # Wallet reference
+Locator: $.Msg.Locator   # Locator to parse on insert
 
 # From OnChatInserted
-Host: any-host.dom      # Host domain name
-Key: ANY-KEY            # Locator key for the Host
-Inputs: any-inputs      # Locator inputs
+Host: any-host.dom       # Host domain name
+Key: ANY-KEY             # Locator key for the Host
+Inputs: any-inputs       # Locator inputs
 
 # From OnChatResolved
-Language: en-us         # To change the language of the chat
-HostTitle: Any Host     # Host title from a Graph
-Description: Bla, bla   # Host description from a Graph
-SmallIcon: <base64>     # Host small icon from a Graph
-BigIcon: <base64>       # Host big icon from a Graph
+Notifier: any-wallet.dom # Notifier wallet domain
+Language: en-us          # To change the language of the chat
+HostTitle: Any Host      # Host title from a Graph
+Description: Bla, bla    # Host description from a Graph
+SmallIcon: <base64>      # Host small icon from a Graph
+BigIcon: <base64>        # Host big icon from a Graph
 
 # from Opened@Broker
 PublicKey: <PublicKey>  # For domains to verify Wallet messages

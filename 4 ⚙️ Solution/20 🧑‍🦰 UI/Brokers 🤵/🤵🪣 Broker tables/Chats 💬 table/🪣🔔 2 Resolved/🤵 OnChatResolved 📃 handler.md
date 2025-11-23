@@ -10,6 +10,10 @@
 ```yaml
 📃 OnChatResolved:
 
+# Assert the Chat
+- ASSERT|$Chat:
+    AllOf: Host, Wallet
+
 # Get the Host details from the Graph
 - SEND >> $domain:
     Header:
@@ -22,6 +26,7 @@
 # Save the Host info
 - SAVE|$Chat:
     .State: DETAILED
+    Notifier: $Chat.Wallet.Notifier
     Language: $Chat.Wallet.Language
     HostTitle: $domain.Title
     Description: $domain.Description

@@ -3,7 +3,7 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Pop@ 📃" as pop
+    participant "Pop 🐌" as pop
     participant "Pops 🪣" as pops
     participant "OnInserted@ 🔔" as popped
     participant "Chats 🪣" as chats
