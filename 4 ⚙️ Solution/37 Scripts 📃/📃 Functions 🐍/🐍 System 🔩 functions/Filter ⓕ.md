@@ -73,7 +73,7 @@
     |[`.IsBelow`](<IsBelow ⓕ.md>)   | A property is below a value?
     |[`.IsAtMost`](<IsAtMost ⓕ.md>)  | A property is equal or below a value?
     |[`.IsEmpty`](<IsEmpty ⓕ.md>)   | A property is empty?
-    |[`.IsNotEmpty`](<IsNotEmpty ⓕ any.md>)   | A property is not empty?
+    |[`.IsNotEmpty`](<IsNotEmpty ⓕ.md>)   | A property is not empty?
     
 
     ---

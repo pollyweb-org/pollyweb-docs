@@ -9,7 +9,7 @@
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns| Details 
     |-|-|-|-
     | Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ.md>) | bool | Is it an empty text?
-    |       | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>) | bool | Is it text, not just spaces?
+    |       | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ.md>) | bool | Is it text, not just spaces?
     |Bounds | [`.IsAbove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsAbove ⓕ.md>) | bool | Is it after in alphabetical order?
     |       | [`.IsBelow`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBelow ⓕ.md>) | bool | Is it before in alphabetical order?
     |       | [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ.md>) | bool | Is it between in alphabetical order?

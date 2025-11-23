@@ -12,7 +12,7 @@
 
     `{.OneOf}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns `True` if one (and only one) of the given inputs returns [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>)
+    * that returns `True` if one (and only one) of the given inputs returns [`.IsNotEmpty`](<IsNotEmpty ⓕ.md>)
     * or `False` otherwise.
 
     ---
