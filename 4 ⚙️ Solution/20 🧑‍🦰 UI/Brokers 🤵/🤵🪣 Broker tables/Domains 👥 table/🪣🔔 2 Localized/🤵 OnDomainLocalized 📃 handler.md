@@ -9,14 +9,14 @@
 ```yaml
 📃 OnDomainLocalized:
 
-# Translate the Host info
+# Translate the domain info
 - TRANSLATE >> $domain:
     To: $Domain.Language
-    Domain: $Domain.Host
+    Domain: $Domain.Name
     
 # Save the translation
 - SAVE|$Domain:
-    HostTitle: $domain.Title
+    Title: $domain.Title
     Description: $domain.Description
 ```
 
