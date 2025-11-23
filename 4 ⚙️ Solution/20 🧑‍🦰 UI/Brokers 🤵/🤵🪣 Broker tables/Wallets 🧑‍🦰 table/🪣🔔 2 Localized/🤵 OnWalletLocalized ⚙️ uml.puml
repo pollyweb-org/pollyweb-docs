@@ -12,8 +12,9 @@ box Broker 🤵 domain #FFFFFA
 end box
 
 
-wallet --> handler: Localize 🐌
+wallet --> handler: Pop 🐌
 activate handler
+    wallet --> handler: {language}
     handler -> wallets: SAVED 💾 {language}
 deactivate
 

@@ -1,16 +1,13 @@
-@startuml OnBindTranslated
+@startuml OnBindLocalized
  
-'participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "Wallets 🪣" as wallets
-    participant "OnLanguage 🔔" as script
-    'participant "Wallets 🪣" as wallets
+    participant "OnLocalized 🔔" as script
     participant "Binds 🪣" as binds
-    participant "OnTranslated 🔔" as handler
+    participant "OnLocalized 🔔" as handler
 end box
 
-'participant "Vault 🗄️" as vault
 
 participant "Graph 🕸" as graph
 
