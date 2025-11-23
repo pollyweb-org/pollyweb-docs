@@ -1,4 +1,4 @@
-# 🗄️ OnBindOffered 📃 handler
+# 🗄️ OnOfferOffered 📃 handler
 
 > Implementation 
 * Part of the [Vault 🗄️ domain](<../../../🗄️🎭 Vault role.md>)
@@ -12,17 +12,17 @@
 
 ## Diagram
 
-![alt text](<🗄️ OnBindOffered ⚙️ uml.png>)
+![alt text](<🗄️ OnOfferOffered ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnBindOffered:
+📃 OnOfferOffered:
 
-# Assert the Bind
-- ASSERT|$Bind:
+# Assert the Offer
+- ASSERT|$Offer:
     - AllOf: Broker, Hook, Chat, Schemas
     - Texts: Broker
     - UUIDs: Hook, Chat
@@ -31,17 +31,17 @@
 # Send the message to the Broker
 - SEND:
     Header:
-        To: $Bind.Broker
+        To: $Offer.Broker
         Subject: Bindable@Broker
     Body:
-        Hook: $Bind.Hook
-        Chat: $Bind.Chat
-        Schemas: $Bind.Schemas
+        Chat: $Offer.Chat
+        Offer: $Offer.ID
+        Schemas: $Offer.Schemas
 ```
 
 Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Vault.Binds`](<../🪣 Binds/🗄️ Vault.Binds 🪣 table.md>)
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Vault.Binds`](<../../Binds 🔗 table/🪣 Binds/🗄️ Vault.Binds 🪣 table.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Bindable@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
 |
