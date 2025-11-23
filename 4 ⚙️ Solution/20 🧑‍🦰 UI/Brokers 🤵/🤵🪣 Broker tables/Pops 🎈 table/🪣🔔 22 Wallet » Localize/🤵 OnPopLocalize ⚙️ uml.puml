@@ -3,28 +3,41 @@
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "OnWallet 🔔" as onWallet
-    participant "Pops 🪣" as pops
-    participant "OnLocalize 🔔" as localized
-    participant "Wallets 🪣" as wallets
+    participant "Pops 🪣" as popsTable
+    participant "OnLocalize 🔔" as onLocalized
+    participant "Wallets 🪣" as walletsTable
 end box
-
+box Hosted 📦 domain #FFFFFA
+    participant "Regions 🪣" as regions
+end box
 
 wallet --> onWallet: Pop 🐌 {WALLET}
 
 activate onWallet
     wallet --> onWallet: {localize}
-    onWallet -> pops: SAVE 💾 {LOCALIZE}
+    onWallet -> popsTable: SAVE 💾 {LOCALIZE}
 deactivate onWallet
 
-activate pops
-    pops --> localized: LOCALIZE 🔔
-deactivate pops
+activate popsTable
+    popsTable --> onLocalized: LOCALIZE 🔔
+deactivate popsTable
 
-activate localized
-    localized -> localized: CHAT 💬 
-    localized -> wallet: ONE 🤔 {region?}
-    localized -> wallet: CONFIRM 🤔 {change?}
-    localized -> wallets: SAVE 💾 {language}
-deactivate localized
+activate onLocalized
+    onLocalized -> onLocalized: CHAT 💬 
+    onLocalized -> regions: SELECT {.Hosted.Assets.Regions}
+    onLocalized -> wallet: ONE 🤔 {region?}
+    onLocalized -> wallet: CONFIRM 🤔 {change?}
+    onLocalized -> walletsTable: SAVE 💾 {language:new}
+    onLocalized --> wallet: SUCCESS ✅ {changed}
+deactivate onLocalized
+
+activate wallet
+    wallet --> onLocalized: {revert}
+deactivate wallet
+
+activate onLocalized
+    onLocalized -> walletsTable: SAVE 💾 {language:old}
+    onLocalized --> wallet: SUCCESS ✅ {reverted}
+deactivate onLocalized
 
 @enduml 

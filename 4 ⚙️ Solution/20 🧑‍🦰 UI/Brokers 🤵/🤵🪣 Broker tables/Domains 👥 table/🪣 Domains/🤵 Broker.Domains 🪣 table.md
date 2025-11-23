@@ -17,11 +17,13 @@ Item: Domain
 Key: Name
 
 Handlers:
-    OnDomainInserted: 
+    OnDomainInserted:       # Call About@Graph
         Events: INSERTED 
-    OnDomainLocalized: 
+    OnDomainLocalized:      # Call Translate@Graph
         Events: UPDATED
         Assert: New.Language
+    OnDomainUnbound:        # Set Binds to REMOVED
+        Events: UNBOUND
 ```
 
 <br/>

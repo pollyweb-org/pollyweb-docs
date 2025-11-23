@@ -36,13 +36,14 @@
 # Inform current region
 - INFO|Your current region is {$old.Region}.
 
+# Get the regions
+- SELECT >> $regions:
+    All: ID, Title
+    From: .Hosted.Assets.Regions
+
 # Prompt the user for the region
 - ONE|Change to what region? >> $new:
-    Options:
-        - ID: pt-pt
-          Title: 🇵🇹 Portugal
-        - ID: pt-br
-          Title: 🇧🇷 Brazil
+    Options: $regions
 
 # Ignore if already on that language
 - IF|$old.Language.Is($new.ID):
