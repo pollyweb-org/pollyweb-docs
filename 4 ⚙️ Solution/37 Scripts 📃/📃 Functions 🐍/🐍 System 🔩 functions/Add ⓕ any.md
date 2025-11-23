@@ -9,7 +9,7 @@
 
     Input | Behavior
     |-|-
-    |[`Num` 🧠](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>) | Same as [`.Sum`](<../../📃 Holders 🧠/Num 📚 holders/Sum ⓕ num.md>) 
+    |[`Num` 🧠](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>) | Same as [`.Sum`](<Sum ⓕ num.md>) 
     |[`Time` 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) | Same as [`.Advance`](<Advance ⓕ time.md>) 
     |[`List` 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) | Same as [`.Append`](<Append ⓕ list.md>) 
     |[`Text` 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | Same as [`.Append`](<Append ⓕ text.md>) 
