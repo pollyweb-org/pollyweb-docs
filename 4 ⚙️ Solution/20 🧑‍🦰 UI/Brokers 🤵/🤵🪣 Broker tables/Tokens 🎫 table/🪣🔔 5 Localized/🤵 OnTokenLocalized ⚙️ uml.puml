@@ -1,18 +1,13 @@
 @startuml OnTokenLocalized
  
-'participant "Wallet 👱" as wallet
-
 box Broker 🤵 domain #FFFFFA
     participant "Wallets 🪣" as wallets
     participant "OnLocalized 🔔" as script
-    'participant "Wallets 🪣" as wallets
     participant "Tokens 🪣" as tokens
     participant "OnLocalized 🔔" as handler
 end box
-
-'participant "Vault 🗄️" as vault
-
 participant "Graph 🕸" as graph
+
 
 wallets --> script: UPDATED 🔔
 activate script
