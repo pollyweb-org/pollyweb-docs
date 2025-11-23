@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Language@Broker`](<🤵 Localize 🐌 msg.md>) method.
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Localize@Broker`](<🤵 Localize 🐌 msg.md>) method.
 
 ## Flow
 
@@ -11,7 +11,7 @@
 ## Script
 
 ```yaml
-📃 Language@Broker:
+📃 Localize@Broker:
 
 # Verify the required inputs
 - ASSERT|$.Msg:
