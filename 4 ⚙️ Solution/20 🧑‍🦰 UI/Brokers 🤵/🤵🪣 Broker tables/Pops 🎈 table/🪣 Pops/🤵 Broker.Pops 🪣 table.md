@@ -16,13 +16,24 @@ Item: Pop
 
 Parents:
     Wallet: { Wallets.ID: Chats.Wallet }
+    Chat: { Chats.ID: Pops.Chat }
 
 Handlers:
+
     OnPopInserted: 
         Events: INSERTED
+
     OnPopBind: 
         Events: POPPED
-        Assert: 
+        Assert: {Context: BIND}
+    
+    OnPopToken: 
+        Events: POPPED
+        Assert: {Context: TOKEN}
+
+    OnPopWallet: 
+        Events: POPPED
+        Assert: {Context: WALLET}
 ```
 
 ## Links
@@ -41,8 +52,7 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ID: <pop-uuid>          # ID on the Broker
 Hook: <hook-uuid>       # Hook for the Wallet to map the Chat ID
 Wallet: <wallet-uuid>   # Wallet owning the pop
-Language: en-us         # For the Chat
-PublicKey: <PublicKey>  # For the Chat
+Context: BIND
 ```
 
 Property|Type|Details|Origin|Purpose
