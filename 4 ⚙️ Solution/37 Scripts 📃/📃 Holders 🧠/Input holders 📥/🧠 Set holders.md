@@ -20,11 +20,11 @@
 
     |Group| [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | Returns | Details 
     |-|-|-|-
-    |Read | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ set.md>) | [set](<🧠 Set holders.md>), [map](<🧠 Map holders.md>) | Return the first `n` [Maps 🧠](<🧠 Map holders.md>) with [`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ set.md>)
+    |Read | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ set.md>) | [set](<🧠 Set holders.md>), [map](<🧠 Map holders.md>) | Return the first `n` [Maps 🧠](<🧠 Map holders.md>) with [`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ.md>)
     ||[`.Take`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Take ⓕ.md>) | [set](<🧠 Set holders.md>), [map](<🧠 Map holders.md>) | Equals [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ set.md>)
-    ||[`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) | [set](<🧠 Set holders.md>), [map](<🧠 Map holders.md>) | Return the last `n` [Maps 🧠](<🧠 Map holders.md>) with [`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ set.md>)
-    ||[`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ set.md>) | [set](<🧠 Set holders.md>) | Return [Maps 🧠](<🧠 Map holders.md>) that match a given filter
-    ||[`.Where`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Where ⓕ set.md>) | [set](<🧠 Set holders.md>) | Equals [`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ set.md>)
+    ||[`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) | [set](<🧠 Set holders.md>), [map](<🧠 Map holders.md>) | Return the last `n` [Maps 🧠](<🧠 Map holders.md>) with [`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ.md>)
+    ||[`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ.md>) | [set](<🧠 Set holders.md>) | Return [Maps 🧠](<🧠 Map holders.md>) that match a given filter
+    ||[`.Where`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Where ⓕ set.md>) | [set](<🧠 Set holders.md>) | Equals [`.Filter`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ.md>)
     |Merge| [`.Cross`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Cross ⓕ.md>) | [set](<🧠 Set holders.md>) | Cross multiple [Set 🧠 holders](<🧠 Set holders.md>)
     |Change | [`Set.Sort`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sort ⓕ set.md>) | [set](<🧠 Set holders.md>) | Sort [Maps 🧠](<🧠 Map holders.md>) by key
     || [`.Format`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>) | [set](<🧠 Set holders.md>) | Select and rename [Map 🧠](<🧠 Map holders.md>) keys

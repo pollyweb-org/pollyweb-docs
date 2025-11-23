@@ -62,9 +62,9 @@
     |-|-
     |[`.Contains`](<Contains ⓕ.md>)  | A list property contains a given value?
     |[`.Equals`](<Equals ⓕ.md>)    | A property equals a given value?
-    |[`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>)   | A property does not equal a given value?
-    |[`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ any.md>)| A property is between two given values?
-    |[`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>)        | A property is in a given list?
+    |[`.Differs`](<Differs ⓕ.md>)   | A property does not equal a given value?
+    |[`.IsBetween`](<IsBetween ⓕ any.md>)| A property is between two given values?
+    |[`.IsIn`](<IsIn ⓕ any.md>)        | A property is in a given list?
     |[`.IsNotIn`](<IsNotIn ⓕ.md>)   | A property is not in a given list?
     |[`.Is`](<Is ⓕ.md>)        | A property is similar to a given value?
     |[`.IsNot`](<IsNot ⓕ.md>)        | A property is not similar to given value?
@@ -72,8 +72,8 @@
     |[`.IsAtLeast`](<IsAtLeast ⓕ.md>) | A property is equal or above a value?
     |[`.IsBelow`](<IsBelow ⓕ.md>)   | A property is below a value?
     |[`.IsAtMost`](<IsAtMost ⓕ.md>)  | A property is equal or below a value?
-    |[`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>)   | A property is empty?
-    |[`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>)   | A property is not empty?
+    |[`.IsEmpty`](<IsEmpty ⓕ any.md>)   | A property is empty?
+    |[`.IsNotEmpty`](<IsNotEmpty ⓕ any.md>)   | A property is not empty?
     
 
     ---

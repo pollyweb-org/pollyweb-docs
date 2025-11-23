@@ -33,7 +33,7 @@
     |-|-|-|-
     |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ.md>) |bool| Contains a given item?
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ.md>)   |bool| Has these items in this order?
-    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>)  |bool| Does not equal this other list?
+    |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>)    |bool| Are any of these items missing?
     |Size   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>)  | bool| Is empty?
@@ -162,7 +162,7 @@
 
 1. **How to filter a list?**
 
-    Using the [`.Filter` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ set.md>) or the [`FILTER` command](<../../📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>).
+    Using the [`.Filter` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ.md>) or the [`FILTER` command](<../../📃 Commands ⌘/⌘ for holders 🧠/FILTER 🔽/🔽 FILTER ⌘ cmd.md>).
 
     ```yaml   
     ┌───────────────────────────┬──────────────────────┐

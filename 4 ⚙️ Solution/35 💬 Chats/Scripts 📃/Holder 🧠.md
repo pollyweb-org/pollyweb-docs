@@ -39,7 +39,7 @@
     | [`.IsEmpty`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>) | Is it empty?
     | [`.IsNotEmpty`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>) | Is not empty?
     | [`.Equals`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ.md>) | Is it the same content?
-    | [`.Differs`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) | Is it a different content?
+    | [`.Differs`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ.md>) | Is it a different content?
     | [`.Is`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) | Is it the same meaning?
     | [`.IsNot`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>) | Is it a different meaning?
     | [`.Assert`](<../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)  | Is the assertion valid?

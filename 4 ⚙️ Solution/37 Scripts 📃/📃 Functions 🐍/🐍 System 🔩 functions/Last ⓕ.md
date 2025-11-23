@@ -35,7 +35,7 @@
     |[`$lst`](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)`.Last(n)`| Returns the last `n` items of a [List 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)
     |               |If `n` exceeds [`.Length`](<Length ⓕ.md>), returns the [List 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)
     |[`$lst`](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)`.Last` | Equals `$lst.Last(1)`
-    |[`$mapList`](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)`.Last({A:1},n)`| Applies [`.Filter`](<Filter ⓕ set.md>) then `.Last(n)`
+    |[`$mapList`](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)`.Last({A:1},n)`| Applies [`.Filter`](<Filter ⓕ.md>) then `.Last(n)`
     |[`$mapList`](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)`.Last({A:1})` | Equals `$mapList.Last({A:1},1)`
     ---
     <br/>
