@@ -7,13 +7,14 @@ box Broker 🤵 domain #FFFFFA
     participant "Pops 🪣" as pops
     participant "OnInserted 🔔" as popped
     participant "Chats 🪣" as chats
+    participant "Chatters 🪣" as chatters
 end box
 
 
 wallet --> pop: Pop 🐌 {hook}
 
 activate pop
-    pop -> pops: SAVE 💾
+    pop --> pops: SAVE 💾
 deactivate pop
 
 activate pops
@@ -33,8 +34,11 @@ activate wallet
 deactivate wallet
 
 activate chats
-    chats -> pops: SAVE 💾 {POPPED}
+    chats --> chatters: SAVE 💾 {POP}
 deactivate chats
 
+activate chatters
+    chatters --> pops: SAVE 💾 {POPPED}
+deactivate chatters
 
 @enduml 

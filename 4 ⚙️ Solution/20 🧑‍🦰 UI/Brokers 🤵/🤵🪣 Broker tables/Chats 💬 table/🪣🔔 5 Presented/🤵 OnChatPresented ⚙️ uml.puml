@@ -3,7 +3,7 @@
 participant "Finder 🔎" as finder
 
 box Broker 🤵 domain #FFFFFA
-    participant "Presented@ 📃" as script
+    participant "Presented 🐌" as script
     participant "Chats 🪣" as chats
     participant "OnPresented 🔔" as handler
     participant "Chatters 🪣" as chatters
