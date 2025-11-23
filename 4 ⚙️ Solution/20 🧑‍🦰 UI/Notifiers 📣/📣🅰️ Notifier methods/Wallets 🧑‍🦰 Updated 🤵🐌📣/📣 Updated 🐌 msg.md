@@ -25,7 +25,8 @@ Header:
     
 Body:
     Wallet: <wallet-uuid>
-    Updates: [ CHATS, BINDS ]
+    Old: {...}
+    New: {...}
 ```
 
 |Object|Property|Type|Description|Origin
