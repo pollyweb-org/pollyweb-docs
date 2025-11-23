@@ -45,7 +45,7 @@
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>) |bool| Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>)
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) |bool| Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ any.md>)
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) |bool| Is it in a given list of numbers?
-    |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/generators/Random ⓕ.md>) |[num](<🧠 Num holders.md>)| Returns a random number
+    |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Random ⓕ.md>) |[num](<🧠 Num holders.md>)| Returns a random number
     |Change | [`.Sum`](<Sum ⓕ num.md>) |[num](<🧠 Num holders.md>)| Adds numbers
     |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<Sum ⓕ num.md>)
     |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ any.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<Sum ⓕ num.md>) | What if we add numbers?
