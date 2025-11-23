@@ -1,28 +1,16 @@
 @startuml Translate
 
-' ------------
-actor User as user
 participant "Wallet 👱" as wallet
 participant "Notifier 📣" as notifier
 participant "Broker 🤵" as broker
 participant "Graph 🕸" as graph
 
-' ------------
-' UI
-' ------------
-user --> wallet: language
 activate wallet
-    wallet --> broker: 1) Localize 🐌
-deactivate wallet
-
-' BROKER
+    wallet --> broker: 1) Pop 🐌
 activate broker
+    wallet --> broker: {language}
+deactivate wallet
     broker -> graph: 2) Translate 🚀
-
-    activate graph
-        graph -> broker: {translated}
-    deactivate graph
-
     broker --> notifier: 3) Updated 🐌
 deactivate broker
 
@@ -34,9 +22,6 @@ deactivate notifier
 ' UI
 activate wallet    
     wallet -> broker: 4) Frontend 🚀
-    activate broker
-        broker -> wallet: {frontend}
-    deactivate broker    
 deactivate wallet
 
 ' ------------
