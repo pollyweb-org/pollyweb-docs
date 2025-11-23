@@ -6,9 +6,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Pop 🐌" as handler
     participant "Wallets 🪣" as wallets
     participant "OnLocalized 🔔" as script
-    participant "Binds 🪣" as binds
-    participant "Tokens 🪣" as tokens
-    participant "Chats 🪣" as chats
+    participant "Binds, Chats, Domains, Tokens 🪣" as tables
 end box
 
 
@@ -23,9 +21,7 @@ activate wallets
 deactivate wallets
 
 activate script
-    script -> binds: SAVE 💾 {language}
-    script -> tokens: 
-    script -> chats: 
+    script -> tables: SAVE 💾 {language}
 deactivate script
 
 
