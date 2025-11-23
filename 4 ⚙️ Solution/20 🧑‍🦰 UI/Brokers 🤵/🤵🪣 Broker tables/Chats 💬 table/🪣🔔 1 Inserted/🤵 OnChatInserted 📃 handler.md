@@ -3,14 +3,23 @@
 > Flow
 * Triggered by [`Locate@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)
 
+<br/>
+
 ## Diagram
 
 ![alt text](<🤵 OnChatInserted ⚙️ uml.png>)
+
+<br/>
 
 ## Script 
 
 ```yaml
 📃 OnChatInserted:
+
+# Assert the Chat
+- ASSERT|$Chat:
+    OneOf: Locator, Key
+    Texts: Locator, Key
 
 # If already resolved, set state and exit
 - IF|$Chat.Key:
