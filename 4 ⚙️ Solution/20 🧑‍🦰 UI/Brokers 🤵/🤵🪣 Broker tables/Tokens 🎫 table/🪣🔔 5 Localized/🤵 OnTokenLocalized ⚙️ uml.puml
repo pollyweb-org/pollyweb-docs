@@ -4,7 +4,7 @@
 
 box Broker 🤵 domain #FFFFFA
     participant "Wallets 🪣" as wallets
-    participant "OnLanguage 🔔" as script
+    participant "OnLocalized 🔔" as script
     'participant "Wallets 🪣" as wallets
     participant "Tokens 🪣" as tokens
     participant "OnLocalized 🔔" as handler

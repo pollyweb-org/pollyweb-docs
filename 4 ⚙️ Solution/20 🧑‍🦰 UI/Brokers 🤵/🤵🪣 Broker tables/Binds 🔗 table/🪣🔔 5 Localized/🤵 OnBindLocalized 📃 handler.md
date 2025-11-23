@@ -1,13 +1,13 @@
-# 🤵 OnBindTranslated 📃 handler
+# 🤵 OnBindLocalized 📃 handler
   
 ## Diagram
 
-![alt text](<🤵 OnBindTranslated ⚙️ uml.png>)
+![alt text](<🤵 OnBindLocalized ⚙️ uml.png>)
 
 ## Script
 
 ```yaml
-📃 OnBindTranslated:
+📃 OnBindLocalized:
 
 # Get the translation
 - TRANSLATE >> $graph:
