@@ -45,6 +45,8 @@ Synchron
 Tapband
 Tapbands
 touchless
+unmute
+unmuted
 Unqueue
 Upserts
 Userable
