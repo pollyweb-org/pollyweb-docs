@@ -10,8 +10,8 @@
 
     `{.Distinct}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that outputs the distinct values of a [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
-    * or a [List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) of [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>).
+    * that outputs the distinct values of a [List 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)
+    * or a [List 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) of [List 🧠 holders](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>).
 
     ---
     <br/>
@@ -25,7 +25,7 @@
 
     | Inputs | Purpose | Examples
     |-|-|-
-    | `lists...` | [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) to distinct | `$l1,$l2` `[$l1,$l2]`
+    | `lists...` | [List 🧠 holders](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) to distinct | `$l1,$l2` `[$l1,$l2]`
 
     ---
     <br/>

@@ -37,9 +37,9 @@
     Type| Meaning | This | Equals ✅
     |-|-|-|-
     |[Texts 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)| Same spoken words | `a` | `A` 
-    |[Nums 🧠](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>)|  Same mathematical result | `01`| `1.0` 
-    |[Lists 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)|  Same ordered sequence | `[1,2]` | `[1,2]`
-    |[Maps 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)|  Same map despite order | `{A:1,B:2}` | `{B:2,A:1}`
+    |[Nums 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Num holders.md>)|  Same mathematical result | `01`| `1.0` 
+    |[Lists 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)|  Same ordered sequence | `[1,2]` | `[1,2]`
+    |[Maps 🧠](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>)|  Same map despite order | `{A:1,B:2}` | `{B:2,A:1}`
 
     ---
     <br/>

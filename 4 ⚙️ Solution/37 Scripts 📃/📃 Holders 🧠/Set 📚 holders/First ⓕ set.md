@@ -10,7 +10,7 @@
 
     `{$set.First}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the start of a [Set 🧠 holder](<🧠 Set holders.md>).
+    * that returns the start of a [Set 🧠 holder](<../🧠 Input holders/🧠 Set holders.md>).
 
 
     ---
@@ -20,7 +20,7 @@
 
     |Input|Behavior
     |-|-
-    |[`$set`](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>)`.First({A:1},n)`| Applies [`.Filter`](<../../📃 Holders 🧠/Set 📚 holders/Filter ⓕ set.md>) then `.First(n)`
-    |[$set](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>)`.First({A:1})` | Equals `$set.First({A:1},1)`
+    |[`$set`](<../🧠 Input holders/🧠 Set holders.md>)`.First({A:1},n)`| Applies [`.Filter`](<../../📃 Holders 🧠/Set 📚 holders/Filter ⓕ set.md>) then `.First(n)`
+    |[$set](<../🧠 Input holders/🧠 Set holders.md>)`.First({A:1})` | Equals `$set.First({A:1},1)`
     ---
     <br/>

@@ -14,14 +14,14 @@
 
     Input | Purpose | Example
     |-|-|-
-    | `original` | Original [Map 🧠 holder](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) | `{A:1,B:2}`
-    |           | or [List 🧠 holder](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) of maps | `{A:1},{A:2}`
+    | `original` | Original [Map 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>) | `{A:1,B:2}`
+    |           | or [List 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) of maps | `{A:1},{A:2}`
     | `change`   | Object with keys/values to set | `{B:3,C:4}`
 
     ---
     <br/>
 
-1. **What are examples of .Set for [Map 🧠 holders](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)?**
+1. **What are examples of .Set for [Map 🧠 holders](<../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>)?**
 
     | Original | Change | Result
     |-|-|-
@@ -32,7 +32,7 @@
     ---
     <br/>
 
-1. **What are examples of .Set for [List 🧠 holders](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)?**
+1. **What are examples of .Set for [List 🧠 holders](<../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>)?**
 
     > This uses the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
 

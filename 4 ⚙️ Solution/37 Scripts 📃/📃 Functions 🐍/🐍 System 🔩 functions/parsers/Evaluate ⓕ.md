@@ -36,9 +36,9 @@
     | [`Strings`](<../../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)  | single line | May or not be surrounded by `"` or `'`.
     |           | multi line | Multi line strings behaves like a single line
     |           | line breaks | Line breaks are supported with `\|` or `>`
-    | [`Arrays`](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) | single line  | Are represented with `[]`
+    | [`Arrays`](<../../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) | single line  | Are represented with `[]`
     |           | multi line  | Are represented with `-` for each item
-    | [`Objects`](<../../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)  | single line  | Are represented with `{}`
+    | [`Objects`](<../../../📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>)  | single line  | Are represented with `{}`
     | | multi line  | Appear as `key:` for each property
 
     ---
@@ -67,7 +67,7 @@
 
 1. **How does .Evaluate work with CSV?**
 
-    Single-line comma-separated values (CSV) are converted to YAML [arrays](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>), as in the following [`PUT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
+    Single-line comma-separated values (CSV) are converted to YAML [arrays](<../../../📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>), as in the following [`PUT`](<../../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
     PUT| A,B,C  >> $l1

@@ -20,7 +20,7 @@
     | `Name` | [text](<../Text 📚 holders/🧠 Text holders.md>) | [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
     | `Title` | [text](<../Text 📚 holders/🧠 Text holders.md>) | Calls and caches [`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>)
     | `Description` | [text](<../Text 📚 holders/🧠 Text holders.md>) | Calls and caches [`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>)
-    | `IsSecure`| [bool](<../Bool 📚 holders/Bool holders.md>) | Calls [`.IsSecure`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsSecure ⓕ.md>) 
+    | `IsSecure`| [bool](<../🧠 Input holders/Bool holders.md>) | Calls [`.IsSecure`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsSecure ⓕ.md>) 
     
     ---
     <br/>
