@@ -3,7 +3,7 @@
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
 > Purpose
-* Alternative to [`.Add`](<Add ⓕ any.md>), for flexibility.
+* Alternative to [`.Add`](<Add ⓕ.md>), for flexibility.
 
 ## FAQ
 

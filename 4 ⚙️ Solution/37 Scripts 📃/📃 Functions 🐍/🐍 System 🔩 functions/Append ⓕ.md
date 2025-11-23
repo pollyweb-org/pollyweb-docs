@@ -1,6 +1,6 @@
 # 😃 Append ⓕ
 
-> Used by [`.Add`](<Add ⓕ any.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
+> Used by [`.Add`](<Add ⓕ.md>) [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
 
 ## FAQ
 
