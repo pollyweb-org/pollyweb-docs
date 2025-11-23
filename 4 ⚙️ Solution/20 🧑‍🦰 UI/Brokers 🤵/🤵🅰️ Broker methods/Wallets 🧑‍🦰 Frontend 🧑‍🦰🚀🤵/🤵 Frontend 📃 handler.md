@@ -14,6 +14,7 @@
 
 - ASSERT|$.Msg:
     UUIDs: From
+    Lists: Chats, Binds, Tokens, Domains
 
 # Get the frontend item
 - READ >> $frontend:
@@ -26,7 +27,11 @@
 
 # Return the frontend data
 - RETURN|$frontend:
-    Chats, Binds, Tokens
+    Wallet: Wallet
+    Chats: Chats.Format($.Msg.Chats) 
+    Binds: Binds.Format($.Msg.Binds) 
+    Tokens: Tokens.Format($.Msg.Tokens)
+    Domains: Domains.Format($.Msg.Domains)
 ```
 
 Uses||

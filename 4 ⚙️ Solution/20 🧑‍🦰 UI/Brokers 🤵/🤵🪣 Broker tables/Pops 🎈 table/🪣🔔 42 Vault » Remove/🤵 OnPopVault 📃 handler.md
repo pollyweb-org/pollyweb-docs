@@ -1,8 +1,5 @@
 # 🤵📃 PopVault handler
 
-## Diagram
-
-![alt text](<🤵 OnPopUnvault ⚙️ uml.png>)
 
 ## Script
 
