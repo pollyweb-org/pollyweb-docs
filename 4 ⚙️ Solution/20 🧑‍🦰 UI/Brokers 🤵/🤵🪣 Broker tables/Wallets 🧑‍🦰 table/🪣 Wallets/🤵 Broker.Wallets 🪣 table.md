@@ -18,10 +18,9 @@
 Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
 ```yaml
-# Wallets.yaml
-
 Prefix: Broker
 Table: Wallets
+Item: Wallet
 Key: ID
 
 Parents:
@@ -56,14 +55,16 @@ Distincts:
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 ```yaml
-# READ|BrokerWallets|<wallet-uuid>
-
+# From Onboard@
 ID: <wallet-uuid>
 PublicKey: <public-key>
 Notifier: any-notifier.dom
-Language: en-us
 
-# Agents
+# Localization from Onboard@ and Pop@
+Language: en-us
+Region: United States
+
+# Agents from Onboard@ and Pop@
 Curator: any-curator.dom
 Finder: any-finder.dom
 Persona: any-persona.dom
