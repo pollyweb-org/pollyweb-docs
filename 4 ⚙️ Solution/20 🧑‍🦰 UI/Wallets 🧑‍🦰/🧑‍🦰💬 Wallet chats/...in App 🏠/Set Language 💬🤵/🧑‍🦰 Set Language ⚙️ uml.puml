@@ -12,7 +12,7 @@ participant "Graph 🕸" as graph
 ' ------------
 user --> wallet: language
 activate wallet
-    wallet --> broker: 1) Translate 🐌
+    wallet --> broker: 1) Localize 🐌
 deactivate wallet
 
 ' BROKER
