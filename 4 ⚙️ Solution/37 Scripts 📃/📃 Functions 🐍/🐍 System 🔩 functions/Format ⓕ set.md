@@ -11,8 +11,8 @@
     `{.Format}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that calls [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>)
-    * to format every item of a [Set 🧠 holder](<../Input holders 📥/🧠 Set holders.md>)
-    * into a [List 🧠 holder](<../Input holders 📥/🧠 List holders.md>).
+    * to format every item of a [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)
+    * into a [List 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>).
 
 
     ---
@@ -29,7 +29,7 @@
 
     Inputs|Details | Example
     |-|-|-|
-    |`$set`| [Set 🧠 holder](<../Input holders 📥/🧠 Set holders.md>) to format | `{A:1},{A:2}`
+    |`$set`| [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) to format | `{A:1},{A:2}`
     |`format...`| Format to apply | `A` `A,B` `[A,B]` `{X:A, Y:B}`
     
 
@@ -39,7 +39,7 @@
 
 
 
-1. **How to create a value [List 🧠](<../Input holders 📥/🧠 List holders.md>) from a [Set 🧠 holder](<../Input holders 📥/🧠 Set holders.md>)?**
+1. **How to create a value [List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) from a [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)?**
   
     ```yaml
     # Let's turn this      
@@ -80,7 +80,7 @@
 
 
 
-1. **How to extract some keys from a [Set 🧠 holder](<../Input holders 📥/🧠 Set holders.md>)?**
+1. **How to extract some keys from a [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)?**
   
     ```yaml
     # Let's turn this      # Into this
@@ -160,7 +160,7 @@
 
 
 
-1. **How to apply transformations on [Set 🧠 holders](<../Input holders 📥/🧠 Set holders.md>)?**
+1. **How to apply transformations on [Set 🧠 holders](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)?**
   
     ```yaml
     # List     📃 Script:             # Result

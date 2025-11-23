@@ -22,6 +22,6 @@
     |-|-
     |[Text 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | See [`.First text`](<First ⓕ text.md>)
     |[List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)| See [`.First list`](<First ⓕ list.md>)
-    |[Set 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) | See [`.First set`](<../../📃 Holders 🧠/Set 📚 holders/First ⓕ set.md>)
+    |[Set 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) | See [`.First set`](<First ⓕ set.md>)
     ---
     <br/>
