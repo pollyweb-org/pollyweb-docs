@@ -4,6 +4,7 @@
 
 > Stores [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
 
+<br/>
 
 ## Usage
 
@@ -17,6 +18,7 @@
 
 <!-- TODO: Add missing Disclosure@Vault above -->
 
+<br/>
 
 ## Schema
 
@@ -43,9 +45,10 @@ Handlers:
 | Link | Table | Contains
 |-|-|-
 | Parents   | [`Chats` 🪣](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) | [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-|           | [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+|           | [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domain 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |
 
+<br/>
 
 ## Example
 

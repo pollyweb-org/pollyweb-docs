@@ -1,0 +1,22 @@
+@startuml OnDomainInserted
+
+box Broker 🤵 domain #FFFFFA
+    participant "Itemizer 🛢" as itemizer
+    participant "Domains 🪣" as table
+    participant "OnInserted 🔔" as handler
+end box
+participant "Graph 🕸" as graph
+
+
+itemizer --> table: propagate 💾
+
+activate table
+    table --> handler: INSERTED 🔔
+deactivate table
+
+activate handler
+    handler -> graph: SEND 📬 {About 🚀}
+    handler -> table: SAVE 💾 
+deactivate handler
+
+@enduml 
