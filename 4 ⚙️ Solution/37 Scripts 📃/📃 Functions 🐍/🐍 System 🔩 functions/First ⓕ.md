@@ -20,7 +20,7 @@
 
     |Input|Behavior
     |-|-
-    |[Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | See [`.First text`](<../../📃 Holders 🧠/Text 📚 holders/First ⓕ text.md>)
+    |[Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) | See [`.First text`](<First ⓕ text.md>)
     |[List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)| See [`.First list`](<../../📃 Holders 🧠/List 📚 holders/First ⓕ list.md>)
     |[Set 🧠](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>) | See [`.First set`](<../../📃 Holders 🧠/Set 📚 holders/First ⓕ set.md>)
     ---
