@@ -46,11 +46,11 @@
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ.md>) |bool| Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>)
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) |bool| Is it in a given list of numbers?
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Random ⓕ.md>) |[num](<🧠 Num holders.md>)| Returns a random number
-    |Change | [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ num.md>) |[num](<🧠 Num holders.md>)| Adds numbers
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ num.md>)
-    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ num.md>) | What if we add numbers?
+    |Change | [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ.md>) |[num](<🧠 Num holders.md>)| Adds numbers
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ.md>)
+    |       | [`.Plus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ.md>) |[num](<🧠 Num holders.md>)| Same as [`.Sum`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ.md>) | What if we add numbers?
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ.md>) |[num](<🧠 Num holders.md>)| Subtracts numbers
-    |       | [`.Times`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Times ⓕ num.md>) |[num](<🧠 Num holders.md>)| Multiplies numbers
+    |       | [`.Times`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Times ⓕ.md>) |[num](<🧠 Num holders.md>)| Multiplies numbers
     |       | [`.Calculate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Calculate ⓕ.md>) |[num](<🧠 Num holders.md>)| Calculates formulas
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) |[num](<🧠 Num holders.md>)| Distance between 2 numbers
     ---
