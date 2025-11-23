@@ -1,0 +1,28 @@
+@startuml OnDomainLocalized
+ 
+
+box Broker 🤵 domain #FFFFFA
+    participant "Wallets 🪣" as wallets
+    participant "OnLocalized 🔔" as script
+    participant "Domains 🪣" as domains
+    participant "OnLocalized 🔔" as handler
+end box
+participant "Graph 🕸" as graph
+
+
+wallets --> script: CHANGED 🔔
+activate script
+    script -> domains: SAVE 💾 {language}
+deactivate script
+
+activate domains
+    domains --> handler: UPDATED 🔔
+deactivate domains
+
+activate handler
+    handler -> graph: TRANSLATE 🈯 
+    handler -> domains: SAVE 💾 {translation}
+deactivate handler
+
+
+@enduml 
