@@ -1,6 +1,6 @@
 # 🧠🔩 Set.Sort extension
 
-> Part of [Set 🧠 holder](<../Input holders 📥/🧠 Set holders.md>)
+> Part of [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)
 
 > Used by [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
 
@@ -14,8 +14,8 @@
 
     Inputs|Details | Example
     |-|-|-|
-    |`$set`| [Set 🧠 holder](<../Input holders 📥/🧠 Set holders.md>) | `{A:1},{A:2}`
-    |`order`| Order of [map](<../Input holders 📥/🧠 Map holders.md>) keys | `A,B+,C-` 
+    |`$set`| [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) | `{A:1},{A:2}`
+    |`order`| Order of [map](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) keys | `A,B+,C-` 
     
 
     ---
