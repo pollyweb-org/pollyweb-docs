@@ -7,7 +7,7 @@
 1. **What are Domain holders?**
 
     `Domain` holders 
-    * are [Holders 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) returned by the [`.Domain`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Domain ⓕ.md>) function
+    * are [Holders 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) returned by the [`.Domain`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Domain ⓕ.md>) function
     * that represent a [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
     ---

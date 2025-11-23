@@ -18,7 +18,7 @@
 
 1. **What's the syntax for defaults?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml
     DEFAULT|$input:

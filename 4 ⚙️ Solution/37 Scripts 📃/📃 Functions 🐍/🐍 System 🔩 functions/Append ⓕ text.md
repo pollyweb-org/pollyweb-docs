@@ -6,7 +6,7 @@
 
 ## FAQ
 
-1. **What's the syntax of text.Append?**
+1. **What's the syntax of $text.Append?**
 
     ```yaml
     .Append($text, appendixes...)
@@ -15,13 +15,13 @@
     Input | Purpose | Example
     |-|-|-
     |`$text` | Original [Text 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | `AB` `$str`
-    |`appendixes...` | string to append, | `CD`
+    |`appendixes...` | string to append | `CD`
     
 
     ---
     <br/>
 
-1. **What are usage examples?**
+1. **What are usage examples of $text.Append?**
 
     |       | Task  | List | Appendix   | Output
     |-|-|-|-|-

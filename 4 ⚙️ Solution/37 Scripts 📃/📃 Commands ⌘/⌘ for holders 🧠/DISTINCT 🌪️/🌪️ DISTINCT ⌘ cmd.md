@@ -15,7 +15,7 @@
 
 1. **What's the DISTINCT syntax?**
 
-    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
+    > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml
     DISTINCT >> $list2:
