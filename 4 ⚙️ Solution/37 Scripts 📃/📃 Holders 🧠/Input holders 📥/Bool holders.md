@@ -36,7 +36,7 @@
     |-|-|-|-
     |Assess| [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>) |bool| Is it unset or missing?
     |      | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>) |bool| Has a value been provided?
-    |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>) |bool| Is it the expected boolean?
+    |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) |bool| Is it the expected boolean?
     |        | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>) |bool| Is it the opposite value?
     |        | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>) |bool| Equal comparison alias for `.Is`
     |        | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) |bool| Not-equal alias for `.IsNot`
