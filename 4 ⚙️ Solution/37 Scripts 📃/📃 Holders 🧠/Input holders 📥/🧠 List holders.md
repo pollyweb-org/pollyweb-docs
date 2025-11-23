@@ -44,8 +44,8 @@
     |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ list.md>)   |[list](<🧠 List holders.md>), any| Get the first `n` items
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)   |[list](<🧠 List holders.md>), any| Get the last `n` items
     |       | [`.Distinct`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>) |[list](<🧠 List holders.md>)| Return only unique items
-    |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ list.md>)     |[list](<🧠 List holders.md>)| Add items to the list
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ list.md>)
+    |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)     |[list](<🧠 List holders.md>)| Add items to the list
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)   |[list](<🧠 List holders.md>)| Remove items from the list
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
@@ -104,7 +104,7 @@
 
 1. **How to append into lists?**
 
-    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ list.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
+    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
     
     ```yaml   
     ┌────────────────────────┬─────────────┐
@@ -139,7 +139,7 @@
 
 1. **How to merge two lists?**
 
-    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ list.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
+    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml   
     ┌────────────────────┬──────────────┐

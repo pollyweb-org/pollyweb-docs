@@ -11,8 +11,8 @@
     |-|-
     |[`Num` 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) | Same as [`.Sum`](<Sum ⓕ num.md>) 
     |[`Time` 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) | Same as [`.Advance`](<Advance ⓕ time.md>) 
-    |[`List` 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) | Same as [`.Append`](<Append ⓕ list.md>) 
-    |[`Text` 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | Same as [`.Append`](<Append ⓕ text.md>) 
+    |[`List` 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) | Same as [`.Append`](<Append ⓕ.md>) 
+    |[`Text` 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | Same as [`.Append`](<Append ⓕ.md>) 
     |[`Map` 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) | Same as [`.Set`](<Set ⓕ.md>) 
 
     ---
