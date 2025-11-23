@@ -12,7 +12,7 @@
     |[Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>)   |bool| Is the given [Text 🧠](<../../📃 Holders 🧠/Text 📚 holders/🧠 Text holders.md>) a subs string?
     |[Period 🧠](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>) |bool| Is the given [Time 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) in the date interval?
     |[List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)   |bool| Is the given value in the [List 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)?
-    |[Map 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)    |bool| Is the given key in the [`.Keys`](<../../📃 Holders 🧠/Map 📚 holders/Keys ⓕ map.md>) list?
+    |[Map 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)    |bool| Is the given key in the [`.Keys`](<Keys ⓕ map.md>) list?
     |[Set 🧠](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>)    |bool| Is the given [Map 🧠](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>) in the [Set 🧠](<../../📃 Holders 🧠/Set 📚 holders/🧠 Set holders.md>)?
 
     ---

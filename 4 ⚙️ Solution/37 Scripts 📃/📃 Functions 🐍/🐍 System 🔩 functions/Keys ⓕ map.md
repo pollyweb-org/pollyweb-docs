@@ -12,7 +12,7 @@
    
     |Type|Input|Output
     |-|-|-
-    |[Map 🧠 holder](<🧠 Map holders.md>)|`{A:1,B:2}` | `[A,B]`
+    |[Map 🧠 holder](<../../📃 Holders 🧠/Map 📚 holders/🧠 Map holders.md>)|`{A:1,B:2}` | `[A,B]`
 
     ---
     <br/>
