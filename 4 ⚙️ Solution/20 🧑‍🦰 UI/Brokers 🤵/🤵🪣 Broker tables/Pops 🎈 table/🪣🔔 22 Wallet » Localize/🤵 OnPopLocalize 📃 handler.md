@@ -19,16 +19,44 @@
 # Load the chat
 - CHAT|$Pop.Chat
 
-# Prompt the user for options
-- ONE|What do you need? >> $option:
+# Prompt the user for the region
+- ONE|To what region? >> $lang:
     Options:
-        - 🈯 Set /language
+        - ID: pt-pt
+          Title: 🇵🇹 Portugal
+        - ID: pt-br
+          Title: 🇧🇷 Brazil
+
+# Remember the previous region for undo
+- PUT|$Pop.Wallet.Language >> $prevLang
+
+# Ignore if already on that language
+- IF|$prevLang == $lang.ID:
+    - SUCCESS|Already set to {$lang.Title}!
+    - RETURN
+
+# Confirm before changing
+- CONFIRM|Set to {$lang.Title}?
 
 # Process the user's option
-- CASE|$option:
-    /language: 
-        SAVE|$Pop:
-            .State: LOCALIZE
+- SAVE|$Pop.Wallet:
+    Language: $lang
+
+# Inform success, but allow an undo
+- SUCCESS|Done! >> $success:
+    Options: 
+        - ↩️ /Undo set region
+
+# Process undo request
+- CASE|$success:
+    Undo: 
+    
+        # Save back the previous language
+        - SAVE|$Pop.Wallet:
+            Language: $prevLang
+
+        # Inform success of reversal
+        - SUCCESS|Region reverted.
 ```
 
 Uses||

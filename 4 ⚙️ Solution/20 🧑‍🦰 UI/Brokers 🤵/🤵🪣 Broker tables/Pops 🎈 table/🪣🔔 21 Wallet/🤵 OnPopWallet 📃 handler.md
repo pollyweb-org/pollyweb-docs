@@ -1,7 +1,7 @@
 # 🤵 OnPopWallet 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to a Pop in a [Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet 🛠️ app.md>).
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to a Pop in a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
 
 <br/>
 
@@ -22,11 +22,11 @@
 # Prompt the user for options
 - ONE|What do you need? >> $option:
     Options:
-        - 🈯 Set /language
+        - 🈯 Set /region
 
 # Process the user's option
 - CASE|$option:
-    /language: 
+    region: 
         SAVE|$Pop:
             .State: LOCALIZE
 ```
