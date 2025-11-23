@@ -37,6 +37,12 @@
     <br/>
 
 
+1. **What happens when the format is empty?**
+
+    If the format is empty, the entire item is returned.
+
+    ---
+    <br/>
 
 
 1. **How to create a value [List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) from a [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)?**

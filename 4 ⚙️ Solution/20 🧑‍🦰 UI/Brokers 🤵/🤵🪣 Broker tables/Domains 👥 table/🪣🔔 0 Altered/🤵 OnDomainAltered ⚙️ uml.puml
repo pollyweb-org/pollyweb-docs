@@ -1,0 +1,27 @@
+@startuml OnDomainAltered
+
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Domains 🪣" as domains
+    participant "OnAltered 🔔" as handler
+    participant "Wallets 🪣" as wallets
+    participant "Frontend 🪣" as frontend
+end box
+
+
+activate script
+    script -> domains: SAVE 💾, DELETE 🗑️
+
+activate domains
+    domains --> handler: ALTERED 🔔
+deactivate domains
+
+activate handler
+    handler -> wallets: READ 🧲
+    handler -> frontend: READ 🧲 {Wallet: $wallet.ID}
+    handler -> frontend: SAVE 💾 {$wallet.Domains}
+deactivate handler
+
+@enduml 
