@@ -23,16 +23,25 @@ activate chats
     chats --> handler: OPENED 🔔
 deactivate chats
 
-activate handler
-    handler -> chatters: SAVE 💾 {FINDER}
-deactivate handler
+alt IF Host is Broker
 
-activate chatters
-    chatters --> finder: 
-deactivate chatters
+    activate handler
+        handler -> chatters: SAVE 💾 {BROKER}
 
-activate finder
-    finder --> chats: Presented 🐌 {PRESENTED} 
-deactivate finder
+else IF not Broker
+
+    
+        handler -> chatters: SAVE 💾 {FINDER}
+    deactivate handler
+
+    activate chatters
+        chatters --> finder: Present 🐌
+    deactivate chatters
+
+    activate finder
+        finder --> chats: Presented 🐌 {PRESENTED} 
+    deactivate finder
+
+end alt
 
 @enduml

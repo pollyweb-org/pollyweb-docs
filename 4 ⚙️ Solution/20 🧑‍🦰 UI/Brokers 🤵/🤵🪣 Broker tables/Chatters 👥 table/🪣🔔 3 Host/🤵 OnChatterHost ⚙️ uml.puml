@@ -2,20 +2,21 @@
 
 
 box Broker 🤵 domain #FFFFFA
+    participant "OnBroker 🔔" as broker
     participant "Chats 🪣" as chats
-    participant "OnActivated 🔔" as script
     participant "Chatters 🪣" as table
     participant "OnHost 🔔" as handler
 end box
 
 participant "Host 🤗" as host
 
+activate broker
+    broker -> chats: SAVE 💾 {ACTIVE}
+deactivate broker
 
-chats --> script: ACTIVATED 🔔
-
-activate script
-    script -> table: SAVE 💾 {HOST}
-deactivate script
+activate chats
+    chats --> table: SAVE 💾 {HOST}
+deactivate chats
 
 activate table
     table --> handler: HOST 🔔

@@ -4,7 +4,7 @@
 participant "Host 🤗" as host
 
 box Broker 🤵 domain #FFFFFA
-    participant "Invite@ 📃" as script
+    participant "Invite 🐌" as script
     participant "Chatters 🪣" as table
     participant "OnHelper 🔔" as handler
 end box
