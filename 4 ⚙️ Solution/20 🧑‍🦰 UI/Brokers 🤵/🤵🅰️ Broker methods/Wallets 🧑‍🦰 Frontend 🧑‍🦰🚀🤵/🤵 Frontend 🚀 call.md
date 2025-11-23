@@ -69,11 +69,11 @@ Tokens:
         Title: Any Schema, by Any Issuer
         Schema: any-authority.dom/ANY-SCHEMA
         Issuer: any-issuer.dom
-        State: ACTIVE
+        Status: ACTIVE
 
 Domains:
     any-domain.dom:
-        Domain: any-domain.dom:
+        Name: any-domain.dom
         Title: Any Domain
         Description: bla, bla...
         SmallIcon: <base64>

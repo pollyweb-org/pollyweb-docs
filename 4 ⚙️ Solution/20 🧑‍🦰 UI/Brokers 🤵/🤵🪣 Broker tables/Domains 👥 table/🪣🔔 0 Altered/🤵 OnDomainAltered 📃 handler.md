@@ -23,14 +23,14 @@
 📃 OnDomainAltered:
 
 # Assert the inputs
-- ASSERT|$Item:
+- ASSERT|$Domain:
     AllOf: Wallet
     UUIDs: Wallet
 
 # Get the Wallet 🧑‍🦰
 - READ >> $wallet:
     Set: Broker.Wallets
-    Key: $Item.Wallet
+    Key: $Domain.Wallet
 
 # Get the Wallet's Frontend
 - READ >> $frontend:
@@ -40,18 +40,17 @@
         PublicKey: $wallet.PublicKey
 
 # Prepare the response:
-- PUT|$wallet.Tokens >> $tokens:
-    Issuer, Issuer$, Schema, Schema$, 
-    Key, Status, Token
+- PUT|$wallet.Domains >> $domains:
+    Name, Title, Description, SmallIcon, BigIcon
 
 # Replace only the Frontend Tokens.
 - SAVE|$frontend:
-    Tokens: $tokens
+    Domains: $domains
 ```
 
 
 |Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`PUT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Frontend`](<../../Frontend 📱 table/🪣 Frontend/🤵 Broker.Frontend 🪣 table.md>) [`Tokens` ](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>) 
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Domains`](<../🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Frontend`](<../../Frontend 📱 table/🪣 Frontend/🤵 Broker.Frontend 🪣 table.md>)  [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>) 
 |

@@ -16,13 +16,7 @@
 
 ![alt text](<🤵 OnTokenAltered ⚙️ uml.png>)
 
-## How to call
-
-```yaml
-- RUN|OnTokenAltered:
-    Item: 
-        Wallet: <wallet-id>
-```
+<br/>
 
 ## Script
 
@@ -30,14 +24,14 @@
 📃 OnTokenAltered:
 
 # Assert the inputs
-- ASSERT|$Item:
+- ASSERT|$Token:
     AllOf: Wallet
     UUIDs: Wallet
 
 # Get the Wallet 🧑‍🦰
 - READ >> $wallet:
     Set: Broker.Wallets
-    Key: $Item.Wallet
+    Key: $Token.Wallet
 
 # Get the Wallet's Frontend
 - READ >> $frontend:
@@ -48,8 +42,7 @@
 
 # Prepare the response:
 - PUT|$wallet.Tokens >> $tokens:
-    Issuer, Issuer$, Schema, Schema$, 
-    Key, Status, Token
+    Token, Title, Issuer, Schema, Status
 
 # Replace only the Frontend Tokens.
 - SAVE|$frontend:
