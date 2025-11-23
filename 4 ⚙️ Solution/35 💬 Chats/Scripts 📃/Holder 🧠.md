@@ -20,13 +20,13 @@
 
     |Type|Stores|Example
     |-|-|-
-    |[`Bool`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/Bool holders.md>) | Binary states | `True` `False`
-    |[`Text`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>) | Text strings | `ABC`
-    |[`Time`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/🧠 Time holders.md>)| Dates and times | `2018-12-10T13:45:00Z`
-    |[`Num`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/🧠 Num holders.md>) | Numbers for  math | `1` `1.03` `-1` `0`
-    |[`List`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/🧠 List holders.md>) | Items in sequence | `[1, A, {X:9}]`
-    |[`Map`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>) | Key-value pairs | `{A:1, B:2}`
-    |[`Set`](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/🧠 Set holders.md>)| [Maps](<../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/🧠 Map holders.md>) sequence | `{A:1},{A:2}`
+    |[`Bool`](<../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/Bool holders.md>) | Binary states | `True` `False`
+    |[`Text`](<../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | Text strings | `ABC`
+    |[`Time`](<../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>)| Dates and times | `2018-12-10T13:45:00Z`
+    |[`Num`](<../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) | Numbers for  math | `1` `1.03` `-1` `0`
+    |[`List`](<../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) | Items in sequence | `[1, A, {X:9}]`
+    |[`Map`](<../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) | Key-value pairs | `{A:1, B:2}`
+    |[`Set`](<../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)| [Maps](<../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) sequence | `{A:1},{A:2}`
 
     ---
     <br/>

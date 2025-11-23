@@ -11,7 +11,7 @@
 
     `{.Translate}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that translates a [Text 🧠 holder](<../../📃 Holders 🧠/🧠 Input holders/🧠 Text holders.md>) between two languages.
+    * that translates a [Text 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) between two languages.
 
     ---
     <br/>

@@ -18,8 +18,8 @@
     |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>) | bool | Is it exactly the same string of chars?
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) | bool | Is it a different string of chars?
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) |bool| Is it in a given list of texts?
-    |Chars| [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>) |[num](<../🧠 Input holders/🧠 Num holders.md>)| How many chars does it contain?
-    |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>) |[num](<../🧠 Input holders/🧠 Num holders.md>)| Same as [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>)
+    |Chars| [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>) |[num](<🧠 Num holders.md>)| How many chars does it contain?
+    |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>) |[num](<🧠 Num holders.md>)| Same as [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>)
     |       | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ text.md>) |[text](<🧠 Text holders.md>)| What's the first char?
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) |[text](<🧠 Text holders.md>)| What's the last char?
     |       | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ any.md>) |bool| Does it contain a given char?
@@ -31,8 +31,8 @@
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) |[text](<🧠 Text holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
     |       | [`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>) |[text](<🧠 Text holders.md>)| Translates between languages
     |Create | [`.UUID`](<../../📃 Functions 🐍/🐍 System 🔩 functions/UUID ⓕ.md>) |[text](<🧠 Text holders.md>)| Returns a new unique ID
-    |Parse|[`.Locator`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Locator ⓕ.md>) | [map](<../🧠 Input holders/🧠 Map holders.md>) | Parses a [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) string
-    |     |[`.Schema`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Schema ⓕ.md>)  | [map](<../🧠 Input holders/🧠 Map holders.md>) | Parses a [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) string
+    |Parse|[`.Locator`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Locator ⓕ.md>) | [map](<🧠 Map holders.md>) | Parses a [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) string
+    |     |[`.Schema`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Schema ⓕ.md>)  | [map](<🧠 Map holders.md>) | Parses a [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) string
 
     ---
     <br/>

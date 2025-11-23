@@ -31,7 +31,7 @@ About:
 | `Description` |text| Optional human readable description
 | `SmallIcon`  |text| Optional URL to a small icon (20x20)
 | `BigIcon`   |text| Optional URL to a big icon (100x100)
-| `Translations` | [set](<../../../37 Scripts 📃/📃 Holders 🧠/🧠 Input holders/🧠 Set holders.md>) | Optional translations of the domain name
+| `Translations` | [set](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) | Optional translations of the domain name
 |
 
 <br/>
