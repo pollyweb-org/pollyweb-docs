@@ -3,7 +3,7 @@
 participant "Wallet 👱" as wallet
 
 box "Broker 🤵 domain"  #FFFFFA
-    participant "Prompt@ 📃" as broker
+    participant "Prompt 🐌" as broker
     participant "Chatters 🪣" as chatters
     participant "Prompts 🪣" as prompts
 end box

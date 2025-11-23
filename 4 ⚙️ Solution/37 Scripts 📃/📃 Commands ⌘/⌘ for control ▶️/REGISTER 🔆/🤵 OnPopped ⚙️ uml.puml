@@ -3,10 +3,10 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    'participant "Pop@ 📃" as pop
+    'participant "Pop 🐌" as pop
     participant "Pops 🪣" as pops
     participant "Popped@ 🔔" as popped
-    participant "Hello@ 📃" as introduced
+    participant "Hello 🐌" as introduced
 end box
 
 box "Talker 😃" #FFFFFA

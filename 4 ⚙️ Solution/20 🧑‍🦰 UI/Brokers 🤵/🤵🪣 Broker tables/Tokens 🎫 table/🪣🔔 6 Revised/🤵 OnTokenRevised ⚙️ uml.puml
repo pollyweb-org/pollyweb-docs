@@ -6,7 +6,7 @@
 participant "Issuer 🎴" as issuer
 
 box Broker 🤵 domain #FFFAFA
-    participant "Revise@ 📃" as script
+    participant "Revise 🐌" as script
     participant "OnLanguage 🔔" as script
     'participant "Wallets 🪣" as wallets
     participant "Tokens 🪣" as tokens

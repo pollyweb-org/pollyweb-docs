@@ -3,7 +3,7 @@
 participant "Host 🤗" as host
 
 box Broker 🤵 domain #FFFFFA
-    participant "Prompt@ 📃" as script
+    participant "Prompt 🐌" as script
     participant "Prompts 🪣" as table
     participant "OnInserted 🔔" as handler
 end box

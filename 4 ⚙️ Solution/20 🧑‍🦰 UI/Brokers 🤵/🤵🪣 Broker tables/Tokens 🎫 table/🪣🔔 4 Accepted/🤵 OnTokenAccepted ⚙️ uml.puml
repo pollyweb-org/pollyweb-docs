@@ -3,7 +3,7 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Saved@ 📃" as script
+    participant "Saved 🐌" as script
     participant "Tokens 🪣" as tokens
     participant "OnAccepted 🔔" as change
 end box

@@ -3,7 +3,7 @@
 participant "Broker 🤵" as broker
 
 box Issuer 🎴 domain #FFFFFA
-    participant "Accepted@ 📃" as script
+    participant "Accepted 🐌" as script
     participant "Tokens 🪣" as tokens
     participant "OnAccepted 🔔" as handler
     participant "Talker 😃" as talker

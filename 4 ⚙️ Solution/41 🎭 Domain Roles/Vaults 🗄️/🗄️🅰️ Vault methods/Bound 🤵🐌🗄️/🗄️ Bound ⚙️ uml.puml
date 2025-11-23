@@ -5,7 +5,7 @@ participant "Broker 🤵" as broker
 'participant "Graph 🕸" as graph
 
 box Vault 🗄️ domain #FFFFFA
-    participant "Bound@ 📃" as vault
+    participant "Bound 🐌" as vault
 'end box
 'box Itemizer 🛢 domain #FFFFFA
     participant "Hooks 🪣" as hooks

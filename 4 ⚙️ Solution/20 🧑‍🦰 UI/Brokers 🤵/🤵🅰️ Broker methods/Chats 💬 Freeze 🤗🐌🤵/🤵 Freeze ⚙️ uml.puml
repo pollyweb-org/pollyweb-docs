@@ -3,7 +3,7 @@
 participant "Host 🤗" as host
 
 box Broker 🤵 domain #FFFFFA
-    participant "Freeze@ 📃" as broker
+    participant "Freeze 🐌" as broker
     'participant "Wallets 🪣" as wallets
     'participant "Chats 🪣" as chats
 end box
