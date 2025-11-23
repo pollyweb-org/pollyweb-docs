@@ -3,12 +3,12 @@
 
 box Broker 🤵 domain #FFFFFA
     participant "Wallets 🪣" as wallets
-    participant "OnLanguage 🔔" as script
+    participant "OnLocalized 🔔" as script
     participant "Chats 🪣" as chats
     participant "OnLocalized 🔔" as handler
 end box
-
 participant "Graph 🕸" as graph
+
 
 wallets --> script: UPDATED 🔔
 activate script

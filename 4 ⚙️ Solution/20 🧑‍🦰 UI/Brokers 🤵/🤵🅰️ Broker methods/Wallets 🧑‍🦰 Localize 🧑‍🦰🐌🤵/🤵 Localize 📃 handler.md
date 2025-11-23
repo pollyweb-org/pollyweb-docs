@@ -1,4 +1,4 @@
-# 🤵📃 Set Language 
+# 🤵 Localize 📃 handler
 
 > Purpose
 
@@ -50,5 +50,4 @@
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`PARALLEL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>)  [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)  [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)  
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
-| [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | [`Get Wallet` 📃 script](<scripts/🤵 Get Wallet 📃 script.md>)<br/>[`Translate All` 📃 script](<scripts/🤵 Translate All 📃 script.md>)<br/>[`Save Binds` 📃 script](<scripts/🤵 Save Binds 📃 script.md>)<br/>[`Save Chats` 📃 script](<scripts/🤵 Save Chats 📃 script.md>)<br/>[`Save Tokens` 📃 script](<scripts/🤵 Save Tokens 📃 script.md>)
 |
