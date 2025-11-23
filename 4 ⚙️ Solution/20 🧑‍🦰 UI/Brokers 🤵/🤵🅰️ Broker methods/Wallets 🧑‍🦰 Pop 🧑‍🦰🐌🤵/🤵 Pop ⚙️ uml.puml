@@ -3,20 +3,11 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Pop@ 📃" as pop
+    participant "Pop 🐌" as pop
     participant "Wallets 🪣" as wallets
-    'participant "Locate@ 📃" as locate
-    participant "Hello@ 📃" as introduced
-    'participant "Wallets 🪣" as wallets
+    participant "Pops 🪣" as pops
 end box
 
-box "Talker 😃" #FFFFFA
-    participant "Engine ⚙️" as engine
-    participant "Talkers 🪣" as talkers
-'    participant "Pop {?} 📃" as popX
-end box
-
-'participant "Vault 🗄️" as vault
 
 activate wallet 
     wallet --> pop: Pop 🐌 {context, key}
@@ -24,42 +15,9 @@ deactivate wallet
 
 activate pop
     pop -> wallets: READ 🧲
-    pop -> engine: REGISTER 🔆 {script}
+    pop -> pops: SAVE 💾
 deactivate pop
 
-activate engine
-    engine -> talkers: SAVE 💾
-    engine -> pop: {locator}
-deactivate engine
 
-activate pop
-    pop --> wallet: SEND 📬 Assess 🐌 {locator}
-deactivate pop
-
-'activate wallet
-'    wallet --> locate: Locate 🐌 {locator}
-'deactivate wallet
-
-'activate locate
-'    locate --> wallet: SEND 📬 Open 🐌 {locator}
-'deactivate locate
-
-
-activate wallet
-    wallet --> introduced:
-deactivate wallet
-
-activate introduced
-    'introduced -> engine: CHAT 💬
-    introduced -> engine: TALK 😃
-deactivate introduced
-
-'activate popX
-'deactivate popX
-
-activate engine
-    engine -> talkers: READ 🧲
-    engine -> : RUN 🏃 {script} 
-deactivate engine
 
 @enduml 
