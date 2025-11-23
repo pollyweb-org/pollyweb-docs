@@ -32,7 +32,7 @@
     | `All` | Uses [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) to format item properties
     | `First` | Uses [`.First`](<../../../📃 Holders 🧠/Set 📚 holders/First ⓕ set.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) on the 1st item
     | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) and [`.Format`](<../../../📃 Holders 🧠/Set 📚 holders/Format ⓕ set.md>) on the last item
-    | `Distinct` | Uses [`.Distinct`](<../../../📃 Holders 🧠/List 📚 holders/Distinct ⓕ.md>) to group results 
+    | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>) to group results 
     | `From` | Uses [`.Cross`](<../../../📃 Holders 🧠/Set 📚 holders/Cross ⓕ.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>)
     | `Where` | Uses [`.Filter`](<../../../📃 Holders 🧠/Set 📚 holders/Filter ⓕ set.md>) to filter [List 🧠](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) items 
     | `OrderBy`| Uses [`Set.Sort`](<../../../📃 Holders 🧠/Set 📚 holders/Sort ⓕ set.md>) to order the [List 🧠](<../../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>) items

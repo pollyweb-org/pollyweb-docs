@@ -10,7 +10,7 @@
 
     `{.Higher}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the highest [Time 🧠](<../Time 📚 holders/🧠 Time holders.md>) or [Num 🧠](<🧠 List holders.md>).
+    * that returns the highest [Time 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) or [Num 🧠](<../../📃 Holders 🧠/List 📚 holders/🧠 List holders.md>).
 
     ---
     <br/>

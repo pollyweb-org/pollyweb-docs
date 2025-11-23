@@ -37,15 +37,15 @@
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ any.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ any.md>)    |bool| Are any of these items missing?
     |Size   | [`.IsEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ any.md>)  | bool| Is empty?
-    |       | [`.IsOne`](<IsOne ⓕ list.md>)    | bool| Has only one item?
-    |       | [`.AreMany`](<AreMany ⓕ list.md>)  | bool| Has more than one item?
+    |       | [`.IsOne`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsOne ⓕ list.md>)    | bool| Has only one item?
+    |       | [`.AreMany`](<../../📃 Functions 🐍/🐍 System 🔩 functions/AreMany ⓕ list.md>)  | bool| Has more than one item?
     |       | [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>)     | [num](<../Num 📚 holders/🧠 Num holders.md>)| Returns the number of items
     |       | [`.Length`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>)   |  [num](<../Num 📚 holders/🧠 Num holders.md>)| Equals [`.Size`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Size ⓕ.md>)
-    |Read   | [`.First`](<First ⓕ list.md>)   |[list](<🧠 List holders.md>), any| Get the first `n` items
+    |Read   | [`.First`](<../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ list.md>)   |[list](<🧠 List holders.md>), any| Get the first `n` items
     |       | [`.Last`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)   |[list](<🧠 List holders.md>), any| Get the last `n` items
-    |       | [`.Distinct`](<Distinct ⓕ.md>) |[list](<🧠 List holders.md>)| Return only unique items
-    |Change | [`.Append`](<Append ⓕ list.md>)     |[list](<🧠 List holders.md>)| Add items to the list
-    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Append`](<Append ⓕ list.md>)
+    |       | [`.Distinct`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>) |[list](<🧠 List holders.md>)| Return only unique items
+    |Change | [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ list.md>)     |[list](<🧠 List holders.md>)| Add items to the list
+    |       | [`.Add`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ list.md>)
     |       | [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)   |[list](<🧠 List holders.md>)| Remove items from the list
     |       | [`.Minus`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ any.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
     |       | [`.Diff`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Diff ⓕ.md>) |[list](<🧠 List holders.md>)| Same as [`.Remove`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Remove ⓕ.md>)
@@ -104,7 +104,7 @@
 
 1. **How to append into lists?**
 
-    Using the [`.Append`](<Append ⓕ list.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
+    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ list.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
     
     ```yaml   
     ┌────────────────────────┬─────────────┐
@@ -139,7 +139,7 @@
 
 1. **How to merge two lists?**
 
-    Using the [`.Append`](<Append ⓕ list.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
+    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ list.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ any.md>) with the [`.Evaluate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/parsers/Evaluate ⓕ.md>) syntax.
 
     ```yaml   
     ┌────────────────────┬──────────────┐
@@ -239,7 +239,7 @@
 
 1. **How to select distinct a unique set of items?**
 
-    Using the [`.Distinct` function](<Distinct ⓕ.md>)  or the [`DISTINCT` command](<../../📃 Commands ⌘/⌘ for holders 🧠/DISTINCT 🌪️/🌪️ DISTINCT ⌘ cmd.md>).
+    Using the [`.Distinct` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>)  or the [`DISTINCT` command](<../../📃 Commands ⌘/⌘ for holders 🧠/DISTINCT 🌪️/🌪️ DISTINCT ⌘ cmd.md>).
 
     ```yaml
     ┌─────────────────────────┬───────────────────┐
