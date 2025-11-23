@@ -32,7 +32,7 @@
     Group | [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) |Type| Purpose 
     |-|-|-|-
     |Query  | [`.Contains`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Contains ⓕ.md>) |bool| Contains a given item?
-    |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>)   |bool| Has these items in this order?
+    |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ.md>)   |bool| Has these items in this order?
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>)  |bool| Does not equal this other list?
     |       | [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>)       |bool| Has these items in any order?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>)    |bool| Are any of these items missing?

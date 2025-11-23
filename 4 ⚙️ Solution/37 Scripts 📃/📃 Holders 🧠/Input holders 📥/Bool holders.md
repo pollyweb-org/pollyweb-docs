@@ -38,7 +38,7 @@
     |      | [`.IsNotEmpty`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNotEmpty ⓕ any.md>) |bool| Has a value been provided?
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) |bool| Is it the expected boolean?
     |        | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>) |bool| Is it the opposite value?
-    |        | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>) |bool| Equal comparison alias for `.Is`
+    |        | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ.md>) |bool| Equal comparison alias for `.Is`
     |        | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) |bool| Not-equal alias for `.IsNot`
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) |bool| Is it one of the accepted values?
     |Combine| [`.AllOf`](<../../📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>) |bool| Are all of these booleans `true`?

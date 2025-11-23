@@ -42,7 +42,7 @@
     |       | [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ any.md>) |bool| Is it between 2 given numbers?
     |Compare| [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) |bool| Is it the same number?
     |       | [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>) |bool| Is it a different number?
-    |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ any.md>) |bool| Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>)
+    |       | [`.Equals`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ.md>) |bool| Same as [`.Is`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>)
     |       | [`.Differs`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Differs ⓕ any.md>) |bool| Same as [`.IsNot`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>)
     |Lists  | [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>) |bool| Is it in a given list of numbers?
     |Create | [`.Random`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Random ⓕ.md>) |[num](<🧠 Num holders.md>)| Returns a random number

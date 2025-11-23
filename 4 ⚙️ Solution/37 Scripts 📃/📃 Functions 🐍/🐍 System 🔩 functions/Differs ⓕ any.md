@@ -8,7 +8,7 @@
 
     `{.Differs}`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the opposite to [`.Equals`](<Equals ⓕ any.md>).
+    * that returns the opposite to [`.Equals`](<Equals ⓕ.md>).
 
     ---
     <br/>
