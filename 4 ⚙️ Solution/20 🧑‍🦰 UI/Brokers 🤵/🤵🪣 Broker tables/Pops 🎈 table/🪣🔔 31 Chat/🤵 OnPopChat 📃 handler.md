@@ -28,7 +28,7 @@
 - CASE|$option:
     region: 
         SAVE|$Pop:
-            .State: LOCALIZE
+            .State: ABANDON
 ```
 
 Uses||
