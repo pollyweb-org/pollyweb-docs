@@ -3,7 +3,7 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Opened@ 📃" as script
+    participant "Opened 🐌" as script
     participant "Chats 🪣" as chats
     participant "OnOpened 🔔" as handler
     participant "Chatters 🪣" as chatters
@@ -26,7 +26,7 @@ deactivate chats
 alt IF Host is Broker
 
     activate handler
-        handler -> chatters: SAVE 💾 {POP}
+        handler -> chats: SAVE 💾 {ACTIVE}
 
 else IF not Broker
 
