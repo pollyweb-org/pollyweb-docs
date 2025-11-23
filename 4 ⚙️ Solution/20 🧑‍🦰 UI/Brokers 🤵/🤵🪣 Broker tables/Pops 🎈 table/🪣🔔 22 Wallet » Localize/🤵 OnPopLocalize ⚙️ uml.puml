@@ -6,6 +6,7 @@ box Broker 🤵 domain #FFFFFA
     participant "OnWallet 🔔" as onWallet
     participant "Pops 🪣" as pops
     participant "OnLocalize 🔔" as localized
+    participant "Wallets 🪣" as wallets
 end box
 
 wallet --> onWallet: Pop 🐌 {WALLET}
@@ -21,7 +22,9 @@ deactivate pops
 
 activate localized
     localized -> localized: CHAT 💬 
-    localized -> wallet: PROMPT 🤔 {...}
+    localized -> wallet: ONE 🤔 {region?}
+    localized -> wallet: CONFIRM 🤔 {change?}
+    localized -> wallets: SAVE 💾 {language}
 deactivate localized
 
 @enduml 
