@@ -71,7 +71,7 @@
     # Show the total number of seconds since midnight
     - INFO|{$period.Seconds} seconds from midnight:
     ```
-    Uses: [`.Today`](<../../📃 Holders 🧠/Time 📚 holders/Today ⓕ.md>) [`.Now`](<../../📃 Holders 🧠/Time 📚 holders/Now ⓕ.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Uses: [`.Today`](<Today ⓕ.md>) [`.Now`](<Now ⓕ.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>

@@ -8,7 +8,7 @@
 
     `{.This}` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns a [Period 🧠 holder](<../🧠 Output holders/Period holders.md>)
+    * that returns a [Period 🧠 holder](<../../📃 Holders 🧠/🧠 Output holders/Period holders.md>)
     * to be used with the [`.IsIn` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ any.md>).
 
     ---

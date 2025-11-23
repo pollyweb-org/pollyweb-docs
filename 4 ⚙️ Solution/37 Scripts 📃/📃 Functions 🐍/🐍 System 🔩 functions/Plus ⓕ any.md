@@ -12,7 +12,7 @@
     |Type|Behavior
     |-|-
     |[Num 🧠](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>) | Same as [`.Sum`](<../../📃 Holders 🧠/Num 📚 holders/Sum ⓕ num.md>)
-    |[Time 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) | Same as [`.Advance`](<../../📃 Holders 🧠/Time 📚 holders/Advance ⓕ time.md>)
+    |[Time 🧠](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) | Same as [`.Advance`](<Advance ⓕ time.md>)
 
     ---
     <br/>
@@ -28,7 +28,7 @@
     | `original` | Original [Num 🧠 holder](<../../📃 Holders 🧠/Num 📚 holders/🧠 Num holders.md>) | `9`
     |           | Original [Time 🧠 holder](<../../📃 Holders 🧠/Time 📚 holders/🧠 Time holders.md>) | `.Now`
     | `additional` | Number(s) for [`.Sum`](<../../📃 Holders 🧠/Num 📚 holders/Sum ⓕ num.md>) | `1` `1,2,3`
-    |              | Period for [`.Advance`](<../../📃 Holders 🧠/Time 📚 holders/Advance ⓕ time.md>) | `1 day` 
+    |              | Period for [`.Advance`](<Advance ⓕ time.md>) | `1 day` 
     
     ---
     <br/>
