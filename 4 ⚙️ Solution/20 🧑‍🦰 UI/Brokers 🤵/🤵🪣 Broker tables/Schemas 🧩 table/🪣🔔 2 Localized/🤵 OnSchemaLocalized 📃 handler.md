@@ -23,8 +23,8 @@
 
 # Translate the schema info
 - TRANSLATE >> $graph:
-    To: $Schema.Language
     Schema: $Schema.Code
+    To: $Schema.Language
     
 # Save the translation
 - SAVE|$Schema:

@@ -23,8 +23,8 @@
 
 # Translate the domain info
 - TRANSLATE >> $graph:
-    To: $Domain.Language
     Domain: $Domain.Name
+    To: $Domain.Language
     
 # Save the translation
 - SAVE|$Domain:

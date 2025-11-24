@@ -13,7 +13,7 @@
 - TRANSLATE >> $graph:
     Domain: $Bind.Vault
     Schema: $Bind.Schema
-    Language: $Bind.Language
+    To: $Bind.Language
 
 # Save the bind
 - SAVE|$Bind:

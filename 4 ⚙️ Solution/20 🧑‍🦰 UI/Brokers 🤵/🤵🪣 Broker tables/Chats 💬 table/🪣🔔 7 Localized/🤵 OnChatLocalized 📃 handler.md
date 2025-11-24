@@ -11,8 +11,8 @@
 
 # Translate the Host info
 - TRANSLATE >> $domain:
-    To: $Chat.Language
     Domain: $Chat.Host
+    To: $Chat.Language
     
 # Save the translation
 - SAVE|$Chat:

@@ -5,7 +5,7 @@
 
 > Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
 
-> Called by the [`OnTokenPurged` 📃 script](<../../../Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣🔔 9 Deleted/🤵 OnTokenDeleted 📃 handler.md>)
+> Called by the [`OnTokenPurged` 📃 script](<../../../Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣🔔 8 Deleted/🤵 OnTokenDeleted 📃 handler.md>)
 
 
 <br/>

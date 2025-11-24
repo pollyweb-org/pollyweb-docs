@@ -26,36 +26,30 @@
     | `Text` | Text to translate via [`.Translate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>) | `Hi, ´John´!`
     |       | Doesn't translate between `´´`
     | `Domain` | Domain for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | `any-domain.dom`
-    | `Domains` | List of domains
     | `Schema` | Schema  for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | `.HOST`
-    | `Schemas` | List of schemas
 
     ---
     <br/>
 
 1. **What are the outputs of TRANSLATE?**
 
-    |Output| Example
-    |-|-|-
-    |`Schema` or `Domain` | The translated text | `Any Domain`
-    |`Schema` and `Domain`  | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | `{Domain:X, Schema:X}`
-    |Other inputs | [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>)| `{Domains:[...]}`
-
-    |Object|Property|
-    |-|-|-
-    |Text   |
-    |Domain |`Title`|
-    |       |`Description`
-    |Schema |`Title`
-    |       |`Description`
-    |
-
     ```yaml
     ┌─────────────────────┬──────────────────────────────┐
     │ Input               │ Output                       │ 
     ├─────────────────────┼──────────────────────────────┤
-    │ - TRANSLATE:        │ Domain: Any Domain           |
+    │ - TRANSLATE:        │ Domain:                      |
     │     Domain: any.dom │     Title: Any Domain        |
+    │                     |     Description: Bla, bla... │
+    ├─────────────────────┼──────────────────────────────┤
+    │ - TRANSLATE:        │ Schema:                      |
+    │     Schema: any...  │     Title: Any Schema        |
+    │                     |     Description: Bla, bla... │
+    ├─────────────────────┼──────────────────────────────┤
+    │ - TRANSLATE:        │ Domain:                      |
+    │     Domain: any.dom │     Title: Any Domain        |
+    │     Schema: any...  |     Description: Bla, bla... │
+    │                     │ Schema:                      |
+    │                     │     Title: Any Schema        |
     │                     |     Description: Bla, bla... │
     └─────────────────────┴──────────────────────────────┘    
     ```
