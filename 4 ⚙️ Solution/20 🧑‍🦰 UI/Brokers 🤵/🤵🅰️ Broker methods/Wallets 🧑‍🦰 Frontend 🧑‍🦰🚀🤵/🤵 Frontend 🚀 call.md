@@ -24,10 +24,12 @@ Header:
     Subject: Frontend@Broker
 
 Body:
+    Lists: Chats, Binds, Tokens, Domains, Schemas
     Chats: [Field1, Field2, ...]
     Binds: [Field1, Field2, ...]
     Tokens: [Field1, Field2, ...]
     Domains: [Field1, Field2, ...]
+    Schemas: [Field1, Field2, ...]
 ```
 
 | Object | Property | Type  | Description|Origin
@@ -35,10 +37,13 @@ Body:
 | Header    |`From`| uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 |           |`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 |           | `Subject`|text|  `Frontend@Broker`
-| Body    | `Chats`   |list  | Optional [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) fields to list
+| Body    | `Lists`   |list  | Optional lists to return
+|       |`Chats`   |list  | Optional [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) fields to list
 |        | `Binds`   |list  | Optional [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) fields to list
 |        | `Tokens`  |list  | Optional [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) fields to list
 |        | `Domains` |list  | Optional [Domain 🌐](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) fields to list
+|        | `Schemas` |list  | Optional [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) fields to list
+|
 
 <br/>
 
@@ -50,40 +55,35 @@ Wallet:
     Language: en-US
 
 Chats:
-    <chat-uuid>:
-        Chat: <chat-uuid>
-        Host: any-host.dom
-        Muted: false
-        Blocked: false
+  - ID: <chat-uuid>
+    Host: any-host.dom
+    Muted: false
+    Blocked: false
 
 Binds:
-    <bind-uuid>:
-        Bind: <bind-uuid>
-        Title: Any Schema, by Any Vault
-        Schema: any-authority.dom/ANY-SCHEMA
-        Vault: any-vault.dom
+  - ID: <bind-uuid>
+    Title: Any Schema, by Any Vault
+    Schema: any-authority.dom/ANY-SCHEMA
+    Vault: any-vault.dom
 
 Tokens:
-    <token-uuid>:
-        Token: <token-uuid>
-        Title: Any Schema, by Any Issuer
-        Schema: any-authority.dom/ANY-SCHEMA
-        Issuer: any-issuer.dom
-        Status: ACTIVE
+  - ID: <token-uuid>
+    Title: Any Schema, by Any Issuer
+    Schema: any-authority.dom/ANY-SCHEMA
+    Issuer: any-issuer.dom
+    Status: ACTIVE
 
 Domains:
-    any-domain.dom:
-        Name: any-domain.dom
-        Title: Any Domain
-        Description: bla, bla...
-        SmallIcon: <base64>
-        BigIcon: <base64>
+  - Name: any-domain.dom
+    Title: Any Domain
+    Description: bla, bla...
+    SmallIcon: <base64>
+    BigIcon: <base64>
 
 Schemas:
-    any-authority.dom/ANY-SCHEMA:
-        Schema: any-authority.dom/ANY-SCHEMA
-        Title: Any Schema
-        Description: bla, bla...
+  - Schema: any-authority.dom/ANY-SCHEMA
+    Title: Any Schema
+    Description: bla, bla...
 ```
 
 | Object    | Property  | Type  | Description | 

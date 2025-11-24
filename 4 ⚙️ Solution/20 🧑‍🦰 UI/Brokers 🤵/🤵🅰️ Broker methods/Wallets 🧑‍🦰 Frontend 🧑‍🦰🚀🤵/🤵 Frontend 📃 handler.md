@@ -14,7 +14,7 @@
 
 - ASSERT|$.Msg:
     UUIDs: From
-    Lists: Chats, Binds, Tokens, Domains
+    Lists: Chats, Binds, Tokens, Domains, Schemas
 
 # Get the frontend item
 - READ >> $frontend:
@@ -25,13 +25,25 @@
 - VERIFY|$.Msg:
     Key: $frontend.PublicKey
 
-# Return the frontend data
-- RETURN|$frontend:
-    Wallet: Wallet
+# Filter the items of each list
+- PUT|$frontend >> $return:
     Chats: Chats.Format($.Msg.Chats) 
     Binds: Binds.Format($.Msg.Binds) 
     Tokens: Tokens.Format($.Msg.Tokens)
     Domains: Domains.Format($.Msg.Domains)
+    Schemas: Schemas.Format($.Msg.Schemas)
+
+# Filter the lists in the frontend
+- PUT|$return >> $return:
+    $return.Evaluate($.Msg.Lists)
+
+# Always add the wallet data
+- SET|$return:
+    Wallet: $frontend.Wallet
+
+# Return the frontend data
+- RETURN:
+    $return    
 ```
 
 Uses||

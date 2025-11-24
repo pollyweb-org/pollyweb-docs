@@ -31,6 +31,7 @@ Children:
     Chats: { Chats.Wallet: Wallets.ID }
     Tokens: { Tokens.Wallet: Wallet.ID }
     Domains: { Domains.Wallet: Wallet.ID }
+    Schemas: { Schemas.Wallet: Wallet.ID }
 
 Distincts: 
     Hosts: Chats.Host

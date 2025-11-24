@@ -1,0 +1,26 @@
+@startuml OnSchemaAltered
+
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Schemas 🪣" as schemas
+    participant "OnAltered 🔔" as handler
+    participant "Wallets 🪣" as wallets
+    participant "Frontend 🪣" as frontend
+end box
+
+
+activate script
+    script -> schemas: SAVE 💾, DELETE 🗑️
+
+activate schemas
+    schemas --> handler: ALTERED 🔔
+deactivate schemas
+
+activate handler
+    handler -> wallets: READ 🧲
+    handler -> frontend: READ 🧲 {Wallet: $wallet.ID}
+    handler -> frontend: SAVE 💾 {$wallet.Schemas}
+deactivate handler
+
+@enduml 
