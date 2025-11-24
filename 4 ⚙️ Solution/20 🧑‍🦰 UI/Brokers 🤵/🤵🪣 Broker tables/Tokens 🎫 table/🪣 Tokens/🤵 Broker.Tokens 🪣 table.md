@@ -30,9 +30,13 @@ Parents:
     Issuer: 
         Domains.Name: Tokens.Issuer
         Domains.Wallet: Tokens.Wallet
+    Schema:
+        Schemas.Code: Tokens.Schema
+        Schemas.Wallet: Tokens.Wallet
 
 Propagate:
     - Issuer
+    - Schema
 
 Views:
     Offered: 

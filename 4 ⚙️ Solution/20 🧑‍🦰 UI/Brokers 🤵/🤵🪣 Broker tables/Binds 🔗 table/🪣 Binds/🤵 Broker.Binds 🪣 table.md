@@ -24,9 +24,13 @@ Parents:
     Vault: 
         Domains.Name: Binds.Vault
         Domains.Wallet: Binds.Wallet
+    Schema:
+        Schemas.Code: Binds.Schema
+        Schemas.Wallet: Binds.Wallet
 
 Propagate:
     - Vault
+    - Schema
 
 Handlers:
 
