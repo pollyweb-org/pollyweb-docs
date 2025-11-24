@@ -1,0 +1,28 @@
+@startuml OnSchemaLocalized
+ 
+
+box Broker 🤵 domain #FFFFFA
+    participant "Wallets 🪣" as wallets
+    participant "OnLocalized 🔔" as script
+    participant "Schemas 🪣" as schemas
+    participant "OnLocalized 🔔" as handler
+end box
+participant "Graph 🕸" as graph
+
+
+wallets --> script: CHANGED 🔔
+activate script
+    script -> schemas: SAVE 💾 {language}
+deactivate script
+
+activate schemas
+    schemas --> handler: UPDATED 🔔
+deactivate schemas
+
+activate handler
+    handler -> graph: TRANSLATE 🈯 
+    handler -> schemas: SAVE 💾 {translation}
+deactivate handler
+
+
+@enduml 

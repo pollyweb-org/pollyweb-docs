@@ -29,6 +29,14 @@
     ---
     <br/>
 
+1. **What happens when the inputs are empty?**
+
+    If the inputs are empty, the entire context is returned.
+
+    ---
+    <br/>
+
+
 1. **What are the relevant YAML syntaxes?**
 
     |Type| Variation | Syntax|
