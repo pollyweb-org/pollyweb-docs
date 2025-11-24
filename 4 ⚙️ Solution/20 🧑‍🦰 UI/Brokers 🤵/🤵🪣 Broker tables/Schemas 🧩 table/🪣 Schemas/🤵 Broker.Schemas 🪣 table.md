@@ -1,7 +1,6 @@
-# 🤵🪣 Broker.Domains table
+# 🤵🪣 Broker.Schemas table
 
 > Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
-
 
 <br/>
 
@@ -11,18 +10,16 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 
 ```yaml
 Prefix: Broker
-Table: Domains
-Item: Domain
-Key: Name, Wallet
+Table: Schemas
+Item: Schema
+Key: Code, Wallet
 
 Handlers:
-    OnDomainInserted:       # Call About@Graph
+    OnSchemaInserted:       # Call Schema@Graph
         Events: INSERTED 
-    OnDomainLocalized:      # Call Translate@Graph
+    OnSchemaLocalized:      # Call Translate@Graph
         Events: UPDATED
         Assert: New.Language
-    OnDomainUnbound:        # Set Binds to REMOVED
-        Events: UNBOUND
 ```
 
 <br/>
@@ -32,18 +29,12 @@ Handlers:
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 ```yaml
-# From Chat,Bind,Token propagation
-Name: any-domain.dom
+# From Bind,Token propagation
+Code: any-authority.dom/ANY-SCHEMA:1.0
 Wallet: <wallet-uuid>
 
-# From OnDomainAdded, OnPopLocalize
+# From OnSchemaAdded, OnPopLocalize
 Language: en-US
-Title: Any Domain
+Title: Any Schema
 Description: bla, bla...
-SmallIcon: <base64>
-BigIcon: <base64>
-
-# From Pop@Broker
-Blocked: false
-Muted: false
 ```
