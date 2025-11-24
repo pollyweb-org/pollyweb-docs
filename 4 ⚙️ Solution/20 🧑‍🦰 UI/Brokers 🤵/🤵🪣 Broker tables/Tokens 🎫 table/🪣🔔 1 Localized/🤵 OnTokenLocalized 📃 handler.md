@@ -15,12 +15,20 @@
 
 # Get the translation
 - TRANSLATE >> $graph:
-    Domain: $Token.Vault
+    Domain: $Token.Issuer
     Schema: $Token.Schema
-    Language: $Token.Language
+    Text: {$Schema.Title}, by {$Domain.Title}
+    To: $Token.Language
 
+# Update to detailed, if just offered
+- CASE|$Token.State >> $state:
+    OFFERED: DETAILED
+    $: $Token.State
+        
 # Save the token
 - SAVE|$Token:
+    .State: $state
+    Title: Tag.Default($graph.Text)
     IssuerTitle: $graph.Domain.Title
     SchemaTitle: $graph.Schema.Title
     Description: $graph.Schema.Description
@@ -29,6 +37,7 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`TRANSLATE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>)
-|[Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
+|[Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Tokens`](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Default`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Default ⓕ.md>)
 |
 

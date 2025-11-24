@@ -78,7 +78,7 @@ Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System �
 
 [Handler 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) |  [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Events
 |-|-|-
-| [`OnTokenPurged` 📃](<../🪣🔔 9 Deleted/🤵 OnTokenDeleted 📃 handler.md>) | [`Remove@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | `PURGED`
+| [`OnTokenPurged` 📃](<../🪣🔔 8 Deleted/🤵 OnTokenDeleted 📃 handler.md>) | [`Remove@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | `PURGED`
 | [`OnTokenChanges` 📃](<../🪣🔔 0 Altered/🤵 OnTokenAltered 📃 handler.md>) | [`Updated@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ALTERED`
 | [`OnTokenAccepted` 📃](<../🪣🔔 4 Accepted/🤵 OnTokenAccepted 📃 handler.md>) | [`Accepted@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) | `UPDATED`
 
@@ -92,26 +92,30 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ```yaml
 # READ|Tokens|<token-uuid>
 
+# Automatic
+ID: <token-uuid>
+
 # From Offer@Broker
 Hook: <hook-uuid>
-ID: <token-uuid>
 Wallet: <wallet-uuid>
 Issuer: any-issuer.dom
-Issuer$: Any Issuer
 Schema: any-authority.dom/ANY-SCHEMA:1.0
-Schema$: Any Schema Title
 Key: token-1234
 Starts: 2018-12-10T13:45:00.000Z
 Expires: 2018-12-10T13:45:00.000Z
+
+# From OnTokenOffered
+Language: en-us
+IssuerTitle: Any Issuer
+SchemaTitle: Any Schema Title
+Description: Any Schema description.
+Title: Any Schema, by Any Issuer
 
 # From Revise@Broker
 Status: REVOKED
 
 # From Pop@Broker
 Tag: My Token
-
-# From multiple 
-Title: My Token
 ```
 
 
