@@ -33,7 +33,6 @@
 
 # Save the Domain info
 - SAVE|$Domain:
-    .State: DETAILED
     Language: $Domain.Wallet.Language
     HostTitle: $domain.Title
     Description: $domain.Description
