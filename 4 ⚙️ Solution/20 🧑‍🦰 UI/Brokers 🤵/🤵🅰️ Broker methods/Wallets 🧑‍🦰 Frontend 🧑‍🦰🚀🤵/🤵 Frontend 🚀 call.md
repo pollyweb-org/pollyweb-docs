@@ -53,63 +53,112 @@ Body:
 ```yaml
 Wallet:
     Language: en-US
-
-Chats:
-  - ID: <chat-uuid>
-    Host: any-host.dom
-    Muted: false
-    Blocked: false
-
-Binds:
-  - ID: <bind-uuid>
-    Title: Any Schema, by Any Vault
-    Schema: any-authority.dom/ANY-SCHEMA
-    Vault: any-vault.dom
-
-Tokens:
-  - ID: <token-uuid>
-    Title: Any Schema, by Any Issuer
-    Schema: any-authority.dom/ANY-SCHEMA
-    Issuer: any-issuer.dom
-    Status: ACTIVE
-
-Domains:
-  - Name: any-domain.dom
-    Title: Any Domain
-    Description: bla, bla...
-    SmallIcon: <base64>
-    BigIcon: <base64>
-
-Schemas:
-  - Schema: any-authority.dom/ANY-SCHEMA
-    Title: Any Schema
-    Description: bla, bla...
+Chats: ...
+Binds: ...
+Tokens: ...
+Domains: ...
+Schemas: ...
 ```
 
 | Object    | Property  | Type  | Description | 
 |-|-|-|-
 | Wallet   | `Language` | text | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) language code
+| Chats    | ...        | ...   | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
+| Binds    | ...        | ...   | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from [`Bind@Broker` 🅰️ method](<../Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
+| Tokens   | ...        | ...   | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from [`Issue@Broker` 🅰️ method](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
+| Domains  | ...        | ...   | [Domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) from [`About@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 📃 handler.md>)
+| Schemas  | ...        | ...   | [Schemas 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Schema@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 📃 handler.md>)
+
+```yaml
+Chats:
+  <chat-uuid>:
+    Chat: <chat-uuid>
+    Host: any-host.dom
+    Title: Any Form, at Any Vault
+    Muted: false
+    Blocked: false
+```
+
+| Object    | Property  | Type  | Description | 
+|-|-|-|-
 | Chats      | `Chat`        | uuid  | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | 
 |           | `Host` |text| [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) name
 |           | `Muted`       | bool  | If muted
 |           | `Blocked`     | bool  | If blocked
+
+```yaml
+Binds:
+  <bind-uuid>:
+    Bind: <bind-uuid>
+    Title: Any Schema, by Any Vault
+    Schema: any-authority.dom/ANY-SCHEMA
+    Vault: any-vault.dom
+```
+
+| Object    | Property  | Type  | Description | 
+|-|-|-|-
 | Binds      | `Bind`        | uuid  | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID | 
 |           | `Title`       | text  | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) title
 |           | `Schema`      | text  | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |           | `Vault`       | text  | [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name
-| Tokens     | `Token`       | uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID
-|       | `Title`       | text  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) title
-|       | `Schema`      | text  | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
-|       | `Issuer`      | text  | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
-|       | `State`       | enum  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) state
-| Domains    | `Domain`      | text  | [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-|       | `Title`       | text  | [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) title
-|       | `Description` | text  | [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) description
-|       | `SmallIcon`   | base64| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) small icon
-|       | `BigIcon`     | base64| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) big icon
-| Schemas    | `Schema`      | text  | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
-|       | `Title`       | text  | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) title
-|       | `Description` | text  | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) description
-|
 
+```yaml
+Tokens:
+  <token-uuid>:
+    Token: <token-uuid>
+    Title: Any Schema, by Any Issuer
+    Status: ACTIVE
+    Schema: any-authority.dom/ANY-SCHEMA
+    Issuer: any-issuer.dom
+```
+
+| Object    | Property  | Type  | Description | 
+|-|-|-|-
+| Tokens     | `Token`       | uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID
+|| `Title`       | text  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) title
+|| `Schema`      | text  | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|| `Issuer`      | text  | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
+|| `State`       | enum  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) state
+
+```yaml
+Domains:
+  any-domain.dom:
+    Domain: any-domain.dom
+    Title: Any Domain
+    Description: bla, bla...
+    Emoji: 👥
+    SmallIcon: <base64>
+    BigIcon: <base64>
+```
+
+| Object | Property  | Type  | Description 
+|-|-|-|-
+| Domains | `Domain`      | text  | [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
+|| `Title`       | text  | [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) title
+|| `Description` | text  | [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) description
+|| `Emoji`       | text  | [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) emoji
+|| `SmallIcon`   | base64| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) small icon
+|| `BigIcon`     | base64| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) big icon
+
+```yaml
+Schemas:
+  any-authority.dom/ANY-SCHEMA:
+    Schema: any-authority.dom/ANY-SCHEMA
+    Title: Any Schema
+    Description: bla, bla...
+    Emoji: 🧩
+    SmallIcon: <base64>
+    BigIcon: <base64>
+```
+
+| Object | Property  | Type  | Description | 
+|-|-|-|-
+| Schemas| `Schema`| text  | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
+||`Title`|text| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) title
+||`Description`|text| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) description
+||`Emoji`|text| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) emoji
+||`SmallIcon`|base64| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) small icon
+||`BigIcon`|base64| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) big icon
+
+---
 <br/>
