@@ -22,7 +22,7 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 Prefix: Broker
 Table: Tokens
 Item: Token
-Key: ID
+Key: Issuer, Token
 
 Parents:
     Wallet: 
@@ -90,18 +90,14 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 
 
 ```yaml
-# READ|Tokens|<token-uuid>
-
-# Automatic
-ID: <token-uuid>
+# Key from Offer@Broker
+Issuer: any-issuer.dom
+Token: <token-uuid>
 
 # From Offer@Broker
 Chat: <chat-uuid>
-Hook: <hook-uuid>
 Wallet: <wallet-uuid>
-Issuer: any-issuer.dom
 Schema: any-authority.dom/ANY-SCHEMA:1.0
-Key: token-1234
 Starts: 2018-12-10T13:45:00.000Z
 Expires: 2018-12-10T13:45:00.000Z
 
