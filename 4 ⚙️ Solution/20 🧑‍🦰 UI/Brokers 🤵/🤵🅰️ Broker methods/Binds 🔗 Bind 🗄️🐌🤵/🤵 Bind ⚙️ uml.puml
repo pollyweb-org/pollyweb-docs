@@ -4,7 +4,7 @@
 participant "Vault 🗄️" as vault
 
 box Broker 🤵 domain  #FFFFFA
-    participant "Bindable 🐌" as broker
+    participant "Bind 🐌" as broker
     'participant "Talker 😃" as talker
     'participant "Script 📃" as script
     participant "Chats 🪣" as chats
@@ -15,7 +15,7 @@ end box
 'participant "Wallet 👱" as wallet
 
 
-vault --> broker: Bindable 🐌 
+vault --> broker: Bind 🐌 
 deactivate vault    
 
 activate broker

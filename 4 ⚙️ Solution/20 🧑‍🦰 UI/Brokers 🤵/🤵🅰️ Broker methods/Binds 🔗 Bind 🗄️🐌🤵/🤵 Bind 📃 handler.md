@@ -1,4 +1,4 @@
-# 🤵 Bindable 📃 handler
+# 🤵 Bind 📃 handler
 
 > Purpose
 * Implements the [`Bind@Broker` 🅰️ method](<🤵 Bind 🐌 msg.md>)

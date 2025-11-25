@@ -4,7 +4,7 @@
 participant "Vault 🗄️" as vault
 
 box Broker 🤵 domain #FFFFFA
-    participant "Bindable 🐌" as script
+    participant "Bind 🐌" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
     participant "OnOffered 🔔" as handler
@@ -14,7 +14,7 @@ participant "Graph 🕸" as graph
 
 
 activate vault
-    vault --> script: Bindable 🐌
+    vault --> script: Bind 🐌
 deactivate vault
 
 activate script
