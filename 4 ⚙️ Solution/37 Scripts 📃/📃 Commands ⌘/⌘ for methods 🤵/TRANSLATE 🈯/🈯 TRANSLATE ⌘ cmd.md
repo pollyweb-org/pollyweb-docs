@@ -3,6 +3,14 @@
 
 ## FAQ
 
+
+1. **What's the TRANSLATE command?**
+
+    The `TRANSLATE` command translates texts from one language to another using the [`Translate@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 📃 handler.md>).
+
+    ---
+    <br/>
+
 1. **What's the syntax of TRANSLATE?**
 
     ```yaml

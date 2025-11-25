@@ -22,7 +22,7 @@ activate tokens
 deactivate tokens
 
 activate change
-    change --> issuer: SEND 📬 {Accepted 🐌 true}
+    change --> issuer: SEND 📬 {Accepted 🐌}
 deactivate change
 
 @enduml 

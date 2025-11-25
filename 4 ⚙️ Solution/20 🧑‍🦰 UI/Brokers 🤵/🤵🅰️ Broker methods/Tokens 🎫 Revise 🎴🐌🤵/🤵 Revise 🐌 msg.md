@@ -26,7 +26,7 @@ Header:
     
 Body:
     Chat: <session-uuid>
-    Token: <token-uuid>
+    Hook: <hook-uuid>
     Action: SUSPEND
     Starting: 2025-10-10T13:45:00.000Z
     Ending: 2025-12-31T00:00:00.000Z
@@ -39,7 +39,7 @@ Body:
 | |`To`|text|[Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
 | |`Subject`|text|`Revoke@Broker`
 |Body|`Chat`|text|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
-| |`Token`|text|[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID
+| |`Hook`|text| Hook from [`Offer@Broker`](<../Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
 | |`Action`| enum | `REVOKE` `SUSPEND` `ACTIVATE` `UPDATE`
 | |`Starting`| timestamp | Start date and time
 | |`Ending` | timestamp | Finish date and time (optional)
