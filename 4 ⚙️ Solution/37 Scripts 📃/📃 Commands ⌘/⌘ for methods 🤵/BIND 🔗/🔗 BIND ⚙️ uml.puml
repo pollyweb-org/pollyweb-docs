@@ -20,7 +20,7 @@ activate bind
 activate binds
     bind -> bind: WAIT 🧘 {.ID}
 deactivate bind
-    binds --> broker: Bindable 🐌
+    binds --> broker: Bind 🐌
 deactivate binds
 
 activate broker

@@ -13,7 +13,7 @@ participant "Wallet 👱" as wallet
 
 activate vault
     vault -> wallet: 1) Prompt ⏩ "Hi! What do you need?"
-    vault --> broker: 2) Bindable 🐌 {offered schemas}
+    vault --> broker: 2) Bind 🐌 {offered schemas}
 deactivate vault    
 
 activate broker

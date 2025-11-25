@@ -20,7 +20,7 @@ activate offers
 deactivate offers
 
 activate trigger
-    trigger --> broker: SEND 📬 {Bindable 🐌} 
+    trigger --> broker: SEND 📬 {Bind 🐌} 
 deactivate trigger
 
 
