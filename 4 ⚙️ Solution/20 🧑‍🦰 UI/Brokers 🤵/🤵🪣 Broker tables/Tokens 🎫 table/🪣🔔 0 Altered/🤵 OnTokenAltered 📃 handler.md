@@ -41,7 +41,7 @@
         PublicKey: $wallet.PublicKey
 
 # Prepare the response:
-- PUT|$wallet.Tokens >> $tokens:
+- PUT|$wallet.Tokens.Active >> $tokens:
     Token, Title, Issuer, Schema, Status
 
 # Replace only the Frontend Tokens.

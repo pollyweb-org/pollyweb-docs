@@ -38,9 +38,10 @@
     Assert:
         Wallet: $.Msg.From
 
-# Progress the Token
+# Cancel the scheduled deletion on Issue@
 - SAVE|$token:
-    Status: SAVED
+    .State: SAVED
+    .Delete: 
 ```
 
 |Uses||

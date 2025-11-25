@@ -11,7 +11,7 @@
 ## Script
 
 ```yaml
-📃 Offer:
+📃 Issue@Broker:
 
 # Verify the Issuer's message
 - VERIFY|$.Msg
@@ -39,6 +39,7 @@
 # Save the Offer
 - SAVE|Broker.Tokens:
     .State: OFFERED
+    Status: ACTIVE
     Token: $.Msg.Token
     Issuer: $.Msg.From
     Schema: $.Msg.Schema

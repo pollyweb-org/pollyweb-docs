@@ -22,28 +22,33 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 Prefix: Broker
 Table: Tokens
 Item: Token
+
+# The Token UUID is unique per Issuer
 Key: Issuer, Token
 
 Parents:
-    Wallet: 
+
+    Wallet: # Wallet that holds the Token
         Wallets.ID: Tokens.Wallet
-    Issuer: 
+
+    Issuer: # Domain that issued the Token
         Domains.Name: Tokens.Issuer
         Domains.Wallet: Tokens.Wallet
-    Schema:
+
+    Schema: # Definition of the Token
         Schemas.Code: Tokens.Schema
         Schemas.Wallet: Tokens.Wallet
 
-Propagate:
-    - Issuer
-    - Schema
+Propagate: 
+    # Support for Frontend@Broker
+    - Issuer    # Auto-populate the Domains table
+    - Schema    # Auto-populate the Schemas table
 
 Views:
-    Offered: 
-        - .State: OFFERED
-    Active: 
+    Active: # Filter for Frontend@ and Query@ 
         - .Now.IsBetween(Starts, Expires)
-        - .State: ACTIVE
+        - .State.IsIn(ACTIVE, RESTORED)
+        - .Status.IsIn(ACTIVE)
 
 Handlers:
 
@@ -135,6 +140,6 @@ Tag: My Token
 | Method | Action | Details
 |-|-|-
 | [`Saved@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Sets the initial translatable title
-| [`Pop@Broker`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Translates the title
+| [`Pop@Broker`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Translates when the language changes
 | [`Pop@Broker`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Adds a non-translatable tag
 |
