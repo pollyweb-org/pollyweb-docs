@@ -1,26 +1,27 @@
 @startuml OnTokenAccepted
 
-participant "Wallet 👱" as wallet
-
+participant "Issuer 🎴" as issuer
 box Broker 🤵 domain #FFFFFA
-    participant "Saved 🐌" as script
+    participant "Offer 🐌" as script
     participant "Tokens 🪣" as tokens
     participant "OnAccepted 🔔" as change
 end box
+participant "Wallet 👱" as wallet
 
 
-wallet --> script: Saved 🐌
+issuer --> script: Offer 🐌
 
 activate script
-    script -> tokens: SAVE 💾 {ACCEPTED}
+    script -> tokens: SAVE 💾 {OFFERED}
 deactivate script
 
 activate tokens
+    tokens --> tokens: SAVE 💾 {ACCEPTED}
     tokens --> change: ACCEPTED 🔔
 deactivate tokens
 
 activate change
-    change --> issuer: SEND 📬 {Accepted 🐌 true}
+    change --> wallet: SEND 📬 {Save 🐌}
 deactivate change
 
 @enduml 

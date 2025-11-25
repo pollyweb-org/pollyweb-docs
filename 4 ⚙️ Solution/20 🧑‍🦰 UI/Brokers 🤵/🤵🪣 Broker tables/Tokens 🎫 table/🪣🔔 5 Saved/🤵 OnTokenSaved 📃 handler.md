@@ -23,8 +23,7 @@
         To: $Token.Issuer
         Subject: Accepted@Issuer
     Body:
-        Hook: $Token.Hook  # Hook @ Issuer
-        Token: $Token.ID   # Token.ID @ Broker
+        Hook: $Token.Hook  # Hook at Issuer
 ```
 
 |Uses||

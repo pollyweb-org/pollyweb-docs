@@ -1,7 +1,6 @@
 @startuml OnTokenDeclined
 
 participant "Issuer 🎴" as issuer
-
 box Broker 🤵 domain #FFFFFA
     participant "Offer 🐌" as script
     participant "Tokens 🪣" as tokens
