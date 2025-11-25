@@ -49,10 +49,11 @@
     | `AnyOf` | One or more have values |  `A,B` `[A,B]` | [`.AnyOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/AnyOf ⓕ.md>)
     | `OneOf` | Only one should have value | `A,B` `[A,B]` | [`.OneOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/OneOf ⓕ.md>)
     | `UUIDs` | Must be a UUID fields| `A,B` `[A,B]`
-    | `Texts` | Must be a text fields | `A,B` `[A,B]`
-    | `Times` | Absolute or relative times | `A,B` `[A,B]`
-    | `Lists` | Must be list fields | `A,B` `[A,B]`
-    | `Nums` | Must be numeric fields | `A,B` `[A,B]`
+    | `Texts` | Must be [Text 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) fields | `A,B` `[A,B]`
+    | `Times` | Absolute or relative [Time 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) | `A,B` `[A,B]`
+    | `Lists` | Must be [Lists 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) or [Sets 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) | `A,B` `[A,B]`
+    | `Bools` | Must be boolean fields | `A,B` `[A,B]`
+    | `Nums` | Must be [Num 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) fields | `A,B` `[A,B]`
     |
     
     <br/>
