@@ -1,0 +1,44 @@
+@startuml Broker.Tokens
+ 
+participant "Issuer 🎴" as issuer
+box Broker 🤵 domain #FFFFFA
+    participant "Issue 🐌" as issue
+    participant "Tokens 🪣" as tokens
+end box
+participant "Graph 🕸" as graph
+participant "Wallet 👱" as wallet
+
+issuer -> issue: Issue 🐌 
+
+activate issue
+    issue -> tokens: 💾 ISSUED
+deactivate issue
+
+activate tokens
+    tokens -> graph: Translate 🚀
+    activate graph
+        graph -> tokens: 💾 DETAILED
+    deactivate graph
+    tokens -> wallet: Prompt 🐌 "accept?" 
+deactivate tokens
+
+activate wallet
+    wallet -> tokens: 💾 OFFERED
+deactivate wallet
+
+activate tokens
+    tokens -> wallet: Save 🐌
+deactivate tokens
+
+activate wallet
+    wallet -> tokens: 💾 SAVED
+deactivate wallet
+
+activate tokens
+    tokens -> issuer: Offered 🐌 {answer:accepted}
+deactivate tokens
+
+wallet -> tokens: 💾 REMOVED
+wallet -> tokens: 💾 RESTORED
+
+@enduml 
