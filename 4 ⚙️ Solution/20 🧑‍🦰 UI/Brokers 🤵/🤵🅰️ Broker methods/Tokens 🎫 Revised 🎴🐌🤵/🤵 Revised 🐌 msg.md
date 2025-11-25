@@ -22,12 +22,11 @@
 Header:
     From: any-issuer.dom
     To: any-broker.dom
-    Subject: Revoke@Broker
+    Subject: Revised@Broker
     
 Body:
-    Chat: <session-uuid>
-    Hook: <hook-uuid>
-    Action: SUSPEND
+    Token: <token-uuid>
+    Status: SUSPEND
     Starting: 2025-10-10T13:45:00.000Z
     Ending: 2025-12-31T00:00:00.000Z
     Locator: <reference-uuid>
