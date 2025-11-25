@@ -30,11 +30,10 @@ Header:
   
 Body:
     Chat: <chat-uuid>
-    Hook: <hook-uuid>
+    Token: <token-uuid>
     Schema: any-authority.dom/ANY-SCHEMA:1.0
     Starts: 2018-12-10T13:45:00.000Z
     Expires: 2018-12-10T13:45:00.000Z
-    Key: token-1234
 ```
 
 |Object|Property|Type|Description|Origin|Purpose
@@ -43,25 +42,16 @@ Body:
 ||`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject`|text|`Offer@Broker`
 |Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-| |`Hook` |uuid  | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) Hook || [`Issued@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>) [`Accepted@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>)
-|      |`Schema`   |text| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)| |[`Query@`](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)     
-| | `Key` |text| [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) Key || [`Share@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>)
-|      |`Starts` |time| Valid from | | [`Query@`](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
-|      |`Expires`|time| Valid until| | [`Query@`](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+| |`Token` |uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) key || [`Issued@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>) [`Accepted@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) [`Share@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>)
+|      |`Schema`   |text| [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)| |[`Query@Broker`](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)     
+|      |`Starts` |time| Valid from | | [`Query@Broker`](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+|      |`Expires`|time| Valid until| | [`Query@Broker`](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 |
 
 <br/>
 
 ## FAQ
 
-1. **What is the `Key` properties for?**
-
-    This is the `Key` of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
-    * It is required for matching the signature when sharing. 
-    * Only the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) keeps this information to avoid replay attacks from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) purposefully breaking the [`Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) halfway to collected repeated [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
-
-    ---
-    <br/>
 
 1. **What are the `Schema` and `Times` properties for?**
 

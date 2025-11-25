@@ -25,7 +25,7 @@ Header:
     Subject: Token@Issuer
     
 Body:
-    Hook: <hook-uuid>
+    Offer: <offer-uuid>
 ```
 
 |Object |Property |Type|Description | Origin 
@@ -33,7 +33,7 @@ Body:
 |Header |`From`|text| `Anonymous`
 |       |`To`|string  | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 ||`Subject`|text|`Token@Issuer` 
-| Body | `Hook`|text| [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) Hook | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
+| Body | `Offer`|text| [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) Hook | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 |
 
 <br/>
@@ -55,12 +55,3 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 <br/>
 
 
-## FAQ
-
-1. **Why isn't the `Token` ID property in the response?**
-
-    At this point, the [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) doesn't know the `Token` yet.
-    * That information will be given later in [`Accepted@Issuer`](<../Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>).
-
-    ---
-    <br/>

@@ -18,8 +18,8 @@
 
 # Assert the required inputs
 - ASSERT|$.Msg:
-    - AllOf: Chat, Hook, Schema
-    - UUIDs: Chat, Hook
+    - AllOf: Chat, Token, Schema
+    - UUIDs: Chat, Token
     - Texts: Schema
     - Times: Starts, Expires
     - Starts.IsBelow(Expires)
@@ -41,7 +41,7 @@
     .State: OFFERED
     Wallet: $chat.Wallet.ID
     Chat: $.Msg.Chat
-    Hook: $.Msg.Hook
+    Token: $.Msg.Token
     Issuer: $.Msg.From
     Schema: $.Msg.Schema
     Starts: $.Msg.Starts
