@@ -96,6 +96,7 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ID: <token-uuid>
 
 # From Offer@Broker
+Chat: <chat-uuid>
 Hook: <hook-uuid>
 Wallet: <wallet-uuid>
 Issuer: any-issuer.dom
