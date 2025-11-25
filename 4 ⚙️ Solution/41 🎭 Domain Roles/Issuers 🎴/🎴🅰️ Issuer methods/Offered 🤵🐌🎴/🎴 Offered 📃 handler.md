@@ -1,14 +1,14 @@
-# 🎴 Accepted 📃 handler
+# 🎴 Offered 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Accepted@Issuer` 🅰️ method](<🎴 Offered 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Offered@Issuer` 🅰️ method](<🎴 Offered 🐌 msg.md>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 Accepted@Issuer:
+📃 Offered@Issuer:
 
 # Assert the message
 - ASSERT|$.Msg:
@@ -29,7 +29,7 @@
 
 # Save the Token
 - SAVE|$token:
-    .State: ACCEPTED
+    .State: OFFERED
     Answer: $.Msg.Answer
 ```
 
