@@ -37,7 +37,7 @@ Body:
 |Header|`From`|text|[Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name | [`Issue@Broker` 🅰️ method](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
 | |`To`|text|[Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
 | |`Subject`|text|`Revised@Broker`
-|Body|`Token`|text| Hook from [`Offer@Broker`](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
+|Body|`Token`|text| Hook from [`Issue@Broker`](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
 | |`Status`| enum | `REVOKED` `SUSPENDED` `ACTIVE`
 | |`Starting`| time | Start of status period
 | |`Ending` | time | End of status period (optional)
