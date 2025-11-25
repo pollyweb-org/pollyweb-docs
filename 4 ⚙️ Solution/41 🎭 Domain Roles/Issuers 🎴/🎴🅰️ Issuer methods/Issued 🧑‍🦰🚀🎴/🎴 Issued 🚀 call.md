@@ -22,18 +22,18 @@
 Header:
     From: Anonymous
     To: any-issuer.dom
-    Subject: Token@Issuer
+    Subject: Issued@Issuer
     
 Body:
-    Offer: <offer-uuid>
+    Token: <token-uuid>
 ```
 
 |Object |Property |Type|Description | Origin 
 |-|-|-|-|-
 |Header |`From`|text| `Anonymous`
 |       |`To`|string  | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
-||`Subject`|text|`Token@Issuer` 
-| Body | `Offer`|text| [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) Hook | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
+||`Subject`|text|`Issued@Issuer` 
+| Body | `Token`|text| [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) key | [`Save@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 |
 
 <br/>
