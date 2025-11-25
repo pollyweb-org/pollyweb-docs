@@ -51,23 +51,35 @@ Body:
 
 
 ```yaml
+Wallet: {...}   # Wallet properties
+Chats: [...]    # Ordered list of Chats
+Binds: [...]    # Ordered list of Binds
+Tokens: [...]   # Ordered list of Tokens
+Domains: {...}  # Indexed map of Domains
+Schemas: {...}  # Indexed map of Schemas
+```
+
+| Property    |  Type  | Description | Origin | Changes
+|-|-|-|-|-
+| Wallet   | map | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) data | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 📃 handler.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
+| Chats    | list   | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) |  [`Opened@`](<../Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 🐌 msg.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) [`Inform@`](<../Share 💼 Inform 💼🐌🤵/🤵 Inform 🐌 msg.md>)
+| Binds    | list   | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) | [`Bind@`](<../Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
+| Tokens   | list   | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | [`Issue@`](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) [`Revise@`](<../Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
+| Domains  | map   | [Domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`About@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 📃 handler.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
+| Schemas  | map   | [Schemas 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`Schema@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 📃 handler.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
+
+<br/>
+
+```yaml
 Wallet:
     Language: en-US
-Chats: ...
-Binds: ...
-Tokens: ...
-Domains: ...
-Schemas: ...
 ```
 
 | Object    | Property  | Type  | Description | 
 |-|-|-|-
 | Wallet   | `Language` | text | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) language code
-| Chats    | ...        | ...   | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
-| Binds    | ...        | ...   | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from [`Bind@Broker` 🅰️ method](<../Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>)
-| Tokens   | ...        | ...   | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from [`Issue@Broker` 🅰️ method](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
-| Domains  | ...        | ...   | [Domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) from [`About@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 📃 handler.md>)
-| Schemas  | ...        | ...   | [Schemas 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Schema@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 📃 handler.md>)
+
+<br/>
 
 ```yaml
 Chats:
@@ -86,6 +98,8 @@ Chats:
 |           | `Muted`       | bool  | If muted
 |           | `Blocked`     | bool  | If blocked
 
+<br/>
+
 ```yaml
 Binds:
   <bind-uuid>:
@@ -101,6 +115,8 @@ Binds:
 |           | `Title`       | text  | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) title
 |           | `Schema`      | text  | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |           | `Vault`       | text  | [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) name
+
+<br/>
 
 ```yaml
 Tokens:
@@ -119,6 +135,8 @@ Tokens:
 || `Schema`      | text  | [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 || `Issuer`      | text  | [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
 || `State`       | enum  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) state
+
+<br/>
 
 ```yaml
 Domains:
@@ -139,6 +157,8 @@ Domains:
 || `Emoji`       | text  | [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) emoji
 || `SmallIcon`   | base64| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) small icon
 || `BigIcon`     | base64| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) big icon
+
+<br/>
 
 ```yaml
 Schemas:
