@@ -28,13 +28,17 @@ Header:
     Subject: Saved@Broker
 
 Body:
+    Issuer: any-issuer.dom
     Token: <token-uuid>
+    Path: /local/path/to/token/file
 ```
 
-|Object|Property|Type|Description|Origin
-|-|-|-|-|-
-|Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
-||`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
-||`Subject`|text|`Saved@Broker`
-|Body  |`Token` |uuid  | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) key | [`Save@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
+|Object|Property|Type|Description|Origin|Purpose
+|-|-|-|-|-|-
+|Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>) | 
+||`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>) | 
+||`Subject`|text|`Saved@Broker` 
+|Body  |`Issuer`| text | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) domain | [`Save@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | 
+||`Token` |uuid  | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) key | [`Save@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | 
+|  |`Path` |text  | Local saved path  |  | [`Remove@`](<../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>)
 |

@@ -17,7 +17,7 @@ participant "Wallet 👱" as wallet
 
 
 activate issuer
-    issuer --> script: Revise 🐌 {hook}
+    issuer --> script: Revise 🐌 {status}
 deactivate issuer
 
 activate script
