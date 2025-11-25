@@ -39,13 +39,13 @@
 # Save the Offer
 - SAVE|Broker.Tokens:
     .State: OFFERED
-    Wallet: $chat.Wallet.ID
-    Chat: $.Msg.Chat
     Token: $.Msg.Token
     Issuer: $.Msg.From
     Schema: $.Msg.Schema
     Starts: $.Msg.Starts
     Expires: $.Msg.Expires
+    Wallet: $chat.Wallet.ID
+    Chat: $chat.ID
     
     # Set the cache expiration
     .Delete: 

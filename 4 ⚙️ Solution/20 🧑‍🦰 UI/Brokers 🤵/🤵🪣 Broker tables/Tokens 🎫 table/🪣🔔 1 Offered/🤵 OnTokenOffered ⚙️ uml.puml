@@ -9,7 +9,7 @@ end box
 participant "Graph 🕸" as graph
 
 
-issuer --> script: Offer 🐌 {offer}
+issuer --> script: Offer 🐌 {token}
 
 activate script
     script -> tokens: SAVE 💾 {OFFERED}

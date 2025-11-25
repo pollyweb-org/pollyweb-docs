@@ -10,7 +10,7 @@ box Issuer 🎴 domain #FFFFFA
 end box
 
 
-broker --> script: Declined 🐌 {hook}
+broker --> script: Declined 🐌 {token}
 
 activate script
     script -> tokens: SAVE 💾 {DECLINED}
