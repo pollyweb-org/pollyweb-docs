@@ -1,0 +1,22 @@
+@startuml Issue@Broker
+
+ 
+participant "Issuer 🎴" as issuer
+box Broker 🤵 domain #FFFFFA
+    participant "Saved 🐌" as broker
+    participant "Chats 🪣" as chats
+    participant "Tokens 🪣" as tokens
+end box
+
+    
+activate issuer
+    issuer -> broker: Issue 🐌 {token, chat}
+deactivate issuer
+
+activate broker
+    broker -> chats: READ 🧲 {chat}
+    broker -> tokens: SAVE 💾 {OFFERED}
+deactivate broker
+
+
+@enduml 
