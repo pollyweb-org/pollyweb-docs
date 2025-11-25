@@ -1,4 +1,4 @@
-@startuml Tokens@Broker
+@startuml Saved@Broker
 
  
 participant "Wallet 👱" as wallet

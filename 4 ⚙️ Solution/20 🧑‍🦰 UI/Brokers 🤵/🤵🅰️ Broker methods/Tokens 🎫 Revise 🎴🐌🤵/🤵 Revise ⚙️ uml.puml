@@ -1,0 +1,25 @@
+@startuml Revise@Broker
+
+ 
+participant "Issuer 🎴" as issuer
+box Broker 🤵 domain #FFFFFA
+    participant "Revise 🐌" as broker
+    participant "Tokens 🪣" as tokens
+end box
+
+
+activate issuer
+    issuer -> broker: Revise 🐌 {token}
+deactivate issuer
+
+activate broker
+    broker -> tokens: READ 🧲 {issuer, token}
+    broker -> tokens: SAVE 💾 {status}
+deactivate broker
+
+'activate tokens
+'    tokens --> issuer: SEND 📬 {Accepted 🐌}
+'deactivate tokens
+
+
+@enduml 

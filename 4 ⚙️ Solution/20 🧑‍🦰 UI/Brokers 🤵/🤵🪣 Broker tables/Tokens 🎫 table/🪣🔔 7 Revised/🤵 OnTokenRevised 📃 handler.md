@@ -15,8 +15,12 @@
 
 # Assert the inputs
 - ASSERT|$Token:
-    Texts: Status, Issuer, Token
-    UUIDs: Issuer, Token
+    AllOf: Token, Issuer, Status, Starts
+    UUIDs: Token
+    Texts: Status, Issuer
+    Times: Starts, Expires
+
+
 
 # Inform the user
 - SEND:

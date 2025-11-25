@@ -26,9 +26,7 @@
 - SAVE|Broker.Chats:
     Hook: $Pop.Hook
     Wallet: $Pop.Wallet
-
-    # Let's add the locator info
-    Host: any-host.dom       # Host domain name
+    Host: $.Hosted.Domain
     Key: ANY-KEY             # Locator key for the Host
     Inputs:
         $Pop.Context
