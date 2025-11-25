@@ -1,6 +1,6 @@
 # 🪣 Tokens
 
-> Stores the content of [`Accepted@Issuer`](<../../../🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) 
+> Stores the content of [`Accepted@Issuer`](<../../../🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
 
 <br/>
 
@@ -19,8 +19,8 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 
 | Property | Type | Details
 |-|-|-
-| `Broker` |text| From [`Accepted@Issuer`](<../../../🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) 
-| `Token`| uuid | From [`Accepted@Issuer`](<../../../🎴🅰️ Issuer methods/Accepted 🤵🐌🎴/🎴 Accepted 🐌 msg.md>) 
+| `Broker` |text| From [`Accepted@Issuer`](<../../../🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
+| `Token`| uuid | From [`Accepted@Issuer`](<../../../🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
 | `User` | any | Internal anchor
 | `Schema` |text| From [`Issued@Issuer`](<../../../🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>)
 | 

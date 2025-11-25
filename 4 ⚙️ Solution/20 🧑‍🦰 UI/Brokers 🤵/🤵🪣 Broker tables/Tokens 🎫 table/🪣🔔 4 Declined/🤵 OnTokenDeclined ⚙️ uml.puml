@@ -1,0 +1,24 @@
+@startuml OnTokenOffered
+
+box Broker 🤵 domain #FFFFFA
+    participant "OnOffered 🔔" as offered
+    participant "Tokens 🪣" as tokens    
+    participant "OnDeclined 🔔" as declined
+end box
+participant "Issuer 🎴" as issuer
+
+
+activate offered
+    offered -> tokens: SAVE 💾 {DECLINED}
+deactivate offered
+
+activate tokens
+    tokens --> declined: DECLINED 🔔
+deactivate tokens
+
+activate declined
+    declined --> issuer: SEND 📬 {Offered 🐌 DECLINED}
+deactivate declined
+    
+
+@enduml 
