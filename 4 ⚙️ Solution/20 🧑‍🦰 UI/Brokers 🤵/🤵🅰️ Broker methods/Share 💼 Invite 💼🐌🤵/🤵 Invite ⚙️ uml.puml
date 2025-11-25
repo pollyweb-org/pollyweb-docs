@@ -17,14 +17,7 @@ deactivate host
 
 activate broker
     broker -> graph: TRANSLATE 🈯
-    broker --> user: CONFIRM 🤔
-deactivate broker
-
-activate user
-    user --> broker: 
-deactivate user
-
-activate broker
+    broker -> user: CONFIRM 🤔
     broker -> invitee: SAVE 💾 {HELPER} 
 deactivate broker
 

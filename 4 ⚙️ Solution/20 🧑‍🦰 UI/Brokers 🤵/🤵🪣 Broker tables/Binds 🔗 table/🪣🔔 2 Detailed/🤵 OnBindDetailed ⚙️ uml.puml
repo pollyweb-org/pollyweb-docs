@@ -17,7 +17,7 @@ deactivate binds
 
 activate detailed
     detailed -> detailed: CHAT 💬
-    detailed -> wallet: CONFIRM 👍 {accept?} 
+    detailed -> wallet: CONFIRM 👍 "accept?"
 deactivate detailed
 
 alt 

@@ -11,66 +11,26 @@ participant "Wallet 👱" as wallet
 
 
 activate issuer
-    issuer --> wallet: 1) Prompt ⏩ {issuing your token...}
-''deactivate issuer
-
-''activate wallet
-''    user --> wallet: transact
-''    wallet --> issuer: 
-''deactivate wallet
-
-''activate issuer
+    issuer --> wallet: 1) Prompt ⏩ "issuing your token..."
     issuer --> broker: 2) Issue 🐌 
 deactivate issuer
 
 activate broker
-''    broker -> graph : 3) Translate 🚀 {code}
-''    
-''    activate graph
-''        graph --> broker: {translation}
-''    deactivate graph
-
-    broker -> wallet: 3) Prompt ⏩ {save?}
-''deactivate broker
-
-''activate wallet 
-''    user --> wallet: yes
-''    wallet --> broker: 
-''deactivate wallet
-
-''group If user accepted
-
-
-''activate broker
+    broker -> wallet: 3) Prompt ⏩ "save?"
     broker --> wallet: 4) Save 🐌 
 deactivate broker
 
-' NOTIFY
-''activate notifier
-''    notifier --> wallet
-''deactivate notifier
-
-' ACCEPT
 activate wallet
-    ' DOWNLOAD
     wallet -> issuer: 5) Issued 🚀 {token}
-    ''activate issuer
-    ''    issuer -> wallet: {token}
-    ''deactivate issuer
-    ''wallet -> wallet: save
-
-    ' CONFIRM
     wallet --> broker: 6) Saved 🐌 {path}
 deactivate wallet
 
 activate broker
-''end group
-
     broker --> issuer: 7) Offered 🐌
 deactivate broker
 
 activate issuer
-    issuer --> wallet: 8) Prompt ⏩ {saved to your wallet}
+    issuer --> wallet: 8) Prompt ⏩ "saved to your wallet"
 deactivate issuer
 
 

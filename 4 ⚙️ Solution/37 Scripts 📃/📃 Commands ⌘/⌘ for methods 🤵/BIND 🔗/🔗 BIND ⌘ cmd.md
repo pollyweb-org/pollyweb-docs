@@ -145,11 +145,8 @@
    # 😃 Talker 
    💬 Bind:
 
-   # Calculate the schemas in code
-   - CALL|GetBindables >> $bindable
-
-   # Offer the binds
-   - BIND|$bindable >> $bound
+   # Offer the schemas
+   - BIND|$schemas >> $bound
 
    # Check if any was bound
    - IF|$bound:

@@ -18,7 +18,7 @@ activate table
 deactivate table
 
 activate handler
-    handler -> wallet: CONFIRM 👍 {accept?} 
+    handler -> wallet: CONFIRM 👍 "accept?" 
     handler -> table: SAVE 💾 {OFFERED}
 deactivate handler
 
