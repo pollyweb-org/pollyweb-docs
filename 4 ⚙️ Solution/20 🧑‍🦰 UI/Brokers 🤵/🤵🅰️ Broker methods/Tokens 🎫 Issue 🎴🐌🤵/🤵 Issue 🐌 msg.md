@@ -9,7 +9,7 @@
 
 > Implementation
 * Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
-* Implemented by the [`Offer` 📃 handler](<🤵 Offer 📃 handler.md>)
+* Implemented by the [`Offer` 📃 handler](<🤵 Issue 📃 handler.md>)
 
 > Purpose
 * An [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) 

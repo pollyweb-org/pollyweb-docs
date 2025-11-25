@@ -2,7 +2,7 @@
 
 # 🤵 Offer 📃 handler
 
-> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Offer@Broker` 🅰️ method](<🤵 Offer 🐌 msg.md>)
+> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Offer@Broker` 🅰️ method](<🤵 Issue 🐌 msg.md>)
 
 > Part of the [`Save Token` 👉 flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>).
 

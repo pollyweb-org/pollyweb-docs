@@ -177,7 +177,7 @@
 
 1. **How to use functions on .Delete?**
 
-    Consider the following [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [`Offer@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>).
+    Consider the following [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [`Offer@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>).
     
     ```yaml
     SAVE|$item:
