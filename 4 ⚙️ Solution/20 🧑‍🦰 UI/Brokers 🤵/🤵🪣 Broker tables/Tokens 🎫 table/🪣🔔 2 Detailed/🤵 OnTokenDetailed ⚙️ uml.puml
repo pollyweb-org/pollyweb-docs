@@ -2,7 +2,7 @@
 
 
 box Broker 🤵 domain #FFFFFA
-    participant "OnOffered 🔔" as script
+    participant "OnIssued 🔔" as script
     participant "Tokens 🪣" as table
     participant "OnDetailed 🔔" as handler
 end box
@@ -19,11 +19,7 @@ deactivate table
 
 activate handler
     handler -> wallet: CONFIRM 👍 {accept?} 
-    alt accepted
-        handler -> table: SAVE 💾 {ACCEPTED}
-    else declined
-        handler -> table: SAVE 💾 {DECLINED}
-    end
+    handler -> table: SAVE 💾 {OFFERED}
 deactivate handler
 
 @enduml 

@@ -1,22 +1,22 @@
-@startuml OnTokenOffered
+@startuml OnTokenIssued
  
 participant "Issuer 🎴" as issuer
 box Broker 🤵 domain #FFFFFA
-    participant "Offer 🐌" as script
+    participant "Issue 🐌" as script
     participant "Tokens 🪣" as tokens
-    participant "OnOffered 🔔" as handler
+    participant "OnIssued 🔔" as handler
 end box
 participant "Graph 🕸" as graph
 
 
-issuer --> script: Offer 🐌 {token}
+issuer --> script: Issue 🐌 {token}
 
 activate script
-    script -> tokens: SAVE 💾 {OFFERED}
+    script -> tokens: SAVE 💾 {ISSUED}
 deactivate script
 
 activate tokens
-    tokens --> handler: OFFERED 🔔
+    tokens --> handler: ISSUED 🔔
 deactivate tokens
 
 activate handler

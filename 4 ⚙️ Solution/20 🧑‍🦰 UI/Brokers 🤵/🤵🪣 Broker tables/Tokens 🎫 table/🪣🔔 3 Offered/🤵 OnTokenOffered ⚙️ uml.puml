@@ -1,0 +1,32 @@
+@startuml OnTokenOffered
+
+participant "Issuer 🎴" as issuer
+box Broker 🤵 domain #FFFFFA
+    participant "Offer 🐌" as offer
+    participant "Tokens 🪣" as tokens
+    participant "OnOffered 🔔" as offered
+end box
+participant "Wallet 👱" as wallet
+
+
+issuer --> offer: Offer 🐌 {token}
+
+activate offer
+    offer -> tokens: SAVE 💾 {ISSUED}
+deactivate offer
+
+activate tokens
+    tokens --> offered: OFFERED 🔔
+deactivate tokens
+
+activate offered
+    group IF declined
+        offered --> issuer: SEND 📬 {Offered 🐌 token, accepted:false}    
+    end group
+    group IF accepted
+        offered --> wallet: SEND 📬 {Save 🐌 token}
+deactivate offered
+    end group
+    
+
+@enduml 

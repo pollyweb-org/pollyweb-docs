@@ -7,7 +7,7 @@
 
 ## Diagram
 
-![alt text](<🤵 OnTokenOffered ⚙️ uml.png>)
+![alt text](<🤵 OnTokenIssued ⚙️ uml.png>)
 
 <br/>
 
