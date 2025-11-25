@@ -1,11 +1,11 @@
 # 🤵 Bindable 📃 handler
 
 > Purpose
-* Implements the [`Bind@Broker` 🅰️ method](<🤵 Bindable 🐌 msg.md>)
+* Implements the [`Bind@Broker` 🅰️ method](<🤵 Bind 🐌 msg.md>)
 
 ## Flow
 
-![alt text](<🤵 Bindable ⚙️ uml.png>)
+![alt text](<🤵 Bind ⚙️ uml.png>)
 
 ## Script
 

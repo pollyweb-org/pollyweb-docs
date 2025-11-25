@@ -64,7 +64,7 @@ Schemas: ...
 |-|-|-|-
 | Wallet   | `Language` | text | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) language code
 | Chats    | ...        | ...   | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
-| Binds    | ...        | ...   | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from [`Bind@Broker` 🅰️ method](<../Binds 🔗 Bindable 🗄️🐌🤵/🤵 Bindable 🐌 msg.md>)
+| Binds    | ...        | ...   | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from [`Bind@Broker` 🅰️ method](<../Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>)
 | Tokens   | ...        | ...   | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from [`Issue@Broker` 🅰️ method](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
 | Domains  | ...        | ...   | [Domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) from [`About@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 📃 handler.md>)
 | Schemas  | ...        | ...   | [Schemas 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Schema@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 📃 handler.md>)
