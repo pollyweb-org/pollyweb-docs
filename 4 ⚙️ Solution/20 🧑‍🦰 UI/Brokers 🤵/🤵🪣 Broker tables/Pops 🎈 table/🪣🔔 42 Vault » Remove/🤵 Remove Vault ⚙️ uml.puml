@@ -17,7 +17,7 @@ deactivate wallet
 
 activate script
     script -> binds: READ 🧲
-    script --> wallet: CONFIRM {remove?}
+    script --> wallet: CONFIRM "remove?"
 deactivate script
 
 activate wallet
