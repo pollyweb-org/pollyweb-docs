@@ -15,7 +15,7 @@ activate script
 deactivate script
 
 activate tokens
-    tokens --> handler: CHANGED 🔔
+    tokens --> handler: UPDATED 🔔
 deactivate tokens
 
 activate handler

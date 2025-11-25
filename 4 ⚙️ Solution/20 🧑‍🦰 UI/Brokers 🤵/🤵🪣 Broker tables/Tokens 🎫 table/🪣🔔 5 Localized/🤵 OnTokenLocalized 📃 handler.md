@@ -27,7 +27,7 @@
         
 # Save the token
 - SAVE|$Token:
-    Title: Tag.Default($graph.Text)
+    Title: Tag.Default($graph.Text)     # Use the tag if set
     IssuerTitle: $graph.Domain.Title
     SchemaTitle: $graph.Schema.Title
     Description: $graph.Schema.Description

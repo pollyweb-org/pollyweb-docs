@@ -1,5 +1,8 @@
 # 🤵 OnTokenOffered 📃 handler
   
+> Purpose
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to the [`Offer@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>).
+
 <br/>
 
 ## Diagram
@@ -15,20 +18,19 @@
 
 # Assert the Token
 - ASSERT|$Token:
-    AllOf: Issuer, Schema
-    Texts: Issuer, Schema
+    AllOf: Issuer, Schema, Language
+    Texts: Issuer, Schema, Language
 
 # Get the translation
 - TRANSLATE >> $graph:
     Domain: $Token.Issuer
     Schema: $Token.Schema
     Text: {$Schema.Title}, by {$Domain.Title}
-    To: $Token.Wallet.Language
+    To: $Token.Language
         
 # Save the token
 - SAVE|$Token:
     .State: DETAILED
-    Language: $Token.Wallet.Language
     Title: $graph.Text
     IssuerTitle: $graph.Domain.Title
     SchemaTitle: $graph.Schema.Title
