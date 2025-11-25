@@ -1,10 +1,10 @@
-# 🤵🐌🎴 Accepted @ Issuer
+# 🤵🐌🎴 Offered @ Issuer
 
 > Flow
 * Part of the [🧑‍🦰👉🎴 Save Token @ Issuer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) flow.
 
 > Implementation
-* Implemented by the [`Accepted` 📃 script](<🎴 Accepted 📃 handler.md>)
+* Implemented by the [`Offered` 📃 script](<🎴 Offered 📃 handler.md>)
 
 > Purpose
 * Tells an [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>) 
@@ -18,21 +18,21 @@
 Header:
     From: any-broker.dom
     To: any-issuer.dom
-    Subject: Accepted@Issuer
+    Subject: Offered@Issuer
 
 Body:
     Token: <token-uuid>
-    Answer: true
+    Answer: ACCEPTED
 ```
 
 
 |Object |Property |Type|Description|Origin
 |-|-|-|-|-
 |Header |`From`|text| [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Offer@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
-|       |`To`|string  | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) | [`Offer@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
-||`Subject`|text|`Accepted@Issuer` 
+|       |`To`|text  | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) | [`Offer@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
+||`Subject`|text|`Offered@Issuer` 
 | Body  | `Token`| uuid | [Issuer 🎴](<../../🎴 Issuer/🎴🎭 Issuer role.md>) Hook | [`Offer@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>) |  
-|       | `Answer`| boolean | Accepted or not | 
+|       | `Answer`| text | `ACCEPTED` `DECLINED` | 
 |
 
 
