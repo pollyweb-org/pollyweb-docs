@@ -26,21 +26,20 @@ Header:
     
 Body:
     Token: <token-uuid>
-    Status: SUSPEND
+    Status: SUSPENDED
     Starting: 2025-10-10T13:45:00.000Z
     Ending: 2025-12-31T00:00:00.000Z
     Locator: <reference-uuid>
 ```
 
-|Object|Property|Type|Description
-|-|-|-|-
-|Header|`From`|text|[Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
+|Object|Property|Type|Description|Origin
+|-|-|-|-|-
+|Header|`From`|text|[Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name | [`Issue@Broker` 🅰️ method](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
 | |`To`|text|[Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
-| |`Subject`|text|`Revoke@Broker`
-|Body|`Chat`|text|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
-| |`Hook`|text| Hook from [`Offer@Broker`](<../Tokens 🎫 Offer 🎴🐌🤵/🤵 Offer 🐌 msg.md>)
-| |`Action`| enum | `REVOKE` `SUSPEND` `ACTIVATE` `UPDATE`
-| |`Starting`| timestamp | Start date and time
-| |`Ending` | timestamp | Finish date and time (optional)
-| |`Locator`|text| [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) about it.
+| |`Subject`|text|`Revised@Broker`
+|Body|`Token`|text| Hook from [`Offer@Broker`](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
+| |`Status`| enum | `REVOKED` `SUSPENDED` `ACTIVE`
+| |`Starting`| time | Start of status period
+| |`Ending` | time | End of status period (optional)
+| |`Locator`|text| [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) about it
 |
