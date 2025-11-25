@@ -21,19 +21,15 @@
 - CHAT|$Token.Chat
 
 # Ask for confirmation
-- CONFIRM >> $confirmed:
+- CONFIRM >> $accepted:
     Text: > 
         Accept token?
         - `{$Token.Title}`
 
 # Update with the answer
-- IF|$confirmed:
-    Then:
-        SAVE|$Token:
-            .State: ACCEPTED
-    Else:
-        SAVE|$Token:
-            .State: DECLINED
+SAVE|$Token:
+    .State: OFFERED
+    Accepted: $accepted
 ```
 
 Uses||
