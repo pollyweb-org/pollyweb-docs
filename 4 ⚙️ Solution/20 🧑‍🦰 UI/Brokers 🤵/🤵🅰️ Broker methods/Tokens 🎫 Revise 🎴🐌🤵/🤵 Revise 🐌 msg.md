@@ -22,7 +22,7 @@
 Header:
     From: any-issuer.dom
     To: any-broker.dom
-    Subject: Revised@Broker
+    Subject: Revise@Broker
     
 Body:
     Token: <token-uuid>
@@ -36,7 +36,7 @@ Body:
 |-|-|-|-|-
 |Header|`From`|text|[Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name | [`Issue@Broker` 🅰️ method](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
 | |`To`|text|[Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
-| |`Subject`|text|`Revised@Broker`
+| |`Subject`|text|`Revise@Broker`
 |Body|`Token`|text| Hook from [`Issue@Broker`](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
 | |`Status`| enum | `REVOKED` `SUSPENDED` `ACTIVE`
 | |`Starting`| time | Start of status period
