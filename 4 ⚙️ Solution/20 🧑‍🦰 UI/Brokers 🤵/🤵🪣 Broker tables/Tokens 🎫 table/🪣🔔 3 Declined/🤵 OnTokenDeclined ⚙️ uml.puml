@@ -8,28 +8,16 @@ box Broker 🤵 domain #FFFFFA
     participant "OnDeclined 🔔" as change
 end box
 
-participant "Wallet 👱" as wallet
-'participant "Notifier 📣" as notifier
 
-' The issuer offers a token to the broker
 issuer --> script: Offer 🐌
 
 activate script
-    ' The Broker asks the wallet if it wants to save the token
-    script --> wallet: CONFIRM 👍 {save?}   
-deactivate script
-
-activate wallet
-    ' The wallet rejects the token
-    wallet --> script: {no}
-deactivate wallet
-
-activate script
-    script -> tokens: SAVE 💾 {REJECTED}
+    script -> tokens: SAVE 💾 {OFFERED}
 deactivate script
 
 activate tokens
-    tokens --> change: REJECTED 🔔
+    tokens --> tokens: SAVE 💾 {DECLINED}
+    tokens --> change: DECLINED 🔔
 deactivate tokens
 
 activate change
