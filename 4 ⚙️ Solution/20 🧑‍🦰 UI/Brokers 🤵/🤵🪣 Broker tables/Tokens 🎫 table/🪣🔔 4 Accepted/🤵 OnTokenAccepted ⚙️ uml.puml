@@ -9,7 +9,7 @@ end box
 participant "Wallet 👱" as wallet
 
 
-issuer --> script: Offer 🐌
+issuer --> script: Offer 🐌 {hook}
 
 activate script
     script -> tokens: SAVE 💾 {OFFERED}
@@ -21,7 +21,7 @@ activate tokens
 deactivate tokens
 
 activate change
-    change --> wallet: SEND 📬 {Save 🐌}
+    change --> wallet: SEND 📬 {Save 🐌 hook, id}
 deactivate change
 
 @enduml 
