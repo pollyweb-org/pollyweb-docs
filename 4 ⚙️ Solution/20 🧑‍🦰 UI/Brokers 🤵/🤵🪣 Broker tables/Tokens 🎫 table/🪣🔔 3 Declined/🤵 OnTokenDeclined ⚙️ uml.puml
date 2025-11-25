@@ -8,7 +8,7 @@ box Broker 🤵 domain #FFFFFA
 end box
 
 
-issuer --> script: Offer 🐌
+issuer --> script: Offer 🐌 {token}
 
 activate script
     script -> tokens: SAVE 💾 {OFFERED}
@@ -20,7 +20,7 @@ activate tokens
 deactivate tokens
 
 activate change
-    change --> issuer: SEND 📬 {Declined 🐌}
+    change --> issuer: SEND 📬 {Declined 🐌 token}
 deactivate change
 
 @enduml 

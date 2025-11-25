@@ -22,10 +22,6 @@
 - SAVE|Issuer.Tokens:
     $hook: # Add all token properties
     Token: $.Msg.Token
-
-# Continue the Talker
-- REEL|$hook:
-    $token
 ```
 
 Uses||

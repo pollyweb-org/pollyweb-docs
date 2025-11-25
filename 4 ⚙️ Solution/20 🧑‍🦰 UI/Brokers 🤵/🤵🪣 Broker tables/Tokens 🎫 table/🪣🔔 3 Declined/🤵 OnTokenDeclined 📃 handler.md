@@ -15,8 +15,8 @@
 
 # Assert the item
 - ASSERT|$Token:
-    AllOf: Issuer, Hook
-    UUIDs: Hook
+    AllOf: Issuer, Token
+    UUIDs: Token
     Texts: Issuer
 
 # Notify the Issuer
@@ -25,7 +25,7 @@
         To: $Token.Issuer
         Subject: Declined@Issuer
     Body:
-        Hook: $Token.Hook  # Hook @ Issuer
+        Hook: $Token.Token  # Hook @ Issuer
 ```
 
 Uses||
