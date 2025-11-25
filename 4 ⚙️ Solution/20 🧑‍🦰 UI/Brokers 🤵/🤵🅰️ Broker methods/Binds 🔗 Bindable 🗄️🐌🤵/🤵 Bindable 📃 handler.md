@@ -1,7 +1,7 @@
 # 🤵 Bindable 📃 handler
 
 > Purpose
-* Implements the [`Bindable@Broker` 🅰️ method](<🤵 Bindable 🐌 msg.md>)
+* Implements the [`Bind@Broker` 🅰️ method](<🤵 Bindable 🐌 msg.md>)
 
 ## Flow
 
@@ -10,7 +10,7 @@
 ## Script
 
 ```yaml
-📃 Bindable@Broker:
+📃 Bind@Broker:
 
 # Verify the signature
 - VERIFY|$.Msg
@@ -37,7 +37,7 @@
     .State: OFFERED
     .Delete: 1 hour
 
-    # From Bindable@Broker
+    # From Bind@Broker
     Hook: $.Msg.Hook 
     Chat: $.Msg.Chat
     Vault: $.Msg.From

@@ -70,7 +70,7 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 # Automatic
 ID: <bind-id>
 
-# From Bindable@Broker
+# From Bind@Broker
 Hook: <hook-uuid>
 Chat: <chat-uuid>
 Vault: any-vault.dom
