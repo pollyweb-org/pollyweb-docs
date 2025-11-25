@@ -29,6 +29,8 @@
 - READ >> $chat:
     Set: Broker.Chats
     Key: $.Msg.Chat
+    Assert:
+        .State: ACTIVE
 
 # Only allow offers from the Host
 - ASSERT|$.Msg:
@@ -38,6 +40,7 @@
 - SAVE|Broker.Tokens:
     .State: OFFERED
     Wallet: $chat.Wallet.ID
+    Chat: $.Msg.Chat
     Hook: $.Msg.Hook
     Issuer: $.Msg.From
     Schema: $.Msg.Schema

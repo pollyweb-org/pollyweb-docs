@@ -19,7 +19,11 @@ deactivate table
 
 activate handler
     handler -> wallet: CONFIRM 👍 {accept?} 
-    handler --> wallet: SEND 📬 {Save 🐌}
+    alt accepted
+        handler -> table: SAVE 💾 {ACCEPTED}
+    else declined
+        handler -> table: SAVE 💾 {DECLINED}
+    end
 deactivate handler
 
 @enduml 

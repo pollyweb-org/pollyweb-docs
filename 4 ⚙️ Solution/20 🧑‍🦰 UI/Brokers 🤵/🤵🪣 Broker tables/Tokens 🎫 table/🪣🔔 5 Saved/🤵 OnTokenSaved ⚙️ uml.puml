@@ -1,22 +1,24 @@
-@startuml OnTokenAccepted
+@startuml OnTokenSaved
 
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
     participant "Saved 🐌" as script
     participant "Tokens 🪣" as tokens
-    participant "OnAccepted 🔔" as change
+    participant "OnSaved 🔔" as change
 end box
 
+'participant "Notifier 📣" as notifier
+participant "Issuer 🎴" as issuer
 
 wallet --> script: Saved 🐌
 
 activate script
-    script -> tokens: SAVE 💾 {ACCEPTED}
+    script -> tokens: SAVE 💾 {SAVED}
 deactivate script
 
 activate tokens
-    tokens --> change: ACCEPTED 🔔
+    tokens --> change: SAVED 🔔
 deactivate tokens
 
 activate change
