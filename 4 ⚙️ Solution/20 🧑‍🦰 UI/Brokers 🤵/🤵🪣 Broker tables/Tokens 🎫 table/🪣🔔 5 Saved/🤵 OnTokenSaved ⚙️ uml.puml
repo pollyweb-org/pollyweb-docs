@@ -11,7 +11,7 @@ end box
 'participant "Notifier 📣" as notifier
 participant "Issuer 🎴" as issuer
 
-wallet --> script: Saved 🐌
+wallet --> script: Saved 🐌 {id}
 
 activate script
     script -> tokens: SAVE 💾 {SAVED}
@@ -22,7 +22,7 @@ activate tokens
 deactivate tokens
 
 activate change
-    change --> issuer: SEND 📬 {Accepted 🐌}
+    change --> issuer: SEND 📬 {Accepted 🐌 hook}
 deactivate change
 
 @enduml 

@@ -23,6 +23,7 @@
         Subject: Save@Notifier
     Body:
         Wallet: $Token.Wallet.ID
+        Issuer: $Token.Issuer
         Hook: $Token.Hook   # Hook at Issuer
         Token: $Token.ID    # ID at Broker
 ```
