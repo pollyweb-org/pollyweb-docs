@@ -12,15 +12,13 @@ end box
 
 
 activate wallet
-    wallet -> broker: Saved@ 🐌 {token}
+    wallet -> broker: Saved 🐌 {issuer, token}
 deactivate wallet
 
 activate broker
-    broker -> wallets: READ 🧲 {$.Msg.From}
-    'broker -> offers: READ {offer}
-    'broker -> tokens: READ {token}
-    broker -> tokens: READ 🧲 {$wallet.Offers: token}
-    broker -> tokens: SAVE 💾 {$token.State: ACTIVE}
+    broker -> wallets: READ 🧲 {from}
+    broker -> tokens: READ 🧲 {issuer, token}
+    broker -> tokens: SAVE 💾 {SAVED}
 deactivate broker
 
 'activate tokens

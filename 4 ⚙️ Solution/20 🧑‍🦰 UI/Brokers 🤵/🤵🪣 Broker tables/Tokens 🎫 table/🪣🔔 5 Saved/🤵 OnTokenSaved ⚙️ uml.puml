@@ -3,26 +3,26 @@
 participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    participant "Saved 🐌" as script
+    participant "Saved 🐌" as saved
     participant "Tokens 🪣" as tokens
-    participant "OnSaved 🔔" as change
+    participant "OnSaved 🔔" as onSaved
 end box
 
 'participant "Notifier 📣" as notifier
 participant "Issuer 🎴" as issuer
 
-wallet --> script: Saved 🐌 {id}
+wallet --> saved: Saved 🐌 
 
-activate script
-    script -> tokens: SAVE 💾 {SAVED}
-deactivate script
+activate saved
+    saved -> tokens: SAVE 💾 {SAVED}
+deactivate saved
 
 activate tokens
-    tokens --> change: SAVED 🔔
+    tokens --> onSaved: SAVED 🔔
 deactivate tokens
 
-activate change
-    change --> issuer: SEND 📬 {Accepted 🐌 hook}
-deactivate change
+activate onSaved
+    onSaved --> issuer: SEND 📬 {Offered 🐌 ACCEPTED}
+deactivate onSaved
 
 @enduml 
