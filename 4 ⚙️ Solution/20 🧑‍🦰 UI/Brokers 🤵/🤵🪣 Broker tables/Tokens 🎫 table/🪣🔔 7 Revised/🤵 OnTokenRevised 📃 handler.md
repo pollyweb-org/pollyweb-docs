@@ -15,19 +15,17 @@
 
 # Assert the inputs
 - ASSERT|$Token:
-    AllOf: Token, Issuer, Status, Starts
-    UUIDs: Token
+    AllOf: Token, Issuer, Status, Starts, Wallet
+    UUIDs: Token, Wallet
     Texts: Status, Issuer
     Times: Starts, Expires
 
-
-
-# Inform the user
-- SEND:
-    Header:
-        To: $Token.Issuer
-        Subject: Offered@Issuer
-    Body:
+# Open a Pop to inform the user
+- SAVE|Broker.Chats:
+    Wallet: $Token.Wallet
+    Host: $.Hosted.Domain
+    Inputs:
+        Context: TOKEN.REVISED
         Token: $Token.Token
-        Answer: REVISED 
+        Issuer: $Token.Issuer
 ```

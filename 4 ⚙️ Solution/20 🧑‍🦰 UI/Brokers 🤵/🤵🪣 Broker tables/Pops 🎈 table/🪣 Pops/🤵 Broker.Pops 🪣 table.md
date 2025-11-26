@@ -27,20 +27,28 @@ Parents:
 
 Handlers:
 
-    OnPopInserted: 
+    OnPopInserted: # Open a Chat 💬
         Events: INSERTED
 
-    OnPopBind: 
+    OnPopWallet: # Wallet 🧑‍🦰 pop-up menu
         Events: POPPED
-        Assert: {Context: BIND}
-    
-    OnPopToken: 
+        Assert: Context.Is(WALLET)
+        
+    OnPopChat: # Chat 💬 pop-up menu
         Events: POPPED
-        Assert: {Context: TOKEN}
+        Assert: Context.Is(CHAT)
 
-    OnPopWallet: 
+    OnPopBind: # Bind 🔗 pop-up menu
         Events: POPPED
-        Assert: {Context: WALLET}
+        Assert: Context.Is(BIND)
+    
+    OnPopToken: # Token 🎫 pop-up menu
+        Events: POPPED
+        Assert: Context.Is(TOKEN)
+
+    OnPopTokenRevised: # Notify the user
+        Events: POPPED
+        Assert: Context.Is(TOKEN.REVISED)
 ```
 
 ## Links

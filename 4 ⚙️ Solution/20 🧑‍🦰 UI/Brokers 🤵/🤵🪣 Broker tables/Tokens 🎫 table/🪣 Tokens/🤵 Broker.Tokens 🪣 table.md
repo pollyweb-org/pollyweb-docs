@@ -12,6 +12,12 @@
 
 <br/>
 
+## Diagram
+
+![alt text](<🤵 Broker.Tokens ⚙️ uml.png>)
+
+<br/>
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
