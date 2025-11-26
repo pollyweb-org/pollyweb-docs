@@ -103,7 +103,7 @@ Handlers:
 
 [Handler 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) |  [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Events
 |-|-|-
-| [`OnTokenDeleted` 📃](<../🪣🔔 A Deleted/🤵 OnTokenDeleted 📃 handler.md>) | [`Remove@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | `PURGED`
+| [`OnTokenDeleted` 📃](<../🪣🔔 A Deleted/🤵 OnTokenDeleted 🔔 handler.md>) | [`Remove@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | `PURGED`
 | [`OnTokenAltered` 📃](<../🪣🔔 0 Altered/🤵 OnTokenAltered 🔔 handler.md>) | [`Updated@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ALTERED`
 | [`OnTokenOffered` 📃](<../🪣🔔 3 Offered/🤵 OnTokenOffered 🔔 handler.md>) | [`Offered@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) | `UPDATED`
 
