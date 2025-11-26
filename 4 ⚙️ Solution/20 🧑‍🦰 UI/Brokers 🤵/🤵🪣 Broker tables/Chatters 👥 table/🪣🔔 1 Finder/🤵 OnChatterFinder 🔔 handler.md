@@ -1,8 +1,12 @@
-# 🤵 OnChatterFinder 📃 handler
+# 🤵 OnChatterFinder 🔔 handler
+
+> Part of the [`Broker.Chatters` 🪣 table](<../🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
 
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that calls the [`Present@Finder` 🅰️ method](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>)
-  
+
+<br/>
+
 ## Diagram
 
 ![alt text](<🤵 OnChatterFinder ⚙️ uml.png>)
