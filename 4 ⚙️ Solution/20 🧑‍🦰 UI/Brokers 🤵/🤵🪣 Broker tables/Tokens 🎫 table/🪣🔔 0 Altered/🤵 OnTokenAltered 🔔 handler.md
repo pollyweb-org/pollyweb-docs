@@ -1,5 +1,7 @@
 # 🤵 OnTokenAltered 📃 handler
 
+> Part of the [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
+
 > Purpose
 
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) 

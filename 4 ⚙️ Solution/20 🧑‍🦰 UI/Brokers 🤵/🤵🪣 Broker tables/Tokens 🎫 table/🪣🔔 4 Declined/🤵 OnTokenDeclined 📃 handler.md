@@ -1,5 +1,8 @@
 # 🤵 OnTokenDeclined 📃 handler
 
+> Part of the [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
+
+<br/>
 
 ## Diagram
 
