@@ -34,9 +34,9 @@ Views:
     ACTIVE: # Just for reference, not used
         - .State.Is(OFFERED)
         - Status.Is(ACTIVE)
-        - Expires.IsFutureOrEmpty
+        - Expires.IsEmpty.Or.IsFuture
 ```
-Uses: [`.Is`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) {{.IsFutureOrEmpty}}
+Uses: [`.Is`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) [`.IsEmpty`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ.md>) [`.IsFuture`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsFuture ⓕ.md>) [`.Or`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Or ⓕ.md>)
 
 <br/>
 

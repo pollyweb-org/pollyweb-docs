@@ -6,7 +6,10 @@
 
 * [Itemized 🪣 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) that manages CQRS projections for [Notifier 📣 domains](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
 
-
+> Data access
+* [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by the [`OnFrontendAltered` 🔔 handler](<../🪣🔔 on Altered/🤵 OnFrontendAltered 🔔 handler.md>) 
+* [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) by the [`Frontend@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 📃 handler.md>)
+<br/>
 
 ## Schema
 
@@ -18,6 +21,7 @@ Table: Frontend
 Key: Wallet
 ```
 
+<br/>
 
 ## Example
 

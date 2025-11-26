@@ -1,10 +1,16 @@
 # 🤵 OnTokenAccepted 📃 handler
 
+> Purpose
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to the acceptance of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) by a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
+* Part of the [`Broker.Tokens.Insert` ⏩ flow](<../🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Insert ⏩ flow.md>)
+
+<br/>
 
 ## Diagram
 
 ![alt text](<🤵 OnTokenSaved ⚙️ uml.png>)
 
+<br/>
 
 ## Script
 
