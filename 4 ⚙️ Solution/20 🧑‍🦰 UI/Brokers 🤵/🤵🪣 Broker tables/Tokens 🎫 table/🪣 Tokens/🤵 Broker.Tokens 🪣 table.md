@@ -13,9 +13,15 @@
 
 <br/>
 
-## Diagram
+## Insert Diagram
 
-![alt text](<🤵 Broker.Tokens ⚙️ uml.png>)
+![alt text](<🤵 Broker.Tokens.Insert ⚙️ uml.png>)
+
+<br/>
+
+## Updates Diagram
+
+![alt text](<🤵 Broker.Tokens.Updates ⚙️ uml.png>)
 
 <br/>
 
@@ -24,15 +30,18 @@
 Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
 ```yaml
-# Tokens.yaml
-
 Prefix: Broker
 Table: Tokens
 Item: Token
-
-# The Token UUID is unique per Issuer
 Key: Issuer, Token
+```
+Note: The [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID is unique per [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name.
 
+<br/>
+
+Here's the [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) definition.
+
+```yaml
 Parents:
 
     Wallet: # Wallet that holds the Token
@@ -45,18 +54,25 @@ Parents:
     Schema: # Definition of the Token
         Schemas.Code: Tokens.Schema
         Schemas.Wallet: Tokens.Wallet
+```
+References: [`Broker.Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Broker.Schemas`](<../../Schemas 🧩 table/🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>) [`Broker.Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
 
+<br/>
+
+Here's the [Item 🛢 Propagate](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) definition.
+
+```yaml
 Propagate: 
     # Support for Frontend@Broker
     - Issuer    # Auto-populate the Domains table
     - Schema    # Auto-populate the Schemas table
+```
 
-Views:
-    Active: # Filter for Frontend@ and Query@ 
-        - .Now.IsBetween(Starts, Expires)
-        - .State.IsIn(ACTIVE, RESTORED)
-        - .Status.IsIn(ACTIVE)
+<br/>
 
+Here's the [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition.
+
+```yaml
 Handlers:
 
     OnTokenAltered: ALTERED             # Save Front@Notifier
@@ -84,24 +100,33 @@ Handlers:
                 - New.Expires
 ```
 
-Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>) [`.IsBetween`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ.md>) 
-
-
-## Links
-
-| Link | Table | Stores
-|-|-|-
-| Parent    | [`Wallets` 🪣](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) |
-|           | [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-
-
-## Handlers
 
 [Handler 🔔](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) |  [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Events
 |-|-|-
-| [`OnTokenPurged` 📃](<../🪣🔔 A Deleted/🤵 OnTokenDeleted 📃 handler.md>) | [`Remove@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | `PURGED`
-| [`OnTokenChanges` 📃](<../🪣🔔 0 Altered/🤵 OnTokenAltered 📃 handler.md>) | [`Updated@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ALTERED`
-| [`OnTokenAccepted` 📃](<../🪣🔔 3 Offered/🤵 OnTokenOffered 📃 handler.md>) | [`Offered@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) | `UPDATED`
+| [`OnTokenDeleted` 📃](<../🪣🔔 A Deleted/🤵 OnTokenDeleted 📃 handler.md>) | [`Remove@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | `PURGED`
+| [`OnTokenAltered` 📃](<../🪣🔔 0 Altered/🤵 OnTokenAltered 📃 handler.md>) | [`Updated@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ALTERED`
+| [`OnTokenOffered` 📃](<../🪣🔔 3 Offered/🤵 OnTokenOffered 📃 handler.md>) | [`Offered@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) | `UPDATED`
+
+
+<br/>
+
+Here's the [Item 🛢 Views](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Views.md>) definition.
+
+```yaml
+Views:
+    ACTIVE: # Filter for Frontend@ and Query@ 
+
+        # From the Token lifecycle
+        - .State.IsIn(ACTIVE, RESTORED)
+
+        # From Issue@Broker and Revise@Broker
+        - Status.Is(ACTIVE) 
+        - Starts.IsPast                 
+        - Expires.IsEmpty.Or.IsFuture
+```
+
+Uses: [`.Is`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) {{.IsPast}} [`.IsEmpty`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ.md>) {{.IsFuture}} {{.Or}}
+
 
 <br/>
 

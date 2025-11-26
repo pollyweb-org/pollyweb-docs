@@ -1,4 +1,4 @@
-@startuml Broker.Tokens
+@startuml Broker.Tokens.Insert
  
 participant "Issuer 🎴" as issuer
 box Broker 🤵 domain #FFFFFA
@@ -36,10 +36,9 @@ activate wallet
 deactivate wallet
 
 activate tokens
-    tokens -> issuer: Offered 🐌 {accepted}
+    tokens -> issuer: Offered 🐌 {answer:accepted}
 deactivate tokens
 
-wallet -> tokens: 🐌 Pop 💾 {REMOVED}
-wallet -> tokens: 🐌 Pop 💾 {RESTORED}
+
 
 @enduml 

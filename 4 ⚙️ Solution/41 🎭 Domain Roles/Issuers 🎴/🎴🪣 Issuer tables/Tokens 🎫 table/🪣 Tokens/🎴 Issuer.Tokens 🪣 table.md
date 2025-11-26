@@ -6,11 +6,20 @@
 
 <br/>
 
-## Diagram
 
-![alt text](<🎴 Issuer.Tokens ⚙️ uml.png>)
+## Insert Diagram
+
+![alt text](<🎴 Issuer.Tokens.Insert ⚙️ uml.png>)
 
 <br/>
+
+
+## Updates Diagram
+
+![alt text](<🎴 Issuer.Tokens.Updates ⚙️ uml.png>)
+
+<br/>
+
 
 ## Schema
 
@@ -20,8 +29,14 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 ```yaml
 Table: Tokens
 Item: Token
-```
 
+Views:
+    ACTIVE: # Just for reference, not used
+        - .State.Is(OFFERED)
+        - Status.Is(ACTIVE)
+        - Expires.IsFutureOrEmpty
+```
+Uses: [`.Is`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) {{.IsFutureOrEmpty}}
 
 <br/>
 
