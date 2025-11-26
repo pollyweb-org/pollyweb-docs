@@ -15,12 +15,13 @@
 
 ## Flows
 
-|Flow ⏩|Purpose
-|-|-
-| [`Insert`](<../🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Insert ⏩ flow.md>) | Issues and stores a new {{Token}}
-| [`Revise`](<../🪣⏩ Flows/2 Revise/🤵 Broker.Tokens.Revise ⏩ flow.md>) | Revises an existing {{Token}}
-| [`Remove`](<../🪣⏩ Flows/4 Remove/🤵 Broker.Tokens.Remove ⏩ flow.md>) | Removes an existing Token
-| [`Restore`](<../🪣⏩ Flows/4 Restore/🤵 Broker.Tokens.Restore ⏩ flow.md>) | Restores a removed Token
+|#|Flow ⏩|Purpose
+|-|-|-
+|1| [`Issue`](<../🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Issued ⏩ flow.md>) | Receives and stores a new [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+|2| [`Revise`](<../🪣⏩ Flows/2 Revise/🤵 Broker.Tokens.Revise ⏩ flow.md>) | Changes the status of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+|3| [`Tag`](<../🪣⏩ Flows/2 Tag/🤵 Broker.Tokens.Tag ⏩ flow.md>) | Adds a user tag a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) 
+|4| [`Localize`](<../🪣⏩ Flows/3 Localize/🤵 Broker.Tokens.Localize ⏩ flow.md>) | Changes the language of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+|5| [`Remove`](<../🪣⏩ Flows/4 Remove/🤵 Broker.Tokens.Remove ⏩ flow.md>) | Removes an existing [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 
 <br/>
 

@@ -1,4 +1,4 @@
-@startuml Broker.Tokens.Insert
+@startuml Broker.Tokens.Issued
  
 participant "Issuer 🎴" as issuer
 box Broker 🤵 domain #FFFFFA
