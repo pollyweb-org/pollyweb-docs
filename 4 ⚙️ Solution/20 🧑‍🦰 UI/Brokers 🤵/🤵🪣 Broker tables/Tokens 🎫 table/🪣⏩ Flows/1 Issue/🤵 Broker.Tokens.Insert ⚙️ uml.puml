@@ -4,6 +4,7 @@ participant "Issuer 🎴" as issuer
 box Broker 🤵 domain #FFFFFA
     participant "Issue 🐌" as issue
     participant "Tokens 🪣" as tokens
+    participant "Frontend 🪣" as frontend
 end box
 participant "Graph 🕸" as graph
 participant "Wallet 👱" as wallet
@@ -37,7 +38,12 @@ deactivate wallet
 
 activate tokens
     tokens -> issuer: Offered 🐌 {answer:accepted}
+    tokens -> frontend: 💾 {tokens}
 deactivate tokens
+
+activate frontend
+    frontend -> wallet: 🐌 Updated 
+deactivate frontend
 
 
 
