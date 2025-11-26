@@ -1,29 +1,14 @@
 # 🪣 Tokens
 
-> Stores the content of [`Offered@Issuer`](<../../../🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
+> Purpose
+* Stores [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by an [Issuer 🎴 domain](<../../../🎴 Issuer/🎴🎭 Issuer role.md>).
+* Mirrors the [`Broker.Tokens` 🪣 table](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) on [Broker 🤵 domains](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>).
 
 <br/>
 
-## Example
+## Diagram
 
-Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
-
-```yaml
-# READ|Tokens|<broker>,<token>
-Broker: any-broker.dom
-Token: <token-uuid>
-User: <internal-reference>
-Schema: airlines.any-igo.dom/SSR/WCH:1 
-...
-```
-
-| Property | Type | Details
-|-|-|-
-| `Broker` |text| From [`Offered@Issuer`](<../../../🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
-| `Token`| uuid | From [`Offered@Issuer`](<../../../🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
-| `User` | any | Internal anchor
-| `Schema` |text| From [`Issued@Issuer`](<../../../🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>)
-| 
+![alt text](<🎴 Issuer.Tokens ⚙️ uml.png>)
 
 <br/>
 
@@ -33,6 +18,32 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 
 
 ```yaml
-# Tokens.yaml
-Key: Broker, Token
+Table: Tokens
+Item: Token
 ```
+
+
+<br/>
+
+## Example
+
+Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
+
+```yaml
+# Automatic
+ID: <token-uuid>
+
+# From the ISSUE command
+User: <internal-reference>
+Broker: any-broker.dom
+Schema: airlines.any-igo.dom/SSR/WCH:1 
+...
+```
+
+| Property | Type | Details
+|-|-|-
+| `Token`| uuid | From [`Offered@Issuer`](<../../../🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
+| `User` | any | Internal anchor
+| `Broker` |text| From [`Offered@Issuer`](<../../../🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
+| `Schema` |text| From [`Issued@Issuer`](<../../../🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>)
+| 
