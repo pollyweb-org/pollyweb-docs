@@ -1,13 +1,19 @@
 @startuml Issuer.Tokens
  
 box Issuer 🎴 domain #FFFFFA
-    participant "Script" as script
+    participant "Script  📃" as script
+    participant "Talker 😃" as talker
     participant "Tokens 🪣" as tokens
 end box
 participant "Broker 🤵" as broker
 participant "Wallet 👱" as wallet
 
-script -> tokens: 💾 ISSUED
+script -> talker: ISSUE 🎫
+
+activate talker
+    talker -> tokens: 💾 ISSUED
+deactivate talker
+
 
 activate tokens
     tokens --> broker: Issue 🐌  
@@ -26,5 +32,10 @@ deactivate wallet
 activate broker
     broker --> tokens: 🐌 💾 OFFERED, accepted
 deactivate broker
+
+script -> tokens: SAVE 💾 {status, started}
+activate tokens
+    tokens --> broker: Revise 🐌 
+deactivate tokens
 
 @enduml 

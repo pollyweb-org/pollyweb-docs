@@ -11,34 +11,35 @@ participant "Wallet 👱" as wallet
 issuer -> issue: Issue 🐌 
 
 activate issue
-    issue -> tokens: 💾 ISSUED
+    issue -> tokens: 💾 {ISSUED}
 deactivate issue
 
 activate tokens
     tokens -> graph: Translate 🚀
     activate graph
-        graph -> tokens: 💾 DETAILED
+        graph -> tokens: 💾 {DETAILED}
     deactivate graph
     tokens -> wallet: Prompt 🐌 "accept?" 
 deactivate tokens
 
 activate wallet
-    wallet -> tokens: 💾 OFFERED
+    wallet -> tokens: 🐌 Reply 💾 {OFFERED}
 deactivate wallet
 
 activate tokens
-    tokens -> wallet: Save 🐌
+    tokens -> issuer: IF "no": 🐌 Offered 💾 {DECLINED}
+    tokens -> wallet: IF "yes": Save 🐌
 deactivate tokens
 
 activate wallet
-    wallet -> tokens: 💾 SAVED
+    wallet -> tokens: 🐌 Saved 💾 {SAVED}
 deactivate wallet
 
 activate tokens
-    tokens -> issuer: Offered 🐌 {answer:accepted}
+    tokens -> issuer: Offered 🐌 {accepted}
 deactivate tokens
 
-wallet -> tokens: 💾 REMOVED
-wallet -> tokens: 💾 RESTORED
+wallet -> tokens: 🐌 Pop 💾 {REMOVED}
+wallet -> tokens: 🐌 Pop 💾 {RESTORED}
 
 @enduml 
