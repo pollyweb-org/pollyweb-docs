@@ -5,7 +5,6 @@ box Issuer 🎴 domain #FFFFFA
     participant "Tokens 🪣" as tokens
     participant "OnIssued 🔔" as handler
 end box
-
 participant "Broker 🤵" as broker
 
 
