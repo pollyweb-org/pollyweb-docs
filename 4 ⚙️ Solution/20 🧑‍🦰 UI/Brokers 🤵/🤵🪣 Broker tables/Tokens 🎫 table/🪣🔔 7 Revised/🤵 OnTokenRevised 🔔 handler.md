@@ -1,4 +1,6 @@
-# 🤵 OnTokenRevised 📃 handler
+# 🤵 OnTokenRevised 🔔 handler
+
+> Part of the [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 
 <br/>
 
@@ -28,3 +30,9 @@
         Token: $Token.Token
         Issuer: $Token.Issuer
 ```
+
+Uses||
+|-|-
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) |
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Pops`](<../../Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>) [`Broker.Tokens`](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) 
+|

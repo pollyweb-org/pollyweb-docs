@@ -17,17 +17,19 @@ deactivate revise
 
 activate tokens
 
-    tokens -> frontend: 💾 {tokens}
-    activate frontend
-        frontend -> wallet: 🐌 Updated 
-    deactivate frontend
-
     tokens -> pops: 💾 INSERT
+
+    activate pops
+        pops -> wallet: Open 🐌
+        pops -> wallet: INFO ⓘ
+    deactivate pops
+
+    tokens -> frontend: 💾 {tokens}    
 deactivate tokens
 
-activate pops
-    pops -> wallet: Open 🐌
-    pops -> wallet: INFO ⓘ
-deactivate pops
+activate frontend
+    frontend -> wallet: 🐌 Updated 
+deactivate frontend
+
 
 @enduml 

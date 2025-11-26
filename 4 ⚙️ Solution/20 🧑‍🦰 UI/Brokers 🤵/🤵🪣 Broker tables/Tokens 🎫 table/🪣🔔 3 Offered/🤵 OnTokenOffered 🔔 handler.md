@@ -1,5 +1,7 @@
 # 🤵 OnTokenOffered 📃 handler
 
+> Part of the [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
+
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that processes user response to an offered [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 * Part of the [🤵 Broker.Tokens.Insert ⏩ flow](<../🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Issued ⏩ flow.md>)

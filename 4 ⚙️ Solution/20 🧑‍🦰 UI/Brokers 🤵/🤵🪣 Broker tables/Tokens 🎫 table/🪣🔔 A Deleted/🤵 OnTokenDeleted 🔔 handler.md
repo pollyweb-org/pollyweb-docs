@@ -1,7 +1,8 @@
 # 🤵 OnTokenPurged 📃 handler
 
-> Purpose: 
+> 
 
+> Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to execute when a soft delete of [`Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) is purged.
 * Triggered by the [`Raised@Itemizer` 🔔 event](<../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Raised.md>)
 
