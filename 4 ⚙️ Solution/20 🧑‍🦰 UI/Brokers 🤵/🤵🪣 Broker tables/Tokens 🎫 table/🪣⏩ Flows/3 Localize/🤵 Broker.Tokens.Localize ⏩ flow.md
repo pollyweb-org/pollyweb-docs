@@ -11,9 +11,9 @@
 Step | Purpose |
 |-|-
 |[`Pop@Broker` 🅰️ method](<../../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)| Message from [Wallet 🧑‍🦰 apps](<../../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to for a Pop
-|[`OnPopLocalize` 📃 handler](<../../../Pops 🎈 table/🪣🔔 22 Wallet » Localize/🤵 OnPopLocalize 🔔 handler.md>)| Localizes the [`Broker.Wallets` 🪣 table](<../../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
-|[`OnWalletLocalized` 📃 handler](<../../../Wallets 🧑‍🦰 table/🪣🔔 2 Localized/🤵 OnWalletLocalized 📃 handler.md>) | Localizes all the Wallet's [Tokens 🎫](<../../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+|[`OnPopLocalize` 🔔 handler](<../../../Pops 🎈 table/🪣🔔 22 Wallet » Localize/🤵 OnPopLocalize 🔔 handler.md>)| Localizes the [`Broker.Wallets` 🪣 table](<../../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
+|[`OnWalletLocalized` 🔔 handler](<../../../Wallets 🧑‍🦰 table/🪣🔔 2 Localized/🤵 OnWalletLocalized 🔔 handler.md>) | Localizes all the Wallet's [Tokens 🎫](<../../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |[`OnTokenLocalized` 📃 handler](<../../🪣🔔 6 Localized/🤵 OnTokenLocalized 📃 handler.md>) | Localizes a single item in [`Broker.Tokens`](<../../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
-|[`OnTokenAltered` 📃 handler](<../../🪣🔔 0 Altered/🤵 OnTokenAltered 📃 handler.md>)| [Script 📃](<../../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that updates the Frontend table
+|[`OnTokenAltered` 📃 handler](<../../🪣🔔 0 Altered/🤵 OnTokenAltered 🔔 handler.md>)| [Script 📃](<../../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that updates the Frontend table
 |[`OnFrontendAltered` 📃 handler](<../../../Frontend 📱 table/🪣🔔 on Altered/🤵 OnFrontendAltered 🔔 handler.md>)| [Script 📃](<../../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that refreshes the Frontend display
 |[`Frontend@Broker` 🅰️ method](<../../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 📃 handler.md>)| Call by a [Wallet 🧑‍🦰 app](<../../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) app to get the display

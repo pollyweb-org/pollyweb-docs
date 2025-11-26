@@ -1,5 +1,9 @@
 # 🤵 OnPopTokenRevised 📃 script
 
+> Part of the [`Broker.Pops` 🪣 table](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
+
+<br/>
+
 ## Script
 
 ```yaml
