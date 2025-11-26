@@ -1,8 +1,11 @@
 # 🤵 OnChatPresented 📃 handler
 
+> Part of the [`Broker.Chats` 🪣 table](<../🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
+
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that adds the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) to the [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-  
+
+<br/>  
 
 ## Diagram
 

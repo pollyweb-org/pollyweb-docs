@@ -1,5 +1,7 @@
 # 🤵 OnChatInserted 📃 handler
 
+> Part of the [`Broker.Chats` 🪣 table](<../🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
+
 > Flow
 * Triggered by [`Locate@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)
 
