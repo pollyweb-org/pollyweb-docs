@@ -14,6 +14,7 @@
 # Update the Pop
 - SAVE|$Chatter.Chat.Pop:
     .State: POPPED
+    Chat: $Chatter.Chat
 ```
 
 

@@ -24,6 +24,7 @@
 
 # Add the Chat
 - SAVE|Broker.Chats:
+    Pop: $Pop.ID
     Hook: $Pop.Hook
     Wallet: $Pop.Wallet
     Host: $.Hosted.Domain
