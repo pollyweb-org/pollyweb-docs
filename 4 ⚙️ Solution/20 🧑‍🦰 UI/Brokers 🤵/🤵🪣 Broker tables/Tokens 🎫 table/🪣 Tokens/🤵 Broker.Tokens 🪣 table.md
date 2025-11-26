@@ -19,8 +19,8 @@
 |-|-
 | [`Insert`](<../🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Insert ⏩ flow.md>) | Issues and stores a new Token
 | [`Revise`](<../🪣⏩ Flows/2 Revise/🤵 Broker.Tokens.Revise ⏩ flow.md>) | Revises an existing Token
-| [`Remove`](<🤵 Broker.Tokens.Remove ⏩ flow.md>) | Removes an existing Token
-| [`Restore`](<🤵 Broker.Tokens.Restore ⏩ flow.md>) | Restores a removed Token
+| [`Remove`](<../🪣⏩ Flows/3 Remove/🤵 Broker.Tokens.Remove ⏩ flow.md>) | Removes an existing Token
+| [`Restore`](<../🪣⏩ Flows/4 Restore/🤵 Broker.Tokens.Restore ⏩ flow.md>) | Restores a removed Token
 
 <br/>
 

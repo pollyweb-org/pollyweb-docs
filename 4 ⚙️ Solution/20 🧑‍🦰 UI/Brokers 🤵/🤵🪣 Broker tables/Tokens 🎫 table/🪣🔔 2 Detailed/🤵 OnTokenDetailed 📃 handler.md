@@ -1,5 +1,9 @@
 # 🤵 OnTokenDetailed 📃 handler
 
+> Purpose
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that asks the user to confirm or decline a newly issued [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
+* Part of the [🤵 Broker.Tokens.Insert ⏩ flow](<../🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Insert ⏩ flow.md>)
+
 <br/>
 
 ## Diagram
