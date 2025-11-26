@@ -10,7 +10,7 @@
 
 ## Lifecycle
 
-![alt text](<🤵 Broker.Pops ⚙️ uml.png>)
+![alt text](<../🪣⏩ Flows/🤵 Broker.Pops.Pop ⚙️ uml.png>)
 
 <br/>
 
