@@ -4,7 +4,15 @@
 
 > Stores [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 
+<br/>
 
+## Lifecycle
+
+![alt text](<🤵 Broker.Chats ⚙️ uml.png>)
+
+```yaml
+
+<br/>
 
 ## Schema
 
