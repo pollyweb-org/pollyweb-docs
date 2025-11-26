@@ -1,0 +1,26 @@
+@startuml Broker.Tokens.Updates
+ 
+participant "Issuer 🎴" as issuer
+box Broker 🤵 domain #FFFFFA
+    participant "Revise 🐌" as revise
+    participant "Tokens 🪣" as tokens
+    participant "Frontend 🪣" as frontend
+end box
+participant "Wallet 👱" as wallet
+    
+
+issuer -> revise: Revise 🐌 {status}
+activate revise
+    revise -> tokens: 💾 {status}
+deactivate revise
+
+activate tokens
+    tokens -> frontend: 💾 {tokens}
+deactivate tokens
+
+activate frontend
+    frontend -> wallet: 🐌 Updated 
+deactivate frontend
+
+
+@enduml 

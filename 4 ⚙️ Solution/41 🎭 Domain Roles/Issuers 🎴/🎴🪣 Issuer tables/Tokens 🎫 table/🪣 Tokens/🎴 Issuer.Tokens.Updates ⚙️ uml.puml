@@ -1,0 +1,19 @@
+@startuml Issuer.Tokens.Updates
+ 
+box Issuer 🎴 domain #FFFFFA
+    participant "Script  📃" as script
+    participant "Tokens 🪣" as tokens
+end box
+participant "Broker 🤵" as broker
+participant "Wallet 👱" as wallet
+
+
+script -> tokens: SAVE 💾 {status}
+activate tokens
+    tokens -> broker: Revise 🐌 
+deactivate tokens
+activate broker
+    broker -> wallet: Updated 🐌
+deactivate broker
+
+@enduml 
