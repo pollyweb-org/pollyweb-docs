@@ -27,7 +27,7 @@
     Hook: $Pop.Hook
     Wallet: $Pop.Wallet
     Host: $.Hosted.Domain
-    Key: ANY-KEY             # Locator key for the Host
+    Key: POP
     Inputs:
         $Pop.Context
         $Pop.Key

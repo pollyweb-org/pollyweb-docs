@@ -18,11 +18,11 @@
 
 # Assert the Chat
 - ASSERT|$Chat:
-    OneOf: Locator, Key
-    Texts: Locator, Key
+    OneOf: Locator, Host
+    Texts: Locator, Host, Key
 
 # If already resolved, set state and exit
-- IF|$Chat.Key:
+- IF|$Chat.Host:
     - SAVE|$Chat:
         .State: RESOLVED
     - RETURN
