@@ -1,7 +1,6 @@
-# 🤵 OnChatOpened 📃 script
+# 🤵 OnChatOpened 🔔 handler
 
 > Part of the [`Broker.Chats` 🪣 table](<../🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
-
 
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to the [`Opened@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 🐌 msg.md>).

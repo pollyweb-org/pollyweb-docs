@@ -1,4 +1,4 @@
-# 🤵 OnChatAltered 📃 handler
+# 🤵 OnChatAltered 🔔 handler
 
 > Part of the [`Broker.Chats` 🪣 table](<../🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
 
@@ -9,22 +9,14 @@
     * of a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     * into the [`Broker.Frontend` 🪣 table](<../../Frontend 📱 table/🪣 Frontend/🤵 Broker.Frontend 🪣 table.md>).
 
-> Flow 
 
-* Triggered by the [`Raised@Itemizer` 🔔 event](<../../../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Raised.md>)
 
 
 ## Diagram
 
 ![alt text](<🤵 OnChatAltered ⚙️ uml.png>)
 
-## How to call
 
-```yaml
-- RUN|OnChatAltered:
-    Item: 
-        Wallet: <wallet-id>
-```
 
 ## Script
 

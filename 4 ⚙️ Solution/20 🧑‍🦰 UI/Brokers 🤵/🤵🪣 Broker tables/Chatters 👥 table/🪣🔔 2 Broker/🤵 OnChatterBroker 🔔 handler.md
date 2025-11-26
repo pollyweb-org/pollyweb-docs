@@ -1,10 +1,14 @@
-# 🤵 OnChatterBroker 📃 handler
+# 🤵 OnChatterBroker 🔔 handler
+
+> Part of the [`Broker.Chatters` 🪣 table](<../🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
+
 
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) where the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
     * informs the user about the origin of the [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>), 
     * as well as the [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared with the [Host 🤗 domain](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 
+<br/>
 
 ## Diagram
 
