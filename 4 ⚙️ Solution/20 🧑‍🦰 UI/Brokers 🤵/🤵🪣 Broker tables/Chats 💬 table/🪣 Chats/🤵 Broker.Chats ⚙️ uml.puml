@@ -1,0 +1,58 @@
+@startuml Broker.Chats
+ 
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "Chats 🪣" as chats
+    participant "Chatters 🪣" as chatters
+end box
+participant "Printer 🖨️" as printer
+participant "Graph 🕸" as graph
+participant "Finder 🔎" as finder
+participant "Host 🤗" as host
+
+wallet -> chats: 🐌 Locate 💾 INSERTED
+
+activate chats
+    
+    chats -> printer: Resolve 🚀 
+    activate printer
+        printer -> chats: 💾 RESOLVED
+    deactivate printer
+
+    chats -> graph: Translate 🚀
+    activate graph
+        graph -> chats: 💾 DETAILED
+    deactivate graph
+    
+    chats -> wallet: 🐌 Open  
+deactivate chats
+
+activate wallet
+    wallet -> chats: 💾 OPENED 
+deactivate wallet
+
+activate chats
+    chats -> chatters: 💾 FINDER
+deactivate chats
+
+activate chatters
+    chatters -> finder: Present 🐌 
+deactivate chatters
+
+activate finder
+    finder -> chats: 💾 PRESENTED
+deactivate finder
+
+activate chats
+    chats -> chatters: 💾 BROKER
+deactivate chats
+
+activate chatters
+    chatters -> chats: 💾 ACTIVE
+deactivate chatters
+
+activate chats
+    chats -> host: Hello 🐌 
+deactivate chats    
+
+@enduml 

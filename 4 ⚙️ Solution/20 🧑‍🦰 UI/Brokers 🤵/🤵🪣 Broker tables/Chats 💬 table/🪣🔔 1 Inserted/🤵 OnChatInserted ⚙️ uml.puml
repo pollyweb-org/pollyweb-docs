@@ -1,13 +1,11 @@
 @startuml OnChatInserted
 
 participant "Wallet 👱" as wallet
-
 box Broker 🤵 domain #FFFFFA
     participant "Chats 🪣" as table
     participant "OnInserted 🔔" as handler
     participant "Talker 😃" as talker
 end box
-
 participant "Printer 🖨️" as printer
 
 
