@@ -5,34 +5,28 @@
 ```yaml
 📃 OnPopTokenRevised:
 
+# Assert the Pop
+- ASSERT|$Pop:
+    AllOf: Chat, Inputs.Key.Token, Inputs.Key.Issuer
+    UUIDs: Chat, Inputs.Key.Token
+    Texts: Inputs.Key.Issuer
+
 # Load the Chat settings
 - CHAT|$Pop.Chat
 
-# Read the token
-- READ >> $token:
-    Set: Broker.Tokens
-    Key:
-        Token: $Pop.Inputs.Key.Token
-        Token: $Pop.Inputs.Key.Issuer
-
 # Inform the user
 - INFO:
+    # Don't translate the title
     Text: >
         Token revised:
-        - Token: 
-    Token: 
-
-# Update the Token 🎫
-- SAVE|$token:
-    Tag: $tag
-    Title: $tag
-
-# Inform the user 🤔
-- SUCCESS|Changed.
+        - Token: ´{$Pop.Token.Title}´ 
+        - Status: {$Pop.Token.Status}
+        - Starts: {$Pop.Token.Start}
+        - Expires: {$Pop.Token.Expires}
 ```
 
 Uses||
 |-|-
-|[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SUCCESS`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`TEXT`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>) 
-| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Tokens` 🪣 table](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
+|[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) [`INFO`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Pops`](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
 |

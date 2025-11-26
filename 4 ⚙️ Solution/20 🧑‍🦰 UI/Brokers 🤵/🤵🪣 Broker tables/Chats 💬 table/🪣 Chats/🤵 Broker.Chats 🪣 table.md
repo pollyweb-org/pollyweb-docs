@@ -26,11 +26,14 @@ Item: Chat
 Key: ID
 
 Parents:
-    Wallet: 
-        Wallets.ID: Chats.Wallet
-    Pop: 
+    
+    Pop: # Pop that created the Chat
         Pops.ID: Chats.Pop
-    Host: 
+
+    Wallet: # Receiver of Open@Notifier
+        Wallets.ID: Chats.Wallet
+    
+    Host: # Receiver of Hello@Host
         Domains.Name: Chats.Host, 
         Domains.Wallet: Chats.Wallet
 

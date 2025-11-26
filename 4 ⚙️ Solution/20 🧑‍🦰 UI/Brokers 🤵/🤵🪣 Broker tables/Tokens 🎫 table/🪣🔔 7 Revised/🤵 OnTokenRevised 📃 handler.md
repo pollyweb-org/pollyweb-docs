@@ -21,11 +21,10 @@
     Times: Starts, Expires
 
 # Open a Pop to inform the user
-- SAVE|Broker.Chats:
+- SAVE|Broker.Pops:
     Wallet: $Token.Wallet
-    Host: $.Hosted.Domain
-    Inputs:
-        Context: TOKEN.REVISED
+    Context: TOKEN.REVISED
+    Key: 
         Token: $Token.Token
         Issuer: $Token.Issuer
 ```

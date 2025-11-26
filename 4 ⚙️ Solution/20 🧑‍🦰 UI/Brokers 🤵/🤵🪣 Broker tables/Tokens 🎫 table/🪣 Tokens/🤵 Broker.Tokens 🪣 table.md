@@ -58,20 +58,29 @@ Views:
 
 Handlers:
 
-    # Call Remove@Notifier
-    OnTokenPurged: 
-        Events: PURGED
-    
-    # Call Updated@Notifier
-    OnTokenChanges: 
-        Events: ALTERED
+    OnTokenAltered: ALTERED             # Save Front@Notifier
+    OnTokenIssued: ISSUED               # Call TRANSLATE
+    OnTokenDetailed: ISSUED > DETAILED  # Call Prompt@Broker
+    OnTokenOffered: DETAILED > OFFERED  # Call Save@Notifier
+    OnTokenDeclined: OFFERED > DECLINED # Call Offered@Issuer
+    OnTokenSaved: OFFERED > SAVED       # Call Offered@Issuer
+    OnTokenRemoved: REMOVED
+    OnTokenRestored: RESTORED
 
-    # Call Offered@Issuer
-    OnTokenAccepted: 
+    OnTokenLocalized:                   # Call TRANSLATE
+        Events: UPDATED
+        Assert: New.Language
+
+    OnTokenRevised:                     
         Events: UPDATED
         Assert: 
-            New.State: ACTIVE
-            Old.State: OFFERED
+            AnyOf:
+                - Old.Status
+                - New.Status
+                - Old.Starts
+                - New.Starts
+                - Old.Expires
+                - New.Expires
 ```
 
 Uses: [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>) [`.IsBetween`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ.md>) 

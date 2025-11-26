@@ -22,8 +22,11 @@ Table: Pops
 Item: Pop
 
 Parents:
-    Wallet: { Wallets.ID: Chats.Wallet }
+    Wallet: { Wallets.ID: Pops.Wallet }
     Chat: { Chats.ID: Pops.Chat }
+    Token: 
+        Tokens.Token: Pops.Inputs.Key.Token
+        Tokens.Issuer: Pops.Inputs.Key.Issuer 
 
 Handlers:
 
