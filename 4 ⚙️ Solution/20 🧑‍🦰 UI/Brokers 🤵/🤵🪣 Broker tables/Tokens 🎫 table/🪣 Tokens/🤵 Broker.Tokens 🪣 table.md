@@ -15,7 +15,7 @@
 
 ## Insert Diagram
 
-![alt text](<🤵 Broker.Tokens.Insert ⚙️ uml.png>)
+![alt text](<../🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Insert ⚙️ uml.png>)
 
 <br/>
 
