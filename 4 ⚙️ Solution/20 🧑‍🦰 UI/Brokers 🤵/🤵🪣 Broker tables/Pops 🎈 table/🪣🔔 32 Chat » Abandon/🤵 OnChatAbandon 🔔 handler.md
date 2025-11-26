@@ -1,4 +1,6 @@
-# 🤵 OnPopAbandon 📃 handler
+# 🤵 OnPopChatAbandon 📃 handler
+
+> Part of the [`Broker.Pops` 🪣 table](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
 
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to a Pop to abandon a [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
