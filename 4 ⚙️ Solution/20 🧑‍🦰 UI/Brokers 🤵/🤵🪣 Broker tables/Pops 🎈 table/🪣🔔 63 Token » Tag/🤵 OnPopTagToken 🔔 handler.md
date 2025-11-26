@@ -1,7 +1,7 @@
 # 🤵📃 Tag Token script
 
 > Flow
-* Called by the [`Pop Token` 📃 handler](<../🪣🔔 61 Token/🤵 Pop Token 📃 handler.md>)
+* Called by the [`Pop Token` 📃 handler](<../🪣🔔 61 Token/🤵 OnPopToken 🔔 handler.md>)
 
 ## Script
 

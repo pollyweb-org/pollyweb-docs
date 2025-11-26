@@ -5,6 +5,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Revise 🐌" as revise
     participant "Tokens 🪣" as tokens
     participant "Frontend 🪣" as frontend
+    participant "Pops 🪣" as pops
 end box
 participant "Wallet 👱" as wallet
     
@@ -15,12 +16,18 @@ activate revise
 deactivate revise
 
 activate tokens
+
     tokens -> frontend: 💾 {tokens}
+    activate frontend
+        frontend -> wallet: 🐌 Updated 
+    deactivate frontend
+
+    tokens -> pops: 💾 INSERT
 deactivate tokens
 
-activate frontend
-    frontend -> wallet: 🐌 Updated 
-deactivate frontend
-
+activate pops
+    pops -> wallet: Open 🐌
+    pops -> wallet: INFO ⓘ
+deactivate pops
 
 @enduml 
