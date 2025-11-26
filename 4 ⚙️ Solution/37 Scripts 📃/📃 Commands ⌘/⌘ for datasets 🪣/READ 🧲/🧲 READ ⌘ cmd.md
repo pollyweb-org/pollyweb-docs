@@ -183,7 +183,7 @@
 
 1. **How to find a child by key?**
 
-    > Used by the [`Pop Vault` 📃 handler](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Pops 🎈 table/🪣🔔 52 Bind » Remove/🤵 Remove Bind 📃 script.md>)
+    > Used by the [`Pop Vault` 📃 handler](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Pops 🎈 table/🪣🔔 52 Bind » Remove/🤵 OnPopRemoveBind 🔔 handler.md>)
 
 
     ```yaml
