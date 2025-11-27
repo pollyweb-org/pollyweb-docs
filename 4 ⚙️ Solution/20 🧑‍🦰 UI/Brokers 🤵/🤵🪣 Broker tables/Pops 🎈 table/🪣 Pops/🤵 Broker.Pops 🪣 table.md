@@ -3,7 +3,7 @@
 > Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 
 > Data access
-* [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by [`OnPopInserted` 🔔](<../🪣🔔 11 Pop/🤵 OnPopInserted 🔔 handler.md>) after [`Pop@Broker` 🅰️](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
+* [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by [`OnPopInserted` 🔔](<../🪣🧱 11 Pop 🔔 event/🤵 OnPopInserted 🔔 handler.md>) after [`Pop@Broker` 🅰️](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
 * [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by [`OnTokenRevised` 🔔](<../../Tokens 🎫 table/🪣🧱 7 Revised 🔔 event/🤵 OnTokenRevised 🔔 handler.md>) after [`Revise@Broker` 🅰️](<../../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
 
 <br/>
@@ -74,12 +74,12 @@ Handlers:
         Assert: Context.Is(TOKEN.REVISED)
 ```
 Calls: 
-* [`OnPopInserted` 🔔 handler](<../🪣🔔 11 Pop/🤵 OnPopInserted 🔔 handler.md>) 
+* [`OnPopInserted` 🔔 handler](<../🪣🧱 11 Pop 🔔 event/🤵 OnPopInserted 🔔 handler.md>) 
 * [`OnPopWallet` 🔔 handler](<../🪣🔔 21 Wallet/🤵 OnPopWallet 🔔 handler.md>) 
 * [`OnPopChat` 🔔 handler](<../🪣🔔 31 Chat/🤵 OnPopChat 🔔 handler.md>) 
 * [`OnPopBind` 🔔 handler](<../🪣🔔 51 Bind/🤵 OnPopBind 🔔 handler.md>) 
-* [`OnPopToken` 🔔 handler](<../🪣🔔 61 Token/🤵 OnPopToken 🔔 handler.md>) 
-* [`OnPopTokenRevised` 🔔 handler](<../🪣🔔 65 Token.Revised/🤵 OnPopTokenRevised 🔔 handler.md>)
+* [`OnPopToken` 🔔 handler](<../🪣🧱 61 Token 🔔 event/🤵 OnPopToken 🔔 handler.md>) 
+* [`OnPopTokenRevised` 🔔 handler](<../🪣🧱 65 Token.Revised 🔔 event/🤵 OnPopTokenRevised 🔔 handler.md>)
 
 <br/>
 
