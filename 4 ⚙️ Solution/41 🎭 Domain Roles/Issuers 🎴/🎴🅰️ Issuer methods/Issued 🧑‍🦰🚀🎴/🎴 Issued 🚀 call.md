@@ -12,8 +12,8 @@
 > Implementation
 * Implemented by the [`Issued` 📃 script](<🎴 Issued 📃 handler.md>)
 * Part of the [🧑‍🦰 `Save token` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save Token ⏩ flow.md>) 
-* Part of the [🎴 `Issuer.Tokens.Issued` ⏩ flow](<../../🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Issued flow/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
-* Part of the [🤵 `Broker.Tokens.Issued` ⏩ flow](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Issued ⏩ flow.md>)
+* Part of the [🎴 `Issuer.Tokens.Issue` ⏩ flow](<../../🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Issued flow/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
+* Part of the [🤵 `Broker.Tokens.Issue` ⏩ flow](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣🧱 1 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>)
 
 <br/>
 

@@ -8,8 +8,8 @@
     * offered by an [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
 
 > Implementation
-* Implemented by the [🎴 `Issuer.Tokens.Issued` ⏩ flow](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Issued flow/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
-* Implemented by the [🤵 `Broker.Tokens.Issued` ⏩ flow](<../../../../Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Issued ⏩ flow.md>)
+* Implemented by the [🎴 `Issuer.Tokens.Issue` ⏩ flow](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Issued flow/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
+* Implemented by the [🤵 `Broker.Tokens.Issue` ⏩ flow](<../../../../Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣🧱 1 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>)
 
 <br/>
 
