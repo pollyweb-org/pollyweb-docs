@@ -1,5 +1,7 @@
 # 🤵 OnBindDetailed 📃 handler
 
+> Part of the {{Broker.Binds table}}
+
 > Purpose
 * Confirms if a user accepts a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>).
 

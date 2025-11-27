@@ -1,5 +1,7 @@
 # 🤵 OnBindAltered 📃 event
 
+> Part of the {{Broker.Binds table}}
+
 > Purpose
 
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) 

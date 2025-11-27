@@ -4,6 +4,8 @@
 
 > Stores [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 
+<br/>
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
@@ -15,23 +17,46 @@ Prefix: Broker
 Table: Binds
 Item: Bind
 Key: Vault, Wallet, Schema
+```
 
+<br/>
+
+Here's the {{Item Parents}} definition.
+
+```yaml
 Parents:
-    Chat: 
+
+    Chat: # Chat where the Bind was offered
         Chats.ID: Binds.Chat
-    Wallet: 
+
+    Wallet: # Wallet that owns the Bind
         Wallets.ID: Binds.Wallet
-    Vault: 
+    
+    Vault: # Vault that offered the Bind
         Domains.Name: Binds.Vault
         Domains.Wallet: Binds.Wallet
-    Schema:
+
+    Schema: # Schema that defines the Bind
         Schemas.Code: Binds.Schema
         Schemas.Wallet: Binds.Wallet
 
+```
+
+<br/>
+
+Here's the {{Item Propagate}} definition.
+
+```yaml
 Propagate:
     - Vault
     - Schema
+```
 
+<br/>
+
+Here's the {{Item Handlers}} definition.
+
+```yaml
 Handlers:
 
     OnBindAltered: 

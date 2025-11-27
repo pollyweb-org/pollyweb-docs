@@ -1,8 +1,11 @@
 # 🤵 OnBindOffered 📃 handler
 
+> Part of the {{Broker.Binds table}}
+
 > Purpose
 * Translates a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) offered by a [Vault 🗄️ domain](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)
 * Reacts to the [`Bind@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>)
+* The item may already exist in the `REJECTED` or `REMOVED` state.
 
 ## Flow
 
