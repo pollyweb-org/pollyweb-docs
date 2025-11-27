@@ -1,13 +1,16 @@
-# 🤵 OnBindDetailed 📃 handler
+# 🤵 OnBindDetailed 🔔 handler
 
-> Part of the [`Broker.Binds` 🪣 table](<../🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
-
-> Purpose
+> About
+* Part of the [`Broker.Binds` 🪣 table](<../🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
 * Confirms if a user accepts a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>).
+
+<br/>
 
 ## Flow
 
 ![alt text](<🤵 OnBindDetailed ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 

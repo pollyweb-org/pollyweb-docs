@@ -1,4 +1,4 @@
-# 🤵 OnBindRemoved 📃 handler
+# 🤵 OnBindRemoved 🔔 handler
 
 > Part of the [`Broker.Binds` 🪣 table](<../🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
 
