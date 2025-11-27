@@ -87,7 +87,7 @@ Handlers:
 |`STARTED`|[OnStarted](<../🪣🧱 16 Activated 🔔 event/🤵 OnChatActivated 🔔 handler.md>) | [`Hello@`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
 |`UPDATED`|[OnLocalized](<../🪣🧱 21 Localized 🔔 event/🤵 OnChatLocalized 🔔 handler.md>) | [`Translate@`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 📃 handler.md>) | [Graph 🕸](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>)
 |`ABANDONED`|[OnAbandoned](<../🪣🧱 31 Abandoned 🔔 event/🤵 OnChatAbandoned 🔔 handler.md>) | [`Abandoned@`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
-|`DONE`|[OnDone](<../🪣🧱 41 Done 🔔 event/🤵 OnChatDone 🔔 handler.md>)
+|`DONE`|[OnDone](<../🪣🧱 41 Closed 🔔 event/🤵 OnChatDone 🔔 handler.md>)
 |
 
 ## Example
