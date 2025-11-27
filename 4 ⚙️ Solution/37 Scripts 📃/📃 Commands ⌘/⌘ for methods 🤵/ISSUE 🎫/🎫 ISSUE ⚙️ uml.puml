@@ -1,19 +1,14 @@
 @startuml ISSUE
 
 
-box Talker 😃️ domain #FFFFFA
+box Issuer 🎴️ domain #FFFFFA
     participant "Script 📃" as script
     participant ".ISSUE 📃" as talker
-    'participant "Consumer 💼" as consumer
-    participant "Issuer 🎴" as issuer
-end box
-
-box Itemizer 🛢  #FFFFFA
-    participant "Hooks" as hooks
+    participant "Tokens 🪣" as hooks
+    participant "Inbox 📥" as issuer 
 end box
 
 participant "Broker 🤵" as broker
-'participant "Vault 🗄️" as vault
 participant "Wallet 👱" as wallet
 
 activate script
@@ -21,36 +16,43 @@ activate script
 deactivate script
 
 activate talker
-    talker -> hooks: SAVE 💾 {hook}
-    talker --> broker: SEND 📬 {Offer 🐌 hook}
-activate broker
-    talker -> talker: WAIT {hook}
+    talker -> hooks: SAVE 💾 
+activate hooks
+    talker -> talker: WAIT 🧘
 deactivate talker
 
+    hooks --> broker: SEND 📬 {Offer 🐌}
+deactivate hooks
+
+activate broker
     broker --> wallet: Save 🐌
 deactivate broker
 
 activate wallet
-    wallet -> issuer: Issued 🚀 {hook}
+    wallet -> issuer: Issued 🚀 
 
     activate issuer
-        issuer -> hooks: READ 🧲 {hook}
-        issuer -> wallet: {offer}
+        issuer -> hooks: READ 🧲 
+        issuer -> wallet: 
     deactivate issuer
 
     wallet --> broker: Saved 🐌
 deactivate wallet
 
 activate broker
-    broker --> issuer: Accepted 🐌 {hook, token}
+    broker --> issuer: Offered 🐌 
 deactivate broker
 
 activate issuer
-    issuer -> talker: REEL 🎣 {hook, token}
+    issuer --> hooks: SAVE 💾 
 deactivate issuer
 
+activate hooks
+    hooks -> talker: REEL 🎣 
+deactivate hooks
+
 activate talker
-    talker -> script: RETURN {token}
+    talker -> script: RETURN 
 deactivate talker
 
 activate script
