@@ -1,10 +1,6 @@
 @startuml OnTokenRevised
  
-
-'participant "Vault 🗄️" as vault
-'participant "Graph 🕸" as graph
 participant "Issuer 🎴" as issuer
-
 box Broker 🤵 domain #FFFAFA
     participant "Revise 🐌" as script
     participant "OnLanguage 🔔" as script
@@ -13,7 +9,6 @@ box Broker 🤵 domain #FFFAFA
     participant "Pops 🪣" as pops
     participant "Chats 🪣" as chats
 end box
-
 participant "Wallet 👱" as wallet
 
 

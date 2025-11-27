@@ -2,6 +2,8 @@
 
 > Part of the [`Broker.Pops` 🪣 table](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
 
+> Part of the [`Broker.Tokens.Revise` ⏩ flow](<../🪣⏩ Flows/2 Revise/🤵 Broker.Tokens.Revise ⏩ flow.md>)
+
 <br/>
 
 ## Script
