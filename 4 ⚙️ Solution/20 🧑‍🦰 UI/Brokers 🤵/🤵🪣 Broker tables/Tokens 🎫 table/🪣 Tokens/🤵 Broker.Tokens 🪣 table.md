@@ -119,7 +119,13 @@ Here's the [Item 🛢 Views](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢
 
 ```yaml
 Views:
-    ACTIVE: # Filter for Frontend@ and Query@ 
+
+    FRONTEND: # Filter for Frontend@ 
+        
+        # From the Token lifecycle
+        - .State.IsIn(ACTIVE, RESTORED)
+
+    QUERY: # Filter for Query@ 
 
         # From the Token lifecycle
         - .State.IsIn(ACTIVE, RESTORED)
