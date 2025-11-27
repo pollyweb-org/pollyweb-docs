@@ -1,16 +1,13 @@
 @startuml OnBindDetailed
  
 box Broker 🤵 domain #FFFFFA
-    participant "OnCreated 🔔" as created
     participant "Binds 🪣" as binds
     participant "OnDetailed 🔔" as detailed
 end box
-
 participant "Wallet 👱" as wallet
 
 
 
-created -> binds: SAVE 💾 {DETAILED}
 activate binds
     binds --> detailed: DETAILED 🔔
 deactivate binds
