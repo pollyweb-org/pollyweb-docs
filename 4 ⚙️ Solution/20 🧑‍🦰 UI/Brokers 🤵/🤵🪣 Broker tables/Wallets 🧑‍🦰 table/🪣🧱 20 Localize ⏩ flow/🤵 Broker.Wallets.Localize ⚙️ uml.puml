@@ -1,0 +1,35 @@
+@startuml Broker.Tokens.Updates
+ 
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "Pop 🐌" as pop
+    participant "Wallets 🪣" as wallets
+    participant "Binds, Chats, Domains, Tokens 🪣" as tables
+    participant "Frontend 🪣" as frontend
+end box
+participant "Graph 🕸" as graph
+participant "Notifier 📣" as notifier
+
+
+wallet -> pop: Pop 🐌 {WALLET}
+activate pop
+    wallet -> pop: {language: X}
+    pop -> wallets: 💾 {language}
+deactivate pop    
+
+activate wallets
+    wallets -> tables: 💾 {language}
+activate tables
+    wallets -> tables: 
+    wallets -> tables: 
+deactivate wallets
+
+    tables -> graph: TRANSLATE 🈯 {issuer, schema}
+    tables -> frontend: 💾 {wallet-related items}
+deactivate tables
+
+activate frontend
+    frontend -> notifier: IF changed: 🐌 Updated
+deactivate frontend
+
+@enduml 

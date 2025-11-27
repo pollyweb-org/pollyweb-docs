@@ -1,5 +1,9 @@
 # 🤵 OnWalletLocalized 📃 handler
 
+> About
+* Part of the [🤵 `Broker.Wallets.Localize` ⏩ flow](<../🪣🧱 20 Localize ⏩ flow/🤵 Broker.Wallets.Localize ⏩ flow.md>)
+
+
 <br/>
 
 ## Diagram
