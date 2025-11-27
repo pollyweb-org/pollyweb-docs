@@ -32,14 +32,14 @@
     ```yaml
     # Multi-field assertions
     ASSERT|$object:
-        - AllOf: <fields> # Required fields
-        - AnyOf: <fields> # One or more of these
-        - OneOf: <fields> # Only one of these
-        - UUIDs: <fields> # UUID fields
-        - Texts: <fields> # Text fields
-        - Times: <fields> # Time fields
-        - Lists: <fields> # List fields
-        - Nums: <fields> # Numeric fields
+        AllOf: <fields> # Required fields
+        AnyOf: <fields> # One or more of these
+        OneOf: <fields> # Only one of these
+        UUIDs: <fields> # UUID fields
+        Texts: <fields> # Text fields
+        Times: <fields> # Time fields
+        Lists: <fields> # List fields
+        Nums: <fields> # Numeric fields
     ```
     
     | Input| Purpose |  Examples |Behavior
@@ -136,10 +136,10 @@
 
     # Verify the list items.
     ASSERT|$list:
-        - AllOf: A, B
-        - A.IsBetween(10,19)
-        - B.IsBetween(20,29)
-        - C.IsIn(X,Y) 
+        AllOf: A, B
+        A.IsBetween: 10, 19
+        B.IsBetween: 20, 29
+        C.IsIn: X,Y
     ```
     Uses: [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`.IsBetween`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ.md>) [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
 

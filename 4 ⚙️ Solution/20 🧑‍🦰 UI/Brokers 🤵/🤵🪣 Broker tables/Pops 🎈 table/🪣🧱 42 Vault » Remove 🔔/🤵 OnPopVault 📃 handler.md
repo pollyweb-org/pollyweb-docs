@@ -8,9 +8,9 @@
 
 # Assert $.Msg
 - ASSERT|$.Msg:
-    - AllOf: Hook, Vault
-    - UUIDs: Hook
-    - Texts: Vault
+    AllOf: Hook, Vault
+    UUIDs: Hook
+    Texts: Vault
     
 # Get the Vault 
 - SELECT >> $vault:

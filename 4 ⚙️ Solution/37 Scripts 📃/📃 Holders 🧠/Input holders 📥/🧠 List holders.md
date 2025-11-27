@@ -89,10 +89,10 @@
     ```yaml
     📃 Example:
     - ASSERT|$list:
-        - AllOf: A, B
-        - A.IsBetween(10,19)
-        - B.IsBetween(20,29)
-        - C.IsIn(X,Y)
+        AllOf: A, B
+        A.IsBetween: 10, 19
+        B.IsBetween: 20, 29
+        C.IsIn: X, Y
     ```
     Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ.md>) [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
 

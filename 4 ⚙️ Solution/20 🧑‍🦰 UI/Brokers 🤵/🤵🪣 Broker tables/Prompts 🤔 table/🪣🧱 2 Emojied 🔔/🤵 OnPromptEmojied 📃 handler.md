@@ -8,10 +8,10 @@
 
 # Assert the prompt
 - ASSERT|$Prompt:
-    - AllOf: Hook, Chat, Wallet, Sender, Notifier
-    - UUIDs: Hook, Chat, Wallet
-    - Texts: Format, Emoji, Sender, Notifier
-    - Format.Length.IsAtMost(1)
+    AllOf: Hook, Chat, Wallet, Sender, Notifier
+    UUIDs: Hook, Chat, Wallet
+    Texts: Format, Emoji, Sender, Notifier
+    Emoji.Length.IsAtMost: 1
 
 # Forward to the notifier
 - SEND: 

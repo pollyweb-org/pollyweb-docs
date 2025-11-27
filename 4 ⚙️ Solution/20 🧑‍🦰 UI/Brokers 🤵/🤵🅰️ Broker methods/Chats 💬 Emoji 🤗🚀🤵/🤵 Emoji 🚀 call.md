@@ -4,10 +4,10 @@
 
 # Assert the message
 - ASSERT|$.Msg:
-    - AllOf: Chat, Emoji
-    - UUIDs: Chat
-    - Texts: Emoji
-    - Emoji.Length.IsAtMost(1)
+    AllOf: Chat, Emoji
+    UUIDs: Chat
+    Texts: Emoji
+    Emoji.Length.IsAtMost: 1
 
 # Get the Chatter
 - READ:

@@ -29,9 +29,9 @@ RUN|.CHAT:
 
 # Assert the required fields
 - ASSERT|$.Inputs:
-    - AllOf: Broker, Chat
-    - Texts: Broker
-    - UUIDs: Chat
+    AllOf: Broker, Chat
+    Texts: Broker
+    UUIDs: Chat
 
 # Get the details from the Broker
 - SEND >> $details:

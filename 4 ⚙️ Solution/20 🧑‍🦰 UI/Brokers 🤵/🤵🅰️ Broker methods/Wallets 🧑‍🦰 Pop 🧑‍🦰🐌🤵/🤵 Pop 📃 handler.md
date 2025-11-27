@@ -20,8 +20,8 @@
 
 # Assert $.Msg
 - ASSERT|$.Msg:
-    - AllOf: Hook 
-    - UUIDs: Hook
+    AllOf: Hook
+    UUIDs: Hook
 
 # Get the Wallet
 - READ >> $wallet:

@@ -15,8 +15,8 @@
 
 # Assert the Wallet
 - ASSERT|$Wallet:
-    - AllOf: Language
-    - Texts: Language
+    AllOf: Language
+    Texts: Language
 
 # Update all related entities in this Wallet
 - PARALLEL:

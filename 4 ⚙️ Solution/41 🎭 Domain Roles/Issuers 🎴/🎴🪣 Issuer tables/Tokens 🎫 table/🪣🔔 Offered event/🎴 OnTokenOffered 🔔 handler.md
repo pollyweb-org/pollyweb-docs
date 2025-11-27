@@ -17,9 +17,9 @@
 
 # Assert the Token
 - ASSERT|$Token:
-    - AllOf: Token, Answer
-    - UUIDs: Token
-    - Answer.IsIn(ACCEPTED, DECLINED)
+    AllOf: Token, Answer
+    UUIDs: Token
+    Answer.IsIn: ACCEPTED, DECLINED
 
 # Continue the Talker
 - REEL|$Token.Token:

@@ -12,8 +12,8 @@
 
 # Assert the message
 - ASSERT|$.Msg:
-    - AllOf: Token
-    - UUIDs: Token
+    AllOf: Token
+    UUIDs: Token
 
 # Verify the message
 - VERIFY|$.Msg

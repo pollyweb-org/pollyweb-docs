@@ -17,9 +17,9 @@
 
 # Assert the Token
 - ASSERT|$Token:
-    - AllOf: Token, Status
-    - UUIDs: Token
-    - Status.IsIn(REVOKED, SUSPENDED, ACTIVE)
+    AllOf: Token, Status
+    UUIDs: Token
+    Status.IsIn: REVOKED, SUSPENDED, ACTIVE
 
 # Inform the Broker
 - SEND:

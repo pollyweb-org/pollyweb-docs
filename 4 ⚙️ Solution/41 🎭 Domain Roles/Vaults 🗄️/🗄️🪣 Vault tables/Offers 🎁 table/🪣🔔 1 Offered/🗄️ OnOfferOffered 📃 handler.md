@@ -23,10 +23,10 @@
 
 # Assert the Offer
 - ASSERT|$Offer:
-    - AllOf: Broker, Hook, Chat, Schemas
-    - Texts: Broker
-    - UUIDs: Hook, Chat
-    - Lists: Schemas
+    AllOf: Broker, Hook, Chat, Schemas
+    Texts: Broker
+    UUIDs: Hook, Chat
+    Lists: Schemas
 
 # Send the message to the Broker
 - SEND:
