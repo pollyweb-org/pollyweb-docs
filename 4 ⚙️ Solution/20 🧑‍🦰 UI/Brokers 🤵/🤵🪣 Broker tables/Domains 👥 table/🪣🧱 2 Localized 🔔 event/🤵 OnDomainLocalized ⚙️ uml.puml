@@ -2,21 +2,14 @@
  
 
 box Broker 🤵 domain #FFFFFA
-    participant "Wallets 🪣" as wallets
-    participant "OnLocalized 🔔" as script
     participant "Domains 🪣" as domains
     participant "OnLocalized 🔔" as handler
 end box
 participant "Graph 🕸" as graph
 
 
-wallets --> script: CHANGED 🔔
-activate script
-    script -> domains: SAVE 💾 {language}
-deactivate script
-
 activate domains
-    domains --> handler: UPDATED 🔔
+    domains --> handler: UPDATED 🔔 {language}
 deactivate domains
 
 activate handler

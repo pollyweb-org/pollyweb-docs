@@ -4,7 +4,7 @@ participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Pop 🐌" as pop
     participant "Wallets 🪣" as wallets
-    participant "Binds, Chats, Domains, Tokens 🪣" as tables
+    participant "Binds, Chats, Domains, \n Schemas, Tokens 🪣" as tables
     participant "Frontend 🪣" as frontend
 end box
 participant "Graph 🕸" as graph
@@ -25,7 +25,7 @@ activate tables
 deactivate wallets
 
     tables -> graph: TRANSLATE 🈯 {issuer, schema}
-    tables -> frontend: 💾 {wallet-related items}
+    tables -> frontend: 💾 {wallet items}
 deactivate tables
 
 activate frontend

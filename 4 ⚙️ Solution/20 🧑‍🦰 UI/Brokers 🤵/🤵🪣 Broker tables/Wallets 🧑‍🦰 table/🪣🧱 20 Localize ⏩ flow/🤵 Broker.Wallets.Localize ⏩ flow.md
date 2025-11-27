@@ -1,7 +1,14 @@
 # 🤵 Broker.Tokens.Localize ⏩ flow
 
-> Part of the [`Broker.Tokens` 🪣 table](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
+> About
+* Part of the [`Broker.Tokens` 🪣 table](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 
+> Triggers
+* [🤵 `OnBindLocalized` 🔔 handler](<../../Binds 🔗 table/🪣🧱 5 Localized 🔔 event/🤵 OnBindLocalized 🔔 handler.md>)
+* [🤵 `OnChatLocalized` 🔔 handler](<../../Chats 💬 table/🪣🧱 7 Localized 🔔 event/🤵 OnChatLocalized 🔔 handler.md>)
+* [🤵 `OnDomainLocalized` 🔔 handler](<../../Domains 👥 table/🪣🧱 2 Localized 🔔 event/🤵 OnDomainLocalized 🔔 handler.md>)
+* [🤵 `OnSchemaLocalized` 🔔 handler](<../../Schemas 🧩 table/🪣🧱 Localized 🔔 event/🤵 OnSchemaLocalized 🔔 handler.md>)
+* [🤵 `OnTokenLocalized` 🔔 handler](<../../Tokens 🎫 table/🪣🧱 31 Localized 🔔 event/🤵 OnTokenLocalized 🔔 handler.md>)
 <br/>
 
 ## Diagram
