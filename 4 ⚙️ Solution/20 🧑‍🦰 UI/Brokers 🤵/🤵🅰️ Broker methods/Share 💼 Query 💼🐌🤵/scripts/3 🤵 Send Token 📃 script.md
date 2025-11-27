@@ -6,10 +6,10 @@
 
 # Assert the list items
 - ASSERT|$trusted:
-    - AllOf: Schema, Schema$, Domain, Type, ID
-    - UUIDs: ID
-    - Texts: Schema, Schema$, Domain, Type
-    - Type.IsIn(TOKEN,BIND)
+    AllOf: Schema, Schema$, Domain, Type, ID
+    UUIDs: ID
+    Texts: Schema, Schema$, Domain, Type
+    Type.IsIn: TOKEN,BIND
 
 # Get all tokens
 - FILTER|$trusted >> $tokens:

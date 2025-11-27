@@ -12,10 +12,10 @@
 
 # Assert the message
 - ASSERT|$.Msg:
-    - AllOf: Token, Answer
-    - UUIDs: Token
-    - Texts: Answer
-    - Answer.IsIn(ACCEPTED, DECLINED)
+    AllOf: Token, Answer
+    UUIDs: Token
+    Texts: Answer
+    Answer.IsIn: ACCEPTED, DECLINED
 
 # Verify the message
 - VERIFY|$.Msg

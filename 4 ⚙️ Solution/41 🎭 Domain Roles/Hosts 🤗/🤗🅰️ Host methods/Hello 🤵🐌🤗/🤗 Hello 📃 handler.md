@@ -22,8 +22,8 @@
 
 # Assert the message
 - ASSERT|$.Msg:
-    - AllOf: Chat
-    - UUIDs: Chat
+    AllOf: Chat
+    UUIDs: Chat
 
 # Set the chat
 - CHAT:

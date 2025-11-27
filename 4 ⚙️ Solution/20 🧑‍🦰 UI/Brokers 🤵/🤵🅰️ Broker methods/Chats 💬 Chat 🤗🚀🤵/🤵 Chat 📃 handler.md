@@ -15,8 +15,8 @@
 
 # Assert the message
 - ASSERT|$.Msg:
-    - AllOf: Chat
-    - UUIDs: Chat
+    AllOf: Chat
+    UUIDs: Chat
 
 # Verify the message
 - VERIFY|$.Msg

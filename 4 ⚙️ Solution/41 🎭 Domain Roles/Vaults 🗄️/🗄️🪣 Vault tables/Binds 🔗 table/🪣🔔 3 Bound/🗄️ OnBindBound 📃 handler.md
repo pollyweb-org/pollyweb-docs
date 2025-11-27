@@ -18,8 +18,8 @@
 
 # Assert the inputs
 - ASSERT|$Bind:
-    - AllOf: Answer
-    - Answer.IsIn(ACCEPTED, DECLINED)
+    AllOf: Answer
+    Answer.IsIn: ACCEPTED, DECLINED
 
 # Return the call
 - REEL|$Bind.ID:

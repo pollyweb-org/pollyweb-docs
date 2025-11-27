@@ -18,10 +18,10 @@
 
 # Assert the inputs
 - ASSERT|$.Msg:
-    - AllOf: Thread, Text
-    - UUIDs: Thread
-    - Texts: Level, Text, Group, Blame
-    - Level.IsIn(INFO, WARNING, ERROR)
+    AllOf: Thread, Text
+    UUIDs: Thread
+    Texts: Level, Text, Group, Blame
+    Level.IsIn: INFO, WARNING, ERROR
 
 # Get the thread
 - READ >> $thread:
@@ -35,7 +35,7 @@
 # Discard by group filter, if set
 - IF|$thread.Groups:
     IF|$.Msg.Group.NotIn($thread.Groups):
-      RETURN
+        RETURN
 
 # Save the log entry
 - SAVE|Logger.Entry:

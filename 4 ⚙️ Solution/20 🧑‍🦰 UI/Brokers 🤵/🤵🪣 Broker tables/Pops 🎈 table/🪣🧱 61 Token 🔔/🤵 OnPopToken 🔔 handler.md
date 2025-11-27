@@ -13,8 +13,8 @@
 
 # Assert $.Msg
 - ASSERT|$.Msg:
-    - AllOf: Hook, Token
-    - UUIDs: Hook, Token
+    AllOf: Hook, Token
+    UUIDs: Hook, Token
 
 # Get the Token 🎫
 - READ >> $token:
