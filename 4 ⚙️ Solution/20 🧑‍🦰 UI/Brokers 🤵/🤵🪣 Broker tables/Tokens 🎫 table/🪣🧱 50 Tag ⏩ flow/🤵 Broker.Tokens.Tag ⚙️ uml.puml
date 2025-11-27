@@ -2,20 +2,25 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
+    participant "Pop 🐌" as pop
     participant "Tokens 🪣" as tokens
     participant "Frontend 🪣" as frontend
 end box
 participant "Notifier 📣" as notifier
     
 
-wallet -> tokens: 🐌 Pop 💾 {tag: X}
+wallet -> pop: Pop 🐌 {TOKEN}
+activate pop
+    wallet -> pop: {tag}
+    pop -> tokens: 💾 {tag: X}
+deactivate pop    
 
 activate tokens
     tokens -> frontend: 💾 {wallet tokens}    
 deactivate tokens
 
 activate frontend
-    frontend -> notifier: IF changed: 🐌 Updated 
+    frontend -> notifier: 🐌 Updated 
 deactivate frontend
 
 @enduml 
