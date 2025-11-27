@@ -21,7 +21,7 @@ Key: Vault, Wallet, Schema
 
 <br/>
 
-Here's the {{Item Parents}} definition.
+Here's the [`Item Parents`](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) definition.
 
 ```yaml
 Parents:
@@ -44,7 +44,7 @@ Parents:
 
 <br/>
 
-Here's the {{Item Propagate}} definition.
+Here's the [`Item Propagate`](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) definition.
 
 ```yaml
 Propagate:
@@ -54,7 +54,7 @@ Propagate:
 
 <br/>
 
-Here's the {{Item Handlers}} definition.
+Here's the [`Item Handlers`](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition.
 
 ```yaml
 Handlers:

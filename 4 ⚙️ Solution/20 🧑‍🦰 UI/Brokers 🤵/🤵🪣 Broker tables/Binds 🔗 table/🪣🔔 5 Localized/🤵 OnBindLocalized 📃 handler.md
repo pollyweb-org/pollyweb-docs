@@ -1,6 +1,6 @@
 # 🤵 OnBindLocalized 📃 handler
   
-> Part of the {{Broker.Binds table}}
+> Part of the [`Broker.Binds` 🪣 table](<../🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
 
 <br/>
 
