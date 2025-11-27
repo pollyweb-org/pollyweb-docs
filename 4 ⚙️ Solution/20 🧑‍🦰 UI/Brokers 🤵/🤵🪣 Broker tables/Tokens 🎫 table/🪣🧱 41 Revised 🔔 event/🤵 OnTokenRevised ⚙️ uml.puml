@@ -1,0 +1,20 @@
+@startuml OnTokenRevised
+ 
+box Broker 🤵 domain #FFFAFA
+    participant "Tokens 🪣" as tokens
+    participant "OnRevised 🔔" as onRevised
+    participant "Pops 🪣" as pops
+end box
+
+
+activate tokens
+    tokens --> onRevised: UPDATED 🔔 {status, starts, expires}
+deactivate tokens
+
+activate onRevised
+    onRevised -> pops: 💾 {TOKEN.REVISED}
+deactivate onRevised
+
+
+
+@enduml 

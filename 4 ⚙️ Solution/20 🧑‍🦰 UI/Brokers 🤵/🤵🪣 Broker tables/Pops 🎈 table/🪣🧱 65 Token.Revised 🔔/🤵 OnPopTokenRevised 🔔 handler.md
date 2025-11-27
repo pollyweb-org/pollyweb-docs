@@ -2,7 +2,7 @@
 
 > About
 * Part of the [`Broker.Pops` 🪣 table](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
-* Part of the [`Broker.Tokens.Revise` ⏩ flow](<../../Tokens 🎫 table/🪣🧱 7 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>)
+* Part of the [`Broker.Tokens.Revise` ⏩ flow](<../../Tokens 🎫 table/🪣🧱 40 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>)
 
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts 

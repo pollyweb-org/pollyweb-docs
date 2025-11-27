@@ -1,0 +1,20 @@
+@startuml OnTokenIssued
+ 
+box Broker 🤵 domain #FFFFFA
+    participant "Tokens 🪣" as tokens
+    participant "OnIssued 🔔" as handler
+end box
+participant "Graph 🕸" as graph
+
+
+activate tokens
+    tokens --> handler: ISSUED 🔔
+deactivate tokens
+
+activate handler
+    handler -> graph: TRANSLATE 🈯 
+    handler -> tokens: SAVE 💾 {DETAILED}
+deactivate handler
+
+
+@enduml 

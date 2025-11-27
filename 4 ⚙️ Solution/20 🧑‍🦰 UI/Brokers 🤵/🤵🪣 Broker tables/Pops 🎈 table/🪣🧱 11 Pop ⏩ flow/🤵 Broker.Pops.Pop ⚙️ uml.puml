@@ -24,7 +24,7 @@ activate chats
 deactivate chats
 
 activate wallet
-    wallet -> chats: 💾 OPENED 
+    wallet -> chats: 🐌 Opened 💾 OPENED 
 deactivate wallet
 
 activate chats
