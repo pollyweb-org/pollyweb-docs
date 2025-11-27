@@ -1,12 +1,11 @@
 # 🗄️📃 Bound script
 
-> Flow
-* Part of the [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>)
+> Part of the [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>)
 
 > Purpose
 
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Bound@Vault` 🅰️ method](<🗄️ Bound 🐌 msg.md>).
-* Returns a [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to the [`BIND` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND 📃 script.md>).
+* Returns a confirmation to the [`BIND` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND 📃 script.md>).
 
 
 

@@ -16,9 +16,14 @@
 ```yaml
 📃 OnBindBound:
 
+# Assert the inputs
+- ASSERT|$Bind:
+    - AllOf: Answer
+    - Answer.IsIn(ACCEPTED, DECLINED)
+
 # Return the call
 - REEL|$Bind.ID:
-    Bound: $Bind.Bound
+    $Bind.Answer.Is(ACCEPTED)
 ```
 
 Uses||
