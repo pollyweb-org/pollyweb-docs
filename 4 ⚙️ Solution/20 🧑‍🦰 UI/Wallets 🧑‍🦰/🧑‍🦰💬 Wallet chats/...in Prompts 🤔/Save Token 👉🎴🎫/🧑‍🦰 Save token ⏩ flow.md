@@ -1,11 +1,15 @@
 <!-- https://quip.com/YdJpA3idWduO#temp:C:afPf2204358162a42529b4a902e9 -->
 
-# 🎴⏩🧑‍🦰 Save Token @ Wallet
+# 🧑‍🦰 `Save Token` ⏩ flow
 
 > Purpose
 * On the [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), 
     * a user accepts a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) 
     * offered by an [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
+
+> Implementation
+* Implemented by the [🎴 `Issuer.Tokens.Insert` ⏩ flow](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Flows/1. Issue/🎴 Issuer.Tokens.Insert ⏩ flow.md>)
+* Implemented by the [🤵 `Broker.Tokens.Issued` ⏩ flow](<../../../../Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Issued ⏩ flow.md>)
 
 <br/>
 
