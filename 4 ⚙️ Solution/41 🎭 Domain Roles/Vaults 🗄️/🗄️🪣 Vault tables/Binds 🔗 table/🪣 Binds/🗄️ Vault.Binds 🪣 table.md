@@ -1,6 +1,16 @@
-# 🪣 Binds
+# 🗄️ Vault.Binds 🪣 table
 
-> Stores the content of [`Bound@Broker`](<../../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+> About
+* Stores the content of the {{Bound@Vault}}
+
+<br/>
+
+## Data Access
+
+| Action | [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | [`DELETE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) |
+|-|-|-|-|
+| [`Bound` 📃 handler](<../../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 📃 handler.md>) |  | X |  |
+
 
 
 <br/>
@@ -23,11 +33,10 @@ Key: Broker, Bind
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 ```yaml
-# READ|Binds|<broker>,<bind-id>
 Broker: any-broker.dom
 Bind: <bind-id>
 Schema: .BIND
-User: <user-reference>
+Reference: <user-reference>
 ```
 
 | Property | Type | Details
@@ -35,5 +44,5 @@ User: <user-reference>
 | `Broker` |text| From [`Bound@Broker`](<../../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 | `Bind`| uuid | From [`Bound@Broker`](<../../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 | `Schema` |text| From [`Bound@Broker`](<../../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-| `User` | any | Internal anchor
+| `Reference` | any | Internal anchor
 | 

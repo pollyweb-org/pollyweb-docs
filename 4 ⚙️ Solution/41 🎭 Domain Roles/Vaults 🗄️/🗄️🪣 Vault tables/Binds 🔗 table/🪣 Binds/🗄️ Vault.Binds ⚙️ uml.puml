@@ -1,0 +1,31 @@
+@startuml Vault.Binds
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Script" as script
+    participant "BIND" as cmd
+    participant "Binds 🪣" as binds
+    participant "OnUnbound 🔔" as trigger
+    ''participant "Talker 😃" as talker
+end box
+participant "Broker 🤵" as broker
+participant "Wallet 👱" as wallet
+participant "Hosted 📦" as hosted
+
+cmd -> binds: BIND ⌘ {bind}
+broker --> script: Unbound 🐌
+
+activate script
+    script -> binds: SAVE 💾 {UNBOUND}
+deactivate script
+
+activate binds
+    binds --> trigger: UNBOUND 🔔
+deactivate binds
+
+activate trigger
+    trigger --> hosted: ASYNC 👷🏼 {Unbound}
+    trigger -> binds: DELETE 🗑️
+deactivate trigger
+
+
+@enduml 
