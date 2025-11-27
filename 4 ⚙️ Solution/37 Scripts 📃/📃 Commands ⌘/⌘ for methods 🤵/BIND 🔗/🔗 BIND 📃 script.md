@@ -2,6 +2,9 @@
 
 > Purpose
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`BIND`](<🔗 BIND ⌘ cmd.md>) command.
+* Part of the [🧑‍🦰 `Bind Vault` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind Vault ⏩ flow.md>)
+* Part of the 
+
 
 <br/>
 
@@ -15,8 +18,10 @@
 
 ```yaml
 - RUN|.BIND:
-    Reference: my-user
     Schema: schema-1
+    Reference: my-user
+    Internals:
+        extra: data
 ```
 Uses: [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
 
@@ -29,16 +34,21 @@ Uses: [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
 
 # Assert the inputs
 - ASSERT|$.Inputs:
-    AllOf: Schema, Reference
-    Texts: Schema
+    AllOf: Schema
+    Texts: Schema, Reference
 
 # Save the bind
 - SAVE|Vault.Binds >> $bind:
-    Broker: $.Chat.Broker
-    Chat: $.Chat.ID
+    
+    # From $.Inputs
     Schema: $Schema
     Reference: $Reference
-
+    Internals: $Internals
+    
+    # From $.Chat
+    Broker: $.Chat.Broker
+    Chat: $.Chat.ID
+    
 # Wait for the bound schema
 - WAIT >> $bound:
     Hook: $bind.ID

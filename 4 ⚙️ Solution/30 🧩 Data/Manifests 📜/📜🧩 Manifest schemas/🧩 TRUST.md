@@ -28,7 +28,7 @@
 
   || Value | Notes
   |-|-|-
-  || `VAULT` | The info disclosed by the named [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) is trusted.  
+  || `VAULT` | The info disclosed by the named [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) is trusted.  
   || `CONSUMER` | The named [Consumer 💼](<../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) is allowed to perform queries.
   || `*` | Default, includes all options above.
   |

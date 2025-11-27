@@ -34,7 +34,7 @@ Body:
 
 |Object|Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
-| Header    |`From`|text| [Vault 🗄️ domain](<../../../Vaults 🗄️/🗄️🎭 Vault role.md>) | [`Bound@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+| Header    |`From`|text| [Vault 🗄️ domain](<../../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | [`Bound@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 |           |`To`|text| [Consumer 💼](<../../💼🎭 Consumer role.md>) | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 |           | `Subject`     | string    | `Context@Consumer`
 | Body      | `Hook`        | uuid      | Hook | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)

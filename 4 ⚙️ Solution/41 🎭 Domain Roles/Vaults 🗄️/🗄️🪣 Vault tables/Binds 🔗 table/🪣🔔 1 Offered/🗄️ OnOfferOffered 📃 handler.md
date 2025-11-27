@@ -1,7 +1,7 @@
 # 🗄️ OnOfferOffered 📃 handler
 
 > Implementation 
-* Part of the [Vault 🗄️ domain](<../../../🗄️🎭 Vault role.md>)
+* Part of the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>)
 
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) 

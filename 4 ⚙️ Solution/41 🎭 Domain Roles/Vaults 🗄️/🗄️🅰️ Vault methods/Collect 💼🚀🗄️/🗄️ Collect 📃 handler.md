@@ -1,7 +1,7 @@
 # 🗄️📃 Collect handler
 
 > Implementation
-* Implements the [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>)
+* Implements the [Vault 🗄️ domain](<../../🗄️ Vault/🗄️🎭 Vault role.md>)
 
 > Flow
 * Part of the [`Consume` ⏩ flow](<../../🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>)
