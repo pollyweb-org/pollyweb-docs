@@ -1,5 +1,8 @@
 # 🎴 OnTokenIssued 📃 handler
 
+> Part of the [`Issuer.Tokens` 🪣 table](<../🪣 Tokens/🎴 Issuer.Tokens 🪣 table.md>)
+
+<br/>
 
 ## Diagram
 
