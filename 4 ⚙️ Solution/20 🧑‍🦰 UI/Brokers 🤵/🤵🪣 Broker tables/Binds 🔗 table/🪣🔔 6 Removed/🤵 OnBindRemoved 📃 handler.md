@@ -4,9 +4,13 @@
 
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that plans the [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to be deleted in a random future.
   
+<br/>
+
 ## Diagram
 
 ![alt text](<🤵 OnBindRemoved ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 
