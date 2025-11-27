@@ -1,0 +1,29 @@
+@startuml Broker.Binds.Bind
+ 
+participant "Vault 🗄️" as vault
+box Broker 🤵 domain #FFFFFA
+    participant "Bind 🐌" as script
+    participant "Binds 🪣" as binds
+end box
+participant "Graph 🕸" as graph
+participant "Wallet 👱" as wallet
+
+
+activate vault
+    vault -> script: Bind 🐌
+deactivate vault
+
+activate script
+    script -> binds: 💾 OFFERED
+deactivate script
+
+activate binds
+    binds -> graph: TRANSLATE 🈯 
+    binds -> binds: 💾 DETAILED
+    binds -> wallet: CONFIRM 👍 "accept?"
+    binds -> binds: 💾 BOUND
+    binds -> vault: Bound 🐌
+deactivate binds
+
+
+@enduml 
