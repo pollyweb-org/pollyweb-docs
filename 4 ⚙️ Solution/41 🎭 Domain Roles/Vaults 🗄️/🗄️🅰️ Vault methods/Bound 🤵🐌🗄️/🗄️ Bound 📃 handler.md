@@ -8,14 +8,15 @@
 * Returns a confirmation to the [`BIND` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND 📃 script.md>).
 
 
-
+<br/>
 
 ## Flow
 
 ![alt text](<🗄️ Bound ⚙️ uml.png>)
 
-## Handler
+<br/>
 
+## Handler
 
 ```yaml
 📃 Bound@Vault:

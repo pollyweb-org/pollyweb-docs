@@ -1,0 +1,20 @@
+@startuml Unbound@Vault
+
+participant "Broker 🤵" as broker
+box Vault 🗄️ domain #FFFFFA
+    participant "Unbound 🐌" as vault
+    participant "Binds 🪣" as binds
+end box
+
+
+activate broker
+    broker --> vault: Unbound 🐌 {bind}
+deactivate broker
+
+activate vault
+    vault -> binds: READ {bind}
+    vault -> binds: SAVE 💾 {BOUND}
+deactivate vault
+
+
+@enduml 
