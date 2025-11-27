@@ -16,3 +16,4 @@ Step | Purpose |
 |[`OnPopTokenRevised` 🔔 handler](<../../Pops 🎈 table/🪣🧱 65 Token.Revised 🔔/🤵 OnPopTokenRevised 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that notifies the user
 |[`OnFrontendAltered` 🔔 handler](<../../Frontend 📱 table/🪣🧱 Altered 🔔 event/🤵 OnFrontendAltered 🔔 handler.md>)| [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that refreshes the Frontend display
 |[`Frontend@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 📃 handler.md>)| Call by a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) app to get the display
+|
