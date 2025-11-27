@@ -40,6 +40,11 @@
         SAVE|$domain:
             Language: $Wallet.Language
 
+    # Update all Schemas in this Wallet
+    - PARALLEL|$Wallet.Schemas|$schema:
+        SAVE|$schema:
+            Language: $Wallet.Language
+
     # Update all Tokens in this Wallet
     - PARALLEL|$Wallet.Tokens|$token:
         SAVE|$token:

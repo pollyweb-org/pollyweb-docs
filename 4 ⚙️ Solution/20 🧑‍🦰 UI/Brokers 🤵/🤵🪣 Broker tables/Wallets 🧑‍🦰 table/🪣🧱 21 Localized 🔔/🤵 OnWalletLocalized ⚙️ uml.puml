@@ -6,6 +6,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Binds 🪣" as binds
     participant "Chats 🪣" as chats
     participant "Domains 🪣" as domains
+    participant "Schemas 🪣" as schemas
     participant "Tokens 🪣" as tokens
 end box
 
@@ -20,6 +21,7 @@ activate script
     activate script
         script -> chats: 
         script -> domains: 
+        script -> schemas: 
         script -> tokens: 
     deactivate script
 deactivate script

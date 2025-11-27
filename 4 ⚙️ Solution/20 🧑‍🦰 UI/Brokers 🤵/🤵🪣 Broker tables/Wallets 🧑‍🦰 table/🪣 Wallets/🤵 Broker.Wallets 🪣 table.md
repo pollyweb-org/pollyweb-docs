@@ -24,14 +24,14 @@ Item: Wallet
 Key: ID
 
 Parents:
-    Notifier: { Notifiers.Name: Wallets.Notifier }
+    Notifier: { Notifiers.Name: Wallet.Notifier }
 
 Children:
     Binds: { Binds.Wallet: Wallet.ID }
-    Chats: { Chats.Wallet: Wallets.ID }
-    Tokens: { Tokens.Wallet: Wallet.ID }
+    Chats: { Chats.Wallet: Wallet.ID }
     Domains: { Domains.Wallet: Wallet.ID }
     Schemas: { Schemas.Wallet: Wallet.ID }
+    Tokens: { Tokens.Wallet: Wallet.ID }
 
 Distincts: 
     Hosts: Chats.Host
