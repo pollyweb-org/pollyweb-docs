@@ -9,7 +9,7 @@
 
 > Implementation
 * Implemented by the [🎴 `Issuer.Tokens.Issue` ⏩ flow](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Issued flow/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
-* Implemented by the [🤵 `Broker.Tokens.Issue` ⏩ flow](<../../../../Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣🧱 20 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>)
+* Implemented by the [🤵 `Broker.Tokens.Issue` ⏩ flow](<../../../../Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣🧱 10 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>)
 
 <br/>
 

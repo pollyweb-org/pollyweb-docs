@@ -4,7 +4,7 @@
 
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to the [`Issue@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>).
-* Part of the [🤵 Broker.Tokens.Insert ⏩ flow](<../🪣🧱 20 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>)
+* Part of the [🤵 Broker.Tokens.Insert ⏩ flow](<../🪣🧱 10 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>)
 
 <br/>
 
