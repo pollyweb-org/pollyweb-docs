@@ -21,8 +21,8 @@ activate binds
     binds -> graph: TRANSLATE 🈯 
     binds -> binds: 💾 DETAILED
     binds -> wallet: CONFIRM 👍 "accept?"
-    binds -> binds: 💾 BOUND
-    binds -> vault: Bound 🐌
+    binds -> binds: 💾 BOUND or REJECTED
+    binds -> vault: Bound 🐌 {answer}
 deactivate binds
 
 
