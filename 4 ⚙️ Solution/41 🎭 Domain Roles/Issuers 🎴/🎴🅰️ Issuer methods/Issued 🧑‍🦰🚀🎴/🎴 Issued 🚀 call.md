@@ -1,12 +1,12 @@
-<!-- Docs: https://quip.com/a167Ak79FKlt#temp:C:TMB24db6408284b4de5a52bcdfec -->
-<!-- Test: https://github.com/jorgemjfonseca/domain-trust-framework/blob/2896911396280f90ec68c32b50aa99dc4a3c90e2/python/roles/issuer/ISSUER_TESTS.py#L16 -->
-
-
 # 🧑‍🦰🚀🎴 Issued @ Issuer
 
-> Implemented by the [`Issued` 📃 script](<🎴 Issued 📃 handler.md>)
 
-> Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) flow.
+> Implementation
+* Part of an [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>)
+* Implemented by the [`Issued` 📃 script](<🎴 Issued 📃 handler.md>)
+
+> Flow
+* Part of the [🎴⏩🧑‍🦰 Offer Token @ Issuer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) flow.
 
 > Purpose
 * Allows for a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) to be downloaded 

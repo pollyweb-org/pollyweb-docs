@@ -1,5 +1,9 @@
 # 🤵🐌🎴 Removed @ Issuer
 
+> Implementation
+* Part of an [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>)
+* Implemented by the [`Removed` 📃 script](<🎴 Removed 📃 handler.md>)
+
 > Purpose
 * Tells an [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>) 
     * that a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) was removed by the user.
