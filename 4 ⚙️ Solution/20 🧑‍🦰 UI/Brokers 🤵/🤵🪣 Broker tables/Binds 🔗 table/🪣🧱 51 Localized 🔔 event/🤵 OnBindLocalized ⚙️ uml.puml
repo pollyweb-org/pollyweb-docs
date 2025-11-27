@@ -15,7 +15,7 @@ deactivate binds
 
 activate handler
     handler -> graph: TRANSLATE 🈯 
-    handler -> binds: SAVE 💾 {DETAILED}
+    handler -> binds: SAVE 💾 {translation}
 deactivate handler
 
 
