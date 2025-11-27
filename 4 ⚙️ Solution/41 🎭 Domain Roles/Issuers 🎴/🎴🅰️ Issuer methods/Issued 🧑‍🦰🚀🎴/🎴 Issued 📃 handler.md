@@ -3,6 +3,7 @@
 > Purpose
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Issued@Issuer` 🅰️ method](<🎴 Issued 🚀 call.md>).
 
+
 <br/>
 
 ## Scripts
