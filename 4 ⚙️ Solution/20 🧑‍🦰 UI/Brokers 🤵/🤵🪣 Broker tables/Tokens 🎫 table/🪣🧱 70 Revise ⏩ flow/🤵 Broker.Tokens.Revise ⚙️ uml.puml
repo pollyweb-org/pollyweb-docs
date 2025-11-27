@@ -18,10 +18,16 @@ deactivate revise
 
 activate tokens
 
+group update the Frontend
+
     tokens -> frontend: 💾 {tokens}    
     activate frontend
         frontend -> wallet: 🐌 Updated 
     deactivate frontend
+
+end group
+
+group Pop-up the info
 
     tokens -> pops: 💾 INSERT
 deactivate tokens
@@ -46,6 +52,6 @@ activate pops
     pops -> wallet: INFO ⓘ {status}
 deactivate pops
 
-
+end group
 
 @enduml 
