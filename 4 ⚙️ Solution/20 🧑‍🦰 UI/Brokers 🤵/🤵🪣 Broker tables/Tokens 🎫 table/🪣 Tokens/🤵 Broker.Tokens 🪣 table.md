@@ -18,10 +18,10 @@
 |#|Flow ⏩|Purpose
 |-|-|-
 |1| [`Issue`](<../🪣🧱 10 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>) | Receives and stores a new [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
-|2| [`Revise`](<../🪣🧱 40 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>) | Changes the status of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
-|3| [`Tag`](<../🪣🧱 20 Tag ⏩ flow/🤵 Broker.Tokens.Tag ⏩ flow.md>) | Adds a user tag a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) 
+|2| [`Revise`](<../🪣🧱 20 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>) | Changes the status of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+|3| [`Tag`](<../🪣🧱 50 Tag ⏩ flow/🤵 Broker.Tokens.Tag ⏩ flow.md>) | Adds a user tag a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) 
 |4| [`Localize`](<../🪣🧱 30 Localize ⏩ flow/🤵 Broker.Tokens.Localize ⏩ flow.md>) | Changes the language of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
-|5| [`Remove`](<../🪣🧱 50 Remove ⏩ flow/🤵 Broker.Tokens.Remove ⏩ flow.md>) | Removes an existing [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+|5| [`Remove`](<../🪣🧱 60 Remove ⏩ flow/🤵 Broker.Tokens.Remove ⏩ flow.md>) | Removes an existing [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 
 <br/>
 
@@ -102,15 +102,15 @@ Handlers:
 
 Events 🪣 | Handler 🔔 |  Message 📨 | Save 💾
 |-|-|-|-
-`ALTERED` | [`OnTokenAltered`](<../🪣🧱 21 Altered 🔔 event/🤵 OnTokenAltered 🔔 handler.md>) | [`Updated@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) 
+`ALTERED` | [`OnTokenAltered`](<../🪣🧱 00 Altered 🔔 event/🤵 OnTokenAltered 🔔 handler.md>) | [`Updated@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) 
 `ISSUED`| [`OnTokenIssued`](<../🪣🧱 11 Issued 🔔 event/🤵 OnTokenIssued 🔔 handler.md>) | [`TRANSLATE` 🈯](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>) | `DETAILED`
 `DETAILED`| [`OnTokenDetailed`](<../🪣🧱 12 Detailed 🔔 event/🤵 OnTokenDetailed 🔔 handler.md>) | [`CONFIRM` 👍](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) | `OFFERED`
 `OFFERED`| [`OnTokenOffered`](<../🪣🧱 13 Offered 🔔 event/🤵 OnTokenOffered 🔔 handler.md>) | [`Save@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | 
 `DECLINED` | [`OnTokenDeclined`](<../🪣🧱 14 Declined 🔔 event/🤵 OnTokenDeclined 🔔 handler.md>) | [`Offered@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>)  |
 `SAVED` | [`OnTokenSaved`](<../🪣🧱 15 Saved 🔔 event/🤵 OnTokenSaved 🔔 handler.md>) | [`Offered@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>)  |
-`REMOVED` | [`OnTokenRemoved`](<../🪣🧱 51 Removed 🔔 event/🤵 OnTokenRemoved 🔔 handler.md>) | [`Removed@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Removed 🤵🐌🎴/🎴 Removed 🐌 msg.md>)  |
+`REMOVED` | [`OnTokenRemoved`](<../🪣🧱 61 Removed 🔔 event/🤵 OnTokenRemoved 🔔 handler.md>) | [`Removed@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Removed 🤵🐌🎴/🎴 Removed 🐌 msg.md>)  |
 `UPDATED` | [`OnTokenLocalized`](<../🪣🧱 31 Localized 🔔 event/🤵 OnTokenLocalized 🔔 handler.md>) | [`TRANSLATE` 🈯](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>) |
-`UPDATED` | [`OnTokenRevised`](<../🪣🧱 41 Revised 🔔 event/🤵 OnTokenRevised 🔔 handler.md>) |   |
+`UPDATED` | [`OnTokenRevised`](<../🪣🧱 21 Revised 🔔 event/🤵 OnTokenRevised 🔔 handler.md>) |   |
 |
 
 <br/>

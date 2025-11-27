@@ -19,7 +19,7 @@ Step | Purpose |
 |[`OnTokenDetailed` 🔔 handler](<../🪣🧱 12 Detailed 🔔 event/🤵 OnTokenDetailed 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that asks for user confirmation
 |[`OnTokenOffered` 🔔 handler](<../🪣🧱 13 Offered 🔔 event/🤵 OnTokenOffered 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that processes user response
 |[`OnTokenSaved` 🔔 handler](<../🪣🧱 15 Saved 🔔 event/🤵 OnTokenSaved 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that finalizes the Token storage
-|[`OnTokenAltered` 🔔 handler](<../🪣🧱 21 Altered 🔔 event/🤵 OnTokenAltered 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that gets the Tokens to display
+|[`OnTokenAltered` 🔔 handler](<../🪣🧱 00 Altered 🔔 event/🤵 OnTokenAltered 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that gets the Tokens to display
 |[`OnFrontendAltered` 🔔 handler](<../../Frontend 📱 table/🪣🧱 Altered 🔔 event/🤵 OnFrontendAltered 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that refreshes the Frontend display
 |[`Frontend@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>) | Call by a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to get the display
 |
