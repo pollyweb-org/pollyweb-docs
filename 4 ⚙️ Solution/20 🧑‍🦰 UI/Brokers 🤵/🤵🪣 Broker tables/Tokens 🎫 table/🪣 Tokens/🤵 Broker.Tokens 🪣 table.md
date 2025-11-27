@@ -18,7 +18,7 @@
 |#|Flow ⏩|Purpose
 |-|-|-
 |1| [`Issue`](<../🪣🧱 10 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>) | Receives and stores a new [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
-|2| [`Revise`](<../🪣🧱 20 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>) | Changes the status of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+|2| [`Revise`](<../🪣🧱 70 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>) | Changes the status of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |3| [`Tag`](<../🪣🧱 50 Tag ⏩ flow/🤵 Broker.Tokens.Tag ⏩ flow.md>) | Adds a user tag a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) 
 |4| [`Localize`](<../🪣🧱 30 Localize ⏩ flow/🤵 Broker.Tokens.Localize ⏩ flow.md>) | Changes the language of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |5| [`Remove`](<../🪣🧱 60 Remove ⏩ flow/🤵 Broker.Tokens.Remove ⏩ flow.md>) | Removes an existing [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
@@ -110,7 +110,7 @@ Events 🪣 | Handler 🔔 |  Message 📨 | Save 💾
 `SAVED` | [`OnTokenSaved`](<../🪣🧱 15 Saved 🔔 event/🤵 OnTokenSaved 🔔 handler.md>) | [`Offered@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>)  |
 `REMOVED` | [`OnTokenRemoved`](<../🪣🧱 61 Removed 🔔 event/🤵 OnTokenRemoved 🔔 handler.md>) | [`Removed@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Removed 🤵🐌🎴/🎴 Removed 🐌 msg.md>)  |
 `UPDATED` | [`OnTokenLocalized`](<../🪣🧱 31 Localized 🔔 event/🤵 OnTokenLocalized 🔔 handler.md>) | [`TRANSLATE` 🈯](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>) |
-`UPDATED` | [`OnTokenRevised`](<../🪣🧱 21 Revised 🔔 event/🤵 OnTokenRevised 🔔 handler.md>) |   |
+`UPDATED` | [`OnTokenRevised`](<../🪣🧱 71 Revised 🔔 event/🤵 OnTokenRevised 🔔 handler.md>) |   |
 |
 
 <br/>
