@@ -4,7 +4,7 @@
 * Part of the [`Broker.Tokens` 🪣 table](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 
 > Triggers
-* [🤵 `OnBindLocalized` 🔔 handler](<../../Binds 🔗 table/🪣🧱 5 Localized 🔔 event/🤵 OnBindLocalized 🔔 handler.md>)
+* [🤵 `OnBindLocalized` 🔔 handler](<../../Binds 🔗 table/🪣🧱 51 Localized 🔔 event/🤵 OnBindLocalized 🔔 handler.md>)
 * [🤵 `OnChatLocalized` 🔔 handler](<../../Chats 💬 table/🪣🧱 21 Localized 🔔 event/🤵 OnChatLocalized 🔔 handler.md>)
 * [🤵 `OnDomainLocalized` 🔔 handler](<../../Domains 👥 table/🪣🧱 2 Localized 🔔 event/🤵 OnDomainLocalized 🔔 handler.md>)
 * [🤵 `OnSchemaLocalized` 🔔 handler](<../../Schemas 🧩 table/🪣🧱 Localized 🔔 event/🤵 OnSchemaLocalized 🔔 handler.md>)
