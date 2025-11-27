@@ -108,7 +108,7 @@ Events 🪣 | Handler 🔔 |  Message 📨 | Save 💾
 `OFFERED`| [`OnTokenOffered`](<../🪣🔔 3 Offered/🤵 OnTokenOffered 🔔 handler.md>) | [`Save@Notifier` 🅰️ ](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | 
 `DECLINED` | [`OnTokenDeclined`](<../🪣🔔 4 Declined/🤵 OnTokenDeclined 🔔 handler.md>) | [`Offered@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>)  |
 `SAVED` | [`OnTokenSaved`](<../🪣🔔 5 Saved/🤵 OnTokenSaved 🔔 handler.md>) | [`Offered@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>)  |
-`REMOVED` | [`OnTokenRemoved`](<../🪣🔔 6 Removed/🤵 OnTokenRemoved 🔔 handler.md>) | [`Removed@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Removed 🤵🐌🎴/🎴 Removed 🐌 msg.md>)  |
+`REMOVED` | [`OnTokenRemoved`](<../🪣🔔 8 Removed/🤵 OnTokenRemoved 🔔 handler.md>) | [`Removed@Issuer` 🅰️](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Removed 🤵🐌🎴/🎴 Removed 🐌 msg.md>)  |
 `UPDATED` | [`OnTokenLocalized`](<../🪣🔔 6 Localized/🤵 OnTokenLocalized 🔔 handler.md>) | [`TRANSLATE` 🈯](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>) |
 `UPDATED` | [`OnTokenRevised`](<../🪣🔔 7 Revised/🤵 OnTokenRevised 🔔 handler.md>) |   |
 |
@@ -159,6 +159,9 @@ SchemaTitle: Any Schema Title
 Description: Any Schema description.
 Title: Any Schema, by Any Issuer
 
+# From Saved@Broker
+Path: /path/to/token
+
 # From Revise@Broker
 Status: REVOKED
 
@@ -176,6 +179,7 @@ Tag: My Token
 | `Schema` |text| [Schema Code 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`Issue@`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | [`Query@`](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 | `Starts` | time | Valid from | [`Issue@`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | [`Query@`](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 | `Expires` | time | Valid until | [`Issue@`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | [`Query@`](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+| `Path` |text| [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) path | [`Saved@`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) | [`Frontend@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
 | `Status`|text| `ACTIVE` <br/> `SUSPENDED` <br/> `REVOKED` | [`Revise@`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>) | [`Query@`](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 | `Tag` |text| User alias | [`Pop@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | [`Frontend@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
 | `Title`|text| [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) title | (multiple) | [`Frontend@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)

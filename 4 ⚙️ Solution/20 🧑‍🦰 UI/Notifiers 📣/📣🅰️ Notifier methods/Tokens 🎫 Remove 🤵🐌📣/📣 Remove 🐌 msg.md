@@ -5,8 +5,6 @@
 
 > Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
 
-> Called by the [`OnTokenPurged` 📃 script](<../../../Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣🔔 A Deleted/🤵 OnTokenDeleted 🔔 handler.md>)
-
 
 <br/>
 
@@ -19,7 +17,7 @@ Header:
 
 Body:
     Wallet: <wallet-id>
-    Token: <token-uuid>
+    Path: <token-path>
 ```
 
 
@@ -29,5 +27,5 @@ Body:
 ||`To`|text| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 ||`Subject`|text|`Remove@Broker`
 |Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
-||`Token`    |uuid| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) key | [`Save@`](<../Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
+||`Path`    |text| Path to [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | [`Saved@Broker`](<../../../Brokers 🤵/🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>)
 |
