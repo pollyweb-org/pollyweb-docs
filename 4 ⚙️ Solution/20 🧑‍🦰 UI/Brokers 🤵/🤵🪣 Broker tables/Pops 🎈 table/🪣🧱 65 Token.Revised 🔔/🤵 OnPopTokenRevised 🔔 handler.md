@@ -1,8 +1,19 @@
 # 🤵 OnPopTokenRevised 📃 script
 
-> Part of the [`Broker.Pops` 🪣 table](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
+> About
+* Part of the [`Broker.Pops` 🪣 table](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
+* Part of the [`Broker.Tokens.Revise` ⏩ flow](<../../Tokens 🎫 table/🪣🧱 7 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>)
 
-> Part of the [`Broker.Tokens.Revise` ⏩ flow](<../../Tokens 🎫 table/🪣🧱 7 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>)
+> Purpose
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts 
+    * to an [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) invocation 
+    * of the [`Revise@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>).
+
+<br/>
+
+## Diagram
+
+![alt text](<🤵 OnPopTokenRevised ⚙️ uml.png>)
 
 <br/>
 
@@ -33,6 +44,6 @@
 
 Uses||
 |-|-
-|[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) [`INFO`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)
+|[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) [`INFO`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) 
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Pops`](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
 |
