@@ -1,15 +1,20 @@
 # 🤵🪣 Tokens @ Broker table
 
-> Implementation
+> About
 * Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Stores [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by [Issuer 🎴 domains](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
+* Mirrors the [`Issuer.Tokens` 🪣 table](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣 Tokens/🎴 Issuer.Tokens 🪣 table.md>) on [Issuer 🎴 domains](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
 
-> Purpose
-* Stores [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by [Issuer 🎴 domains](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
-* Mirrors the [`Issuer.Tokens` 🪣 table](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣 Tokens/🎴 Issuer.Tokens 🪣 table.md>) on [Issuer 🎴 domains](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
+<br/>
 
-> Data access
-* Read by [`Frontend@Broker`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>) 
-* Written by [`Issue@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) [`Saved@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) [`Revise@Broker`](<../../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
+## Data access
+
+|[Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)|[`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)|[`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)|[`DELETE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>)|
+|-|:-:|:-:|:-:|
+|[`Issue@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 📃 handler.md>) | | X
+|[`Saved@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 📃 handler.md>) | X | X
+|[`Revise@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 📃 handler.md>) | X |X
+|
 
 <br/>
 
@@ -123,17 +128,17 @@ Views:
     FRONTEND: # Filter for Frontend@ 
         
         # From the Token lifecycle
-        - .State.IsIn(ACTIVE, RESTORED)
+        .State.IsIn: ACTIVE, RESTORED
 
     QUERY: # Filter for Query@ 
 
         # From the Token lifecycle
-        - .State.IsIn(ACTIVE, RESTORED)
+        .State.IsIn: ACTIVE, RESTORED
 
         # From Issue@Broker and Revise@Broker
-        - Status.Is(ACTIVE) 
-        - Starts.IsPast                 
-        - Expires.IsEmpty.Or.IsFuture
+        Status.Is: ACTIVE
+        Starts.IsPast:
+        Expires.IsEmpty.Or.IsFuture:
 ```
 
 Uses: [`.Is`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.IsPast`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsPast ⓕ.md>) [`.IsEmpty`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsEmpty ⓕ.md>) [`.IsFuture`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsFuture ⓕ.md>) [`.Or`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Or ⓕ.md>)

@@ -1,4 +1,4 @@
-# 😃📃 Talker `Script:`
+# 😃📃 Talker `Script`
 
 > Part of [Talker 😃](<../Talkers 😃/😃🤲 Talker helper.md>)
 
