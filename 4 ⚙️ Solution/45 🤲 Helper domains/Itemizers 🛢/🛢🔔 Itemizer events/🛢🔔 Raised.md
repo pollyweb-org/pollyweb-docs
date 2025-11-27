@@ -13,10 +13,6 @@
     * via the [`Delete@Itemizer`](<../🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>) method.
 
 
-> Used by 
-
-* [`TokenTimeout` 📃 script](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣🔔 A Deleted/🤵 OnTokenDeleted 🔔 handler.md>)
-
 
 ## Async Message 🐌
 
