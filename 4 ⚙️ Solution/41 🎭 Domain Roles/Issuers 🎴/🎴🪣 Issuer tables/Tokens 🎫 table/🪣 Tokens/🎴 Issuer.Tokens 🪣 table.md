@@ -9,14 +9,14 @@
 
 ## Insert Diagram
 
-![alt text](<../🪣⏩ Flows/1. Issue/🎴 Issuer.Tokens.Insert ⚙️ uml.png>)
+![alt text](<../🪣⏩ Flows/1. Issued/🎴 Issuer.Tokens.Issued ⚙️ uml.png>)
 
 <br/>
 
 
 ## Updates Diagram
 
-![alt text](<../🪣⏩ Flows/2. Revise/🎴 Issuer.Tokens.Updates ⚙️ uml.png>)
+![alt text](<../🪣⏩ Flows/2. Revised/🎴 Issuer.Tokens.Revised ⚙️ uml.png>)
 
 <br/>
 

@@ -1,4 +1,4 @@
-@startuml Issuer.Tokens.Updates
+@startuml Issuer.Tokens.Revised
  
 box Issuer 🎴 domain #FFFFFA
     participant "Script  📃" as script
