@@ -8,8 +8,8 @@ box Broker 🤵 domain #FFFFFA
     participant "Binds 🪣" as binds
     participant "OnRemoved 🔔" as handler
 end box
+participant "Vault 🗄️" as vault
 
-'participant "Vault 🗄️" as vault
 
 wallet --> script: Pop 🐌
 
@@ -22,7 +22,7 @@ activate binds
 deactivate binds
 
 activate handler
-    handler --> binds: SAVE 💾 {.Delete: N hours}
+    handler --> vault: SEND 📬 {Unbound@}
 deactivate handler
 
 @enduml 
