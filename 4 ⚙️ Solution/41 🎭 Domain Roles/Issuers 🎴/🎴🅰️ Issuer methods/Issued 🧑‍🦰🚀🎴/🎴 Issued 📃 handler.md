@@ -2,7 +2,7 @@
 
 > Purpose
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Issued@Issuer` 🅰️ method](<🎴 Issued 🚀 call.md>).
-* Part of the [🎴 `Issuer.Tokens.Issued` ⏩ flow](<../../🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Flows/1. Issued/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
+* Part of the [🎴 `Issuer.Tokens.Issued` ⏩ flow](<../../🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Issued flow/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
 
 <br/>
 
