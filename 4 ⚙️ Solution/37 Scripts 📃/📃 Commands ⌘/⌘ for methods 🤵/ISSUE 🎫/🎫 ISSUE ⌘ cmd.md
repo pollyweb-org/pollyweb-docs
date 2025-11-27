@@ -7,7 +7,7 @@
 > Implementation
 * Implemented by the [`ISSUE` 📃 script](<🎫 ISSUE 📃 script.md>)
 * Part of the [🧑‍🦰 `Save Token` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save Token ⏩ flow.md>)
-* Part of the [🎴 `Issuer.Tokens.Issued` ⏩ flow](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Flows/1. Issued/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
+* Part of the [🎴 `Issuer.Tokens.Issued` ⏩ flow](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Issued flow/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
 
   
 <br/>
