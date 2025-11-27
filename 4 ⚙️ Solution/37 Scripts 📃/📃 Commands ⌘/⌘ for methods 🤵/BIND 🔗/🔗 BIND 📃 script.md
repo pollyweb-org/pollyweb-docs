@@ -15,10 +15,8 @@
 
 ```yaml
 - RUN|.BIND:
-    User: my-user
-    Schemas:
-      - schema-1
-      - schema-n
+    Reference: my-user
+    Schema: schema-1
 ```
 Uses: [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
 
@@ -31,15 +29,15 @@ Uses: [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
 
 # Assert the inputs
 - ASSERT|$.Inputs:
-    AllOf: Schemas, User
-    Lists: Schemas
+    AllOf: Schema, Reference
+    Texts: Schema
 
 # Save the bind
 - SAVE|Vault.Binds >> $bind:
     Broker: $.Chat.Broker
     Chat: $.Chat.ID
-    Schemas: $Schemas
-    User: $User
+    Schema: $Schema
+    Reference: $Reference
 
 # Wait for the bound schema
 - WAIT >> $bound:
