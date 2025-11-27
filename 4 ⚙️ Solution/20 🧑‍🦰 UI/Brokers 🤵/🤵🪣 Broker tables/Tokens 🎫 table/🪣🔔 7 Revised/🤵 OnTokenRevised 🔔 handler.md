@@ -2,6 +2,8 @@
 
 > Part of the [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 
+> Part of the [`Broker.Tokens.Revise` ⏩ flow](<../🪣⏩ Flows/2 Revise/🤵 Broker.Tokens.Revise ⏩ flow.md>)
+
 <br/>
 
 ## Diagram
