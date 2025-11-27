@@ -8,7 +8,7 @@
 * [🤵 `OnChatLocalized` 🔔 handler](<../../Chats 💬 table/🪣🧱 21 Localized 🔔 event/🤵 OnChatLocalized 🔔 handler.md>)
 * [🤵 `OnDomainLocalized` 🔔 handler](<../../Domains 👥 table/🪣🧱 2 Localized 🔔 event/🤵 OnDomainLocalized 🔔 handler.md>)
 * [🤵 `OnSchemaLocalized` 🔔 handler](<../../Schemas 🧩 table/🪣🧱 Localized 🔔 event/🤵 OnSchemaLocalized 🔔 handler.md>)
-* [🤵 `OnTokenLocalized` 🔔 handler](<../../Tokens 🎫 table/🪣🧱 31 Localized 🔔 event/🤵 OnTokenLocalized 🔔 handler.md>)
+* [🤵 `OnTokenLocalized` 🔔 handler](<../../Tokens 🎫 table/🪣🧱 21 Localized 🔔 event/🤵 OnTokenLocalized 🔔 handler.md>)
 <br/>
 
 ## Diagram

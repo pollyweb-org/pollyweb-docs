@@ -2,7 +2,7 @@
 
 > Part of the [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 
-> Part of the [`Broker.Tokens.Revise` ⏩ flow](<../🪣🧱 70 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>)
+> Part of the [`Broker.Tokens.Revise` ⏩ flow](<../🪣🧱 50 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>)
 
 <br/>
 
