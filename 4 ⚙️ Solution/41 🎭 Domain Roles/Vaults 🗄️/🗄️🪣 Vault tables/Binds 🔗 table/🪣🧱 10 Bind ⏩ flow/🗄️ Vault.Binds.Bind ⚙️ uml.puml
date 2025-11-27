@@ -1,7 +1,7 @@
 @startuml Vault.Binds
 
 box Vault 🗄️ domain #FFFFFA
-    participant "Script" as script
+    participant "Script  📃" as script
     participant "BIND ⌘" as cmd
     participant "Binds 🪣" as binds
     participant "Hosted 📦" as hosted
