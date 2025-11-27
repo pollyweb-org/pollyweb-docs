@@ -114,14 +114,14 @@
         OnSomeState:
             Events: UPDATED
             Assert: 
-                Item.Expires.IsAbove(.Now):
+                Item.Expires.IsFuture:
                 New.State: NEW_STATE
                 Old.State: OLD_STATE
     ```
     
     Uses||
     |-|-
-    |[{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsIn`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.Last`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>)
+    |[{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsIn`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.Last`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) [`.IsFuture`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsFuture ⓕ.md>)
 
     ---
     <br/>
