@@ -15,6 +15,7 @@ end box
 
 activate script
     script -> tokens: SAVE 💾, DELETE 🗑️
+deactivate script
 
 activate tokens
     tokens --> handler: ALTERED 🔔

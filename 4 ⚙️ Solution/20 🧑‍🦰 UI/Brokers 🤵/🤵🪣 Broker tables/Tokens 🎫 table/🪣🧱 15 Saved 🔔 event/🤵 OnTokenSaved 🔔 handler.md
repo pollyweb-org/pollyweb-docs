@@ -4,7 +4,7 @@
 
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to the acceptance of a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) by a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
-* Part of the [`Broker.Tokens.Insert` ⏩ flow](<../🪣🧱 20 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>)
+* Part of the [`Broker.Tokens.Insert` ⏩ flow](<../🪣🧱 10 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>)
 
 <br/>
 
