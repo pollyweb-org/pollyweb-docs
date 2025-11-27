@@ -12,7 +12,7 @@ Step | Purpose |
 |-|-
 |[`Pop@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)| 
 | [`Pop@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)
-| [`OnPopInserted` 🔔 handler](<../🪣🔔 11 Pop/🤵 OnPopInserted 🔔 handler.md>)
+| [`OnPopInserted` 🔔 handler](<../🪣🧱 11 Pop 🔔 event/🤵 OnPopInserted 🔔 handler.md>)
 | [`OnChatInserted` 🔔 handler](<../../Chats 💬 table/🪣🧱 1 Inserted 🔔 event/🤵 OnChatInserted 🔔 handler.md>)
 | [`Open@Notifier` 🅰️ method](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>)
 | [`Opened@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 🐌 msg.md>)
