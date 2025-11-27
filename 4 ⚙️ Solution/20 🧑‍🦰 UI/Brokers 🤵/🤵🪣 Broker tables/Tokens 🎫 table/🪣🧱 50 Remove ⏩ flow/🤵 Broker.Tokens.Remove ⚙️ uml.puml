@@ -13,18 +13,18 @@ wallet -> pop: Pop 🐌 {TOKEN}
 
 activate pop
     wallet -> pop: {remove}
-    pop -> tokens: SAVE 💾 {REMOVED}
+    pop -> tokens: 💾 {REMOVED}
 deactivate pop    
 
 
 activate tokens
-    tokens -> issuer: 🐌 Removed
-    tokens -> notifier: 🐌 Remove 
+    tokens -> issuer: 🐌 Removed @ Issuer
+    tokens -> notifier: 🐌 Remove @ Notifier
     tokens -> frontend: 💾 {tokens}
 deactivate tokens
 
 activate frontend
-    frontend -> notifier: 🐌 Updated 
+    frontend -> notifier: 🐌 Updated @ Notifier
 deactivate frontend
 
 @enduml 

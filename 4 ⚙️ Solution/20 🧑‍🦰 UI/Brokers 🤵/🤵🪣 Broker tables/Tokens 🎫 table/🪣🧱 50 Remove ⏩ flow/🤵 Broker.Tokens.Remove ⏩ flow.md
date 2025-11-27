@@ -7,3 +7,16 @@
 ## Diagram
 
 ![alt text](<🤵 Broker.Tokens.Remove ⚙️ uml.png>)
+
+Step | Purpose |
+|-|-
+|[`Pop@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) endpoint to pop-up a [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+|[`Pop@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)
+|[`OnPopToken` 🔔 handler](<../../Pops 🎈 table/🪣🧱 61 Token 🔔/🤵 OnPopToken 🔔 handler.md>) | 
+|[`OnPopRemoveToken` 🔔 handler](<../../Pops 🎈 table/🪣🧱 62 Token » Remove 🔔/🤵 OnPopRemoveToken 🔔 handler.md>)| 
+|[`OnTokenRemoved` 🔔 handler](<../🪣🧱 51 Removed 🔔 event/🤵 OnTokenRemoved 🔔 handler.md>)
+|[`Removed@Issuer` 🅰️ method](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Removed 🤵🐌🎴/🎴 Removed 🐌 msg.md>)
+|[`Remove@Notifier` 🅰️ method](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>)
+|[`OnFrontendAltered` 🔔 handler](<../../Frontend 📱 table/🪣🧱 Altered 🔔 event/🤵 OnFrontendAltered 🔔 handler.md>)| [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that refreshes the Frontend display
+|[`Frontend@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 📃 handler.md>)| Call by a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) app to get the display
+|
