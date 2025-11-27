@@ -1,4 +1,4 @@
-# 🤵 OnBindLocalized 📃 handler
+# 🤵 OnBindLocalized 🔔 handler
   
 > About
 * Part of the [`Broker.Binds` 🪣 table](<../🪣 Binds/🤵 Broker.Binds 🪣 table.md>)

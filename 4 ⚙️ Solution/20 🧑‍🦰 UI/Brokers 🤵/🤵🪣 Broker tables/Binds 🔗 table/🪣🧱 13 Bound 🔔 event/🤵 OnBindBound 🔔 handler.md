@@ -1,14 +1,18 @@
-# 🤵 OnBindBound 📃 handler
+# 🤵 OnBindBound 🔔 handler
 
 > Part of the [`Broker.Binds` 🪣 table](<../🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
 
 > Purpose
 
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that informs a [Vault 🗄️ domain](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) that a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was accepted.
+
+<br/>
   
 ## Diagram
 
 ![alt text](<🤵 OnBindBound ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 
