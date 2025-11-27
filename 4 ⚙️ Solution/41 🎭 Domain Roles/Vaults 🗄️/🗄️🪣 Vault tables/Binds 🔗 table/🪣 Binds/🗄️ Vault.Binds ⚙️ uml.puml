@@ -2,30 +2,32 @@
 
 box Vault 🗄️ domain #FFFFFA
     participant "Script" as script
-    participant "BIND" as cmd
+    participant "BIND ⌘" as cmd
     participant "Binds 🪣" as binds
-    participant "OnUnbound 🔔" as trigger
-    ''participant "Talker 😃" as talker
+    participant "Hosted 📦" as hosted
 end box
 participant "Broker 🤵" as broker
-participant "Wallet 👱" as wallet
-participant "Hosted 📦" as hosted
 
-cmd -> binds: BIND ⌘ {bind}
-broker --> script: Unbound 🐌
 
 activate script
-    script -> binds: SAVE 💾 {UNBOUND}
+    script -> cmd: BIND ⌘ {schema}
 deactivate script
 
+activate cmd
+    cmd -> binds: 💾 {OFFERED}
+deactivate cmd
+
 activate binds
-    binds --> trigger: UNBOUND 🔔
+    binds -> broker: Bind 🐌
 deactivate binds
 
-activate trigger
-    trigger --> hosted: ASYNC 👷🏼 {Unbound}
-    trigger -> binds: DELETE 🗑️
-deactivate trigger
+activate broker
+    broker -> binds: IF "yes": 🐌 Bound 💾 {BOUND}
+activate binds
+    broker -> binds: IF "no": 🐌 Bound 💾 {DECLINED}
+deactivate broker
 
+    binds -> hosted: ASYNC 👷🏼 {Bound}
+deactivate binds
 
 @enduml 

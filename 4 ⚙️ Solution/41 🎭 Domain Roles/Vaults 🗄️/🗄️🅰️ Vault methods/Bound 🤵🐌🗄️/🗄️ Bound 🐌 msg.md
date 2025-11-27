@@ -5,14 +5,11 @@
 
 # 🤵🐌🗄️ Bound @ Vault
 
-> Implementation
+> About
 * Implemented by the [`Bound` 📃 script](<🗄️ Bound 📃 handler.md>)
+* Part of the [`Bind` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>)
 
-
-> Used by
-
-* [`Bind` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>)
-
+<br/>
 
 ## Async Message 🐌
 
