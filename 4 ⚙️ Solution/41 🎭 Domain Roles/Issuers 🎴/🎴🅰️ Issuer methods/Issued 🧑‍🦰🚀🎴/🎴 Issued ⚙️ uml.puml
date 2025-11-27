@@ -1,0 +1,23 @@
+@startuml Issued@Issuer
+ 
+participant "Wallet 👱" as wallet
+box Issuer 🎴 domain #FFFFFA
+    participant "Issued 🚀" as script
+    participant "Tokens 🪣" as tokens
+end box
+
+
+activate wallet
+    wallet -> script: Issued 🚀
+
+    activate script
+        script -> tokens: READ 🧲
+        script -> wallet: {token}
+    deactivate script
+    
+deactivate wallet
+
+
+
+
+@enduml 
