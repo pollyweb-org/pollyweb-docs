@@ -5,7 +5,7 @@
 
 > Purpose
 
-* Request for a [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>) 
+* Request for a [Vault 🗄️ domain](<../../🗄️ Vault/🗄️🎭 Vault role.md>) 
     * to share user data 
     * with a [Consumer 💼 domain](<../../../Consumers 💼/💼🎭 Consumer role.md>).
 
@@ -34,7 +34,7 @@ Body:
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
 | Header|`From`|text| [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-||`To`|text| [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+||`To`|text| [Vault 🗄️](<../../🗄️ Vault/🗄️🎭 Vault role.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 || `Subject` |text| `Disclose@Vault`
 |Body|  `Bind` | uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 || `Chat`| uuid | [Chat 💬 ID](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)

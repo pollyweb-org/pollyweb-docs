@@ -33,7 +33,7 @@ Body:
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-|
 |Header|`From`|text| [Consumer 💼](<../../../Consumers 💼/💼🎭 Consumer role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
-||`To`|text| [Vault 🗄️](<../../🗄️🎭 Vault role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+||`To`|text| [Vault 🗄️](<../../🗄️ Vault/🗄️🎭 Vault role.md>) | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 ||`Subject` |text| `Collect@Vault`
 |Body|`Collect` | uuid | `Collect` | [`Consume@`](<../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 |
@@ -58,7 +58,7 @@ Data: {...}
 
 1. **Why a synchronous request?**
 
-    A synchronous request (instead of an async message) allows  [Consumer 💼 domains](<../../../Consumers 💼/💼🎭 Consumer role.md>) to download data sets from the [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>) via HTTPS with no theoretical size limit.
+    A synchronous request (instead of an async message) allows  [Consumer 💼 domains](<../../../Consumers 💼/💼🎭 Consumer role.md>) to download data sets from the [Vault 🗄️ domain](<../../🗄️ Vault/🗄️🎭 Vault role.md>) via HTTPS with no theoretical size limit.
 
     ---
     <br/>

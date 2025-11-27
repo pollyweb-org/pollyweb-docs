@@ -3,7 +3,7 @@
 
 1. **What is an NLWeb Editor?**
 
-    An [Editor 🧑‍💻 agent](<🧑‍💻🫥 Editor agent.md>) is a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that exposes a desktop app designed to concentrate into a single editor the CRUD datasets from multiple user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>).
+    An [Editor 🧑‍💻 agent](<🧑‍💻🫥 Editor agent.md>) is a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) that exposes a desktop app designed to concentrate into a single editor the CRUD datasets from multiple user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>).
 
     ![alt text](<.📎 Assets/Editor-.png>)
 
@@ -21,7 +21,7 @@
 
 1. **What are the benefits for businesses?**
 
-    With [Editor 🧑‍💻 domains](<🧑‍💻🫥 Editor agent.md>), businesses that implement a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) don't need to maintain a website for users to edit their datasets - only an API is required.
+    With [Editor 🧑‍💻 domains](<🧑‍💻🫥 Editor agent.md>), businesses that implement a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) don't need to maintain a website for users to edit their datasets - only an API is required.
 
     ---
     <br/>
@@ -53,7 +53,7 @@
 1. **How can users edit a vault's dataset?**
 
     On the editor. 
-    - Users list the connected [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), then select the intended dataset from the vault. 
+    - Users list the connected [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>), then select the intended dataset from the vault. 
     - On the list of dataset items, users perform typical CRUD operations.
 
     ![alt text](<.📎 Assets/Editor-UX.png>)
@@ -64,14 +64,14 @@
 
 1. **How do editors render and verify the rules of dataset item?**
 
-    [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) share the list of the user datasets on their CRUD API, as well as the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of each dataset. 
+    [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) share the list of the user datasets on their CRUD API, as well as the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of each dataset. 
 
     ---
     <br/>
 
 1. **Is there data corruption if editors don't comply dataset rules?**
 
-    No. [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) re-check the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) rules on their side when receiving write requests.
+    No. [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) re-check the [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) rules on their side when receiving write requests.
 
     ---
     <br/>
@@ -90,8 +90,8 @@
 1. **Can datasets have list properties referencing other datasets?**
 
     Yes. Options are:
-    - Another dataset on the same [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>).
-    - A dataset on another connected [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>).
+    - Another dataset on the same [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>).
+    - A dataset on another connected [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>).
     - A public paid [🪣 Dataset](<../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) (vaults pay, not editors).
 
     ---
@@ -109,15 +109,15 @@
 
     To prevent an [Editor 🧑‍💻](<🧑‍💻🫥 Editor agent.md>) from override a change done by another [Editor 🧑‍💻](<🧑‍💻🫥 Editor agent.md>) to the same document between the read and the write, [Editor 🧑‍💻 domains](<🧑‍💻🫥 Editor agent.md>) use optimistic concurrency.
     
-    - When a document is pulled from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), it comes with a version UUID.
+    - When a document is pulled from a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>), it comes with a version UUID.
     
-    - When saving a new version of the document back to the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), [Editor 🧑‍💻 domains](<🧑‍💻🫥 Editor agent.md>) send the original version.
+    - When saving a new version of the document back to the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>), [Editor 🧑‍💻 domains](<🧑‍💻🫥 Editor agent.md>) send the original version.
 
-    - If there's a mismatch between the document version currently stored in the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) and the original version sent by the [Editor 🧑‍💻](<🧑‍💻🫥 Editor agent.md>), then the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) returns a mismatch error.
+    - If there's a mismatch between the document version currently stored in the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) and the original version sent by the [Editor 🧑‍💻](<🧑‍💻🫥 Editor agent.md>), then the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) returns a mismatch error.
   
-    - The [Editor 🧑‍💻](<🧑‍💻🫥 Editor agent.md>) then cancels the change, reloads the latest version from the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), and asks the user to apply the changes again.
+    - The [Editor 🧑‍💻](<🧑‍💻🫥 Editor agent.md>) then cancels the change, reloads the latest version from the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>), and asks the user to apply the changes again.
 
-    - Smarter [Editor 🧑‍💻 domains](<🧑‍💻🫥 Editor agent.md>) may be able to compare and merge the 3 versions (the originally pulled, the changed by the user, and the new version from the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>)), asking the user to just review the changes with a diff interface before resubmitting.
+    - Smarter [Editor 🧑‍💻 domains](<🧑‍💻🫥 Editor agent.md>) may be able to compare and merge the 3 versions (the originally pulled, the changed by the user, and the new version from the [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>)), asking the user to just review the changes with a diff interface before resubmitting.
 
     ---
     <br/>

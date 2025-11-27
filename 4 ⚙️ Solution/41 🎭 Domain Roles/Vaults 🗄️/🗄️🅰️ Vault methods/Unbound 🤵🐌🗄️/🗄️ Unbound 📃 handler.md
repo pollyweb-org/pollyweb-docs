@@ -2,7 +2,7 @@
 
 # 🗄️📃 Unbound handler
 
-> Part of the [Vault 🗄️ domain](<../../🗄️🎭 Vault role.md>)
+> Part of the [Vault 🗄️ domain](<../../🗄️ Vault/🗄️🎭 Vault role.md>)
 
 > Implements the [`Unbound@Vault` 🅰️ method](<🗄️ Unbound 🐌 msg.md>)
 

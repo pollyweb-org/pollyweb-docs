@@ -3,7 +3,7 @@
 
 1. **What is an Agent vault?**
 
-    Agents 🫥 are any [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) with well-known features that are linked to a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
+    Agents 🫥 are any [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) with well-known features that are linked to a user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
 
     * They behave like the default apps for smartphones, where the operating system (e.g., Android, iOS) asks the user to select default apps for each role - e.g.:
         * internet browsing: Chrome, Firefox, or Safari;
@@ -34,7 +34,7 @@
     |🧢| [Persona](<../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | Facebook | Stores and shares user preferences and personally identifiable information (PII).
     |⭐| [Reviewer](<../Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | TrustPilot | Collects and shares user feedback from [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) experiences.
     |🗓️| [Scheduler](<../Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) | Outlook | Monitors and manages the user's agenda.
-    |🗃️| [Storage](<../Storage 🗃️/🗃️🫥 Storage agent.md>) | Dropbox | Stores user data for other [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>), for data residency compliance.
+    |🗃️| [Storage](<../Storage 🗃️/🗃️🫥 Storage agent.md>) | Dropbox | Stores user data for other [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>), for data residency compliance.
     |🕓| [Timeline](<../Timeline 🕓/🕓🫥 Timeline agent.md>) | G.Photos | Collects and fans out user-related events.
     |💖| [Vitalogist](<../Vitalogists 💖/💖🫥 Vitalogist agent.md>) | GoogleFit | Monitors the user's health events and provides feedback.
 
@@ -50,9 +50,9 @@
 
         * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) typically assign one (and only one) default user Agents 🫥 for each role, and; 
   
-        * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) allow users to replace each default Agent 🫥 to any other of the user's [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that are [bound 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) by the role's [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>).
+        * [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) allow users to replace each default Agent 🫥 to any other of the user's [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) that are [bound 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) by the role's [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>).
 
-    * And no, Agents 🫥 are not singletons from the perspective [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) allow roles not to have a default Agent 🫥 when there are more than one [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) that support the role's [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>).
+    * And no, Agents 🫥 are not singletons from the perspective [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) allow roles not to have a default Agent 🫥 when there are more than one [Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) that support the role's [Schema 🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>).
 
         * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identity 🆔 agent](<../Identities 🆔/🆔🫥 Identity agent.md>).
 
