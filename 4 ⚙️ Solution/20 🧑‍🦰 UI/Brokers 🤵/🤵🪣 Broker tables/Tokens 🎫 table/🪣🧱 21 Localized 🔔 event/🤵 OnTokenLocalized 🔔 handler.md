@@ -2,7 +2,7 @@
   
 > About
 * Part of the [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
-* Part of the [🤵 `Broker.Tokens.Localize` ⏩ flow](<../🪣🧱 30 Localize ⏩ flow/🤵 Broker.Tokens.Localize ⏩ flow.md>)
+* Part of the [🤵 `Broker.Tokens.Localize` ⏩ flow](<../🪣🧱 20 Localize ⏩ flow/🤵 Broker.Tokens.Localize ⏩ flow.md>)
 * Part of the [🤵 `Broker.Wallets.Localize` ⏩ flow](<../../Wallets 🧑‍🦰 table/🪣🧱 20 Localize ⏩ flow/🤵 Broker.Wallets.Localize ⏩ flow.md>)
 
 <br/>
