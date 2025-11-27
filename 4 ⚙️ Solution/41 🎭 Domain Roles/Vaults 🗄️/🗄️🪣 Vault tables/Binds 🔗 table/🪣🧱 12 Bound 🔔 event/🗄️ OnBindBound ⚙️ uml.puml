@@ -1,20 +1,13 @@
 @startuml OnBindBound
 
-participant "Broker 🤵" as broker
 
 box Vault 🗄️ domain #FFFFFA
-    participant "Bound 🐌" as script
     participant "Binds 🪣" as binds
     participant "OnBound 🔔" as trigger
     participant "BIND ⌘" as bind
+    participant "Script  📃" as script
 end box
 
-
-broker --> script: Bound 🐌
-
-activate script
-    script -> binds: SAVE 💾 {BOUND}
-deactivate script
 
 activate binds
     binds --> trigger: BOUND 🔔
@@ -24,5 +17,9 @@ activate trigger
     trigger --> bind: REEL 🎣 {bind}
 deactivate trigger
 
+
+activate bind
+    bind -> script: RETURN {bind}
+deactivate bind
 
 @enduml 

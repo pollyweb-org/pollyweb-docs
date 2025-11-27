@@ -2,22 +2,16 @@
 
 
 box Vault 🗄️ domain #FFFFFA
-    participant "BIND ⌘" as script
-    participant "Offer 🪣" as offers
+    participant "Binds 🪣" as binds
     participant "OnOffered 🔔" as trigger
     'participant "Talker 😃" as talker
 end box
 
 participant "Broker 🤵" as broker
 
-
-activate script
-    script -> offers: SAVE 💾 {OFFERED}
-deactivate script
-
-activate offers
-    offers --> trigger: OFFERED 🔔
-deactivate offers
+activate binds
+    binds --> trigger: OFFERED 🔔
+deactivate binds
 
 activate trigger
     trigger --> broker: SEND 📬 {Bind 🐌} 

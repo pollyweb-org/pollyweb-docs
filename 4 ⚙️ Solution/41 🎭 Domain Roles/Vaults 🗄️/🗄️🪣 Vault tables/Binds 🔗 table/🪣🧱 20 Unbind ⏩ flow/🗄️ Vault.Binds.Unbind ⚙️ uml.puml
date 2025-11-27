@@ -1,0 +1,22 @@
+@startuml Vault.Binds.Unbind 
+
+participant "Broker 🤵" as broker
+box Vault 🗄️ domain #FFFFFA
+    participant "Unbound 🐌" as script
+    participant "Binds 🪣" as binds
+    participant "Hosted 📦" as hosted
+end box
+
+broker --> script: Unbound 🐌
+
+activate script
+    script -> binds: SAVE 💾 {UNBOUND}
+deactivate script
+
+
+activate binds
+    binds --> hosted: ASYNC 👷🏼 {Unbound}
+deactivate binds
+
+
+@enduml 
