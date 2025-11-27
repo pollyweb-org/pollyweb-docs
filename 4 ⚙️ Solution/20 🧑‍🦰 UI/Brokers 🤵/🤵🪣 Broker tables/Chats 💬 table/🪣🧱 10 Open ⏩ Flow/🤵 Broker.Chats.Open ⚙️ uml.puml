@@ -14,21 +14,21 @@ wallet -> chats: 🐌 Locate 💾 INSERTED
 
 activate chats
     
-    chats -> printer: Resolve 🚀 
+    chats -> printer: Resolve @ Printer 🚀 
     activate printer
         printer -> chats: 💾 RESOLVED
     deactivate printer
 
-    chats -> graph: Translate 🚀
+    chats -> graph: Translate @ Graph 🚀
     activate graph
         graph -> chats: 💾 DETAILED
     deactivate graph
     
-    chats -> wallet: 🐌 Open  
+    chats -> wallet: 🐌 Open @ Notifier
 deactivate chats
 
 activate wallet
-    wallet -> chats: 💾 OPENED 
+    wallet -> chats: 🐌 Opened 💾 OPENED 
 deactivate wallet
 
 activate chats
@@ -36,11 +36,11 @@ activate chats
 deactivate chats
 
 activate chatters
-    chatters -> finder: Present 🐌 
+    chatters -> finder: Present @ Finder 🐌 
 deactivate chatters
 
 activate finder
-    finder -> chats: 💾 PRESENTED
+    finder -> chats: 🐌 Presented @ Broker 💾 PRESENTED
 deactivate finder
 
 activate chats
@@ -52,7 +52,11 @@ activate chatters
 deactivate chatters
 
 activate chats
-    chats -> host: Hello 🐌 
+    chats -> chatters: 💾 HOST
 deactivate chats    
+
+activate chatters
+    chatters -> host: Hello @ Host 🐌 
+deactivate chatters
 
 @enduml 
