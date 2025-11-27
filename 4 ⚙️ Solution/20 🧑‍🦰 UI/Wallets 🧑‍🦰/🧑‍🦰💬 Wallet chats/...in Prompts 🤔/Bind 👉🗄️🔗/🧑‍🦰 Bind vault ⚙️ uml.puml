@@ -13,12 +13,12 @@ participant "Wallet 👱" as wallet
 
 activate vault
     vault -> wallet: 1) Prompt ⏩ "Hi! What do you need?"
-    vault --> broker: 2) Bind 🐌 {offered schemas}
+    vault --> broker: 2) Bind 🐌 {offered schema}
 deactivate vault    
 
 activate broker
     broker -> wallet: 3) Prompt ⏩ "Bind?"
-    broker --> vault: 4) Bound 🐌 {selected schemas} 
+    broker --> vault: 4) Bound 🐌 {answer} 
 deactivate broker
 
 activate vault
