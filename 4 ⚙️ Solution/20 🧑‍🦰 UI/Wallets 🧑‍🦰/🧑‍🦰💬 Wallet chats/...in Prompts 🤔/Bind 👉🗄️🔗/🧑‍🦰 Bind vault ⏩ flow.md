@@ -39,7 +39,7 @@ The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script �
 
 ## ⏩ Flow diagram
 
-![alt text](<🧑‍🦰 Bind vault ⚙️ uml.png>)
+![alt text](<🧑‍🦰 Bind Vault ⚙️ uml.png>)
 
 
 | # | Call | Notes |

@@ -31,7 +31,7 @@
 
     | | Workflow |  Description
     |-|-|-
-    || [👉 Bind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) | [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to a [Vault 🗄️](<🗄️🎭 Vault role.md>)
+    || [👉 Bind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind Vault ⏩ flow.md>) | [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) the [Wallet 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to a [Vault 🗄️](<🗄️🎭 Vault role.md>)
     || [👉 Unbind](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) | Remove a [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) from a [Vault 🗄️](<🗄️🎭 Vault role.md>)
     
     ---
