@@ -1,6 +1,6 @@
 # 🤵 Broker.Tokens.Remove ⏩ flow
 
-> Part of the [`Broker.Tokens` 🪣 table](<../../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
+> Part of the [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 
 <br/>
 
