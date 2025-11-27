@@ -2,6 +2,7 @@
   
 > About
 * Part of the [`Broker.Binds` 🪣 table](<../🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
+* Part of the [🤵 `Broker.Binds.Localize` ⏩ flow](<../🪣🧱 50 Localize ⏩ flow/🤵 Broker.Binds.Localize ⏩ flow.md>)
 * Part of the [🤵 `Broker.Wallets.Localize` ⏩ flow](<../../Wallets 🧑‍🦰 table/🪣🧱 20 Localize ⏩ flow/🤵 Broker.Wallets.Localize ⏩ flow.md>)
 
 <br/>
