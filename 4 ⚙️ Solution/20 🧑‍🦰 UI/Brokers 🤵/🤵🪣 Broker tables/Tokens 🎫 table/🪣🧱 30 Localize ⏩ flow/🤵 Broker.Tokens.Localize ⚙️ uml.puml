@@ -1,0 +1,27 @@
+@startuml Broker.Tokens.Updates
+ 
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "Wallets 🪣" as wallets
+    participant "Tokens 🪣" as tokens
+    participant "Frontend 🪣" as frontend
+end box
+participant "Graph 🕸" as graph
+
+
+wallet -> wallets: 🐌 Pop 💾 {language: X}
+
+activate wallets
+    wallets -> tokens: 💾 {language}
+deactivate wallets
+
+activate tokens
+    tokens -> graph: TRANSLATE 🈯 {issuer, schema}
+    tokens -> frontend: 💾 {localized token}
+deactivate tokens
+
+activate frontend
+    frontend -> wallet: IF changed: 🐌 Updated tokens
+deactivate frontend
+
+@enduml 

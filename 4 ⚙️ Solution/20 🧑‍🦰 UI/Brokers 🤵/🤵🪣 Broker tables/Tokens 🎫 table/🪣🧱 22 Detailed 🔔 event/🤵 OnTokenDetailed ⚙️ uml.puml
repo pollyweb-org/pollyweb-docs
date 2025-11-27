@@ -1,0 +1,20 @@
+@startuml OnTokenDetailed
+
+
+box Broker 🤵 domain #FFFFFA
+    participant "Tokens 🪣" as table
+    participant "OnDetailed 🔔" as handler
+end box
+participant "Wallet 👱" as wallet
+
+
+activate table
+    table --> handler: DETAILED 🔔
+deactivate table
+
+activate handler
+    handler -> wallet: CONFIRM 👍 "accept?" 
+    handler -> table: SAVE 💾 {OFFERED}
+deactivate handler
+
+@enduml 

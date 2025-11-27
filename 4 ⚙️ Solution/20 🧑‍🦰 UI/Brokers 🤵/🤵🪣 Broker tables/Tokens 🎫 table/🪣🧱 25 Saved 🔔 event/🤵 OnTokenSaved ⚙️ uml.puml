@@ -1,0 +1,19 @@
+@startuml OnTokenSaved
+
+box Broker 🤵 domain #FFFFFA
+    participant "Tokens 🪣" as tokens
+    participant "OnSaved 🔔" as onSaved
+end box
+
+participant "Issuer 🎴" as issuer
+
+
+activate tokens
+    tokens --> onSaved: SAVED 🔔
+deactivate tokens
+
+activate onSaved
+    onSaved --> issuer: SEND 📬 {Offered 🐌 ACCEPTED}
+deactivate onSaved
+
+@enduml 

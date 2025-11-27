@@ -1,0 +1,30 @@
+@startuml Broker.Tokens.Updates
+ 
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "Pop 🐌" as pop
+    participant "Tokens 🪣" as tokens
+    participant "Frontend 🪣" as frontend
+end box
+participant "Issuer 🎴" as issuer
+participant "Notifier 📣" as notifier
+
+wallet -> pop: Pop 🐌 {TOKEN}
+
+activate pop
+    wallet -> pop: {remove}
+    pop -> tokens: SAVE 💾 {REMOVED}
+deactivate pop    
+
+
+activate tokens
+    tokens -> issuer: 🐌 Removed
+    tokens -> notifier: 🐌 Remove 
+    tokens -> frontend: 💾 {tokens}
+deactivate tokens
+
+activate frontend
+    frontend -> notifier: 🐌 Updated 
+deactivate frontend
+
+@enduml 

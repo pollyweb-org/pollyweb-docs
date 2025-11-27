@@ -1,0 +1,51 @@
+@startuml Broker.Tokens.Updates
+ 
+participant "Issuer 🎴" as issuer
+box Broker 🤵 domain #FFFFFA
+    participant "Revise 🐌" as revise
+    participant "Tokens 🪣" as tokens
+    participant "Pops 🪣" as pops
+    participant "Chats 🪣" as chats
+    participant "Frontend 🪣" as frontend
+end box
+participant "Wallet 👱" as wallet
+    
+
+issuer -> revise: Revise 🐌
+activate revise
+    revise -> tokens: 💾 {status}
+deactivate revise
+
+activate tokens
+
+    tokens -> frontend: 💾 {tokens}    
+    activate frontend
+        frontend -> wallet: 🐌 Updated 
+    deactivate frontend
+
+    tokens -> pops: 💾 INSERT
+deactivate tokens
+
+activate pops
+    pops -> chats: 💾 INSERT
+deactivate pops
+
+activate chats
+    chats -> wallet: Open 🐌 
+deactivate chats
+
+activate wallet
+    wallet -> chats: 🐌 Opened 💾 OPENED
+deactivate wallet
+
+activate chats
+    chats -> pops: 💾 POPPED
+deactivate chats
+
+activate pops
+    pops -> wallet: INFO ⓘ {status}
+deactivate pops
+
+
+
+@enduml 

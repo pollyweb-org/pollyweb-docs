@@ -1,0 +1,20 @@
+@startuml OnTokenLocalized
+ 
+box Broker 🤵 domain #FFFFFA
+    participant "Tokens 🪣" as tokens
+    participant "OnLocalized 🔔" as handler
+end box
+participant "Graph 🕸" as graph
+
+
+activate tokens
+    tokens --> handler: UPDATED 🔔 {language}
+deactivate tokens
+
+activate handler
+    handler -> graph: TRANSLATE 🈯 {issuer, schema}
+    handler -> tokens: SAVE 💾 {translation}
+deactivate handler
+
+
+@enduml 

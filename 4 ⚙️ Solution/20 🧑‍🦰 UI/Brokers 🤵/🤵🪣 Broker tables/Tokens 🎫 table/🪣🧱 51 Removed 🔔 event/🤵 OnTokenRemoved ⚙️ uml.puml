@@ -1,0 +1,20 @@
+@startuml OnTokenRemoved
+
+box Broker 🤵 domain #FFFFFA
+    participant "Tokens 🪣" as tokens
+    participant "OnRemoved 🔔" as removed
+end box
+participant "Notifier 📣" as notifier
+participant "Issuer 🎴" as issuer
+
+
+activate tokens
+    tokens --> removed: REMOVED 🔔
+deactivate tokens
+
+activate removed
+    removed --> notifier: SEND 📬 {Remove 🐌}
+    removed --> issuer: SEND 📬 {Removed 🐌}
+deactivate removed
+
+@enduml 
