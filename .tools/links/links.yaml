@@ -677,6 +677,18 @@ Successful Tests:
     LinkFile: '🗄️ Disclose 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
 
+  ITEM 🛢:
+
+    - Given: '{{Item Parents}}'
+      LinkText: "Item 🛢 Parents"
+      LinkFile: "Item 🛢 Parents.md"
+      Reasons: For {{Item X}}, find "Item 🛢 X.md".
+    
+    - Given: '{{Item Distincts}}'
+      LinkText: "Item 🛢 Distincts"
+      LinkFile: "Item 🛢 Distincts.md"
+      Reasons: Same as '{{Item Parents}}'.
+
   GENERAL:
 
   - Given: "{{Sync Calls}}"

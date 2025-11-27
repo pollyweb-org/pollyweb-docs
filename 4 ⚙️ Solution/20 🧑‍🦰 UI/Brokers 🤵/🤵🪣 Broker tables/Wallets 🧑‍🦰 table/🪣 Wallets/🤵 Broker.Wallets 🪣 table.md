@@ -1,15 +1,18 @@
 # 🤵🪣 Wallets @ Broker table
 
-> Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
-
-> Purpose
-
+> About
+* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 * [Itemized 🪣 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) that stores [Wallet 🧑‍🦰 apps](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 
-> Usage
+<br/>
 
-* Inserted by the [`Onboard@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
-* Updated by the [`Pop@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
+## Data access
+
+| Actor | [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | [`DELETE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) |
+|-|:-:|:-:|:-:|
+| [`Onboard@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>) | | X
+| [`Pop@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | X | X |
+|
 
 <br/>
 
@@ -21,18 +24,38 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 Prefix: Broker
 Table: Wallets
 Item: Wallet
-Key: ID
+```
 
+<br/>
+
+Here's the [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) definition.
+
+```yaml
 Parents:
-    Notifier: { Notifiers.Name: Wallet.Notifier }
+    Notifier: # Registerer of the Wallet
+        Notifiers.Name: Wallet.Notifier
+```
+References: [`Notifiers` 🪣 table](<../../Notifiers 📣 table/🪣 Notifiers/🤵 Broker.Notifiers 🪣 table.md>)
 
+<br/>
+
+Here's the [Item 🛢 Children](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Children.md>) definition.
+
+```yaml
 Children:
     Binds: { Binds.Wallet: Wallet.ID }
     Chats: { Chats.Wallet: Wallet.ID }
     Domains: { Domains.Wallet: Wallet.ID }
     Schemas: { Schemas.Wallet: Wallet.ID }
     Tokens: { Tokens.Wallet: Wallet.ID }
+```
+References: [`Binds`](<../../Binds 🔗 table/🪣 Binds/🤵 Broker.Binds 🪣 table.md>) [`Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Schemas`](<../../Schemas 🧩 table/🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>) [`Tokens`](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 
+<br/>
+
+Here's the [Item 🛢 Distincts](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) definition.
+
+```yaml
 Distincts: 
     Hosts: Chats.Host
     Vaults: Binds.Vault
@@ -40,14 +63,6 @@ Distincts:
     BindSchemas: Binds.Schema
     TokenSchemas: Tokens.Schema
 ```
-
-| Link | Table | Contains
-|-|-|-
-| Parent | [`Notifiers` 🪣](<../../Notifiers 📣 table/🪣 Notifiers/🤵 Broker.Notifiers 🪣 table.md>) | [Notifier 📣 domain](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
-| Children | [`Chats` 🪣](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) | [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-| | [`Binds` 🪣](<../../Binds 🔗 table/🪣 Binds/🤵 Broker.Binds 🪣 table.md>) | [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
-| | [`Tokens` 🪣](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) | [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
-|
 
 <br/>
 
