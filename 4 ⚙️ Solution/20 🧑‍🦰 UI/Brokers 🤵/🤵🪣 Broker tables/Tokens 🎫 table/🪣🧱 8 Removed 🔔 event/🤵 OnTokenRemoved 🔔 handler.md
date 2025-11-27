@@ -2,7 +2,7 @@
 
 > Part of the [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 
-> Part of the [`Broker.Tokens.Remove` ⏩ flow](<../🪣⏩ Flows/4 Remove/🤵 Broker.Tokens.Remove ⏩ flow.md>)
+> Part of the [`Broker.Tokens.Remove` ⏩ flow](<../🪣🧱 8 Remove ⏩ flow/🤵 Broker.Tokens.Remove ⏩ flow.md>)
 
 <br/>
 
