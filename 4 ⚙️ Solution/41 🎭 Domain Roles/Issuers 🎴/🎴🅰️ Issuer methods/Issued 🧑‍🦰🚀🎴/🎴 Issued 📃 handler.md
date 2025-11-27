@@ -19,6 +19,8 @@
 - READ >> $token:
     Set: Issuer.Token
     Key: $.Msg.Token
+    Assert: 
+        .State: ISSUED
 
 # Verify the Message
 - VERIFY|$.Msg:

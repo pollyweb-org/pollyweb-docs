@@ -1,10 +1,12 @@
 # 🤵🐌🎴 Offered @ Issuer
 
+> Implementation
+* Part of an [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>)
+* Implemented by the [`Offered` 📃 script](<🎴 Offered 📃 handler.md>)
+
 > Flow
 * Part of the [🧑‍🦰👉🎴 Save Token @ Issuer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) flow.
 
-> Implementation
-* Implemented by the [`Offered` 📃 script](<🎴 Offered 📃 handler.md>)
 
 > Purpose
 * Tells an [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>) 
