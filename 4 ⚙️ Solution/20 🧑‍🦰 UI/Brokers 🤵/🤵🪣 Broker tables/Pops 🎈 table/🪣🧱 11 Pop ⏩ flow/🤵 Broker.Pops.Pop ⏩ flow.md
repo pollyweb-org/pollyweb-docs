@@ -1,6 +1,8 @@
 # 🤵 Broker.Pops.Pop ⏩ flow
 
-> Part of the [`Broker.Pops` 🪣 table](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
+> About
+* Part of the [`Broker.Pops` 🪣 table](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
+* Allows users to summon the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) for contextualized actions.
 
 <br/>
 
