@@ -3,14 +3,17 @@
 
 > About
 * Part of an [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>)
-* Implemented by the [`Issued` 📃 script](<🎴 Issued 📃 handler.md>)
-* Part of the [🧑‍🦰 `Save token` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save Token ⏩ flow.md>) flow.
-* Part of the [🎴 `Issuer.Tokens.Insert` ⏩ flow](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Flows/1. Issue/🎴 Issuer.Tokens.Insert ⏩ flow.md>)
 
 > Purpose
 * Allows for a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) to be downloaded 
     * from the [Issuer 🎴 domain](<../../🎴 Issuer/🎴🎭 Issuer role.md>) 
     * into the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
+
+> Implementation
+* Implemented by the [`Issued` 📃 script](<🎴 Issued 📃 handler.md>)
+* Part of the [🧑‍🦰 `Save token` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save Token ⏩ flow.md>) 
+* Part of the [🎴 `Issuer.Tokens.Issued` ⏩ flow](<../../🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Flows/1. Issued/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
+* Part of the [🤵 `Broker.Tokens.Issued` ⏩ flow](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Issued ⏩ flow.md>)
 
 <br/>
 

@@ -1,12 +1,15 @@
-# 🎴 Issuer.Tokens.Insert ⏩ flow
+# 🎴 `Issuer.Tokens.Issued` ⏩ flow
 
-> Part of the [`Issuer.Tokens` 🪣 table](<../../🪣 Tokens/🎴 Issuer.Tokens 🪣 table.md>)
+> About
+* Part of the [Issuer 🎴 domain](<../../../../🎴 Issuer/🎴🎭 Issuer role.md>) role
+* Part of the [`Issuer.Tokens` 🪣 table](<../../🪣 Tokens/🎴 Issuer.Tokens 🪣 table.md>) 
+* Counterpart of the [🤵 `Broker.Tokens.Issued` ⏩ flow](<../../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣⏩ Flows/1 Issue/🤵 Broker.Tokens.Issued ⏩ flow.md>)
 
 <br/>
 
 ## Diagram
 
-![alt text](<🎴 Issuer.Tokens.Insert ⚙️ uml.png>)
+![alt text](<🎴 Issuer.Tokens.Issued ⚙️ uml.png>)
 
 Step|Details
 |-|-
