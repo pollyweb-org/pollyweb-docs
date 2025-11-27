@@ -16,9 +16,7 @@
     <br/>
 
 
-1. **What does a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) look like for required binds?**
-
-    > It's an all-or-nothing, where `No` stops the flow.
+1. **What does a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) look like?**
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
@@ -30,37 +28,48 @@
     <br/>
 
 
+1. **What's the BIND syntax?**
 
-1. **What does a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) look like for optional binds?**
+    ```yaml
+    # Comprehensive
+    BIND >> $bind:
+        Schema: $schema
+        Reference: $reference
+        Internals: $internals
 
-    > There are checkboxes for the user to select, and `No` continues.
+    # Simple multi-line
+    BIND >> $bind:
+        $schema
 
-    | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-    | - | - | - |
-    | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
-    | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<🔗 BIND ⌘ cmd.md>) [All, No] <br/> - [ ] Some schema 🧩 <br/> - [ ] Some other schema 🧩 | > All
-    | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
-
+    # Simplest inline
+    BIND|$schema
+    ```
+    | Input| Purpose 
+    |-|-
+    | `Schema` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) 
+    | `Reference` | [Hosted 📦 domain](<📦👥 Hosted domain.md>) internal reference to the [Bind 🔗](<🔗 Bind.md>)
+    | `Internals` | [Hosted 📦 domain](<📦👥 Hosted domain.md>) internal data about the [Bind 🔗](<🔗 Bind.md>)
+    | `$bind`  | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) item accepted, or empty if declined.
+    
     ---
     <br/>
-
 
 1. **What's the BIND syntax?**
 
 
     ```yaml
     # For a required schema.
-    - BIND|<schema> 
+    - BIND|$schema
     - SUCCESS|Bound!
     ```
 
     | Input| Purpose 
     |-|-
-    | `<schema>` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) 
+    | `$schema` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) 
 
     ```yaml
     # For an optional schema.
-    - BIND|schema >> $bound
+    - BIND|$schema >> $bound
     - IF|$bound:
         Then: SUCCESS|Bound.
         Else: FAILURE|Not bound.
@@ -68,7 +77,7 @@
 
     | Input| Purpose
     |-|-
-    | `$bound`  | Boolean confirmation of acceptance.
+    | `$bound`  | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) item created.
 
     
     ---
@@ -78,14 +87,15 @@
 
     Given that the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defined by `nlweb.dom` will be widely used, 
     * [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) accept a dot as a prefix of `nlweb.dom/`.
-    * Consider the following equal examples.
+    
+    Consider the following equal examples.
 
-        ```yaml
-        BIND|.IDENTITY/OVER21
-        ```
-        ```yaml
-        BIND|nlweb.dom/IDENTITY/OVER21
-        ```
+    ```yaml
+    BIND|.IDENTITY/OVER21
+    ```
+    ```yaml
+    BIND|nlweb.dom/IDENTITY/OVER21
+    ```
 
     ---
     <br/>
@@ -106,7 +116,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
+   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAILURE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) 
 
    ---
    <br/>
@@ -121,7 +131,7 @@
    💬 Bind:
 
    # Offer the schemas
-   - BIND|$schemas >> $bound
+   - BIND|$schema >> $bound
 
    # Check if any was bound
    - IF|$bound:
@@ -129,7 +139,7 @@
        Else: FAILURE|Not bounded.
    ```
 
-   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`CALL`](<../../⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
+   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAILURE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
    
    ---
    <br/>
