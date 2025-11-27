@@ -1,8 +1,14 @@
 # 🤵 OnBindLocalized 📃 handler
   
+> Part of the {{Broker.Binds table}}
+
+<br/>
+
 ## Diagram
 
 ![alt text](<🤵 OnBindLocalized ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 

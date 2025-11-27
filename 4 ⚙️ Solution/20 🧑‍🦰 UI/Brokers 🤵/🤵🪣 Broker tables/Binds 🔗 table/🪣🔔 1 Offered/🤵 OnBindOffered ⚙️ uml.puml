@@ -2,14 +2,12 @@
  
 'participant "Wallet 👱" as wallet
 participant "Vault 🗄️" as vault
-
 box Broker 🤵 domain #FFFFFA
     participant "Bind 🐌" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
     participant "OnOffered 🔔" as handler
 end box
-
 participant "Graph 🕸" as graph
 
 
