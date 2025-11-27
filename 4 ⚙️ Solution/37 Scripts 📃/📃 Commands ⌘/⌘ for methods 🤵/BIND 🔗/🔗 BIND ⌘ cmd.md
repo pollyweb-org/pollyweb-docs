@@ -23,7 +23,7 @@
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
-    | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<🔗 BIND ⌘ cmd.md>) [Yes, No] <br/> -  Some schema 🧩 <br/> - Some other schema 🧩 | > Yes
+    | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<🔗 BIND ⌘ cmd.md>) [Yes, No] <br/> - Some schema 🧩 <br/> - By Any Vault <br/> - Description: Bla, bla | > Yes
     | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
     ---
@@ -49,7 +49,7 @@
 
 
     ```yaml
-    # For a single required schema.
+    # For a required schema.
     - BIND|<schema> 
     - SUCCESS|Bound!
     ```
@@ -59,7 +59,7 @@
     | `<schema>` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) 
 
     ```yaml
-    # For a single optional schema.
+    # For an optional schema.
     - BIND|schema >> $bound
     - IF|$bound:
         Then: SUCCESS|Bound.
@@ -70,31 +70,7 @@
     |-|-
     | `$bound`  | Boolean confirmation of acceptance.
 
-    ```yaml
-    # For multiple optional static codes.
-    BIND >> $bound:
-        - <schema-1>
-        - <schema-n>
-    ```
-
-   
-    | Input| Purpose
-    |-|-
-    | `<schema-n>` | Array of [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) sent on [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>)
-    | `$bound`  | Array of [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) received on [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-
-
-   ```yaml
-   # For holder codes
-   BIND|{bindable} >> $bound
-   ```
-
-   
-    | Input| Purpose
-    |-|-
-    | `{bindable}` | [{Function}](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) to get the [Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [Bind @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>).
-
-
+    
     ---
     <br/>
 
@@ -120,12 +96,11 @@
    # 😃 Talker 
    💬 Bind:
 
-   # Offer multiple binds.
+   # Offer a bind.
    - BIND >> $bound:
-       - some-authority.dom/SOME-CODE
-       - another-authority.dom/ANOTHER-CODE
+       some-authority.dom/SOME-CODE
 
-   # Verify it any was bound.
+   # Verify it was bound.
    - IF|$bound:
        Then: SUCCESS|Your wallet is bound.
        Else: FAILURE|Not bounded.

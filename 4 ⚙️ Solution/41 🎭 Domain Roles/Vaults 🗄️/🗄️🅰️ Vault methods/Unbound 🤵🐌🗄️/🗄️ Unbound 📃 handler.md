@@ -19,10 +19,9 @@
 - READ >> $bind:
     Set: Vault.Binds
     Key: $.Bind
-
-# Confirm it's the same Broker
-- ASSERT|$.Msg:
-    From: $bind.Broker
+    Assert: 
+        Broker: $.Msg.From
+        .State: BOUND
 
 # Remove the bind
 - DELETE|$bind
