@@ -67,11 +67,10 @@
         OnSomeStatus:
             Events: UPDATED
             Assert: 
-                Item.Expires.IsAbove(.Now):
+                Item.Expires.IsFuture:
                 New.State: NEW_STATE
                 Old.State: OLD_STATE
     ```
-    Uses: [`.IsAbove`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsAbove ⓕ.md>) [`.Now`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>)
-
+    Uses: [`.IsFuture`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsFuture ⓕ.md>) [`.Now`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>)
     ---
     <br/>
