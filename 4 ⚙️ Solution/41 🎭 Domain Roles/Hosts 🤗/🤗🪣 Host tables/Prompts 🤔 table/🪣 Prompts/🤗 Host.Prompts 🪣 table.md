@@ -2,15 +2,11 @@
 
 # 🤗 Host.Prompts 🪣 table
 
-## Data access
+## Lifecycle
 
-|Actor|[`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
-|-|:-:|:-:
-|{{}}
+![alt text](<🤗 Host.Prompts ⚙️ uml.png>)
 
-* [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by the [`.PROMPT` 📃 script](<../../../../../35 💬 Chats/Talkers 😃/😃⏩ Talker flows/Send Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>) 
-    * when calling the [`Prompt@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
-* [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) by the [`Prompted@Host` 🅰️ method](<../../../🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)
+<br/>
 
 ## Schema
 
@@ -19,5 +15,33 @@ Here's the [Itemized 🪣 dataset](<../../../../../30 🧩 Data/Datasets 🪣/�
 ```yaml
 Prefix: Host
 Table: Prompts
-Key: ID
+```
+
+Here's the [Item 🪣 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) definition.
+
+```yaml
+Parents: Chat
+```
+
+Here's the [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition.
+
+```yaml
+Handlers:
+    INSERT     >> OnPromptInserted
+    TRANSLATED >> OnPromptTranslated
+    REPLIED    >> OnPromptReplied
+```
+Handlers: [`OnInserted`](<../🪣🔔 11 Inserted/🤗 OnHostPromptInserted 🔔 handler.md>) [`OnTranslated`](<../🪣🔔 12 Translated/🤗 OnHostPromptTranslated 🔔 handler.md>) [`OnReplied`](<../🪣🔔 13 Replied/🤗 OnHostPromptReplied 🔔 handler.md>)
+
+<br/>
+
+## Example
+
+```yaml
+# Automatic, on INSERT
+ID: <prompt-uuid>
+
+# From the Talker
+Broker: any-broker.dom
+Chat: <chat-uuid>
 ```

@@ -10,7 +10,7 @@
 
 ![alt text](<../🪣🧱 10 Open ⏩ Flow/🤵 Broker.Chats.Open ⚙️ uml.png>)
 
-```yaml
+---
 
 <br/>
 
@@ -23,8 +23,13 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 Prefix: Broker
 Table: Chats
 Item: Chat
-Key: ID
+```
 
+<br/>
+
+Here's the [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) definition, referencing [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Pops`](<../../Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
+
+```yaml
 Parents:
     
     Pop: # Pop that created the Chat
@@ -36,100 +41,126 @@ Parents:
     Host: # Receiver of Hello@Host
         Domains.Name: Chats.Host, 
         Domains.Wallet: Chats.Wallet
-
-Propagate:
-    - Host
-
-Children:
-    Chatters: { Chatters.Chat: Chats.ID }
-
-Handlers:
-    OnChatChanges: ALTERED                   # call Updated@Notifier
-    OnChatCreated: CREATED                   # call Translate@Graph
-    OnChatLocated: CREATED > LOCATED         # call Open@Notifier
-    OnChatOpened: LOCATED > OPENED           # call Present@Finder
-    OnChatPresented: OPENED > PRESENTED      # call Hello@Host
-    OnChatTerminated: PRESENTED > TERMINATED # call Terminated@Host
-    OnChatWrapped: PRESENTED > WRAPPED
-
-Handlers:
-
-    OnChatTerminated:       # On Pop@Broker + Terminate
-        Events: UPDATED     # >> call Terminated@Host
-        Assert: 
-            New.State: TERMINATED
-
-    OnChatWrapped:          # On Wrap@Broker
-        Events: UPDATED     # >> call @Advertise
-        Assert:
-            New.State: WRAPPED
 ```
 
-## Links
 
-| Link | Table | Contains
-|-|-|-
-| Parents   | [`Wallets` 🪣](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>) | [Wallets 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-|           | [`Domains` 🪣][Domains] | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-| Children | [`Chatters` 🪣](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
+<br/>
 
+Here's the [Item 🛢 Propagate](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) definition, referencing [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>)
 
-## Handlers
+```yaml
+Propagate: Host
+```
 
-| Event  🔔 | [Handler 📃](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Target
-|-|-|-|-
-|`ALTERED`|[OnAltered](<../🪣🧱 0 Altered 🔔 event/🤵 OnChatAltered 🔔 handler.md>) | [`Update@`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | [Notifier 📣](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
-|`INSERTED`|[OnInserted](<../🪣🧱 11 Inserted 🔔 event/🤵 OnChatInserted 🔔 handler.md>) | [`Resolve@`](<../../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Resolve 👥🚀🖨️/🖨️ Resolve 📃 handler.md>) | [Printer 🖨️](<../../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>)
-|`RESOLVED`|[OnResolved](<../🪣🧱 12 Resolved 🔔 event/🤵 OnChatResolved 🔔 handler.md>) | [`About@`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 📃 handler.md>) |[Graph 🕸](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>)
-|`DETAILED`|[OnDetailed](<../🪣🧱 13 Detailed 🔔 event/🤵 OnChatDetailed 🔔 handler.md>) | [`Open@`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) | [Notifier 📣](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
-|`OPENED`|[OnOpened](<../🪣🧱 14 Opened 🔔 event/🤵 OnChatOpened 🔔 handler.md>) | [`Present@`](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | [Finder 🔎](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>)
-|`PRESENTED`|[OnPresented](<../🪣🧱 15 Presented 🔔 event/🤵 OnChatPresented 🔔 handler.md>) | [`Prompt@`](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) | [Notifier 📣](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
-|`STARTED`|[OnStarted](<../🪣🧱 16 Activated 🔔 event/🤵 OnChatActivated 🔔 handler.md>) | [`Hello@`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
-|`UPDATED`|[OnLocalized](<../🪣🧱 21 Localized 🔔 event/🤵 OnChatLocalized 🔔 handler.md>) | [`Translate@`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 📃 handler.md>) | [Graph 🕸](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>)
-|`ABANDONED`|[OnAbandoned](<../🪣🧱 31 Abandoned 🔔 event/🤵 OnChatAbandoned 🔔 handler.md>) | [`Abandoned@`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
-|`DONE`|[OnDone](<../🪣🧱 41 Closed 🔔 event/🤵 OnChatDone 🔔 handler.md>)
-|
+<br/>
+
+Here's the [Item 🛢 Children](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Children.md>) definition, referencing [`Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
+
+```yaml
+Children: Chatters
+```
+
+<br/>
+
+Here's the [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition.
+
+```yaml
+Handlers:
+    
+    # Frontend updates
+    ALTERED    >> OnChatAltered:     # call Updated@Notifier
+
+    # Open flow
+    INSERTED   >> OnChatInserted:    # call Resolve@Printer
+    RESOLVED   >> OnChatResolved:    # call About@Graph
+    DETAILED   >> OnChatDetailed:    # call Open@Notifier
+    OPENED     >> OnChatOpened:      # call Present@Finder
+    PRESENTED  >> OnChatPresented:   # add the Broker
+    ACTIVE     >> OnChatActivated:   # call Hello@Host or Pop
+
+    # Localize flow
+    UPDATED    >> OnChatLocalized:   # call Translate@Graph
+        Assert: New.Language    
+
+    # Abandon flow
+    ABANDONED  >> OnChatAbandoned:   # call Abandoned@Host
+
+    # Close flow
+    TERMINATED >> OnChatTerminated:  # call Terminated@Host
+    WRAPPED    >> OnChatWrapped:     # call @Advertise
+```
+
+| Flow ⏩ | Handlers 🔔
+|-|-
+||[`Altered`](<../🪣🧱 0 Altered 🔔 event/🤵 OnChatAltered 🔔 handler.md>)|
+|[`Open` ](<../🪣🧱 10 Open ⏩ Flow/🤵 Broker.Chats.Open ⏩ flow.md>) | [`Inserted`](<../🪣🧱 11 Inserted 🔔 event/🤵 OnChatInserted 🔔 handler.md>) [`Resolved`](<../🪣🧱 12 Resolved 🔔 event/🤵 OnChatResolved 🔔 handler.md>) [`Detailed`](<../🪣🧱 13 Detailed 🔔 event/🤵 OnChatDetailed 🔔 handler.md>) [`Opened`](<../🪣🧱 14 Opened 🔔 event/🤵 OnChatOpened 🔔 handler.md>)  [`Presented`](<../🪣🧱 15 Presented 🔔 event/🤵 OnChatPresented 🔔 handler.md>) [`Activated`](<../🪣🧱 16 Activated 🔔 event/🤵 OnChatActivated 🔔 handler.md>)
+|[`Localize` ](<../🪣🧱 20 Localize ⏩ Flow/🤵 Broker.Chats.Localize ⏩ flow.md>)| [`Localized`](<../🪣🧱 21 Localized 🔔 event/🤵 OnChatLocalized 🔔 handler.md>)
+|[`Abandon` ](<../🪣🧱 30 Abandon ⏩ Flow/🤵 Broker.Chats.Abandon ⏩ flow.md>)| [`Abandoned`](<../🪣🧱 31 Abandoned 🔔 event/🤵 OnChatAbandoned 🔔 handler.md>)
+|[`Wrap` ](<../🪣🧱 40 Wrap ⏩ Flow/🤵 Broker.Chats.Wrap ⏩ flow.md>)| [`Wrapped`](<../🪣🧱 41 Wrap 🔔 event/🤵 OnChatWrapped 🔔 handler.md>)
+
+<br/>
+
 
 ## Example
 
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 ```yaml
-# READ|Chats|<chat-id>
-
 # From Pop@Broker, Locate@Broker
 ID: <chat-uuid>          # Automatic Chat ID
 Hook: <hook-uuid>        # Wallet hook reference
 Wallet: <wallet-uuid>    # Wallet reference
+```
 
-# From Pop@Broker
+From [`Pop@Broker` 🐌 handler](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)
+
+```yaml
 Pop: <pop-uuid>          # Pop reference
+```
 
-# From Locate@Broker
+From [`Locate@Broker` 🐌 handler](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 📃 handler.md>)
+
+```yaml
 Origin: <chat-uuid>      # Origin chat (if any)
 Locator: $.Msg.Locator   # Locator to parse on insert
+```
 
-# From OnChatInserted
+From [`OnChatInserted` 🔔 handler](<../🪣🧱 11 Inserted 🔔 event/🤵 OnChatInserted 🔔 handler.md>)
+
+```yaml
 Host: any-host.dom       # Host domain name
 Key: ANY-KEY             # Locator key for the Host
 Inputs: any-inputs       # Locator inputs
+```
 
-# From OnChatResolved
+From [`OnChatResolved` 🔔 handler](<../🪣🧱 12 Resolved 🔔 event/🤵 OnChatResolved 🔔 handler.md>)
+
+```yaml
 Notifier: any-wallet.dom # Notifier wallet domain
 Language: en-us          # To change the language of the chat
 HostTitle: Any Host      # Host title from a Graph
 Description: Bla, bla    # Host description from a Graph
 SmallIcon: <base64>      # Host small icon from a Graph
 BigIcon: <base64>        # Host big icon from a Graph
+```
 
-# from Opened@Broker
+From [`Opened` 🐌 handler](<../../../🤵🅰️ Broker methods/Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 📃 handler.md>)
+
+```yaml
 PublicKey: <PublicKey>  # For domains to verify Wallet messages
+```
 
-# from Emoji@Broker
+From [`Emoji@Broker` 🚀 handler](<../../../🤵🅰️ Broker methods/Chats 💬 Emoji 🤗🚀🤵/🤵 Emoji 📃 handler.md>)
+
+```yaml 
 Emoji: 😃                # New chat emoji 
 ```
 
-Property|Type|Details|Origin|Purpose
+<br/>
+
+## Fields
+
+Field|Type|Details|Origin|Purpose
 |-|-|-|-|-
 |`ID`|uuid | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID |[`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)| [`Chats@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
 |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) ID | [`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Chats@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)

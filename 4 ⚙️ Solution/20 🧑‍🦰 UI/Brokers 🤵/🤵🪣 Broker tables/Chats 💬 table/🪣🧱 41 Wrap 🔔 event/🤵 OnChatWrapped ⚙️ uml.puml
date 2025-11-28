@@ -1,4 +1,4 @@
-@startuml OnChatDone
+@startuml OnChatWrapped
  
 'participant "Wallet 👱" as wallet
 'participant "Vault 🗄️" as vault
@@ -8,7 +8,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Goodbye 🐌" as script
     'participant "Wallets 🪣" as wallets
     participant "Binds 🪣" as binds
-    participant "OnDone 🔔" as handler
+    participant "OnWrapped 🔔" as handler
 end box
 
 participant "Reviewer ⭐" as reviewer
@@ -18,11 +18,11 @@ participant "Advertizer 👀" as ads
 host --> script: Goodbye 🐌
 
 activate script
-    script -> binds: SAVE 💾 {DONE}
+    script -> binds: SAVE 💾 {WRAPPED}
 deactivate script
 
 activate binds
-    binds --> handler: DONE 🔔
+    binds --> handler: WRAPPED 🔔
 deactivate binds
 
 activate handler
