@@ -1,4 +1,4 @@
-# 🤵 OnChatDone 🔔 handler
+# 🤵 OnChatWrapped 🔔 handler
 
 > Part of the [`Broker.Chats` 🪣 table](<../🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
 
@@ -6,11 +6,11 @@
 
 ## Diagram
 
-![alt text](<🤵 OnChatDone ⚙️ uml.png>)
+![alt text](<🤵 OnChatWrapped ⚙️ uml.png>)
 
 ## Script
 
 ```yaml
-📃 OnChatDone:
+📃 OnChatWrapped:
 
 ```

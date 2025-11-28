@@ -43,7 +43,7 @@ Handlers:
     UPDATED  >> OnDomainLocalized:  # Calls TRANSLATE
         Assert: New.Language
 ```
-Handlers: [`OnDomainInserted`](<../🪣🧱 1 Inserted 🔔 event/🤵 OnDomainInserted 🔔 handler.md>) [`OnDomainUnbound`](<../🪣🧱 3 Unbound 🔔 event/🤵 OnDomainUnbound 🔔 handler.md>) [`OnDomainLocalized`](<../🪣🧱 2 Localized 🔔 event/🤵 OnDomainLocalized 🔔 handler.md>)
+Handlers: [`OnInserted`](<../🪣🧱 1 Inserted 🔔 event/🤵 OnDomainInserted 🔔 handler.md>) [`OnUnbound`](<../🪣🧱 3 Unbound 🔔 event/🤵 OnDomainUnbound 🔔 handler.md>) [`OnLocalized`](<../🪣🧱 2 Localized 🔔 event/🤵 OnDomainLocalized 🔔 handler.md>)
 
 <br/>
 

@@ -73,7 +73,7 @@ Handlers:
     UPDATED >> OnWalletLocalized:  # Localizes Binds, Chats, etc.
         Assert: New.Language
 ```
-Handlers: [`OnWalletAltered`](<../🪣🧱 00 Altered 🔔 event/🤵 OnWalletAltered 🔔 handler.md>) [`OnWalletLocalized`](<../🪣🧱 21 Localized 🔔/🤵 OnWalletLocalized 🔔 handler.md>)
+Handlers: [`OnAltered`](<../🪣🧱 00 Altered 🔔 event/🤵 OnWalletAltered 🔔 handler.md>) [`OnLocalized`](<../🪣🧱 21 Localized 🔔/🤵 OnWalletLocalized 🔔 handler.md>)
 
 <br/>
 
