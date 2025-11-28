@@ -1,0 +1,35 @@
+@startuml Broker.Domains
+
+box Broker 🤵 domain #FFFFFA
+    participant "Chats, Binds, Tokens 🪣" as propagate
+    participant "Wallets 🪣" as wallets
+    participant "Domains 🪣" as domains
+    participant "Frontend 🪣" as frontend
+end box
+participant "Graph 🕸" as graph
+participant "Notifier 📣" as notifier
+
+
+propagate -> domains: 💾 Propagate Parents 
+activate domains
+    wallets -> domains: 💾 {language}
+    
+    domains -> graph: 🔔 OnInsert 🚀 Schema @ Graph
+    activate graph
+        graph -> domains: 💾 {details}
+    deactivate graph
+
+    domains -> graph: 🔔 OnLocalized 🚀 Translate @ Graph
+    activate graph
+        graph -> domains: 💾 {translations}
+    deactivate graph
+
+    domains -> frontend: 🔔 OnAltered 💾 SAVE
+
+deactivate domains
+
+activate frontend
+    frontend -> notifier: IF changed: 🐌 Updated@
+deactivate frontend
+
+@enduml 
