@@ -1,7 +1,25 @@
 # 🤵🪣 Broker.Domains table
 
-> Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+> About
+* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Similar to the [`Broker.Schemas` 🪣 table](<../../Schemas 🧩 table/🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>), but for Domains 👥
 
+<br/>
+
+## Lifecycle
+
+![alt text](<🤵 Broker.Domains ⚙️ uml.png>)
+
+<br/>
+
+## Data access
+
+|Actor| [🛢 Propagate](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) | [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
+|-|:-:|:-:|:-:
+|[`Broker.Binds` 🪣](<../../Binds 🔗 table/🪣 Binds/🤵 Broker.Binds 🪣 table.md>) | X
+|[`Broker.Chats` 🪣](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) | X
+|[`Broker.Tokens` 🪣](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) | X
+|[`OnWalletLocalized` 🔔](<../../Wallets 🧑‍🦰 table/🪣🧱 21 Localized 🔔/🤵 OnWalletLocalized 🔔 handler.md>) |  |X| X |
 
 <br/>
 
