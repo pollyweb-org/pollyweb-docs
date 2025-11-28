@@ -1,0 +1,15 @@
+@startuml OnPromptReplied
+ 
+participant "Wallet 👱" as wallet
+box Host 🤗 domain #FFFFFD
+    participant "Reply 🐌" as handler
+    participant "Prompts 🪣" as prompts
+end box
+
+wallet --> handler: Reply 🐌 {answer}
+activate handler
+    handler --> prompts: SAVE 💾 {REPLIED}
+deactivate handler
+
+
+@enduml 

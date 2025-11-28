@@ -1,0 +1,15 @@
+@startuml OnPromptTranslated
+ 
+box Host 🤗 domain #FFFFFD
+    participant "Prompts 🪣" as prompts
+    participant "OnTranslated 🔔" as handler
+end box
+participant "Broker 🤵" as broker
+
+prompts --> handler: TRANSLATED 🔔
+activate handler
+    handler --> broker: SEND 📬 {Prompt 🐌 hook}
+deactivate handler
+
+
+@enduml 
