@@ -1,6 +1,7 @@
 # 🤵 OnSchemaLocalized 📃 handler
 
-> Purpose
+> About
+* Part of the [`Broker.Schemas` 🪣 table](<../🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>)
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to a change in the language of a [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)'s Domain.
 * Part of the [🤵 `Broker.Wallets.Localize` ⏩ flow](<../../Wallets 🧑‍🦰 table/🪣🧱 20 Localize ⏩ flow/🤵 Broker.Wallets.Localize ⏩ flow.md>)
 

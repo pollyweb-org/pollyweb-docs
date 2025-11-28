@@ -1,6 +1,7 @@
 # 🤵 OnSchemaInserted 📃 handler
 
-> Purpose
+> About
+* Part of the [`Broker.Schemas` 🪣 table](<../🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>)
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to the insertion of a new [`Schema`](<../🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>) item.
 
 <br/>

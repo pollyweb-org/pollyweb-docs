@@ -8,10 +8,10 @@
 
 ## Data access
 
-| Actor | [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | [`DELETE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) |
-|-|:-:|:-:|:-:|
-| [`Onboard@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>) | | X
-| [`Pop@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | X | X |
+| Actor | [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) |Purpose
+|-|:-:|:-:|-|
+| [`Onboard@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 📃 handler.md>) | | X | Registers a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+| [`Pop@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>) | X | X | Opens a [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
 |
 
 <br/>
@@ -34,7 +34,7 @@ Here's the [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 Parents: 
     Notifier # Registerer of the Wallet
 ```
-References: [`Notifiers` 🪣 table](<../../Notifiers 📣 table/🪣 Notifiers/🤵 Broker.Notifiers 🪣 table.md>)
+References the [`Broker.Notifiers` 🪣 table](<../../Notifiers 📣 table/🪣 Notifiers/🤵 Broker.Notifiers 🪣 table.md>)
 
 <br/>
 

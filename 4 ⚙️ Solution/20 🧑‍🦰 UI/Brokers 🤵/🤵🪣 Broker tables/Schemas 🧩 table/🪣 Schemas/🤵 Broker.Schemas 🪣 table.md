@@ -1,8 +1,18 @@
 # 🤵🪣 Broker.Schemas table
 
-> Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+> About
+* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* [Propagated 🛢](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) by [`Binds` ](<../../Binds 🔗 table/🪣 Binds/🤵 Broker.Binds 🪣 table.md>) [`Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Tokens`](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) tables
+* Localized by the [🤵 `Broker.Wallets.Localize` ⏩ flow](<../../Wallets 🧑‍🦰 table/🪣🧱 20 Localize ⏩ flow/🤵 Broker.Wallets.Localize ⏩ flow.md>)
 
 <br/>
+
+## Lifecycle
+
+![alt text](<🤵 Broker.Schemas ⚙️ uml.png>)
+
+<br/>
+
 
 ## Schema
 
@@ -13,14 +23,23 @@ Prefix: Broker
 Table: Schemas
 Item: Schema
 Key: Code, Wallet
-
-Handlers:
-    OnSchemaInserted:       # Call Schema@Graph
-        Events: INSERTED 
-    OnSchemaLocalized:      # Call Translate@Graph
-        Events: UPDATED
-        Assert: New.Language
 ```
+
+<br/>
+
+Here's the [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition.
+
+```yaml
+Handlers:
+    INSERTED >> OnSchemaInserted:  # Calls Schema@Graph
+    UPDATED >> OnSchemaLocalized:  # Calls Translate@Graph
+        Assert: New.Language
+    ALTERED >> OnSchemaAltered:    # Updates Broker.Frontend
+```
+Handlers:
+* [`OnSchemaInserted` 📃 handler](<../🪣🧱 Inserted 🔔 event/🤵 OnSchemaInserted 🔔 handler.md>)
+* [`OnSchemaLocalized` 📃 handler](<../🪣🧱 Localized 🔔 event/🤵 OnSchemaLocalized 🔔 handler.md>)
+* [`OnSchemaAltered` 📃 handler](<../🪣🧱 Altered 🔔 event/🤵 OnSchemaAltered 🔔 handler.md>)
 
 <br/>
 

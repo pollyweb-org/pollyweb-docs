@@ -1,7 +1,7 @@
 # 🤵 OnSchemaAltered 📃 handler
 
-> Purpose
-
+> About
+* Part of the [`Broker.Schemas` 🪣 table](<../🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>)
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) 
     * that projects the [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
     * of a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
