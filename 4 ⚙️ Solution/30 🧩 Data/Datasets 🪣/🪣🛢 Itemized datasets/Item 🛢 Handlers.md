@@ -2,7 +2,23 @@
 
 > Part of [Itemized 🪣 dataset](<../🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
 
+<br/>
+
 ## FAQ
+
+1. **What architecture patterns does it allow?**
+
+    |Pattern|Description|
+    |-|-|
+    | `Saga`   | Distributed asynchronous transactions coordination |
+    | `Outbox` | Reliable message delivery in distributed systems |
+    | `CQRS`   | Separation of read and write operations |
+    | `Projection` | Transforming data into different views |
+    | `Event Sourcing` | Capturing all changes as a sequence of events |
+    | `Eventual Consistency` | Data consistency over time in distributed systems |    
+
+    ---
+    <br/>
 
 1. **How to work with event handlers?**
 
@@ -12,7 +28,6 @@
 
     ---
     <br/>
-
 
 
 1. **What are the possible events?**
@@ -25,14 +40,13 @@
     | `ALTERED` | Raised on `INSERTED` `UPDATED` or `DELETED`
     | `EXPIRED` | Item removed automatically due to a [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) expiration
     | `PURGED`  | Item removed automatically due to an [`UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) timeout
-    |
+    
+    ---
+    <br/>
 
 1. **How to register an Event Handler?**
 
     ```yaml
-    Table: <table-name>
-    Item: <item-name>
-
     Handlers:
         <handler>: 
             Events: [events]
@@ -42,7 +56,7 @@
     |Input|Details|Example
     |-|-|-
     | `<handler>` | Name of the [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to handle | `MyHandler`
-    | `[events]` | Events to handle | `INSERTED, PURGED`
+    | `[events]` | Events to handle | `INSERTED, ALTERED`
     | `{asserts}` | Filter events with [`.Assert`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) |
     |           | on the latest version of the item | `Item.A`
     |           | on the new property versions | `New.A`
@@ -53,9 +67,6 @@
 
     ```yaml
     # Example
-    Table: ORDERS
-    Item: ORDER
-
     Handlers: 
 
         OnTimeout: 
@@ -67,10 +78,26 @@
         OnSomeStatus:
             Events: UPDATED
             Assert: 
-                Item.Expires.IsFuture:
-                New.State: NEW_STATE
-                Old.State: OLD_STATE
+                Item.AnyField.Is: AnyValue
+                New.AnyField: AnyNewValue
+                Old.AnyField: AnyOldValue
     ```
     Uses: [`.IsFuture`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsFuture ⓕ.md>) [`.Now`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>)
+
+    ---
+    <br/>
+
+1. **What's an alternative more compact syntax?**
+
+    Here's an alternative syntax using `>>`.
+
+    ```yaml
+    Handlers:
+        INSERTED >> OnInserted:
+        UPDATED  >> OnUpdated:
+            Assert: 
+                New.AnyField: AnyNewValue
+    ```
+
     ---
     <br/>
