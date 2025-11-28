@@ -31,9 +31,8 @@ Item: Wallet
 Here's the [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) definition.
 
 ```yaml
-Parents:
-    Notifier: # Registerer of the Wallet
-        Notifiers.Name: Wallet.Notifier
+Parents: 
+    Notifier # Registerer of the Wallet
 ```
 References: [`Notifiers` 🪣 table](<../../Notifiers 📣 table/🪣 Notifiers/🤵 Broker.Notifiers 🪣 table.md>)
 
@@ -42,12 +41,12 @@ References: [`Notifiers` 🪣 table](<../../Notifiers 📣 table/🪣 Notifiers/
 Here's the [Item 🛢 Children](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Children.md>) definition.
 
 ```yaml
-Children:
-    Binds: { Binds.Wallet: Wallet.ID }
-    Chats: { Chats.Wallet: Wallet.ID }
-    Domains: { Domains.Wallet: Wallet.ID }
-    Schemas: { Schemas.Wallet: Wallet.ID }
-    Tokens: { Tokens.Wallet: Wallet.ID }
+Children: 
+    - Chats     # Wallet chats
+    - Binds     # Wallet binds
+    - Tokens    # Wallet tokens
+    - Domains   # Domains of chats, binds, and tokens
+    - Schemas   # Domains of binds and tokens
 ```
 References: [`Binds`](<../../Binds 🔗 table/🪣 Binds/🤵 Broker.Binds 🪣 table.md>) [`Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Schemas`](<../../Schemas 🧩 table/🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>) [`Tokens`](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 

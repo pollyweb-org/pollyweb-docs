@@ -38,4 +38,24 @@
     ---
     <br/>
 
+1. **What's the simplest possible syntax?**
 
+    Here's the simplest possible syntax.
+
+    ```yaml
+    Table: ORDERS
+    Item: ORDER
+    Children: LINES
+    ```
+
+    ```yaml
+    Table: LINES
+    ```
+
+    In this example:
+    - The `ORDERS` dataset has an implicit `ID` key
+    - The `LINES` dataset expects a field called `ORDER` 
+    - `ORDER.LINES` will map `ORDERS.ID` to `LINES.ORDER`
+
+    ---
+    <br/>
