@@ -4,7 +4,7 @@
 
 ## Data access
 
-|Actor|{{READ}} | {{SAVE}}
+|Actor|[`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
 |-|:-:|:-:
 |{{}}
 
