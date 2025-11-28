@@ -23,13 +23,9 @@
     UUIDs: Wallet
 
 # Get the Domain details from the Graph
-- SEND >> $domain:
-    Header:
-        To: $.Hosted.Graph
-        Subject: About@Graph
-    Body:
-        Domain: $Domain.Name
-        Language: $Domain.Wallet.Language
+- TRANSLATE >> $domain:
+    Domain: $Domain.Name
+    To: $Domain.Wallet.Language
 
 # Save the Domain info
 - SAVE|$Domain:
