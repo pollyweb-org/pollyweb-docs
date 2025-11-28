@@ -1,7 +1,9 @@
 # 🤵📃 Chat 🚀 Broker
 
 > Purpose
-* [Script 📃](<🤵 Chat 🚀 call.md>) the returns the details of a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+* [Script 📃](<🤵 Chat 🚀 call.md>) that implements the [`Chat@Broker` 🅰️ method](<🤵 Chat 📃 handler.md>)
+* Asserts the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) is a participant in the [`Broker.Chatters` 🪣 table](<../../🤵🪣 Broker tables/Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
+* Returns part of the data from the [`Broker.Chats` 🪣 table](<../../🤵🪣 Broker tables/Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
 
 
 ## Flow
