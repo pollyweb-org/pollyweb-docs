@@ -1,14 +1,14 @@
-# 🤵 Broker.Tokens.Localize ⏩ flow
+# 🤵 Broker.Wallets.Localize ⏩ flow
 
 > About
-* Part of the [`Broker.Tokens` 🪣 table](<../../Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
+* Part of the [`Broker.Wallets` 🪣 table](<../🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
 
 > Triggers
-* [🤵 `OnBindLocalized` 🔔 handler](<../../Binds 🔗 table/🪣🧱 51 Localized 🔔 event/🤵 OnBindLocalized 🔔 handler.md>)
-* [🤵 `OnChatLocalized` 🔔 handler](<../../Chats 💬 table/🪣🧱 21 Localized 🔔 event/🤵 OnChatLocalized 🔔 handler.md>)
-* [🤵 `OnDomainLocalized` 🔔 handler](<../../Domains 👥 table/🪣🧱 2 Localized 🔔 event/🤵 OnDomainLocalized 🔔 handler.md>)
-* [🤵 `OnSchemaLocalized` 🔔 handler](<../../Schemas 🧩 table/🪣🧱 Localized 🔔 event/🤵 OnSchemaLocalized 🔔 handler.md>)
-* [🤵 `OnTokenLocalized` 🔔 handler](<../../Tokens 🎫 table/🪣🧱 21 Localized 🔔 event/🤵 OnTokenLocalized 🔔 handler.md>)
+* [`OnBindLocalized` 🔔 handler](<../../Binds 🔗 table/🪣🧱 51 Localized 🔔 event/🤵 OnBindLocalized 🔔 handler.md>)
+* [`OnChatLocalized` 🔔 handler](<../../Chats 💬 table/🪣🧱 21 Localized 🔔 event/🤵 OnChatLocalized 🔔 handler.md>)
+* [`OnDomainLocalized` 🔔 handler](<../../Domains 👥 table/🪣🧱 2 Localized 🔔 event/🤵 OnDomainLocalized 🔔 handler.md>)
+* [`OnSchemaLocalized` 🔔 handler](<../../Schemas 🧩 table/🪣🧱 Localized 🔔 event/🤵 OnSchemaLocalized 🔔 handler.md>)
+* [`OnTokenLocalized` 🔔 handler](<../../Tokens 🎫 table/🪣🧱 21 Localized 🔔 event/🤵 OnTokenLocalized 🔔 handler.md>)
 <br/>
 
 ## Diagram
