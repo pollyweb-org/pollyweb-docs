@@ -1,6 +1,6 @@
 # 🤵🪣 Prompts @ Broker table
 
-> Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+> Part of the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) helper
 
 <br/>
 
@@ -15,8 +15,8 @@
 |Actor|Save|Read
 |-|:-:|:-:
 | [`Prompt` 📃 handler](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 📃 handler.md>) | X | 
-| [`OnPromptInserted` 📃 handler](<../🪣🧱 1 Inserted 🔔/🤵 OnPromptInserted 📃 handler.md>) | X | X
-| [`OnPromptEmojied` 📃 handler](<../🪣🧱 2 Emojied 🔔/🤵 OnPromptEmojied 📃 handler.md>) | |X 
+| [`OnPromptInserted` 📃 handler](<../🪣🧱 1 Inserted 🔔/🤵 OnPromptInserted 🔔 handler.md>) | X | X
+| [`OnPromptEmojied` 📃 handler](<../🪣🧱 2 Emojied 🔔/🤵 OnPromptEmojied 🔔 handler.md>) | |X 
 
 <br/>
 
