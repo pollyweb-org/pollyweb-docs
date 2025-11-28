@@ -32,16 +32,18 @@ Prefix: Broker
 Table: Domains
 Item: Domain
 Key: Name, Wallet
-
-Handlers:
-    OnDomainInserted:       # Call About@Graph
-        Events: INSERTED 
-    OnDomainLocalized:      # Call Translate@Graph
-        Events: UPDATED
-        Assert: New.Language
-    OnDomainUnbound:        # Set Binds to REMOVED
-        Events: UNBOUND
 ```
+
+Here's the [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition.    
+
+```yaml
+Handlers:
+    UNBOUND  >> OnDomainUnbound:    # Sets Bind.State: REMOVED
+    INSERTED >> OnDomainInserted:   # Calls About@Graph
+    UPDATED  >> OnDomainLocalized:  # Calls TRANSLATE
+        Assert: New.Language
+```
+Handlers: [`OnDomainInserted`](<../🪣🧱 1 Inserted 🔔 event/🤵 OnDomainInserted 🔔 handler.md>) [`OnDomainUnbound`](<../🪣🧱 3 Unbound 🔔 event/🤵 OnDomainUnbound 🔔 handler.md>) [`OnDomainLocalized`](<../🪣🧱 2 Localized 🔔 event/🤵 OnDomainLocalized 🔔 handler.md>)
 
 <br/>
 
