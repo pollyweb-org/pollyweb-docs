@@ -1,11 +1,19 @@
 # 🤵 OnPromptInserted 📃 handler
 
 > About
+* Part of the [`Broker.Prompts` 🪣 table](<../🪣 Prompts/🤵 Broker.Prompts 🪣 table.md>)
+* Reacts to the [`Prompt@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 * Calculates an emoji for a [Prompt 🤔](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)
 * Implements the logic in [Input emojis 😶 ](<../../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶 Input emojis.md>)
-* Part of the [`Broker.Prompts` 🪣 table](<../🪣 Prompts/🤵 Broker.Prompts 🪣 table.md>)
 
+
+<br/>
+
+## Diagram
+
+![alt text](<🤵 OnPromptInserted ⚙️ uml.png>)
   
+<br/>
 
 ## Script
 
