@@ -1,7 +1,13 @@
 # 🤵 Prompt 📃 handler
 
-> Purpose
+> About
 * Implements the [`Prompt@Broker` 🅰️ method](<🤵 Prompt 🐌 msg.md>)
+
+> Triggers
+* [`OnPromptInserted` 🔔 handler](<../../🤵🪣 Broker tables/Prompts 🤔 table/🪣🧱 1 Inserted 🔔/🤵 OnPromptInserted 🔔 handler.md>)
+* [`OnPromptEmojied` 🔔 handler](<../../🤵🪣 Broker tables/Prompts 🤔 table/🪣🧱 2 Emojied 🔔/🤵 OnPromptEmojied 🔔 handler.md>)
+
+<br/>
 
 ## Script
 

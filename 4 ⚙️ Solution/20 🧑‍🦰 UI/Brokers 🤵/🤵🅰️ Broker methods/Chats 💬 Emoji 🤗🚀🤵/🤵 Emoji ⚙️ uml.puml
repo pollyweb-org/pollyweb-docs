@@ -10,7 +10,7 @@ box Broker 🤵 domain #FFFFFA
 end box
 
 activate host
-host -> broker: Chat 🚀 {chat, emoji}
+host -> broker: Emoji 🚀 {chat, emoji}
 
     activate broker
         broker -> chatters: READ 🧲

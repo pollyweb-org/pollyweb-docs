@@ -1,5 +1,15 @@
 # 🤵 OnPromptEmojied 📃 handler
 
+> About
+* Part of the [`Broker.Prompts` 🪣 table](<../🪣 Prompts/🤵 Broker.Prompts 🪣 table.md>)
+
+<br/>
+
+## Diagram
+
+![alt text](<🤵 OnPromptEmojied ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 
