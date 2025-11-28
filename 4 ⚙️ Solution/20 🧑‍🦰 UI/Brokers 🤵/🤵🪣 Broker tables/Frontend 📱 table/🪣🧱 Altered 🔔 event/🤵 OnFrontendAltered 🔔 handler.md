@@ -13,18 +13,7 @@
 
 ![alt text](<🤵 OnFrontendAltered ⚙️ uml.png>)
 
-## How to call
-
-```yaml
-- RUN|OnFrontendAltered:
-    Item: 
-        Wallet: <wallet-uuid>
-        Chats: {...}
-        Binds: {...}
-        Tokens: {...}
-    New: {...}
-    Old: {...}
-```
+<br/>
 
 ## Script
 
@@ -43,11 +32,8 @@
         Subject: Updated@Notifier
     Body:
         Wallet: $Item.Wallet
-        #Chats: $Item.Chats
-        #Binds: $Item.Binds
-        #Tokens: $Item.Tokens
-        #New: $New
-        #Old: $Old
+        New: $New
+        Old: $Old
 ```
 
 |Uses||

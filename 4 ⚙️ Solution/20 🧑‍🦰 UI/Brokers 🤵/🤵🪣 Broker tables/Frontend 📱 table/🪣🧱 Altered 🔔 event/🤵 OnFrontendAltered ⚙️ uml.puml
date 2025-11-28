@@ -1,27 +1,12 @@
 @startuml OnFrontendAltered
 
-'participant "Wallet 👱" as wallet
 
 box Broker 🤵 domain #FFFFFA
-    'participant "Script 📃" as script
-    participant "Chats 🔔" as chats
-    participant "Binds 🔔" as binds
-    participant "Tokens 🔔" as tokens
     participant "Frontend 🪣" as frontend
     participant "OnAltered 🔔" as handler
 end box
-
 participant "Notifier 📣" as notifier
 
-'wallet --> script: Pop 🐌
-
-'activate script
-'    script -> chats: SAVE 💾, DELETE 🗑️
-
-    chats --> frontend: SAVE 💾 {Chats}
-activate frontend
-    binds --> frontend: SAVE 💾 {Binds}
-    tokens --> frontend: SAVE 💾 {Tokens}
 
     frontend --> handler: ALTERED 🔔
 deactivate frontend

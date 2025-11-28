@@ -36,8 +36,6 @@
 - READ >> $frontend:
     Set: Broker.Frontend
     Key: $wallet.ID
-    Default: 
-        PublicKey: $wallet.PublicKey
 
 # Prepare the response:
 - PUT|$wallet.Domains >> $domains:

@@ -39,6 +39,8 @@
         Texts: <fields> # Text fields
         Times: <fields> # Time fields
         Lists: <fields> # List fields
+        Bools: <fields> # Boolean fields
+        Enums: <fields> # Enum fields, i.e. list of texts
         Nums: <fields> # Numeric fields
     ```
     
@@ -53,17 +55,13 @@
     | `Times` | Absolute or relative [Time 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) | `A,B` `[A,B]`
     | `Lists` | Must be [Lists 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) or [Sets 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) | `A,B` `[A,B]`
     | `Bools` | Must be boolean fields | `A,B` `[A,B]`
+    | `Enums` | Must be [Lists 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) of [Text 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | `A,B` `[A,B]`
     | `Nums` | Must be [Num 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) fields | `A,B` `[A,B]`
     |
     
     <br/>
 
-    **Syntax flexibility:**
-    * The `-` is optional 
-        * if there's no property in the object context with the same name.
-    * If there's a property with the same name in the context object, 
-        * then the assessment defaults ti similar `:` text comparison.
-
+    
     ---
     <br/>
 
@@ -74,9 +72,9 @@
 
     ```yaml
     ASSERT|$object:
-        - <key>
-        - <key>.f(?)
-        - <key>: <val>
+        <key>
+        <key>.f: ?
+        <key>: <val>
     ```
     
     | Input| Purpose | Examples

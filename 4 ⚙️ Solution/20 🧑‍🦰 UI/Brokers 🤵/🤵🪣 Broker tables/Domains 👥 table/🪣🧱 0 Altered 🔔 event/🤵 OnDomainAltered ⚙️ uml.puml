@@ -13,6 +13,7 @@ end box
 
 activate script
     script -> domains: SAVE 💾, DELETE 🗑️
+deactivate script
 
 activate domains
     domains --> handler: ALTERED 🔔
