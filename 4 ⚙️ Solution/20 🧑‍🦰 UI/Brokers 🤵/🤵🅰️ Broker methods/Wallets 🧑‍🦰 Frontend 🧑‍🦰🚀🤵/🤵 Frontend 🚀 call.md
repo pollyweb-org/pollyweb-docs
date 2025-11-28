@@ -2,16 +2,15 @@
 <!-- Test: https://github.com/jorgemjfonseca/domain-trust-framework/blob/2896911396280f90ec68c32b50aa99dc4a3c90e2/python/roles/broker/BROKER_SESSIONS_TESTS.py#L10 -->
 
 
-# 🧑‍🦰🚀🤵 Frontend 🧑‍🦰🚀🤵 @ Broker
+# 🧑‍🦰🚀🤵 Frontend @ Broker
 
-> Implementation 
-* Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
-* Implemented by the [`Frontend` 📃 script](<🤵 Frontend 📃 handler.md>)
-  
-> Purpose
+ 
+> About
 * The [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
     * lists the [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>), [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>), and [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
     * of a [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
+* Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implemented by the [`Frontend` 📃 script](<🤵 Frontend 📃 handler.md>)
 
 <br/>
 
