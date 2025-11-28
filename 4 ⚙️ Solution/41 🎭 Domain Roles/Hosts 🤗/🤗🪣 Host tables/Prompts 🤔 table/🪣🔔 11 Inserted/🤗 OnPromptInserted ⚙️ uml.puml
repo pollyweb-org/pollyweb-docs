@@ -1,0 +1,16 @@
+@startuml OnPromptInserted
+ 
+box Host 🤗 domain #FFFFFD
+    participant "Prompts 🪣" as prompts
+    participant "OnInserted 🔔" as handler
+end box
+participant "Graph 🕸" as graph
+
+prompts --> handler: INSERTED 🔔
+activate handler
+    handler -> graph: TRANSLATE 🈯
+    handler -> prompts: SAVE 💾 {TRANSLATED}
+deactivate handler
+
+
+@enduml 
