@@ -1,0 +1,26 @@
+@startuml Broker.Prompts
+
+participant "Host 🤗" as host
+box Broker 🤵 domain #FFFFFA
+    participant "Prompt 🐌" as script
+    participant "Prompts 🪣" as table
+end box
+participant "Notifier 📣" as notifier
+participant "Wallet 👱" as wallet
+
+host -> script: Prompt 🐌
+
+activate script
+    script -> table: 💾 INSERTED
+deactivate script
+
+activate table
+    table -> table: 💾 EMOJIED
+    table -> notifier: Prompt 🐌
+deactivate table
+
+activate notifier
+    notifier -> wallet: 
+deactivate notifier
+
+@enduml

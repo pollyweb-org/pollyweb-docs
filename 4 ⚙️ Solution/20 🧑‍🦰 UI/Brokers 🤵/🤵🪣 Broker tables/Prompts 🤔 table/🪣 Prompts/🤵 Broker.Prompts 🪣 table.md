@@ -2,6 +2,14 @@
 
 > Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 
+<br/>
+
+## Lifecycle
+
+![alt text](<🤵 Broker.Prompts ⚙️ uml.png>)
+
+<br/>
+
 ## Data access
 
 |Actor|Save|Read
@@ -9,6 +17,8 @@
 | [`Prompt` 📃 handler](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 📃 handler.md>) | X | 
 | [`OnPromptInserted` 📃 handler](<../🪣🧱 1 Inserted 🔔/🤵 OnPromptInserted 📃 handler.md>) | X | X
 | [`OnPromptEmojied` 📃 handler](<../🪣🧱 2 Emojied 🔔/🤵 OnPromptEmojied 📃 handler.md>) | |X 
+
+<br/>
 
 ## Schema
 
@@ -18,13 +28,19 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 Prefix: Broker
 Table: Prompts
 Item: Prompt
-
-Parents:
-    Wallet: { Wallets.ID: Prompt.Wallet }
-    Chatter: { Chatter.ID: Prompt.Chatter }
 ```
 
+Here's the [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) definition.
 
+```yaml
+Parents: 
+  - Wallet  # Wallet to whom the Prompt is intended to
+  - Chatter # Chat participant who sent the Prompt
+```
+
+Relates to [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>) [`Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
+
+<br/>
 
 ## Example
 

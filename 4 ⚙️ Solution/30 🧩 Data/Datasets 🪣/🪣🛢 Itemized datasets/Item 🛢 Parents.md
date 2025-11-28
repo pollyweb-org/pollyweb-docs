@@ -57,3 +57,30 @@
     <br/>    
 
 
+1. **What's the simplest possible syntax?**
+
+    Here's the simplest possible syntax.
+
+    ```yaml
+    Table: PRODUCTS
+    Item: PRODUCT
+    ```
+
+    ```yaml
+    Table: ORDERS
+    Item: ORDER
+    ```
+
+    ```yaml
+    Table: LINES
+    Parents: PRODUCT, ORDER
+    ```
+
+    In this example:
+    - The `PRODUCTS` and `ORDERS` datasets have implicit `ID` keys.
+    - The `LINES` dataset expects fields called `PRODUCT` and `ORDER` 
+    - `LINES.PRODUCT` will implicitly map to `PRODUCTS.ID` 
+    - `LINES.ORDER` will implicitly map to `ORDERS.ID` 
+
+    ---
+    <br/>
