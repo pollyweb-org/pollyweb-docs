@@ -2,7 +2,8 @@
 
 > About
 * Part of [Itemized 🪣 dataset](<../🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
-* Used by the [`Broker.Domains` 🪣 table](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>)
+* Used by the [`Broker.Binds` 🪣 table](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Binds 🔗 table/🪣 Binds/🤵 Broker.Binds 🪣 table.md>) 
+    * to insert into the [`Broker.Domains` 🪣 table](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>)
 
 <br/>
 
