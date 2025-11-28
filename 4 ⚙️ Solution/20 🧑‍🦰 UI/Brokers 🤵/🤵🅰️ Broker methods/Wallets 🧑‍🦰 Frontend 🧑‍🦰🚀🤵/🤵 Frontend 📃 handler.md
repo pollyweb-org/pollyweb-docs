@@ -14,7 +14,9 @@
 
 - ASSERT|$.Msg:
     UUIDs: From
+    Enums: Lists
     Lists: Chats, Binds, Tokens, Domains, Schemas
+    Lists.AreIn: Chats, Binds, Tokens, Domains, Schemas
 
 # Get the frontend item
 - READ >> $frontend:
@@ -39,7 +41,8 @@
 
 # Always add the wallet data
 - SET|$return:
-    Wallet: $frontend.Wallet
+    Wallet: 
+        Language: $frontend.Wallet.Language
 
 # Return the frontend data
 - RETURN:
@@ -50,5 +53,6 @@ Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
 |  [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Frontend`](<../../🤵🪣 Broker tables/Frontend 📱 table/🪣 Frontend/🤵 Broker.Frontend 🪣 table.md>)
+|[{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | {{.AreIn}}
 |[Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
 |

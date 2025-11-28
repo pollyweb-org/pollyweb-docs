@@ -1,0 +1,34 @@
+@startuml OnFrontendAltered
+
+
+box Broker 🤵 domain #FFFFFA
+    participant "Wallets 🔔" as wallets
+    participant "Chats 🔔" as chats
+    participant "Binds 🔔" as binds
+    participant "Tokens 🔔" as tokens
+    participant "Domains 🔔" as domains
+    participant "Schemas 🔔" as schemas
+    participant "Frontend 🪣" as frontend
+    participant "OnAltered 🔔" as handler
+end box
+participant "Notifier 📣" as notifier
+
+
+
+
+    wallets --> frontend: SAVE 💾 {Wallet}
+activate frontend
+    chats --> frontend: SAVE 💾 {Chats}
+    binds --> frontend: SAVE 💾 {Binds}
+    tokens --> frontend: SAVE 💾 {Tokens}
+    domains --> frontend: SAVE 💾 {Domains}
+    schemas --> frontend: 💾 {Schemas}
+
+    frontend --> handler: ALTERED 🔔
+deactivate frontend
+
+activate handler
+    handler --> notifier: SEND 📬 {Updated 🐌}
+deactivate handler
+
+@enduml 

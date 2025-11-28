@@ -1,0 +1,25 @@
+@startuml OnWalletAltered
+
+'participant "Wallet 👱" as wallet
+
+box Broker 🤵 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "Wallets 🪣" as wallets
+    participant "OnAltered 🔔" as handler
+    participant "Frontend 🪣" as frontend
+end box
+
+
+activate script
+    script -> wallets: SAVE 💾, DELETE 🗑️
+deactivate script
+
+activate wallets
+    wallets --> handler: ALTERED 🔔
+deactivate wallets
+
+activate handler
+    handler -> frontend: SAVE 💾 
+deactivate handler
+
+@enduml 

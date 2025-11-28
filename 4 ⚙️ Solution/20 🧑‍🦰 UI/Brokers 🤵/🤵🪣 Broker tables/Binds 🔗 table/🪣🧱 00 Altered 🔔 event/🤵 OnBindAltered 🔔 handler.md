@@ -49,8 +49,6 @@
 - READ >> $frontend:
     Set: Broker.Frontend
     Key: $wallet.ID
-    Default: 
-        PublicKey: $wallet.PublicKey
 
 # Replace only the Frontend Binds.
 - SAVE|$frontend:
