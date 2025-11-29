@@ -5,14 +5,15 @@
 * Prepares for the [`Prompted@Hosted` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)
 
 
-
+<br/>
 
 ## Flow
 
 ![alt text](<🤔 Prompts ⚙️ uml.png>)
 
+<br/>
 
-## Hot to call
+## How to call
 
 ```yaml
 - RUN|.PROMPT:
@@ -26,6 +27,7 @@
     Options: [...]                      # Optional
 ```
 
+<br/>
 
 ## Script
 
@@ -39,48 +41,32 @@
     Lists: Options
     UUIDs: Appendix  
     Nums: MinValue, MaxValue
+    Emoji.Length: 1
+    MinValue.IsBelow: MaxValue
+    Text.Length.IsBelow: 250
+    Details.Length.IsBelow: 2500
 
+# Assert the options if any
 - ASSERT|$Options:
     AllOf: ID, Title
     Texts: ID, Title, Locator
 
-# Stage the prompt.
-- SAVE|Host.Prompts >> $hook:
-    Chat: $.Chat.ID
-    Broker: $.Chat.Broker
-    PublicKey: $.Chat.PublicKey
-    Expires: .Now.Add(5 minutes)
-    Prompt: 
-        $.Inputs:
-        # Translate the displayed text fields
-        Text: Text.Translate
-        Details: Details.Translate
-        Options.Title: Options.Title.Translate
-
-# Call the Prompt@Broker
-- SEND|$hook:
-    Header:
-        To: Broker
-        Subject: Prompt@Broker
-    Body:
-        Chat: Chat
-        Hook: Hook
-        Emoji: $Emoji
-        Format: $Format
-        Expires: Expires
+# Stage the prompt
+- SAVE|Hosts.Prompts >> $prompt:
+    $.Inputs
 
 # Check for non-blocking inputs
 - IF|$Format.IsIn(INFO,FAILURE,SUCCESS,TEMP):
 
     # Create a check-point for options
     - IF|$Options: 
-        HOOK|$hook.Hook
+        HOOK|$prompt.ID
 
     # Don't wait for non-blocking inputs
     - RETURN
 
 # Block and wait for an answer
-- WAIT|$hook.Hook >> $response
+- WAIT|$prompt.ID >> $response
 
 # Return the response
 - RETURN|$response
@@ -89,9 +75,8 @@
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`HOOK`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/HOOK 🪝/🪝 HOOK ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`WAIT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
+| [Commands ⌘](<../../../Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`HOOK`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/HOOK 🪝/🪝 HOOK ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`WAIT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Host.Prompts` 🪣 table](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Prompts 🤔 table/🪣 Prompts/🤗 Host.Prompts 🪣 table.md>)
 | [{Functions} 🐍](<../../../Scripts 📃/Function 🐍.md>) | [`{.IsIn}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
-| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) <br/> [`Prompted@Host` 🅰️ method](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)
 | [Holders 🧠](<../../../Scripts 📃/Holder 🧠.md>) | [`$.Chat`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |
