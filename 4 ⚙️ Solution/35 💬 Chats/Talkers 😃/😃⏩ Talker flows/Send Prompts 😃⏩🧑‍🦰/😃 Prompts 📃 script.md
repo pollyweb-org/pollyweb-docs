@@ -44,16 +44,8 @@
     AllOf: ID, Title
     Texts: ID, Title, Locator
 
-# Translate if required.
-IF|$.Chat.Language.IsNot($.Script.Language):
-    TRANSLATE|$.Inputs >> $prompt
-        From: $.Script.Language
-        To: $.Chat.Language
-        All: Text, Details, Options.Title
-
 # Stage the prompt.
 - SAVE|Host.Prompts >> $hook:
-    Hook: .UUID
     Chat: $.Chat.ID
     Broker: $.Chat.Broker
     PublicKey: $.Chat.PublicKey

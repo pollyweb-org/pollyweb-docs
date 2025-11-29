@@ -14,10 +14,10 @@ activate PROMPT
 deactivate PROMPT
 
 activate prompts
-    prompts -> graph: TRANSLATE 🈯
-    activate graph
-        graph -> prompts: 💾 {TRANSLATED}
-    deactivate graph
+    prompts -> PROMPT: TRANSLATE 🈯
+    activate PROMPT
+        PROMPT -> prompts: 💾 {TRANSLATED}
+    deactivate PROMPT
     prompts -> broker: 🐌 Prompt @ Broker
 deactivate prompts
 

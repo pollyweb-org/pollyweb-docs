@@ -26,7 +26,7 @@ Header:
     Subject: Prompted@Host
 
 Body:
-    Hook: <hook-uuid>
+    Prompt: <prompt-uuid>
 ```
 
 |Object|Property|Type|Description | Origin
@@ -34,7 +34,7 @@ Body:
 | Header    |`From`|text| `Anonymous`
 |           |`To`|text| [Sender 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `Hook`    | uuid      | [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) Hook | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+| Body      | `Prompt`    | uuid      | [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) Prompt | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 |
 
 <br/>
