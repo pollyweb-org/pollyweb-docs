@@ -33,7 +33,7 @@ Parents: Chat
 
 <br/>
 
-Here's the [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>): [`Inserted`](<../🪣🔔 11 Inserted/🤗 OnHostPromptInserted 🔔 handler.md>) [`Translated`](<../🪣🔔 12 Translated/🤗 OnHostPromptTranslated 🔔 handler.md>) [`Replied`](<../🪣🔔 13 Replied/🤗 OnHostPromptReplied 🔔 handler.md>)
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition uses: [`Inserted`](<../🪣🔔 11 Inserted/🤗 OnHostPromptInserted 🔔 handler.md>) [`Translated`](<../🪣🔔 12 Translated/🤗 OnHostPromptTranslated 🔔 handler.md>) [`Replied`](<../🪣🔔 13 Replied/🤗 OnHostPromptReplied 🔔 handler.md>)
 
 ```yaml
 Handlers:
@@ -46,11 +46,23 @@ Handlers:
 
 ## Example
 
-```yaml
-# Automatic, on INSERT
-ID: <prompt-uuid>
+Automatic, from [Item 🛢 Keys](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Keys.md>).
 
-# From the Talker
+```yaml
+ID: <prompt-uuid>
+```
+
+From [`Prompts` 📃 script](<../../../../../35 💬 Chats/Talkers 😃/😃⏩ Talker flows/Send Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
+
+```yaml
 Broker: any-broker.dom
 Chat: <chat-uuid>
+Language: en-us
+```
+
+From [`OnPromptInserted` 🔔 handler](<../🪣🔔 11 Inserted/🤗 OnHostPromptInserted 🔔 handler.md>)
+
+```yaml
+PublicKey: any-public-key
+Expires: 2024-12-31T23:59:59Z
 ```

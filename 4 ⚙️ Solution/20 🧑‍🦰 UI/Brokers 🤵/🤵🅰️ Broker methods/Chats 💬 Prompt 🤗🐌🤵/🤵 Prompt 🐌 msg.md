@@ -21,16 +21,16 @@
 
 ```yaml
 Header:
-  From: any-host.dom
-  To: any-broker.dom
-  Subject: Prompt@Broker
+    From: any-host.dom
+    To: any-broker.dom
+    Subject: Prompt@Broker
   
 Body:
-  Chat: <chat-uuid>
-  Hook: <hook-uuid>
-  Expires: 2023-04-01T05:00:30.001000Z
-  Format: CONFIRM
-  Emoji: 😃
+    Prompt: <prompt-uuid>
+    Chat: <chat-uuid>
+    Expires: 2023-04-01T05:00:30.001000Z
+    Format: CONFIRM
+    Emoji: 😃
 ```
 
 
@@ -40,7 +40,7 @@ Body:
 ||`To`|string  | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)|[`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject` |text| `Prompt@Broker`
 |Body|`Chat`   | uuid    | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-||`Hook` | uuid    | [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) callback || [`Prompted@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)
+||`Prompt` | uuid    | [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) callback || [`Prompted@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)
 ||`Expires`| time | Cache expiration || [`Prompted@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>) 
 || [`Format`](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)  |text| [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) format || [`Prompted@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>) 
 || [`Emoji`](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) |text| [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)   emoji || [`Prompted@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>) 

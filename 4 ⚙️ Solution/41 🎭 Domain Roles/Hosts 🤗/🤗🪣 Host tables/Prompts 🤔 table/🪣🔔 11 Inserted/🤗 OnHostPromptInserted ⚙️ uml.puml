@@ -4,11 +4,15 @@ box Host 🤗 domain #FFFFFD
     participant "Prompts 🪣" as prompts
     participant "OnInserted 🔔" as handler
 end box
-participant "Graph 🕸" as graph
+participant "Talker 😃" as talker
 
 prompts --> handler: INSERTED 🔔
 activate handler
-    handler -> graph: TRANSLATE 🈯
+
+    group IF Language.Differs(Chat.Language)
+        handler -> talker: TRANSLATE 🈯
+    end group
+
     handler -> prompts: SAVE 💾 {TRANSLATED}
 deactivate handler
 
