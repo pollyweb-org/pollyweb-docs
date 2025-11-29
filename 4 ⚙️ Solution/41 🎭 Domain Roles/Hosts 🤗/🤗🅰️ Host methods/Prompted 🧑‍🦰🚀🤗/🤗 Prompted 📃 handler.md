@@ -8,6 +8,14 @@
 > Flow
 * Triggered by the [`Prompt@Host` 📃 script](<../../../../35 💬 Chats/Talkers 😃/😃⏩ Talker flows/Send Prompts 😃⏩🧑‍🦰/😃 Prompts 📃 script.md>)
 
+<br/>
+
+## Diagram
+
+![alt text](<🤗 Prompted ⚙️ uml.png>)
+
+<br/>
+
 ## Script
 
 ```yaml
@@ -15,29 +23,34 @@
 
 # Assert inputs
 - ASSERT|$.Msg:
-    AllOf: Hook
-    UUIDs: Hook
+    AllOf: Prompt
+    UUIDs: Prompt
 
 # Get the prompt
-- READ >> $hook:
-    Set: Talker.Hooks
-    Key: $.Msg.Hook
+- READ >> $prompt:
+    Set: Host.Prompts
+    Key: $.Msg.Prompt
+    Assert:
+        Expires.IsFuture
 
 # Verify the message
 - VERIFY|$.Msg:
-    Key: $hook.PublicKey
+    Key: $prompt.Chat.PublicKey
 
-# Verify the cache expiration
-- ASSERT|$hook:
-    Expires > .Now
-
-# Returned the cached response
-- RETURN:
-    $hook.Prompt
+# Returned the prompt details
+- RETURN|$prompt:
+    Text
+    MinValue
+    MaxValue
+    Appendix
+    Details
+    Options
+    Default
 ```
 
 Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
-| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`{.Now}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Host.Prompts`](<../../🤗🪣 Host tables/Prompts 🤔 table/🪣 Prompts/🤗 Host.Prompts 🪣 table.md>)
+| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsFuture`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsFuture ⓕ.md>)
 |

@@ -4,11 +4,11 @@ box Host 🤗 domain #FFFFFD
     participant "Prompts 🪣" as prompts
     participant "OnTranslated 🔔" as handler
 end box
-participant "Broker 🤵" as broker
 
 prompts --> handler: TRANSLATED 🔔
 activate handler
-    handler --> broker: SEND 📬 {Prompt 🐌 hook}
+    handler -> handler: ASSERT
+    handler -> prompts: SAVE 💾 {ASSERTED}
 deactivate handler
 
 

@@ -1,0 +1,19 @@
+@startuml Prompted@Host
+ 
+participant "Wallet 👱" as wallet
+box Host 🤗 domain #FFFFFD
+    participant "Prompted 🚀" as handler
+    participant "Prompts 🪣" as prompts
+end box
+
+wallet --> handler: Prompted 🚀 
+activate wallet
+
+    activate handler
+        handler -> prompts: READ 🧲
+        handler -> wallet: {appendix}
+    deactivate handler
+
+deactivate wallet
+
+@enduml 
