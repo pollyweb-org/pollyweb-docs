@@ -1,14 +1,14 @@
 @startuml OnPromptReplied
  
-participant "Wallet 👱" as wallet
 box Host 🤗 domain #FFFFFD
-    participant "Reply 🐌" as handler
     participant "Prompts 🪣" as prompts
+    participant "OnReplied 🔔" as handler
+    participant "Talker 😃" as talker
 end box
 
-wallet --> handler: Reply 🐌 {answer}
+prompts --> handler: REPLIED 🔔
 activate handler
-    handler --> prompts: SAVE 💾 {REPLIED}
+    handler -> talker: REEL 🎣 {prompt, answer}
 deactivate handler
 
 

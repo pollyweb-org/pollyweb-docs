@@ -5,9 +5,20 @@
 [`Prompt@Host`](<../../🤗🧩 Host schemas/🧩 HOST.md>)
 -->
 
-# 🤗📃 Reply
+# 🤗 Reply@Host 📃 handler
 
-> Implements the [`Reply@Host` 🅰️ method](<🤗 Reply 🐌 msg.md>)
+> About
+* Part of the [Host 🤗 domain](<../../🤗 Host role/🤗🎭 Host role.md>) role
+* Implements the [`Reply@Host` 🅰️ method](<🤗 Reply 🐌 msg.md>)
+* Triggers the [`OnHostPromptReplied` 📃 handler](<../../🤗🪣 Host tables/Prompts 🤔 table/🪣🔔 14 Replied/🤗 OnHostPromptReplied 🔔 handler.md>)
+
+<br/>
+
+## Diagrams
+
+![alt text](<🤗 Reply ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 
@@ -28,15 +39,16 @@
 
 # Verify the message
 - VERIFY|$.Msg:
-    Key: $prompt.PublicKey
+    Key: $prompt.Chat.PublicKey
 
 # Set the result
 - SAVE|$prompt:
-    Result: $.Msg.Result
-    Answer: $.Msg.Answer 
+    $.Msg.Result
+    $.Msg.Answer 
 ```
 
 Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Host.Prompts`](<../../🤗🪣 Host tables/Prompts 🤔 table/🪣 Prompts/🤗 Host.Prompts 🪣 table.md>) [`Host.Chats`](<../../🤗🪣 Host tables/Chats 💬 table/🪣 Chats/🤗 Host.Chats 🪣 table.md>)
 |
