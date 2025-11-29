@@ -4,6 +4,7 @@ participant "Wallet 👱" as wallet
 box Host 🤗 domain #FFFFFD
     participant "Prompted 🚀" as handler
     participant "Prompts 🪣" as prompts
+    participant "Chats 🪣" as chats
 end box
 
 wallet --> handler: Prompted 🚀 
@@ -11,7 +12,8 @@ activate wallet
 
     activate handler
         handler -> prompts: READ 🧲
-        handler -> wallet: {appendix}
+        handler -> chats: 
+        handler -> wallet: {prompt}
     deactivate handler
 
 deactivate wallet

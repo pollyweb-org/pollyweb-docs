@@ -1,67 +1,53 @@
 @startuml SHARE
  
-box Talker 😃 domain #FFFFFD
-    participant "Script 📃" as script
-    participant ".PROMPT 📃" as talker
-    participant "Hooks 🪣" as hooks
-    participant "Inbox 📨" as handler
+box Host 🤗 domain #FFFFFD
+    participant "Command ⌘" as script
+    participant "Talker 😃" as talker
+    participant "Prompts 🪣" as table
 end box
-
-box Hoster ☁️ domain #FFFFFA
-    participant "Host 🤗" as host
-end box
-
-participant "Broker 🤵" as broker
 participant "Wallet 👱" as wallet
+
 
 activate script
     script -> talker: .PROMPT 🤔 
 deactivate script
 
 activate talker
-    talker -> hooks: SAVE 💾 {hook, prompt}
-    talker --> host: SEND {Prompt 🐌 hook}
-    activate host
-        host --> broker: 
-    deactivate host
-activate broker
+    talker -> table: SAVE 💾 
 
+    activate table
+        table --> wallet: Prompt @ Broker 🐌 {prompt}
+    activate wallet
+        table -> talker: {prompt}
+    deactivate table
+
+    
     alt Non-blocking 
         alt With Options
-            talker -> talker: HOOK 🪝 {hook}
+            talker -> talker: HOOK 🪝 {prompt}
         end alt
         talker -> script: RETURN { }
     else Blocking
-        talker -> talker: WAIT 🧘 {hook}
+        talker -> talker: WAIT 🧘 {prompt}
     end alt
 
 deactivate talker
 
-    broker --> wallet:
-deactivate broker
 
 activate wallet
-    wallet -> host: Prompted 🚀 {hook}
     
-    activate host
-        host -> handler
-        activate handler
-            handler -> hooks: READ 🧲 {hook}
-            handler -> host: {prompt}
-        deactivate handler
-        host -> wallet: 
-    deactivate host
+    wallet -> table: Prompted @ Host 🚀 {prompt}
+    activate table
+        table -> wallet: {details}
+    deactivate table
 
-    wallet --> host: Reply 🐌 {hook, reply}
+    wallet --> table: Reply @ Host 🐌 {prompt, reply}
+
 deactivate wallet
 
-activate host
-    host -> handler: 
-deactivate host
-
-activate handler
-    handler -> talker: REEL 🎣 {hook, reply}
-deactivate handler
+activate table
+    table -> talker: REEL 🎣 {prompt, reply}
+deactivate table
 
 activate talker
     talker -> script: RETURN {reply}

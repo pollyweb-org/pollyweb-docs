@@ -21,7 +21,13 @@
 - ASSERT|$Prompt:
     AllOf: Language, Chat, Chat.Language
     UUIDs: Chat
-    Texts: Language, Chat.Language
+    Texts: Language, Chat.Language, Text, Details
+    Lists: Options
+
+# Assert the options
+- ASSERT|$Prompt.Options:
+    AllOf: Title
+    Texts: Title
 
 # Translate only if languages differ
 - IF|$Prompt.Language.Differs($Prompt.Chat.Language):
@@ -33,7 +39,6 @@
 # Progress the state
 - SAVE|$Prompt:
     .State: TRANSLATED
-    Expires: .Now.Add(5 minutes)
 ```
 
 Uses||
