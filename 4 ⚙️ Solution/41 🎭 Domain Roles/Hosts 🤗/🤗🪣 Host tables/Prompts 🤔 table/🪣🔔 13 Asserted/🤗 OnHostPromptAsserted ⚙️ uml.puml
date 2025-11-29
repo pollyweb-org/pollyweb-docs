@@ -1,0 +1,15 @@
+@startuml OnHostPromptAsserted
+ 
+box Host 🤗 domain #FFFFFD
+    participant "Prompts 🪣" as prompts
+    participant "OnAsserted 🔔" as handler
+end box
+participant "Broker 🤵" as broker
+
+prompts --> handler: ASSERTED 🔔
+activate handler
+    handler --> broker: SEND 📬 {Prompt 🐌 hook}
+deactivate handler
+
+
+@enduml 

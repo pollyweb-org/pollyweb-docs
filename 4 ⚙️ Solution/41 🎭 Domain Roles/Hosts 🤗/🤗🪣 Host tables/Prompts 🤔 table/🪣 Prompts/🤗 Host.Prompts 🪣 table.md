@@ -33,12 +33,13 @@ Parents: Chat
 
 <br/>
 
-The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition uses: [`Inserted`](<../🪣🔔 11 Inserted/🤗 OnHostPromptInserted 🔔 handler.md>) [`Translated`](<../🪣🔔 12 Translated/🤗 OnHostPromptTranslated 🔔 handler.md>) [`Replied`](<../🪣🔔 13 Replied/🤗 OnHostPromptReplied 🔔 handler.md>)
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition uses: [`Inserted`](<../🪣🔔 11 Inserted/🤗 OnHostPromptInserted 🔔 handler.md>) [`Translated`](<../🪣🔔 12 Translated/🤗 OnHostPromptTranslated 🔔 handler.md>) [`Asserted`](<../🪣🔔 13 Asserted/🤗 OnHostPromptAsserted 🔔 handler.md>) [`Replied`](<../🪣🔔 14 Replied/🤗 OnHostPromptReplied 🔔 handler.md>)
 
 ```yaml
 Handlers:
     INSERT     >> OnPromptInserted
     TRANSLATED >> OnPromptTranslated
+    ASSERTED   >> OnPromptAsserted
     REPLIED    >> OnPromptReplied
 ```
 

@@ -17,31 +17,22 @@
 ```yaml
 📃 OnPromptTranslated:
 
-# Assert the Prompt
+# Assert readiness for Prompted@Host
 - ASSERT|$Prompt:
-    AllOf: ID, Chat, Format, Expires, Broker
-    Texts: Emoji, Format, Broker
-    Times: Expires
-    UUIDs: ID, Chat
-    Expires.IsFuture:
-    Emoji.Length: 1
+    AllOf: Text
+    Nums: MinValue, MaxValue
+    UUIDs: Appendix
+    Texts: Text, Details, Default
+    Lists: Options
 
-# Call the Prompt@Broker
-- SEND|$Prompt:
-    Header:
-        To: Broker
-        Subject: Prompt@Broker
-    Body:
-        Prompt: ID
-        Chat: Chat
-        Emoji: Emoji
-        Format: Format
-        Expires: Expires
+# Progress the state
+- SAVE|$Prompt:
+    .State: ASSERTED
 ```
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) 
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Host.Prompts`](<../🪣 Prompts/🤗 Host.Prompts 🪣 table.md>) 
-| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsFuture`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsFuture ⓕ.md>) [`.Length`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>)
-| [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Prompt@Broker` 🅰️ method](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | 
+|

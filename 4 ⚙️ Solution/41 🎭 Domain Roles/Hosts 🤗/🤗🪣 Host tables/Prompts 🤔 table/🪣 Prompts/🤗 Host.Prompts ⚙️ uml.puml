@@ -15,9 +15,21 @@ deactivate PROMPT
 
 activate prompts
     prompts -> PROMPT: TRANSLATE 🈯
-    activate PROMPT
-        PROMPT -> prompts: 💾 {TRANSLATED}
-    deactivate PROMPT
+deactivate prompts
+
+activate PROMPT
+    PROMPT -> prompts: 💾 {TRANSLATED}
+deactivate PROMPT
+
+activate prompts
+    prompts -> PROMPT: ASSERT 🚦
+deactivate prompts
+
+activate PROMPT
+    PROMPT -> prompts: 💾 {ASSERTED}
+deactivate PROMPT
+
+activate prompts
     prompts -> broker: 🐌 Prompt @ Broker
 deactivate prompts
 
