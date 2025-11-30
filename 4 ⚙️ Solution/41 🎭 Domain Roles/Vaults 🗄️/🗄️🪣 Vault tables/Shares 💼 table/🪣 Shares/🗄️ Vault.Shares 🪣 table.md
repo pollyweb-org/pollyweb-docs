@@ -11,10 +11,14 @@
 
 <br/>
 
-## Data Access
+## State Transitions
 
-* Inserted by [`Disclose@Vault` 🅰️ method](<../../../🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
-* Read by [`Collect@Vault` 🅰️ method](<../../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
+| [State 🛢](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 State.md>) | Blame | Description |
+|-|-|-|
+|`ASKED`| [`Disclose` 🐌](<../../../🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 📃 handler.md>) | Created by [`Disclose@Vault` 🅰️](<../../../🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>) 
+|`UNTRUSTED`| [`OnAsked` 🔔](<../🪣🔔 1 Asked/🗄️ OnShareAsked 📃 handler.md>) | The consumer is not yet trusted
+|`TRUSTED`| [`OnAsked` 🔔](<../🪣🔔 1 Asked/🗄️ OnShareAsked 📃 handler.md>) | The consumer is trusted
+|`READY`| [`OnTrusted` 🔔](<../🪣🔔 2 Trusted/🗄️ OnShareTrusted 📃 handler.md>) | Ready for [`Collect@Vault` 🅰️](<../../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
 
 <br/>
 
