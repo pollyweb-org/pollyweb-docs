@@ -59,6 +59,8 @@
     | [`Distincts`](<../🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) | dict | Unique values in child properties | `Ds:Cs.d`
     | [`NoUpdates`](<../🪣🛢 Itemized datasets/Item 🛢 NoUpdates.md>) | bool | Only allows inserts and deletes | `True`
     | [`Handlers`](<../🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | dict | [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to run on events | `{...}`
+    | [`State`](<../🪣🛢 Itemized datasets/Item 🛢 State.md>) | dict | Defines handlers for states | `{...}`
+    | [`Assert`](<../🪣🛢 Itemized datasets/Item 🛢 Assert.md>) | dict | [`.Assert`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) lifecycle conditions | `{...}`
     
     ---
     <br/>

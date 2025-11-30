@@ -33,10 +33,14 @@
 
 1. **How to define assertions?**
 
-    Use the syntax from the {{.Assert}} function on field names.
+    Use the syntax from the [`ASSERT` 🚦](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) command.
 
     ```yaml
+    # Example
     Assert:
+        AllOf: <field1>, <field2>
+        UUIDs: <field1>
+        Texts: <field2>, <field3>
         <field1>.<assertion1>: {...}
         <field2>.<assertion2>: {...}
     ```

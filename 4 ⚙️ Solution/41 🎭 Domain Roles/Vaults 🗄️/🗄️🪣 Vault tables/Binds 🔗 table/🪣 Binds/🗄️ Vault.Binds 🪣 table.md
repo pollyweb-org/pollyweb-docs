@@ -9,7 +9,7 @@
 
 | Flow | [State 🛢](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 State.md>) | Blame | Description |
 |-|-|-|-
-| [`Bind`](<../🪣🧱 10 Bind ⏩ flow/🗄️ Vault.Binds.Bind ⏩ flow.md>) | [`OFFERED`](<../🪣🧱 11 Offered 🔔 event/🗄️ OnOfferOffered 📃 handler.md>) |[`BIND` ⌘](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND 📃 script.md>)| Created but not yet accepted by the user |
+| [`Bind`](<../🪣🧱 10 Bind ⏩ flow/🗄️ Vault.Binds.Bind ⏩ flow.md>) | [`OFFERED`](<../🪣🧱 11 Offered 🔔 event/🗄️ OnBindOffered 🔔 handler.md>) |[`BIND` ⌘](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND 📃 script.md>)| Created but not yet accepted by the user |
 || `DECLINED` |[`Bound` 🐌 ](<../../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 📃 handler.md>)| Offered but the user declined it |
 || [`BOUND`](<../🪣🧱 12 Bound 🔔 event/🗄️ OnBindBound 🔔 handler.md>) |[`Bound` 🐌 ](<../../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 📃 handler.md>)| Active, with the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>) holding it |
 |[`Unbound`](<../🪣🧱 20 Unbind ⏩ flow/🗄️ Vault.Binds.Unbound ⏩ flow.md>)| `UNBOUND` |[`Unbound` 🐌](<../../../🗄️🅰️ Vault methods/Unbound 🤵🐌🗄️/🗄️ Unbound 📃 handler.md>)| Removed from the [Wallet 🧑‍🦰 app](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) |
@@ -29,13 +29,24 @@ Table: Binds
 Item: Bind
 ```
 
-The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnOffered`](<../🪣🧱 11 Offered 🔔 event/🗄️ OnOfferOffered 📃 handler.md>) [`OnBound`](<../🪣🧱 12 Bound 🔔 event/🗄️ OnBindBound 🔔 handler.md>) [`OnUnbound`](<../🪣🧱 21 Unbound 🔔 event/🗄️ OnBindUnbound 🔔 handler.md>)
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnOffered`](<../🪣🧱 11 Offered 🔔 event/🗄️ OnBindOffered 🔔 handler.md>) [`OnBound`](<../🪣🧱 12 Bound 🔔 event/🗄️ OnBindBound 🔔 handler.md>) [`OnUnbound`](<../🪣🧱 21 Unbound 🔔 event/🗄️ OnBindUnbound 🔔 handler.md>)
 
 ```yaml
 Handlers:
     OFFERED >> OnBindOffered:   # Calls Bind@Broker
     BOUND   >> OnBindBound:     # Returns if bound to BIND ⌘
     UNBOUND >> OnBindUnbound:   # Calls Hosted.Handle(unbound)
+```
+
+The [Item 🛢 Asserts](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) are:
+
+```yaml
+Asserts:
+    AllOf: Chat, Broker, Schema
+    UUIDs: Chat
+    Texts: Broker, Schema
+    Answer.IsIn: ACCEPTED, DECLINED
+    .State.IsIn: OFFERED, DECLINED, BOUND, UNBOUND
 ```
 
 <br/>
