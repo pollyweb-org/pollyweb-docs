@@ -10,7 +10,7 @@ participant "Broker 🤵" as broker
 
 
 activate script
-    script -> cmd: BIND ⌘ {schema}
+    script -> cmd: BIND ⌘ {schema, ref}
 deactivate script
 
 activate cmd
@@ -22,12 +22,21 @@ activate binds
 deactivate binds
 
 activate broker
-    broker -> binds: IF "yes": 🐌 Bound @ Vault 💾 {BOUND}
-activate binds
     broker -> binds: IF "no": 🐌 Bound @ Vault 💾 {DECLINED}
+activate binds
+    broker -> binds: IF "yes": 🐌 Bound @ Vault 💾 {BOUND}
 deactivate broker
 
-    binds -> hosted: ASYNC 👷🏼 {Bound}
+    group IF {BOUND, ref}
+        binds -> hosted: ASYNC 👷🏼 {Bound, ref}
+    end group
+
+    binds -> cmd: REEL 🎣 {result}
+
 deactivate binds
+
+activate cmd
+    cmd -> script: RETURN {result}
+deactivate cmd
 
 @enduml 

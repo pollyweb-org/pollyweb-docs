@@ -24,7 +24,7 @@
     UUIDs: Chat
 
 # Execute the handler
-- ASYNC|OnDisclosure >> $hook:
+- ASYNC|OnDisclose >> $hook:
     
     # Share data
     Share: $Share.ID
