@@ -1,18 +1,19 @@
 # 🗄️ Vault.Binds 🪣 table
 
 > About
-* Stores the content of the [`Bound@Vault` 🅰️ method](<../../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+* Stores [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) in a [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>)
 
 <br/>
 
-## States
+## State Transitions
 
-| State | Description |
-|-|-
-| [`OFFERED`](<../🪣🧱 11 Offered 🔔 event/🗄️ OnOfferOffered 📃 handler.md>) | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) has been created but not yet accepted by the user |
-| `DECLINED` | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was offered but the user declined it |
-| [`BOUND`](<../🪣🧱 12 Bound 🔔 event/🗄️ OnBindBound 🔔 handler.md>) | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) is active and the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>) is holding it |
-| `UNBOUND` | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) has been removed from the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>) |
+| Flow | State | Description |
+|-|-|-
+| [`Bind`](<../🪣🧱 10 Bind ⏩ flow/🗄️ Vault.Binds.Bind ⏩ flow.md>) | [`OFFERED`](<../🪣🧱 11 Offered 🔔 event/🗄️ OnOfferOffered 📃 handler.md>) | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) has been created but not yet accepted by the user |
+|| `DECLINED` | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was offered but the user declined it |
+|| [`BOUND`](<../🪣🧱 12 Bound 🔔 event/🗄️ OnBindBound 🔔 handler.md>) | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) is active and the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>) is holding it |
+|[`Unbound`](<../🪣🧱 20 Unbind ⏩ flow/🗄️ Vault.Binds.Unbound ⏩ flow.md>)| `UNBOUND` | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) has been removed from the [Wallet 🧑‍🦰 app](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) |
+|
 
 <br/>
 
