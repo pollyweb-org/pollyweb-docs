@@ -9,6 +9,7 @@
 
 <br/>
 
+## FAQ
 
 1. **What's the TRUSTS command?**
 
@@ -24,7 +25,7 @@
 
     ```yaml
     # Comprehensive
-    TRUSTS:
+    TRUSTS >> $trusts:
         Trusted: <trusted>
         Truster: <truster> # defaults to current domain
         Schema: <schema>
@@ -39,9 +40,14 @@
 
     | Input| Purpose | Example
     |-|-|-
+    |`$trusts`| Trusts result [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | 
+    |         | If omitted, fails if not trusted | 
     | `Trusted` | [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | `any-domain.dom`
+    | `Truster` | Optional [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) trusting | `my-domain.dom` 
+    ||Defaults to [`$.Hosted`](<../../../📃 Holders 🧠/System holders 🔩/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>).`Domain`
     | `Schema` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assert | `.HOST/HELLO`
     | `Role`| Optional role to assert | `VAULT` `CONSUMER`
+
 
     ---
     <br/>

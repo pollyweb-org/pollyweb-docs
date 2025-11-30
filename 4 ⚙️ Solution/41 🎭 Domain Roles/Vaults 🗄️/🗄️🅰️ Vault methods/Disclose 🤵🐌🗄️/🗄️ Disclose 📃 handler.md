@@ -1,10 +1,16 @@
-<!-- TODO -->
+# 🗄️ Disclose@Vault 📃 handler
 
-# 🗄️📃 Disclose handler
+> About
+* Part of the [Vault 🗄️ domain](<../../🗄️ Vault/🗄️🎭 Vault role.md>)
+* Implements the [`Disclose@Vault` 🅰️ method](<🗄️ Disclose 🐌 msg.md>)
 
-> Part of the [Vault 🗄️ domain](<../../🗄️ Vault/🗄️🎭 Vault role.md>)
+<br/>
 
-> Implements the [`Disclose@Vault` 🅰️ method](<🗄️ Disclose 🐌 msg.md>)
+## Diagram
+
+![alt text](<🗄️ Disclose ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 
@@ -14,15 +20,33 @@
 # Verify the signature
 - VERIFY|$.Msg
 
+# Assert the message
+- ASSERT|$.Msg:
+    AllOf: Bind, Chat, Hook, Language, Consumer
+    UUIDs: Bind, Chat, Hook
+    Texts: Language, Consumer
+
+# Read the referenced Bind
+- READ >> $bind:
+    Set: Vault.Binds
+    Key: $.Msg.Bind
+    Assert:
+        Broker: $.Msg.From
+
 # Create the collect
 - SAVE|Vault.Shares:
     .State: ASKED
-    Consumer: $.Msg.From
-    Data: $data
+    Broker: $.Msg.From
+    Bind: $.Msg.Bind
+    Chat: $.Msg.Chat
+    Hook: $.Msg.Hook
+    Language: $.Msg.Language
+    Consumer: $.Msg.Consumer
 ```
 
 |Uses||
 |-|-
-| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASYNC`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>) [`WAIT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
-| [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg` 🧠 holder](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) |[`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>) |
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Vault.Binds`](<../../🗄️🪣 Vault tables/Binds 🔗 table/🪣 Binds/🗄️ Vault.Binds 🪣 table.md>) [`Vault.Shares`](<../../🗄️🪣 Vault tables/Shares 💼 table/🪣 Shares/🗄️ Vault.Shares 🪣 table.md>)
+| [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
 |

@@ -1,47 +1,42 @@
-# 🗄️📃 Collect handler
+# 🗄️ Collect@Vault 📃 handler
 
-> Implementation
+> About
 * Implements the [Vault 🗄️ domain](<../../🗄️ Vault/🗄️🎭 Vault role.md>)
-
-> Flow
 * Part of the [`Consume` ⏩ flow](<../../🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>)
-
-
-> Purpose
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Collect@Vault` 🅰️ method](<🗄️ Collect 🚀 call.md>)
 
 <br/>
 
-# Flow
+## Diagram
 
 ![alt text](<🗄️ Collect ⚙️ uml.png>)
 
+<br/>
 
 ## Script
-
 
 ```yaml
 # Verify the signature
 - VERIFY|$.Msg
 
-# Get the collect
-- READ >> $collect:
-    Set: Vault.Collects
+# Get the share
+- READ >> $share:
+    Set: Vault.Shares
     Key: $.Msg.Collect
-
-# Assert the Consumer
-- ASSERT|$.Msg:
-    From: $collect.Consumer
+    Assert:
+        Consumer: $.Msg.From
+        Expires.IsFuture:
 
 # Return the response
 - RETURN:
-    $collect.Data
+    $share.Data
 ```
 
 
 |Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Vault.Shares` 🪣 table](<../../🗄️🪣 Vault tables/Shares 💼 table/🪣 Shares/🗄️ Vault.Shares 🪣 table.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Vault.Shares`](<../../🗄️🪣 Vault tables/Shares 💼 table/🪣 Shares/🗄️ Vault.Shares 🪣 table.md>)
+| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsFuture`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsFuture ⓕ.md>) |
 | [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
 |
