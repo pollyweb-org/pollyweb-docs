@@ -15,7 +15,7 @@
 ## Script
 
 ```yaml
-📃 OnHostPromptAsserted:
+📃 OnPromptAsserted:
 
 # Assert readiness for Prompt@Broker
 - ASSERT|$Prompt:
