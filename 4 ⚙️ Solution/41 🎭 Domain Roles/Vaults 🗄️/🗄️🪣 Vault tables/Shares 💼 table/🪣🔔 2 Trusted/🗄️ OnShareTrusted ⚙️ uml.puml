@@ -1,0 +1,40 @@
+@startuml OnShareTrusted
+
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Shares 🪣" as shares
+    participant "OnAsked 🔔" as asked
+    participant "Talker 😃" as talker
+end box
+
+participant "Hosted 📦" as hosted
+
+
+
+activate shares
+    shares --> asked: TRUSTED 🔔 
+deactivate shares
+
+activate asked
+    asked -> talker: ASYNC 👷🏼 {disclose}
+
+activate talker
+    talker --> hosted: Handle 🐌 {hook, disclose}
+activate hosted
+    talker -> asked: {hook}
+deactivate talker
+    asked --> asked: WAIT 🧘 {hook}
+deactivate asked
+
+    hosted --> talker: Handled 🐌 {hook, data}
+deactivate hosted
+
+activate talker
+    talker --> asked: REEL 🎣 {hook, data}
+deactivate talker
+
+activate asked
+    asked -> shares: UPDATE 💾 {READY}
+deactivate asked
+
+@enduml 

@@ -1,0 +1,31 @@
+@startuml Vault.Shares
+
+participant "Broker 🤵" as broker
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Shares 🪣" as table
+end box
+participant "Graph 🕸" as graph
+participant "Hosted 📦" as hosted
+
+
+broker -> table: 🐌 Disclose 💾 ASKED
+
+activate table
+    table -> graph: TRUSTS 🫡 {consumer}
+deactivate table
+
+activate graph
+    graph -> table: 💾 TRUSTED, UNTRUSTED
+deactivate graph
+
+activate table
+    table -> hosted: ASYNC 👷🏼 Handle 🐌 
+deactivate table
+
+activate hosted
+    hosted -> table: 🐌 Handled 💾 READY 🎣 REEL 
+deactivate hosted
+
+
+@enduml 
