@@ -7,12 +7,13 @@ box Vault 🗄️ domain #FFFFFA
 end box
 participant "Graph 🕸" as graph
 participant "Hosted 📦" as hosted
+participant "Consumer 💼" as consumer
 
 
-broker -> table: 🐌 Disclose 💾 ASKED
+broker -> table: 🐌 Disclose @ Vault 💾 ASKED
 
 activate table
-    table -> graph: TRUSTS 🫡 {consumer}
+    table -> graph: 🚀 Trusts @ Graph 
 deactivate table
 
 activate graph
@@ -20,12 +21,20 @@ activate graph
 deactivate graph
 
 activate table
-    table -> hosted: ASYNC 👷🏼 Handle 🐌 
+    table -> hosted: IF trusted: 🐌 Handle @ Hosted  
 deactivate table
 
 activate hosted
-    hosted -> table: 🐌 Handled 💾 READY 🎣 REEL 
+    hosted -> table: 🐌 Handled @ Talker 💾 READY
 deactivate hosted
+
+activate table
+    table -> consumer: 🐌 Consume @ Consumer
+deactivate table
+
+activate consumer
+    consumer -> table: 🚀 Collect @ Vault
+deactivate consumer
 
 
 @enduml 
