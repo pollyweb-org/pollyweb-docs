@@ -1,9 +1,9 @@
-@startuml OnChatInserted
+@startuml OnChatAsked
 
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Chats 🪣" as table
-    participant "OnInserted 🔔" as handler
+    participant "OnAsked 🔔" as handler
     participant "Talker 😃" as talker
 end box
 participant "Printer 🖨️" as printer
@@ -12,7 +12,7 @@ participant "Printer 🖨️" as printer
 wallet --> table: Locate 🐌
 activate table
     wallet --> table: Pop 🐌
-    table --> handler: INSERTED 🔔
+    table --> handler: ASKED 🔔
 deactivate table
 
 activate handler

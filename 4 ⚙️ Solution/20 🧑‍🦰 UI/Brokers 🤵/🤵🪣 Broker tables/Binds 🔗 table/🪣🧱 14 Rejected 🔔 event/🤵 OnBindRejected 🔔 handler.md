@@ -1,23 +1,23 @@
-# 🤵 OnBindBound 🔔 handler
+# 🤵 OnBindRejected 🔔 handler
 
 > Part of the [`Broker.Binds` 🪣 table](<../🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
 
 > Purpose
 
-* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that informs a [Vault 🗄️ domain](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) that a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was accepted.
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that informs a [Vault 🗄️ domain](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) that a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was rejected.
 
 <br/>
   
 ## Diagram
 
-![alt text](<🤵 OnBindBound ⚙️ uml.png>)
+![alt text](<🤵 OnBindRejected ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnBindBound:
+📃 OnBindRejected:
 
 # Inform the Vault
 - SEND:
@@ -26,7 +26,7 @@
         Subject: Bound@Vault
     Body:
         Bind: $Bind.ID
-        Answer: ACCEPTED
+        Answer: DECLINED
 ```
 
 Uses||

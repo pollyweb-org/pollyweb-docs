@@ -1,4 +1,4 @@
-@startuml Broker.Bind.Remove
+@startuml Broker.Binds.Remove
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA

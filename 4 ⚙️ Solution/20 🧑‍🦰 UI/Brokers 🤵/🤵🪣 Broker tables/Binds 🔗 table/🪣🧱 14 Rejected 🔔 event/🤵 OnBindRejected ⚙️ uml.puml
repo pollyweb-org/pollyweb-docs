@@ -1,18 +1,18 @@
-@startuml OnBindBound
+@startuml OnBindRejected
  
 box Broker 🤵 domain #FFFFFA
     participant "Binds 🪣" as binds
-    participant "OnBound 🔔" as handler
+    participant "OnRejected 🔔" as handler
 end box
 participant "Vault 🗄️" as vault
 
 
 activate binds
-    binds --> handler: BOUND 🔔
+    binds --> handler: REJECTED 🔔
 deactivate binds
 
 activate handler
-    handler --> vault: SEND 📬 {Bound, accepted}
+    handler --> vault: SEND 📬 {Bound, declined}
 deactivate handler
 
 

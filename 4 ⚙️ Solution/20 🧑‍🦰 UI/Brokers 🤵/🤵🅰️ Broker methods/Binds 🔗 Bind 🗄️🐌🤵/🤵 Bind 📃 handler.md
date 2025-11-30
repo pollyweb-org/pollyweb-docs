@@ -4,9 +4,13 @@
 * Implements the [`Bind@Broker` 🅰️ method](<🤵 Bind 🐌 msg.md>)
 * Inserts into the [`Broker.Binds` 🪣 table](<../../🤵🪣 Broker tables/Binds 🔗 table/🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
 
+<br/>
+
 ## Flow
 
 ![alt text](<🤵 Bind ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 
