@@ -25,11 +25,17 @@
 
 # Execute the handler
 - ASYNC|OnDisclosure >> $hook:
-    $Share.Chat
-    $Share.Consumer
-    $Share.Language
-    $Share.Bind.Schema
-    $Share.Bind.User
+    
+    # Share data
+    Share: $Share.ID
+    Consumer: $Share.Consumer
+    Language: $Share.Language
+
+    # Bind data
+    Bind: $Share.Bind
+    Schema: $Share.Bind.Schema
+    Reference: $Share.Bind.Reference
+    Internals: $Share.Bind.Internals
 
 # Wait for the shared data
 - WAIT >> $data:
