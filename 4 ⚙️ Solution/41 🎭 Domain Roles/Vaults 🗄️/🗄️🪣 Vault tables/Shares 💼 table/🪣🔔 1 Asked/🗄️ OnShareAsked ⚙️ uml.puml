@@ -1,48 +1,24 @@
 @startuml OnShareAsked
 
-participant "Broker 🤵" as broker
-
 box Vault 🗄️ domain #FFFFFA
-    'participant "Disclose 🐌" as script
-    participant "Shares 🪣" as shares
-    participant "OnAsked 🔔" as asked
-    participant "Talker 😃" as talker
+    participant "Shares 🪣" as table
+    participant "OnAsked 🔔" as handler
 end box
-
-participant "Hosted 📦" as hosted
-
+participant "Graph 🕸" as graph
 
 
-broker --> shares: Disclose 🐌
+activate table
+    table --> handler: ASKED 🔔 
+deactivate table
 
-''activate script
-''    script -> shares: SAVE 💾 {ASKED}
-''deactivate script
-
-activate shares
-    shares --> asked: ASKED 🔔 
-deactivate shares
-
-activate asked
-    asked -> talker: ASYNC 👷🏼 {disclose}
-
-activate talker
-    talker --> hosted: Handle 🐌 {hook, disclose}
-activate hosted
-    talker -> asked: {hook}
-deactivate talker
-    asked --> asked: WAIT 🧘 {hook}
-deactivate asked
-
-    hosted --> talker: Handled 🐌 {hook, data}
-deactivate hosted
-
-activate talker
-    talker --> asked: REEL 🎣 {hook, data}
-deactivate talker
-
-activate asked
-    asked -> shares: UPDATE 💾 {READY}
-deactivate asked
+activate handler
+    handler -> graph: TRUSTS 🫡 {consumer}
+    
+    alt trusted?
+        handler -> table: SAVE 💾 {TRUSTED}
+    else
+        handler -> table: SAVE 💾 {UNTRUSTED}
+    end alt
+deactivate handler
 
 @enduml 
