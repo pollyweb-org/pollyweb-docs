@@ -32,6 +32,7 @@
     Key: $.Msg.Bind
     Assert:
         Broker: $.Msg.From
+        .State: BOUND
 
 # Create the collect
 - SAVE|Vault.Shares:

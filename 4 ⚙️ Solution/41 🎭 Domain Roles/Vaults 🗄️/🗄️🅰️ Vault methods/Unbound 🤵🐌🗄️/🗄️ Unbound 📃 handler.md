@@ -24,7 +24,8 @@
         .State: BOUND
 
 # Remove the bind
-- DELETE|$bind
+- SAVE|$bind:
+    .State: UNBOUND
 ```
 
 |Uses||
