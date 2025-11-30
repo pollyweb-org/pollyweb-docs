@@ -4,13 +4,14 @@
 
 # 🗄️🐌🤵 Bind @ Broker
 
-> Called by [🗄️⏩🧑‍🦰 Bind @ Vault](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind Vault ⏩ flow.md>).
-
-> Purpose
+> About
 
 * A [Vault 🗄️ domain](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) 
-    * offers bindable [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
-    * to a [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>).
+    * offers a [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) 
+    * to a [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
+    * via a [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>).
+
+* Called by [🧑‍🦰 Bind Vault ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind Vault ⏩ flow.md>).
 
 
 ## Async Message  🐌
@@ -23,9 +24,8 @@ Header:
     
 Body:
     Chat: <chat-uuid>
-    Offer: <offer-uuid>
-    Schemas: 
-        - any-authority.org/ANY-SCHEMA
+    Bind: <bind-uuid>
+    Schema: any-authority.org/ANY-SCHEMA
 ```
 
 | Object | Property | Type  | Description | Origin | Purpose
@@ -34,6 +34,6 @@ Body:
 |           |`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) name | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |           | `Subject`|text|  `Bind@Broker`
 | Body  | `Chat`| uuid | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-| | `Offer`| uuid | [Vault 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) hook || [`Bound@`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-|  | `Schemas`|list| Bind [Schemas 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) || [`Bound@`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+| | `Bind`| uuid | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) ID || [`Bound@`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+|  | `Schema`|text| Bind [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) || [`Bound@`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 |
