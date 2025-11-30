@@ -2,8 +2,7 @@
 
 participant "Broker 🤵" as broker
 box Vault 🗄️️ domain #FFFFFA
-    participant "Script 📃" as vault
-    participant "Talker 😃" as talker
+    participant "Disclose 🐌" as vault
     participant "Shares 🪣" as shares
 end box
 
@@ -11,7 +10,6 @@ end box
 broker --> vault: Disclose 🐌
 
 activate vault    
-    vault -> talker: TRUSTS 🫡 {consumer}
     vault -> shares: SAVE 💾 {ASKED}
 deactivate vault
 
