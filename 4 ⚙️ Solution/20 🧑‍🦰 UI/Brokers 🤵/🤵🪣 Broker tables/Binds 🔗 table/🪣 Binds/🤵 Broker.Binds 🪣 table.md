@@ -1,8 +1,21 @@
 # 🤵🪣 Binds @ Broker table
 
-> Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+> About
+* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Stores [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 
-> Stores [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+<br/>
+
+## State Transitions
+
+| Flow | [State 🛢](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 State.md>) | Description | Blame | Next action
+|-|-|-|-|-
+| [`Bind`](<../🪣🧱 10 Bind ⏩ flow/🤵 Broker.Binds.Bind ⏩ flow.md>) | [`OFFERED`](<../🪣🧱 11 Offered 🔔 event/🤵 OnBindOffered 🔔 handler.md>) | Offered by a [Vault 🗄️](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | [`Bind@Broker` 🐌](<../../../🤵🅰️ Broker methods/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) | [`TRANSLATE` 🈯](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>)
+| | [`DETAILED`](<../🪣🧱 12 Detailed 🔔 event/🤵 OnBindDetailed 🔔 handler.md>) | Localization done | [`OnOffered` 🔔](<../🪣🧱 11 Offered 🔔 event/🤵 OnBindOffered 🔔 handler.md>) | [`CONFIRM` 👍](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>)
+| | [`BOUND`](<../🪣🧱 13 Bound 🔔 event/🤵 OnBindBound 🔔 handler.md>) | The user accepted it | [`OnDetailed` 🔔](<../🪣🧱 12 Detailed 🔔 event/🤵 OnBindDetailed 🔔 handler.md>) | [`Bound@Vault` 🐌](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+| | [`REJECTED`](<../🪣🧱 14 Rejected 🔔 event/🤵 OnBindRejected 🔔 handler.md>) | The user rejected it | [`OnDetailed` 🔔](<../🪣🧱 12 Detailed 🔔 event/🤵 OnBindDetailed 🔔 handler.md>) |[`Bound@Vault` 🐌](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+|[`Remove`](<../🪣🧱 60 Remove ⏩ flow/🤵 Broker.Binds.Remove ⏩ flow.md>) | [`REMOVED`](<../🪣🧱 61 Removed 🔔 event/🤵 OnBindRemoved 🔔 handler.md>) | The user removed it | [`Pop@Broker` 🐌](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | [`Unbound@Vault`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>)
+||
 
 <br/>
 
@@ -16,40 +29,39 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 Prefix: Broker
 Table: Binds
 Item: Bind
-Key: Vault, Wallet, Schema
+Key: 
+    Vault  # The Vault that offered the Bind
+    Bind   # The Bind ID in the Vault 
 ```
 
 <br/>
 
-Here's the [`Item Parents`](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) definition.
+The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are: [`Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>) [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Schemas`](<../../Schemas 🧩 table/🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>)
 
 ```yaml
 Parents:
 
-    Chat: # Chat where the Bind was offered
-        Chats.ID: Binds.Chat
-
-    Wallet: # Wallet that owns the Bind
-        Wallets.ID: Binds.Wallet
+    Chat:    # Chat where the Bind was offered
     
-    Vault: # Vault that offered the Bind
+    Wallet:  # Wallet that owns the Bind
+    
+    Vault:   # Vault that offered the Bind
         Domains.Name: Binds.Vault
         Domains.Wallet: Binds.Wallet
 
-    Schema: # Schema that defines the Bind
+    Schema:  # Schema that defines the Bind
         Schemas.Code: Binds.Schema
         Schemas.Wallet: Binds.Wallet
-
 ```
 
 <br/>
 
-Here's the [`Item Propagate`](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) definition.
+Here's the [Item 🛢 Propagate](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) definition.
 
 ```yaml
 Propagate:
-    - Vault
-    - Schema
+    Vault   # Auto-create Domains from Bind.Vault
+    Schema  # Auto-create Schemas from Binds.Schema
 ```
 
 <br/>
@@ -59,45 +71,52 @@ Here's the [`Item Handlers`](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢
 ```yaml
 Handlers:
 
-    OnBindAltered: 
-        Events: ALTERED
+    # Frontend update
+    ALTERED   >> OnBindAltered: 
 
-    OnBindGiven:
-        Events: INSERTED, UPDATED
-        Assert: New.Hook
+    # Bind flow
+    OFFERED   >> OnBindOffered:
+    DETAILED  >> OnBindDetailed:
+    BOUND     >> OnBindBound:
 
-    OnBindRemoved: 
-        Events: DELETED
+    # Localize flow
+    UPDATED   >> OnBindLocalized:
+        Assert: New.Language
+
+    # Remove flow
+    REMOVED   >> OnBindRemoved:
 ```
 
-## Links
+<br/>
 
-| Link | Table | Contains
-|-|-|-
-| Parent    | [`Wallets` 🪣](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>) | [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-|| [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
 
+```yaml
+Assert:
 
-## Handlers
+    # Bulk assertions
+    AllOf: Chat, Bind, Wallet, Vault, Schema, Language
+    UUIDs: Chat, Bind, Wallet
 
-| Handler | [Message 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Events
-|-|-|-
-| [`OnBindChanges` 📃](<../🪣🧱 00 Altered 🔔 event/🤵 OnBindAltered 🔔 handler.md>) | [`Update@Notifier` 🅰️](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | `ALTERED`
+    # Field assertions
+    .State.IsIn: OFFERED, DETAILED, REJECTED, BOUND, REMOVED
+    Vault.IsDomain:
+    Schema.IsSchema:
+    Language.IsLanguage:
+```
 
+Uses: [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>) [`.IsLanguage`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsLanguage ⓕ.md>)
+
+<br/>
 
 ## Example
 
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 ```yaml
-# READ|Binds@Broker|<bind-id>
-
-# Automatic
-ID: <bind-id>
-
 # From Bind@Broker
-Hook: <hook-uuid>
 Chat: <chat-uuid>
+Bind: <bind-uuid>
 Vault: any-vault.dom
 Schema: any-authority.dom/ANY-SCHEMA:1.0
 Wallet: <wallet-uuid>

@@ -1,4 +1,4 @@
-# 🤵 OnChatInserted 🔔 handler
+# 🤵 OnChatAsked 🔔 handler
 
 > Part of the [`Broker.Chats` 🪣 table](<../🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
 
@@ -9,14 +9,14 @@
 
 ## Diagram
 
-![alt text](<🤵 OnChatInserted ⚙️ uml.png>)
+![alt text](<🤵 OnChatAsked ⚙️ uml.png>)
 
 <br/>
 
 ## Script 
 
 ```yaml
-📃 OnChatInserted:
+📃 OnChatAsked:
 
 # Assert the Chat
 - ASSERT|$Chat:

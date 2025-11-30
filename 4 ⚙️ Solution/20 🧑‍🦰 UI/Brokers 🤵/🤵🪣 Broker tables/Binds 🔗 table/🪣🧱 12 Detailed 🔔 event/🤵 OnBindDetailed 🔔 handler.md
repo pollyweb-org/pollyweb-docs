@@ -16,9 +16,6 @@
 
 ```yaml
 📃 OnBindDetailed:
-
-# Rename for readability
-- PUT|$Item >> $Bind
     
 # Set the Chat context
 - CHAT:
