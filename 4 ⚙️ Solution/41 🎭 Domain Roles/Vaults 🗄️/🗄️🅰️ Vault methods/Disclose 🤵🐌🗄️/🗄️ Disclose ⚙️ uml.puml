@@ -3,6 +3,7 @@
 participant "Broker 🤵" as broker
 box Vault 🗄️️ domain #FFFFFA
     participant "Disclose 🐌" as vault
+    participant "Binds 🪣" as binds
     participant "Shares 🪣" as shares
 end box
 
@@ -10,6 +11,7 @@ end box
 broker --> vault: Disclose 🐌
 
 activate vault    
+    vault -> binds: READ 🧲 
     vault -> shares: SAVE 💾 {ASKED}
 deactivate vault
 

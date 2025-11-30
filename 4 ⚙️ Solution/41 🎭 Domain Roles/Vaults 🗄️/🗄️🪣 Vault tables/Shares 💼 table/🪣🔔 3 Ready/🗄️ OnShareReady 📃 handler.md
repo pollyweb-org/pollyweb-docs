@@ -1,8 +1,16 @@
 # 🗄️ OnShareReady 📃 handler
 
+> About
+* Part of the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>) role
+* Part of the [`Vault.Shares` 🪣 table](<../🪣 Shares/🗄️ Vault.Shares 🪣 table.md>)
+
+<br/>
+
 ## Diagram
 
 ![alt text](<🗄️ OnShareReady ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 

@@ -9,9 +9,9 @@ end box
 
 
 activate consumer
-    consumer -> vault: Collect 🚀 {hook}
+    consumer -> vault: Collect 🚀 
     activate vault
-        vault -> shares: READ 🧲 {hook}
+        vault -> shares: READ 🧲 
         vault -> consumer: RETURN {data}
     deactivate vault
 
