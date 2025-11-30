@@ -18,13 +18,13 @@ activate cmd
 deactivate cmd
 
 activate binds
-    binds -> broker: Bind 🐌
+    binds -> broker: 🐌 Bind @ Broker 
 deactivate binds
 
 activate broker
-    broker -> binds: IF "yes": 🐌 Bound 💾 {BOUND}
+    broker -> binds: IF "yes": 🐌 Bound @ Vault 💾 {BOUND}
 activate binds
-    broker -> binds: IF "no": 🐌 Bound 💾 {DECLINED}
+    broker -> binds: IF "no": 🐌 Bound @ Vault 💾 {DECLINED}
 deactivate broker
 
     binds -> hosted: ASYNC 👷🏼 {Bound}

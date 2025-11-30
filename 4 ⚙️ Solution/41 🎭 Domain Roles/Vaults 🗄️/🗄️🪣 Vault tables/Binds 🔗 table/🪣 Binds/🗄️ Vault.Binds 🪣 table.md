@@ -5,6 +5,17 @@
 
 <br/>
 
+## States
+
+| State | Description |
+|-|-
+| [`OFFERED`](<../🪣🧱 11 Offered 🔔 event/🗄️ OnOfferOffered 📃 handler.md>) | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) has been created but not yet accepted by the user |
+| `DECLINED` | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was offered but the user declined it |
+| [`BOUND`](<../🪣🧱 12 Bound 🔔 event/🗄️ OnBindBound 🔔 handler.md>) | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) is active and the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>) is holding it |
+| `UNBOUND` | The [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) has been removed from the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>) |
+
+<br/>
+
 ## Data Access
 
 | Action | [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | [`DELETE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) |

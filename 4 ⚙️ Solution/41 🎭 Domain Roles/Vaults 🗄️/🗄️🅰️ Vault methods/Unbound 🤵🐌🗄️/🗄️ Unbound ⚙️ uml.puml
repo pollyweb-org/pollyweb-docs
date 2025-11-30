@@ -12,8 +12,8 @@ activate broker
 deactivate broker
 
 activate vault
-    vault -> binds: READ {bind}
-    vault -> binds: SAVE 💾 {BOUND}
+    vault -> binds: READ 🧲 {bind}
+    vault -> binds: SAVE 💾 {UNBOUND}
 deactivate vault
 
 
