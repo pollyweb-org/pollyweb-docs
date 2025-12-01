@@ -1,0 +1,33 @@
+@startuml Broker.Chats.Localize
+ 
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "Pop 🐌" as pop
+    participant "Wallets 🪣" as wallets
+    participant "Chats 🪣" as chats
+    participant "Frontend 🪣" as frontend
+end box
+participant "Graph 🕸" as graph
+participant "Notifier 📣" as notifier
+
+
+wallet -> pop: Pop 🐌 {WALLET}
+activate pop
+    wallet -> pop: {language: X}
+    pop -> wallets: 💾 {language}
+deactivate pop    
+
+activate wallets
+    wallets -> chats: 💾 {language}
+deactivate wallets
+
+activate chats
+    chats -> graph: TRANSLATE 🈯 {host}
+    chats -> frontend: 💾 {chats}
+deactivate chats
+
+activate frontend
+    frontend -> notifier: IF changed: 🐌 Updated
+deactivate frontend
+
+@enduml 
