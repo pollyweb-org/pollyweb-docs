@@ -1,0 +1,17 @@
+@startuml Abandoned@Host
+ 
+participant "Broker 🤵" as broker
+box Host 🤗 domain #FFFFFD
+    participant "Abandoned 🐌" as handler
+    participant "Chats 🪣" as chats
+end box
+
+broker --> handler: Abandoned 🐌 
+
+activate handler
+    handler -> chats: READ 🧲
+    handler -> chats: SAVE 💾 {ABANDONED}
+deactivate handler
+
+
+@enduml 
