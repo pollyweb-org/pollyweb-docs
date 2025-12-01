@@ -4,7 +4,7 @@
 # 💼🚀🤵 Inform @ Broker
 
 > About
-* Part of the [Consumer Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
+* Part of the [Consumer Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Inform 🤗⏩📝/💼 Inform ⏩ flow.md>)
 
 <br/>
 
