@@ -42,7 +42,7 @@ Here's the [Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifes
 ```yaml
 Forms:
   TableOrder:
-    Verb: order
+    Title: Order a meal
     Steps:
       - Schema: .CURATOR/CURATE
         Purpose: your curator orders 🧚
@@ -61,7 +61,7 @@ Forms:
 |-|-|-
 |1|[💼🐌🤵 `Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) | [Consumers 💼](<../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) reject non-announced asks
-|3|[💼🐌🤵 `Inform@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Inform 💼🚀🤵/🤵 Inform 🐌 msg.md>) | [Consumers 💼](<../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) inform the upcoming form 
+|3|[💼🐌🤵 `Inform@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Inform 💼🐌🤵/🤵 Inform 🐌 msg.md>) | [Consumers 💼](<../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) inform the upcoming form 
 |4|[👥🚀🕸 `Form@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form/🕸 Form 🚀 call.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) get the form [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |5|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) inform the user on the steps
 |6|[🤵🐌💼 `Informed@Consumer`](<../../💼🅰️ Consumer methods/Informed 🤵🐌💼/💼 Informed 🐌 msg.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) tell [Consumers 💼](<../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) to continue

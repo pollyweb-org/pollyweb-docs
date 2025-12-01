@@ -194,5 +194,11 @@ PublicKey: <PublicKey>  # For domains to verify Wallet messages
 From [`Emoji@Broker` 🚀 handler](<../../../🤵🅰️ Broker methods/Chats 💬 Emoji 🤗🚀🤵/🤵 Emoji 📃 handler.md>)
 
 ```yaml 
-Emoji: 😃                # New chat emoji 
+Emoji: 😃   # New chat emoji 
+```
+
+From [`Broker.Forms`](<../../Forms 📝 table/🪣 Forms/🤵 Broker.Forms 🪣 table.md>).[`OnFormInformed` 🔔 handler](<../../Forms 📝 table/🪣🧱 1 Informed 🔔/🤵 OnFormInformed 🔔 handler.md>)
+
+```yaml
+Form: <form-uuid>   # Form being informed about
 ```
