@@ -20,10 +20,10 @@
 # Tell the consumer to proceed
 - SEND:
     Header: 
-        To: $Form.Host
+        To: $Form.Consumer
         Subject: Informed@Consumer
     Body:
-        Hook: $Form.Informed
+        Hook: $Form.Hook
 ```
 
 |Uses ||

@@ -17,6 +17,23 @@
 📃 OnFormInform:
 
 
+# Call Form@Graph
+- SEND >> $form:
+    Header: 
+        To: $.Hosted.Graph
+        Subject: Form@Graph
+    Body:
+        Form: $.Msg.Form
+        Domain: $.Msg.From
+        Language: $chatter.Chat.Language
+
+# Inform the user
+- INFO: 
+    Text: ...
+
+# Ask for confirmation to proceed
+- CONFIRM|Ready to continue?
+
 # Progress the state
 - SAVE|$Form:
     .State: INFORMED

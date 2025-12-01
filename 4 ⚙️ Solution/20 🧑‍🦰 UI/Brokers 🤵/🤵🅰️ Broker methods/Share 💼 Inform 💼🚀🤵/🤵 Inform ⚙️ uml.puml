@@ -4,26 +4,16 @@ participant "Consumer 💼" as consumer
 
 box Broker 🤵 #FFFFFA
     participant "Inform 🐌" as broker
-    participant "Chatters 🪣" as table
+    participant "Chatters 🪣" as chatters
+    participant "Forms 🪣" as forms
 end box
-participant "Graph 🕸" as graph
-participant "Wallet 🧑" as user
 
 
 consumer --> broker: Inform 🐌
 
 activate broker
-    broker -> table: READ 🧲
-    broker -> graph: Form @ Graph 🚀
-    broker --> user: CONFIRM 👍
-deactivate broker
-
-activate user
-    user --> broker: "yes"
-deactivate user
-
-activate broker
-    broker --> consumer: Informed 🐌
+    broker -> chatters: READ 🧲
+    broker -> forms: SAVE 💾 {INFORM}
 deactivate broker
 
 

@@ -2,6 +2,7 @@
 
 > Purpose
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Inform@Broker` 🅰️ method](<🤵 Inform 🐌 msg.md>).
+* Adds a new Form request to the [`Broker.Forms` 🪣 table](<../../🤵🪣 Broker tables/Forms 📝 table/🪣 Forms/🤵 Broker.Forms 🪣 table.md>) in state `INFORM`.
 
 <br/>
 
@@ -34,36 +35,18 @@
     Assert:
         Chat.State: ACTIVE
 
-# Call Form@Graph
-- SEND >> $form:
-    Header: 
-        To: $.Hosted.Graph
-        Subject: Form@Graph
-    Body:
-        Form: $.Msg.Form
-        Domain: $.Msg.From
-        Language: $chatter.Chat.Language
-
-# Inform the user
-- INFO: 
-    Text: ...
-
-# Ask for confirmation to proceed
-- CONFIRM|Ready to continue?
-
-# Tell the consumer to proceed
-- SEND:
-    Header: 
-        To: $.Msg.From
-        Subject: Informed@Consumer
-    Body:
-        Hook: $.Msg.Hook
+# Save the request
+- SAVE|Broker.Forms:
+    $.Msg.Chat:
+    $.Msg.Hook:
+    $.Msg.Form:
+    Consumer: $.Msg.From
+    .State: INFORM
 ```
 
 Uses||
 |-|-
-|[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSESS`](<../../🤵⏩ Broker flows/Locate 🔆⏩🤵/🤵 Locate ⏩ flow.md>) [`CONFIRM`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SEND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Chats`](<../../🤵🪣 Broker tables/Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Broker.Chatters`](<../../🤵🪣 Broker tables/Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
+|[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSESS`](<../../🤵⏩ Broker flows/Locate 🔆⏩🤵/🤵 Locate ⏩ flow.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)  [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) |  [`Broker.Chatters`](<../../🤵🪣 Broker tables/Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) [`Broker.Forms`](<../../🤵🪣 Broker tables/Forms 📝 table/🪣 Forms/🤵 Broker.Forms 🪣 table.md>)
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
-| Messages | [`Form@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form/🕸 Form 🚀 call.md>) <br/> [`Informed@Consumer` 🅰️ method](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Informed 🤵🐌💼/💼 Informed 🐌 msg.md>)
 |

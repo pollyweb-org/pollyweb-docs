@@ -36,16 +36,16 @@ Item: Chat
 
 <br/>
 
-Here's the [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) definition, referencing [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Pops`](<../../Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
+The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are: [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Forms`](<../../Forms 📝 table/🪣 Forms/🤵 Broker.Forms 🪣 table.md>) [`Pops`](<../../Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
 
 ```yaml
 Parents:
-    
+
+    Form: # Active form
+
     Pop: # Pop that created the Chat
-        Pops.ID: Chats.Pop
 
     Wallet: # Receiver of Open@Notifier
-        Wallets.ID: Chats.Wallet
     
     Host: # Receiver of Hello@Host
         Domains.Name: Chats.Host, 
@@ -58,15 +58,26 @@ Parents:
 Here's the [Item 🛢 Propagate](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) definition, referencing [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>)
 
 ```yaml
-Propagate: Host
+Propagate:
+    Host # Auto-create a Domain to represent the Host
 ```
 
 <br/>
 
-Here's the [Item 🛢 Children](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Children.md>) definition, referencing [`Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
+The [Item 🛢 Children](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Children.md>) are: [`Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) [`Forms`](<../../Forms 📝 table/🪣 Forms/🤵 Broker.Forms 🪣 table.md>)
 
 ```yaml
-Children: Chatters
+Children: 
+    Chatters  # Domains added to the Chat
+    Forms     # Manifest Forms activated on the Chat
+```
+
+<br/>
+
+The [Item 🛢 Cascade](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Cascade.md>) deletes are: [`Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) [`Forms`](<../../Forms 📝 table/🪣 Forms/🤵 Broker.Forms 🪣 table.md>)
+
+```yaml
+Cascade: Chatters, Forms
 ```
 
 <br/>
