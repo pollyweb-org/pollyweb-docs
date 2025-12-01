@@ -1,0 +1,19 @@
+@startuml OnInformInformed
+ 
+box Broker 🤵 domain #FFFFFA
+    participant "Forms 🪣" as table
+    participant "OnInformed 🔔" as handler
+end box
+participant "Consumer 💼" as consumer
+
+
+activate table
+    table --> handler: INFORMED 🔔
+deactivate table
+
+activate handler
+    handler --> consumer: SEND 📬 {Informed 🐌}
+deactivate handler
+
+
+@enduml 
