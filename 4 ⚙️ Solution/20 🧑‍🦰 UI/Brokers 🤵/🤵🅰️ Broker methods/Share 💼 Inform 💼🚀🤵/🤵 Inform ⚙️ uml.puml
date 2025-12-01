@@ -1,0 +1,30 @@
+@startuml ⚙️ Form
+
+participant "Consumer 💼" as consumer
+
+box Broker 🤵 #FFFFFA
+    participant "Inform 🐌" as broker
+    participant "Chatters 🪣" as table
+end box
+participant "Graph 🕸" as graph
+participant "Wallet 🧑" as user
+
+
+consumer --> broker: Inform 🐌
+
+activate broker
+    broker -> table: READ 🧲
+    broker -> graph: Form @ Graph 🚀
+    broker --> user: CONFIRM 👍
+deactivate broker
+
+activate user
+    user --> broker: "yes"
+deactivate user
+
+activate broker
+    broker --> consumer: Informed 🐌
+deactivate broker
+
+
+@enduml 
