@@ -46,16 +46,17 @@ Parents:
 
 <br/>
 
-The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`Queried`](<../🪣🧱 10 Queried 🔔 event/🤵 OnQueryQueried 🔔 handler.md>) [`Abrupt`](<../🪣🧱 15 Abrupt 🔔 event/🤵 OnQueryAbrupt 🔔 handler.md>) [`Informed`](<../🪣🧱 20 Informed 🔔 event/🤵 OnQueryInformed 🔔 handler.md>) [`Detailed`](<../🪣🧱 40  🔔 event/🤵 OnQueryDetailed 🔔 handler.md>) [`Disclosed`](<../🪣🧱 50 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>) [`Shared`](<../🪣🧱 55 Shared 🔔 event/🤵 OnQueryShared 🔔 handler.md>)
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`Queried`](<../🪣🧱 10 Queried 🔔 event/🤵 OnQueryQueried 🔔 handler.md>) [`Abrupt`](<../🪣🧱 15 Abrupt 🔔 event/🤵 OnQueryAbrupt 🔔 handler.md>) [`Informed`](<../🪣🧱 20 Informed 🔔 event/🤵 OnQueryInformed 🔔 handler.md>) [`Matched`](<../🪣🧱 30 Matched 🔔 event/🤵 OnQueryMatched 🔔 handler.md>) [`Trusted`](<../🪣🧱 40 Trusted 🔔 event/🤵 OnQueryTrusted 🔔 handler.md>)  [`Disclosed`](<../🪣🧱 50 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>) [`Shared`](<../🪣🧱 55 Shared 🔔 event/🤵 OnQueryShared 🔔 handler.md>)
 
 ```yaml
 Handlers: 
     QUERIED              >> OnQueryQueried:   # Informed Schemas?
     QUERIED > ABRUPT     >> OnQueryAbrupt:    # Sends a FAIL
-    QUERIED > INFORMED   >> OnQueryInformed:  # Details the Query
-    INFORMED > DETAILED  >> OnQueryDetailed:  # Asks confirmation
-    DETAILED > DISCLOSED >> OnQueryDisclosed: # Binds by Vaults
-    DETAILED > SHARED    >> OnQueryShared:    # Tokens by Wallets
+    QUERIED > INFORMED   >> OnQueryInformed:  # Matched Schemas?
+    INFORMED > MATCHED   >> OnQueryMatched:   # Wallet trusted?
+    MATCHED > TRUSTED    >> OnQueryTrusted:   # Asks confirmation
+    TRUSTED > DISCLOSED  >> OnQueryDisclosed: # Binds by Vaults
+    TRUSTED > SHARED     >> OnQueryShared:    # Tokens by Wallets
 ```
 
 
@@ -97,6 +98,28 @@ Hook: <hook-uuid>       # Hook to reply to the Consumer
 Consumer: any-host.dom  # Sender of the Query
 Schemas:                # List of acceptable schemas
   - any-authority.dom/ANY-SCHEMA  # Requested Schema 1
+```
+
+From [`OnQueryInformed` 🔔 handler](<../🪣🧱 20 Informed 🔔 event/🤵 OnQueryInformed 🔔 handler.md>)
+
+```yaml
+Matches: # All Binds and Tokens matching the Schemas        
+  - Type: TOKEN
+    Title: Any Token, by Any Issuer
+    Domain: any-issuer.dom
+    ID: <token-uuid>
+    Schema: any-authority.dom/ANY-SCHEMA  
+```
+
+From [`OnQueryMatched` 🔔 handler](<../🪣🧱 30 Matched 🔔 event/🤵 OnQueryMatched 🔔 handler.md>)
+
+```yaml
+Trusted: # Only the Binds and Tokens mutually trusted
+  - Type: BIND
+    Title: Any Bind, by Any Vault
+    Domain: any-vault.dom
+    ID: <bind-uuid>
+    Schema: any-authority.dom/ANY-SCHEMA  
 ```
 
 From [`OnQueryDisclosed` 🔔 handler](<../🪣🧱 50 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>)

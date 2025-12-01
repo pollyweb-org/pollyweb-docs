@@ -4,11 +4,9 @@
 # Load the Chat
 - CHAT|$Query.Chat
 
-# Stop if no candidates are available.
-CASE|$Query.Candidates.Length:
-    0: 
-        - SAVE|$Query:
-            Status: SUGGEST
+
+
+CASE|$Query.Trusted:
     1: 
         - CONFIRM|Share?:
 ```
