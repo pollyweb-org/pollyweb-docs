@@ -12,6 +12,7 @@ activate table
 deactivate table
 
 activate handler
+    handler -> handler: CHAT 💬
     handler --> wallet: FAILURE ❌ "not informed"
 deactivate handler
 
