@@ -14,9 +14,10 @@
 # Get the candidate Binds
 - SELECT >> $queryBinds:
     AllOf: 
+        ID: .UUID
         Title:
         Type: BIND
-        ID: Bind
+        Key: Bind
         Domain: Vault
         Schema:
     FROM: $Query.Wallet.QueryBinds
@@ -25,9 +26,10 @@
 # Get the candidate Tokens
 - SELECT >> $queryTokens:
     AllOf: 
+        ID: .UUID
         Title:
         Type: TOKEN
-        ID: Token
+        Key: Token
         Domain: Issuer
         Schema:
     FROM: $Query.Wallet.QueryTokens

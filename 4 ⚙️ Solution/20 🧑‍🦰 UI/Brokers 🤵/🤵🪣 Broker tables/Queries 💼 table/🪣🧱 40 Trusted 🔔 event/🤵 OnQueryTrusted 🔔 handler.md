@@ -1,12 +1,52 @@
+# 🤵 OnQueryTrusted 🔔 handler
+
+
+
+<br/>
+
+## Diagram
+
+![alt text](<🤵 OnQueryTrusted ⚙️ uml.png>)
+
+<br/>
+
+## Script
+
 ```yaml
-📃 OnQueryDetailed:
+📃 OnQueryTrusted:
 
-# Load the Chat
-- CHAT|$Query.Chat
+# See if there is only one trust
+- IF|$Query.Trusted.IsOne:
+    PUT >> $selected:
+        $Query.Trusted.First
 
+# Ask to select if there are many trusts
+- IF|$Query.Trusted.AreMany:
 
+    # Load the Chat
+    - CHAT|$Query.Chat
 
-CASE|$Query.Trusted:
-    1: 
-        - CONFIRM|Share?:
+    # Ask to select one of the trusts
+    - ONE >> $selected:
+        Text: What to share?
+        Select: 
+            From: $Query.Trusted
+            AllOf: ID, Title
+            Translate: No
+
+# Exit if no trust was selected
+- IF|$selected:
+    Then:
+        SAVE|$Query:
+            .State: SELECTED
+            Selected: $selected
+    Else:
+        SAVE|$Query:
+            .State: REJECTED 
 ```
+
+Uses ||
+|-|-
+|[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>)  [`IF`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`ONE`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/ONE 1️⃣/ONE 1️⃣ prompt.md>)  [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)   |
+|[Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Queries`](<../🪣 Queries/🤵 Broker.Queries 🪣 table.md>)   |
+|[{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsOne`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsOne ⓕ.md>) [`.AreMany`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/AreMany ⓕ.md>)

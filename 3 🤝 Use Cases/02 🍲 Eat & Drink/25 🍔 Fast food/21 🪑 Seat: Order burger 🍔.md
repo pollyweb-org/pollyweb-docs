@@ -40,11 +40,13 @@
     - RUN|WaitReady  # Wait for it to be ready.
 
     # Inform readiness.
-    - Case|$status.Code:
+    - CASE|$status.Code:
         Ready: DONE|Pick up your order.
         Canceled: INFO|Order canceled.
         $: FAIL|Unexpected problem.
     ```
+    
+    Uses: [`CASE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`INFORM`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) [`RUN`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
 
     ```yaml
     Selection: 
@@ -116,12 +118,13 @@
 
     # Monitor status changes.
     - WAIT|$status
-    - IF|$status.Pending:
-        Else: RETURN|$status
+    - UNLESS|$status.Pending:
+        RETURN|$status
 
     # Continue to wait.
-    REPEAT
+    - REPEAT
     ```
+    Uses: [`CASE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`REPEAT`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) [`TEMP`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`UNLESS`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/UNLESS ⤵️/⤵️ UNLESS ⌘ cmd.md>) [`WAIT`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) 
 
     |Functions|Returns|Description
     |-|-|-
