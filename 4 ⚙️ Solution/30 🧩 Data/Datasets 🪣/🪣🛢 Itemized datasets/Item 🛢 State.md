@@ -47,3 +47,39 @@
 
     ---
     <br/>
+
+
+1. **What's an alternative more compact syntax?**
+
+    Here's an alternative syntax using `>>`.
+
+    ```yaml
+    Handlers:
+        INSERTED >> OnInserted:
+        UPDATED  >> OnUpdated:
+            Assert: 
+                New.AnyField: AnyNewValue
+    ```
+
+    ---
+    <br/>
+
+1. **How to define that state B only happens after A?**
+
+    You can chain events using `>`.
+
+    ```yaml
+    Handlers:
+        A > B >> OnB:
+    ```
+
+    This way, 
+    * `OnB` will be called 
+    * when an item state is first  `A` and then later `B`. 
+    
+    If `B` is set first, 
+    * the handler will not be called
+    * and the item is marked as having an invalid state.
+
+    ---
+    <br/>

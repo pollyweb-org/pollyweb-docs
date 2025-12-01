@@ -87,18 +87,3 @@
 
     ---
     <br/>
-
-1. **What's an alternative more compact syntax?**
-
-    Here's an alternative syntax using `>>`.
-
-    ```yaml
-    Handlers:
-        INSERTED >> OnInserted:
-        UPDATED  >> OnUpdated:
-            Assert: 
-                New.AnyField: AnyNewValue
-    ```
-
-    ---
-    <br/>
