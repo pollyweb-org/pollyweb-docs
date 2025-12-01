@@ -32,7 +32,7 @@
 
 ## Schema
 
-Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
+Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>). 
 
 ```yaml
 Prefix: Broker
@@ -40,11 +40,13 @@ Table: Tokens
 Item: Token
 Key: Issuer, Token
 ```
-Note: The [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID is unique per [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name.
+
+> The [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID is unique per [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name.
+
 
 <br/>
 
-Here's the [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) definition.
+The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are: [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Schemas`](<../../Schemas 🧩 table/🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
 
 ```yaml
 Parents:
@@ -60,7 +62,6 @@ Parents:
         Schemas.Code: Tokens.Schema
         Schemas.Wallet: Tokens.Wallet
 ```
-References: [`Broker.Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Broker.Schemas`](<../../Schemas 🧩 table/🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>) [`Broker.Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
 
 <br/>
 
@@ -71,6 +72,26 @@ Propagate:
     # Support for Frontend@Broker
     - Issuer    # Auto-populate the Domains table
     - Schema    # Auto-populate the Schemas table
+```
+
+<br/>
+
+The [Item 🛢 Children](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Children.md>) are: [`Broker.Queries`](<../../Queries 💼 table/🪣 Queries/🤵 Broker.Queries 🪣 table.md>) 
+
+```yaml
+Children:
+    Queries: # Queries that reference this Token
+        Query.Token: Token.Wallet
+        Query.Issuer: Token.Issuer
+```
+
+<br/>
+
+The [Item 🛢 Distincts](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) are the following.
+
+```yaml
+Distincts:
+    Consumers: Queries.Consumer
 ```
 
 <br/>
