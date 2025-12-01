@@ -4,20 +4,13 @@ participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Chats 🪣" as chats
     participant "Chatters 🪣" as table
-    participant "Pops 🪣" as pops
 end box
 participant "Finder 🔎" as finder
 participant "Host 🤗" as host
 
-
 wallet -> chats: 🐌 Opened @ Broker
 
 activate chats
-    chats -> table: 💾 POP
-    activate table
-        table -> pops: 💾 POPPED
-    deactivate table
-
     chats -> table: 💾 FINDER
 deactivate chats
 

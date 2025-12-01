@@ -22,7 +22,7 @@
 
 ## Lifecycle 
 
-![alt text](<🤵 Broker.Chatters ⚙️ uml.png>)
+![alt text](<../🪣🧱 10 Pop ⏩ flow/🤵 Broker.Chatters.Pop ⚙️ uml.png>)
 
 
 <br/>
@@ -80,8 +80,11 @@ Asserts:
     .State.IsIn: POP, FINDER, BROKER, HOST
 
     # Field assertions
-    Role.IsIn: HOST, HELPER, VAULT
     Domain.IsDomain: 
+    Role.IsIn: 
+        HOST,   # From Hello@Host
+        HELPER, # From Invite@Broker
+        VAULT   # From Query@Broker
 ```
 
 <br/>
@@ -102,14 +105,14 @@ Parameters: {A:1, B:2}
 # Shared binds (if any)
 Binds:
   - Title: 🔗 Any Bind, by Any Vault
-    Bind: <bind-A-uuid>
+    Bind: <bind-uuid>
+    Vault: <vault-uuid>
 
 # Shared tokens (if any)
 Tokens:
   - Title: 🎟️ Any Token, by Any Issuer
-    Token: <token-A-uuid>
-  - Title: 🪪 Another Token, by Another Issuer
-    Token: <Token-B-uuid>
+    Token: <token-uuid>
+    Issuer: <issuer-uuid>
 ```
 
 
