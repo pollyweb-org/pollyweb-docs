@@ -18,10 +18,12 @@
 📃 OnQueryQueried:
 
 # Get the queried schemas
-- PUT|$Query.Schemas >> $queried
+- PUT >> $queried:
+    $Query.Schemas
 
 # Get the informed schemas
-- PUT|$Query.Chat.FormSchemas >> $informed
+- PUT >> $informed:
+    $Query.Chat.FormSchemas
 
 # Check if only informed schemas were queried
 - IF|$queried.IsIn($informed):
