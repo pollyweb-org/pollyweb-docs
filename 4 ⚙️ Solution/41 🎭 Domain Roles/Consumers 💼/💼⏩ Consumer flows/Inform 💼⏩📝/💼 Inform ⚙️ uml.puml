@@ -28,7 +28,7 @@ activate broker
     '    graph -> broker: {form}
     'deactivate graph
 
-    broker --> user: 5) INFO ⓘ
+    broker -> user: 5) CONFIRM 👍
     broker --> consumer: 6) Informed 🐌
 deactivate broker
 
