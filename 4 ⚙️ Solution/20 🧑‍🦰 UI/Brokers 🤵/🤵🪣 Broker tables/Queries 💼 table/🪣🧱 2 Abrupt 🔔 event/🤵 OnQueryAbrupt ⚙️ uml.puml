@@ -1,0 +1,18 @@
+@startuml OnQueryAbrupt
+
+box Broker 🤵 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnAbrupt 🔔" as handler
+end box
+participant "Wallet 👱" as wallet
+
+
+activate table
+    table --> handler: ABRUPT 🔔
+deactivate table
+
+activate handler
+    handler --> wallet: FAILURE ❌ "not informed"
+deactivate handler
+
+@enduml

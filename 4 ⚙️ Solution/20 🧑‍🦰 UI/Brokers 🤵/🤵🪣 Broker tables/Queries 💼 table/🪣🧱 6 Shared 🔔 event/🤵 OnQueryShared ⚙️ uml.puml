@@ -1,0 +1,18 @@
+@startuml OnQueryShared
+
+box Broker 🤵 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnShared 🔔" as handler
+end box
+participant "Notifier 📣" as notifier
+
+
+activate table
+    table --> handler: SHARED 🔔
+deactivate table
+
+activate handler
+    handler --> notifier: SEND 📬 {Share 🐌}
+deactivate handler
+
+@enduml
