@@ -149,3 +149,13 @@
 
     ---
     <br/>
+
+1. **How does SEND behave with Itemizer items?**
+
+    The `SEND` command does not expose [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) items directly.
+    * If an item is returned, the default `$` is sent instead.
+    * If an [Item 🛢 Child](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Children.md>) is returned, the field value (typically a UUID) is sent.
+    * If none of the above is available, an error is raised for security reasons.
+
+    ---
+    <br/>

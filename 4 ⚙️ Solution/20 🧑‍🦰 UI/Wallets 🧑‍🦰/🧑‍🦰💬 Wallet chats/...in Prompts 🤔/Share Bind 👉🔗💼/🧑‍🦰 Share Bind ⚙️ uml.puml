@@ -1,11 +1,10 @@
 @startuml Wallet: Share()
 
-
-actor "User\nInterface" as user
-participant "Broker 🤵\n(domain)" as broker
-participant "Consumer 💼\n(domain)" as consumer
-participant "Vault 🗄️\n(domain)" as vault
-participant "Graph 🕸\n(domain)" as graph
+participant "Wallet 👱" as user
+participant "Broker 🤵" as broker
+participant "Consumer 💼" as consumer
+participant "Vault 🗄️" as vault
+participant "Graph 🕸" as graph
 
 ' --------------------
 ' QUERY

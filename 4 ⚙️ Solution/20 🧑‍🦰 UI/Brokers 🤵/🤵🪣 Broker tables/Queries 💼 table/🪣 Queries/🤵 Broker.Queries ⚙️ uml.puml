@@ -1,0 +1,49 @@
+@startuml Broker.Queries
+
+participant "Consumer 💼" as consumer
+box Broker 🤵 domain #FFFFFA
+    participant "Query 🐌" as script
+    participant "Queries 🪣" as queries
+    participant "Forms 🪣" as forms
+end box
+participant "Graph 🕸" as graph
+participant "Wallet 👱" as wallet
+participant "Vault 🗄️" as vault
+
+consumer -> script: Query 🐌
+
+activate script
+    script -> queries: 💾 QUERIED
+deactivate script
+
+activate queries
+    queries -> forms: informed?
+deactivate queries
+
+activate forms
+    forms -> queries: 💾 INFORMED or ABRUPT
+deactivate forms
+
+activate queries
+    queries -> graph: IF INFORMED: Trusts @ Graph 🚀
+deactivate queries
+
+activate graph
+    graph -> queries: 💾 DETAILED
+deactivate graph
+
+activate queries
+    queries -> wallet: CONFIRM 👍 "Share?"
+deactivate queries
+
+activate wallet
+    wallet -> queries: 💾 DISCLOSED or SHARED
+deactivate wallet
+
+activate queries
+    queries -> wallet: IF SHARED: Share @ Notifier 🐌
+    queries -> vault: IF DISCLOSED: Disclose @ Vault 🐌
+deactivate queries
+
+
+@enduml
