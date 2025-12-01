@@ -1,30 +1,32 @@
-@startuml OnQueryDetailed
+@startuml OnQueryTrusted
 
 box Broker 🤵 domain #FFFFFA
     participant "Queries 🪣" as table
-    participant "OnDetailed 🔔" as handler
+    participant "OnTrusted 🔔" as handler
+    participant "Schemas 🪣" as schemas
 end box
 participant "Wallet 👱" as wallet
 
 
 activate table
-    table --> handler: DETAILED 🔔
+    table --> handler: TRUSTED 🔔
 deactivate table
 
 activate handler
-    handler --> wallet: CONFIRM 👍 "share?"
-deactivate handler
 
-activate wallet
-    wallet --> handler: 
-deactivate wallet
+    group If many
+        handler -> wallet: ONE "Which one?" 
+    end group
 
-activate handler
+    handler -> schemas: READ 🧲
+    handler -> wallet: CONFIRM 👍 "share?"
+
     alt IF Bind
-        handler -> table: 💾 DISCLOSED 
+        handler -> table: SAVE 💾 {DISCLOSED} 
     else IF Token
-        handler -> table: 💾 SHARED
+        handler -> table: SAVE 💾 {SHARED}
     end
+
 deactivate handler
 
 @enduml
