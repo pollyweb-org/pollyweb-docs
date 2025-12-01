@@ -1,8 +1,8 @@
-# 🤵🪣 Chatters @ Broker table
+# 🤵 Broker.Chatters 🪣 table
 
-> Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
-
-> Stores [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
+> About
+* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Stores [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
 
 <br/>
 
@@ -20,33 +20,69 @@
 
 <br/>
 
+## Lifecycle 
+
+![alt text](<🤵 Broker.Chatters ⚙️ uml.png>)
+
+
+<br/>
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
 ```yaml
-# Chats.yaml
 Prefix: Broker
 Table: Chatters
 Item: Chatter
 Key: Chat, Domain
-
-Parents:
-    Chat: { Chats.ID: Chatter.Chat }
-    Domain: { Domains.Name: Chatter.Domain }
-
-Handlers:
-    OnFinder: FINDER
-    OnBroker: BROKER
-    OnHost: HOST
-    OnHelper: HELPER
 ```
 
-| Link | Table | Contains
-|-|-|-
-| Parents   | [`Chats` 🪣](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) | [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-|           | [`Domains` 🪣](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) | [domains 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
-|
+<br/>
+
+The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are: [`Broker.Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Broker.Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
+
+```yaml
+Parents:
+    
+    Chat: # Chat where the domain participates
+
+    Domain: # Domain referenced
+        Domains.Name: Chatter.Domain, 
+        Domains.Wallet: Chatter.Chat.Wallet
+```
+
+<br/>
+
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnPop`](<../🪣🧱 11 Pop 🔔 event/🤵 OnChatterPop 🔔 handler.md>) [`OnFinder`](<../🪣🧱 21 Finder 🔔 event/🤵 OnChatterFinder 🔔 handler.md>) [`OnBroker`](<../🪣🧱 22 Broker 🔔 event/🤵 OnChatterBroker 🔔 handler.md>) [`OnHost`](<../🪣🧱 23 Host 🔔 event/🤵 OnChatterHost 🔔 handler.md>) [`OnHelper`](<../🪣🧱 34 Helper 🔔 event/🤵 OnChatterHelper 🔔 handler.md>)
+
+```yaml
+Handlers:
+    POP    >> OnPop:      # Handles a pop-up
+    FINDER >> OnFinder:   # Calls Present@Finder
+    BROKER >> OnBroker:   # Calls Prompt@Notifier
+    HOST   >> OnHost:     # Calls Hello@Host
+    HELPER >> OnHelper:   # Calls Invited@Helper
+```
+
+<br/>
+
+Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
+
+```yaml
+Asserts:
+
+    # Group assertions
+    AllOf: Wallet, Chat, Domain, Role
+    UUIDs: Wallet, Chat
+    
+    # State machine
+    .State.IsIn: POP, FINDER, BROKER, HOST
+
+    # Field assertions
+    Role.IsIn: HOST, HELPER, VAULT
+    Domain.IsDomain: 
+```
 
 <br/>
 
@@ -57,7 +93,7 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ```yaml
 Chat: <chat-uuid>
 Domain: any-host.dom
-Role: HOST # one of HOST, VAULT, HELPER
+Role: HOST 
 
 # Locator info
 Key: ANY-LOCATOR
@@ -79,14 +115,14 @@ Tokens:
 
 Property|Type|Details|Origin|Purpose
 |-|-|-|-|-
-|`Role`|text|Role in [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)|-|[`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>) [`Prompt@`](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
-| ||- `HOST` role | [`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | -
-| ||- `HELPER` role | [`Invite@`](<../../../🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | -
-| ||- `VAULT` role | [`Query@`](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) |-
-|`Chat`|uuid|[Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | -|[`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
-|`Domain`|text|[domain 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name|-|[`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
-|`Key`| text | [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key |-| [`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>) |
-|`Parameters` | map | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) parameters |-| [`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
-|`Binds`|list| [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) shared | - | [`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
-|`Tokens` | list | [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared |- | [`Presented@`](<../../../🤵🅰️ Broker methods/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>)
+|`Role`|text|Role in [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)||[`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>) [`Prompt@`](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+| ||`HOST` role | [`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | 
+| ||`HELPER` role | [`Invite@`](<../../../🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | 
+| ||`VAULT` role | [`Query@`](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) |
+|`Chat`|uuid|[Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | |[`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
+|`Domain`|text|[domain 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name||[`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
+|`Key`| text | [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key || [`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>) |
+|`Parameters` | map | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) parameters || [`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
+|`Binds`|list| [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) shared |  | [`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
+|`Tokens` | list | [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared || [`Presented@`](<../../../🤵🅰️ Broker methods/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>)
 |

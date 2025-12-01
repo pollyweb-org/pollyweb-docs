@@ -1,4 +1,4 @@
-# 🤵🪣 Binds @ Broker table
+# 🤵 Broker.Binds 🪣 table
 
 > About
 * Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)

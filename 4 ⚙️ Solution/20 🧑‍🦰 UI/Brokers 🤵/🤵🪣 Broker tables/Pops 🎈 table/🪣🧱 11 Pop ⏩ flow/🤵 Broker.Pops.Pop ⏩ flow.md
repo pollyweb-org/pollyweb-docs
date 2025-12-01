@@ -20,5 +20,5 @@ Step | Purpose |
 | [`Opened@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 🐌 msg.md>) | Tells [Broker 🤵 domains](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) that a [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) is ready
 |[`Opened@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 📃 handler.md>) | Marks the [`Broker.Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) item as opened
 | [`OnChatOpened` 🔔 handler](<../../Chats 💬 table/🪣🧱 14 Opened 🔔 event/🤵 OnChatOpened 🔔 handler.md>) | Adds the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) to [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
-| [`OnChatterPop` 🔔 handler](<../../Chatters 👥 table/🪣🧱 0 Pop 🔔 event/🤵 OnChatterPop 🔔 handler.md>) | Marks the [`Broker.Pops`](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>) item as opened
+| [`OnChatterPop` 🔔 handler](<../../Chatters 👥 table/🪣🧱 11 Pop 🔔 event/🤵 OnChatterPop 🔔 handler.md>) | Marks the [`Broker.Pops`](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>) item as opened
 |
