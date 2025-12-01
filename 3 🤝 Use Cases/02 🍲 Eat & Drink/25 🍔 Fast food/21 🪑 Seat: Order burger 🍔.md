@@ -43,7 +43,7 @@
     - Case|$status.Code:
         Ready: SUCCESS|Pick up your order.
         Canceled: INFO|Order canceled.
-        $: FAILURE|Unexpected problem.
+        $: FAIL|Unexpected problem.
     ```
 
     ```yaml

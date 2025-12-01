@@ -14,7 +14,7 @@ participant "Vault 🗄️" as vault
 'deactivate consumer
 
 activate broker
-    broker --> user: 2) FAILURE ❌ unannounced
+    broker --> user: 2) FAIL ❌ unannounced
 deactivate broker
 
 'activate consumer

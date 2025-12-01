@@ -111,7 +111,7 @@
     - IF|{IsInvalid($code)}|failure-script
 
     failure-script:
-    - FAILURE|Enter a 6 digit number
+    - FAIL|Enter a 6 digit number
     - RUN|get-code
     ```
 

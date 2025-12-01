@@ -179,7 +179,7 @@
     - RUN|TryLoop >> $result             # Run the loop
     - CASE|$result:                      # Check the result
         Won: SUCCESS|You won! 🥳
-        Lost: FAILURE|You lost! 😮
+        Lost: FAIL|You lost! 😮
     - REPEAT|Play again?                 # Ask to play again
     - INFO|OK, see you next time!        # Exit the game
     - GOODBYE                            # Show ads
@@ -204,9 +204,9 @@
         # If out of tries, the user lost.     
         0: RETURN|Lost
         # Last try.
-        1: FAILURE|It's your last try.
+        1: FAIL|It's your last try.
         # Otherwise, try again.
-        $: FAILURE|You have {$tries} more tries.
+        $: FAIL|You have {$tries} more tries.
 
     # Try again.
     - REPEAT

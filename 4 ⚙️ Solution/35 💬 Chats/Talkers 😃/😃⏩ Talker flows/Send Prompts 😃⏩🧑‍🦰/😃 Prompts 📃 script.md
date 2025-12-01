@@ -56,7 +56,7 @@
     $.Inputs
 
 # Check for non-blocking inputs
-- IF|$Format.IsIn(INFO,FAILURE,SUCCESS,TEMP):
+- IF|$Format.IsIn(INFO,FAIL,SUCCESS,TEMP):
 
     # Create a check-point for options
     - IF|$Options: 

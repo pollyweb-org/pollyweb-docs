@@ -103,7 +103,7 @@
     - SUCCESS|Code is correct!
 
     WrongCode:
-    - FAILURE|Code is wrong!
+    - FAIL|Code is wrong!
     ```
 
 
@@ -151,7 +151,7 @@
     - INFO|Test finished
         
     ErrorHandlingProcedure:
-    - FAILURE|Code is wrong!
+    - FAIL|Code is wrong!
     ```
 
 
