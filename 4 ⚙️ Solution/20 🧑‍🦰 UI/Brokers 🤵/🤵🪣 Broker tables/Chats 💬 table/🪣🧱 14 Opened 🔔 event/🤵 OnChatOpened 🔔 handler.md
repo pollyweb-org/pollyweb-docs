@@ -20,8 +20,7 @@
 
 # Assert the Chat
 - ASSERT|$Chat:
-    AllOf: Wallet, Host
-    UUIDs: Wallet
+    AllOf: Host
     Texts: Host
 
 # Activate the Chat on Pop@Broker

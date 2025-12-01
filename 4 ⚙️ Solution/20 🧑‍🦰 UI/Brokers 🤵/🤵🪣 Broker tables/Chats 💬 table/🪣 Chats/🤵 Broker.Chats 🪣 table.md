@@ -1,24 +1,24 @@
 # 🤵🪣 Chats @ Broker table
 
-> Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
-
-> Stores [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
+> Abouts
+* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Stores [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 
 <br/>
 
 ## State Transitions
 
 
-| Flow ⏩ | [State 🛢](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 State.md>) | Handler 🔔 | Next action | Details
-|-|-|-|-|-|
-|[`Open`](<../🪣🧱 10 Open ⏩ Flow/🤵 Broker.Chats.Open ⏩ flow.md>)|`ASKED`| [`Asked`](<../🪣🧱 11 Asked 🔔 event/🤵 OnChatAsked 🔔 handler.md>) | [`Resolve@Printer` 🚀](<../../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Resolve 👥🚀🖨️/🖨️ Resolve 📃 handler.md>) | 
-||`RESOLVED`|[`Resolved`](<../🪣🧱 12 Resolved 🔔 event/🤵 OnChatResolved 🔔 handler.md>) | [`About@Graph` 🚀](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 📃 handler.md>) | Final [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-||`DETAILED`|[`Detailed`](<../🪣🧱 13 Detailed 🔔 event/🤵 OnChatDetailed 🔔 handler.md>) | [`Open@Notifier` 🐌](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) | With translations
-||`OPENED`|[`Opened`](<../🪣🧱 14 Opened 🔔 event/🤵 OnChatOpened 🔔 handler.md>) | [`Present@Finder` 🐌](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | Open on [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-||`PRESENTED`|  [`Presented`](<../🪣🧱 15 Presented 🔔 event/🤵 OnChatPresented 🔔 handler.md>) ||With  [Finder 🔎](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) intro
-||`ACTIVATED`|  [`Activated`](<../🪣🧱 16 Activated 🔔 event/🤵 OnChatActivated 🔔 handler.md>)| [`Hello@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | With [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) intro
-|[`Abandon`](<../🪣🧱 30 Abandon ⏩ Flow/🤵 Broker.Chats.Abandon ⏩ flow.md>)|`ABANDONED`|[`Abandoned`](<../🪣🧱 31 Abandoned 🔔 event/🤵 OnChatAbandoned 🔔 handler.md>)| [`Abandoned@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | Abandoned by user
-|[`Wrap`](<../🪣🧱 40 Wrap ⏩ Flow/🤵 Broker.Chats.Wrap ⏩ flow.md>)|`WRAPPED`|[`Wrapped`](<../🪣🧱 41 Wrap 🔔 event/🤵 OnChatWrapped 🔔 handler.md>)| |Closed by [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
+| Flow ⏩ | [State 🛢](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 State.md>) | Blame | Next action | Details
+|-|-|-|-|-
+|[`Open`](<../🪣🧱 10 Open ⏩ Flow/🤵 Broker.Chats.Open ⏩ flow.md>)|[`ASKED`](<../🪣🧱 11 Asked 🔔 event/🤵 OnChatAsked 🔔 handler.md>) |[`Locate` 🐌](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 📃 handler.md>)| [`Resolve@Printer` 🚀](<../../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Resolve 👥🚀🖨️/🖨️ Resolve 📃 handler.md>) | Inserted
+||[`RESOLVED`](<../🪣🧱 12 Resolved 🔔 event/🤵 OnChatResolved 🔔 handler.md>) || [`About@Graph` 🚀](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 📃 handler.md>) | Final [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
+||[`DETAILED`](<../🪣🧱 13 Detailed 🔔 event/🤵 OnChatDetailed 🔔 handler.md>) || [`Open@Notifier` 🐌](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) | With translations
+||[`OPENED`](<../🪣🧱 14 Opened 🔔 event/🤵 OnChatOpened 🔔 handler.md>) |[`Opened` 🐌](<../../../🤵🅰️ Broker methods/Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 📃 handler.md>)| [`Present@Finder` 🐌](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | Open on [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+||[`PRESENTED`](<../🪣🧱 15 Presented 🔔 event/🤵 OnChatPresented 🔔 handler.md>) | [`Presented` 🐌](<../../../🤵🅰️ Broker methods/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 📃 handler.md>) | [`Prompt@Notifier` 🐌](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) |With  [Finder 🔎](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) intro
+||[`ACTIVATED`](<../🪣🧱 16 Activated 🔔 event/🤵 OnChatActivated 🔔 handler.md>)|| [`Hello@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | With [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) intro
+|[`Abandon`](<../🪣🧱 30 Abandon ⏩ Flow/🤵 Broker.Chats.Abandon ⏩ flow.md>)|[`ABANDONED`](<../🪣🧱 31 Abandoned 🔔 event/🤵 OnChatAbandoned 🔔 handler.md>)| [`Pop` 🐌](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>) |[`Abandoned@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | Abandoned by user
+|[`Wrap`](<../🪣🧱 40 Wrap ⏩ Flow/🤵 Broker.Chats.Wrap ⏩ flow.md>)|[`WRAPPED`](<../🪣🧱 41 Wrap 🔔 event/🤵 OnChatWrapped 🔔 handler.md>)| [`Goodbye` 🐌](<../../../🤵🅰️ Broker methods/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 📃 handler.md>) ||Closed by [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
 |
 
 <br/>
@@ -105,17 +105,27 @@ Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 Assert:
+  
     # Bulk assertions
-    AllOf: 
-    UUIDs: 
-    Texts: 
-
-    # Field assertions
-    .State.IsIn: ACTIVE, ABANDONED, TERMINATED
+    AllOf: Wallet
+    UUIDs: Wallet, Hook, Origin, Pop
+    OneOf: Locator, Host
+    Texts: HostTitle, Description, SmallIcon, BigIcon, ChatEmoji
     
+    # Field assertions
+    Host.IsDomain:
+    Language.IsLanguage:
+    Locator.IsLocator: 
+    ChatEmoji.IsEmoji:
+    Emoji.IsEmoji:
+
+    # Possible states
+    .State.IsIn: 
+        ASKED, RESOLVED, DETAILED, OPENED, PRESENTED, ACTIVE, 
+        ABANDONED, WRAPPED
 ```
 
-Uses: [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>) [`.IsLanguage`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsLanguage ⓕ.md>)
+Uses: [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsLanguage`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsLanguage ⓕ.md>) [`.IsLocator`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsLocator ⓕ.md>) [`.IsEmoji`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsEmoji ⓕ.md>)
 
 <br/>
 
@@ -143,7 +153,7 @@ Origin: <chat-uuid>      # Origin chat (if any)
 Locator: $.Msg.Locator   # Locator to parse on insert
 ```
 
-From [`OnChatInserted` 🔔 handler](<../🪣🧱 11 Asked 🔔 event/🤵 OnChatAsked 🔔 handler.md>)
+From [`OnChatAsked` 🔔 handler](<../🪣🧱 11 Asked 🔔 event/🤵 OnChatAsked 🔔 handler.md>)
 
 ```yaml
 Host: any-host.dom       # Host domain name
@@ -154,12 +164,12 @@ Inputs: any-inputs       # Locator inputs
 From [`OnChatResolved` 🔔 handler](<../🪣🧱 12 Resolved 🔔 event/🤵 OnChatResolved 🔔 handler.md>)
 
 ```yaml
-Notifier: any-wallet.dom # Notifier wallet domain
 Language: en-us          # To change the language of the chat
 HostTitle: Any Host      # Host title from a Graph
 Description: Bla, bla    # Host description from a Graph
 SmallIcon: <base64>      # Host small icon from a Graph
 BigIcon: <base64>        # Host big icon from a Graph
+HostEmoji: 🤗            # Host emoji from a Graph
 ```
 
 From [`Opened` 🐌 handler](<../../../🤵🅰️ Broker methods/Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 📃 handler.md>)
@@ -173,18 +183,3 @@ From [`Emoji@Broker` 🚀 handler](<../../../🤵🅰️ Broker methods/Chats �
 ```yaml 
 Emoji: 😃                # New chat emoji 
 ```
-
-<br/>
-
-## Fields
-
-Field|Type|Details|Origin|Purpose
-|-|-|-|-|-
-|`ID`|uuid | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID |[`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)| [`Chats@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
-|`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) ID | [`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Chats@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
-|`Host` | text | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) name |[`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)| [`Chats@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
-|`Host$`|text | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) title |[`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)| [`Chats@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
-|`Emoji`|text | [Manifest 📜](<../../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) emoji |[`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)| [`Chats@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
-|`PublicKey` | text | [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) verification |[`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)| [`Chat@`](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>)
-|`Origin` | uuid | Parent [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) |[`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Presented@`](<../../../🤵🅰️ Broker methods/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>)
-|
