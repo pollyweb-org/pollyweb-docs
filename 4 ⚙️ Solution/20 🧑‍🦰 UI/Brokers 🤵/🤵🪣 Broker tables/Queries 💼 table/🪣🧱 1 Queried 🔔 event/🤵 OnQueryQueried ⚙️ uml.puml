@@ -1,4 +1,4 @@
-@startuml OnPromptInserted
+@startuml OnQueryQueried
 
 box Broker 🤵 domain #FFFFFA
     participant "Queries 🪣" as table
@@ -6,7 +6,6 @@ box Broker 🤵 domain #FFFFFA
     participant "Chats 🪣" as chats
     participant "Forms 🪣" as forms
 end box
-participant "Wallet 👱" as wallet
 
 
 activate table
@@ -19,7 +18,7 @@ activate handler
 
     alt Is schema informed?
         handler -> table: SAVE 💾 {INFORMED}
-    else
+    else not informed
         handler -> table: SAVE 💾 {ABRUPT}
     end 
 deactivate handler

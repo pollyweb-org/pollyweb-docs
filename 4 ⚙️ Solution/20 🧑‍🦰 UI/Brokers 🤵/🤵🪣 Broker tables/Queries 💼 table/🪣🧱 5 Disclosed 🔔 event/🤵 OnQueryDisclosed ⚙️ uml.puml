@@ -1,0 +1,17 @@
+@startuml OnQueryDisclosed
+
+box Broker 🤵 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnDisclosed 🔔" as handler
+end box
+participant "Vault 🗄️" as vault
+
+activate table
+    table --> handler: DISCLOSED 🔔
+deactivate table
+
+activate handler
+    handler --> vault: SEND 📬 {Disclose 🐌}
+deactivate handler
+
+@enduml

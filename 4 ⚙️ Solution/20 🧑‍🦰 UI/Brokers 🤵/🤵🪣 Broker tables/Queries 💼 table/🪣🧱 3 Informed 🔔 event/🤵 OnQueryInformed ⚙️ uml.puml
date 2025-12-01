@@ -1,0 +1,19 @@
+@startuml OnQueryInformed
+
+box Broker 🤵 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnInformed 🔔" as handler
+end box
+participant "Wallet 👱" as wallet
+participant "Graph 🕸" as graph
+
+
+activate table
+    table --> handler: INFORMED 🔔
+deactivate table
+
+activate handler
+    handler --> wallet: SUCCESS ✅ "informed"
+deactivate handler
+
+@enduml
