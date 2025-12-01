@@ -136,7 +136,7 @@
     ```yaml
     Flows:
         order: 
-            Verb: order
+            Title: Order a meal
             Steps:
             - Schema: .CURATOR/CURATE
               Purpose: your curator orders 🧚

@@ -2,7 +2,7 @@
 
 > About
 * Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
-* Used in the [`Inform` ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
+* Part of the [`Inform` ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
 
 <br/>
 
@@ -37,7 +37,7 @@ Body:
 
 
 ```yaml
-Verb: order
+Title: Order a meal
 Details: > 
   Bla, bla...
 Steps:
@@ -49,7 +49,7 @@ Steps:
 
 |Property|Type|Description
 |-|-|-
-| `Verb`    |text| `Ready to {verb}?` [confirmation 👍](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>)
+| `Title`    |text| Form title to display to users
 | `Details` |text| Text to show on [Prompt 🤔 details](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>)
 | `Steps`   | list   | List of `Step` objects
 |

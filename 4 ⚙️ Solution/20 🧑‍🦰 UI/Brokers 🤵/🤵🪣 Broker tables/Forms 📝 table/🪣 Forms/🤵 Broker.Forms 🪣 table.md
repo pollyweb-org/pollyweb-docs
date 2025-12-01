@@ -2,6 +2,8 @@
 
 > About
 * Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Part of the [`Inform` ⏩ flow](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
+
 
 <br/>
 
@@ -59,13 +61,21 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ```yaml
 # Automatic
 ID: <inform-uuid>   
+```
 
-# From Inform@Host
+From [`Inform@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Share 💼 Inform 💼🐌🤵/🤵 Inform 📃 handler.md>)
+
+```yaml
 Chat: <chat-uuid>           # Chat where the inform was created
 Hook: <hook-uuid>           # Consumer hook to notify
-Form: AnyForm               # Form being informed about
+Name: AnyForm               # Form name being informed about
 Consumer: any-consumer.dom  # Consumer being informed
+```
 
-# From OnInform handler
+From [`OnFormInform` 📃 handler](<../🪣🧱 1 Inform 🔔/🤵 OnFormInform 🔔 handler.md>)
 
+```yaml
+Schemas: 
+  - .CURATOR/CURATE
+  - .PAYER/CHARGE
 ```
