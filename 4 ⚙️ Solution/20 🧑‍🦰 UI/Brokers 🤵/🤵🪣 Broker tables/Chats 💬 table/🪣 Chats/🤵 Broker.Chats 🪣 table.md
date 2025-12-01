@@ -197,8 +197,11 @@ From [`Emoji@Broker` 🚀 handler](<../../../🤵🅰️ Broker methods/Chats �
 Emoji: 😃   # New chat emoji 
 ```
 
-From [`Broker.Forms`](<../../Forms 📝 table/🪣 Forms/🤵 Broker.Forms 🪣 table.md>).[`OnFormInformed` 🔔 handler](<../../Forms 📝 table/🪣🧱 1 Informed 🔔/🤵 OnFormInformed 🔔 handler.md>)
+From [`Inform@Broker` 🐌 handler](<../../Forms 📝 table/🪣🧱 1 Informed 🔔/🤵 OnFormInformed 🔔 handler.md>)
 
 ```yaml
-Form: <form-uuid>   # Form being informed about
+Form: <form-uuid>    # Form being informed about
+FormSchemas:         # Schemas collected in the Form
+  - .CURATOR/CURATE
+  - .PAYER/CHARGE
 ```

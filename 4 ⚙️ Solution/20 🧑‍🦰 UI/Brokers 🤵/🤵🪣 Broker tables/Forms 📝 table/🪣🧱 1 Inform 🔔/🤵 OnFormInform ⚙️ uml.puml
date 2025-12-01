@@ -15,6 +15,7 @@ deactivate table
 
 activate handler
     handler -> graph: Form @ Graph 🚀
+    handler -> handler: CHAT 💬
     handler -> user: CONFIRM 👍
     handler -> chats:  💾 {form}
     handler -> table:  💾 INFORMED
