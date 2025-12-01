@@ -20,13 +20,44 @@ Table: Queries
 Item: Query
 ```
 
-The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are: [`Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
+<br/>
+
+The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are: [`Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
 
 
 ```yaml
 Parents: 
-  - Chatter  # Chat participant who sent the Query
+
+    Chat: # Chat where the Query was sent
+
+    Wallet: # Wallet owning the Chat
+        Wallet.ID: Chat.Wallet
+
+    Chatter: # Chat participant who sent the Query
+        Chatter.Domain: Query.Consumer
+        Chatter.Chat: Query.Chat
+
+    Consumer: # Details about the consumer
+        Domain: Query.Consumer
+        Wallet: Chat.Wallet
 ```
+
+
+
+<br/>
+
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`Queried`](<../🪣🧱 1 Queried 🔔 event/🤵 OnQueryQueried 🔔 handler.md>) [`Abrupt`](<../🪣🧱 2 Abrupt 🔔 event/🤵 OnQueryAbrupt 🔔 handler.md>) [`Informed`](<../🪣🧱 3 Informed 🔔 event/🤵 OnQueryInformed 🔔 handler.md>) [`Detailed`](<../🪣🧱 4 Detailed 🔔 event/🤵 OnQueryDetailed 🔔 handler.md>) [`Disclosed`](<../🪣🧱 5 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>) [`Shared`](<../🪣🧱 6 Shared 🔔 event/🤵 OnQueryShared 🔔 handler.md>)
+
+```yaml
+Handlers: 
+    QUERIED              >> OnQueryQueried:   # Informed Schemas?
+    QUERIED > ABRUPT     >> OnQueryAbrupt:    # Sends a FAIL
+    QUERIED > INFORMED   >> OnQueryInformed:  # Details the Query
+    INFORMED > DETAILED  >> OnQueryDetailed:  # Asks confirmation
+    DETAILED > DISCLOSED >> OnQueryDisclosed: # Binds by Vaults
+    DETAILED > SHARED    >> OnQueryShared:    # Tokens by Wallets
+```
+
 
 <br/>
 
@@ -34,11 +65,14 @@ Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 Assert:
-    AllOf: Chat, Hook, Schemas, Domain
-    UUIDs: Chat, Hook
+    AllOf: Chat, Hook, Schemas, Consumer
+    UUIDs: Chat, Hook, Bind, Token
     Lists: Schemas
-    Domain.IsDomain:
-    Schemas.Each.IsSchema:
+    Consumer.IsDomain:      # Consumer that requested the query
+    Schemas.Each.IsSchema:  # List of Schemas queried
+    Chat.State: ACTIVE      # Progress if the Chat is active
+    Vault.IsDomain:         # Vault where a Bind is stored
+    Issuer.IsDomain:        # Issuer of a Token
 ```
 
 Uses: [`.Each`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Each ⓕ.md>) [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>) 
@@ -51,12 +85,30 @@ Uses: [`.Each`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 ```yaml
-# From Query@Broker 
+# Automatic
 ID: <query-uuid>        # ID on the Query
+```
+
+From [`Query@Broker` 🐌 handler](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 📃 handler.md>)
+
+```yaml
 Chat: <chat-uuid>       # Chat where the Query was sent
 Hook: <hook-uuid>       # Hook to reply to the Consumer 
-Domain: any-host.dom    # Sender of the Query
+Consumer: any-host.dom  # Sender of the Query
 Schemas:                # List of acceptable schemas
   - any-authority.dom/ANY-SCHEMA  # Requested Schema 1
 ```
 
+From [`OnQueryDisclosed` 🔔 handler](<../🪣🧱 5 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>)
+
+```yaml
+Bind: <bind-uuid>       # Bind to be shared
+Vault: any-vault.dom    # Vault where the Bind is stored
+```
+
+From [`OnQueryShared` 🔔 handler](<../🪣🧱 6 Shared 🔔 event/🤵 OnQueryShared 🔔 handler.md>)
+
+```yaml
+Token: <token-uuid>     # Token to be shared
+Issuer: any-issuer.dom  # Issuer of the Token
+```

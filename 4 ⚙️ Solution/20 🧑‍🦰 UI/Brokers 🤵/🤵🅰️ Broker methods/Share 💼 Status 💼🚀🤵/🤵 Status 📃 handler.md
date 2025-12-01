@@ -19,7 +19,7 @@
     Role: CONSUMER
 
 # Return the Status
-- REEL:
+- RETURN:
     Status: $token.Status
     Starting: $token.Starting
     Ending: $token.Ending

@@ -35,7 +35,7 @@
     $.Msg.Chat:
     $.Msg.Hook:
     $.Msg.Schemas:
-    Domain: $.Msg.From
+    Consumer: $.Msg.From
 ```
 
 |Users||
