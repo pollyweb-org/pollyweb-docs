@@ -49,7 +49,7 @@ activate queries
 deactivate queries
 
 activate wallet
-    wallet -> queries: 💾 DISCLOSED or SHARED ✅ DECLINED❌
+    wallet -> queries: 💾 DISCLOSED or SHARED ✅ REJECTED ❌
 deactivate wallet
 
 activate queries

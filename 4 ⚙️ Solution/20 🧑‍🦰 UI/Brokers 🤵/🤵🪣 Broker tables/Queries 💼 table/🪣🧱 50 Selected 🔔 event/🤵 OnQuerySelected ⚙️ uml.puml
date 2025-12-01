@@ -3,6 +3,7 @@
 box Broker 🤵 domain #FFFFFA
     participant "Queries 🪣" as table
     participant "OnTrusted 🔔" as handler
+    participant "Schemas 🪣" as schemas
 end box
 participant "Wallet 👱" as wallet
 
@@ -14,13 +15,18 @@ deactivate table
 activate handler
 
     group If are many
-        handler -> wallet: ONE 🤔 "Which one?" 
+        handler -> wallet: ONE "Which one?" 
     end group
+
+    handler -> schemas: READ 🧲
+    handler -> wallet: CONFIRM 👍 "share?"
 
     alt IF IsEmpty
         handler -> table: SAVE 💾 {REJECTED} 
-    else 
-        handler -> table: SAVE 💾 {SELECTED} 
+    else IF Bind
+        handler -> table: SAVE 💾 {DISCLOSED} 
+    else IF Token
+        handler -> table: SAVE 💾 {SHARED}
     end
 
 deactivate handler

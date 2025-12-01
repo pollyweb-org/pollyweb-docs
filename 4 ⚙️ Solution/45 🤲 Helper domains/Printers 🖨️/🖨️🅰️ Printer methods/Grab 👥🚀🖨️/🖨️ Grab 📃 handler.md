@@ -24,10 +24,9 @@
     Locator: $.Msg.Locator
 
 # Only create Alias for Hosts
-- IF|$locator.Schema.Is(.HOST):
-    Else: 
-      RETURN:
-        Status: UNHOST
+- UNLESS|$locator.Schema.Is(.HOST):
+    RETURN:
+      Status: UNHOST
 
 # Save on the table
 - SAVE|Printer.Aliases >> $locator:
