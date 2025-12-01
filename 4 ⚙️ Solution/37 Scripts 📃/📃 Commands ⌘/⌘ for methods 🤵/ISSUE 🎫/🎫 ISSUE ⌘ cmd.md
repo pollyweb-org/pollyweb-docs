@@ -76,7 +76,7 @@
             Number: 123456789
 
    - IF|$token:
-        Then: SUCCESS|Saved to your wallet.
+        Then: DONE|Saved to your wallet.
         Else: FAIL|You declined the token.
    ```
    Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)  

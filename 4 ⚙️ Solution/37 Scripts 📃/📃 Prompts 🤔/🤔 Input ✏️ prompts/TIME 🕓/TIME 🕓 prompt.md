@@ -74,7 +74,7 @@
     - ONE|What time tomorrow?|{TimeOptions} >> my-var
     - CASE|{$my-var}:
         Another: TIME|When exactly? >> my-var
-    - SUCCESS|Thanks!
+    - DONE|Thanks!
     ```
 
     ```python

@@ -47,7 +47,7 @@
     💬|[Bla]:
     - INFORM|bla
     - BIND|any-authority.org/ANY-SCHEMA-CODE
-    - SUCCESS|Done!
+    - DONE|Done!
     ```
 
     The `Flow` section of the [Vault's Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) may look like the following.

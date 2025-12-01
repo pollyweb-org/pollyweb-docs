@@ -67,7 +67,7 @@ then the last 3 will never be executed because REEL will exit the script.
     📃 Example:
     - BIND|.BIND >> $bound
     - IF|$bound:
-        Then: SUCCESS|Your wallet is bound.
+        Then: DONE|Your wallet is bound.
         Else: FAIL|Not bounded.
     ```
 

@@ -45,11 +45,11 @@
 
     ```yaml
     💬|Show time:
-    - SUCCESS|The time is {.Now}.
+    - DONE|The time is {.Now}.
     - REPEAT|Check again?
     ```
 
-    Uses: [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>)
+    Uses: [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>)
 
     ---
     <br/>
@@ -71,10 +71,10 @@
     ```yaml
     💬|Show time:
     - CONFIRM|Want to know the time? 
-    - SUCCESS|The time is {.Now}.
+    - DONE|The time is {.Now}.
     - REPEAT
     ```
-    Uses: ANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>)
+    Uses: ANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>)
     
     ---
     <br/>
@@ -118,9 +118,9 @@
     - CALL|Submit 
 
     # Show the successful submission
-    - SUCCESS|Order submitted!
+    - DONE|Order submitted!
     ````
-    Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>)  [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)  [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>)  [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)  [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
 
     ```yaml
     📃 AddItems:
@@ -178,7 +178,7 @@
         3
     - RUN|TryLoop >> $result             # Run the loop
     - CASE|$result:                      # Check the result
-        Won: SUCCESS|You won! 🥳
+        Won: DONE|You won! 🥳
         Lost: FAIL|You lost! 😮
     - REPEAT|Play again?                 # Ask to play again
     - INFO|OK, see you next time!        # Exit the game

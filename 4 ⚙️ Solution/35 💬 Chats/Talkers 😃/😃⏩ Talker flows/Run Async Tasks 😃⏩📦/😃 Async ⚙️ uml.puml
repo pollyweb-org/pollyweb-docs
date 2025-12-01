@@ -46,7 +46,7 @@ activate engine
 deactivate engine
 
 activate script 
-    script --> user: ⏪ SUCCESS ✅ {done!}
+    script --> user: ⏪ DONE ✅ {done!}
 deactivate script
 
 @enduml

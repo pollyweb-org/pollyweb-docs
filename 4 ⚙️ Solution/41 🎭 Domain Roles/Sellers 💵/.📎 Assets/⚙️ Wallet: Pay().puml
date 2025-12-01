@@ -45,7 +45,7 @@ payer -> payer: pay()
 payer --> collector: collect()
 activate collector
 ' ----------------------
-' SUCCESS CONFIRMATION
+' DONE CONFIRMATION
 ' ----------------------
 payer --> aws: prompt(success!)
 deactivate payer

@@ -68,7 +68,7 @@
     - DIGITS|What's the code? >> code:
         MinLength: 6
         MaxLength: 6
-    - SUCCESS|Code validated!
+    - DONE|Code validated!
     ```
 
     Here's the [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>).
@@ -103,7 +103,7 @@
 
     💬 Form:
     - RUN|get-code
-    - SUCCESS|Code validated!
+    - DONE|Code validated!
 
     get-code:
     - TEXT|What's the code? >> $code:

@@ -51,7 +51,7 @@ Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control 
             VAULT: RETURN|ⓘ
             $: RETURN|ℹ️
 
-    SUCCESS: 
+    DONE: 
         CASE|$Prompt.Role:
             VAULT: RETURN|☑️
             $: RETURN|✅

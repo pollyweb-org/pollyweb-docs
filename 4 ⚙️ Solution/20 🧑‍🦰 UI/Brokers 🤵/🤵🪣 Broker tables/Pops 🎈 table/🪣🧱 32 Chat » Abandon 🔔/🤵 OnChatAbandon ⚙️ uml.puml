@@ -24,7 +24,7 @@ activate abandoned
     abandoned -> abandoned: CHAT 💬 
     abandoned -> wallet: CONFIRM 🤔 "abandon?"
     abandoned -> chats: SAVE 💾 {ABANDONED}
-    abandoned --> wallet: SUCCESS ✅ {abandoned}
+    abandoned --> wallet: DONE ✅ {abandoned}
 deactivate abandoned
 
 @enduml 

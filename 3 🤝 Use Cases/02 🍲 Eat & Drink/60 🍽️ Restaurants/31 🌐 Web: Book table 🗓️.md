@@ -74,7 +74,7 @@
     Properties: 
         $booking
 
-- SUCCESS|Done. See you then!
+- DONE|Done. See you then!
 - GOODBYE
 ```
 
