@@ -4,7 +4,7 @@
 
 
 > Used in
-* [Broker Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
+* [Broker Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Inform 🤗⏩📝/💼 Inform ⏩ flow.md>)
 
 
 ## Synchronous Call 🚀

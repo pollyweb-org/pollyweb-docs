@@ -5,7 +5,7 @@
  * Implemented by the [`INFORM` 📃 script](<📝 INFORM 📃 script.md>)
 
 > Purpose
-* Related to the [Consumer Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>) 
+* Related to the [Consumer Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Inform 🤗⏩📝/💼 Inform ⏩ flow.md>) 
 
   
 <br/>
@@ -17,7 +17,7 @@
     An `INFORM`
     * is a message [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that informs that a new form is starting
-    * by triggering the [Host Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
+    * by triggering the [Host Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Inform 🤗⏩📝/💼 Inform ⏩ flow.md>)
     * and passing the form key in the Host's [Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 
 
