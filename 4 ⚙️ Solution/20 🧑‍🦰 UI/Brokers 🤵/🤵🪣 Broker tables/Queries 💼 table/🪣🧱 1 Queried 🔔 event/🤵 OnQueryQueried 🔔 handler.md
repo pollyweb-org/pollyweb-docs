@@ -1,0 +1,43 @@
+# 🤵 OnQueryQueried 🔔 handler
+
+> About
+* Part of the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) role
+* Part of the [`Broker.Queries` 🪣 table](<../🪣 Queries/🤵 Broker.Queries 🪣 table.md>)
+
+<br/>
+
+## Diagram
+
+![alt text](<🤵 OnQueryQueried ⚙️ uml.png>)
+
+<br/>
+
+## Script
+
+```yaml
+📃 OnQueryQueried:
+
+# Get the queried schemas
+- PUT|$Query.Schemas >> $queried
+
+# Get the informed schemas
+- PUT|$Query.Chat.FormSchemas >> $informed
+
+# Check if only informed schemas were queried
+- IF|$queried.IsIn($informed):
+    Then: 
+        # Continue the Query as INFORMED
+        SAVE|$Query:
+            .State: INFORMED
+    Else:
+        # Stop the Query as ABRUPT
+        SAVE|$Query:
+            .State: ABRUPT
+```
+
+Uses||
+|-|-
+|[Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`PUT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`IF`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) |   
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Queries`](<../🪣 Queries/🤵 Broker.Queries 🪣 table.md>) [`Broker.Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) |
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) |
+|

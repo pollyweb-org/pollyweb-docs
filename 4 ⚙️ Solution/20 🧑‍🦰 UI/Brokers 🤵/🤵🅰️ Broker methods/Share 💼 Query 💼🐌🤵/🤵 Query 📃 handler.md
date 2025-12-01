@@ -20,37 +20,27 @@
     AllOf: Chat, Hook, Schemas
     UUIDs: Chat, Hook
     Lists: Schemas
+    Schemas.Each.IsSchema:
 
 # Get the Chat
 - READ >> $chat:
-    Set: Broker.Chats
-    Key: $.Msg.Chat
+    Set: Broker.Chatters
+    Key: 
+        Chat: $.Msg.Chat
+        Domain: $.Msg.From
 
-# Get the requested schemas from Tokens+Binds
-#   and merge them into {Schema, Domain}
-- RUN|Merge-Schemas >> $merges:
-    $chat
-    
-# Check for the trusted Schema+Domains
-#   and return only the trusted {Schema, Domain}
-- RUN|Filter-Schemas >> $trusted:
-    $merges
-
-# Loop the requested schemas.
-- FOR|$.Msg.Schemas|$schema:
-
-    
-
-    # Send if it's the only one.
-    - IF|$tokens.IsOne:
-        - RUN|Disclose-Bind:
-            $chat, 
-        - BREAK
-
-
+# Save que Query
+- SAVE|Broker.Queries:
+    .State: QUERIED
+    $.Msg.Chat:
+    $.Msg.Hook:
+    $.Msg.Schemas:
+    Domain: $.Msg.From
 ```
 
 |Users||
 |-|-
-| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`BrokerTokens` 🪣 table](<../../🤵🪣 Broker tables/Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Queries`](<../../🤵🪣 Broker tables/Queries 💼 table/🪣 Queries/🤵 Broker.Queries 🪣 table.md>) [`Broker.Chatters`](<../../🤵🪣 Broker tables/Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
+| [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg` 🧠 holder](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
+|
