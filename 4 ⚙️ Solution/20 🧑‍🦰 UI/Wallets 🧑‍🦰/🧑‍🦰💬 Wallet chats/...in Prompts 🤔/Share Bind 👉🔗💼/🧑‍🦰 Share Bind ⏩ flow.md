@@ -1,8 +1,8 @@
 # 💼⏩🧑‍🦰 Share Bind
 
-> In a [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>), a [Consumer 💼 domain](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)  can query user data.
+> In a [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>), a [Consumer 💼 domain](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>)  can query user data.
 
-> Implements the [Consumer 💼 domain](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>).
+> Implements the [Consumer 💼 domain](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>).
 
 <br/>
 
@@ -26,7 +26,7 @@ Consider the following [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬
 
 |#|Step|Purpose
 |-|-|-
-|1|[💼🐌🤵 `Query@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) | [Consumers 💼](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+|1|[💼🐌🤵 `Query@Broker`](<../../../../Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) | [Consumers 💼](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) ask for [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |2|[👥🚀🕸 `Queryable@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Queryable/🕸 Queryable 🚀 call.md>) | [Brokers 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) match [Trusted 🫡](<../../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) [Vaults 🗄️](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) 
 |3|[👥🚀🕸 `Translate@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | [Brokers 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) translate [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) ask which [Vault 🗄️](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) if many

@@ -8,7 +8,7 @@
 * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>)
 
 > Purpose
-* Asks the [Consumer 💼 domain](<../../💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>).
+* Asks the [Consumer 💼 domain](<../../💼 Consumer/💼🎭 Consumer role.md>) to consume a given [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>).
 * Tells them to collect data shared by a user in a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
 <br/>
@@ -33,9 +33,9 @@ Body:
 Object |Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
 |Header|`From`|text| [Vault 🗄️](<../../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | [`Disclose@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
-||`To`|text| [Consumer 💼](<../../💼🎭 Consumer role.md>) | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
+||`To`|text| [Consumer 💼](<../../💼 Consumer/💼🎭 Consumer role.md>) | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 || `Subject` |text| `Consume@Consumer`
-|Body| `Hook` | uuid | [Consumer 💼](<../../💼🎭 Consumer role.md>)  hook | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+|Body| `Hook` | uuid | [Consumer 💼](<../../💼 Consumer/💼🎭 Consumer role.md>)  hook | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 || `Share` | uuid | [Vault 🗄️](<../../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) Hook || [`Collect@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
 || `Schema`|text| Data [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) || [`Trusts@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
 || `TTL` | time| Collect deadline || [`Collect@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
@@ -49,7 +49,7 @@ Object |Property|Type|Description|Origin|Purpose
 1. **Why a cache?**
 
     `Async` A caching strategy avoids synchronous collection timeouts.
-    * When [Consumer 💼 domains](<../../💼🎭 Consumer role.md>)  call [`Collect@Vault`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>), [Vault 🗄️ domains](<../../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [`Consume@Consumer`](<💼 Consume 🐌 msg.md>) message when the data is cached and ready to be collected.
+    * When [Consumer 💼 domains](<../../💼 Consumer/💼🎭 Consumer role.md>)  call [`Collect@Vault`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>), [Vault 🗄️ domains](<../../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) are expected to gather and cache the data and only send the [`Consume@Consumer`](<💼 Consume 🐌 msg.md>) message when the data is cached and ready to be collected.
     * The Vault's cache duration is expressed in the `TTL` field.
 
     ---
