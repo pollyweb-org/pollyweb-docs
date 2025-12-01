@@ -80,27 +80,25 @@ Handlers:
     ALTERED    >> OnChatAltered:     # call Updated@Notifier
 
     # Open flow
-    ASKED      >> OnChatAsked:       # call Resolve@Printer
-    RESOLVED   >> OnChatResolved:    # call About@Graph
-    DETAILED   >> OnChatDetailed:    # call Open@Notifier
-    OPENED     >> OnChatOpened:      # call Present@Finder
-    PRESENTED  >> OnChatPresented:   # add the Broker
-    ACTIVE     >> OnChatActivated:   # call Hello@Host or Pop
+    ASKED               >> OnChatAsked:     # call Resolve@Printer
+    ASKED > RESOLVED    >> OnChatResolved:  # call About@Graph
+    RESOLVED > DETAILED >> OnChatDetailed:  # call Open@Notifier
+    DETAILED > OPENED   >> OnChatOpened:    # call Present@Finder
+    OPENED > PRESENTED  >> OnChatPresented: # add the Broker
+    PRESENTED > ACTIVE  >> OnChatActivated: # call Hello@Host or Pop
 
     # Localize flow
-    UPDATED    >> OnChatLocalized:   # call Translate@Graph
-        Assert: New.Language    
-
+    UPDATED.Language    >> OnChatLocalized: # call Translate@Graph
+        
     # Inform flow
-    INFORM     >> OnChatInform:      # call Form@Graph
-    INFORMED   >> OnChatInformed:    # call Informed@Notifier
+    ACTIVE > INFORM     >> OnChatInform:    # call Form@Graph
+    INFORM > INFORMED   >> OnChatInformed:  # call Informed@Notifier
 
     # Abandon flow
-    ABANDONED  >> OnChatAbandoned:   # call Abandoned@Host
+    ABANDONED           >> OnChatAbandoned: # call Abandoned@Host
 
     # Close flow
-    TERMINATED >> OnChatTerminated:  # call Terminated@Host
-    WRAPPED    >> OnChatWrapped:     # call @Advertise
+    WRAPPED             >> OnChatWrapped:   # call @Advertise
 ```
 
 <br/>

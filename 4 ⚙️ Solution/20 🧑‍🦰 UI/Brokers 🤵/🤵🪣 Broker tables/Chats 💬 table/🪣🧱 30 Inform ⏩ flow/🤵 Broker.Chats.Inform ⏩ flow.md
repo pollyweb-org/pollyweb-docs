@@ -1,4 +1,4 @@
-# 🤵 Broker.Chats.Localize ⏩ flow
+# 🤵 Broker.Chats.Inform ⏩ flow
 
 > About
 * Part of the [`Broker.Chats` 🪣 table](<../🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
