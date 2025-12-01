@@ -1,0 +1,27 @@
+@startuml OnPromptInserted
+
+box Broker 🤵 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnQueried 🔔" as handler
+    participant "Chats 🪣" as chats
+    participant "Forms 🪣" as forms
+end box
+participant "Wallet 👱" as wallet
+
+
+activate table
+    table --> handler: QUERIED 🔔
+deactivate table
+
+activate handler
+    handler -> chats: READ 🧲
+    handler -> forms: 
+
+    alt Is schema informed?
+        handler -> table: SAVE 💾 {INFORMED}
+    else
+        handler -> table: SAVE 💾 {ABRUPT}
+    end 
+deactivate handler
+
+@enduml

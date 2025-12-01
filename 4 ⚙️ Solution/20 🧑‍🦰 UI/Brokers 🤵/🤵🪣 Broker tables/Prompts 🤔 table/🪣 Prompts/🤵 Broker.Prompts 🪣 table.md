@@ -1,4 +1,4 @@
-# 🤵🪣 Prompts @ Broker table
+# 🤵 Broker.Prompts 🪣 table
 
 > Part of the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) helper
 
