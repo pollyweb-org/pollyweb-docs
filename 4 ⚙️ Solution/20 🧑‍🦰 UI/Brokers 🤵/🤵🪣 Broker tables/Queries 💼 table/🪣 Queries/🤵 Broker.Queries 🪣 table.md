@@ -46,7 +46,7 @@ Parents:
 
 <br/>
 
-The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`Queried`](<../🪣🧱 1 Queried 🔔 event/🤵 OnQueryQueried 🔔 handler.md>) [`Abrupt`](<../🪣🧱 2 Abrupt 🔔 event/🤵 OnQueryAbrupt 🔔 handler.md>) [`Informed`](<../🪣🧱 3 Informed 🔔 event/🤵 OnQueryInformed 🔔 handler.md>) [`Detailed`](<../🪣🧱 4 Detailed 🔔 event/🤵 OnQueryDetailed 🔔 handler.md>) [`Disclosed`](<../🪣🧱 6 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>) [`Shared`](<../🪣🧱 7 Shared 🔔 event/🤵 OnQueryShared 🔔 handler.md>)
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`Queried`](<../🪣🧱 10 Queried 🔔 event/🤵 OnQueryQueried 🔔 handler.md>) [`Abrupt`](<../🪣🧱 15 Abrupt 🔔 event/🤵 OnQueryAbrupt 🔔 handler.md>) [`Informed`](<../🪣🧱 20 Informed 🔔 event/🤵 OnQueryInformed 🔔 handler.md>) [`Detailed`](<../🪣🧱 40  🔔 event/🤵 OnQueryDetailed 🔔 handler.md>) [`Disclosed`](<../🪣🧱 50 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>) [`Shared`](<../🪣🧱 55 Shared 🔔 event/🤵 OnQueryShared 🔔 handler.md>)
 
 ```yaml
 Handlers: 
@@ -99,14 +99,14 @@ Schemas:                # List of acceptable schemas
   - any-authority.dom/ANY-SCHEMA  # Requested Schema 1
 ```
 
-From [`OnQueryDisclosed` 🔔 handler](<../🪣🧱 6 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>)
+From [`OnQueryDisclosed` 🔔 handler](<../🪣🧱 50 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>)
 
 ```yaml
 Bind: <bind-uuid>       # Bind to be shared
 Vault: any-vault.dom    # Vault where the Bind is stored
 ```
 
-From [`OnQueryShared` 🔔 handler](<../🪣🧱 7 Shared 🔔 event/🤵 OnQueryShared 🔔 handler.md>)
+From [`OnQueryShared` 🔔 handler](<../🪣🧱 55 Shared 🔔 event/🤵 OnQueryShared 🔔 handler.md>)
 
 ```yaml
 Token: <token-uuid>     # Token to be shared
