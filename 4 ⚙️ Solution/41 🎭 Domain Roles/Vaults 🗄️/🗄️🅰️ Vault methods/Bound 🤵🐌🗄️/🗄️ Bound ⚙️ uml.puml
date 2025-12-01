@@ -12,8 +12,12 @@ activate broker
 deactivate broker
 
 activate vault
-    vault -> binds: READ {bind}
-    vault -> binds: SAVE 💾 {BOUND, answer}
+    vault -> binds: READ 🧲
+    alt answer is ACCEPTED
+        vault -> binds: SAVE 💾 {BOUND}
+    else answer is DECLINED
+        vault -> binds: SAVE 💾 {DECLINED}
+    end
 deactivate vault
 
 

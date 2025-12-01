@@ -12,7 +12,9 @@ activate binds
 deactivate binds
 
 activate trigger
-    trigger --> hosted: ASYNC 👷🏼 {Unbound}
+    group IF {reference}
+        trigger --> hosted: ASYNC 👷🏼 {Unbound}
+    end group
 deactivate trigger
 
 

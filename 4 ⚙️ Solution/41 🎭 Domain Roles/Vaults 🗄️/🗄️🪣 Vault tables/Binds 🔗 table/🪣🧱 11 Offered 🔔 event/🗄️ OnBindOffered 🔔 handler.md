@@ -5,6 +5,9 @@
     * that reacts to the [`BIND` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>), 
     * which is implemented by the [`BIND` 📃 script](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND 📃 script.md>).
 * Part of the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>)
+* Part of the [🗄️ `Vault.Binds.Bind` ⏩ flow](<../🪣🧱 10 Bind ⏩ flow/🗄️ Vault.Binds.Bind ⏩ flow.md>)
+
+
 
 <br/>
 
