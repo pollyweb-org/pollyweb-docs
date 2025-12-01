@@ -1,11 +1,10 @@
 # 👥🚀🕸 Form @ Graph
 
-> Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
+> About
+* Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
+* Used in the [`Inform` ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
 
-
-> Used in
-* [Broker Inform ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
-
+<br/>
 
 ## Synchronous Call 🚀
 
@@ -17,8 +16,9 @@ Header:
     Subject: Form@Graph
 
 Body:
-    Domain: any-consumer.dom
     Form: AnyForm
+    Domain: any-consumer.dom
+    Language: en-us
 ```
 
 |Object|Property|Type|Description
@@ -28,8 +28,10 @@ Body:
 |       | `Subject` |text| `Form@Graph`
 | Body  | `Domain`  |text| The [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name to lookup
 |       | `Form`    | string   | The name of form to return
+|       | `Language`| text     | The language code for the form
 |
 
+<br/>
 
 ## Synchronous Response 
 
