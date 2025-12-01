@@ -44,7 +44,7 @@ Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control 
 
     TEMP: RETURN|⏳
 
-    FAILURE: RETURN|❌
+    FAIL: RETURN|❌
 
     INFO: 
         CASE|$Prompt.Role:

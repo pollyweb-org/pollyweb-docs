@@ -199,7 +199,7 @@
     # Check the result
     - CASE|{$result}
         Won: SUCCESS|Congrats, you won!
-        Lost: FAILURE|Sorry, you lost! 
+        Lost: FAIL|Sorry, you lost! 
     ```
 
     ```yaml
@@ -209,10 +209,10 @@
     - RETURN|Won
 
     # It should't get to this line
-    - FAILURE|This is a bug.
+    - FAIL|This is a bug.
     ```
 
-    Uses: [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`FAILURE`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Uses: [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`FAIL`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
 
@@ -254,10 +254,10 @@
     - RETURN|.Add($1, 5)
 
     # It shouldn't get to this line
-    - FAILURE|This is a bug.
+    - FAIL|This is a bug.
     ```
 
-    Uses: [`FAILURE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Uses: [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
 
 
 

@@ -68,7 +68,7 @@ then the last 3 will never be executed because REEL will exit the script.
     - BIND|.BIND >> $bound
     - IF|$bound:
         Then: SUCCESS|Your wallet is bound.
-        Else: FAILURE|Not bounded.
+        Else: FAIL|Not bounded.
     ```
 
     Uses: [`BIND`](<../../⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)

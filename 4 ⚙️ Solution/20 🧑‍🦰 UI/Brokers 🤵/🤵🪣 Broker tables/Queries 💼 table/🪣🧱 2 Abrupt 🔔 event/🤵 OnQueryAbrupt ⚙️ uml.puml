@@ -13,7 +13,7 @@ deactivate table
 
 activate handler
     handler -> handler: CHAT 💬
-    handler --> wallet: FAILURE ❌ "not informed"
+    handler --> wallet: FAIL ❌ "not informed"
 deactivate handler
 
 @enduml

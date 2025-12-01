@@ -22,4 +22,4 @@
 - CHAT|$Query.Chat
 
 # Fail the Chat due to ABRUPT Query
-- FAILURE:
+- FAIL:

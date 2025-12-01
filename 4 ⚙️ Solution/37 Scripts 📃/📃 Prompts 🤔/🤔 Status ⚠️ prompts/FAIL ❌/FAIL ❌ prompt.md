@@ -1,12 +1,12 @@
-# ❌ Non-blocking `FAILURE` 
+# ❌ Non-blocking `FAIL` 
 
 > Part of [Non-blocking status prompts 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/8 ⚠️ as Status.md>)
 
 <br/>
 
-1. **What is a non-blocking FAILURE?**
+1. **What is a non-blocking FAIL?**
 
-    A `FAILURE` 
+    A `FAIL` 
     * is like an [INFO ℹ️ prompt](<../INFO ℹ️/INFO ℹ️ prompt.md>) 
     * that signals the user that the transaction failed;
     * it's typically followed by a prompt to help the user fix the problem.
@@ -15,7 +15,7 @@
     <br/>
 
 
-1. **What features does FAILURE implement?**
+1. **What features does FAIL implement?**
 
     | Feature | Details
     |-|-
@@ -29,7 +29,7 @@
 
 
 
-1. **What are usages of FAILURE?**
+1. **What are usages of FAIL?**
 
     |Category|Use case
     |-|-
@@ -51,7 +51,7 @@
 
     ```yaml
     # Inline
-    FAILURE|<text> 
+    FAIL|<text> 
     ```
 
     | Input| Purpose | Example
@@ -60,7 +60,7 @@
 
     ```yaml
     # Multi-line 
-    FAILURE:
+    FAIL:
         Text: <text>
         
         # Generic optional properties
@@ -95,7 +95,7 @@
     
     ```yaml
     📃 Example:
-    - FAILURE|Simple failure.
+    - FAIL|Simple failure.
     ```
 
     <br/>
@@ -103,7 +103,7 @@
     Here's the [`Prompted@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>).
 
     ```yaml
-    Format: FAILURE
+    Format: FAIL
     Emoji: ❌ 
     Text: Simple failure.
     ```

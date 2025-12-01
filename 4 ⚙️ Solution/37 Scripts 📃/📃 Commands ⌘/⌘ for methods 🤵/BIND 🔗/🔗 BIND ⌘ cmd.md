@@ -75,7 +75,7 @@
     - BIND|$schema >> $bound
     - IF|$bound:
         Then: SUCCESS|Bound.
-        Else: FAILURE|Not bound.
+        Else: FAIL|Not bound.
     ```
 
     | Input| Purpose
@@ -116,10 +116,10 @@
    # Verify it was bound.
    - IF|$bound:
        Then: SUCCESS|Your wallet is bound.
-       Else: FAILURE|Not bounded.
+       Else: FAIL|Not bounded.
    ```
 
-   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAILURE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) 
+   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) 
 
    ---
    <br/>
@@ -139,10 +139,10 @@
    # Check if any was bound
    - IF|$bound:
        Then: SUCCESS|Your wallet is bound.
-       Else: FAILURE|Not bounded.
+       Else: FAIL|Not bounded.
    ```
 
-   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAILURE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAILURE ❌/FAILURE ❌ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
    
    ---
    <br/>
