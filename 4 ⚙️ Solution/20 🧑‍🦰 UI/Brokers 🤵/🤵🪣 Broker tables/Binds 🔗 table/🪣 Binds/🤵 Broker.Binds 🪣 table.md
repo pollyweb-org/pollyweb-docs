@@ -25,7 +25,6 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 
 
 ```yaml
-# Binds.yaml
 Prefix: Broker
 Table: Binds
 Item: Bind
@@ -106,6 +105,23 @@ Assert:
 ```
 
 Uses: [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>) [`.IsLanguage`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsLanguage ⓕ.md>)
+
+<br/>
+
+
+Here's the [Item 🛢 Views](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Views.md>) definition.
+
+```yaml
+Views:
+    
+    FRONTEND: # Filter for Frontend@ 
+        .State.IsIn: BOUND # From the Bind lifecycle
+
+    QUERY: # Filter for Query@ 
+        .State.IsIn: BOUND # From the Bind lifecycle
+```
+
+Uses: [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
 
 <br/>
 

@@ -5,6 +5,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Query 🐌" as script
     participant "Queries 🪣" as queries
     participant "Forms 🪣" as forms
+    participant "Wallets 🪣" as wallets
 end box
 participant "Graph 🕸" as graph
 participant "Wallet 👱" as wallet
@@ -21,28 +22,39 @@ activate queries
 deactivate queries
 
 activate forms
-    forms -> queries: 💾 INFORMED or ABRUPT
+    forms -> queries: 💾 INFORMED ✅ ABRUPT ❌
 deactivate forms
 
 activate queries
-    queries -> graph: IF INFORMED: Trusts @ Graph 🚀
+    queries -> wallets: READ 🧲 {Binds, Tokens}
+deactivate queries
+
+activate wallets
+    'wallets -x consumer: 💾 EMPTY 🐌 Suggest @ Consumer 
+    wallets -> queries: 💾 DETAILED ✅ EMPTY ❌
+deactivate wallets
+
+activate queries
+    queries -> graph: Trusts @ Graph 🚀
 deactivate queries
 
 activate graph
-    graph -> queries: 💾 DETAILED
+    'graph -x consumer: 💾 EMPTY 🐌 Suggest @ Consumer 
+    graph -> queries: 💾 TRUSTED ✅ EMPTY ❌
 deactivate graph
 
 activate queries
+    queries -> wallet: ONE "Select"
     queries -> wallet: CONFIRM 👍 "Share?"
 deactivate queries
 
 activate wallet
-    wallet -> queries: 💾 DISCLOSED or SHARED
+    wallet -> queries: 💾 DISCLOSED or SHARED ✅ DECLINED❌
 deactivate wallet
 
 activate queries
-    queries -> wallet: IF SHARED: Share @ Notifier 🐌
-    queries -> vault: IF DISCLOSED: Disclose @ Vault 🐌
+    queries -> wallet: ✅ SHARED: Share @ Notifier 🐌
+    queries -> vault: ✅ DISCLOSED: Disclose @ Vault 🐌
 deactivate queries
 
 

@@ -181,7 +181,7 @@ Assert:
     Texts: Locator, Schema, Tag
     Times: Starts, Expires
     Issuer.IsDomain:
-    Status.IsIn: REVOKED, SUSPENDED, ACTIVE, EXPIRED
+    Status.IsIn: REVOKED, SUSPENDED, ACTIVE
     Expires.IsAfter: Starts
     Schema.IsSchema: 
     Language.IsLanguage:
