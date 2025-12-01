@@ -25,7 +25,7 @@
     Texts: Status, Locator
     Times: Starts, Expires
     Expires.IsAfter: Starts
-    Status.IsIn: REVOKED, SUSPENDED, ACTIVE
+    Status.In: ACTIVE, REVOKED, SUSPENDED, EXPIRED
 
 # Get the Token
 - READ >> $token:

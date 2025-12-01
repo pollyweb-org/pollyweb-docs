@@ -28,13 +28,15 @@
     Key: 
         Chat: $.Msg.Chat
         Domain: $.Msg.From
+    Assert: 
+        Chat.State: ACTIVE
 
 # Save que Query
 - SAVE|Broker.Queries:
     .State: QUERIED
-    $.Msg.Chat:
-    $.Msg.Hook:
-    $.Msg.Schemas:
+    Chat: $.Msg.Chat
+    Hook: $.Msg.Hook
+    Schemas: $.Msg.Schemas
     Consumer: $.Msg.From
 ```
 

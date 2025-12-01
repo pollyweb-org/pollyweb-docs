@@ -172,37 +172,71 @@ Uses: [`.Is`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System �
 
 <br/>
 
+Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
+
+```yaml
+Assert:
+    AllOf: Token, Issuer, Status, Starts, Chat, Wallet, Schema
+    UUIDs: Token, Chat, Wallet
+    Texts: Locator, Schema, Tag
+    Times: Starts, Expires
+    Issuer.IsDomain:
+    Status.IsIn: REVOKED, SUSPENDED, ACTIVE, EXPIRED
+    Expires.IsAfter: Starts
+    Schema.IsSchema: 
+    Language.IsLanguage:
+```
+Uses: [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.IsAfter`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsAfter ⓕ.md>) [`.IsLanguage`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsLanguage ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
+
+
+<br/>
+
 ## Example
 
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
+Key from [`Issue@Broker` 🐌 handler](<../../../🤵🅰️ Broker methods/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 📃 handler.md>)
 
 ```yaml
-# Key from Issue@Broker
 Issuer: any-issuer.dom
 Token: <token-uuid>
+```
 
-# From Issue@Broker
+From [`Issue@Broker` 🐌 handler](<../../../🤵🅰️ Broker methods/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 📃 handler.md>)
+
+```yaml
 Chat: <chat-uuid>
 Wallet: <wallet-uuid>
 Schema: any-authority.dom/ANY-SCHEMA:1.0
+```
+
+From [`Issue@Broker` 🐌 handler](<../../../🤵🅰️ Broker methods/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 📃 handler.md>) and [`Revise@Broker` 🐌 handler](<../../../🤵🅰️ Broker methods/Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 📃 handler.md>)
+
+```yaml
+Status: REVOKED
 Starts: 2018-12-10T13:45:00.000Z
 Expires: 2018-12-10T13:45:00.000Z
+```
 
-# From OnTokenOffered
+From [`OnTokenOffered` 🔔 handler](<../🪣🧱 13 Offered 🔔 event/🤵 OnTokenOffered 🔔 handler.md>)
+
+```yaml
 Language: en-us
 IssuerTitle: Any Issuer
 SchemaTitle: Any Schema Title
 Description: Any Schema description.
 Title: Any Schema, by Any Issuer
+```
 
-# From Saved@Broker
+From [`Saved@Broker` 🐌 handler](<../../../🤵🅰️ Broker methods/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 📃 handler.md>)
+
+```yaml
 Path: /path/to/token
+```
 
-# From Revise@Broker
-Status: REVOKED
+From [`OnPopTagToken` 📃 handler](<../../Pops 🎈 table/🪣🧱 63 Token » Tag 🔔/🤵 OnPopTagToken 🔔 handler.md>)
 
-# From Pop@Broker
+```yaml
 Tag: My Token
 ```
 

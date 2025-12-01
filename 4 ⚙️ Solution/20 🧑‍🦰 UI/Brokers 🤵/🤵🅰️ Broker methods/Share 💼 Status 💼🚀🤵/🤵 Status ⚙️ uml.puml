@@ -1,33 +1,27 @@
-@startuml Wallet: Share Token
+@startuml Status@Broker
 
 
 participant "Consumer 💼" as consumer
 
 box Talker 😃 domain #FFFFFA
     participant "Broker 🤵" as broker
-    participant "Engine ⚙️" as engine
     participant "Tokens 🪣" as tokens
+    participant "Queries 🪣" as queries
 end box
-
 participant "Graph 🕸" as graph
 
 
-    consumer -> broker: Status 🚀
+consumer -> broker: Status 🚀
 
-    activate consumer
+activate consumer
     
     activate broker
         broker -> tokens: READ 🧲 {token}
-        broker -> engine: TRUSTS 🫡
-    
-        activate engine
-            engine -> graph: Trusts 🚀
-            engine -> broker
-        deactivate engine
-
+        broker -> queries: Consumed in the past?
+        broker -> graph: TRUSTS 🫡 Trusts @ Graph 🚀    
         broker -> consumer: {status}
     deactivate broker
 
-    deactivate consumer
+deactivate consumer
 
 @enduml 
