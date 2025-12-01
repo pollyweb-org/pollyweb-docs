@@ -17,23 +17,20 @@
 ```yaml
 📃 OnChatLocated:
 
-# Rename for legibility
-- PUT|$Item >> $chat
-
 # Open the Chat in the Wallet app
 - SEND:
     Header:
-        To: $chat.Wallet.Notifier
+        To: Wallet.Notifier
         Subject: Open@Notifier
     Body:
-        Wallet: $chat.Wallet
-        Hook: $chat.Hook
-        Chat: $chat.ID
-        PrivateKey: $chat.PrivateKey
-        Host: $chat.Host
-        HostTitle: $chat.HostTitle
-        SmallIcon: $chat.SmallIcon
-        BigIcon: $chat.BigIcon
+        Chat: ID
+        $Chat.Wallet:
+        $Chat.Hook: 
+        $Chat.Host: 
+        $Chat.HostTitle: 
+        $Chat.SmallIcon: 
+        $Chat.BigIcon: 
+        $Chat.ChatEmoji: 
 ```
 
 

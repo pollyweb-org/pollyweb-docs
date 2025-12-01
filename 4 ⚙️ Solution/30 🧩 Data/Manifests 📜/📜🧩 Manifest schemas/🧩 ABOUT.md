@@ -16,6 +16,7 @@ About:
     Description: This is a dummy domain.
     SmallIcon: 'https://picsum.photos/20/20'
     BigIcon: 'https://picsum.photos/100/100'
+    Emoji: 🤗
 
     Translations: 
       - Language: pt-br
@@ -31,6 +32,7 @@ About:
 | `Description` |text| Optional human readable description
 | `SmallIcon`  |text| Optional URL to a small icon (20x20)
 | `BigIcon`   |text| Optional URL to a big icon (100x100)
+| `Emoji`     |text| Optional emoji representing the domain
 | `Translations` | [set](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) | Optional translations of the domain name
 |
 
@@ -57,6 +59,9 @@ Blueprint:
       
       Title: 
         type: string
+      
+      Description: 
+        type: string
         
       SmallIcon: 
         type: string
@@ -65,6 +70,9 @@ Blueprint:
       BigIcon: 
         type: string
         format: uri
+
+      Emoji: 
+        type: string
 
       Translations: 
         type: array

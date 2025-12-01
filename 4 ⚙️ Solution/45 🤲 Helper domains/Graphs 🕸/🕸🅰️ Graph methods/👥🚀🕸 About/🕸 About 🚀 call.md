@@ -10,7 +10,7 @@
     * returns the content of [`.MANIFEST/ABOUT 🧩`](<../../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 ABOUT.md>)
     * from its [domain Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) 
 
-
+<br/>
 
 ## Synchronous Call 🚀
 
@@ -34,6 +34,7 @@ Body:
 |       | `Language`|text| Language to translate, defaults to `en-us`
 |
 
+<br/>
 
 ## Synchronous Response 
 
@@ -43,6 +44,7 @@ Title: Any Other Domain, Inc.
 Description: bla bla...
 SmallIcon: <base64>
 BigIcon: <base64>
+Emoji: 🤗
 ```
 
 ||Property|Type|Description
@@ -51,4 +53,5 @@ BigIcon: <base64>
 |           |`Description`   | string  | Description of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |           |`SmallIcon`    | string  | Small icon in Base64 PNG
 |           |`BigIcon`      | string  | Big icon in Base64 PNG
+|           |`Emoji`        | string  | Emoji representing the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |

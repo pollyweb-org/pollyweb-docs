@@ -18,11 +18,6 @@
 ```yaml
 📃 OnChatAsked:
 
-# Assert the Chat
-- ASSERT|$Chat:
-    OneOf: Locator, Host
-    Texts: Locator, Host, Key
-
 # If already resolved, set state and exit
 - IF|$Chat.Host:
     - SAVE|$Chat:

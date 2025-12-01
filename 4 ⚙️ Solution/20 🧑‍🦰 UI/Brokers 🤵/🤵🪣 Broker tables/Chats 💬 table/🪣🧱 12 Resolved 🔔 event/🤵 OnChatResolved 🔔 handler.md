@@ -15,7 +15,7 @@
 
 # Assert the Chat
 - ASSERT|$Chat:
-    AllOf: Host, Wallet
+    AllOf: Host
 
 # Get the Host details from the Graph
 - SEND >> $domain:
@@ -29,12 +29,12 @@
 # Save the Host info
 - SAVE|$Chat:
     .State: DETAILED
-    Notifier: $Chat.Wallet.Notifier
     Language: $Chat.Wallet.Language
     HostTitle: $domain.Title
     Description: $domain.Description
     SmallIcon: $domain.SmallIcon
     BigIcon: $domain.BigIcon
+    HostEmoji: $domain.Emoji
 ```
 
 Uses||
