@@ -2,13 +2,11 @@
 
 # 💼🚀🤵  Status @ Broker
 
-> Implementation
+> About
 
 * Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 * Implemented by the [`Status` 📃 handler](<🤵 Status 📃 handler.md>)
-
-> Used in
-* [💼⏩🧑‍🦰 Share Token @ Consumer](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>)
+* Part of the [🧑‍🦰 `Share Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>)
 
 <br/> 
 
@@ -22,6 +20,7 @@ Header:
 
 Body:
     Token: <token-uuid>  
+    Issuer: any-issuer.dom
 ```
 
 
@@ -31,6 +30,7 @@ Body:
 | |`To`|text| [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
 | | `Subject`|text| `Status@Broker`
 | Body | `Token`| uuid | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) key | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
+|   | `Issuer` | text | [Issuer 🎴](<../../../Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
 |
     
 <br/>
@@ -42,7 +42,6 @@ Body:
 Status: SUSPENDED
 Starting: 2025-10-10T13:45:00.000Z
 Ending: 2025-12-31T00:00:00.000Z
-Locator: .HOST,any-host.dom,any-key
 ```
 
 |Property|Type|Description
@@ -50,5 +49,4 @@ Locator: .HOST,any-host.dom,any-key
 | `Status`  |text| `ACTIVE` `SUSPENDED` `REVOKED` `EXPIRED`
 | `Starting`|text| Optional date of start of status
 | `Ending`  |text| Optional date of ending of status
-| `Locator`|text| Optional [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) about it
 |

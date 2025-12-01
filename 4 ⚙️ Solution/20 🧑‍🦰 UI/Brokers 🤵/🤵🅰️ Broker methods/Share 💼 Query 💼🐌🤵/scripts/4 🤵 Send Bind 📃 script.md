@@ -19,17 +19,6 @@
         Text: Which vault to use?
         Options: 
 
-# Send the message to the vault
-- SEND:
-    Header:
-        From: $Domain
-        Subject: Disclose@Vault
-        
-    Body:
-        Chat: $chat.ID
-        Consumer: $.Msg.From
-        Language: $chat.Language
-        Bind: $Bind
 ```
 
 Uses||
