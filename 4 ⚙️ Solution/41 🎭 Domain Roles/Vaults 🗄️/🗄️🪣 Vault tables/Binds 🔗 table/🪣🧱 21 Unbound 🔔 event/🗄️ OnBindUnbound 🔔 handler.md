@@ -2,6 +2,7 @@
 
 > About
 * Part of the [`Vault.Binds` 🪣 table](<../🪣 Binds/🗄️ Vault.Binds 🪣 table.md>)
+* Part of the [🗄️ `Vault.Binds.Unbound` ⏩ flow](<../🪣🧱 20 Unbind ⏩ flow/🗄️ Vault.Binds.Unbound ⏩ flow.md>)
 * Reacts to the [`Unbound@Vault` 🅰️ method](<../../../🗄️🅰️ Vault methods/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>)
 
 <br/>
@@ -17,13 +18,10 @@
 ```yaml
 📃 OnBindUnbound:
 
-# Assert the Bind
-- ASSERT|$Bind:
-    AllOf: ID, Vault, VaultRole, VaultID, Chat, Schema, Created
-    UUIDs: ID, VaultID, Chat
-    Texts: Vault, VaultRole, Schema
-    Times: Created
-
-# Return empty to the REEL call
-- REEL|$Bind.ID
+# Inform the Hosted if there's a reference
+- IF|$Bind.Reference:
+    ASYNC|OnUnbound:
+        Bind: $Bind.ID
+        Reference: $Bind.Reference
+        Internals: $Bind.Internals
 ```

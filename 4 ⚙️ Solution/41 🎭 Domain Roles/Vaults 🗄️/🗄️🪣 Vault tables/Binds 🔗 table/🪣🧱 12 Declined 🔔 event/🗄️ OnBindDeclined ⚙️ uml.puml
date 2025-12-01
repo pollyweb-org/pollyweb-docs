@@ -1,0 +1,25 @@
+@startuml OnBindDeclined
+
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Binds 🪣" as binds
+    participant "OnDeclined 🔔" as trigger
+    participant "BIND ⌘" as bind
+    participant "Script  📃" as script
+end box
+
+
+activate binds
+    binds --> trigger: DECLINED 🔔
+deactivate binds
+
+activate trigger
+    trigger --> bind: REEL 🎣 {empty}
+deactivate trigger
+
+
+activate bind
+    bind -> script: RETURN {empty}
+deactivate bind
+
+@enduml 

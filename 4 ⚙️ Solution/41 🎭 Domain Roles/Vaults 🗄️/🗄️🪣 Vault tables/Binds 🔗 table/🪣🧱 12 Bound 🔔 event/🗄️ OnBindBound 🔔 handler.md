@@ -1,6 +1,8 @@
 # 🗄️ OnBindBound 📃 handler
 
-> Purpose
+> About
+* Part of the [`Vault.Binds` 🪣 table](<../🪣 Binds/🗄️ Vault.Binds 🪣 table.md>)
+* Part of the [🗄️ `Vault.Binds.Bind` ⏩ flow](<../🪣🧱 10 Bind ⏩ flow/🗄️ Vault.Binds.Bind ⏩ flow.md>)
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to the [`Bound@Vault` 🅰️ method](<../../../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>).
 * Returns a [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) item to the [`BIND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) command.
  
@@ -17,23 +19,19 @@
 ```yaml
 📃 OnBindBound:
 
-# Assert the inputs
-- ASSERT|$Bind:
-    AllOf: Answer
-    Answer.IsIn: ACCEPTED, DECLINED
+# Inform the Hosted if there's a reference
+- IF|$Bind.Reference:
+    ASYNC|OnBound:
+        Bind: $Bind.ID
+        Reference: $Bind.Reference
+        Internals: $Bind.Internals
 
-# Return the call
-- CASE|$Bind.Answer:
-
-    ACCEPTED: # Return the Bind if accepted
-        REEL|$Bind.ID:
-            $Bind
-
-    DECLINED: # Return empty if declined
-        REEL|$Bind.ID
+# Return the bind
+- REEL|$Bind.ID:
+    $Bind
 ```
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`REEL`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/REEL 🎣/🎣 REEL ⌘ cmd.md>)
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASYNC`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`IF`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`REEL`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/REEL 🎣/🎣 REEL ⌘ cmd.md>)
 |
