@@ -17,8 +17,8 @@
 ||[`OPENED`](<../🪣🧱 14 Opened 🔔 event/🤵 OnChatOpened 🔔 handler.md>) |[`Opened` 🐌](<../../../🤵🅰️ Broker methods/Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 📃 handler.md>)| [`Present@Finder` 🐌](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | Open on [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 ||[`PRESENTED`](<../🪣🧱 15 Presented 🔔 event/🤵 OnChatPresented 🔔 handler.md>) | [`Presented` 🐌](<../../../🤵🅰️ Broker methods/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 📃 handler.md>) | [`Prompt@Notifier` 🐌](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) |With  [Finder 🔎](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) intro
 ||[`ACTIVATED`](<../🪣🧱 16 Activated 🔔 event/🤵 OnChatActivated 🔔 handler.md>)|| [`Hello@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | With [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) intro
-|[`Abandon`](<../🪣🧱 30 Abandon ⏩ Flow/🤵 Broker.Chats.Abandon ⏩ flow.md>)|[`ABANDONED`](<../🪣🧱 31 Abandoned 🔔 event/🤵 OnChatAbandoned 🔔 handler.md>)| [`Pop` 🐌](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>) |[`Abandoned@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | Abandoned by user
-|[`Wrap`](<../🪣🧱 40 Wrap ⏩ Flow/🤵 Broker.Chats.Wrap ⏩ flow.md>)|[`WRAPPED`](<../🪣🧱 41 Wrap 🔔 event/🤵 OnChatWrapped 🔔 handler.md>)| [`Goodbye` 🐌](<../../../🤵🅰️ Broker methods/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 📃 handler.md>) ||Closed by [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
+|[`Abandon`](<../🪣🧱 40 Abandon ⏩ Flow/🤵 Broker.Chats.Abandon ⏩ flow.md>)|[`ABANDONED`](<../🪣🧱 41 Abandoned 🔔 event/🤵 OnChatAbandoned 🔔 handler.md>)| [`Pop` 🐌](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>) |[`Abandoned@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | Abandoned by user
+|[`Wrap`](<../🪣🧱 50 Wrap ⏩ Flow/🤵 Broker.Chats.Wrap ⏩ flow.md>)|[`WRAPPED`](<../🪣🧱 51 Wrap 🔔 event/🤵 OnChatWrapped 🔔 handler.md>)| [`Goodbye` 🐌](<../../../🤵🅰️ Broker methods/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 📃 handler.md>) ||Closed by [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
 |
 
 <br/>
@@ -90,6 +90,10 @@ Handlers:
     # Localize flow
     UPDATED    >> OnChatLocalized:   # call Translate@Graph
         Assert: New.Language    
+
+    # Inform flow
+    INFORM     >> OnChatInform:      # call Form@Graph
+    INFORMED   >> OnChatInformed:    # call Informed@Notifier
 
     # Abandon flow
     ABANDONED  >> OnChatAbandoned:   # call Abandoned@Host
