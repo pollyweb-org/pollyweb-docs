@@ -1,36 +1,43 @@
 @startuml ⚙️ Form
 
-actor User as user
-participant "Broker 🤵\ndomain" as broker
-participant "Graph 🕸\ndomain" as graph
-participant "Consumer 💼\ndomain" as consumer
-participant "Vault 🗄️\n(domain)" as vault
+participant "Consumer 💼" as consumer
+participant "Broker 🤵" as broker
+participant "Graph 🕸" as graph
+participant "Wallet 🧑" as user
+participant "Vault 🗄️" as vault
 
 
 ' 🐌  🚀
 
-activate consumer
-consumer --> broker: 1) Query 🐌 
+'activate consumer
+    consumer --> broker: 1) Query 🐌 
+'deactivate consumer
+
 activate broker
-    broker --> consumer: {not announced} ❌
-    broker --> user: 2) ⏪ Prompt ❌
+    broker --> user: 2) FAILURE ❌ unannounced
 deactivate broker
 
-consumer --> broker: 3) Inform 🐌
+'activate consumer
+    consumer --> broker: 3) Inform 🐌
+'deactivate consumer
+
 activate broker
     
-    broker --> graph: 4) Form 🚀
-    activate graph
-        graph --> broker: {form}
-    deactivate graph
+    broker -> graph: 4) Form 🚀
+    'activate graph
+    '    graph -> broker: {form}
+    'deactivate graph
 
-    broker --> user: 5) ⏪ Prompt ⓘ
+    broker --> user: 5) INFO ⓘ
+    broker --> consumer: 6) Informed 🐌
 deactivate broker
 
-consumer --> broker: 6) Query 🐌 ✅
+activate consumer
+    consumer --> broker: 7) Query 🐌 ✅
 deactivate consumer
+
 activate broker
-    broker --> vault: 7) Disclose 🐌
+    broker --> vault: 8) Disclose 🐌
 deactivate broker
 
 
