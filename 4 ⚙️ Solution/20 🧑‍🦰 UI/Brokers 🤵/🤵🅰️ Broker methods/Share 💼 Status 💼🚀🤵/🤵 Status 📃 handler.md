@@ -2,7 +2,15 @@
 
 > [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Status@Broker` 🅰️ method](<🤵 Status 🚀 call.md>).
 
-## Handler
+<br/>
+
+## Diagram
+
+![alt text](<🤵 Status ⚙️ uml.png>)
+
+<br/>
+
+## Script
 
 ```yaml
 # Verify the Consumer message
