@@ -1,15 +1,4 @@
 ```yaml
-# Assert the inputs
-- ASSERT:
-    AllOf: $trusted
-    Lists: $trusted
-
-# Assert the list items
-- ASSERT|$trusted:
-    AllOf: Schema, Schema$, Domain, Type, ID
-    UUIDs: ID
-    Texts: Schema, Schema$, Domain, Type
-    Type.IsIn: TOKEN,BIND
 
 # Get all tokens
 - FILTER|$trusted >> $tokens:
@@ -34,12 +23,6 @@
         Options: $tokens
         ID: ID
 
-
-# Send the token.
-- RUN|Disclose-Bind:
-    $chat, ..
-
-- RETURN ...
 ```
 Uses||
 |-|-
