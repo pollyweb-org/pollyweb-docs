@@ -3,8 +3,10 @@
 box Broker 🤵 domain #FFFFFA
     participant "Queries 🪣" as table
     participant "OnInformed 🔔" as handler
+    participant "Wallets 🪣" as wallets
+    participant "Binds 🪣" as binds
+    participant "Token 🪣" as tokens
 end box
-participant "Wallet 👱" as wallet
 participant "Graph 🕸" as graph
 
 
@@ -13,7 +15,11 @@ activate table
 deactivate table
 
 activate handler
-    handler --> wallet: DONE ✅ "informed"
+    handler -> wallets: READ 🧲 
+    handler -> binds: 
+    handler -> tokens: 
+    handler -> graph: TRUSTS 🫡
+    handler --> table: 💾 DETAILED
 deactivate handler
 
 @enduml

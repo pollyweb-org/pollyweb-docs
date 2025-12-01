@@ -1,0 +1,30 @@
+@startuml OnQueryDetailed
+
+box Broker 🤵 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnDetailed 🔔" as handler
+end box
+participant "Wallet 👱" as wallet
+
+
+activate table
+    table --> handler: DETAILED 🔔
+deactivate table
+
+activate handler
+    handler --> wallet: CONFIRM 👍 "share?"
+deactivate handler
+
+activate wallet
+    wallet --> handler: 
+deactivate wallet
+
+activate handler
+    alt IF Bind
+        handler -> table: 💾 DISCLOSED 
+    else IF Token
+        handler -> table: 💾 SHARED
+    end
+deactivate handler
+
+@enduml
