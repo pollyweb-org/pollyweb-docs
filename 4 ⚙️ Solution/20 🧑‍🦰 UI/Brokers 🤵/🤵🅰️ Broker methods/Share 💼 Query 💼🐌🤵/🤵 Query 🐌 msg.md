@@ -53,7 +53,7 @@ Body:
 
 ## FAQ
 
-1. **Why a list of Codes instead of a single one?**
+1. **Why a list of Schemas instead of a single one?**
    
     Although many [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) may be requested, 
     * only one of them will be returned; 
