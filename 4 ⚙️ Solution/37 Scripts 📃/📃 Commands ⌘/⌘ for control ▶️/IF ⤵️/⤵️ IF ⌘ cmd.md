@@ -88,7 +88,7 @@
     - INFO|Test finished
 
     CorrectCode:
-    - SUCCESS|Code is correct!
+    - DONE|Code is correct!
     ```
 
     ```yaml
@@ -100,7 +100,7 @@
     - INFO|Test finished
 
     CorrectCode:
-    - SUCCESS|Code is correct!
+    - DONE|Code is correct!
 
     WrongCode:
     - FAIL|Code is wrong!
@@ -136,7 +136,7 @@
     - INFO|Test started
     - IF|{code-is-correct}:
         Then: 
-          - SUCCESS|Code is correct!
+          - DONE|Code is correct!
           - INFO|Test finished
     ```
 
@@ -146,7 +146,7 @@
     💬 If-then-else example:
     - INFO|Test started
     - IF|{code-is-correct}:
-        Then: SUCCESS|Code is correct!
+        Then: DONE|Code is correct!
         Else: ErrorHandlingProcedure
     - INFO|Test finished
         

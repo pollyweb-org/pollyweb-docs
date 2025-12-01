@@ -42,7 +42,7 @@
         Undo: 30 days
 
     # Inform the user 
-    - SUCCESS|Removed:
+    - DONE|Removed:
         # Non-blocking undo option
         Options: Undo 
 
@@ -52,7 +52,7 @@
         - UNDO|$deleted
     ```
 
-    Uses: [`CASE`](<../../⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Uses: [`CASE`](<../../⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`DELETE`](<../DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
 
     ---
     <br/>

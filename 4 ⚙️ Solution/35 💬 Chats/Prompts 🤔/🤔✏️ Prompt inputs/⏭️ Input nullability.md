@@ -40,7 +40,7 @@
     ```yaml
     # 😃 Talker
     - DIGITS|What's the code? >> $code
-    - SUCCESS|Your code is `{$code}`
+    - DONE|Your code is `{$code}`
     ```
     
     ---
@@ -78,8 +78,8 @@
     - DIGITS|What's the code? >> $code:
         Nullable: True
     - IF|$code:
-        Then: SUCCESS|Your code is `{$code}`
-        Else: SUCCESS|You didn't provide a code.
+        Then: DONE|Your code is `{$code}`
+        Else: DONE|You didn't provide a code.
     ```
 
     <br/>

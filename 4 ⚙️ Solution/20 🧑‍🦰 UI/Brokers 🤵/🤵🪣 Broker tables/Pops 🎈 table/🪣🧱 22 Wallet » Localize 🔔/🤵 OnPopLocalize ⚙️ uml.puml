@@ -28,7 +28,7 @@ activate onLocalized
     onLocalized -> wallet: ONE 🤔 {region?}
     onLocalized -> wallet: CONFIRM 🤔 {change?}
     onLocalized -> walletsTable: SAVE 💾 {language:new}
-    onLocalized --> wallet: SUCCESS ✅ {changed}
+    onLocalized --> wallet: DONE ✅ {changed}
 deactivate onLocalized
 
 activate wallet
@@ -37,7 +37,7 @@ deactivate wallet
 
 activate onLocalized
     onLocalized -> walletsTable: SAVE 💾 {language:old}
-    onLocalized --> wallet: SUCCESS ✅ {reverted}
+    onLocalized --> wallet: DONE ✅ {reverted}
 deactivate onLocalized
 
 @enduml 

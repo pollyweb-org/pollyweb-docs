@@ -189,7 +189,7 @@
 
     ```yaml
     # Formatted output
-    - SUCCESS|You entered `$ip`
+    - DONE|You entered `$ip`
     ```
 
     <br/>
@@ -257,12 +257,12 @@
 
     ```yaml
     # Formatted output
-    - SUCCESS|You entered `$money`
+    - DONE|You entered `$money`
     ```
 
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | 💰 [`AMOUNT`](<../AMOUNT 💰/AMOUNT 💰 prompt.md>) | To collect a structured currency value.
-    | ✅ [`SUCCESS`](<../../🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) | To show the formatted collected value.
+    | ✅ [`DONE`](<../../🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) | To show the formatted collected value.
 
     ---

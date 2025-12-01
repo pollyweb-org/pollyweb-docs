@@ -169,10 +169,10 @@
         Schema: .HOST
 
     # Show success message.
-    - SUCCESS|The schema is equivalent to ./HOST
+    - DONE|The schema is equivalent to ./HOST
     ```
 
-    Uses: [`PARSE`](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    Uses: [`PARSE`](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
 
     ---
     <br/>

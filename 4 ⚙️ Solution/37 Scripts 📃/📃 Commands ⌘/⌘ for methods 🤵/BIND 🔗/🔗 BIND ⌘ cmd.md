@@ -25,7 +25,7 @@
     | - | - | - |
     | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ]  | > Bind
     | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<🔗 BIND ⌘ cmd.md>) [Yes, No] <br/> - Some schema 🧩 <br/> - By Any Vault <br/> - Description: Bla, bla | > Yes
-    | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+    | 🗄️ [Vault](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | ✅ [Done!](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
 
     ---
     <br/>
@@ -63,7 +63,7 @@
     ```yaml
     # For a required schema.
     - BIND|$schema
-    - SUCCESS|Bound!
+    - DONE|Bound!
     ```
 
     | Input| Purpose 
@@ -74,7 +74,7 @@
     # For an optional schema.
     - BIND|$schema >> $bound
     - IF|$bound:
-        Then: SUCCESS|Bound.
+        Then: DONE|Bound.
         Else: FAIL|Not bound.
     ```
 
@@ -115,11 +115,11 @@
 
    # Verify it was bound.
    - IF|$bound:
-       Then: SUCCESS|Your wallet is bound.
+       Then: DONE|Your wallet is bound.
        Else: FAIL|Not bounded.
    ```
 
-   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>) 
+   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) 
 
    ---
    <br/>
@@ -138,11 +138,11 @@
 
    # Check if any was bound
    - IF|$bound:
-       Then: SUCCESS|Your wallet is bound.
+       Then: DONE|Your wallet is bound.
        Else: FAIL|Not bounded.
    ```
 
-   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SUCCESS`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/SUCCESS ✅/SUCCESS ✅ prompt.md>)
+   Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
    
    ---
    <br/>

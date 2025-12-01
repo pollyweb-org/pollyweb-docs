@@ -22,7 +22,7 @@ deactivate pops
 
 activate onMute
     onMute -> chats: SAVE 💾 {muted: True}
-    onMute --> wallet: SUCCESS ✅ {muted}
+    onMute --> wallet: DONE ✅ {muted}
 deactivate onMute
 
 activate wallet
@@ -31,7 +31,7 @@ deactivate wallet
 
 activate onMute
     onMute -> chats: SAVE 💾 {muted: False}
-    onMute --> wallet: SUCCESS ✅ {unmuted}
+    onMute --> wallet: DONE ✅ {unmuted}
 deactivate onMute
 
 

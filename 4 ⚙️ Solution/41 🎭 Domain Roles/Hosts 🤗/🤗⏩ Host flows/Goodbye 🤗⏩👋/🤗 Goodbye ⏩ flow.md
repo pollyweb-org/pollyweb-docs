@@ -27,7 +27,7 @@ Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Ch
 The associated [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) would be the following.
 
 ```yaml
-- SUCCESS|Booking confirmed! 
+- DONE|Booking confirmed! 
 - GOODBYE
 ```
 

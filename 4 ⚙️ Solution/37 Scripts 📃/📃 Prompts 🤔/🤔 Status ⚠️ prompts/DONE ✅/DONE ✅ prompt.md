@@ -1,12 +1,12 @@
-# ✅ Non-blocking `SUCCESS` 
+# ✅ Non-blocking `DONE` 
 
 > Part of [Non-blocking status prompts 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/8 ⚠️ as Status.md>)
 
 <br/>
 
-1. **What is a non-blocking SUCCESS?**
+1. **What is a non-blocking DONE?**
 
-    A `SUCCESS` 
+    A `DONE` 
     * is like an [INFO ℹ️ prompt](<../INFO ℹ️/INFO ℹ️ prompt.md>) 
     * that signals the user that the transaction is completed 
     * and there are no further inputs required;
@@ -16,7 +16,7 @@
     <br/>
 
 
-1. **What are use cases of SUCCESS?**
+1. **What are use cases of DONE?**
 
     |Type|Example
     |-|-
@@ -31,7 +31,7 @@
 
 
 
-1. **How do SUCCESS emojis work?**
+1. **How do DONE emojis work?**
    
     |Emoji | Usage | Details
     |-|-|-
@@ -43,7 +43,7 @@
 
 
 
-1. **What features does SUCCESS implement?**
+1. **What features does DONE implement?**
 
     | Feature | Details
     |-|-
@@ -61,7 +61,7 @@
 
     ```yaml
     # Inline
-    SUCCESS|<text> 
+    DONE|<text> 
     ```
 
     | Input| Purpose | Example
@@ -70,7 +70,7 @@
 
     ```yaml
     # Multi-line 
-    SUCCESS:
+    DONE:
         Text: <text>
         
         # Generic optional properties
@@ -105,7 +105,7 @@
     
     ```yaml
     📃 Example:
-    - SUCCESS|Simple success.
+    - DONE|Simple success.
     ```
 
 
@@ -114,7 +114,7 @@
     Here's the [`Prompted@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>).
 
     ```yaml
-    Format: SUCCESS
+    Format: DONE
     Emoji: ✅ 
     Text: Simple success.
     ```

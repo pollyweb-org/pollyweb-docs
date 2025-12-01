@@ -13,7 +13,7 @@ activate table
 deactivate table
 
 activate handler
-    handler --> wallet: SUCCESS ✅ "informed"
+    handler --> wallet: DONE ✅ "informed"
 deactivate handler
 
 @enduml

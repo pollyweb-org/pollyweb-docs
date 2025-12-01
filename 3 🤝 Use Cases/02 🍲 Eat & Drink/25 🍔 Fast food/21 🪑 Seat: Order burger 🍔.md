@@ -41,7 +41,7 @@
 
     # Inform readiness.
     - Case|$status.Code:
-        Ready: SUCCESS|Pick up your order.
+        Ready: DONE|Pick up your order.
         Canceled: INFO|Order canceled.
         $: FAIL|Unexpected problem.
     ```
@@ -93,7 +93,7 @@
         Order: $order
     
     # Inform submitted.
-    - SUCCESS:
+    - DONE:
         Text: Eat-in submitted:
         Details: {$order.Summary}
 
