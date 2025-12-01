@@ -36,8 +36,8 @@
         Domain: $From.Consumer
         Language: $Form.Chat.Language
 
-# Set the chat language
-- CHAT|$Form.Chat context
+# Set the chat language and context
+- CHAT|$Form.Chat 
 
 # Ask for confirmation to proceed
 - CONFIRM: 
@@ -49,7 +49,8 @@
 
 # Set the form on the Chat
 - SAVE|$Form.Chat:
-    .Form: $Form.ID
+    Form: $Form.ID
+    FormSchemas: $form.Steps.Schema
 
 # Progress the state
 - SAVE|$Form:
