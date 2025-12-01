@@ -1,0 +1,24 @@
+@startuml OnInformInform
+ 
+box Broker 🤵 domain #FFFFFA
+    participant "Forms 🪣" as table
+    participant "OnInform 🔔" as handler
+    participant "Chats 🪣" as chats
+end box
+participant "Graph 🕸" as graph
+participant "Wallet 🧑" as user
+
+
+activate table
+    table --> handler: INFORM 🔔
+deactivate table
+
+activate handler
+    handler -> graph: Form @ Graph 🚀
+    handler -> user: CONFIRM 👍
+    handler -> chats:  💾 {form}
+    handler -> table:  💾 INFORMED
+deactivate handler
+
+
+@enduml 

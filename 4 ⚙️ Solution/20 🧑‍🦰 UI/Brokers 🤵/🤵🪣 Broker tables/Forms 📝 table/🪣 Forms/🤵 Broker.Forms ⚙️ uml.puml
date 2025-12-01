@@ -1,0 +1,25 @@
+@startuml ⚙️ Broker.Informs ⏩ flow
+
+participant "Consumer 💼" as consumer
+
+box Broker 🤵 #FFFFFA
+    participant "Inform 🐌" as broker
+    participant "Informs 🪣" as table
+    participant "Chats 🪣" as chats
+end box
+
+
+consumer -> broker: Inform 🐌
+
+activate broker
+    broker -> table:  💾 {INFORM}
+deactivate broker
+
+activate table
+    table -> chats:  💾 {form}
+    chats -> table:  💾 {INFORMED}
+    table -> consumer: Informed 🐌
+deactivate table
+
+
+@enduml 
