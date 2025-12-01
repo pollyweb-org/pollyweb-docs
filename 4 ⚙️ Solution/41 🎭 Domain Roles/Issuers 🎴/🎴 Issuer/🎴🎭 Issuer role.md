@@ -68,9 +68,9 @@
     
 1. **What if the user presents a QR Token printed on paper?**
 
-    In cases where the user is holding an offline image of the Token's QR (e.g., printed or screenshot), [Consumer 💼 domains](<../../Consumers 💼/💼🎭 Consumer role.md>) may ask for a synchronous status check of the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) directly with the [user's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>);
+    In cases where the user is holding an offline image of the Token's QR (e.g., printed or screenshot), [Consumer 💼 domains](<../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) may ask for a synchronous status check of the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) directly with the [user's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>);
     
-    - e.g., while validating a printed QR of a [passport Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) at the airport border control, the [Consumer 💼 domain](<../../Consumers 💼/💼🎭 Consumer role.md>) of the airport may try to reach the [user's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to verify if the passport hasn't been suspended or revoked.
+    - e.g., while validating a printed QR of a [passport Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) at the airport border control, the [Consumer 💼 domain](<../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) of the airport may try to reach the [user's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to verify if the passport hasn't been suspended or revoked.
 
     The airport knows what [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to reach out to, 
     * because the printed QR version of a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) does not contain the Token's content;

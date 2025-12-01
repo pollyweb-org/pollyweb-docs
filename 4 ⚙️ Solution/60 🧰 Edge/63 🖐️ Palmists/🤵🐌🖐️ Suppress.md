@@ -26,7 +26,7 @@ Body:
 |Header|`From`|text| [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 ||`To`|text| [Vault 🗄️ domain](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>)
 || `Subject` |text| `Suppress@Vault`
-|Body| `Consumer` |text| [Consumer 💼 domain](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>)
+|Body| `Consumer` |text| [Consumer 💼 domain](<../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>)
 || `Chat`| uuid | [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
 |
 

@@ -15,7 +15,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 
 * Users store their data in [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>).
   
-    * These are [Domains 👥](<../40 👥 Domains/👥 Domain/👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>).
+    * These are [Domains 👥](<../40 👥 Domains/👥 Domain/👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>).
     
     * [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Editor 🧑‍💻 agent](<../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>).
 
@@ -30,7 +30,7 @@ The NLWeb ecosystem aims to simplify everyday business transactions by streamlin
 - Organizations interact with an email-like inbox API behind a domain name, and can assume a multitude of roles in parallel - e.g.:
     * session [Host 🤗](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>), 
     * business [Seller 💵](<../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>),
-    * data [Consumer 💼](<../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>), 
+    * data [Consumer 💼](<../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>), 
     * user-bound [Vault 🗄️](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>), 
     * event [Streamer 🌬️](<../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>), 
     * and asynchronous service [Supplier 🏭](<../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>). 

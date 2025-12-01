@@ -13,7 +13,7 @@
     ![](<💳 Payer agent.png>)
 
     On NLWeb, payment transactions with users are handled between:
-    * [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) domains that request payments;
+    * [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) domains that request payments;
     * Payers 💳 - these are user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) with access to the user's money; and
     * [Collector 🏦 helpers](<../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) - these are [Helper 🤲 domains](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) able to deposit money on the [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) bank account. 
     

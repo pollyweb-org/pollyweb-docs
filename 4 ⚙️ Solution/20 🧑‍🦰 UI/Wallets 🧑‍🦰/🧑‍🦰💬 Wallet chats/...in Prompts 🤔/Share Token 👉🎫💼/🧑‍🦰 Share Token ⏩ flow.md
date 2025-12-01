@@ -1,6 +1,6 @@
 # 💼⏩🧑‍🦰 Share a Token @ Consumer
 
-> Request from a [💼 Consumer domain](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) to access the user's [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
+> Request from a [💼 Consumer domain](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) to access the user's [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
 > Mentioned in [🆔 Verify Tokens @ Identity](<../../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>)
 
@@ -42,7 +42,7 @@ Consider the following excerpt from the [Flight check in 🤝 use case](<../../.
 
 1. **Why isn't the verification done on the Issuer?**
 
-    `Privacy` [Issuer 🎴 domains](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) should not be allowed to track users by knowing in which [Consumer 💼 domains](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🎭 Consumer role.md>) their [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) where used.
+    `Privacy` [Issuer 🎴 domains](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) should not be allowed to track users by knowing in which [Consumer 💼 domains](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) their [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) where used.
 
     ---
     <br/>
