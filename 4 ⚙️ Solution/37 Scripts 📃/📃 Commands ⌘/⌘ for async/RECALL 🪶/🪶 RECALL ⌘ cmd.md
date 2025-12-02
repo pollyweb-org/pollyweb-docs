@@ -1,7 +1,7 @@
 # 🪶 RECALL ⌘ cmd
 
 > About
-* Restores holders previously saved with the {{INPRINT}} command.
+* Restores holders previously saved with the [`IMPRINT`](<../IMPRINT 🦶/🦶 IMPRINT ⌘ cmd.md>) command.
 
 <br/>
 
