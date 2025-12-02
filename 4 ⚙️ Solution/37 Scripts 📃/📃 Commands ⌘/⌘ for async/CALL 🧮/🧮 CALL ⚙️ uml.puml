@@ -18,8 +18,8 @@ activate talker
     talker -> holders: IMPRINT 🦶 {uuid}
     talker --> hosted: ASYNC 👷🏼 {uuid, function, inputs} 
 activate hosted
-    talker -> talker: WAIT 🧘 {hook}
-deactivate talker
+    talker -> talker: WAIT 🧘 {uuid}
+deactivate talker 
           
     hosted -> holders: Placed 🚀 READ 🧲 {uuid, holder}
     hosted -> holders: Place 🚀 SAVE 💾 {uuid, holder, value}
