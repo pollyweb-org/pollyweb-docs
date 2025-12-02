@@ -7,6 +7,12 @@
 
 <br/>
 
+## Diagram
+
+![alt text](<🪝 HOOK ⚙️ uml.png>)
+
+<br/>
+
 ## FAQ
 
 1. **What's a HOOK flow command?**

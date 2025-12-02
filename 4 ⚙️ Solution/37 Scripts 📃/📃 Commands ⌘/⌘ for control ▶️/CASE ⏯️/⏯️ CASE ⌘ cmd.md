@@ -29,7 +29,7 @@
     | `{function}` | Optional [{Function}](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) to evaluate | `{f}` `{$p}`
     || Allows for missing `{}` in functions | `f()` `$p`
     || Defaults to the last [input prompt ✏️](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | `TEXT\|Id?`
-    | `<value>`| Static value to be matched with. | `ABC`
+    | `<value>`| [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) to be matched with | `ABC`
     | `<action>`| Run a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `MyProc`
     || or a one-line [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>). | `INFO\|OK`
     
@@ -76,8 +76,8 @@
 
     | Input| Purpose
     |-|-
-    | `$input`  | Value to evaluate            | `1,2,3`
-    | `<when>`  | Constant to match against     | `1`
+    | `$input`  | Optional context to [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>)            | `1,2,3`
+    | `<when>`  | Independent or contextualized [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) to match against     | `1`
     | `<then>`  | Resulting output if matched   | `one`
     | `$output` | Output [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)  | -
 
@@ -164,6 +164,8 @@
     Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
     ```yaml 
+    📃 Example: 
+
     # Collect a number
     - DIGITS|Number from 1 to 3? >> $input
 
@@ -177,6 +179,67 @@
     - INFO|You said `{$output}`
     ```    
     Uses: [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+
+    ---
+    <br/>
+
+
+1. **Can CASE replace an IF chain for a holder?**
+
+    Yes, a [`CASE`](<⏯️ CASE ⌘ cmd.md>) flow can replace multiple [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>) flows when:
+    * you have multiple conditions to check over a command [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
+    * each condition results in a different action
+
+    Consider the following [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) using [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>) and [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>).
+
+    ```yaml
+    📃 Using multiple IFs:
+    - IF|$holder.Is(0):
+        PUT|ZERO >> $result
+    - IF|$holder.IsAbove(0):
+        PUT|POSITIVE >> $result
+    - IF|$holder.IsBelow(0):
+        PUT|NEGATIVE >> $result
+    ```
+
+    `CASE` makes the script more readable and easier to maintain.
+
+    ```yaml
+    📃 Using CASE with a common holder:
+    - CASE|$holder >> $result:
+        .Is(0): ZERO
+        .IsAbove(0): POSITIVE
+        .IsBelow(0): NEGATIVE
+    ```
+
+    ---
+    <br/>
+
+1. **Can CASE replace an IF chain without a common base value?**
+
+    Yes, a [`CASE`](<⏯️ CASE ⌘ cmd.md>) flow can replace multiple [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>) flows even without a common base value by using functions in the `when` clauses.
+    
+    Consider the following [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) using [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>) and [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>).
+
+    ```yaml
+    📃 Using multiple IFs:
+    - IF|$A.Is(0):
+        PUT|ZERO >> $result
+    - IF|$B.IsAbove(0):
+        PUT|POSITIVE >> $result
+    - IF|$C.IsBelow(0):
+        PUT|NEGATIVE >> $result
+    ```
+
+    `CASE` makes the script more readable and easier to maintain.
+    
+    ```yaml
+    📃 Using CASE:
+    - CASE >> $result:
+        A.Is(0): ZERO
+        B.IsAbove(0): POSITIVE
+        C.IsBelow(0): NEGATIVE
+    ```
 
     ---
     <br/>
