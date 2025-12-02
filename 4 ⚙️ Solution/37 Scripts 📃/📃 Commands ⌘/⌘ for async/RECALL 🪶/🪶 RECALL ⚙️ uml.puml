@@ -33,6 +33,7 @@ activate recall
 
     deactivate recall
 
+    recall -> imprints: SAVE 💾 {RECALLED}
     recall -> script:
 
 deactivate recall

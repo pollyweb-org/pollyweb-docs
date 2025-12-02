@@ -2,64 +2,37 @@
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant ".CALL 📃" as talker
-    participant "Memory 🧠" as memory
+    participant "CALL 🧮" as talker
     participant "Holders 🪣" as holders
-    participant "Inbox 📨" as inbox
 end box
-
 participant "Hosted 📦" as hosted
 
 
 
 activate script 
-    script -> talker: CALL 🧮 {function} 
+    script -> talker: CALL 🧮 {function, inputs} 
 deactivate script
 
 activate talker
-    talker -> imprints: IMPRINT 🦶 {uuid}
-    talker -> talker: hook: {.UUID}
-    talker --> hosted: ASYNC 👷🏼 {function} >> hook
+    talker -> talker: uuid: {.UUID}
+    talker -> holders: IMPRINT 🦶 {uuid}
+    talker --> hosted: ASYNC 👷🏼 {uuid, function, inputs} 
 activate hosted
-    talker -> holders: WAIT 🧘 {hook}
+    talker -> talker: WAIT 🧘 {hook}
 deactivate talker
           
-    hosted -> inbox: Placed 🚀 {$A}
-
-    activate inbox
-        inbox -> holders: READ 🧲 {A}
-        inbox -> hosted: {1}
-    deactivate inbox
-
-    hosted -> inbox: Place 🚀 {2 into $B}
-    activate inbox
-        inbox -> holders: SAVE 💾 {B:2}
-        inbox -> hosted:
-    deactivate inbox
-
-    hosted --> inbox: Handled 🐌 {hook, 3}
+    hosted -> holders: Placed 🚀 READ 🧲 {uuid, holder}
+    hosted -> holders: Place 🚀 SAVE 💾 {uuid, holder, value}
+    hosted --> talker: Handled 🐌 RACE 🏁 {uuid, result}
 deactivate hosted
 
-activate inbox
-    inbox -> talker: REEL 🎣 {hook, 3}
-deactivate inbox
-
 activate talker
-    talker -> holders: READ 🧲 {A,B}
-    talker -> memory: SAVE 💾 {A:1,B:2}
-    talker -> script: RETURN {3}
+    talker -> holders: RECALL 🪶 {uuid}
+    talker -> script: RETURN {result}
 deactivate talker
 
 activate script
-    script -> talker: CALL 🧮 {$B}
-deactivate script
 
-activate talker
-    talker -> memory: READ 🧲 {B}
-    talker -> script: {2}
-deactivate talker
-
-activate script
 
 
 @enduml
