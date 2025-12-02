@@ -1,7 +1,7 @@
 # 🧑‍🦰🚀🤗 Prompted @ Host
 
 > Implementation
-* Prepared by the [`Prompt` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/PROMPT/😃 Prompts 📃 script.md>)
+* Prepared by the [`Prompt` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/PROMPT/🤔 PROMPT 📃 script.md>)
 * Implemented by the [`Prompted` 📃 handler](<🤗 Prompted 📃 handler.md>)
 
 > Flow
