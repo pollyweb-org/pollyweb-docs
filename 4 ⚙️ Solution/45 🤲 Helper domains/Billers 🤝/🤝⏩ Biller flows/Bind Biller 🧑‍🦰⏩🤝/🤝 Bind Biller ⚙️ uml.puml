@@ -1,17 +1,17 @@
 @startuml Bind Biller
 
-participant "Editor 🧑‍💻\nvault" as folder
-participant "Collector 🏦\nvault" as collector
-actor "User\nin chat" as user
-participant "Biller 🤝\ndomain" as biller
+participant "Biller 🤝" as biller
+participant "Wallet 👱" as user
+participant "Collector 🏦" as collector
+participant "Editor 💻" as folder
 
 
 activate biller
-    biller --> user: 1) ⏪ Prompt 🤔 {what? ➜ bind}
-    biller --> user: 2) ⏪ Bind 🔗 {host profile}
-    biller --> collector: 3) ⏪ ShareBind 🔗 {collector}
-    biller --> folder: 4) ⏪ ShareBind 🔗 {folder}
-    biller --> user: 5) ⏪ ShareToken 🎫 {host admin}
+    biller --> user: 1) ONE 🤔 {what? ➜ bind}
+    biller --> user: 2) BIND 🔗 {host profile}
+    biller --> collector: 3) SHARE 🔗 {collector}
+    biller --> folder: 4) SHARE 🔗 {folder}
+    biller --> user: 5) SHARE 🎫 {host admin}
 deactivate biller
     
 ' ------------
