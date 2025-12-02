@@ -10,12 +10,10 @@ end box
 
 
 activate script
-    script -> imprint: IMPRINT 🦶 
+    script -> imprint: IMPRINT 🦶 {uuid}
 deactivate script
 
 activate imprint
-
-    imprint -> imprint: {uuid}
 
     imprint -> imprints: SAVE 💾 {uuid, $.Holders.Holder}
 
@@ -24,9 +22,12 @@ activate imprint
         imprint -> holders: SAVE 💾 {uuid, holder, value}
     deactivate imprint
 
-    imprint -> script: RETURN {uuid}
+    imprint -> script
 
 deactivate imprint
+
+activate script
+    script -> script: RECALL 🪶 {uuid}
 
 
 @enduml

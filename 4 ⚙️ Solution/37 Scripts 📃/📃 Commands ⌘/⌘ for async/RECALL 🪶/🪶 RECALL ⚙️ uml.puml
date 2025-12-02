@@ -2,7 +2,7 @@
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "RECALL ⛏️" as recall
+    participant "RECALL 🪶" as recall
     participant "Imprints 🪣" as imprints
     participant "Holders 🪣" as holders
 end box
@@ -10,7 +10,8 @@ end box
 
 
 activate script
-    script -> recall: RECALL ⛏️ {uuid}
+    script -> script: IMPRINT 🦶 {uuid}     
+    script -> recall: RECALL 🪶 {uuid}
 deactivate script
 
 activate recall
@@ -32,7 +33,11 @@ activate recall
 
     deactivate recall
 
+    recall -> script:
+
 deactivate recall
+
+activate script
 
 
 @enduml
