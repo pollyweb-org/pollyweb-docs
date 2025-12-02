@@ -21,7 +21,7 @@
     |[👥⏩👥 Request Sync 🚀](<../👥⏩ Domain flows/Send Sync 👥🚀👥 /👥 Sync Request ⏩ flow.md>) | Send requests that wait for a response
     |[👥⏩👥 Send Async 🐌](<../👥⏩ Domain flows/Send Async 👥🐌👥/👥 Async Message ⏩ flow.md>) | Send event-driven commands or events
     |[👥⏩🕸 Manifest](<../👥⏩ Domain flows/Manifest 👥📜🕸/👥 Manifest ⏩ flow.md>) | Publish [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) changes
-    | [👥⏩🤝 Subscribe](<../../45 🤲 Helper domains/Billers 🤝/🤝⏩ Biller flows/👥⏩🤝 Domain Subscription/🤝 Domain Subscription ⏩ flow.md>) | Sign subscriptions on [Biller 🤝 domains](<../../45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>)
+    | [👥⏩🤝 Subscribe](<../../45 🤲 Helper domains/Billers 🤝/🤝⏩ Biller flows/Domain Subscription 👥⏩🤝/🤝 Domain Subscription ⏩ flow.md>) | Sign subscriptions on [Biller 🤝 domains](<../../45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>)
 
 
     ---
