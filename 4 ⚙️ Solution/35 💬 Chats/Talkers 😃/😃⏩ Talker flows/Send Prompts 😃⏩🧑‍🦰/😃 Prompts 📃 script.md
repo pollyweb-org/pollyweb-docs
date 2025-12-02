@@ -41,18 +41,28 @@
 ```yaml
 📃 .PROMPT:
 
+# Calculate the Reply type
+- CASE >> $onReply:
+    # For blocking input, call WAIT+RACE
+    $Format.IsNotIn(INFO,FAIL,DONE,TEMP): RACE
+    # For non-blocking status with options, call HOOK+REEL
+    $Options: REEL
+    # For non-blocking status without options, do NOTHING
+    $: NOTHING
+
 # Stage the prompt
 - SAVE|Hosts.Prompts >> $prompt:
     :$.Inputs:
     Chat: $.Chat.ID
     Broker: $.Broker.ID
+    OnReply: $onReply
 
 # ------------------------------------
 # BLOCKING INPUTS
 # ------------------------------------
 
 # Check for blocking inputs
-- IF|$Format.IsNotIn(INFO,FAIL,DONE,TEMP):
+- IF|$onReply.Is(RACE):
 
     # Block and wait for a reply
     - WAIT >> $reply:
@@ -66,32 +76,34 @@
 # ------------------------------------
 
 # For non-blocking prompts, return
-- UNLESS|$Options: 
+- IF|$onReply.Is(NOTHING): 
     RETURN
 
 # ------------------------------------
 # NON-BLOCKING STATUS WITH OPTIONS
 # ------------------------------------
 
-# Clone holders for later recall
-- IMPRINT|$prompt.ID 
+- IF|$onReply.Is(REEL):
 
-# Create a return point
-- HOOK >> $reply: 
-    Hook: $prompt.ID
+    # Clone holders for later recall
+    - IMPRINT|$prompt.ID 
 
-# If a REEL was received, restore holders
-- IF|$reply:
-    RECALL|$prompt.ID  # Restore holders
+    # Create a return point
+    - HOOK >> $reply: 
+        Hook: $prompt.ID
 
-# Return the reply
-- RETURN|$reply
+    # If a REEL was received, restore holders
+    - IF|$reply:
+        RECALL|$prompt.ID  # Restore holders
+
+    # Return the reply
+    - RETURN|$reply
 ```
 
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`HOOK`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/HOOK 🪝/🪝 HOOK ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`WAIT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
+| [Commands ⌘](<../../../Scripts 📃/Command ⌘.md>) | [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`HOOK`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/HOOK 🪝/🪝 HOOK ⌘ cmd.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) {{IMPRINT}} {{RECALL}} [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`WAIT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Host.Prompts` 🪣 table](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Prompts 🤔 table/🪣 Prompts/🤗 Host.Prompts 🪣 table.md>)
 | [{Functions} 🐍](<../../../Scripts 📃/Function 🐍.md>) | [`{.IsIn}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.IsNotIn`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsNotIn ⓕ.md>)
 |
