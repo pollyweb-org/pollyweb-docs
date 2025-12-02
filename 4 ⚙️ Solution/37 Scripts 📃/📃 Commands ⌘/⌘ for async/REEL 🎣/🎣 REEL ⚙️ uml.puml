@@ -24,7 +24,7 @@ activate reel
         hooks -> reel: {caller, script, holders}
     deactivate hooks
 
-    reel -> imprints: RECALL ⛏️
+    reel -> imprints: RECALL 🪶
 
     reel -> caller: exit {script}  with {out}
 
