@@ -3,43 +3,23 @@
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
     participant ".ASYNC 📃" as async
-    participant "Holders 🪣" as holders
-    participant "Inbox 📨" as inbox
 end box
 
 participant "Hosted 📦" as hosted
 
 
 activate script
-    script -> async: ASYNC {function} 
+    script -> async: ASYNC {task, inputs} 
 deactivate script
 
 activate async
     async -> async: hook: {.UUID}
-    async --> hosted: SEND {Handle 🐌 function, hook}
+    async --> hosted: SEND {Handle 🐌 task, hook, inputs}
     activate hosted
-    async -> async: WAIT 🧘 {hook}
+    async -> script: RETURN {hook}
 deactivate async
-          
-    hosted -> inbox: Placed 🚀 {hook, holder}
-    activate inbox
-        inbox -> holders: READ {hook, holder}
-        inbox -> hosted: {value}
-    deactivate inbox
-
-
-    hosted --> inbox: Handled 🐌 {hook, return}
-deactivate hosted
-
-activate inbox
-    inbox -> async: REEL 🎣 {hook, return}
-deactivate inbox
-
-activate async
-    async -> script: RETURN {return}
-deactivate async
-
 activate script
+          
 
 
 @enduml
