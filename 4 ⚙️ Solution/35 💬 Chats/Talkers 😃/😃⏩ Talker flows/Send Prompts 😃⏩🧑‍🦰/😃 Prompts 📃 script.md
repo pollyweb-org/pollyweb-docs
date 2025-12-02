@@ -7,9 +7,16 @@
 
 <br/>
 
-## Flow
+## Blocking prompts
 
-![alt text](<🤔 Prompts ⚙️ uml.png>)
+![alt text](<🤔 Prompts (block) ⚙️ uml.png>)
+
+<br/>
+
+
+## Non-blocking status prompts
+
+![alt text](<🤔 Prompts (status) ⚙️ uml.png>)
 
 <br/>
 
@@ -34,42 +41,49 @@
 ```yaml
 📃 .PROMPT:
 
-# Assert inputs:
-- ASSERT|$.Inputs:
-    AllOf: Text, Format
-    Texts: Text, Format, Details, Emoji
-    Lists: Options
-    UUIDs: Appendix  
-    Nums: MinValue, MaxValue
-    Emoji.Length: 1
-    MinValue.IsBelow: MaxValue
-    Text.Length.IsBelow: 250
-    Details.Length.IsBelow: 2500
-
-# Assert the options if any
-- ASSERT|$Options:
-    AllOf: ID, Title
-    Texts: ID, Title, Locator
-
 # Stage the prompt
 - SAVE|Hosts.Prompts >> $prompt:
     $.Inputs
 
-# Check for non-blocking inputs
-- IF|$Format.IsIn(INFO,FAIL,DONE,TEMP):
+# ------------------------------------
+# BLOCKING INPUTS
+# ------------------------------------
 
-    # Create a check-point for options
-    - IF|$Options: 
-        HOOK|$prompt.ID
+# Check for blocking inputs
+- IF|$Format.IsNotIn(INFO,FAIL,DONE,TEMP):
 
-    # Don't wait for non-blocking inputs
-    - RETURN
+    # Block and wait for a reply
+    - WAIT >> $reply:
+        Hook: $prompt.ID
 
-# Block and wait for an answer
-- WAIT|$prompt.ID >> $response
+    # Return the reply
+    - RETURN|$reply
 
-# Return the response
-- RETURN|$response
+# ------------------------------------
+# NON-BLOCKING STATUS WITHOUT OPTIONS
+# ------------------------------------
+
+# For non-blocking prompts, return
+- UNLESS|$Options: 
+    RETURN
+
+# ------------------------------------
+# NON-BLOCKING STATUS WITH OPTIONS
+# ------------------------------------
+
+# Clone holders for later recall
+- IMPRINT|$prompt.ID 
+
+# Create a return point
+- HOOK >> $reply: 
+    Hook: $prompt.ID
+
+# If a REEL was received, restore holders
+- IF|$reply:
+    RECALL|$prompt.ID  # Restore holders
+
+# Return the reply
+- RETURN|$reply
 ```
 
 
@@ -77,6 +91,5 @@ Uses||
 |-|-
 | [Commands ⌘](<../../../Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`HOOK`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/HOOK 🪝/🪝 HOOK ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`WAIT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Host.Prompts` 🪣 table](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Prompts 🤔 table/🪣 Prompts/🤗 Host.Prompts 🪣 table.md>)
-| [{Functions} 🐍](<../../../Scripts 📃/Function 🐍.md>) | [`{.IsIn}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
-| [Holders 🧠](<../../../Scripts 📃/Holder 🧠.md>) | [`$.Chat`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
+| [{Functions} 🐍](<../../../Scripts 📃/Function 🐍.md>) | [`{.IsIn}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.IsNotIn`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsNotIn ⓕ.md>)
 |
