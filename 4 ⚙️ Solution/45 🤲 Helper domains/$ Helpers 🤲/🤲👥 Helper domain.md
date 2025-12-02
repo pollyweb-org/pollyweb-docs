@@ -30,9 +30,9 @@
     | [🤝 Biller](<../Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>) | ApplePay | Manages billing cycles between [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>)
     | [🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | WhatsApp | Manages [Chats](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) and [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
     | [⏳ Buffer](<../Buffers ⏳/⏳🤲 Buffer helper.md>) | Kafka | Throttles [Streamers 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) for [Subscribers 🔔](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>)
-    | [🏦 Collector](<../Collectors 🏦/🏦🤲 Collector helper.md>) | CapitalOne | Collects money from [Payers 💳](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) for [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>)
+    | [🏦 Collector](<../Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) | CapitalOne | Collects money from [Payers 💳](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) for [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>)
     | [🔐 Keymaker](<../Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) | - | Manages [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>)
-    | [💳 Payer](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../Collectors 🏦/🏦🤲 Collector helper.md>) for [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+    | [💳 Payer](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | PayPal | Pays [Collectors 🏦](<../Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) for [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>)
     | [🖨️ Printer](<../Printers 🖨️/🖨️🤲 Printer helper.md>) | - | Prints [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for [Brand 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) and [Host 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
     | [🛰️ Relayer](<../Relayers 🛰️/🛰️🤲 Relayer helper.md>)
     | [🪄 Wand](<../Wands 🪄/🪄🤲 Wand helper.md>) | - | Manages [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) for [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>) for [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>)
@@ -60,7 +60,7 @@
     | [Helper 🤲](<🤲👥 Helper domain.md>)  | Purpose 
     |-|-
     | [🤝 Biller](<../Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>) | To manage usage and subscription plans.
-    | [🏦 Collector](<../Collectors 🏦/🏦🤲 Collector helper.md>) | To collect usage and subscription payments.
+    | [🏦 Collector](<../Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) | To collect usage and subscription payments.
     
     ---
     <br/>
