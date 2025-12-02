@@ -1,0 +1,22 @@
+@startuml Summon Curator
+
+participant "Host 🤗" as host
+participant "Broker 🤵" as broker
+participant "Graph 🕸" as graph
+participant "Agent 🫥" as agent
+participant "Wallet 👱" as wallet
+
+host --> broker: Share 🐌 {schema}
+
+activate broker
+    broker --> agent: Disclose 🐌 
+deactivate broker
+
+activate agent
+    agent -> host: Context 🚀 
+    agent -> wallet: Prompt 🤔
+    agent --> host: Consume @ Consumer 🐌
+deactivate agent
+
+
+@enduml 

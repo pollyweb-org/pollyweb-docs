@@ -1,0 +1,38 @@
+@startuml RECALL
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "RECALL ⛏️" as recall
+    participant "Imprints 🪣" as imprints
+    participant "Holders 🪣" as holders
+end box
+
+
+
+activate script
+    script -> recall: RECALL ⛏️ {uuid}
+deactivate script
+
+activate recall
+
+    recall -> imprints: READ  🧲 {uuid}
+
+    activate imprints
+        imprints -> recall: {$.Holders}
+    deactivate imprints
+
+    recall -> recall: PARALLEL {$.Holders}
+
+    activate recall
+        recall -> holders: READ  🧲 {uuid, holder}
+
+        activate holders
+            holders -> recall: PUT {holder, value}
+        deactivate holders
+
+    deactivate recall
+
+deactivate recall
+
+
+@enduml
