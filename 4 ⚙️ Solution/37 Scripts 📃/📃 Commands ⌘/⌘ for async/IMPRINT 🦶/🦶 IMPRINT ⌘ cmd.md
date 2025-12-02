@@ -1,7 +1,7 @@
 # 🦶 IMPRINT ⌘ cmd
 
 > About
-* Saves the current state of {{$.Holders}} for later restoration with the {{RECALL}} command.
+* Saves the current state of [`$.Holders` 🧠 holder](<../../../📃 Holders 🧠/System holders 🔩/$.Holders 🧠/🧠 $.Holders 🧠 holder.md>) for later restoration with the [`RECALL`](<../RECALL 🪶/🪶 RECALL ⌘ cmd.md>) command.
 
 <br/>
 
