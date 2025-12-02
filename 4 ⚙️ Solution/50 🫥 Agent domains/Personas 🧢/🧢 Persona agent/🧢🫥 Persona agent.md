@@ -25,7 +25,7 @@
     | [🗄️ Vault](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | For sharing user data with [Consumer 💼 domains](<../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>).
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | For managing [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with users.
     | [🫥 Agent ](<../../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | To participate in [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) from other [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
-    | [🌬️ Streamer](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) | For streaming events to [Subscriber 🔔 domains](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>).
+    | [🌬️ Streamer](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) | For streaming events to [Subscriber 🔔 domains](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>).
 
     ---
     <br/>

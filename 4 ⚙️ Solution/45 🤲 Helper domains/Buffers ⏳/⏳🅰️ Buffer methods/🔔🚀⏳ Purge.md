@@ -20,7 +20,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|text| [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) name name
+|Header|`From`|text| [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) name name
 ||`To`|text| [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>) name
 ||`Subject`|text| `Purge@Buffer`
 |Body|`Queue`| uuid | Queue from [`Queue@Buffer`](<🔔🐌⏳ Queue.md>)

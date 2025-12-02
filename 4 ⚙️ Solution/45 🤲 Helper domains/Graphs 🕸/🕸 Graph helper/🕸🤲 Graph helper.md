@@ -75,8 +75,8 @@
 1. **How can domains know about Manifest events placed on hold?**
 
     [Graph 🕸 domains](<🕸🤲 Graph helper.md>) raise alert events. 
-    - Interested domains should [subscribe 🔔](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) they're interested in receiving alert notifications about. 
-    - For privacy reasons, some security alerts may only be pushed to the [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) that is referenced in the alert.
+    - Interested domains should [subscribe 🔔](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) to the Graph's [Streamer 🌬️ role](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>), filtering the [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) they're interested in receiving alert notifications about. 
+    - For privacy reasons, some security alerts may only be pushed to the [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) that is referenced in the alert.
 
     ---
     <br/>
