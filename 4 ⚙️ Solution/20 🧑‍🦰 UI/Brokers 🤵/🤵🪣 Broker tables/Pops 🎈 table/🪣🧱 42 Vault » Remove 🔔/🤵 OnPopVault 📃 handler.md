@@ -42,16 +42,7 @@
             To: $bind.Vault
             Subject: Unbound@Vault
         Body:
-            Bind: $bind.ID
-
-# Update the bind list
-- SEND:
-    Header:
-        To: $Wallet.Notifier
-        Subject: Updated@Notifier
-    Body:
-        Wallet: $Wallet.ID
-        Updates: [ BINDS ]
+            Bind: $bind.ID.Require
 
 # Inform the user 🤔
 - DONE|Done.

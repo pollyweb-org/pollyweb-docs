@@ -29,13 +29,13 @@
         To: $.Hosted.Graph
         Subject: Schema@Graph
     Body:
-        Schema: $Schema.Name
-        Language: $Schema.Wallet.Language
+        Schema: $Schema.Name.Require
+        Language: $Schema.Wallet.Language.Require
 
 # Save the Schema info
 - SAVE|$Schema:
-    Language: $Schema.Wallet.Language
-    Title: $schema.Title
+    Language: $Schema.Wallet.Language.Require
+    Title: $schema.Title.Require
     Description: $schema.Description
     Emoji: $schema.Emoji
 ```
@@ -44,6 +44,7 @@ Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Schemas`](<../🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>)
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Require`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Require ⓕ.md>)
 | [Holders 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) |  [`$.Hosted`](<../../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Schema@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 📃 handler.md>)
 |
