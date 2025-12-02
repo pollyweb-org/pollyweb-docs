@@ -1,0 +1,2 @@
+# 💼 Consumer.Queries 🪣 table
+

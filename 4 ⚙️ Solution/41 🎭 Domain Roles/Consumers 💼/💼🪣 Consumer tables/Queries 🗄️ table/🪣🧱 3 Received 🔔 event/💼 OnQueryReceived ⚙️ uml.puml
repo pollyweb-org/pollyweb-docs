@@ -1,0 +1,20 @@
+@startuml OnQueryReceived
+
+box Consumer 💼 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnReceived 🔔" as handler
+    participant "SHARE ⌘" as share
+    participant "Script 📃" as script
+end box
+
+table --> handler: OnQueryReceived 🔔 
+
+activate handler
+    handler -> share: RACE 🏁 {token}
+deactivate handler
+
+activate share
+    share -> script: RETURN {token}
+deactivate share
+
+@enduml 

@@ -1,15 +1,11 @@
 @startuml Receive@Consumer
 
 participant "Wallet 🧑" as wallet
-
-box Hoster ☁️ domain #FFFFFA
-    participant "Consumer 💼" as consumer
+box Consumer 💼 domain #FFFFFA
+    participant "Receive 🐌" as consumer
     participant "Talker 😃" as talker
     participant "Script 📃" as script
-end box
-
-box Itemizer 🛢 #FFFFFA
-    participant "Hooks 🪣" as hooks
+    participant "Queries 🪣" as hooks
 end box
 
 'participant "Graph 🕸" as graph
