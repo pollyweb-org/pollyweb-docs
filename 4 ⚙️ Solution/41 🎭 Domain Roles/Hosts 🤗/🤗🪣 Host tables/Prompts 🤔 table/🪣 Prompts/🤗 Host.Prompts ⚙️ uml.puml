@@ -1,7 +1,7 @@
 @startuml Host.Prompts.Prompt
  
 box Host 🤗 domain #FFFFFD
-    participant "Talker 😃" as PROMPT
+    participant "PROMPT ⌘" as PROMPT
     participant "Prompts 🪣" as prompts
 end box
 participant "Graph 🕸" as graph
@@ -43,7 +43,7 @@ activate wallet
 deactivate wallet
 
 activate prompts
-    prompts -> PROMPT: REEL 🎣 
+    prompts -> PROMPT: REEL 🎣 or RACE 🏁
 deactivate prompts
 
 

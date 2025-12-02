@@ -17,7 +17,13 @@
 📃 OnPromptReplied:
 
 # Continue the caller script
-- REEL|$Prompt.ID:
-    $Prompt.Result
-    $Prompt.Answer
+- CASE|$Prompt.OnReply:
+
+    RACE: # There's a WAIT command pending
+        RACE|$Prompt.ID:
+            $Prompt.Answer
+
+    REEL: # There's a HOOK return-point set
+        REEL|$Prompt.ID:
+            $Prompt.Answer
 ```

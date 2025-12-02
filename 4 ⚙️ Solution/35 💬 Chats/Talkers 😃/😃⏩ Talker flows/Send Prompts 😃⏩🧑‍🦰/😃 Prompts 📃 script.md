@@ -43,7 +43,9 @@
 
 # Stage the prompt
 - SAVE|Hosts.Prompts >> $prompt:
-    $.Inputs
+    :$.Inputs:
+    Chat: $.Chat.ID
+    Broker: $.Broker.ID
 
 # ------------------------------------
 # BLOCKING INPUTS
