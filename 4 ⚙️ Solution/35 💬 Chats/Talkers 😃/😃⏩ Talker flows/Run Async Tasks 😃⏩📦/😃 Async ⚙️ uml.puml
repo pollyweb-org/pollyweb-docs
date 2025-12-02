@@ -5,48 +5,36 @@ participant "User 🧑" as user
 box Talker 😃 domain #FFFFFA
     'participant "Host 🤗\nrole API" as host
     participant "Script 📃" as script
-    participant "Engine ⚙️" as engine
-    participant "Inbox 📨" as inbox
+    'participant "Engine ⚙️" as engine
+    'participant "Inbox 📨" as inbox
 end box
 participant "Hosted 📦" as hosted
 
-script -> engine: ASYNC 👷🏼
+script --> hosted: 👷🏼 ASYNC 🐌 Handle {task, uuid}
+activate hosted
 activate script
-activate engine
-    engine --> hosted:  Handle 🐌 {task, hook}
-    activate hosted
-    engine -> script: {hook}
-deactivate engine
+script --> user: ⏳ TEMP {started}
 
-script --> user: ⏪ TEMP ⏳ {started}
-
-script -> engine: WAIT 🧘 {hook}
+loop 
+    script -> script: 🧘 WAIT {uuid}
 deactivate script
 
-hosted --> inbox: Handled 🐌 {hook, partial}
-activate inbox
-    inbox -> script: REEL 🎣 {hook}
-deactivate inbox
+    hosted --> script: 🐌 Handled 🏁 RACE {uuid, status}
 
-activate script
-    script --> user: ⏪ TEMP ⏳ {running...}
-    script -> engine: REPEAT 🔁 
-    script -> engine: WAIT 🧘 {hook}
-deactivate script
-    
-    hosted --> inbox: Handled 🐌 {hook, done}
+    alt IF status is not DONE
+        activate script
+            script --> user: ⏳ TEMP {status...}
+            script -> script: REPEAT 🔁 
+        deactivate script
+    end alt
+        
+end loop
+
+    hosted --> script: 🐌 Handled 🏁 RACE {uuid, done}
 deactivate hosted
 
-activate inbox
-    inbox -> engine: REEL 🎣 {hook}
-deactivate inbox
-
-activate engine
-    engine -> script
-deactivate engine
-
 activate script 
-    script --> user: ⏪ DONE ✅ {done!}
+    script --> user: ✅ DONE {done!}
 deactivate script
 
 @enduml

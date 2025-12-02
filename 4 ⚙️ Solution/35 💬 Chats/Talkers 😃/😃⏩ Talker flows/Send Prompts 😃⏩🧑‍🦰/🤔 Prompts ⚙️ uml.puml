@@ -16,10 +16,10 @@ activate talker
     talker -> table: SAVE 💾 
 
     activate table
-        table --> wallet: Prompt @ Broker 🐌 {prompt}
-    activate wallet
         table -> talker: {prompt}
+        table --> wallet: Prompt @ Broker 🐌 {prompt}
     deactivate table
+    activate wallet
 
     
     alt Non-blocking 
