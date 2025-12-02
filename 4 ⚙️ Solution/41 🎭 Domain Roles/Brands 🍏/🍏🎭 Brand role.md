@@ -37,7 +37,7 @@
     | [Printer 🖨️](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) | To print the [NFC/QR Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) for the Brand's [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>).
     | [Wand 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | To order and manage the lifecycle of [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) for the Brand's [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>).
     | [Payer 💳](<../../45 🤲 Helper domains/Payers 💳/💳🤲 Payer helper.md>) | To pay for the services of the other [Helper 🤲 domains](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>).
-    | [Buffer ⏳](<../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) | To receive order updates from the [Wand 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) and the [Printer 🖨️](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) domains.
+    | [Buffer ⏳](<../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) | To receive order updates from the [Wand 🪄](<../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) and the [Printer 🖨️](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) domains.
 
     ---
 

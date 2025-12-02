@@ -1,6 +1,6 @@
 # 🔔🚀⏳ Confirm @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>)
+> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
 
 > Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream/🌬️⏩🔔 Stream.md>) flow
 
@@ -27,7 +27,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`|text| [Subscriber 🔔 domain](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>) name
-||`To`|text| [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
+||`To`|text| [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>) name
 ||`Subject`|text| `Confirm@Buffer`
 |Body | `Poll` | uuid | Confirmed Poll (optional)
 || `Messages`| uuid[] | Confirmed Messages (optional)
