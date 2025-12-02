@@ -25,7 +25,7 @@
 1. influence their [advertising](<../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) persona and contextual next-best actions;
 1. [search](<../2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/00 🔎 Searching index.md>), [interact](<../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/00 💬 Chatting index.md>), and pay for services in their language from any app;
 1. pay with their [preferred method](<../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/00 💳 Payments index.md>), regardless of where they are;
-1. manage all only debits and credits from a [central user experience](<../4 ⚙️ Solution/45 🤲 Helper domains/Billers 🤝/🤝🤲 Biller helper.md>).
+1. manage all only debits and credits from a [central user experience](<../4 ⚙️ Solution/45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>).
 1. can delegate business interactions to their AI assistants.
 
 💼 <a id='Businesses'>Businesses</a> (i.e., private sector)

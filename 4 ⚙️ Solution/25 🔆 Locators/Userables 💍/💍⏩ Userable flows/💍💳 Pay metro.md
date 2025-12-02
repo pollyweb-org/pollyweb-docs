@@ -6,7 +6,7 @@
     ![](<../. 📎 Assets/💍 Userable Railway.png>)
 
     Users can take the following steps in a chat with the railway:
-    - register for direct debit with the railway via a [Biller 🤝](<../../../45 🤲 Helper domains/Billers 🤝/🤝🤲 Biller helper.md>);
+    - register for direct debit with the railway via a [Biller 🤝](<../../../45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>);
     - download the railway [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>);
     - add the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) to the [Userable 💍](<../💍💠 Userable thing.md>) via the [Custodians 🧳](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>);
     - test the [Userable 💍](<../💍💠 Userable thing.md>) to see if the railway can see the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>);

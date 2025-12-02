@@ -27,7 +27,7 @@
     | Helper 🤲 | Example | Responsibilities
     |-|-|-
     | [👀 Ads](<../Advertisers 👀/👀🤲 Advertiser helper.md>) | GoogleAds | Intermediates ad workflows for [Brokers 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)
-    | [🤝 Biller](<../Billers 🤝/🤝🤲 Biller helper.md>) | ApplePay | Manages billing cycles between [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>)
+    | [🤝 Biller](<../Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>) | ApplePay | Manages billing cycles between [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>)
     | [🤵 Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | WhatsApp | Manages [Chats](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) between [Wallets 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) and [Hosts 🤗](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
     | [⏳ Buffer](<../Buffers ⏳/⏳🤲 Buffer helper.md>) | Kafka | Throttles [Streamers 🌬️](<../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) for [Subscribers 🔔](<../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>)
     | [🏦 Collector](<../Collectors 🏦/🏦🤲 Collector helper.md>) | CapitalOne | Collects money from [Payers 💳](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) for [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>)
@@ -48,7 +48,7 @@
     | [🤗 Host](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | To open [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with domain-admin users
     | [🪢 Integrator](<../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>)
     | [🗄️ Vault](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | To store user profiles with [`.HOST/BIND/SELF` 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>)
-    | [💵 Seller](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../Billers 🤝/🤝🤲 Biller helper.md>)
+    | [💵 Seller](<../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>)
     
 
     ---
@@ -59,7 +59,7 @@
 
     | [Helper 🤲](<🤲👥 Helper domain.md>)  | Purpose 
     |-|-
-    | [🤝 Biller](<../Billers 🤝/🤝🤲 Biller helper.md>) | To manage usage and subscription plans.
+    | [🤝 Biller](<../Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>) | To manage usage and subscription plans.
     | [🏦 Collector](<../Collectors 🏦/🏦🤲 Collector helper.md>) | To collect usage and subscription payments.
     
     ---
@@ -74,8 +74,8 @@
     |1| `Find` | [Find 🔎](<../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) a [Helper 🤲 ](<🤲👥 Helper domain.md>) with the desired services
     |2| `Chat` | [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with the Helper's [Host 🤗 role](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
     |3| `Bind`| [Bind 🔗](<../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the Helper's [Vault 🗄️ role](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>)
-    |4| `Bill` | Subscribe a plan in the Helper's [Biller 🤝](<../Billers 🤝/🤝🤲 Biller helper.md>)
-    |5| `Link` | Link a [Payer 💳](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) with the Helper's [Biller 🤝](<../Billers 🤝/🤝🤲 Biller helper.md>)
+    |4| `Bill` | Subscribe a plan in the Helper's [Biller 🤝](<../Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>)
+    |5| `Link` | Link a [Payer 💳](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) with the Helper's [Biller 🤝](<../Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>)
 
 
     ---
@@ -89,7 +89,7 @@
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Ready to register?](<../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>) [Yes, No] <br>- Your broker binds with us 🔗 <br/>- You choose a billing plan 🤝 <br/>- Your payer adds a method 💳 <br/>- Your identity signs the terms 🆔 | > Yes
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind Vault ⏩ flow.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../../7 🧩 Codes/$/🧩 VAULT code.md>) | > Yes 
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Allow guest domain?](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>) [Yes, No]  <br/> - Any Biller 🤝<br/>- [ Always ] for Any Helper 🤲 | > Always
-    | 🤝 [Biller](<../Billers 🤝/🤝🤲 Biller helper.md>) | 😃 What plan to subscribe? <br/>- [ Simple ] pay-as-you-go  <br/>- [ Monthly ] commitment | > Simple
+    | 🤝 [Biller](<../Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>) | 😃 What plan to subscribe? <br/>- [ Simple ] pay-as-you-go  <br/>- [ Monthly ] commitment | > Simple
     | 💳 [Payer](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Link to Any Biller? [Yes, No, +] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC 
     | 🆔 [Identity](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
     | 🆔 [Identity](<../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>)
