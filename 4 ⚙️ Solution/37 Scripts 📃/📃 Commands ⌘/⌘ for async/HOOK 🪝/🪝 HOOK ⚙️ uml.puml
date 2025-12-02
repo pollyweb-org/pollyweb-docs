@@ -3,7 +3,7 @@
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
     participant "HOOK 🪝" as hook
-    participant "Imprints 🪣" as imprints
+    'participant "Imprints 🪣" as imprints
     participant "Hooks 🪣" as hooks
 end box
 
@@ -14,7 +14,7 @@ activate script
 deactivate script
 
 activate hook
-    hook -> imprints: IMPRINT 🦶 {uuid}
+    'hook -> imprints: IMPRINT 🦶 {uuid}
     hook -> hooks: SAVE 💾 {uuid, script, line}
 
     alt in the present
@@ -23,7 +23,7 @@ activate hook
 
     else anytime later, in the future
         hook <-  : REEL 🎣 {uuid, output}
-        hook -> imprints: RECALL 🪶 {uuid}
+        'hook -> imprints: RECALL 🪶 {uuid}
         hook -> script : RETURN {output}
     end alt
     

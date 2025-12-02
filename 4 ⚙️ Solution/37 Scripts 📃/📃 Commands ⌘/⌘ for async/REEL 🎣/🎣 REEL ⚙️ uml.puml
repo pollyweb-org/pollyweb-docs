@@ -1,32 +1,28 @@
 @startuml Hook
 
-participant "Domain 👥" as domain
-
 box Talker 😃 domain #FFFFFA
-    participant "Inbox 📨" as inbox
-    participant ".REEL 📃" as reel
+    participant "Script 📃" as inbox
+    participant "REEL 🎣" as reel
     participant "Hooks 🪣" as hooks
-    participant "Imprints 🪣" as imprints
     participant "Caller 📃" as caller
 end box
 
-
-domain --> inbox: 🐌 {hook, out}
+'activate caller
+    caller -> hooks: HOOK 🪝 {uuid}
+'deactivate caller
 
 activate inbox
-    inbox -> reel:  REEL 🎣 {hook, out}
+    inbox -> reel:  REEL 🎣 {uuid, result}
 deactivate inbox
 
 activate reel
-    reel -> hooks: READ {hook}
+    reel -> hooks: READ 🧲 {uuid}
     
     activate hooks
-        hooks -> reel: {caller, script, holders}
+        hooks -> reel: {script, line}
     deactivate hooks
 
-    reel -> imprints: RECALL 🪶
-
-    reel -> caller: exit {script}  with {out}
+    reel -> caller: jump to HOOK 🪝 with {result}
 
 deactivate reel
 

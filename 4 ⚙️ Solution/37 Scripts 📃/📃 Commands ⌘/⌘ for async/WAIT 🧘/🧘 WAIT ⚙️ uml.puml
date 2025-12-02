@@ -1,34 +1,44 @@
 @startuml Handle
 
 box Talker 😃 domain #FFFFFA
-    participant "Script 📃" as script
-    participant ".WAIT 📃" as wait
-    participant "Holders 🪣" as holders
-    participant "Hooks 🪣" as hooks
-    participant "Engine ⚙️" as engine
+    participant "Caller 📃" as script
+    participant "WAIT 🧘" as wait
+    participant "Imprints 🪣" as imprints
+    participant "Waits 🪣" as waits
 end box
-
+participant "Alarm ⏰" as alarm
 
 activate script
-    script -> wait: WAIT 🧘 {hook} 
+    script -> wait: WAIT 🧘 {uuid} 
 deactivate script
 
 activate wait
+    wait -> imprints: IMPRINT 🦶 {uuid}
 
-    wait -> hooks: SAVE 💾 {hook, $.Script, $.Holders.Holder}
+    wait -> waits: 💾 {WAIT, uuid}
+    activate waits
+        waits -> alarm: 🐌 Trigger {uuid}
+    deactivate waits
+    activate alarm
 
-    wait -> wait: PARALLEL {$.Holders}
-    activate wait
-        wait -> holders: SAVE 💾 {hook, holder, value}
-        wait -> engine: EXIT
-    deactivate wait
-
+    wait -> wait: HOOK 🪝 {uuid}
 deactivate wait
 
-engine <- : REEL 🎣 {hook, return}
-activate engine
-    engine -> script: RETURN {return}
-deactivate engine
+
+
+    alarm -> waits: 🔔 Timeout 💾 {TIMEOUT}
+deactivate alarm
+
+activate waits
+    waits <- : 🏁 RACE 💾 {RACE, result}
+    waits -> imprints: RECALL 🪶 {uuid}
+    waits -> wait: REEL 🎣 {uuid, result} (or empty)
+deactivate waits
+
+activate wait
+    wait -> script: RETURN {result}
+deactivate wait
+
 
 activate script    
     

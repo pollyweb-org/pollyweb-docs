@@ -28,7 +28,7 @@ activate recall
         recall -> holders: READ  🧲 {uuid, holder}
 
         activate holders
-            holders -> recall: PUT {holder, value}
+            holders -> recall: IF IsEmpty, PUT {holder, value} 
         deactivate holders
 
     deactivate recall
