@@ -1,21 +1,19 @@
 @startuml Wallet: Share Token
 
 
-actor User as user
-participant "Graph 🕸\ndomain" as graph
-'participant "Wallet 👱\napp" as wallet
-'participant "Notifier 📣\nbff" as notifier
-participant "Broker 🤵\ndomain" as broker
-participant "Issuer 🎴\ndomain" as issuer
-participant "Consumer 💼\ndomain" as consumer
-
+participant "Issuer 🎴" as issuer
+participant "Wallet 👱" as user
+participant "Consumer 💼" as consumer
+participant "Broker 🤵" as broker
+participant "Graph 🕸" as graph
+'participant "Notifier 📣" as notifier
 
 
 ' --------------------
 ' QUERY
 ' --------------------
 
-user <-- issuer: 1) ⏪ Save Token 
+user <-- issuer: 1) Save Token ⏩
 
 user --> consumer: 2)  Share Token ⏩
 

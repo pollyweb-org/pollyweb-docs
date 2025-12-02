@@ -52,6 +52,7 @@ Successful Tests:
     LinkFile: "🫥🗄️ Agent vault.md"
     Reasons: This is hardcoded.
 
+  # 🐌 Async Messages
   - Given: "{{Async Messages}}"
     LinkText: "Async Messages 🐌"
     LinkFile: "Async Messages 🐌.md"
@@ -69,6 +70,16 @@ Successful Tests:
   - Given: '{{Authorities}}'
     LinkText: "Authority 🏛️ domains"
     LinkFile: "🏛️🤲 Authority helper.md"
+    Reasons: This is hardcoded.
+
+  # 🤝🤲 Biller helper
+  - Given: '{{Biller}}'
+    LinkText: "Biller 🤝 domain"
+    LinkFile: "🤝🤲 Biller helper.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Billers}}'
+    LinkText: "Biller 🤝 domains"
+    LinkFile: "🤝🤲 Biller helper.md"
     Reasons: This is hardcoded.
 
   # 🔗 Bind
@@ -171,6 +182,7 @@ Successful Tests:
     LinkFile: "📦👥 Hosted domain.md"
     Reasons: This is hardcoded.
 
+  # ☁️ Hoster helper domain
   - Given: "{{Hoster}}"
     LinkText: "Hoster ☁️ helper domain"
     LinkFile: "☁️🤲 Hoster helper.md"
@@ -180,11 +192,11 @@ Successful Tests:
     LinkFile: "☁️🤲 Hoster helper.md"
     Reasons: This is hardcoded.
 
+  # 🛢 Itemizer helper domain
   - Given: '{{Itemized dataset}}'
     LinkText: "Itemized 🛢 dataset"
     LinkFile: "Itemized 🛢 dataset.md"
     Reasons: This is hardcoded.
-
   - Given: "{{Itemizer}}"
     LinkText: "Itemizer 🛢 helper domain"
     LinkFile: "🛢🤲 Itemizer helper.md"
@@ -194,6 +206,7 @@ Successful Tests:
     LinkFile: "🛢🤲 Itemizer helper.md"
     Reasons: This is hardcoded.
 
+  # 🧠 List holder
   - Given: '{{list}}'
     LinkText: "list"
     LinkFile: "🧠 List holders.md"
@@ -207,6 +220,7 @@ Successful Tests:
     LinkFile: "🧠 List holders.md"
     Reasons: This is hardcoded.
 
+  # 🔆 Locator
   - Given: '{{Locator}}'
     LinkText: "Locator 🔆"
     LinkFile: "🔆 Locator.md"
@@ -216,6 +230,7 @@ Successful Tests:
     LinkFile: "🔆 Locator.md"
     Reasons: This is hardcoded.
 
+  # 🪵 Logger helper domain
   - Given: "{{Logger}}"
     LinkText: "Logger 🪵 helper domain"
     LinkFile: "🪵 Logger 🤲 helper.md"
@@ -247,6 +262,7 @@ Successful Tests:
     LinkFile: "🧠 Map holders.md"
     Reasons: This is hardcoded.
 
+  # 🧠 Bool holder
   - Given: '{{bool}}'
     LinkText: "bool"
     LinkFile: "Bool holders.md"
@@ -260,6 +276,7 @@ Successful Tests:
     LinkFile: "Bool holders.md"
     Reasons: This is hardcoded.
 
+  # 📣 Notifier domain
   - Given: '{{Notifier}}'
     LinkText: "Notifier 📣 domain"
     LinkFile: "📣 Notifier 👥 domain.md"
@@ -283,6 +300,7 @@ Successful Tests:
     LinkFile: "🧠 Num holders.md"
     Reasons: This is hardcoded.
 
+  # 🧠 Period holder
   - Given: '{{Period}}'
     LinkText: "Period 🧠 holder"
     LinkFile: "Period holders.md"
@@ -292,6 +310,7 @@ Successful Tests:
     LinkFile: "Period holders.md"
     Reasons: This is hardcoded.
 
+  # 🧢 Persona agent
   - Given: "{{Persona}}"
     LinkText: "Persona 🧢 agent"
     LinkFile: "🧢🫥 Persona agent.md"

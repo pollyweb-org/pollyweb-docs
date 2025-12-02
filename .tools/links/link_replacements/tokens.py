@@ -252,6 +252,8 @@ COMMANDS_REPLACEMENT = "[Commands ⌘](<Command ⌘.md>)"
 BROKER_REPLACEMENT = "[Broker 🤵 domain](<🤵 Broker 🤲 helper.md>)"
 SELLER_REPLACEMENT = "[Seller 🎭 domain](<💵🎭 Seller role.md>)"
 SELLERS_REPLACEMENT = "[Seller 🎭 domains](<💵🎭 Seller role.md>)"
+BILLER_REPLACEMENT = "[Biller 🤝 domain](<🤝🤲 Biller helper.md>)"
+BILLERS_REPLACEMENT = "[Biller 🤝 domains](<🤝🤲 Biller helper.md>)"
 SUBSCRIBER_REPLACEMENT = "[Subscriber 🔔 domain](<../Subscribers 🔔/🔔🎭 Subscriber role.md>)"
 SUBSCRIBERS_REPLACEMENT = "[Subscriber 🔔 domains](<../Subscribers 🔔/🔔🎭 Subscriber role.md>)"
 STREAMER_REPLACEMENT = "[Streamer 🌬️ domain](<🌬️🎭 Streamer role.md>)"
@@ -897,6 +899,18 @@ for fname, lit, key, repl, label in _GEN_BASIC:
 def replace_broker_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Broker`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, BROKER_REPLACEMENT)
+
+
+@register_hardcoded("biller", replacement=BILLER_REPLACEMENT, token_label="Biller")
+def replace_biller_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Biller`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, BILLER_REPLACEMENT)
+
+
+@register_hardcoded("billers", replacement=BILLERS_REPLACEMENT, token_label="Billers")
+def replace_billers_tokens(md_files):
+    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Billers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
+    return _replace_simple(md_files, pattern, BILLERS_REPLACEMENT)
 
 
 @register_hardcoded("seller", replacement=SELLER_REPLACEMENT, token_label="Seller")
