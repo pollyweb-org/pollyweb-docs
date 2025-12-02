@@ -4,9 +4,9 @@
 
 ## FAQ
 
-1. **What's an CALL command?**
+1. **What is the CALL command?**
 
-    An `CALL` 🧮
+    `CALL` 🧮
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that evaluates a `.` prefixed [Built-in 🐍 function](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * or a customized [Code 🐍 function](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>)
