@@ -4,7 +4,7 @@
 
 ## Flow diagram
 
-![alt text](<⚙️ Bind Biller.png>)
+![alt text](<🤝 Bind Biller ⚙️ uml.png>)
 
 | # | Call | Notes
 |-|-|-|
