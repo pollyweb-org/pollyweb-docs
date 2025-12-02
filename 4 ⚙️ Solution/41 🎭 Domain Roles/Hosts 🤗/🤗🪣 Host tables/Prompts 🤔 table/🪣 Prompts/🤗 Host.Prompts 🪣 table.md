@@ -45,22 +45,33 @@ Handlers:
 
 <br/>
 
+Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
+
 ```yaml
 Asserts:
-    AllOf: Text, Format
+    
+    # Item validations
+    AllOf: Text, Format, OnReply
     Texts: Text, Format, Details, Emoji
     Lists: Options
     UUIDs: Appendix  
     Nums: MinValue, MaxValue
+
+    # Specific input field validation
     Emoji.Length: 1
     MinValue.IsBelow: MaxValue
     Text.Length.IsBelow: 250
     Details.Length.IsBelow: 2500
+    OnReply.IsIn: REAL, RACE, NOTHING
     
-    # Options validation
+    # Input options validation
     Options.Each.AllOf: ID, Title
-    Options.Each.AreTexts: ID, Title, Locator
+    Options.Each.Texts: ID, Title, Locator
+
+    # Reply validations
+    Answer.Length.IsBelow: 5000
 ```
+Uses: [`.Each`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Each ⓕ.md>) [`.IsBelow`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsBelow ⓕ.md>) [`.AllOf`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>) [`.Texts`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Texts ⓕ.md>) [`.Length`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>) [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
 
 <br/>
 
