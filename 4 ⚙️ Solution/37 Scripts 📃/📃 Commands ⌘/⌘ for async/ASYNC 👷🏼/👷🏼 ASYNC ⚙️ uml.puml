@@ -2,21 +2,20 @@
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant ".ASYNC 📃" as async
+    participant "ASYNC 👷🏼" as async
 end box
 
 participant "Hosted 📦" as hosted
 
 
 activate script
-    script -> async: ASYNC {task, inputs} 
+    script -> async: ASYNC 👷🏼 {uuid, task, inputs} 
 deactivate script
 
 activate async
-    async -> async: hook: {.UUID}
-    async --> hosted: SEND {Handle 🐌 task, hook, inputs}
+    async --> hosted: SEND 📬 {Handle 🐌 task, uuid, inputs}
     activate hosted
-    async -> script: RETURN {hook}
+    async -> script: 
 deactivate async
 activate script
           

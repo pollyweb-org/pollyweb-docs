@@ -105,7 +105,7 @@ TODO: Add the flow to the Manifest
 || ✅ [`DONE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) | Ask to pick the item
 || ❌ [`FAIL`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) | To show in case of error
 |Flow| ⤵️ [`IF`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) | To see if 21+ check is needed
-||🧮 [`CALL`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) | To deduct the value on errors
+||🧮 [`CALL`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) | To deduct the value on errors
 ||🪵 [`LOG`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) | To log eventual errors
 |Message| 💼 [`SHARE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>) | Ask for proof of over 21
 || 💳 [`CHARGE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>) | Charge the item price

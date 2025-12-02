@@ -94,7 +94,7 @@
         B.IsBetween: 20, 29
         C.IsIn: X, Y
     ```
-    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ.md>) [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
+    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`.IsBetween`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsBetween ⓕ.md>) [`.IsIn`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
 
     ---
     <br/>
@@ -104,7 +104,7 @@
 
 1. **How to append into lists?**
 
-    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>).
+    Using the [`.Append`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Append ⓕ.md>) or [`.Add` functions](<../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) with [`CALL`](<../../📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>).
     
     ```yaml   
     ┌────────────────────────┬─────────────┐
@@ -205,7 +205,7 @@
 1. **How to take some properties from a [List 🧠](<🧠 List holders.md>) of [Map 🧠](<🧠 Map holders.md>)?**
   
     Using the [`.Format` function](<../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>) in one of 3 forms:
-    * with the [`CALL` commands](<../../📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>),
+    * with the [`CALL` commands](<../../📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>),
     * or as `$holder.property` for a single property on [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>),
     * or as `$holder(prop-1, prop-N)` for a multiple properties.
     

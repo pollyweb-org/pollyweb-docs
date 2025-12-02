@@ -21,13 +21,13 @@
     |Syntax| Behavior
     |-|-|
     | `SET\|$in: *` | Changes a [Map 🧠 holder](<../../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) with [`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`>> $in: $in,*`
+    || Equals [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`>> $in: $in,*`
     |`SET\|$in.f(*)`| Sets a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) to the [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) result
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`($in,$in.f(*)) >> $in`
+    || Equals [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`($in,$in.f(*)) >> $in`
     | `SET\|$in >> $out` | Adds `$in` to `$out`
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`($out,$in) >> $out`
+    || Equals [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`($out,$in) >> $out`
     | `SET\|$in >> $out: *` | Adds parts of `$in` into `$out`
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`>> $out: $in,*`
+    || Equals [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Set`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Set ⓕ.md>)`>> $out: $in,*`
     | `SET\|* >> $out` | Replaces the content of `$out` with `*`
     || Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|* >> $out`
     

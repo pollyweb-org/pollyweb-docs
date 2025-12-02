@@ -24,18 +24,18 @@
     | `PUT\|*{$in}* >> $out` | Interpolates [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) into a [Text 🧠 holder](<../../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)
     || Equals `PUT >> $out: *{$in}*`    
     | `PUT\|$obj >> $out: *` | Formats [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) properties with [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>)
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>)` >> $out: $obj,*`
+    || Equals [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>)` >> $out: $obj,*`
     | `PUT\|$lst >> $out: *` | Formats a [List 🧠 holder](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) with [`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>)
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>)` >> $out: $lst,*`
+    || Equals [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>)` >> $out: $lst,*`
     | `PUT\|* +> $lst` | Appends items to a [List 🧠 holder](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>)
     || Equals `PUT +> $lst: *`
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>)` >> $lst: $lst,*`
+    || Equals [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>)` >> $lst: $lst,*`
     `PUT\|$l1,$l2 >> $out` | Merges two [List 🧠 holders](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) with [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>)
     || Equals `PUT >> $out: $l1 $l2`
-    || Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>)` >> $out: $l1,$l2`  
+    || Equals [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|`[`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>)` >> $out: $l1,$l2`  
     | `PUT\|* >> $out` | Puts any other content in a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
     || Equals `PUT >> $out: *` 
-    | `PUT\|.f >> $out: *` | Equals [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|.f >> $out: *`  
+    | `PUT\|.f >> $out: *` | Equals [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)`\|.f >> $out: *`  
     | `PUT\|$in: *` | Equals [`SET`](<../SET ↘️/↘️ SET ⌘ cmd.md>)`\|$in: *` 
 
     ---
@@ -109,7 +109,7 @@
     - INFO|$intro
     ```
 
-    Uses: [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Uses: [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
