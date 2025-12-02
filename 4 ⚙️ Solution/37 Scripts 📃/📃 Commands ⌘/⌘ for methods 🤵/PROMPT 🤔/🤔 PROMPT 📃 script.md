@@ -9,14 +9,14 @@
 
 ## Blocking prompts
 
-![alt text](<🤔 Prompts (block) ⚙️ uml.png>)
+![alt text](<🤔 PROMPT (block) ⚙️ uml.png>)
 
 <br/>
 
 
 ## Non-blocking status prompts
 
-![alt text](<🤔 Prompts (status) ⚙️ uml.png>)
+![alt text](<🤔 PROMPT (status) ⚙️ uml.png>)
 
 <br/>
 
