@@ -4,17 +4,17 @@ import re
 
 _LINK_PATTERNS = [
     re.compile(r"\[.*?\]\(([^)]+\.md)\)"),
-    re.compile(r"\[.*?\]\(<?([^)>]+\.md)>?\)"),
+    re.compile(r"\[.*?\]\(\s*<?([^>#]+\.md)>?\s*\)"),
     re.compile(r"\[.*?\]\(([^)]+\.png)\)"),
-    re.compile(r"\[.*?\]\(<?([^)>]+\.png)>?\)"),
+    re.compile(r"\[.*?\]\(\s*<?([^>#]+\.png)>?\s*\)"),
     re.compile(r"\[.*?\]\(([^)]+\.jpg)\)"),
-    re.compile(r"\[.*?\]\(<?([^)>]+\.jpg)>?\)"),
+    re.compile(r"\[.*?\]\(\s*<?([^>#]+\.jpg)>?\s*\)"),
     re.compile(r"\[.*?\]\(([^)]+\.pdf)\)"),
-    re.compile(r"\[.*?\]\(<?([^)>]+\.pdf)>?\)"),
-    re.compile(r"!\[\]\(([^)]+?\.(?:png|pdf))\)"),
+    re.compile(r"\[.*?\]\(\s*<?([^>#]+\.pdf)>?\s*\)"),
+    re.compile(r"!\[\]\(\s*<?([^>#]+?\.(?:png|pdf))>?\s*\)"),
 ]
 
-_GENERIC_LINK_RE = re.compile(r"(?<!!)\[.*?\]\(<?([^)>#]+)>?\)")
+_GENERIC_LINK_RE = re.compile(r"(?<!!)\[.*?\]\(\s*<?([^>#]+)>?\s*\)")
 _GENERIC_EXT_RE = re.compile(r"\.(md|png|jpg|pdf)$", re.IGNORECASE)
 
 _MALFORMED_PATTERNS = [
