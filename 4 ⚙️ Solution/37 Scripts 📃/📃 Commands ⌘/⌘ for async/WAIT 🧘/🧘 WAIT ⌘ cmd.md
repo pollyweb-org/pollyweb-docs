@@ -1,11 +1,9 @@
 # 😃🧘 Talker `WAIT` flow 
 
-> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+> About
+* Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+* Used by [`Async` ⏩ flow](<../../../../35 💬 Chats/Talkers 😃/😃⏩ Talker flows/Long Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>)
 
-> Used by
-* [`Async` ⏩ flow](<../../../../35 💬 Chats/Talkers 😃/😃⏩ Talker flows/Long Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>)
-
-<br/>
 
 ## FAQ
 
@@ -14,8 +12,7 @@
     A [`WAIT` 🧘](<🧘 WAIT ⌘ cmd.md>)
     * is a flow [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that pauses the flow for a period of time 
-    * or until triggered by the [`REEL` 🎣 command](<../../⌘ for async/REEL 🎣/🎣 REEL ⌘ cmd.md>)
-    * or by the [`Handled@Talker` 🅰️ method](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
+    * or until triggered by the [`RACE`](<../RACE 🏁/🏁 RACE ⌘ cmd.md>) command.
 
     ---
     <br/>

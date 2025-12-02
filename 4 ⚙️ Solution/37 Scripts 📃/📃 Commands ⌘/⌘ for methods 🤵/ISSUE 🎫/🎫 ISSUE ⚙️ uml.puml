@@ -3,9 +3,8 @@
 
 box Issuer 🎴️ domain #FFFFFA
     participant "Script 📃" as script
-    participant ".ISSUE 📃" as talker
+    participant "ISSUE ⌘" as talker
     participant "Tokens 🪣" as hooks
-    participant "Inbox 📥" as issuer 
 end box
 
 participant "Broker 🤵" as broker
@@ -18,7 +17,8 @@ deactivate script
 activate talker
     talker -> hooks: SAVE 💾 
 activate hooks
-    talker -> talker: WAIT 🧘
+    hooks --> talker: {token}
+    talker -> talker: WAIT 🧘 {token.ID}
 deactivate talker
 
     hooks --> broker: SEND 📬 {Offer 🐌}
@@ -29,26 +29,16 @@ activate broker
 deactivate broker
 
 activate wallet
-    wallet -> issuer: Issued 🚀 
-
-    activate issuer
-        issuer -> hooks: READ 🧲 
-        issuer -> wallet: 
-    deactivate issuer
-
+    wallet -> hooks: Issued 🚀 READ 🧲 
     wallet --> broker: Saved 🐌
 deactivate wallet
 
 activate broker
-    broker --> issuer: Offered 🐌 
+    broker --> hooks: 🐌 Offered 💾 OFFERED
 deactivate broker
 
-activate issuer
-    issuer --> hooks: SAVE 💾 
-deactivate issuer
-
 activate hooks
-    hooks -> talker: REEL 🎣 
+    hooks -> talker: RACE 🏁 
 deactivate hooks
 
 activate talker

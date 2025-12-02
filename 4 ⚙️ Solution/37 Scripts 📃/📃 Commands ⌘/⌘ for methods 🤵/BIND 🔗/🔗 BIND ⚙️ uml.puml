@@ -12,13 +12,14 @@ participant "Broker 🤵" as broker
 
 
 activate script
-    script -> bind: BIND 🔗
+    script -> bind: BIND {schema}
 deactivate script
 
 activate bind
-    bind -> binds: SAVE 💾 {OFFERED}
+    bind -> binds: 💾 {OFFERED, schema}
 activate binds
-    bind -> bind: WAIT 🧘 {.ID}
+    binds -> bind: {bind}
+    bind -> bind: WAIT 🧘 {bind.ID}
 deactivate bind
     binds --> broker: Bind 🐌
 deactivate binds
@@ -28,11 +29,11 @@ activate broker
 deactivate broker
 
 activate binds
-    binds -> bind: REEL 🎣 {.ID, Schema}
+    binds -> bind: RACE 🏁 {bind}
 deactivate binds
 
 activate bind
-    bind -> script: {schema}
+    bind -> script: {bind}
 deactivate bind
 
 activate script
