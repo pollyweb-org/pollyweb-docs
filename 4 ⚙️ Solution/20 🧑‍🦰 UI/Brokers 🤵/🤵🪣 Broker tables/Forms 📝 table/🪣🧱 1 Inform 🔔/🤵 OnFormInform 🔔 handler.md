@@ -32,9 +32,9 @@
         To: $.Hosted.Graph
         Subject: Form@Graph
     Body:
-        Form: $Form.Name
-        Domain: $From.Consumer
-        Language: $Form.Chat.Language
+        Form: $Form.Name.Require
+        Domain: $Form.Consumer.Require
+        Language: $Form.Chat.Language.Require
 
 # Set the chat language and context
 - CHAT|$Form.Chat 
@@ -43,8 +43,8 @@
 - CONFIRM: 
     Text: >
         Continue?
-        **´{$form.Title}´**
-        ´{$form.Steps.Purpose}´
+        **´{$form.Title.Require}´**
+        ´{$form.Steps.Purpose.Require}´
     Details: ´$form.Details´
 
 # Set the form on the Chat
@@ -62,5 +62,6 @@
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) [`INFO`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`CONFIRM`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)  [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Forms`](<../🪣 Forms/🤵 Broker.Forms 🪣 table.md>)
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Require`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Require ⓕ.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Form@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form/🕸 Form 🚀 call.md>)
 |

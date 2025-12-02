@@ -23,13 +23,14 @@
         To: $Share.Consumer
         Subject: Collect@Consumer
     Body:
-        Hook: $Share.Hook   # Consumer hook 
-        Share: $Share.ID    # Vault share hook
-        Schema: $Share.Bind.Schema
+        Hook: $Share.Hook.Require   # Consumer hook 
+        Share: $Share.ID.Require    # Vault share hook
+        Schema: $Share.Bind.Schema.Require
 ```
 
 |Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) 
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Require`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Require ⓕ.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Consume@Consumer` 🅰️ method](<../../../../Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 |

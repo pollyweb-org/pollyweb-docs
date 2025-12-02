@@ -29,7 +29,7 @@
         To: $Token.Issuer
         Subject: Removed@Issuer
     Body:
-        Token: $Token
+        Token: $Token.Token.Require
 
 # Inform the Notifier
 - SEND:
@@ -37,13 +37,14 @@
         To: $Token.Wallet.Notifier
         Subject: Removed@Notifier
     Body:
-        Issuer: $Token.Issuer
-        Path: $Token.Path
+        Issuer: $Token.Issuer.Require
+        Path: $Token.Path.Require
 ```
 
 Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) |
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Tokens`](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) [`Broker.Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Require`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Require ⓕ.md>)
 | [Messages 📨](<../../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Removed@Issuer` 🅰️ method](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🅰️ Issuer methods/Removed 🤵🐌🎴/🎴 Removed 🐌 msg.md>) <br/> [`Remove@Notifier` 🅰️ method](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>)
 |
