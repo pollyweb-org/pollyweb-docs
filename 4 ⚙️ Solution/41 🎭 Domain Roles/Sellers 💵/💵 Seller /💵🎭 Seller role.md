@@ -49,7 +49,7 @@
 
     |Workflow|Description
     |-|-
-    | [🧑‍🦰 Charge users](<../💵⏩ Seller flows/Charge 💵⏩🧑‍🦰.md>) | How Sellers 💵 charge users.
+    | [🧑‍🦰 Charge users](<../💵⏩ Seller flows/Charge 💵⏩🧑‍🦰/💵 Charge ⏩ flow.md>) | How Sellers 💵 charge users.
     
     ---
 
@@ -57,6 +57,6 @@
 
     |Message|Description
     |-|-
-    | [🐌 Paid](<../Charge 💵⏩🧑‍🦰/💵🅰️ Seller methods/Paid 🏦🐌💵.md>) | The [Collector 🏦 helper](<../../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) confirms the payment.
+    | [🐌 Paid](<../💵🅰️ Seller methods/Paid 🏦🐌💵/💵 Paid 🐌 msg.md>) | The [Collector 🏦 helper](<../../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) confirms the payment.
 
     ---

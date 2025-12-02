@@ -9,8 +9,8 @@
 
 ## About
 
-- Flow: [Charge 💵👉🧑‍🦰 ](<../../../../41 🎭 Domain Roles/Sellers 💵/💵⏩ Seller flows/Charge 💵⏩🧑‍🦰.md>)
-- Previous: [Charge 💵👉🧑‍🦰](<../../../../41 🎭 Domain Roles/Sellers 💵/💵⏩ Seller flows/Charge 💵⏩🧑‍🦰.md>)
+- Flow: [Charge 💵👉🧑‍🦰 ](<../../../../41 🎭 Domain Roles/Sellers 💵/💵⏩ Seller flows/Charge 💵⏩🧑‍🦰/💵 Charge ⏩ flow.md>)
+- Previous: [Charge 💵👉🧑‍🦰](<../../../../41 🎭 Domain Roles/Sellers 💵/💵⏩ Seller flows/Charge 💵⏩🧑‍🦰/💵 Charge ⏩ flow.md>)
 - Next: [Charge@Notifier 🤵💵🐌📣](<../../../Notifiers 📣/📣🅰️ Notifier methods/Payments 💳 Charge 🤵🐌📣/📣 Charge 🐌 msg.md>)
 
 
