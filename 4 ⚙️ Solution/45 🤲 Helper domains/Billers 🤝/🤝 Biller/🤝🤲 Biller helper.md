@@ -19,8 +19,8 @@
 
     | Flow | Details
     |-|-
-    | [🧑‍🦰 User subscriptions](<../🤝⏩ Biller flows/🧑‍🦰⏩🤝 User Subscription/🤝 User Subscription ⏩ flow.md>) | Users agree to be charged in a billing plan.
-    | [👥 Domain subscriptions](<../🤝⏩ Biller flows/👥⏩🤝 Domain Subscription/🤝 Domain Subscription ⏩ flow.md>) | Domains agree to be charged in a plan.
+    | [🧑‍🦰 User subscriptions](<../🤝⏩ Biller flows/User Subscription 🧑‍🦰⏩🤝/🤝 User Subscription ⏩ flow.md>) | Users agree to be charged in a billing plan.
+    | [👥 Domain subscriptions](<../🤝⏩ Biller flows/Domain Subscription 👥⏩🤝/🤝 Domain Subscription ⏩ flow.md>) | Domains agree to be charged in a plan.
 
     --- 
     <br/>
