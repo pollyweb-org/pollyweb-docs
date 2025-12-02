@@ -29,7 +29,7 @@ deactivate alarm
 
 activate waits
     waits <- : 🏁 RACE 💾 {RACE, result}
-    waits -> imprints: RECALL 🪶 {uuid}
+    'waits -> imprints: RECALL 🪶 {uuid}
     waits -> wait: REEL 🎣 {uuid, result} (or empty)
 deactivate waits
 
