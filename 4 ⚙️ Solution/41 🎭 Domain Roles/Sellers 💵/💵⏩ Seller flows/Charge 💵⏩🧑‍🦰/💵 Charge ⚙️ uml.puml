@@ -5,10 +5,11 @@
 
 participant "Seller 💵" as seller
 participant "Broker 🤵" as broker
-participant "Notifier 📣" as notifier
-participant "Wallet 👱" as wallet
-actor User as user
 participant "Payer 💳" as payer
+participant "Wallet 👱" as wallet
+participant "Collector 🏦" as collector
+participant "Notifier 📣" as notifier
+actor User as user
 participant "Graph 🕸" as graph
 
 
@@ -16,12 +17,40 @@ participant "Graph 🕸" as graph
 group Ask for the bill
 
 activate seller
-seller --> broker: charge@
+    seller --> collector: Register 🐌
+    seller --> broker: Charge 🐌 
 deactivate seller
 
-  activate broker
-  broker --> notifier: charge@
-  deactivate broker
+activate broker
+    broker --> payer: 🐌 Disclose @ Vault
+deactivate broker
+
+activate payer
+    payer --> wallet: ONE 🤔 "how to pay?"
+deactivate payer
+
+activate wallet
+    wallet -> seller: 🚀 Download @ Host {bill}
+    wallet --> payer: 🐌 Reply @ Host 
+deactivate wallet
+
+activate payer
+    payer -> payer: transfer funds 💵
+    payer --> collector: 🐌 Consume @ Consumer
+deactivate payer
+
+activate collector
+    collector -> payer: Collect @ Vault 🚀 {transfer proof}
+    collector --> seller: 🐌 Consume @ Consumer
+deactivate collector
+
+activate seller
+    seller -> collector: Collect @ Vault 🚀 {transfer proof}
+deactivate seller
+
+activate broker
+    broker --> notifier: charge@
+deactivate broker
 
     activate notifier
     notifier --> wallet

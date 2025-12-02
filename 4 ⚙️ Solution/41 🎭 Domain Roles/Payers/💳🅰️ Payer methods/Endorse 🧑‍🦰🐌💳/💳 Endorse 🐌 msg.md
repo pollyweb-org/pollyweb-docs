@@ -4,7 +4,7 @@
 
 # 🧑‍🦰🐌💳 Endorse @ [Payer](<../../💳🎭 Payer role.md>)
 
-> Used in [Charge 💵👉🧑‍🦰](<../../../Sellers 💵/💵⏩ Seller flows/Charge 💵⏩🧑‍🦰.md>)
+> Used in [Charge 💵👉🧑‍🦰](<../../../Sellers 💵/💵⏩ Seller flows/Charge 💵⏩🧑‍🦰/💵 Charge ⏩ flow.md>)
 
 <br/>
 
@@ -41,5 +41,5 @@ Body:
 | `Broker` |text| [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) name.
 | `Locator` |text| [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
 | `Chat` | uuid | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID.
-| `Charge` | object | [Charge 💵](<../../../Sellers 💵/💵⏩ Seller flows/Charge 💵⏩🧑‍🦰.md>) flow.
+| `Charge` | object | [Charge 💵](<../../../Sellers 💵/💵⏩ Seller flows/Charge 💵⏩🧑‍🦰/💵 Charge ⏩ flow.md>) flow.
 |
