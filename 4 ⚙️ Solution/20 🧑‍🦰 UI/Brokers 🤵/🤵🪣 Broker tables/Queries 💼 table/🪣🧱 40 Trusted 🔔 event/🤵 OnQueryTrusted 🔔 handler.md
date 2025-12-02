@@ -1,6 +1,10 @@
 # 🤵 OnQueryTrusted 🔔 handler
 
 
+> About
+* Part of the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) role
+* Part of the [`Broker.Queries` 🪣 table](<../🪣 Queries/🤵 Broker.Queries 🪣 table.md>)
+
 
 <br/>
 
@@ -42,7 +46,7 @@
             Selected: $selected
     Else:
         SAVE|$Query:
-            .State: REJECTED 
+            .State: UNSELECTED 
 ```
 
 Uses ||

@@ -1,6 +1,12 @@
 # 🤵 OnQueryMatched 🔔 handler
 
 
+> About
+* Part of the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) role
+* Part of the [`Broker.Queries` 🪣 table](<../🪣 Queries/🤵 Broker.Queries 🪣 table.md>)
+
+<br/>
+
 ## Diagram
 
 ![alt text](<🤵 OnQueryMatched ⚙️ uml.png>)
