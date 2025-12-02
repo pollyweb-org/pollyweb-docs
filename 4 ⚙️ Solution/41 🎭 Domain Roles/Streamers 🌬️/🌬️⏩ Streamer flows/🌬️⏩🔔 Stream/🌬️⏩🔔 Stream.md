@@ -12,12 +12,12 @@
 
 | # | Call | Notes
 |-|-|-
-|1| [🔔🚀⏳ `Queue@Buffer`](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>) | [Subscribers 🔔](<../../../Subscribers 🔔/🔔🎭 Subscriber role.md>) create a [Buffer ⏳](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) queue
-|2| [🔔🐌🌬️ `Subscribe@Streamer`](<../../🌬️🅰️ Streamer methods/🔔🐌🌬️ Subscribe.md>) | [Subscribers 🔔](<../../../Subscribers 🔔/🔔🎭 Subscriber role.md>) subscribe to [Streamers 🌬️](<../../🌬️🎭 Streamer role.md>)
+|1| [🔔🚀⏳ `Queue@Buffer`](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>) | [Subscribers 🔔](<../../../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) create a [Buffer ⏳](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) queue
+|2| [🔔🐌🌬️ `Subscribe@Streamer`](<../../🌬️🅰️ Streamer methods/🔔🐌🌬️ Subscribe.md>) | [Subscribers 🔔](<../../../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) subscribe to [Streamers 🌬️](<../../🌬️🎭 Streamer role.md>)
 | 3 | [🌬️🐌⏳ `Push@Buffer`](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🌬️🐌⏳ Push.md>) | [Streamers 🌬️](<../../🌬️🎭 Streamer role.md>) push to [Buffers ⏳](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>)
-| 4 | [⏳🐌🔔 `Wake-up@Subscriber`](<../../../Subscribers 🔔/🔔🅰️ Subscriber methods/⏳🐌🔔 Wake-up.md>) | [Buffers ⏳](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) wake up [Subscribers 🔔](<../../../Subscribers 🔔/🔔🎭 Subscriber role.md>)
-| 5 | [🔔🚀⏳ `Poll@Buffer`](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🚀⏳ Poll.md>) | [Subscribers 🔔](<../../../Subscribers 🔔/🔔🎭 Subscriber role.md>) poll all buffered messages
-|6| [🔔🚀⏳ `Confirm@Buffer`](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🚀⏳ Confirm.md>) | [Subscribers 🔔](<../../../Subscribers 🔔/🔔🎭 Subscriber role.md>) confirm processed ones
+| 4 | [⏳🐌🔔 `Wake-up@Subscriber`](<../../../Subscribers 🔔/🔔🅰️ Subscriber methods/⏳🐌🔔 Wake-up.md>) | [Buffers ⏳](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) wake up [Subscribers 🔔](<../../../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>)
+| 5 | [🔔🚀⏳ `Poll@Buffer`](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🚀⏳ Poll.md>) | [Subscribers 🔔](<../../../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) poll all buffered messages
+|6| [🔔🚀⏳ `Confirm@Buffer`](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🚀⏳ Confirm.md>) | [Subscribers 🔔](<../../../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) confirm processed ones
 ||
 
 ## FAQ
@@ -28,7 +28,7 @@
 
     [Buffer ⏳ domains](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) may require additional time to resource the compute and store to handle the queue. 
     * [Buffer ⏳ domains](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) should not be pressured to speed up under a synchronous request.
-    * [Subscriber 🔔 domains](<../../../Subscribers 🔔/🔔🎭 Subscriber role.md>) should not spend compute cost waiting for a synchronous response that may time out.
+    * [Subscriber 🔔 domains](<../../../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) should not spend compute cost waiting for a synchronous response that may time out.
     
     ---
     <br/>
@@ -38,7 +38,7 @@
     `Public-key encryption` 
     
     When [Streamer 🌬️ domains](<../../🌬️🎭 Streamer role.md>) send messages to [Buffer ⏳ domains](<../../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>), 
-    * the [Streamer 🌬️ domains](<../../🌬️🎭 Streamer role.md>) encrypt the messages with the public key of the [Subscriber 🔔 domain](<../../../Subscribers 🔔/🔔🎭 Subscriber role.md>), ensuring that only the [Subscriber 🔔 domain](<../../../Subscribers 🔔/🔔🎭 Subscriber role.md>) can decrypt them with the private key.
+    * the [Streamer 🌬️ domains](<../../🌬️🎭 Streamer role.md>) encrypt the messages with the public key of the [Subscriber 🔔 domain](<../../../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>), ensuring that only the [Subscriber 🔔 domain](<../../../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) can decrypt them with the private key.
 
     ---
     <br/>

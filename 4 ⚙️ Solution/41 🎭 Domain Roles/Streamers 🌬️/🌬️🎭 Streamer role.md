@@ -1,14 +1,14 @@
 🌬️ Streamer domain role
 ===
 
-> Works with [Subscriber 🔔 domains](<../Subscribers 🔔/🔔🎭 Subscriber role.md>)
+> Works with [Subscriber 🔔 domains](<../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>)
 
 ## FAQ
 
 1. **What is a Streamer domain role in NLWeb?**
 
     A Streamer 🌬️ is any [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) that 
-    * pushes and replays events to [Subscriber 🔔 domains](<../Subscribers 🔔/🔔🎭 Subscriber role.md>) 
+    * pushes and replays events to [Subscriber 🔔 domains](<../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) 
     * via the Subscribers' [Buffer ⏳ helper domains](<../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>).
 
     ---
@@ -20,9 +20,9 @@
 
     |Steps|Description
     |-|-
-    |0| [Subscriber 🔔 domains](<../Subscribers 🔔/🔔🎭 Subscriber role.md>) first need to subscribe to a [Streamer 🌬️ domain](<🌬️🎭 Streamer role.md>) by providing their [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>).
+    |0| [Subscriber 🔔 domains](<../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) first need to subscribe to a [Streamer 🌬️ domain](<🌬️🎭 Streamer role.md>) by providing their [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>).
     |1, 2, 3| [Streamer 🌬️ domains](<🌬️🎭 Streamer role.md>) then publish events at any time to the [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>).
-    |4| [Buffer ⏳ helper domains](<../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) deliver the events to [Subscriber 🔔 domains](<../Subscribers 🔔/🔔🎭 Subscriber role.md>) according to a set delivery policy.
+    |4| [Buffer ⏳ helper domains](<../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) deliver the events to [Subscriber 🔔 domains](<../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) according to a set delivery policy.
 
     ---
     <br/>
@@ -83,7 +83,7 @@
 
 1. **How to prevent Buffers from spoofing the events?**
 
-    To avoid spoofing, [Streamer 🌬️ domains](<🌬️🎭 Streamer role.md>) encrypt the event content with the [DKIM public key 📨](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) of the [Subscriber 🔔 domain](<../Subscribers 🔔/🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>).
+    To avoid spoofing, [Streamer 🌬️ domains](<🌬️🎭 Streamer role.md>) encrypt the event content with the [DKIM public key 📨](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) of the [Subscriber 🔔 domain](<../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) before sending it to the Subscriber's [Buffer ⏳ helper domain](<../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>).
 
     ---
     <br/>
