@@ -41,7 +41,7 @@
         Lists: <fields> # List fields
         Bools: <fields> # Boolean fields
         Enums: <fields> # Enum fields, i.e. list of texts
-        Nums: <fields> # Numeric fields
+        Nums:  <fields> # Numeric fields
     ```
     
     | Input| Purpose |  Examples |Behavior
@@ -50,13 +50,13 @@
     | `AllOf` | All should have values |  `A,B` `[A,B]` | [`.AllOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>)
     | `AnyOf` | One or more have values |  `A,B` `[A,B]` | [`.AnyOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/AnyOf ⓕ.md>)
     | `OneOf` | Only one should have value | `A,B` `[A,B]` | [`.OneOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/OneOf ⓕ.md>)
-    | `UUIDs` | Must be a UUID fields| `A,B` `[A,B]`
-    | `Texts` | Must be [Text 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) fields | `A,B` `[A,B]`
+    | `UUIDs` | Must be a UUID fields| `A,B` `[A,B]` | [`.UUIDs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/UUIDs ⓕ.md>)
+    | `Texts` | Must be [Text 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) fields | `A,B` `[A,B]` | [`.Texts`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Texts ⓕ.md>)
     | `Times` | Absolute or relative [Time 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) | `A,B` `[A,B]`
-    | `Lists` | Must be [Lists 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) or [Sets 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) | `A,B` `[A,B]`
-    | `Bools` | Must be boolean fields | `A,B` `[A,B]`
+    | `Lists` | Must be [Lists 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) or [Sets 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) | `A,B` `[A,B]` | [`.Lists`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Lists ⓕ.md>)
+    | `Bools` | Must be boolean fields | `A,B` `[A,B]` | [`.Bools`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Bools ⓕ.md>)
     | `Enums` | Must be [Lists 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) of [Text 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | `A,B` `[A,B]`
-    | `Nums` | Must be [Num 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) fields | `A,B` `[A,B]`
+    | `Nums` | Must be [Num 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) fields | `A,B` `[A,B]` | [`.Nums`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Nums ⓕ.md>)
     |
     
     <br/>

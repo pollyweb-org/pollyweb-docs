@@ -1,0 +1,16 @@
+# 😃🔩 Talker `{.Bools}` function
+
+> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+
+## FAQ
+
+
+1. **What is the .Bools function?**
+
+    `{.Bools}`
+    * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
+    * that returns `True` if the all listed properties of a [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) are booleans
+    * or `False` otherwise.
+
+    ---
+    <br/>

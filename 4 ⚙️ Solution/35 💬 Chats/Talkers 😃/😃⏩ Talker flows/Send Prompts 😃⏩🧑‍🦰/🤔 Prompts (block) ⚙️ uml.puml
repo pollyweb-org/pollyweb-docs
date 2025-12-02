@@ -1,0 +1,41 @@
+@startuml Prompts (blocking)
+ 
+box Host 🤗 domain #FFFFFD
+    participant "Blocking ⌘" as script
+    participant "PROMPT 🤔" as PROMPT
+    participant "Prompts 🪣" as table
+end box
+participant "Wallet 👱" as wallet
+
+ 
+activate script
+    script -> PROMPT: PROMPT 🤔 
+deactivate script
+
+activate PROMPT
+    PROMPT -> table: SAVE 💾 
+
+activate table
+    table -> PROMPT: {prompt}
+    PROMPT -> PROMPT: WAIT 🧘 {prompt}
+deactivate PROMPT
+    table --> wallet: Prompt @ Broker 🐌 {prompt}
+deactivate table
+
+
+activate wallet
+    wallet --> table: Reply @ Host 🐌 {prompt, reply}
+deactivate wallet
+
+activate table
+    table -> PROMPT: RACE 🏁 {prompt, reply}
+deactivate table
+
+activate PROMPT
+    PROMPT -> script: RETURN {reply}
+deactivate PROMPT
+
+activate script
+deactivate script
+
+@enduml 

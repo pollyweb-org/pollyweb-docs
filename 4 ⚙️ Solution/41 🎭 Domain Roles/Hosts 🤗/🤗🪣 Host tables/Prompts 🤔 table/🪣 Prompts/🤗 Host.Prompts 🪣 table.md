@@ -45,6 +45,25 @@ Handlers:
 
 <br/>
 
+```yaml
+Asserts:
+    AllOf: Text, Format
+    Texts: Text, Format, Details, Emoji
+    Lists: Options
+    UUIDs: Appendix  
+    Nums: MinValue, MaxValue
+    Emoji.Length: 1
+    MinValue.IsBelow: MaxValue
+    Text.Length.IsBelow: 250
+    Details.Length.IsBelow: 2500
+    
+    # Options validation
+    Options.Each.AllOf: ID, Title
+    Options.Each.AreTexts: ID, Title, Locator
+```
+
+<br/>
+
 ## Example
 
 Automatic, from [Item 🛢 Keys](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Keys.md>).

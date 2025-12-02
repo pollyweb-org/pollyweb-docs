@@ -1,0 +1,47 @@
+@startuml Prompt non-blocking status
+ 
+box Host 🤗 domain #FFFFFD
+    participant "Status ⌘" as script
+    participant "PROMPT 🤔" as PROMPT
+    participant "Prompts 🪣" as table
+end box
+participant "Wallet 👱" as wallet
+
+
+activate script
+    script -> PROMPT: PROMPT 🤔 
+deactivate script
+
+activate PROMPT
+    PROMPT -> table: SAVE 💾 
+
+    activate table
+        table -> PROMPT: {prompt}
+
+    alt With Options
+        PROMPT -> PROMPT: HOOK 🪝 {prompt}
+    end alt
+    PROMPT -> script: RETURN { }
+    
+deactivate PROMPT
+
+    table --> wallet: Prompt @ Broker 🐌 {prompt}
+deactivate table
+
+
+activate wallet
+    wallet --> table: Reply @ Host 🐌 {prompt, reply}
+deactivate wallet
+
+activate table
+    table -> PROMPT: REEL 🎣 {prompt, reply}
+deactivate table
+
+activate PROMPT
+    PROMPT -> script: RETURN {reply}
+deactivate PROMPT
+
+activate script
+deactivate script
+
+@enduml 
