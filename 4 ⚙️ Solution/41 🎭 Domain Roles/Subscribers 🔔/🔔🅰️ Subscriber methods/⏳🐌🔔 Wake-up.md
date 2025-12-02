@@ -20,7 +20,7 @@ From:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|`Header`|`From`|text| [Buffer ⏳](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🤲 Buffer helper.md>) from [`Queue@Buffer`](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>)
+|`Header`|`From`|text| [Buffer ⏳](<../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) from [`Queue@Buffer`](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>)
 ||`To`|text| [Subscriber 🔔](<../🔔🎭 Subscriber role.md>) from [`Queue@Buffer`](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>)
 || `Subject` |text| `Wake-up@Subscriber`
 |

@@ -1,8 +1,8 @@
 # 👥🐌⏳ Feedback @ Buffer
 
-> The feedback is sent via a [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) defined by the sender's domain. 
+> The feedback is sent via a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>) defined by the sender's domain. 
 
-> Implements a [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>)
+> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
 
 > Mentioned in [domain Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 
@@ -27,7 +27,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header|`From`| uuid | [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) receiver 
-||`To`|text| Sender's [Buffer ⏳ helper domain](<../⏳🤲 Buffer helper.md>) name
+||`To`|text| Sender's [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>) name
 ||`Subject`|text| `Feedback@Buffer`
 |Body| `Sender`|text| [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name of the [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) sender
 ||`Correlation`| uuid | Correlation ID of the affected [Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
