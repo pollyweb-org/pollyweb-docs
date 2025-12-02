@@ -6,7 +6,7 @@ box Talker 😃 domain #FFFFFA
     participant "Inbox 📨" as inbox
     participant ".REEL 📃" as reel
     participant "Hooks 🪣" as hooks
-    participant "Holders 🪣" as holders
+    participant "Imprints 🪣" as imprints
     participant "Caller 📃" as caller
 end box
 
@@ -24,20 +24,7 @@ activate reel
         hooks -> reel: {caller, script, holders}
     deactivate hooks
 
-    group Load holders into memory
-
-        reel -> reel: PARALLEL {holders}
-        activate reel
-            reel -> holders: READ {holder}
-            
-            activate holders
-                holders -> reel: {value}
-            deactivate holders
-
-            reel -> reel: CALL holder: value
-        deactivate reel
-
-    end group
+    reel -> imprints: RECALL ⛏️
 
     reel -> caller: exit {script}  with {out}
 

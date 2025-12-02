@@ -1,0 +1,32 @@
+@startuml IMPRINT
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "IMPRINT 🦶" as imprint
+    participant "Imprints 🪣" as imprints
+    participant "Holders 🪣" as holders
+end box
+
+
+
+activate script
+    script -> imprint: IMPRINT 🦶 
+deactivate script
+
+activate imprint
+
+    imprint -> imprint: {uuid}
+
+    imprint -> imprints: SAVE 💾 {uuid, $.Holders.Holder}
+
+    imprint -> imprint: PARALLEL {$.Holders}
+    activate imprint
+        imprint -> holders: SAVE 💾 {uuid, holder, value}
+    deactivate imprint
+
+    imprint -> script: RETURN {uuid}
+
+deactivate imprint
+
+
+@enduml

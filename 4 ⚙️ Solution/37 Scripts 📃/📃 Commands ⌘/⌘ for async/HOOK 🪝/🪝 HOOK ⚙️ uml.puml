@@ -3,7 +3,7 @@
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
     participant ".HOOK 📃" as hook
-    participant "Holders 🪣" as holders
+    participant "Imprints 🪣" as imprints
     participant "Hooks 🪣" as hooks
     participant "Engine ⚙️" as engine
 end box
@@ -15,13 +15,7 @@ activate script
 deactivate script
 
 activate hook
-    hook -> hooks: SAVE 💾 {hook, $.Script, $.Holders.Holder}
-
-    hook -> hook: PARALLEL {$.Holders}
-    activate hook
-        hook -> holders: SAVE 💾 {hook, holder, value}
-    deactivate hook
-
+    hook -> imprints: IMPRINT 🦶
 
     engine <--  : REEL 🎣 {hook, return}
     activate engine
