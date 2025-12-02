@@ -76,9 +76,9 @@ Design Decisions
 
     NLWeb integrates payments in [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) between users and [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>). 
     
-    - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to one or more [Payer 💳 vaults](<../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) (e.g., a payment gateway). 
+    - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to one or more [Payer 💳 vaults](<../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) (e.g., a payment gateway). 
 
-    - The payment is sent from the [user's Payer 💳 vault](<../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) (on behalf of the user) to the [Seller's Collector 🏦 vault](<../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) (on behalf of the [Seller 💵 domain](<../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>)). 
+    - The payment is sent from the [user's Payer 💳 vault](<../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) (on behalf of the user) to the [Seller's Collector 🏦 vault](<../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) (on behalf of the [Seller 💵 domain](<../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>)). 
     
     In a [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>): 
     1. the [Seller 💵 domain](<../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) requests a payment amount (e.g., 123.45 USD) - the user accepts; 
