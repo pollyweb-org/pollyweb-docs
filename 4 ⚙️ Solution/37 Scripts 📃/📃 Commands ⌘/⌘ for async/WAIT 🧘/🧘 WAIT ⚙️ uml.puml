@@ -13,8 +13,6 @@ activate script
 deactivate script
 
 activate wait
-    wait -> imprints: IMPRINT 🦶 {uuid}
-
     wait -> waits: 💾 {WAIT, uuid}
     activate waits
         waits -> alarm: 🐌 Trigger {uuid}

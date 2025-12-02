@@ -24,7 +24,7 @@
     UUIDs: Chat
 
 # Execute the handler
-- ASYNC|OnDisclose >> $hook:
+- CALL|OnDisclose >> $data:
     
     # Share data
     Share: $Share.ID
@@ -36,10 +36,6 @@
     Schema: $Share.Bind.Schema
     Reference: $Share.Bind.Reference
     Internals: $Share.Bind.Internals
-
-# Wait for the shared data
-- WAIT >> $data:
-    Hook: $hook
 
 # Save the data for collection
 - SAVE|$Share:

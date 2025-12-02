@@ -64,7 +64,7 @@ The corresponding [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃
 | 🔗 [`BIND`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | To create a user profile.
 | 🛠️ [`INVITE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan.
 | ❄️ [`FREEZE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs.
-| 🧮 [`CALL`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CALL 🧮/🧮 CALL ⌘ cmd.md>) | To register on the database.
+| 🧮 [`CALL`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) | To register on the database.
 | ✅ [`DONE`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) | To say that it was successful.
 | 👋 [`GOODBYE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | To show advertising.
 |

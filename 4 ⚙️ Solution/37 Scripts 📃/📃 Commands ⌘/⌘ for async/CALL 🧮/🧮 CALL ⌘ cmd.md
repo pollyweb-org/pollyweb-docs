@@ -25,10 +25,10 @@
     || Equals `CALL\|f >> $out: *` 
     | `CALL\|.f(*) >> $out` | Executes a built-in [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
     || Equals `CALL\|.f >> $out: *`  
-    | `CALL\|$in: *` | Equals [`SET`](<../SET ↘️/↘️ SET ⌘ cmd.md>)`\|$in: *` 
-    | `CALL\|$in >> $out: *` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|$in >> $out: *`
-    | `CALL\|* >> $out` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|* >> $out`
-    | `CALL >> $out: *` | Equals [`PUT`](<../PUT ⬇️/⬇️ PUT ⌘ cmd.md>)` >> $out: *`
+    | `CALL\|$in: *` | Equals [`SET`](<../../⌘ for holders 🧠/SET ↘️/↘️ SET ⌘ cmd.md>)`\|$in: *` 
+    | `CALL\|$in >> $out: *` | Equals [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|$in >> $out: *`
+    | `CALL\|* >> $out` | Equals [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`\|* >> $out`
+    | `CALL >> $out: *` | Equals [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)` >> $out: *`
     
     ---
     <br/>
