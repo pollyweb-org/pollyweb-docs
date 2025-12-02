@@ -5,7 +5,7 @@
 > About
 * Part of the [Host 🤗 domain](<../../🤗 Host role/🤗🎭 Host role.md>) role
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Prompted@Host` 🅰️ method](<🤗 Prompted 🚀 call.md>)
-* Triggered by the [`Prompt@Host` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/PROMPT/😃 Prompts 📃 script.md>)
+* Triggered by the [`Prompt@Host` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/PROMPT/🤔 PROMPT 📃 script.md>)
 * Reads from the [`Host.Prompts` 🪣 table](<../../🤗🪣 Host tables/Prompts 🤔 table/🪣 Prompts/🤗 Host.Prompts 🪣 table.md>)
 
 
