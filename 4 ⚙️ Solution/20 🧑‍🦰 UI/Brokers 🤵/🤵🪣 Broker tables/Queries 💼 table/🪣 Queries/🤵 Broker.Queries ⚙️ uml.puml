@@ -31,7 +31,7 @@ deactivate queries
 
 activate wallets
     'wallets -x consumer: 💾 EMPTY 🐌 Suggest @ Consumer 
-    wallets -> queries: 💾 DETAILED ✅ EMPTY ❌
+    wallets -> queries: 💾 MATCHED ✅ UNMATCHED ❌
 deactivate wallets
 
 activate queries
@@ -40,11 +40,18 @@ deactivate queries
 
 activate graph
     'graph -x consumer: 💾 EMPTY 🐌 Suggest @ Consumer 
-    graph -> queries: 💾 TRUSTED ✅ EMPTY ❌
+    graph -> queries: 💾 TRUSTED ✅ UNTRUSTED ❌
 deactivate graph
 
 activate queries
     queries -> wallet: ONE "Select"
+deactivate queries
+
+activate wallet
+    wallet -> queries: 💾 SELECTED ✅ UNSELECTED ❌
+deactivate wallet
+
+activate queries
     queries -> wallet: CONFIRM 👍 "Share?"
 deactivate queries
 

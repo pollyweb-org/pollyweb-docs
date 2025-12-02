@@ -1,22 +1,18 @@
-@startuml OnQueryTrusted
+@startuml OnQuerySelected
 
 box Broker 🤵 domain #FFFFFA
     participant "Queries 🪣" as table
-    participant "OnTrusted 🔔" as handler
+    participant "OnSelected 🔔" as handler
     participant "Schemas 🪣" as schemas
 end box
 participant "Wallet 👱" as wallet
 
 
 activate table
-    table --> handler: TRUSTED 🔔
+    table --> handler: SELECTED 🔔
 deactivate table
 
 activate handler
-
-    group If are many
-        handler -> wallet: ONE "Which one?" 
-    end group
 
     handler -> schemas: READ 🧲
     handler -> wallet: CONFIRM 👍 "share?"
