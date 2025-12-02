@@ -10,7 +10,7 @@
 
 1. **How do Sellers sell to users?**
 
-    ![](<💵 Seller.png>)
+    ![](<💵🏞️ Seller img.png>)
 
     | # | Step
     |-|-
@@ -49,7 +49,7 @@
 
     |Workflow|Description
     |-|-
-    | [🧑‍🦰 Charge users](<../💵⏩ Seller flows/💵⏩🧑‍🦰 Charge.md>) | How Sellers 💵 charge users.
+    | [🧑‍🦰 Charge users](<../💵⏩ Seller flows/Charge 💵⏩🧑‍🦰.md>) | How Sellers 💵 charge users.
     
     ---
 
@@ -57,6 +57,6 @@
 
     |Message|Description
     |-|-
-    | [🐌 Paid](<../💵🅰️ Seller methods/🏦🐌💵 Paid.md>) | The [Collector 🏦 helper](<../../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) confirms the payment.
+    | [🐌 Paid](<../💵🅰️ Seller methods/Paid 🏦🐌💵.md>) | The [Collector 🏦 helper](<../../../45 🤲 Helper domains/Collectors 🏦/🏦🤲 Collector helper.md>) confirms the payment.
 
     ---
