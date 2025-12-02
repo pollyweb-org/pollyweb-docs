@@ -157,16 +157,16 @@
 
 1. **How do sellers prevent swapping of identity Tokens?**
 
-    [Seller 💵 domains](<../../Sellers 💵/💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with someone else.
+    [Seller 💵 domains](<../../Sellers 💵/💵 Seller /💵🎭 Seller role.md>) can prevent frauds where users share their [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with someone else.
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
     
     In low-budget validations, 
-    - [Seller 💵 domains](<../../Sellers 💵/💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) on the user's device;
+    - [Seller 💵 domains](<../../Sellers 💵/💵 Seller /💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) on the user's device;
     - depending on the circumstances, this can be a biometric face scan, voice recognition, OTP, security questions, or other. 
     
     In offline scenarios, 
     - where users carry an NFC card or a printed QR, 
-    - the [Seller 💵 domain](<../../Sellers 💵/💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to match the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with the picture.
+    - the [Seller 💵 domain](<../../Sellers 💵/💵 Seller /💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to match the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with the picture.
 
     ---
     <br/>

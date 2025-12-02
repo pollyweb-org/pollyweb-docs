@@ -8,7 +8,7 @@
     * **[Payer 💳🫥 agents](<../../50 🫥 Agent domains/Payers 💳/💳🫥 Payer agent.md>)**: 
         * these are [Payer 💳 domains](<💳🎭 Payer role.md>) that act as [Agent 🫥 vaults](<../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>)
         * for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), 
-        * interacting in [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Seller 💵 hosts](<../Sellers 💵/💵🎭 Seller role.md>).
+        * interacting in [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Seller 💵 hosts](<../Sellers 💵/💵 Seller /💵🎭 Seller role.md>).
       
     * **[Payer 💳🤲 Helpers](<../../45 🤲 Helper domains/Payers 💳/💳🤲 Payer helper.md>)**:
         * these are [Payer 💳 domains](<💳🎭 Payer role.md>) that act as [Helper 🤲 domains](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>)
@@ -21,9 +21,9 @@
 
 1. **How are currency conversions handled?**
 
-    Payers 💳 are responsible for converting the currency to the price of the [Seller 💵 domain](<../Sellers 💵/💵🎭 Seller role.md>).
+    Payers 💳 are responsible for converting the currency to the price of the [Seller 💵 domain](<../Sellers 💵/💵 Seller /💵🎭 Seller role.md>).
 
-    - [Seller 💵 domains](<../Sellers 💵/💵🎭 Seller role.md>) always receive payments in their requested currency and in the exact amount requested.
+    - [Seller 💵 domains](<../Sellers 💵/💵 Seller /💵🎭 Seller role.md>) always receive payments in their requested currency and in the exact amount requested.
   
     - Payers 💳 calculate the final amount to be paid by the user after the currency conversion from the selected payment method, plus conversion, transfer, and administrative fees.
 

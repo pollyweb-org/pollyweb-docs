@@ -11,6 +11,6 @@
     - the user has an [`.HOST/ADMIN 🧩`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>) [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by the domain.
 
     The subscription workflow as the following additional steps:
-    - the [Seller 💵 domain](<../../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) asks the user to share the domain's [`.HOST/ADMIN 🧩`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>) [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
+    - the [Seller 💵 domain](<../../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) asks the user to share the domain's [`.HOST/ADMIN 🧩`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>) [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     ---

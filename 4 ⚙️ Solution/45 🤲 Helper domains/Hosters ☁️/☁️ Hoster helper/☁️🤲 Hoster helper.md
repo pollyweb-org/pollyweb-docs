@@ -22,7 +22,7 @@
     | [😃 Talker](<../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) | To manage [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) workflows
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | For interacting with [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) in [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
     | `And also` | [`Issuer 🎴`](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) [`Vault 🗄️`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) [`Consumer 💼`](<../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>)
-    |  | [`Seller 💵`](<../../../41 🎭 Domain Roles/Sellers 💵/💵🎭 Seller role.md>) [`Subscriber 🔔`](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>)
+    |  | [`Seller 💵`](<../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) [`Subscriber 🔔`](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔🎭 Subscriber role.md>)
     
 
     ---
