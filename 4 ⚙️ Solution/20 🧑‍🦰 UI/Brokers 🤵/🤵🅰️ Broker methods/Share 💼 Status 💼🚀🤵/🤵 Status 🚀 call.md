@@ -26,11 +26,11 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-| Header|`From`|text| [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
-| |`To`|text| [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
+| Header|`From`|text| [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
+| |`To`|text| [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
 | | `Subject`|text| `Status@Broker`
-| Body | `Token`| uuid | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) key | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
-|   | `Issuer` | text | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
+| Body | `Token`| uuid | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) key | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
+|   | `Issuer` | text | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
 |
     
 <br/>
