@@ -2,7 +2,11 @@
 
 # 🐍 {code} function
 
-> Part of [{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> About
+* Part of [{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Implemented with the [`CALL` 🧮 command](<../../📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)
+* Calls either an internal function 
+  * or a function implemented in a [Hosted 📦 domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 
 ## FAQ
 

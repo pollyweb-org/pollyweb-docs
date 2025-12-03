@@ -17,7 +17,7 @@
 📃 PopBind.RemoveBind:
 
 # Verify the inputs
-- ASSERT|.Inputs
+- ASSERT|$.Inputs
     AllOf: Wallet
 
 # Get the Vault 
