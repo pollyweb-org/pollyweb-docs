@@ -17,12 +17,11 @@
 📃 OnQueryReceived:
 
 # Verify the Token signature
-- VERIFY|$Query.Token >> $isValid:
+VERIFY|$Query.Token >> $valid:
 
-# Exit if corrupted
-- UNLESS|$isValid:
-    - SAVE|$Query:
-        .Status: CORRUPTED
+IFNOT|$valid:
+        - SAVE|$Query:
+            .Status: CORRUPTED
     - RETURN
 
 ```
@@ -30,3 +29,4 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`VERIFY`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`UNLESS`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/UNLESS ⤵️/⤵️ UNLESS ⌘ cmd.md>) [`RETURN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)
+|
