@@ -44,7 +44,7 @@
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 What time? | 🕓 10:30:00
     [🫥 Agent](<../../../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | 🫥 What time? | 🕓 10:30:00
-    | [🤲 Helper](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>) | 🫥 What time? | 🕓 10:30:00
+    | [🤲 Helper](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) | 🫥 What time? | 🕓 10:30:00
 
 
     Usage examples:

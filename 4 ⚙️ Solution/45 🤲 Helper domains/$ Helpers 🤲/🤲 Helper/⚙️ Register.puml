@@ -1,14 +1,14 @@
 @startuml Present
 
-participant "Payer 💳\ndomain" as payer
-participant "Identity 🆔\ndomain" as id
-actor "User\nin chat" as user
-participant "Broker 🤵\ndomain" as broker
-participant "Helper 🤲\ndomain" as helper
-participant "Biller 🤝\ndomain" as biller
+participant "Helper 🤲" as helper
+participant "Wallet 🧑" as user
+participant "Broker 🤵" as broker
+participant "Payer 💳" as payer
+participant "Identity 🆔" as id
+participant "Biller 🤝" as biller
 
 activate helper
-    helper --> user: ⏪ FORM
+    helper --> user: ⏪ INFORM
     helper --> user: ⏪ BIND
     helper --> broker: ⏪ Invite
 deactivate helper

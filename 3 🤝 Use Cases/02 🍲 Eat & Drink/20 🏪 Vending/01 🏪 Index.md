@@ -52,7 +52,7 @@ TODO: other scenarios
 
 ## 🛠️ Domain Helpers
 
-| [Helper 🤲](<../../../4 ⚙️ Solution/45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>)  | Purpose |
+| [Helper 🤲](<../../../4 ⚙️ Solution/45 🤲 Helper domains/$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>)  | Purpose |
 |-|-
 | [🧑‍💻 Hoster](<91 🧑‍💻 Owner: Hoster.md>) | To bootstrap an inbox API
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) | To collect the amount paid

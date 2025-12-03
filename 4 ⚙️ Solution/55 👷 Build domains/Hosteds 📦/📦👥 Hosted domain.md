@@ -29,7 +29,7 @@
     | [🔑 PublicKey](<📦📄 Hosted files/🔑📄 PublicKey file.md>) | TXT | Public key for encryption
     | [📥 Inbound](<📦📄 Hosted files/📥📄 Inbound file.md>) | YAML | Message inbound configuration
     | [📤 Outbound](<📦📄 Hosted files/📤📄 Outbound file.md>) | YAML | Message outbound configuration
-    | [🤲 Helpers](<📦📄 Hosted files/🤲📄 Helpers file.md>)  | YAML | Required [Helper 🤲 domains](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲👥 Helper domain.md>)
+    | [🤲 Helpers](<📦📄 Hosted files/🤲📄 Helpers file.md>)  | YAML | Required [Helper 🤲 domains](<../../45 🤲 Helper domains/$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>)
     | 🔆 [Locators](<📦📄 Hosted files/🔆📄 Locators file.md>) | YAML | Map of [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to [Scripts 📃](<../../35 💬 Chats/Scripts 📃/Script 📃.md>)
     | 😃 [Talkers](<📦📄 Hosted files/😃📂 Talkers folder.md>) | Folder | List of [Talker 😃](<../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) scripts 
     | [📜 Manifest](<📦📄 Hosted files/📜📂 Manifest folder.md>) | Folder | Public [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) parts
