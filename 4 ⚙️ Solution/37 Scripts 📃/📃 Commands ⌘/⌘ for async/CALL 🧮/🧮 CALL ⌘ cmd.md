@@ -1,6 +1,9 @@
 # 😃🧮 Talker `CALL` command 
 
-> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+> About 
+* Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+* Implements [`{code}` 🐍  functions](<../../../📃 Functions 🐍/🐍 Functions types/🐍 {code}.md>) 
+* Implemented by the [`CALL` 📃 script](<🧮 CALL 📃 script.md>)
 
 ## FAQ
 
