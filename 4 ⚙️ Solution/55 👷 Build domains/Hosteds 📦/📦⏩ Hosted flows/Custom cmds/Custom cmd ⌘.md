@@ -10,7 +10,7 @@
     |#|Step|Details
     |-|-|-
     |1| `Upload` | Upload the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) for the [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)
-    |2| `Parse` | Parse it at the [`Parse@Hosted` 📨 msg](<../../📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 call.md>)
+    |2| `Parse` | Parse it at the [`Parse@Hosted` 🚀 call](<../../📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 call.md>)
     |3| `Register`| Register it on the [`Commands.yaml` ⌘ file](<../../📦📄 Hosted files/📄⌘ Commands file.md>) 
     
 
@@ -51,7 +51,7 @@
 
     <br/>
 
-    Here's the python handler for the [`Parse@Hosted` 📨 msg](<../../📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 call.md>)
+    Here's the python handler for the [`Parse@Hosted` 🚀 call](<../../📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 call.md>)
 
     ```python
     def talkerParser(args):

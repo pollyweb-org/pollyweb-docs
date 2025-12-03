@@ -5,35 +5,35 @@
 
 1. **What is a Supplier domain role in NLWeb?**
 
-    A [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a [Supplier 🏭 role](<🏭🎭 Supplier role.md>) is 
-    * an [Integrator 🪢 domain](<../Integrators 🪢/🪢🎭 Integrator role.md>) 
+    A [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a [Supplier 🏭 role](<🏭🎭 Supplier role.md>) is 
+    * an [Integrator 🪢 domain](<../../Integrators 🪢/🪢🎭 Integrator role.md>) 
     * that exposes order APIs 
-    * to accept asynchronous order requests from other [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>).
+    * to accept asynchronous order requests from other [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
     ---
     <br/>
 
 1. **How do Suppliers work?**
 
-    ![](<../../50 🫥 Agent domains/Concierges 🛎️/. 📎 Assets/🛎️🏭 Supplier.png>)
+    ![](<../../../50 🫥 Agent domains/Concierges 🛎️/. 📎 Assets/🛎️🏭 Supplier.png>)
 
     ---
     <br/>
 
 1. **What are examples of Suppliers?**
 
-    * [Printer 🖨️ suppliers](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) accept orders to print NFC/QR [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), ship them to a destination, and manage the lifecycle of these Locators.
+    * [Printer 🖨️ suppliers](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) accept orders to print NFC/QR [Locators 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), ship them to a destination, and manage the lifecycle of these Locators.
 
-    * [KeyMaker 🔐 suppliers](<../../45 🤲 Helper domains/Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) accept requests to deliver and manage the lifecycle of [Padlock 🔒 device](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>).
+    * [KeyMaker 🔐 suppliers](<../../../45 🤲 Helper domains/Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) accept requests to deliver and manage the lifecycle of [Padlock 🔒 device](<../../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>).
 
-    * [Courier 🛵 suppliers](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/82 🛵 Driver: Pick-up.md>) accept orders to deliver pizzas, as requested by a [Concierge 🛎️ domain](<../../50 🫥 Agent domains/Concierges 🛎️/🛎️🫥 Concierge agent.md>). 
+    * [Courier 🛵 suppliers](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/82 🛵 Driver: Pick-up.md>) accept orders to deliver pizzas, as requested by a [Concierge 🛎️ domain](<../../../50 🫥 Agent domains/Concierges 🛎️/🛎️🫥 Concierge agent.md>). 
 
     ---
     <br/>
 
 1. **What are examples of order requesters?**
 
-    * When users have tasks to complete, [Concierge 🛎️ domains](<../../50 🫥 Agent domains/Concierges 🛎️/🛎️🫥 Concierge agent.md>) send order requests to [Supplier 🏭 domains](<🏭🎭 Supplier role.md>) for them to perform steps in those tasks.
+    * When users have tasks to complete, [Concierge 🛎️ domains](<../../../50 🫥 Agent domains/Concierges 🛎️/🛎️🫥 Concierge agent.md>) send order requests to [Supplier 🏭 domains](<🏭🎭 Supplier role.md>) for them to perform steps in those tasks.
 
     ---
     <br/>

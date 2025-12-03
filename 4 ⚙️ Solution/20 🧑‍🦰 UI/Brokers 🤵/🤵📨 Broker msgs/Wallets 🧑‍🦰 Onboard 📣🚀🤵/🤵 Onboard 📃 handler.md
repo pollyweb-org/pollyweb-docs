@@ -2,7 +2,7 @@
 
 > About
 * Part of [Broker 🤵 domains](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Onboard@Broker` 📨 msg](<🤵 Onboard 🚀 call.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Onboard@Broker` 🚀 call](<🤵 Onboard 🚀 call.md>)
 
 <br/>
 

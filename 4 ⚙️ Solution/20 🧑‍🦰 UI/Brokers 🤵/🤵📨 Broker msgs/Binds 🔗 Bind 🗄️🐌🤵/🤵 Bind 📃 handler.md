@@ -1,7 +1,7 @@
 # 🤵 Bind 📃 handler
 
 > Purpose
-* Implements the [`Bind@Broker` 📨 msg](<🤵 Bind 🐌 msg.md>)
+* Implements the [`Bind@Broker` 🐌 msg](<🤵 Bind 🐌 msg.md>)
 * Inserts into the [`Broker.Binds` 🪣 table](<../../🤵🪣 Broker tables/Binds 🔗 table/🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
 
 <br/>

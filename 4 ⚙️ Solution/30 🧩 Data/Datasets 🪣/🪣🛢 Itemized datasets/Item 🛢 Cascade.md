@@ -11,7 +11,7 @@
     Add a `Cascade` list 
     * for children to be automatically deleted 
     * on the [`DELETE` 🗑️ command](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) 
-    * and on the [`Delete@Itemizer` 📨 msg](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>).
+    * and on the [`Delete@Itemizer` 🚀 call](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>).
 
     ```yaml
     Table: <name>

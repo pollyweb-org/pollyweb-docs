@@ -1,7 +1,7 @@
 # 🤵 Freeze 📃 handler
 
 > Purpose
-* [Script 📃](<../Chats 💬 Chat 🤗🚀🤵/🤵 Chat 🚀 call.md>) that implements the [`Freeze@Broker` 📨 msg](<🤵 Freeze 🐌 msg.md>).
+* [Script 📃](<../Chats 💬 Chat 🤗🚀🤵/🤵 Chat 🚀 call.md>) that implements the [`Freeze@Broker` 🐌 msg](<🤵 Freeze 🐌 msg.md>).
 
 
 ## Flow
@@ -45,5 +45,5 @@ Uses||
 |  [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Chats`](<../../🤵🪣 Broker tables/Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Chatters`](<../../🤵🪣 Broker tables/Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) [`Wallets`](<../../🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
 | [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Require`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Require ⓕ.md>)
 |[Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)|[`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
-|[Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)|[`Frozen@Notifier` 📨 msg](<../../../Notifiers 📣/📣📨 Notifier msgs/Chats 💬 Frozen 🤵🐌📣/📣 Frozen 🐌 msg.md>)
+|[Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)|[`Frozen@Notifier` 🐌 msg](<../../../Notifiers 📣/📣📨 Notifier msgs/Chats 💬 Frozen 🤵🐌📣/📣 Frozen 🐌 msg.md>)
 |

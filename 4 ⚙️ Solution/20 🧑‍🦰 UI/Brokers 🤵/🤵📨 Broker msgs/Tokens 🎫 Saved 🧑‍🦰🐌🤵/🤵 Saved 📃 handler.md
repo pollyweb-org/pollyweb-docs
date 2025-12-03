@@ -1,7 +1,7 @@
 # 🤵 Saved 📃 handler
 
 > Purpose
-* [Script 📃](<🤵 Saved 🐌 msg.md>) that implements the [`Saved@Broker` 📨 msg](<🤵 Saved 🐌 msg.md>)
+* [Script 📃](<🤵 Saved 🐌 msg.md>) that implements the [`Saved@Broker` 🐌 msg](<🤵 Saved 🐌 msg.md>)
 
 <br/>
 

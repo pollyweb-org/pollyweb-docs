@@ -24,7 +24,7 @@
     | [🧩 Schemas](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | What's the schema definition of [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `S`?
     | [🎫 Tokens](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | What's the historical public [📨 DKIM](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) key of [🎫 Token](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) `T`?
     | [🪣 Datasets](<../../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) | What are the synchronous [Datasets 🪣](<../../../41 🎭 Domain Roles/Datasetters 🪣/🪣🎭 Datasetter role.md>) of [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) `D`?
-    | [🏭 Supplies](<../../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) of [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) `D`?
+    | [🏭 Supplies](<../../../41 🎭 Domain Roles/Suppliers 🏭/🏭 Supplier/🏭🎭 Supplier role.md>) | What are the asynchronous [Supplies 🏭](<../../../41 🎭 Domain Roles/Suppliers 🏭/🏭 Supplier/🏭🎭 Supplier role.md>) of [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) `D`?
     | [🌬️ Streams](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) | What are the event [Streams 🌬️](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) of [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) `D`?
     
     ---

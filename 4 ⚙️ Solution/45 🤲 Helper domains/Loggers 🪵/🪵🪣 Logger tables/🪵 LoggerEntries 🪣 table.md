@@ -1,7 +1,7 @@
 # 🪵 Logger Entries 🪣 table
 
 > Purpose
-* Saves log entries from [`Log@Logger` 📨 msg](<../🪵📨 Logger msgs/Log 👥🐌🪵/🪵 Log 🐌 msg.md>).
+* Saves log entries from [`Log@Logger` 🐌 msg](<../🪵📨 Logger msgs/Log 👥🐌🪵/🪵 Log 🐌 msg.md>).
 
 ## Schema
 

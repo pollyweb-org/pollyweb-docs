@@ -1,7 +1,7 @@
 # 🎴 Offered 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Offered@Issuer` 📨 msg](<🎴 Offered 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Offered@Issuer` 🐌 msg](<🎴 Offered 🐌 msg.md>)
 
 <br/>
 

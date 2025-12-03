@@ -1,7 +1,7 @@
 # 🎴 Removed 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Removed@Issuer` 📨 msg](<🎴 Removed 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Removed@Issuer` 🐌 msg](<🎴 Removed 🐌 msg.md>)
 
 <br/>
 

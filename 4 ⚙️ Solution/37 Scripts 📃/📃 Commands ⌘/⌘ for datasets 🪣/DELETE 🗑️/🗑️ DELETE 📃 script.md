@@ -2,7 +2,7 @@
 
 > Implements the [`DELETE`](<🗑️ DELETE ⌘ cmd.md>) command
 
-> Invokes the [`Delete@Itemizer` 📨 msg](<../../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)
+> Invokes the [`Delete@Itemizer` 🚀 call](<../../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)
 
 
 ## How to call

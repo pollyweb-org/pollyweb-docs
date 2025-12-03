@@ -5,7 +5,7 @@
 
 > Implementation
 * Implemented by the [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢 Itemizer helper/🛢🤲 Itemizer helper.md>)
-    * with the [`Build@Itemizer` 📨 msg](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>).
+    * with the [`Build@Itemizer` 🐌 msg](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>).
 
 
 ## FAQ

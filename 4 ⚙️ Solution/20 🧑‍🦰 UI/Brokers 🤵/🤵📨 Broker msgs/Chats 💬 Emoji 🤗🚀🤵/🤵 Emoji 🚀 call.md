@@ -35,7 +35,7 @@ Body:
 
 1. **Why not an asynchronous message 🐌?**
    
-    To be resilient to concurrency with the async [`Prompt@Broker` 📨 msg](<../Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>).
+    To be resilient to concurrency with the async [`Prompt@Broker` 🐌 msg](<../Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>).
     * If both were async, they could arrive in the wrong order,
     * causing the subsequent Prompt@ to ignore the previous Emoji@.
   

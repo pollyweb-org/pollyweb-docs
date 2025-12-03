@@ -1,7 +1,7 @@
 # 🪣 Shares
 
 > Purpose
-* Manages the lifecycle of requests to the [`Disclose@Vault` 📨 msg](<../../../🗄️📨 Vault msgs/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>).
+* Manages the lifecycle of requests to the [`Disclose@Vault` 🐌 msg](<../../../🗄️📨 Vault msgs/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>).
 
 <br/>
 

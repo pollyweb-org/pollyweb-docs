@@ -1,7 +1,7 @@
 # ⏰ Export 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Export@Alarm` 📨 msg](<⏰ Export 🚀 call.md>).
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Export@Alarm` 🚀 call](<⏰ Export 🚀 call.md>).
 
 ## Script
 

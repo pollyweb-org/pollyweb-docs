@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Start@Logger` 📨 msg](<🪵 Start 🚀 call.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Start@Logger` 🚀 call](<🪵 Start 🚀 call.md>)
 
 ## Script
 

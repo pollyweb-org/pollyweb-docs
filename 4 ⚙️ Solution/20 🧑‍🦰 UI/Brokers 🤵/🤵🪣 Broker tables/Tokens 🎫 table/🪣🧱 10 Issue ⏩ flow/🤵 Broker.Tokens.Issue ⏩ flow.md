@@ -13,7 +13,7 @@
 
 Step | Purpose |
 |-|-
-|[`Issue@Broker` 📨 msg](<../../../🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | External message from an [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
+|[`Issue@Broker` 🐌 msg](<../../../🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | External message from an [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
 |[`Issue@Broker` 📃 handler](<../../../🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 📃 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that stores the issued [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |[`OnTokenIssued` 🔔 handler](<../🪣🧱 11 Issued 🔔 event/🤵 OnTokenIssued 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that localizes the [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |[`OnTokenDetailed` 🔔 handler](<../🪣🧱 12 Detailed 🔔 event/🤵 OnTokenDetailed 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that asks for user confirmation
@@ -21,5 +21,5 @@ Step | Purpose |
 |[`OnTokenSaved` 🔔 handler](<../🪣🧱 15 Saved 🔔 event/🤵 OnTokenSaved 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that finalizes the Token storage
 |[`OnTokenAltered` 🔔 handler](<../🪣🧱 00 Altered 🔔 event/🤵 OnTokenAltered 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that gets the Tokens to display
 |[`OnFrontendAltered` 🔔 handler](<../../Frontend 📱 table/🪣🧱 Altered 🔔 event/🤵 OnFrontendAltered 🔔 handler.md>) | [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that refreshes the Frontend display
-|[`Frontend@Broker` 📨 msg](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>) | Call by a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to get the display
+|[`Frontend@Broker` 🚀 call](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 🚀 call.md>) | Call by a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to get the display
 |

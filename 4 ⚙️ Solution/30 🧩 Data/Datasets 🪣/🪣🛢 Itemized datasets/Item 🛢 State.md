@@ -29,7 +29,7 @@
 1. **How to work with .State changes?**
 
     `.State` changes
-    * are set on the [`Build@Itemized` 📨 msg](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+    * are set on the [`Build@Itemized` 🐌 msg](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
     * and processed by [Item 🛢 Handlers](<Item 🛢 Handlers.md>)
     * with the new state in the `New.State` property
     * and the old state in the `Old.State` property.

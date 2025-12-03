@@ -1,7 +1,7 @@
 # 🎴 Issued 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Issued@Issuer` 📨 msg](<🎴 Issued 🚀 call.md>).
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Issued@Issuer` 🚀 call](<🎴 Issued 🚀 call.md>).
 * Part of the [🎴 `Issuer.Tokens.Issue` ⏩ flow](<../../🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Issued flow/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
 
 <br/>

@@ -14,7 +14,7 @@
 
     An `ASYNC`
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)
-    * that calls the [`Handle@Hosted` 📨 msg](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
+    * that calls the [`Handle@Hosted` 🐌 msg](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
     * has an asynchronous background task
     * i.e, it continues the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>), unlike [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>).
 
@@ -76,7 +76,7 @@
     To wait for the result, 
     * ask the [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>) command 
     * to wait for a change on the `$output` [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>), 
-    * which will be triggered by the [`Handled@Talker` 📨 msg](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
+    * which will be triggered by the [`Handled@Talker` 🐌 msg](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
 
     ```yaml
     📃 Example: 
