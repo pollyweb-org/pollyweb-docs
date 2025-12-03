@@ -26,3 +26,4 @@ Trusts:
       - jpmorganchase.dom
       # Other countries
       - europa.eu # EU-regulated finantial entities.
+```

@@ -9,4 +9,4 @@ About:
   Domain: wifi.any-supplier.dom
   Title: Any Wifi
   
-Trusts:
+```
