@@ -42,14 +42,28 @@ def _process_single_md_file(md_file: str):
             if ("\ufffd" in line) or ("�" in line):
                 replacement_hits.append((line_no, line))
 
-    links_with_lines, malformed_links_with_lines = extract_links_with_malformed_detection(content)
+    links_with_lines, malformed_links_with_lines, image_links_with_lines = extract_links_with_malformed_detection(content)
 
     existing_files = _EXISTING_FILES or set()
     project_directory = _PROJECT_DIR or ""
+    image_link_positions = {(link, line) for link, line in image_links_with_lines}
+    image_extensions = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}
 
     for link, line_num in links_with_lines:
         full_link = os.path.normpath(os.path.join(os.path.dirname(md_file), link))
         full_link = urllib.parse.unquote(full_link)
+
+        is_image = (link, line_num) in image_link_positions
+        if is_image:
+            clean_link = link.split("#", 1)[0].split("?", 1)[0].strip()
+            suffix = os.path.splitext(clean_link)[1].lower()
+            if suffix and suffix not in image_extensions:
+                diagnostic = f"Image link expects image asset but targets <{link}>"
+                entry = (diagnostic, line_num)
+                if entry not in malformed_links_with_lines:
+                    malformed_links_with_lines.append(entry)
+                # Skip further processing so we do not treat the markdown file as a valid hit.
+                continue
 
         if full_link in existing_files:
             continue

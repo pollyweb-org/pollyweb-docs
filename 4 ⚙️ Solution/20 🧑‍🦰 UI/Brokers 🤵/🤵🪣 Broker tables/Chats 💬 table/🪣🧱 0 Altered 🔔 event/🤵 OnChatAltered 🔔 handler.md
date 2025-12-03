@@ -32,7 +32,7 @@
 - PUT|$wallet.Chats >> $chats:
     Chat: Chat
     Host: Host
-    Host$: Host$
+    HostTitle: Host.Title
     SmallIcon: Host.SmallIcon
     BigIcon: Host.BigIcon
 

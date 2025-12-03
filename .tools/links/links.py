@@ -1318,6 +1318,11 @@ def runit(project_directory, entryPoint):
                     return match.group(0)
                 canonical = targets[0]
 
+                current_suffix = os.path.splitext(basename)[1].lower()
+                canonical_suffix = canonical.suffix.lower()
+                if current_suffix and canonical_suffix and current_suffix != canonical_suffix:
+                    return match.group(0)
+
                 needs_update = basename != canonical.name
                 if not needs_update:
                     if target_url == basename:
