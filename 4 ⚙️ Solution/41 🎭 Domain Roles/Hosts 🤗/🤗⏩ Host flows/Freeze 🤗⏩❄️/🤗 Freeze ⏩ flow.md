@@ -2,7 +2,7 @@
 
 * Activated by:
     * [❄️ Talker `FREEZE` command](<../../🤗⌘ Host cmds/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
-    * [💳 Talker `CHARGE` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/CHARGE 💳/💳 CHARGE ⌘ cmd.md>)
+    * [💳 Talker `CHARGE` command](<../../../Sellers 💵/💵⌘ Seller cmds/CHARGE 💳/💳 CHARGE ⌘ cmd.md>)
 
 <br/>
 
