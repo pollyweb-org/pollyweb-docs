@@ -48,7 +48,7 @@
         Script: $Script
 
 # Return the deleted object
-RETURN|$deleted
+- RETURN|$deleted
 ```
 
 

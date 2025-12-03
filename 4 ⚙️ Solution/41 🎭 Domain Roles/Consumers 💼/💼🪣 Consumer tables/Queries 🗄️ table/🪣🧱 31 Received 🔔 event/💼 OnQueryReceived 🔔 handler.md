@@ -22,7 +22,7 @@
 # Exit if corrupted
 - IFNOT|$valid:
     - SAVE|$Query:
-        .Status: INVALID
+        .State: INVALID
     - RETURN
 
 # Check the trust
@@ -34,12 +34,12 @@
 # Exit if untrusted
 - IFNOT|$trusted:
     - SAVE|$Query:
-        .Status: UNTRUSTED
+        .State: UNTRUSTED
     - RETURN
 
 # Otherwise, progress
 - SAVE|$Query:
-    .Status: TOKENED
+    .State: TOKENED
 ```
 
 Uses||

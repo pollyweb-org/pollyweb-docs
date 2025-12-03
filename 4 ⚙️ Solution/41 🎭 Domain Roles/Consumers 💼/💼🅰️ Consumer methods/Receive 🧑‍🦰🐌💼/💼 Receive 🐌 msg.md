@@ -20,19 +20,20 @@ Header:
 
 Body: 
     Query: <query-uuid>
-    Token: <token-uuid>
-    Issuer: any-issuer.dom
-    
-    # Properties from Save@Notifier
-    Schema: .TOKEN
-    Properties:
-        Property1: Value1
-        Property2: Value2
-    Issued: 2024-09-21T12:34:00Z
-    Starts: 2024-01-10T13:45:00.000Z
-    Expires: 2028-12-10T13:45:00.000Z
-    Signature: ABCMIQDALK2Fd...
-    DKIM: pk1
+    Shared: 
+        Token: <token-uuid>
+        Issuer: any-issuer.dom
+
+        # Properties from Save@Notifier
+        Schema: .TOKEN
+        Properties:
+            Property1: Value1
+            Property2: Value2
+        Issued: 2024-09-21T12:34:00Z
+        Starts: 2024-01-10T13:45:00.000Z
+        Expires: 2028-12-10T13:45:00.000Z
+        Signature: ABCMIQDALK2Fd...
+        DKIM: pk1
 ```
 
 |Object|Property|Type|Description|Origin|Purpose

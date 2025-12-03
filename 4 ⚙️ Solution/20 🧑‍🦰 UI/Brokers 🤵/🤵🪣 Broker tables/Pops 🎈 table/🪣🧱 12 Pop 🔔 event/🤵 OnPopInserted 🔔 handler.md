@@ -26,7 +26,7 @@
 
 # Add the Chat
 - SAVE|Broker.Chats:
-    .Status: ASKED
+    .State: ASKED
     Pop: $Pop.ID
     Hook: $Pop.Hook
     Wallet: $Pop.Wallet
