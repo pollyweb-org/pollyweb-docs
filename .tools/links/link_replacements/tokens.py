@@ -264,6 +264,8 @@ WALLET_REPLACEMENT = "[Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet 🛠️ app.m
 WALLETS_REPLACEMENT = "[Wallet 🧑‍🦰 apps](<🧑‍🦰 Wallet 🛠️ app.md>)"
 GRAPH_REPLACEMENT = "[Graph 🕸 domain](<🕸🤲 Graph helper.md>)"
 GRAPHS_REPLACEMENT = "[Graph 🕸 domains](<🕸🤲 Graph helper.md>)"
+IDENTITY_REPLACEMENT = "[Identity 🆔 domain](<🆔🫥 Identity agent.md>)"
+IDENTITIES_REPLACEMENT = "[Identity 🆔 domains](<🆔🫥 Identity agent.md>)"
 
 
 @register_hardcoded("placeholder", replacement=PLACEHOLDER_REPLACEMENT, token_label="Placeholder")
@@ -1139,6 +1141,15 @@ def replace_notifiers_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Notifiers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
     return _replace_simple(md_files, pattern, "[Notifier 📣 domains](<📣 Notifier 👥 domain.md>)")
 
+@register_hardcoded("identity", replacement=IDENTITY_REPLACEMENT, token_label="Identity")
+def replace_identity_tokens(md_files):
+    pattern = _simple_pattern_for("Identity")
+    return _replace_simple(md_files, pattern, IDENTITY_REPLACEMENT)
+
+@register_hardcoded("identities", replacement=IDENTITIES_REPLACEMENT, token_label="Identities")
+def replace_identities_tokens(md_files):
+    pattern = _simple_pattern_for("Identities")
+    return _replace_simple(md_files, pattern, IDENTITIES_REPLACEMENT)
 
 def replace_triple_brace_tokens(md_files: Iterable[str], file_dict: dict[str, list[tuple[str, str]]]) -> int:
     """Replace helper tokens using triple braces with markdown links."""

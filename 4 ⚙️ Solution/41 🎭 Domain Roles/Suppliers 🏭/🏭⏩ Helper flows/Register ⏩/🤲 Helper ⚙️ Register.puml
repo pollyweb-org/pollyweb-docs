@@ -1,16 +1,16 @@
 @startuml Present
 
 participant "Helper 🤲" as helper
-participant "Wallet 🧑" as user
 participant "Broker 🤵" as broker
+participant "Biller 🤝" as biller
 participant "Payer 💳" as payer
 participant "Identity 🆔" as id
-participant "Biller 🤝" as biller
+participant "Wallet 🧑" as user
 
 activate helper
-    helper --> user: ⏪ INFORM
-    helper --> user: ⏪ BIND
-    helper --> broker: ⏪ Invite
+    helper -> user: INFORM
+    helper -> user: BIND
+    helper -> broker: Invite
 deactivate helper
 
 activate broker
@@ -19,7 +19,7 @@ activate broker
 deactivate broker
 
 activate biller
-    biller --> user: ⏪ Prompt 🤔 {plan?}
+    biller -> user: ONE 🤔 {plan?}
     biller --> payer: Share {link} 🐌
 deactivate biller
 
