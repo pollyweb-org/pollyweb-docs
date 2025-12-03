@@ -115,6 +115,7 @@ MAX_PARALLEL_WORKERS = max(1, min(32, (os.cpu_count() or 1)))
 
 YAML_FENCE_OPEN_RE = re.compile(r"^(?:```|~~~)+\s*(yaml|yml)\b", re.IGNORECASE)
 YAML_FENCE_CLOSE_RE = re.compile(r"^(?:```|~~~)+\s*$")
+MSG_LABEL_PATTERN = re.compile(r"\[(?P<label>[^\]]*?)📨 msg\]\(<(?P<target>[^>]+)>\)")
 
 
 def _parallel_process(paths: List[str], worker, executor: Optional[ThreadPoolExecutor] = None):
@@ -1360,6 +1361,48 @@ def runit(project_directory, entryPoint):
         for message_list in canonical_messages:
             for message in message_list:
                 print(message)
+
+        def _align_msg_link_labels(path_str: str):
+            doc_path = Path(path_str)
+            try:
+                text = doc_path.read_text(encoding="utf-8")
+            except Exception:
+                return None
+
+            if "📨 msg]" not in text:
+                return None
+
+            replacements = 0
+
+            def replace(match: re.Match[str]) -> str:
+                nonlocal replacements
+                target = match.group("target")
+                basename = os.path.basename(target)
+                if basename.endswith("🚀 call.md"):
+                    suffix = "🚀 call"
+                elif basename.endswith("🐌 msg.md"):
+                    suffix = "🐌 msg"
+                else:
+                    return match.group(0)
+
+                replacements += 1
+                label_prefix = match.group("label")
+                return f"[{label_prefix}{suffix}](<{target}>)"
+
+            updated_text = MSG_LABEL_PATTERN.sub(replace, text)
+            if replacements == 0 or updated_text == text:
+                return None
+
+            try:
+                doc_path.write_text(updated_text, encoding="utf-8")
+            except Exception:
+                return None
+
+            return path_str, replacements
+
+        label_alignment_results = _parallel_process(md_files, _align_msg_link_labels, active_pool)
+        for path_str, count in label_alignment_results:
+            print(f"Adjusted {count} msg link label(s) in {path_str}")
 
         def _scan_unresolved(path_str: str):
             path = Path(path_str)
