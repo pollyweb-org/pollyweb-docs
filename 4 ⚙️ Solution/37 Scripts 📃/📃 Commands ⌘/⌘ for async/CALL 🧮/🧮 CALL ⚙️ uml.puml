@@ -14,6 +14,11 @@ activate script
 deactivate script
 
 activate talker
+    
+    alt if internal function
+        talker -> script: RETURN .Evaluate
+    end alt
+    
     talker -> talker: uuid: {.UUID}
     talker -> holders: IMPRINT 🦶 {uuid}
     talker --> hosted: ASYNC 👷🏼 {uuid, function, inputs} 
