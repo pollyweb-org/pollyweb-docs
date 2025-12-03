@@ -3,13 +3,17 @@
 participant "Wallet 🧑" as wallet
 box Consumer 💼 domain #FFFFFA
     participant "Receive 🐌" as consumer
-    participant "Talker 😃" as talker
     participant "Queries 🪣" as queries
     participant "Chats 🪣" as chats
 end box
 
-activate wallet
-    wallet --> consumer: Receive 🐌 {hook}
-deactivate wallet
+wallet --> consumer: Receive 🐌 {query}
+
+activate consumer
+    consumer -> queries: READ 🧲 {query}
+    consumer -> chats: READ 🧲 {broker, chat}
+    consumer -> consumer: VERIFY 🔐 {chat.PK}
+    consumer -> queries: SAVE 💾 {RECEIVED}
+deactivate consumer
 
 @enduml 

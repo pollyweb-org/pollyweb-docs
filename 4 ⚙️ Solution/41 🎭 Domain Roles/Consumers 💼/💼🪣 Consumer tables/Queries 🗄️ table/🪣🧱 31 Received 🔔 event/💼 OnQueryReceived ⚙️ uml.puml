@@ -3,18 +3,20 @@
 box Consumer 💼 domain #FFFFFA
     participant "Queries 🪣" as table
     participant "OnReceived 🔔" as handler
-    participant "SHARE ⌘" as share
-    participant "Script 📃" as script
 end box
+participant "Graph 🕸" as graph
 
-table --> handler: OnQueryReceived 🔔 
+table --> handler: RECEIVED 🔔 
 
 activate handler
-    handler -> share: RACE 🏁 {token}
+    handler -> graph: VERIFY 🔐 {token signature}
+    handler -x table: SAVE 💾 CORRUPTED ❌ 
+    handler -> graph: TRUSTS 🫡 {issuer, schema, VAULT}
+    handler -x table: SAVE 💾 UNTRUSTED ❌
+    handler -> table: SAVE 💾 VALID ✅
+    
+    
 deactivate handler
 
-activate share
-    share -> script: RETURN {token}
-deactivate share
 
 @enduml 
