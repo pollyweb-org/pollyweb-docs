@@ -1,0 +1,30 @@
+@startuml OnChatTokens
+
+box Host 🤗 domain #FFFFFA
+    participant "Chats 🪣" as chats
+    participant "OnTokens 🔔" as script
+    participant "Tokens 🪣" as tokens
+end box
+participant "Graph 🕸" as graph
+
+
+chats --> script: TOKENS 🔔
+
+activate script
+    script -> script: PARALLEL {Chat.Tokens}
+    
+    activate script
+        alt IF self-issued
+            script -> tokens: READ 🧲
+            script -> script: SET {token details}
+        else IF third-party
+            script -> graph: VERIFY 🔐 {signature, schema}  
+        end alt
+    deactivate script   
+
+    script -> chats: 💾 CACHE
+
+deactivate script   
+
+
+@enduml 
