@@ -209,6 +209,10 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
                     score += 50
                 if 'msg' in stem_norm:
                     score += 80
+                if 'call' in stem_norm:
+                    score += 90
+                if stem_norm.endswith('call'):
+                    score += 40
                 if 'reply' in stem_norm:
                     score += 60
                 if 'handler' in stem_norm:
@@ -221,14 +225,28 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
                 candidates.sort(key=lambda t: (t[1], str(t[0])), reverse=True)
                 best_path = candidates[0][0]
                 found_href = os.path.relpath(best_path, path.parent)
-                for part in best_path.parts:
-                    normalized_part = normalize_string(part)
-                    if normalized_part.endswith('events'):
-                        link_label = '🔔 event'
-                        break
-                    if normalized_part.endswith(('msgs', 'msg', 'messages', 'methods', 'method')):
-                        link_label = '📨 msg'
-                        break
+                def infer_label_from_filename(candidate: Path) -> Optional[str]:
+                    name = candidate.name
+                    if name.endswith('🚀 call.md'):
+                        return '🚀 call'
+                    if name.endswith('🐌 msg.md'):
+                        return '🐌 msg'
+                    if name.endswith('📃 handler.md'):
+                        return '📃 handler'
+                    return None
+
+                label_candidate = infer_label_from_filename(best_path)
+                if label_candidate is None:
+                    for part in best_path.parts:
+                        normalized_part = normalize_string(part)
+                        if normalized_part.endswith('events'):
+                            label_candidate = '🔔 event'
+                            break
+                        if normalized_part.endswith(('msgs', 'msg', 'messages', 'methods', 'method')):
+                            label_candidate = '📨 msg'
+                            break
+                if label_candidate is not None:
+                    link_label = label_candidate
 
             if not found_href:
                 continue

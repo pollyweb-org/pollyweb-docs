@@ -1,19 +1,30 @@
 ⌚ Tapband device
 ===
 
+## Flow
+
 ![](<. 📎 Assets/⌚ Tapband.png>)
+
+## FAQ
 
 1. **What is a Tapband?**
 
     In NLWeb, Tapbands are smart bands with the following features:
 
-    - **Semi-online**: is able to periodically connect to the internet (e.g., Bluetooth, eSim); 
+    - **Semi-online**: 
+        - is able to periodically connect to the internet 
+        - e.g., Bluetooth, eSim; 
     
-    - 💍 **Userable**: emulates a passive NFC [Locator 🔆](<../Locators 🔆/🔆 Locator.md>) representing a [Userable 💍](<../Userables 💍/💍💠 Userable thing.md>) [Thing 💠](<../Things 💠/💠🔆 Thing locator.md>);
+    - 💍 **Userable**: 
+        - emulates a passive NFC [Locator 🔆](<../Locators 🔆/🔆 Locator.md>) 
+        - representing a [Userable 💍](<../Userables 💍/💍💠 Userable thing.md>) [Thing 💠](<../Things 💠/💠🔆 Thing locator.md>);
     
-    - 🔒 **Keyholder**: has an active NFC scanner to interact with [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>);
+    - 🔒 **Keyholder**: 
+        - has an active NFC scanner to interact with [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>);
     
-    - 💖 **Health monitoring**: optionally, collects metrics from the user's device to send to a [Timeline 🕓](<../../50 🫥 Agent domains/Timeline 🕓/🕓🫥 Timeline agent.md>).
+    - 💖 **Health monitoring**: 
+        - optionally, collects metrics from the user's device 
+        - to send to a [Timeline 🕓](<../../50 🫥 Agent domains/Timeline 🕓/🕓🫥 Timeline agent.md>).
 
     ---
 
