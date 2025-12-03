@@ -1,0 +1,24 @@
+@startuml GOODBYE
+
+box Host 🤗 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "GOODBYE ⌘" as goodbye
+    participant "Chats 🪣" as chats
+end box
+
+participant "Broker 🤵" as broker
+
+activate script
+    script -> goodbye: GOODBYE 👋 
+deactivate script
+
+activate goodbye
+    goodbye -> chats: READ 🧲 {$.Chat.Item}
+    goodbye -> chats: SAVE 💾 {GOODBYE}
+deactivate goodbye
+
+activate chats
+    chats --> broker: Goodbye 🐌
+deactivate chats
+
+@enduml 
