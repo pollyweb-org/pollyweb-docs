@@ -1,0 +1,26 @@
+@startuml OnChatOpened
+
+box Host 🤗 domain #FFFFFA
+    participant "Chats 🪣" as table
+    participant "OnOpened 🔔" as script
+end box
+participant  "Broker 🤵" as broker
+
+
+table --> script: OPENED 🔔
+
+activate script
+    
+    script -> broker: SEND 📬 Chat @ Broker 🚀
+    
+    activate broker
+        broker -> script: { chat details }
+    deactivate broker
+
+    script -> table: 💾 DETAILED
+
+deactivate script
+
+
+
+@enduml 
