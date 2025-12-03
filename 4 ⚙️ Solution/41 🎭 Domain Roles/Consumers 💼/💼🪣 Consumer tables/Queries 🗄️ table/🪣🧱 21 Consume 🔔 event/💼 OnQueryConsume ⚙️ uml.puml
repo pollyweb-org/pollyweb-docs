@@ -6,7 +6,7 @@ box Consumer 💼 domain #FFFFFA
 end box
 participant "Vault 🗄️" as vault
 
-table --> handler: OnQueryConsume 🔔 
+table --> handler: CONSUME 🔔 
 
 activate handler
     handler -> vault: SEND 📬 {Collect 🚀}

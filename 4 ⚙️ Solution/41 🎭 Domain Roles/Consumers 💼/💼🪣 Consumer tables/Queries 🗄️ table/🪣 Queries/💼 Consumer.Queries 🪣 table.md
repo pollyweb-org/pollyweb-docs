@@ -18,10 +18,11 @@ Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 Assert:
+
     # Group assertions
-    .AllOf: Broker, Chat, Schemas
-    .UUIDs: Chat, Collect
-    .Lists: Schemas
+    AllOf: Broker, Chat, Schemas
+    UUIDs: Chat, Collect
+    Lists: Schemas
     
     # Field assertions
     Broker.IsDomain:

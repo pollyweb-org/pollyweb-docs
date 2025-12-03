@@ -18,20 +18,21 @@
 📃 OnQueryConsume:
 
 # Verify if the Vault is trusted
-- TRUSTS:
+- TRUSTS >> $trusted:
     Trusted: $Query.Vault
     Schema: $Query.Schema
     Role: VAULT
 
-# Get the data
-- SEND >> $data:
-    Header: 
-        To: $.Msg.From
-        Subject: Collect@Vault
-    Body:
-        Collect: $.Msg.Collect
-
-# Assert the schema
-- ASSERT|$data:
-    Schema: $.Msg.Schema
+# Progress the state
+- IF|$trusted:
+    Then: 
+        SAVE|$Query:
+            .State: TRUSTED
+    Else:
+        SAVE|$Query:
+            .State: UNTRUSTED
 ```
+
+Uses ||
+|-|-
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`IF`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`TRUSTS`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/TRUSTS 🫡/🫡 TRUSTS ⌘ cmd.md>) |
