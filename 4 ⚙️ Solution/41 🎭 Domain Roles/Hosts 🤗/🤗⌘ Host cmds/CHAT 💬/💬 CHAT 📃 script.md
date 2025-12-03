@@ -41,7 +41,7 @@ RUN|.CHAT:
     Body:
         Chat: $Chat
 
-# Get the table item, if exists
+# Get the Chat item, if exists
 - READ >> $chat:
     Set: Host.Chats
     Key: 

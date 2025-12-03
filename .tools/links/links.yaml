@@ -658,53 +658,60 @@ Successful Tests:
   METHODS 🅰️:
 
   - Given: '{{Parse@Hosted}}'
-    LinkText: "`Parse@Hosted` 📨 msg"
+    LinkText: "`Parse@Hosted` 🚀 call"
     LinkFile: "📦 Parse 🚀 call.md"
     Reasons: |
       For `X@Y`, 
       where the string is split by `@` into `X` and `Y`,
-      the file is called `*X*.md,
-      and the file ends in either "🐌 msg.md" or "🚀 call.md",
-      and is in a folder called `*Y*methods*`
-      or is in a subfolder of such folder.
+        and the file is called `*X*.md,
+        and the file ends in either "🐌 msg.md" or "🚀 call.md",
+        and (either is in a folder called `*📨*Y*msgs*`
+          or is in a subfolder of such folder)
+      then end the text with either "🐌 msg" or "🚀 call" accordingly.
 
   - Given: '{{Prompt@Broker}}'
-    LinkText: "`Prompt@Broker` 📨 msg"
+    LinkText: "`Prompt@Broker` 🐌 msg"
     LinkFile: "🤵 Prompt 🐌 msg.md"
     Reasons: |
       same as "{{Parse@Hosted}}"
 
   - Given: '{{Handle@Hosted}}'
-    LinkText: "`Handle@Hosted` 📨 msg"
+    LinkText: "`Handle@Hosted` 🐌 msg"
     LinkFile: "📦 Handle 🐌 msg.md"
     Reasons: |
       same as "{{Parse@Hosted}}"
 
 
   - Given: '{{Prompted@Hosted}}'
-    LinkText: "`Prompted@Hosted` 📨 msg"
+    LinkText: "`Prompted@Hosted` 🚀 call"
     LinkFile: '🤗 Prompted 🚀 call.md'
     Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{Build@Itemized}}'
-    LinkText: "`Build@Itemized` 📨 msg"
+    LinkText: "`Build@Itemized` 🐌 msg"
     LinkFile: '🛢 Build 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{Updated@Notifier}}'
-    LinkText: "`Updated@Notifier` 📨 msg"
+    LinkText: "`Updated@Notifier` 🐌 msg"
     LinkFile: '📣 Updated 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{Bound@Vault}}'
-    LinkText: "`Bound@Vault` 📨 msg"
+    LinkText: "`Bound@Vault` 🐌 msg"
     LinkFile: '🗄️ Bound 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{Disclose@Vault}}'
-    LinkText: "`Disclose@Vault` 📨 msg"
+    LinkText: "`Disclose@Vault` 🐌 msg"
     LinkFile: '🗄️ Disclose 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
+
+  - Given : '{{Chat@Broker}}'
+    LinkText: "`Chat@Broker` 🚀 call"
+    LinkFile: '🤵 Chat 🚀 call.md'
+    Reasons: same as "{{Parse@Hosted}}"
+
 
   ITEM 🛢:
 
