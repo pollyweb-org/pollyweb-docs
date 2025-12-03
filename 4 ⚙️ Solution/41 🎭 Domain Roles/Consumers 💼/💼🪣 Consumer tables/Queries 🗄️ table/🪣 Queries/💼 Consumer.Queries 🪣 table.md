@@ -1,5 +1,17 @@
 # 💼 Consumer.Queries 🪣 table
 
+
+# State Transitions
+
+| Blame | States | Exits
+|-|-|-
+|[`SHARE` ⌘](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)| `QUERIED`
+|[`Consume@` 🐌](<../../../💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)| `CONSUME` `TRUSTED` `COLLECTED` | `INVALID` `UNTRUSTED`
+|[`Receive@` 🐌](<../../../💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 📃 handler.md>)| `RECEIVED` `TOKENED` | `INVALID` `UNTRUSTED`
+
+
+<br/>
+
 ## Schema
 
 Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.

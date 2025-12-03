@@ -68,8 +68,8 @@ Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 Assert:
-    AllOf: Chat, Hook, Schemas, Consumer
-    UUIDs: Chat, Hook, Bind, Token
+    AllOf: Chat, Query, Schemas, Consumer
+    UUIDs: Chat, Query, Bind, Token
     Lists: Schemas, Matches, Trusts
     
     # Inputs
@@ -103,7 +103,7 @@ From [`Query@Broker` 🐌 handler](<../../../🤵🅰️ Broker methods/Share �
 
 ```yaml
 Chat: <chat-uuid>       # Chat where the Query was sent
-Hook: <hook-uuid>       # Hook to reply to the Consumer 
+Query: <query-uuid>     # Query to reply to the Consumer 
 Consumer: any-host.dom  # Sender of the Query
 Schemas:                # List of acceptable schemas
   - any-authority.dom/ANY-SCHEMA  # Requested Schema 1

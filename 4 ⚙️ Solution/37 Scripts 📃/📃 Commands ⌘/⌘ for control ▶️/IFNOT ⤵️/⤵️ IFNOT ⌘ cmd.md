@@ -1,25 +1,25 @@
-# 😃⤵️ Talker `UNLESS` flow command
+# 😃⤵️ Talker `IFNOT` flow command
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
 <br/>
 
 
-1. **What's an UNLESS flow command?**
+1. **What's an IFNOT flow command?**
 
-    `UNLESS` ⤵️
+    `IFNOT` ⤵️
     * is a flow [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)  
     * that represents the `Else` part of an [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>).
 
     ---
     <br/>
 
-1. **What's the UNLESS syntax?**
+1. **What's the IFNOT syntax?**
 
     > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml
-    UNLESS|<assert>: 
+    IFNOT|<assert>: 
         [cmds...]
     ```
 

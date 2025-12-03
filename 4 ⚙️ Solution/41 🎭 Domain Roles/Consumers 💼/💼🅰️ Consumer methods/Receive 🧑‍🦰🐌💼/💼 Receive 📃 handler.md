@@ -15,20 +15,13 @@
 ```yaml
 📃 Receive@Consumer:
 
-# Assert the inputs
 - ASSERT|$.Msg:
-    AllOf: Tokens, Hook
-    UUIDs: Hook
-    Lists: Tokens
+    AllOf: Query
 
 # Resolve the callback
 - READ >> $hook
-    Set: Talker.Hooks
-    Key: $.Msg.Hook
-
-# Verify the Wallet signature
-- VERIFY|$.Msg:
-    Key: $hook.PublicKey
+    Set: Consumer.Queries
+    Key: $.Msg.Query.Required
 
 # Continue the Chat
 - REEL|$hook:

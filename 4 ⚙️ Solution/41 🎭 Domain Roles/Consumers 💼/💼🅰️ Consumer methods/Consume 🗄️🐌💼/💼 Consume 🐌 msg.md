@@ -23,7 +23,7 @@ Header:
     Subject: Consume@Consumer
 
 Body:
-    Hook: <hook-uuid>
+    Query: <query-uuid>
     Schema: any-authority.dom/ANY-SCHEMA:1.0
     Collect: <collect-uuid>
     TTL: 2023-04-01T05:00:30.001000Z
@@ -35,7 +35,7 @@ Object |Property|Type|Description|Origin|Purpose
 |Header|`From`|text| [Vault 🗄️](<../../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | [`Disclose@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
 ||`To`|text| [Consumer 💼](<../../💼 Consumer/💼🎭 Consumer role.md>) | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 || `Subject` |text| `Consume@Consumer`
-|Body| `Hook` | uuid | [Consumer 💼](<../../💼 Consumer/💼🎭 Consumer role.md>)  hook | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+|Body| `Query` | uuid | [Consumer 💼](<../../💼 Consumer/💼🎭 Consumer role.md>)  Query | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 || `Schema`|text| Data [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) || [`Trusts@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
 || `Collect` | uuid | [Vault 🗄️](<../../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) Hook || [`Collect@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
 || `TTL` | time| Collect deadline || [`Collect@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)

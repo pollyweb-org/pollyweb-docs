@@ -25,7 +25,7 @@
     Body:
         Consumer: $Query.Consumer.Require
         Wallet: $Query.Wallet.Require
-        Hook: $Query.Hook.Require
+        Query: $Query.Query.Require
         Token: $Query.Token.Require
         Issuer: $Query.Issuer.Require
 ```
