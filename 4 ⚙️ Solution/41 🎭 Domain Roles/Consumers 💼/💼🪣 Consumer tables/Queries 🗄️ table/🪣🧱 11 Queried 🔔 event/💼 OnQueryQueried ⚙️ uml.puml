@@ -6,7 +6,7 @@ box Consumer 💼 domain #FFFFFA
 end box
 participant "Broker 🤵" as broker
 
-table --> handler: OnQueryQueried 🔔 
+table --> handler: QUERIED 🔔 
 
 activate handler
     handler --> broker: SEND 📬 {Query 🐌}

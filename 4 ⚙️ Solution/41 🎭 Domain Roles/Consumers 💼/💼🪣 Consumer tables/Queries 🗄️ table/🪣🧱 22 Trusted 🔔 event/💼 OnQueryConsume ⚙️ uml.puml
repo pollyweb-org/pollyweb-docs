@@ -1,0 +1,22 @@
+@startuml OnQueryTrusted
+
+box Consumer 💼 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnTrusted 🔔" as handler
+end box
+participant "Vault 🗄️" as vault
+
+table --> handler: TRUSTED 🔔 
+
+activate handler
+    handler -> vault: SEND 📬 {Collect 🚀}
+
+    activate vault
+        vault -> handler: {data}
+    deactivate vault
+
+    handler -> table: SAVE 💾 {COLLECTED, data}
+
+deactivate handler
+
+@enduml 
