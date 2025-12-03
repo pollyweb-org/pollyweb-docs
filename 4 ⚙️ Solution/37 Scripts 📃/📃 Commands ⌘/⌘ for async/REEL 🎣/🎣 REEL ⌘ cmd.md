@@ -55,7 +55,7 @@ then the last 3 will never be executed because REEL will exit the script.
 
 1. **What's an example of REEL?**
 
-    Consider the [`BIND` flow command](<../../⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>).
+    Consider the [`BIND` flow command](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault commands/BIND 🔗/🔗 BIND ⌘ cmd.md>).
 
     ![alt text](<🎣 REEL ⚙️ uml.png>)
 
@@ -71,7 +71,7 @@ then the last 3 will never be executed because REEL will exit the script.
         Else: FAIL|Not bounded.
     ```
 
-    Uses: [`BIND`](<../../⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
+    Uses: [`BIND`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault commands/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
     
     <br/>
 

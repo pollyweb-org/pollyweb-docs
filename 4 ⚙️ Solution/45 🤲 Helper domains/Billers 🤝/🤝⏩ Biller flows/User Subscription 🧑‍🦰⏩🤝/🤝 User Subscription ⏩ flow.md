@@ -61,7 +61,7 @@ The corresponding [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script �
 | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
 |-|-
 | 📝 [`INFORM`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) | To provide instructions.
-| 🔗 [`BIND`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/BIND 🔗/🔗 BIND ⌘ cmd.md>) | To create a user profile.
+| 🔗 [`BIND`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault commands/BIND 🔗/🔗 BIND ⌘ cmd.md>) | To create a user profile.
 | 🛠️ [`INVITE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan.
 | ❄️ [`FREEZE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs.
 | 🧮 [`CALL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) | To register on the database.
