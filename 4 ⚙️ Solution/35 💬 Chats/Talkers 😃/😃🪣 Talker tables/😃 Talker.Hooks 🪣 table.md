@@ -9,7 +9,7 @@
 
 > Data access
 
-* [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by [`BIND`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault commands/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`ISSUE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) [`SHARE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)
+* [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) by [`BIND`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`ISSUE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) [`SHARE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)
 * [`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) by the [`REEL`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/REEL 🎣/🎣 REEL ⌘ cmd.md>) command
 
 ## Schema

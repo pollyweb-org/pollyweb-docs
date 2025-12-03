@@ -83,7 +83,7 @@ Automatic, from [Item 🛢 Keys](<../../../../../30 🧩 Data/Datasets 🪣/🪣
 ID: <prompt-uuid>
 ```
 
-From [`Prompts` 📃 script](<../../../🤗⌘ Host commands/PROMPT 🤔/🤔 PROMPT 📃 script.md>)
+From [`Prompts` 📃 script](<../../../🤗⌘ Host cmds/PROMPT 🤔/🤔 PROMPT 📃 script.md>)
 
 ```yaml
 Broker: any-broker.dom

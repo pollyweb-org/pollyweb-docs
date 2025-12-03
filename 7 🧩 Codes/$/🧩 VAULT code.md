@@ -5,7 +5,7 @@
 
 * Used with:
     * [🧑‍🦰👉🗄️ Bind 🔗 flow](<../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind Vault ⏩ flow.md>)
-    * [`BIND` 🔗 command](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault commands/BIND 🔗/🔗 BIND ⌘ cmd.md>)
+    * [`BIND` 🔗 command](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>)
 
 <br/>
 
