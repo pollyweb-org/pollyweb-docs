@@ -1,6 +1,6 @@
  # 😃💳 Talker `CHARGE` command
 
-> Automatically calls [FREEZE ❄️](<../FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
+> Automatically calls [FREEZE ❄️](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
  
 
 1. **What's the syntax?**
