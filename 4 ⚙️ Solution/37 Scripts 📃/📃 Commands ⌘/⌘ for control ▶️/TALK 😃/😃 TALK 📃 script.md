@@ -2,7 +2,7 @@
 
 > Purpose
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`TALK`](<😃 TALK ⌘ cmd.md>) command.
-* Requires a previous invocation of the [`CHAT`](<../../⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) command.
+* Requires a previous invocation of the [`CHAT`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/CHAT 💬/💬 CHAT ⌘ cmd.md>) command.
 
 
 ## Diagram

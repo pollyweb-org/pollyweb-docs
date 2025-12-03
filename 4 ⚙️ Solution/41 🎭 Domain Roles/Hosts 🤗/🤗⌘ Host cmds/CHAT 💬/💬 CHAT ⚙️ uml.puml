@@ -1,13 +1,18 @@
 @startuml CHAT
 ' TODO
 
-box Host domain #FFFFFA
+box Host 🤗 domain #FFFFFA
     participant "Script 📃" as script
     participant ".CHAT 📃" as engine
     participant "$.Chat 🧠" as holder
     participant "Chats 🪣" as table
 end box
-
+box Vault 🗄️ #FFFFFA
+    participant "Binds 🪣" as binds
+end box
+box Issuer 🎴️ #FFFFFA
+    participant "Tokens 🪣" as tokens
+end box
 participant  "Broker 🤵" as broker
 
 
@@ -23,6 +28,8 @@ activate engine
     deactivate broker
 
     engine -> table: READ 🧲
+    engine -> binds: 
+    engine -> tokens: 
     engine -> table: SAVE 💾
     engine -> holder: SET 
     engine -> script:

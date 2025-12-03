@@ -6,7 +6,7 @@
 * Stores the content of [`Hello@Host`](<../../../🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 
 > Data access
-* Saved by the [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) command
+* Saved by the [`CHAT`](<../../../🤗⌘ Host cmds/CHAT 💬/💬 CHAT ⌘ cmd.md>) command
 * Loaded into the [`$.Chat` 🧠 holder](<../../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>) 
 
 
