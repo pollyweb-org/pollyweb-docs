@@ -9,11 +9,12 @@ participant "Graph 🕸" as graph
 table --> handler: RECEIVED 🔔 
 
 activate handler
+    handler -x table: SAVE 💾 INVALID ❌ 
     handler -> graph: VERIFY 🔐 {token signature}
     handler -x table: SAVE 💾 CORRUPTED ❌ 
     handler -> graph: TRUSTS 🫡 {issuer, schema, VAULT}
     handler -x table: SAVE 💾 UNTRUSTED ❌
-    handler -> table: SAVE 💾 VALID ✅
+    handler -> table: SAVE 💾 TOKENED ✅
     
     
 deactivate handler

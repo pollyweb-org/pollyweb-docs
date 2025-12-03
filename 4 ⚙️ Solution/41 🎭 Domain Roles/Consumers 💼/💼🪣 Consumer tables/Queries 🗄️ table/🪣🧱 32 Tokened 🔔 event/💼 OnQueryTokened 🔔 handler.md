@@ -14,7 +14,7 @@
 ## Script
 
 ```yaml
-📃 OnQueryValid:
+📃 OnQueryTokened:
 
 # Continue the talker 
 - RACE|$Query.ID:

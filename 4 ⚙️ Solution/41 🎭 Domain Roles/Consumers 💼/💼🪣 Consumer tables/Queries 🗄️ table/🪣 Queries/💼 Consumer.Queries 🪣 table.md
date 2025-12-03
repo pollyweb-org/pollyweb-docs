@@ -31,6 +31,7 @@ Assert:
     # From Consume@Broker
     Vault.IsDomain:
     Schema.IsSchema:
+    Schema.IsIn: Schemas
 ```
 Uses: [`.AllOf`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>) [`.Lists`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Lists ⓕ.md>) [`.UUIDs`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/UUIDs ⓕ.md>) [`.Each`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Each ⓕ.md>) [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
 

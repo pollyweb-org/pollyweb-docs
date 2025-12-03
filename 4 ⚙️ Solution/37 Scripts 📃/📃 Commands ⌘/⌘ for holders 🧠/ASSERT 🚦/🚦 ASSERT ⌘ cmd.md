@@ -31,7 +31,7 @@
 
     ```yaml
     # Multi-field assertions
-    ASSERT|$object:
+    ASSERT|$object >> $valid:
         AllOf: <fields> # Required fields
         AnyOf: <fields> # One or more of these
         OneOf: <fields> # Only one of these
@@ -47,6 +47,8 @@
     | Input| Purpose |  Examples |Behavior
     |-|-|-|-
     | `$object`| Optional initial context | `$.Msg`
+    | `$valid` | Optional boolean result | `$isValid` |
+    | | If omitted, stops when failed |
     | `AllOf` | All should have values |  `A,B` `[A,B]` | [`.AllOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>)
     | `AnyOf` | One or more have values |  `A,B` `[A,B]` | [`.AnyOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/AnyOf ⓕ.md>)
     | `OneOf` | Only one should have value | `A,B` `[A,B]` | [`.OneOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/OneOf ⓕ.md>)
@@ -71,7 +73,7 @@
     > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml
-    ASSERT|$object:
+    ASSERT|$object >> $valid:
         <key>
         <key>.f: ?
         <key>: <val>
@@ -80,6 +82,8 @@
     | Input| Purpose | Examples
     |-|-|-
     | `$object`| Optional initial context | [`$.Msg`](<../../../📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`.Inputs`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Inputs ⓕ.md>)
+    | `$valid` | Optional boolean result | `$isValid` |
+    | | If omitted, stops when failed |
     | `<key>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `From` `$A` [`$lst.A`](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)
     | `.f(?)`| Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) a [{Function} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)  | [`.IsIn`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)`(A,B)`
     | `:<val>` | Input to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) with  [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>) | `:any-domain.dom`
