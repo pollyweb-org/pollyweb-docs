@@ -43,7 +43,7 @@
 
 1. **How do Persona agents work?**
 
-    ![](<🧢🫥 Persona agent.md>)
+    ![alt text](<🧢🫥 Persona agent.md>)
 
     ---
     <br/>
