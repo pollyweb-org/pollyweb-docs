@@ -33,60 +33,34 @@
 ```yaml
 💬|Reserve a table:
 
-# Show the restaurant name
-- READ|Restaurant|$.Chat.Key >> $r
-- INFO|{$r.Name}
-
-# Confirmations
-- CONFIRM|Hi! Book a table?
-- CONFIRM|At {$r.Name}?
-
-# Inputs
-- INFORM|Book
-
-# Get the booking.
-- SHARE|.SCHEDULER/BOOK >> $b:
-    Context: 
-        About: .FileID(/info/{$r.ID}.md) # Get the file.
-        Slots: {Slots($r.ID)}     # From the ERP.
-
-# Get user contacts.
-- SHARE|.PERSONA/BOOKING >> $c
-
-# Get user preferences.
-- SHARE|.PERSONA/SEAT/PREFERENCES >> $p
-
-# Allow one last time for input changes.
-- CONFIRM|Confirm booking?
-- FREEZE >> $inputs:
-    Restaurant: $r
-    Booking: $b
-    Contacts: $c
-    Preferences: $p
-
-# Save the booking
-- CALL|Save >> $booking:
-    $inputs
-        
-# Issue token
-- ISSUE:
+- READ|Places|$.Chat.Key >> $place  # Get the restaurant info
+- INFO|{$place.Name}                # Show the restaurant name
+- CONFIRM|Hi! Book a table?         # Confirm booking intent
+- CONFIRM|At {$place.Name}?         # Confirm the restaurant   
+- INFORM|Book                       # Announce query intents
+- CALL|Slots|$place.ID >> $slots    # Get available slots
+- READ|Files|{$place.ID}.md >> $inf # Get restaurant details
+- SHARE|.SCHEDULER/BOOK >> $slot:   # Ask for slot selection
+    About: $i
+    Slots: $slots     
+- SHARE|.PERSONA/BOOKING >> $call   # Ask for user contacts
+- SHARE >> $likes:                  # Ask for preferences
+    Schema: .PERSONA/MEAL/LIKES
+- CONFIRM|Confirm booking?          # Ask for confirmation
+- FREEZE                            # Lock the inputs
+- SAVE|Bookings >> $booking:        # Save the booking
+    Place: $place.ID
+    Slot: $slot
+    Call: $call
+    Likes: $likes
+- ISSUE:                            # Issue a Token
     Schema: .HOST/BOOKING/SELF
-    Properties: 
-        $booking
-
-- DONE|Done. See you then!
-- GOODBYE
+    Key: $booking.ID
+- DONE|Done. See you then!          # Confirm booking
+- GOODBYE                           # Show follow-up actions
 ```
 
-
-| [Command ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
+Uses||
 |-|-
-| 🧲 [`READ`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Map the locator to a restaurant info.
-| 📝 [`INFORM`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) | Show user instructions and allow inputs.
-| 1️⃣ [`ONE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/ONE 1️⃣/ONE 1️⃣ prompt.md>) | Select an option, the day in this case.
-| 💼 [`SHARE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>) | Get the user's booking contacts.
-| 👍 [`CONFIRM`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) | Pause to allow changing previous inputs.
-| ❄️ [`FREEZE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | Freeze all previous inputs from changes.
-| 🧮 [`CALL`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) | Save the booking.
-| 🎫 [`ISSUE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Call the [Save Token ⏩ flow](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>).
-|
+|[Commands ⌘](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`CALL`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`CONFIRM`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DONE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`FREEZE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) [`GOODBYE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) [`INFORM`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INFORM 📝/📝 INFORM ⌘ cmd.md>) [`ISSUE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) [`READ`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SHARE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>) 
+|[Holders 🧠](<../../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/Holder 🧠.md>)| [`$.Chat` 🧠 holder](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
