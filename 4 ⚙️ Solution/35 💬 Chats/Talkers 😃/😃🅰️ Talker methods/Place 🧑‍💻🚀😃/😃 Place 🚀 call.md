@@ -6,7 +6,7 @@
 
 > Flow
 * Part of [`Async` ⏩ flow](<../../😃⏩ Talker flows/Long Async Tasks 😃⏩📦/😃 Async ⏩ flow.md>) flow
-* Paired with the [`Placed@Talker` 🅰️ method](<../Placed 🧑‍💻🚀😃/😃 Placed 🚀 call.md>)
+* Paired with the [`Placed@Talker` 📨 msg](<../Placed 🧑‍💻🚀😃/😃 Placed 🚀 call.md>)
 
 > Purpose 
 * Writes a value to a [Holder 🧠](<../../../Scripts 📃/Holder 🧠.md>).

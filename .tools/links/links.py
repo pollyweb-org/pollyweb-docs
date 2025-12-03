@@ -225,10 +225,14 @@ def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Pa
 
     best = max(candidates, key=score_candidate)
     path, stem_norm, folder_normalized = best
-    label = '🅰️ method'
+    label = '📨 msg'
     for part in path.parts:
-        if normalize_string(part).endswith('events'):
+        normalized_part = normalize_string(part)
+        if normalized_part.endswith('events'):
             label = '🔔 event'
+            break
+        if normalized_part.endswith(('msgs', 'msg', 'messages', 'methods', 'method')):
+            label = '📨 msg'
             break
     return label, path
 

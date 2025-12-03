@@ -8,7 +8,7 @@
 * Part of the [🤗⏩🧑‍🦰 Prompt 🤔](<../../🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) flow
 
 > Signature
-* signed with the `PrivateKey` from [`Open@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣🅰️ Notifier methods/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>)
+* signed with the `PrivateKey` from [`Open@Notifier`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣📨 Notifier msgs/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>)
 *  verified with the `PublicKey` from [`Hello@Host`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 
 > Purpose
@@ -32,9 +32,9 @@ Body:
 |Object|Property|Type|Description | Origin
 |-|-|-|-|-
 | Header    |`From`|text| `Anonymous`
-|           |`To`|text| [Sender 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+|           |`To`|text| [Sender 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `Prompt`    | uuid      | [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) Prompt | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+| Body      | `Prompt`    | uuid      | [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) Prompt | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 |
 
 <br/>
@@ -84,7 +84,7 @@ Options:                            # Optional
 
 1. **Why aren't the `Format` and `Emoji` properties provided?**
 
-    Those [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) properties are provided directly via the [`Prompt@Broker` 🅰️ method](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) so that [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) can enforce standardization of [emojis](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) for the benefit of users.
+    Those [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) properties are provided directly via the [`Prompt@Broker` 📨 msg](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) so that [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) can enforce standardization of [emojis](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶⌘ EMOJI cmd.md>) for the benefit of users.
 
     ---
     <br/>

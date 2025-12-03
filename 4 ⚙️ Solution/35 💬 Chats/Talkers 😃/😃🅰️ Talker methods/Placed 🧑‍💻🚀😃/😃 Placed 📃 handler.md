@@ -3,7 +3,7 @@
 
 # 😃📃 Placed handler
 
-> Implements the [`Placed@Talker` 🅰️ method](<😃 Placed 🚀 call.md>)
+> Implements the [`Placed@Talker` 📨 msg](<😃 Placed 🚀 call.md>)
 
 
 ## Flow

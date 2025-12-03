@@ -10,10 +10,10 @@
 
 | [Role 🎭](<../../../../../40 👥 Domains/👥 Domain/👥🎭 Domain Role.md>) | [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [domain 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | Details
 |-|-|-|-
-| [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | [`Locate@Broker`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Hello@Host`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)| Done
-| [Finder 🔎](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Locate@Broker`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Present@Finder`](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | Done
-| [Helper 🤲](<../../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) | [`Invite@Broker`](<../../../🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | [`Invited@Helper`](<../../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>) | Done
-| [Vault 🗄️](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | [`Query@Broker`](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) | [`Disclose@Vault`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>) | Missing 🚨
+| [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | [`Locate@Broker`](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Hello@Host`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)| Done
+| [Finder 🔎](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Locate@Broker`](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Present@Finder`](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | Done
+| [Helper 🤲](<../../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) | [`Invite@Broker`](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | [`Invited@Helper`](<../../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>) | Done
+| [Vault 🗄️](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | [`Query@Broker`](<../../../🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) | [`Disclose@Vault`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>) | Missing 🚨
 |
 
 <!-- TODO: Add missing Disclosure@Vault above -->
@@ -118,14 +118,14 @@ Tokens:
 
 Property|Type|Details|Origin|Purpose
 |-|-|-|-|-
-|`Role`|text|Role in [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)||[`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>) [`Prompt@`](<../../../🤵🅰️ Broker methods/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
-| ||`HOST` role | [`Locate@`](<../../../🤵🅰️ Broker methods/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | 
-| ||`HELPER` role | [`Invite@`](<../../../🤵🅰️ Broker methods/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | 
-| ||`VAULT` role | [`Query@`](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) |
-|`Chat`|uuid|[Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | |[`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
-|`Domain`|text|[domain 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name||[`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
-|`Key`| text | [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key || [`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>) |
-|`Parameters` | map | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) parameters || [`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
-|`Binds`|list| [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) shared |  | [`Chat@`](<../../../🤵🅰️ Broker methods/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
-|`Tokens` | list | [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared || [`Presented@`](<../../../🤵🅰️ Broker methods/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>)
+|`Role`|text|Role in [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)||[`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>) [`Prompt@`](<../../../🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+| ||`HOST` role | [`Locate@`](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | 
+| ||`HELPER` role | [`Invite@`](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | 
+| ||`VAULT` role | [`Query@`](<../../../🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) |
+|`Chat`|uuid|[Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | |[`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
+|`Domain`|text|[domain 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name||[`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
+|`Key`| text | [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key || [`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>) |
+|`Parameters` | map | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) parameters || [`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
+|`Binds`|list| [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) shared |  | [`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
+|`Tokens` | list | [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared || [`Presented@`](<../../../🤵📨 Broker msgs/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>)
 |

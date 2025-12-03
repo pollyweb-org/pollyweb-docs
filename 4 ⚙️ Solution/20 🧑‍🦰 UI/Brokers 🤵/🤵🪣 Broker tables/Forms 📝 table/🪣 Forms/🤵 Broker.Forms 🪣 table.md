@@ -63,7 +63,7 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ID: <inform-uuid>   
 ```
 
-From [`Inform@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Share 💼 Inform 💼🐌🤵/🤵 Inform 📃 handler.md>)
+From [`Inform@Broker` 📃 handler](<../../../🤵📨 Broker msgs/Share 💼 Inform 💼🐌🤵/🤵 Inform 📃 handler.md>)
 
 ```yaml
 Chat: <chat-uuid>           # Chat where the inform was created

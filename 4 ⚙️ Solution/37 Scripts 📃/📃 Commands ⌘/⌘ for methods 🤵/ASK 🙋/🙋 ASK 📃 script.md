@@ -10,7 +10,7 @@
 
 ## How to call
 
-Here are the outputs of the [`Parse@Hosted` 🅰️ method](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 call.md>)
+Here are the outputs of the [`Parse@Hosted` 📨 msg](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 call.md>)
 
 ```yaml
 - RUN|.ASK:

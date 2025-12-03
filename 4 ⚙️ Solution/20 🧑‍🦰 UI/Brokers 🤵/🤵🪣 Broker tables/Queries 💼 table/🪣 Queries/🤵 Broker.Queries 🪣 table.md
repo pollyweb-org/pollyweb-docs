@@ -99,7 +99,7 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ID: <query-uuid>        # ID on the Query
 ```
 
-From [`Query@Broker` 🐌 handler](<../../../🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 📃 handler.md>)
+From [`Query@Broker` 🐌 handler](<../../../🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 📃 handler.md>)
 
 ```yaml
 Chat: <chat-uuid>       # Chat where the Query was sent

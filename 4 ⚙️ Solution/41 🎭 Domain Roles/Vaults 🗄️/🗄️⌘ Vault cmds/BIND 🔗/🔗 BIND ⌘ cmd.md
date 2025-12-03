@@ -49,7 +49,7 @@
     ```
     | Input| Purpose 
     |-|-
-    | `Schema` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) 
+    | `Schema` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) 
     | `Reference` | [Hosted 📦 domain](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) internal reference to the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
     | `Internals` | [Hosted 📦 domain](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) internal data about the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
     | `$bind`  | [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) item accepted, or empty if declined.
@@ -68,7 +68,7 @@
 
     | Input| Purpose 
     |-|-
-    | `$schema` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) 
+    | `$schema` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) from [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) 
 
     ```yaml
     # For an optional schema.

@@ -3,7 +3,7 @@
 > About
 * Part of the [Host 🤗 domain](<../../../🤗 Host role/🤗🎭 Host role.md>) role
 * Part of the [`Host.Prompts` 🪣 table](<../🪣 Prompts/🤗 Host.Prompts 🪣 table.md>)
-* Asserts if the [Prompt 🤔](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) can be served by the [`Prompted@Host` 🅰️ method](<../../../🤗🅰️ Host methods/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 📃 handler.md>)
+* Asserts if the [Prompt 🤔](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) can be served by the [`Prompted@Host` 📨 msg](<../../../🤗📨 Host msgs/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 📃 handler.md>)
 
 <br/>
 

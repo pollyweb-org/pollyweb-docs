@@ -3,7 +3,7 @@
 
 > Mentioned in [📨 Domain Message](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 
-> Reference by [About@Graph 🚀 method](<../../Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 🚀 call.md>)
+> Reference by [About@Graph 🚀 method](<../../Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 🚀 call.md>)
 
 <br/>
 
@@ -159,13 +159,13 @@
 
     | From | Method | Purpose
     |-|-|-
-    | 👥 domain |[🐌 Feedback](<../⏳🅰️ Buffer methods/👥🐌⏳ Feedback.md>) | Feedback on sent messages.
-    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) | [🚀 Queue](<../⏳🅰️ Buffer methods/🔔🐌⏳ Queue.md>) | Create or change a queue.
-    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) |[🚀 Unqueue](<../⏳🅰️ Buffer methods/🔔🐌⏳ Unqueue.md>) | Delete a queue.
-    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) |[🚀 Purge](<../⏳🅰️ Buffer methods/🔔🚀⏳ Purge.md>) | Clean up a queue.
-    |[🌬️ Streamer](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>)|[🐌 Push](<../⏳🅰️ Buffer methods/🌬️🐌⏳ Push.md>) | Add a message to a queue.
-    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) |[🚀 Poll](<../⏳🅰️ Buffer methods/🔔🚀⏳ Poll.md>) | Poll messages from a queue.
-    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) |[🚀 Confirm](<../⏳🅰️ Buffer methods/🔔🚀⏳ Confirm.md>) | Remove a handled message.
-    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>)  | [🐌 Replay](<../⏳🅰️ Buffer methods/🔔🐌⏳ Replay.md>) | Replay confirmed messages.
-    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>)  | [🐌 Redrive](<../⏳🅰️ Buffer methods/🔔🐌⏳ Redrive.md>) | Replay messages in the DLQ.
+    | 👥 domain |[🐌 Feedback](<../⏳📨 Buffer msgs/👥🐌⏳ Feedback.md>) | Feedback on sent messages.
+    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) | [🚀 Queue](<../⏳📨 Buffer msgs/🔔🐌⏳ Queue.md>) | Create or change a queue.
+    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) |[🚀 Unqueue](<../⏳📨 Buffer msgs/🔔🐌⏳ Unqueue.md>) | Delete a queue.
+    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) |[🚀 Purge](<../⏳📨 Buffer msgs/🔔🚀⏳ Purge.md>) | Clean up a queue.
+    |[🌬️ Streamer](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>)|[🐌 Push](<../⏳📨 Buffer msgs/🌬️🐌⏳ Push.md>) | Add a message to a queue.
+    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) |[🚀 Poll](<../⏳📨 Buffer msgs/🔔🚀⏳ Poll.md>) | Poll messages from a queue.
+    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) |[🚀 Confirm](<../⏳📨 Buffer msgs/🔔🚀⏳ Confirm.md>) | Remove a handled message.
+    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>)  | [🐌 Replay](<../⏳📨 Buffer msgs/🔔🐌⏳ Replay.md>) | Replay confirmed messages.
+    | [🔔 Subscriber](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>)  | [🐌 Redrive](<../⏳📨 Buffer msgs/🔔🐌⏳ Redrive.md>) | Replay messages in the DLQ.
     |

@@ -14,7 +14,7 @@
 
     An `ASYNC`
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)
-    * that calls the [`Handle@Hosted` 🅰️ method](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
+    * that calls the [`Handle@Hosted` 📨 msg](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
     * has an asynchronous background task
     * i.e, it continues the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>), unlike [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>).
 
@@ -76,7 +76,7 @@
     To wait for the result, 
     * ask the [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>) command 
     * to wait for a change on the `$output` [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>), 
-    * which will be triggered by the [`Handled@Talker` 🅰️ method](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
+    * which will be triggered by the [`Handled@Talker` 📨 msg](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>).
 
     ```yaml
     📃 Example: 
@@ -97,7 +97,7 @@
 
     To have access to the [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>),
     * use the [`IMPRINT` 🦶 command](<../IMPRINT 🦶/🦶 IMPRINT ⌘ cmd.md>) to snapshot them 
-    * then access them with [`Placed@Talker` 🅰️ method](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 📃 handler.md>) 
+    * then access them with [`Placed@Talker` 📨 msg](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 📃 handler.md>) 
     * from the [Hosted 📦 domain](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>).
 
     ```yaml
@@ -125,7 +125,7 @@
 1. **How to update [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with a feedback loop?**
 
     To update [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) in a feedback loop,
-    * update them with the [`Place@Talker` 🅰️ method](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 📃 handler.md>)
+    * update them with the [`Place@Talker` 📨 msg](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Placed 🧑‍💻🚀😃/😃 Placed 📃 handler.md>)
     * from the [Hosted 📦 domain](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
     * them call the [`RECALL`](<../RECALL 🪶/🪶 RECALL ⌘ cmd.md>) command after the [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>) command.
 

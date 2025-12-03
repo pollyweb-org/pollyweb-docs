@@ -21,7 +21,7 @@
     * is a flow [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that creates a rollback checkpoint
     * to be triggered by the [`REEL` 🎣 command](<../REEL 🎣/🎣 REEL ⌘ cmd.md>)
-    * or by the [`Handled@Talker` 🅰️ method](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
+    * or by the [`Handled@Talker` 📨 msg](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
     * while allowing the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) flow to continue.
 
     ---

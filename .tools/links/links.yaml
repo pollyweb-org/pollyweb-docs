@@ -648,7 +648,7 @@ Successful Tests:
   METHODS 🅰️:
 
   - Given: '{{Parse@Hosted}}'
-    LinkText: "`Parse@Hosted` 🅰️ method"
+    LinkText: "`Parse@Hosted` 📨 msg"
     LinkFile: "📦 Parse 🚀 call.md"
     Reasons: |
       For `X@Y`, 
@@ -659,40 +659,40 @@ Successful Tests:
       or is in a subfolder of such folder.
 
   - Given: '{{Prompt@Broker}}'
-    LinkText: "`Prompt@Broker` 🅰️ method"
+    LinkText: "`Prompt@Broker` 📨 msg"
     LinkFile: "🤵 Prompt 🐌 msg.md"
     Reasons: |
       same as "{{Parse@Hosted}}"
 
   - Given: '{{Handle@Hosted}}'
-    LinkText: "`Handle@Hosted` 🅰️ method"
+    LinkText: "`Handle@Hosted` 📨 msg"
     LinkFile: "📦 Handle 🐌 msg.md"
     Reasons: |
       same as "{{Parse@Hosted}}"
 
 
   - Given: '{{Prompted@Hosted}}'
-    LinkText: "`Prompted@Hosted` 🅰️ method"
+    LinkText: "`Prompted@Hosted` 📨 msg"
     LinkFile: '🤗 Prompted 🚀 call.md'
     Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{Build@Itemized}}'
-    LinkText: "`Build@Itemized` 🅰️ method"
+    LinkText: "`Build@Itemized` 📨 msg"
     LinkFile: '🛢 Build 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{Updated@Notifier}}'
-    LinkText: "`Updated@Notifier` 🅰️ method"
+    LinkText: "`Updated@Notifier` 📨 msg"
     LinkFile: '📣 Updated 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{Bound@Vault}}'
-    LinkText: "`Bound@Vault` 🅰️ method"
+    LinkText: "`Bound@Vault` 📨 msg"
     LinkFile: '🗄️ Bound 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
 
   - Given: '{{Disclose@Vault}}'
-    LinkText: "`Disclose@Vault` 🅰️ method"
+    LinkText: "`Disclose@Vault` 📨 msg"
     LinkFile: '🗄️ Disclose 🐌 msg.md'
     Reasons: same as "{{Parse@Hosted}}"
 

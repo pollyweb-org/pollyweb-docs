@@ -32,7 +32,7 @@
     
     * Sender domains define their [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) in the `Identity` section of their [domain Manifest 📜](<../../Manifests 📜/📜 Manifest/📜 Manifest.md>).
        * If the `Feedback` property is not defined, then no feedback is given.
-       * Domains get of the [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) by calling the [About@Graph 🚀 request](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 🚀 call.md>).
+       * Domains get of the [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) by calling the [About@Graph 🚀 request](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 🚀 call.md>).
   
         ```yaml
         🤝: nlweb.dom/MANIFEST/ABOUT
@@ -41,7 +41,7 @@
           Feedback: any-buffer.dom
         ```
 
-    * The feedback is sent via a [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../45 🤲 Helper domains/Buffers ⏳/⏳🅰️ Buffer methods/👥🐌⏳ Feedback.md>). 
+    * The feedback is sent via a [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../45 🤲 Helper domains/Buffers ⏳/⏳📨 Buffer msgs/👥🐌⏳ Feedback.md>). 
         ```yaml
         🤝: nlweb.dom/MSG:1.0
         Header:
