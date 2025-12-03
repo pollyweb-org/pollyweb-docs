@@ -34,6 +34,7 @@
 
 # Save the collect hook
 - SAVE|$query:
+    .State: CONSUME
     Collect: $.Msg.Collect
 ```
 

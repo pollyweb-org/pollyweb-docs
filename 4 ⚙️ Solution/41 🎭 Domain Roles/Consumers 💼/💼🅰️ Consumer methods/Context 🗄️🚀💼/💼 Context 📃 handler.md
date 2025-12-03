@@ -18,26 +18,26 @@
 
 # Assert the inputs
 - ASSERT|$.Msg:
-    AllOf: Hook, Schema
-    UUIDs: Hook
+    AllOf: Query, Schema
+    UUIDs: Query
     Texts: Schema
 
-# Get the hook
-- READ >> $hook
-    Set: Talker.Hooks
-    Key: $.Msg.Hook
-
-# Assert the schemas
-- ASSERT|$.Msg:
-    Schema.IsIn($hook.Schemas)
+# Get the query
+- READ >> $query:
+    Set: Consumer.Queries
+    Key: $.Msg.Query
+    Assert:     
+        Schemas.Contains: $.Msg.Schema
 
 # Check the trust
-- TRUSTS|$.Msg.From:
+- TRUSTS:
+    Trusted: $.Msg.From
     Schema: $.Msg.Schema
     Role: VAULT
 
 # Return the context
-- RETURN|$hook.Context
+- RETURN:
+    $query.Context
 ```
 
 Uses||

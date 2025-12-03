@@ -1,25 +1,19 @@
 @startuml Consumer@Consumer
 
 participant "Vault 🗄️" as vault
-
-box Hoster ☁️ domain #FFFFFA
+box Consumer 💼 domain #FFFFFA
     participant "Consumer 💼" as consumer
-    'participant "Talker 😃" as talker
-    'participant "Script 📃" as script
-end box
-
-box Itemizer 🛢 domain #FFFFFA
-    participant "Hooks 🪣" as hooks
+    participant "Queries 🪣" as hooks
 end box
 
 participant "Graph 🕸" as graph
 
 
 activate vault
-    vault -> consumer: Context 🚀 {hook, schema}
+    vault -> consumer: Context 🚀 {schema}
 
     activate consumer
-        consumer -> hooks: READ 🧲 {hook}
+        consumer -> hooks: READ 🧲 
         consumer -> graph: TRUSTS 🫡 {vault, schema}
         consumer -> vault: {context}
     deactivate consumer

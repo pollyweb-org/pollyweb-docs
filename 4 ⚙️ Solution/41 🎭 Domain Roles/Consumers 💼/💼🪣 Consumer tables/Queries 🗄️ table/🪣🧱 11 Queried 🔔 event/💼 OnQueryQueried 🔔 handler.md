@@ -23,7 +23,7 @@
         Subject: Query@Broker
     Body: 
         Chat: $Query.Chat
-        Hook: $Query.ID
+        Query: $Query.ID
         Schemas: $Query.Schemas
 ```
 
