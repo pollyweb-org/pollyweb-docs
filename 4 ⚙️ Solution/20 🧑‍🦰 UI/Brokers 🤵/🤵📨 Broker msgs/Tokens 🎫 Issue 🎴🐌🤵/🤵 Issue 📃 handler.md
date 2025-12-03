@@ -1,7 +1,7 @@
 # 🤵 Issue 📃 handler
 
 > About
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Issue@Broker` 📨 msg](<🤵 Issue 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Issue@Broker` 🐌 msg](<🤵 Issue 🐌 msg.md>)
 * Part of the [🧑‍🦰 `Save Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>).
 * Part of the [🤵 `Broker.Tokens.Issue` ⏩ flow](<../../🤵🪣 Broker tables/Tokens 🎫 table/🪣🧱 10 Issue ⏩ flow/🤵 Broker.Tokens.Issue ⏩ flow.md>)
 

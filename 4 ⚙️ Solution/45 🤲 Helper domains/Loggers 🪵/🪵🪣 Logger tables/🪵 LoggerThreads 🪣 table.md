@@ -1,7 +1,7 @@
 # 🪵 Logger Threads 🪣 table
 
 > Purpose
-* Registers threads from the [`Start@Logger` 📨 msg](<../🪵📨 Logger msgs/Start 👥🚀🪵/🪵 Start 🚀 call.md>)
+* Registers threads from the [`Start@Logger` 🚀 call](<../🪵📨 Logger msgs/Start 👥🚀🪵/🪵 Start 🚀 call.md>)
 
 <br/>
 

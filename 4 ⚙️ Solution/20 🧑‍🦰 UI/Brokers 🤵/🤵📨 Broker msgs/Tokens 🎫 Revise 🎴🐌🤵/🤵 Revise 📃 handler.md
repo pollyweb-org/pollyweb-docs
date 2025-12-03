@@ -1,6 +1,6 @@
 # 🤵 Revise📃 handler
 
-> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Revise@Broker` 📨 msg](<🤵 Revise 🐌 msg.md>)
+> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Revise@Broker` 🐌 msg](<🤵 Revise 🐌 msg.md>)
 
 <br/>
 

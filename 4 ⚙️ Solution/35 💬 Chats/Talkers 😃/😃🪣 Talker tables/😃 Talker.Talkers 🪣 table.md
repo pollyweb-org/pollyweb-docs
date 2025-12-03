@@ -3,7 +3,7 @@
 > Purpose
 * Maps the [Script 📃](<../../Scripts 📃/Script 📃.md>) 
     * to [`RUN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) internally by the [`TALK`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/TALK 😃/😃 TALK ⌘ cmd.md>) command
-    * upon the [`Hello@Host` 📨 msg](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) 
+    * upon the [`Hello@Host` 🐌 msg](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) 
     * depending on the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key.
 
 > Data access

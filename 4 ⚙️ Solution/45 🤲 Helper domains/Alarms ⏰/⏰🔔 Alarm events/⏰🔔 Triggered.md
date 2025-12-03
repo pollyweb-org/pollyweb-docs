@@ -2,7 +2,7 @@
 
 # ⏰🔔 Triggered @ Alarm
 
-> Triggers an alarm set by the [`Trigger@Alarm` 📨 msg](<../⏰📨 Alarm msgs/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
+> Triggers an alarm set by the [`Trigger@Alarm` 🐌 msg](<../⏰📨 Alarm msgs/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
 
 
 ## Async Event 🔔

@@ -1,7 +1,7 @@
 # 🤵 Inform@Broker 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Inform@Broker` 📨 msg](<🤵 Inform 🐌 msg.md>).
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Inform@Broker` 🐌 msg](<🤵 Inform 🐌 msg.md>).
 * Part of the [`Inform` ⏩ flow](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⏩ Consumer flows/Inform 💼⏩📝/💼 Inform ⏩ flow.md>)
 * Adds a new Form request to the [`Broker.Forms` 🪣 table](<../../🤵🪣 Broker tables/Forms 📝 table/🪣 Forms/🤵 Broker.Forms 🪣 table.md>) in state `INFORM`.
 

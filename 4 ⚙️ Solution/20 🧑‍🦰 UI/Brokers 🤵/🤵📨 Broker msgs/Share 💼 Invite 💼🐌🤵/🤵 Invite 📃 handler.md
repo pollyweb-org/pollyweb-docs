@@ -1,7 +1,7 @@
 # 🤵 Invite 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Invite@Broker` 📨 msg](<🤵 Invite 🐌 msg.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Invite@Broker` 🐌 msg](<🤵 Invite 🐌 msg.md>)
 
 ## Flow
 

@@ -16,7 +16,7 @@
     | Use case | Description
     |-|-
     | [👀 Ads](<../Advertisers 👀/👀🤲 Advertiser helper.md>) | [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) are charged by [Advertiser 👀 helpers](<../Advertisers 👀/👀🤲 Advertiser helper.md>) for ad promotion.
-    | [🏭 Supply](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) | [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) are charged by [Supplier 🏭 domains](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) for orders fulfilled. 
+    | [🏭 Supply](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭 Supplier/🏭🎭 Supplier role.md>) | [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) are charged by [Supplier 🏭 domains](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭 Supplier/🏭🎭 Supplier role.md>) for orders fulfilled. 
     | [💬 Chats](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [Notifier 📣](<../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) are charged by [Broker domains](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) for [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) orchestrations.
     
 

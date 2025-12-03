@@ -25,7 +25,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 |Header |`From`|text| Caller [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
-|       |`To`|text| [Supplier 🏭 domain](<../🏭🎭 Supplier role.md>)
+|       |`To`|text| [Supplier 🏭 domain](<../🏭 Supplier/🏭🎭 Supplier role.md>)
 |       |`Subject`  |text| `Order @ Supplier`
 |Body   |`OrderID`  | uuid   | ID of the order on the  Caller [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |       | `ItemCode`|text| [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) of the items

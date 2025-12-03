@@ -1,7 +1,7 @@
 <!-- TODO 
 
 [`Reply handler`](<🤗 Reply 📃 handler.md>)
-[`Reply@Host` 📨 msg](<🤗 Reply 🐌 msg.md>)
+[`Reply@Host` 🐌 msg](<🤗 Reply 🐌 msg.md>)
 [`Prompt@Host`](<../../🤗🧩 Host schemas/🧩 HOST.md>)
 -->
 
@@ -9,7 +9,7 @@
 
 > About
 * Part of the [Host 🤗 domain](<../../🤗 Host role/🤗🎭 Host role.md>) role
-* Implements the [`Reply@Host` 📨 msg](<🤗 Reply 🐌 msg.md>)
+* Implements the [`Reply@Host` 🐌 msg](<🤗 Reply 🐌 msg.md>)
 * Triggers the [`OnHostPromptReplied` 📃 handler](<../../🤗🪣 Host tables/Prompts 🤔 table/🪣🔔 14 Replied/🤗 OnHostPromptReplied 🔔 handler.md>)
 
 <br/>

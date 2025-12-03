@@ -1,7 +1,7 @@
 # 🤵📃 Pop handler
 
 > Purpose
-* [Script 📃](<🤵 Pop 🐌 msg.md>) that implements the [`Pop@Broker` 📨 msg](<🤵 Pop 🐌 msg.md>)
+* [Script 📃](<🤵 Pop 🐌 msg.md>) that implements the [`Pop@Broker` 🐌 msg](<🤵 Pop 🐌 msg.md>)
 * Part of the 
 
 <br/>

@@ -4,7 +4,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Bound@Vault` 📨 msg](<🗄️ Bound 🐌 msg.md>).
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Bound@Vault` 🐌 msg](<🗄️ Bound 🐌 msg.md>).
 * Returns a confirmation to the [`BIND` 📃 script](<../../🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND 📃 script.md>).
 
 

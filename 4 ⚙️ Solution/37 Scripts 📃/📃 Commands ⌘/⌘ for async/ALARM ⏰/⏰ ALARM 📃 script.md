@@ -37,7 +37,7 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
-| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Trigger@Alarm` 📨 msg](<../../../../45 🤲 Helper domains/Alarms ⏰/⏰📨 Alarm msgs/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
+| [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [`Trigger@Alarm` 🐌 msg](<../../../../45 🤲 Helper domains/Alarms ⏰/⏰📨 Alarm msgs/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Hosted`](<../../../📃 Holders 🧠/System holders 🔩/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>)  [`$.Inputs`](<../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)
 |
 

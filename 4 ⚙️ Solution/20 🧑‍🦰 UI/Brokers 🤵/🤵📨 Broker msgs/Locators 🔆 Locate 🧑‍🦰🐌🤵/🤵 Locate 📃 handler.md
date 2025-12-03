@@ -1,6 +1,6 @@
 # 🤵📃 Locate@Broker
 
-> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Locate@Broker` 📨 msg](<🤵 Locate 🐌 msg.md>)
+> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Locate@Broker` 🐌 msg](<🤵 Locate 🐌 msg.md>)
 
 
 ## Flow

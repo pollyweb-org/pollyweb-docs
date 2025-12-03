@@ -3,7 +3,7 @@
 > About
 * Implements the [Vault 🗄️ domain](<../../🗄️ Vault/🗄️🎭 Vault role.md>)
 * Part of the [`Consume` ⏩ flow](<../../🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>)
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Collect@Vault` 📨 msg](<🗄️ Collect 🚀 call.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Collect@Vault` 🚀 call](<🗄️ Collect 🚀 call.md>)
 
 <br/>
 

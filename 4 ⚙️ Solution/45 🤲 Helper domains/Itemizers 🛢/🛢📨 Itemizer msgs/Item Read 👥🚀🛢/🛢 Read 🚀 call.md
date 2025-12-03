@@ -47,7 +47,7 @@ Body:
 
 ||Property|Type|Description
 |-|-|-|-
-|| `Item`        | object    | [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) saved on the [`Save@Itemizer` 📨 msg](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
+|| `Item`        | object    | [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) saved on the [`Save@Itemizer` 🚀 call](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
 || `.Table`   |text| Table name for the [`SAVE` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
-|| `.Version` | uuid   | Version for the [`Save@Itemizer` 📨 msg](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
+|| `.Version` | uuid   | Version for the [`Save@Itemizer` 🚀 call](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
 |

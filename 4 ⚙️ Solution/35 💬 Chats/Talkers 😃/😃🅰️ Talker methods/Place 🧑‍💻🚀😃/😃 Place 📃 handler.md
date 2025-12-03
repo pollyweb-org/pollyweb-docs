@@ -1,7 +1,7 @@
 <!-- TODO: Review the code, now with Hook instead of chat -->
 # 😃📃 Place handler
 
-> Implements the [`Place@Talker` 📨 msg](<😃 Place 🚀 call.md>)
+> Implements the [`Place@Talker` 🚀 call](<😃 Place 🚀 call.md>)
 
 ## Flow
 

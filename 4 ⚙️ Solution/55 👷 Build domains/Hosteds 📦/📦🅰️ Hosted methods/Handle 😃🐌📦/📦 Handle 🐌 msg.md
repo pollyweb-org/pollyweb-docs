@@ -5,7 +5,7 @@
 > Flow: 
 
 * Part of the [`Handle` ⏩ flow](<../../../../35 💬 Chats/Talkers 😃/😃⏩ Talker flows/Run Sync Functions 😃⏩📦/😃 Call ⏩ flow.md>) 
-* Followed by the [`Handled@Talker` 📨 msg](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>) 
+* Followed by the [`Handled@Talker` 🐌 msg](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>) 
 
 > Purpose: 
 

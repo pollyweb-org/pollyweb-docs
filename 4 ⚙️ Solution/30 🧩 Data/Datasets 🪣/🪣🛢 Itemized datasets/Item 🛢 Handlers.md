@@ -24,7 +24,7 @@
 1. **How to work with event handlers?**
 
     Event handlers 
-    * are set on the [`Build@Itemized` 📨 msg](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
+    * are set on the [`Build@Itemized` 🐌 msg](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
     * and are streamed as [`Raised@Itemizer` 🔔 event](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🔔 Itemizer events/🛢🔔 Raised.md>)
 
     ---

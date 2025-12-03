@@ -1,7 +1,7 @@
 # 🤵 Opened 📃 handler
 
 > Purpose
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Opened@Broker` 📨 msg](<🤵 Opened 🐌 msg.md>).
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Opened@Broker` 🐌 msg](<🤵 Opened 🐌 msg.md>).
 
 ## Diagram
 

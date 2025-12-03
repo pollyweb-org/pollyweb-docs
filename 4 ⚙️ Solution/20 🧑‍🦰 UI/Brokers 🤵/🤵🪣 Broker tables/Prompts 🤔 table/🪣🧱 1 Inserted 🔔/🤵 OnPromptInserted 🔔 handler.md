@@ -2,7 +2,7 @@
 
 > About
 * Part of the [`Broker.Prompts` 🪣 table](<../🪣 Prompts/🤵 Broker.Prompts 🪣 table.md>)
-* Reacts to the [`Prompt@Broker` 📨 msg](<../../../🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+* Reacts to the [`Prompt@Broker` 🐌 msg](<../../../🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 * Calculates an emoji for a [Prompt 🤔](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)
 * Implements the logic in [Input emojis 😶 ](<../../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶 Input emojis.md>)
 

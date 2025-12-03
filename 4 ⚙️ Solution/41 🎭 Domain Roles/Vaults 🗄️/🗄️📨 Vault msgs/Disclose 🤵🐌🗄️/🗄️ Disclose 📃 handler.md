@@ -2,7 +2,7 @@
 
 > About
 * Part of the [Vault 🗄️ domain](<../../🗄️ Vault/🗄️🎭 Vault role.md>)
-* Implements the [`Disclose@Vault` 📨 msg](<🗄️ Disclose 🐌 msg.md>)
+* Implements the [`Disclose@Vault` 🐌 msg](<🗄️ Disclose 🐌 msg.md>)
 
 <br/>
 

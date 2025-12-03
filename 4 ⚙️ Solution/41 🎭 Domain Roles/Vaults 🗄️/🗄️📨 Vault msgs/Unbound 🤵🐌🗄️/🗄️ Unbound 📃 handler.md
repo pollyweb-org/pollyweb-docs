@@ -4,7 +4,7 @@
 
 > Part of the [Vault 🗄️ domain](<../../🗄️ Vault/🗄️🎭 Vault role.md>)
 
-> Implements the [`Unbound@Vault` 📨 msg](<🗄️ Unbound 🐌 msg.md>)
+> Implements the [`Unbound@Vault` 🐌 msg](<🗄️ Unbound 🐌 msg.md>)
 
 
 ## Script

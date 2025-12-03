@@ -1,8 +1,8 @@
 # 🤗📃 PROMPT command
 
 > Purpose
-* Calls the [`Prompt@Broker` 📨 msg](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
-* Prepares for the [`Prompted@Hosted` 📨 msg](<../../🤗📨 Host msgs/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)
+* Calls the [`Prompt@Broker` 🐌 msg](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
+* Prepares for the [`Prompted@Hosted` 🚀 call](<../../🤗📨 Host msgs/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)
 
 
 <br/>

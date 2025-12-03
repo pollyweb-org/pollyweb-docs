@@ -3,7 +3,7 @@
 > About
 * Part of the [`Vault.Binds` 🪣 table](<../🪣 Binds/🗄️ Vault.Binds 🪣 table.md>)
 * Part of the [🗄️ `Vault.Binds.Unbound` ⏩ flow](<../🪣🧱 20 Unbind ⏩ flow/🗄️ Vault.Binds.Unbound ⏩ flow.md>)
-* Reacts to the [`Unbound@Vault` 📨 msg](<../../../🗄️📨 Vault msgs/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>)
+* Reacts to the [`Unbound@Vault` 🐌 msg](<../../../🗄️📨 Vault msgs/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>)
 
 <br/>
 

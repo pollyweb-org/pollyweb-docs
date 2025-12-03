@@ -5,7 +5,7 @@
 
 1. **What is a Keymaker domain helper?**
 
-    Keymakers 🔐 are [Suppliers 🏭](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭🎭 Supplier role.md>) that supply and manage the lifecycle of [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) on behalf of [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
+    Keymakers 🔐 are [Suppliers 🏭](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭 Supplier/🏭🎭 Supplier role.md>) that supply and manage the lifecycle of [Padlocks 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) on behalf of [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>).
 
     ---
 
