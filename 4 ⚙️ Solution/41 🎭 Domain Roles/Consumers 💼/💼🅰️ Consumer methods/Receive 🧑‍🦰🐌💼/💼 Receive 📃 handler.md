@@ -15,17 +15,19 @@
 ```yaml
 📃 Receive@Consumer:
 
+# Assert the message
 - ASSERT|$.Msg:
     AllOf: Query
 
 # Resolve the callback
-- READ >> $hook
+- READ >> $query:
     Set: Consumer.Queries
-    Key: $.Msg.Query.Required
+    Key: $.Msg.Query
 
-# Continue the Chat
-- REEL|$hook:
-    $.Msg.Tokens
+# Save the received token
+- SAVE|$query:
+    .State: RECEIVED
+    Token: $.Msg.Shared
 ```
 
 Uses||

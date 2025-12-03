@@ -19,9 +19,9 @@ Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 ```yaml
 Assert:
     # Group assertions
-    AllOf: Broker, Chat, Schemas
-    UUIDs: Chat, Collect
-    Lists: Schemas
+    .AllOf: Broker, Chat, Schemas
+    .UUIDs: Chat, Collect
+    .Lists: Schemas
     
     # Field assertions
     Broker.IsDomain:
@@ -31,13 +31,13 @@ Assert:
     Vault.IsDomain:
     Schema.IsSchema:
 ```
-Uses: [`.Each`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Each ⓕ.md>) [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
+Uses: [`.AllOf`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>) [`.Lists`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Lists ⓕ.md>) [`.UUIDs`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/UUIDs ⓕ.md>) [`.Each`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Each ⓕ.md>) [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
 
 <br/>
 
 ## Example
 
-From [`SHARE` ⌘ comand](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE 📃 script.md>) command
+From [`SHARE` ⌘ command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE 📃 script.md>) command
 
 ```yaml
 Broker: any-broker.dom
