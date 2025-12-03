@@ -1,10 +1,9 @@
 # 😃🔩 Talker `{.AllOf}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Used by [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
-
-> Similar to [`.AnyOf`](<AnyOf ⓕ.md>) [`.OneOf`](<OneOf ⓕ.md>)
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Used by [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
+* Similar to [`.AnyOf`](<AnyOf ⓕ.md>) [`.OneOf`](<OneOf ⓕ.md>)
 
 ## FAQ
 
@@ -26,7 +25,7 @@
    
     Input | Purpose
     |-|-
-    | `assertions...` | [List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) of assertions for [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)
+    | `assertions...` | [List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) of assertions for [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) parsed by [`.ToList`](<ToList ⓕ.md>)
 
 
     ---
