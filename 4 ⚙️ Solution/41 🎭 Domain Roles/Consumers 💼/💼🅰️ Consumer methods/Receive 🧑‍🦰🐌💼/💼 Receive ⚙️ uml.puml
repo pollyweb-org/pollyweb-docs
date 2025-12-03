@@ -4,26 +4,12 @@ participant "Wallet 🧑" as wallet
 box Consumer 💼 domain #FFFFFA
     participant "Receive 🐌" as consumer
     participant "Talker 😃" as talker
-    participant "Script 📃" as script
-    participant "Queries 🪣" as hooks
+    participant "Queries 🪣" as queries
+    participant "Chats 🪣" as chats
 end box
-
-'participant "Graph 🕸" as graph
 
 activate wallet
     wallet --> consumer: Receive 🐌 {hook}
 deactivate wallet
-
-activate consumer
-    consumer -> hooks: READ {hook}
-    consumer --> talker: REEL 🎣 {hook}
-deactivate consumer
-
-activate talker
-    talker --> script: RETURN {tokens}
-deactivate talker
-
-activate script
-deactivate script
 
 @enduml 

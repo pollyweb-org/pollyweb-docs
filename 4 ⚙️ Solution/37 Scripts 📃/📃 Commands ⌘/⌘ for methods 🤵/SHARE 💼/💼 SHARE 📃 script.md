@@ -20,29 +20,12 @@
 ```yaml
 📃 .SHARE:
 
-# Assert inputs
-- ASSERT|$.Inputs:
-    AllOf: Schemas
-    Lists: Schemas
-
 # Save the hook
-- SAVE|Talker.Hooks >> $hook:
-    Hook: .UUID
+- SAVE|Consumer.Queries >> $query:
     Broker: $.Chat.Broker
     Chat: $.Chat.ID
-    PublicKey: $.Chat.PublicKey
     Schemas: $Schemas
     Context: $Context
-
-# Query the Broker
-- SEND|$hook:
-    Header:
-        To: Broker
-        Subject: Query@Broker
-    Body: 
-        Chat: Chat
-        Hook: Hook
-        Schemas: Schemas
 
 # Wait for the shared data
 - WAIT >> $shared:
