@@ -14,7 +14,6 @@ activate script
 deactivate script
 
 activate hook
-    'hook -> imprints: IMPRINT 🦶 {uuid}
     hook -> hooks: SAVE 💾 {uuid, script, line}
 
     alt in the present
@@ -23,7 +22,6 @@ activate hook
 
     else anytime later, in the future
         hook <-  : REEL 🎣 {uuid, output}
-        'hook -> imprints: RECALL 🪶 {uuid}
         hook -> script : RETURN {output}
     end alt
     
