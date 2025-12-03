@@ -1,13 +1,17 @@
 # 💼 Consumer.Queries 🪣 table
 
+> About
+* Part of the [Consumer 💼 domain](<../../../💼 Consumer/💼🎭 Consumer role.md>) role
 
-# State Transitions
+<br/>
 
-| Blame | States | Exits
+## State Transitions
+
+| Blame | States ✅ | Exits ❌ | 
 |-|-|-
-|[`SHARE` ⌘](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)| `QUERIED`
-|[`Consume@` 🐌](<../../../💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)| `CONSUME` `TRUSTED` `COLLECTED` | `INVALID` `UNTRUSTED`
-|[`Receive@` 🐌](<../../../💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 📃 handler.md>)| `RECEIVED` `TOKENED` | `INVALID` `UNTRUSTED`
+|[`SHARE` ⌘](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)| [`QUERIED`](<../🪣🧱 11 Queried 🔔 event/💼 OnQueryQueried 🔔 handler.md>)
+|[`Consume@` 🐌](<../../../💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)| [`CONSUME`](<../🪣🧱 21 Consume 🔔 event/💼 OnQueryConsume 🔔 handler.md>) [`TRUSTED`](<../🪣🧱 22 Trusted 🔔 event/💼 OnQueryTrusted 🔔 handler.md>) [`COLLECTED`](<../🪣🧱 23 Collected 🔔 event/💼 OnQueryCollected 🔔 handler.md>) | `INVALID` `UNTRUSTED`
+|[`Receive@` 🐌](<../../../💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 📃 handler.md>)| [`RECEIVED`](<../🪣🧱 31 Received 🔔 event/💼 OnQueryReceived 🔔 handler.md>) [`TOKENED`](<../🪣🧱 32 Tokened 🔔 event/💼 OnQueryTokened 🔔 handler.md>) | `INVALID` `CORRUPTED` `UNTRUSTED`
 
 
 <br/>
