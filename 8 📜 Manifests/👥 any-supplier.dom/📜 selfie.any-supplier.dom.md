@@ -14,3 +14,4 @@ Trusts:
   - Action: INHERIT
     Domain: any-firewall.org
       
+```

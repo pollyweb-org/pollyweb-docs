@@ -39,3 +39,5 @@ Blueprint:
       Resource:
         type: string
         title: Unique index of a resource in the context of the domain.
+
+```

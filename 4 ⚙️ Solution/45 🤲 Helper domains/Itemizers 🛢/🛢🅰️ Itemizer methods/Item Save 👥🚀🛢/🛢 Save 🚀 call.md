@@ -43,7 +43,7 @@ Body:
 ```yaml
 Status: OK
 Item: 
-    {Item properties}
+    :{Item properties}:
     .Table: MyTable
     .Version: <version-uuid>
 ```

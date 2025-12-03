@@ -28,7 +28,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    - RELAY|<set>|<key> >> $result
+    - RELAY|<set>|<key> >> $result:
         Script: <script>
         OnFailure: <failure>
         OnSuccess: <success>
@@ -62,7 +62,7 @@
     - TEMP|Opening door {$door}...
 
     # Relay the open message.
-    - RELAY|Lockers|{$locker} >> $result
+    - RELAY|Lockers|{$locker} >> $result:
         Script: Open({$door})
         OnFailure: FailureHandler
         OnSuccess: SuccessHandler

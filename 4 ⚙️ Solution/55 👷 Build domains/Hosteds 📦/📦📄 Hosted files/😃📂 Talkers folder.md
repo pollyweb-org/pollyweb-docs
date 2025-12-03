@@ -19,7 +19,7 @@
 
     The [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) files reside under the `Scripts/` folder.
 
-    ```yaml
+    ```python
     😃 Scripts/ # Tree of talkers
     ├─ 😃 script-1.yaml
     └─ 😃 script-2.yaml

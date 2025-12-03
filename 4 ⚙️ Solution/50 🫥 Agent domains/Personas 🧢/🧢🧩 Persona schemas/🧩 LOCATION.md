@@ -28,3 +28,4 @@ Blueprint:
         type: number
       Longitude:
         type: number  
+```

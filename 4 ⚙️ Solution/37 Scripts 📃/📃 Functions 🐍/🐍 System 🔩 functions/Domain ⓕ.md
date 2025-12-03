@@ -17,7 +17,7 @@
 
 1. **What's the .Domain syntax?**
 
-    ```yaml
+    ```
     {.Domain}($holder)
     ```
 

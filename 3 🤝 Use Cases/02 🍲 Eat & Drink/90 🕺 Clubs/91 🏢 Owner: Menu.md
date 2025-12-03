@@ -6,7 +6,7 @@ Menu at a night club
 <br/>
 
 ```yaml
-Any Bar Menu:
+# Any Bar Menu
 - Beer:
     - Lager (Stella Artois):
         - Pint: £5.50
@@ -79,3 +79,4 @@ Any Bar Menu:
     - Crisps (Walkers): £1.50
     - Nuts (KP Nuts): £2.00
     - Olives: £3.50
+```

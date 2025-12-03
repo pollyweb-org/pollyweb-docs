@@ -45,9 +45,9 @@
 - INFORM|Book
 
 # Get the booking.
-- SHARE|.SCHEDULER/BOOK >> $b
+- SHARE|.SCHEDULER/BOOK >> $b:
     Context: 
-        About: {/info/{$r.ID}.md} # Get the file.
+        About: .FileID(/info/{$r.ID}.md) # Get the file.
         Slots: {Slots($r.ID)}     # From the ERP.
 
 # Get user contacts.
@@ -58,7 +58,7 @@
 
 # Allow one last time for input changes.
 - CONFIRM|Confirm booking?
-- FREEZE >> $inputs
+- FREEZE >> $inputs:
     Restaurant: $r
     Booking: $b
     Contacts: $c

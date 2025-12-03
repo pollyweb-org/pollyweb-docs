@@ -58,3 +58,5 @@ Blueprint:
             Name of rank property to sort the items.
             - The property must have format RANK.
             - Order is descendent, from 5 starts to 1 star.
+
+```

@@ -45,3 +45,5 @@ Blueprint:
         minItems: 1
         items:
           type: nlweb.dom/PERSONA/EMAIL
+
+```

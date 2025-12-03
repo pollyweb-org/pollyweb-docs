@@ -8,7 +8,7 @@
 
 1. **What's syntax for files?**
 
-    ```yaml
+    ```r
     # Static paths
     {/path/to/file} 
 

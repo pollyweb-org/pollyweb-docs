@@ -59,11 +59,11 @@
 1. **What's the syntax for messages from [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)?**
 
     ```yaml
-    VERIFY|$.Msg:
+    - VERIFY|$.Msg:
         Key: $publicKey
 
     # One-liner version
-    VERIFY|$.Msg|$publicKey
+    - VERIFY|$.Msg|$publicKey
     ```
 
     | Input| Purpose |
@@ -105,7 +105,7 @@
     📃 Example:
     
     # Get the Chat item 
-    - READ >> $chat
+    - READ >> $chat:
         Set: Host.Chats
         Key: 
             Broker: $.Msg.Broker
@@ -126,10 +126,10 @@
 
     ```yaml
     # Blocker version (raises error if invalid)
-    VERIFY|$token 
+    - VERIFY|$token 
     
     # Safe version (stores result in $isValid)
-    VERIFY|$token >> $isValid
+    - VERIFY|$token >> $isValid
     ```
 
     | Input| Purpose |

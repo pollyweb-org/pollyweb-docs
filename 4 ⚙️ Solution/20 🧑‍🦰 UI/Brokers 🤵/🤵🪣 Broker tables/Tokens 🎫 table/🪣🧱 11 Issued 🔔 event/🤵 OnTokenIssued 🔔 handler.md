@@ -28,7 +28,7 @@
 - TRANSLATE >> $graph:
     Domain: $Token.Issuer
     Schema: $Token.Schema
-    Text: {$Schema.Title}, by {$Domain.Title}
+    Text: "{$Schema.Title}, by {$Domain.Title}"
     To: $Token.Language
         
 # Save the token

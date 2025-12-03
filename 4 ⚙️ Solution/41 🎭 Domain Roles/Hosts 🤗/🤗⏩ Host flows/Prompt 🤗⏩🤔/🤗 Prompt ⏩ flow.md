@@ -36,7 +36,7 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md
 
 ```yaml
 - INFO|Hello World!
-- ONE|Like sports? >> $answer
+- ONE|Like sports? >> $answer:
     Options: Yes, No, I [love] it, I [hate] it
 ```
 

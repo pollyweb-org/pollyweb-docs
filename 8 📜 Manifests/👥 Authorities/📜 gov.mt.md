@@ -28,3 +28,4 @@ Trusts:
     Domains:
       - europa.eu
     
+```

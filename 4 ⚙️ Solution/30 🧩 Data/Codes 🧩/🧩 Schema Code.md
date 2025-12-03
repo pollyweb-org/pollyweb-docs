@@ -174,9 +174,9 @@
 
     ```yaml
     type: object
-        required: [Code, Name]
-        properties:
-          Code: 
+    required: [Code, Name]
+    properties:
+        Code: 
             oneOf:
               - type: string
                 minLength: 2
@@ -186,7 +186,7 @@
                 minLength: 5
                 maxLength: 5
                 example: en-us
-          Name: 
+        Name: 
             type: string
             example: English
     ```

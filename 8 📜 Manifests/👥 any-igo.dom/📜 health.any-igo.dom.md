@@ -68,4 +68,4 @@ Schemas:
         Title: Teste COVID
     Schemas:
       - Inherits: health.any-igo.dom/TEST:1.0
-        
+```

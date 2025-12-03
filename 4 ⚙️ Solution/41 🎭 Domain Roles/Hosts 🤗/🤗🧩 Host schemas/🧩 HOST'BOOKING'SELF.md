@@ -17,3 +17,4 @@ Description: Token for a self booking.
 Blueprint:
   Version: 1.0
   Inherits: nlweb.dom/HOST/BOOKING:1.0
+```

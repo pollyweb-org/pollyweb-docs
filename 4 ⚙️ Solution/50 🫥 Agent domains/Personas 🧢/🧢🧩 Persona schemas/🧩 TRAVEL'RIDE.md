@@ -24,3 +24,4 @@ Blueprint:
     Temperature:
       enum: [WARM, HOT, COOL, COLD, WHATEVER]
   
+```

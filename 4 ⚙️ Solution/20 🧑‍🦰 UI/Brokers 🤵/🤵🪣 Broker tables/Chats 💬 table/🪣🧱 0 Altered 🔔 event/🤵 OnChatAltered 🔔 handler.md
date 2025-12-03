@@ -29,7 +29,7 @@
     Key: $Item.Wallet
 
 # Prepare the response
-- PUT|$wallet.Chats >> $chats
+- PUT|$wallet.Chats >> $chats:
     Chat: Chat
     Host: Host
     Host$: Host$

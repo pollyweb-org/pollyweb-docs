@@ -120,18 +120,17 @@
     * The properties `To` and `Subject` is assigned to the `Header`.
     * Every other property is assumed to belong to the `Body`.
 
-    ```yaml
-    ┌────────────────────────────┬────────────────────────┐        
-    │ Comprehensive              │ Simplified             │        
-    ├────────────────────────────┼────────────────────────┤        
+    ```js
+    ┌────────────────────────────┬────────────────────────┐
+    │ Comprehensive              │ Simplified             │ ├────────────────────────────┼────────────────────────┤
     │ SEND >> $response:         │ SEND >> $response:     │
-    │   Header:                  │   To: any-domain.dom   │   
+    │   Header:                  │   To: any-domain.dom   │
     │       To: any-domain.dom   │   Subject: Any@Subject │
     │       Subject: Any@Subject │   A: 1                 │
     │   Body:                    │   B: 2                 │
     │       A: 1                 │                        │
     │       B: 2                 │                        │
-    └────────────────────────────┴────────────────────────┘        
+    └────────────────────────────┴────────────────────────┘
     ```
     ---
     <br/>

@@ -113,6 +113,9 @@ all_memory = False
 
 MAX_PARALLEL_WORKERS = max(1, min(32, (os.cpu_count() or 1)))
 
+YAML_FENCE_OPEN_RE = re.compile(r"^(?:```|~~~)+\s*(yaml|yml)\b", re.IGNORECASE)
+YAML_FENCE_CLOSE_RE = re.compile(r"^(?:```|~~~)+\s*$")
+
 
 def _parallel_process(paths: List[str], worker, executor: Optional[ThreadPoolExecutor] = None):
     if not paths:
@@ -341,6 +344,90 @@ def validate_reference_targets(md_files: List[str], project_directory: str) -> N
         print(f" - {file_link} -> [{label}] <{target}>")
 
     raise FileNotFoundError("One or more reference links point to missing files. See details above.")
+
+
+def _decode_yaml_error(exc: yaml.YAMLError) -> Tuple[str, Optional[int]]:
+    problem_mark = getattr(exc, "problem_mark", None)
+    line_offset = getattr(problem_mark, "line", None) if problem_mark is not None else None
+
+    problem_text = getattr(exc, "problem", None)
+    if problem_text:
+        return str(problem_text).strip(), line_offset
+
+    message = str(exc).strip()
+    if not message:
+        return "Unknown YAML parsing error", line_offset
+    headline, *_ = message.splitlines()
+    return headline.strip(), line_offset
+
+
+def _scan_yaml_blocks_in_file(path: str) -> Optional[Tuple[str, List[Tuple[int, str]]]]:
+    markdown_path = Path(path)
+    if markdown_path.suffix.lower() != ".md":
+        return None
+
+    try:
+        text = markdown_path.read_text(encoding="utf-8")
+    except Exception:
+        return None
+
+    lines = text.splitlines()
+    errors: List[Tuple[int, str]] = []
+    inside_block = False
+    block_lines: List[str] = []
+    fence_start_line = 0
+    content_start_line = 0
+
+    for index, raw_line in enumerate(lines, 1):
+        stripped = raw_line.strip()
+
+        if not inside_block:
+            if YAML_FENCE_OPEN_RE.match(stripped):
+                inside_block = True
+                block_lines.clear()
+                fence_start_line = index
+                content_start_line = index + 1
+            continue
+
+        if YAML_FENCE_CLOSE_RE.match(stripped):
+            inside_block = False
+            block_text = "\n".join(block_lines)
+            if block_text.strip():
+                try:
+                    yaml.safe_load(block_text)
+                except yaml.YAMLError as exc:
+                    message, line_offset = _decode_yaml_error(exc)
+                    line_number = content_start_line + (line_offset or 0)
+                    errors.append((line_number, message))
+            block_lines.clear()
+            fence_start_line = 0
+            content_start_line = 0
+            continue
+
+        block_lines.append(raw_line)
+
+    if inside_block:
+        errors.append((fence_start_line or len(lines), "Unterminated YAML code fence"))
+
+    if errors:
+        return path, errors
+
+    return None
+
+
+def detect_malformed_yaml_blocks(paths: List[str]) -> List[Tuple[str, List[Tuple[int, str]]]]:
+    executor_context = (
+        ThreadPoolExecutor(max_workers=MAX_PARALLEL_WORKERS)
+        if MAX_PARALLEL_WORKERS > 1
+        else nullcontext()
+    )
+
+    with executor_context as pool:
+        executor = pool if isinstance(pool, ThreadPoolExecutor) else None
+        results = _parallel_process(paths, _scan_yaml_blocks_in_file, executor)
+
+    results.sort(key=lambda item: item[0])
+    return results
 
 
 def _collapse_reference_links_in_document(doc_path: Path) -> Optional[int]:
@@ -1044,6 +1131,19 @@ def runit(project_directory, entryPoint):
 
     validate_successful_tests(successful_tests, md_files, file_dict, project_directory)
     validate_failed_tests(failed_tests, md_files, file_dict, project_directory)
+
+    malformed_yaml_blocks = detect_malformed_yaml_blocks(md_files)
+    if malformed_yaml_blocks:
+        print("\nMalformed YAML code blocks detected:")
+        project_root = Path(project_directory).resolve()
+        for path_str, issues in malformed_yaml_blocks:
+            abs_path = Path(path_str).resolve()
+            rel_display = os.path.relpath(abs_path, project_root)
+            for line_no, message in issues:
+                uri = f"vscode://file{quote(abs_path.as_posix(), safe='/')}:{line_no}"
+                file_link = f"\x1b]8;;{uri}\x1b\\{rel_display}:{line_no}\x1b]8;;\x1b\\"
+                print(f" - {file_link}: {message}")
+        raise ValueError("Malformed YAML code blocks detected. See details above.")
 
     previous_snapshot = None
 

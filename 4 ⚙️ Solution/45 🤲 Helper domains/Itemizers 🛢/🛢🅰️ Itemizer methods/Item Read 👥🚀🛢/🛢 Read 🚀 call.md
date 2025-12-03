@@ -40,7 +40,7 @@ Body:
 ## Synchronous Response
 
 ```yaml
-{Item}
+:{Item}:
 .Table: MyTable
 .Version: <version-uuid>
 ```

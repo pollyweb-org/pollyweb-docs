@@ -14,8 +14,9 @@
 1. **How to use .Last for time validation?**
 
     Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) 
+
     ```yaml
-    📃 Example
+    📃 Example:
     - ASSERT:
         - $date.IsIn(.Last(2 months))
     ```

@@ -1,11 +1,10 @@
 
 # [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST`](<../📜 Manifest/📜 Manifest.md>) `/TRUST`
 
-> Part of [`.MANIFEST` 🧩](<../📜 Manifest/📜 Manifest.md>)
-
-> Implements [domain Manifest 📜](<../📜 Manifest/📜 Manifest.md>) 
-  
-> Used by [`Trusted@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusted/🕸 Trusted 🚀 call.md>) and [`Trusts@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
+> About
+* Part of [`.MANIFEST` 🧩](<../📜 Manifest/📜 Manifest.md>)
+* Implements [domain Manifest 📜](<../📜 Manifest/📜 Manifest.md>) 
+* Used by [`Trusted@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusted/🕸 Trusted 🚀 call.md>) and [`Trusts@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
 
 <br/>
 
@@ -14,11 +13,11 @@
 | Property | Type | Notes| Examples
 |-|-|-|-
 | `Expires`        |text| Date limit  in UTC timestamp | `2024-01-10`
-| `Domain` |text| [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) <br/>- defaults to `*` | `*` `nlweb.dom` 
+| `Domain` |text| [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) <br/>- defaults to `ANY` | `ANY` `nlweb.dom` 
 | or `Domains` | array | Additional list of domains  | `[a.co, b.co]`
-| `Query`  |text| [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) | `*` `/PERSONA/*`
+| `Query`  |text| [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) | `ANY` `/PERSONA/*`
 | or `Queries`  | array | Additional list of queries | `[*]`
-| `Role`     | enum | Role of domains to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) <br/>- `VAULT` `CONSUMER`  <br/>- defaults to `*` | `*` `VAULT`
+| `Role`     | enum | Role of domains to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) <br/>- `VAULT` `CONSUMER`  <br/>- defaults to `ANY` | `ANY` `VAULT`
 | or `Roles`     | array | Additional list of roles | `[*]`
 | `Action`         | enum | Giving or removing [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) <br/>- `GRANT` `REVOKE` `INHERIT` <br/> - defaults to `GRANT` | `GRANT`
 |
@@ -116,7 +115,7 @@ Blueprint:
 
       Domain:
         $ref: Domain@nlweb.dom/TYPES
-        default: '*'
+        default: ANY
 
       Domains:
         type: array
@@ -125,11 +124,12 @@ Blueprint:
         minItems: 1
 
       Role:
-        enum: [CONSUMER, VAULT, '*']
-        default: '*'
+        enum: [CONSUMER, VAULT, ANY]
+        default: ANY
 
       Roles:
         type: array
         minItems: 1
         items:
-          enum: [CONSUMER, VAULT, '*']
+          enum: [CONSUMER, VAULT, ANY]
+```          

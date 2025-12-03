@@ -10,8 +10,9 @@
 ```yaml
 📃 Translate-Domain:
 
-IF|$.Msg.Domain.IsEmpty: RETURN
-IF|$.Msg.Target.IsEmpty: RETURN
+# Exit if Domain or Target are missing
+- IF|$.Msg.Domain.IsEmpty: RETURN
+- IF|$.Msg.Target.IsEmpty: RETURN
 
 # Read the about item
 - READ >> $item:

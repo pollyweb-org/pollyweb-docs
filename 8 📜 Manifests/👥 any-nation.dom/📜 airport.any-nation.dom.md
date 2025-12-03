@@ -28,3 +28,4 @@ Trusts:
   - Role: CONSUMER
     Query: nlweb.dom/PALM/FOUND
     Domains: [ airline.any-business.dom ]
+```

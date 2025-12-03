@@ -24,7 +24,7 @@
     ```yaml
     # Single item
     - SAVE|<set> >> $inserted:
-        {object}
+        :{object}:
         .Delete: <duration>   # Optional
         .OnBlocked: <holder>  # Optional
     ```
@@ -80,11 +80,11 @@
 
     ```yaml
     # Simplest
-    SAVE|$item
+    - SAVE|$item
 
     # Comprehensive
-    SAVE|$item: 
-        {changes}
+    - SAVE|$item: 
+        :{changes}:
         .Delete: <period>
         .OnBlocked: <holder>
         .State: <state>

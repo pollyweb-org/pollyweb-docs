@@ -2,9 +2,9 @@
 
 # 🫡 Talker `TRUSTS` command
 
-> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
-
-> Implemented by the [`.TRUSTS` 📃 script](<🫡 TRUSTS 📃 script.md>)
+> About
+* Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+* Implemented by the [`.TRUSTS` 📃 script](<🫡 TRUSTS 📃 script.md>)
 
 
 <br/>

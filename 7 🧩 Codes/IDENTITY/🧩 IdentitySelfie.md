@@ -55,4 +55,4 @@ Blueprint:
           This is done by comparing the picture taken with the ones given 
           by the vault when it invoked the Order@Selfie.
 
-  
+```

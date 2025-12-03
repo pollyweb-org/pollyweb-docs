@@ -72,7 +72,7 @@
 
     > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
-    ```yaml
+    ```js
     ASSERT|$object >> $valid:
         <key>
         <key>.f: ?

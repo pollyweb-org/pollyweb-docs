@@ -44,7 +44,7 @@
     
     - DEFAULT|$.Msg:
         Truster: $.Msg.From
-        Role: *
+        Role: ANY
     ```
 
     ---

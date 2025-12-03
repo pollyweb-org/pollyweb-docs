@@ -119,7 +119,8 @@
 
     # Show the successful submission
     - DONE|Order submitted!
-    ````
+    ```
+
     Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>)  [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)  [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
 
     ```yaml
@@ -188,7 +189,7 @@
 
     # Ask for a number between 1 and 9
     - QUANTITY >> $guess:
-        Text: : Say a number from 1 to 9.   
+        Text: Say a number from 1 to 9.   
         MinValue: 1
         MaxValue: 9
 

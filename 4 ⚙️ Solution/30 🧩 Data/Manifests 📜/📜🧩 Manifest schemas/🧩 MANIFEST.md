@@ -56,3 +56,4 @@ Blueprint:
         type: array
         items:
           $ref: .MANIFEST/CODE
+```          

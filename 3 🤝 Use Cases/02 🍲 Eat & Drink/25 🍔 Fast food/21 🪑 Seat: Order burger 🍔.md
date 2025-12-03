@@ -79,7 +79,7 @@
     - IF|$review.Rejected:
         Then: REPEAT
 
-    RETURN|$order
+    - RETURN|$order
     ```
     
     ```yaml
@@ -96,7 +96,7 @@
     
     # Inform submitted.
     - DONE:
-        Text: Eat-in submitted:
+        Text: Eat-in submitted
         Details: {$order.Summary}
 
     - RETURN|$status

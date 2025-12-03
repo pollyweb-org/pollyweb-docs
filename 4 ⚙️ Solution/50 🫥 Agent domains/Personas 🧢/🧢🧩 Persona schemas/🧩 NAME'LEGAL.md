@@ -31,3 +31,4 @@ Blueprint:
     properties:
       Name:
         type: string
+```
