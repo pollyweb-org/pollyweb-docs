@@ -3,6 +3,8 @@
 > About
 * Part of the [`Consumer.Queries` 🪣 table](<../🪣 Queries/💼 Consumer.Queries 🪣 table.md>)
 
+<br/>
+
 ## Diagram
 
 ![alt text](<💼 OnQueryQueried ⚙️ uml.png>)
@@ -17,12 +19,12 @@
 # Query the Broker
 - SEND:
     Header:
-        To: $Query.Broker.Require
+        To: $Query.Broker
         Subject: Query@Broker
     Body: 
-        Chat: $Query.Chat.Require
+        Chat: $Query.Chat
         Hook: $Query.ID
-        Schemas: $Query.Schemas.Require
+        Schemas: $Query.Schemas
 ```
 
 Uses||
