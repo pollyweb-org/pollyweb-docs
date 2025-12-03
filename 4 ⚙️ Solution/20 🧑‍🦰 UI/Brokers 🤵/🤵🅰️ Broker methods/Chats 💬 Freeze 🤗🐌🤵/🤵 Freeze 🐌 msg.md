@@ -9,7 +9,7 @@
     * freezes changes to any previous inputs in the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
 > Used by
-* [❄️ `FREEZE` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
+* [❄️ `FREEZE` command](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>)
 * [❄️ `Freeze` ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>)
 
 
