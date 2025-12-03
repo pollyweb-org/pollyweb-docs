@@ -37,3 +37,5 @@ Blueprint:
         additionalProperties:
           $ref: nlweb.dom/CRUD/ENTITY/EXPORT
         description: List of codes exported by the entity.
+
+```

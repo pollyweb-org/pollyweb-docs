@@ -23,7 +23,8 @@ TODO: Add the flow to the Manifest
 
 # Confirm using the item's name.
 - READ|Items|$number >> $item
-- CONFIRM|A {$item.Name}?     
+- CONFIRM:
+    Text: A {$item.Name}?
 
 # Ask proof of over 21 if needed.
 - IF|$item.21+:
@@ -31,7 +32,7 @@ TODO: Add the flow to the Manifest
 
 # Charge the item price.
 # * FREEZE is executed automatically.
-- CHARGE >> $charge
+- CHARGE >> $charge:
     Items:
       - Price: $item.Price
         Name: $item.Name
@@ -43,11 +44,11 @@ TODO: Add the flow to the Manifest
 - READ|Locators|$.Chat.Key >> $locator
 
 # Relay the Open command to the vending machine.
-- RELAY|Machines|$locator.MachineKey >> relayed
+- RELAY|Machines|$locator.MachineKey >> relayed:
     Script: Open({$item.Number})
     OnFailure: Failure
     OnSuccess: Success
-````
+```
 
 ```yaml
 # Show error.

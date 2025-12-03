@@ -18,7 +18,7 @@
 
 1. **What's the .Locator syntax?**
 
-    ```yaml
+    ```r
     {.Locator}($holder)
     ```
 

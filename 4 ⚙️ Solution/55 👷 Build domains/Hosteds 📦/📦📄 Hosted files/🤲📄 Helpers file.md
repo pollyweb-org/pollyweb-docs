@@ -17,7 +17,7 @@
 1. **What does the Helpers file look like?**
 
     ```yaml
-    🤲 Helpers.yaml
+    # 🤲 Helpers.yaml
     
     Listeners: # to send Manifest 📜 updates.
         - listeners.nlweb.dom

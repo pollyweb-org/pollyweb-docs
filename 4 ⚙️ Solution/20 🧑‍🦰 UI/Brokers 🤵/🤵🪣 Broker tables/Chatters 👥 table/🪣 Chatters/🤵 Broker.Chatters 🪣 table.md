@@ -82,9 +82,9 @@ Asserts:
     # Field assertions
     Domain.IsDomain: 
     Role.IsIn: 
-        HOST,   # From Hello@Host
-        HELPER, # From Invite@Broker
-        VAULT   # From Query@Broker
+        - HOST    # From Hello@Host
+        - HELPER  # From Invite@Broker
+        - VAULT   # From Query@Broker
 ```
 
 <br/>

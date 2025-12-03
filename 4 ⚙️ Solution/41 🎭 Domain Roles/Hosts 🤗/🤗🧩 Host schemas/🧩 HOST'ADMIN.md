@@ -14,3 +14,4 @@ Title: Domain admin
 Translations:
   - Language: pt-br
     Title: Admin de domínio
+```    

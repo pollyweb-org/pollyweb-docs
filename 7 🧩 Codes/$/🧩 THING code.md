@@ -10,3 +10,4 @@
 ```yaml
 Path: /THING
 Description: Check-in code for things.
+```

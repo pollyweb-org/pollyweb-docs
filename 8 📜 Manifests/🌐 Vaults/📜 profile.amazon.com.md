@@ -19,4 +19,4 @@ Trusts:
   # Trust all requests from anyone.
   - Role: CONSUMER
     Query: nlweb.dom/PERSONA/*
-    
+```    

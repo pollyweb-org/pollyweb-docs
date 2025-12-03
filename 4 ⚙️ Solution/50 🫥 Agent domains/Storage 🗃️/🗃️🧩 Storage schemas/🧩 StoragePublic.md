@@ -16,5 +16,4 @@ Translations:
   - Language: pt-br
     Title: Itens públicos
 
-Blueprint:
-  
+```

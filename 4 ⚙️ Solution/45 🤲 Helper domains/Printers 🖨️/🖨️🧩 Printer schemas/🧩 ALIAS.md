@@ -16,3 +16,4 @@
 ```yaml
 Path: /ALIAS
 Description: Check-in alias.
+```

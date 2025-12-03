@@ -19,3 +19,4 @@ Description: Locator of a Host.
 
 Blueprint:
   Inherits: nlweb.dom/LOCATOR:1.0
+```

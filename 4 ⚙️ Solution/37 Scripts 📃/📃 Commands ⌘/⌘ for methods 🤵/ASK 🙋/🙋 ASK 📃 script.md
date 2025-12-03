@@ -48,7 +48,7 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
 # Match the selected options
 - SELECT >> $selected:
     From: $Options
-    Where: {$ID}.IsIn($result.ID)
+    Where: $$ID.IsIn($result.ID)
 
 # Return the list of items selected.
 - RETURN|$selected

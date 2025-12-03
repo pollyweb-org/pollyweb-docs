@@ -203,3 +203,5 @@ Blueprint:
               type: string
             example: 
               inbox: InboxHandler
+
+```

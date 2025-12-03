@@ -31,7 +31,7 @@
 
 # Translate only if languages differ
 - IF|$Prompt.Language.Differs($Prompt.Chat.Language):
-    TRANSLATE|$Prompt
+    TRANSLATE|$Prompt:
         From: Chat.Language
         To: Language
         All: Text, Details, Options.Title

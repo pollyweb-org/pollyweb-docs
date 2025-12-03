@@ -12,14 +12,15 @@
     Consider the following [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
     
     ```yaml
-    # 😃 Talker 
-    PUT >> $p
+    📃 Example:
+
+    - PUT >> $p:
         $: my default
         A: another property
 
-    INFO|{$p}   # Prints "my default"
-    INFO|{$p.$} # Prints "my default"
-    INFO|{$p.A} # Prints "another property"
+    - INFO|{$p}   # Prints "my default"
+    - INFO|{$p.$} # Prints "my default"
+    - INFO|{$p.A} # Prints "another property"
     ```
 
     | [Command ⌘](<../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose

@@ -203,21 +203,9 @@
 
     ```yaml
     - <CMD> >> $out:    # multiple values 
-        [$in-1, $in-n]    # in a line as an array
+        [$in-1, $in-n]  # in a line as an array
     ```
 
-    ```yaml
-    - <CMD> >> $out:    # multiple values 
-        $in-1           # in multiple lines
-        $in-n
-    ```
-
-    ```yaml
-    - <CMD> >> $out:    # multiple values 
-        $in-1,          # in multiple lines
-        $in-n           # with commas
-    ```
-   
     ```yaml
     - <CMD> >> $out:    # multiple values 
         - $in-1         # in multiple lines

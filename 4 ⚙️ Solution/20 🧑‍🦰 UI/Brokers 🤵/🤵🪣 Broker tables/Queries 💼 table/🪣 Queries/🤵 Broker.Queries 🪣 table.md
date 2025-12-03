@@ -126,7 +126,7 @@ From [`OnQueryMatched` 🔔 handler](<../🪣🧱 30 Matched 🔔 event/🤵 OnQ
 ```yaml
 Trusted: # Only the Binds and Tokens mutually trusted
   - ID: <item-uuid>
-    ...
+    # ...
 ```
 
 From [`OnQueryTrusted` 🔔 handler](<../🪣🧱 40 Trusted 🔔 event/🤵 OnQueryTrusted 🔔 handler.md>)
@@ -134,7 +134,7 @@ From [`OnQueryTrusted` 🔔 handler](<../🪣🧱 40 Trusted 🔔 event/🤵 OnQ
 ```yaml
 Selected: # Only the trusted Bind or Token selected
     ID: <item-uuid>
-    ...
+    # ...
 ```
 
 From [`OnQuerySelected` 🔔 handler](<../🪣🧱 50 Selected 🔔 event/🤵 OnQuerySelected 🔔 handler.md>), for [`OnQueryDisclosed` 🔔](<../🪣🧱 70 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>)

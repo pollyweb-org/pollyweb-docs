@@ -12,7 +12,7 @@
 
 1. **What's the syntax for code handlers?**
 
-    ```yaml
+    ```r
     {handler[(param-1[,param-n])]}
     ```
 

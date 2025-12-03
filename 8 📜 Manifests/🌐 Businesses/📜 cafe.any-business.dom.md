@@ -7,3 +7,4 @@
 About:
   Domain: cafe.any-business.dom
   Title: Any Coffee Shop
+```

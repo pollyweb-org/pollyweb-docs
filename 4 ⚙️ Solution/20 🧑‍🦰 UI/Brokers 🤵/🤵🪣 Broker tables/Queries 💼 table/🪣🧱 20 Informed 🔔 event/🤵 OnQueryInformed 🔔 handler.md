@@ -42,7 +42,7 @@
     WHERE: Schema.IsIn($Query.Schemas)
 
 # Merge the lists
-PUT >> $matches:
+- PUT >> $matches:
     $queryTokens
     $queryBinds
 

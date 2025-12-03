@@ -14,3 +14,5 @@ Title: Bank account withdraw
 Translations:
   - Language: pt-br
     Title: Levantamento bancário
+
+```

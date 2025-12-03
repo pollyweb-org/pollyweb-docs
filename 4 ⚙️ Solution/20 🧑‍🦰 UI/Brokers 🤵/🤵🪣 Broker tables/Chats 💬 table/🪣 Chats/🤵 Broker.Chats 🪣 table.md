@@ -68,8 +68,8 @@ The [Item 🛢 Children](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Ite
 
 ```yaml
 Children: 
-    Chatters  # Domains added to the Chat
-    Forms     # Manifest Forms activated on the Chat
+    - Chatters  # Domains added to the Chat
+    - Forms     # Manifest Forms activated on the Chat
 ```
 
 <br/>

@@ -45,9 +45,9 @@ Body:
 | Header|`From`|text| The name of the sender [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)
 |       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `Trusts@Graph`
-| Body  | `Truster` |text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) trusting
-|       | `Trusted` |text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to be trusted
-|       | `Role`    | enum   | The role to assess: `VAULT`, `CONSUMER`, `*`
+| Body  | `Truster` |text| Name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) being trusted
+|       | `Trusted` |text| Name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to be trusted
+|       | `Role`    | enum   | Role to assess: `VAULT`, `CONSUMER`, `ANY`
 |       | `Schema`    |text| The [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to assess
 |
 

@@ -32,3 +32,4 @@ Blueprint:
     properties:
       Summary:
         type: string   
+```        

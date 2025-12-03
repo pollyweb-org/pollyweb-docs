@@ -15,7 +15,7 @@
     AllOf: token
 
 # Ask for the tag 🤔
-- TEXT|What to tag? >> $tag
+- TEXT|What to tag? >> $tag:
     Details: Provide an alias that you recognize.
     Default: $token.Tag
     Nullable: True

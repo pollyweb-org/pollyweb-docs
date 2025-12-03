@@ -66,3 +66,4 @@ Blueprint:
         format: uuid
         example: 28ff57b4-76f6-4944-a710-a71f9d667cee
         description: Universal unique identifier.
+```

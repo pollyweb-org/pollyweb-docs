@@ -197,7 +197,7 @@
     - RUN|Calculate >> result
 
     # Check the result
-    - CASE|{$result}
+    - CASE|{$result}:
         Won: DONE|Congrats, you won!
         Lost: FAIL|Sorry, you lost! 
     ```
@@ -244,7 +244,7 @@
     # Second calculation
     - RUN|AddFive(3) >> n
     - DONE|The second result is {$n}.
-    ````
+    ```
 
     ```yaml
     📃 AddFive:

@@ -7,3 +7,4 @@ Title: Trusted Personas
 Query: nlweb.dom/PERSONA/*
 Role: VAULT
 Domain: any-profile.dom
+```

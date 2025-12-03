@@ -45,4 +45,4 @@ Blueprint:
         type: object
         additionalProperties:
           $ref: Schema@nlweb.dom/TYPES
- 
+```

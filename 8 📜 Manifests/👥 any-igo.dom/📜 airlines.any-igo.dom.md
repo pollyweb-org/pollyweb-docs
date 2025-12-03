@@ -52,4 +52,4 @@ Trusts:
   # Protect from malicious domains.
   - Action: INHERIT
     Domain: any-firewall.org
-      
+```

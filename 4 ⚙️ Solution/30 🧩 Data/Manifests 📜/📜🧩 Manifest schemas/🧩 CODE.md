@@ -83,7 +83,7 @@ Blueprint:
 * Example of a parent sequence:
   ```yaml 
   # Blueprint: nlweb.dom/TOKEN:1.0
-  Properties: [ Code, Version, Issuer, Locator, Issued, Expires, *, Signature ]
+  Properties: [ Code, Version, Issuer, Locator, Issued, Expires, '*', Signature ]
   ```
 
 * Example of an inherited token with additional metadata:
@@ -163,3 +163,4 @@ Blueprint:
             properties: 
               $ref: 
                 type: string
+```                

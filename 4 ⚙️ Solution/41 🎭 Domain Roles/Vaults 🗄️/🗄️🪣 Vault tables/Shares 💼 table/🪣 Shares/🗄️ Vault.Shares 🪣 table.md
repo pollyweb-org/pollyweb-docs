@@ -45,9 +45,9 @@ The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Ite
 
 ```yaml
 Handlers:
-    ASKED   >> OnShareAsked     # Calls Trusts@Graph
-    TRUSTED >> OnShareTrusted   # Calls Handle@Hosted
-    READY   >> OnShareReady     # Calls Consume@Consumer
+    ASKED   >> OnShareAsked:     # Calls Trusts@Graph
+    TRUSTED >> OnShareTrusted:   # Calls Handle@Hosted
+    READY   >> OnShareReady:     # Calls Consume@Consumer
 ```
 
 <br/>

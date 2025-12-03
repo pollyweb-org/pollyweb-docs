@@ -85,4 +85,4 @@ Blueprint:
             - type: object
               propertyNames: 
                 $ref: Language@.MANIFEST/TRANSLATION
-      
+```      

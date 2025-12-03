@@ -51,7 +51,7 @@
     Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
     ```yaml
-    📃 Examples
+    📃 Examples:
 
     # With static values
     - IF|.Is(1, 1):

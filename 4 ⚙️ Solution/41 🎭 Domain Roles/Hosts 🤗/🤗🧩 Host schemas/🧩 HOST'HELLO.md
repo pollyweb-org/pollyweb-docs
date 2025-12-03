@@ -9,8 +9,6 @@
 
 <br/>
 
-<br/>
-
 ## Definition
 
 > 🤝: [`.MANIFEST/CODE`](<../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>)
@@ -18,3 +16,4 @@
 ```yaml
 Path: /HOST/HELLO
 Description: Trusted Broker on Host@Hello
+```

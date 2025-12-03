@@ -24,3 +24,4 @@ Trusts:
       - nlweb.dom/PAY/PAYMENT
     Domains: 
       - any-collector.dom
+```

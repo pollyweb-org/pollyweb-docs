@@ -2,7 +2,7 @@
 
 > About
 * Part of the [`Broker.Pops` 🪣 table](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
-* Asks the user if they want do remove the {{Binds}}.
+* Asks the user if they want do remove the [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>).
 
 
 <br/>

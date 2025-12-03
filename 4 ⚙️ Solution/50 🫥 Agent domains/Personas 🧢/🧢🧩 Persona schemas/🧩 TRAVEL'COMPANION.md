@@ -50,3 +50,4 @@ Blueprint:
     Country: 
       $ref: Alpha2@standards.any-igo.dom/3166-1
       description: Document issuer country.
+```

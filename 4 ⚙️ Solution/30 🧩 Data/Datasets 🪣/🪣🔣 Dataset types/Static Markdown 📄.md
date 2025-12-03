@@ -6,7 +6,7 @@
 
     Here's a Markdown dataset called `Items.md`
 
-    ```yaml
+    ```r
     # 🪣 Items
     | Code | Name          | Price  | 21+
     |------|---------------|--------|----

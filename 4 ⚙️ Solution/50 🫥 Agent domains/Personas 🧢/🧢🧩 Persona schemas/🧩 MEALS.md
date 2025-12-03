@@ -22,3 +22,4 @@ Blueprint:
     type: array
     items:
       $ref: Code@airlines.any-igo.dom/SSR/MEAL
+```

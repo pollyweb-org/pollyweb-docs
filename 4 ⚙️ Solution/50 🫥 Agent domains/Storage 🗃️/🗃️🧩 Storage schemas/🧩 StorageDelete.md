@@ -10,3 +10,4 @@
 ```yaml
 Path: /STORAGE/DELETE
 Description: Check-in code to delete a file.
+```

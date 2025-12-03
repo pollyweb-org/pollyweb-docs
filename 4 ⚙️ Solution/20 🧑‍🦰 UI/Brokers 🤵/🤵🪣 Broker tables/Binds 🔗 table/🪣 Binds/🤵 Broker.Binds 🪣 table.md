@@ -29,8 +29,8 @@ Prefix: Broker
 Table: Binds
 Item: Bind
 Key: 
-    Vault  # The Vault that offered the Bind
-    Bind   # The Bind ID in the Vault 
+    - Vault  # The Vault that offered the Bind
+    - Bind   # The Bind ID in the Vault 
 ```
 
 <br/>
@@ -59,8 +59,8 @@ Here's the [Item 🛢 Propagate](<../../../../../30 🧩 Data/Datasets 🪣/🪣
 
 ```yaml
 Propagate:
-    Vault   # Auto-create Domains from Bind.Vault
-    Schema  # Auto-create Schemas from Binds.Schema
+    - Vault   # Auto-create Domains from Bind.Vault
+    - Schema  # Auto-create Schemas from Binds.Schema
 ```
 
 <br/>

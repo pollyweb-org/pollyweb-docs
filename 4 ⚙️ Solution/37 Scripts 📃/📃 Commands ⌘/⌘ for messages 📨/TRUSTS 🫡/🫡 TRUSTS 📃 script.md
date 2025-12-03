@@ -1,8 +1,10 @@
 # 😃📃 `.TRUSTS` 🫡 script
 
-> [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`TRUSTS`](<🫡 TRUSTS ⌘ cmd.md>) command.
+> About
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`TRUSTS`](<🫡 TRUSTS ⌘ cmd.md>) command.
+* Calls the [`Trusts@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
 
-> Calls the [`Trusts@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
+<br/>
 
 ## How to call
 
@@ -22,13 +24,13 @@
 # Default inputs
 - DEFAULT|$.Inputs:
     Truster: $.Msg.To 
-    Role: *
+    Role: ANY
 
 # Assert inputs
 - ASSERT|$.Inputs:
     AllOf: Schema, Trusted
     Texts: Schema, Trusted, Truster
-    Role.IsIn: VAULT, CONSUMER, *
+    Role.IsIn: VAULT, CONSUMER, ANY
 
 # Send the request
 - SEND >> $answer:

@@ -17,7 +17,7 @@
 ## Script
 
 ```yaml
-📃 Emoji@Broker
+📃 Emoji@Broker:
 
 # Verify the message
 - VERIFY|$.Msg

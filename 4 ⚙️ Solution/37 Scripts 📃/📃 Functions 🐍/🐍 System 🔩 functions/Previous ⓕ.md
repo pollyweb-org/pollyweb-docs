@@ -54,7 +54,7 @@
 
     Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) 
     ```yaml
-    📃 Example
+    📃 Example:
     - ASSERT:
         - $date.IsIn(.Previous(month))
     ```

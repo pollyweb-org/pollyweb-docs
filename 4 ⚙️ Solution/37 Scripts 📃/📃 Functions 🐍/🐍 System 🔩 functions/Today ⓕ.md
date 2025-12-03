@@ -17,7 +17,7 @@
 
 1. **What's the syntax of .Today?**
 
-    ```yaml
+    ```r
     .Today
     ````
 

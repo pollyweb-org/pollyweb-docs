@@ -66,3 +66,4 @@ Blueprint:
         additionalProperties:
           $ref: nlweb.dom/DEPLOY/STACK/RESOURCE
         
+```

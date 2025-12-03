@@ -35,17 +35,17 @@
 
     ```yaml
     # Comprehensive
-    BIND >> $bind:
+    - BIND >> $bind:
         Schema: $schema
         Reference: $reference
         Internals: $internals
 
     # Simple multi-line
-    BIND >> $bind:
+    - BIND >> $bind:
         $schema
 
     # Simplest inline
-    BIND|$schema
+    - BIND|$schema
     ```
     | Input| Purpose 
     |-|-

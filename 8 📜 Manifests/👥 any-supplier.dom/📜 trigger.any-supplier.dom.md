@@ -9,4 +9,4 @@ About:
   Domain: trigger.any-supplier.dom
   Title: Any Trigger
   
-Trusts:
+```

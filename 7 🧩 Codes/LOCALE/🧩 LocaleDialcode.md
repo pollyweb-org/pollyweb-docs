@@ -43,3 +43,5 @@ Blueprint:
       Flag:
         $reg: Emoji@unicode.any-igo.dom/FLAG:1.0
         example: 🇬🇧
+
+```

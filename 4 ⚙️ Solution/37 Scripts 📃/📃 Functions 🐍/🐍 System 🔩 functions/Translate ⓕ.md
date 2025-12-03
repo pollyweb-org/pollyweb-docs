@@ -1,8 +1,8 @@
 # 😃🔩 Talker `{.Translate}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Used by [`TRANSLATE`](<../../📃 Commands ⌘/⌘ for methods 🤵/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>)
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Used by [`TRANSLATE`](<../../📃 Commands ⌘/⌘ for methods 🤵/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>)
 
 ## FAQ
 
@@ -18,7 +18,7 @@
 
 1. **What's the syntax?**
 
-    ```yaml
+    ```r
     # Comprehensive
     .Translate(text, from, to)
 

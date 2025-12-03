@@ -114,13 +114,13 @@ From [`Onboard@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Wallet
 ```yaml
 PublicKey: <public-key>
 Notifier: any-notifier.dom
-````
+```
 
 ```yaml
 # Localization from Onboard@ and Pop@
 Language: en-us
 Region: United States
-````
+```
 
 ```yaml
 # Agents from Onboard@ and Pop@
