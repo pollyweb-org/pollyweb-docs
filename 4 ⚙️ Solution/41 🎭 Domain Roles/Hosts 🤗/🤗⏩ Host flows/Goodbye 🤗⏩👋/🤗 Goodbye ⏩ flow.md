@@ -4,7 +4,7 @@
     * inform [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ending, 
     * for them to trigger the [Advertisement 👀 ](<../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) flow.
 * Activated by:
-    * [👋 Talker `GOODBYE` command](<../../Host commands/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>)
+    * [👋 Talker `GOODBYE` command](<../../🤗⌘ Host commands/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>)
 
 <br/>
 
