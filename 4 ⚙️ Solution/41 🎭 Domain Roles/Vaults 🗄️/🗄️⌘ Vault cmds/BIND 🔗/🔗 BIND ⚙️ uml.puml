@@ -16,6 +16,11 @@ activate script
 deactivate script
 
 activate bind
+
+    alt bound?
+        bind -> script: $.Chat.Binds
+    end alt
+
     bind -> binds: 💾 {OFFERED, schema}
 activate binds
     binds -> bind: {bind}
