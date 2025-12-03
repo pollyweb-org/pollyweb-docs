@@ -17,6 +17,8 @@ _LINK_PATTERNS = [
 _GENERIC_LINK_RE = re.compile(r"(?<!!)\[.*?\]\(\s*<?([^>#]+)>?\s*\)")
 _GENERIC_EXT_RE = re.compile(r"\.(md|png|jpg|pdf)$", re.IGNORECASE)
 
+IMAGE_LINK_RE = re.compile(r"!\[[^\]]*\]\(\s*<?([^>#]+)>?\s*\)")
+
 _MALFORMED_PATTERNS = [
     re.compile(r"\[[^\]]+\]\([^)\n]*\.md(?![^)]*\))"),
     re.compile(r"\[[^\]]+\][^ \[<]+\..+?\)\>?"),
@@ -39,6 +41,7 @@ def extract_links_with_malformed_detection(content: str):
     """Extract links to markdown assets and log malformed patterns."""
     links_with_lines: list[tuple[str, int]] = []
     malformed_links_with_lines: list[tuple[str, int]] = []
+    image_links_with_lines: list[tuple[str, int]] = []
 
     lines = content.splitlines()
     found_the_line = False
@@ -57,6 +60,11 @@ def extract_links_with_malformed_detection(content: str):
                     matched_the_line = True
                 if "](." in line:
                     malformed_links_with_lines.append((line, line_no))
+
+        for image_match in IMAGE_LINK_RE.finditer(line):
+            target = image_match.group(1).strip()
+            if target:
+                image_links_with_lines.append((target, line_no))
 
         generic_links = _GENERIC_LINK_RE.findall(line)
         for link in generic_links:
@@ -88,13 +96,14 @@ def extract_links_with_malformed_detection(content: str):
             raise ValueError("MATCHED THE LINE")
         raise ValueError("FOUND THE LINE")
 
-    return links_with_lines, malformed_links_with_lines
+    return links_with_lines, malformed_links_with_lines, image_links_with_lines
 
 
 __all__ = [
     "_GENERIC_EXT_RE",
     "_GENERIC_LINK_RE",
     "_LINK_PATTERNS",
+    "IMAGE_LINK_RE",
     "_MALFORMED_PATTERNS",
     "extract_links_with_malformed_detection",
 ]

@@ -1,15 +1,13 @@
 @startuml Prompt
 ' ------------------
 
-actor "User" as user
-
+'actor "User" as user
+participant "Host 🤗" as host
 box "User Interface (UI)"  #FFFFFF
-    participant "Wallet 👱\napp" as wallet
-    participant "Notifier 📣\nbff" as notifier
-    participant "Broker 🤵\nhost" as broker
+    participant "Broker 🤵" as broker
+    participant "Notifier 📣" as notifier
+    participant "Wallet 👱" as wallet
 end box 
-
-participant "Host 🤗\ndomain" as host
  
 
 activate host
@@ -33,35 +31,25 @@ group Host Prompt
     activate wallet
 
         ' Get Prompt
-        wallet -> host: 3) Prompted 🚀
-        activate host
-            host -> wallet: {prompt}
-        deactivate host
-
-        ' Download attachments
-        alt has attachments?
-            wallet -> host:  4) Download 🚀
-            activate host
-                host -> wallet: {file}
-            deactivate host
-        end alt
+        wallet -> host: 3) Prompted @ Host 🚀 >> {details}
+        wallet -> host:  4) Download @ Host 🚀 >> {file}
 
 end group
 
 
 group User Response
 
-    user --> wallet: reply
+    'user --> wallet: reply
 
-    wallet -> wallet: sign(msg)
-    wallet --> host: 5) Reply 🐌
+    'wallet -> wallet: sign(msg)
+    wallet --> host: 5) Reply 🐌 {signed content}
     deactivate wallet
 
     activate host
 
-        alt is vault?
-            host -> host: validate(sign)
-        end alt
+        'alt is vault?
+        '    host -> host: validate(sign)
+        'end alt
 
 end group
 
