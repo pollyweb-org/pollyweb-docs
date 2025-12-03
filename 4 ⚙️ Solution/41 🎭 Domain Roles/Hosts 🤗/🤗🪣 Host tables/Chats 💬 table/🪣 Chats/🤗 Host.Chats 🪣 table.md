@@ -11,6 +11,12 @@
 
 <br/>
 
+## Lifecycle
+
+![alt text](<🤗 Host.Chats ⚙️ table.png>)
+
+<br/>
+
 ## Schema
 
 Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).

@@ -1,0 +1,25 @@
+@startuml OnDetailed
+
+box Host 🤗 domain #FFFFFA
+    participant "Chats 🪣" as chats
+    participant "OnDetailed 🔔" as script
+    participant "Binds 🪣" as binds
+end box
+
+
+chats --> script: DETAILED 🔔
+
+activate script
+    script -> script: PARALLEL {Chat.Binds}
+    
+    activate script
+        script -> binds: READ 🧲
+        script -> script: SET {bind details}
+    deactivate script   
+
+    script -> chats: 💾 BOUND
+
+deactivate script   
+
+
+@enduml 
