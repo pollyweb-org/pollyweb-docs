@@ -4,7 +4,7 @@
 1. **What is a Firewall domain in NLWeb?**
 
     A [Firewall 🔥 domain](<🔥🤲 Firewall helper.md>) is 
-    * a [Helper 🤲 domain](<../$ Helpers 🤲/🤲👥 Helper domain.md>) 
+    * a [Helper 🤲 domain](<../$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) 
     * focused on blacklisting other [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>)
     * to keep the ecosystem safe (e.g., national security entities). 
 

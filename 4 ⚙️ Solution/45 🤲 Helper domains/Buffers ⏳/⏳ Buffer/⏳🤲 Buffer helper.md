@@ -10,7 +10,7 @@
 1. **What is a Buffer domain in NLWeb?**
 
     A [Buffer ⏳ domain](<⏳🤲 Buffer helper.md>) 
-    * is a point-to-point [Helper 🤲 domain](<../../$ Helpers 🤲/🤲👥 Helper domain.md>)
+    * is a point-to-point [Helper 🤲 domain](<../../$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>)
     * that ingests events from [Streamer 🌬️ domains](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) with high availability and high ingestion throughput
     * and then throttle the deliver of those events to [Subscriber 🔔 domains](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) according to an agreed delivery policy. 
     

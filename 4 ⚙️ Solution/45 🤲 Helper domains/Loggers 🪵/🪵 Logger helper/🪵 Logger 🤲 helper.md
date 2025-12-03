@@ -3,7 +3,7 @@
 1. **What is a Logger?**
 
     A [Logger 🪵 helper domain](<🪵 Logger 🤲 helper.md>)
-    * is a [Helper 🤲 domain](<../../$ Helpers 🤲/🤲👥 Helper domain.md>)
+    * is a [Helper 🤲 domain](<../../$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>)
     * that receives log messages 
     * from other [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 

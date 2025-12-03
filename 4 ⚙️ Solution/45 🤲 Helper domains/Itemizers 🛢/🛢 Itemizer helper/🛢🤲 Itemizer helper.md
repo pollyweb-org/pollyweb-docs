@@ -6,7 +6,7 @@
 1. **What's an Itemizer?**
 
     An [Itemizer 🛢 helper domain](<🛢🤲 Itemizer helper.md>)
-    * is a [Helper 🤲 domain](<../../$ Helpers 🤲/🤲👥 Helper domain.md>)
+    * is a [Helper 🤲 domain](<../../$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>)
     * that manages [Itemized 🪣 datasets](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
     * on behalf of other [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 

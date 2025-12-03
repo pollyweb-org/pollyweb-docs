@@ -5,7 +5,7 @@
 1. **What is a Listener domain in NLWeb?**
 
     A [Listener 👂 domain](<👂🤲 Listener helper.md>) is 
-    * a [Helper 🤲 domain](<../../$ Helpers 🤲/🤲👥 Helper domain.md>) 
+    * a [Helper 🤲 domain](<../../$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) 
     * with a [Streamer 🌬️ domain role](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) 
     * that propagates [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) updates. 
 

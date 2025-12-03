@@ -7,7 +7,7 @@
 1. **What is a Hoster?**
 
     A [Hoster ☁️](<☁️🤲 Hoster helper.md>) is 
-    * any [Helper 🤲 domain](<../../$ Helpers 🤲/🤲👥 Helper domain.md>)
+    * any [Helper 🤲 domain](<../../$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>)
     * that provides the infrastructure of a [Hosted 📦 domain](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
     * and allow their owners to manage them with a [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
 
