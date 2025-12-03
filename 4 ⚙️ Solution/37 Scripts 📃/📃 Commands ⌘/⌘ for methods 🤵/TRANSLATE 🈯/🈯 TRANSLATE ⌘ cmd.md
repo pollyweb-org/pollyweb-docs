@@ -6,7 +6,7 @@
 
 1. **What's the TRANSLATE command?**
 
-    The `TRANSLATE` command translates texts from one language to another using the [`Translate@Graph` 🅰️ method](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 📃 handler.md>).
+    The `TRANSLATE` command translates texts from one language to another using the [`Translate@Graph` 📨 msg](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Translate/🕸 Translate 📃 handler.md>).
 
     ---
     <br/>
@@ -33,8 +33,8 @@
     | | Or to [`$.Msg`](<../../../📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)`.Language`
     | `Text` | Text to translate via [`.Translate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>) | `Hi, ´John´!`
     |       | Doesn't translate between `´´`
-    | `Domain` | Domain for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | `any-domain.dom`
-    | `Schema` | Schema  for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | `.HOST`
+    | `Domain` | Domain for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | `any-domain.dom`
+    | `Schema` | Schema  for [`Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | `.HOST`
 
     ---
     <br/>

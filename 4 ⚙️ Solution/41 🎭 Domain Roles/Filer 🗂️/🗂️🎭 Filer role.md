@@ -22,12 +22,12 @@
 
     | Flow | Message | Details
     |-|-|-
-    |[⏩ Clone](<../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/10 🔃⏩🗂️ Clone.md>)|[`Clone`](<🗂️🅰️ Filer methods/🔃🚀🗂️ Clone.md>) | Registers [Syncers 🔃 ](<../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) on [Filer 🗂️](<🗂️🎭 Filer role.md>)
-    |[⏩ Sync](<../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/20 🔃⏩🗂️ Sync.md>)|[`Map`](<🗂️🅰️ Filer methods/🔃🚀🗂️ Map.md>) | [Syncers](<../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) send a map current files
-    ||[`Upload`](<🗂️🅰️ Filer methods/🔃🚀🗂️ Upload.md>) | Then upload each file individually
-    ||[`Uploaded`](<🗂️🅰️ Filer methods/🔃🚀🗂️ Uploaded.md>) | [Filer 🗂️](<🗂️🎭 Filer role.md>) calculate changes
-    ||[`Download`](<🗂️🅰️ Filer methods/🔃🚀🗂️ Download.md>) | [Syncers](<../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) execute the changes
-    |[⏩ Chat](<🗂️🅰️ Filer methods/🔃🐌🗂️ Chat.md>)|[`Chat`](<🗂️🅰️ Filer methods/🔃🐌🗂️ Chat.md>) | Opens a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with a [Filer 🗂️](<🗂️🎭 Filer role.md>)
+    |[⏩ Clone](<../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/10 🔃⏩🗂️ Clone.md>)|[`Clone`](<🗂️📨 Filer msgs/🔃🚀🗂️ Clone.md>) | Registers [Syncers 🔃 ](<../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) on [Filer 🗂️](<🗂️🎭 Filer role.md>)
+    |[⏩ Sync](<../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/20 🔃⏩🗂️ Sync.md>)|[`Map`](<🗂️📨 Filer msgs/🔃🚀🗂️ Map.md>) | [Syncers](<../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) send a map current files
+    ||[`Upload`](<🗂️📨 Filer msgs/🔃🚀🗂️ Upload.md>) | Then upload each file individually
+    ||[`Uploaded`](<🗂️📨 Filer msgs/🔃🚀🗂️ Uploaded.md>) | [Filer 🗂️](<🗂️🎭 Filer role.md>) calculate changes
+    ||[`Download`](<🗂️📨 Filer msgs/🔃🚀🗂️ Download.md>) | [Syncers](<../../55 👷 Build domains/Syncers 🔃/🔃🛠️ Syncer tool.md>) execute the changes
+    |[⏩ Chat](<🗂️📨 Filer msgs/🔃🐌🗂️ Chat.md>)|[`Chat`](<🗂️📨 Filer msgs/🔃🐌🗂️ Chat.md>) | Opens a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with a [Filer 🗂️](<🗂️🎭 Filer role.md>)
     
 
     ---

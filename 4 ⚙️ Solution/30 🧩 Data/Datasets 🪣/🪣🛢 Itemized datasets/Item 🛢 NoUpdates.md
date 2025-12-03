@@ -12,7 +12,7 @@
     NoUpdates: True  # it's False by default
     ```
 
-    Here's a [`Script`](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🅰️ Printer methods/Grab 👥🚀🖨️/🖨️ Grab 🚀 call.md>)
+    Here's a [`Script`](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [`Grab@Printer`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️📨 Printer msgs/Grab 👥🚀🖨️/🖨️ Grab 🚀 call.md>)
 
     ```yaml
     # Give a holder name to avoid exceptions.

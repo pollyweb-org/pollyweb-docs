@@ -49,7 +49,7 @@
     - VERIFY|$.Msg
     ```
 
-    It calls [`PublicKey@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) with the `From` in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
+    It calls [`PublicKey@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) with the `From` in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
 
 
     ---

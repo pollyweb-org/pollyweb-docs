@@ -5,7 +5,7 @@
 
 > Implementation
 * Implemented by the [🛢🤲 Itemizer helper](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢 Itemizer helper/🛢🤲 Itemizer helper.md>)
-    * with the [`Build@Itemizer` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>).
+    * with the [`Build@Itemizer` 📨 msg](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>).
 
 
 ## FAQ
@@ -21,10 +21,10 @@
 
     [Message 📨](<../../Messages 📨/📨 Message/📨 Message.md>) | [Command ⌘](<../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-|-
-    |[`Read@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Read 👥🚀🛢/🛢 Read 🚀 call.md>)|[`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)  | Retrieves an item
-    |[`Save@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)|[`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)   | Inserts or updates an item
-    |[`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)|[`DELETE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | Deletes an item
-    | [`Undo@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Undo 👥🚀🛢/🛢 Undo 🚀 call.md>) | [`UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) | Reverts an item deletion
+    |[`Read@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Read 👥🚀🛢/🛢 Read 🚀 call.md>)|[`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)  | Retrieves an item
+    |[`Save@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)|[`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)   | Inserts or updates an item
+    |[`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)|[`DELETE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | Deletes an item
+    | [`Undo@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Undo 👥🚀🛢/🛢 Undo 🚀 call.md>) | [`UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) | Reverts an item deletion
 
     ---
     <br/>

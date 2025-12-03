@@ -229,11 +229,11 @@
    
     | [From 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Subject 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Description |
     |-|--------|-------------|
-    | [🤵 Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Bound`](<../🗄️🅰️ Vault methods/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>) | A [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was added |
-    |  | [`Unbound`](<../🗄️🅰️ Vault methods/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>) | A [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was removed |
-    | | [`Disclose`](<../🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>) | Disclose the data of a [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) |
+    | [🤵 Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Bound`](<../🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>) | A [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was added |
+    |  | [`Unbound`](<../🗄️📨 Vault msgs/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>) | A [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was removed |
+    | | [`Disclose`](<../🗄️📨 Vault msgs/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>) | Disclose the data of a [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) |
     | | [`Suppress`](<../../../60 🧰 Edge/63 🖐️ Palmists/🤵🐌🖐️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/7 🆔⏩🖐️ Palm scan.md>) |
-    | [💼 Consumer](<../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | [`Collect`](<../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>) | Return the data disclosed
+    | [💼 Consumer](<../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | [`Collect`](<../🗄️📨 Vault msgs/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>) | Return the data disclosed
     
     ---
     <br/>

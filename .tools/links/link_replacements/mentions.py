@@ -185,7 +185,7 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
                 continue
 
             found_href: str | None = None
-            link_label = "🅰️ method"
+            link_label = "📨 msg"
 
             # Collect candidates that match stem equality or start-with semantics
             candidates: List[tuple[Path, int]] = []
@@ -221,8 +221,14 @@ def replace_curly_at_mentions(md_files: Iterable[str]) -> int:
                 candidates.sort(key=lambda t: (t[1], str(t[0])), reverse=True)
                 best_path = candidates[0][0]
                 found_href = os.path.relpath(best_path, path.parent)
-                if any(normalize_string(part).endswith('events') for part in best_path.parts):
-                    link_label = '🔔 event'
+                for part in best_path.parts:
+                    normalized_part = normalize_string(part)
+                    if normalized_part.endswith('events'):
+                        link_label = '🔔 event'
+                        break
+                    if normalized_part.endswith(('msgs', 'msg', 'messages', 'methods', 'method')):
+                        link_label = '📨 msg'
+                        break
 
             if not found_href:
                 continue
@@ -402,7 +408,7 @@ def replace_prompt_broker_tokens(md_files: Iterable[str]) -> int:
             continue
 
         rel_path = os.path.relpath(target_file, path.parent)
-        replacement = f"[`Prompt@Broker` 🅰️ method](<{rel_path}>)"
+        replacement = f"[`Prompt@Broker` 📨 msg](<{rel_path}>)"
         updated = content.replace("{{Prompt@Broker}}", replacement)
         if updated != content:
             try:

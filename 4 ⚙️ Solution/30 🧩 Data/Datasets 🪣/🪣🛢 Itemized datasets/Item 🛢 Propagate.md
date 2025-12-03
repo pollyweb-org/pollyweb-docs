@@ -14,7 +14,7 @@
     `Propagate`
     * is a simplified way to automatically create parent items
     * on the [`SAVE` 💾 command](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
-    * and on the [`Save@Itemizer` 🅰️ method](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢🅰️ Itemizer methods/Item Save 👥🚀🛢/🛢 Save 🚀 call.md>).
+    * and on the [`Save@Itemizer` 📨 msg](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Save 👥🚀🛢/🛢 Save 🚀 call.md>).
     * without having to write full Event Sourcing Projections.
   
     ---

@@ -57,8 +57,8 @@ Schema: airlines.any-igo.dom/SSR/WCH:1
 
 | Property | Type | Details
 |-|-|-
-| `Token`| uuid | From [`Offered@Issuer`](<../../../🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
+| `Token`| uuid | From [`Offered@Issuer`](<../../../🎴📨 Issuer msgs/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
 | `User` | any | Internal anchor
-| `Broker` |text| From [`Offered@Issuer`](<../../../🎴🅰️ Issuer methods/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
-| `Schema` |text| From [`Issued@Issuer`](<../../../🎴🅰️ Issuer methods/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>)
+| `Broker` |text| From [`Offered@Issuer`](<../../../🎴📨 Issuer msgs/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) 
+| `Schema` |text| From [`Issued@Issuer`](<../../../🎴📨 Issuer msgs/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>)
 | 

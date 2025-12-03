@@ -28,7 +28,7 @@ def method_folder_markers(identifier: str) -> set[str]:
     """Return normalized folder markers that should contain method- or event-style suffixes."""
 
     markers: set[str] = set()
-    suffixes = ("methods", "events")
+    suffixes = ("methods", "events", "msgs", "msg", "messages")
 
     def add_markers(root: str) -> None:
         for suffix in suffixes:

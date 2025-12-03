@@ -1,7 +1,7 @@
 # 🪣 Shares
 
 > Purpose
-* Manages the lifecycle of requests to the [`Disclose@Vault` 🅰️ method](<../../../🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>).
+* Manages the lifecycle of requests to the [`Disclose@Vault` 📨 msg](<../../../🗄️📨 Vault msgs/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>).
 
 <br/>
 
@@ -15,10 +15,10 @@
 
 | [State 🛢](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 State.md>) | Blame | Description | Action
 |-|-|-|-|
-|🗄️ [`ASKED`](<../🪣🔔 1 Asked/🗄️ OnShareAsked 📃 handler.md>)| [`Disclose@` 🐌](<../../../🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 📃 handler.md>) | Just asked by a [Broker 🤵](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Trusts@Graph` 🚀](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
+|🗄️ [`ASKED`](<../🪣🔔 1 Asked/🗄️ OnShareAsked 📃 handler.md>)| [`Disclose@` 🐌](<../../../🗄️📨 Vault msgs/Disclose 🤵🐌🗄️/🗄️ Disclose 📃 handler.md>) | Just asked by a [Broker 🤵](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Trusts@Graph` 🚀](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
 |`UNTRUSTED`| [`OnAsked` 🔔](<../🪣🔔 1 Asked/🗄️ OnShareAsked 📃 handler.md>) | [Consumer 💼](<../../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) is not [Trusted 🫡](<../../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)
 |🗄️ [`TRUSTED`](<../🪣🔔 2 Trusted/🗄️ OnShareTrusted 📃 handler.md>)| [`OnAsked` 🔔](<../🪣🔔 1 Asked/🗄️ OnShareAsked 📃 handler.md>) | [Consumer 💼](<../../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) is [Trusted 🫡](<../../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | [`Handle@Hosted` 🐌](<../../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
-|🗄️ [`READY`](<../🪣🔔 3 Ready/🗄️ OnShareReady 📃 handler.md>)| [`OnTrusted` 🔔](<../🪣🔔 2 Trusted/🗄️ OnShareTrusted 📃 handler.md>) | Ready for [`Collect@` 🚀](<../../../🗄️🅰️ Vault methods/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>) | [`Consume@Consumer` 🐌](<../../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|🗄️ [`READY`](<../🪣🔔 3 Ready/🗄️ OnShareReady 📃 handler.md>)| [`OnTrusted` 🔔](<../🪣🔔 2 Trusted/🗄️ OnShareTrusted 📃 handler.md>) | Ready for [`Collect@` 🚀](<../../../🗄️📨 Vault msgs/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>) | [`Consume@Consumer` 🐌](<../../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 
 
 <br/>

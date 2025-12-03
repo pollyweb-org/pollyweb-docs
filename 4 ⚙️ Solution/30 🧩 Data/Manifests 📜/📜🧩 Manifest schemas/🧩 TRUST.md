@@ -4,7 +4,7 @@
 > About
 * Part of [`.MANIFEST` 🧩](<../📜 Manifest/📜 Manifest.md>)
 * Implements [domain Manifest 📜](<../📜 Manifest/📜 Manifest.md>) 
-* Used by [`Trusted@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusted/🕸 Trusted 🚀 call.md>) and [`Trusts@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
+* Used by [`Trusted@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Trusted/🕸 Trusted 🚀 call.md>) and [`Trusts@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
 
 <br/>
 

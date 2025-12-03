@@ -10,8 +10,8 @@
 
 Flow | Actor | [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) |Purpose
 |-|-|:-:|:-:|-|
-|| [`Onboard@Broker` 📃](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 📃 handler.md>) | | X | Registers a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-|[`Localize`](<../🪣🧱 20 Localize ⏩ flow/🤵 Broker.Wallets.Localize ⏩ flow.md>)| [`Pop@Broker` 📃](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>) | X | X | Opens a [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
+|| [`Onboard@Broker` 📃](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 📃 handler.md>) | | X | Registers a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+|[`Localize`](<../🪣🧱 20 Localize ⏩ flow/🤵 Broker.Wallets.Localize ⏩ flow.md>)| [`Pop@Broker` 📃](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>) | X | X | Opens a [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
 |
 
 <br/>
@@ -109,7 +109,7 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ID: <wallet-uuid>
 ```
 
-From [`Onboard@Broker` 📃 handler](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 📃 handler.md>)
+From [`Onboard@Broker` 📃 handler](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 📃 handler.md>)
 
 ```yaml
 PublicKey: <public-key>

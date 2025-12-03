@@ -57,6 +57,6 @@
 
     |Message|Description
     |-|-
-    | [🐌 Paid](<../💵🅰️ Seller methods/Paid 🏦🐌💵/💵 Paid 🐌 msg.md>) | The [Collector 🏦 helper](<../../../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) confirms the payment.
+    | [🐌 Paid](<../💵📨 Seller msgs/Paid 🏦🐌💵/💵 Paid 🐌 msg.md>) | The [Collector 🏦 helper](<../../../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) confirms the payment.
 
     ---

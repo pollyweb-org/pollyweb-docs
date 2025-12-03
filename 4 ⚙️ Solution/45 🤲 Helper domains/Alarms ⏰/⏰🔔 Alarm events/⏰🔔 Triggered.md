@@ -2,7 +2,7 @@
 
 # ⏰🔔 Triggered @ Alarm
 
-> Triggers an alarm set by the [`Trigger@Alarm` 🅰️ method](<../⏰🅰️ Alarm methods/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
+> Triggers an alarm set by the [`Trigger@Alarm` 📨 msg](<../⏰📨 Alarm msgs/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
 
 
 ## Async Event 🔔
@@ -21,7 +21,7 @@ Body:
 |Object|Property|Type|Description
 |-|-|-|-
 | Header    |`From`|text| [Alarm ⏰](<../⏰🤲 Alarm helper.md>) domain
-|           |`To`|text| Domain from [`Trigger@Alarm`](<../⏰🅰️ Alarm methods/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
+|           |`To`|text| Domain from [`Trigger@Alarm`](<../⏰📨 Alarm msgs/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
 |           | `Subject`     | string    | `Triggered@Alarm`
-| Body      | `Hook`        | object    | Object set by [`Trigger@Alarm`](<../⏰🅰️ Alarm methods/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
+| Body      | `Hook`        | object    | Object set by [`Trigger@Alarm`](<../⏰📨 Alarm msgs/Trigger 👥🐌⏰/⏰ Trigger 🐌 msg.md>)
 |

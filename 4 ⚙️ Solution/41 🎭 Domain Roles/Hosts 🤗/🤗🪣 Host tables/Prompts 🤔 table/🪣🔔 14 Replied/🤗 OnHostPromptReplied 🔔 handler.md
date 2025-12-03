@@ -1,7 +1,7 @@
 # 🤗 OnPromptReplied 🔔 handler
 
 > About
-* Reacts to the [`Reply@Host` 📃 handler](<../../../🤗🅰️ Host methods/Reply 🧑‍🦰🐌🤗/🤗 Reply 📃 handler.md>)
+* Reacts to the [`Reply@Host` 📃 handler](<../../../🤗📨 Host msgs/Reply 🧑‍🦰🐌🤗/🤗 Reply 📃 handler.md>)
 
 <br/>
 

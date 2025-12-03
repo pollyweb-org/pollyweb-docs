@@ -22,8 +22,8 @@ $ syncer sync
 
 | # | Call | Notes
 |-|-|-
-|1|[🔃🚀🗂️ `Map@Filer`](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🅰️ Filer methods/🔃🚀🗂️ Map.md>) | [Syncers](<../🔃🛠️ Syncer tool.md>) send a map current files
-|2|[🔃🚀🗂️ `Upload@Filer`](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🅰️ Filer methods/🔃🚀🗂️ Upload.md>) | Then upload each file individually
-|3|[🔃🚀🗂️ `Uploaded@Filer`](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🅰️ Filer methods/🔃🚀🗂️ Uploaded.md>) | [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) calculate changes
-|4|[🔃🚀🗂️ `Download@Filer`](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🅰️ Filer methods/🔃🚀🗂️ Download.md>) | [Syncers](<../🔃🛠️ Syncer tool.md>) execute the changes
+|1|[🔃🚀🗂️ `Map@Filer`](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️📨 Filer msgs/🔃🚀🗂️ Map.md>) | [Syncers](<../🔃🛠️ Syncer tool.md>) send a map current files
+|2|[🔃🚀🗂️ `Upload@Filer`](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️📨 Filer msgs/🔃🚀🗂️ Upload.md>) | Then upload each file individually
+|3|[🔃🚀🗂️ `Uploaded@Filer`](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️📨 Filer msgs/🔃🚀🗂️ Uploaded.md>) | [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) calculate changes
+|4|[🔃🚀🗂️ `Download@Filer`](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️📨 Filer msgs/🔃🚀🗂️ Download.md>) | [Syncers](<../🔃🛠️ Syncer tool.md>) execute the changes
 |

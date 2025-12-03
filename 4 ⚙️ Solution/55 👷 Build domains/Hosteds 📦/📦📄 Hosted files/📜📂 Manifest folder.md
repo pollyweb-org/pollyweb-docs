@@ -29,13 +29,13 @@
 1. **What is the structure of a Manifest?**
 
     * `📜 Manifest/` 
-        * [`👥 About.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 About/🕸 About 🚀 call.md>) 
+        * [`👥 About.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 🚀 call.md>) 
         * `📝 Forms/`   
-            * [`📝 FORM-1.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form/🕸 Form 🚀 call.md>)
+            * [`📝 FORM-1.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Form/🕸 Form 🚀 call.md>)
         * `🧩 Codes/` 
-            * [`🧩 CODE-1.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>)
+            * [`🧩 CODE-1.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>)
             * `GROUP-A/`
-                * [`🧩 CODE-A2.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>)
+                * [`🧩 CODE-A2.yaml`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>)
         * `🫡 Trusts/` 
             * [`🫡 TRUST-1.yaml`](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) 
             * `GROUP-C/`

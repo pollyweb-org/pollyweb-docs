@@ -3,7 +3,7 @@
 > About
 * Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 * [Itemized 🪣 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) that manages CQRS projections for [Notifier 📣 domains](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
-* Supports the [`Frontend@Broker` 🅰️ method](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 📃 handler.md>)
+* Supports the [`Frontend@Broker` 📨 msg](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 📃 handler.md>)
 
 <br/>
 
@@ -23,8 +23,8 @@
 |[`OnTokenAltered` 🔔](<../../Tokens 🎫 table/🪣🧱 00 Altered 🔔 event/🤵 OnTokenAltered 🔔 handler.md>)|X|X| Updates `Tokens` projections
 |[`OnDomainAltered` 🔔](<../../Domains 👥 table/🪣🧱 0 Altered 🔔 event/🤵 OnDomainAltered 🔔 handler.md>)|X|X| Updates `Domain` projections
 |[`OnSchemaAltered` 🔔](<../../Schemas 🧩 table/🪣🧱 Altered 🔔 event/🤵 OnSchemaAltered 🔔 handler.md>)|X|X| Updates `Schema` projections
-|[`OnFrontendAltered` 🔔](<../🪣🧱 Altered 🔔 event/🤵 OnFrontendAltered 🔔 handler.md>) |X|| Calls [`Updated@Notifier`](<../../../../Notifiers 📣/📣🅰️ Notifier methods/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
-|[`Frontend@Broker` 📃](<../../../🤵🅰️ Broker methods/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 📃 handler.md>)  |X|| Called by [Wallet 🧑‍🦰 apps](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+|[`OnFrontendAltered` 🔔](<../🪣🧱 Altered 🔔 event/🤵 OnFrontendAltered 🔔 handler.md>) |X|| Calls [`Updated@Notifier`](<../../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
+|[`Frontend@Broker` 📃](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 📃 handler.md>)  |X|| Called by [Wallet 🧑‍🦰 apps](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 <br/>
 
 ## Schema

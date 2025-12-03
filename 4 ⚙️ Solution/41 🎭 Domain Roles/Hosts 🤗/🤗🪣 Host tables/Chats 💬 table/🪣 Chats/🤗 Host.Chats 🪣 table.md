@@ -3,7 +3,7 @@
 > Part of [Host 🤗 domain role](<../../../🤗 Host role/🤗🎭 Host role.md>)
 
 > Purpose
-* Stores the content of [`Hello@Host`](<../../../🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+* Stores the content of [`Hello@Host`](<../../../🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 
 > Data access
 * Saved by the [`CHAT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/CHAT 💬/💬 CHAT ⌘ cmd.md>) command
@@ -38,7 +38,7 @@ PublicKey: <public-key>
 |-|-|-
 | `Broker`  |text| 
 | `Chat`    | uuid |
-| `PublicKey` |text| From [`Hello@Host`](<../../../🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| `PublicKey` |text| From [`Hello@Host`](<../../../🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | 
 
 <br/>

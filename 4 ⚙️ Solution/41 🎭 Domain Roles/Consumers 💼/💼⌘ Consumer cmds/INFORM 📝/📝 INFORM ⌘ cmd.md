@@ -32,7 +32,7 @@
 
     | Input| Purpose
     |-|-
-    | `<form>` | Form key for [`Form@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Form/🕸 Form 🚀 call.md>)
+    | `<form>` | Form key for [`Form@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Form/🕸 Form 🚀 call.md>)
     
 
     ---

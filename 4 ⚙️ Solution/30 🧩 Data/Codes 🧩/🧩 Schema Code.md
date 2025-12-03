@@ -71,7 +71,7 @@
     |-|-
     | [📜 Manifest](<../Manifests 📜/📜 Manifest/📜 Manifest.md>)  | When a version is omitted in the [Schema 🧩](<🧩 Schema Code.md>) in its [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) definition, then it is assumed to be `1.0`.
     | [📨 Message](<../Messages 📨/📨 Message/📨 Message.md>) | When a version is omitted in a [domain Messages 📨](<../Messages 📨/📨 Message/📨 Message.md>), then it is also assumed to be `1.0`.
-    | [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>), then the [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) returns the latest version.
+    | [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) | When a version is omitted when calling [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>), then the [🕸 Graph](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) returns the latest version.
 
     ---
     <br/>
@@ -80,7 +80,7 @@
 1. **How are Schema Codes used in data sharing between domains?**
    
     When a [Consumer 💼 domain](<../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) needs information stored in a [user's Vault 🗄️ domains](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>), 
-    * it invokes the [`Query@Broker`](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) from the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>), asking for datasets that comply with a given [Schema 🧩](<🧩 Schema Code.md>).
+    * it invokes the [`Query@Broker`](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) from the [user's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>), asking for datasets that comply with a given [Schema 🧩](<🧩 Schema Code.md>).
 
     For example, consider an airline requesting passport data for a flight check-in from a citizen with dual British and American nationalities:
     * the airline may ask for the `icao.int/PASSPORT`  [Schema 🧩](<🧩 Schema Code.md>)
@@ -105,7 +105,7 @@
 
     For resilience and performance, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) cannot read [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) directly from the source.
 
-    * Instead, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) for a schema definition, by passing the [Schema 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>).
+    * Instead, [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) need to query [Graph 🕸 domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) for a schema definition, by passing the [Schema 🧩](<🧩 Schema Code.md>) to the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>).
 
         ```yaml
         # Sample request to read a schema.
@@ -125,7 +125,7 @@
     When YAML content starts with `🤝: {Schema Code}`,
     * e.g., `🤝:` [`.MANIFEST/CODE`](<../Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>)
     * it means that the following YAML content should comply with the given [Schema 🧩](<🧩 Schema Code.md>) defined.
-    * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸🅰️ Graph methods/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>).
+    * This allows readers to validate the YAML content by pulling the validation schema from the [`Schema@Graph`](<../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Schema/🕸 Schema 🚀 call.md>).
     
     ---
     <br/>
