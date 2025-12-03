@@ -37,9 +37,19 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
     AllOf: Schema
     Texts: Schema, Reference
 
+# See if already bound
+- PUT >> $bind:
+    $.Chat.Binds.Where:
+        Schema: $.Inputs.Schema
+
+# Return if found
+- IF|$bind:
+    RETURN|$bind
+
 # Save the bind
 - SAVE|Vault.Binds >> $bind:
-    
+    .State: OFFERED
+
     # From $.Inputs
     Schema: $Schema
     Reference: $Reference
@@ -57,7 +67,6 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
 - RETURN:
     $bound
 ```
-
 
 
 |Uses||

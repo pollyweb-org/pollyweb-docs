@@ -29,7 +29,7 @@
         .State: INVALID
     - RETURN
 
-# Verify the Token signature
+# Verify the Token signature and schema
 - VERIFY|$Query.Token >> $valid
 
 # Exit if corrupted

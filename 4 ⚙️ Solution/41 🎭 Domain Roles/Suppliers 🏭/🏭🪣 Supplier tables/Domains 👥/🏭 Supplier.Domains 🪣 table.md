@@ -30,10 +30,10 @@ Assert:
     AllOf: Bind, Domain
 
     # Token assertions
-    Token.Schema: .HOST/ADMIN               # Admin
-    Token.Properties.Domain.Require: Domain # Matching domain
-    Token.Starts.IsPast:                    # Activated
-    Token.Expires.IsFuture:                 # Not expired
+    Token.Schema: .HOST/ADMIN   # Admin
+    Token.Issuer: Domain        # Matching domain
+    Token.Starts.IsPast:        # Activate
+    Token.Expires.IsFuture:     # Not expired
 ```
 
 <br/>
@@ -52,7 +52,6 @@ Token:
     Schema: .HOST/ADMIN
     Starts: 2024-01-01T00:00:00Z
     Expires: 2025-01-01T00:00:00Z
-    Properties:
-        Domain: any-domain.dom
+    Issuer: any-domain.dom
     #...
 ```
