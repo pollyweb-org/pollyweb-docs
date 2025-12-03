@@ -17,8 +17,8 @@
 
 # Assert the message
 - ASSERT|$.Msg:
-    AllOf: Chat, Hook, Schemas
-    UUIDs: Chat, Hook
+    AllOf: Chat, Query, Schemas
+    UUIDs: Chat, Query
     Lists: Schemas
     Schemas.Each.IsSchema:
 
@@ -35,7 +35,7 @@
 - SAVE|Broker.Queries:
     .State: QUERIED
     Chat: $.Msg.Chat
-    Hook: $.Msg.Hook
+    Query: $.Msg.Query
     Schemas: $.Msg.Schemas
     Consumer: $.Msg.From
 ```

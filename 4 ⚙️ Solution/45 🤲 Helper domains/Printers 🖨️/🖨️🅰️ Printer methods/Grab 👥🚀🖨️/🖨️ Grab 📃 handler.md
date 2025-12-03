@@ -24,7 +24,7 @@
     Locator: $.Msg.Locator
 
 # Only create Alias for Hosts
-- UNLESS|$locator.Schema.Is(.HOST):
+- IFNOT|$locator.Schema.Is(.HOST):
     RETURN:
       Status: UNHOST
 

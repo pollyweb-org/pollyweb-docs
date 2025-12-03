@@ -25,7 +25,7 @@
     Body:
         Bind: $Query.Bind.Require
         Chat: $Query.Chat.Require
-        Hook: $Query.Hook.Require
+        Query: $Query.Query.Require
         Consumer: $Query.Consumer.Require
         Language: $Query.Chat.Language.Require
 ```

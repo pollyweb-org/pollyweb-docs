@@ -17,16 +17,32 @@
 📃 OnQueryReceived:
 
 # Verify the Token signature
-VERIFY|$Query.Token >> $valid:
+- VERIFY|$Query.Token >> $valid
 
-IFNOT|$valid:
-        - SAVE|$Query:
-            .Status: CORRUPTED
+# Exit if corrupted
+- IFNOT|$valid:
+    - SAVE|$Query:
+        .Status: INVALID
     - RETURN
 
+# Check the trust
+- TRUSTS >> $trusted:
+    Trusted: $Query.Token.Issuer
+    Schema: $Query.Token.Schema
+    Role: VAULT
+
+# Exit if untrusted
+- IFNOT|$trusted:
+    - SAVE|$Query:
+        .Status: UNTRUSTED
+    - RETURN
+
+# Otherwise, progress
+- SAVE|$Query:
+    .Status: TOKENED
 ```
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`VERIFY`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`UNLESS`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/UNLESS ⤵️/⤵️ UNLESS ⌘ cmd.md>) [`RETURN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) |  [`IFNOT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IFNOT ⤵️/⤵️ IFNOT ⌘ cmd.md>) [`RETURN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)  [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`TRUSTS`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/TRUSTS 🫡/🫡 TRUSTS ⌘ cmd.md>) [`VERIFY`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>) 
 |

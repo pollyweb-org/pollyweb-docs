@@ -30,7 +30,7 @@ Header:
 
 Body:
     Chat: <chat-uuid>
-    Hook: <hook-uuid>
+    Query: <query-uuid>
     Schemas:
       # either the driver's license,
       - usa.gov/DRIVER-LICENSE:1.0
@@ -45,7 +45,7 @@ Body:
 | |`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | | `Subject` |text| `Query@Broker`
 | Body | `Chat` |text| [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
-| | `Hook`| uuid | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) Hook | |[`Consume@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) 
+| | `Query`| uuid | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) Query | |[`Consume@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) 
 | | `Schemas` | string[] | List of [Schemas 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |
 
