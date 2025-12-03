@@ -66,5 +66,5 @@ The corresponding [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script �
 | ❄️ [`FREEZE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs.
 | 🧮 [`CALL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) | To register on the database.
 | ✅ [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) | To say that it was successful.
-| 👋 [`GOODBYE`](<../../../../41 🎭 Domain Roles/Hosts 🤗/Host commands/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | To show advertising.
+| 👋 [`GOODBYE`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host commands/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | To show advertising.
 |

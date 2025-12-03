@@ -15,7 +15,7 @@
 
 > Used in
 * [👋 Goodbye @ Host ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>) 
-* [👋 Talker `GOODBYE` command](<../../../../41 🎭 Domain Roles/Hosts 🤗/Host commands/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>)
+* [👋 Talker `GOODBYE` command](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host commands/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>)
 
 <br/> 
 
