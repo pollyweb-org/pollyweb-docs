@@ -1,0 +1,21 @@
+@startuml OnQueryCollected
+
+box Consumer 💼 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnCollected 🔔" as handler
+    participant "SHARE ⌘" as share
+    participant "Script 📃" as script
+end box
+
+
+table --> handler: OnQueryCollected 🔔 
+
+activate handler
+    handler -> share: RACE 🏁 {data}
+deactivate handler
+
+activate share
+    share -> script: RETURN {data}
+deactivate share
+
+@enduml 

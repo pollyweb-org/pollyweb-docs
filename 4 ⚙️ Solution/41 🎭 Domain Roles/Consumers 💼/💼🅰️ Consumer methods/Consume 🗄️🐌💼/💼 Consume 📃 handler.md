@@ -35,26 +35,6 @@
 - ASSERT|$.Msg:
     Schema.IsIn($hook.Schemas)
 
-# Verify if the Vault is trusted
-- TRUSTS|$.Msg.From:
-    Schema: $.Msg.Schema$
-    Role: VAULT
-
-# Get the data
-- SEND >> $data:
-    Header: 
-        To: $.Msg.From
-        Subject: Collect@Vault
-    Body:
-        Collect: $.Msg.Collect
-
-# Assert the schema
-- ASSERT|$data:
-    Schema: $.Msg.Schema
-
-# Continue the talker 
-- REEL|$.Msg.Hook:
-    $data
 ```
 
 Uses||

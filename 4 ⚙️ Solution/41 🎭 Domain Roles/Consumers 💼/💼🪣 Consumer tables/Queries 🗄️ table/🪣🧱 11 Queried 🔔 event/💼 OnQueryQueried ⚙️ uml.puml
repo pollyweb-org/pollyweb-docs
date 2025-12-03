@@ -1,0 +1,15 @@
+@startuml OnQueryQueried
+
+box Consumer 💼 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnQueried 🔔" as handler
+end box
+participant "Broker 🤵" as broker
+
+table --> handler: OnQueryQueried 🔔 
+
+activate handler
+    handler --> broker: SEND 📬 {Query 🐌}
+deactivate handler
+
+@enduml 
