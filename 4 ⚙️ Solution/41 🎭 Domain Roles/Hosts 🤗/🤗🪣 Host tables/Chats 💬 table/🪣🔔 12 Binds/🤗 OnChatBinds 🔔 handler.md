@@ -1,4 +1,4 @@
-# 🤗 OnChatDetailed 🔔 handler
+# 🤗 OnChatBinds 🔔 handler
 
 > About
 * Part of the [`Host.Chats` 🪣 table](<../🪣 Chats/🤗 Host.Chats 🪣 table.md>)
@@ -7,7 +7,7 @@
 
 ## Diagram
 
-![alt text](<🤗 OnChatDetailed ⚙️ uml.png>)
+![alt text](<🤗 OnChatBinds ⚙️ uml.png>)
 
 <br/>
 

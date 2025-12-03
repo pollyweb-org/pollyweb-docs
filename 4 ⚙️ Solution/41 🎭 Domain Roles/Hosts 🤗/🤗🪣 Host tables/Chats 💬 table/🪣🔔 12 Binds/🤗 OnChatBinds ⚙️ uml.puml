@@ -1,13 +1,13 @@
-@startuml OnDetailed
+@startuml OnChatBinds
 
 box Host 🤗 domain #FFFFFA
     participant "Chats 🪣" as chats
-    participant "OnDetailed 🔔" as script
+    participant "OnBinds 🔔" as script
     participant "Binds 🪣" as binds
 end box
 
 
-chats --> script: DETAILED 🔔
+chats --> script: BINDS 🔔
 
 activate script
     script -> script: PARALLEL {Chat.Binds}
@@ -17,7 +17,7 @@ activate script
         script -> script: SET {bind details}
     deactivate script   
 
-    script -> chats: 💾 BOUND
+    script -> chats: 💾 TOKENS
 
 deactivate script   
 

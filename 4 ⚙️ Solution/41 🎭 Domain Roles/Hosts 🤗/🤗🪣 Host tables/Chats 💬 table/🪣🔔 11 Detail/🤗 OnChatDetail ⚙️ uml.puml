@@ -1,13 +1,13 @@
-@startuml OnChatOpened
+@startuml OnChatDetail
 
 box Host 🤗 domain #FFFFFA
     participant "Chats 🪣" as table
-    participant "OnOpened 🔔" as script
+    participant "OnDetail 🔔" as script
 end box
 participant  "Broker 🤵" as broker
 
 
-table --> script: OPENED 🔔
+table --> script: DETAIL 🔔
 
 activate script
     
@@ -17,7 +17,7 @@ activate script
         broker -> script: { chat details }
     deactivate broker
 
-    script -> table: 💾 DETAILED
+    script -> table: 💾 BINDS
 
 deactivate script
 
