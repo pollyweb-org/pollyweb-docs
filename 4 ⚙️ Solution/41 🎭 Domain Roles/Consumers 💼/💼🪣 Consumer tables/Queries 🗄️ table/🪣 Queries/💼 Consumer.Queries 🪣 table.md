@@ -10,8 +10,8 @@
 | Blame | States ✅ | Exits ❌ | 
 |-|-|-
 |[`SHARE` ⌘](<../../../💼⌘ Consumer cmds/SHARE 💼/💼 SHARE ⌘ cmd.md>)| [`QUERIED`](<../🪣🧱 11 Queried 🔔 event/💼 OnQueryQueried 🔔 handler.md>)
-|[`Consume@` 🐌](<../../../💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)| [`CONSUME`](<../🪣🧱 21 Consume 🔔 event/💼 OnQueryConsume 🔔 handler.md>) [`TRUSTED`](<../🪣🧱 22 Trusted 🔔 event/💼 OnQueryTrusted 🔔 handler.md>) [`COLLECTED`](<../🪣🧱 23 Collected 🔔 event/💼 OnQueryCollected 🔔 handler.md>) | `INVALID` `UNTRUSTED`
-|[`Receive@` 🐌](<../../../💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 📃 handler.md>)| [`RECEIVED`](<../🪣🧱 31 Received 🔔 event/💼 OnQueryReceived 🔔 handler.md>) [`TOKENED`](<../🪣🧱 32 Tokened 🔔 event/💼 OnQueryTokened 🔔 handler.md>) | `INVALID` `CORRUPTED` `UNTRUSTED`
+|[`Consume@` 🐌](<../../../💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)| [`CONSUME`](<../🪣🧱 21 Consume 🔔 event/💼 OnQueryConsume 🔔 handler.md>) [`TRUSTED`](<../🪣🧱 22 Trusted 🔔 event/💼 OnQueryTrusted 🔔 handler.md>) [`COLLECTED`](<../🪣🧱 23 Collected 🔔 event/💼 OnQueryCollected 🔔 handler.md>) | `INVALID` `UNTRUSTED`
+|[`Receive@` 🐌](<../../../💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 📃 handler.md>)| [`RECEIVED`](<../🪣🧱 31 Received 🔔 event/💼 OnQueryReceived 🔔 handler.md>) [`TOKENED`](<../🪣🧱 32 Tokened 🔔 event/💼 OnQueryTokened 🔔 handler.md>) | `INVALID` `CORRUPTED` `UNTRUSTED`
 
 
 <br/>
@@ -53,7 +53,7 @@ Schemas:
   - any-authority.dom/ANY-SCHEMA
 ```
 
-From [`Consume@Consumer` 🐌 handler](<../../../💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)
+From [`Consume@Consumer` 🐌 handler](<../../../💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)
 
 ```yaml
 Vault: any-vault.dom

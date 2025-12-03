@@ -23,7 +23,7 @@ Body:
 |Object|Property|Type|Description | Origin 
 |-|-|-|-|-
 | Header    |`From`|text| [Broker 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Pop@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🅰️ Broker methods/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
-|           |`To`|text| [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) <br/> [`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲🅰️ Helper methods/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>) <br/>  [`Disclose@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
+|           |`To`|text| [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) <br/> [`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>) <br/>  [`Disclose@`](<../../../Vaults 🗄️/🗄️🅰️ Vault methods/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
 |           | `Subject`     | string    | `Abandoned@Host`
 | Body      | `Chat`      | uuid      | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Hello@`](<../Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |
