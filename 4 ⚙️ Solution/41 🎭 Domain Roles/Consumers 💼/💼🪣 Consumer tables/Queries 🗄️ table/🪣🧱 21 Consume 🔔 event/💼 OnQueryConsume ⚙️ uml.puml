@@ -1,0 +1,22 @@
+@startuml OnQueryConsume
+
+box Consumer 💼 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnConsume 🔔" as handler
+end box
+participant "Vault 🗄️" as vault
+
+table --> handler: OnQueryConsume 🔔 
+
+activate handler
+    handler -> vault: SEND 📬 {Collect 🚀}
+
+    activate vault
+        vault -> handler: {data}
+    deactivate vault
+
+    handler -> table: SAVE 💾 {COLLECTED, data}
+
+deactivate handler
+
+@enduml 
