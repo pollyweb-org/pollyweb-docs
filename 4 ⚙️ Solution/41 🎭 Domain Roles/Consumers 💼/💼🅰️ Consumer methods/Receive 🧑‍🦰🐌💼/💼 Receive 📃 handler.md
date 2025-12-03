@@ -12,12 +12,6 @@
 
 ## Script
 
-<!-- TODO
-Confirm the trust of the received tokens.
-It's true that the Broker already did it, 
-but it may have been compromised.
--->
-
 ```yaml
 📃 Receive@Consumer:
 

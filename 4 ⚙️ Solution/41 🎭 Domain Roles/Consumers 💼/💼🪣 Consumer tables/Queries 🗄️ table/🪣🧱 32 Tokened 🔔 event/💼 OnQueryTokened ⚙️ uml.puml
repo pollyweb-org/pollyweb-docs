@@ -1,0 +1,20 @@
+@startuml OnQueryTokened
+
+box Consumer 💼 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnTokened 🔔" as handler
+    participant "SHARE ⌘" as share
+    participant "Script 📃" as script
+end box
+
+table --> handler: TOKENED 🔔 
+
+activate handler
+    handler -> share: RACE 🏁 {data}
+deactivate handler
+
+activate share
+    share -> script: RETURN {token}
+deactivate share
+
+@enduml 
