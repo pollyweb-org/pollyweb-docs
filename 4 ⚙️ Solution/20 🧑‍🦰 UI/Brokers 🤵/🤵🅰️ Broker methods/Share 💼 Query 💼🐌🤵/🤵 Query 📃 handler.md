@@ -7,6 +7,14 @@
     * [`Share Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>)
     * [`Share Token+ID` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>)
 
+<br/>
+
+## Diagram
+
+![alt text](<🤵 Query ⚙️ uml.png>)
+
+<br/>
+
 ## Script
 
 ```yaml

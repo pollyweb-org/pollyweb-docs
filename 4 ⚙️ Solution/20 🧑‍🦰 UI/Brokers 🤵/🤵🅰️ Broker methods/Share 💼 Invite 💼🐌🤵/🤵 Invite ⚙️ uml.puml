@@ -1,12 +1,10 @@
 @startuml Invite
 
 participant "Consumer 💼 " as host
-
 box "Broker 🤵" #FFFFFA
     participant "Handler 📃" as broker
     participant "Chatters 🪣" as invitee
 end box
-
 participant "Graph 🕸" as graph
 participant "Wallet 🧑" as user
 

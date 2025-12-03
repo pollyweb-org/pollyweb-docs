@@ -1,0 +1,20 @@
+@startuml Query@Broker
+
+participant "Consumer 💼 " as host
+box "Broker 🤵" #FFFFFA
+    participant "Query 🐌" as broker
+    participant "Chatters 🪣" as chatters
+    participant "Queries 🪣" as queries
+end box
+
+
+activate host
+    host --> broker: Query 🐌
+deactivate host
+
+activate broker
+    broker -> chatters: READ 🧲 
+    broker -> queries: SAVE 💾 {QUERIED}
+deactivate broker
+
+@enduml 
