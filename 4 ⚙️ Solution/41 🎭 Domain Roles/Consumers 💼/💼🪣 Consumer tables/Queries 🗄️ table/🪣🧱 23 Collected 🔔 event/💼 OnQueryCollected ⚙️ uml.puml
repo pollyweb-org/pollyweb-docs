@@ -8,7 +8,7 @@ box Consumer 💼 domain #FFFFFA
 end box
 
 
-table --> handler: OnQueryCollected 🔔 
+table --> handler: COLLECTED 🔔 
 
 activate handler
     handler -> share: RACE 🏁 {data}

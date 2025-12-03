@@ -26,6 +26,6 @@
 
 # Save the data
 - SAVE|$Query:
-    .State: CONSUMED
+    .State: COLLECTED
     Data: $data
 ```

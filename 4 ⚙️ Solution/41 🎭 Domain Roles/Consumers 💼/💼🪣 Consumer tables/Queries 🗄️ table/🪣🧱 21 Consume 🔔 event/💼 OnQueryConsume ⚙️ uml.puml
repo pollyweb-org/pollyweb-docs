@@ -4,19 +4,13 @@ box Consumer 💼 domain #FFFFFA
     participant "Queries 🪣" as table
     participant "OnConsume 🔔" as handler
 end box
-participant "Vault 🗄️" as vault
+participant "Graph 🕸" as graph
 
 table --> handler: CONSUME 🔔 
 
 activate handler
-    handler -> vault: SEND 📬 {Collect 🚀}
-
-    activate vault
-        vault -> handler: {data}
-    deactivate vault
-
-    handler -> table: SAVE 💾 {COLLECTED, data}
-
+    handler -> graph: TRUSTS 🫡 {VAULT}
+    handler -> table: SAVE 💾 {TRUSTED}
 deactivate handler
 
 @enduml 
