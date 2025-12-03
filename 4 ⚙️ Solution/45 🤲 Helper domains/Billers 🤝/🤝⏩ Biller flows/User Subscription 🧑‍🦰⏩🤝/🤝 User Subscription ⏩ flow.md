@@ -62,7 +62,7 @@ The corresponding [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script �
 |-|-
 | 📝 [`INFORM`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) | To provide instructions.
 | 🔗 [`BIND`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) | To create a user profile.
-| 🛠️ [`INVITE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan.
+| 🛠️ [`INVITE`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/INVITE 🤲/🤲 INVITE ⌘ cmd.md>) | To subscribe the user to plan.
 | ❄️ [`FREEZE`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/FREEZE ❄️/❄️ FREEZE ⌘ cmd.md>) | To disable past inputs.
 | 🧮 [`CALL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) | To register on the database.
 | ✅ [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) | To say that it was successful.
