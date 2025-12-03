@@ -2,7 +2,7 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-<br/>
+## FAQ
 
 1. **What is a VERIFY message command?**
 
@@ -26,10 +26,9 @@
     ---
     <br/>
 
-1. **What's the syntax of VERIFY?**
+1. **What's the syntax for messages from domains?**
 
     ```yaml
-    # For messages from domains
     VERIFY|$.Msg
     ```
 
@@ -37,22 +36,9 @@
     |-|-
     | `$.Msg`| Built-in [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
 
-    ```yaml
-    # For messages from Wallets
-    VERIFY|$.Msg:
-        Key: $publicKey
-
-    # One-liner version
-    VERIFY|$.Msg|$publicKey
-    ```
-
-    | Input| Purpose |
-    |-|-
-    | `$publicKey`| [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the Public Key.
-
-
     ---
     <br/>
+
 
 1. **How to verify a message from a domain?**
 
@@ -70,8 +56,25 @@
     <br/>
 
 
+1. **What's the syntax for messages from [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)?**
 
-1. **How do Brokers verify a message from a Wallet?**
+    ```yaml
+    VERIFY|$.Msg:
+        Key: $publicKey
+
+    # One-liner version
+    VERIFY|$.Msg|$publicKey
+    ```
+
+    | Input| Purpose |
+    |-|-
+    | `$publicKey`| [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the Public Key.
+
+
+    ---
+    <br/>
+
+1. **How do [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) verify a message from a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)?**
 
     Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Pops 🎈 table/🪣🧱 52 Bind » Remove 🔔/🤵 OnPopRemoveBind 🔔 handler.md>).
 
@@ -87,17 +90,14 @@
     - VERIFY|$.Msg:
         Key: $wallet.PublicKey
     ```
-
-    | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
-    |-|-
-    | 🧲 [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Get the Public Key of the [Wallet 🪣](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>) in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
+    Uses: [`$.Msg`](<../../../📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<🔐 VERIFY ⌘ cmd.md>)
 
     ---
     <br/>
 
 
 
-1. **How do Hosts verify a message from a Wallet?**
+1. **How do [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) verify a message from a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)?**
 
     Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
@@ -107,17 +107,36 @@
     # Get the Chat item 
     - READ >> $chat
         Set: Host.Chats
-        Key: $.Msg.Body.Chat
+        Key: 
+            Broker: $.Msg.Broker
+            Chat: $.Msg.Chat
 
     # Verify the Message.
     - VERIFY|$.Msg:
         Key: $chat.PublicKey
     ```
+    Uses: [`$.Msg`](<../../../📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<🔐 VERIFY ⌘ cmd.md>)
 
-    | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
-    |-|-
-    | 🧲 [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | To get the Public Key of [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🅰️ Host methods/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>).
 
     ---
     <br/>
 
+
+1. **What's the syntax for [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)?**
+
+    ```yaml
+    # Blocker version (raises error if invalid)
+    VERIFY|$token 
+    
+    # Safe version (stores result in $isValid)
+    VERIFY|$token >> $isValid
+    ```
+
+    | Input| Purpose |
+    |-|-
+    | `$token`| [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+    | `$isValid`| [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) that will store `true`/`false`.
+
+
+    ---
+    <br/>
