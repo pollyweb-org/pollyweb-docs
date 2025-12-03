@@ -9,6 +9,7 @@
 * Saved by the [`CHAT`](<../../../🤗⌘ Host cmds/CHAT 💬/💬 CHAT ⌘ cmd.md>) command
 * Loaded into the [`$.Chat` 🧠 holder](<../../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>) 
 
+<br/>
 
 ## Schema
 
@@ -16,29 +17,62 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 
 
 ```yaml
-# Chats.yaml
 Prefix: Host
 Name: Chats
+Item: Chat
 Key: Broker, Chat
 ```
 
+Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
+
+```yaml
+Assert:
+    AllOf: Broker, Chat, PublicKey, Timezone, Language
+    Texts: PublicKey, Timezone
+    UUIDs: Chat
+    Broker.IsDomain:
+    Language.IsLanguage:
+```
+Uses: [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsLanguage`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsLanguage ⓕ.md>) 
+
+<br/>
 
 ## Example
 
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
+From the {{Chat@Broker}} "🤵 Chat 🚀 call.md"
+
 ```yaml
-# READ|Chats|<broker>,<chat-uuid>
-Broker: any-broker.dom
 Chat: <chat-uuid>
+Broker: any-broker.dom
 PublicKey: <public-key>
+Timezone: UTC+1
+Language: en-us
+```
+
+For {{Vaults}}
+
+```yaml
+Binds: 
+  - ID: <bind-uuid-1>
+    Schema: schema-1
+    Reference: ref-1
+
+Tokens: # Self-issued and automatically shared tokens
+  - Schema: any-authority.dom/ANY-SCHEMA
+    Issuer: any-issuer.dom
 ```
 
 | Property | Type | Details
 |-|-|-
-| `Broker`  |text| 
-| `Chat`    | uuid |
+| `Broker`  |text| [Broker 🤵 domain](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
+| `Chat`    | uuid | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
 | `PublicKey` |text| From [`Hello@Host`](<../../../🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+| `Timezone` |text| Timezone code, e.g. `UTC+1`, `PST`
+| `Language` |text| Language code, e.g. `en-us`
+| `Binds`    |[set](<../../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)| of [`Vault.Binds` 🪣](<../../../../Vaults 🗄️/🗄️🪣 Vault tables/Binds 🔗 table/🪣 Binds/🗄️ Vault.Binds 🪣 table.md>) items
+| `Tokens`   |[set](<../../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)| of [`Issuer.Tokens` 🪣](<../../../../Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣 Tokens/🎴 Issuer.Tokens 🪣 table.md>) items
 | 
 
 <br/>
