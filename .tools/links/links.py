@@ -228,15 +228,31 @@ def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Pa
 
     best = max(candidates, key=score_candidate)
     path, stem_norm, folder_normalized = best
-    label = '📨 msg'
-    for part in path.parts:
-        normalized_part = normalize_string(part)
-        if normalized_part.endswith('events'):
-            label = '🔔 event'
-            break
-        if normalized_part.endswith(('msgs', 'msg', 'messages', 'methods', 'method')):
-            label = '📨 msg'
-            break
+
+    def infer_label_from_filename(candidate: Path) -> Optional[str]:
+        name = candidate.name
+        if name.endswith('🚀 call.md'):
+            return '🚀 call'
+        if name.endswith('🐌 msg.md'):
+            return '🐌 msg'
+        if name.endswith('📃 handler.md'):
+            return '📃 handler'
+        return None
+
+    label = infer_label_from_filename(path)
+    if label is None:
+        for part in path.parts:
+            normalized_part = normalize_string(part)
+            if normalized_part.endswith('events'):
+                label = '🔔 event'
+                break
+            if normalized_part.endswith(('msgs', 'msg', 'messages', 'methods', 'method')):
+                label = '📨 msg'
+                break
+
+    if label is None:
+        label = '📨 msg'
+
     return label, path
 
 

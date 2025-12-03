@@ -41,27 +41,30 @@ Uses: [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holde
 
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
-From the {{Chat@Broker}} "🤵 Chat 🚀 call.md"
+From the [`Chat@Broker` 🚀 call](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 🚀 call.md>)
 
 ```yaml
-Chat: <chat-uuid>
-Broker: any-broker.dom
-PublicKey: <public-key>
-Timezone: UTC+1
-Language: en-us
-```
+Chat: <chat-uuid>       # Key
+Broker: any-broker.dom  # Key
 
-For {{Vaults}}
+PublicKey: <public-key> # To verify Wallet messages
+Timezone: UTC+1         # For formatting dates
+Language: en-us         # For translations
 
-```yaml
+# Locator
+Schema: nlweb.dom/THING
+Key: MY-THING-ID
+Parameters: 
+    Param1: Value1
+    Param2: Value2
+
+# Share
 Binds: 
-  - ID: <bind-uuid-1>
-    Schema: schema-1
-    Reference: ref-1
-
-Tokens: # Self-issued and automatically shared tokens
-  - Schema: any-authority.dom/ANY-SCHEMA
-    Issuer: any-issuer.dom
+    - <bind-#1-uuid>
+    - <bind-#2-uuid>
+Tokens:
+    - <token-#1-uuid>
+    - <token-#2-uuid>
 ```
 
 | Property | Type | Details
