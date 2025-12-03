@@ -38,3 +38,4 @@ Schemas:
             Emoji:
               type: string
               example: 🇯🇵
+```

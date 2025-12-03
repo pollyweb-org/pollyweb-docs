@@ -30,3 +30,4 @@ Trusts:
   # Delegate bank trusts to the European Central Bank.
   - Query: nlweb.dom/BANK/*
     Domain: ecb.europa.eu
+```
