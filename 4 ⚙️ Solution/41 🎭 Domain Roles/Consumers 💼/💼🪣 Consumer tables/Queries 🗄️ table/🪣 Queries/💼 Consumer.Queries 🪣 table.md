@@ -9,7 +9,7 @@
 
 | Blame | States ✅ | Exits ❌ | 
 |-|-|-
-|[`SHARE` ⌘](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE ⌘ cmd.md>)| [`QUERIED`](<../🪣🧱 11 Queried 🔔 event/💼 OnQueryQueried 🔔 handler.md>)
+|[`SHARE` ⌘](<../../../💼⌘ Consumer cmds/SHARE 💼/💼 SHARE ⌘ cmd.md>)| [`QUERIED`](<../🪣🧱 11 Queried 🔔 event/💼 OnQueryQueried 🔔 handler.md>)
 |[`Consume@` 🐌](<../../../💼🅰️ Consumer methods/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)| [`CONSUME`](<../🪣🧱 21 Consume 🔔 event/💼 OnQueryConsume 🔔 handler.md>) [`TRUSTED`](<../🪣🧱 22 Trusted 🔔 event/💼 OnQueryTrusted 🔔 handler.md>) [`COLLECTED`](<../🪣🧱 23 Collected 🔔 event/💼 OnQueryCollected 🔔 handler.md>) | `INVALID` `UNTRUSTED`
 |[`Receive@` 🐌](<../../../💼🅰️ Consumer methods/Receive 🧑‍🦰🐌💼/💼 Receive 📃 handler.md>)| [`RECEIVED`](<../🪣🧱 31 Received 🔔 event/💼 OnQueryReceived 🔔 handler.md>) [`TOKENED`](<../🪣🧱 32 Tokened 🔔 event/💼 OnQueryTokened 🔔 handler.md>) | `INVALID` `CORRUPTED` `UNTRUSTED`
 
@@ -43,7 +43,7 @@ Uses: [`.AllOf`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System
 
 ## Example
 
-From [`SHARE` ⌘ command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for methods 🤵/SHARE 💼/💼 SHARE 📃 script.md>) command
+From [`SHARE` ⌘ command](<../../../💼⌘ Consumer cmds/SHARE 💼/💼 SHARE 📃 script.md>) command
 
 ```yaml
 Broker: any-broker.dom
