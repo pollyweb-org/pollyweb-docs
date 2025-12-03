@@ -1,0 +1,64 @@
+@startuml CHAT
+' TODO
+
+participant  "Broker 🤵" as broker
+box Host 🤗 domain #FFFFFA
+    participant "Handler 📃" as script
+    participant ".CHAT 📃" as CHAT
+    participant "Chats 🪣" as chats
+    participant "Binds 🪣" as binds
+    participant "Tokens 🪣" as tokens
+    participant "$.Chat 🧠" as holder
+end box
+
+broker -> script: {chat}
+
+activate script
+    script -> CHAT: CHAT 💬
+deactivate script
+
+activate CHAT
+    CHAT -> chats: 💾 {OPENED}
+deactivate CHAT
+
+activate chats
+    chats -> broker: Chat @ Broker 🚀
+deactivate chats
+
+activate broker
+    broker -> chats: 💾 {DETAILED}
+deactivate broker
+
+activate chats
+    chats -> binds: READ 🧲
+deactivate chats
+
+activate binds
+    binds -> chats: 💾 {BOUND}
+deactivate binds
+
+activate chats
+    chats -> tokens: READ 🧲
+deactivate chats
+
+activate tokens
+    tokens -> chats: 💾 {TOKENED}
+deactivate tokens
+
+activate chats
+    chats -> holder: SET
+deactivate chats
+
+activate holder
+    holder -> chats: 💾 {CACHED}
+deactivate holder
+
+activate chats
+    chats -> script: RACE 🏁 {cached}
+deactivate chats
+
+activate script
+
+deactivate script
+
+@enduml 

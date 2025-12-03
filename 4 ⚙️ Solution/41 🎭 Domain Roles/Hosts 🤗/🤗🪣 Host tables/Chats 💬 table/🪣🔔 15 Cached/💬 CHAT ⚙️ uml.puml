@@ -1,0 +1,16 @@
+@startuml CHAT
+
+box Host 🤗 domain #FFFFFA
+    participant "Script 📃" as script
+    participant ".CHAT 📃" as engine
+    participant "Chats 🪣" as table
+end box
+
+
+    engine -> script:
+deactivate engine
+
+activate script
+deactivate script
+
+@enduml 
