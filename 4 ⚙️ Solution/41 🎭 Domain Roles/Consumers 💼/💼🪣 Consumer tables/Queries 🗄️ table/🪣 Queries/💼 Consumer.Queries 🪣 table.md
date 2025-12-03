@@ -44,6 +44,7 @@ From [`SHARE` ⌘ command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘
 ```yaml
 Broker: any-broker.dom
 Chat: <chat-uuid>
+Context: {...}
 Schemas: 
   - any-authority.dom/ANY-SCHEMA
 ```
