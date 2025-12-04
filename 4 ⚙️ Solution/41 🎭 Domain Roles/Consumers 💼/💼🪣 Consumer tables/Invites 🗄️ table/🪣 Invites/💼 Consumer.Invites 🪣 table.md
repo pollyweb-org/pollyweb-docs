@@ -30,26 +30,22 @@ Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 Assert:
 
     # Group assertions
-    AllOf: Broker, Chat, Schemas
-    UUIDs: Chat, Collect
-    Lists: Schemas
+    AllOf: Broker, Chat, Schema, Helper
+    UUIDs: Chat
     
     # Field assertions
     Broker.IsDomain:
-    Schemas.Each.IsSchema:
-    
-    # From Consume@Broker
-    Vault.IsDomain:
-    Schema.IsSchema:
-    Schema.IsIn: Schemas
+    Helper.IsDomain:
+    Schema.IsSchema:    
 ```
-Uses:  [`.Each`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Each ⓕ.md>) [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
+
+Uses:  [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
 
 <br/>
 
 ## Example
 
-From [`SHARE` ⌘ command](<../../../💼⌘ Consumer cmds/SHARE 💼/💼 SHARE 📃 script.md>) command
+From [`INVITE` ⌘ command](<../../../💼⌘ Consumer cmds/INVITE 🤲/🤲 INVITE 📃 script.md>) command
 
 ```yaml
 Broker: any-broker.dom

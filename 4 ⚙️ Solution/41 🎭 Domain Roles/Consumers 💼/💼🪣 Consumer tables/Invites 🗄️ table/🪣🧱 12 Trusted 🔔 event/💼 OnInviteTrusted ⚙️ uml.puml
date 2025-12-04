@@ -1,12 +1,12 @@
-@startuml OnInviteInvited
+@startuml OnInviteTrusted
 
 box Consumer 💼 domain #FFFFFA
     participant "Queries 🪣" as table
-    participant "OnInvited 🔔" as handler
+    participant "OnTrusted 🔔" as handler
 end box
 participant "Broker 🤵" as broker
 
-table --> handler: INVITED 🔔 
+table --> handler: TRUSTED 🔔 
 
 activate handler
     handler --> broker: SEND 📬 {Invite 🐌}

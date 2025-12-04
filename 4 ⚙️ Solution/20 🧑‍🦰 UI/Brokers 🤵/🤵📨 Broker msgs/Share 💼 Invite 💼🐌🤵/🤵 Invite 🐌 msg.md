@@ -22,10 +22,7 @@ Body:
     Chat: <chat-uuid>
     Helper: any-helper.dom
     Schema: any-authority.dom/ANY-SCHEMA:1.0
-    Hook: <hook-uuid>
-    Inputs:
-        Input1: Value1
-        Input2: Value2
+    Invite: <invite-uuid>
 ```
 
 |Object|Property|Type|Description|Origin|Purpose
@@ -36,6 +33,5 @@ Body:
 |Body|`Chat`   | uuid    | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Helper`  | [text](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)  | Invitee [Helper 🤲](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) || [`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>)
 ||`Schema`     | [text](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)  | Related [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) ||[`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>)
-||`Hook` | uuid    | Hook || [`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>)
-||`Inputs`| [map](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)   | Optional inputs ||[`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>)
+||`Invite` | uuid    | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) Invite || [`Invited@`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Invited 🐌 msg.md>)
 |
