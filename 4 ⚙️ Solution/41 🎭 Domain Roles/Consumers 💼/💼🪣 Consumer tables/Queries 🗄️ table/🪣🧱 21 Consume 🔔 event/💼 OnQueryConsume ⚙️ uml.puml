@@ -10,6 +10,7 @@ table --> handler: CONSUME 🔔
 
 activate handler
     handler -> graph: TRUSTS 🫡 {VAULT}
+    handler -x table: SAVE 💾 {UNTRUSTED}
     handler -> table: SAVE 💾 {TRUSTED}
 deactivate handler
 

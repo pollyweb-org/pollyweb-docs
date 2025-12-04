@@ -11,7 +11,7 @@ table --> handler: RECEIVED 🔔
 activate handler
     handler -x table: SAVE 💾 INVALID ❌ 
     handler -> graph: VERIFY 🔐 {signature, schema}
-    handler -x table: SAVE 💾 CORRUPTED ❌ 
+    handler -x table: SAVE 💾 BROKEN ❌ 
     handler -> graph: TRUSTS 🫡 {issuer, schema, VAULT}
     handler -x table: SAVE 💾 UNTRUSTED ❌
     handler -> table: SAVE 💾 TOKENED ✅

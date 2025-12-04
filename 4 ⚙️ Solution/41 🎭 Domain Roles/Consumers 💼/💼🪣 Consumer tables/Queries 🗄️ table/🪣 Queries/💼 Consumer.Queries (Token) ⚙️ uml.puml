@@ -1,0 +1,38 @@
+@startuml 💼 Consumer.Queries 🪣 table (Token)
+ 
+box Consumer 💼 domain #FFFFFA
+    participant "SHARE ⌘" as talker
+    participant "Queries 🪣" as table
+end box
+participant "Wallet 👱" as wallet
+participant "Graph 🕸" as graph
+
+
+activate talker
+    talker -> table: 💾 QUERIED
+deactivate talker
+
+activate table
+    table -> wallet: Query @ Broker 🐌 
+deactivate table
+
+activate wallet
+    wallet -> table: 🐌 Receive @ Consumer 💾 RECEIVED
+deactivate wallet
+
+activate table
+    table -> graph: TRUST 🫡 {issuer, schema}
+    table -> graph: VERIFY 🔐 {data, schema}
+deactivate table
+
+activate graph
+    graph -> table: 💾 TOKENED ✅ INVALID ❌UNTRUSTED ❌ BROKEN ❌
+deactivate graph
+
+activate table
+    table -> talker: RACE 🏁 
+deactivate table
+
+
+
+@enduml 
