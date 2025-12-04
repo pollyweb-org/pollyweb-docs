@@ -4,33 +4,42 @@
 participant  "Broker 🤵" as broker
 box Host 🤗 domain #FFFFFA
     participant "Script 📃" as script
-    participant ".CHAT 📃" as engine
+    participant "CHAT 💬" as CHAT
     participant "$.Chat 🧠" as holder
-    participant "Chats 🪣" as table
-    participant "Binds 🪣" as binds
-    participant "Tokens 🪣" as tokens
+    participant "Chats 🪣" as chats
 end box
 
 
+broker --> script: {chat}
 
 activate script
-    script -> engine: CHAT 💬
+    script -> CHAT: CHAT 💬 {chat, broker}
 deactivate script
 
-activate engine
-    engine -> broker: SEND 📬 Chat @ Broker 🚀
+activate CHAT
 
-    activate broker
-        broker -> engine: { chat details }
-    deactivate broker
+    group Return if $.Chat.Exists
+        CHAT -> holder: IF $.Chat.Exists 
+        CHAT -> script: RETURN 
+    end group
 
-    engine -> table: READ 🧲
-    engine -> binds: 
-    engine -> tokens: 
-    engine -> table: SAVE 💾
-    engine -> holder: SET 
-    engine -> script:
-deactivate engine
+    group Return if Host.Chats exists
+        CHAT -> chats: READ 🧲 {broker, chat}
+        CHAT -> holder: SET $.Chat
+        CHAT -> script: RETURN 
+    end group
+
+    CHAT -> chats: SAVE 💾 {chat, broker}
+activate chats
+    CHAT -> CHAT: WAIT 🧘 {chat.ID}
+deactivate CHAT
+
+    chats --> CHAT: RACE 🏁
+deactivate chats
+
+activate CHAT
+    CHAT -> script: RETURN
+deactivate CHAT
 
 activate script
 deactivate script

@@ -99,7 +99,7 @@
 
     The replacement can either be:
     * per [Prompt 🤔](<../../Chats 💬/🤔 Prompt.md>) by setting the `Emoji` parameter,
-    * or by default for upcoming [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>) with the [`EMOJI`](<😶⌘ EMOJI cmd.md>) command.
+    * or by default for upcoming [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>) with the [`EMOJI`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/😶⌘ EMOJI cmd.md>) command.
 
     ---
     <br/>

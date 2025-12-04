@@ -11,6 +11,7 @@ box Host 🤗 domain #FFFFFA
     participant "$.Chat 🧠" as holder
 end box
 
+
 broker -> script: {chat}
 
 activate script
