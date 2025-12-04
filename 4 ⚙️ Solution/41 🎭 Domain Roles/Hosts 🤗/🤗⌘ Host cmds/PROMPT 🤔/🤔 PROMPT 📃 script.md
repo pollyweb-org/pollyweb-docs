@@ -41,6 +41,9 @@
 ```yaml
 📃 .PROMPT:
 
+# Assert CHAT was called
+- ASSERT|$.Chat:  
+
 # Calculate the Reply type
 - CASE >> $onReply:
     # For blocking input, call WAIT+RACE
@@ -53,8 +56,8 @@
 # Stage the prompt
 - SAVE|Hosts.Prompts >> $prompt:
     :$.Inputs:
-    Chat: $.Chat.ID
-    Broker: $.Broker.ID
+    Chat: $.Chat.Chat
+    Broker: $.Chat.Broker
     OnReply: $onReply
 
 # ------------------------------------
@@ -106,4 +109,5 @@ Uses||
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`HOOK`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/HOOK 🪝/🪝 HOOK ⌘ cmd.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`IMPRINT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/IMPRINT 🦶/🦶 IMPRINT ⌘ cmd.md>) [`RECALL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/RECALL 🪶/🪶 RECALL ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`WAIT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Host.Prompts` 🪣 table](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Prompts 🤔 table/🪣 Prompts/🤗 Host.Prompts 🪣 table.md>)
 | [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`{.IsIn}`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.IsNotIn`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsNotIn ⓕ.md>)
+|[Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Chat`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>)
 |

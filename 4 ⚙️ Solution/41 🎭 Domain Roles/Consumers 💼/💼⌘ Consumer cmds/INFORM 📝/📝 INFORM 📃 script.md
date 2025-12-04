@@ -32,7 +32,7 @@
         To: $.Chat.Broker
         Subject: Inform@Broker
     Body:
-        Chat: $.Chat.ID
+        Chat: $.Chat.Chat
         Form: $Form
 ```
 

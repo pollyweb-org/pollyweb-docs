@@ -23,7 +23,7 @@
 # Save the hook
 - SAVE|Consumer.Queries >> $query:
     Broker: $.Chat.Broker
-    Chat: $.Chat.ID
+    Chat: $.Chat.Chat
     Schemas: $Schemas
     Context: $Context
 

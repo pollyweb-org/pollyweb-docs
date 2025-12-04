@@ -57,7 +57,7 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
     
     # From $.Chat
     Broker: $.Chat.Broker
-    Chat: $.Chat.ID
+    Chat: $.Chat.Chat
     
 # Wait for the bound schema
 - WAIT >> $bound:

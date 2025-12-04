@@ -41,7 +41,7 @@
 # Save the hook
 - SAVE|Issuer.Tokens >> $token:
     Broker: $.Chat.Broker
-    Chat: $.Chat.ID
+    Chat: $.Chat.Chat
     PublicKey: $.Chat.PublicKey
     Schema: $Schema
     Starts: $Starts
