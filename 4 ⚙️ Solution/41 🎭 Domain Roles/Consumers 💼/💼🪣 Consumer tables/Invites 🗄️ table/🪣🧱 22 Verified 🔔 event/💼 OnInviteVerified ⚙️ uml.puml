@@ -1,0 +1,15 @@
+@startuml OnInviteVerified
+
+box Consumer 💼 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnVerified 🔔" as handler
+end box
+participant "INVITE ⌘" as cmd
+
+table --> handler: VERIFIED 🔔 
+
+activate handler
+    handler -> cmd: RACE 🏁 {data}
+deactivate handler
+
+@enduml 

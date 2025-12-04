@@ -1,8 +1,7 @@
-# 💼 OnQueryConsume 🔔 handler
+# 💼 OnInviteHelped 🔔 handler
 
 > About
-* Part of the [`Consumer.Queries` 🪣 table](<../../Queries 🗄️ table/🪣 Queries/💼 Consumer.Queries 🪣 table.md>)
-* Reacts to the [`Consume@Consumer` 🐌 msg](<../../../💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+* Part of the [`Consumer.Invites` 🪣 table](<../../Invites 🗄️ table/🪣 Invites/💼 Consumer.Invites 🪣 table.md>)
 
 <br/>
 
@@ -15,7 +14,7 @@
 ## Script
 
 ```yaml
-📃 OnQueryConsume:
+📃 OnInviteHelped:
 
 # Verify if the Vault is trusted
 - TRUSTS >> $trusted:
