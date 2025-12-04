@@ -73,7 +73,7 @@ Uses||
 
 1. **Why update instead of overwriting?**
 
-    There's an `Emoji` property managed by the [`EMOJI`](<../😶⌘ EMOJI cmd.md>) command that needs to survive concurrent changes.
+    There's an `Emoji` property managed by the [`EMOJI`](<../EMOJI 😶/😶⌘ EMOJI cmd.md>) command that needs to survive concurrent changes.
 
     ---
     <br/>
