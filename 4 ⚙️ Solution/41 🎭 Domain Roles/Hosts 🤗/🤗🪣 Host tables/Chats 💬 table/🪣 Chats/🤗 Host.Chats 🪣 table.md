@@ -47,12 +47,14 @@ Uses: [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holde
 
 Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
-From the [`Chat@Broker` 🚀 call](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 🚀 call.md>)
-
 ```yaml
 Chat: <chat-uuid>       # Key
 Broker: any-broker.dom  # Key
+```
 
+From the [`Chat@Broker` 🚀 call](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 🚀 call.md>)
+
+```yaml
 PublicKey: <public-key> # To verify Wallet messages
 Timezone: UTC+1         # For formatting dates
 Language: en-us         # For translations
@@ -64,13 +66,31 @@ Parameters:
     Param1: Value1
     Param2: Value2
 
-# Share
-Binds: 
+# Shares
+SharedBinds: 
     - <bind-#1-uuid>
     - <bind-#2-uuid>
-Tokens:
+SharedTokens:
     - <token-#1-uuid>
     - <token-#2-uuid>
+```
+
+From the [`OnChatBinds` 🔔 handler](<../🪣🔔 12 Binds/🤗 OnChatBinds 🔔 handler.md>)
+
+```yaml
+Binds: 
+  - ID: <bind-uuid-1>
+    Schema: any-authority.dom/ANY-SCHEMA
+    Reference: ref-1
+```
+
+From the [`OnChatTokens` 🔔 handler](<../🪣🔔 13 Tokens/🤗 OnChatTokens 🔔 handler.md>)
+
+```yaml
+Tokens: 
+  - Key: <token-uuid-1>
+    Issuer: issuer-1.dom
+    Schema: any-authority.dom/ANY-SCHEMA
 ```
 
 | Property | Type | Details

@@ -1,0 +1,20 @@
+@startuml OnChatCache
+
+box Host 🤗 domain #FFFFFA
+    participant "Chats 🪣" as chats
+    participant "OnCache 🔔" as script
+    participant "$.Chat 🧠" as cache
+    participant "CHAT 💬" as CHAT
+end box
+
+
+chats --> script: CACHE 🔔
+
+activate script
+    script -> cache: SET {chat}
+    script -> chats: 💾 ACTIVE
+    script -> CHAT: RACE 🏁 {chat}
+deactivate script   
+
+
+@enduml 

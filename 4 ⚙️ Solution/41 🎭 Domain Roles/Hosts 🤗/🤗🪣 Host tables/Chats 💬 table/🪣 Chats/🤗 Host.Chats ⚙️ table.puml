@@ -3,8 +3,8 @@
 
 participant  "Broker 🤵" as broker
 box Host 🤗 domain #FFFFFA
-    participant "Handler 📃" as script
-    participant ".CHAT 📃" as CHAT
+    participant "Inbox 📨" as script
+    participant "CHAT 💬" as CHAT
     participant "Chats 🪣" as chats
     participant "Binds 🪣" as binds
     participant "Tokens 🪣" as tokens
