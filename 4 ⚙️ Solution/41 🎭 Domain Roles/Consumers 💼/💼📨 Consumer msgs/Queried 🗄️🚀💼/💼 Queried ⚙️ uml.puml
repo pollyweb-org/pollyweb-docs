@@ -2,7 +2,7 @@
 
 participant "Vault 🗄️" as vault
 box Consumer 💼 domain #FFFFFA
-    participant "Consumer 💼" as consumer
+    participant "Queried 🚀" as consumer
     participant "Queries 🪣" as hooks
 end box
 
@@ -10,7 +10,7 @@ participant "Graph 🕸" as graph
 
 
 activate vault
-    vault -> consumer: Context 🚀 {schema}
+    vault -> consumer: Queried 🚀 {schema}
 
     activate consumer
         consumer -> hooks: READ 🧲 

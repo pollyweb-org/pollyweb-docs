@@ -1,17 +1,17 @@
-# 💼 Context 📃 handler
+# 💼 Queried 📃 handler
 
 > Purpose
 
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Context@Consumer` 🚀 call](<💼 Context 🚀 call.md>)
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Queried@Consumer` 🚀 call](<💼 Queried 🚀 call.md>)
 
 ## Flow
 
-![alt text](<💼 Context ⚙️ uml.png>)
+![alt text](<💼 Queried ⚙️ uml.png>)
 
 ## Script
 
 ```yaml
-📃 Context@Consumer:
+📃 Queried@Consumer:
 
 # Verify the message
 - VERIFY|$.Msg
