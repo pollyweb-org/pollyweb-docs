@@ -44,7 +44,7 @@ group Gather the data
 
     alt If requires context
         ' Get te context.
-        vault -> consumer: 6) Context 🚀 
+        vault -> consumer: 6) Queried 🚀 
         activate consumer
         consumer --> vault: {context}
         deactivate consumer

@@ -29,7 +29,7 @@ deactivate broker
 
 activate vault
 
-    vault -> table: Context 🚀 READ 🧲 {query}
+    vault -> table: Queried 🚀 READ 🧲 {query}
 
     activate table
         table -> vault: {context}

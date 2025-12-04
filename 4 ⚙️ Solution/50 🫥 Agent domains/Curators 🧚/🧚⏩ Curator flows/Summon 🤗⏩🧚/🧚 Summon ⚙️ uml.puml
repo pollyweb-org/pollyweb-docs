@@ -13,7 +13,7 @@ activate broker
 deactivate broker
 
 activate agent
-    agent -> host: Context 🚀 
+    agent -> host: Queried 🚀 
     agent -> wallet: Prompt 🤔
     agent --> host: Consume @ Consumer 🐌
 deactivate agent
