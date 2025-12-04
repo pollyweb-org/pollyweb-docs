@@ -3,51 +3,53 @@
 box Consumer 💼 domain #FFFFFA
     participant "Script 📃" as script
     participant "SHARE ⌘" as talker
-    participant "Queries 🪣" as hooks
-    participant "Consumer 💼" as consumer    
+    participant "Queries 🪣" as table
 end box
 
 participant "Broker 🤵" as broker
+participant "Wallet 👱" as wallet
 participant "Vault 🗄️" as vault
+participant "Identity 🆔" as identity
 
 activate script
-    script -> talker: SHARE 💼 {schema}
+    script -> talker: SHARE 💼 {schemas}
 deactivate script
 
 activate talker
-    talker -> hooks: SAVE 💾 {hook}
-    talker --> broker: SEND 📬 {Query 🐌 hook, schemas}
-    activate broker
-    talker -> talker: WAIT {hook}
+    talker -> table: SAVE 💾 {schemas}
 deactivate talker
 
-    broker -> vault: Disclose 🐌
-deactivate broker
-
-activate vault
-
-    vault -> consumer: Context 🚀 {hook}
-
-    activate consumer
-        consumer -> hooks: READ 🧲 {hook}
-        consumer -> vault: {context, schema}
-    deactivate consumer
-
-    vault --> consumer: Consume 🐌 {hook, schema, collection}
-deactivate vault
-
-activate consumer
-    consumer -> vault: Collect 🚀 {collection}
-
-    activate vault
-        vault -> consumer: {data}
-    deactivate vault
-
-    consumer -> talker: REEL 🎣 {hook, data}
-deactivate consumer
+activate table
+    table --> broker: Query 🐌 
+activate broker
+    table -> talker
+deactivate table
 
 activate talker
-    talker -> script: RETURN \n{schema, data}
+    talker -> talker: WAIT 
+deactivate talker
+
+    broker --> vault: 
+    activate vault
+
+    broker --> wallet: 
+deactivate broker
+activate wallet
+
+    wallet --> table: Receive 🐌 {token}
+deactivate wallet
+activate table
+
+    vault --> table: Consume 🐌 {bind}    
+deactivate vault
+
+    table -> identity: IDENTIFY 🆔 (if it is an identity-bound token)
+
+    table -> talker: RACE 🏁 {schema, data}
+deactivate table
+
+activate talker
+    talker -> script: RETURN {schema, data}
 deactivate talker
 
 activate script
