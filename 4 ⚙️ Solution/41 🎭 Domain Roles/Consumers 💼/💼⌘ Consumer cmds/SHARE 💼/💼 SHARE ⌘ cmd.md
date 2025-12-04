@@ -5,13 +5,12 @@
 * Implemented by the [`SHARE` 📃 script](<💼 SHARE 📃 script.md>)
 
 
-<br/>
 
 ## FAQ
 
 1. **What is a SHARE message command?**
 
-    A `SHARE`
+    `SHARE`
     * is a message [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that asks for user data in [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
     * triggering the following flows:
@@ -26,29 +25,43 @@
 1. **What's the SHARE syntax?**
 
     ```yaml
+    # Comprehensive
+    SHARE|<schema-1> >> $shared: # For a single inline schema
+        Schema: <schema-2>       # For a single multiline schema
+        Schemas:                 # For multiple alternatives
+            - <schema-3>
+            - <schema-n>
+        Context: {context}       # Optional context
+        Domain: {domain}         # Optional specific vault/issuer
+    ```
+
+    ```yaml
+    # Single schema, no context
     SHARE|<code> >> $shared
     ```
 
     ```yaml
-    SHARE >> $shared:
-        Schema: <code>
+    # Single schema, with context
+    SHARE|<code> >> $shared:
         Context: {context}
     ```
 
     ```yaml
+    # Single schema, comprehensive
     SHARE >> $shared:
-        Schemas:
-            - <code-1>
-            - <code-n>
+        Schema: <code>
         Context: {context}
     ```
 
    
     | Input| Purpose
     |-|-
-    | `<code-n>`  | [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) <br/>For readability, a dot replaces `nlweb.dom/`
-    | `{context}`| Object with context, when applicable.
-    | `$shared`| An object returned by [`Collect@Vault`](<../../../Vaults 🗄️/🗄️📨 Vault msgs/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>).<br/> Or a Token list from [`Receive@Consumer`](<../../💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>).
+    | `Schema`  | [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) 
+    ||For readability, a dot replaces `nlweb.dom/`
+    | `Context`| Object with context, when applicable
+    | `Domain`| Optional specific domain for the [`Share Token+ID` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>)
+    | `$shared`| [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) data returned by [`Collect@Vault`](<../../../Vaults 🗄️/🗄️📨 Vault msgs/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
+    || Or a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from [`Receive@Consumer`](<../../💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
 
 
     ---

@@ -1,34 +1,30 @@
 @startuml Wallet: Share Token
 
 
-actor User as user
-participant "Broker 🤵\n(domain)" as broker
-participant "Identity 🆔\n(vault)" as identity
-participant "Consumer 💼\n(host)" as consumer
-participant "Graph 🕸\n(domain)" as graph
+participant "Consumer 💼" as consumer
+'participant "Broker 🤵" as broker
+participant "Graph 🕸" as graph
+participant "Identity 🆔" as identity
+participant "Wallet 👱" as user
 
 ' --------------------
 ' QUERY
 ' --------------------
 
 activate consumer
-consumer --> user : 1) ⏪ Share Token 🎫
+consumer -> user : 1) ⏩ Share Token 🎫
 
-
-
-
-
-consumer -> graph: 2) Trusts 🚀\n{identity}
-consumer --> identity: 3 ⏪ Invite 
+consumer -> graph: 2) Trusts 🚀 {identity}
+consumer -> identity: 3 ⏩ Invite 
 
 deactivate consumer
 activate identity
 
 
 
-identity --> user: 4 ⏪ Take Selfie 📸
+identity -> user: 4 ⏩ Take Selfie 📸
 
-identity --> consumer: 5 ⏪ Consume 🧩
+identity -> consumer: 5 ⏪ Consume 🧩
 
 deactivate identity
 
