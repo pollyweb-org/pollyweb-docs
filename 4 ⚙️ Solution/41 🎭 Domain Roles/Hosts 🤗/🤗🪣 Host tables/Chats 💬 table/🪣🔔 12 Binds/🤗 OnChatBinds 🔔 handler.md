@@ -12,3 +12,29 @@
 <br/>
 
 ## Script
+
+```yaml
+📃 OnChatBinds:
+
+# Process each Bind in parallel
+- PARALLEL|$Chat.Binds|$id:
+
+    # Read the Bind from the table
+    - READ >> $bind:
+        Set: Chat.Binds
+        Key: $id
+
+    # Add the details to the chat
+    - PUT +> $binds:
+        ID: $bind.ID
+        Schema: $bind.Schema
+
+# Add to the Chat item
+- SAVE|$Chat:
+    
+    # Progress the state
+    .State: TOKENS
+
+    # Add the Binds
+    Binds: $binds
+```
