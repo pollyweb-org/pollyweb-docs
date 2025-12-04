@@ -4,12 +4,14 @@ box Consumer 💼 domain #FFFFFA
     participant "Queries 🪣" as table
     participant "OnInvited 🔔" as handler
 end box
-participant "Broker 🤵" as broker
+participant "Graph 🕸" as graph
 
 table --> handler: INVITED 🔔 
 
 activate handler
-    handler --> broker: SEND 📬 {Invite 🐌}
+    handler -> graph: TRUSTS 🫡 {Helper, Schema}
+    handler -x table: SAVE 💾 {UNTRUSTED}
+    handler -> table: SAVE 💾 {TRUSTED}
 deactivate handler
 
 @enduml 

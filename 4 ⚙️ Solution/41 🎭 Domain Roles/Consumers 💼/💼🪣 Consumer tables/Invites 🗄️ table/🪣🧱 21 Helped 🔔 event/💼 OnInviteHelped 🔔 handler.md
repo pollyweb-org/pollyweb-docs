@@ -16,22 +16,21 @@
 ```yaml
 📃 OnInviteHelped:
 
-# Verify if the Vault is trusted
-- TRUSTS >> $trusted:
-    Trusted: $Query.Vault
-    Schema: $Query.Schema
-    Role: VAULT
+# Verify the help schema
+- VERIFY|$Invite.Help >> $valid:
+    Schema: $Invite.Schema
 
 # Progress the state
-- IF|$trusted:
+- IF|$valid:
     Then: 
-        SAVE|$Query:
-            .State: TRUSTED
+        SAVE|$Invite:
+            .State: VALID
     Else:
-        SAVE|$Query:
-            .State: UNTRUSTED
+        SAVE|$Invite:
+            .State: INVALID
 ```
 
 Uses ||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`IF`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`TRUSTS`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/TRUSTS 🫡/🫡 TRUSTS ⌘ cmd.md>) |
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`IF`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`VERIFY`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>) |
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Consumer.Invites`](<../🪣 Invites/💼 Consumer.Invites 🪣 table.md>)

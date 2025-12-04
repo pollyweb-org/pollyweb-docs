@@ -1,4 +1,4 @@
-@startuml OnInviteVerified
+@startuml OnInviteValid
 
 box Consumer 💼 domain #FFFFFA
     participant "Queries 🪣" as table
@@ -9,7 +9,7 @@ participant "INVITE ⌘" as cmd
 table --> handler: VERIFIED 🔔 
 
 activate handler
-    handler -> cmd: RACE 🏁 {data}
+    handler -> cmd: RACE 🏁 {help}
 deactivate handler
 
 @enduml 

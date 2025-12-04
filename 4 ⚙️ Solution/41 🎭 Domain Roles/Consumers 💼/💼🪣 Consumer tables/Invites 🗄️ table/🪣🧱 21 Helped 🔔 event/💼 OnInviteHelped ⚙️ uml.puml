@@ -10,7 +10,8 @@ table --> handler: HELPED 🔔
 
 activate handler
     handler -> graph: VERIFY 🔐 {help, schema}
-    handler -> table: SAVE 💾 {VERIFIED}
+    handler -x table: SAVE 💾 {INVALID}
+    handler -> table: SAVE 💾 {VALID}
 deactivate handler
 
 @enduml 
