@@ -15,14 +15,22 @@
 
 | Blame | States ✅ | Exits ❌ | 
 |-|-|-
-|[`INVITE` ⌘](<../../../💼⌘ Consumer cmds/INVITE 🤲/🤲 INVITE ⌘ cmd.md>)| [`INVITED`](<../🪣🧱 11 Invited 🔔 event/💼 OnInviteInvited 🔔 handler.md>)
-|[`Consume@` 🐌](<../../../💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)| [`CONSUME`](<../../Queries 🗄️ table/🪣🧱 21 Consume 🔔 event/💼 OnQueryConsume 🔔 handler.md>) [`TRUSTED`](<../../Queries 🗄️ table/🪣🧱 22 Trusted 🔔 event/💼 OnQueryTrusted 🔔 handler.md>) [`COLLECTED`](<../../Queries 🗄️ table/🪣🧱 23 Collected 🔔 event/💼 OnQueryCollected 🔔 handler.md>) | `INVALID` `UNTRUSTED`
-|[`Receive@` 🐌](<../../../💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 📃 handler.md>)| [`RECEIVED`](<../../Queries 🗄️ table/🪣🧱 31 Received 🔔 event/💼 OnQueryReceived 🔔 handler.md>) [`TOKENED`](<../../Queries 🗄️ table/🪣🧱 32 Tokened 🔔 event/💼 OnQueryTokened 🔔 handler.md>) | `INVALID` `CORRUPTED` `UNTRUSTED`
+|[`INVITE` ⌘](<../../../💼⌘ Consumer cmds/INVITE 🤲/🤲 INVITE ⌘ cmd.md>)| [`INVITED`](<../🪣🧱 11 Invited 🔔 event/💼 OnInviteInvited 🔔 handler.md>) [`TRUSTED`](<../🪣🧱 12 Trusted 🔔 event/💼 OnInviteTrusted 🔔 handler.md>) | `UNTRUSTED`
+|[`Helped@` 🐌](<../../../💼📨 Consumer msgs/Helped 🤲🐌💼/💼 Helped 📃 handler.md>)| [`HELPED`](<../../Invites 🗄️ table/🪣🧱 21 Helped 🔔 event/💼 OnInviteHelped 🔔 handler.md>)  [`VALID`](<../🪣🧱 22 Valid 🔔 event/💼 OnInviteValid 🔔 handler.md>) | `INVALID` 
+
 
 
 <br/>
 
 ## Schema
+
+```yaml
+Prefix: Consumer
+Table: Invites
+Item: Invite
+```
+
+<br/>
 
 Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
 
@@ -50,21 +58,13 @@ From [`INVITE` ⌘ command](<../../../💼⌘ Consumer cmds/INVITE 🤲/🤲 INV
 ```yaml
 Broker: any-broker.dom
 Chat: <chat-uuid>
-Context: {...}
-Schemas: 
-  - any-authority.dom/ANY-SCHEMA
-```
-
-From [`Consume@Consumer` 🐌 handler](<../../../💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)
-
-```yaml
-Vault: any-vault.dom
+Helper: any-helper.dom
 Schema: any-authority.dom/ANY-SCHEMA
-Collect: <collect-uuid>
+Context: {...}
 ```
 
-From [`OnQueryCollected` 🔔 handler](<../../Queries 🗄️ table/🪣🧱 23 Collected 🔔 event/💼 OnQueryCollected 🔔 handler.md>)
+From [`Helped@Consumer` 🐌 handler](<../../../💼📨 Consumer msgs/Helped 🤲🐌💼/💼 Helped 📃 handler.md>)
 
 ```yaml
-Collected: {...}
+Help: {...}
 ```

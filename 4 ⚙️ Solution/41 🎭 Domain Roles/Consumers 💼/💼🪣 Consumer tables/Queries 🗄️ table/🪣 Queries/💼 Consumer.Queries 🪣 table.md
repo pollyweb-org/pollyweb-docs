@@ -24,6 +24,16 @@
 
 ## Schema
 
+
+```yaml
+Prefix: Consumer
+Table: Queries
+Item: Query
+```
+
+<br/>
+
+
 Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
 
 ```yaml

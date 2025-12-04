@@ -1,7 +1,7 @@
 @startuml OnInviteValid
 
 box Consumer 💼 domain #FFFFFA
-    participant "Queries 🪣" as table
+    participant "Invites 🪣" as table
     participant "OnVerified 🔔" as handler
 end box
 participant "INVITE ⌘" as cmd

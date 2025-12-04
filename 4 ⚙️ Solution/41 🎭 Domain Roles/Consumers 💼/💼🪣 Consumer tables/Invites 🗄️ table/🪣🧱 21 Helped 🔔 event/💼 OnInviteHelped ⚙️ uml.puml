@@ -1,7 +1,7 @@
 @startuml OnInviteHelped
 
 box Consumer 💼 domain #FFFFFA
-    participant "Queries 🪣" as table
+    participant "Invites 🪣" as table
     participant "OnHelped 🔔" as handler
 end box
 participant "Graph 🕸" as graph
