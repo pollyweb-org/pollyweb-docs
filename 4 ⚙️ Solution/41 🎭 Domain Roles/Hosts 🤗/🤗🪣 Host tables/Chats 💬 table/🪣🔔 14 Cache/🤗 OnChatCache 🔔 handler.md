@@ -12,3 +12,18 @@
 <br/>
 
 ## Script
+
+```yaml
+📃 OnChatCache:
+
+# Put the Chat item into the holder
+- PUT >> $.Chat:
+    $Chat
+
+# Progress the Chat state
+- SAVE|$Chat:
+    .State: ACTIVE
+
+# Return to the CHAT command
+- RACE|$Chat.ID:
+```
