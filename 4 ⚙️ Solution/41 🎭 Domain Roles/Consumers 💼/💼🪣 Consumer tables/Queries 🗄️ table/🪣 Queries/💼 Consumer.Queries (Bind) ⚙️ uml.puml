@@ -1,0 +1,46 @@
+@startuml 💼 Consumer.Queries 🪣 table
+ 
+box Consumer 💼 domain #FFFFFA
+    participant "SHARE ⌘" as talker
+    participant "Queries 🪣" as table
+end box
+participant "Vault 🗄️" as vault
+participant "Graph 🕸" as graph
+
+
+activate talker
+    talker -> table: 💾 QUERIED
+deactivate talker
+
+activate table
+    table -> vault: Query @ Broker 🐌 
+deactivate table
+
+activate vault
+    vault -> table: 🐌 Consume @ Consumer 💾 CONSUME
+deactivate vault
+
+activate table
+    table -> graph: TRUST 🫡 
+deactivate table
+
+activate graph
+    graph -> table: 💾 TRUSTED ✅ UNTRUSTED ❌
+deactivate graph
+
+activate table
+    table -> vault: Collect 🚀 {collection}
+    table -> graph: VERIFY 🔐 {data, schema}
+deactivate table
+
+activate graph
+    graph -> table: 💾 COLLECTED ✅ BROKEN ❌
+deactivate graph
+
+activate table
+    table -> talker: RACE 🏁 
+deactivate table
+
+
+
+@enduml 

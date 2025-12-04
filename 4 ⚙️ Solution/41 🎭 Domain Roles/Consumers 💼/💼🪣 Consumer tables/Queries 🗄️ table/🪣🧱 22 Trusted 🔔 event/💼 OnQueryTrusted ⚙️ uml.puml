@@ -5,6 +5,8 @@ box Consumer 💼 domain #FFFFFA
     participant "OnTrusted 🔔" as handler
 end box
 participant "Vault 🗄️" as vault
+participant "Graph 🕸" as graph
+
 
 table --> handler: TRUSTED 🔔 
 
@@ -15,6 +17,9 @@ activate handler
         vault -> handler: {data}
     deactivate vault
 
+    handler -> graph: VERIFY 🔐 {schema}
+
+    handler -x table: SAVE 💾 {BROKEN, data}
     handler -> table: SAVE 💾 {COLLECTED, data}
 
 deactivate handler
