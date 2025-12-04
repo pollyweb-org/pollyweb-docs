@@ -57,7 +57,7 @@
     | 1️⃣ [`ONE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/ONE 1️⃣/ONE 1️⃣ prompt.md>) | A |
     | 📆 [`DATE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DATE 📆/DATE 📆 prompt.md>)
     | 🕓 [`TIME`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TIME 🕓/TIME 🕓 prompt.md>)
-    | 👤 [`IDENTITY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/IDENTIFY 👤/IDENTIFY 👤 prompt.md>)
+    | 👤 [`IDENTITY`](<../../41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/IDENTIFY 🆔/🆔 IDENTIFY ⌘ cmd.md>)
     | 🔆 [`SCAN`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/SCAN 🔆/SCAN 🔆 prompt.md>)
     | 🦋 [`TOUCH`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TOUCH 🦋/TOUCH 🦋 prompt.md>)
     | 🛒 [`EAN`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/EAN 🛒/EAN 🛒 prompt.md>)

@@ -1,8 +1,8 @@
-@startuml SHARE
+@startuml INFORM
  
-box Hoster ☁️ domain #FFFFFA
+box Consumer 💼 domain #FFFFFA
     participant "Script 📃" as script
-    participant "Talker 😃" as talker
+    participant "INFORM 📝" as talker
     'participant "Consumer 💼" as consumer
 end box
 
@@ -20,7 +20,7 @@ activate talker
 deactivate talker
 activate script
 
-    broker --> wallet: INFO ℹ️ {form}
+    broker --> wallet: INFO ⓘ {form}
 deactivate broker
 
 deactivate script
