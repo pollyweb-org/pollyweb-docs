@@ -66,12 +66,12 @@ Asserts:
     
     # Input options validation
     Options.Each.AllOf: ID, Title
-    Options.Each.Texts: ID, Title, Locator
+    Options.Each.IsText: ID, Title, Locator
 
     # Reply validations
     Answer.Length.IsBelow: 5000
 ```
-Uses: [`.Each`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Each ⓕ.md>) [`.IsBelow`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsBelow ⓕ.md>) [`.AllOf`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>) [`.Texts`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Texts ⓕ.md>) [`.Length`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>) [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
+Uses: [`.Each`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Each ⓕ.md>) [`.IsBelow`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsBelow ⓕ.md>) [`.Length`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>) [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
 
 <br/>
 
