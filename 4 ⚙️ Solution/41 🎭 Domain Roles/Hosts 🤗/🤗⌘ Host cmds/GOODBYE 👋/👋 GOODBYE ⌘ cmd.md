@@ -1,10 +1,10 @@
 # 😃👋 Talker `GOODBYE` command
 
-> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+> About
+* Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
 
-  
-<br/>
+## FAQ
 
 1. **What is an GOODBYE message command?**
    
