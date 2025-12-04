@@ -2,7 +2,7 @@
 
 > About
 * Part of the [`Consumer.Queries` 🪣 table](<../🪣 Queries/💼 Consumer.Queries 🪣 table.md>)
-* Reacts to the [`Consume@Consumer` 🐌 msg](<../../../💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+* Reacts to the [`Consume@Consumer` 🐌 msg](<../../../💼📨 Consumer msgs/SHARE Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 
 <br/>
 
