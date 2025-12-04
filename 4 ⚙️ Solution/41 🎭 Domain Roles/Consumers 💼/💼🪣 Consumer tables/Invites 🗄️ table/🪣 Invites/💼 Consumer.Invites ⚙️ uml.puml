@@ -1,52 +1,44 @@
 @startuml 💼 Consumer.Invites 🪣 table
  
 box Consumer 💼 domain #FFFFFA
-    participant "Script 📃" as script
     participant "INVITE ⌘" as talker
     participant "Invites 🪣" as table
 end box
-
-participant "Broker 🤵" as broker
+participant "Graph 🕸" as graph
 participant "Helper 🤲" as helper
 
-activate script
-    script -> talker: INVITE 🤲 {schema}
-deactivate script
 
 activate talker
-    talker -> table: 💾 {INVITED, invite}
-activate table
-    talker -> talker: WAIT {invite}
+    talker -> table: 💾 INVITED
 deactivate talker
 
-    table --> broker: Invite 🐌 {invite, schema}
+activate table
+    table -> graph: TRUSTS 🫡 {helper}
 deactivate table
 
-activate broker
-    broker --> helper: Help 🐌
-deactivate broker
+activate graph
+    graph -> table: 💾 TRUSTED ✅ UNTRUSTED ❌
+deactivate graph
+
+activate table
+    table -> helper: Invite @ Broker 🐌 
+deactivate table
 
 activate helper
-
-    helper -> table: Invited 🚀 READ 🧲 {invite}
-
-    activate table
-        table -> helper: {context}
-    deactivate table
-
-    helper --> table: Helped 🐌 {invite, data}
+    helper -> table: 🐌 Helped @ Consumer 💾 HELPED
 deactivate helper
 
 activate table
-
-    table -> talker: RACE 🏁 {invite, data}
+    table -> graph: VERIFY 🔐 {data, schema}
 deactivate table
 
-activate talker
-    talker -> script: RETURN {data}
-deactivate talker
+activate graph
+    graph -> table: 💾 VALID ✅ INVALID ❌
+deactivate graph
 
-activate script
-deactivate script
+activate table
+    table -> talker: RACE 🏁 
+deactivate table
+
 
 @enduml 

@@ -4,11 +4,10 @@ box Consumer 💼 domain #FFFFFA
     participant "Script 📃" as script
     participant "SHARE ⌘" as talker
     participant "Queries 🪣" as table
-    'participant "Consumer 💼" as consumer    
 end box
-
 participant "Broker 🤵" as broker
 participant "Vault 🗄️" as vault
+participant "Graph 🕸" as graph
 
 activate script
     script -> talker: SHARE 💼 {schema}
@@ -44,6 +43,8 @@ activate table
     activate vault
         vault -> table: {data}
     deactivate vault
+
+    table -> graph: VERIFY 🔐 {data, schema}
 
     table -> talker: RACE 🏁 {query, data}
 deactivate table

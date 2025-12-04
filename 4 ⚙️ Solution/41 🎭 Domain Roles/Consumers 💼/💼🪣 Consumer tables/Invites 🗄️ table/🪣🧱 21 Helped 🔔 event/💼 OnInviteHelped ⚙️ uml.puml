@@ -1,16 +1,16 @@
-@startuml OnQueryConsume
+@startuml OnInviteHelped
 
 box Consumer 💼 domain #FFFFFA
     participant "Queries 🪣" as table
-    participant "OnConsume 🔔" as handler
+    participant "OnHelped 🔔" as handler
 end box
 participant "Graph 🕸" as graph
 
-table --> handler: CONSUME 🔔 
+table --> handler: HELPED 🔔 
 
 activate handler
-    handler -> graph: TRUSTS 🫡 {VAULT}
-    handler -> table: SAVE 💾 {TRUSTED}
+    handler -> graph: VERIFY 🔐 {help, schema}
+    handler -> table: SAVE 💾 {VERIFIED}
 deactivate handler
 
 @enduml 
