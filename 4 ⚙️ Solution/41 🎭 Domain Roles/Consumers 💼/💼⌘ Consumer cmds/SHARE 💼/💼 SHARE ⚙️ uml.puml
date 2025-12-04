@@ -7,8 +7,8 @@ box Consumer 💼 domain #FFFFFA
 end box
 
 participant "Broker 🤵" as broker
-participant "Wallet 👱" as wallet
 participant "Vault 🗄️" as vault
+participant "Wallet 👱" as wallet
 participant "Identity 🆔" as identity
 
 activate script
@@ -29,19 +29,20 @@ activate talker
     talker -> talker: WAIT 
 deactivate talker
 
-    broker --> vault: 
-    activate vault
-
     broker --> wallet: 
+    activate wallet
+
+    broker --> vault: 
+
 deactivate broker
-activate wallet
+activate vault
+    vault --> table: Queried 🚀 {query}
+activate table
+    vault --> table: Consume 🐌 {bind}
+deactivate vault
 
     wallet --> table: Receive 🐌 {token}
 deactivate wallet
-activate table
-
-    vault --> table: Consume 🐌 {bind}    
-deactivate vault
 
     table -> identity: IDENTIFY 🆔 (if it is an identity-bound token)
 
