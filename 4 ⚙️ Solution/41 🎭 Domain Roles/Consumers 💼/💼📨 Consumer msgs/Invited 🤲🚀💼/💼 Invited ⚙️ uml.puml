@@ -1,0 +1,21 @@
+@startuml Invited@Consumer
+
+participant "Helper 🤲" as helper
+box Consumer 💼 domain #FFFFFA
+    participant "Invited 🚀" as handler
+    participant "Invites 🪣" as table
+end box
+
+
+
+activate helper
+    helper -> handler: Invited 🚀 {invite}
+
+    activate handler
+        handler -> table: READ 🧲 
+        handler -> helper: {context}
+    deactivate handler
+
+deactivate helper
+
+@enduml 

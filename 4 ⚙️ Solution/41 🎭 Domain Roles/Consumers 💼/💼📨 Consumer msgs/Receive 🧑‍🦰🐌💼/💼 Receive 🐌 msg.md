@@ -41,7 +41,7 @@ Body:
 | Header|`From`|text| `Anonymous`
 | |`To`|text| [Consumer 💼](<../../💼 Consumer/💼🎭 Consumer role.md>) | [`Share@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>)
 | | `Subject`|text| `Receive@Consumer`
-| Body | `Query` | uuid | [Issuer 🎴](<../../../Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) Query | [`Share@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>)
+| Body | `Query` | uuid | [Consumer 💼](<../../💼 Consumer/💼🎭 Consumer role.md>) query | [`Share@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>)
 |   | `Token` | uuid | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID | [`Share@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>) | [`Status@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Status 💼🚀🤵/🤵 Status 🚀 call.md>)
 || `Issuer` | text | [Issuer 🎴](<../../../Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name | [`Issue@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | [`Status@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Status 💼🚀🤵/🤵 Status 🚀 call.md>)
 ||...| ... | Properties | [`Save@`](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)

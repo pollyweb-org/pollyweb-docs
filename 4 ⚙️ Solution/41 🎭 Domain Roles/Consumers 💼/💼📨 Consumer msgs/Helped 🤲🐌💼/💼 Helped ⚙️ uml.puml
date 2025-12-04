@@ -1,0 +1,17 @@
+@startuml Helped@Consumer
+
+participant "Helper 🤲" as helper
+box Consumer 💼 domain #FFFFFA
+    participant "Helped 🐌" as consumer
+    participant "Invites 🪣" as invites
+end box
+
+
+helper --> consumer: Helped 🐌 {invite}
+
+activate consumer
+    consumer -> invites: READ 🧲 {invite}
+    consumer -> invites: SAVE 💾 {HELPED}
+deactivate consumer
+
+@enduml 
