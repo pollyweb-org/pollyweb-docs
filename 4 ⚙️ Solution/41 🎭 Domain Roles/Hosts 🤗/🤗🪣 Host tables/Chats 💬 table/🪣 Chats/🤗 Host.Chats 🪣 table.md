@@ -93,6 +93,12 @@ Tokens:
     Schema: any-authority.dom/ANY-SCHEMA
 ```
 
+From the [`EMOJI`](<../../../🤗⌘ Host cmds/EMOJI 😶/😶 EMOJI ⌘ cmd.md>) command
+
+```yaml
+Emoji: 🤖
+```
+
 | Property | Type | Details
 |-|-|-
 | `Broker`  |text| [Broker 🤵 domain](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
