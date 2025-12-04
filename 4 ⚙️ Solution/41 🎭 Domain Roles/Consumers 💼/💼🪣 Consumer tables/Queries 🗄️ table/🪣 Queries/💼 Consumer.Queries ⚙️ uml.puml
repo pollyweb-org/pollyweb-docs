@@ -24,7 +24,7 @@ deactivate talker
 deactivate table
 
 activate broker
-    broker -> vault: Disclose 🐌
+    broker --> vault: Disclose 🐌
 deactivate broker
 
 activate vault
@@ -49,7 +49,7 @@ activate table
 deactivate table
 
 activate talker
-    talker -> script: RETURN \n{schema, data}
+    talker -> script: RETURN {data}
 deactivate talker
 
 activate script

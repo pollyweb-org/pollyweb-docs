@@ -1,0 +1,15 @@
+@startuml OnInviteInvited
+
+box Consumer 💼 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnInvited 🔔" as handler
+end box
+participant "Broker 🤵" as broker
+
+table --> handler: INVITED 🔔 
+
+activate handler
+    handler --> broker: SEND 📬 {Invite 🐌}
+deactivate handler
+
+@enduml 

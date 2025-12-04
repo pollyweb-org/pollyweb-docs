@@ -1,0 +1,16 @@
+@startuml OnQueryConsume
+
+box Consumer 💼 domain #FFFFFA
+    participant "Queries 🪣" as table
+    participant "OnConsume 🔔" as handler
+end box
+participant "Graph 🕸" as graph
+
+table --> handler: CONSUME 🔔 
+
+activate handler
+    handler -> graph: TRUSTS 🫡 {VAULT}
+    handler -> table: SAVE 💾 {TRUSTED}
+deactivate handler
+
+@enduml 
