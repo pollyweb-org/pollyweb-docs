@@ -1,0 +1,59 @@
+@startuml 💼 Consumer.Queries 🪣 table
+ 
+box Consumer 💼 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "SHARE ⌘" as talker
+    participant "Queries 🪣" as table
+    participant "Consumer 💼" as consumer    
+end box
+
+participant "Broker 🤵" as broker
+participant "Vault 🗄️" as vault
+
+activate script
+    script -> talker: SHARE 💼 {schema}
+deactivate script
+
+activate talker
+    talker -> table: SAVE 💾 {hook}
+activate table
+    talker -> talker: WAIT {hook}
+deactivate talker
+
+    table --> broker: SEND 📬 {Query 🐌 hook, schemas}
+deactivate table
+
+activate broker
+    broker -> vault: Disclose 🐌
+deactivate broker
+
+activate vault
+
+    vault -> consumer: Context 🚀 {hook}
+
+    activate consumer
+        consumer -> table: READ 🧲 {hook}
+        consumer -> vault: {context, schema}
+    deactivate consumer
+
+    vault --> consumer: Consume 🐌 {hook, schema, collection}
+deactivate vault
+
+activate consumer
+    consumer -> vault: Collect 🚀 {collection}
+
+    activate vault
+        vault -> consumer: {data}
+    deactivate vault
+
+    consumer -> talker: REEL 🎣 {hook, data}
+deactivate consumer
+
+activate talker
+    talker -> script: RETURN \n{schema, data}
+deactivate talker
+
+activate script
+deactivate script
+
+@enduml 
