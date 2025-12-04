@@ -42,7 +42,7 @@ Body:
 | |`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | | `Subject` |text| `Query@Broker`
 | Body | `Chat` |text| [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
-| | `Query`| uuid | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) Query | |[`Consume@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/SHARE Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) 
+| | `Query`| uuid | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) Query | |[`Consume@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) 
 | | `Schemas` | string[] | List of [Schemas 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 |
 

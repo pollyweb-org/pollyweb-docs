@@ -231,7 +231,7 @@
 
     |  Method | Purpose
     |-|-
-    |[🗄️🐌 Consume](<../💼📨 Consumer msgs/SHARE Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) | Collect user data from a [Vault 🗄️ domain](<../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>)
+    |[🗄️🐌 Consume](<../💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) | Collect user data from a [Vault 🗄️ domain](<../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>)
     | [🧑‍🦰🐌 Receive](<../💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>) | Receive [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from a [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     
     ---
