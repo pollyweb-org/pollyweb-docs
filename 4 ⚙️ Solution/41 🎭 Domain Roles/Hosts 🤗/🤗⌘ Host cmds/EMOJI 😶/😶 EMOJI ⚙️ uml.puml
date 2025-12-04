@@ -1,0 +1,26 @@
+@startuml EMOJI
+
+box Host 🤗 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "EMOJI 😶" as EMOJI
+    participant "Chats 🪣" as chats
+    participant "$.Chat 🧠" as holder
+end box 
+
+
+
+activate script
+    script -> EMOJI: EMOJI 😶 
+deactivate script 
+
+activate EMOJI
+    EMOJI -> chats: READ 🧲 {$.Chat}
+    EMOJI -> chats: SAVE 💾 {emoji}
+    EMOJI -> holder: SET $.Chat.Emoji
+    EMOJI -> script: RETURN
+deactivate EMOJI
+
+activate script
+deactivate script
+
+@enduml 
