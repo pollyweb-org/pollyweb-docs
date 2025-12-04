@@ -5,6 +5,12 @@
 
 <br/>
 
+## Lifecycle
+
+![alt text](<💼 Consumer.Queries ⚙️ uml.png>)
+
+<br/>
+
 ## State Transitions
 
 | Blame | States ✅ | Exits ❌ | 

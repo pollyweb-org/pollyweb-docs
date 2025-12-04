@@ -4,7 +4,7 @@ box Consumer 💼 domain #FFFFFA
     participant "Script 📃" as script
     participant "SHARE ⌘" as talker
     participant "Queries 🪣" as table
-    participant "Consumer 💼" as consumer    
+    'participant "Consumer 💼" as consumer    
 end box
 
 participant "Broker 🤵" as broker
@@ -15,12 +15,12 @@ activate script
 deactivate script
 
 activate talker
-    talker -> table: SAVE 💾 {hook}
+    talker -> table: 💾 {QUERIED, query}
 activate table
-    talker -> talker: WAIT {hook}
+    talker -> talker: WAIT {query}
 deactivate talker
 
-    table --> broker: SEND 📬 {Query 🐌 hook, schemas}
+    table --> broker: Query 🐌 {query, schemas}
 deactivate table
 
 activate broker
@@ -29,25 +29,24 @@ deactivate broker
 
 activate vault
 
-    vault -> consumer: Context 🚀 {hook}
+    vault -> table: Context 🚀 READ 🧲 {query}
 
-    activate consumer
-        consumer -> table: READ 🧲 {hook}
-        consumer -> vault: {context, schema}
-    deactivate consumer
+    activate table
+        table -> vault: {context}
+    deactivate table
 
-    vault --> consumer: Consume 🐌 {hook, schema, collection}
+    vault --> table: Consume 🐌 {query, schema, collection}
 deactivate vault
 
-activate consumer
-    consumer -> vault: Collect 🚀 {collection}
+activate table
+    table -> vault: Collect 🚀 {collection}
 
     activate vault
-        vault -> consumer: {data}
+        vault -> table: {data}
     deactivate vault
 
-    consumer -> talker: REEL 🎣 {hook, data}
-deactivate consumer
+    table -> talker: RACE 🏁 {query, data}
+deactivate table
 
 activate talker
     talker -> script: RETURN \n{schema, data}
