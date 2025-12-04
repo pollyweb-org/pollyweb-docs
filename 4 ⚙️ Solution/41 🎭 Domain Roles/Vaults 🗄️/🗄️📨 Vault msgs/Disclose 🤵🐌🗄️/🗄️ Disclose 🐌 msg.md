@@ -26,7 +26,7 @@ Header:
 Body:
     Bind: <bind-uuid>   # Vault Bind
     Chat: <chat-uuid>   # Broker Chat
-    Hook: <hook-uuid>   # Consumer Hook
+    Query: <query-uuid>   # Consumer Hook
     Language: en-us     # Shared data language
     Consumer: any-consumer.dom
 ```
@@ -38,7 +38,7 @@ Body:
 || `Subject` |text| `Disclose@Vault`
 |Body|  `Bind` | uuid | [Bind 🔗 ID](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) | [`Bound@`](<../Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 || `Chat`| uuid | [Chat 💬 ID](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
-|| `Hook` | uuid| [Consumer 💼](<../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>)  hook | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) 
+|| `Query` | uuid| [Consumer 💼](<../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>)  hook | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) 
 || `Consumer` |text| [Consumer 💼](<../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>)
 || `Language` | enum | ISO code | [`Pop@Broker` 🐌 msg](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
 |

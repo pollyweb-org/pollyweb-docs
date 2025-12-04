@@ -63,7 +63,7 @@ ID: <share-uuid>
 # From Disclose@Vault
 Bind: <bind-uuid>           # Vault bind to share
 Chat: <chat-uuid>           # Broker chat
-Hook: <hook-uuid>           # Hook for Consume@Consumer
+Query: <query-uuid>         # Hook for Consume@Consumer
 Language: en-us             # Data language
 Consumer: any-consumer.dom  # Data requester
 

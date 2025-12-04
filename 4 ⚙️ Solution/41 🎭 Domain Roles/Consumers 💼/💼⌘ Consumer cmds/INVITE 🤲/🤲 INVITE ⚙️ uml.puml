@@ -1,0 +1,47 @@
+@startuml INVITE
+ 
+box Consumer 💼 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "INVITE 🤲" as cmd
+    participant "Invites 🪣" as table
+end box
+participant "Broker 🤵" as broker
+participant "Helper 🤲" as helper
+participant "Wallet 👱" as wallet
+
+
+activate script
+    script -> cmd: INVITE 🤲 {cmd, schema}
+deactivate script
+
+activate cmd
+    cmd -> table: SAVE 💾 {INVITE}
+
+activate table
+    table --> broker: Invite @ Broker 🐌
+deactivate table
+activate broker
+    cmd -> cmd: WAIT
+deactivate cmd
+
+    broker --> helper: Help @ Helper 🐌
+deactivate broker
+
+activate helper
+    helper -> table: Invited @ Consumer 🚀 {data}
+    helper --> wallet: Prompt @ Broker 🐌 
+    helper --> table: Helped @ Consumer 🐌 {data}
+deactivate helper
+    
+activate table
+    table -> cmd: RACE 🏁 {cmd, data}
+deactivate table
+
+activate cmd
+    cmd -> script: RETURN {cmd, data}
+deactivate cmd
+
+activate script
+deactivate script
+
+@enduml 
