@@ -5,12 +5,12 @@
 
 > Flow
 * Part of the [`Consume flow`](<../../🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>)
-* Preceded by [`Consume@Consumer`](<../../../Consumers 💼/💼📨 Consumer msgs/SHARE Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+* Preceded by [`Consume@Consumer`](<../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 
 
 > Purpose
 
-* Tells it to reply with the data [shared](<../../../Consumers 💼/💼📨 Consumer msgs/SHARE Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) by the user.
+* Tells it to reply with the data [shared](<../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>) by the user.
 
 > Used by 
 * [💼⏩🧑‍🦰 Query Vault @ Consumer](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>)
@@ -32,10 +32,10 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-|
-|Header|`From`|text| [Consumer 💼](<../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | [`Consume@`](<../../../Consumers 💼/💼📨 Consumer msgs/SHARE Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
-||`To`|text| [Vault 🗄️](<../../🗄️ Vault/🗄️🎭 Vault role.md>) | [`Consume@`](<../../../Consumers 💼/💼📨 Consumer msgs/SHARE Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|Header|`From`|text| [Consumer 💼](<../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | [`Consume@`](<../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+||`To`|text| [Vault 🗄️](<../../🗄️ Vault/🗄️🎭 Vault role.md>) | [`Consume@`](<../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 ||`Subject` |text| `Collect@Vault`
-|Body|`Collect` | uuid | `Collect` | [`Consume@`](<../../../Consumers 💼/💼📨 Consumer msgs/SHARE Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|Body|`Collect` | uuid | `Collect` | [`Consume@`](<../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 |
 
 <br/>
