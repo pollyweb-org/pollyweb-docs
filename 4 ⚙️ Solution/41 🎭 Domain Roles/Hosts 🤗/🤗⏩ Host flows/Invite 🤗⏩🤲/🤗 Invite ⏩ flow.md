@@ -41,7 +41,7 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md
 - INFO|{number}, got it! Thanks, Any Helper!  
 ```
 
-Sure: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`INVITE`](<../../🤗⌘ Host cmds/INVITE 🤲/🤲 INVITE ⌘ cmd.md>)
+Sure: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`INVITE`](<../../../Consumers 💼/💼⌘ Consumer cmds/INVITE 🤲/🤲 INVITE ⌘ cmd.md>)
 
 
 <br/>
