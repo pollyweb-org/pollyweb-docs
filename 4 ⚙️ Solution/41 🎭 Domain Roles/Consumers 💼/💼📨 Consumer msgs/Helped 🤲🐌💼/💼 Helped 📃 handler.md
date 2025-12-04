@@ -1,8 +1,8 @@
-# 💼 Receive 📃 handler
+# 💼 Helped 📃 handler
 
 > Purpose
 
-* [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Receive@Consumer` 🐌 msg](<💼 Helped 🐌 msg.md>)
+* [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Helped@Consumer` 🐌 msg](<💼 Helped 🐌 msg.md>)
 
 <br/>
 
@@ -13,21 +13,22 @@
 ## Script
 
 ```yaml
-📃 Receive@Consumer:
+📃 Helped@Consumer:
 
 # Assert the message
 - ASSERT|$.Msg:
-    AllOf: Query
+    AllOf: Invite, Help
+    UUID: Invite
 
 # Resolve the callback
-- READ >> $query:
-    Set: Consumer.Queries
-    Key: $.Msg.Query
+- READ >> $invite:
+    Set: Consumer.Invites
+    Key: $.Msg.Invite
 
 # Save the received token
-- SAVE|$query:
-    .State: RECEIVED
-    Token: $.Msg.Shared
+- SAVE|$invite:
+    .State: HELPED
+    Token: $.Msg.Help
 ```
 
 Uses||
