@@ -15,13 +15,13 @@
 
 1. **What type of content can be verified?**
 
-    | Type | Sender | Verification
+    | Assert | Sender | Verification
     |-|-|-
-    | [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | Was a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) signed by the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)?
+    | [`.IsMessage`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsMessage ⓕ.md>) | [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | Was a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) signed by the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)?
     |  | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | Was a [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) signed by the [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)?
     | [File 📄](<../../../../30 🧩 Data/Files 📄/📄 File.md>) |  [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | Was a [File 📄](<../../../../30 🧩 Data/Files 📄/📄 File.md>) signed by the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>)?
     |  | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | Was a [File 📄](<../../../../30 🧩 Data/Files 📄/📄 File.md>) signed by the [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)?
-    |[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | Was a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) signed by the [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)?
+    |[`.IsToken`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsToken ⓕ.md>) | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | Was a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) signed by the [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)?
     ||| and does it comply with the [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 
     ---
@@ -137,6 +137,30 @@
     |-|-
     | `$token`| [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
     | `$isValid`| [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) that will store `true`/`false`.
+
+
+    ---
+    <br/>
+
+
+
+1. **What's the syntax for Schema validation?**
+
+    ```yaml
+    # Blocker version (raises error if invalid)
+    - VERIFY|$data:
+        Schema: $schema
+    
+    # Safe version (stores result in $isValid)
+    - VERIFY|$data >> $isValid:
+        Schema: <schema>
+    ```
+
+    | Input| Purpose |
+    |-|-
+    | `$data`| [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with data to be validated
+    | `$isValid`| [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) that will store `True` or `False`
+    | `<schema>`| [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to validate the data against
 
 
     ---

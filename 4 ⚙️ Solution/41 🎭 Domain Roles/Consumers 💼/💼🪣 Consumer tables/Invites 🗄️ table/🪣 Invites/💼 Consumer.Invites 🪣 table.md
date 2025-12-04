@@ -15,7 +15,7 @@
 
 | Blame | States ✅ | Exits ❌ | 
 |-|-|-
-|[`SHARE` ⌘](<../../../💼⌘ Consumer cmds/SHARE 💼/💼 SHARE ⌘ cmd.md>)| [`QUERIED`](<../../Queries 🗄️ table/🪣🧱 11 Queried 🔔 event/💼 OnQueryQueried 🔔 handler.md>)
+|[`INVITE` ⌘](<../../../💼⌘ Consumer cmds/INVITE 🤲/🤲 INVITE ⌘ cmd.md>)| [`INVITED`](<../🪣🧱 11 Invited 🔔 event/💼 OnInviteInvited 🔔 handler.md>)
 |[`Consume@` 🐌](<../../../💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)| [`CONSUME`](<../../Queries 🗄️ table/🪣🧱 21 Consume 🔔 event/💼 OnQueryConsume 🔔 handler.md>) [`TRUSTED`](<../../Queries 🗄️ table/🪣🧱 22 Trusted 🔔 event/💼 OnQueryTrusted 🔔 handler.md>) [`COLLECTED`](<../../Queries 🗄️ table/🪣🧱 23 Collected 🔔 event/💼 OnQueryCollected 🔔 handler.md>) | `INVALID` `UNTRUSTED`
 |[`Receive@` 🐌](<../../../💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 📃 handler.md>)| [`RECEIVED`](<../../Queries 🗄️ table/🪣🧱 31 Received 🔔 event/💼 OnQueryReceived 🔔 handler.md>) [`TOKENED`](<../../Queries 🗄️ table/🪣🧱 32 Tokened 🔔 event/💼 OnQueryTokened 🔔 handler.md>) | `INVALID` `CORRUPTED` `UNTRUSTED`
 
