@@ -12,3 +12,29 @@
 <br/>
 
 ## Script
+
+```yaml
+📃 OnChatTokens:
+
+# Process each Token in parallel
+- PARALLEL|$Chat.Tokens|$id:
+
+    # Read the Token from the table
+    - READ >> $token:
+        Set: Chat.Tokens
+        Key: $id
+    
+    # Add the details to the chat
+    - PUT +> $tokens:
+        ID: $token.ID
+        Schema: $token.Schema
+
+# Add to the Chat item
+- SAVE|$Chat:
+    
+    # Progress the state
+    .State: CACHE
+
+    # Add the Tokens
+    Tokens: $tokens
+```
