@@ -3,6 +3,7 @@
 box "Broker 🤵" #FFFFFA
     participant "Invites 🪣" as invites
     participant "OnVerified 🔔" as broker
+    participant "Chatters 🪣" as chatters
 end box
 participant "Graph 🕸" as graph
 participant "Wallet 🧑" as user
@@ -14,8 +15,9 @@ activate broker
     broker -> broker: CHAT 💬
     broker -> graph: TRANSLATE 🈯
     broker -> user: CONFIRM 🤔
-    broker -x invites: SAVE 💾 {REJECTED} 
-    broker -> invites: SAVE 💾 {CONFIRMED} 
+    broker -x invites: SAVE 💾 {REJECTED} ❌
+    broker -> chatters: SAVE 💾 {HELPER} 
+    broker -> invites: SAVE 💾 {ADDED} ✅
 deactivate broker
 
 @enduml 
