@@ -6,15 +6,19 @@ box "Broker 🤵" #FFFFFA
     participant "Chats 🪣" as chats
     participant "Chatters 🪣" as chatters
 end box
+participant "Graph 🕸" as graph
 
 
 invites --> broker: INVITED 🔔
 
 activate broker
-    broker -> chats: READ 🧲 
-    broker -> chatters:
-    broker -x invites: SAVE 💾 {INVALID} 
-    broker -> invites: SAVE 💾 {VERIFIED} 
+    broker -> chats: READ 🧲 host? active?
+    broker -x invites: SAVE 💾 {INVALID} ❌
+    broker -> chatters: READ 🧲 already a chatter?
+    broker -> invites: SAVE 💾 {CONFIRMED} ✅
+    broker -> graph: TRUSTS 🫡 Trusts @ Graph 🚀  
+    broker -x invites: SAVE 💾 {UNTRUSTED} ❌
+    broker -> invites: SAVE 💾 {VERIFIED} ✅
 deactivate broker
 
 @enduml 

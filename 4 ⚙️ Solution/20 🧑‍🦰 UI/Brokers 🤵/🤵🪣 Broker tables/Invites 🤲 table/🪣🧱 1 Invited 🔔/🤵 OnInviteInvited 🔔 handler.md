@@ -18,8 +18,37 @@
 ```yaml
 📃 OnInvited:
 
-Assert: 
-        Host: $.Msg.From # Only from the host
-        .State: ACTIVE   # While the chat is active
+# Assert rules
+- ASSERT|$Invite >> $valid:
+    Chat.Host: Inviter   # Only from the host
+    Chat.State: ACTIVE   # While the chat is active
+- IFNOT|$valid: 
+    RETURN|INVALID
+
+# The invited is a trusted Vault?
+- TRUSTS >> $trusted:
+    Truster: $Invite.Inviter
+    Trusted: $Invite.Helper
+    Schema: $Invite.Schema
+    Role: VAULT
+- IFNOT|$trusted:
+    RETURN|UNTRUSTED
+
+# The inviter is a trusted Consumer?
+- TRUSTS >> $trusted:
+    Truster: $Invite.Helper
+    Trusted: $Invite.Inviter
+    Schema: $Invite.Schema
+    Role: CONSUMER
+- IFNOT|$trusted:
+    RETURN|UNTRUSTED
+
+# Progress the state
+- RETURN|CONFIRMED
 ```
-Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
+
+Uses ||
+|-|-
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Invites`](<../🪣 Invites/🤵 Broker.Invites 🪣 table.md>) [`Broker.Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
+

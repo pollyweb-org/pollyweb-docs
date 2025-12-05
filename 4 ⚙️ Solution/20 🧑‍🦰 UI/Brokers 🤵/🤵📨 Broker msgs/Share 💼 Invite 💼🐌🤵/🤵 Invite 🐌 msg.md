@@ -1,14 +1,12 @@
-<!-- TODO: add the code -->
-<!-- TODO: add a script diagram -->
-
 # 💼🐌🤵 Invite @ Broker
 
-> Purpose
+> About
 * Invites a [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) into a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
-
-> Flow
 * Part of the [`Invite` ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>) 
 * followed by [`Help@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>) message
+* Implemented by the [`Invite@Broker` 📃 handler](<🤵 Invite 📃 handler.md>)
+
+<br/>
 
 ## Async Message 🐌
 
