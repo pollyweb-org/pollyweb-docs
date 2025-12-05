@@ -1,18 +1,28 @@
 @startuml Goodbye
 ' ------------------
 
+participant "Consumer 💼" as consumer
 participant "Broker 🤵" as broker
 box Helper 🤲 domain #FFFFFA
     participant "Helper" as script
+    participant "Handlers 🪣" as handlers
     participant "$.Chat" as chat
 end box
 
+
+activate consumer
+    consumer --> broker: Invited 🐌
+deactivate consumer
+
 activate broker
-    broker --> script: Invited 🐌
+    broker --> script: Help 🐌
 deactivate broker
 
 activate script
+    script -> script: CHAT 💬
+    script -> consumer: Invited  🚀
     script -> chat: CHAT 💾
+    script --> consumer: Helped  🐌
 deactivate script
 
 @enduml 
