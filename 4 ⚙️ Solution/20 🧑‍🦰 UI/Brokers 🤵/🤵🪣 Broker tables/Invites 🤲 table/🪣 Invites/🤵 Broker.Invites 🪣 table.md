@@ -2,6 +2,12 @@
 
 ## Schema
 
+```yaml
+Prefix: Broker
+Table: Invites
+Item: Invite
+```
+
 Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
 
 ```yaml
@@ -13,7 +19,12 @@ Assert:
     # Field assertions
     Helper.IsDomain:
     Schema.IsSchema:
+
+    # Dependencies
+    Chat.State: ACTIVE 
 ```
+
+<br/>
 
 ## Example
 

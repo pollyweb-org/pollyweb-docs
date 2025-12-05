@@ -18,7 +18,14 @@
 ```yaml
 📃 OnInviteConfirmed:
 
-
+# Add the participant to the chat
+- SAVE|Broker.Chatters:
+    Chat: $Invite.Chat
+    Domain: $Invite.Helper
+    Role: HELPER
 ```
 
-Uses:  [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
+Uses ||
+|-|-
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) [`Broker.Invites`](<../🪣 Invites/🤵 Broker.Invites 🪣 table.md>)
