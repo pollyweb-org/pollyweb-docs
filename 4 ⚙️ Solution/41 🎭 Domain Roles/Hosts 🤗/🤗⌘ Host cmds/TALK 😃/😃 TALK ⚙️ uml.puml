@@ -1,20 +1,21 @@
-@startuml Handle
+@startuml TALK
 
-box Talker 😃 domain #FFFFFA
+box Host 🤗 domain #FFFFFD
     participant "Script 📃" as script
     participant "TALK 😃" as talk
-    participant "Talkers 🪣" as talkers
+    participant "Locators 🪣" as talkers
     participant "Handler 📃" as talker
 end box
 
 
 activate script
-    script -> talk: TALK 😃
+    script -> talk: TALK 😃 {name, inputs}
 deactivate script
 
 activate talk
-    talk -> talkers: READ 🧲 {$.Chat.Key}
-    talk -> talker: RUN {$talker.Script}
+    talk -> talk: name: $.Chat.Key
+    talk -> talkers: READ 🧲 {name}
+    talk -> talker: RUN {handler, inputs}
 deactivate talk
 
 activate talker
