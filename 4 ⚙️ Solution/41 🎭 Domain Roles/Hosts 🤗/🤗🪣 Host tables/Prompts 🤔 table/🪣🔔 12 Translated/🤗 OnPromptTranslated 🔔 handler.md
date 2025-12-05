@@ -9,14 +9,14 @@
 
 ## Diagram
 
-![alt text](<🤗 OnHostPromptTranslated ⚙️ uml.png>)
+![alt text](<🤗 OnPromptTranslated ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnPromptTranslated:
+📃 OnTranslated:
 
 # Assert readiness for Prompted@Host
 - ASSERT|$Prompt:

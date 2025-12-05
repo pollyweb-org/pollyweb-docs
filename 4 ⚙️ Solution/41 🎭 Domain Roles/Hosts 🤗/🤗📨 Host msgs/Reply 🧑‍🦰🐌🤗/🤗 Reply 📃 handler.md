@@ -10,7 +10,7 @@
 > About
 * Part of the [Host 🤗 domain](<../../🤗 Host role/🤗🎭 Host role.md>) role
 * Implements the [`Reply@Host` 🐌 msg](<🤗 Reply 🐌 msg.md>)
-* Triggers the [`OnHostPromptReplied` 📃 handler](<../../🤗🪣 Host tables/Prompts 🤔 table/🪣🔔 14 Replied/🤗 OnHostPromptReplied 🔔 handler.md>)
+* Triggers the [`OnHostPromptReplied` 📃 handler](<../../🤗🪣 Host tables/Prompts 🤔 table/🪣🔔 14 Replied/🤗 OnPromptReplied 🔔 handler.md>)
 
 <br/>
 

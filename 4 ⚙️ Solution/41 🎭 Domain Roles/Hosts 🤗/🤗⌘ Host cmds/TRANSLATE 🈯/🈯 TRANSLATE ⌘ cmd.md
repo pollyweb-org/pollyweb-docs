@@ -69,7 +69,7 @@
 
     Use `All` to translate the properties of a [Map 🧠 holder](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>).
 
-    * Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from the [`OnHostPromptInserted` 📃 handler](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Prompts 🤔 table/🪣🔔 11 Inserted/🤗 OnHostPromptInserted 🔔 handler.md>).
+    * Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from the [`OnHostPromptInserted` 📃 handler](<../../🤗🪣 Host tables/Prompts 🤔 table/🪣🔔 11 Inserted/🤗 OnPromptInserted 🔔 handler.md>).
     * In this example, `Text` and `Details` are translated directly.
     * Then the `Options` [Set 🧠 holder](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) is iterated to translate all `Title` fields.
     * All translations are performed with the [`.Translate`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>) function.

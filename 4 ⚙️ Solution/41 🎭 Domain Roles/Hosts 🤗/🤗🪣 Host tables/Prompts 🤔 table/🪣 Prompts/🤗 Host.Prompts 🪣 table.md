@@ -33,14 +33,14 @@ Parents: Chat
 
 <br/>
 
-The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition uses: [`Inserted`](<../🪣🔔 11 Inserted/🤗 OnHostPromptInserted 🔔 handler.md>) [`Translated`](<../🪣🔔 12 Translated/🤗 OnHostPromptTranslated 🔔 handler.md>) [`Asserted`](<../🪣🔔 13 Asserted/🤗 OnHostPromptAsserted 🔔 handler.md>) [`Replied`](<../🪣🔔 14 Replied/🤗 OnHostPromptReplied 🔔 handler.md>)
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) definition uses: [`Inserted`](<../🪣🔔 11 Inserted/🤗 OnPromptInserted 🔔 handler.md>) [`Translated`](<../🪣🔔 12 Translated/🤗 OnPromptTranslated 🔔 handler.md>) [`Asserted`](<../🪣🔔 13 Asserted/🤗 OnPromptAsserted 🔔 handler.md>) [`Replied`](<../🪣🔔 14 Replied/🤗 OnPromptReplied 🔔 handler.md>)
 
 ```yaml
 Handlers:
-    INSERT     >> OnPromptInserted
-    TRANSLATED >> OnPromptTranslated
-    ASSERTED   >> OnPromptAsserted
-    REPLIED    >> OnPromptReplied
+    INSERT     >> OnInserted
+    TRANSLATED >> OnTranslated
+    ASSERTED   >> OnAsserted
+    REPLIED    >> OnReplied
 ```
 
 <br/>
@@ -91,7 +91,7 @@ Chat: <chat-uuid>
 Language: en-us
 ```
 
-From [`OnPromptInserted` 🔔 handler](<../🪣🔔 11 Inserted/🤗 OnHostPromptInserted 🔔 handler.md>)
+From [`OnPromptInserted` 🔔 handler](<../🪣🔔 11 Inserted/🤗 OnPromptInserted 🔔 handler.md>)
 
 ```yaml
 PublicKey: any-public-key

@@ -7,7 +7,7 @@
 
 ## Diagram
 
-![alt text](<🤗 OnHostPromptReplied ⚙️ uml.png>)
+![alt text](<🤗 OnPromptReplied ⚙️ uml.png>)
 
 <br/>
 
