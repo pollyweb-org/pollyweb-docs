@@ -1,0 +1,20 @@
+@startuml OnInviteConfirmed
+
+box "Broker 🤵" #FFFFFA
+    participant "Invites 🪣" as invites
+    participant "OnConfirmed 🔔" as broker
+    participant "Chatters 🪣" as invitee
+end box
+participant "Helper 🤲" as helper
+
+
+
+invites --> broker: CONFIRMED 🔔 
+
+activate broker
+    broker -> invitee: SAVE 💾 {HELPER} 
+    broker --> helper: SEND 📬 {Invited 🐌}
+    broker -> invites: SAVE 💾 {DONE}
+deactivate broker
+
+@enduml 
