@@ -17,18 +17,19 @@
 
 # Assert the inputs
 - ASSERT|$.Msg:
-    AllOf: Host, Chat, Helper
-    Texts: Host
-    UUIDs: Chat, Helper
+    AllOf: Chat, Helper, Schema, Invite
+    UUIDs: Chat, Invite
+    Texts: Helper, Schema
+    Helper.IsDomain:
+    Schema.IsSchema:
 
 # Get the chat
 - READ >> $chat:
     Set: Broker.Chats
     Key: $.Msg.Chat
-
-# Assert it's the host
-- ASSERT|$chat:
-    Host: $.Msg.From
+    Assert: 
+        Host: $.Msg.From # Only from the host
+        .State: ACTIVE   # While the chat is active
 
 # Get the Helper title
 - TRANSLATE >> $translation:
@@ -39,15 +40,10 @@
 - CONFIRM:
     Text: Allow {$translation.Domain}?
 
-# Add the participant to the chat
-- SAVE|Broker.Chatters:
-    Chat: $.Msg.Chat
-    Domain: $.Msg.Helper
-    Role: HELPER
 ```
 
 Uses||
 |-|-
 |[Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CONFIRM`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ 📃 script.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`TRANSLATE`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)
-|[Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`BrokerChats` 🪣 table](<../../🤵🪣 Broker tables/Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) <br/> [`BrokerChatters` 🪣 table](<../../🤵🪣 Broker tables/Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
+|[Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Chats`](<../../🤵🪣 Broker tables/Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>) [`Broker.Chatters`](<../../🤵🪣 Broker tables/Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
 |
