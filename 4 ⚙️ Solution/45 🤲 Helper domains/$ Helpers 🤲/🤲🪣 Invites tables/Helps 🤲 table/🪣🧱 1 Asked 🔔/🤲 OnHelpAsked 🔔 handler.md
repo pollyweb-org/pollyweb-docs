@@ -2,7 +2,7 @@
 
 > About
 * Part of the [`Broker.Invites` 🪣 table](<../🪣 Helps/🤲 Helper.Helps 🪣 table.md>)
-* Reacts to the [`Invite@Broker` 🐌 msg](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
+* Reacts to the [`Invite@Broker` 🐌 msg](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 
 
 <br/>
