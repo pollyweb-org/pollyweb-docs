@@ -1,9 +1,9 @@
-@startuml Vault.Shares
+@startuml Vault.Discloses
 
 participant "Broker 🤵" as broker
 
 box Vault 🗄️ domain #FFFFFA
-    participant "Shares 🪣" as table
+    participant "Discloses 🪣" as table
     participant "Graph 🕸" as graph
     participant "Script 📃" as handler
     participant "Hosted 📦" as hosted

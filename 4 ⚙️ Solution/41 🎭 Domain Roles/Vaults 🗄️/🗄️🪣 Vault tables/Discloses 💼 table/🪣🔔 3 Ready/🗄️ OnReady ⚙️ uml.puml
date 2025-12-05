@@ -1,22 +1,22 @@
-@startuml OnDiscloseReady
+@startuml OnCollectsReady
 
 box Vault 🗄️ domain #FFFFFA
-    participant "Discloses 🪣" as discloses
+    participant "Collects 🪣" as collects
     participant "OnReady 🔔" as ready
 end box
 participant "Consumer 💼" as consumer
 
 
-activate discloses
-    discloses --> ready: READY 🔔 
-deactivate discloses
+activate collects
+    collects --> ready: READY 🔔 
+deactivate collects
 
 activate ready
     ready --> consumer: SEND 📬 {Consume 🐌}
 deactivate ready
 
 activate consumer
-    consumer -> discloses: Collect 🚀
+    consumer -> collects: Collect 🚀
 deactivate consumer
 
 @enduml 
