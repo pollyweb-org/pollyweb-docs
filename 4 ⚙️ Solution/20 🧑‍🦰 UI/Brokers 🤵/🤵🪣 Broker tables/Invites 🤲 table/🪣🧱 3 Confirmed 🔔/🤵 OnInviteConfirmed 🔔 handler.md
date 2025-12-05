@@ -28,7 +28,7 @@
 - SEND:
     Header:
         To: $Invite.Helper
-        Subject: Invited@Helper
+        Subject: Help@Helper
     Body:
         Chat: $Invite.Chat
         Schema: $Invite.Schema
