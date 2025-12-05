@@ -2,7 +2,7 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-> Works with the [`TALK` command](<../TALK 😃/😃 TALK ⌘ cmd.md>)
+> Works with the [`TALK` command](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/TALK 😃/😃 TALK ⌘ cmd.md>)
 
 > Implemented by the [`REGISTER` 📃 script](<🔆 REGISTER 📃 script.md>)
  

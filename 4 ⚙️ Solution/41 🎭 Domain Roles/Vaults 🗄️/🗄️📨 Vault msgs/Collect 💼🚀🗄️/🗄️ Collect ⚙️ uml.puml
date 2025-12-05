@@ -4,14 +4,14 @@ participant "Consumer 💼" as consumer
 
 box Vault 🗄️️ domain #FFFFFA
     participant "Collect 🚀" as vault
-    participant "Shares 🪣" as shares
+    participant "Discloses 🪣" as table
 end box
 
 
 activate consumer
     consumer -> vault: Collect 🚀 
     activate vault
-        vault -> shares: READ 🧲 
+        vault -> table: READ 🧲 
         vault -> consumer: RETURN {data}
     deactivate vault
 
