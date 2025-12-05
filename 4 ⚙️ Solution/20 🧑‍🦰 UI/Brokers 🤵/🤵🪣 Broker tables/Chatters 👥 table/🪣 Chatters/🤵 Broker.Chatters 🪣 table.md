@@ -74,12 +74,13 @@ Asserts:
 
     # Group assertions
     AllOf: Wallet, Chat, Domain, Role
-    UUIDs: Wallet, Chat
+    UUIDs: Wallet, Chat, Invite
     
     # State machine
     .State.IsIn: POP, FINDER, BROKER, HOST
 
     # Field assertions
+    Schema.IsSchema:
     Domain.IsDomain: 
     Role.IsIn: 
         - HOST    # From Hello@Host
@@ -97,26 +98,44 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 Chat: <chat-uuid>
 Domain: any-host.dom
 Role: HOST 
+```
 
-# Locator info
+[Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) info
+
+```yaml
 Key: ANY-LOCATOR
 Parameters: {A:1, B:2}
+```
 
-# Shared binds (if any)
+Shared [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) (if any)
+
+```yaml
 Binds:
   - Title: 🔗 Any Bind, by Any Vault
     Bind: <bind-uuid>
     Vault: <vault-uuid>
+```
 
-# Shared tokens (if any)
+Shared [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) (if any)
+
+```yaml
 Tokens:
   - Title: 🎟️ Any Token, by Any Issuer
     Token: <token-uuid>
     Issuer: <issuer-uuid>
 ```
 
+From the [`Invite@Broker` 🐌 msg](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) 
 
-Property|Type|Details|Origin|Purpose
+```yaml 
+Invite: <invite-uuid>
+```
+
+<br/>
+
+## Fields
+
+Field|Type|Details|Origin|Purpose
 |-|-|-|-|-
 |`Role`|text|Role in [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)||[`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>) [`Prompt@`](<../../../🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 | ||`HOST` role | [`Locate@`](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | 
