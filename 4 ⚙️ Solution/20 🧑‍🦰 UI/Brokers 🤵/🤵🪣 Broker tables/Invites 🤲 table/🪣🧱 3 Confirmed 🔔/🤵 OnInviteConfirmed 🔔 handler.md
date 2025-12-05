@@ -16,7 +16,7 @@
 ## Script
 
 ```yaml
-📃 OnInviteConfirmed:
+📃 OnConfirmed:
 
 # Add the chat participant, if not already added
 - SAVE|Broker.Chatters:
