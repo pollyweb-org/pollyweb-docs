@@ -48,6 +48,14 @@
     ---
     <br/>
 
+1. **What if the code fails after the state change?**
+
+    To ensure consistency,
+    * state changes should be the last operation of an event handler,
+    * leaving further operations to be processed on the following state handler.
+
+    ---
+    <br/>
 
 1. **What's an alternative more compact syntax?**
 
@@ -83,3 +91,4 @@
 
     ---
     <br/>
+

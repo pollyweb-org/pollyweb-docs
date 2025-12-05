@@ -16,8 +16,10 @@
 ## Script
 
 ```yaml
-📃 OnInviteInvited:
+📃 OnInvited:
 
-
+Assert: 
+        Host: $.Msg.From # Only from the host
+        .State: ACTIVE   # While the chat is active
 ```
 Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 

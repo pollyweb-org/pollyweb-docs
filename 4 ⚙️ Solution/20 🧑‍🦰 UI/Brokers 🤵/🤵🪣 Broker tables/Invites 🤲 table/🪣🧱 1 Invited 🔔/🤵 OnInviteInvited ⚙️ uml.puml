@@ -11,9 +11,9 @@ end box
 invites --> broker: INVITED 🔔
 
 activate broker
-    broker -> chatters: READ 🧲 
+    broker -> chats: READ 🧲 
+    broker -> chatters:
     broker -x invites: SAVE 💾 {INVALID} 
-    broker -> invites: SAVE 💾 {VERIFIED} 
     broker -> invites: SAVE 💾 {VERIFIED} 
 deactivate broker
 

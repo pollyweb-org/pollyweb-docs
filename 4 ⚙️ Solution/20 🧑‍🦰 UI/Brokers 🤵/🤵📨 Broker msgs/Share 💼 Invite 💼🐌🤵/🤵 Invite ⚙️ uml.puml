@@ -1,13 +1,11 @@
-@startuml Invite
+@startuml Invite@Broker
 
 participant "Consumer 💼 " as host
 box "Broker 🤵" #FFFFFA
-    participant "Handler 📃" as broker
+    participant "Invite 🐌" as broker
     participant "Chats 🪣" as chats
-    participant "Chatters 🪣" as invitee
+    participant "Invites 🪣" as invites
 end box
-participant "Graph 🕸" as graph
-participant "Wallet 🧑" as user
 
 
 activate host
@@ -15,10 +13,8 @@ activate host
 deactivate host
 
 activate broker
-    broker -> chats: READ 🧲 {$.Msg.Chat}
-    broker -> graph: TRANSLATE 🈯
-    broker -> user: CONFIRM 🤔
-    broker -> invitee: SAVE 💾 {HELPER} 
+    broker -> chats: READ 🧲 
+    broker -> invites: SAVE 💾 {HELPER} 
 deactivate broker
 
 @enduml 

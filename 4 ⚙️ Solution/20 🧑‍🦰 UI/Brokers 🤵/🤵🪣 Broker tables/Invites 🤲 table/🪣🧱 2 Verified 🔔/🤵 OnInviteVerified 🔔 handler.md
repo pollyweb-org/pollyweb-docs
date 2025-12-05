@@ -15,7 +15,7 @@
 ## Script
 
 ```yaml
-📃 OnInviteVerified:
+📃 OnVerified:
 
 # Load the chat
 - CHAT:
