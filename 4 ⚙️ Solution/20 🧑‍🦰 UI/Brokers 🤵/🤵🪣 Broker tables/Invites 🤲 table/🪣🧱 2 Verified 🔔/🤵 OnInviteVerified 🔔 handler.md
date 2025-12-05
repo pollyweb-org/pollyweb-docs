@@ -17,77 +17,27 @@
 ```yaml
 📃 OnInviteVerified:
 
-# Set the emoji
-- RUN|OnPromptEmoji >> $emoji:
-    $Prompt
+# Load the chat
+- CHAT:
+    Chat: $Invite.Chat
+    Broker: $.Hosted.Domain
 
-# Update the Prompt with the emoji
-- SAVE|$Prompt:
-    .State: EMOJIED
-    Emoji: $emoji
-```
-Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
+# Get the Helper title
+- TRANSLATE >> $translation:
+    Domain: $Invite.Helper
 
-```yaml
-📃 OnPromptEmoji:
+# Confirm with the Wallet
+- CONFIRM >> $confirmed:
+    Text: Allow {$translation.Domain}?
 
-# Verify the Prompt
-- ASSERT|$Prompt:
-    AllOf: Format, Role
-    Texts: Format, Role, PromptEmoji, ChatEmoji
-
-# Set the emoji
-- CASE|$Prompt.Format:
-
-    TEMP: RETURN|⏳
-
-    FAIL: RETURN|❌
-
-    INFO: 
-        CASE|$Prompt.Role:
-            VAULT: RETURN|ⓘ
-            $: RETURN|ℹ️
-
-    DONE: 
-        CASE|$Prompt.Role:
-            VAULT: RETURN|☑️
-            $: RETURN|✅
-
-    TEXT:
-        CASE|$Prompt.Role:
-            VAULT: RETURN|💭
-            $: RETURN|💬
-
-    $: 
-        # Agents always ask with 🫥
-        - IF|$Prompt.Role.Is(VAULT):
-            RETURN|🫥
-
-# Default emoji
-- PUT|😃 >> $emoji
-
-# Override if in Chat
-- IF|$Prompt.ChatEmoji:
-    PUT|$Prompt.ChatEmoji >> $emoji
-
-# Override if in Prompt
-- IF|$Prompt.PromptEmoji: 
-    PUT|$Prompt.PromptEmoji >> $emoji
-
-# Block special emojis
-- IF|$emoji.IsIn(⏳❌ⓘℹ️☑️✅😃🫥💬💭):
-    RETURN|😃
-
-# Allow limited customizations
-- IF|$emoji.IsIn(😐😶😌😊😕🙁😔🥺🤣😅✏️):
-    RETURN|$emoji
-
-# Default
-- RETURN 😃
+# Progress the chat
+- IF|$confirmed:
+    Then: 
+        SAVE|$Invite:
+            .State: CONFIRMED
+    Else:
+        SAVE|$Invite:
+            .State: REJECTED
 ```
 
-Uses||
-|-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CASE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`IF`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`PUT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`RETURN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) 
-| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`{.IsIn}`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`{.Is}`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>)
-|
+Uses: [`CHAT`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/CHAT 💬/💬 CHAT ⌘ cmd.md>) [`IF`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`TRANSLATE`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>)
