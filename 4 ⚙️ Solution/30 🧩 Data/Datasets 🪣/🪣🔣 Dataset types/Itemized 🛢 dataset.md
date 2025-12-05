@@ -50,6 +50,7 @@
     | `Prefix` |text| Prefixes all mentioned table names | `Broker`
     | `Table`   |text| Name for table, without the prefix | `T` `Wallets`
     | `Item` | text | Name for item, without the prefix | `I` `Wallet`
+    | `Expands` | text | Table alias to extend | `T` `Wallets`
     | [`Keys`](<../🪣🛢 Itemized datasets/Item 🛢 Keys.md>)     | list | Properties that compose the key | `k` `k1,k2`
     | [`Parents`](<../🪣🛢 Itemized datasets/Item 🛢 Parents.md>) | dict | Parent relationships | `P:{P.k:T.p}`
     | [`Propagate`](<../🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) | list | Name of parents to auto-create | `P` `P,Q`
@@ -79,7 +80,9 @@
     # FULFILLMENT_ORDERS
 
     Prefix: FULFILLMENT_
-    Table: ORDERS
+    Table: ORDERS_2
+    Extends: ORDERS 
+    Item: ORDER
     Key: ID
 
     # Block changes once saved
