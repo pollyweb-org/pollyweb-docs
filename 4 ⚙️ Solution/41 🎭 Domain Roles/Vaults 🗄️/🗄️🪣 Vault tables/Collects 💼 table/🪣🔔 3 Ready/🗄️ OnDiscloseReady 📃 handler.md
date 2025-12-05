@@ -2,7 +2,7 @@
 
 > About
 * Part of the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>) role
-* Part of the [`Vault.Discloses` 🪣 table](<../🪣 Collects/🗄️ Vault.Discloses 🪣 table.md>)
+* Part of the [`Vault.Discloses` 🪣 table](<../🪣 Collects/🗄️ Vault.Collects 🪣 table.md>)
 
 <br/>
 
