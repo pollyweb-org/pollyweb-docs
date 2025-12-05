@@ -1,7 +1,7 @@
-@startuml OnShareAsked
+@startuml OnDiscloseAsked
 
 box Vault 🗄️ domain #FFFFFA
-    participant "Shares 🪣" as table
+    participant "Discloses 🪣" as table
     participant "OnAsked 🔔" as handler
 end box
 participant "Graph 🕸" as graph

@@ -1,8 +1,8 @@
-# 🗄️ OnShareReady 📃 handler
+# 🗄️ OnDiscloseReady 📃 handler
 
 > About
 * Part of the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>) role
-* Part of the [`Vault.Shares` 🪣 table](<../🪣 Discloses/🗄️ Vault.Discloses 🪣 table.md>)
+* Part of the [`Vault.Discloses` 🪣 table](<../🪣 Collects/🗄️ Vault.Discloses 🪣 table.md>)
 
 <br/>
 
@@ -15,17 +15,17 @@
 ## Script
 
 ```yaml
-📃 OnShareReady:
+📃 OnDiscloseReady:
 
 # Send the Collect message
 - SEND:
     Header:
-        To: $Share.Consumer
-        Subject: Collect@Consumer
+        To: $Disclose.Consumer
+        Subject: Consume@Consumer
     Body:
-        Hook: $Share.Hook.Require   # Consumer hook 
-        Share: $Share.ID.Require    # Vault share hook
-        Schema: $Share.Bind.Schema.Require
+        Query: $Disclose.Hook.Require   # Consumer hook 
+        Schema: $Disclose.Bind.Schema.Require
+        Collect: $Disclose.ID    # Vault share hook
 ```
 
 |Uses||
