@@ -50,6 +50,20 @@ Handlers:
     READY   >> OnShareReady:     # Calls Consume@Consumer
 ```
 
+Here's [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
+
+```yaml
+Assert:
+    # Group assertions
+    AllOf: Broker, Chat, Query, Schema
+    UUIDs: Chat, Query
+       
+    # From Disclose@Broker
+    Broker.IsDomain:
+    Schema.IsSchema:
+    Consumer.IsDomain:
+```
+
 <br/>
 
 ## Example
@@ -59,15 +73,20 @@ Here's the [`READ` command](<../../../../../37 Scripts 📃/📃 Commands ⌘/�
 ```yaml
 # Automatic
 ID: <share-uuid>
+```
 
-# From Disclose@Vault
+From the [`Disclose@Vault` 🐌 msg](<../../../🗄️📨 Vault msgs/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
+
+```yaml
 Bind: <bind-uuid>           # Vault bind to share
 Chat: <chat-uuid>           # Broker chat
 Query: <query-uuid>         # Hook for Consume@Consumer
-Language: en-us             # Data language
 Consumer: any-consumer.dom  # Data requester
+```
 
-# From OnShareTrusted
+From [`OnDiscloseTrusted` 📃 handler](<../🪣🔔 2 Trusted/🗄️ OnDiscloseTrusted 📃 handler.md>)
+
+```yaml
 Data: {...}
 ```
 
