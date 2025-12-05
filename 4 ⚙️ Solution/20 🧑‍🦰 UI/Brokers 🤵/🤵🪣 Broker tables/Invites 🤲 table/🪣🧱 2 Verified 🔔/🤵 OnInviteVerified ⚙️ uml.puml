@@ -10,13 +10,7 @@ participant "Graph 🕸" as graph
 participant "Wallet 🧑" as user
 
 
-activate host
-    host --> broker: Invite 🐌
-deactivate host
-
 activate broker
-    broker -> chats: READ 🧲 {$.Msg.Chat}
-    broker -> graph: TRANSLATE 🈯
     broker -> user: CONFIRM 🤔
     broker -> invitee: SAVE 💾 {HELPER} 
 deactivate broker
