@@ -1,32 +1,56 @@
-@startuml Invite
+@startuml 🤲 Helper.Helps
 
-participant "Consumer 💼 " as host
-box "Broker 🤵" #FFFFFA
-    participant "Handler 📃" as broker
-    participant "Chats 🪣" as chats
-    'participant "Chatters 🪣" as invitee
+box "Helper 🤲" #FFFFFA
+    participant "Help 🐌" as handler
+    participant "Helps 🪣" as table
 end box
+participant "Biller 🤝" as biller
+participant "Consumer 💼 " as consumer
 'participant "Graph 🕸" as graph
-participant "Wallet 🧑" as user
-participant "Helper 🤲" as helper
+participant "Wallet 🧑" as wallet
+'participant "Broker 🤵" as broker
 
 
-activate host
-    host --> broker: Invite 🐌
-deactivate host
+handler -> table: 💾 ASKED
 
-activate broker
-    broker -> chats: READ 🧲 {$.Msg.Chat}
-    broker -> user: CONFIRM 🤔
-deactivate broker
+activate table
+    table -> biller: 🚀 Authorize @ Biller {domain, schema}
+deactivate table
 
-activate user
-    user -> broker: 💾 CONFIRMED
-deactivate user
+activate biller
+    biller -> table: 💾 VALID ✅ BLOCKED ❌
+deactivate biller
 
-activate broker
-    broker -> helper: SAVE 💾 {HELPER} 
-    helper -> broker: 💾 {HELPER} 
-deactivate broker
+activate table
+    table -> consumer: 🚀 Invited @ Consumer {invite}
+deactivate table
+
+activate consumer
+    consumer -> table: 💾 DETAILED ✅ BROKEN ❌
+deactivate consumer
+
+activate table
+    table -> wallet: 🐌 Prompt @ Broker 
+deactivate table
+
+activate wallet
+    wallet -> table: 💾 HELPED ✅
+deactivate wallet
+
+activate table
+    table -> consumer: 🐌 Helped @ Consumer {invite, help}
+deactivate table
+
+activate consumer
+    consumer -> table: 💾 BILLABLE ✅
+deactivate consumer
+
+activate table
+    table -> biller: 🐌 Bill @ Biller {authorization}
+deactivate table
+
+activate biller
+    biller -> table: 💾 BILLED ✅
+deactivate biller
 
 @enduml 

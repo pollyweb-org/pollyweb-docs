@@ -2,13 +2,13 @@
 
 > About
 * Part of the [Vault 🗄️ domain](<../../../🗄️ Vault/🗄️🎭 Vault role.md>) role
-* Part of the [`Vault.Shares` 🪣 table](<../🪣 Shares/🗄️ Vault.Shares 🪣 table.md>)
+* Part of the [`Vault.Shares` 🪣 table](<../🪣 Discloses/🗄️ Vault.Discloses 🪣 table.md>)
 
 <br/>
 
 ## Diagram
 
-![alt text](<🗄️ OnShareReady ⚙️ uml.png>)
+![alt text](<🗄️ OnDiscloseReady ⚙️ uml.png>)
 
 <br/>
 
