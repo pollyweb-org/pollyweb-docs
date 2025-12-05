@@ -4,10 +4,11 @@ participant "Consumer 💼 " as host
 box "Broker 🤵" #FFFFFA
     participant "Handler 📃" as broker
     participant "Chats 🪣" as chats
-    participant "Chatters 🪣" as invitee
+    'participant "Chatters 🪣" as invitee
 end box
-participant "Graph 🕸" as graph
+'participant "Graph 🕸" as graph
 participant "Wallet 🧑" as user
+participant "Helper 🤲" as helper
 
 
 activate host
@@ -16,9 +17,16 @@ deactivate host
 
 activate broker
     broker -> chats: READ 🧲 {$.Msg.Chat}
-    broker -> graph: TRANSLATE 🈯
     broker -> user: CONFIRM 🤔
-    broker -> invitee: SAVE 💾 {HELPER} 
+deactivate broker
+
+activate user
+    user -> broker: 💾 CONFIRMED
+deactivate user
+
+activate broker
+    broker -> helper: SAVE 💾 {HELPER} 
+    helper -> broker: 💾 {HELPER} 
 deactivate broker
 
 @enduml 
