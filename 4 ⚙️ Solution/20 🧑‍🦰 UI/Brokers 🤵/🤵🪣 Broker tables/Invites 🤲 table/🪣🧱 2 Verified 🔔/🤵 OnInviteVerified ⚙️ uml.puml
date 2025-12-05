@@ -1,18 +1,21 @@
-@startuml Invite
+@startuml OnInviteVerified
 
-participant "Consumer 💼 " as host
 box "Broker 🤵" #FFFFFA
-    participant "Handler 📃" as broker
-    participant "Chats 🪣" as chats
-    participant "Chatters 🪣" as invitee
+    participant "Invites 🪣" as invites
+    participant "OnVerified 🔔" as broker
 end box
 participant "Graph 🕸" as graph
 participant "Wallet 🧑" as user
 
 
+invites --> broker: VERIFIED 🔔
+
 activate broker
+    broker -> broker: CHAT 💬
+    broker -> graph: TRANSLATE 🈯
     broker -> user: CONFIRM 🤔
-    broker -> invitee: SAVE 💾 {HELPER} 
+    broker -x invites: SAVE 💾 {REJECTED} 
+    broker -> invites: SAVE 💾 {CONFIRMED} 
 deactivate broker
 
 @enduml 

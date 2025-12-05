@@ -18,11 +18,7 @@
 ```yaml
 📃 OnInviteConfirmed:
 
-# Add the participant to the chat
-- SAVE|Broker.Chatters:
-    Chat: $Invite.Chat
-    Domain: $Invite.Helper
-    Role: HELPER
+
 ```
 
 Uses:  [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 

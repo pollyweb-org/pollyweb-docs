@@ -31,14 +31,7 @@
         Host: $.Msg.From # Only from the host
         .State: ACTIVE   # While the chat is active
 
-# Get the Helper title
-- TRANSLATE >> $translation:
-    Domain: $.Msg.Helper
-    To: $chat.Wallet.Language
 
-# Confirm with the Wallet
-- CONFIRM:
-    Text: Allow {$translation.Domain}?
 
 ```
 
