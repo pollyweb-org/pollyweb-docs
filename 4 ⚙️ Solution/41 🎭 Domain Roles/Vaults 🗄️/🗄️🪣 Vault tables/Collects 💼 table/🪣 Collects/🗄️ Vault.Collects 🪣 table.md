@@ -7,7 +7,7 @@
 
 ## Lifecycle
 
-![alt text](<🗄️ Vault.Discloses ⚙️ uml.png>)
+![alt text](<🗄️ Vault.Collects ⚙️ uml.png>)
 
 <br/>
 
