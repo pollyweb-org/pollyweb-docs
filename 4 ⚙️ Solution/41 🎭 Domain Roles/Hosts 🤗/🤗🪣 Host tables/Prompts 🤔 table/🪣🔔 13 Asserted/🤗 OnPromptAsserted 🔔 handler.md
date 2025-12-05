@@ -1,4 +1,4 @@
-# 🤗 OnHostPromptAsserted 🔔 handler
+# 🤗 OnPromptAsserted 🔔 handler
 
 > About
 * Part of the [Host 🤗 domain](<../../../🤗 Host role/🤗🎭 Host role.md>) role
@@ -8,14 +8,14 @@
 
 ## Diagram
 
-![alt text](<🤗 OnHostPromptAsserted ⚙️ uml.png>)
+![alt text](<🤗 OnPromptAsserted ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnPromptAsserted:
+📃 OnAsserted:
 
 # Assert readiness for Prompt@Broker
 - ASSERT|$Prompt:

@@ -8,14 +8,14 @@
 
 ## Diagram
 
-![alt text](<🤗 OnHostPromptInserted ⚙️ uml.png>)
+![alt text](<🤗 OnPromptInserted ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnPromptInserted:
+📃 OnInserted:
 
 # Assert the Prompt
 - ASSERT|$Prompt:

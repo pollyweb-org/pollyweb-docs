@@ -1,7 +1,7 @@
 # 🤵 OnPromptEmojied 📃 handler
 
 > About
-* Part of the [`Broker.Prompts` 🪣 table](<../🪣 Prompts/🤵 Broker.Prompts 🪣 table.md>)
+* Part of the [`Broker.Prompts` 🪣 table](<../🪣 Prompts/🤵🤔 Broker.Prompts 🪣 table.md>)
 * Calls the [`Prompt@Notifier` 🐌 msg](<../../../🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) 
     * to forward the emojied prompt to the [Notifier 📣 domain](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>).
 
@@ -9,7 +9,7 @@
 
 ## Diagram
 
-![alt text](<🤵 OnPromptEmojied ⚙️ uml.png>)
+![alt text](<🤵🤔 OnPromptEmojied ⚙️ uml.png>)
 
 <br/>
 
@@ -42,6 +42,6 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>) 
-| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Prompts` 🪣 table](<../🪣 Prompts/🤵 Broker.Prompts 🪣 table.md>)
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Prompts` 🪣 table](<../🪣 Prompts/🤵🤔 Broker.Prompts 🪣 table.md>)
 | [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Length`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Length ⓕ.md>) [`.IsAtMost`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsAtMost ⓕ.md>)
 |

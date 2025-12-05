@@ -6,7 +6,7 @@
 
 ## Lifecycle
 
-![alt text](<🤵 Broker.Prompts ⚙️ uml.png>)
+![alt text](<🤵🤔 Broker.Prompts ⚙️ uml.png>)
 
 <br/>
 
@@ -16,7 +16,7 @@
 |-|:-:|:-:
 | [`Prompt` 📃 handler](<../../../🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 📃 handler.md>) | X | 
 | [`OnPromptInserted` 📃 handler](<../🪣🧱 1 Inserted 🔔/🤵 OnPromptInserted 🔔 handler.md>) | X | X
-| [`OnPromptEmojied` 📃 handler](<../🪣🧱 2 Emojied 🔔/🤵 OnPromptEmojied 🔔 handler.md>) | |X 
+| [`OnPromptEmojied` 📃 handler](<../🪣🧱 2 Emojied 🔔/🤵🤔 OnPromptEmojied 🔔 handler.md>) | |X 
 
 <br/>
 
