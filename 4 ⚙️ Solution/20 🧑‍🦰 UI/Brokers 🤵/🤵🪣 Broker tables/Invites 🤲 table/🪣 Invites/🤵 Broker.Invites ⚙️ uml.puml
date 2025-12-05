@@ -5,7 +5,7 @@ box "Broker 🤵" #FFFFFA
     participant "Invites 🪣" as broker
     participant "Chatters 🪣" as chatters
 end box
-'participant "Graph 🕸" as graph
+participant "Graph 🕸" as graph
 participant "Wallet 🧑" as user
 participant "Helper 🤲" as helper
 
@@ -15,20 +15,27 @@ activate host
 deactivate host
 
 activate broker
+    broker -> graph: 🫡 TRUSTS
+deactivate broker
+
+activate graph
+    graph -> broker: 💾 TRUSTED ✅ UNTRUSTED ❌
+deactivate graph
+
+activate broker
     broker -> chatters: READ 🧲 
 deactivate broker
 
 activate chatters
-    chatters -> broker: 💾 VERIFIED ✅ INVALID ❌
+    chatters -> broker: 💾 CONFIRM ✅ HELP ✅
 deactivate chatters
 
 activate broker
-    'broker -> chats: READ 🧲 {$.Msg.Chat}
     broker -> user: CONFIRM 🤔
 deactivate broker
 
 activate user
-    user -> broker: 💾 CONFIRMED ✅ REJECTED ❌
+    user -> broker: 💾 HELP ✅ REJECTED ❌
 deactivate user
 
 activate broker

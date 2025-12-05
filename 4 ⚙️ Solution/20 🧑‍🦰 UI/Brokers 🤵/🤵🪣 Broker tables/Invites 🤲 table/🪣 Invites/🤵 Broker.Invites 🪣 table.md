@@ -15,7 +15,7 @@
 
 | Blame | OnSuccess ✅ | OnFailure ❌ | 
 |-|-|-
-| [`Invite@Broker` 🐌](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | [`INVITED`](<../🪣🧱 1 Invited 🔔/🤵 OnInviteInvited 🔔 handler.md>) [`VERIFIED`](<../🪣🧱 3 Verified 🔔/🤵 OnInviteVerified 🔔 handler.md>) [`CONFIRMED`](<../🪣🧱 4 Confirmed 🔔/🤵 OnInviteConfirmed 🔔 handler.md>) | `INVALID` `REJECTED`
+| [`Invite@Broker` 🐌](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | [`INVITED`](<../🪣🧱 1 Invited 🔔/🤵 OnInviteInvited 🔔 handler.md>) [`VERIFIED`](<../🪣🧱 3 Verified 🔔/🤵 OnInviteVerified 🔔 handler.md>) [`CONFIRMED`](<../🪣🧱 4 Added 🔔/🤵 OnInviteAdded 🔔 handler.md>) | `INVALID` `REJECTED`
 
 <br/>
 
@@ -34,7 +34,7 @@ The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Item
 Parents: Chat
 ```
 
-The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnInvited`](<../🪣🧱 1 Invited 🔔/🤵 OnInviteInvited 🔔 handler.md>) [`OnVerified`](<../🪣🧱 3 Verified 🔔/🤵 OnInviteVerified 🔔 handler.md>) [`OnConfirmed`](<../🪣🧱 4 Confirmed 🔔/🤵 OnInviteConfirmed 🔔 handler.md>).
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnInvited`](<../🪣🧱 1 Invited 🔔/🤵 OnInviteInvited 🔔 handler.md>) [`OnVerified`](<../🪣🧱 3 Verified 🔔/🤵 OnInviteVerified 🔔 handler.md>) [`OnConfirmed`](<../🪣🧱 4 Added 🔔/🤵 OnInviteAdded 🔔 handler.md>).
 
 ```yaml
 Handlers:

@@ -1,4 +1,4 @@
-# 🤵 OnInviteConfirmed 📃 handler
+# 🤵 OnInviteAdded 📃 handler
 
 > About
 * Part of the [`Broker.Invites` 🪣 table](<../🪣 Invites/🤵 Broker.Invites 🪣 table.md>)
@@ -9,20 +9,14 @@
 
 ## Diagram
 
-![alt text](<🤵 OnInviteConfirmed ⚙️ uml.png>)
+![alt text](<🤵 OnInviteAdded ⚙️ uml.png>)
   
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnConfirmed:
-
-# Add the chat participant, if not already added
-- SAVE|Broker.Chatters:
-    Chat: $Invite.Chat
-    Domain: $Invite.Helper
-    Role: HELPER
+📃 OnAdded:
 
 # Invite the helper to the chat
 - SEND:
