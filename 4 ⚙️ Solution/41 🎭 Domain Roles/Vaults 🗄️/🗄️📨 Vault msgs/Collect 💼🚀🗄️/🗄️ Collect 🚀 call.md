@@ -27,7 +27,7 @@ Header:
     Subject: Collect@Vault
 
 Body:
-    Collect: <collect-uuid> 
+    Disclose: <disclose-uuid> 
 ````
 
 |Object|Property|Type|Description|Origin
@@ -35,7 +35,7 @@ Body:
 |Header|`From`|text| [Consumer 💼](<../../../Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | [`Consume@`](<../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 ||`To`|text| [Vault 🗄️](<../../🗄️ Vault/🗄️🎭 Vault role.md>) | [`Consume@`](<../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 ||`Subject` |text| `Collect@Vault`
-|Body|`Collect` | uuid | `Collect` | [`Consume@`](<../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
+|Body|`Disclose` | uuid | [Vault 🗄️](<../../🗄️ Vault/🗄️🎭 Vault role.md>) hook | [`Consume@`](<../../../Consumers 💼/💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 🐌 msg.md>)
 |
 
 <br/>

@@ -25,7 +25,7 @@
     Body:
         Query: $Disclose.Hook.Require   # Consumer hook 
         Schema: $Disclose.Bind.Schema.Require
-        Collect: $Disclose.ID    # Vault share hook
+        Disclose: $Disclose.ID    # Vault disclose hook
 ```
 
 |Uses||

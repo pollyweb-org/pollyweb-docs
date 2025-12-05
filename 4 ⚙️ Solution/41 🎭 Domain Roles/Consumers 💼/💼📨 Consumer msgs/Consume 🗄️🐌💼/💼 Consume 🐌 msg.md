@@ -25,7 +25,7 @@ Header:
 Body:
     Query: <query-uuid>
     Schema: any-authority.dom/ANY-SCHEMA:1.0
-    Collect: <collect-uuid>
+    Disclose: <disclose-uuid>
     TTL: 2023-04-01T05:00:30.001000Z
 ```
 
@@ -37,7 +37,7 @@ Object |Property|Type|Description|Origin|Purpose
 || `Subject` |text| `Consume@Consumer`
 |Body| `Query` | uuid | [Consumer 💼](<../../💼 Consumer/💼🎭 Consumer role.md>)  Query | [`Query@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) [`Invite@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 || `Schema`|text| Data [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) || [`Trusts@`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>)
-|| `Collect` | uuid | [Vault 🗄️](<../../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) Hook || [`Collect@`](<../../../Vaults 🗄️/🗄️📨 Vault msgs/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
+|| `Disclose` | uuid | [Vault 🗄️](<../../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) Hook || [`Collect@`](<../../../Vaults 🗄️/🗄️📨 Vault msgs/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
 || `TTL` | time| Collect deadline || [`Collect@`](<../../../Vaults 🗄️/🗄️📨 Vault msgs/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
 |
 
