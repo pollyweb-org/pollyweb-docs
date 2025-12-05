@@ -18,11 +18,26 @@
 ```yaml
 📃 OnInviteConfirmed:
 
-# Add the participant to the chat
+# Add the chat participant, if not already added
 - SAVE|Broker.Chatters:
     Chat: $Invite.Chat
     Domain: $Invite.Helper
     Role: HELPER
+
+# Invite the helper to the chat
+- SEND:
+    Header:
+        To: $Invite.Helper
+        Subject: Invited@Helper
+    Body:
+        Chat: $Invite.Chat
+        Schema: $Invite.Schema
+        Inviter: $Invite.Inviter
+        Invite: $Invite.ID
+
+# Mark as done
+- SAVE|$Invite:
+    .State: DONE
 ```
 
 Uses ||
