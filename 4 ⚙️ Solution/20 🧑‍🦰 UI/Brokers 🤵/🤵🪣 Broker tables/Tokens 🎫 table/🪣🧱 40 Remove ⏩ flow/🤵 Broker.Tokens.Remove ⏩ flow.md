@@ -12,7 +12,7 @@ Step | Purpose |
 |-|-
 |[`Pop@Broker` 🐌 msg](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) endpoint to pop-up a [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |[`Pop@Broker` 📃 handler](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)
-|[`OnPopToken` 🔔 handler](<../../../🤵🔆 Broker locators/PopToken 🔆/Token/🤵 OnPopToken 🔔 handler.md>) | 
+|[`OnPopToken` 🔔 handler](<../../../🤵🔆 Broker locators/PopToken 🔆/Token/🤵 PopToken 🔆 handler.md>) | 
 |[`OnPopRemoveToken` 🔔 handler](<../../../🤵🔆 Broker locators/PopToken 🔆/Token » Remove/🤵 OnPopRemoveToken 🔔 handler.md>)| 
 |[`OnTokenRemoved` 🔔 handler](<../🪣🧱 41 Removed 🔔 event/🤵 OnTokenRemoved 🔔 handler.md>)
 |[`Removed@Issuer` 🐌 msg](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴📨 Issuer msgs/Removed 🤵🐌🎴/🎴 Removed 🐌 msg.md>)
