@@ -17,44 +17,44 @@
 📃 PopBind:
 
 # Assert the inputs
-- ASSERT:
+- 🚦 ASSERT:
     $.Chat.Wallet: 
     $.Chat.Inputs.Bind:
 
 # Get the Bind
-- SELECT >> $bind:
+- 🅾️ SELECT >> $bind:
     From: Broker.Binds
     Where: 
         ID: $.Chat.Inputs.Bind
         Wallet: $.Chat.Wallet
 
 # Show info about the bind
-- INFO|Bind: ´{$bind.Title}´
+- ℹ️ INFO|Bind: ´{$bind.Title}´
 
 # Add general options
-- IF|$bind.State.IsIn(ACTIVE, REMOVED):
+- ⤵️ IF|$bind.State.IsIn(ACTIVE, REMOVED):
     PUT +> $options: /Tag Bind
 
 # Add options of active binds
-- IF|$bind.State.Is(ACTIVE):
+- ⤵️ IF|$bind.State.Is(ACTIVE):
     PUT +> $options: /Remove Bind
 
 # Exit if there are no options available
-- IFNOT|$options:
+- ⤵️ IFNOT|$options:
     RETURN
 
 # Show the options
-- ONE:
+- 1️⃣ ONE:
     Title: What do you need?
     Options: $options
 
 # Handle the selection
-- CASE >> $handler:
+- ⏯️ CASE >> $handler:
     Tag: PopBindTag
     Remove: PopBindRemove
 
 # Handle the selection
-- RUN|$handler: $bind
+- 🏃 RUN|$handler: $bind
 ```
 
 Uses||

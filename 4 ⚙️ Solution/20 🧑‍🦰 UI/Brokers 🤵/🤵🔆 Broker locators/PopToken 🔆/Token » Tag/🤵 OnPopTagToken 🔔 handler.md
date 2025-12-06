@@ -11,22 +11,23 @@
 📃 Tag-Token:
 
 # Verify inputs
-- ASSERT|$.Inputs:
+- 🚦 ASSERT|$.Inputs:
     AllOf: token
 
-# Ask for the tag 🤔
-- TEXT|What to tag? >> $tag:
+# Ask for the tag
+- 🔠 TEXT|What to tag? >> $tag:
     Details: Provide an alias that you recognize.
     Default: $token.Tag
     Nullable: True
 
-# Update the Token 🎫
-- SAVE|$token:
+# Update the Token
+- 💾 SAVE|$token:
     Tag: $tag
     Title: $tag
 
-# Inform the user 🤔
+# Inform the user
 - DONE|Changed.
+- GOODBYE
 ```
 
 Uses||
