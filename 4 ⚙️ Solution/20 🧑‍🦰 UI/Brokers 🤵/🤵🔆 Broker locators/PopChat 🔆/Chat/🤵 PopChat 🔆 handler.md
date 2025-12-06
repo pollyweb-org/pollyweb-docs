@@ -30,13 +30,15 @@
 
 # Prepare options
 - IF|$chat.State.Is(ACTIVE):
-    PUT +> $options: /Mute Chat
-    PUT +> $options: /Abandon Chat
-    PUT +> $options: /Block Host
-    
+    - PUT +> $options: /Abandon Chat
+    - IF|$chat.Muted:
+        PUT +> $options: /Unmute Chat
+    - IFNOT|$chat.Muted:
+        PUT +> $options: /Mute Chat
+
 # Exit if there are no options available
 - IFNOT|$options:
-    RETURN
+    - RETURN
 
 # Prompt the user for options
 - ONE|What do you need? >> $option:
@@ -45,7 +47,7 @@
 # Process the user's option
 - CASE|$option >> $handler:
     Mute: PopChatMute
-    Block: PopChatBlock
+    Unmute: PopChatUnmute
     Abandon: PopChatAbandon
 
 - RUN|$handler: $chat

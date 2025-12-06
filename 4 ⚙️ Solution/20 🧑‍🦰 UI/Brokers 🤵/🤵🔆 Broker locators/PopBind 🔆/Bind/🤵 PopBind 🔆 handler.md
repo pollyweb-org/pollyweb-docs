@@ -33,15 +33,15 @@
 
 # Add general options
 - IF|$bind.State.IsIn(ACTIVE, REMOVED):
-    PUT +> $options: /Tag Bind
+    - PUT +> $options: /Tag Bind
 
 # Add options of active binds
 - IF|$bind.State.Is(ACTIVE):
-    PUT +> $options: /Remove Bind
+    - PUT +> $options: /Remove Bind
 
 # Exit if there are no options available
 - IFNOT|$options:
-    RETURN
+    - RETURN
 
 # Show the options
 - ONE:

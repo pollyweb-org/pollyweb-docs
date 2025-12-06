@@ -30,11 +30,11 @@
 
 # Add general options
 - IF|$token.State.IsIn(ACTIVE, REMOVED):
-    PUT +> $options: /Tag Token
+    - PUT +> $options: /Tag Token
 
 # Add options of active tokens
 - IF|$token.State.Is(ACTIVE):
-    PUT +> $options: /Remove Token
+    - PUT +> $options: /Remove Token
 
 # Ask for an action.
 - ONE|What do you need?:
