@@ -1,37 +1,31 @@
-# 🤵 PopRemoveToken 🔆 handler
+# 🤵 PopTokenRemove 🔆 handler
 
 > About
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements [`Remove Token` ⏩ flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
 
 <br/>
 
+## Diagram
+
+![alt text](<🤵 PopTokenRemove ⚙️ uml.png>)
+
+<br/>
+
 ## Script
 
 ```yaml
-📃 Remove-Token:
+📃 PopTokenRemove:
 
 # Verify inputs
-- ASSERT|$.Inputs:
-    AllOf: token
+- ASSERT|$token
 
 # Ask for confirmation 🤔
-- CONFIRM|Remove Token {$token.Title}?
-
-# Remove the Token 🎫
-- DELETE|$token >> $deleted:
-    Undo: 30 days
+- CONFIRM:
+    Remove Token {$token.Title}? 
+    This action cannot be undone.
 
 # Inform the user 🤔
-- DONE:
-    Text: Token removed.
-    Options: 
-        - /Undo removal
-
-# Undo the removal.
-- CASE:
-    Undo: 
-      - RUN|Undo-Token-Removal:
-          $deleted
+- DONE: Token removed.
 ```
 
 Uses||

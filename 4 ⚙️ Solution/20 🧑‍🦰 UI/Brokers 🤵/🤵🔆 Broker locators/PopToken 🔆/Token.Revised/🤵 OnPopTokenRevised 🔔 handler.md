@@ -1,7 +1,6 @@
 # 🤵 OnPopTokenRevised 📃 script
 
 > About
-* Part of the [`Broker.Pops` 🪣 table](<../../../🤵🪣 Broker tables/Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
 * Part of the [`Broker.Tokens.Revise` ⏩ flow](<../../../🤵🪣 Broker tables/Tokens 🎫 table/🪣🧱 50 Revise ⏩ flow/🤵 Broker.Tokens.Revise ⏩ flow.md>)
 
 > Purpose
