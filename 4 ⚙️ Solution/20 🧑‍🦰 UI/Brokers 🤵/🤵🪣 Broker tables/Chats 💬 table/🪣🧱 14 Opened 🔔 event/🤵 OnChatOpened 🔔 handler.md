@@ -25,12 +25,17 @@
 
 # Activate the Chat on Pop@Broker
 - IF|$Chat.Host.Is($.Hosted.Domain):
-    - SAVE|$Chat:
-        .State: ACTIVE
-    - RETURN
+    RETURN|ACTIVE
 
 # Otherwise, add the Finder to the Chat
-SAVE|Broker.Chatters:
+- INVITE|.CHAT/PRESENT:
+    Invited: 
+    Chat: $Chat.ID
+    Domain: $.Hosted.Domain
+
+# Then invite the Broker
+    
+- SAVE|Broker.Chatters:
     .State: FINDER
     Domain: $Chat.Wallet.Finder
     Role: VAULT

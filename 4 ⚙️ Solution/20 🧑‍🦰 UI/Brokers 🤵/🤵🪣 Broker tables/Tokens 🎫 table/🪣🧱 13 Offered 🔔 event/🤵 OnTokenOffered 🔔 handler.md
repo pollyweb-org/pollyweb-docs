@@ -25,19 +25,19 @@
     Texts: Issuer
     Bools: Accepted
 
-IF|$Token.Accepted:
-    Then:  # Ask the wallet to save the token
-        SEND:
-            Header:
-                To: $Token.Wallet.Notifier
-                Subject: Save@Notifier
-            Body:
-                Wallet: $Token.Wallet.ID
-                Issuer: $Token.Issuer
-                Token: $Token.Token   
-    Else: 
-        SAVE|$Token: # Ignore the token
-            .State: DECLINED
+# Ignore if not accepted
+- IFNOT|$Token.Accepted:
+    RETURN|DECLINED
+
+# Otherwise, ask the wallet to save the token
+- SEND:
+    Header:
+        To: $Token.Wallet.Notifier
+        Subject: Save@Notifier
+    Body:
+        Wallet: $Token.Wallet.ID
+        Issuer: $Token.Issuer
+        Token: $Token.Token   
 ```
 
 |Uses||

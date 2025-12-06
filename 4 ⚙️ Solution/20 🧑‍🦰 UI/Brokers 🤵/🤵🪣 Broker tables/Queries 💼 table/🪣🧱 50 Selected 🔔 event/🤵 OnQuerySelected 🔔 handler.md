@@ -38,9 +38,7 @@
 
 # Exit if no trust was selected
 - IFNOT|$confirm:
-    - SAVE|$Query:
-        .State: REJECTED
-    - RETURN
+    RETURN|REJECTED
 
 # Assign the trust data to the Query
 - CASE|$Query.Selected.Type:
@@ -53,7 +51,7 @@
         SAVE|$Query:
             .State: SHARED
             Token: $Query.Selected.ID.Require
-            Vault: $Query.Selected.Domain.Require
+            Issuer: $Query.Selected.Domain.Require
 ```
 
 Uses ||
