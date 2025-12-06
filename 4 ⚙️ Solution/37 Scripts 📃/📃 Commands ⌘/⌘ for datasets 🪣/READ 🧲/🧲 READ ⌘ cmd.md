@@ -93,7 +93,7 @@
 
 1. **How to read a specific item property?**
 
-    The syntax for properties is th following.
+    The syntax for properties is the following.
 
     ```yaml
     {$holder.property}
