@@ -1,6 +1,7 @@
 # 😃🅾️ Talker `SELECT` command
 
-> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+> About
+* Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
 ## FAQ 
 
@@ -140,22 +141,18 @@
 
 1. **How to assert if an item exists in an [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)**?
 
-    The following [`SELECT`](<🅾️ SELECT ⌘ cmd.md>) and [`ASSERT`](<../ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) commands achieve this result:
-    * [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) automatically fills the keys, but not the internal ID.
-    * [`SELECT`](<🅾️ SELECT ⌘ cmd.md>) will only return a boolean.
+    The following [`EXISTS`](<../../⌘ for datasets 🪣/EXISTS 👽/👽 EXISTS ⌘ cmd.md>) and [`SELECT`](<🅾️ SELECT ⌘ cmd.md>) commands are equivalent.
 
     ```js
-    ┌──────────────────┬───────────────────┐
-    │ READ >> $item:   │ SELECT >> $exists │
-    │   Set: MySet     │   Exists:         │
-    │   Key:           │   From: MySet     │
-    │     A: 1         │   Where:          │
-    │     B: 2         │     A: 1          │
-    │   Default:       │     B: 2          │
-    ├──────────────────┼───────────────────┤
-    │ IFNOT|$item.ID:  │ IFNOT|$exists     │
-    │   Then: ...      │   Then: ...       │
-    └──────────────────┴───────────────────┘ 
+    ┌────────────────────┬────────────────────┐
+    │ EXISTS >> $exists: │ SELECT >> $exists: │
+    │   Set: MySet       │   Exists:          │
+    │   Key:             │   From: MySet      │
+    │     A: 1           │   Where:           │
+    │     B: 2           │     A: 1           │
+    │   Assert:          │     B: 2           │
+    │     C.In: 3,4      │     C.In: 3,4      │
+    └────────────────────┴────────────────────┘ 
     ```   
 
     ---
