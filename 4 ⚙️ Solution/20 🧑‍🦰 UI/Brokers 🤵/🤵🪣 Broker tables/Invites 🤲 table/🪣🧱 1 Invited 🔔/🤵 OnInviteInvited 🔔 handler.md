@@ -22,6 +22,8 @@
 - ASSERT|$Invite >> $valid:
     Chat.Host: Inviter   # Only from the host
     Chat.State: ACTIVE   # While the chat is active
+
+# Exit if invalid
 - IFNOT|$valid: 
     RETURN|INVALID
 
@@ -31,6 +33,8 @@
     Trusted: $Invite.Helper
     Schema: $Invite.Schema
     Role: VAULT
+
+# Exit if not a trusted VAULT
 - IFNOT|$trusted:
     RETURN|UNTRUSTED
 
@@ -40,6 +44,8 @@
     Trusted: $Invite.Inviter
     Schema: $Invite.Schema
     Role: CONSUMER
+
+# Exit if not a trusted CONSUMER
 - IFNOT|$trusted:
     RETURN|UNTRUSTED
 
