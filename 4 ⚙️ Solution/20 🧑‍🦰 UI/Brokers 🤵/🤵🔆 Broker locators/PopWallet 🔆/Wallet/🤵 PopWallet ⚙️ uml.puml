@@ -1,22 +1,20 @@
-@startuml OnPopPopped
+@startuml PopWallet
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Pops 🪣" as pops
-    participant "OnWallet 🔔" as popped
+    participant "Wallet  🔆" as popped
+    participant "Wallets 🪣" as wallets
 end box
 
 
-wallet --> pops: Pop 🐌 {WALLET}
-
-activate pops
-    pops --> popped: POPPED 🔔
-deactivate pops
+wallet -> popped: Pop 🎈 {WALLET}
 
 activate popped
-    popped -> popped: CHAT 💬 
+    popped -> wallets: SELECT 🧲 
+    popped -> wallet: INFO ⓘ {wallet}
     popped -> wallet: ONE 🤔 {what?}
-    popped -> pops: SAVE 💾 {...}
+    popped -> : RUN {selection, wallet}
 deactivate popped
+
 
 @enduml 

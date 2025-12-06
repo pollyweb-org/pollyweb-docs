@@ -23,7 +23,7 @@
     SELECT:
         All|First|Last|Distinct|Exists: [fields]
         From: $list-1, $list-n
-        Where: {filters}
+        Where|Key: {filters}
         OrderBy: +a, -b
         Limit: 10
     ```
@@ -38,6 +38,7 @@
     | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Cross ⓕ.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)
     | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ.md>) to filter [List 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) items 
     |  | And uses [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) to read [Itemized 🪣 datasets](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) by key
+    | `Key` | Uses [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) to read [Itemized 🪣 datasets](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) by key
     | `OrderBy`| Uses [`Set.Sort`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Sort ⓕ set.md>) to order the [List 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) items
     | `Limit` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ set.md>) to limit the items returned
 
