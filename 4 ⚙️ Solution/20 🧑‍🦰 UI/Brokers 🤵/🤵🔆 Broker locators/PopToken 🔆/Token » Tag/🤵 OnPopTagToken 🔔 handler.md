@@ -3,7 +3,7 @@
 > Part of the [`Broker.Pops` 🪣 table](<../../../🤵🪣 Broker tables/Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
 
 > Flow
-* Called by the [`OnPopToken` 🔔 handler](<../🪣🧱 61 Token 🔔/🤵 OnPopToken 🔔 handler.md>)
+* Called by the [`OnPopToken` 🔔 handler](<../Token/🤵 OnPopToken 🔔 handler.md>)
 
 ## Script
 
