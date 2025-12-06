@@ -25,16 +25,26 @@
         Key: $id
 
     # Add the details to the chat
-    - PUT +> $binds:
-        ID: $bind.ID
-        Schema: $bind.Schema
+    - SET|$binds:
+        $bind.ID:
+            ID: $bind.ID
+            Schema: $bind.Schema
+            Reference: $bind.Reference
+
+# Set the Wallet to the first .BIND, if any
+- PUT >> $wallet:
+    $binds.First:
+        Schema: .BIND
 
 # Add to the Chat item
 - SAVE|$Chat:
-    
-    # Progress the state
-    .State: TOKENS
-
-    # Add the Binds
     Binds: $binds
+    Wallet: $wallet
+
+# Progress the state
+- RETURN: TOKEN
 ```
+
+Uses ||
+|-|-
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`PARALLEL`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>) [`PUT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) |

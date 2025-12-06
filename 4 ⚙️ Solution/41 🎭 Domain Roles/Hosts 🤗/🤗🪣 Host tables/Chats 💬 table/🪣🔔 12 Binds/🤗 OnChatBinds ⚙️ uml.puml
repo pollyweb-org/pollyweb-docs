@@ -17,6 +17,8 @@ activate script
         script -> script: SET {bind details}
     deactivate script   
 
+    script -> script: Chat.Wallet: Bind.First(Schema: .HOST)
+    
     script -> chats: 💾 TOKENS
 
 deactivate script   
