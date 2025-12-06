@@ -1,4 +1,4 @@
-@startuml OnChatMute
+@startuml PopChatMute
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA

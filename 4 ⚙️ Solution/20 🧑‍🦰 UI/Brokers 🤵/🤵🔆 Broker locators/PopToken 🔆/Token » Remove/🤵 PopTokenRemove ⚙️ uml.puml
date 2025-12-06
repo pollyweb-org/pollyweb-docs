@@ -1,8 +1,9 @@
-@startuml PopRemoveToken
+@startuml PopTokenRemove
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Token 🔆" as token
+    participant "Remove 🔆" as remove
     participant "Tokens 🪣" as tokens
 end box
 
@@ -11,10 +12,14 @@ wallet -> token: POP 🎈 {Token}
 
 activate token    
     wallet -> token: "remove"
-    token -> wallet: CONFIRM 👍 "remove?"
-    token -> tokens: SAVE 💾 {REMOVED}
-    token -> wallet: DONE ✅ "removed"
-    token -> : GOODBYE 👋
+    token -> remove: RUN {token}
 deactivate token
+
+activate remove
+    remove -> wallet: CONFIRM 👍 "remove?"
+    remove -> tokens: SAVE 💾 {REMOVED}
+    remove -> wallet: DONE ✅ "removed"
+    remove -> : GOODBYE 👋
+deactivate remove
  
 @enduml 

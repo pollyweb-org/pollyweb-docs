@@ -1,4 +1,4 @@
-@startuml OnPopToken
+@startuml PopToken
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA

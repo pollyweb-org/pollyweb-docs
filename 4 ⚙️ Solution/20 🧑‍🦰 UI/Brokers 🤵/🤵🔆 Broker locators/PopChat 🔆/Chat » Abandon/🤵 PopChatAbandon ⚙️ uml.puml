@@ -1,4 +1,4 @@
-@startuml OnPopAbandon
+@startuml PopChatAbandon
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA

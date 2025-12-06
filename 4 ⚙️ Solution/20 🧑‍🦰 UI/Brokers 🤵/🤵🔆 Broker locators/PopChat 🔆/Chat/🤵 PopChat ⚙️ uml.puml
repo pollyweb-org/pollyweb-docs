@@ -1,4 +1,4 @@
-@startuml OnPopChat
+@startuml PopChat
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA

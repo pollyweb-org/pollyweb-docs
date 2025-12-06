@@ -1,8 +1,9 @@
-@startuml PopRemoveToken
+@startuml PopTokenTag
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Token 🔆" as token
+    participant "Tag 🔆" as tag
     participant "Tokens 🪣" as tokens
 end box
 
@@ -11,10 +12,14 @@ wallet -> token: POP 🎈 {Token}
 
 activate token    
     wallet -> token: "tag"
-    token -> wallet: TEXT 🔠 "tag?"
-    token -> tokens: SAVE 💾 {tag}
-    token -> wallet: DONE ✅ "changed"
-    token -> : GOODBYE 👋
+    token -> tag: RUN {token}
 deactivate token
+
+activate tag
+    tag -> wallet: TEXT 🔠 "tag?"
+    tag -> tokens: SAVE 💾 {tag}
+    tag -> wallet: DONE ✅ "changed"
+    tag -> : GOODBYE 👋
+deactivate tag
  
 @enduml 
