@@ -9,7 +9,7 @@
 
 ## Diagram
 
-![alt text](<🤵 OnPopLocalize ⚙️ uml.png>)
+![alt text](<🤵 PopLocalize ⚙️ uml.png>)
 
 <br/>
 

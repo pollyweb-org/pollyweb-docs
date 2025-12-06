@@ -9,7 +9,7 @@
 
 ## Diagram
 
-![alt text](<🤵 OnPopWallet ⚙️ uml.png>)
+![alt text](<🤵 PopWallet ⚙️ uml.png>)
 
 <br/>
 
