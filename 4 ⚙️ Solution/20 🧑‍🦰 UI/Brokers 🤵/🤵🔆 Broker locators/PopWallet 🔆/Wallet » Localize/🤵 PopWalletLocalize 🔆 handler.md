@@ -1,6 +1,4 @@
-# 🤵 OnPopLocalize 📃 handler
-
-> Part of the [`Broker.Pops` 🪣 table](<../../../🤵🪣 Broker tables/Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
+# 🤵 PopWalletLocalize 📃 handler
 
 > Purpose
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that reacts to a Pop to change the language.
@@ -9,7 +7,7 @@
 
 ## Diagram
 
-![alt text](<🤵 PopLocalize ⚙️ uml.png>)
+![alt text](<🤵 PopWalletLocalize ⚙️ uml.png>)
 
 <br/>
 

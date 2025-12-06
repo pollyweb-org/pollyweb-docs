@@ -1,0 +1,34 @@
+@startuml PopWalletLocalize
+ 
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "Wallet 🔆" as onWallet
+    participant "Localize 🔆" as onLocalized
+    participant "Wallets 🪣" as walletsTable
+end box
+
+
+wallet -> onWallet: Pop 🎈 {WALLET}
+
+activate onWallet
+    wallet -> onWallet: "localize"
+    onWallet -> onLocalized: RUN {wallet}
+deactivate onWallet
+
+activate onLocalized
+    onLocalized -> wallet: ONE 🤔 {region?}
+    onLocalized -> wallet: CONFIRM 🤔 {change?}
+    onLocalized -> walletsTable: SAVE 💾 {language:new}
+    onLocalized -> wallet: DONE ✅ {changed}
+deactivate onLocalized
+
+'activate wallet
+    wallet -> onLocalized: {revert}
+'deactivate wallet
+
+activate onLocalized
+    onLocalized -> walletsTable: SAVE 💾 {language:old}
+    onLocalized -> wallet: DONE ✅ {reverted}
+deactivate onLocalized
+
+@enduml 
