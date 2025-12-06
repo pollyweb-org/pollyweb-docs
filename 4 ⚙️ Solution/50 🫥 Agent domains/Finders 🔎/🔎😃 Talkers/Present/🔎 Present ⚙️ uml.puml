@@ -11,7 +11,7 @@ participant "Graph 🕸\ndomain" as graph
 'participant "Host 🤗\ndomain" as host
 
 
-    broker --> finder: Present 🐌
+    broker --> finder: 🐌 Help @ Helper 
 
     activate finder
 
@@ -22,9 +22,9 @@ participant "Graph 🕸\ndomain" as graph
         finder -> graph: SEND: Translate 🚀
       deactivate finder
         
-      finder --> broker: SEND: Prompt 🤔
+      finder --> broker: ⓘ INFO
 
-      finder --> broker: SEND: Presented 🐌
+      finder --> broker: 🐌 Helped @ Consumer 
       
     deactivate finder
 

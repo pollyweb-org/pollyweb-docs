@@ -18,6 +18,11 @@
 ```yaml
 📃 OnInvited:
 
+# Trust all invites from the Broker itself
+#   this is to allow intros to Chats by Finders
+- IF|$Invite.Inviter.Is($.Hosted.Domain):   
+    RETURN|TRUSTED
+
 # Assert rules
 - ASSERT|$Invite >> $valid:
     Chat.Host: Inviter   # Only from the host

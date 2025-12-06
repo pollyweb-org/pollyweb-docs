@@ -1,16 +1,16 @@
 @startuml Present
 
-actor "User\nin chat" as user
-participant "Broker 🤵\nhost" as broker
-participant "Finder 🔎\nvault" as finder
-participant "Reviewer ⭐\nvault" as reviewer
-participant "Graph 🕸\ndomain" as graph
+participant "Wallet 🧑" as user
+participant "Broker 🤵" as broker
+participant "Finder 🔎" as finder
+participant "Reviewer ⭐" as reviewer
+participant "Graph 🕸" as graph
 'participant "Host 🤗\ndomain" as host
 
 
 activate broker
 
-    broker --> finder: 1) Present 🐌
+    broker --> finder: 1) 🐌 Help @ Helper 
     deactivate broker
 
     activate finder
@@ -33,7 +33,7 @@ activate broker
 
       finder --> user: 5 ⏪ Prompt 🤔
 
-      finder --> broker: 6) Presented 🐌
+      finder --> broker: 6) 🐌 Helped @ Consumer 
       
     deactivate finder
     activate broker

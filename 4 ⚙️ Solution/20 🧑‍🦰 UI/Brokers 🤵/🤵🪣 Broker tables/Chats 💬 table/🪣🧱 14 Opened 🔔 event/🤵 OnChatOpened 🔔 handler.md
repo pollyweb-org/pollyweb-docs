@@ -33,6 +33,10 @@
     Broker: $.Hosted.Domain
     Helper: $Chat.Wallet.Finder
     Schema: .CHAT/INTRO/FINDER
+    Context:
+        Host: $Chat.Host
+        Language: $Chatter.Chat.Language.Require
+        Reviewer: $Chatter.Chat.Wallet.Reviewer.Require
 
 # Then invite the Broker
 - INVITE:

@@ -2,7 +2,6 @@
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
-> Used by the [`Presented@Broker` 🐌 msg](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>)
  
 ## FAQ
 

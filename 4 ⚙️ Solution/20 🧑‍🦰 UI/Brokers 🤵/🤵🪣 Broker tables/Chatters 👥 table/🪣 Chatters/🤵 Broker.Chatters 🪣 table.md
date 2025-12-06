@@ -11,7 +11,7 @@
 | [Role 🎭](<../../../../../40 👥 Domains/👥 Domain/👥🎭 Domain Role.md>) | [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [domain 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | Details
 |-|-|-|-
 | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | [`Locate@Broker`](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Hello@Host`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)| Done
-| [Finder 🔎](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Locate@Broker`](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Present@Finder`](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | Done
+| [Finder 🔎](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Locate@Broker`](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Present@Finder`](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎😃 Talkers/Present/🔎 Present 🐌 msg.md>) | Done
 | [Helper 🤲](<../../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) | [`Invite@Broker`](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | [`Help@Helper`](<../../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>) | Done
 | [Vault 🗄️](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | [`Query@Broker`](<../../../🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) | [`Disclose@Vault`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>) | Missing 🚨
 |
@@ -54,12 +54,11 @@ Parents:
 
 <br/>
 
-The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnPop`](<../🪣🧱 11 Pop 🔔 event/🤵 OnChatterPop 🔔 handler.md>) [`OnFinder`](<../🪣🧱 21 Finder 🔔 event/🤵 OnChatterFinder 🔔 handler.md>) [`OnBroker`](<../🪣🧱 22 Broker 🔔 event/🤵 OnChatterBroker 🔔 handler.md>) [`OnHost`](<../🪣🧱 23 Host 🔔 event/🤵 OnChatterHost 🔔 handler.md>) [`OnHelper`](<../🪣🧱 34 Helper 🔔 event/🤵 OnChatterHelper 🔔 handler.md>)
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnPop`](<../🪣🧱 11 Pop 🔔 event/🤵 OnChatterPop 🔔 handler.md>)  [`OnBroker`](<../🪣🧱 22 Broker 🔔 event/🤵 OnChatterBroker 🔔 handler.md>) [`OnHost`](<../🪣🧱 23 Host 🔔 event/🤵 OnChatterHost 🔔 handler.md>) [`OnHelper`](<../🪣🧱 34 Helper 🔔 event/🤵 OnChatterHelper 🔔 handler.md>)
 
 ```yaml
 Handlers:
     POP    >> OnPop:      # Handles a pop-up
-    FINDER >> OnFinder:   # Calls Present@Finder
     BROKER >> OnBroker:   # Calls Prompt@Notifier
     HOST   >> OnHost:     # Calls Hello@Host
     HELPER >> OnHelper:   # Calls Help@Helper
@@ -146,5 +145,5 @@ Field|Type|Details|Origin|Purpose
 |`Key`| text | [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) key || [`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>) |
 |`Parameters` | map | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) parameters || [`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
 |`Binds`|list| [Binds 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) shared |  | [`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
-|`Tokens` | list | [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared || [`Presented@`](<../../../🤵📨 Broker msgs/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>)
+|`Tokens` | list | [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared || [`Chat@`](<../../../🤵📨 Broker msgs/Chats 💬 Chat 🤗🚀🤵/🤵 Chat 📃 handler.md>)
 |

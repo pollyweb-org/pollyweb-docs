@@ -30,10 +30,10 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🤵🐌🔎 `Present@Finder`](<../../🔎🅰️ Finder methods/Present 🤵🐌🔎/🔎 Present 🐌 msg.md>) | Ask to introduce a [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
+| 1 | [🤵🐌🔎 `Present@Finder`](<../../🔎😃 Talkers/Present/🔎 Present 🐌 msg.md>) | Ask to introduce a [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 | 2 | [🔎🚀⭐ `Reviews@Reviewer`](<../../../Reviewers ⭐/⭐🅰️ Reviewer methods/🔎🚀⭐ Reviews.md>) | Get domain reviews (may be cached).
 | 3 | [👥🚀🕸 `About@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 🚀 call.md>) | Get domain identity (may be cached).
 | 4 | [👥🚀🕸 `Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | Get domain translations (may be cached).
 | 5 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Inform the user.
-| 6 | [🔎🐌🤵 `Presented@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Presented 🔎🐌🤵/🤵 Presented 🐌 msg.md>) | Finish introduction.
+| 6 | [🤲🐌💼 `Helped@Consumer`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Helped 🤲🐌💼/💼 Helped 🐌 msg.md>) | Finish introduction.
 ||
