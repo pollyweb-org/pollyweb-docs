@@ -1,4 +1,4 @@
-@startuml PopBindRemove
+@startuml PopRemoveToken
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
@@ -7,13 +7,13 @@ box Broker 🤵 domain #FFFFFA
 end box
 
 
-wallet -> bind: POP 🎈 {Bind}
+wallet -> bind: POP 🎈 {Token}
 
 activate bind    
-    wallet -> bind: "remove"
-    bind -> wallet: CONFIRM 👍 "remove?"
-    bind -> binds: SAVE 💾 {REMOVED}
-    bind -> wallet: DONE ✅ "removed"
+    wallet -> bind: "tag"
+    bind -> wallet: TEXT 🔠 "tag?"
+    bind -> binds: SAVE 💾 {tag}
+    bind -> wallet: DONE ✅ "changed"
     bind -> : GOODBYE 👋
 deactivate bind
  
