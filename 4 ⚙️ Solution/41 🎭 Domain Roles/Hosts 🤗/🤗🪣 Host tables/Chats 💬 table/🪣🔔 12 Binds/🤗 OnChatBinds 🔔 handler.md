@@ -32,8 +32,10 @@
             Reference: $bind.Reference
 
 # Set the Wallet to the first .BIND, if any
-- PUT >> $wallet:
-    $binds.First:
+- SELECT >> $wallet:
+    First: ID
+    From: $binds
+    Where: 
         Schema: .BIND
 
 # Add to the Chat item

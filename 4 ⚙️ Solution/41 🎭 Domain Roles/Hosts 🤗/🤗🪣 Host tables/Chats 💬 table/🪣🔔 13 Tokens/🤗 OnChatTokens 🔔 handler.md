@@ -28,6 +28,7 @@
     - SET|$tokens:
         $token.ID:
             ID: $token.ID
+            Issuer: $token.Issuer
             Schema: $token.Schema
 
 # Add the Tokens
