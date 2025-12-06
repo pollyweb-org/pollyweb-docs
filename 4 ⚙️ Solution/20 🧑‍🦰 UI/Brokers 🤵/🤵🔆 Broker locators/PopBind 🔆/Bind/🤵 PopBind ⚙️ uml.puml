@@ -6,11 +6,12 @@ box Broker 🤵 domain #FFFFFA
     participant "Binds 🪣" as binds
 end box
 
-wallet --> popped: POP 🎈 {Bind}
+wallet -> popped: POP 🎈 {Bind}
 
 
 activate popped
-    popped -> binds: READ 🧲
+    popped -> binds: SELECT 🧲
+    popped -> wallet: INFO ⓘ {bind}
     popped -> wallet: ONE 🤔 {what?}
     popped -> : RUN {selection, bind}
 deactivate popped

@@ -30,6 +30,7 @@
 
 # Inform success
 - DONE|Chat abandoned!
+- GOODBYE
 ```
 
 Uses||

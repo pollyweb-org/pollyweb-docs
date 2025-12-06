@@ -16,10 +16,10 @@ activate onChat
 deactivate onChat
 
 activate abandoned
-    abandoned -x wallet: FAIL ❌ "not active"
     abandoned -> wallet: CONFIRM 🤔 "abandon?"
     abandoned -> chats: SAVE 💾 {ABANDONED}
     abandoned -> wallet: DONE ✅ "abandoned"
+    abandoned -> : GOODBYE 👋
 deactivate abandoned
 
 @enduml 

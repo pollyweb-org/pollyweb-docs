@@ -16,11 +16,10 @@
 📃 PopBind.RemoveBind:
 
 # Verify the inputs
-- ASSERT|$.Inputs:
-    AllOf: Wallet
+- ASSERT|$bind
 
 # Ask for confirmation 🤔
-- CONFIRM: Unbind ´{$bind.Title}´?
+- CONFIRM: Unbind ´{$bind.Title}´? This action cannot be undone.
 
 # Remove the bind
 - SAVE|$bind:
@@ -28,6 +27,7 @@
 
 # Inform the user 🤔
 - DONE|Done.
+- GOODBYE
 ```
 
 Uses||
