@@ -2,7 +2,7 @@
 
 # 🧑‍🦰💬🤵 Unbind @ Wallet
 
-> Implemented by the [`Pop Vault` script](<../../../../Brokers 🤵/🤵🪣 Broker tables/Pops 🎈 table/🪣🧱 52 Bind » Remove 🔔/🤵 OnPopRemoveBind 🔔 handler.md>).
+> Implemented by the [`Pop Vault` script](<../../../../Brokers 🤵/🤵🔆 Broker locators/PopBind 🔆/Bind » Remove/🤵 PopRemoveBind 🔔 handler.md>).
 
 > Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 
@@ -13,7 +13,7 @@
 
 ## Chat
 
-> Implemented by [Pop Vault 🔆 handler](<../../../../Brokers 🤵/🤵🪣 Broker tables/Pops 🎈 table/🪣🧱 52 Bind » Remove 🔔/🤵 OnPopRemoveBind 🔔 handler.md>).
+> Implemented by [Pop Vault 🔆 handler](<../../../../Brokers 🤵/🤵🔆 Broker locators/PopBind 🔆/Bind » Remove/🤵 PopRemoveBind 🔔 handler.md>).
 
 | [Domain](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |

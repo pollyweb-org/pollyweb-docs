@@ -4,7 +4,7 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-> Example: [Pop Vault 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Pops 🎈 table/🪣🧱 52 Bind » Remove 🔔/🤵 OnPopRemoveBind 🔔 handler.md>)
+> Example: [Pop Vault 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🔆 Broker locators/PopBind 🔆/Bind » Remove/🤵 PopRemoveBind 🔔 handler.md>)
 
 
 <br/>

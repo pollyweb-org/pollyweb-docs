@@ -1,7 +1,7 @@
 # 🤵 OnPopRemoveBind 🔔 handler
 
 > About
-* Part of the [`Broker.Pops` 🪣 table](<../🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
+* Part of the [`Broker.Pops` 🪣 table](<../../../🤵🪣 Broker tables/Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
 * Called by the [`Pop@Broker` 📃 script](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Unbind Vault` 💬 flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Vaults 🗄️/Unbind 💬🗄️🤵 /🧑‍🦰 Unbind Vault ⏩ flow.md>) 
 
