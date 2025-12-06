@@ -3,6 +3,7 @@
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Bind 🔆" as bind
+    participant "Remove 🔆" as remove
     participant "Binds 🪣" as binds
 end box
 
@@ -11,10 +12,14 @@ wallet -> bind: POP 🎈 {Bind}
 
 activate bind    
     wallet -> bind: "remove"
-    bind -> wallet: CONFIRM 👍 "remove?"
-    bind -> binds: SAVE 💾 {REMOVED}
-    bind -> wallet: DONE ✅ "removed"
-    bind -> : GOODBYE 👋
+    bind -> remove: RUN {bind}
 deactivate bind
+
+activate remove
+    remove -> wallet: CONFIRM 👍 "remove?"
+    remove -> binds: SAVE 💾 {REMOVED}
+    remove -> wallet: DONE ✅ "removed"
+    remove -> : GOODBYE 👋
+deactivate remove
  
 @enduml 

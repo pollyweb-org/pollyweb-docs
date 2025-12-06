@@ -1,8 +1,9 @@
-@startuml PopRemoveToken
+@startuml PopBindTag
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Bind 🔆" as bind
+    participant "Tag 🔆" as tag
     participant "Binds 🪣" as binds
 end box
 
@@ -11,10 +12,14 @@ wallet -> bind: POP 🎈 {Token}
 
 activate bind    
     wallet -> bind: "tag"
-    bind -> wallet: TEXT 🔠 "tag?"
-    bind -> binds: SAVE 💾 {tag}
-    bind -> wallet: DONE ✅ "changed"
-    bind -> : GOODBYE 👋
+    bind -> tag: RUN {bind}
 deactivate bind
+
+activate tag
+    tag -> wallet: TEXT 🔠 "tag?"
+    tag -> binds: SAVE 💾 {tag}
+    tag -> wallet: DONE ✅ "changed"
+    tag -> : GOODBYE 👋
+deactivate tag
  
 @enduml 
