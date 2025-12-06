@@ -1,37 +1,17 @@
 @startuml Revoke
 
-actor "User" as user
 participant "Wallet 👱" as wallet
-participant "Notifier 📣" as notifier
 participant "Broker 🤵" as broker
 
 
-user --> wallet: broker 🤵
-
 ' Broker asks what to do.
 activate wallet
-    wallet --> broker: 1) Pop 🐌 {TOKEN}
+    wallet -> broker: 1) 🐌 Locate @ Broker {TOKEN}
 deactivate wallet
 activate broker
-    broker --> wallet: 2) ⏪ Prompt {What?} 🤔
+    broker -> wallet: 2) 🐌 Prompt @ Notifier 🤔 "what?" 
+    broker -> wallet: 3) 🐌 Remove @ Notifier
 deactivate broker
-
-' User asks to remove the token.
-activate wallet
-    user --> wallet: remove
-    wallet --> broker: 
-deactivate wallet
-
-activate broker
-    broker --> broker: hide
-    broker --> broker: wait days
-    broker --> notifier: 3) Remove 🐌
-deactivate broker
-
-' Remove from recycle bin.
-activate notifier
-    notifier --> wallet:
-deactivate notifier
 
 activate wallet
     wallet -> wallet: delete

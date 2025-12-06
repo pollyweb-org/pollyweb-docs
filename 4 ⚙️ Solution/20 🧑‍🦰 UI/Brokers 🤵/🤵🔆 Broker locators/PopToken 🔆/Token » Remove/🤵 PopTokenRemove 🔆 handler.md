@@ -1,14 +1,9 @@
-<!-- TODO: Add lists of commands. -->
+# 🤵 PopRemoveToken 🔆 handler
 
-# 🤵📃 Remove Token 🎫 
-
-> Part of the [`Broker.Pops` 🪣 table](<../../../🤵🪣 Broker tables/Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
-
-> Purpose
+> About
 * [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements [`Remove Token` ⏩ flow](<../../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
 
-> Flow
-* Called by the [`Pop Token` 📃 handler](<../Token/🤵 PopToken 🔆 handler.md>)
+<br/>
 
 ## Script
 

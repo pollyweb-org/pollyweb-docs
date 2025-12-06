@@ -1,21 +1,12 @@
 # 🧑‍🦰💬🤵 Remove token @ Wallet
 
-
-> Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-
-> Implemented by [`Pop Token` 📃 script](<../../../../Brokers 🤵/🤵🔆 Broker locators/PopToken 🔆/Token/🤵 PopToken 🔆 handler.md>)
-
-
-* When users ask their [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to remove a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>),
-  - it first does a soft delete only, hiding the [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
-  - the removal only happens after a period of time (e.g., 30 days);
-  - this allows users to undo the removal for a short period.
+> About
+* Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+* Implemented by [`PopToken` 🔆 handler](<../../../../Brokers 🤵/🤵🔆 Broker locators/PopToken 🔆/Token/🤵 PopToken 🔆 handler.md>)
 
 <br/>
 
 ## Chat 💬
-
-> Implemented by [Pop Token 🔆 handler](<../../../../Brokers 🤵/🤵🔆 Broker locators/PopToken 🔆/Token/🤵 PopToken 🔆 handler.md>).
 
 | [Domain](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
