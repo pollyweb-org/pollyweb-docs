@@ -12,7 +12,7 @@ activate table
 deactivate table
 
 activate handler
-    handler --> notifier: SEND 📬 {Share 🐌}
+    handler --> notifier: SEND 📬 {Share@ 🐌}
 deactivate handler
 
 @enduml

@@ -77,7 +77,7 @@
 
 1. **How do [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) verify a message from a [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)?**
 
-    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🔆 Broker locators/PopBind 🔆/Bind » Remove/🤵 PopRemoveBind 🔔 handler.md>).
+    Here's a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [Pop Vault @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🔆 Broker locators/PopBind 🔆/Bind » Remove/🤵 PopBindRemove 🔔 handler.md>).
 
     ```yaml
     📃 Example:

@@ -33,7 +33,7 @@
 
 # Save the bind
 - IF|$accepted:
-    Then: RETURN|BOUND
+    Then: RETURN|ACTIVE
     Else: RETURN|REJECTED
 ```
 

@@ -17,7 +17,7 @@ activate tokens
 deactivate tokens
 
 activate handler
-    handler --> broker: SEND 📬 {Offer 🐌}
+    handler --> broker: SEND 📬 {Offer@ 🐌}
 deactivate handler
 
 @enduml 

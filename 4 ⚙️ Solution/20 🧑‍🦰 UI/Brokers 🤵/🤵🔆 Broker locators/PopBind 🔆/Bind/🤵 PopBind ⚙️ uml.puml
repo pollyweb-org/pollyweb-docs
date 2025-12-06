@@ -1,0 +1,18 @@
+@startuml PopBind
+ 
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "Bind 🔆" as popped
+    participant "Binds 🪣" as binds
+end box
+
+wallet --> popped: POP 🎈 {Bind}
+
+
+activate popped
+    popped -> binds: READ 🧲
+    popped -> wallet: ONE 🤔 {what?}
+    popped -> : RUN {selection, bind}
+deactivate popped
+
+@enduml 

@@ -12,7 +12,7 @@
 |-|-|-|-|-
 | [`Bind`](<../🪣🧱 10 Bind ⏩ flow/🤵 Broker.Binds.Bind ⏩ flow.md>) | [`OFFERED`](<../🪣🧱 11 Offered 🔔 event/🤵 OnBindOffered 🔔 handler.md>) | Offered by a [Vault 🗄️](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | [`Bind@Broker` 🐌](<../../../🤵📨 Broker msgs/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) | [`TRANSLATE` 🈯](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>)
 | | [`DETAILED`](<../🪣🧱 12 Detailed 🔔 event/🤵 OnBindDetailed 🔔 handler.md>) | Localization done | [`OnOffered` 🔔](<../🪣🧱 11 Offered 🔔 event/🤵 OnBindOffered 🔔 handler.md>) | [`CONFIRM` 👍](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>)
-| | [`BOUND`](<../🪣🧱 13 Bound 🔔 event/🤵 OnBindBound 🔔 handler.md>) | The user accepted it | [`OnDetailed` 🔔](<../🪣🧱 12 Detailed 🔔 event/🤵 OnBindDetailed 🔔 handler.md>) | [`Bound@Vault` 🐌](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
+| | [`ACTIVE`](<../🪣🧱 13 Bound 🔔 event/🤵 OnBindBound 🔔 handler.md>) | The user accepted it | [`OnDetailed` 🔔](<../🪣🧱 12 Detailed 🔔 event/🤵 OnBindDetailed 🔔 handler.md>) | [`Bound@Vault` 🐌](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 | | [`REJECTED`](<../🪣🧱 14 Rejected 🔔 event/🤵 OnBindRejected 🔔 handler.md>) | The user rejected it | [`OnDetailed` 🔔](<../🪣🧱 12 Detailed 🔔 event/🤵 OnBindDetailed 🔔 handler.md>) |[`Bound@Vault` 🐌](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 |[`Remove`](<../🪣🧱 60 Remove ⏩ flow/🤵 Broker.Binds.Remove ⏩ flow.md>) | [`REMOVED`](<../🪣🧱 61 Removed 🔔 event/🤵 OnBindRemoved 🔔 handler.md>) | The user removed it | [`Pop@Broker` 🐌](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | [`Unbound@Vault`](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>)
 ||
@@ -76,7 +76,7 @@ Handlers:
     # Bind flow
     OFFERED   >> OnBindOffered:
     DETAILED  >> OnBindDetailed:
-    BOUND     >> OnBindBound:
+    ACTIVE    >> OnBindBound:
 
     # Localize flow
     UPDATED   >> OnBindLocalized:
@@ -98,7 +98,7 @@ Assert:
     UUIDs: Chat, Bind, Wallet
 
     # Field assertions
-    .State.IsIn: OFFERED, DETAILED, REJECTED, BOUND, REMOVED
+    .State.IsIn: OFFERED, DETAILED, REJECTED, ACTIVE, REMOVED
     Vault.IsDomain:
     Schema.IsSchema:
     Language.IsLanguage:
@@ -115,10 +115,10 @@ Here's the [Item 🛢 Views](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢
 Views:
     
     FRONTEND: # Filter for Frontend@ 
-        .State.IsIn: BOUND # From the Bind lifecycle
+        .State.IsIn: ACTIVE # From the Bind lifecycle
 
     QUERY: # Filter for Query@ 
-        .State.IsIn: BOUND # From the Bind lifecycle
+        .State.IsIn: ACTIVE # From the Bind lifecycle
 ```
 
 Uses: [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)

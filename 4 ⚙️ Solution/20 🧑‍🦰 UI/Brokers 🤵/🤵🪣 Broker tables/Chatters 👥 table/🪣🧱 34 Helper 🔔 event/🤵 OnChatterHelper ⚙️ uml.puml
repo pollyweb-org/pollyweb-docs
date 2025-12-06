@@ -20,7 +20,7 @@ activate table
 deactivate table
 
 activate handler
-    handler --> helper: SEND 📬 {Invited 🐌}
+    handler --> helper: SEND 📬 {Invited@ 🐌}
 deactivate handler
 
 @enduml

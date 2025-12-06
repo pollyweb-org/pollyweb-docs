@@ -12,7 +12,7 @@ participant "Notifier 📣" as notifier
 deactivate frontend
 
 activate handler
-    handler --> notifier: SEND 📬 {Updated 🐌}
+    handler --> notifier: SEND 📬 {Updated@ 🐌}
 deactivate handler
 
 @enduml 

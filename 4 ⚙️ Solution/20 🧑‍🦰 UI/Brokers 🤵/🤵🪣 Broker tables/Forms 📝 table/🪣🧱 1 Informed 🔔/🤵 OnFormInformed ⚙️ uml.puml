@@ -12,7 +12,7 @@ activate table
 deactivate table
 
 activate handler
-    handler --> consumer: SEND 📬 {Informed 🐌}
+    handler --> consumer: SEND 📬 {Informed@ 🐌}
 deactivate handler
 
 

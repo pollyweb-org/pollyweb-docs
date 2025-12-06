@@ -14,7 +14,7 @@ activate script
 deactivate script
 
 activate talker
-    talker --> broker: SEND 📬 {Inform 🐌 form}
+    talker --> broker: SEND 📬 {Inform@ 🐌 form}
     activate broker
     talker -> script:
 deactivate talker

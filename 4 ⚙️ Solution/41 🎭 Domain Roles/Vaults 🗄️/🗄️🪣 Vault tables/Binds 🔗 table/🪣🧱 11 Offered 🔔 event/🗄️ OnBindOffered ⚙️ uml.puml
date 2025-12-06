@@ -14,7 +14,7 @@ activate binds
 deactivate binds
 
 activate trigger
-    trigger --> broker: SEND 📬 {Bind 🐌} 
+    trigger --> broker: SEND 📬 {Bind@ 🐌} 
 deactivate trigger
 
 

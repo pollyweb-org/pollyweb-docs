@@ -24,7 +24,7 @@ alt
 '    deactivate wallet
 
     activate detailed
-        detailed ->  binds: SAVE 💾 {BOUND}
+        detailed ->  binds: SAVE 💾 {ACTIVE}
     deactivate detailed
 
 

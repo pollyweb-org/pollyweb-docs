@@ -11,7 +11,7 @@ participant "Helper 🤲" as helper
 invites --> broker: ADDED 🔔 
 
 activate broker
-    broker --> helper: SEND 📬 {Invited 🐌}
+    broker --> helper: SEND 📬 {Invited@ 🐌}
     broker -> invites: SAVE 💾 {DONE}
 deactivate broker
 

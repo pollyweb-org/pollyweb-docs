@@ -15,7 +15,7 @@ activate table
 deactivate table
 
 activate handler
-    handler --> notifier: SEND 📬 {Prompt 🐌}
+    handler --> notifier: SEND 📬 {Prompt@ 🐌}
 deactivate handler
 
 

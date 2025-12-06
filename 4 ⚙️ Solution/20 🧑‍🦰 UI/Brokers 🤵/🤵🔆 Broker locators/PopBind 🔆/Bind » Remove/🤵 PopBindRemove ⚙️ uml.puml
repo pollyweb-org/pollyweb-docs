@@ -1,0 +1,17 @@
+@startuml PopBindRemove
+ 
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "Chat 🔆" as chat
+    participant "Binds 🪣" as binds
+end box
+
+wallet --> chat: POP 🎈 {Chat}
+
+activate chat
+    wallet --> chat: "remove"
+    chat -> wallet: CONFIRM 👍 "remove?"
+    chat -> binds: SAVE 💾 {REMOVED}
+deactivate chat
+ 
+@enduml 
