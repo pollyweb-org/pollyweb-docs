@@ -28,15 +28,19 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
 ```yaml
 📃 .INVITE:
 
+# Default to $.Chat info
+- DEFAULT|$.Inputs:
+    Broker: $.Chat.Broker
+    Chat: $.Chat.ID
+
 # Verify the inputs
 - ASSERT|$.Inputs:
-    AllOf: Helper, Schema, Context
-    Schema.IsSchema:
+    AllOf: Helper, Schema, Context, Broker, Chat
+    UUIDs: Chat
+    Texts: Broker, Helper, Schema
+    Broker.IsDomain:
     Helper.IsDomain:
-
-# Verify the CHAT invocation
-- ASSERT|$.Chat:
-    AllOf: Chat, Broker
+    Schema.IsSchema:
 
 # Save the invite
 - SAVE|Consumer.Invites >> $invite:

@@ -28,18 +28,18 @@
     RETURN|ACTIVE
 
 # Otherwise, add the Finder to the Chat
-- INVITE|.CHAT/PRESENT:
-    Invited: 
+- INVITE:
     Chat: $Chat.ID
-    Domain: $.Hosted.Domain
+    Broker: $.Hosted.Domain
+    Helper: $Chat.Wallet.Finder
+    Schema: .CHAT/INTRO/FINDER
 
 # Then invite the Broker
-    
-- SAVE|Broker.Chatters:
-    .State: FINDER
-    Domain: $Chat.Wallet.Finder
-    Role: VAULT
+- INVITE:
     Chat: $Chat.ID
+    Broker: $.Hosted.Domain
+    Helper: $.Hosted.Domain
+    Schema: .CHAT/INTRO/BROKER
 ```
 
 
