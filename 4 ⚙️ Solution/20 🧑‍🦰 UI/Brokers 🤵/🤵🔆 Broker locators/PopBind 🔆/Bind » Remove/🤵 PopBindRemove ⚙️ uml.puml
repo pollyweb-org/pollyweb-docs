@@ -6,12 +6,15 @@ box Broker 🤵 domain #FFFFFA
     participant "Binds 🪣" as binds
 end box
 
-wallet --> chat: POP 🎈 {Chat}
 
-activate chat
-    wallet --> chat: "remove"
+wallet -> chat: POP 🎈 {Chat}
+
+activate chat    
+    wallet -> chat: "remove"
     chat -> wallet: CONFIRM 👍 "remove?"
     chat -> binds: SAVE 💾 {REMOVED}
+    chat -> wallet: DONE ✅ "removed"
+    chat -> : GOODBYE 👋
 deactivate chat
  
 @enduml 
