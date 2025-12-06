@@ -234,7 +234,7 @@ From [`Saved@Broker` 🐌 handler](<../../../🤵📨 Broker msgs/Tokens 🎫 Sa
 Path: /path/to/token
 ```
 
-From [`OnPopTagToken` 📃 handler](<../../../🤵🔆 Broker locators/PopToken 🔆/🪣🧱 63 Token » Tag 🔔/🤵 OnPopTagToken 🔔 handler.md>)
+From [`OnPopTagToken` 📃 handler](<../../../🤵🔆 Broker locators/PopToken 🔆/Token » Tag/🤵 OnPopTagToken 🔔 handler.md>)
 
 ```yaml
 Tag: My Token
