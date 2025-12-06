@@ -13,19 +13,22 @@
 📃 OnPopBind:
 
 # Get the Bind
-- READ >> $bind:
-    Set: Broker.Binds
-    Key: $.Chat.Inputs.Bind
-    Assert: 
+- SELECT >> $bind:
+    From: Broker.Binds
+    Where: 
+        ID: $.Chat.Inputs.Bind
         Wallet: $.Chat.Wallet
 
-# Verify the inputs
-- ASSERT|$.Inputs:
-    AllOf: Bind
-
 # Ask for confirmation 🤔
-- CONFIRM: Unbind ´{$Bind.Title}´?
+- CONFIRM: Unbind ´{$bind.Title}´?
 
 # Remove the bind
-- DELETE|$bind
+- SAVE|$bind:
+    .State: REMOVED
 ```
+
+Uses||
+|-|-
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`CONFIRM`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`SELECT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
+| [Holders 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Chat`](<../../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>) 
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Binds`](<../../../🤵🪣 Broker tables/Binds 🔗 table/🪣 Binds/🤵 Broker.Binds 🪣 table.md>)
