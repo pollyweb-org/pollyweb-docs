@@ -18,37 +18,23 @@
 ```yaml
 📃 OnInvited:
 
-# Assert rules
-- ASSERT|$Invite >> $valid:
-    Chat.Host: Inviter   # Only from the host
-    Chat.State: ACTIVE   # While the chat is active
-- IFNOT|$valid: 
-    RETURN|INVALID
-
-# The invited is a trusted Vault?
-- TRUSTS >> $trusted:
-    Truster: $Invite.Inviter
-    Trusted: $Invite.Helper
-    Schema: $Invite.Schema
-    Role: VAULT
-- IFNOT|$trusted:
-    RETURN|UNTRUSTED
-
-# The inviter is a trusted Consumer?
-- TRUSTS >> $trusted:
-    Truster: $Invite.Helper
-    Trusted: $Invite.Inviter
-    Schema: $Invite.Schema
-    Role: CONSUMER
-- IFNOT|$trusted:
-    RETURN|UNTRUSTED
+# Find the chatter
+- SELECT >> $exists:
+    Exists:
+    From: Broker.Chatters
+    Where: 
+        Chat: $Invite.Chat
+        Domain: $Invite.Helper
+        Role: HELPER
 
 # Progress the state
-- RETURN|CONFIRMED
+- IF|$exists:
+    Then: RETURN|ADDED
+    Else: RETURN|VERIFIED
 ```
 
 Uses ||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
-| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Invites`](<../🪣 Invites/🤵 Broker.Invites 🪣 table.md>) [`Broker.Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`IF`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SELECT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Invites`](<../🪣 Invites/🤵 Broker.Invites 🪣 table.md>) [`Broker.Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>)
 

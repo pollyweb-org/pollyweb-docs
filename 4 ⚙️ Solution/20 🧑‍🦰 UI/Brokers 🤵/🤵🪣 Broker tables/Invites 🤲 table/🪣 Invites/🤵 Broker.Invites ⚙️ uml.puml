@@ -27,19 +27,25 @@ activate broker
 deactivate broker
 
 activate chatters
-    chatters -> broker: 💾 CONFIRM ✅ HELP ✅
+    chatters -> broker: 💾 VERIFIED ✅ ADDED ✅
 deactivate chatters
 
-activate broker
-    broker -> user: CONFIRM 🤔
-deactivate broker
+alt Only runs it not yet a chatter
 
-activate user
-    user -> broker: 💾 HELP ✅ REJECTED ❌
-deactivate user
+    activate broker
+        broker -> user: CONFIRM 🤔
+        broker -> chatters: 💾 HELPER
+    deactivate broker
+
+    activate chatters
+        chatters -> broker: 💾 ADDED ✅ REJECTED ❌
+    deactivate chatters
 
 activate broker
-    broker -> chatters: 💾 HELPER
+
+end alt 
+
+
     broker -> helper: 🐌 Help @ Helper
 deactivate broker
 
