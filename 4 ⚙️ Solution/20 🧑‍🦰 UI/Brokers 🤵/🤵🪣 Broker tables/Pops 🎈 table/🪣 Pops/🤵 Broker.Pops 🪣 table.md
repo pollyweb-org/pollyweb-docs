@@ -76,7 +76,7 @@ Handlers:
 Calls: 
 * [`OnPopInserted` 🔔 handler](<../🪣🧱 12 Pop 🔔 event/🤵 OnPopInserted 🔔 handler.md>) 
 * [`OnPopWallet` 🔔 handler](<../🪣🧱 21 Wallet 🔔/🤵 OnPopWallet 🔔 handler.md>) 
-* [`OnPopChat` 🔔 handler](<../🪣🧱 31 Chat 🔔/🤵 OnPopChat 🔔 handler.md>) 
+* [`OnPopChat` 🔔 handler](<../../../🤵😃 Broker talkers/31 PopChat 😃/🤵 PopChat 🔔 handler.md>) 
 * [`OnPopBind` 🔔 handler](<../🪣🧱 51 Bind 🔔/🤵 OnPopBind 🔔 handler.md>) 
 * [`OnPopToken` 🔔 handler](<../🪣🧱 61 Token 🔔/🤵 OnPopToken 🔔 handler.md>) 
 * [`OnPopTokenRevised` 🔔 handler](<../🪣🧱 65 Token.Revised 🔔/🤵 OnPopTokenRevised 🔔 handler.md>)
