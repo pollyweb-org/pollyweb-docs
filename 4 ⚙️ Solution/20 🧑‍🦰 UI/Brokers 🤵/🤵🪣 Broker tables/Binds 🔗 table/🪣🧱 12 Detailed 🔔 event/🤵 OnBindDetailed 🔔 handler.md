@@ -33,12 +33,8 @@
 
 # Save the bind
 - IF|$accepted:
-    Then: 
-        SAVE|$Bind:
-            .State: BOUND
-    Else:
-        SAVE|$Bind:
-            .State: REJECTED
+    Then: RETURN|BOUND
+    Else: RETURN|REJECTED
 ```
 
 Uses||

@@ -10,15 +10,16 @@
 
     ```yaml
     INVITE >> $output:
-        Invitee: <invitee>
+        # CHAT must be set
+        Helper: <helper>
         Schema: <code>
-        Parameters: {params}
+        Context: {params}
     ```
 
     | Input| Purpose 
     |-|-
-    | `<invitee>` | The invitee [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) for [`Invite@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) 
-    | `<code>` | The [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to query for data
-    | `{params}` | Parameters dictionary for [`Invite@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) 
+    | `Helper` | The invitee [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) for [`Invite@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) 
+    | `Schema` | The [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to query for data
+    | `Context` | Input [map](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) for [`Invited@Consumer`](<../../💼📨 Consumer msgs/Invited 🤲🚀💼/💼 Invited 🚀 call.md>) 
     | `$output` | Returned data matching the code's schema
     |

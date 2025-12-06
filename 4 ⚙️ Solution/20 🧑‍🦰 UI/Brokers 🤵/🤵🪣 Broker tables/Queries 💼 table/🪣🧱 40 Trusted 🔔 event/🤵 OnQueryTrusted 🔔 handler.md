@@ -39,14 +39,13 @@
             Translate: No
 
 # Exit if no trust was selected
-- IF|$selected:
-    Then:
-        SAVE|$Query:
-            .State: SELECTED
-            Selected: $selected
-    Else:
-        SAVE|$Query:
-            .State: UNSELECTED 
+- IFNOT|$selected:
+    RETURN|UNSELECTED
+
+# Save the selected trust and mark as SELECTED
+- SAVE|$Query:
+    .State: SELECTED
+    Selected: $selected
 ```
 
 Uses ||
