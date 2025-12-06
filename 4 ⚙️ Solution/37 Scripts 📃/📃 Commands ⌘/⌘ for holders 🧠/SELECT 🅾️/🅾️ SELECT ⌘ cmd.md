@@ -8,7 +8,7 @@
 
     A `SELECT`
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that handles [List 🧠 holders](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) 
+    * that handles [List 🧠 holders](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) and [Itemized 🪣 datasets](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)
     * using a SQL (Structured Query Language) syntax.
 
     ---
@@ -20,7 +20,7 @@
 
     ```yaml
     SELECT:
-        All|First|Last|Distinct: [fields]
+        All|First|Last|Distinct|Exists: [fields]
         From: $list-1, $list-n
         Where: {filters}
         OrderBy: +a, -b
@@ -33,8 +33,10 @@
     | `First` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ set.md>) and [`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>) on the 1st item
     | `Last` | Uses [`.Last`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Last ⓕ.md>) and [`.Format`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Format ⓕ.md>) on the last item
     | `Distinct` | Uses [`.Distinct`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Distinct ⓕ.md>) to group results 
+    | `Exists` | Uses [`.Exists`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Exists ⓕ.md>) to return `True` if any item matches
     | `From` | Uses [`.Cross`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Cross ⓕ.md>) to join [List 🧠 holders](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)
     | `Where` | Uses [`.Filter`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Filter ⓕ.md>) to filter [List 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) items 
+    |  | And uses [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) to read [Itemized 🪣 datasets](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) by key
     | `OrderBy`| Uses [`Set.Sort`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Sort ⓕ set.md>) to order the [List 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) items
     | `Limit` | Uses [`.First`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/First ⓕ set.md>) to limit the items returned
 
@@ -90,6 +92,71 @@
         s: $suppliers        
       Where: s.ID.Is(SupID)    
     ```    
+
+    ---
+    <br/>
+
+
+1. **How to read an [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)**?
+
+    The following [`SELECT`](<🅾️ SELECT ⌘ cmd.md>) and [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) commands are equivalent.
+    
+    ```js
+    ┌──────────────────┬──────────────────┐
+    │ READ >> $item:   │ SELECT >> $item: │   The key is a  
+    │   Set: MySet     │   From: MySet    │   unique field  
+    │   Key: 123       │   Where: 123     │   
+    └──────────────────┴──────────────────┘ 
+    ```   
+    
+    ```js
+    ┌──────────────────┬──────────────────┐
+    │ READ >> $item:   │ SELECT >> $item: │   Take A and B 
+    │   Set: MySet     │   From: MySet    │   as the key  
+    │   Key:           │   Where:         │
+    │     A: 1         │     A: 1         │   
+    │     B: 2         │     B: 2         │
+    │   Assert:        │     C.In: 3,4    │
+    │     C.In: 3,4    │                  │
+    └──────────────────┴──────────────────┘ 
+    ```   
+
+    ---
+    <br/>
+
+1. **When is an item versus a list returned?**
+
+    Without prefixes like `All` `First` `Last` `Distinct` `Exists`:
+    * like in the previous example, 
+    * if `A` and `B` are the key fields:
+        * they fail if no item is found
+        * they return a single item if found
+    * if `A` and `B` are not key fields:
+        * then they return multiple items if found
+        * or an empty set if none is found.
+
+    ---
+    <br/>
+
+1. **How to assert if an item exists in an [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>)**?
+
+    The following [`SELECT`](<🅾️ SELECT ⌘ cmd.md>) and [`ASSERT`](<../ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) commands achieve this result:
+    * [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) automatically fills the keys, but not the internal ID.
+    * [`SELECT`](<🅾️ SELECT ⌘ cmd.md>) will only return a boolean.
+
+    ```js
+    ┌──────────────────┬───────────────────┐
+    │ READ >> $item:   │ SELECT >> $exists │
+    │   Set: MySet     │   Exists:         │
+    │   Key:           │   From: MySet     │
+    │     A: 1         │   Where:          │
+    │     B: 2         │     A: 1          │
+    │   Default:       │     B: 2          │
+    ├──────────────────┼───────────────────┤
+    │ IFNOT|$item.ID:  │ IFNOT|$exists     │
+    │   Then: ...      │   Then: ...       │
+    └──────────────────┴───────────────────┘ 
+    ```   
 
     ---
     <br/>

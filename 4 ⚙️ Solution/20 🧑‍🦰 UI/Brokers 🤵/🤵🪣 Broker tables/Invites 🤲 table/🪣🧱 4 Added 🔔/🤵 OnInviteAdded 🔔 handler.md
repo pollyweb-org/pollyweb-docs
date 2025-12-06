@@ -30,8 +30,7 @@
         Invite: $Invite.ID
 
 # Mark as done
-- SAVE|$Invite:
-    .State: DONE
+- RETURN|DONE
 ```
 
 Uses ||
