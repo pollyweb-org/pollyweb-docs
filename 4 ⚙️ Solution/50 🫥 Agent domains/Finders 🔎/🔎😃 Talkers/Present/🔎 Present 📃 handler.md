@@ -13,16 +13,12 @@
 
 ## Script
 
-> Called by the [`Locate@Broker` 📃 handler](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 📃 handler.md>)
 
 ```yaml
 📃 Present@Finder: 
 
-# Verify the message
-- VERIFY|$.Msg
-
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT|$.Inputs:
     AllOf: Chat, Host, Language, Reviewers
     UUIDs: Chat
     Texts: Host, Language, Reviewers
@@ -33,25 +29,21 @@
 
         Identity:
             SEND >> $identity:
-                Header:
-                    To: $.Hosted.Graph
-                    Subject: About@Graph
-                Body: 
-                    Domain: $.Msg.Host
+                To: $.Hosted.Graph
+                Subject: About@Graph
+                Domain: $Host
 
         Translate:
             TRANSLATE >> $translation:
-                Domain: $.Msg.Host
-                To: $.Msg.Language
+                Domain: $Host
+                To: $Language
 
         Reviews:
             SEND >> $reviews:
-                Header:
-                    To: $.Msg.Reviewer
-                    Subject: Reviews@Reviewer
-                Body:
-                    Language: $.Msg.Language
-                    Domain: $.Msg.Host$
+                To: $Reviewer
+                Subject: Reviews@Reviewer
+                Language: $Language
+                Domain: $Host
 
 # Send the Prompt
 - INFO:
@@ -62,14 +54,6 @@
         {$identity.Description}
     Options:
         $reviews.Options
-
-# Inform the Broker
-- SEND:
-    Header:
-        To: $.Msg.From
-        Subject: Presented@Broker
-    Body:
-        Chat: $.Msg.Chat
 ```
 
 Uses||

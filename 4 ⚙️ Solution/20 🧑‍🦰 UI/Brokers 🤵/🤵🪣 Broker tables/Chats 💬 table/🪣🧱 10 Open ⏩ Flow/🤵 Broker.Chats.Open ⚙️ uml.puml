@@ -32,15 +32,11 @@ activate wallet
 deactivate wallet
 
 activate chats
-    chats -> chatters: 💾 FINDER
+    chats -> finder: Help @ Helper 🐌 
 deactivate chats
 
-activate chatters
-    chatters -> finder: Present @ Finder 🐌 
-deactivate chatters
-
 activate finder
-    finder -> chats: 🐌 Presented @ Broker 💾 PRESENTED
+    finder -> chats: 🐌 Helped @ Consumer 💾 PRESENTED
 deactivate finder
 
 activate chats

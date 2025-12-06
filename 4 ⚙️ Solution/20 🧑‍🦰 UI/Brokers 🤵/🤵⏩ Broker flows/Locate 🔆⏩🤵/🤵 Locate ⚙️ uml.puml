@@ -35,11 +35,11 @@ activate broker
 
     activate broker   
 
-        broker --> finder: 5) Present 🐌    
+        broker --> finder: 5) 🐌 Help @ Helper     
         deactivate broker
             activate finder
                 finder --> wallet: 6) ⏪ Prompt
-                finder --> broker: 7) Presented 🐌
+                finder --> broker: 7) 🐌 Helped @ Consumer 
             deactivate finder
         activate broker
 
