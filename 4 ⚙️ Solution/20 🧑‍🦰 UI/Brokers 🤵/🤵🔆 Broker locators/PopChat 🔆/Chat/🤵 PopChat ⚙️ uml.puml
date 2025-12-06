@@ -3,15 +3,17 @@
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
     participant "Chat 🔆" as popped
+    participant "Chats 🪣" as chats
 end box
 
 wallet --> popped: POP 🎈 {Chat}
 
 
 activate popped
+    popped -> chats: READ 🧲 {$.Chat.Item}
     popped -> popped: CHAT 💬 
     popped -> wallet: ONE 🤔 {what?}
-    popped -> : RUN {...}
+    popped -> : RUN {selection}
 deactivate popped
 
 @enduml 

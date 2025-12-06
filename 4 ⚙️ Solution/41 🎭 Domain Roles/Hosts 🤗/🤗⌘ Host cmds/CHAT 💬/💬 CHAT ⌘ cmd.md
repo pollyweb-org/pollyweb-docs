@@ -1,7 +1,7 @@
 # 😃💬 Talker `CHAT` Command
 
 > About
-* Implemented by the [`.CHAT script`](<💬 CHAT 📃 script.md>)
+* Implemented by the [`.CHAT` 📃 script](<💬 CHAT 📃 script.md>)
 
 ## FAQ
 

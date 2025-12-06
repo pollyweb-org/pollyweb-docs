@@ -25,16 +25,15 @@
         Key: $id
     
     # Add the details to the chat
-    - PUT +> $tokens:
-        ID: $token.ID
-        Schema: $token.Schema
+    - SET|$tokens:
+        $token.ID:
+            ID: $token.ID
+            Schema: $token.Schema
 
-# Add to the Chat item
+# Add the Tokens
 - SAVE|$Chat:
-    
-    # Progress the state
-    .State: CACHE
-
-    # Add the Tokens
     Tokens: $tokens
+
+# Progress the state
+- RETURN: CACHE
 ```

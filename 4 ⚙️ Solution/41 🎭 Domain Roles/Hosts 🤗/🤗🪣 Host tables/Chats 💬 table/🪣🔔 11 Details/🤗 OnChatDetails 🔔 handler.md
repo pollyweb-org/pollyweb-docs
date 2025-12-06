@@ -32,9 +32,6 @@
 # Save the details into the Item
 - SAVE|$Chat:
 
-    # Progress the state
-    .State: BINDS
-
     # Details
     PublicKey: $details.PublicKey
     Timezone: $details.Timezone 
@@ -48,6 +45,9 @@
     # Shares
     SharedBinds: $details.Binds
     SharedTokens: $details.Tokens
+
+# Progress the state
+- RETURN: BINDS
 ```
 
 Uses||

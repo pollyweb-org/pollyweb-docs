@@ -45,7 +45,7 @@ Language: en-us
 # Locator
 Schema: nlweb.dom/THING
 Key: MY-THING-ID
-Parameters: 
+Inputs: 
     Param1: Value1
     Param2: Value2
 
@@ -65,9 +65,8 @@ Tokens:
 || `PublicKey` |text| For [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>)  | |[`Prompted@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)<br/>[`Reply@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) <br/>[`Download@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 call.md>)
 || `Timezone`|text| For [`.Now`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>) and [`.Today`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Today ⓕ.md>)  
 || `Language` |text| For [`TRANSLATE`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) | [`Prompt@`](<../Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
-|           | `Schema`    | string    | Locator  [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`Locate@`](<../Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)
 |           | `Key` | string    | [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) | [`Locate@`](<../Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | 
-|| `Parameters`| object | Custom parameters | [`Locate@`](<../Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)
+|| `Inputs`| object | Custom parameters | [`Locate@`](<../Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)
 |           | `Tokens`  | uuid[] | Host  [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)  | [`Issue@`](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
 || `Binds`   | uuid[] | Host [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)  | [`Bound@`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 |

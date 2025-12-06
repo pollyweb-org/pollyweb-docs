@@ -23,8 +23,11 @@ Header:
     Subject: Locate@Broker
     
 Body:
-    Locator: .ALIAS,any-printer.dom,7V8KD3G
     Hook: <hook-uuid>
+    Locator: .ALIAS,any-printer.dom,7V8KD3G
+    Inputs:
+        A: 1
+        B: 2
 ```
 
 |Object|Property|Type|Description|Origin|Purpose
@@ -32,7 +35,9 @@ Body:
 |Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 ||`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 ||`Subject`|text|`Locate@Broker`
-|Body  |`Locator` |text|  [`.HOST`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>) [`.ALIAS`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>) [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
+|Body  |`Locator` |text| Host [Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) || [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+|||| Schemas [`.HOST`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>) [`.ALIAS`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
 || `Hook` | uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) Hook || [`Open@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>)
+|| `Inputs` | object | Custom parameters | | [`Chat@`](<../Chats 💬 Chat 🤗🚀🤵/🤵 Chat 🚀 call.md>)
 |
 

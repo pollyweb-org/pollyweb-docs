@@ -78,17 +78,23 @@ SharedTokens:
 From the [`OnChatBinds` 🔔 handler](<../🪣🔔 12 Binds/🤗 OnChatBinds 🔔 handler.md>)
 
 ```yaml
+# List of enriched binds
 Binds: 
-  - ID: <bind-uuid-1>
+  <bind-uuid-1>:
+    ID: <bind-uuid-1>
     Schema: any-authority.dom/ANY-SCHEMA
     Reference: ref-1
+    
+# Bind of type .BIND, if any
+Wallet: <bind-uuid-2>
 ```
 
 From the [`OnChatTokens` 🔔 handler](<../🪣🔔 13 Tokens/🤗 OnChatTokens 🔔 handler.md>)
 
 ```yaml
 Tokens: 
-  - Key: <token-uuid-1>
+  <token-uuid-1>:
+    ID: <token-uuid-1>
     Issuer: issuer-1.dom
     Schema: any-authority.dom/ANY-SCHEMA
 ```

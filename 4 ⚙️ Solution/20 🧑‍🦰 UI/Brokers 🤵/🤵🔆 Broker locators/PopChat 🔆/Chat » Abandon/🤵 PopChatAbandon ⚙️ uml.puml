@@ -12,10 +12,11 @@ wallet -> onChat: POP 🎈 {Chat}
 
 activate onChat
     wallet -> onChat: "abandon"
-    onChat -> abandoned: RUN
+    onChat -> abandoned: RUN 
 deactivate onChat
 
 activate abandoned
+    abandoned -x wallet: FAIL ❌ "not active"
     abandoned -> wallet: CONFIRM 🤔 "abandon?"
     abandoned -> chats: SAVE 💾 {ABANDONED}
     abandoned -> wallet: DONE ✅ "abandoned"
