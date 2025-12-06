@@ -38,12 +38,15 @@
         Language: $Chatter.Chat.Language.Require
         Reviewer: $Chatter.Chat.Wallet.Reviewer.Require
 
-# Then invite the Broker
+# Then invite the Broker itself to the Chat
 - INVITE:
     Chat: $Chat.ID
     Broker: $.Hosted.Domain
     Helper: $.Hosted.Domain
     Schema: .CHAT/INTRO/BROKER
+
+# Return presented
+- RETURN|ACTIVE
 ```
 
 

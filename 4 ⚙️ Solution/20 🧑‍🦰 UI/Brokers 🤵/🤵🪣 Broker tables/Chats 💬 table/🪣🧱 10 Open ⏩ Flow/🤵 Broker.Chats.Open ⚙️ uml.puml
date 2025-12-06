@@ -8,6 +8,7 @@ end box
 participant "Printer 🖨️" as printer
 participant "Graph 🕸" as graph
 participant "Finder 🔎" as finder
+participant "Broker 🤵" as broker
 participant "Host 🤗" as host
 
 wallet -> chats: 🐌 Locate 💾 INSERTED
@@ -32,20 +33,13 @@ activate wallet
 deactivate wallet
 
 activate chats
-    chats -> finder: Help @ Helper 🐌 
+    chats -> finder: INVITE 🤲
+    chats -> broker: INVITE 🤲
 deactivate chats
 
-activate finder
-    finder -> chats: 🐌 Helped @ Consumer 💾 PRESENTED
-deactivate finder
-
-activate chats
-    chats -> chatters: 💾 BROKER
-deactivate chats
-
-activate chatters
-    chatters -> chats: 💾 ACTIVE
-deactivate chatters
+activate broker
+    broker -> chats: 💾 ACTIVE
+deactivate broker
 
 activate chats
     chats -> chatters: 💾 HOST
