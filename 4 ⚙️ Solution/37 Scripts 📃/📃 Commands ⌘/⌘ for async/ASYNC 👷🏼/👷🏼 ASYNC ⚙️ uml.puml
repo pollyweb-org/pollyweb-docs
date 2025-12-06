@@ -13,7 +13,7 @@ activate script
 deactivate script
 
 activate async
-    async --> hosted: SEND 📬 {Handle 🐌 task, uuid, inputs}
+    async --> hosted: SEND 📬 {Handle@ 🐌 task, uuid, inputs}
     activate hosted
     async -> script: 
 deactivate async

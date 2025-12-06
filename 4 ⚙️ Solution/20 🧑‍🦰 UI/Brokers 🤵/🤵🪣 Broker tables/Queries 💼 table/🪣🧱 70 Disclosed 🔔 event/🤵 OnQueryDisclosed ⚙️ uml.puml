@@ -11,7 +11,7 @@ activate table
 deactivate table
 
 activate handler
-    handler --> vault: SEND 📬 {Disclose 🐌}
+    handler --> vault: SEND 📬 {Disclose@ 🐌}
 deactivate handler
 
 @enduml

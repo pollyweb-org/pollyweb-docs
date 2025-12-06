@@ -13,7 +13,7 @@ deactivate tokens
 
 activate offered
     group IF accepted
-        offered --> notifier: SEND 📬 {Save 🐌 token}
+        offered --> notifier: SEND 📬 {Save@ 🐌 token}
     end group
     group IF declined
         offered -> tokens: SAVE 💾 {DECLINED}

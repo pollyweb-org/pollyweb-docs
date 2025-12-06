@@ -18,13 +18,7 @@
     Where: 
         ID: $.Chat.Inputs.Bind
         Wallet: $.Chat.Wallet
-
-# Ask for confirmation 🤔
-- CONFIRM: Unbind ´{$bind.Title}´?
-
-# Remove the bind
-- SAVE|$bind:
-    .State: REMOVED
+        .State: ACTIVE
 ```
 
 Uses||

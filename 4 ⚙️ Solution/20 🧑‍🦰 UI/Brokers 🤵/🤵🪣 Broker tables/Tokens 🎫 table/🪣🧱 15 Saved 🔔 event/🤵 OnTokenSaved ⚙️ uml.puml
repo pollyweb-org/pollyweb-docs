@@ -13,7 +13,7 @@ activate tokens
 deactivate tokens
 
 activate onSaved
-    onSaved --> issuer: SEND 📬 {Offered 🐌 ACCEPTED}
+    onSaved --> issuer: SEND 📬 {Offered@ 🐌 ACCEPTED}
 deactivate onSaved
 
 @enduml 

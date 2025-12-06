@@ -8,11 +8,11 @@ participant "Vault 🗄️" as vault
 
 
 activate binds
-    binds --> handler: BOUND 🔔
+    binds --> handler: ACTIVE 🔔
 deactivate binds
 
 activate handler
-    handler --> vault: SEND 📬 {Bound, accepted}
+    handler --> vault: SEND 📬 {Bound@, accepted}
 deactivate handler
 
 

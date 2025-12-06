@@ -21,9 +21,5 @@ activate broker
     broker -> tokens: SAVE 💾 {SAVED}
 deactivate broker
 
-'activate tokens
-'    tokens --> issuer: SEND 📬 {Accepted 🐌}
-'deactivate tokens
-
 
 @enduml 

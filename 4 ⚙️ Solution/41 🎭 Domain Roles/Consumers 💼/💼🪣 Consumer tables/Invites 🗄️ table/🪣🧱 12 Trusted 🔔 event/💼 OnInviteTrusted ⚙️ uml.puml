@@ -9,7 +9,7 @@ participant "Broker 🤵" as broker
 table --> handler: TRUSTED 🔔 
 
 activate handler
-    handler --> broker: SEND 📬 {Invite 🐌}
+    handler --> broker: SEND 📬 {Invite@ 🐌}
 deactivate handler
 
 @enduml 

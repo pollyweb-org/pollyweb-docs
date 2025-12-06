@@ -23,7 +23,7 @@ activate table
 deactivate table
 
 activate handler
-    handler --> host: SEND 📬 {Hello 🐌}
+    handler --> host: SEND 📬 {Hello@ 🐌}
 deactivate handler
 
 @enduml

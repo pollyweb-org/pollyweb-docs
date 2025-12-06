@@ -26,7 +26,7 @@ activate binds
 
     binds -> wallet: CONFIRM 👍 "accept?"
     activate wallet
-        wallet -> binds: 💾 BOUND or REJECTED
+        wallet -> binds: 💾 ACTIVE or REJECTED
     deactivate wallet
 
     binds -> vault: Bound 🐌 {answer}

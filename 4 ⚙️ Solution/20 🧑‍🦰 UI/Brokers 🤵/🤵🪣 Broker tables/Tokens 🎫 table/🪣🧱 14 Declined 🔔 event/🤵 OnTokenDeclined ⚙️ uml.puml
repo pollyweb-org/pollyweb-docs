@@ -13,7 +13,7 @@ activate tokens
 deactivate tokens
 
 activate declined
-    declined --> issuer: SEND 📬 {Offered 🐌 DECLINED}
+    declined --> issuer: SEND 📬 {Offered@ 🐌 DECLINED}
 deactivate declined
     
 

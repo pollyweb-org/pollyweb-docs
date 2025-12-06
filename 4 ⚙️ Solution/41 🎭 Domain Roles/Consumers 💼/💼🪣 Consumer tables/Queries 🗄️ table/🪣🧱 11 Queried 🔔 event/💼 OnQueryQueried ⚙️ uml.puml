@@ -9,7 +9,7 @@ participant "Broker 🤵" as broker
 table --> handler: QUERIED 🔔 
 
 activate handler
-    handler --> broker: SEND 📬 {Query 🐌}
+    handler --> broker: SEND 📬 {Query@ 🐌}
 deactivate handler
 
 @enduml 

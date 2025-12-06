@@ -11,7 +11,7 @@ participant "Graph 🕸" as graph
 table --> handler: TRUSTED 🔔 
 
 activate handler
-    handler -> vault: SEND 📬 {Collect 🚀}
+    handler -> vault: SEND 📬 {Collect@ 🚀}
 
     activate vault
         vault -> handler: {data}

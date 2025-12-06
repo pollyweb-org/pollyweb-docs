@@ -12,7 +12,7 @@ activate table
 deactivate table
 
 activate ready
-    ready --> consumer: SEND 📬 {Consume 🐌}
+    ready --> consumer: SEND 📬 {Consume@ 🐌}
 deactivate ready
 
 activate consumer

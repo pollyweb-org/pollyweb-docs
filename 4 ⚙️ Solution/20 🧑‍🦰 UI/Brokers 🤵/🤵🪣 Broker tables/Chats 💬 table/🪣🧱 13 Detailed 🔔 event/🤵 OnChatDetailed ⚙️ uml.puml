@@ -21,7 +21,7 @@ activate table
 deactivate table
 
 activate handler
-    handler --> notifier: SEND 📬 {Open 🐌}
+    handler --> notifier: SEND 📬 {Open@ 🐌}
 deactivate handler
 
 activate notifier

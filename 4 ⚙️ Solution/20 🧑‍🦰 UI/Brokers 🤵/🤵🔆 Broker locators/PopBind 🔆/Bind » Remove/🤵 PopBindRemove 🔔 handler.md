@@ -8,7 +8,6 @@
 
 <br/>
 
-<!-- TODO: separate the Unbind Vault script -->
 
 ## Script
 
@@ -20,16 +19,12 @@
 - ASSERT|$.Inputs:
     AllOf: Wallet
 
-# Get the Vault 
-- SELECT >> $vault:
-    From: $Wallet.Vaults
-    Where: Domain.Is($.Msg.Body.Key)
-
 # Ask for confirmation 🤔
 - CONFIRM: Unbind ´{$bind.Title}´?
 
 # Remove the bind
-- DELETE|$bind
+- SAVE|$bind:
+    .State: REMOVED
 
 # Inform the user 🤔
 - DONE|Done.

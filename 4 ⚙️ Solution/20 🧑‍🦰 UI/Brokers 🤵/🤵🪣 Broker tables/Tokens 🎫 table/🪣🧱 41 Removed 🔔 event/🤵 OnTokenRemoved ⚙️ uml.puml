@@ -13,8 +13,8 @@ activate tokens
 deactivate tokens
 
 activate removed
-    removed --> notifier: SEND 📬 {Remove 🐌}
-    removed --> issuer: SEND 📬 {Removed 🐌}
+    removed --> notifier: SEND 📬 {Remove@ 🐌}
+    removed --> issuer: SEND 📬 {Removed@ 🐌}
 deactivate removed
 
 @enduml 

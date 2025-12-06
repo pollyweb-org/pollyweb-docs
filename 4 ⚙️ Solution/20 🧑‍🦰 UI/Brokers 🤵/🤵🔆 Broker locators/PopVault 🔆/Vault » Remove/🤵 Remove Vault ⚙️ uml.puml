@@ -36,10 +36,8 @@ activate script
     script -> script: PARALLEL 
     activate script
         script -> binds: DELETE 🗑️ 
-        'script --> vault: SEND 📬 {Unbound@}
     deactivate script
 
-    'script --> wallet: SEND 📬 {Updated@}
 deactivate script
  
 @enduml 

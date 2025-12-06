@@ -21,7 +21,7 @@ activate hooks
     talker -> talker: WAIT 🧘 {token.ID}
 deactivate talker
 
-    hooks --> broker: SEND 📬 {Offer 🐌}
+    hooks --> broker: SEND 📬 {Offer@ 🐌}
 deactivate hooks
 
 activate broker
