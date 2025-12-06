@@ -1,18 +1,19 @@
-# 🤵📃 Tag Token script
+# 🤵 PopTokenTag 🔆 handler
 
-> Part of the [`Broker.Pops` 🪣 table](<../../../🤵🪣 Broker tables/Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>)
 
-> Flow
-* Called by the [`OnPopToken` 🔔 handler](<../Token/🤵 PopToken 🔆 handler.md>)
+## Diagram
+
+![alt text](<🤵 PopTokenTag ⚙️ uml.png>)
+
+<br/>
 
 ## Script
 
 ```yaml
-📃 Tag-Token:
+📃 PopTokenTag:
 
 # Verify inputs
-- ASSERT|$.Inputs:
-    AllOf: token
+- ASSERT|$token
 
 # Ask for the tag
 - TEXT|What to tag? >> $tag:
