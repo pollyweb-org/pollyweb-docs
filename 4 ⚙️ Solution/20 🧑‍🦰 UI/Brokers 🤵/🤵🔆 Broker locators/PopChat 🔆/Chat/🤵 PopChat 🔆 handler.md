@@ -18,8 +18,12 @@
 ```yaml
 📃 OnPopChat:
 
+- READ >> $chat:
+    Set: Broker.Chats
+    Key: $.Chat.Parameters.Chat
+
 # Load the chat
-- CHAT|$Pop.Chat
+- CHAT|$chat
 
 # Prompt the user for options
 - ONE|What do you need? >> $option:
@@ -28,9 +32,8 @@
 
 # Process the user's option
 - CASE|$option:
-    region: 
-        SAVE|$Pop:
-            .State: ABANDON
+    Abandon: 
+        RUN|PopChatAbandon($chat)
 ```
 
 Uses||
