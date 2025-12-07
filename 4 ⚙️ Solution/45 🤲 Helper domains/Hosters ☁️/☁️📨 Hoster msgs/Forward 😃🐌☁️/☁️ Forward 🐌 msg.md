@@ -3,7 +3,7 @@
 > Purpose
 * A [Hoster ☁️ helper domain](<../../☁️ Hoster helper/☁️🤲 Hoster helper.md>) 
     * forwards [Async Messages 🐌](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Async Messages 🐌.md>)
-    * from a [Talker 😃 helper domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
+    * from a [Talker 😃 helper domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker/😃🤲 Talker helper.md>)
     * to other [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
 <br/>
@@ -28,7 +28,7 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-| Header    |`From`|text| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
+| Header    |`From`|text| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker/😃🤲 Talker helper.md>)
 |           |`To`|text| [Hoster ☁️](<../../☁️ Hoster helper/☁️🤲 Hoster helper.md>)
 |           | `Subject`|text| `Forward@Hoster`
 | Body      |`To`|text| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name

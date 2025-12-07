@@ -33,8 +33,8 @@
     | Input| Purpose
     |-|-
     | `Timeout`  | Time to wait, evaluated by the [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) function
-    | `Hook`   | For [`REEL` 🎣](<../../⌘ for async/REEL 🎣/🎣 REEL ⌘ cmd.md>) and [`Handled@Talker` 🅰️](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
-    | `$response` | Response from [`REEL` 🎣](<../../⌘ for async/REEL 🎣/🎣 REEL ⌘ cmd.md>) or [`Handled@Talker` 🅰️](<../../../../35 💬 Chats/Talkers 😃/😃🅰️ Talker methods/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
+    | `Hook`   | For [`REEL` 🎣](<../../⌘ for async/REEL 🎣/🎣 REEL ⌘ cmd.md>) and [`Handled@Talker` 🅰️](<../../../../35 💬 Chats/Talkers 😃/😃📨 Talker msgs/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
+    | `$response` | Response from [`REEL` 🎣](<../../⌘ for async/REEL 🎣/🎣 REEL ⌘ cmd.md>) or [`Handled@Talker` 🅰️](<../../../../35 💬 Chats/Talkers 😃/😃📨 Talker msgs/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)
 
     ```yaml
     # Listen to only one trigger:

@@ -9,7 +9,7 @@
     A `LOG` 🪵
     * is a [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
     * that sends an event 
-    * to the log handler of a [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>).
+    * to the log handler of a [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker/😃🤲 Talker helper.md>).
 
     ---
     <br/>
