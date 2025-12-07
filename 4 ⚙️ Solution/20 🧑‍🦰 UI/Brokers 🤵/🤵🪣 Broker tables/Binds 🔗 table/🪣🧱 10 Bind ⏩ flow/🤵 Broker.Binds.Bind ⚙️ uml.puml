@@ -18,18 +18,9 @@ activate script
 deactivate script
 
 activate binds
-    
-    binds -> graph: TRANSLATE 🈯 
-    activate graph
-        graph -> binds: 💾 DETAILED
-    deactivate graph
-
-    binds -> wallet: CONFIRM 👍 "accept?"
-    activate wallet
-        wallet -> binds: 💾 ACTIVE or REJECTED
-    deactivate wallet
-
-    binds -> vault: Bound 🐌 {answer}
+    binds -> graph: 🔔 OFFERED: TRANSLATE 🈯 
+    binds -> wallet: 🔔 DETAILED: CONFIRM 👍 "accept?" ❌ REJECTED
+    binds -> vault: 🔔 ACTIVE: Bound 🐌 {answer}
 deactivate binds
 
 

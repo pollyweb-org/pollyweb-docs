@@ -11,42 +11,31 @@ participant "Finder 🔎" as finder
 participant "Broker 🤵" as broker
 participant "Host 🤗" as host
 
-wallet -> chats: 🐌 Locate 💾 INSERTED
+wallet -> chats: 🐌 Locate @ Broker 💾 {ASKED}
 
 activate chats
     
-    chats -> printer: Resolve @ Printer 🚀 
-    activate printer
-        printer -> chats: 💾 RESOLVED
-    deactivate printer
-
-    chats -> graph: Translate @ Graph 🚀
-    activate graph
-        graph -> chats: 💾 DETAILED
-    deactivate graph
+    chats -> printer: 🔔 ASKED: Resolve @ Printer 🚀 
+    chats -> graph: 🔔 RESOLVED: TRANSLATE 🈯
     
-    chats -> wallet: 🐌 Open @ Notifier
+    chats -> wallet: 🔔 DETAILED: 🐌 Open @ Notifier
 deactivate chats
 
 activate wallet
-    wallet -> chats: 🐌 Opened 💾 OPENED 
+    wallet -> chats: 🐌 Opened @ Broker 💾 {OPENED}
 deactivate wallet
 
 activate chats
-    chats -> finder: INVITE 🤲
-    chats -> broker: INVITE 🤲
-deactivate chats
+    chats -> finder: 🔔 OPENED: INVITE 🤲
+    activate chats
+        chats -> broker: INVITE 🤲
+    deactivate chats
 
-activate broker
-    broker -> chats: 💾 ACTIVE
-deactivate broker
-
-activate chats
-    chats -> chatters: 💾 HOST
+    chats -> chatters: 🔔 ACTIVE: 💾 {HOST}
 deactivate chats    
 
 activate chatters
-    chatters -> host: Hello @ Host 🐌 
+    chatters -> host: 🔔INSERTED: Hello @ Host 🐌 
 deactivate chatters
 
 @enduml 

@@ -3,62 +3,33 @@
 box "Helper 🤲" #FFFFFA
     participant "Help 🐌" as handler
     participant "Helps 🪣" as table
+    participant "Schemas 🪣" as schemas
+    participant "Script 📃" as script
 end box
 participant "Graph 🕸" as graph
 participant "Biller 🤝" as biller
 participant "Consumer 💼 " as consumer
-participant "Wallet 🧑" as wallet
-'participant "Broker 🤵" as broker
 
 
 handler -> table: 💾 INVITED
 
-activate table
-    table -> graph: TRUSTS 🫡 {consumer, schema}
-deactivate table
-
-activate graph
-    graph -> table: 💾 TRUSTED ✅ UNTRUSTED ❌
-deactivate graph
+group Validations
 
 activate table
-    table -> biller: 🚀 Authorize @ Biller {consumer, schema}
+    table -> graph: 🔔 INVITED: TRUSTS 🫡 {consumer, schema} ❌ UNTRUSTED 
+    table -> biller: 🔔 TRUSTED: 🚀 Authorize @ Biller {consumer, schema} ❌ BLOCKED
+    table -> consumer: 🔔 VALID: 🚀 Invited @ Consumer {invite} ❌ BROKEN
+    
+end group 
+
+    table -> schemas: 🔔 DETAILED: READ 🧲 
+    activate table
+        table -> script: RUN 🏃 {schema.script}
+    deactivate table
+    table -> consumer: 🔔 HELPED: 🐌 Helped @ Consumer {invite, help}
+    table -> biller: 🔔 BILLABLE: 🐌 Bill @ Biller {authorization} 
+    table -> table: 🔔 BILLED
 deactivate table
 
-activate biller
-    biller -> table: 💾 VALID ✅ BLOCKED ❌
-deactivate biller
-
-activate table
-    table -> consumer: 🚀 Invited @ Consumer {invite}
-deactivate table
-
-activate consumer
-    consumer -> table: 💾 DETAILED ✅ BROKEN ❌
-deactivate consumer
-
-activate table
-    table -> wallet: 🐌 Prompt @ Broker 
-deactivate table
-
-activate wallet
-    wallet -> table: 💾 HELPED ✅
-deactivate wallet
-
-activate table
-    table -> consumer: 🐌 Helped @ Consumer {invite, help}
-deactivate table
-
-activate consumer
-    consumer -> table: 💾 BILLABLE ✅
-deactivate consumer
-
-activate table
-    table -> biller: 🐌 Bill @ Biller {authorization}
-deactivate table
-
-activate biller
-    biller -> table: 💾 BILLED ✅
-deactivate biller
 
 @enduml 
