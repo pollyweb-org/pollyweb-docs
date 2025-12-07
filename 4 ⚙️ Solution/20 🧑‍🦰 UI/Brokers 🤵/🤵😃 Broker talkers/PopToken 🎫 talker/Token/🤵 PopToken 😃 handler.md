@@ -17,12 +17,14 @@
 - ASSERT:
     $.Chat.Wallet: 
     $.Chat.Inputs.Token:
+    $.Chat.Inputs.Issuer:
 
 # Get the Token 🎫
 - SELECT >> $token:
     From: Broker.Tokens
     Where: 
         Token: $.Chat.Inputs.Token
+        Issuer: $.Chat.Inputs.Issuer
         Wallet: $.Chat.Wallet
 
 # Show info about the Token

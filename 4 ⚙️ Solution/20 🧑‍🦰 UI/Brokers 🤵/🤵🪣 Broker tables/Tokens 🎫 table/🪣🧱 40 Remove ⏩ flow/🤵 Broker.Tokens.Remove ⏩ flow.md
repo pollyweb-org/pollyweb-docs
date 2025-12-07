@@ -10,8 +10,8 @@
 
 Step | Purpose |
 |-|-
-|[`OnPopToken` 🔔 handler](<../../../🤵😃 Broker talkers/PopToken 🎫 talker/Token/🤵 PopToken 🔆 handler.md>) | 
-|[`OnPopRemoveToken` 🔔 handler](<../../../🤵😃 Broker talkers/PopToken 🎫 talker/Token » Remove/🤵 PopTokenRemove 🔆 handler.md>)| 
+|[`OnPopToken` 🔔 handler](<../../../🤵😃 Broker talkers/PopToken 🎫 talker/Token/🤵 PopToken 😃 handler.md>) | 
+|[`OnPopRemoveToken` 🔔 handler](<../../../🤵😃 Broker talkers/PopToken 🎫 talker/Token » Remove/🤵 PopTokenRemove 😃 handler.md>)| 
 |[`OnTokenRemoved` 🔔 handler](<../🪣🧱 41 Removed 🔔 event/🤵 OnTokenRemoved 🔔 handler.md>)
 |[`Removed@Issuer` 🐌 msg](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴📨 Issuer msgs/Removed 🤵🐌🎴/🎴 Removed 🐌 msg.md>)
 |[`Remove@Notifier` 🐌 msg](<../../../../Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>)

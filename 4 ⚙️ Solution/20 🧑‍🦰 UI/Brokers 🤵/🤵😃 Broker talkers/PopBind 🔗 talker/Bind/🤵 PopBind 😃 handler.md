@@ -20,12 +20,14 @@
 - ASSERT:
     $.Chat.Wallet: 
     $.Chat.Inputs.Bind:
+    $.Chat.Inputs.Vault:
 
 # Get the Bind
 - SELECT >> $bind:
     From: Broker.Binds
     Where: 
-        ID: $.Chat.Inputs.Bind
+        Bind: $.Chat.Inputs.Bind
+        Vault: $.Chat.Inputs.Vault
         Wallet: $.Chat.Wallet
 
 # Show info about the bind

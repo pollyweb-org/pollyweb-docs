@@ -2,7 +2,7 @@
 
 > About
 * Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-* Implemented by [`PopToken` 🔆 handler](<../../../../Brokers 🤵/🤵😃 Broker talkers/PopToken 🎫 talker/Token/🤵 PopToken 🔆 handler.md>)
+* Implemented by [`PopToken` 🔆 handler](<../../../../Brokers 🤵/🤵😃 Broker talkers/PopToken 🎫 talker/Token/🤵 PopToken 😃 handler.md>)
 
 <br/>
 
