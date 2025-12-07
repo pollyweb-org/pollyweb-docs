@@ -2,17 +2,17 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Bind 🔆" as bind
-    participant "Remove 🔆" as remove
+    participant "PopBind 😃" as bind
+    participant "...Remove 😃" as remove
     participant "Binds 🪣" as binds
 end box
 
 
-wallet -> bind: Pop 🎈 {Bind}
+wallet -> bind: PopBind 🔆 {bind, vault}
 
 activate bind    
     wallet -> bind: "remove"
-    bind -> remove: RUN {bind}
+    bind -> remove: RUN {bind.*}
 deactivate bind
 
 activate remove

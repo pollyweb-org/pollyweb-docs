@@ -2,17 +2,17 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Chat 🔆" as onChat
-    participant "Abandon 🔆" as abandoned
+    participant "PopChat 😃" as onChat
+    participant "...Abandon 😃" as abandoned
     participant "Chats 🪣" as chats
 end box
 
 
-wallet -> onChat: Pop 🎈 {Chat}
+wallet -> onChat: PopChat 🔆 {chat}
 
 activate onChat
     wallet -> onChat: "abandon"
-    onChat -> abandoned: RUN 
+    onChat -> abandoned: RUN {chat.*}
 deactivate onChat
 
 activate abandoned
