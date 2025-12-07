@@ -1,5 +1,12 @@
 # 🤵 Broker.Invites 🪣 table
 
+
+## Diagram
+
+![alt text](<🤲 Helper.Helps ⚙️ uml.png>)
+
+<br/>
+
 ## Schema
 
 ```yaml
