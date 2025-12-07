@@ -23,7 +23,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    |`From`|text| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>) from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)
+| Header    |`From`|text| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker/😃🤲 Talker helper.md>) from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)
 |           |`To`|text| [Itemizer 🛢](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>) from [`Delete@Itemizer`](<../Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)
 |           | `Subject`     | string    | `Undo@Itemizer`
 | Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) for traceability

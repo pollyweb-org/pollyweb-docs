@@ -3,7 +3,7 @@
 > Purpose
 * A [Hoster ☁️ helper domain](<../../☁️ Hoster helper/☁️🤲 Hoster helper.md>) 
     * proxies [Sync Calls 🚀](<../../../../30 🧩 Data/Messages 📨/📨⏩ Message flows/Sync Calls 🚀.md>)
-    * from a [Talker 😃 helper domain](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
+    * from a [Talker 😃 helper domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker/😃🤲 Talker helper.md>)
     * to other [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
 
@@ -29,7 +29,7 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-| Header    |`From`|text| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>)
+| Header    |`From`|text| [Talker 😃](<../../../../35 💬 Chats/Talkers 😃/😃 Talker/😃🤲 Talker helper.md>)
 |           |`To`|text| [Hoster ☁️](<../../☁️ Hoster helper/☁️🤲 Hoster helper.md>)
 |           | `Subject`|text| `Proxy@Hoster`
 | Body      |`To`|text| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name

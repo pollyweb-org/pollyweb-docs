@@ -1,6 +1,6 @@
 # 😃📃 Talker `Script`
 
-> Part of [Talker 😃](<../Talkers 😃/😃🤲 Talker helper.md>)
+> Part of [Talker 😃](<../Talkers 😃/😃 Talker/😃🤲 Talker helper.md>)
 
 <br/>
 

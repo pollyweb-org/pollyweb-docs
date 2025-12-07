@@ -46,7 +46,7 @@ Uses||
 
     No. 
     * [Domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) cannot access this table.
-    * It's abstracted by [Talker 😃 helper domains](<../../../../35 💬 Chats/Talkers 😃/😃🤲 Talker helper.md>). 
+    * It's abstracted by [Talker 😃 helper domains](<../../../../35 💬 Chats/Talkers 😃/😃 Talker/😃🤲 Talker helper.md>). 
 
     ---
     <br/>
