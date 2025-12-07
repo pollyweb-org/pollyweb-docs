@@ -14,7 +14,7 @@
 ## Script
 
 ```yaml
-📃 OnPopWallet:
+📃 PopWallet:
 
 # Assert the inputs
 - ASSERT:
