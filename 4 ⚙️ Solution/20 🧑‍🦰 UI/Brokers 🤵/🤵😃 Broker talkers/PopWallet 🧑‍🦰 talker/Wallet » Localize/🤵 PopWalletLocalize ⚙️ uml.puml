@@ -2,17 +2,17 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Wallet 🔆" as onWallet
-    participant "Localize 🔆" as onLocalized
+    participant "PopWallet 😃" as onWallet
+    participant "...Localize 😃" as onLocalized
     participant "Wallets 🪣" as walletsTable
 end box
 
 
-wallet -> onWallet: Pop 🎈 {WALLET}
+wallet -> onWallet: PopWallet 🔆 
 
 activate onWallet
     wallet -> onWallet: "localize"
-    onWallet -> onLocalized: RUN {wallet}
+    onWallet -> onLocalized: RUN {wallet.*}
 deactivate onWallet
 
 activate onLocalized

@@ -6,14 +6,14 @@ box Broker 🤵 domain #FFFFFA
     participant "Tokens 🪣" as tokens   
 end box
 
-wallet -> popped: PopToken 🔆 {token}
+wallet -> popped: PopToken 🔆 {token, issuer}
 
 
 activate popped
     popped -> tokens: SELECT 🧲 
-    popped -> wallet: INFO ⓘ {token}
+    popped -> wallet: INFO ⓘ {token.*}
     popped -> wallet: ONE 🤔 {what?}
-    popped -> : RUN {selection, token}
+    popped -> : RUN {selection, token.*}
 deactivate popped
 
 @enduml 

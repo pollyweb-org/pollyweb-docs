@@ -2,17 +2,17 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Token 🔆" as token
-    participant "Remove 🔆" as remove
+    participant "PopToken 😃" as token
+    participant "...Remove 😃" as remove
     participant "Tokens 🪣" as tokens
 end box
 
 
-wallet -> token: Pop 🎈 {Token}
+wallet -> token: PopToken 🔆 {token, issuer}
 
 activate token    
     wallet -> token: "remove"
-    token -> remove: RUN {token}
+    token -> remove: RUN {token.*}
 deactivate token
 
 activate remove
