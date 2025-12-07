@@ -20,12 +20,12 @@
 
 # Trust all invites from the Broker itself
 #   this is to allow intros to Chats by Finders
-- IF|$Invite.Inviter.Is($.Hosted.Domain):   
+- IF|$Invite.Consumer.Is($.Hosted.Domain):   
     RETURN|TRUSTED
 
 # Assert rules
-- ASSERT|$Invite >> $valid:
-    Chat.Host: Inviter   # Only from the host
+- ASSERT >> $valid:
+    Chat.Host: $Invite.Consumer   # Only from the host
     Chat.State: ACTIVE   # While the chat is active
 
 # Exit if invalid
@@ -34,7 +34,7 @@
 
 # The invited is a trusted Vault?
 - TRUSTS >> $trusted:
-    Truster: $Invite.Inviter
+    Truster: $Invite.Consumer
     Trusted: $Invite.Helper
     Schema: $Invite.Schema
     Role: VAULT
@@ -46,7 +46,7 @@
 # The inviter is a trusted Consumer?
 - TRUSTS >> $trusted:
     Truster: $Invite.Helper
-    Trusted: $Invite.Inviter
+    Trusted: $Invite.Consumer
     Schema: $Invite.Schema
     Role: CONSUMER
 

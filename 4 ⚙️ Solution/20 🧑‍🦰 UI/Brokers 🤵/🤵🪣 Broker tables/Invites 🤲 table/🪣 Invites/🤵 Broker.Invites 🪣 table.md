@@ -28,14 +28,18 @@
 Prefix: Broker
 Table: Invites
 Item: Invite
-Key: Inviter, Invite 
+Key: Consumer, Invite 
 ```
+
+<br/>
 
 The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are: [`Broker.Chats`](<../../Chats 💬 table/🪣 Chats/🤵 Broker.Chats 🪣 table.md>)
 
 ```yaml
 Parents: Chat
 ```
+
+<br/>
 
 The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnInvited`](<../🪣🧱 1 Invited 🔔/🤵 OnInviteInvited 🔔 handler.md>) [`OnVerified`](<../🪣🧱 3 Verified 🔔/🤵 OnInviteVerified 🔔 handler.md>) [`OnConfirmed`](<../🪣🧱 4 Added 🔔/🤵 OnInviteAdded 🔔 handler.md>).
 
@@ -51,17 +55,18 @@ Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 ```yaml
 Assert:
     # Group assertions
-    AllOf: Chat, Schema, Helper, Inviter
-    UUIDs: Chat
+    AllOf: Invite, Chat, Schema, Helper, Consumer
+    UUIDs: Invite, Chat
     
     # Field assertions
-    Inviter.IsDomain:
+    Consumer.IsDomain:
     Helper.IsDomain:
     Schema.IsSchema:
 
     # Dependencies
     Chat.State: ACTIVE 
 ```
+Uses: [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
 
 <br/>
 
@@ -70,8 +75,12 @@ Assert:
 From [`Invite@Broker` 🐌 msg](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 
 ```yaml
-Chat: <chat-uuid>
-Helper: any-helper.dom
+# Key
+Consumer: any-host.dom          # Consumer requester
+Invite: <invite-uuid>           # Consumer callback
+
+# Context
+Chat: <chat-uuid>               # Broker chat to join
+Helper: any-helper.dom          # Helper that replies
 Schema: any-authority.dom/ANY-SCHEMA
-Inviter: any-host.dom
 ```

@@ -26,8 +26,8 @@
     Body:
         Chat: $Invite.Chat
         Schema: $Invite.Schema
-        Inviter: $Invite.Inviter
-        Invite: $Invite.ID
+        Consumer: $Invite.Consumer
+        Invite: $Invite.Invite
 
 # Mark as done
 - RETURN|DONE
@@ -35,5 +35,5 @@
 
 Uses ||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
-| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Chatters`](<../../Chatters 👥 table/🪣 Chatters/🤵 Broker.Chatters 🪣 table.md>) [`Broker.Invites`](<../🪣 Invites/🤵 Broker.Invites 🪣 table.md>)
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`RETURN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SEND`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) |  [`Broker.Invites`](<../🪣 Invites/🤵 Broker.Invites 🪣 table.md>)

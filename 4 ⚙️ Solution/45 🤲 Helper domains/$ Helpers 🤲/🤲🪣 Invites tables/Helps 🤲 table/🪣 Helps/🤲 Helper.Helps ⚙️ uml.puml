@@ -4,17 +4,25 @@ box "Helper 🤲" #FFFFFA
     participant "Help 🐌" as handler
     participant "Helps 🪣" as table
 end box
+participant "Graph 🕸" as graph
 participant "Biller 🤝" as biller
 participant "Consumer 💼 " as consumer
-'participant "Graph 🕸" as graph
 participant "Wallet 🧑" as wallet
 'participant "Broker 🤵" as broker
 
 
-handler -> table: 💾 ASKED
+handler -> table: 💾 INVITED
 
 activate table
-    table -> biller: 🚀 Authorize @ Biller {domain, schema}
+    table -> graph: TRUSTS 🫡 {consumer, schema}
+deactivate table
+
+activate graph
+    graph -> table: 💾 TRUSTED ✅ UNTRUSTED ❌
+deactivate graph
+
+activate table
+    table -> biller: 🚀 Authorize @ Biller {consumer, schema}
 deactivate table
 
 activate biller
