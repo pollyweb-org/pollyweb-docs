@@ -11,46 +11,22 @@ participant "Helper 🤲" as helper
 
 
 activate host
-    host --> broker: 🐌 Invite 💾 INVITED
+    host --> broker: 🐌 Invite @ Broker
 deactivate host
 
 activate broker
-    broker -> graph: 🫡 TRUSTS
-deactivate broker
-
-activate graph
-    graph -> broker: 💾 TRUSTED ✅ UNTRUSTED ❌
-deactivate graph
-
-activate broker
-    broker -> chatters: READ 🧲 
-deactivate broker
-
-activate chatters
-    chatters -> broker: 💾 VERIFIED ✅ ADDED ✅
-deactivate chatters
+    broker -> graph: 🔔 INVITED: 🫡 TRUSTS {consumer} ❌ UNTRUSTED
+    broker -> graph: 🔔 TRUSTED: chatters: READ 🧲 
 
 alt Only runs it not yet a chatter
-
+    broker -> user: 🔔 VERIFIED: CONFIRM 🤔 "add helper to chat?" ❌ REJECTED
     activate broker
-        broker -> user: CONFIRM 🤔
         broker -> chatters: 💾 HELPER
     deactivate broker
-
-    activate chatters
-        chatters -> broker: 💾 ADDED ✅ REJECTED ❌
-    deactivate chatters
-
-activate broker
-
 end alt 
 
-
-    broker -> helper: 🐌 Help @ Helper
-deactivate broker
-
-activate helper
-    helper -> broker: 💾 DONE
+    broker -> helper: 🔔 ADDED: 🐌 Help @ Helper
+    broker -> broker: 🔔 DONE
 deactivate helper
 
 

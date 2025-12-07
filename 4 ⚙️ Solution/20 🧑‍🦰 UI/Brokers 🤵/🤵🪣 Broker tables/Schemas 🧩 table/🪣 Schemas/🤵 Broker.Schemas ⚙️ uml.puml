@@ -14,17 +14,17 @@ propagate -> schemas: 💾 Propagate Parents
 activate schemas
     wallets -> schemas: 💾 {language}
     
-    schemas -> graph: 🔔 OnInsert 🚀 Schema @ Graph
+    schemas -> graph: 🔔 OnInsert: 🚀 Schema @ Graph
     activate graph
         graph -> schemas: 💾 {details}
     deactivate graph
 
-    schemas -> graph: 🔔 OnLocalized 🚀 Translate @ Graph
+    schemas -> graph: 🔔 OnLocalized: 🚀 Translate @ Graph
     activate graph
         graph -> schemas: 💾 {translations}
     deactivate graph
 
-    schemas -> frontend: 🔔 OnAltered 💾 SAVE
+    schemas -> frontend: 🔔 OnAltered: 💾 SAVE
 
 deactivate schemas
 
