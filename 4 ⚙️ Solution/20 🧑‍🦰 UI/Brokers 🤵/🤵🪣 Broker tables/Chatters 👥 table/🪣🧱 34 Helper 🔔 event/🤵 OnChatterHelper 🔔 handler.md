@@ -28,7 +28,7 @@
         Subject: Help@Helper
     Body:
         Chat: $Chatter.Chat
-        Inviter: $Chatter.Chat.Host
+        Consumer: $Chatter.Chat.Host
         Schema: $Chatter.Schema
         Invite: $Chatter.Invite
 ```

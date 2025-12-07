@@ -5,8 +5,7 @@ participant "Consumer 💼" as consumer
 participant "Broker 🤵" as broker
 box Helper 🤲 domain #FFFFFA
     participant "Helper" as script
-    participant "Handlers 🪣" as handlers
-    participant "$.Chat" as chat
+    participant "Helps 🪣" as table
 end box
 
 
@@ -19,10 +18,7 @@ activate broker
 deactivate broker
 
 activate script
-    script -> script: CHAT 💬
-    script -> consumer: Invited  🚀
-    script -> chat: CHAT 💾
-    script --> consumer: Helped  🐌
+    script -> table: SAVE 💾 {INVITED}
 deactivate script
 
 @enduml 

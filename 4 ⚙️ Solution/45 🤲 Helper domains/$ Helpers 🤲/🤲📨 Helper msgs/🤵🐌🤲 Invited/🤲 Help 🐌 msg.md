@@ -19,7 +19,7 @@ Header:
 
 Body:
     Chat: <chat-uuid>
-    Inviter: any-consumer.dom
+    Consumer: any-consumer.dom
     Schema: any-authority.dom/ANY-SCHEMA:1.0
     Invite: <invite-uuid>
 ```

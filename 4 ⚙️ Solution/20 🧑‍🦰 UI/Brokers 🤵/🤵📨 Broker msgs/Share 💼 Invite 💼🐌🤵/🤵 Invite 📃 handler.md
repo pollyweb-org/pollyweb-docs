@@ -34,7 +34,7 @@
 # Add the invite
 - SAVE|Broker.Invites:
     Chat: $.Msg.Chat
-    Inviter: $.Msg.From
+    Consumer: $.Msg.From
     Invite: $.Msg.Invite
     Helper: $.Msg.Helper
     Schema: $.Msg.Schema
