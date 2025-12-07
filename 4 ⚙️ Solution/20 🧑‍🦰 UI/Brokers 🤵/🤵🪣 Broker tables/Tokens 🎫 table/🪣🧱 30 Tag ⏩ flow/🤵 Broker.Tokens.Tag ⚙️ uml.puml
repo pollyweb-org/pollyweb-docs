@@ -2,14 +2,14 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Pop 🐌" as pop
+    participant "Pop 🎈" as pop
     participant "Tokens 🪣" as tokens
     participant "Frontend 🪣" as frontend
 end box
 participant "Notifier 📣" as notifier
     
 
-wallet -> pop: Pop 🐌 {TOKEN}
+wallet -> pop: Pop 🎈 {TOKEN}
 activate pop
     wallet -> pop: {tag}
     pop -> tokens: 💾 {tag: X}

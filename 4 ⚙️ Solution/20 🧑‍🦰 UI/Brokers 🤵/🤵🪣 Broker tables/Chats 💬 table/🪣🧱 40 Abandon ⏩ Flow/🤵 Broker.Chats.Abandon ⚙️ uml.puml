@@ -2,13 +2,13 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Pop 🐌" as script
+    participant "Pop 🎈" as script
     participant "Binds 🪣" as binds
 end box
 participant "Host 🤗" as host
 
 
-wallet -> script: Pop 🐌 {CHAT}
+wallet -> script: Pop 🎈 {CHAT}
 
 activate script
     wallet -> script: {abandon}

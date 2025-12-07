@@ -10,8 +10,6 @@ box Broker 🤵 domain #FFFFFA
     participant "Frontend 🪣" as frontend
 end box
 
-'participant "Notifier 📣" as notifier
-'wallet --> script: Pop 🐌
 
 activate script
     script -> binds: SAVE 💾, DELETE 🗑️

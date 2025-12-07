@@ -6,7 +6,7 @@ participant "Broker 🤵" as broker
 participant "Graph 🕸" as graph
 
 activate wallet
-    wallet --> broker: 1) Pop 🐌
+    wallet --> broker: 1) Locate 🐌
 activate broker
     wallet --> broker: {language}
 deactivate wallet

@@ -8,7 +8,7 @@ box Broker 🤵 domain #FFFFFA
 end box
 
 activate wallet 
-    wallet --> domains: Pop 🐌 {UNBOUND}
+    wallet --> domains: Pop 🎈 {UNBOUND}
 deactivate wallet
 
 activate domains

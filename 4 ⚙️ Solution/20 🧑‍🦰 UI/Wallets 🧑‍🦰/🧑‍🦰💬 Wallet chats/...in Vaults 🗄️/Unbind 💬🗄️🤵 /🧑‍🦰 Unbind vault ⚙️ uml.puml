@@ -12,7 +12,7 @@ participant "Vault 🗄️" as vault
 ' Activate the broker.
 user --> wallet: broker 🤵
 activate wallet
-    wallet --> broker: 1) Pop 🐌 {VAULT}
+    wallet --> broker: 1) Locate 🐌 {VAULT}
 deactivate wallet
 activate broker
     broker --> wallet: 2) ⏪ Prompt 🤔 {what?}
