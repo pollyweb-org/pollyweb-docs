@@ -7,13 +7,13 @@ box Broker 🤵 domain #FFFFFA
 end box
 
 
-wallet -> popped: Pop 🎈 {WALLET}
+wallet -> popped: PopWallet 🔆 {}
 
 activate popped
     popped -> wallets: SELECT 🧲 
-    popped -> wallet: INFO ⓘ {wallet}
+    popped -> wallet: INFO ⓘ {wallet.*}
     popped -> wallet: ONE 🤔 {what?}
-    popped -> : RUN {selection, wallet}
+    popped -> : RUN {selection, wallet.*}
 deactivate popped
 
 

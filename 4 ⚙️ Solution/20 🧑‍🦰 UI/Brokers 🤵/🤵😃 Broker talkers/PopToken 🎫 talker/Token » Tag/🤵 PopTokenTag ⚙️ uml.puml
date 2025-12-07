@@ -2,17 +2,17 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Token 🔆" as token
-    participant "Tag 🔆" as tag
+    participant "PopToken 😃" as token
+    participant "...Tag 😃" as tag
     participant "Tokens 🪣" as tokens
 end box
 
 
-wallet -> token: Pop 🎈 {Token}
+wallet -> token: PopToken 🔆 {token, issuer}
 
 activate token    
     wallet -> token: "tag"
-    token -> tag: RUN {token}
+    token -> tag: RUN {token.*}
 deactivate token
 
 activate tag
