@@ -1,28 +1,25 @@
 @startuml Hello@Host
-' TODO
 
 participant "Broker 🤵" as broker
-
 box Host domain #FFFFFA
-    participant "Handler 📃" as handler
-    participant "Talker 😃" as engine
-    'participant "Chats 🪣" as table
-    'participant "$.Chat 🧠" as holder
+    participant "Hello 🐌" as handler
+    participant "Locators 🪣" as locators
+    participant "Script 📃" as script
 end box
+participant "Graph 🕸" as graph
+
 
 activate broker
-    broker --> handler: Hello 🐌
+    broker --> handler: Hello 🐌 {chat}
 deactivate broker
 
 activate handler
-    handler -> engine: VERIFY {$.Msg}
-    handler -> engine: TRUSTS {$.Msg.From}
-    handler -> engine: CHAT {$.Msg.Chat}
-    handler --> engine: TALK 
+    handler -> graph: VERIFY 🔐 {msg} 
+    handler -> graph: TRUSTS 🫡 {msg.from, .BROKER 🧩}
+    handler -> broker: CHAT 💬 {msg.from, chat}
+    handler -> locators: READ 🧲 {chat.key}
+    handler -> script: RUN {locator.script}
 deactivate handler
 
-activate engine
-    engine --> 
-deactivate engine
 
 @enduml 

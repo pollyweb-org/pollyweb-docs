@@ -13,16 +13,16 @@ Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 ```yaml
 Assert:
     # Group assertions
-    AllOf: Chat, Schema, Helper
-    UUIDs: Chat
+    AllOf: Broker, Chat, Schema, Consumer, Invite
+    UUIDs: Chat, Invite
+    Texts: Schema, Consumer, Broker
     
     # Field assertions
+    Broker.IsDomain:
     Helper.IsDomain:
     Schema.IsSchema:
-
-    # Dependencies
-    Chat.State: ACTIVE 
 ```
+Uses: [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
 
 <br/>
 
@@ -31,7 +31,14 @@ Assert:
 From [`Invite@Broker` 🐌 msg](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)
 
 ```yaml
-Chat: <chat-uuid>
+# Data info
 Schema: any-authority.dom/ANY-SCHEMA
-Helper: any-helper.dom
+
+# Consumer info
+Consumer: any-consumer.dom
+Invite: <invite-uuid>
+
+# Broker info
+Broker: any-broker.dom
+Chat: <chat-uuid>
 ```
