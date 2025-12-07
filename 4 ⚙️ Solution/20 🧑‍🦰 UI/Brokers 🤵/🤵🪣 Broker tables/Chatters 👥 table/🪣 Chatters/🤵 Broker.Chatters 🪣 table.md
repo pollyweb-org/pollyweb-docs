@@ -18,11 +18,6 @@
 
 <!-- TODO: Add missing Disclosure@Vault above -->
 
-<br/>
-
-## Lifecycle 
-
-![alt text](<../🪣🧱 10 Pop ⏩ flow/🤵 Broker.Chatters.Pop ⚙️ uml.png>)
 
 
 <br/>
@@ -54,11 +49,10 @@ Parents:
 
 <br/>
 
-The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnPop`](<../🪣🧱 11 Pop 🔔 event/🤵 OnChatterPop 🔔 handler.md>)  [`OnBroker`](<../🪣🧱 22 Broker 🔔 event/🤵 OnChatterBroker 🔔 handler.md>) [`OnHost`](<../🪣🧱 23 Host 🔔 event/🤵 OnChatterHost 🔔 handler.md>) [`OnHelper`](<../🪣🧱 34 Helper 🔔 event/🤵 OnChatterHelper 🔔 handler.md>)
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are:  [`OnBroker`](<../../../🤵😃 Broker talkers/🪣🧱 22 Broker 🔔 event/🤵 OnChatterBroker 🔔 handler.md>) [`OnHost`](<../🪣🧱 23 Host 🔔 event/🤵 OnChatterHost 🔔 handler.md>) [`OnHelper`](<../🪣🧱 34 Helper 🔔 event/🤵 OnChatterHelper 🔔 handler.md>)
 
 ```yaml
 Handlers:
-    POP    >> OnPop:      # Handles a pop-up
     BROKER >> OnBroker:   # Calls Prompt@Notifier
     HOST   >> OnHost:     # Calls Hello@Host
     HELPER >> OnHelper:   # Calls Help@Helper
@@ -76,7 +70,7 @@ Asserts:
     UUIDs: Wallet, Chat, Invite
     
     # State machine
-    .State.IsIn: POP, FINDER, BROKER, HOST
+    .State.IsIn: FINDER, BROKER, HOST
 
     # Field assertions
     Schema.IsSchema:

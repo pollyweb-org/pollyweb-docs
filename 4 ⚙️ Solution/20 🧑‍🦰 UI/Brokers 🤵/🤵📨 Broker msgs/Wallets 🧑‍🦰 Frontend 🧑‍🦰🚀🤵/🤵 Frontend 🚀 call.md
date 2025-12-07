@@ -60,12 +60,12 @@ Schemas: {...}  # Indexed map of Schemas
 
 | Property    |  Type  | Description | Origin | Changes
 |-|-|-|-|-
-| Wallet   | map | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) data | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 📃 handler.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
-| Chats    | list   | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) |  [`Opened@`](<../Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 🐌 msg.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) [`Inform@`](<../Share 💼 Inform 💼🐌🤵/🤵 Inform 🐌 msg.md>)
-| Binds    | list   | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) | [`Bind@`](<../Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
-| Tokens   | list   | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | [`Issue@`](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>) [`Revise@`](<../Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
-| Domains  | map   | [Domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`About@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 📃 handler.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
-| Schemas  | map   | [Schemas 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`Schema@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Schema/🕸 Schema 📃 handler.md>) | [`Pop@`](<../Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 🐌 msg.md>)
+| Wallet   | map | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) data | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 📃 handler.md>) | 
+| Chats    | list   | [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) |  [`Opened@`](<../Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 🐌 msg.md>) | [`Inform@`](<../Share 💼 Inform 💼🐌🤵/🤵 Inform 🐌 msg.md>)
+| Binds    | list   | [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) | [`Bind@`](<../Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) | 
+| Tokens   | list   | [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | [`Issue@`](<../Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | [`Revise@`](<../Tokens 🎫 Revise 🎴🐌🤵/🤵 Revise 🐌 msg.md>)
+| Domains  | map   | [Domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [`About@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 📃 handler.md>) |
+| Schemas  | map   | [Schemas 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`Schema@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Schema/🕸 Schema 📃 handler.md>) |
 
 <br/>
 
