@@ -6,11 +6,14 @@ box Vault 🗄️️ domain #FFFFFA
     participant "Binds 🪣" as binds
     participant "Discloses 🪣" as discloses
 end box
+participant "Graph 🕸" as graph
 
 
 broker --> vault: Disclose 🐌
 
 activate vault    
+    vault -> graph: VERIFY 🔐 {msg}
+    vault -> graph: TRUSTS 🫡 {msg.from, .BROKER 🧩}
     vault -> binds: READ 🧲 
     vault -> discloses: SAVE 💾 {ASKED}
 deactivate vault
