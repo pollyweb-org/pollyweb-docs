@@ -2,17 +2,17 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Bind 🔆" as bind
-    participant "Tag 🔆" as tag
+    participant "PopBind 😃" as bind
+    participant "...Tag 😃" as tag
     participant "Binds 🪣" as binds
 end box
 
 
-wallet -> bind: Pop 🎈 {Token}
+wallet -> bind: PopBind 🔆 {bind, vault}
 
 activate bind    
     wallet -> bind: "tag"
-    bind -> tag: RUN {bind}
+    bind -> tag: RUN {bind.*}
 deactivate bind
 
 activate tag

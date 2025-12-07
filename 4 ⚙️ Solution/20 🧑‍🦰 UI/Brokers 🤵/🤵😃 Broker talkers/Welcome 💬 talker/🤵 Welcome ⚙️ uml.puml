@@ -13,9 +13,9 @@ cmd -> handler: 🏃 RUN
 activate handler
     handler -> chatters: READ 🧲 
     handler -> chats: 
-    handler --> wallet: INFO ⓘ {reason}
-    handler --> wallet: INFO ⓘ {shared binds}
-    handler --> wallet: INFO ⓘ {shared tokens}
+    handler -> wallet: INFO ⓘ {reason}
+    handler -> wallet: INFO ⓘ {shared binds}
+    handler -> wallet: INFO ⓘ {shared tokens}
 deactivate handler
 
 @enduml

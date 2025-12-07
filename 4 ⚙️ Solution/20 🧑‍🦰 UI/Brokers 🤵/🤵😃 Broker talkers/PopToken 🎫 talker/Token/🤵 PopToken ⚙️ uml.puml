@@ -2,11 +2,11 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Token 🔆" as popped
+    participant "PopToken 😃" as popped
     participant "Tokens 🪣" as tokens   
 end box
 
-wallet -> popped: Pop 🎈 {Token}
+wallet -> popped: PopToken 🔆 {token}
 
 
 activate popped

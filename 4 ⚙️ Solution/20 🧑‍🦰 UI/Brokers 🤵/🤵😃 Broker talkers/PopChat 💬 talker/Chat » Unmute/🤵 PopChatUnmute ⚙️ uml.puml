@@ -2,17 +2,17 @@
  
 participant "Wallet 👱" as wallet
 box Broker 🤵 domain #FFFFFA
-    participant "Chat 🔆" as onChat
-    participant "Mute 🔆" as onMute
+    participant "PopChat 😃" as onChat
+    participant "...Mute 😃" as onMute
     participant "Chats 🪣" as chats
 end box
 
     
-wallet -> onChat: Pop 🎈 {Chat}
+wallet -> onChat: PopChat 🔆 {chat}
 
 activate onChat
     wallet -> onChat: "mute"
-    onChat -> onMute: RUN
+    onChat -> onMute: RUN {chat.*}
 deactivate onChat
 
 activate onMute
