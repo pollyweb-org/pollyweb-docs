@@ -4,9 +4,10 @@
 participant "Consumer 💼" as consumer
 participant "Broker 🤵" as broker
 box Helper 🤲 domain #FFFFFA
-    participant "Helper" as script
+    participant "Help 🐌" as script
     participant "Helps 🪣" as table
 end box
+participant "Graph 🕸" as graph
 
 
 activate consumer
@@ -18,6 +19,8 @@ activate broker
 deactivate broker
 
 activate script
+    script -> graph: VERIFY 🔐 {msg}
+    script -> graph: TRUSTS 🫡 {msg.from, .BROKER 🧩}
     script -> table: SAVE 💾 {INVITED}
 deactivate script
 
