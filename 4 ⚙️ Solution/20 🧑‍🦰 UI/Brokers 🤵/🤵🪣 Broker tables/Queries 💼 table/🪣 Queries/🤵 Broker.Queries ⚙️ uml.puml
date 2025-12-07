@@ -14,54 +14,19 @@ participant "Vault 🗄️" as vault
 consumer -> script: Query 🐌
 
 activate script
-    script -> queries: 💾 QUERIED
+    script -> queries: SAVE 💾
 deactivate script
 
 activate queries
-    queries -> forms: informed?
-deactivate queries
-
-activate forms
-    forms -> queries: 💾 INFORMED ✅ ABRUPT ❌
-deactivate forms
-
-activate queries
-    queries -> wallets: READ 🧲 {Binds, Tokens}
-deactivate queries
-
-activate wallets
-    'wallets -x consumer: 💾 EMPTY 🐌 Suggest @ Consumer 
-    wallets -> queries: 💾 MATCHED ✅ UNMATCHED ❌
-deactivate wallets
-
-activate queries
-    queries -> graph: Trusts @ Graph 🚀
-deactivate queries
-
-activate graph
-    'graph -x consumer: 💾 EMPTY 🐌 Suggest @ Consumer 
-    graph -> queries: 💾 TRUSTED ✅ UNTRUSTED ❌
-deactivate graph
-
-activate queries
-    queries -> wallet: ONE "Select"
-deactivate queries
-
-activate wallet
-    wallet -> queries: 💾 SELECTED ✅ UNSELECTED ❌
-deactivate wallet
-
-activate queries
-    queries -> wallet: CONFIRM 👍 "Share?"
-deactivate queries
-
-activate wallet
-    wallet -> queries: 💾 DISCLOSED or SHARED ✅ REJECTED ❌
-deactivate wallet
-
-activate queries
-    queries -> wallet: ✅ SHARED: Share @ Notifier 🐌
-    queries -> vault: ✅ DISCLOSED: Disclose @ Vault 🐌
+    queries -> forms: 🔔 QUERIED: informed? ❌ ABRUPT 
+    queries -> wallets: 🔔 INFORMED: READ 🧲 {Binds, Tokens} ❌ UNMATCHED 
+    queries -> graph: 🔔 MATCHED: TRUSTS 🫡 {consumer} ❌ UNTRUSTED 
+    queries -> wallet: 🔔 TRUSTED: ONE 🤔 "Select" ❌ UNSELECTED 
+    queries -> wallet: 🔔 SELECTED: CONFIRM 👍 "Share?" ❌ REJECTED 
+    group 🔔 One of: DISCLOSED, SHARED 
+    queries -> wallet: 🔔 SHARED: Share @ Notifier 🐌
+    queries -> vault: 🔔 DISCLOSED: Disclose @ Vault 🐌
+    end group 
 deactivate queries
 
 
