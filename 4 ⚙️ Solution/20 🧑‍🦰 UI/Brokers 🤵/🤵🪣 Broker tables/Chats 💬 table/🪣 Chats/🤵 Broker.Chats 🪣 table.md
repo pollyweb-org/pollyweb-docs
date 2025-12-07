@@ -16,7 +16,7 @@
 ||[`DETAILED`](<../🪣🧱 13 Detailed 🔔 event/🤵 OnChatDetailed 🔔 handler.md>) || [`Open@Notifier` 🐌](<../../../../Notifiers 📣/📣📨 Notifier msgs/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) | With translations
 ||[`OPENED`](<../🪣🧱 14 Opened 🔔 event/🤵 OnChatOpened 🔔 handler.md>) |[`Opened` 🐌](<../../../🤵📨 Broker msgs/Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 📃 handler.md>)| [`Present@Finder` 🐌](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎😃 Talkers/Present/🔎 Present 🐌 msg.md>) | Open on [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 ||[`ACTIVATED`](<../🪣🧱 16 Activated 🔔 event/🤵 OnChatActivated 🔔 handler.md>)|| [`Hello@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | With [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) intro
-|[`Abandon`](<../🪣🧱 40 Abandon ⏩ flow/🤵 Broker.Chats.Abandon ⏩ flow.md>)|[`ABANDONED`](<../🪣🧱 41 Abandoned 🔔 event/🤵 OnChatAbandoned 🔔 handler.md>)| [`Pop` 🐌](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>) |[`Abandoned@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | Abandoned by user
+|[`Abandon`](<../🪣🧱 40 Abandon ⏩ flow/🤵 Broker.Chats.Abandon ⏩ flow.md>)|[`ABANDONED`](<../🪣🧱 41 Abandoned 🔔 event/🤵 OnChatAbandoned 🔔 handler.md>)| [`Locate` 🐌](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) |[`Abandoned@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | Abandoned by user
 |[`Wrap`](<../🪣🧱 50 Wrap ⏩ flow/🤵 Broker.Chats.Wrap ⏩ flow.md>)|[`WRAPPED`](<../🪣🧱 51 Wrap 🔔 event/🤵 OnChatWrapped 🔔 handler.md>)| [`Goodbye` 🐌](<../../../🤵📨 Broker msgs/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 📃 handler.md>) ||Closed by [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
 |
 
@@ -35,14 +35,12 @@ Item: Chat
 
 <br/>
 
-The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are: [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Forms`](<../../Forms 📝 table/🪣 Forms/🤵 Broker.Forms 🪣 table.md>) [`Pops`](<../../Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
+The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are: [`Domains`](<../../Domains 👥 table/🪣 Domains/🤵 Broker.Domains 🪣 table.md>) [`Forms`](<../../Forms 📝 table/🪣 Forms/🤵 Broker.Forms 🪣 table.md>) [`Wallets`](<../../Wallets 🧑‍🦰 table/🪣 Wallets/🤵 Broker.Wallets 🪣 table.md>)
 
 ```yaml
 Parents:
 
     Form: # Active form
-
-    Pop: # Pop that created the Chat
 
     Wallet: # Receiver of Open@Notifier
     
@@ -152,17 +150,11 @@ Hook: <hook-uuid>        # Wallet hook reference
 Wallet: <wallet-uuid>    # Wallet reference
 ```
 
-From [`Pop@Broker` 🐌 handler](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Pop 🧑‍🦰🐌🤵/🤵 Pop 📃 handler.md>)
-
-```yaml
-Pop: <pop-uuid>          # Pop reference
-```
-
 From [`Locate@Broker` 🐌 handler](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 📃 handler.md>)
 
 ```yaml
 Origin: <chat-uuid>      # Origin chat (if any)
-Locator: $.Msg.Locator   # Locator to parse on insert
+Locator: .HOST,any-domain.dom,ANY-LOCATOR  # Locator to parse
 ```
 
 From [`OnChatAsked` 🔔 handler](<../🪣🧱 11 Asked 🔔 event/🤵 OnChatAsked 🔔 handler.md>)

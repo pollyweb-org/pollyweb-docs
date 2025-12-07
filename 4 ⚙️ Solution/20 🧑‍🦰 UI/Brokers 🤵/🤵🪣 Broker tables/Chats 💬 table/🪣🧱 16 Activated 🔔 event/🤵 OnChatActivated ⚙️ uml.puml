@@ -15,11 +15,7 @@ activate chats
 deactivate chats
 
 activate handler
-    alt IF is Broker
-        handler -> chatters: SAVE 💾 {POP}
-    else
-        handler -> chatters: SAVE 💾 {HOST}
-    end alt
+    handler -> chatters: SAVE 💾 {HOST}
 deactivate handler
 
 

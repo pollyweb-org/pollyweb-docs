@@ -25,16 +25,11 @@
     Times: Starts, Expires
 
 # Open a Pop to inform the user
-- SAVE|Broker.Pops:
-    Wallet: $Token.Wallet
-    Context: TOKEN.REVISED
-    Key: 
-        Token: $Token.Token
-        Issuer: $Token.Issuer
+# TODO: Implement Pop
 ```
 
 Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) |
-| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Pops`](<../../Pops 🎈 table/🪣 Pops/🤵 Broker.Pops 🪣 table.md>) [`Broker.Tokens`](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) 
+| [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Broker.Tokens`](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) 
 |

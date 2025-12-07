@@ -1,0 +1,31 @@
+@startuml PopChatMute
+ 
+participant "Wallet 👱" as wallet
+box Broker 🤵 domain #FFFFFA
+    participant "Chat 🔆" as onChat
+    participant "Mute 🔆" as onMute
+    participant "Chats 🪣" as chats
+end box
+
+    
+wallet -> onChat: Pop 🎈 {Chat}
+
+activate onChat
+    wallet -> onChat: "mute"
+    onChat -> onMute: RUN
+deactivate onChat
+
+activate onMute
+    onMute -> chats: SAVE 💾 {muted: True}
+    onMute -> wallet: DONE ✅ "muted"
+deactivate onMute
+
+wallet -> onMute: "unmute"
+
+activate onMute
+    onMute -> chats: SAVE 💾 {muted: False}
+    onMute -> wallet: DONE ✅ "unmuted"
+deactivate onMute
+
+
+@enduml 
