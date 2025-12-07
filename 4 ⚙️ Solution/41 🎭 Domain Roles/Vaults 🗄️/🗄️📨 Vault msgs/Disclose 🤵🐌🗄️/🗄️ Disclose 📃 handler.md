@@ -17,15 +17,19 @@
 ```yaml
 📃 Disclose@Vault:
 
-# Verify the signature
-- VERIFY|$.Msg
-
 # Assert the message
 - ASSERT|$.Msg:
     AllOf: Bind, Chat, Query, Language, Consumer
     UUIDs: Bind, Chat, Query
     Consumer.IsDomain:
     Language.IsLanguage:
+
+# Verify the signature
+- VERIFY|$.Msg
+
+# Check if the Broker is trustworthy
+- TRUSTS|$.Msg.From:
+    Schema: .BROKER
 
 # Read the referenced Bind
 - READ >> $bind:
@@ -48,8 +52,9 @@
 
 |Uses||
 |-|-
-| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) |[`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>) |
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) |[`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`READ`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>) [`TRUSTS`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/TRUSTS 🫡/🫡 TRUSTS ⌘ cmd.md>) [`VERIFY`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/🔐 VERIFY ⌘ cmd.md>) |
 | [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Vault.Binds`](<../../🗄️🪣 Vault tables/Binds 🔗 table/🪣 Binds/🗄️ Vault.Binds 🪣 table.md>) [`Vault.Discloses`](<../../🗄️🪣 Vault tables/Discloses 💼 table/🪣 Discloses/🗄️ Vault.Discloses 🪣 table.md>)
 | [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsDomain`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsLanguage`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsLanguage ⓕ.md>)
 | [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Msg`](<../../../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)
+| [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`BROKER`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🧩 Broker schemas/🧩 BROKER.md>)
 |

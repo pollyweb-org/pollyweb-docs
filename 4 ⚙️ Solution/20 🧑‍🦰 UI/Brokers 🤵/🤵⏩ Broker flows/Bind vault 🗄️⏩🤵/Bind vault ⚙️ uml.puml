@@ -1,7 +1,5 @@
+@startuml Bind vault
 
-@startuml Bind()
-
- 
 actor User as user
 participant "Wallet 👱" as wallet
 participant "Notifier 📣" as notifier
