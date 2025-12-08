@@ -12,8 +12,17 @@
 ```yaml
 🗄️📃 Unbound@Vault:
 
+# Verify the inputs
+- ASSERT|$.Msg:
+    AllOf: Bind
+    UUIDs: Bind
+
 # Verify the domain signature
 - VERIFY|$.Msg
+
+# Check if the Broker is still trustworthy
+- TRUSTS|$.Msg.From:
+    Schema: .BROKER
 
 # Resolve the bind
 - READ >> $bind:

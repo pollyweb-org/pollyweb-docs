@@ -1,16 +1,17 @@
 @startuml Collet@Vault
 
 participant "Consumer 💼" as consumer
-
 box Vault 🗄️️ domain #FFFFFA
     participant "Collect 🚀" as vault
     participant "Discloses 🪣" as table
 end box
+participant "Graph 🕸" as graph
 
 
 activate consumer
     consumer -> vault: Collect 🚀 
     activate vault
+        vault -> graph: VERIFY 🔐 {msg}
         vault -> table: READ 🧲 
         vault -> consumer: RETURN {data}
     deactivate vault

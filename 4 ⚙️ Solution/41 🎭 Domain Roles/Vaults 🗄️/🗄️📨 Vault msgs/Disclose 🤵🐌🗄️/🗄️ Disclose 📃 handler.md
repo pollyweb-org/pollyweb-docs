@@ -27,7 +27,7 @@
 # Verify the signature
 - VERIFY|$.Msg
 
-# Check if the Broker is trustworthy
+# Check if the Broker is still trustworthy
 - TRUSTS|$.Msg.From:
     Schema: .BROKER
 

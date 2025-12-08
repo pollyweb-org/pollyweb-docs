@@ -5,6 +5,7 @@ box Vault 🗄️ domain #FFFFFA
     participant "Bound 🐌" as vault
     participant "Binds 🪣" as binds
 end box
+participant "Graph 🕸" as graph
 
 
 activate broker
@@ -12,12 +13,17 @@ activate broker
 deactivate broker
 
 activate vault
-    vault -> binds: READ 🧲
+    
+    vault -> graph: VERIFY 🔐 {msg}
+    vault -> graph: TRUSTS 🫡 {msg.from, .BROKER 🧩}
+    vault -> binds: READ 🧲 {bind, broker}
+
     alt answer is ACCEPTED
         vault -> binds: SAVE 💾 {BOUND}
     else answer is DECLINED
         vault -> binds: SAVE 💾 {DECLINED}
     end
+
 deactivate vault
 
 

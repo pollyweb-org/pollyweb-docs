@@ -21,13 +21,17 @@
 ```yaml
 📃 Bound@Vault:
 
-# Verify the domain signature
-- VERIFY|$.Msg
-
 # Assert the message
 - ASSERT|$.Msg:
     AllOf: Bind, Answer
     Answer.IsIn: ACCEPTED, DECLINED
+
+# Verify the domain signature
+- VERIFY|$.Msg
+
+# Check if the Broker is still trustworthy
+- TRUSTS|$.Msg.From:
+    Schema: .BROKER
 
 # Get the Bind
 - READ >> $bind:
