@@ -37,15 +37,17 @@
 - PUT >> $return:
     $frontend.Format: $.Msg.Sets
 
-# Filter the items of each list
+# Filter the fields of each list
 - FOR|$.Msg.Outputs.Keys|$key:
     - PUT >> $return.{$key}:
-        $return.{$key}:
-            .Format: $.Msg.Outputs.{$key}
+        $return.{$key}.Format: 
+            $.Msg.Outputs.{$key}
 
-# Filter the lists in the frontend
-- PUT|$return >> $return:
-    $return.Evaluate($.Msg.Lists)
+# Filter the items of each list
+- FOR|$.Msg.Asserts.Keys|$key:
+    - PUT >> $return.{$key}:
+        $return.{$key}.Filter: 
+            $.Msg.Outputs.{$key}
 
 # Always add the wallet data
 - SET|$return:
