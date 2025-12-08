@@ -18,11 +18,11 @@
 # Return the data to the consumer
 - SEND:
     Header:
-        To: $Invite.Consumer
+        To: $Help.Consumer
         Subject: Helped@Consumer
     Body: 
-        Helped: $Invite.Helped
-        Invite: $Invite.Invite
+        Helped: $Help.Helped
+        Invite: $Help.Invite
 
 # Progress the state
 - RETURN|BILLABLE

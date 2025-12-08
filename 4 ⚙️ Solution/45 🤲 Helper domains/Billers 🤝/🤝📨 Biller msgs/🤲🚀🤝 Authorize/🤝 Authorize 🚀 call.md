@@ -24,4 +24,5 @@ Body:
 
 ```yaml
 Result: AUTHORIZED
+Bill: <bill-uuid>
 ```

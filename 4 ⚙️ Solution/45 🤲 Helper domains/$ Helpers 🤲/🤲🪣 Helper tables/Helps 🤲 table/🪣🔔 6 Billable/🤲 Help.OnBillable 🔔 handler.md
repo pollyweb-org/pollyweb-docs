@@ -21,11 +21,10 @@
         To: $.Hosted.Biller
         Subject: Bill@Biller
     Body: 
-        Domain: 
-        Schema: 
+        Bill: $Help.Bill
 
 # Progress the state
-- RETURN|BILLABLE
+- RETURN|BILLED
 ```
 
 Uses ||
