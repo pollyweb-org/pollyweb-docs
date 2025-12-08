@@ -1,11 +1,11 @@
 ⏳🤲 Buffer helper domains
 ===
 
-> Mentioned in [📨 Domain Message](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+> About
+* Mentioned in [📨 Domain Message](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+* Reference by [About@Graph 🚀 method](<../../Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 🚀 call.md>)
 
-> Reference by [About@Graph 🚀 method](<../../Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 🚀 call.md>)
-
-<br/>
+## FAQ
 
 1. **What is a Buffer domain in NLWeb?**
 

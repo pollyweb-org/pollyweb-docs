@@ -30,7 +30,7 @@ Uses: [`.IsNot`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System �
 |Object|Property|Type|Purpose|Default
 |-|-|-|-|-
 |Header|`From`|text| Client [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name|
-||`To`|text| [Biller 🤝 domain](<../../../Billers 🤝/🤝 Biller/🤝 Biller 🤲 helper.md>) name |   
+||`To`|text| [Helper 🤲 domain](<../../🤲 Helper/🤲👥 Helper domain.md>) name |   
 ||`Subject`|text| `Read@Helper` |
 |Body|`Sets`|[list](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)| Optional [set](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) names to export | All sets|
 ||`Asserts`|[map](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)| Optional [`.Assert`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) filter to apply | No filter
