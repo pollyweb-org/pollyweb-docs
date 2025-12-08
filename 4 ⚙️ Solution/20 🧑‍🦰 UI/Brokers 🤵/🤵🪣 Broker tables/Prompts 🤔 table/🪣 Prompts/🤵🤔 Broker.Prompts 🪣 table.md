@@ -15,8 +15,8 @@
 |Actor|Save|Read
 |-|:-:|:-:
 | [`Prompt` 📃 handler](<../../../🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 📃 handler.md>) | X | 
-| [`OnPromptInserted` 📃 handler](<../🪣🧱 1 Inserted 🔔/🤵 OnPromptInserted 🔔 handler.md>) | X | X
-| [`OnPromptEmojied` 📃 handler](<../🪣🧱 2 Emojied 🔔/🤵🤔 OnPromptEmojied 🔔 handler.md>) | |X 
+| [`OnPromptInserted` 📃 handler](<../🪣🔔 1 Inserted/🤵 OnPromptInserted 🔔 handler.md>) | X | X
+| [`OnPromptEmojied` 📃 handler](<../🪣🔔 2 Emojied/🤵🤔 OnPromptEmojied 🔔 handler.md>) | |X 
 
 <br/>
 

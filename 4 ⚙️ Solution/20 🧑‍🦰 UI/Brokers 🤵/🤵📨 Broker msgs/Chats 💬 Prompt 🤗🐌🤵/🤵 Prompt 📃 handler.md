@@ -4,8 +4,8 @@
 * Implements the [`Prompt@Broker` 🐌 msg](<🤵 Prompt 🐌 msg.md>)
 
 > Triggers
-* [`OnPromptInserted` 🔔 handler](<../../🤵🪣 Broker tables/Prompts 🤔 table/🪣🧱 1 Inserted 🔔/🤵 OnPromptInserted 🔔 handler.md>)
-* [`OnPromptEmojied` 🔔 handler](<../../🤵🪣 Broker tables/Prompts 🤔 table/🪣🧱 2 Emojied 🔔/🤵🤔 OnPromptEmojied 🔔 handler.md>)
+* [`OnPromptInserted` 🔔 handler](<../../🤵🪣 Broker tables/Prompts 🤔 table/🪣🔔 1 Inserted/🤵 OnPromptInserted 🔔 handler.md>)
+* [`OnPromptEmojied` 🔔 handler](<../../🤵🪣 Broker tables/Prompts 🤔 table/🪣🔔 2 Emojied/🤵🤔 OnPromptEmojied 🔔 handler.md>)
 
 <br/>
 

@@ -47,7 +47,7 @@ Parents:
 
 <br/>
 
-The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`Queried`](<../🪣🧱 10 Queried 🔔 event/🤵 OnQueryQueried 🔔 handler.md>) [`Abrupt`](<../🪣🧱 15 Abrupt 🔔 event/🤵 OnQueryAbrupt 🔔 handler.md>) [`Informed`](<../🪣🧱 20 Informed 🔔 event/🤵 OnQueryInformed 🔔 handler.md>) [`Matched`](<../🪣🧱 30 Matched 🔔 event/🤵 OnQueryMatched 🔔 handler.md>) [`Trusted`](<../🪣🧱 40 Trusted 🔔 event/🤵 OnQueryTrusted 🔔 handler.md>) [`Selected`](<../🪣🧱 50 Selected 🔔 event/🤵 OnQuerySelected 🔔 handler.md>) [`Disclosed`](<../🪣🧱 70 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>) [`Shared`](<../🪣🧱 80 Shared 🔔 event/🤵 OnQueryShared 🔔 handler.md>)
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`Queried`](<../🪣🔔 10 Queried/🤵 OnQueryQueried 🔔 handler.md>) [`Abrupt`](<../🪣🔔 15 Abrupt/🤵 OnQueryAbrupt 🔔 handler.md>) [`Informed`](<../🪣🔔 20 Informed/🤵 OnQueryInformed 🔔 handler.md>) [`Matched`](<../🪣🔔 30 Matched/🤵 OnQueryMatched 🔔 handler.md>) [`Trusted`](<../🪣🔔 40 Trusted/🤵 OnQueryTrusted 🔔 handler.md>) [`Selected`](<../🪣🔔 50 Selected/🤵 OnQuerySelected 🔔 handler.md>) [`Disclosed`](<../🪣🔔 70 Disclosed/🤵 OnQueryDisclosed 🔔 handler.md>) [`Shared`](<../🪣🔔 80 Shared/🤵 OnQueryShared 🔔 handler.md>)
 
 ```yaml
 Handlers: 
@@ -109,7 +109,7 @@ Schemas:                # List of acceptable schemas
   - any-authority.dom/ANY-SCHEMA  # Requested Schema 1
 ```
 
-From [`OnQueryInformed` 🔔 handler](<../🪣🧱 20 Informed 🔔 event/🤵 OnQueryInformed 🔔 handler.md>)
+From [`OnQueryInformed` 🔔 handler](<../🪣🔔 20 Informed/🤵 OnQueryInformed 🔔 handler.md>)
 
 ```yaml
 Matches: # All Binds and Tokens matching the Schemas        
@@ -121,7 +121,7 @@ Matches: # All Binds and Tokens matching the Schemas
     Schema: any-authority.dom/ANY-SCHEMA  
 ```
 
-From [`OnQueryMatched` 🔔 handler](<../🪣🧱 30 Matched 🔔 event/🤵 OnQueryMatched 🔔 handler.md>)
+From [`OnQueryMatched` 🔔 handler](<../🪣🔔 30 Matched/🤵 OnQueryMatched 🔔 handler.md>)
 
 ```yaml
 Trusted: # Only the Binds and Tokens mutually trusted
@@ -129,7 +129,7 @@ Trusted: # Only the Binds and Tokens mutually trusted
     # ...
 ```
 
-From [`OnQueryTrusted` 🔔 handler](<../🪣🧱 40 Trusted 🔔 event/🤵 OnQueryTrusted 🔔 handler.md>)
+From [`OnQueryTrusted` 🔔 handler](<../🪣🔔 40 Trusted/🤵 OnQueryTrusted 🔔 handler.md>)
 
 ```yaml
 Selected: # Only the trusted Bind or Token selected
@@ -137,14 +137,14 @@ Selected: # Only the trusted Bind or Token selected
     # ...
 ```
 
-From [`OnQuerySelected` 🔔 handler](<../🪣🧱 50 Selected 🔔 event/🤵 OnQuerySelected 🔔 handler.md>), for [`OnQueryDisclosed` 🔔](<../🪣🧱 70 Disclosed 🔔 event/🤵 OnQueryDisclosed 🔔 handler.md>)
+From [`OnQuerySelected` 🔔 handler](<../🪣🔔 50 Selected/🤵 OnQuerySelected 🔔 handler.md>), for [`OnQueryDisclosed` 🔔](<../🪣🔔 70 Disclosed/🤵 OnQueryDisclosed 🔔 handler.md>)
 
 ```yaml
 Bind: <bind-uuid>       # Bind to be shared
 Vault: any-vault.dom    # Vault where the Bind is stored
 ```
 
-From [`OnQuerySelected` 🔔 handler](<../🪣🧱 50 Selected 🔔 event/🤵 OnQuerySelected 🔔 handler.md>), for [`OnQueryShared` 🔔](<../🪣🧱 80 Shared 🔔 event/🤵 OnQueryShared 🔔 handler.md>)
+From [`OnQuerySelected` 🔔 handler](<../🪣🔔 50 Selected/🤵 OnQuerySelected 🔔 handler.md>), for [`OnQueryShared` 🔔](<../🪣🔔 80 Shared/🤵 OnQueryShared 🔔 handler.md>)
 
 ```yaml
 Token: <token-uuid>     # Token to be shared

@@ -15,10 +15,10 @@
 
 | Blame | OnSuccess ✅ | OnFailure ❌ | Next state
 |-|-|-|-
-| [`Invite@Broker` 🐌](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | [`INVITED`](<../🪣🧱 1 Invited 🔔/🤵 OnInviteInvited 🔔 handler.md>)  | `INVALID` `UNTRUSTED` | [`TRUSTED`](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🪣 Consumer tables/Invites 🗄️ table/🪣🧱 12 Trusted 🔔 event/💼 OnInviteTrusted 🔔 handler.md>) 
-|| [`TRUSTED`](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🪣 Consumer tables/Invites 🗄️ table/🪣🧱 12 Trusted 🔔 event/💼 OnInviteTrusted 🔔 handler.md>) || [`VERIFIED`](<../🪣🧱 3 Verified 🔔/🤵 OnInviteVerified 🔔 handler.md>) [`ADDED`](<../🪣🧱 4 Added 🔔/🤵 OnInviteAdded 🔔 handler.md>)
-|| [`VERIFIED`](<../🪣🧱 3 Verified 🔔/🤵 OnInviteVerified 🔔 handler.md>) |  `REJECTED` | [`ADDED`](<../🪣🧱 4 Added 🔔/🤵 OnInviteAdded 🔔 handler.md>) 
-|| [`ADDED`](<../🪣🧱 4 Added 🔔/🤵 OnInviteAdded 🔔 handler.md>) | | `DONE`
+| [`Invite@Broker` 🐌](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | [`INVITED`](<../🪣🔔 1 Invited/🤵 OnInviteInvited 🔔 handler.md>)  | `INVALID` `UNTRUSTED` | [`TRUSTED`](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🪣 Consumer tables/Invites 🗄️ table/🪣🧱 12 Trusted 🔔 event/💼 OnInviteTrusted 🔔 handler.md>) 
+|| [`TRUSTED`](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🪣 Consumer tables/Invites 🗄️ table/🪣🧱 12 Trusted 🔔 event/💼 OnInviteTrusted 🔔 handler.md>) || [`VERIFIED`](<../🪣🔔 3 Verified/🤵 OnInviteVerified 🔔 handler.md>) [`ADDED`](<../🪣🔔 4 Added/🤵 OnInviteAdded 🔔 handler.md>)
+|| [`VERIFIED`](<../🪣🔔 3 Verified/🤵 OnInviteVerified 🔔 handler.md>) |  `REJECTED` | [`ADDED`](<../🪣🔔 4 Added/🤵 OnInviteAdded 🔔 handler.md>) 
+|| [`ADDED`](<../🪣🔔 4 Added/🤵 OnInviteAdded 🔔 handler.md>) | | `DONE`
 
 <br/>
 
@@ -41,7 +41,7 @@ Parents: Chat
 
 <br/>
 
-The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnInvited`](<../🪣🧱 1 Invited 🔔/🤵 OnInviteInvited 🔔 handler.md>) [`OnVerified`](<../🪣🧱 3 Verified 🔔/🤵 OnInviteVerified 🔔 handler.md>) [`OnConfirmed`](<../🪣🧱 4 Added 🔔/🤵 OnInviteAdded 🔔 handler.md>).
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are: [`OnInvited`](<../🪣🔔 1 Invited/🤵 OnInviteInvited 🔔 handler.md>) [`OnVerified`](<../🪣🔔 3 Verified/🤵 OnInviteVerified 🔔 handler.md>) [`OnConfirmed`](<../🪣🔔 4 Added/🤵 OnInviteAdded 🔔 handler.md>).
 
 ```yaml
 Handlers:

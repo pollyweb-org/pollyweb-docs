@@ -59,7 +59,7 @@ Uses||
 
     For the following reasons:
     1. avoids raising unnecessary errors that break flows;
-    2. emojis will be filtered in the [`OnPromptInserted` 🔔 handler](<../../🤵🪣 Broker tables/Prompts 🤔 table/🪣🧱 1 Inserted 🔔/🤵 OnPromptInserted 🔔 handler.md>);
+    2. emojis will be filtered in the [`OnPromptInserted` 🔔 handler](<../../🤵🪣 Broker tables/Prompts 🤔 table/🪣🔔 1 Inserted/🤵 OnPromptInserted 🔔 handler.md>);
     3. avoids duplicating logic, simplifying maintenance;
     4. keeps the record of the change in the chat history.
 
