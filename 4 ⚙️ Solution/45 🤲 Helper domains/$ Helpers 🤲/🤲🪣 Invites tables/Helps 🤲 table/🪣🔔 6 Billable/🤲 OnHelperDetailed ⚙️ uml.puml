@@ -24,6 +24,8 @@ deactivate script
 
 activate event
     event -> table: SAVE 💾 {help}
+    event -> consumer: SEND 📬 {Helped @ Consumer 🐌}
+    event -> biller: SEND 📬 {Bill @ Biller 🐌}
     event -> table: HELPED ✅
 deactivate event    
 

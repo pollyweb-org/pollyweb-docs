@@ -15,8 +15,12 @@ participant "Biller 🤝" as biller
 
 table --> event: INVITED 🔔
 activate event
-    event -> biller: SEND 📬 {Authorize 🚀}
-    event -> table: 
+    event -> biller: SEND 📬 {Authorize @ Biller 🚀}
+    alt Result is AUTHORIZED
+        event -> table: AUTHORIZED ✅
+    else
+        event -x table: BLOCKED ❌
+    end alt
 deactivate event
 
 @enduml 
