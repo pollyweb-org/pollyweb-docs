@@ -1,8 +1,8 @@
 # 😃🔩 Talker `{$num.Sum}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Used by [`.Add`](<Add ⓕ.md>) and [`.Plus`](<Plus ⓕ.md>)
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Used by [`.Add`](<Add ⓕ.md>) and [`.Plus`](<Plus ⓕ.md>)
 
 ## FAQ
 

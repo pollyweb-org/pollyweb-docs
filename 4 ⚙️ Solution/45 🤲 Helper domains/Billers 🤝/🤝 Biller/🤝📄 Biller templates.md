@@ -1,70 +1,150 @@
-🤝 Biller domains
+🤝 Biller Templates
 ===
 
+> About
+* Part of the [Biller 🤝 domain](<../🤝 Biller/🤝 Biller 🤲 helper.md>)
 
+## FAQ
 
-1. **What is a Biller domain in NLWeb?**
+1. **What are Biller Templates?**
 
-    A Biller 🤝 is 
-    * a [Helper 🤲 domain](<../../$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) 
-    * that handles the terms and lifecycle of payment agreements 
-    * between a [Payer 💳 domain](<../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) and a [Collector 🏦 domain](<../../Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) 
-    * (e.g., subscriptions, free tiers, direct debits) 
-    * on behalf of [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) and [Seller 💵 domains](<../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>).
+    Biller Templates
+    * are rendering settings
+    * to generate PDF documents (e.g., invoices)
+    * from a given [Map 🧠](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) input.
 
     ---
     <br/>
 
-1. **What flows are supported by billers?**
-
-    | Flow | Details
+1. **What do Biller Templates include?**
+    
+    Part | Purpose
     |-|-
-    | [🧑‍🦰 User subscriptions](<../🤝⏩ Biller flows/User Subscription 🧑‍🦰⏩🤝/🤝 User Subscription ⏩ flow.md>) | Users agree to be charged in a billing plan.
-    | [👥 Domain subscriptions](<../🤝⏩ Biller flows/Domain Subscription 👥⏩🤝/🤝 Domain Subscription ⏩ flow.md>) | Domains agree to be charged in a plan.
+    | `Formulas` | Calculations over the data with [{Functions} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
+    | `Formats` | Formatting rules over the data with [Prompt 🤔](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) formats
+    | `Layout` | Markdown arrangement of the data in a paginated PDF
 
-    --- 
+    ---
     <br/>
 
-1. **How can a user cancel a subscription?**
+1. **How to send data into templates?**
 
-    User subscriptions are attached to the user's [Payer 💳 agent](<../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>).
-    * In a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>), users can ask their [Payer 💳 agent](<../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) to cancel the subscription.
-
-    ---
-
-1. **Do Billers support pay-as-go contracts?**
-
-    Yes, that is set up in the terms.
+    ```yaml
+    Customer:
+        Name: John Doe
+        TaxNumber: 123456789
     
-    * Whenever the [Seller 💵 domain](<../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) receives a billable request, it adds the request to the Biller's 🤝 billing cycle. By the end of the cycle, the Biller will factor in billable items and the terms to produce the period's charge.
+    Items:
+
+        - Name: Product 1
+          Tax: 0.1
+          Price: 100.00
+
+        - Name: Product 2
+          Quantity: 2
+          Tax: 0.2
+          Price: 200.00
+    ```
 
     ---
+    <br/>
 
-1. **Can a Seller implement the Biller API?**
+1. **How to define formulas for a template?**
 
-    Yes. 
-    * However, a Biller 🤝 domain may offer additional services that the [Seller 💵 domain](<../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) can benefit from, like digital signatures, risk assessment, support call center, dispute management, management of financial guarantees, and text-based reporting.
-    
-    * The Seller's customers may also benefit from budget alarms, spend anomaly detection, near-real-time streaming of billing, and text reporting.
+    ```yaml
+    Items:
+        Quantity.Default: 1
+        Price: Price.Round(5)
+        PreTaxes: Price.Times(Quantity).Round(2)
+        Taxes: PreTaxes.Times(Tax).Round(2)
+        PostTaxes: PreTaxes.Plus(Taxes)
+    Total: Items.PostTaxes.Sum
+    Taxes: Items.Taxes.Sum
+    ```
+    Uses: [`.Default`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Default ⓕ.md>) [`.Round`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Round ⓕ.md>) [`.Times`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Times ⓕ.md>) [`.Plus`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Plus ⓕ.md>) [`.Sum`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Sum ⓕ.md>)
 
     ---
+    <br/>
 
-1. **How to set up PDF templates?**
 
-    Consider the following template.
+
+1. **How to format values in templates?**
+
+    Follow the definitions of [`AMOUNT`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/AMOUNT 💰/AMOUNT 💰 prompt.md>) [`DATE`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DATE 📆/DATE 📆 prompt.md>) [`DIGITS`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`QUANTITY`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`TEXT`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>)
+  
+    * either inline, with `Variable: <FORMAT>`
+    * or in blocks, like the `Price` block below.
+
+    ```yaml
+    Items: 
+        Quantity: QUANTITY
+        Price: 
+            Format: AMOUNT
+            Precision: 5
+        Tax: PERCENT
+        PreTaxes: AMOUNT
+    Total: AMOUNT
+    Taxes: AMOUNT
+    ```
+
+    ---
+    <br/>
+
+
+1. **What are template layouts?**
+
+    Layouts are Markdown definitions that support HTML.
+    * Follows the [markdown-it](https://markdown-it.github.io) playground behavior.
+    * Follows the [WeasyPrint](https://weasyprint.org/) pagination behavior.
+    * Translates the output with [`TRANSLATE` 🈯](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/TRANSLATE 🈯/🈯 TRANSLATE ⌘ cmd.md>), except for `´´`.
+    * Replaces variables enclosed in `{}` with data and formulas.
+    * Renders lists into tables using the `{List|...}` syntax.
+
+    ---
+    <br/>
+
+
+1. **What's an example of a template layout?**
 
     ```markdown
-    #### My Invoice {Number}
-    ---
+    ## My Invoice {Number}
     **Customer**: ´{Customer.Name}´ <br/>
     **Tax Number**: ´{Customer.TaxNumber}´
     
-    |Item|Tax|Price
-    |-|-:|-:|
-    {Items|´{Name}´ | {Tax}% | $ {Price|AMOUNT|2}}
+    |Qt|Item|Tax|Per Unit|Sub Total
+    |-:|-|-:|-:|-:-:
+    {Items: {Quantity}|´{Name}´|{Tax}%|${Price}|${PreTaxes}} 
 
     |||
     |-|-:|
-    **Total**| $ {Total|AMOUNT}
-    **Taxes**| $ {Taxes|AMOUNT}
+    **Total**| $ {Total}
+    **Taxes**| $ {Taxes}
+
+    <p align="center">My final message.</p>
     ```
+
+    ---
+    <br/>
+
+
+1. **What's an example of a final outcome?**
+
+    
+    ## My Invoice 001
+    **Customer**: John Doe <br/>
+    **Tax Number**: 123456789
+    
+    |Qt|Item|Tax|Per Unit|Sub Total
+    |-:|-|-:|-:|-:
+    1 | Product 1 | 10% | $ 100.00 | $ 100.00
+    2 | Product 2 | 20% | $ 200.00 | $ 400.00
+
+    |||
+    |-|-:|
+    **Total**| $ 590.00
+    **Taxes**| $ 80.00
+
+    <p align="center">My final message.</p>
+
+    ---
+    <br/>
