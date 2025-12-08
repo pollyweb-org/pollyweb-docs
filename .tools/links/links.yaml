@@ -50,468 +50,462 @@ Successful Tests:
   - Given: "{{Agent}}"
     LinkText: "Agent 🫥 vault"
     LinkFile: "🫥🗄️ Agent vault.md"
-    Reasons: This is hardcoded.
 
   # 🐌 Async Messages
   - Given: "{{Async Messages}}"
     LinkText: "Async Messages 🐌"
     LinkFile: "Async Messages 🐌.md"
-    Reasons: This is hardcoded.
   - Given: "{{Async Message}}"
     LinkText: "Async Message 🐌"
     LinkFile: "Async Messages 🐌.md"
-    Reasons: This is hardcoded.
 
   # 🏛️🤲 Authority helper
   - Given: '{{Authority}}'
     LinkText: "Authority 🏛️ domain"
     LinkFile: "🏛️🤲 Authority helper.md"
-    Reasons: This is hardcoded.
   - Given: '{{Authorities}}'
     LinkText: "Authority 🏛️ domains"
     LinkFile: "🏛️🤲 Authority helper.md"
-    Reasons: This is hardcoded.
 
   # 🤝🤲 Biller helper
   - Given: '{{Biller}}'
     LinkText: "Biller 🤝 domain"
     LinkFile: "🤝 Biller 🤲 helper.md"
-    Reasons: This is hardcoded.
   - Given: '{{Billers}}'
     LinkText: "Biller 🤝 domains"
     LinkFile: "🤝 Biller 🤲 helper.md"
-    Reasons: This is hardcoded.
 
   # 🔗 Bind
   - Given: '{{Bind}}'
     LinkText: "Bind 🔗"
     LinkFile: "🔗 Bind.md"
-    Reasons: This is hardcoded.
   - Given: '{{Binds}}'
     LinkText: "Binds 🔗"
     LinkFile: "🔗 Bind.md"
-    Reasons: This is hardcoded.
 
   # 🧠 Bool holder
   - Given: '{{bool}}'
     LinkText: "bool"
     LinkFile: "Bool holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Bool}}'
     LinkText: "Bool 🧠 holder"
     LinkFile: "Bool holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Bools}}'
     LinkText: "Bool 🧠 holders"
     LinkFile: "Bool holders.md"
-    Reasons: This is hardcoded.
 
   # 🤵🤲 Broker helper
   - Given: '{{Broker}}'
     LinkText: "Broker 🤵 domain"
     LinkFile: "🤵 Broker 🤲 helper.md"
-    Reasons: This is hardcoded.
   - Given: '{{Brokers}}'
     LinkText: "Broker 🤵 domains"
     LinkFile: "🤵 Broker 🤲 helper.md"
-    Reasons: This is hardcoded.
 
   # ⏳ Buffer helper
   - Given: '{{Buffer}}'
     LinkText: "Buffer ⏳"
     LinkFile: "⏳🤲 Buffer helper.md"
-    Reasons: This is hardcoded.
   - Given: '{{Buffers}}'
     LinkText: "Buffers ⏳"
     LinkFile: "⏳🤲 Buffer helper.md"
-    Reasons: This is hardcoded.
+
+  # 💬 Chat
+  - Given: '{{Chat}}'
+    LinkText: "Chat 💬"
+    LinkFile: "💬 Chat.md"
+  - Given: '{{Chats}}'
+    LinkText: "Chats 💬"
+    LinkFile: "💬 Chat.md"
+
+  # 💬 $.Chat 🧠 holder
+  - Given: '{{$.Chat}}'
+    LinkText: "`$.Chat` 🧠 holder"
+    LinkFile: "💬 $.Chat 🧠 holder.md"
 
   # ⌘ Command
   - Given: '{{Command}}'
     LinkText: "Command ⌘"
     LinkFile: "Command ⌘.md"
-    Reasons: This is hardcoded.
   - Given: '{{Commands}}'
     LinkText: "Commands ⌘"
     LinkFile: "Command ⌘.md"
-    Reasons: This is hardcoded.
 
   # 💼🎭 Consumer role
   - Given: '{{Consumer}}'
     LinkText: "Consumer 💼 domain" 
     LinkFile: "💼🎭 Consumer role.md"
-    Reasons: This is hardcoded.
   - Given: '{{Consumers}}'
     LinkText: "Consumer 💼 domains" 
     LinkFile: "💼🎭 Consumer role.md"
-    Reasons: This is hardcoded.
+
+  # 🪣 Dataset
+  - Given: '{{Dataset}}'
+    LinkText: "Dataset 🪣"
+    LinkFile: "🪣 Dataset.md"
+  - Given: '{{Datasets}}'
+    LinkText: "Datasets 🪣"
+    LinkFile: "🪣 Dataset.md"
+
+  # 👥 Domain
+  - Given: '{{domain}}'
+    LinkText: "domain 👥"
+    LinkFile: "👥 Domain.md"
+  - Given: '{{domains}}'
+    LinkText: "domains 👥"
+    LinkFile: "👥 Domain.md"
 
   # 🧠 Enum holder
   - Given: '{{enum}}'
     LinkText: "enum"
     LinkFile: "🧠 Enum holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Enum}}'
     LinkText: "Enum 🧠 holder"
     LinkFile: "🧠 Enum holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Enums}}'
     LinkText: "Enum 🧠 holders"
     LinkFile: "🧠 Enum holders.md"
-    Reasons: This is hardcoded.
 
   # 🔎 Finder agent
   - Given: '{{Finder}}'
     LinkText: "Finder 🔎 domain"
     LinkFile: "🔎 Finder 🫥 agent.md"
-    Reasons: This is hardcoded.
   - Given: '{{Finders}}'
     LinkText: "Finder 🔎 domains"
     LinkFile: "🔎 Finder 🫥 agent.md"
-    Reasons: This is hardcoded.
 
   # 🕸 Graph helper domain
   - Given: '{{Graph}}'
     LinkText: "Graph 🕸 domain"
     LinkFile: "🕸🤲 Graph helper.md"
-    Reasons: This is hardcoded.
   - Given: '{{Graphs}}'
     LinkText: "Graph 🕸 domains"
     LinkFile: "🕸🤲 Graph helper.md"
-    Reasons: This is hardcoded.
 
   # 🤲 Helper domain
   - Given: "{{Helper}}"
     LinkText: "Helper 🤲 domain"
     LinkFile: "🤲👥 Helper domain.md"
-    Reasons: This is hardcoded.
   - Given: "{{Helpers}}"
     LinkText: "Helper 🤲 domains"
     LinkFile: "🤲👥 Helper domain.md"
-    Reasons: This is hardcoded.
 
   # 🧠 Holder
   - Given: "{{Holder}}"
     LinkText: "Holder 🧠"
     LinkFile: "Holder 🧠.md"
-    Reasons: This is hardcoded.
   - Given: '{{Holders}}'
     LinkText: "Holders 🧠"
     LinkFile: "Holder 🧠.md"
-    Reasons: This is hardcoded.
 
   # 🤗🎭 Host role
   - Given: '{{Host}}'
     LinkText: "Host 🤗 domain"
     LinkFile: "🤗🎭 Host role.md"
-    Reasons: This is hardcoded.
   - Given: '{{Hosts}}'
     LinkText: "Host 🤗 domains"
     LinkFile: "🤗🎭 Host role.md"
-    Reasons: This is hardcoded.
-
+    
   # 📦 Hosted domain
   - Given: '{{Hosted}}'
     LinkText: "Hosted 📦 domain" 
     LinkFile: "📦👥 Hosted domain.md"
-    Reasons: This is hardcoded.
   - Given: '{{Hosteds}}'
     LinkText: "Hosted 📦 domains" 
     LinkFile: "📦👥 Hosted domain.md"
-    Reasons: This is hardcoded.
+
+  # 📦 $.Hosted 🧠 holder
+  - Given: '{{$.Hosted}}'
+    LinkText: "`$.Hosted` 🧠 holder"
+    LinkFile: "📦 $.Hosted 🧠 holder.md"
 
   # ☁️ Hoster helper domain
   - Given: "{{Hoster}}"
     LinkText: "Hoster ☁️ helper domain"
     LinkFile: "☁️🤲 Hoster helper.md"
-    Reasons: This is hardcoded.
   - Given: "{{Hosters}}"
     LinkText: "Hoster ☁️ helper domains"
     LinkFile: "☁️🤲 Hoster helper.md"
-    Reasons: This is hardcoded.
+
+  # 🎴 Issuer role
+  - Given: '{{Issuer}}'
+    LinkText: "Issuer 🎴 domain"
+    LinkFile: "🎴🎭 Issuer role.md"
+  - Given: '{{Issuers}}'
+    LinkText: "Issuer 🎴 domains"
+    LinkFile: "🎴🎭 Issuer role.md"
 
   # 🆔 Identity domain
   - Given: '{{Identity}}'
     LinkText: "Identity 🆔 domain"
     LinkFile: "🆔🫥 Identity agent.md"
-    Reasons: This is hardcoded.
   - Given: '{{Identities}}'
     LinkText: "Identity 🆔 domains"
     LinkFile: "🆔🫥 Identity agent.md"
-    Reasons: This is hardcoded.
 
   # 🛢 Itemizer helper domain
   - Given: '{{Itemized dataset}}'
     LinkText: "Itemized 🛢 dataset"
     LinkFile: "Itemized 🛢 dataset.md"
-    Reasons: This is hardcoded.
   - Given: "{{Itemizer}}"
     LinkText: "Itemizer 🛢 helper domain"
     LinkFile: "🛢🤲 Itemizer helper.md"
-    Reasons: This is hardcoded.
   - Given: "{{Itemizers}}"
     LinkText: "Itemizer 🛢 helper domains"
     LinkFile: "🛢🤲 Itemizer helper.md"
-    Reasons: This is hardcoded.
 
   # 🧠 List holder
   - Given: '{{list}}'
     LinkText: "list"
     LinkFile: "🧠 List holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{List}}'
     LinkText: "List 🧠 holder"
     LinkFile: "🧠 List holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Lists}}'
     LinkText: "List 🧠 holders"
     LinkFile: "🧠 List holders.md"
-    Reasons: This is hardcoded.
 
   # 🔆 Locator
   - Given: '{{Locator}}'
     LinkText: "Locator 🔆"
     LinkFile: "🔆 Locator.md"
-    Reasons: This is hardcoded.
   - Given: '{{Locators}}'
     LinkText: "Locators 🔆"
     LinkFile: "🔆 Locator.md"
-    Reasons: This is hardcoded.
 
   # 🪵 Logger helper domain
   - Given: "{{Logger}}"
     LinkText: "Logger 🪵 helper domain"
     LinkFile: "🪵 Logger 🤲 helper.md"
-    Reasons: This is hardcoded.
   - Given: "{{Loggers}}"
     LinkText: "Logger 🪵 helper domains"
     LinkFile: "🪵 Logger 🤲 helper.md"
-    Reasons: This is hardcoded.
 
   # 📜 Manifest
   - Given: '{{Manifest}}'
     LinkText: "Manifest 📜"
     LinkFile: "📜 Manifest.md"
-    Reasons: This is hardcoded.
   - Given: '{{Manifests}}'
     LinkText: "Manifests 📜"
     LinkFile: "📜 Manifest.md"
-    Reasons: This is hardcoded.
 
   # 🧠 Map holder
   - Given: '{{map}}'
     LinkText: "map"
     LinkFile: "🧠 Map holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Map}}'
     LinkText: "Map 🧠 holder"
     LinkFile: "🧠 Map holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Maps}}'
     LinkText: "Map 🧠 holders"
     LinkFile: "🧠 Map holders.md"
-    Reasons: This is hardcoded.
 
   # 📣 Notifier domain
   - Given: '{{Notifier}}'
     LinkText: "Notifier 📣 domain"
     LinkFile: "📣 Notifier 👥 domain.md"
-    Reasons: This is hardcoded.
   - Given: '{{Notifiers}}'
     LinkText: "Notifier 📣 domains"
     LinkFile: "📣 Notifier 👥 domain.md"
-    Reasons: This is hardcoded.
 
   # 🧠 Num holder
   - Given: '{{num}}'
     LinkText: "num"
     LinkFile: "🧠 Num holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Num}}'
     LinkText: "Num 🧠 holder"
     LinkFile: "🧠 Num holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Nums}}'
     LinkText: "Num 🧠 holders"
     LinkFile: "🧠 Num holders.md"
-    Reasons: This is hardcoded.
 
   # 🧠 Period holder
   - Given: '{{Period}}'
     LinkText: "Period 🧠 holder"
     LinkFile: "Period holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Periods}}'
     LinkText: "Period 🧠 holders"
     LinkFile: "Period holders.md"
-    Reasons: This is hardcoded.
 
   # 🧢 Persona agent
   - Given: "{{Persona}}"
     LinkText: "Persona 🧢 agent"
     LinkFile: "🧢🫥 Persona agent.md"
-    Reasons: This is hardcoded.
   - Given: "{{Personas}}"
     LinkText: "Persona 🧢 agents"
     LinkFile: "🧢🫥 Persona agent.md"
-    Reasons: This is hardcoded.
+
+  # 🧠 Placeholders
+  - Given: '{{Placeholder}}'
+    LinkText: "placeholder"
+    LinkFile: "Holder 🧠.md"
+  - Given: '{{Placeholders}}'
+    LinkText: "Placeholders 🧠"
+    LinkFile: "Holder 🧠.md"
 
   # 🖨️🤲 Printer helper
   - Given: '{{Printer}}'
     LinkText: "Printer 🖨️ helper"
     LinkFile: "🖨️🤲 Printer helper.md"
-    Reasons: This is hardcoded.
   - Given: '{{Printers}}'
     LinkText: "Printer 🖨️ helpers"
     LinkFile: "🖨️🤲 Printer helper.md"
-    Reasons: This is hardcoded.
 
   # 🤔 Prompt
   - Given: "{{Prompt}}"
     LinkText: "Prompt 🤔"
     LinkFile: "🤔 Prompt.md"
-    Reasons: This is hardcoded.
   - Given: "{{Prompts}}"
     LinkText: "Prompts 🤔"
     LinkFile: "🤔 Prompt.md"
-    Reasons: This is hardcoded.
 
   # ⭐ Reviewer agent
   - Given: "{{Reviewer}}"
     LinkText: "Reviewer ⭐ agent"
     LinkFile: "⭐ Reviewer 🫥 agent.md"
-    Reasons: This is hardcoded.
   - Given: "{{Reviewers}}"
     LinkText: "Reviewer ⭐ agents"
     LinkFile: "⭐ Reviewer 🫥 agent.md"
-    Reasons: This is hardcoded.
 
   # 🎭 Domain Role
   - Given: "{{Role}}"
     LinkText: "Role 🎭"
     LinkFile: "👥🎭 Domain Role.md"
-    Reasons: This is hardcoded.
   - Given: "{{Roles}}"
     LinkText: "Roles 🎭"
     LinkFile: "👥🎭 Domain Role.md"
-    Reasons: This is hardcoded.
 
   # 📃 Script
   - Given: "{{Script}}"
     LinkText: "Script 📃"
     LinkFile: "Script 📃.md"
-    Reasons: This is hardcoded.
   - Given: "{{Scripts}}"
     LinkText: "Scripts 📃"
     LinkFile: "Script 📃.md"
-    Reasons: This is hardcoded.
 
   # 💵🎭 Seller role
   - Given: "{{Seller}}"
     LinkText: "Seller 🎭 domain"
     LinkFile: "💵🎭 Seller role.md"
-    Reasons: This is hardcoded.
   - Given: "{{Sellers}}"
     LinkText: "Seller 🎭 domains"
     LinkFile: "💵🎭 Seller role.md"
-    Reasons: This is hardcoded.
 
   # 🧠 Set holder
   - Given: '{{set}}'
     LinkText: "set"
     LinkFile: "🧠 Set holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Set}}'
     LinkText: "Set 🧠 holder"
     LinkFile: "🧠 Set holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Sets}}'
     LinkText: "Set 🧠 holders"
     LinkFile: "🧠 Set holders.md"
-    Reasons: This is hardcoded.
 
   # 🌬️🎭 Streamer role
   - Given: "{{Streamer}}"
     LinkText: "Streamer 🌬️ domain"
     LinkFile: "🌬️🎭 Streamer role.md"
-    Reasons: This is hardcoded.
   - Given: "{{Streamers}}"
     LinkText: "Streamer 🌬️ domains"
     LinkFile: "🌬️🎭 Streamer role.md"
-    Reasons: This is hardcoded.
 
+  # 🔔 Subscriber role
+  - Given: '{{Subscriber}}'
+    LinkText: "Subscriber 🔔 domain"
+    LinkFile: "../Subscribers 🔔/🔔🎭 Subscriber role.md"
+  - Given: '{{Subscribers}}'
+    LinkText: "Subscriber 🔔 domains"
+    LinkFile: "../Subscribers 🔔/🔔🎭 Subscriber role.md"
+
+  # 🚀 Sync Calls
   - Given: "{{Sync Request}}"
     LinkText: "Sync Request 🚀"
     LinkFile: "Sync Calls 🚀.md"
-    Reasons: This is hardcoded.
   - Given: "{{Sync Calls}}"
     LinkText: "Sync Calls 🚀"
     LinkFile: "Sync Calls 🚀.md"
-    Reasons: This is hardcoded.
 
+  # 😃 Talker helper domain
   - Given: "{{Talker}}"
     LinkText: "Talker 😃 helper domain"
     LinkFile: "😃🤲 Talker helper.md"
-    Reasons: This is hardcoded.
   - Given: "{{Talkers}}"
     LinkText: "Talker 😃 helper domains"
     LinkFile: "😃🤲 Talker helper.md"
-    Reasons: This is hardcoded.
 
   # 🧠 Text holder
   - Given: '{{text}}'
     LinkText: "text"
     LinkFile: "🧠 Text holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Text}}'
     LinkText: "Text 🧠 holder"
     LinkFile: "🧠 Text holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Texts}}'
     LinkText: "Text 🧠 holders"
     LinkFile: "🧠 Text holders.md"
-    Reasons: This is hardcoded.
 
   # 🧠 Time holder
   - Given: '{{time}}'
     LinkText: "time"
     LinkFile: "🧠 Time holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Time}}'
     LinkText: "Time 🧠 holder"
     LinkFile: "🧠 Time holders.md"
-    Reasons: This is hardcoded.
   - Given: '{{Times}}'
     LinkText: "Time 🧠 holders"
     LinkFile: "🧠 Time holders.md"
-    Reasons: This is hardcoded.
 
+  # 🎫 Token
+  - Given: '{{Token}}'
+    LinkText: "Token 🎫"
+    LinkFile: "🎫 Token.md"
+  - Given: '{{Tokens}}'
+    LinkText: "Tokens 🎫"
+    LinkFile: "🎫 Token.md"
+
+  # 🫡 Domain Trust
   - Given: '{{Trust}}'
     LinkText: "Trust 🫡"
     LinkFile: "🫡 Domain Trust.md"
-    Reasons: This is hardcoded.
   - Given: '{{Trusted}}'
     LinkText: "Trusted 🫡"
     LinkFile: "🫡 Domain Trust.md"
-    Reasons: This is hardcoded.
 
+  # 🗄️🎭 Vault role
   - Given: '{{Vault}}'
     LinkText: "Vault 🗄️ domain" 
     LinkFile: "🗄️🎭 Vault role.md"
-    Reasons: This is hardcoded.
   - Given: '{{Vaults}}'
     LinkText: "Vault 🗄️ domains" 
     LinkFile: "🗄️🎭 Vault role.md"
-    Reasons: This is hardcoded.
 
+  # 🧑‍🦰 Wallet app
   - Given: '{{Wallet}}'
     LinkText: "Wallet 🧑‍🦰 app" 
     LinkFile: "🧑‍🦰 Wallet 🛠️ app.md"
-    Reasons: This is hardcoded.
   - Given: '{{Wallets}}'
     LinkText: "Wallet 🧑‍🦰 apps" 
     LinkFile: "🧑‍🦰 Wallet 🛠️ app.md"
-    Reasons: This is hardcoded.
+
+
+  # 📨 Message
+  - Given: '{{Message}}'
+    LinkText: "Message 📨"
+    LinkFile: "📨 Message.md"
+  - Given: '{{Messages}}'
+    LinkText: "Messages 📨"
+    LinkFile: "📨 Message.md"
+
+  # 🧩 Schema
+  - Given: '{{Schema}}'
+    LinkText: "Schema Code 🧩"
+    LinkFile: "🧩 Schema Code.md"
+  - Given: '{{Schemas}}'
+    LinkText: "Schema Codes 🧩"
+    LinkFile: "🧩 Schema Code.md"
+
+
 
   HOLDERS 🧠:
 
@@ -737,7 +731,6 @@ Successful Tests:
     LinkText: "`Chat@Broker` 🚀 call"
     LinkFile: '🤵 Chat 🚀 call.md'
     Reasons: same as "{{Parse@Hosted}}"
-
 
   ITEM 🛢:
 
