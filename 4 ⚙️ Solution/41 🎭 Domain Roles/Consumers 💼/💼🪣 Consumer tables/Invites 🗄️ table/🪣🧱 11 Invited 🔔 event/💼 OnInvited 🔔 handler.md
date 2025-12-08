@@ -7,7 +7,7 @@
 
 ## Diagram
 
-![alt text](<💼 OnInviteInvited ⚙️ uml.png>)
+![alt text](<💼 OnInvited ⚙️ uml.png>)
 
 <br/>
 

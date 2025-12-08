@@ -3,27 +3,19 @@
 
 box Vault 🗄️ domain #FFFFFA
     participant "Discloses 🪣" as discloses
-    participant "OnAsked 🔔" as asked
+    participant "OnTrusted 🔔" as handler
 end box
-
-participant "Hosted 📦" as hosted
+participant "Consumer 💼" as consumer
 
 
 
 activate discloses
-    discloses --> asked: TRUSTED 🔔 
+    discloses --> handler: TRUSTED 🔔 
 deactivate discloses
 
-activate asked
-    asked --> hosted: CALL 🧮 {disclose}
-deactivate asked
-
-activate hosted
-    hosted --> asked: {result}
-deactivate hosted
-
-activate asked
-    asked -> discloses: UPDATE 💾 {READY, result}
-deactivate asked
+activate handler
+    handler --> consumer: CALL 🧮 {disclose}
+    handler -> discloses: UPDATE 💾 {READY, result}
+deactivate handler
 
 @enduml 

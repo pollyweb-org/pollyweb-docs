@@ -1,13 +1,13 @@
 # 💼 OnInviteHelped 🔔 handler
 
 > About
-* Part of the [`Consumer.Invites` 🪣 table](<../../Invites 🗄️ table/🪣 Invites/💼 Consumer.Invites 🪣 table.md>)
+* Part of the [`Consumer.Invites` 🪣 table](<../🪣 Invites/💼 Consumer.Invites 🪣 table.md>)
 
 <br/>
 
 ## Diagram
 
-![alt text](<💼 OnInviteHelped ⚙️ uml.png>)
+![alt text](<💼 OnHelped ⚙️ uml.png>)
 
 <br/>
 

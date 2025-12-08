@@ -15,9 +15,9 @@ activate handler
     handler -> graph: TRUSTS 🫡 {consumer}
     
     alt trusted?
-        handler -> table: SAVE 💾 {TRUSTED}
+        handler -> table: SAVE 💾 {TRUSTED} ✅
     else
-        handler -> table: SAVE 💾 {UNTRUSTED}
+        handler -> table: SAVE 💾 {UNTRUSTED} ❌
     end alt
 deactivate handler
 

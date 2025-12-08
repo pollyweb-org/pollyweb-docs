@@ -4,39 +4,28 @@ participant "Broker 🤵" as broker
 
 box Vault 🗄️ domain #FFFFFA
     participant "Discloses 🪣" as table
-    participant "Graph 🕸" as graph
+    participant "Schemas 🪣" as schemas
     participant "Script 📃" as handler
-    participant "Hosted 📦" as hosted
 end box
+participant "Graph 🕸" as graph
 participant "Consumer 💼" as consumer
 
 
-broker -> table: 🐌 Disclose @ Vault 💾 ASKED
+broker -> table: 🐌 Disclose @ Vault 
 
 activate table
-    table -> graph: 🚀 Trusts @ Graph 
-deactivate table
+    table -> graph: 🔔 ASKED: 🚀 Trusts @ Graph ❌ UNTRUSTED
+    table -> consumer: 🔔 TRUSTED: 🚀 Queried @ Consumer 
+    table -> schemas: 🔔 DETAILED: READ 🧲 
+    
+    activate table
+        table -> handler: 🏃 RUN {script, context}
+    deactivate table
+    activate handler
+        handler -> table: SAVE 💾 {data}
+    deactivate handler
 
-activate graph
-    graph -> table: 💾 TRUSTED ✅ UNTRUSTED ❌
-deactivate graph
-
-activate table
-    'table -> hosted: 🐌 Handle @ Hosted  
-    table -> handler: RUN 📃 
-deactivate table
-
-activate handler
-    handler -> hosted: 🐌 Handle 
-    handler -> table: RETURN
-deactivate handler
-
-'activate hosted
-'    hosted -> table: 🐌 Handled @ Talker 💾 READY
-'deactivate hosted
-
-activate table
-    table -> consumer: 🐌 Consume @ Consumer
+    table -> consumer: 🔔 READY: 🐌 Consume @ Consumer
 deactivate table
 
 activate consumer

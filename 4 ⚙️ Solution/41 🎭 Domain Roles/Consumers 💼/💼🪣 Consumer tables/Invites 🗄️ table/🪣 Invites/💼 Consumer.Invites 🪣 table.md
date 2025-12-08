@@ -15,8 +15,8 @@
 
 | Blame | States ✅ | Exits ❌ | 
 |-|-|-
-|[`INVITE` ⌘](<../../../💼⌘ Consumer cmds/INVITE 🤲/🤲 INVITE ⌘ cmd.md>)| [`INVITED`](<../🪣🧱 11 Invited 🔔 event/💼 OnInviteInvited 🔔 handler.md>) [`TRUSTED`](<../🪣🧱 12 Trusted 🔔 event/💼 OnInviteTrusted 🔔 handler.md>) | `UNTRUSTED`
-|[`Helped@` 🐌](<../../../💼📨 Consumer msgs/Helped 🤲🐌💼/💼 Helped 📃 handler.md>)| [`HELPED`](<../../Invites 🗄️ table/🪣🧱 21 Helped 🔔 event/💼 OnInviteHelped 🔔 handler.md>)  [`VALID`](<../🪣🧱 22 Valid 🔔 event/💼 OnInviteValid 🔔 handler.md>) | `INVALID` 
+|[`INVITE` ⌘](<../../../💼⌘ Consumer cmds/INVITE 🤲/🤲 INVITE ⌘ cmd.md>)| [`INVITED`](<../🪣🧱 11 Invited 🔔 event/💼 OnInvited 🔔 handler.md>) [`TRUSTED`](<../🪣🧱 12 Trusted 🔔 event/💼 OnTrusted 🔔 handler.md>) | `UNTRUSTED`
+|[`Helped@` 🐌](<../../../💼📨 Consumer msgs/Helped 🤲🐌💼/💼 Helped 📃 handler.md>)| [`HELPED`](<../🪣🧱 21 Helped 🔔 event/💼 OnHelped 🔔 handler.md>)  [`VALID`](<../🪣🧱 22 Valid 🔔 event/💼 OnValid 🔔 handler.md>) | `INVALID` 
 
 
 

@@ -7,7 +7,7 @@
 
 ## Diagram
 
-![alt text](<💼 OnInviteValid ⚙️ uml.png>)
+![alt text](<💼 OnValid ⚙️ uml.png>)
 
 <br/>
 
