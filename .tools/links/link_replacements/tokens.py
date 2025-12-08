@@ -628,28 +628,6 @@ def replace_time_tokens(md_files):
 
     return total
 
-# Generate common simple replacers to reduce repeated boilerplate. These are
-# intentionally created via helper to keep the explicit simple cases compact.
-_GEN_BASIC = [
-    ("replace_token_tokens", "Token", "token", "[Token 🎫](<🎫 Token.md>)", "Token"),
-    ("replace_tokens_tokens", "Tokens", "tokens", "[Tokens 🎫](<🎫 Token.md>)", "Tokens"),
-    ("replace_chat_tokens", "Chat", "chat", "[Chat 💬](<💬 Chat.md>)", "Chat"),
-    ("replace_chats_tokens", "Chats", "chats", "[Chats 💬](<💬 Chat.md>)", "Chats"),
-    ("replace_settings_tokens", "$.Hosted", "$.settings", "[`$.Hosted` 🧠 holder](<📦 $.Hosted 🧠 holder.md>)", "$.Hosted"),
-    ("replace_placeholders_tokens", "Placeholders", "placeholders", "[Placeholders 🧠](<Holder 🧠.md>)", "Placeholders"),
-    ("replace_domain_tokens", "domain", "domain", "[domain 👥](<👥 Domain.md>)", "domain"),
-    ("replace_domains_tokens", "domains", "domains", "[domains 👥](<👥 Domain.md>)", "domains"),
-    ("replace_dataset_tokens", "Dataset", "dataset", "[Dataset 🪣](<🪣 Dataset.md>)", "Dataset"),
-    ("replace_datasets_tokens", "Datasets", "datasets", "[Datasets 🪣](<🪣 Dataset.md>)", "Datasets"),
-    ("replace_message_tokens", "Message", "message", "[Message 📨](<📨 Message.md>)", "Message"),
-    ("replace_messages_tokens", "Messages", "messages", "[Messages 📨](<📨 Message.md>)", "Messages"),
-    ("replace_schema_tokens", "Schema", "schema", "[Schema Code 🧩](<🧩 Schema Code.md>)", "Schema"),
-    ("replace_schemas_tokens", "Schemas", "schemas", "[Schema Codes 🧩](<🧩 Schema Code.md>)", "Schemas"),
-    ("replace_chat_msg_tokens", "$.Chat", "$.chat", "[`$.Chat` 🧠 holder](<💬 $.Chat 🧠 holder.md>)", "$.Chat"),
-]
-
-for fname, lit, key, repl, label in _GEN_BASIC:
-    _make_hardcoded_replacer(fname, lit, key, repl, label)
 @register_hardcoded("subscriber", replacement=SUBSCRIBER_REPLACEMENT, token_label="Subscriber")
 def replace_subscriber_tokens(md_files):
     pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Subscriber`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
@@ -896,21 +874,6 @@ __all__ = [
     "HARDCODED_HANDLERS",
     "replace_placeholder_tokens",
     "replace_msg_tokens",
-    "replace_token_tokens",
-    "replace_tokens_tokens",
-    "replace_chat_tokens",
-    "replace_chats_tokens",
-    "replace_settings_tokens",
-    "replace_placeholders_tokens",
-    "replace_domain_tokens",
-    "replace_domains_tokens",
-    "replace_dataset_tokens",
-    "replace_datasets_tokens",
-    "replace_message_tokens",
-    "replace_messages_tokens",
-    "replace_schema_tokens",
-    "replace_schemas_tokens",
-    "replace_chat_msg_tokens",
     "replace_map_tokens",
     "replace_bool_tokens",
     "replace_list_tokens",
