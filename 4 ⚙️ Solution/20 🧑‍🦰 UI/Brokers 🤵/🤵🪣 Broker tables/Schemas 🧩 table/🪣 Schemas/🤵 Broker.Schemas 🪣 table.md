@@ -47,9 +47,9 @@ Handlers:
     ALTERED >> OnSchemaAltered:    # Updates Broker.Frontend
 ```
 Handlers:
-* [`OnSchemaInserted` 📃 handler](<../🪣🧱 Inserted 🔔 event/🤵 OnSchemaInserted 🔔 handler.md>)
-* [`OnSchemaLocalized` 📃 handler](<../🪣🧱 Localized 🔔 event/🤵 OnSchemaLocalized 🔔 handler.md>)
-* [`OnSchemaAltered` 📃 handler](<../🪣🧱 Altered 🔔 event/🤵 OnSchemaAltered 🔔 handler.md>)
+* [`OnSchemaInserted` 📃 handler](<../🪣🔔 Inserted/🤵 OnSchemaInserted 🔔 handler.md>)
+* [`OnSchemaLocalized` 📃 handler](<../🪣🔔 Localized/🤵 OnSchemaLocalized 🔔 handler.md>)
+* [`OnSchemaAltered` 📃 handler](<../🪣🔔 Altered/🤵 OnSchemaAltered 🔔 handler.md>)
 
 <br/>
 

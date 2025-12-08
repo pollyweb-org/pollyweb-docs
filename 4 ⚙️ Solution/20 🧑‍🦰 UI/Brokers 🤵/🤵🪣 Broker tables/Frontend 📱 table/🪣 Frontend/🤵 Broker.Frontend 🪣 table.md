@@ -22,8 +22,8 @@
 |[`OnChatAltered` 🔔](<../../Chats 💬 table/🪣🧱 0 Altered 🔔 event/🤵 OnChatAltered 🔔 handler.md>)|X|X| Updates `Chats` projections
 |[`OnTokenAltered` 🔔](<../../Tokens 🎫 table/🪣🧱 00 Altered 🔔 event/🤵 OnTokenAltered 🔔 handler.md>)|X|X| Updates `Tokens` projections
 |[`OnDomainAltered` 🔔](<../../Domains 👥 table/🪣🧱 0 Altered 🔔 event/🤵 OnDomainAltered 🔔 handler.md>)|X|X| Updates `Domain` projections
-|[`OnSchemaAltered` 🔔](<../../Schemas 🧩 table/🪣🧱 Altered 🔔 event/🤵 OnSchemaAltered 🔔 handler.md>)|X|X| Updates `Schema` projections
-|[`OnFrontendAltered` 🔔](<../🪣🧱 Altered 🔔 event/🤵 OnFrontendAltered 🔔 handler.md>) |X|| Calls [`Updated@Notifier`](<../../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
+|[`OnSchemaAltered` 🔔](<../../Schemas 🧩 table/🪣🔔 Altered/🤵 OnSchemaAltered 🔔 handler.md>)|X|X| Updates `Schema` projections
+|[`OnFrontendAltered` 🔔](<../🪣🔔 Altered/🤵 OnFrontendAltered 🔔 handler.md>) |X|| Calls [`Updated@Notifier`](<../../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)
 |[`Frontend@Broker` 📃](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 📃 handler.md>)  |X|| Called by [Wallet 🧑‍🦰 apps](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 <br/>
 
