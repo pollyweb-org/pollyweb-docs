@@ -23,9 +23,9 @@
     Body: 
         Invite: $Invite.Invite
 
-# Verify the schema
+# Verify the schema of the context
 - VERIFY|$context >> $valid:
-    Schema: $Invite.Schema
+    Schema: "{$Invite.Schema}/CONTEXT"
 
 # Fail if not valid
 - IFNOT|$valid:

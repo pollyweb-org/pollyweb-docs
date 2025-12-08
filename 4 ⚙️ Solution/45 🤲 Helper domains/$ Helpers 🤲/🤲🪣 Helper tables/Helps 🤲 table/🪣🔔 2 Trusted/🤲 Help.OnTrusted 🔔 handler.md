@@ -26,7 +26,9 @@
 
 # Progress the state
 - IF|$response.Result.Is(AUTHORIZED):
-    Then: RETURN|AUTHORIZED
+    Then: 
+        - SAVE|$Help
+        - RETURN|AUTHORIZED
     Else: RETURN|BLOCKED
 ```
 

@@ -26,6 +26,10 @@
     Context: $Invite.Context
     Consumer: $Invite.Consumer
 
+# Verify the helped data
+- VERIFY|$helped:
+    Schema: $Invite.Schema
+
 # Save the Help details
 - SAVE|$Invite:
     .State: HELPED
@@ -34,5 +38,5 @@
 
 Uses ||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`VERIFIED`](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Invites 🤲 table/🪣🔔 3 Verified/🤵 OnInviteVerified 🔔 handler.md>)
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Helper.Helps`](<../🪣 Helps/🤲 Helper.Helps 🪣 table.md>) [`Helper.Schemas`](<../../Schemas 🧩 table/🪣 Schemas/🤲 Helper.Schemas 🪣 table.md>)

@@ -11,7 +11,7 @@ participant "Graph 🕸" as graph
 table --> event: AUTHORIZED 🔔
 activate event
     event -> consumer: SEND 📬 {Invited @ Consumer 🚀}
-    event -> graph: VERIFY 🔐 {context, schema}
+    event -> graph: VERIFY 🔐 {context, schema/CONTEXT}
     alt if not valid
         event -x table: BROKEN ❌
     else if valid

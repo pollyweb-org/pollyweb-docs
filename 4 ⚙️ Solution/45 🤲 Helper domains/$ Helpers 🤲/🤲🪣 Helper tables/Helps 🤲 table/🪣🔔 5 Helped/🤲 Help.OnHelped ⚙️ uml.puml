@@ -9,8 +9,8 @@ participant "Consumer 💼 " as consumer
 table --> event: HELPED 🔔
 
 activate event
-    event -> consumer: SEND 📬 {Helped @ Consumer 🐌}
-    event -> table: HELPED ✅
+    event --> consumer: SEND 📬 {Helped @ Consumer 🐌}
+    event -> table: BILLABLE ✅
 deactivate event    
 
 @enduml 
