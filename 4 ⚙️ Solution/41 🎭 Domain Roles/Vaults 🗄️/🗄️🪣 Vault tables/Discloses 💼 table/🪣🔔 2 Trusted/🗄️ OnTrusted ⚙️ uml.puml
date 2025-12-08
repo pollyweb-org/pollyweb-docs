@@ -15,7 +15,7 @@ deactivate discloses
 
 activate handler
     handler -> consumer: SEND 📬 {Queried @ Consumer}
-    handler -> discloses: UPDATE 💾 {context}
+    handler -> discloses: SAVE 💾 {context}
     handler -> discloses: DETAILED ✅
 deactivate handler
 
