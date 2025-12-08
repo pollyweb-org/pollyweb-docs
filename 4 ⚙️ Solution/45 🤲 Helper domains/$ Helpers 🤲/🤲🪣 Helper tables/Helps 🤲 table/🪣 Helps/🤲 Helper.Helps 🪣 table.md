@@ -22,7 +22,13 @@ Item: Invite
 The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are [`Invited`](<../🪣🔔 1 Invited/🤲 Help.OnInvited 🔔 handler.md>) [`Trusted`](<../🪣🔔 2 Trusted/🤲 Help.OnTrusted 🔔 handler.md>) [`Authorized`](<../🪣🔔 3 Authorized/🤲 Help.OnAuthorized 🔔 handler.md>) [`Valid`](<../🪣🔔 4 Valid/🤲 Help.OnValid 🔔 handler.md>) [`Helped`](<../🪣🔔 5 Helped/🤲 Help.OnHelped 🔔 handler.md>) [`Billable`](<../🪣🔔 6 Billable/🤲 Help.OnBillable 🔔 handler.md>)
 
 ```yaml
-
+Handlers:
+    INVITED     >> OnInvited:     # Calls Trusts@Graph
+    TRUSTED     >> OnTrusted:     # Calls Authorized@Biller
+    AUTHORIZED  >> OnAuthorized:  # Calls Consumer.Invited
+    VALID       >> OnValid:       # Runs from Helper.Schemas
+    HELPED      >> OnHelped:      # Calls Helped@Consumer
+    BILLABLE    >> OnBillable:    # Calls Bill@Biller
 ```
 
 <br/>
