@@ -75,11 +75,11 @@ Successful Tests:
   # 🤝🤲 Biller helper
   - Given: '{{Biller}}'
     LinkText: "Biller 🤝 domain"
-    LinkFile: "🤝🤲 Biller helper.md"
+    LinkFile: "🤝 Biller 🤲 helper.md"
     Reasons: This is hardcoded.
   - Given: '{{Billers}}'
     LinkText: "Biller 🤝 domains"
-    LinkFile: "🤝🤲 Biller helper.md"
+    LinkFile: "🤝 Biller 🤲 helper.md"
     Reasons: This is hardcoded.
 
   # 🔗 Bind

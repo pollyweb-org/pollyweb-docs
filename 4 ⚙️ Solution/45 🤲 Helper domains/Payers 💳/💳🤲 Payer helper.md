@@ -6,7 +6,7 @@
     Payer 💳🤲 Helpers 
     * are [Payer 🎭 domains](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) 
     * that act as [Helper 🤲 domains](<../$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) for other [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>), 
-    * paying for agreements with [Biller 🤝 helpers](<../Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>).
+    * paying for agreements with [Biller 🤝 helpers](<../Billers 🤝/🤝 Biller/🤝 Biller 🤲 helper.md>).
 
     ---
     <br/>

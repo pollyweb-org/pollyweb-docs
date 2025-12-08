@@ -1,7 +1,7 @@
 # 🤝 Authorize@Biller 🚀 call
 
 > About
-* Part of [Biller 🤝 domain](<../../🤝 Biller/🤝🤲 Biller helper.md>)
+* Part of [Biller 🤝 domain](<../../🤝 Biller/🤝 Biller 🤲 helper.md>)
 
 <br/>
 
