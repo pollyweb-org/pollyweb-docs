@@ -1,4 +1,4 @@
-# 🤲 OnHelperDetailed 🔔 handler
+# 🤲 Help.OnValid 🔔 handler
 
 > About
 * Part of the [`Helper.Helps` 🪣 table](<../🪣 Helps/🤲 Helper.Helps 🪣 table.md>) 
@@ -6,14 +6,14 @@
 
 ## Diagram
 
-![alt text](<🤲 OnHelperDetailed ⚙️ uml.png>)
+![alt text](<🤲 Help.OnValid ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnHelperDetailed:
+📃 Help.OnValid:
 
 # Read the schema scripts
 - READ >> $script:
@@ -21,13 +21,15 @@
     Key: $Invite.Schema
 
 # Run the schema script
-- RUN|$script >> $result:
-    Invite: $Invite
+- RUN|$script >> $helped:
+    Schema: $Invite.Schema
+    Context: $Invite.Context
+    Consumer: $Invite.Consumer
 
 # Save the Help details
 - SAVE|$Invite:
     .State: HELPED
-    Details: $result
+    Helped: $helped
 ```
 
 Uses ||

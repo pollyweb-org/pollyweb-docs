@@ -6,14 +6,14 @@
 
 ## Diagram
 
-![alt text](<🤲 OnHelperInvited ⚙️ uml.png>)
+![alt text](<🤲 Help.OnInvited ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnHelperInvited:
+📃 Helper.OnInvited:
 
 # Verify the trust
 - TRUSTS >> $trusted:

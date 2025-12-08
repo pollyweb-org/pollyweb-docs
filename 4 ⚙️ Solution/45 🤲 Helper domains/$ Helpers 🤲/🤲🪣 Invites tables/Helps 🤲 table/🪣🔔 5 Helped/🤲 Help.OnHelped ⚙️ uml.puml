@@ -1,0 +1,16 @@
+@startuml 🤲 Help.OnHelped
+
+box "Helper 🤲" #FFFFFA
+    participant "Helps 🪣" as table
+    participant "OnHelped 🔔" as event
+end box
+participant "Consumer 💼 " as consumer
+
+table --> event: HELPED 🔔
+
+activate event
+    event -> consumer: SEND 📬 {Helped @ Consumer 🐌}
+    event -> table: HELPED ✅
+deactivate event    
+
+@enduml 

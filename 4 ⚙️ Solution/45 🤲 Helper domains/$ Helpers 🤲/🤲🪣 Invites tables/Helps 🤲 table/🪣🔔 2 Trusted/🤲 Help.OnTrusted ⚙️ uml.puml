@@ -1,0 +1,20 @@
+@startuml 🤲 OnHelperTrusted
+
+box "Helper 🤲" #FFFFFA
+    participant "Helps 🪣" as table
+    participant "OnTrusted 🔔" as event
+end box
+participant "Biller 🤝" as biller
+
+
+table --> event: TRUSTED 🔔
+activate event
+    event -> biller: SEND 📬 {Authorize @ Biller 🚀}
+    alt Result is AUTHORIZED
+        event -> table: AUTHORIZED ✅
+    else
+        event -x table: BLOCKED ❌
+    end alt
+deactivate event
+
+@enduml 
