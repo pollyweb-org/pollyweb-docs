@@ -113,7 +113,7 @@
     [Wand 🪄 domains](<🪄🤲 Wand helper.md>) may implement a number of ways to monetize - e.g.:
     - charge [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) for a commitment to keep the placeholder active for a certain amount of time (e.g., 10 years) when an order is placed;
     - charge [Custodian 🧳 vault domains](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) for each user registration or interaction with a [Thing 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>);
-    - charge a [subscription 🗓️](<../../../2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape/00 🗓️ Subscriptions index.md>) to users, by leveraging a [Biller 🤝 helper domain](<../Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>);
+    - charge a [subscription 🗓️](<../../../2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape/00 🗓️ Subscriptions index.md>) to users, by leveraging a [Biller 🤝 helper domain](<../Billers 🤝/🤝 Biller/🤝 Biller 🤲 helper.md>);
     - introduce [advertising 👀](<../../../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) in the user [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), by leveraging an [Advertiser 👀 helper domain](<../Advertisers 👀/👀🤲 Advertiser helper.md>).
 
     ---

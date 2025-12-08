@@ -56,13 +56,13 @@
 
 1. **How can users pay for Storage?**
 
-    Typically, with a [subscription 🤝](<../../45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>), like Google Drive.
+    Typically, with a [subscription 🤝](<../../45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝 Biller 🤲 helper.md>), like Google Drive.
 
     ---
 
 1. **How can users increase the available Storage space?**
 
-    Typically, by upgrading the [subscription 🤝](<../../45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝🤲 Biller helper.md>), like Google Drive.
+    Typically, by upgrading the [subscription 🤝](<../../45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝 Biller 🤲 helper.md>), like Google Drive.
 
     ---
 

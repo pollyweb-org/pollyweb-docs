@@ -48,3 +48,23 @@
     * The Seller's customers may also benefit from budget alarms, spend anomaly detection, near-real-time streaming of billing, and text reporting.
 
     ---
+
+1. **How to set up PDF templates?**
+
+    Consider the following template.
+
+    ```markdown
+    #### My Invoice {Number}
+    ---
+    **Customer**: ´{Customer.Name}´ <br/>
+    **Tax Number**: ´{Customer.TaxNumber}´
+    
+    |Item|Tax|Price
+    |-|-:|-:|
+    {Items|´{Name}´ | {Tax}% | $ {Price|AMOUNT|2}}
+
+    |||
+    |-|-:|
+    **Total**| $ {Total|AMOUNT}
+    **Taxes**| $ {Taxes|AMOUNT}
+    ```
