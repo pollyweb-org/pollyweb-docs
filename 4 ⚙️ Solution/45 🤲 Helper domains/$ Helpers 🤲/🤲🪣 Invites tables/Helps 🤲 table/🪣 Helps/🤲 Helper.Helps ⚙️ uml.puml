@@ -11,6 +11,7 @@ participant "Biller 🤝" as biller
 participant "Consumer 💼 " as consumer
 
 
+
 handler -> table: 💾 INVITED
 
 group Validations

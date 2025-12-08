@@ -1,0 +1,21 @@
+@startuml 🤲 Helper.Helps
+
+box "Helper 🤲" #FFFFFA
+    participant "Helps 🪣" as table
+    participant "OnInvited 🔔" as event
+    'participant "Help 🐌" as handler
+    'participant "Schemas 🪣" as schemas
+    'participant "Script 📃" as script
+end box
+participant "Graph 🕸" as graph
+'participant "Biller 🤝" as biller
+'participant "Consumer 💼 " as consumer
+
+table --> event: INVITED 🔔
+activate event
+    event -> graph: TRUSTS 🫡 {consumer, schema} 
+    event -x table: UNTRUSTED ❌
+    event -> table: TRUSTED ✅
+deactivate event
+
+@enduml 
