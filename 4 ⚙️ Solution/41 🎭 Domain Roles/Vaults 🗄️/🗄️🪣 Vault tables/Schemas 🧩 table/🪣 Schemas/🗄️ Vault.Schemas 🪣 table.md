@@ -1,0 +1,25 @@
+# 🗄️ Vault.Schemas 🪣 table
+
+> About
+* Maps [Scripts 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to handle requests to disclose [Schema Codes 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
+* Items added by a [Hoster ☁️ helper domain](<../../../../Hosters ☁️/☁️ Hoster helper/☁️🤲 Hoster helper.md>) when synching settings.
+
+<br/>
+
+## Schema
+
+```yaml
+Prefix: Vault
+Table: Schemas
+Item: Schema
+Key: Schema
+```
+
+<br/>
+
+## Example
+
+```yaml
+Schema: any-authority.dom/ANY-SCHEMA:1.0
+Script: AnyScriptName
+```
