@@ -14,7 +14,7 @@
 ```yaml
 Header:
     From: any-broker.dom
-    To: any-invited.dom
+    To: any-helper.dom
     Subject: Help@Helper
 
 Body:
