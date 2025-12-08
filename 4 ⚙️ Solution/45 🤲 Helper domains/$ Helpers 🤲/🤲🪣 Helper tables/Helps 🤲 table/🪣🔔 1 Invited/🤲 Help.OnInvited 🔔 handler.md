@@ -17,8 +17,8 @@
 
 # Verify the trust
 - TRUSTS >> $trusted:
-    Trusted: $Invite.Consumer
-    Schema: $Invite.Schema
+    Trusted: $Help.Consumer
+    Schema: $Help.Schema
     Role: CONSUMER
 
 # Progress the state

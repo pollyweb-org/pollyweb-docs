@@ -10,7 +10,7 @@ participant "Biller 🤝" as biller
 table --> event: BILLABLE 🔔
 
 activate event
-    event -> biller: SEND 📬 {Bill @ Biller 🐌}
+    event --> biller: SEND 📬 {Bill @ Biller 🐌}
     event -> table: BILLED ✅
 deactivate event    
 
