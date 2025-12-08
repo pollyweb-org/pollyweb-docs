@@ -10,12 +10,14 @@ participant "Biller 🤝" as biller
 table --> event: TRUSTED 🔔
 activate event
     event -> biller: SEND 📬 {Authorize @ Biller 🚀}
-    alt Result is AUTHORIZED
-        event -> table: SAVE 💾 {bill}
-        event -> table: AUTHORIZED ✅
-    else
+
+    alt IF Result is not AUTHORIZED
         event -x table: BLOCKED ❌
+    else
+        event -> table: SAVE 💾 {bill}
+        event -> table: AUTHORIZED ✅    
     end alt
+    
 deactivate event
 
 @enduml 

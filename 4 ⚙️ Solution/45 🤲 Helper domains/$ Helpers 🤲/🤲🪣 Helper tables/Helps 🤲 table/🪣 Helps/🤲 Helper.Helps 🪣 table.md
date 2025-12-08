@@ -1,9 +1,11 @@
 # 🤵 Broker.Invites 🪣 table
 
 
-## Diagram
+## Lifecycle
 
 ![alt text](<🤲 Helper.Helps ⚙️ uml.png>)
+
+
 
 <br/>
 
@@ -14,6 +16,16 @@ Prefix: Broker
 Table: Invites
 Item: Invite
 ```
+
+<br/>
+
+The [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) are [`Invited`](<../🪣🔔 1 Invited/🤲 Help.OnInvited 🔔 handler.md>) [`Trusted`](<../🪣🔔 2 Trusted/🤲 Help.OnTrusted 🔔 handler.md>) [`Authorized`](<../🪣🔔 3 Authorized/🤲 Help.OnAuthorized 🔔 handler.md>) [`Valid`](<../🪣🔔 4 Valid/🤲 Help.OnValid 🔔 handler.md>) [`Helped`](<../🪣🔔 5 Helped/🤲 Help.OnHelped 🔔 handler.md>) [`Billable`](<../🪣🔔 6 Billable/🤲 Help.OnBillable 🔔 handler.md>)
+
+```yaml
+
+```
+
+<br/>
 
 Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
 

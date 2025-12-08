@@ -18,21 +18,21 @@
 # Get the context
 - SEND >> $context:
     Header:
-        To: $Invite.Consumer
+        To: $Help.Consumer
         Subject: Invited@Consumer
     Body: 
-        Invite: $Invite.Invite
+        Invite: $Help.Invite
 
 # Verify the schema of the context
 - VERIFY|$context >> $valid:
-    Schema: "{$Invite.Schema}/CONTEXT"
+    Schema: "{$Help.Schema}/CONTEXT"
 
 # Fail if not valid
 - IFNOT|$valid:
     RETURN|BROKEN
 
 # Progress if valid
-- SAVE|$Invite:
+- SAVE|$Help:
     .State: VALID
     Context: $context
 ```

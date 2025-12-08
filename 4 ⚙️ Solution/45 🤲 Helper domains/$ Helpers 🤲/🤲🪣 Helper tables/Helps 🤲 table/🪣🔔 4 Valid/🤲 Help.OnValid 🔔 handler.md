@@ -18,20 +18,20 @@
 # Read the schema scripts
 - READ >> $script:
     Set: Helper.Schemas
-    Key: $Invite.Schema
+    Key: $Help.Schema
 
 # Run the schema script
 - RUN|$script >> $helped:
-    Schema: $Invite.Schema
-    Context: $Invite.Context
-    Consumer: $Invite.Consumer
+    Schema: $Help.Schema
+    Context: $Help.Context
+    Consumer: $Help.Consumer
 
 # Verify the helped data
 - VERIFY|$helped:
-    Schema: $Invite.Schema
+    Schema: $Help.Schema
 
 # Save the Help details
-- SAVE|$Invite:
+- SAVE|$Help:
     .State: HELPED
     Helped: $helped
 ```
