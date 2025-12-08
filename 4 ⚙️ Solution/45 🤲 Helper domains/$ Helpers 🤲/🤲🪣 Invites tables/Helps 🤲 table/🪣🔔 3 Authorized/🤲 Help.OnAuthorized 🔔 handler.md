@@ -1,4 +1,4 @@
-# 🤲 OnHelperAuthorized 🔔 handler
+# 🤲 Help.OnAuthorized 🔔 handler
 
 > About
 * Part of the [`Helper.Helps` 🪣 table](<../🪣 Helps/🤲 Helper.Helps 🪣 table.md>) 
@@ -6,14 +6,14 @@
 
 ## Diagram
 
-![alt text](<🤲 OnHelperAuthorized ⚙️ uml.png>)
+![alt text](<🤲 Help.OnAuthorized ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnHelperAuthorized:
+📃 Help.OnAuthorized:
 
 # Get the context
 - SEND >> $context:

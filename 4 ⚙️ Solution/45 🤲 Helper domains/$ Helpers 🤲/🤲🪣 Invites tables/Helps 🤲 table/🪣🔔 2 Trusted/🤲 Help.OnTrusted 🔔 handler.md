@@ -6,14 +6,14 @@
 
 ## Diagram
 
-![alt text](<🤲 OnHelperTrusted ⚙️ uml.png>)
+![alt text](<🤲 Help.OnTrusted ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnHelperTrusted:
+📃 Help.OnTrusted:
 
 # Check if authorized for billing
 - SEND >> $response:

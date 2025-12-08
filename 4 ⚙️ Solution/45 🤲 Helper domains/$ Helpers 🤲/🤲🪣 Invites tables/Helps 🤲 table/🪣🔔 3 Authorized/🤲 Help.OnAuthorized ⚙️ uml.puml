@@ -1,17 +1,14 @@
-@startuml 🤲 Helper.Helps
+@startuml 🤲 OnHelperAuthorized
 
 box "Helper 🤲" #FFFFFA
     participant "Helps 🪣" as table
-    participant "OnInvited 🔔" as event
-    'participant "Help 🐌" as handler
-    'participant "Schemas 🪣" as schemas
-    'participant "Script 📃" as script
+    participant "OnAuthorized 🔔" as event
 end box
-'participant "Biller 🤝" as biller
 participant "Consumer 💼 " as consumer
 participant "Graph 🕸" as graph
 
-table --> event: INVITED 🔔
+
+table --> event: AUTHORIZED 🔔
 activate event
     event -> consumer: SEND 📬 {Invited @ Consumer 🚀}
     event -> graph: VERIFY 🔐 {context, schema}
