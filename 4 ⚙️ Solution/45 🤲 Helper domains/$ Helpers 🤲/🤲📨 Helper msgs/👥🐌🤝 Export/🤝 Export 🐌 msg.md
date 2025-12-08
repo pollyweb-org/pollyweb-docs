@@ -2,7 +2,7 @@
 
 > About
 * Part of the [Helper 🤲 domain](<../../🤲 Helper/🤲👥 Helper domain.md>)
-* Slowly sends a large number of items into the client domain's {{Buffer}} 
+* Slowly sends a large number of items into the client domain's [Buffer ⏳](<../../../Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) 
 * Applies the same filtering as [`Read@Helper` 🚀 call](<../👥🚀🤝 Read/🤝 Read 🚀 call.md>)
 
 

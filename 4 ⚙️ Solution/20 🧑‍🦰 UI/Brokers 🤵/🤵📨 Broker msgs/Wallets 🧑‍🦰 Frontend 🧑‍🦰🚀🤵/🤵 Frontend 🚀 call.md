@@ -23,25 +23,32 @@ Header:
     Subject: Frontend@Broker
 
 Body:
-    Sets: Chats, Binds, Tokens, Domains, Schemas
-    Chats: [Field1, Field2, ...]
-    Binds: [Field1, Field2, ...]
-    Tokens: [Field1, Field2, ...]
-    Domains: [Field1, Field2, ...]
-    Schemas: [Field1, Field2, ...]
+
+    # from Read@Helper
+    Sets: Binds, Chats
+
+    # from Read@Helper
+    Outputs:        
+        Binds: Title, Schema
+
+    # from Read@Helper
+    Asserts:          
+        Binds.Vault: any-vault.dom
+        Tokens.Status.IsIn: ACTIVE, REVOKED
 ```
+Uses: [`.IsIn`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
+
+<br/>
 
 | Object | Property | Type  | Description|Origin
 |-|-|-|-|-
 | Header    |`From`| uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 |           |`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 |           | `Subject`|text|  `Frontend@Broker`
-| Body    | `Lists`   |list  | Optional lists to return
-|       |`Chats`   |list  | Optional [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) fields to list
-|        | `Binds`   |list  | Optional [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) fields to list
-|        | `Tokens`  |list  | Optional [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) fields to list
-|        | `Domains` |list  | Optional [Domain 🌐](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) fields to list
-|        | `Schemas` |list  | Optional [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) fields to list
+| Body    | `Sets`   | {{enum}}  | Set filters, like in [`Read@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/👥🚀🤝 Read/🤝 Read 🚀 call.md>)
+||||`Chats` `Binds` `Tokens` `Domains` `Schemas`
+||`Outputs`| {{map}}  | Field filters, like in [`Read@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/👥🚀🤝 Read/🤝 Read 🚀 call.md>)
+||`Asserts`| {{map}}  | Item filters, like in [`Read@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/👥🚀🤝 Read/🤝 Read 🚀 call.md>)
 |
 
 <br/>
