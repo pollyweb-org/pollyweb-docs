@@ -3,27 +3,21 @@
 
 box Vault 🗄️ domain #FFFFFA
     participant "Discloses 🪣" as discloses
-    participant "OnAsked 🔔" as asked
+    participant "OnDetailed 🔔" as handler
+    participant "Schemas 🪣" as schemas
+    participant "Script 📃" as script
 end box
-
-participant "Hosted 📦" as hosted
-
 
 
 activate discloses
-    discloses --> asked: TRUSTED 🔔 
+    discloses --> handler: TRUSTED 🔔 
 deactivate discloses
 
-activate asked
-    asked --> hosted: CALL 🧮 {disclose}
-deactivate asked
-
-activate hosted
-    hosted --> asked: {result}
-deactivate hosted
-
-activate asked
-    asked -> discloses: UPDATE 💾 {READY, result}
-deactivate asked
+activate handler
+    handler -> schemas: READ 🧲 {schema}
+    handler -> script: RUN 🏃 {schema, context}
+    handler -> discloses: UPDATE 💾 {result}
+    handler -> discloses: READY ✅
+deactivate handler
 
 @enduml 
