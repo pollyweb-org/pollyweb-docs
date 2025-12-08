@@ -9,35 +9,21 @@ participant "Helper 🤲" as helper
 
 
 activate talker
-    talker -> table: 💾 INVITED
+    talker --> table: SAVE 💾 {INVITED}
 deactivate talker
 
 activate table
-    table -> graph: TRUSTS 🫡 {helper}
-deactivate table
-
-activate graph
-    graph -> table: 💾 TRUSTED ✅ UNTRUSTED ❌
-deactivate graph
-
-activate table
-    table -> helper: Invite @ Broker 🐌 
+    table -> graph: 🔔 INVITED: TRUSTS 🫡 {helper} ❌ UNTRUSTED
+    table -> helper: 🔔 TRUSTED: Invite @ Broker 🐌 
 deactivate table
 
 activate helper
-    helper -> table: 🐌 Helped @ Consumer 💾 HELPED
+    helper --> table: 🐌 Helped @ Consumer 
 deactivate helper
 
 activate table
-    table -> graph: VERIFY 🔐 {data, schema}
-deactivate table
-
-activate graph
-    graph -> table: 💾 VALID ✅ INVALID ❌
-deactivate graph
-
-activate table
-    table -> talker: RACE 🏁 
+    table -> graph: 🔔 HELPED: VERIFY 🔐 {data, schema} ❌ INVALID 
+    table -> talker: 🔔 VALID: RACE 🏁 
 deactivate table
 
 

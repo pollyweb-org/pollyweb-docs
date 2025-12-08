@@ -1,0 +1,29 @@
+@startuml OnDiscloseTrusted
+
+
+box Vault 🗄️ domain #FFFFFA
+    participant "Discloses 🪣" as discloses
+    participant "OnAsked 🔔" as asked
+end box
+
+participant "Hosted 📦" as hosted
+
+
+
+activate discloses
+    discloses --> asked: TRUSTED 🔔 
+deactivate discloses
+
+activate asked
+    asked --> hosted: CALL 🧮 {disclose}
+deactivate asked
+
+activate hosted
+    hosted --> asked: {result}
+deactivate hosted
+
+activate asked
+    asked -> discloses: UPDATE 💾 {READY, result}
+deactivate asked
+
+@enduml 
