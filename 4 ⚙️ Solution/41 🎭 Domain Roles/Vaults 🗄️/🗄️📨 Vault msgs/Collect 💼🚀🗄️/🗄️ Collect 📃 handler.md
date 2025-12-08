@@ -16,6 +16,13 @@
 ## Script
 
 ```yaml
+📃 Collect@Vault:
+
+# Verify the inputs
+- ASSERT|$.Msg:
+    AllOf: Disclose
+    UUIDs: Disclose
+
 # Verify the signature
 - VERIFY|$.Msg
 
