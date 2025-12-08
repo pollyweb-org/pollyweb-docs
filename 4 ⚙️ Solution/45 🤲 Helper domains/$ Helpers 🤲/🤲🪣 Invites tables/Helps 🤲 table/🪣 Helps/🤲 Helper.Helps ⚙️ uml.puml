@@ -19,11 +19,11 @@ group Validations
 activate table
     table -> graph: 🔔 INVITED: TRUSTS 🫡 {consumer, schema} ❌ UNTRUSTED 
     table -> biller: 🔔 TRUSTED: 🚀 Authorize @ Biller {consumer, schema} ❌ BLOCKED
-    table -> consumer: 🔔 VALID: 🚀 Invited @ Consumer {invite} ❌ BROKEN
+    table -> consumer: 🔔 AUTHORIZED: 🚀 Invited @ Consumer {invite} ❌ BROKEN
     
 end group 
 
-    table -> schemas: 🔔 DETAILED: READ 🧲 
+    table -> schemas: 🔔 VALID: READ 🧲 
     activate table
         table -> script: RUN 🏃 {schema.script}
     deactivate table

@@ -10,9 +10,13 @@ end box
 'participant "Graph 🕸" as graph
 'participant "Biller 🤝" as biller
 'participant "Consumer 💼 " as consumer
+participant "Biller 🤝" as biller
+
 
 table --> event: INVITED 🔔
 activate event
+    event -> biller: SEND 📬 {Authorize 🚀}
+    event -> table: 
 deactivate event
 
 @enduml 
