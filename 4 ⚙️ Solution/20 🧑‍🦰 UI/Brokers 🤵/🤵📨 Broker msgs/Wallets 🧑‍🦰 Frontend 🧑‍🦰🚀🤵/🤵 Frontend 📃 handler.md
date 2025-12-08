@@ -21,9 +21,8 @@
 # Assert the message
 - ASSERT|$.Msg:
     UUIDs: From
-    Lists: Chats, Binds, Tokens, Domains, Schemas
-    Enums: Lists
-    Lists.IsIn: Chats, Binds, Tokens, Domains, Schemas
+    Enums: Sets
+    Sets.IsIn: Chats, Binds, Tokens, Domains, Schemas
 
 # Get the frontend item
 - READ >> $frontend:
@@ -34,13 +33,15 @@
 - VERIFY|$.Msg:
     Key: $frontend.PublicKey
 
+# Filter the lists
+- PUT >> $return:
+    $frontend.Format: $.Msg.Sets
+
 # Filter the items of each list
-- PUT|$frontend >> $return:
-    Chats: Chats.Format($.Msg.Chats) 
-    Binds: Binds.Format($.Msg.Binds) 
-    Tokens: Tokens.Format($.Msg.Tokens)
-    Domains: Domains.Format($.Msg.Domains)
-    Schemas: Schemas.Format($.Msg.Schemas)
+- FOR|$.Msg.Outputs.Keys|$key:
+    - PUT >> $return.{$key}:
+        $return.{$key}:
+            .Format: $.Msg.Outputs.{$key}
 
 # Filter the lists in the frontend
 - PUT|$return >> $return:

@@ -92,6 +92,20 @@ Successful Tests:
     LinkFile: "🔗 Bind.md"
     Reasons: This is hardcoded.
 
+  # 🧠 Bool holder
+  - Given: '{{bool}}'
+    LinkText: "bool"
+    LinkFile: "Bool holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Bool}}'
+    LinkText: "Bool 🧠 holder"
+    LinkFile: "Bool holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Bools}}'
+    LinkText: "Bool 🧠 holders"
+    LinkFile: "Bool holders.md"
+    Reasons: This is hardcoded.
+
   # 🤵🤲 Broker helper
   - Given: '{{Broker}}'
     LinkText: "Broker 🤵 domain"
@@ -130,6 +144,20 @@ Successful Tests:
   - Given: '{{Consumers}}'
     LinkText: "Consumer 💼 domains" 
     LinkFile: "💼🎭 Consumer role.md"
+    Reasons: This is hardcoded.
+
+  # 🧠 Enum holder
+  - Given: '{{enum}}'
+    LinkText: "enum"
+    LinkFile: "🧠 Enum holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Enum}}'
+    LinkText: "Enum 🧠 holder"
+    LinkFile: "🧠 Enum holders.md"
+    Reasons: This is hardcoded.
+  - Given: '{{Enums}}'
+    LinkText: "Enum 🧠 holders"
+    LinkFile: "🧠 Enum holders.md"
     Reasons: This is hardcoded.
 
   # 🔎 Finder agent
@@ -260,6 +288,7 @@ Successful Tests:
     LinkFile: "🪵 Logger 🤲 helper.md"
     Reasons: This is hardcoded.
 
+  # 📜 Manifest
   - Given: '{{Manifest}}'
     LinkText: "Manifest 📜"
     LinkFile: "📜 Manifest.md"
@@ -269,6 +298,7 @@ Successful Tests:
     LinkFile: "📜 Manifest.md"
     Reasons: This is hardcoded.
 
+  # 🧠 Map holder
   - Given: '{{map}}'
     LinkText: "map"
     LinkFile: "🧠 Map holders.md"
@@ -280,20 +310,6 @@ Successful Tests:
   - Given: '{{Maps}}'
     LinkText: "Map 🧠 holders"
     LinkFile: "🧠 Map holders.md"
-    Reasons: This is hardcoded.
-
-  # 🧠 Bool holder
-  - Given: '{{bool}}'
-    LinkText: "bool"
-    LinkFile: "Bool holders.md"
-    Reasons: This is hardcoded.
-  - Given: '{{Bool}}'
-    LinkText: "Bool 🧠 holder"
-    LinkFile: "Bool holders.md"
-    Reasons: This is hardcoded.
-  - Given: '{{Bools}}'
-    LinkText: "Bool 🧠 holders"
-    LinkFile: "Bool holders.md"
     Reasons: This is hardcoded.
 
   # 📣 Notifier domain
