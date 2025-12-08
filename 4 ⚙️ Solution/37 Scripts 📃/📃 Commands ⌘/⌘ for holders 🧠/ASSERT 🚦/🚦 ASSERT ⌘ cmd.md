@@ -57,7 +57,7 @@
     | `Times` | Absolute or relative [Time 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) | `A,B` `[A,B]` |[`.IsTime`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsTime ⓕ.md>)
     | `Lists` | Must be [Lists 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) or [Sets 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) | `A,B` `[A,B]` | [`.IsList`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsList ⓕ.md>)
     | `Bools` | Must be boolean fields | `A,B` `[A,B]` | [`.IsBool`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsBool ⓕ.md>)
-    | `Enums` | Must be [Lists 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) of [Text 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | `A,B` `[A,B]`
+    | `Enums` | Must be [Lists 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) of [Text 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | `A,B` `[A,B]` | [`.IsEnum`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsEnum ⓕ.md>)
     | `Nums` | Must be [Num 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) fields | `A,B` `[A,B]` | [`.IsNum`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/IsNum ⓕ.md>)
     |
     
