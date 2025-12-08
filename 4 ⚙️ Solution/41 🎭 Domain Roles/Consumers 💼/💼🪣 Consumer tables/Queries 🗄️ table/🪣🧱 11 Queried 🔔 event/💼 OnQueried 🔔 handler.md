@@ -7,7 +7,7 @@
 
 ## Diagram
 
-![alt text](<💼 OnQueryQueried ⚙️ uml.png>)
+![alt text](<💼 OnQueried ⚙️ uml.png>)
 
 <br/>
 

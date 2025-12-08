@@ -19,9 +19,9 @@
 
 | Blame | States ✅ | Exits ❌ | 
 |-|-|-
-|[`SHARE` ⌘](<../../../💼⌘ Consumer cmds/SHARE 💼/💼 SHARE ⌘ cmd.md>)| [`QUERIED`](<../🪣🧱 11 Queried 🔔 event/💼 OnQueryQueried 🔔 handler.md>)
-|[`Consume@` 🐌](<../../../💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)| [`CONSUME`](<../🪣🧱 21 Consume 🔔 event/💼 OnQueryConsume 🔔 handler.md>) [`TRUSTED`](<../🪣🧱 22 Trusted 🔔 event/💼 OnQueryTrusted 🔔 handler.md>) [`COLLECTED`](<../🪣🧱 23 Collected 🔔 event/💼 OnQueryCollected 🔔 handler.md>) | `BROKEN` `UNTRUSTED`
-|[`Receive@` 🐌](<../../../💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 📃 handler.md>)| [`RECEIVED`](<../🪣🧱 31 Received 🔔 event/💼 OnQueryReceived 🔔 handler.md>) [`TOKENED`](<../🪣🧱 32 Tokened 🔔 event/💼 OnQueryTokened 🔔 handler.md>) | `INVALID` `BROKEN` `UNTRUSTED`
+|[`SHARE` ⌘](<../../../💼⌘ Consumer cmds/SHARE 💼/💼 SHARE ⌘ cmd.md>)| [`QUERIED`](<../🪣🧱 11 Queried 🔔 event/💼 OnQueried 🔔 handler.md>)
+|[`Consume@` 🐌](<../../../💼📨 Consumer msgs/Consume 🗄️🐌💼/💼 Consume 📃 handler.md>)| [`CONSUME`](<../🪣🧱 21 Consume 🔔 event/💼 OnConsume 🔔 handler.md>) [`TRUSTED`](<../🪣🧱 22 Trusted 🔔 event/💼 OnTrusted 🔔 handler.md>) [`COLLECTED`](<../🪣🧱 23 Collected 🔔 event/💼 OnCollected 🔔 handler.md>) | `BROKEN` `UNTRUSTED`
+|[`Receive@` 🐌](<../../../💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 📃 handler.md>)| [`RECEIVED`](<../🪣🧱 31 Received 🔔 event/💼 OnReceived 🔔 handler.md>) [`TOKENED`](<../🪣🧱 32 Tokened 🔔 event/💼 OnTokened 🔔 handler.md>) | `INVALID` `BROKEN` `UNTRUSTED`
 
 
 <br/>
@@ -81,7 +81,7 @@ Schema: any-authority.dom/ANY-SCHEMA
 Collect: <collect-uuid>
 ```
 
-From [`OnQueryCollected` 🔔 handler](<../🪣🧱 23 Collected 🔔 event/💼 OnQueryCollected 🔔 handler.md>)
+From [`OnQueryCollected` 🔔 handler](<../🪣🧱 23 Collected 🔔 event/💼 OnCollected 🔔 handler.md>)
 
 ```yaml
 Collected: {...}
