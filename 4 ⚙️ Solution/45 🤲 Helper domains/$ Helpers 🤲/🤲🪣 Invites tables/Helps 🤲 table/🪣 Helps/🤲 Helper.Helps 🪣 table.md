@@ -29,6 +29,7 @@ Assert:
     Helper.IsDomain:
     Schema.IsSchema:
 ```
+
 Uses: [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
 
 <br/>
