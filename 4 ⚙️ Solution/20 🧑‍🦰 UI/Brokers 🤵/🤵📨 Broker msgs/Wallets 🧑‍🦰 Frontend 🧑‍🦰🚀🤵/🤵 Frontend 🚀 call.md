@@ -23,7 +23,7 @@ Header:
     Subject: Frontend@Broker
 
 Body:
-    Lists: Chats, Binds, Tokens, Domains, Schemas
+    Sets: Chats, Binds, Tokens, Domains, Schemas
     Chats: [Field1, Field2, ...]
     Binds: [Field1, Field2, ...]
     Tokens: [Field1, Field2, ...]

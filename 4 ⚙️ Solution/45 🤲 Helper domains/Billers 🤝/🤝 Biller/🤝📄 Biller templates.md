@@ -106,10 +106,13 @@
 1. **How to use sequences?**
 
     Sequences are unique identifiers of documents.
-    * They are assign with the inputs on rendering.
-    * when rendering, the sequence is available on the `Sequence` [map](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>).
-    * Sequences are auto-incremented numbers stored per template.
-    * Sequence values can be reset per year with `{Sequence.Name: YEAR}`.
+    * They're assigned with the inputs on rendering.
+    * When rendering, they're available on the `Sequence` [map](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>).
+
+    The available fields are:
+    - `Sequence.Name`: the name of the sequence requested.
+    - `Sequence.Number`: the current number in the sequence.
+    - `Sequence.Year`: the current year of the sequence.
 
     ---
     <br/>

@@ -2,6 +2,7 @@
 
 > About
 * Part of [Biller 🤝 domain](<../../🤝 Biller/🤝 Biller 🤲 helper.md>)
+* Renders a [Biller 🤝 Template](<../../🤝 Biller/🤝📄 Biller templates.md>)
 
 <br/>
 
@@ -15,6 +16,7 @@ Header:
 
 Body:
     Template: AnyName
+    Sequence: AnySequence
     Input: {...}
 ```
 
@@ -24,5 +26,5 @@ Body:
 
 ```yaml
 PDF: <based64-string>   # PDF generated content
-Output: {...}           # Input after formulas
+Output: {...}           # Input after formulas and sequence
 ```
