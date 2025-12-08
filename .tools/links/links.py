@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Iterable, List, Optional, Tuple
 
 import yaml
-from urllib.parse import quote
+from urllib.parse import quote, urlsplit, urlunsplit
 
 REFERENCE_DEFINITION_PATTERN = re.compile(r"^\[[^\]]+\]:\s*<[^>]+>\s*$")
 REFERENCE_DEFINITION_CAPTURE_PATTERN = re.compile(r"^\[(?P<label>[^\]]+)\]:\s*<(?P<target>[^>]+)>\s*$")
@@ -47,8 +47,6 @@ from link_replacements import (
     replace_itemizers_tokens,
     replace_itemized_datasets_tokens,
     replace_items_tokens,
-    replace_issuer_tokens,
-    replace_issuers_tokens,
     replace_msg_tokens,
     replace_prompt_broker_tokens,
     replace_talker_tokens,
@@ -69,6 +67,7 @@ HARDCODED_FILE_ALIASES: dict[str, list[str]] = {
     "🛢🔔 Triggered.md": ["🛢🔔 Raised.md"],
     "Enum holders.md": ["🧠 Enum holders.md"],
     "Enum 🧠 holders.md": ["🧠 Enum holders.md"],
+    "../Subscribers 🔔/🔔🎭 Subscriber role.md": ["🔔🎭 Subscriber role.md"],
 }
 
 # Some X@Y tokens (Raised@Itemizer) need to resolve to files whose stem uses
@@ -223,6 +222,62 @@ def _resolve_at_token(token: str, md_files: list[str]) -> Optional[Tuple[str, Pa
         label = '📨 msg'
 
     return label, path
+
+
+def _flatten_yaml_tests(raw_tests, *, include_section: bool = False) -> List[dict]:
+    """Normalize YAML test structures into a flat list of dictionaries."""
+
+    flattened: List[dict] = []
+    if isinstance(raw_tests, dict):
+        # Detect a single test dictionary vs. a mapping of sections.
+        if {"Given", "LinkText", "LinkFile"}.intersection(raw_tests.keys()):
+            entry = dict(raw_tests)
+            if include_section:
+                entry.setdefault("_section", "")
+            flattened.append(entry)
+        else:
+            for section, value in raw_tests.items():
+                section_label = "" if section is None else str(section)
+                if isinstance(value, list):
+                    items = value
+                else:
+                    items = [value]
+                for item in items:
+                    if not isinstance(item, dict):
+                        continue
+                    entry = dict(item)
+                    if include_section:
+                        entry["_section"] = section_label
+                    flattened.append(entry)
+    elif isinstance(raw_tests, list):
+        for item in raw_tests:
+            if not isinstance(item, dict):
+                continue
+            entry = dict(item)
+            if include_section:
+                entry.setdefault("_section", "")
+            flattened.append(entry)
+    return flattened
+
+
+def _flatten_successful_tests(raw_tests) -> List[dict]:
+    return _flatten_yaml_tests(raw_tests, include_section=True)
+
+
+def _flatten_failed_tests(raw_tests) -> List[dict]:
+    return _flatten_yaml_tests(raw_tests, include_section=False)
+
+
+def _is_hardcoded_test(test: dict) -> bool:
+    section_label = normalize_string(str(test.get("_section", "")))
+    if section_label in {"hardcoded", "hard coded"}:
+        return True
+    reasons = test.get("Reasons")
+    if isinstance(reasons, str):
+        lowered = reasons.lower()
+        if "hardcoded" in lowered or "hard-coded" in lowered:
+            return True
+    return False
 
 
 def _sanitize_reference_label(label: str) -> str:
@@ -666,8 +721,7 @@ def validate_successful_tests(tests: list, md_files: list[str], file_dict: dict[
     for test in tests:
         raw_given = test['Given']
         token = raw_given.strip('{}')
-        reasons_text = (test.get('Reasons') or '').lower()
-        if 'hardcoded' in reasons_text:
+        if _is_hardcoded_test(test):
             continue
 
         expected_linktext = test['LinkText']
@@ -791,8 +845,6 @@ def apply_replacement_pass(md_files, file_dict):
         # registered hardcoded tokens handle their own messaging; treat as boolean
         (replace_registered_hardcoded_tokens, (), None),
         (replace_msg_tokens, (), "Replaced {n} {$.Msg} tokens ✅"),
-        (replace_issuer_tokens, (), "Replaced {n} {Issuer} tokens ✅"),
-        (replace_issuers_tokens, (), "Replaced {n} {Issuers} tokens ✅"),
         (replace_function_tokens, (), "Replaced {n} {Function} tokens ✅"),
         (replace_functions_tokens, (), "Replaced {n} {Functions} tokens ✅"),
         (replace_dot_function_tokens, (), "Replaced {n} dotted function tokens ✅"),
@@ -909,30 +961,10 @@ def runit(project_directory, entryPoint):
     # (e.g. HARDCODED:, HOLDERS 🧠:, etc.). Flatten into a single list for
     # consistent processing.
     raw_successful = data.get('Successful Tests', [])
-    if isinstance(raw_successful, dict):
-        successful_tests = []
-        for v in raw_successful.values():
-            if isinstance(v, list):
-                successful_tests.extend(v)
-            elif v is None:
-                continue
-            else:
-                successful_tests.append(v)
-    else:
-        successful_tests = raw_successful or []
+    successful_tests = _flatten_successful_tests(raw_successful)
 
     raw_failed = data.get('Failed Tests', [])
-    if isinstance(raw_failed, dict):
-        failed_tests = []
-        for v in raw_failed.values():
-            if isinstance(v, list):
-                failed_tests.extend(v)
-            elif v is None:
-                continue
-            else:
-                failed_tests.append(v)
-    else:
-        failed_tests = [t for t in (raw_failed or []) if isinstance(t, dict)]
+    failed_tests = _flatten_failed_tests(raw_failed)
 
     # Ensure that every LinkFile listed in the Successful Tests actually exists.
     # ENFORCE: the basename must match exactly (emoji, spacing and extension).
@@ -964,11 +996,14 @@ def runit(project_directory, entryPoint):
             "Missing LinkFile(s) referenced in links.yaml Successful Tests (exact match required): " + ", ".join(missing_linkfiles)
         )
     for test in successful_tests:
-        given = test['Given']
-        expected_linktext = test['LinkText']
-        expected_linkfile = test['LinkFile']
+        if not isinstance(test, dict):
+            continue
+        given = test.get('Given')
+        expected_linktext = test.get('LinkText')
+        expected_linkfile = test.get('LinkFile')
+        if not (given and expected_linktext and expected_linkfile):
+            continue
         token = given.strip('{}')
-        reasons_text = (test.get('Reasons') or '').lower()
         # Special-case tokens that start with a dot (e.g. {{.PROMPT}}).
         # These refer to files whose basename is exactly the expected_linkfile
         # (often scripts with leading punctuation). Match them directly.
@@ -985,7 +1020,7 @@ def runit(project_directory, entryPoint):
             if not candidate_paths:
                 raise ValueError(f"No matching file for {given}: {expected_linkfile}")
             continue
-        if 'this is hardcoded' in reasons_text:
+        if _is_hardcoded_test(test):
             token_key = normalize_string(token)
             # Import handlers dynamically to ensure we see any recently
             # registered hardcoded handlers from the tokens module.
@@ -1275,8 +1310,13 @@ def runit(project_directory, entryPoint):
             messages: List[str] = []
 
             def canonicalize_link(match: re.Match[str]) -> str:
-                target_url = match.group(1)
-                basename = os.path.basename(target_url)
+                raw_target = match.group(1)
+                parsed = urlsplit(raw_target)
+                target_path = parsed.path
+                if not target_path:
+                    return match.group(0)
+
+                basename = os.path.basename(target_path)
                 normalized = normalize_string(os.path.splitext(basename)[0])
                 targets = canonical_targets.get(normalized)
                 if not targets:
@@ -1288,27 +1328,23 @@ def runit(project_directory, entryPoint):
                 if current_suffix and canonical_suffix and current_suffix != canonical_suffix:
                     return match.group(0)
 
-                needs_update = basename != canonical.name
-                if not needs_update:
-                    if target_url == basename:
-                        needs_update = True
-                    else:
-                        candidate_path = doc_path.parent / target_url
-                        if not candidate_path.exists():
-                            needs_update = True
-
-                if not needs_update:
-                    return match.group(0)
+                if not parsed.scheme and not parsed.netloc:
+                    candidate_path = doc_path.parent / Path(target_path)
+                    if candidate_path.exists():
+                        return match.group(0)
 
                 try:
                     rel_path = os.path.relpath(canonical, doc_path.parent)
                 except Exception:
                     rel_path = canonical.name
                 rel_path = rel_path.replace(os.sep, '/')
-                if rel_path == target_url:
+
+                new_target = urlunsplit(('', '', rel_path, parsed.query, parsed.fragment))
+                if new_target == raw_target:
                     return match.group(0)
+
                 messages.append(f"Retargeted link basename '{basename}' to '{canonical.name}' in {doc_path}")
-                return f"(<{rel_path}>)"
+                return f"(<{new_target}>)"
 
             new_text, replacements = link_target_pattern.subn(canonicalize_link, text)
             if not replacements:
@@ -1454,16 +1490,17 @@ def test_immutable_token_replacements():
     result, n = pattern.subn(replacement, content)
     assert result == expected and n == 1, f"Host test failed: {result}"
     
-    # Test replace_issuer_tokens
-    pattern = re.compile(
-        r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Issuer`?[\s\u00A0\u200B\u200C\u200D]*\}\}",
-        re.IGNORECASE
+    # Test issuer handlers are registered from YAML
+    issuer_handler = HARDCODED_HANDLERS.get("issuer")
+    assert issuer_handler is not None, "Issuer handler not registered from YAML"
+    assert issuer_handler.get("replacement") == "[Issuer 🎴 domain](<🎴🎭 Issuer role.md>)", (
+        f"Unexpected issuer replacement: {issuer_handler.get('replacement')}"
     )
-    replacement = "[Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)"
-    content = "Contact the {{Issuer}}."
-    expected = "Contact the [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴🎭 Issuer role.md>)."
-    result, n = pattern.subn(replacement, content)
-    assert result == expected and n == 1, f"Issuer test failed: {result}"
+    issuers_handler = HARDCODED_HANDLERS.get("issuers")
+    assert issuers_handler is not None, "Issuers handler not registered from YAML"
+    assert issuers_handler.get("replacement") == "[Issuer 🎴 domains](<🎴🎭 Issuer role.md>)", (
+        f"Unexpected issuers replacement: {issuers_handler.get('replacement')}"
+    )
     
     # Test replace_token_tokens
     pattern = re.compile(

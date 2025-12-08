@@ -256,16 +256,6 @@ def replace_msg_tokens(md_files):
     # Use the holder file for $.Msg (emoji then token then '🧠 holder')
     replacement = "[`$.Msg` 🧠 holder](<📨 $.Msg 🧠 holder.md>)"
     return _replace_simple(md_files, pattern, replacement, needle="$.Msg")
-def replace_issuer_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Issuer`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    replacement = "[Issuer 🎴 domain](<🎴🎭 Issuer role.md>)"
-    return _replace_simple(md_files, pattern, replacement)
-
-
-def replace_issuers_tokens(md_files):
-    pattern = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?Issuers`?[\s\u00A0\u200B\u200C\u200D]*\}\}", re.IGNORECASE)
-    replacement = "[Issuer 🎴 domains](<🎴🎭 Issuer role.md>)"
-    return _replace_simple(md_files, pattern, replacement)
 
 # Hardcoded Map token with case-sensitive link text handling
 _MAP_PATTERN = re.compile(r"\{\{[\s\u00A0\u200B\u200C\u200D]*`?([Mm]ap)`?[\s\u00A0\u200B\u200C\u200D]*\}\}")
@@ -834,20 +824,32 @@ def _register_yaml_hardcoded_handlers() -> None:
         return
 
     raw_successful = data.get("Successful Tests", [])
-    tests: list[dict] = []
 
-    if isinstance(raw_successful, dict):
-        for value in raw_successful.values():
-            if isinstance(value, list):
-                tests.extend(v for v in value if isinstance(v, dict))
-            elif isinstance(value, dict):
-                tests.append(value)
-    elif isinstance(raw_successful, list):
-        tests.extend(v for v in raw_successful if isinstance(v, dict))
+    def _iter_successful_tests(raw) -> Iterable[dict]:
+        if isinstance(raw, dict):
+            for section, value in raw.items():
+                if isinstance(value, list):
+                    for item in value:
+                        if isinstance(item, dict):
+                            entry = dict(item)
+                            entry["_section"] = section
+                            yield entry
+                elif isinstance(value, dict):
+                    entry = dict(value)
+                    entry["_section"] = section
+                    yield entry
+        elif isinstance(raw, list):
+            for item in raw:
+                if isinstance(item, dict):
+                    yield dict(item)
+
+    tests = list(_iter_successful_tests(raw_successful))
 
     for test in tests:
+        section = normalize_string(str(test.get("_section", "")))
+        test.pop("_section", None)
         reasons = (test.get("Reasons") or "").lower()
-        if "hardcoded" not in reasons:
+        if section != "hardcoded" and "hardcoded" not in reasons:
             continue
 
         given = test.get("Given")
@@ -909,8 +911,6 @@ __all__ = [
     "replace_schema_tokens",
     "replace_schemas_tokens",
     "replace_chat_msg_tokens",
-    "replace_issuer_tokens",
-    "replace_issuers_tokens",
     "replace_map_tokens",
     "replace_bool_tokens",
     "replace_list_tokens",
