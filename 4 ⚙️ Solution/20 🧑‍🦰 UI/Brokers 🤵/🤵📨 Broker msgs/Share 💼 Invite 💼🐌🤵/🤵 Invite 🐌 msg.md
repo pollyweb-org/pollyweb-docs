@@ -3,7 +3,7 @@
 > About
 * Invites a [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) into a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 * Part of the [`Invite` ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>) 
-* followed by [`Help@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>) message
+* followed by [`Help@Helper`](<../../../../41 🎭 Domain Roles/Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>) message
 * Implemented by the [`Invite@Broker` 📃 handler](<🤵 Invite 📃 handler.md>)
 
 <br/>
@@ -29,7 +29,7 @@ Body:
 ||`To`|[text](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)  | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject` |[text](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| `Invite@Broker`
 |Body|`Chat`   | uuid    | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-||`Helper`  | [text](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)  | Invitee [Helper 🤲](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) || [`Help@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>)
-||`Schema`     | [text](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)  | Related [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) ||[`Help@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>)
-||`Invite` | uuid    | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) Invite || [`Help@Helper`](<../../../../45 🤲 Helper domains/$ Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>)
+||`Helper`  | [text](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)  | Invitee [Helper 🤲](<../../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) || [`Help@Helper`](<../../../../41 🎭 Domain Roles/Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>)
+||`Schema`     | [text](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)  | Related [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) ||[`Help@Helper`](<../../../../41 🎭 Domain Roles/Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>)
+||`Invite` | uuid    | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) Invite || [`Help@Helper`](<../../../../41 🎭 Domain Roles/Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>)
 |
