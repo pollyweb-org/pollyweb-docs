@@ -14,7 +14,7 @@ deactivate talker
 
 activate table
     table -> graph: 🔔 INVITED: TRUSTS 🫡 {helper} ❌ UNTRUSTED
-    table -> helper: 🔔 TRUSTED: Invite @ Broker 🐌 
+    table --> helper: 🔔 TRUSTED: Invite @ Broker 🐌 
 deactivate table
 
 activate helper

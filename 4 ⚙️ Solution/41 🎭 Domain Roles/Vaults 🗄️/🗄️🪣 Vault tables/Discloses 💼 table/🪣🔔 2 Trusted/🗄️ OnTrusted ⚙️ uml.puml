@@ -14,8 +14,9 @@ activate discloses
 deactivate discloses
 
 activate handler
-    handler --> consumer: CALL 🧮 {disclose}
-    handler -> discloses: UPDATE 💾 {READY, result}
+    handler -> consumer: SEND 📬 {Queried @ Consumer}
+    handler -> discloses: UPDATE 💾 {context}
+    handler -> discloses: DETAILED ✅
 deactivate handler
 
 @enduml 
