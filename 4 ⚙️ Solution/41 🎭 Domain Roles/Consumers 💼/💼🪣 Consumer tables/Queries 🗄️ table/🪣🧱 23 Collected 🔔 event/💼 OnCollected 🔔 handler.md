@@ -1,4 +1,4 @@
-# 💼 OnQueryTokened 🔔 handler
+# 💼 OnQueryCollected 🔔 handler
 
 > About
 * Part of the [`Consumer.Queries` 🪣 table](<../🪣 Queries/💼 Consumer.Queries 🪣 table.md>)
@@ -7,18 +7,18 @@
 
 ## Diagram
 
-![alt text](<💼 OnQueryTokened ⚙️ uml.png>)
+![alt text](<💼 OnCollected ⚙️ uml.png>)
 
 <br/>
 
 ## Script
 
 ```yaml
-📃 OnQueryTokened:
+📃 OnQueryCollected:
 
 # Continue the talker 
 - RACE|$Query.ID:
-    $Query.Token
+    $Query.Collected
 ```
 
 Uses||

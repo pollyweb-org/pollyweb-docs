@@ -8,7 +8,7 @@
 
 ## Diagram
 
-![alt text](<💼 OnQueryConsume ⚙️ uml.png>)
+![alt text](<💼 OnConsume ⚙️ uml.png>)
 
 <br/>
 
