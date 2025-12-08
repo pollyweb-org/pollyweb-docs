@@ -16,12 +16,17 @@ Header:
     Subject: Read@Helper
 
 Body:
+
     Sets: Set1, Set3 
-    Asserts: 
-        Set1.FieldX.IsNot: ACTIVE
-        Set3.FieldZ.IsAbove: 25
+
     Outputs:
         Set1: FieldA, FieldB
+    
+    Asserts: 
+        Set1:
+            FieldX.IsNot: ACTIVE
+        Set3:
+            FieldZ.IsAbove: 25
 ```
 Uses: [`.IsNot`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsNot ⓕ.md>) [`.IsAbove`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsAbove ⓕ.md>)
 
