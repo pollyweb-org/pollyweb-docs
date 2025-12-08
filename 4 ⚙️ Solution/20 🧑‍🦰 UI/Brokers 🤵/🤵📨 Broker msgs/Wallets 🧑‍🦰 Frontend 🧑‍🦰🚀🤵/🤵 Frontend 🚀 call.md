@@ -33,8 +33,10 @@ Body:
 
     # from Read@Helper
     Asserts:          
-        Binds.Vault: any-vault.dom
-        Tokens.Status.IsIn: ACTIVE, REVOKED
+        Binds:
+            Vault: any-vault.dom
+        Tokens:
+            Status.IsIn: ACTIVE, REVOKED
 ```
 Uses: [`.IsIn`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
 
