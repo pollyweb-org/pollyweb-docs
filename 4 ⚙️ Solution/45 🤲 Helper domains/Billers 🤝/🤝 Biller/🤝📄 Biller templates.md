@@ -103,11 +103,22 @@
     ---
     <br/>
 
+1. **How to use sequences?**
+
+    Sequences are unique identifiers of documents.
+    * They are assign with the inputs on rendering.
+    * when rendering, the sequence is available on the `Sequence` [map](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>).
+    * Sequences are auto-incremented numbers stored per template.
+    * Sequence values can be reset per year with `{Sequence.Name: YEAR}`.
+
+    ---
+    <br/>
+
 
 1. **What's an example of a template layout?**
 
     ```markdown
-    ## My Invoice {Number}
+    ## My Invoice {Sequence.Number}
     **Customer**: ´{Customer.Name}´ <br/>
     **Tax Number**: ´{Customer.TaxNumber}´
     
