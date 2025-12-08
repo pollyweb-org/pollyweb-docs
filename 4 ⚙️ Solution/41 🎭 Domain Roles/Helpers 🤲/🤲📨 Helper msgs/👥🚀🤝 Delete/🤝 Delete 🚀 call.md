@@ -1,11 +1,11 @@
-# 🤝 Delete@Helper 🐌 call
+# 🤝 Delete@Helper 🚀 call
 
 > About
 * Part of the [Helper 🤲 domain](<../../🤲 Helper/🤲👥 Helper domain.md>)
  
 <br/>
 
-## Asynchronous Message 🐌
+## Synchronous Call 🚀
 
 ```yaml
 Header:
@@ -29,3 +29,13 @@ Body:
 |Body|`Set`|text| [Set](<../../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) name to delete |
 ||`Key`|any| Key of the item to delete |
 
+<br/>
+
+## FAQ
+
+1. **Why not an async message?**
+
+    Using a synchronous call allows for immediate confirmation of the deletion, ensuring that the client domain can proceed with its operations without delay.
+
+    ---
+    <br/>
