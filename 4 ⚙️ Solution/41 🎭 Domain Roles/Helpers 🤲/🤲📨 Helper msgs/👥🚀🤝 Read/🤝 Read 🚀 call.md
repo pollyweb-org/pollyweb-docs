@@ -12,7 +12,7 @@
 ```yaml
 Header:
     From: any-domain.dom
-    To: any-biller.dom
+    To: any-helper.dom
     Subject: Read@Helper
 
 Body:

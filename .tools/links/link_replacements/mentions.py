@@ -9,7 +9,7 @@ from typing import Iterable, List, Optional
 
 import yaml
 
-from broken_links.common import method_folder_markers, normalize_string
+from broken_links.common import _GENERAL_EMOJI_RE, method_folder_markers, normalize_string
 from .context import get_existing_files, get_project_dir
 from .patterns import (
     build_project_link_index,
@@ -276,20 +276,22 @@ def find_uppercase_token_target(token: str, md_files: Iterable[str]) -> Path | N
     """Locate a markdown file that likely documents the uppercase token."""
 
     normalized_token = normalize_string(token)
-    candidates: list[Path] = []
+    candidates: List[Path] = []
     token_word_re = re.compile(rf"(^|[^A-Z0-9]){re.escape(token)}([^A-Z0-9]|$)")
 
     for candidate in md_files:
         path = Path(candidate)
         if path.suffix.lower() != ".md":
             continue
-        normalized_name = normalize_string(path.stem)
-        if normalized_name == normalized_token:
+
+        stem = path.stem
+        clean_stem = _GENERAL_EMOJI_RE.sub("", stem)
+
+        if token in clean_stem:
             candidates.append(path)
             continue
 
-        base_upper = path.stem.upper()
-        if token_word_re.search(base_upper):
+        if token_word_re.search(clean_stem):
             candidates.append(path)
 
     if not candidates:
