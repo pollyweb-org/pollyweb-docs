@@ -1,10 +1,10 @@
-# 🤝 Sequence 🚀 call
+# 🤝 SaveSequence 🚀 call
 
 ```yaml
 Header:
     From: any-domain.dom
     To: any-biller.dom
-    Subject: Sequence@Biller
+    Subject: SaveSequence@Biller
 
 Body:
     Name: AnySequence
