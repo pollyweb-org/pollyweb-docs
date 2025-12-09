@@ -1,8 +1,8 @@
 # 🌬️🐌⏳ Push @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
-
-> Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream/🌬️⏩🔔 Stream.md>) flow
+> About
+* Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
+* Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream/🌬️⏩🔔 Stream.md>) flow
 
 <br/> 
 
@@ -13,6 +13,7 @@ Header:
     From: any-streamer.dom
     To: any-buffer.dom
     Subject: Push@Buffer
+    
 Body:
     Subscriber: any-subscriber.dom
     Queue: <queue-uuid>

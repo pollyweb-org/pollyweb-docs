@@ -1,8 +1,8 @@
-# 🌬️🚀⏳ Purge @ Buffer
+# 🔔🚀⏳ Purge @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
-
-> Removes all messages from the Queue create on [`Queue@Buffer`](<🔔🐌⏳ Queue.md>).
+> About
+* Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
+* Removes all messages from the Queue create on [`Queue@Buffer`](<🔔🐌⏳ Queue.md>).
 
 <br/> 
 
@@ -13,6 +13,7 @@ Header:
     From: any-subscriber.dom
     To: any-buffer.dom
     Subject: Purge@Buffer
+    
 Body:
     Queue: <queue-uuid>
 ```

@@ -1,8 +1,8 @@
 # 🔔🐌⏳ Redrive @ Buffer
 
-> Replays all messages in the dead-letter-queue.
-
-> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
+> About
+* Replays all messages in the dead-letter-queue.
+* Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
 
 <br/> 
 

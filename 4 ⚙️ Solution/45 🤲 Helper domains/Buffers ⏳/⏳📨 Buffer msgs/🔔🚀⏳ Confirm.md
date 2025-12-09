@@ -1,12 +1,10 @@
 # 🔔🚀⏳ Confirm @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
-
-> Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream/🌬️⏩🔔 Stream.md>) flow
-
-> Referenced by [Poll @ Buffer 🔔🚀](<🔔🚀⏳ Poll.md>)
-
-> Needs to be synchronous for FIFO performance.
+> About
+* Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
+* Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream/🌬️⏩🔔 Stream.md>) flow
+* Referenced by [Poll @ Buffer 🔔🚀](<🔔🚀⏳ Poll.md>)
+* Needs to be synchronous for FIFO performance.
 
 <br/>
 
@@ -17,6 +15,7 @@ Header:
     From: any-subscriber.dom
     To: any-buffer.dom
     Subject: Confirm@Buffer
+    
 Body:
     Poll: <poll-uuid>
     Messages: 
