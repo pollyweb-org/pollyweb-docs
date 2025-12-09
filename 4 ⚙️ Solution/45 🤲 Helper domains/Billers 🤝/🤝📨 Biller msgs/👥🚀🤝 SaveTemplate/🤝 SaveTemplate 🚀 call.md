@@ -1,4 +1,4 @@
-# 🤝 Template@Biller 🚀 call
+# 🤝 SaveTemplate@Biller 🚀 call
 
 > About
 * Part of [Biller 🤝 domain](<../../🤝 Biller/🤝 Biller 🤲 helper.md>)
@@ -12,7 +12,7 @@
 Header:
     From: any-domain.dom
     To: any-biller.dom
-    Subject: SetTemplate@Biller
+    Subject: SaveTemplate@Biller
 
 Body:
     Template: MyTemplateName

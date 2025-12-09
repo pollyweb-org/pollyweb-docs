@@ -1,10 +1,9 @@
 # 👥🐌⏳ Feedback @ Buffer
 
-> The feedback is sent via a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>) defined by the sender's domain. 
-
-> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
-
-> Mentioned in [domain Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+> About
+* The feedback is sent via a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>) defined by the sender's domain. 
+* Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
+* Mentioned in [domain Message 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 
 
 <br/> 
