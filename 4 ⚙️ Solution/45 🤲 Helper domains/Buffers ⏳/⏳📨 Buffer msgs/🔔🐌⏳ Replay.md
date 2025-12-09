@@ -1,8 +1,8 @@
 # 🔔🐌⏳ Replay @ Buffer
 
-> Replays historical successfully handled messages.
-
-> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
+> About
+* Replays historical successfully handled messages.
+* Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
 
 <br/> 
 
@@ -13,6 +13,7 @@ Header:
     From: any-subscriber.dom
     To: any-buffer.dom
     Subject: Replay@Buffer
+    
 Body:
     Queue: <queue-uuid>
     Starting: 2025-10-10T13:45:00.000Z  # Optional

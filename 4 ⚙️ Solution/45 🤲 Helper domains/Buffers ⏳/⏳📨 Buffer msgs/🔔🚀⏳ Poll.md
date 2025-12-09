@@ -1,8 +1,8 @@
 # 🔔🚀⏳ Poll @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
-
-> Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream/🌬️⏩🔔 Stream.md>) flow
+> About
+* Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
+* Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream/🌬️⏩🔔 Stream.md>) flow
 
 <br/>
 
@@ -13,6 +13,7 @@ Header:
     From: any-subscriber.dom
     To: any-buffer.dom
     Subject: Poll@Buffer
+    
 Body:
     Queue: <queue-uuid>
     DLQ: False          # Optional, default False

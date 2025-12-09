@@ -1,9 +1,9 @@
 # 🔔🐌⏳ Queue @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
-
-> Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream/🌬️⏩🔔 Stream.md>) flow
-> <br/>• Succeeded by [`Queued@Subscriber`](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔📨 Subscriber msgs/⏳🐌🔔 Queued.md>)
+> About
+* Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
+* Used in [Stream @ Streamer 🌬️⏩🔔](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️⏩ Streamer flows/🌬️⏩🔔 Stream/🌬️⏩🔔 Stream.md>) flow
+* Succeeded by [`Queued@Subscriber`](<../../../41 🎭 Domain Roles/Subscribers 🔔/🔔📨 Subscriber msgs/⏳🐌🔔 Queued.md>)
 
 
 <br/>

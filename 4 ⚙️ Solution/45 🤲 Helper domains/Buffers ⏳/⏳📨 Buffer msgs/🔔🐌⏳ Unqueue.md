@@ -1,6 +1,7 @@
 # 🔔🐌⏳ Unqueue @ Buffer
 
-> Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
+> About
+* Implements a [Buffer ⏳ helper domain](<../⏳ Buffer/⏳🤲 Buffer helper.md>)
 
 <br/>
 
@@ -11,6 +12,7 @@ Header:
     From: any-subscriber.dom
     To: any-buffer.dom
     Subject: Unqueue@Buffer
+    
 Body:
     Queue: <queue-uuid>
 ```
