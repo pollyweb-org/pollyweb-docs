@@ -1,11 +1,7 @@
-# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `.VAULT`
+# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `.VAULT/SELF`
 
-* Default [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
-    * for [Vault 🗄️ domains](<../🗄️ Vault/🗄️🎭 Vault role.md>).
-
-* Used with:
-    * [🧑‍🦰👉🗄️ Bind 🔗 flow](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind Vault ⏩ flow.md>)
-    * [`BIND` 🔗 command](<../🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>)
+> About
+* Default [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [Vault 🗄️ domains](<../🗄️ Vault/🗄️🎭 Vault role.md>)
 
 <br/>
 
@@ -14,7 +10,8 @@
 > [🤝:](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
-Path: /VAULT
-Title: Host Bind
+Path: /VAULT/SELF
+Title: Self Bind
+Purpose: You bind with us 🔗
 Description: Binding code for personalization
 ```

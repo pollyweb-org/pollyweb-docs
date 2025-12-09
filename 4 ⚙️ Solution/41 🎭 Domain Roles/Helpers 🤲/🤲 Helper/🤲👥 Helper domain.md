@@ -47,7 +47,7 @@
     |-|-
     | [🤗 Host](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | To open [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with domain-admin users
     | [🪢 Integrator](<../../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>)
-    | [🗄️ Vault](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | To store user profiles with [`.HOST/BIND/SELF` 🧩](<../../Vaults 🗄️/🗄️🧩 Vault schemas/🧩 VAULT'SELF code.md>)
+    | [🗄️ Vault](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | To store user profiles with [`.VAULT/SELF` 🧩](<../../Vaults 🗄️/🗄️🧩 Vault schemas/🧩 VAULT'SELF code.md>)
     | [💵 Seller](<../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../../../45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝 Biller 🤲 helper.md>)
     
 
