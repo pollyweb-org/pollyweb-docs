@@ -12,10 +12,20 @@
 
 ```yaml
 💬 Bind:
+- INFORM|Bind
 - BIND|.VAULT/SELF
 ```
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`BIND`](<../../🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>)
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`BIND`](<../../🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`INFORM`](<../../../Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>)
 | [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`VAULT/SELF`](<../../🗄️🧩 Vault schemas/🧩 VAULT'SELF code.md>)
+
+<br/>
+
+## Manifest 📜
+
+```yaml
+Forms: 
+    Bind: .VAULT/SELF
+```
