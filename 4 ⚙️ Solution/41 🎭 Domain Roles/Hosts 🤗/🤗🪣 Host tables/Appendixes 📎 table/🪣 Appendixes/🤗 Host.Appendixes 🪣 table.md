@@ -21,7 +21,7 @@ Item: Appendix
 The [Item 🛢 Parents](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are: [`Host.Prompts`](<../../Prompts 🤔 table/🪣 Prompts/🤗 Host.Prompts 🪣 table.md>)
 
 ```yaml
-Parents: Prompt
+Parents: Prompt, Chat
 ```
 
 <br/>
@@ -38,8 +38,8 @@ Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 Asserts:
-    AllOf: Content, Prompt
-    UUIDs: Prompt
+    AllOf: Content, Prompt, Chat
+    UUIDs: Prompt, Chat
     Texts: Content
 ```
 
@@ -50,5 +50,7 @@ Asserts:
 Here's an example response from the [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) command.
 
 ```yaml
+Prompt: <prompt-uuid>
+Chat: <chat-uuid>
 Content: <base64>
 ```

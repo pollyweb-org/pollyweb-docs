@@ -3,7 +3,9 @@
 participant "Wallet 👱" as wallet
 box Host 🤗 domain #FFFFFD
     participant "Download 🚀" as handler
+    participant "Appendixes 🪣" as appendixes
     participant "Prompts 🪣" as prompts
+    participant "Chats 🪣" as chats
 end box
 
 wallet --> handler: Download 🚀 
