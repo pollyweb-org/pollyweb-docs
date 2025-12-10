@@ -14,7 +14,7 @@
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Bar (4.4 ⭐) [+]
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ Staff [🪪 token](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared [+]
 | 🍸 Bar        | 😃 Hi Daniel, what's up? <br/>- [ Serve ] customers <br/>- [ Something else ] | > Serve
-| 🍸 Bar | [📍 Share location?](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/LOCATION 📍/LOCATION ⌘ cmd.md>) | > Yes
+| 🍸 Bar | [📍 Share location?](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/LOCATION 📍/📍 LOCATION ⌘ cmd.md>) | > Yes
 | 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
 | 🍸 Bar        | ⏳ Waiting orders... [+] 
 | 🍸 Bar        | 😃 Accept order? [Yes, No] <br/>- 1 lager pint 🍺 <br/>- sparkling water (50 cl) ✨ <br/>- for table 23 👥 | > Yes
