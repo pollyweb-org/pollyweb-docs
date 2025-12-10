@@ -3,7 +3,7 @@
 > Purpose
 
 * A [Host 🤗 domain](<../../🤗 Host role/🤗🎭 Host role.md>) 
-    * invites a [Helper 🤲 domain](<../../../Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) 
+    * invites a [Helper 🤲 domain](<../../../Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) 
     * to a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
   
 > Used in
@@ -57,7 +57,7 @@ Sure: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️
 |-|-|-
 |1|[💼🐌🤵 `Invite@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)|Invite another [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) to the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |2|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) may ask for user permission
-|3| [🤵🐌🛠️ `Help@Helper`](<../../../Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>) | Proxy  invites to [Helper 🤲](<../../../Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) invitees
+|3| [🤵🐌🛠️ `Help@Helper`](<../../../Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>) | Proxy  invites to [Helper 🤲](<../../../Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) invitees
 |4|[🤗⏩🧑‍🦰 Prompt 🤔](<../Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Invitees continue the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |5|[🗄️⏩💼 Consume 🧩](<../../../Vaults 🗄️/🗄️⏩ Vault flows/Consume 🗄️⏩💼/🗄️ Consume ⏩ flow.md>) | Invitees share the final result
 |

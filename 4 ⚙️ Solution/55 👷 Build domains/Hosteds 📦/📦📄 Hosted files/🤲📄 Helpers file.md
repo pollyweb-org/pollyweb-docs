@@ -9,7 +9,7 @@
 
     The `🤲 Helpers.yaml` file 
     * contains the configuration
-    * of required [Helper 🤲 domains](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>).
+    * of required [Helper 🤲 domains](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>).
     
     ---
     <br/>

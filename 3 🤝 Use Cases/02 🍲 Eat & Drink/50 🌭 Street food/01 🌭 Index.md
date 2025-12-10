@@ -64,9 +64,9 @@
 
     <br/>
 
-1. **What are the [domain Helpers 🤲](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) required?**
+1. **What are the [domain Helpers 🤲](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) required?**
    
-    | [Helper 🤲](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) | Purpose
+    | [Helper 🤲](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) | Purpose
     |-|-
     | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) | To collect the amount paid.
     |

@@ -1,7 +1,7 @@
 # 🤲 Help@Helper 📃 handler
 
 > About
-* Part of the [Helper 🤲 domain](<../../🤲 Helper/🤲👥 Helper domain.md>)
+* Part of the [Helper 🤲 domain](<../../🤲 Helper/🤲🎭 Helper role.md>)
 * Implements the [`Help@Helper` 🐌 msg](<🤲 Help 🐌 msg.md>)
 
 <br/>

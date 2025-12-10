@@ -182,13 +182,13 @@ Successful Tests:
     LinkText: "Graph 🕸 domains"
     LinkFile: "🕸🤲 Graph helper.md"
 
-  # 🤲 Helper domain
+  # 🤲 Helper domain role
   - Given: "{{Helper}}"
-    LinkText: "Helper 🤲 domain"
-    LinkFile: "🤲👥 Helper domain.md"
+    LinkText: "Helper 🤲 domain role"
+    LinkFile: "🤲🎭 Helper role.md"
   - Given: "{{Helpers}}"
     LinkText: "Helper 🤲 domains"
-    LinkFile: "🤲👥 Helper domain.md"
+    LinkFile: "🤲🎭 Helper role.md"
 
   # 🧠 Holder
   - Given: "{{Holder}}"
