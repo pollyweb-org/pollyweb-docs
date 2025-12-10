@@ -57,14 +57,15 @@
     <br/>
 
 
-1. **What are examples of .Contains for objects?**
+1. **What are examples of .Contains for [Map 🧠 holders](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)?**
 
-    Value 1 | Value 2 |Result
-    |-|-|-
-    | `{empty}` | ... | ❌ False
-    |`B` | `{A:1,B:2,C:3}` | ✅ True
-    |`B:2` | `{A:1,B:2,C:3}` | ✅ True
-    |`B:4` | `{A:1,B:2,C:3}` | ❌ False
+    Value 1 | Value 2 |Result|Reason
+    |-|-|-|-
+    | `{empty}` | ... | ❌ False | An empty map contains nothing
+    |`B` | `{A:1,B:2}` | ✅ True | Key `B` exists with a value
+    |`B` | `{A:1,B:}` | ❌ False | Key `B` exists but has no value
+    |`B:2` | `{A:1,B:2,C:3}` | ✅ True | Key `B` exists with value `2`
+    |`B:4` | `{A:1,B:2,C:3}` | ❌ False | Key `B` exists but has a different value
 
     ---
     <br/>

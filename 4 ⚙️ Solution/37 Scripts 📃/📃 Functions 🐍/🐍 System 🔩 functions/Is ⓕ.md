@@ -1,11 +1,11 @@
 # 😃🔩 Talker `{.Is}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Used by [`.Assert`](<Assert ⓕ.md>) [`.IsNot`](<IsNot ⓕ.md>)
 
-> Used by [`.Assert`](<Assert ⓕ.md>) [`.IsNot`](<IsNot ⓕ.md>)
 
 ## FAQ
-
 
 1. **What is a .Is function?**
 
