@@ -5,11 +5,13 @@ box Consumer 💼 domain #FFFFFA
     participant "Informed 🐌" as consumer
     participant "INFORM ⌘" as invites
 end box
+participant "Graph 🕸" as graph
 
 
 helper --> consumer: Informed 🐌 {hook}
 
 activate consumer
+    consumer -> graph: VERIFY 🔐 {msg}
     consumer -> invites: RACE 🏁 {hook}
 deactivate consumer
 

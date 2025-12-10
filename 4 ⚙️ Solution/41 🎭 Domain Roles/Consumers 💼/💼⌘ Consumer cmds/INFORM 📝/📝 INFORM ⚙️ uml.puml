@@ -3,26 +3,34 @@
 box Consumer 💼 domain #FFFFFA
     participant "Script 📃" as script
     participant "INFORM 📝" as talker
-    'participant "Consumer 💼" as consumer
+    participant "Informed 🐌" as informed
 end box
-
 participant "Broker 🤵" as broker
 participant "Wallet 👱" as wallet
+
 
 activate script
     script -> talker: INFORM 📝 {form}
 deactivate script
 
 activate talker
-    talker --> broker: SEND 📬 {Inform@ 🐌 form}
-    activate broker
-    talker -> script:
+    talker --> broker: SEND 📬 {Inform@Broker 🐌 form, hook}
+activate broker
+    talker -> talker: WAIT ⏳ {hook}
 deactivate talker
-activate script
 
     broker --> wallet: INFO ⓘ {form}
+    broker --> informed: Informed@ 🐌 {hook}
 deactivate broker
 
-deactivate script
+activate informed
+    informed -> talker: RACE 🏁 {hook}
+deactivate informed
+
+activate talker
+    talker -> script: RETURN
+deactivate talker
+
+activate script
 
 @enduml 
