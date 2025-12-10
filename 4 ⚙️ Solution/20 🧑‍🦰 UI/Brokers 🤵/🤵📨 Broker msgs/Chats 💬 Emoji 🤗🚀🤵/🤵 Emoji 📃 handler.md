@@ -4,7 +4,7 @@
 * Part of [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Emoji@Broker` 📨 msg](<🤵 Emoji 📃 handler.md>)
 * Only for active [Chats 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
-* Only for [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) and [Helper 🤲 domains](<../../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>)
+* Only for [Host 🤗 domains](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) and [Helper 🤲 domains](<../../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>)
 
 <br/>
 

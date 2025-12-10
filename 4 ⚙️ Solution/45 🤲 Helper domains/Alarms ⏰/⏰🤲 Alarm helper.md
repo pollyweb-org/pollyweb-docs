@@ -12,7 +12,7 @@
 1. **What's an Alarm helper domain?**
 
     An [Alarm ⏰ helper domain](<⏰🤲 Alarm helper.md>) 
-    * is any [Helper domain 🤲](<../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>)
+    * is any [Helper domain 🤲](<../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>)
     * that manages alarms to be triggered at specific times.
 
     ---

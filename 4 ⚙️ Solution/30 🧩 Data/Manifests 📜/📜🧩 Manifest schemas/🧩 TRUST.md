@@ -59,7 +59,7 @@
     Domain: any-firewall.org
   ```
 
-* Trust [Helper 🤲 domains](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲👥 Helper domain.md>) certified by NLWeb.
+* Trust [Helper 🤲 domains](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) certified by NLWeb.
   ```yaml
   # Certified Helpers
   - Action: GRANT
