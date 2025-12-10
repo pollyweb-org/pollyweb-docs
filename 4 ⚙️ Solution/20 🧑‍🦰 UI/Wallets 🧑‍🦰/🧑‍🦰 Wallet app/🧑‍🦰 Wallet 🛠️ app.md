@@ -146,7 +146,7 @@
     |🎫 Tokens| [👉 Save](<../🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) | Save a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet 🛠️ app.md>)
     || [👉 Remove](<../🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>) | Remove a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet 🛠️ app.md>)
     || [👉 Share](<../🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) | Share a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with a [Consumer 💼](<../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>)
-    || [👉 Verify ID](<../🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Share and [verify the user Identity 🆔](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens/3 🆔⏩🎫 Verify Tokens.md>)
+    || [👉 Verify ID](<../🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Share and [verify the user Identity 🆔](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/3 🆔⏩🎫 Verify Tokens.md>)
 
     ---
     <br/>

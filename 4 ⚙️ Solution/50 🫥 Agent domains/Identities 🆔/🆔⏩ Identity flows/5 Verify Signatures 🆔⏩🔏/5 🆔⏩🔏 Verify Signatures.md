@@ -25,7 +25,7 @@ TODO: Create the API methods
     | - | - | - |
     | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)    | ℹ️ Sign the terms. 
     | 🆔 [Identity](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
-    | 🆔 [Identity](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../6 🆔⏩😶 Face scan/6 🆔⏩😶 Face scan.md>)
+    | 🆔 [Identity](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
     | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ✅ Thanks for signing!
 
     ---
