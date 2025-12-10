@@ -153,7 +153,7 @@
     # Finally, help the person
     - TEXT|What do you need?
     ```
-    Uses: [`ASYNC`](<../../⌘ for async/ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`TEXT`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT 🔠 prompt.md>) 
+    Uses: [`ASYNC`](<../../⌘ for async/ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`TEXT`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT ⌘ cmd.md>) 
 
     ```yaml
     📃 WaitInLine:

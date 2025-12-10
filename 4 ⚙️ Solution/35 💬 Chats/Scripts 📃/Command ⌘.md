@@ -46,7 +46,7 @@
     
     |Command |  Example | Purpose
     |-|-|-
-    | 🔠 [`TEXT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT 🔠 prompt.md>) | Bla | Unstructured text | 
+    | 🔠 [`TEXT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT ⌘ cmd.md>) | Bla | Unstructured text | 
     | ↕️ [`QUANTITY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/↕️ QUANTITY ↕️ prompt.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
     | 🔢 [`DIGITS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS 🔢 prompt.md>) |0123| Numerics with 0 prefix | 
     | 💰 [`AMOUNT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/AMOUNT 💰/💰 AMOUNT 💰 prompt.md>) |  1.23 | Decimals and currency
@@ -56,14 +56,14 @@
     | 🔠 [`MANY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/MANY 🔠/🔠 MANY ⌘ cmd.md>) | [A,B] |
     | 1️⃣ [`ONE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/ONE 1️⃣/1️⃣ ONE 1️⃣ prompt.md>) | A |
     | 📆 [`DATE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DATE 📆/📆 DATE 📆 prompt.md>)
-    | 🕓 [`TIME`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TIME 🕓/🕓 TIME 🕓 prompt.md>)
+    | 🕓 [`TIME`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TIME 🕓/🕓 TIME ⌘ cmd.md>)
     | 👤 [`IDENTITY`](<../../41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/IDENTIFY 🆔/🆔 IDENTIFY ⌘ cmd.md>)
-    | 🔆 [`SCAN`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/SCAN 🔆/🔆 SCAN 🔆 prompt.md>)
-    | 🦋 [`TOUCH`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TOUCH 🦋/🦋 TOUCH 🦋 prompt.md>)
+    | 🔆 [`SCAN`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/SCAN 🔆/🔆 SCAN ⌘ cmd.md>)
+    | 🦋 [`TOUCH`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TOUCH 🦋/🦋 TOUCH ⌘ cmd.md>)
     | 🛒 [`EAN`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/EAN 🛒/🛒 EAN 🛒 prompt.md>)
-    | ⬆️ [`UPLOAD`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/UPLOAD ⬆️/⬆️ UPLOAD ⬆️ prompt.md>)
+    | ⬆️ [`UPLOAD`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/UPLOAD ⬆️/⬆️ UPLOAD ⌘ cmd.md>)
     | 📍 [`LOCATION`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/LOCATION 📍/📍 LOCATION ⌘ cmd.md>)
-    | 🗺️ [`TRACK`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TRACK 🗺️/🗺️ TRACK 🗺️ prompt.md>)
+    | 🗺️ [`TRACK`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TRACK 🗺️/🗺️ TRACK ⌘ cmd.md>)
 
     ---
     <br/>
