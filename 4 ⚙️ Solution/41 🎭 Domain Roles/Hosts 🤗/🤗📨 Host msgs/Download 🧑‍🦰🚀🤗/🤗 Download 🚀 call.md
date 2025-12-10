@@ -34,7 +34,7 @@ Body:
 | Header    |`From`|text| `Anonymous`
 |           |`To`|text| [Sender 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) | [`Prompt@`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>)
 |           | `Subject`     | string    | `Prompted@Host`
-| Body      | `Appendix`    | uuid      | [Appendix 📎](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>) | [`Prompted@`](<../Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)
+| Body      | `Appendix`    | uuid      | [Appendix 📎](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>) ID | [`Prompted@`](<../Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>)
 || `Page`        | num       | Specific page only, for `PDF` | 
 || `MaxWidth`   | num       | Max width for images, in pixels |
 || `MaxHeight`  | num       | Max height for images, in pixels |
