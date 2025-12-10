@@ -3,7 +3,7 @@
 participant "User 🧑" as user
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "Engine ⚙️" as engine
+    participant "CALL 🧮" as engine
     'participant "Inbox 📨" as inbox
 end box
 participant "Hosted 📦" as hosted
