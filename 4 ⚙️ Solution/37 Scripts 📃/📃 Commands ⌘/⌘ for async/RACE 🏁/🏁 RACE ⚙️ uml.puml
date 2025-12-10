@@ -1,0 +1,17 @@
+@startuml RACE
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "RACE 🏁" as race
+    participant "Waits 🪣" as waits
+end box
+
+
+script -> race: RACE 🏁 {uuid, result}
+activate race
+    race -> waits: READ 🧲 {uuid}
+    race -> waits: SAVE 💾 {RACE, result}
+deactivate race
+
+
+@enduml

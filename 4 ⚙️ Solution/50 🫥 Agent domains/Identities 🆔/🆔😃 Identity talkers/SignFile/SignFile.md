@@ -17,12 +17,28 @@
 
 # Assert the context
 - ASSERT|$Context:
-    AllOf: Title
+    AllOf: Title, Appendix
     Texts: Title
+    Appendix.IsBase64:
+    Appendix.IsPDF:
 
 # Sign the file
-- CONFIRM|Sign {$Context.Title} ?:
-    Appendix: $$
+- CONFIRM|Sign {$Context.Title}?:
+    Appendix: $Context.Appendix
+
+# Initiate the face recognition
+- CALL|Identify >> $selfie:
+    Bind: $Bind.ID
+    Reference: $Bind.Reference
+
+# Show the selfie webview
+- WEB|Let me see if it's you.:
+    URL: $selfie.URL
+    
+# Wait for the selfie result
+- WAIT >> $verified:
+    Hook: $selfie.Hook
+
 ```
 
 ---

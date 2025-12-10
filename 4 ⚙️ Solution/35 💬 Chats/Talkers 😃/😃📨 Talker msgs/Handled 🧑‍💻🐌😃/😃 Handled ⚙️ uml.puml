@@ -1,0 +1,15 @@
+@startuml Handled@Talker
+
+participant "Hosted 📦" as hosted
+box Talker 😃 domain #FFFFFA
+    participant "Handled 🐌" as handled
+    participant "Waits 🪣" as waits
+end box
+
+
+hosted --> handled: Handled 🐌 {uuid, result}
+activate handled
+    handled -> waits: RACE 🏁 {uuid, result}
+deactivate handled
+
+@enduml

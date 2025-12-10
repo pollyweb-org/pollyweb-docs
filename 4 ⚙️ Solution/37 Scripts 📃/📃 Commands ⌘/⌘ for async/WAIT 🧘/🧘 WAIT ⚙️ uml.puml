@@ -3,7 +3,7 @@
 box Talker 😃 domain #FFFFFA
     participant "Caller 📃" as script
     participant "WAIT 🧘" as wait
-    participant "Imprints 🪣" as imprints
+    'participant "Imprints 🪣" as imprints
     participant "Waits 🪣" as waits
 end box
 participant "Alarm ⏰" as alarm

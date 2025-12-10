@@ -1,4 +1,4 @@
-@startuml Handle
+@startuml ASYNC
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script

@@ -1,9 +1,10 @@
-@startuml Handle
+@startuml CALL
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
     participant "CALL 🧮" as talker
     participant "Holders 🪣" as holders
+    participant "Waits 🪣" as waits
 end box
 participant "Hosted 📦" as hosted
 
@@ -23,13 +24,17 @@ activate talker
     talker -> holders: IMPRINT 🦶 {uuid}
     talker --> hosted: ASYNC 👷🏼 {uuid, function, inputs} 
 activate hosted
-    talker -> talker: WAIT 🧘 {uuid}
+    talker -> waits: WAIT 🧘 {uuid}
 deactivate talker 
           
     hosted -> holders: Placed 🚀 READ 🧲 {uuid, holder}
     hosted -> holders: Place 🚀 SAVE 💾 {uuid, holder, value}
-    hosted --> talker: Handled 🐌 RACE 🏁 {uuid, result}
+    hosted --> waits: Handled 🐌 {uuid, result}
 deactivate hosted
+
+activate waits
+    waits -> talker: RACE 🏁 {result}
+deactivate waits
 
 activate talker
     talker -> holders: RECALL 🪶 {uuid}
