@@ -12,6 +12,7 @@
 ```yaml
 Prefix: Talker
 Table: Waits
+Item: Wait
 ```
 
 ## Example
