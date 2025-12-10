@@ -37,7 +37,7 @@
     - TEXT|Say something >> $something
     - ECHO|$something
     ```
-    Uses: [`TEXT`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/TEXT 🔠 prompt.md>)
+    Uses: [`TEXT`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT 🔠 prompt.md>)
 
     <br/>
 
