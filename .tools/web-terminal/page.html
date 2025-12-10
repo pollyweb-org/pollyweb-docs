@@ -1,0 +1,8 @@
+<script>
+function sendToPython(msg) {
+  window.webkit.messageHandlers.python.postMessage(msg);
+}
+
+// Example: notify Python and request window closure
+sendToPython("close");
+</script>

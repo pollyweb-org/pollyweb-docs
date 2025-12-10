@@ -1,0 +1,23 @@
+@startuml WEB
+
+box Host 🤗 domain #FFFFFD
+    participant "Script 📃" as script
+    participant "WEB 🌐" as talk
+    participant "Locators 🪣" as talkers
+    participant "Handler 📃" as talker
+end box
+
+
+activate script
+    script -> talk: WEB 🌐 {url}
+deactivate script
+
+activate talk
+    talk -> talk: name: $.Chat.Key
+    talk -> talkers: READ 🧲 {name}
+    talk -> talker: RUN {handler, inputs}
+deactivate talk
+
+activate talker
+    
+@enduml

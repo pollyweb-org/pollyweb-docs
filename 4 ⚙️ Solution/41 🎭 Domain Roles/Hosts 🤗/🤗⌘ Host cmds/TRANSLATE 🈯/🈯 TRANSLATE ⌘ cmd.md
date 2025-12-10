@@ -1,5 +1,7 @@
-<!-- TODO -->
 # 🈯 Talker `TRANSLATE` command
+
+> About
+* Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
 ## FAQ
 

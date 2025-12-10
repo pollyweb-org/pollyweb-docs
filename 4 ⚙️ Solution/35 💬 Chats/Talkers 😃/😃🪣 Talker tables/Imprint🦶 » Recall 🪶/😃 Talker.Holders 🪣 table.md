@@ -7,8 +7,6 @@
 ## Schema
 
 ```yaml
-# Holders.yaml
-
 Prefix: Talker
 Table: Holders
 Keys: Hook, Holder
