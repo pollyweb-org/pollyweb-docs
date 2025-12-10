@@ -48,7 +48,7 @@
     - INFO|{$n}+{$n} equals {Sum($n,$n)}
     ```
 
-    Uses: [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>)
+    Uses: [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/↕️ QUANTITY ↕️ prompt.md>)
 
     ```python
     # 🐍 Python handler

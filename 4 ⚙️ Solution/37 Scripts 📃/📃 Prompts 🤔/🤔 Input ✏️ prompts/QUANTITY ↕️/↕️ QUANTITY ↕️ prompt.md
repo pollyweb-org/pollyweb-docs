@@ -163,7 +163,7 @@
     |-|-
     | ℹ️ [`INFO`](<../../🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the result.
     | 1️⃣ [`ONE`](<../ONE 1️⃣/1️⃣ ONE 1️⃣ prompt.md>) | To show the options.
-    | ⏯️️ [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
+    | ⏯️️ [`CASE`](<../../../📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
     | ⏳ [`TEMP`](<../../🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
     
 
@@ -174,7 +174,7 @@
 
 1. **How does Precision work?**
 
-    When collecting a [`QUANTITY`](<QUANTITY ↕️ prompt.md>) input, [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+    When collecting a [`QUANTITY`](<↕️ QUANTITY ↕️ prompt.md>) input, [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
     * round up the input based on the precision, 
     * and ask confirmation to the user if the value differs.
 
@@ -206,7 +206,7 @@
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the message.
-    | 🔁 [`REPEAT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To repeat the input cycle forever.
+    | 🔁 [`REPEAT`](<../../../📃 Commands ⌘/⌘ for control ▶️/REPEAT 🔁/🔁 REPEAT ⌘ cmd.md>) | To repeat the input cycle forever.
      
 
     ---
