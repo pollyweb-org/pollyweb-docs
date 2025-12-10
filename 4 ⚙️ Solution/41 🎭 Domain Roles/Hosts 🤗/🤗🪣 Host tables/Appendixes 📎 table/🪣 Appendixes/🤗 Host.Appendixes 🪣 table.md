@@ -54,8 +54,14 @@ Uses: [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 
 Here's an example response from the [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) command.
 
 ```yaml
+# Automatic ID
+ID: <uuid>
+
+# Parent references
 Prompt: <prompt-uuid>
 Chat: <chat-uuid>
+
+# Appendix content
 Type: PNG
 Pages: 7    # if type is PDF
 Content: <base64>

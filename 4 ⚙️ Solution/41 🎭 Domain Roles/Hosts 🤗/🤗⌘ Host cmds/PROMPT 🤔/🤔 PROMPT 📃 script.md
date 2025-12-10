@@ -46,10 +46,15 @@
 
 # Calculate the Reply type
 - CASE >> $onReply:
+
     # For blocking input, call WAIT+RACE
-    $Format.IsNotIn(INFO,FAIL,DONE,TEMP): RACE
+    $Format.IsNotIn(INFO,FAIL,DONE,TEMP, WEB): 
+        RACE
+
     # For non-blocking status with options, call HOOK+REEL
-    $Options: REEL
+    $Options: 
+        REEL
+    
     # For non-blocking status without options, do NOTHING
     $: NOTHING
 
