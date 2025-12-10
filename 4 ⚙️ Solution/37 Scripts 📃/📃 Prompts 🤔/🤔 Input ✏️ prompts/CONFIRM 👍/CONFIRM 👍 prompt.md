@@ -37,7 +37,7 @@
         # Generic optional properties
         Emoji: emoji
         Details: string
-        Appendix: {function}
+        Appendix: {...}
     ```
     
     | Input| Purpose | Example

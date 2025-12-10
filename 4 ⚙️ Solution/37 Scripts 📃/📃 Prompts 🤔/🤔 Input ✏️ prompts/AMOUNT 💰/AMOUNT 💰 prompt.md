@@ -68,7 +68,7 @@
         Emoji: emoji
         Details: string
         Nullable: bool
-        Appendix: {function}
+        Appendix: {...}
     ```
 
     | Input| Purpose | Example
@@ -81,7 +81,7 @@
     | `Emoji` | Optional [alternative emoji 😶](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶 Input emojis.md>) | `😶`
     | `Details` | Optional [expandable details ⊕](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/3 ⊕ with Details.md>) | `Hint...`
     | `Nullable` | Optional [skip flag ⏭️](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/⏭️ Input nullability.md>) | `Yes`
-    | `Appendix` | Optional [file attachment 📎](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>) | `<uuid>`
+    | `Appendix` | Optional [file attachment 📎](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/6 📎 with Appendix.md>) | `{/...}`
     
     ---
     <br/>

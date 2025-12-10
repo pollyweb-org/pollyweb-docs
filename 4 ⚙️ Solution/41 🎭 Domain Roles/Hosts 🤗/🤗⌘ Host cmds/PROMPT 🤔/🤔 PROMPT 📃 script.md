@@ -25,13 +25,13 @@
 ```yaml
 - RUN|.PROMPT:
     Format: ONE
-    Emoji: 😃 # Default
     Text: Which credit card to use? 
-    MinValue: 10000                     # Optional
-    MaxValue: 99999                     # Optional
-    Appendix: <appendix-uuid>           # Optional
-    Details: ...                        # Optional
-    Options: [...]                      # Optional
+    Emoji: 😃             # Optional, defaults to 😃
+    MinValue: 10000       # Optional
+    MaxValue: 99999       # Optional
+    Details: ...          # Optional
+    Options: [...]        # Optional
+    Appendix: {...}       # Optional
 ```
 
 <br/>
