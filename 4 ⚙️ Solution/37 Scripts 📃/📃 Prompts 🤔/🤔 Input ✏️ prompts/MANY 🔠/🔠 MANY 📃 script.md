@@ -4,9 +4,13 @@
  
 * [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`MANY`](<🔠 MANY ⌘ cmd.md>) command.
 
+<br/>
+
 ## Flow
 
 ![alt text](<🔠 MANY ⚙️ uml.png>)
+
+<br/>
 
 ## How to call
 
@@ -17,11 +21,11 @@ Here are the outputs of the [`Parse@Hosted` 🚀 call](<../../../../55 👷 Buil
     {PROMPT inputs}
 ```
 
+<br/>
+
 ## Script
 
 Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
-
-<!-- TODO -->
 
 ```yaml
 📃 .MANY:

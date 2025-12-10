@@ -1,4 +1,4 @@
-# 🔠 TEXT prompt
+# 💭 TEXT prompt
 
 > Part of [blocking input prompts 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What's a TEXT prompt?**
 
-    A `TEXT` 
+    `TEXT` 
     * is a blocking input [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) 
     * that allows the user to type something 
     * instead of having to follow a structured format.

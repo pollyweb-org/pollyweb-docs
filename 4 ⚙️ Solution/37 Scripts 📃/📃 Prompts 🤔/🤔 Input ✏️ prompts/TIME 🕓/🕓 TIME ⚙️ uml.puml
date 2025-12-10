@@ -1,8 +1,8 @@
-@startuml TEXT
+@startuml TIME
  
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "TEXT 💭" as many
+    participant "TIME 🕓" as many
     participant "PROMPT ⌘" as prompt
     'participant "Host 🤗" as host
     'participant "Consumer 💼" as consumer
@@ -12,7 +12,7 @@ end box
 participant "Wallet 👱" as wallet
 
 activate script
-    script -> many: TEXT 💭 {text}
+    script -> many: TIME 🕓 {text}
 deactivate script
 
 activate many
