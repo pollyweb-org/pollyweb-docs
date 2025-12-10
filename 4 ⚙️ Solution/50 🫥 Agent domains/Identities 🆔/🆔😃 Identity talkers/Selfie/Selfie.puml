@@ -1,0 +1,42 @@
+@startuml Identify
+
+box Identity 🆔 domain #FFFFFA
+    participant "Caller 📃" as caller
+    participant "Selfie 📸" as script
+    participant "Handled 🐌" as handled
+    participant "Hosted 📦" as hosted
+end box
+participant "Wallet 👱" as wallet
+
+caller -> script: RUN {user}
+
+activate script
+    script -> hosted: CALL 🧮 {Identify, user}
+deactivate script
+
+activate hosted
+    hosted -> script: {url, hook}
+deactivate hosted
+
+activate script
+    script --> wallet: WEB {url}
+activate wallet
+    script -> script: WAIT ⏳ {hook}
+deactivate script
+
+    wallet -> hosted: navigate {url}
+deactivate wallet
+
+activate hosted
+    hosted --> handled: Handled@ 🐌 {hook}
+deactivate hosted
+
+activate handled
+    handled -> script: RACE 🏁 
+deactivate handled
+
+activate script
+    script -> caller: RETURN
+deactivate script
+    
+@enduml

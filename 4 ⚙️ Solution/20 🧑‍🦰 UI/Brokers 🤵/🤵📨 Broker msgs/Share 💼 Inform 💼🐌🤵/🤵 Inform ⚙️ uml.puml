@@ -1,7 +1,6 @@
 @startuml ⚙️ Form
 
 participant "Consumer 💼" as consumer
-
 box Broker 🤵 #FFFFFA
     participant "Inform 🐌" as broker
     participant "Chatters 🪣" as chatters
