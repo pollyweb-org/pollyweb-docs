@@ -7,12 +7,11 @@ then the last 3 will never be executed because REEL will exit the script.
 
 # 🎣 Talker `REEL` command
 
-> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+> About
+* Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+* Used in [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 
-<!-- TODO: examples -->
-> Used in [`Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
-
-<br/>
+## FAQ
 
 1. **What's the REEL command?**
 
@@ -47,7 +46,7 @@ then the last 3 will never be executed because REEL will exit the script.
 
     | Input| Purpose |
     |-|-
-    | `$hook`| [Hooks 🪣 item](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 Talker.Hooks 🪣 table.md>) saved by the [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | -
+    | `$hook`| [Hooks 🪣 item](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 Talker.Waits 🪣 table.md>) saved by the [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | -
     | `{response}` | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) output to a [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
 
     ---
@@ -79,16 +78,19 @@ then the last 3 will never be executed because REEL will exit the script.
 
 
     ```yaml
-    # Handler
-    - READ >> $hook:
-        Set: Talker.Hooks
+    📃 .REEL:
+    
+    # Read the wait
+    - READ >> $wait:
+        Set: Talker.Waits
         Key: $.Msg.Hook
-    - REEL|$hook
+
+    - REEL|$wait
     ```
 
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
-    | 🧲 [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Get the [`Hook` 🪣](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 Talker.Hooks 🪣 table.md>) from [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>)  
+    | 🧲 [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Get the [`Hook` 🪣](<../../../../35 💬 Chats/Talkers 😃/😃🪣 Talker tables/😃 Talker.Waits 🪣 table.md>) from [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>)  
     
 
     ---

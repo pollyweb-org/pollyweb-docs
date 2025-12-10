@@ -1,7 +1,5 @@
 
-<!-- TODO: -->
-
-# 😃🪝 Talker.Hooks 🪣 table 
+# 😃🪝 Talker.Waits 🪣 table 
 
 > Used in [`Bound@Vault`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)
 
