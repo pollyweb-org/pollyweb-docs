@@ -22,19 +22,19 @@
     Texts: Language, Consumer, Bind.Schema, Bind.User
     UUIDs: Chat
 
-# Execute the handler
-- CALL|OnDisclose >> $data:
-    
-    # Share data
-    Disclose: $Disclose.ID
-    Consumer: $Disclose.Consumer
-    Language: $Disclose.Language
+# Read the Vault.Schemas table
+- READ >> $schema:
+    Set: Vault.Schemas
+    Key: $Disclose.Bind.Schema
 
-    # Bind data
-    Bind: $Disclose.Bind
-    Schema: $Disclose.Bind.Schema
-    Reference: $Disclose.Bind.Reference
-    Internals: $Disclose.Bind.Internals
+# Load the chat
+- CHAT:
+    Broker: $Disclose.Broker
+    Chat: $Disclose.Chat
+
+# Execute the handler
+- RUN|$schema.Script >> $data:
+    $Disclose
 
 # Save the data for collection
 - SAVE|$Disclose:
@@ -45,7 +45,7 @@
 
 |Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`ASYNC`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`WAIT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CHAT`](<../../../../Hosts 🤗/🤗⌘ Host cmds/CHAT 💬/💬 CHAT ⌘ cmd.md>) [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Vault.Discloses`](<../🪣 Discloses/🗄️ Vault.Discloses 🪣 table.md>)
 | [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Now`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>) [`.Add`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>)
 |

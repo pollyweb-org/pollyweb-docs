@@ -81,12 +81,19 @@ From the [`Disclose@Vault` 🐌 msg](<../../../🗄️📨 Vault msgs/Disclose �
 Bind: <bind-uuid>           # Vault bind to share
 Chat: <chat-uuid>           # Broker chat
 Query: <query-uuid>         # Hook for Consume@Consumer
+Broker: any-broker.dom      # Broker that sent the request
 Consumer: any-consumer.dom  # Data requester
 ```
 
-From [`OnDiscloseTrusted` 📃 handler](<../🪣🔔 2 Trusted/🗄️ OnTrusted 📃 handler.md>)
+From [`OnTrusted` 📃 handler](<../🪣🔔 2 Trusted/🗄️ OnTrusted 📃 handler.md>)
+
+```yaml
+Context: {...}
+```
+
+From [`OnDetailed` 📃 handler](<../🪣🔔 3 Detailed/🗄️ OnDetailed 📃 handler.md>)
 
 ```yaml
 Data: {...}
-```
+``` 
 
