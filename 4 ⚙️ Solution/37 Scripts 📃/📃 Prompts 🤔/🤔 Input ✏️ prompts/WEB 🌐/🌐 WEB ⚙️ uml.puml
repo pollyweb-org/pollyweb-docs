@@ -7,7 +7,7 @@ box Host 🤗 domain #FFFFFD
 end box
 participant "Web Page 🌐" as page
 participant "Wallet 👱" as wallet
-
+ 
 
 activate script
     
