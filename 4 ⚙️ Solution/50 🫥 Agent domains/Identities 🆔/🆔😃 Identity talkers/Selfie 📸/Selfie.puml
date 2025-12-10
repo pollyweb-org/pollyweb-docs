@@ -8,6 +8,7 @@ box Identity 🆔 domain #FFFFFA
 end box
 participant "Wallet 👱" as wallet
 
+
 caller -> script: RUN {user}
 
 activate script
