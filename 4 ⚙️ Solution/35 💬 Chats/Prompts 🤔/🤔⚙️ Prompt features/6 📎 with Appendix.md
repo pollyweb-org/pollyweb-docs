@@ -9,8 +9,8 @@
 
     Appendix-enabled prompts 
     * are [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
-    * that contain an Appendix ID
-    * to be downloaded with [`Download@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 call.md>).
+    * that contain a Base64-encoded file
+    * or an Appendix ID to be downloaded with [`Download@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 call.md>).
 
     ---
     <br/>
