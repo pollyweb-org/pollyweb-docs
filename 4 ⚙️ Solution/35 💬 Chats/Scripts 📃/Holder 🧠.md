@@ -180,7 +180,7 @@
     * `.Holders.Set('$p', new_value)` 
 
     In a [Script 📃](<Script 📃.md>), use `>>` to send a value to a $holder:
-    * [`TEXT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT 🔠 prompt.md>)`|bla >> $p` puts the answer to a [`TEXT` 🔠 input](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT 🔠 prompt.md>).
+    * [`TEXT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT ⌘ cmd.md>)`|bla >> $p` puts the answer to a [`TEXT` 🔠 input](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT ⌘ cmd.md>).
     * [`CALL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)`|f >> $p` puts the return of a [{Function}](<Function 🐍.md>) named `f`.
     * [`PUT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)`|X >> $p` puts the string `X`.
 
