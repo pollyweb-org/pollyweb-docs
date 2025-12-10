@@ -38,10 +38,14 @@ Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 Asserts:
-    AllOf: Content, Prompt, Chat
+    AllOf: Content, Prompt, Chat, Type
     UUIDs: Prompt, Chat
-    Texts: Content
+    Texts: Content, Type
+    Nums: Pages
+    Type.IsIn: PNG, JPEG, PDF
+    Pages.IsAbove: 0
 ```
+Uses: [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>) [`.IsAbove`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsAbove ⓕ.md>)
 
 <br/>
 
@@ -52,5 +56,7 @@ Here's an example response from the [`READ`](<../../../../../37 Scripts 📃/�
 ```yaml
 Prompt: <prompt-uuid>
 Chat: <chat-uuid>
+Type: PNG
+Pages: 7    # if type is PDF
 Content: <base64>
 ```

@@ -24,7 +24,7 @@
         To: $Form.Consumer
         Subject: Informed@Consumer
     Body:
-        Hook: $Form.Hook.Require
+        Wait: $Form.Wait.Require
 ```
 
 |Uses ||

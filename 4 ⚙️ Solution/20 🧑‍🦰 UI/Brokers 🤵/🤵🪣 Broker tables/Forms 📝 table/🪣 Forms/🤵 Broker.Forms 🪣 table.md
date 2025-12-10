@@ -46,8 +46,8 @@ The [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemi
 
 ```yaml
 Assert: 
-    AllOf: Chat, Hook, Consumer, Form
-    UUIDs: Chat, Hook
+    AllOf: Chat, Wait, Consumer, Form
+    UUIDs: Chat, Wait
     Texts: Form, Consumer
     Consumer.IsDomain:
 ```
@@ -67,7 +67,7 @@ From [`Inform@Broker` 📃 handler](<../../../🤵📨 Broker msgs/Share 💼 In
 
 ```yaml
 Chat: <chat-uuid>           # Chat where the inform was created
-Hook: <hook-uuid>           # Consumer hook to notify
+Wait: <wait-uuid>           # Consumer wait to notify
 Name: AnyForm               # Form name being informed about
 Consumer: any-consumer.dom  # Consumer being informed
 ```

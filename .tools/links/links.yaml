@@ -642,9 +642,9 @@ Successful Tests:
 
   TABLES 🪣:
 
-  - Given: '{{Talker.Hooks table}}' 
-    LinkText: '`Talker.Hooks` 🪣 table'
-    LinkFile: '😃 Talker.Hooks 🪣 table.md'
+  - Given: '{{Talker.Waits table}}' 
+    LinkText: '`Talker.Waits` 🪣 table'
+    LinkFile: '😃 Talker.Waits 🪣 table.md'
     Reasons:
       It's under a "*tables*" folder,
       the file name contains the emoji "🪣",
@@ -653,12 +653,12 @@ Successful Tests:
   - Given: '{{Talker.Holders table}}' 
     LinkText: '`Talker.Holders` 🪣 table'
     LinkFile: '😃 Talker.Holders 🪣 table.md'
-    Reasons: same as {{TalkerHooks table}}.
+    Reasons: same as {{Talker.Waits table}}.
 
   - Given: '{{Broker.Chats table}}'
     LinkText: '`Broker.Chats` 🪣 table'
     LinkFile: '🤵 Broker.Chats 🪣 table.md'
-    Reasons: same as {{Talker.Hooks table}}.
+    Reasons: same as {{Talker.Waits table}}.
 
   FLOWS ⏩:
 
