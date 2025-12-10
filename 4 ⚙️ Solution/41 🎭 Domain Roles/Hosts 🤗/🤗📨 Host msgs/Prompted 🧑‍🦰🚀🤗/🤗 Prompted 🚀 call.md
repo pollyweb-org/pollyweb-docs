@@ -48,14 +48,18 @@ Text: Which credit card to use?
 Default: Card XPTO                  # Optional
 MinValue: 10000                     # Optional
 MaxValue: 99999                     # Optional
-Appendix: <appendix-uuid>           # Optional
+
 Details: |                          # Optional
     **Note**: each cards has its own fees.
     * Check the fees for the transaction.
+
 Options:                            # Optional
     - ID: 1                     
       Title: Personal     
       Locator: .HOST,any-host.dom,7V8KD3G
+
+Appendix:                           # Optional
+    Key: <appendix-uuid>
 ```
 
 |Property|Type|Description

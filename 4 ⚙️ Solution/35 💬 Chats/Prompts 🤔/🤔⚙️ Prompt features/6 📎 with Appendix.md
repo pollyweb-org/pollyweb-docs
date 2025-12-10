@@ -9,8 +9,7 @@
 
     Appendix-enabled prompts 
     * are [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>)
-    * that contain a Base64-encoded file
-    * or an Appendix ID to be downloaded with [`Download@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 call.md>).
+    * that contain an Appendix ID to be downloaded with [`Download@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 call.md>)
 
     ---
     <br/>
@@ -58,8 +57,21 @@
     ```yaml
     Format: TEXT
     Text: 💬 Who is in the picture?
-    Appendix: <appendix-uuid>
+    Appendix: 
+        Key: <appendix-uuid>
+        Name: elvis.png
+        Type: PNG
+        Pages: 7    # if type is PDF
     ```
+
+
+    |Property|Type|Description
+    |-|-|-
+    | `Key`  | uuid  | ID for [`Download@Host` 🚀 call](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 call.md>)
+    | `Name` |text| Name of the file, for saving
+    | `Type` | text | One of  `PDF` `PNG` `JPEG`
+    | `Pages`| num | Number of pages if `PDF` 
+    
 
     <br/>
 

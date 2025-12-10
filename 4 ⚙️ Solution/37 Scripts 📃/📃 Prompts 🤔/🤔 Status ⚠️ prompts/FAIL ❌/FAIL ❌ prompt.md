@@ -66,7 +66,7 @@
         # Generic optional properties
         Details: string
         Options: csv|string[]|object
-        Appendix: {function}
+        Appendix: {...}
     ```
     
     | Input| Purpose | Example
