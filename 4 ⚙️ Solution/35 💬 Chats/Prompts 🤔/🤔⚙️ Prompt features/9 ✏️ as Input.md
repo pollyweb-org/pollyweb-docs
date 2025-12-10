@@ -28,7 +28,7 @@
     |Format | Description
     |-|-
     | [👍&nbsp;CONFIRM](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>) | Yes, No, Cancel
-    | [🔠&nbsp;TEXT](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT ⌘ cmd.md>) | Asks for a text input
+    | [🔠&nbsp;TEXT](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 💬/🔠 TEXT ⌘ cmd.md>) | Asks for a text input
     | [🔢&nbsp;DIGITS](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS ⌘ cmd.md>) | Shows the numeric keypad
     | [↕️&nbsp;QUANTITY](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/↕️ QUANTITY ⌘ cmd.md>) | Shows up/down arrows.
     | [💰&nbsp;AMOUNT](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/AMOUNT 💰/💰 AMOUNT ⌘ cmd.md>) | Allows for decimals
@@ -58,7 +58,7 @@
     * instead, request users to share datasets using [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
     * e.g., ask to share the code `nlweb.dom/BOOKING/CONTACTS` instead of asking for the name, then the phone number, then the email address, and so on.
   
-    When [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 🔠/🔠 TEXT ⌘ cmd.md>) prompts; 
+    When [Prompts 🤔](<../../Chats 💬/🤔 Prompt.md>) are inevitable, avoid [`TEXT`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 💬/🔠 TEXT ⌘ cmd.md>) prompts; 
     * instead, prefer low-effort prompts like [`ONE`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/ONE 1️⃣/1️⃣ ONE ⌘ cmd.md>);
     * e.g., searchable lists with one or many possible options.
 
