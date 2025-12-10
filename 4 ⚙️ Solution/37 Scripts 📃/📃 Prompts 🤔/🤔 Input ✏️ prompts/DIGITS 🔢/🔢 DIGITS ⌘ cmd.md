@@ -3,7 +3,7 @@
 > Part of [blocking input prompts 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 
 
-<br/>
+## FAQ
 
 1. **What's a DIGITS prompt?**
 
