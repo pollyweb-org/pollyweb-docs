@@ -34,7 +34,7 @@
     | - | - | - |
     | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 A beer? [Yes, No]         | > Yes
     | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
-    | 🆔 [Identity](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../6 🆔⏩😶 Face scan/6 🆔⏩😶 Face scan.md>)
+    | 🆔 [Identity](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
     | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ✅ A beer coming up!
 
     ---
@@ -111,7 +111,7 @@
 
     Printed identity-bound [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) (or any other type of offline Tokens, like screenshot images, NFC cards, and NFC wristbands) removes user's need to carry their mobile phone charged and with internet connection. 
     - Use cases where this is important include: international flights, water sports, and luggage misplacement or theft.
-    - These scenarios rely on [🖐️ palm vein scanners](<../7 🆔⏩🖐️ Palm scan/7 🆔⏩🖐️ Palm scan.md>) scanning the users' palms, or cameras performing [😶 face scans](<../6 🆔⏩😶 Face scan/6 🆔⏩😶 Face scan.md>) on users.
+    - These scenarios rely on [🖐️ palm vein scanners](<../7 Palm scan 🆔⏩🖐️/7 🆔⏩🖐️ Palm scan.md>) scanning the users' palms, or cameras performing [😶 face scans](<../6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>) on users.
 
     The flow for a user to share an offline [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) is as follows:
     - 1/ the user taps or scans the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) on the Consumer's scanner:

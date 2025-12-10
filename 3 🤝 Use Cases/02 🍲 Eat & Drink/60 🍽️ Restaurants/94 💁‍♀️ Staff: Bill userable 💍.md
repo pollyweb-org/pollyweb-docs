@@ -6,7 +6,7 @@ How to collect userable payments at restaurants?
 
 > [Userables 💍](<../../../4 ⚙️ Solution/25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) allow customers to pay without battery on their devices.
 
-> Mentioned in [Verify Userables 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/4 🆔⏩💍 Verify Userables/4 🆔⏩💍 Verify Userables.md>)
+> Mentioned in [Verify Userables 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/4 Verify Userables 🆔⏩💍/4 🆔⏩💍 Verify Userables.md>)
 
 <br/>
 
@@ -29,7 +29,7 @@ How to collect userable payments at restaurants?
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) | 🫥 Tap the userable [+] | 🔆 [tap](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) | ⏳ Collecting payment...
 | 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Ready for ID check? [Yes]     | > Yes
-| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan/6 🆔⏩😶 Face scan.md>)
+| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
 | [🏦 Collector](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) | ⏳ Collecting payment...
 | 🍽️ Restaurant | ✅ Payment received!
 | 🍽️ Restaurant | ⏳ Waiting requests... [+] 

@@ -10,7 +10,7 @@
 
 1. **How do users set up an Identity vault?**
 
-    ![](<../../. 📎 Assets/🆔 Biometrics.png>)
+    ![](<🆔 Biometrics.png>)
 
     [Identity 🆔 vaults](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
 
@@ -31,7 +31,7 @@
 1. **What are the responsibilities of a biometric center?**
 
     The biometric center:
-    * collects the user's biometrics (e.g., [Face 😶](<../6 🆔⏩😶 Face scan/6 🆔⏩😶 Face scan.md>), [palm 🖐️](<../7 🆔⏩🖐️ Palm scan/7 🆔⏩🖐️ Palm scan.md>), voice), 
+    * collects the user's biometrics (e.g., [Face 😶](<../6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>), [palm 🖐️](<../7 Palm scan 🆔⏩🖐️/7 🆔⏩🖐️ Palm scan.md>), voice), 
     * tags it to a limited set of verifiable codes (e.g., passport number, national ID, social security), 
     * and stores it in compliance with data residency regulations.
 
