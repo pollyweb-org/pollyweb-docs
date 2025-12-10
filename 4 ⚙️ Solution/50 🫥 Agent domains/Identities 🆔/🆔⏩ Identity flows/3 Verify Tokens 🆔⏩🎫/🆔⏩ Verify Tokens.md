@@ -8,7 +8,7 @@
 
 1. **What is an Identity-bound Token?**
 
-    An [Identity-bound Token 🎫](<3 🆔⏩🎫 Verify Tokens.md>)
+    An [Identity-bound Token 🎫](<🆔⏩ Verify Tokens.md>)
     * is a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
     * that was [issued 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) to a specific person.
 
@@ -78,7 +78,7 @@
 
 1. **How does it work?**
 
-    ![](<🆔 Tokens.png>)
+    ![](<🆔🏞️ Tokens.png>)
 
     <br/>
 
@@ -107,7 +107,7 @@
     
 1. **How do domains authenticate printed identity-bound Tokens?**
 
-    ![](<🆔 Offline.png>)
+    ![](<🆔🏞️ Offline.png>)
 
     Printed identity-bound [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) (or any other type of offline Tokens, like screenshot images, NFC cards, and NFC wristbands) removes user's need to carry their mobile phone charged and with internet connection. 
     - Use cases where this is important include: international flights, water sports, and luggage misplacement or theft.
@@ -139,7 +139,7 @@
       - 3/ obtaining age benefits (e.g., buying discounted tickets for elderly); or 
       - 4/ claiming accessibility needs (e.g., a wheelchair at an airport). 
       
-    - For that, users first need to bind their wallet to an [🆔 Identity Vault](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) (typically a governmental authority that issues passports) to set up authentication mechanisms (e.g., voice and face biometric signatures collected in a supervised center) - users may then ask the Identity Vault for an age-related [Token 🎫](<3 🆔⏩🎫 Verify Tokens.md>) (e.g., over 16 years old). 
+    - For that, users first need to bind their wallet to an [🆔 Identity Vault](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) (typically a governmental authority that issues passports) to set up authentication mechanisms (e.g., voice and face biometric signatures collected in a supervised center) - users may then ask the Identity Vault for an age-related [Token 🎫](<🆔⏩ Verify Tokens.md>) (e.g., over 16 years old). 
     
     - When interacting with the [Seller 💵](<../../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>)'s domain, the Seller can then ask for the Token before providing the service or granting the entrance. 
     

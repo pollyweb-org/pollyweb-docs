@@ -1,7 +1,7 @@
 👨‍✈️ Start a shift as a taxi driver
 ===
 
-> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/3 🆔⏩🎫 Verify Tokens.md>)
+> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>)
 
 <br/>
 

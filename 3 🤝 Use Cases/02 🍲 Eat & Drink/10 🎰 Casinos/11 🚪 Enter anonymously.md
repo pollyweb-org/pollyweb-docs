@@ -2,7 +2,7 @@
 
 > From [Entering casinos 🎰](<01 🎰 Index.md>)
 
-> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/3 🆔⏩🎫 Verify Tokens.md>)
+> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>)
 
 Users can ask their [Identity 🆔 vault](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) for an age-related [Token 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
  (e.g., over 16 years old). 

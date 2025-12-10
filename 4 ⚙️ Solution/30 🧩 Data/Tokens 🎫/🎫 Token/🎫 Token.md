@@ -82,10 +82,10 @@
 
     Yes, [Tokens 🎫](<🎫 Token.md>) can be identity-bound;
     - i.e., they can allow [Consumer 💼 domains](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<🎫 Token.md>)  was issue to. 
-    - [Identity-bound 🆔 tokens](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/3 🆔⏩🎫 Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>).
+    - [Identity-bound 🆔 tokens](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>).
 
 
-    The following [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/3 🆔⏩🎫 Verify Tokens.md>).
+    The following [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>).
 
 
     | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)

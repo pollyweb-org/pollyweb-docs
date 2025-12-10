@@ -57,10 +57,10 @@ TODO: Create the API methods
     - **the content of the file to be signed** 
       - this allows the user to read the document before accepting to sign it;
     - **the file's hash** 
-      - this allows the Identity domain to [sign 🔏](<🆔 Verify Signatures 🔏.md>) a document on behalf of a user without knowing the content of the document;
+      - this allows the Identity domain to [sign 🔏](<🆔⏩ Verify Signatures 🔏.md>) a document on behalf of a user without knowing the content of the document;
     - **user PII (e.g., passport number)** - this allows the Identity domain to match the Host's intent with the user 
       - e.g., ensure the request matches the tenant and not the landlord in a renting contract; 
-    - **a signature placeholder ID**, representing the requested [signature](<🆔 Verify Signatures 🔏.md>) in the contract 
+    - **a signature placeholder ID**, representing the requested [signature](<🆔⏩ Verify Signatures 🔏.md>) in the contract 
         - this allows the [Identity 🆔 domain](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) to reference the Host's original request.
 
     ---
@@ -69,7 +69,7 @@ TODO: Create the API methods
 
 1. **How does it work?**
 
-    ![](<🆔 Signature.png>)
+    ![](<🆔🏞️ Signature.png>)
 
     The flow of a user signing a PDF file is as follows.
 
@@ -89,7 +89,7 @@ TODO: Create the API methods
     
 1. **How do users sign files?**
 
-    ![](<🆔 Signature Users.png>)
+    ![](<🆔🏞️ Signature Users.png>)
 
     Users do not sign files directly - instead, they ask their Identity domains to sign the files.  
     

@@ -4,7 +4,7 @@ How do pizza makers fulfill an order at the pizzeria?
 
 > From [🍕 Order Pizza](<01 🍕 Index.md>)
 
-> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/3 🆔⏩🎫 Verify Tokens.md>)
+> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>)
 
 <br/>
 
