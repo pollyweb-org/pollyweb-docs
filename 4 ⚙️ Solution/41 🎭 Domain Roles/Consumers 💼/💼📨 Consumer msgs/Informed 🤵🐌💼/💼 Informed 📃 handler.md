@@ -1,29 +1,25 @@
-# 💼 Helped 📃 handler
+# 💼 Informed 📃 handler
 
 > Purpose
 
-* [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Helped@Consumer` 🐌 msg](<💼 Helped 🐌 msg.md>)
-
+* [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Informed@Consumer` 🐌 msg](<💼 Informed 🐌 msg.md>)
 <br/>
 
 ## Flow
 
-![alt text](<💼 Helped ⚙️ uml.png>)
-
-<br/>
+![alt text](<💼 Informed ⚙️ uml.png>)
 
 ## Script
 
 ```yaml
-📃 Helped@Consumer:
+📃 Informed@Consumer:
 
-# Verify the message
-- VERIFY|$.Msg
+
 
 # Assert the message
 - ASSERT|$.Msg:
-    AllOf: Invite, Help
-    UUID: Invite
+    AllOf: Hook
+    UUIDs: Hook
 
 # Resolve the callback
 - READ >> $invite:

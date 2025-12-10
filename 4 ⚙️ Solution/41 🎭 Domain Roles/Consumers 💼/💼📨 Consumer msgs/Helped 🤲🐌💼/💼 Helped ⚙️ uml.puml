@@ -5,11 +5,13 @@ box Consumer 💼 domain #FFFFFA
     participant "Helped 🐌" as consumer
     participant "Invites 🪣" as invites
 end box
+participant "Graph 🕸" as graph
 
 
 helper --> consumer: Helped 🐌 {invite}
 
 activate consumer
+    consumer -> graph: VERIFY 🔐 {msg}
     consumer -> invites: READ 🧲 {invite}
     consumer -> invites: SAVE 💾 {HELPED}
 deactivate consumer
