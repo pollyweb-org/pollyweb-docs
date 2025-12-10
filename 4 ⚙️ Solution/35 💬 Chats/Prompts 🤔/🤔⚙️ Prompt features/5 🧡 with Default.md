@@ -20,7 +20,7 @@
     |-|-
     |👍 [`CONFIRM`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>)| The `Yes` is highlighted by default
     |1️⃣ [`ONE`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/ONE 1️⃣/1️⃣ ONE ⌘ cmd.md>)    | A suggested [option](<4 🔘 with Options.md>) may be highlighted
-    |🔠 [`TEXT`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 💬/🔠 TEXT ⌘ cmd.md>)   | When editing, the current value is set
+    |🔠 [`TEXT`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 💭/💭 TEXT ⌘ cmd.md>)   | When editing, the current value is set
     
     ---
     <br/>
