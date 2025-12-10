@@ -78,7 +78,7 @@
 
 1. **How does it work?**
 
-    ![](<../../. 📎 Assets/🆔 Tokens.png>)
+    ![](<🆔 Tokens.png>)
 
     <br/>
 
@@ -107,7 +107,7 @@
     
 1. **How do domains authenticate printed identity-bound Tokens?**
 
-    ![](<../../. 📎 Assets/🆔 Offline.png>)
+    ![](<🆔 Offline.png>)
 
     Printed identity-bound [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) (or any other type of offline Tokens, like screenshot images, NFC cards, and NFC wristbands) removes user's need to carry their mobile phone charged and with internet connection. 
     - Use cases where this is important include: international flights, water sports, and luggage misplacement or theft.
