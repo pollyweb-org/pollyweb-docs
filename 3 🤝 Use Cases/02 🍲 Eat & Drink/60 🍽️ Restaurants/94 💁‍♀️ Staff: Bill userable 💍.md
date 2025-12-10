@@ -6,7 +6,7 @@ How to collect userable payments at restaurants?
 
 > [Userables 💍](<../../../4 ⚙️ Solution/25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) allow customers to pay without battery on their devices.
 
-> Mentioned in [Verify Userables 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/4 Verify Userables 🆔⏩💍/4 🆔⏩💍 Verify Userables.md>)
+> Mentioned in [Verify Userables 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/4 Verify Userables 🆔⏩💍/🆔⏩ Verify Userables.md>)
 
 <br/>
 

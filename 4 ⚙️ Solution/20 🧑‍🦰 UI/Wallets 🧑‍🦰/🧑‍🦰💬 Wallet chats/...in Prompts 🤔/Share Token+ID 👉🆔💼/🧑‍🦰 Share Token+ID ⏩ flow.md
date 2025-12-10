@@ -1,6 +1,6 @@
 # 💼⏩🧑‍🦰 Share an Identity Token @ Consumer
 
-> Mentioned in [🆔 Verify Tokens](<../../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/3 🆔⏩🎫 Verify Tokens.md>)
+> Mentioned in [🆔 Verify Tokens](<../../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>)
 
 
 <br/> 
@@ -11,7 +11,7 @@
 
 |#| Step | Purpose
 |-|-|-
-|1|[💼⏩🧑‍🦰 Share Token 🎫](<../Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) | Receive an [Identity-bound Token 🎫](<../../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/3 🆔⏩🎫 Verify Tokens.md>)
+|1|[💼⏩🧑‍🦰 Share Token 🎫](<../Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) | Receive an [Identity-bound Token 🎫](<../../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>)
 |2|[👥🚀🕸 `Trusts@Graph`](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>) | Verify if the [Identity 🆔](<../../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) is [Trustworthy 🫡](<../../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | 
 |3|[💼🐌🤵 `Invite@Broker`](<../../../../Brokers 🤵/🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>)|Invite the [Identity 🆔](<../../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) to the [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 |4| [🤵🐌🛠️ `Help@Helper`](<../../../../../41 🎭 Domain Roles/Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>) | Proxy the invite to the [Identity 🆔](<../../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) 

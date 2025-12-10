@@ -9,7 +9,7 @@
 
 1. **How do users set up an Identity vault?**
 
-    ![](<🆔 Register biometrics 🏞️ img.png>)
+    ![](<🆔🏞️ Register biometrics.png>)
 
     [Identity 🆔 vaults](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
 
