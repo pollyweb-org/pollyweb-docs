@@ -4,6 +4,7 @@ box Host 🤗 domain #FFFFFD
     participant "Status ⌘" as script
     participant "PROMPT 🤔" as PROMPT
     participant "Prompts 🪣" as table
+    participant "Appendixes 🪣" as appendixes
 end box
 participant "Wallet 👱" as wallet
 
@@ -13,9 +14,11 @@ activate script
 deactivate script
 
 activate PROMPT
-    PROMPT -> table: SAVE 💾 
-
+    PROMPT -> appendixes: SAVE 💾 
+    PROMPT -> table: 
     activate table
+
+
         table -> PROMPT: {prompt}
 
     alt With Options
@@ -30,6 +33,7 @@ deactivate table
 
 
 activate wallet
+    wallet -> appendixes: Download 🚀
     wallet --> table: Reply @ Host 🐌 {prompt, reply}
 deactivate wallet
 

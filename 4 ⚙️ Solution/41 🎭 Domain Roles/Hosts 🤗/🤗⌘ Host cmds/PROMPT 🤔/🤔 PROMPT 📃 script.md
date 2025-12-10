@@ -41,10 +41,33 @@
 ```yaml
 📃 .PROMPT:
 
+# ------------------------------------
+# ASSERTIONS
+# ------------------------------------
+
 # Assert CHAT was called
 - ASSERT|$.Chat:  
 
+# Assert required inputs
+- ASSERT|$.Inputs:
+    AllOf: Format, Text
+    Texts: Format, Text, Emoji, Details
+    Nums: MinValue, MaxValue
+    
+# Assert the appendix if provided
+- IF|$.Inputs.Has(Appendix):
+    ASSERT|$.Inputs.Appendix:
+        AllOf: Content, Type
+        Texts: Content, Type
+        Nums: Pages
+        Type.IsIn: PNG, JPEG, PDF
+        Pages.IsAbove: 0
+
+
+# ------------------------------------
 # Calculate the Reply type
+# ------------------------------------
+
 - CASE >> $onReply:
 
     # For blocking input, call WAIT+RACE
@@ -58,12 +81,25 @@
     # For non-blocking status without options, do NOTHING
     $: NOTHING
 
+
+# ------------------------------------
+# SAVE THE ITEMS
+# ------------------------------------
+
 # Stage the prompt
-- SAVE|Hosts.Prompts >> $prompt:
-    :$.Inputs:
+- SAVE|Host.Prompts >> $prompt:
+    :$.Inputs.Minus(Appendix):
     Chat: $.Chat.Chat
     Broker: $.Chat.Broker
     OnReply: $onReply
+
+# Stage the Appendix if provided
+- IF|$.Inputs.Has(Appendix):
+    - SAVE|Host.Appendixes:
+        Prompt: $prompt.ID
+        Chat: $.Chat.Chat
+        :$.Inputs.Appendix:
+
 
 # ------------------------------------
 # BLOCKING INPUTS
@@ -79,6 +115,7 @@
     # Return the reply
     - RETURN|$reply
 
+
 # ------------------------------------
 # NON-BLOCKING STATUS WITHOUT OPTIONS
 # ------------------------------------
@@ -86,6 +123,7 @@
 # For non-blocking prompts, return
 - IF|$onReply.Is(NOTHING): 
     RETURN
+
 
 # ------------------------------------
 # NON-BLOCKING STATUS WITH OPTIONS
