@@ -2,7 +2,7 @@
 
 box Host 🤗 domain #FFFFFD
     participant "Script 📃" as script
-    participant "WEB ⌘" as WEB
+    participant "WEB 🌐" as WEB
     participant "PROMPT ⌘" as PROMPT
 end box
 participant "Web Page 🌐" as page

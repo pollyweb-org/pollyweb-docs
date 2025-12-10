@@ -1,8 +1,8 @@
-@startuml SHARE
+@startuml CONFIRM
  
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "MANY 🔠" as many
+    participant "CONFIRM 👍" as many
     participant "PROMPT ⌘" as prompt
     'participant "Host 🤗" as host
     'participant "Consumer 💼" as consumer
@@ -12,27 +12,27 @@ end box
 participant "Wallet 👱" as wallet
 
 activate script
-    script -> many: MANY 🔠 {options}
+    script -> many: CONFIRM 👍 {text}
 deactivate script
 
 activate many
-    many -> prompt: RUN 🏃 {options}
+    many -> prompt: RUN 🏃 {text}
 deactivate many
 
 activate prompt
-    prompt --> wallet: Prompt@Broker 🐌 {options}
+    prompt --> wallet: Prompt@Broker 🐌 {text}
 deactivate prompt
 
 activate wallet
-    wallet --> prompt: {selected}
+    wallet --> prompt: {answer}
 deactivate wallet
 
 activate prompt
-    prompt -> many: RETURN {selected}
+    prompt -> many: RETURN {answer}
 deactivate prompt
 
 activate many
-    many -> script: RETURN {selected}
+    many -> script: RETURN {answer}
 deactivate many
 
 activate script
