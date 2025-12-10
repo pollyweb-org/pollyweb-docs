@@ -4,9 +4,9 @@
 1. **What is an Identity domain in NLWeb?**
 
     An Identity 🆔 domain
-    * is an [Agent 🫥 vault](<../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) 
+    * is an [Agent 🫥 vault](<../../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) 
     * that verifies the identity of the user
-    * on behalf of other [domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>).
+    * on behalf of other [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
 
     ---
     <br/>
@@ -15,13 +15,13 @@
 
     |Category|Section|Purpose
     |-|-|-
-    |`Registration` | [👮 Register biometrics](<🆔⏩ Identity flows/1 🆔⏩👮 Register biometrics.md>)| Map user biometrics to their Wallet.
-    |`Verification` |[🧑‍🦰 Verify Wallets](<🆔⏩ Identity flows/2 🆔⏩🧑‍🦰 Verify Wallets.md>) | Verify is its the Wallet's owner.
-    ||[🎫 Verify Tokens](<🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens.md>) | Verify if it's Token's legit holder.
-    ||[💍 Verify Userables](<🆔⏩ Identity flows/4 🆔⏩💍 Verify Userables.md>) | Verify if it's the Userable's owner.
-    ||[🔏 Verify Signatures](<🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures.md>) | Verify is its the Wallet's owner.
-    |`Technology`|[😶 Face scans](<🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>) | Liveness checks on user devices.
-    ||[🖐️ Palm scans](<🆔⏩ Identity flows/7 🆔⏩🖐️ Palm scan.md>) | Alternative to face in public spaces.
+    |`Registration` | [👮 Register biometrics](<../🆔⏩ Identity flows/1 🆔⏩👮 Register biometrics/1 🆔⏩👮 Register biometrics.md>)| Map user biometrics to their Wallet.
+    |`Verification` |[🧑‍🦰 Verify Wallets](<../🆔⏩ Identity flows/2 🆔⏩🧑‍🦰 Verify Wallets/2 🆔⏩🧑‍🦰 Verify Wallets.md>) | Verify is its the Wallet's owner.
+    ||[🎫 Verify Tokens](<../🆔⏩ Identity flows/3 🆔⏩🎫 Verify Tokens/3 🆔⏩🎫 Verify Tokens.md>) | Verify if it's Token's legit holder.
+    ||[💍 Verify Userables](<../🆔⏩ Identity flows/4 🆔⏩💍 Verify Userables/4 🆔⏩💍 Verify Userables.md>) | Verify if it's the Userable's owner.
+    ||[🔏 Verify Signatures](<../🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures/5 🆔⏩🔏 Verify Signatures.md>) | Verify is its the Wallet's owner.
+    |`Technology`|[😶 Face scans](<../🆔⏩ Identity flows/6 🆔⏩😶 Face scan/6 🆔⏩😶 Face scan.md>) | Liveness checks on user devices.
+    ||[🖐️ Palm scans](<../🆔⏩ Identity flows/7 🆔⏩🖐️ Palm scan/7 🆔⏩🖐️ Palm scan.md>) | Alternative to face in public spaces.
 
 
 
@@ -30,9 +30,9 @@
 
 1. **Why are Identity domains important?**
 
-    They ensure that the person physically holding the [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
+    They ensure that the person physically holding the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     * is either is the mentioned in the identification document,
-    * or is the one to whom the [Token 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) was issued to, 
+    * or is the one to whom the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) was issued to, 
     * or is the one required to sign a given file.
 
     ---
@@ -80,7 +80,7 @@
 1. **How is voice recognition secured with an audio input?**
 
     NLWeb discourages voice recognition as authentication method,
-    * except in [supervised 👮 scenarios](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) (e.g., a government office),
+    * except in [supervised 👮 scenarios](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) (e.g., a government office),
     * because Generative AI can mimic a person's voice with 3 seconds of original audio.
 
     ---

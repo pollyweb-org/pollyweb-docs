@@ -133,10 +133,10 @@
     - Certain scenarios require the [Consumer 💼 domain](<💼🎭 Consumer role.md>) to verify if the person holding the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) is the person to whom the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) was issue to - e.g.:
         - at an airport border control, automatic gates need to match the face of the passport holder with the biometric signature contained in the electronic passport. 
     
-    - This requires an online request to an [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) that is [bound 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the user and [trusted 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) by the [Consumer 💼 domain](<💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<💼🎭 Consumer role.md>):
+    - This requires an online request to an [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) that is [bound 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the user and [trusted 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) by the [Consumer 💼 domain](<💼🎭 Consumer role.md>), allowing the token to be matched to the holder without disclosing the holder's identity to the [Consumer 💼 domain](<💼🎭 Consumer role.md>):
         - e.g., while entering a casino, the casino can validate that the 21-years-old token is valid, and that the holder is the owner of the token, without knowing who the holder is. 
     
-    - The [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) can perform the authentication:
+    - The [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) can perform the authentication:
         - on the user's device (e.g., via multi-factor authentication or using the camera in the device), 
         - or through an external device (e.g., [Amazon One 📺](<../../../../2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/02 📺 Amazon One.md>) palm reader).
 
@@ -146,8 +146,8 @@
     | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
-    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
-    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>)
+    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
+    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan/6 🆔⏩😶 Face scan.md>)
     | 🎰 Casino   | ✅ Welcome, please enter!
     
 
@@ -161,12 +161,12 @@
     - e.g., an adult may give their wallet's device to an under-aged child so that they can buy age-restricted goods at a self-service store. 
     
     In low-budget validations, 
-    - [Seller 💵 domains](<../../Sellers 💵/💵 Seller /💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) on the user's device;
+    - [Seller 💵 domains](<../../Sellers 💵/💵 Seller /💵🎭 Seller role.md>) ask the user's trusted [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) to perform the authentication inside the [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) on the user's device;
     - depending on the circumstances, this can be a biometric face scan, voice recognition, OTP, security questions, or other. 
     
     In offline scenarios, 
     - where users carry an NFC card or a printed QR, 
-    - the [Seller 💵 domain](<../../Sellers 💵/💵 Seller /💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) to match the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with the picture.
+    - the [Seller 💵 domain](<../../Sellers 💵/💵 Seller /💵🎭 Seller role.md>) takes a photo of the user with a fixed camera, and then asks the [Token's Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) to match the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with the picture.
 
     ---
     <br/>
@@ -217,7 +217,7 @@
         |-|-|-|
         | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
         | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to check-in? [Yes, No] <br/> - your identity 🆔 shares your ID <br/> - your curator 🧚 sets the room  <br/> - your payer 💳 pays the stay   <br/> - your broker 🤵 saves the room key  | > Yes
-        | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] |
+        | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Share identity? [Yes, No] |
         | ... | 
 
 
@@ -243,7 +243,7 @@
     |-|-
     | [⏩🧑‍🦰 Query Vault](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Bind 👉🔗💼/🧑‍🦰 Share Bind ⏩ flow.md>) | Ask for [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) in [Vaults 🗄️](<../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) 
     | [⏩🧑‍🦰 Share Token](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) | Ask for [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) in  [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) 
-    | [⏩🧑‍🦰 Share ID Token](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Ask for [Identity 🆔](<../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
+    | [⏩🧑‍🦰 Share ID Token](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Ask for [Identity 🆔](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) bound [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
     | [⏩🧑‍🦰 Token status](<../💼⏩ Consumer flows/Token Status 💼⏩🎫/💼 Token Status ⏩ flow.md>) | Ask for the status of a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 
     ---

@@ -2,8 +2,8 @@
 
 ![](<🤝 User Subscription 🏞️ img.png>)
 
-For a user to [sign](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures.md>) a subscription, the following preconditions must be met:
-- 1/ the user has default [Payer 💳](<../../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) and [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) domains;
+For a user to [sign](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures/5 🆔⏩🔏 Verify Signatures.md>) a subscription, the following preconditions must be met:
+- 1/ the user has default [Payer 💳](<../../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) and [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) domains;
 - 2/ the [Seller 💵 domain](<../../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) has a default [Collector 🏦 domain](<../../../Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>).
 
 The following steps describe a subscription workflow:
@@ -11,7 +11,7 @@ The following steps describe a subscription workflow:
 - 2/ the user selects a subscription in the chat;
 - 3/ the Seller's [Biller 🤝](<../../🤝 Biller/🤝 Biller 🤲 helper.md>) sends the PDF terms to the user;
 - 4/ the user accepts the PDF terms;
-- 5/ the user's [Identity 🆔 domain](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) authenticates the user;
+- 5/ the user's [Identity 🆔 domain](<../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) authenticates the user;
 - 6/ the user's [Payer 💳](<../../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) asks the user for a payment method;
 - 7/ the [Seller 💵](<../../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) confirms the subscription;
 - 8/ the  [Biller 🤝](<../../🤝 Biller/🤝 Biller 🤲 helper.md>)  initiates the monthly collection.
@@ -28,8 +28,8 @@ The following steps describe a subscription workflow:
 | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Allow guest domain?](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>) <br/> - Any Biller 🤝<br/>- [ Always ] for Any Helper 🤲 | > Always
 | 🤝 [Biller](<../../🤝 Biller/🤝 Biller 🤲 helper.md>) | 😃 What plan to subscribe? <br/>- [ Simple ] pay-as-you-go  <br/>- [ Monthly ] commitment | > Simple
 | 💳 [Payer](<../../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Link to Any Biller? [Yes, No, +] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC 
-| 🆔 [Identity](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
-| 🆔 [Identity](<../../../../50 🫥 Agent domains/Identities 🆔/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan.md>)
+| 🆔 [Identity](<../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/5 🆔⏩🔏 Verify Signatures/5 🆔⏩🔏 Verify Signatures.md>) 📄 [Yes, No] | > Yes
+| 🆔 [Identity](<../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 🆔⏩😶 Face scan/6 🆔⏩😶 Face scan.md>)
 | 🛠️ [Helper](<../../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) | ✅ Done!
 |
 
