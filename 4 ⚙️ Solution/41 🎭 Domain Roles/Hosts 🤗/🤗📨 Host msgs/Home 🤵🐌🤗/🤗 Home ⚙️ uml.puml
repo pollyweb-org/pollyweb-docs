@@ -1,19 +1,20 @@
-@startuml Abandoned@Host
+@startuml Home@Host
  
 participant "Broker 🤵" as broker
 box Host 🤗 domain #FFFFFD
-    participant "Abandoned 🐌" as handler
+    participant "Home 🐌" as handler
     participant "Chats 🪣" as chats
+    participant "Locators 🪣" as locators
 end box
 participant "Graph 🕸" as graph
 
 
-broker --> handler: Abandoned 🐌 
+broker --> handler: Home 🐌 
 
 activate handler
     handler -> graph: VERIFY 🔐 {msg}
     handler -> chats: READ 🧲
-    handler -> chats: SAVE 💾 {ABANDONED}
+    handler -> locators: TALK 😃
 deactivate handler
 
 

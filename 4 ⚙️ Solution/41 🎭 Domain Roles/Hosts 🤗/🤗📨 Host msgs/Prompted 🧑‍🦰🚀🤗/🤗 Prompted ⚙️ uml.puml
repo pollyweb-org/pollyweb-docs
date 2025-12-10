@@ -7,12 +7,12 @@ box Host 🤗 domain #FFFFFD
     participant "Chats 🪣" as chats
 end box
 
-wallet --> handler: Prompted 🚀 
+wallet -> handler: Prompted 🚀 
 activate wallet
 
     activate handler
         handler -> prompts: READ 🧲
-        handler -> chats: 
+        handler -> chats: VERIFY 🔐 {chat.PublicKey}
         handler -> wallet: {prompt}
     deactivate handler
 

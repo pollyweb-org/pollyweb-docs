@@ -1,9 +1,7 @@
-# 🧑‍🦰🐌🤗 Home @ Host
+# 🤵🐌🤗 Home@Host
 
-> Implementations
+> About
 * Implemented by the [`Home` 📃 script](<🤗 Home 📃 handler.md>)
-
-> Purpose
 * Shows the main menu of the [Host 🤗 domain](<../../🤗 Host role/🤗🎭 Host role.md>).
 
 > Used by
