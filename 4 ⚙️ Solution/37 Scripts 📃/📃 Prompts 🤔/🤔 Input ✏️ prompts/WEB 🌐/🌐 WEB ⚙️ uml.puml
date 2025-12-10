@@ -3,24 +3,35 @@
 box Host 🤗 domain #FFFFFD
     participant "Script 📃" as script
     participant "WEB ⌘" as WEB
-    participant "PROMPT ⌘" as PROMPT
 end box
+participant "Web Page 🌐" as page
 participant "Wallet 👱" as wallet
 
 
 activate script
-    script -> WEB: WEB 🌐 {url}
+    script -> WEB: WEB 🌐 {text, url}
 deactivate script
 
 activate WEB
-    WEB -> PROMPT: SHOW 🌐 {url}
+    WEB --> wallet: Prompt@Broker 🐌 {text, url}
+activate wallet
+    WEB -> WEB: WAIT ⏳
 deactivate WEB
 
-activate PROMPT
-    PROMPT --> wallet: 
-deactivate PROMPT
 
+    wallet --> page: open {url}
+activate page
+    wallet --> page: "submit"
+deactivate wallet
+    page --> WEB: RACE 🏁 {result}
+deactivate page
 
+activate WEB
+    WEB -> script: RETURN {result}
+deactivate WEB
+
+activate script
+    
 
 
 @enduml
