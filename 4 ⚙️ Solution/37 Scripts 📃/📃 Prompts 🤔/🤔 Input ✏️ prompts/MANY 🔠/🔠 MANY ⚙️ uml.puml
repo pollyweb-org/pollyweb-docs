@@ -2,7 +2,8 @@
  
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant ".MANY 📃" as many
+    participant "MANY ⌘" as many
+    participant "PROMPT ⌘" as prompt
     'participant "Host 🤗" as host
     'participant "Consumer 💼" as consumer
 end box
@@ -11,19 +12,27 @@ end box
 participant "Wallet 👱" as wallet
 
 activate script
-    script --> many: MANY 🔠 {options}
+    script -> many: MANY 🔠 {options}
 deactivate script
 
 activate many
-    many --> wallet: PROMPT 🤔 {options}
+    many -> prompt: RUN 🏃 {options}
 deactivate many
 
+activate prompt
+    prompt --> wallet: Prompt@Broker 🐌 {options}
+deactivate prompt
+
 activate wallet
-    wallet --> many: {selected}
+    wallet --> prompt: {selected}
 deactivate wallet
 
+activate prompt
+    prompt -> many: RETURN {selected}
+deactivate prompt
+
 activate many
-    many --> script: RETURN {selected}
+    many -> script: RETURN {selected}
 deactivate many
 
 activate script
