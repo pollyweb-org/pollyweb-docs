@@ -33,7 +33,8 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
 
 # Ask the user to answer
 - RUN|.PROMPT >> $reply:
-    $.Inputs
+    :$.Inputs:
+    Format: CONFIRM
 
 # Return the reply.
 - RETURN|$reply
