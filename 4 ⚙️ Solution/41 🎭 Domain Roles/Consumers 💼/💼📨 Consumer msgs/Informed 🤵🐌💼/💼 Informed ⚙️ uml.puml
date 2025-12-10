@@ -1,0 +1,16 @@
+@startuml Informed@Consumer
+
+participant "Broker 🤵" as helper
+box Consumer 💼 domain #FFFFFA
+    participant "Informed 🐌" as consumer
+    participant "INFORM ⌘" as invites
+end box
+
+
+helper --> consumer: Informed 🐌 {hook}
+
+activate consumer
+    consumer -> invites: RACE 🏁 {hook}
+deactivate consumer
+
+@enduml 

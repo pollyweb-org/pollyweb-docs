@@ -63,3 +63,13 @@ Steps:
 |
 
 <br/>
+
+## FAQ
+
+1. **How to define a Form on a domain [Manifest 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>)?**
+
+    See the [`INFORM`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) command.
+
+    ---
+    <br/>
+
