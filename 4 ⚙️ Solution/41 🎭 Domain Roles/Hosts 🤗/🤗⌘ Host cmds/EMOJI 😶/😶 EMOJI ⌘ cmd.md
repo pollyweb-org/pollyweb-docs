@@ -1,7 +1,8 @@
-# 😶 Talker `EMOJI` command
+# 😃😶 Talker `EMOJI` command
 
 > About
-* Implements the [Input emojis 😶](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶 Input emojis.md>) feature.
+* Implements the [Input emojis 😶](<../../../../35 💬 Chats/Prompts 🤔/🤔✏️ Prompt inputs/😶 Input emojis.md>) feature
+* Implemented by the [`EMOJI` 📃 script](<😶 EMOJI 📃 script.md>)
 
 
 ## FAQ

@@ -16,7 +16,7 @@ deactivate vault
 
 activate broker
     broker -> binds: READ 🧲 {bind}
-    broker --> notifier: SEND 📬 Navigate 🐌
+    broker --> notifier: SEND 📬 {Navigate@ 🐌}
 deactivate broker
 
 activate notifier
