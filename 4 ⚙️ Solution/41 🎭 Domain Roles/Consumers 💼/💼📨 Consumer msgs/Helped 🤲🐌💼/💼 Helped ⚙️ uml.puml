@@ -8,12 +8,12 @@ end box
 participant "Graph 🕸" as graph
 
 
-helper --> consumer: Helped 🐌 {invite}
+helper --> consumer: Helped 🐌 {invite, help}
 
 activate consumer
     consumer -> graph: VERIFY 🔐 {msg}
     consumer -> invites: READ 🧲 {invite}
-    consumer -> invites: SAVE 💾 {HELPED}
+    consumer -> invites: SAVE 💾 {HELPED, help}
 deactivate consumer
 
 @enduml 
