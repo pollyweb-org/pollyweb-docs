@@ -57,7 +57,7 @@
     | [Command ⌘](<../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the [holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) values.
-    | ↕️ [`QUANTITY`](<../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/↕️ QUANTITY ↕️ prompt.md>) | To collect the number input.
+    | ↕️ [`QUANTITY`](<../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/↕️ QUANTITY ⌘ cmd.md>) | To collect the number input.
     
 
     ---
