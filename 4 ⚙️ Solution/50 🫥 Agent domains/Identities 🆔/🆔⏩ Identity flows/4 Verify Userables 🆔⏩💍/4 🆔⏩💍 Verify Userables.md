@@ -3,7 +3,7 @@
 
 > Part of [Identity 🆔 domains](<../../🆔 Identity agent/🆔🫥 Identity agent.md>)
 
- <br/>
+## FAQ
 
 
 1. **How to verify someone else's Userable?**
