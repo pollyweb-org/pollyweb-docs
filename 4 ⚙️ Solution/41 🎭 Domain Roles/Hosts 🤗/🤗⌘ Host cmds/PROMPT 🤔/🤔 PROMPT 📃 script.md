@@ -26,12 +26,15 @@
 - RUN|.PROMPT:
     Format: ONE
     Text: Which credit card to use? 
-    Emoji: 😃             # Optional, defaults to 😃
-    MinValue: 10000       # Optional
-    MaxValue: 99999       # Optional
-    Details: ...          # Optional
-    Options: [...]        # Optional
-    Appendix: {...}       # Optional
+    Emoji: 😃               # Optional, defaults to 😃
+    MinValue: 10000         # Optional
+    MaxValue: 99999         # Optional
+    Details: ...            # Optional
+    Options: [...]          # Optional
+    Appendix:               # Optional
+        Type: PDF               # PNG, JPEG, PDF
+        Pages: 4                # Required if Type is PDF
+        Content: <base64>       # Base64 encoded content
 ```
 
 <br/>
@@ -56,12 +59,18 @@
     
 # Assert the appendix if provided
 - IF|$.Inputs.Has(Appendix):
-    ASSERT|$.Inputs.Appendix:
+
+    # Assert appendix fields
+    - ASSERT|$.Inputs.Appendix:
         AllOf: Content, Type
         Texts: Content, Type
         Nums: Pages
         Type.IsIn: PNG, JPEG, PDF
         Pages.IsAbove: 0
+
+    # Require Pages if Type is PDF
+    - IF|$.Inputs.Appendix.Type.Is(PDF):
+        ASSERT|$.Inputs.Appendix.Pages
 
 
 # ------------------------------------
