@@ -1,6 +1,7 @@
-# 🤗📃 Home
+# 🤗 Home@Host 📃 handler
 
-[Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Home@Host` 🐌 msg](<🤗 Home 🐌 msg.md>).
+> About
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) that implements the [`Home@Host` 🐌 msg](<🤗 Home 🐌 msg.md>).
 
 
 ## Script
@@ -8,13 +9,23 @@
 ```yaml
 📃 Home@Host: 
 
-# Get the Chat
+# Verify the message
+- VERIFY|$.Msg
+
+# Assert the message
+- ASSERT|$.Msg:
+    AllOf: Chat
+    UUIDs: Chat
+
+# Assert the Chat exists for the Broker
 - READ >> $chat:
     Set: Host.Chats
-    Key: $.Msg.Chat
+    Key: 
+        Chat: $.Msg.Chat
+        Broker: $.Msg.From
 
-# Start a Chat for the locator
-- TALK|$.Msg.Chat|$chat.Locator
+# Start the default talker
+- TALK
 ```
 
 Uses||
