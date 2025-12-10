@@ -11,7 +11,7 @@
     An `AMOUNT` 
     * is a [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) 
     * that adds currency awareness
-    * to the decimal behavior of the [`QUANTITY`](<../QUANTITY ↕️/↕️ QUANTITY ↕️ prompt.md>) prompt.
+    * to the decimal behavior of the [`QUANTITY`](<../QUANTITY ↕️/↕️ QUANTITY ⌘ cmd.md>) prompt.
 
     ---
     <br/>
@@ -160,7 +160,7 @@
 
 1. **How does AMOUNT process money signs?**
 
-    When collecting an [`AMOUNT`](<💰 AMOUNT 💰 prompt.md>) input, [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+    When collecting an [`AMOUNT`](<💰 AMOUNT ⌘ cmd.md>) input, [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
     * identity and clean monetary characters
     * while storing the currencies in their original currency.
 

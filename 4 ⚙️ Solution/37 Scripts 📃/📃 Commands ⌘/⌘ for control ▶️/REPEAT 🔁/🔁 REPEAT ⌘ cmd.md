@@ -23,7 +23,7 @@
 
     | Input| Purpose
     |-|-
-    | `<text>`| Optional message for a [CONFIRM 👍 prompt](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM 👍 prompt.md>)
+    | `<text>`| Optional message for a [CONFIRM 👍 prompt](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>)
     
     ---
     <br/>
@@ -121,7 +121,7 @@
     - DONE|Order submitted!
     ```
 
-    Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM 👍 prompt.md>)  [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)  [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
+    Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>)  [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)  [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
 
     ```yaml
     📃 AddItems:
@@ -140,7 +140,7 @@
     # Repeat after the user confirms
     - REPEAT|Add another?
     ```
-    Uses:  [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS 🔢 prompt.md>) [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>) 
+    Uses:  [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS ⌘ cmd.md>) [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>) 
 
     ---
     <br/>
@@ -213,7 +213,7 @@
     - REPEAT
     ```
 
-    Uses: [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`QUANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/↕️ QUANTITY ↕️ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>) [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) 
+    Uses: [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`QUANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/↕️ QUANTITY ⌘ cmd.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>) [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) 
 
 
     ---

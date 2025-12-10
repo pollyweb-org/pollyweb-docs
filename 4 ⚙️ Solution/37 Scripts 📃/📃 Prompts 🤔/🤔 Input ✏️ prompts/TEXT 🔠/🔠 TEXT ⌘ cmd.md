@@ -262,7 +262,7 @@
 
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
-    | 💰 [`AMOUNT`](<../AMOUNT 💰/💰 AMOUNT 💰 prompt.md>) | To collect a structured currency value.
+    | 💰 [`AMOUNT`](<../AMOUNT 💰/💰 AMOUNT ⌘ cmd.md>) | To collect a structured currency value.
     | ✅ [`DONE`](<../../🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) | To show the formatted collected value.
 
     ---

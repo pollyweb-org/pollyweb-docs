@@ -56,11 +56,11 @@
 
 1. **How to provide default time options in a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)?**
 
-    Mix with [ONE 1️⃣ prompts](<../ONE 1️⃣/1️⃣ ONE 1️⃣ prompt.md>), like in the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
+    Mix with [ONE 1️⃣ prompts](<../ONE 1️⃣/1️⃣ ONE ⌘ cmd.md>), like in the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
     | Domain | [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | User
     | - | - | - |
-    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 [What time tomorrow?](<../ONE 1️⃣/1️⃣ ONE 1️⃣ prompt.md>) <br/> - [ 10:00 ] <br/> - [ 10:30 ] <br/> - [ Another ] time | > Another
+    | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 [What time tomorrow?](<../ONE 1️⃣/1️⃣ ONE ⌘ cmd.md>) <br/> - [ 10:00 ] <br/> - [ 10:30 ] <br/> - [ Another ] time | > Another
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 When exactly? | 🕓 10:37:00
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ✅ Thanks!
     |
