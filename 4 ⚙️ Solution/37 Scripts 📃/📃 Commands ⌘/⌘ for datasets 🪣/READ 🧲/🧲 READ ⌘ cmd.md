@@ -153,7 +153,7 @@
     - CONFIRM|A {$item.Name}?
     ```
 
-    Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/CONFIRM 👍 prompt.md>) [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/DIGITS 🔢 prompt.md>) [`READ`](<🧲 READ ⌘ cmd.md>)
+    Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM 👍 prompt.md>) [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS 🔢 prompt.md>) [`READ`](<🧲 READ ⌘ cmd.md>)
     
    
     

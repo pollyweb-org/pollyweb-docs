@@ -126,7 +126,7 @@
 
 1. **How to default quantities in a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)?**
 
-    Use the [`ONE`](<../ONE 1️⃣/ONE 1️⃣ prompt.md>) prompt.
+    Use the [`ONE`](<../ONE 1️⃣/1️⃣ ONE 1️⃣ prompt.md>) prompt.
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
@@ -162,7 +162,7 @@
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
     |-|-
     | ℹ️ [`INFO`](<../../🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) | To show the result.
-    | 1️⃣ [`ONE`](<../ONE 1️⃣/ONE 1️⃣ prompt.md>) | To show the options.
+    | 1️⃣ [`ONE`](<../ONE 1️⃣/1️⃣ ONE 1️⃣ prompt.md>) | To show the options.
     | ⏯️️ [`CASE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) | To check the selected option.
     | ⏳ [`TEMP`](<../../🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) | To show work in progress.
     
