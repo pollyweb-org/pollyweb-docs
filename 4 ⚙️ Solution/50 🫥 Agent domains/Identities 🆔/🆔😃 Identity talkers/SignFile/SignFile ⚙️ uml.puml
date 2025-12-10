@@ -1,0 +1,37 @@
+@startuml SignFile
+
+participant "Consumer 💼" as consumer
+box Identity 🆔 domain #FFFFFA
+    participant "SignFile ✍️" as script
+    participant "Identify 🆔" as identify
+    participant "Hosted 📦" as hosted
+end box
+participant "Wallet 👱" as wallet
+
+
+consumer --> script: Query@Broker 🐌 {SIGN, raw}
+
+activate script
+    script -> wallet: CONFIRM 👍 "sign?" {raw}
+    script -> identify: RUN {user}
+deactivate script
+
+activate identify
+    identify -> wallet: selfie 📸
+    identify -> script: 
+deactivate identify
+
+activate script
+    script -> hosted: CALL 🧮 {Sign, file}
+deactivate script
+
+activate hosted
+    hosted -> script: {signed}
+deactivate hosted
+
+activate script
+    script --> consumer: Consume@Consumer 🐌 {signed}
+deactivate script
+
+    
+@enduml
