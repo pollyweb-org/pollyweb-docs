@@ -2,22 +2,25 @@
 
 box Host 🤗 domain #FFFFFD
     participant "Script 📃" as script
-    participant "WEB 🌐" as talk
-    participant "Locators 🪣" as talkers
-    participant "Handler 📃" as talker
+    participant "WEB ⌘" as WEB
+    participant "PROMPT ⌘" as PROMPT
 end box
+participant "Wallet 👱" as wallet
 
 
 activate script
-    script -> talk: WEB 🌐 {url}
+    script -> WEB: WEB 🌐 {url}
 deactivate script
 
-activate talk
-    talk -> talk: name: $.Chat.Key
-    talk -> talkers: READ 🧲 {name}
-    talk -> talker: RUN {handler, inputs}
-deactivate talk
+activate WEB
+    WEB -> PROMPT: SHOW 🌐 {url}
+deactivate WEB
 
-activate talker
-    
+activate PROMPT
+    PROMPT --> wallet: 
+deactivate PROMPT
+
+
+
+
 @enduml
