@@ -1,7 +1,7 @@
 # 🦶 IMPRINT ⌘ cmd
 
 > About
-* Used by the [`CALL`](<../CALL 🧮/🧮 CALL ⌘ cmd.md>) command.
+* Used by the [`CALL` 🧮](<../CALL 🧮/🧮 CALL ⌘ cmd.md>) command.
 * Leverages the [`$.Holders` 🧠 holder](<../../../📃 Holders 🧠/System holders 🔩/$.Holders 🧠/🧠 $.Holders 🧠 holder.md>) 
     
 
