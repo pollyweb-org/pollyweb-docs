@@ -8,4 +8,4 @@ In 2025, Gartner, a US-based research and advisory firm providing technology ins
 
 
 <!-- https://youtu.be/LNfPQ4d570g --><br/>
-[403586468-8c5826aa-2c07-4f03-81f7-a5052be51783.webm](https://github.com/user-attachments/assets/38a799d2-1e24-439d-9ef3-a37cdcfcd8dc)
+[LNfPQ4d570g_00-15-03-00-17-50.webm](https://github.com/user-attachments/assets/0d671b0b-c443-45cf-b5b3-68bfb5491587)
