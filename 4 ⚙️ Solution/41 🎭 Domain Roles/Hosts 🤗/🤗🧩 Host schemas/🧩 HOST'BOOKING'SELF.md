@@ -13,8 +13,5 @@ Brokers only share these credentials with the issuers;
 ```yaml
 Path: /HOST/BOOKING/SELF
 Description: Token for a self booking.
-
-Blueprint:
-  Version: 1.0
-  Inherits: nlweb.dom/HOST/BOOKING:1.0
+Inherits: nlweb.dom/HOST/BOOKING:1.0
 ```
