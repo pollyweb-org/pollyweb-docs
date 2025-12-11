@@ -35,7 +35,7 @@
     | [🔑&nbsp;OTP](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/OTP 🔑/🔑 OTP ⌘ cmd.md>) | Asks for 6 digits
     | [1️⃣&nbsp;ONE](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/ONE 1️⃣/1️⃣ ONE ⌘ cmd.md>) | One of multiple options
     | [🔠&nbsp;MANY](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/MANY 🔠/🔠 MANY ⌘ cmd.md>) | Zero or more of multiple options
-    | [⭐&nbsp;RATE](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/RATE ⭐/⭐ RATE ⌘ cmd.md>) | 1 to 5 stars
+    | [⭐&nbsp;STARS](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/STARS ⭐/⭐ STARS ⌘ cmd.md>) | 1 to 5 stars
     | [🕓&nbsp;TIME](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TIME 🕓/🕓 TIME ⌘ cmd.md>) | Asks for time of day
     | [📆&nbsp;DATE](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DATE 📆/📆 DATE ⌘ cmd.md>) | Asks for a date
     | [🛒&nbsp;EAN](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/EAN 🛒/🛒 EAN ⌘ cmd.md>) | Scans for ENA-13 and EAN-8 barcodes

@@ -1,20 +1,20 @@
-# ⭐ RATE prompt
+# ⭐ STARS prompt
 
 > Part of [blocking input prompts 🤔](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>)
 
 
 ## FAQ
 
-1. **What's a RATE prompt?**
+1. **What's a STARS prompt?**
 
-    A `RATE`
+    A `STARS`
     * is a [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) 
     * that allows ratings of 1 to 5 stars.
   
     ---
     <br/>
 
-1. **What are use cases for RATE?**
+1. **What are use cases for STARS?**
 
     | Scenario | Details
     |-|-
@@ -23,7 +23,7 @@
     ---
     <br/>
 
-1. **What features does RATE implement?**
+1. **What features does STARS implement?**
 
     | Feature | Details
     |-|-
@@ -39,7 +39,7 @@
 
     ```yaml
     # Simplest.
-    RATE|<text> >> $holder
+    STARS|<text> >> $holder
     ```
 
     | Input| Purpose 
@@ -50,7 +50,7 @@
 
     ```yaml
     # Comprehensive.
-    RATE >> $holder:
+    STARS >> $holder:
         Text: <text>
 
         # Generic optional properties
@@ -85,7 +85,7 @@
     Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
     
     ```yaml
-    - RATE|What's the rate? >> $code
+    - STARS|What's the rate? >> $code
     ```
 
 
@@ -94,7 +94,7 @@
     Here's the [`Prompted@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>).
 
     ```yaml
-    Format: RATE
+    Format: STARS
     Emoji: 😃 
     Text: What's the rate?
     ```
