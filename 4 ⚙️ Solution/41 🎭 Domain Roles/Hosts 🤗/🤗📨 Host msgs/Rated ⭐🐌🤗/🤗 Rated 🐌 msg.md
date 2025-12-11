@@ -1,16 +1,28 @@
-<!-- #TODO 2 -->
+# ⭐🐌🤗 Rated@Host
 
+> About
+* Part of [Host 🤗 domain](<../../🤗 Host role/🤗🎭 Host role.md>)
 
+<br/>
 
-## Properties
+## Asynchronous Message ⭐🐌
 
-| Property | Notes
-|-|-
-| ServiceID | Maps to a service in the Host's Manifest. Used by Reviewers to anonymize user feedback while being able to inform Hosts about which service is the feedback about.
-| InteractionID | Host's internal ID to trace back user ratings when allowed by users.
-||
+```yaml
+Header:
+    From: any-reviewer.dom
+    To: any-host.dom
+    Subject: Rated@Host
 
+Body:
+    Rate: <rate-uuid>   # for replying
+    Form: AnyForm       # last Inform@Broker, if any
+    Stars: 4            # from 1 to 5
+    Feedback: Could be faster and cheaper.
+```
 
-|Property|Type|Description
-|-|-|-
-
+|Object|Property|Type|Description | Origin
+|-|-|-|-|-
+| Header    |`From`|text| {{Reviewer}} name
+| |`To`|text| {{Host}} name | 
+| | `Subject`     | string    | `Rated@Host`
+| Body      | `Rate`    | uuid      | Reply to {{}}
