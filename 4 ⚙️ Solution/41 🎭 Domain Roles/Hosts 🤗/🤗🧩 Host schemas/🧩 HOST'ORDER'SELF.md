@@ -13,23 +13,19 @@
 
 ```yaml
 Path: /HOST/ORDER/SELF
+Version: 1.0
+Inherits: nlweb.dom/TOKEN:1.0
+
 Title: Order
 Description: Token for a self order
 
 Translations:
-  - Language: pt-br
-    Title: Encomenda
+    pt-br:
+        Title: Encomenda
 
-Blueprint:  
-  Version: 1.0
-  Inherits: nlweb.dom/TOKEN:1.0
-  
-  Properties: 
-    - Summary
+Fields: 
+    Summary:
 
-  Format:
-    type: object
-    properties:
-      Summary:
-        type: string   
+Asserts:
+    Texts: Summary
 ```        

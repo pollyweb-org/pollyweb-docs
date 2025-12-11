@@ -11,15 +11,14 @@
 
 ```yaml
 Path: /HOST/BOOKING
+Version: 1.0
+Inherits: .TOKEN
+
 Title: Booking 
 Description: Token for a booking
 
 Translations:
-  - Language: pt-br
-    Title: Agendamento
-
-Version: 1.0
-Inherits: nlweb.dom/TOKEN:1.0
+    pt-br: Agendamento
 
 Fields: 
     For: What is booked
