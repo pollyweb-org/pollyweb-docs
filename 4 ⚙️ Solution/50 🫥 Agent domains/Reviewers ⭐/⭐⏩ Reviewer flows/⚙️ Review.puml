@@ -1,24 +1,24 @@
 @startuml Goodbye
 ' ------------------
 
-actor "User" as user
-participant "Broker 🤵\nhost" as broker
-participant "Review ⭐\nagent" as reviewer
-participant "Host 🤗\ndomain" as host
-participant "Graph 🕸\ndomain" as graph
-participant "Finder 🔎\nsubscribers" as finder
+participant "Wallet 🧑" as user
+participant "Broker 🤵" as broker
+participant "Review ⭐" as reviewer
+participant "Host 🤗" as host
+participant "Graph 🕸" as graph
+participant "Finder 🔎" as finder
 
 
 host --> graph: {manifest}
 
 activate broker
-    broker --> reviewer: 1) Rate 🐌
+    broker --> reviewer: 1) Help@Helper 🐌
 deactivate broker
 
 group Ask user feedback
 
     activate reviewer
-        reviewer -> graph: 2) service@ 
+        reviewer -> graph: 2) Service@Graph 🚀
         reviewer --> user: 3) ⏪ Prompt 🤔
     deactivate reviewer
 
@@ -39,7 +39,7 @@ end group
 
 group Delayed fan out of anonymous feedback 
 
-        reviewer --> host: 4) rated@
+        reviewer --> host: 4) Rated@Host 🐌
 
         reviewer --> finder: 5) ⏩ ingest {rated}
 
