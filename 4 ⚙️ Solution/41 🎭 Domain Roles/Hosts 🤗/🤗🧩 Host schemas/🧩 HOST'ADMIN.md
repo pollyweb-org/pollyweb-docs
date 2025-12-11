@@ -12,11 +12,8 @@ Path: /HOST/ADMIN
 Title: Domain admin
 
 Translations:
-  - Language: pt-br
-    Title: Admin de domínio
+    pt-br: Admin de domínio
 
-
-Blueprint:  
-  Version: 1.0
-  Inherits: nlweb.dom/TOKEN:1.0  
+Version: 1.0
+Inherits: nlweb.dom/TOKEN:1.0  
 ```    

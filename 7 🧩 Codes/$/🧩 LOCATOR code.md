@@ -1,10 +1,8 @@
 
 # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>): Locator
 
-* Inherited by:
-  * [`.TOKEN` 🧩](<../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
-  * [`.HOST` 🧩](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>)
-  * [`.ALIAS` 🧩](<../../4 ⚙️ Solution/45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
+> About
+* Inherited by: [`.TOKEN`](<../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>) [`.HOST`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>) [`.ALIAS`](<../../4 ⚙️ Solution/45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)
 
 <br/>
 
@@ -14,30 +12,19 @@
 
 ```yaml
 Path: /LOCATOR
-
-Blueprint:
-  Version: 1.0
+Version: 1.0
   
-  Properties:
-    - Code      # e.g., airlines.any-igo.dom/SSR/WCHR/CRED:1.0
-    - Domain    # ex. health.any-nation.dom
-    - Resource  # ex. ANY-RESOURCE-KEY
-    - '*'
+Example:
+    Schema: airlines.any-igo.dom/SSR/WCHR/CRED:1.0
+    Domain: health.any-nation.dom
+    Resource: ANY-RESOURCE-KEY
 
-  Format:
-    type: object
-    properties:
+Fields:
+    Schema: A Schema Code.
+    Domain: Domain that holds the resource.
+    Resource: Unique index of a resource in the context of the domain.
 
-      Code:
-        type: string
-        title: A Schema Code.
-
-      Domain:
-        type: string
-        title: Domain that holds the resource.
-
-      Resource:
-        type: string
-        title: Unique index of a resource in the context of the domain.
-
+Asserts:
+    AllOf: Schema, Domain, Resource
+    Texts: Schema, Domain, Resource
 ```
