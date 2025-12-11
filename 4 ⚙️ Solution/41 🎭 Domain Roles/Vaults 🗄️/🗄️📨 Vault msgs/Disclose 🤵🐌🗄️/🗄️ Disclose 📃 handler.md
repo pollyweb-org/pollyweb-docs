@@ -18,14 +18,14 @@
 📃 Disclose@Vault:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Bind, Chat, Query, Language, Consumer
     UUIDs: Bind, Chat, Query
     Consumer.IsDomain:
     Language.IsLanguage:
 
 # Verify the signature
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Check if the Broker is still trustworthy
 - TRUSTS|$.Msg.From:
@@ -40,7 +40,7 @@
         .State: BOUND
 
 # Create the collect
-- SAVE|Vault.Discloses:
+- SAVE Vault.Discloses:
     .State: ASKED
     Bind: $.Msg.Bind
     Chat: $.Msg.Chat

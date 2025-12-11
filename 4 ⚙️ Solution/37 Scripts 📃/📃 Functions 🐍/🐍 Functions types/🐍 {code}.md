@@ -42,10 +42,10 @@
     ```yaml
     # 😃 Talker configuration
     💬 Example:
-    - INFO|No numbers equals {Sum}
-    - INFO|1+2+3 equals {Sum(1,2,3)}
-    - QUANTITY|Give me a number >> $n
-    - INFO|{$n}+{$n} equals {Sum($n,$n)}
+    - INFO No numbers equals {Sum}
+    - INFO 1+2+3 equals {Sum(1,2,3)}
+    - QUANTITY Give me a number >> $n
+    - INFO {$n}+{$n} equals {Sum($n,$n)}
     ```
 
     Uses: [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/↕️ QUANTITY ⌘ cmd.md>)
@@ -117,7 +117,7 @@
     ```yaml
     # 😃 Talker configuration
     💬 Example:
-    - INFO|{MyFunction(1,2,3)}
+    - INFO {MyFunction(1,2,3)}
     ```
 
     Uses: [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)

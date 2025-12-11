@@ -9,7 +9,7 @@
 📃 Export@Alarm:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Get all the alarms
 - READ >> $alarms:
@@ -17,12 +17,12 @@
     Key: $.Msg.Domain
 
 # Format the list
-- PUT|$alarms >> $ret:
+- PUT $alarms >> $ret:
     - When
     - Hook
 
 # Return the list
-- RETURN|$ret
+- RETURN $ret
 ```
 
 Uses||

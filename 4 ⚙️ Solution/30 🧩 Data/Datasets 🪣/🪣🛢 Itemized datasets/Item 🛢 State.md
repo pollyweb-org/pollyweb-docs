@@ -102,9 +102,9 @@
     📃 OnStateTransition:
 
     # Exit with state
-    - IF|$Item.HasErrors:
-        Then: RETURN|ERROR_STATE
-        Else: RETURN|VALID_STATE
+    - IF $Item.HasErrors:
+        Then: RETURN ERROR_STATE
+        Else: RETURN VALID_STATE
     ```
 
     Uses: [`IF`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)
@@ -113,13 +113,13 @@
     📃 OnStateTransition:
 
     # Exit with errors
-    - IF|$Item.HasErrors:
-        - SAVE|Table:
+    - IF $Item.HasErrors:
+        - SAVE Table:
             .State: ERROR_STATE
         - RETURN
 
     # Exit successfully
-    - SAVE|$Item:
+    - SAVE $Item:
         .State: VALID_STATE
     ```
 

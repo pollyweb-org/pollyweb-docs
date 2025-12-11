@@ -21,7 +21,7 @@
     Where: .Key.Is($To)
     
 # Prepare the response
-- SET|$return.Domain:
+- SET $return.Domain:
     Title: $identity.Title
     Description: $identity.Title
     Translation: $translation.Default(

@@ -34,7 +34,7 @@
 
     ```yaml
     💬 /Test my echo:
-    - TEXT|Say something >> $something
+    - TEXT Say something >> $something
     - ECHO|$something
     ```
     Uses: [`TEXT`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 💭/💭 TEXT ⌘ cmd.md>)
@@ -45,7 +45,7 @@
 
     ```yaml
     📃 .ECHO:
-    - INFO|Custom echo `{$UserInput}`
+    - INFO Custom echo `{$UserInput}`
     ```
     Uses: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
@@ -69,7 +69,7 @@
 
                 # Instruct what to do next
                 return {
-                    'RUN|.ECHO': {
+                    'RUN .ECHO': {
                         'UserInput': holder
                     }
                 }

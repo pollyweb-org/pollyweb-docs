@@ -169,11 +169,11 @@
         nlweb.org/HOST:1.0,any-host.dom,ANY-RESOURCE
 
     # Assert for equivalence to .HOST
-    - ASSERT|$locator:
+    - ASSERT $locator:
         Schema: .HOST
 
     # Show success message.
-    - DONE|The schema is equivalent to ./HOST
+    - DONE The schema is equivalent to ./HOST
     ```
 
     Uses: [`PARSE`](<../PARSE 🔆/🔆 PARSE ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)

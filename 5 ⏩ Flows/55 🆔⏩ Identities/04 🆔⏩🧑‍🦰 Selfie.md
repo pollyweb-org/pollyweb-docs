@@ -24,9 +24,9 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/35 💬 Chats/Chats 
 The associated [Script 📃](<../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/Script 📃.md>) would be the following.
 
 ```yaml
-- CONFIRM|Start risky task?
+- CONFIRM Start risky task?
 - SELFIE
-- DONE|Starting task...
+- DONE Starting task...
 ```
 
 <br/>

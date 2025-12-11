@@ -19,7 +19,7 @@
 📃 OnTokenLocalized:
 
 # Assert the Token
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Issuer, Schema, Language
     Texts: Issuer, Schema, Language, Tag
 
@@ -31,7 +31,7 @@
     To: $Token.Language
         
 # Save the token
-- SAVE|$Token:
+- SAVE $Token:
     Title: Tag.Default($graph.Text)     # Use the tag if set
     IssuerTitle: $graph.Domain.Title
     SchemaTitle: $graph.Schema.Title

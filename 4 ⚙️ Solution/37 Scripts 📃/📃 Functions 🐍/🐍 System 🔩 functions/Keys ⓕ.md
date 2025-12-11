@@ -21,8 +21,8 @@
 
     Consider the following [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
     ```yaml
-    - FOR|$map.Keys|$key:
-        INFO|Iterating key {$key}
+    - FOR $map.Keys >> $key:
+        INFO Iterating key {$key}
     ```
     Uses: [`FOR`](<../../📃 Commands ⌘/⌘ for control ▶️/FOR 4️⃣/4️⃣ FOR ⌘ cmd.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 

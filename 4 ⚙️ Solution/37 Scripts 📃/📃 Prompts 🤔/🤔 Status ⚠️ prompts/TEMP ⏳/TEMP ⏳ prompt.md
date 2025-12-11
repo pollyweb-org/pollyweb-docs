@@ -54,7 +54,7 @@
 
     ```yaml
     # Inline
-    TEMP|<text> 
+    TEMP <text> 
     ```
     
     | Input| Purpose | Example
@@ -101,7 +101,7 @@
     
     ```yaml
     📃 Example:
-    - TEMP|Simple temp.
+    - TEMP Simple temp.
     ```
     
     <br/>

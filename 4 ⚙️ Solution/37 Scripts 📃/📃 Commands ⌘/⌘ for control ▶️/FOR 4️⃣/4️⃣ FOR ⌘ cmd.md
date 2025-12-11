@@ -28,10 +28,10 @@
 1. **What is the syntax of the FOR command?**
 
     ```yaml
-    FOR|$list|$item:
+    FOR $list >> $item:
         # List of commands
-        - <command-1>|$item
-        - <command-n>|$item
+        - <command-1> $item
+        - <command-n> $item
         - BREAK
     ```
 
@@ -63,8 +63,8 @@
 
     ```yaml
     📃 Example:
-    - FOR|[1,2,3]|$n:
-        - INFO|Item `{$n}` in random order
+    - FOR [1,2,3] >> $n:
+        - INFO Item `{$n}` in random order
     ```
 
     ---

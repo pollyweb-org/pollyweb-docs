@@ -18,7 +18,7 @@
 📃 OnShareAsked:
 
 # Assert the Share
-- ASSERT|$Share:
+- ASSERT $Share:
     AllOf: Bind, Bind.Schema, Consumer
     UUIDs: Bind
     Texts: Bind.Schema, Consumer
@@ -30,12 +30,12 @@
     Role: CONSUMER
 
 # Save the answer
-- IF|$trusted:
+- IF $trusted:
     Then: 
-        SAVE|$Share:
+        SAVE $Share:
             .State: TRUSTED
     Else: 
-        SAVE|$Share:
+        SAVE $Share:
             .State: UNTRUSTED
 ```
 

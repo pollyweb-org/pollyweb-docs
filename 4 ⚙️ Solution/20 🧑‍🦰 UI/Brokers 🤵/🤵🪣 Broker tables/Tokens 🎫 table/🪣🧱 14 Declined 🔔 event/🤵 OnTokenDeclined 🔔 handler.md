@@ -15,7 +15,7 @@
 📃 OnTokenDeclined:
 
 # Assert the inputs
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Token, Issuer
     UUIDs: Token
     Texts: Issuer

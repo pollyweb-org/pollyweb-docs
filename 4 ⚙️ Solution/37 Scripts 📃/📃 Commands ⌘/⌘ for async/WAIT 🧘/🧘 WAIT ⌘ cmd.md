@@ -40,7 +40,7 @@
     # Listen to only one trigger:
     #   either a timeout or a hook.
 
-    - WAIT|<something> >> $result
+    - WAIT <something> >> $result
     ```
 
     | Input| Purpose 
@@ -60,8 +60,8 @@
     ```yaml
     # 😃 Talker 
     💬 Clock:
-    - TEMP|It's {.Now}
-    - WAIT|00:00:01 
+    - TEMP It's {.Now}
+    - WAIT 00:00:01 
     - REPEAT
     ```
 
@@ -91,16 +91,16 @@
     💬 Test:
 
     # Submit an async task
-    - ASYNC|Submit >> $hook      
+    - ASYNC Submit >> $hook      
 
     # Inform the user about the submission
-    - INFO|Order submitted       
+    - INFO Order submitted       
 
     # Show the wait status
-    - RUN|WaitForReady           
+    - RUN WaitForReady           
 
     # Inform the user that it's done
-    - DONE|Order ready!       
+    - DONE Order ready!       
     ```
     Uses: [`ASYNC`](<../../⌘ for async/ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) 
   
@@ -112,12 +112,12 @@
         Hook: $hook
 
     # Check the response
-    - IF|$status.Ready:          
+    - IF $status.Ready:          
         # End if ready
         Then: RETURN             
         
         # Show status otherwise
-        Else: TEMP|$status.Message    
+        Else: TEMP $status.Message    
 
     # Repeat the script
     - REPEAT                     
@@ -145,13 +145,13 @@
     💬 Check-in:
 
     # Add the person to a waiting line
-    - ASYNC|AddToLine >> $hook
+    - ASYNC AddToLine >> $hook
 
     # Show line updates
-    - RUN|WaitInLine
+    - RUN WaitInLine
 
     # Finally, help the person
-    - TEXT|What do you need?
+    - TEXT What do you need?
     ```
     Uses: [`ASYNC`](<../../⌘ for async/ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`TEXT`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 💭/💭 TEXT ⌘ cmd.md>) 
 
@@ -164,9 +164,9 @@
         Key: MyQueue
 
     # Show the status in a human-friendly wait.
-    - CASE|$len:
-        $: TEMP|There are {$len} people ahead of you.
-        1: TEMP|You're next, get ready!
+    - CASE $len:
+        $: TEMP There are {$len} people ahead of you.
+        1: TEMP You're next, get ready!
         0: RETURN
     
     # Wait 1 minute or until signalled.
@@ -175,7 +175,7 @@
         Timeout: 00:01:00
 
     # Jump off if signalled.
-    - IF|$ready:
+    - IF $ready:
         RETURN
 
     # Check the queue length again.

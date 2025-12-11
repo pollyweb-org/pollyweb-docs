@@ -39,8 +39,8 @@
 
     ```yaml
     # 😃 Talker
-    - DIGITS|What's the code? >> $code
-    - DONE|Your code is `{$code}`
+    - DIGITS What's the code? >> $code
+    - DONE Your code is `{$code}`
     ```
     
     ---
@@ -75,11 +75,11 @@
 
     ```yaml
     # 😃 Talker
-    - DIGITS|What's the code? >> $code:
+    - DIGITS What's the code? >> $code:
         Nullable: True
-    - IF|$code:
-        Then: DONE|Your code is `{$code}`
-        Else: DONE|You didn't provide a code.
+    - IF $code:
+        Then: DONE Your code is `{$code}`
+        Else: DONE You didn't provide a code.
     ```
 
     <br/>

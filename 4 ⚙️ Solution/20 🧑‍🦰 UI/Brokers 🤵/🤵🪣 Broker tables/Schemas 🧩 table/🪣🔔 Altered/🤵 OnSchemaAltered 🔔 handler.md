@@ -23,7 +23,7 @@
 📃 OnSchemaAltered:
 
 # Assert the inputs
-- ASSERT|$Schema:
+- ASSERT $Schema:
     AllOf: Wallet
     UUIDs: Wallet
 
@@ -38,11 +38,11 @@
     Key: $wallet.ID
 
 # Prepare the response:
-- PUT|$wallet.Schemas >> $schemas:
+- PUT $wallet.Schemas >> $schemas:
     Code, Title, Description
 
 # Replace only the Frontend Tokens.
-- SAVE|$frontend:
+- SAVE $frontend:
     Schemas: $schemas
 ```
 

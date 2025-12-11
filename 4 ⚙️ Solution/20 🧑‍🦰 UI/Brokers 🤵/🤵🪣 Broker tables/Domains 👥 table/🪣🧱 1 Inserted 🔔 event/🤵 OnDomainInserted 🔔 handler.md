@@ -17,7 +17,7 @@
 📃 OnDomainInserted:
 
 # Assert the Domain
-- ASSERT|$Domain:
+- ASSERT $Domain:
     AllOf: Name, Wallet
     Texts: Name
     UUIDs: Wallet
@@ -28,7 +28,7 @@
     To: $Domain.Wallet.Language
 
 # Save the Domain info
-- SAVE|$Domain:
+- SAVE $Domain:
     Language: $Domain.Wallet.Language
     HostTitle: $domain.Title
     Description: $domain.Description

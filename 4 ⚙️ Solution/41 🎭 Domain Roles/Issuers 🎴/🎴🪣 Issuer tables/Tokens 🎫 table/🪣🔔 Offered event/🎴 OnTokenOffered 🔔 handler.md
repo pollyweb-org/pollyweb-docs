@@ -16,7 +16,7 @@
 📃 OnTokenOffered:
 
 # Assert the Token
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Token, Answer
     UUIDs: Token
     Answer.IsIn: ACCEPTED, DECLINED

@@ -39,20 +39,20 @@
         Domain: $.Chat.Inputs.Domain
 
 # If there's an origin, allow going back
-- IF|$chatter.Chat.Origin:
+- IF $chatter.Chat.Origin:
     INFO:
         Text: From another chat
         Options: 
           - /Return to original chat § .CHAT,{$chatter.Chat.Origin}
 
 # If Binds were shared, inform the user
-- IF|$chatter.Binds:
+- IF $chatter.Binds:
     INFO:
         Text: Binds shared
         Details: ´$chatter.Binds.Title´
 
 # If Tokens were shared, inform the user
-- IF|$chatter.Tokens:
+- IF $chatter.Tokens:
     INFO:
         Text: Tokens shared
         Details: ´$chatter.Tokens.Title´

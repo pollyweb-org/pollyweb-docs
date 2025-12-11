@@ -10,14 +10,14 @@
 📃 Log@Logger:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Default inputs
-- DEFAULT|$.Msg:
+- DEFAULT $.Msg:
     Level: INFO
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Thread, Text
     UUIDs: Thread
     Texts: Level, Text, Group, Blame
@@ -29,16 +29,16 @@
     Key: $.Msg.Thread
 
 # Assert the sender
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     From: $thread.Domain
 
 # Discard by group filter, if set
-- IF|$thread.Groups:
-    IF|$.Msg.Group.NotIn($thread.Groups):
+- IF $thread.Groups:
+    IF $.Msg.Group.NotIn($thread.Groups):
         RETURN
 
 # Save the log entry
-- SAVE|Logger.Entry:
+- SAVE Logger.Entry:
     Domain: $thread.Domain
     Thread: $thread.ID
     Sent: $.Msg.Header.Timestamp

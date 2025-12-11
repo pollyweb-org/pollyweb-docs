@@ -64,10 +64,10 @@ then the last 3 will never be executed because REEL will exit the script.
 
     ```yaml
     📃 Example:
-    - BIND|.BIND >> $bound
-    - IF|$bound:
-        Then: DONE|Your wallet is bound.
-        Else: FAIL|Not bounded.
+    - BIND .BIND >> $bound
+    - IF $bound:
+        Then: DONE Your wallet is bound.
+        Else: FAIL Not bounded.
     ```
 
     Uses: [`BIND`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)

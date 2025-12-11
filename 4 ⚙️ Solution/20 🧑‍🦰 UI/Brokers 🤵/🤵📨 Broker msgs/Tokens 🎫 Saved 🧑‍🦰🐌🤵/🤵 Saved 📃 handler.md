@@ -15,7 +15,7 @@
 📃 Saved@Broker:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Token, Issuer, Path
     UUIDs: Token, Issuer, From
     Texts: Issuer, Path
@@ -26,7 +26,7 @@
     Key: $.Msg.From
 
 # Verify the signature
-- VERIFY|$.Msg:
+- VERIFY $.Msg:
     Key: $wallet.PublicKey
 
 # Get the Token
@@ -39,7 +39,7 @@
         Wallet: $.Msg.From
 
 # Cancel the scheduled deletion on Issue@
-- SAVE|$token:
+- SAVE $token:
     .State: SAVED
     .Delete: 
 ```

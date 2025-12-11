@@ -50,21 +50,21 @@
     💬 Book something:
     
     # Instructions
-    - INFORM|Book                           
+    - INFORM Book                           
     
     # Editable inputs
-    - ONE|When?|Today,Tomorrow >> $date   # When?
-    - SHARE|.PERSONA/BOOKING >> $contacts # Contacts?
+    - ONE When?|Today,Tomorrow >> $date   # When?
+    - SHARE .PERSONA/BOOKING >> $contacts # Contacts?
     
     # Last chance to change the previous inputs.
-    - CONFIRM|Confirm booking?  
+    - CONFIRM Confirm booking?  
     - FREEZE >> $inputs:
         Date: {$date}
         Contacts: {$contacts}
 
     # Save the booking
-    - CALL|SaveBooking($inputs)
-    - DONE|Done.
+    - CALL SaveBooking($inputs)
+    - DONE Done.
     - GOODBYE
     ```
 

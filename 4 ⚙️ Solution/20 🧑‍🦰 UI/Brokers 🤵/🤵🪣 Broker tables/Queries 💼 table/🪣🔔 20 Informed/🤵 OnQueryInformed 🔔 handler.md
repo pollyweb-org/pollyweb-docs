@@ -47,7 +47,7 @@
     $queryBinds
 
 # Add the matches to the Query item
-- SAVE|$Query:
+- SAVE $Query:
     Matches: $matches
     .State: .If($matches, MATCHED, UNMATCHED)
 ```

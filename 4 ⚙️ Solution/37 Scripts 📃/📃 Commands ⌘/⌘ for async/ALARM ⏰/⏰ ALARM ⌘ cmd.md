@@ -35,7 +35,7 @@
 
     ```yaml
     # Calculate the time into a holder
-    - PUT|Now.Add(1 day) >> $time
+    - PUT Now.Add(1 day) >> $time
 
     # Pass the holder with the exact time
     - ALARM|$time:

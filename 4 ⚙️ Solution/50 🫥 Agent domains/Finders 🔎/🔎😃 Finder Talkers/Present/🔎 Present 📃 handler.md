@@ -18,14 +18,14 @@
 📃 Present@Finder: 
 
 # Assert the inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Chat, Host, Language, Reviewers
     UUIDs: Chat
     Texts: Host, Language, Reviewers
 
 # Get the details about the domain
-- PARALLEL|Identity,Translate,Reviews|$task:
-    CASE|$task:
+- PARALLEL Identity,Translate,Reviews >> $task:
+    CASE $task:
 
         Identity:
             SEND >> $identity:

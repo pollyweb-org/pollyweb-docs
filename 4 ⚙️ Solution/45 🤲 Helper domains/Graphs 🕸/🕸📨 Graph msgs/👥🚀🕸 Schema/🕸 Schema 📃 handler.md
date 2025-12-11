@@ -13,15 +13,15 @@
 📃 About@Graph:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Domain
     Texts: Domain, Language
 
 # Default the language
-- DEFAULT|$.Msg:
+- DEFAULT $.Msg:
     Language: en-us
 
 # Read the about item
@@ -30,19 +30,19 @@
     Key: $.Msg.Domain
 
 # Format the about output
-- PUT|$item >> $output:
+- PUT $item >> $output:
     SmallIcon, BigIcon,
     Title, Description
 
 # Translate if languages differ
-- IF|$item.Language.IsNot($.Msg.Language):
+- IF $item.Language.IsNot($.Msg.Language):
     
     # Try to get an existing translation
     - PUT >> $translation:
         $item.Translations.First({Language: $.Msg.Language}) 
     
     # If found...
-    - IF|$translation:
+    - IF $translation:
 
         # Use the translation
         SET|$output:
@@ -50,10 +50,10 @@
             Description: $translation.Description
     
     # If not found...
-    - IF|$translation.IsEmpty:
+    - IF $translation.IsEmpty:
 
         # Translate it on the fly
-        - SET|$output:
+        - SET $output:
             Title.Translate(Language, $.Msg.Language),
             Description.Translate(Language, $.Msg.Language)
 
@@ -62,7 +62,7 @@
             Language: $.Msg.Language
             Title: $output.Title
             Description: $output.Description
-        - SAVE|$item:
+        - SAVE $item:
             Translations.Append($translation)
 
 # Return the output

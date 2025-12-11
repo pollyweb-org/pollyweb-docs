@@ -56,14 +56,14 @@
     📃 Example:
     
     # First message.
-    - PUT|3 >> $A:
+    - PUT 3 >> $A:
 
-    - INFO|The A holder has {$A}.
+    - INFO The A holder has {$A}.
 
     # Second message.
     - PUT >> $B:
         Holder B also has {$A} 
-    - INFO|$B
+    - INFO $B
     ```
     Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
@@ -85,7 +85,7 @@
     📃 Example:
 
     # Run code to get the revenue
-    - CALL|Get-Revenue >> $revenue
+    - CALL Get-Revenue >> $revenue
 
     # Prepare the data into an object.
     - PUT >> $data:
@@ -106,7 +106,7 @@
             {$data.Address.Country}
 
     # Show the intro.
-    - INFO|$intro
+    - INFO $intro
     ```
 
     Uses: [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)

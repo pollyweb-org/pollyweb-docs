@@ -19,7 +19,7 @@
 📃 OnPromptEmojied:
 
 # Assert the prompt
-- ASSERT|$Prompt:
+- ASSERT $Prompt:
     AllOf: Hook, Chat, Wallet, Sender, Notifier
     UUIDs: Hook, Chat, Wallet
     Texts: Format, Emoji, Sender, Notifier

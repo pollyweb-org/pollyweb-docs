@@ -18,14 +18,14 @@
 📃 Hello@Host:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Check if the Broker is trustworthy
 - TRUSTS|$.Msg.From:
     Schema: .BROKER
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat
     UUIDs: Chat
 

@@ -21,7 +21,7 @@
     Where: .Key.Is($To)
     
 # Prepare the response
-- SET|$return.Domain:
+- SET $return.Domain:
     Title: $schema.Title
     Description: $schema.Title
     Translation: $translation.Default(

@@ -28,18 +28,18 @@
         Wallet: $.Chat.Wallet
 
 # Show info about the Token
-- INFO|Token: ´{$token.Title}´
+- INFO Token: ´{$token.Title}´
 
 # Add general options
-- IF|$token.State.IsIn(ACTIVE, REMOVED):
+- IF $token.State.IsIn(ACTIVE, REMOVED):
     - PUT +> $options: /Tag Token
 
 # Add options of active tokens
-- IF|$token.State.Is(ACTIVE):
+- IF $token.State.Is(ACTIVE):
     - PUT +> $options: /Remove Token
 
 # Ask for an action.
-- ONE|What do you need?:
+- ONE What do you need?:
     Options: $options
 
 # Execute the action.
@@ -48,7 +48,7 @@
     Remove: PopTokenRemove
 
 # Handle the selection
-- RUN|$handler: $token
+- RUN $handler: $token
 ```
 
 Uses ||

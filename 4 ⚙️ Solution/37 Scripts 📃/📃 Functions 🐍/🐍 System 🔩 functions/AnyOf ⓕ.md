@@ -37,10 +37,10 @@
     ┌──────────────────────┬──────────────────────┐
     │ With .AnyOf          │ Same as              │ 
     ├──────────────────────┼──────────────────────┤
-    │ - IF|.AnyOf($a, $b): │ - IF|$a:             │
-    │     RUN|Something    │     RUN|Something    │
-    │                      │ - IF|$b:             │
-    │                      │     RUN|Something    │
+    │ - IF .AnyOf($a, $b): │ - IF $a:             │
+    │     RUN Something    │     RUN Something    │
+    │                      │ - IF $b:             │
+    │                      │     RUN Something    │
     └──────────────────────┴──────────────────────┘   
     ```
 

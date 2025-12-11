@@ -35,8 +35,8 @@
 1. **How to use?**
 
      ```yaml
-    - IF|.OneOf($a, $b):
-        RUN|Something  
+    - IF .OneOf($a, $b):
+        RUN Something  
     ```
 
     <br/>

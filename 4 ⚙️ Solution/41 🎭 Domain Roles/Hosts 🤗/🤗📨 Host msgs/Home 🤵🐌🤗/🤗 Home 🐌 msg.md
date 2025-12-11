@@ -29,10 +29,10 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md
 
 ```yaml
 💬 Something:
-- INFO|This is something.
+- INFO This is something.
 
 💬 Something else:
-- INFO|But this is something else!
+- INFO But this is something else!
 ```
 
 <br/>

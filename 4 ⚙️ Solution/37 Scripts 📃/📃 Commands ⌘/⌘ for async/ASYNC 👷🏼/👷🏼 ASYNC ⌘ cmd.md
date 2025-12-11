@@ -51,12 +51,12 @@
 
     ```yaml
     # Task without a inputs and outputs
-    - ASYNC|MyTask
+    - ASYNC MyTask
     ```
 
     ```yaml
     # Task with only inputs
-    - ASYNC|MyTask:
+    - ASYNC MyTask:
         A: 1
         B: 2
     ```
@@ -82,11 +82,11 @@
     📃 Example: 
     
     # Task with an output
-    - ASYNC|MyTask >> $hook:
+    - ASYNC MyTask >> $hook:
         A: 1
 
     # Wait for the output
-    - WAIT|$hook >> $output
+    - WAIT $hook >> $output
     ```
     Uses: [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 
@@ -104,10 +104,10 @@
     📃 Example: 
 
     # Generate a common hook
-    - PUT|.UUID >> $hook
+    - PUT .UUID >> $hook
 
     # Imprint holders before ASYNC
-    - IMPRINT|$hook
+    - IMPRINT $hook
 
     # Call ASYNC
     - ASYNC:
@@ -133,10 +133,10 @@
     📃 Example: 
 
     # Generate a common hook
-    - PUT|.UUID >> $hook
+    - PUT .UUID >> $hook
 
     # Imprint holders before ASYNC
-    - IMPRINT|$hook
+    - IMPRINT $hook
 
     # Call ASYNC
     - ASYNC:
@@ -146,10 +146,10 @@
             A: 1
 
     # Wait for the output
-    - WAIT|$hook >> $output
+    - WAIT $hook >> $output
 
     # Recall holders after ASYNC
-    - RECALL|$hook
+    - RECALL $hook
     ```
     Uses: [`IMPRINT`](<../IMPRINT 🦶/🦶 IMPRINT ⌘ cmd.md>) [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>) [`RECALL`](<../RECALL 🪶/🪶 RECALL ⌘ cmd.md>)
     

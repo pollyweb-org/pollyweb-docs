@@ -15,10 +15,10 @@
 📃 Prompt@Broker:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat, Format, Hook
     UUIDs: Chat, Hook
     Texts: Emoji, Format
@@ -32,11 +32,11 @@
         Domain: $.Msg.From
 
 # Assert the Chat is active
-- ASSERT|$chatter.Chat:
+- ASSERT $chatter.Chat:
     .State: ACTIVE
 
 # Save the Prompt
-- SAVE|Broker.Prompts:
+- SAVE Broker.Prompts:
     Chat: $.Msg.Chat
     Hook: $.Msg.Hook
     Role: $chatter.Role

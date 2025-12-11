@@ -20,7 +20,7 @@
 📃 OnTokenOffered:
 
 # Assert the Token
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Issuer, Schema, Language
     Texts: Issuer, Schema, Language
 
@@ -32,7 +32,7 @@
     To: $Token.Language
         
 # Save the token
-- SAVE|$Token:
+- SAVE $Token:
     .State: DETAILED
     Title: $graph.Text
     IssuerTitle: $graph.Domain.Title

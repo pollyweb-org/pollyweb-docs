@@ -20,15 +20,15 @@
 📃 OnQueryTrusted:
 
 # See if there is only one trust
-- IF|$Query.Trusted.IsOne:
+- IF $Query.Trusted.IsOne:
     PUT >> $selected:
         $Query.Trusted.First
 
 # Ask to select if there are many trusts
-- IF|$Query.Trusted.AreMany:
+- IF $Query.Trusted.AreMany:
 
     # Load the Chat
-    - CHAT|$Query.Chat
+    - CHAT $Query.Chat
 
     # Ask to select one of the trusts
     - ONE >> $selected:
@@ -39,11 +39,11 @@
             Translate: No
 
 # Exit if no trust was selected
-- IFNOT|$selected:
-    RETURN|UNSELECTED
+- IFNOT $selected:
+    RETURN UNSELECTED
 
 # Save the selected trust and mark as SELECTED
-- SAVE|$Query:
+- SAVE $Query:
     .State: SELECTED
     Selected: $selected
 ```

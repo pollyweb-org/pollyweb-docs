@@ -31,18 +31,18 @@
         Wallet: $.Chat.Wallet
 
 # Show info about the bind
-- INFO|Bind: ´{$bind.Title}´
+- INFO Bind: ´{$bind.Title}´
 
 # Add general options
-- IF|$bind.State.IsIn(ACTIVE, REMOVED):
+- IF $bind.State.IsIn(ACTIVE, REMOVED):
     - PUT +> $options: /Tag Bind
 
 # Add options of active binds
-- IF|$bind.State.Is(ACTIVE):
+- IF $bind.State.Is(ACTIVE):
     - PUT +> $options: /Remove Bind
 
 # Exit if there are no options available
-- IFNOT|$options:
+- IFNOT $options:
     - RETURN
 
 # Show the options
@@ -56,7 +56,7 @@
     Remove: PopBindRemove
 
 # Handle the selection
-- RUN|$handler: $bind
+- RUN $handler: $bind
 ```
 
 Uses||

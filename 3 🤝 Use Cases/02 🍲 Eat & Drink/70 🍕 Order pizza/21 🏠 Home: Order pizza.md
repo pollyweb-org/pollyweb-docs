@@ -49,35 +49,35 @@ Order a pizza for home delivery
 
     ```yaml
     💬 Order:
-    - INFO|Pizza request received.
-    - INFORM|order
+    - INFO Pizza request received.
+    - INFORM order
 
     # Collect order details.
-    - SHARE|.NAVIGATOR/DESTINATION >> $destination # 🧭 
-    - SHARE|.CONCIERGE/COURIER >> $courier: # 🛎️ 
+    - SHARE .NAVIGATOR/DESTINATION >> $destination # 🧭 
+    - SHARE .CONCIERGE/COURIER >> $courier: # 🛎️ 
         Destination: $destination
-    - READ|menus|pizzas.yaml >> $menu
-    - SHARE|.CURATOR/ORDER >> $choice:  # 🧚 
+    - READ menus|pizzas.yaml >> $menu
+    - SHARE .CURATOR/ORDER >> $choice:  # 🧚 
         Menu: $menu
-    - CALL|Order >> $order:
+    - CALL Order >> $order:
         Destination: $destination
         Courier: $courier
         Choice: $choice
     
     # Confirm order details and create a Biller 🤝 ID.
-    - INFO|$order.summary|Change
-    - SHARE|.VITALOGIST/REVIEW|$order.details # 💖
-    - SHARE|.CONCIERGE/REVIEW|$order.details # 🛎️
-    - SHARE|.SCHEDULER/REVIEW|$order.details # 🗓️
+    - INFO $order.summary|Change
+    - SHARE .VITALOGIST/REVIEW|$order.details # 💖
+    - SHARE .CONCIERGE/REVIEW|$order.details # 🛎️
+    - SHARE .SCHEDULER/REVIEW|$order.details # 🗓️
 
     # Request aggregated payment.
-    - CHARGE|{amount}|{biller-id} # 💳
+    - CHARGE {amount}|{biller-id} # 💳
     
     # Successful order.
-    - DONE|Order confirmed:
+    - DONE Order confirmed:
         Details: $order.summary
-    - SHARE|.CONCIERGE/CONFIRM # 🛎️
-    - TEMP|Preparing your order...:
+    - SHARE .CONCIERGE/CONFIRM # 🛎️
+    - TEMP Preparing your order...:
         Details: $order.summary
     ```
 
@@ -99,17 +99,17 @@ Order a pizza for home delivery
         order: 
             Title: Order
             Steps:
-            - Input: SHARE|.NAVIGATOR/DESTINATION
+            - Input: SHARE .NAVIGATOR/DESTINATION
               Purpose: your navigator sets where 🧭
-            - Input: SHARE|.CONCIERGE/COURIER
+            - Input: SHARE .CONCIERGE/COURIER
               Purpose: your concierge sets how 🛎️  
-            - Input: SHARE|.CURATOR/CURATE
+            - Input: SHARE .CURATOR/CURATE
               Purpose: your curator orders 🧚
-            - Input: SHARE|.VITALOGIST/REVIEW
+            - Input: SHARE .VITALOGIST/REVIEW
               Purpose: your vitalogist reviews 💖 
-            - Input: SHARE|.CONCIERGE/REVIEW
+            - Input: SHARE .CONCIERGE/REVIEW
               Purpose: your concierge reviews 🛎️  
-            - Input: SHARE|.SCHEDULER/REVIEW
+            - Input: SHARE .SCHEDULER/REVIEW
               Purpose: your scheduler reviews 🗓️ 
             - Input: CHARGE
               Purpose: your payer pays the bill 💳              

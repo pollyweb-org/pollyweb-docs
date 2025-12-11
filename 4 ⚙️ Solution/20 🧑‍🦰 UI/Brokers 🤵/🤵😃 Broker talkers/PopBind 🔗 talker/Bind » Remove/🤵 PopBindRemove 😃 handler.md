@@ -14,17 +14,17 @@
 📃 PopBindRemove:
 
 # Verify the inputs
-- ASSERT|$bind
+- ASSERT $bind
 
 # Ask for confirmation 🤔
 - CONFIRM: Unbind ´{$bind.Title}´? This action cannot be undone.
 
 # Remove the bind
-- SAVE|$bind:
+- SAVE $bind:
     .State: REMOVED
 
 # Inform the user 🤔
-- DONE|Done.
+- DONE Done.
 - GOODBYE
 ```
 

@@ -43,23 +43,23 @@
     
     ```yaml
     # Inline then 
-    - IF|<assertion>|<then-script>
+    - IF <assertion>|<then-script>
     ```
 
     ```yaml
     # Inline then else
-    - IF|<assertion>|<then-script>|<else-script>
+    - IF <assertion>|<then-script>|<else-script>
     ```
 
     ```yaml
     # Broken-line single then (a text)
-    - IF|<assertion>:
+    - IF <assertion>:
         <then>
     ```
 
     ```yaml
     # Multiple then-actions (a list)
-    - IF|<assertion>:
+    - IF <assertion>:
         - <then-1>
         - <then-n>
     ```
@@ -83,27 +83,27 @@
     # 😃 Talker with inline IF-THEN (no ELSE).
 
     💬 If-then example:
-    - INFO|Test started
-    - IF|{code-is-correct}|CorrectCode
-    - INFO|Test finished
+    - INFO Test started
+    - IF {code-is-correct}|CorrectCode
+    - INFO Test finished
 
     CorrectCode:
-    - DONE|Code is correct!
+    - DONE Code is correct!
     ```
 
     ```yaml
     # 😃 Talker with inline IF-THEN-ELSE.
 
     💬 If-then-else example:
-    - INFO|Test started
-    - IF|{code-is-correct}|CorrectCode|WrongCode
-    - INFO|Test finished
+    - INFO Test started
+    - IF {code-is-correct}|CorrectCode|WrongCode
+    - INFO Test finished
 
     CorrectCode:
-    - DONE|Code is correct!
+    - DONE Code is correct!
 
     WrongCode:
-    - FAIL|Code is wrong!
+    - FAIL Code is wrong!
     ```
 
 
@@ -133,25 +133,25 @@
     # 😃 Talker with multi-line IF-THEN (no ELSE).
     
     💬 If-them example:
-    - INFO|Test started
-    - IF|{code-is-correct}:
+    - INFO Test started
+    - IF {code-is-correct}:
         Then: 
-          - DONE|Code is correct!
-          - INFO|Test finished
+          - DONE Code is correct!
+          - INFO Test finished
     ```
 
     ```yaml
     # 😃 Talker with multi-line IF-THEN-ELSE.
 
     💬 If-then-else example:
-    - INFO|Test started
-    - IF|{code-is-correct}:
-        Then: DONE|Code is correct!
+    - INFO Test started
+    - IF {code-is-correct}:
+        Then: DONE Code is correct!
         Else: ErrorHandlingProcedure
-    - INFO|Test finished
+    - INFO Test finished
         
     ErrorHandlingProcedure:
-    - FAIL|Code is wrong!
+    - FAIL Code is wrong!
     ```
 
 

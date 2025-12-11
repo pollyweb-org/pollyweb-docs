@@ -14,7 +14,7 @@
 📃 OnChatResolved:
 
 # Assert the Chat
-- ASSERT|$Chat:
+- ASSERT $Chat:
     AllOf: Host
 
 # Get the Host details from the Graph
@@ -27,7 +27,7 @@
         Language: $Chat.Wallet.Language.Require
 
 # Save the Host info
-- SAVE|$Chat:
+- SAVE $Chat:
     .State: DETAILED
     Language: $Chat.Wallet.Language.Require
     HostTitle: $domain.Title

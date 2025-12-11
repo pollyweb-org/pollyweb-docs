@@ -14,11 +14,11 @@
     Lists: $lists
 
 # Filter the list
-- CALL|.Distinct >> $output:
+- CALL .Distinct >> $output:
     - $lists
 
 # Return the output
-- RETURN|$output
+- RETURN $output
 ```
 
 Uses||

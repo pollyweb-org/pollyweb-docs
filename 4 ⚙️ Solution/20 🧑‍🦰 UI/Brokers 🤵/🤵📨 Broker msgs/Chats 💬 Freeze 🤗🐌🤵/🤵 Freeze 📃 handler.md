@@ -15,12 +15,12 @@
 📃 Freeze@Broker:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat
     UUIDs: Chat
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Get the chatter item
 - READ >> $chatter:

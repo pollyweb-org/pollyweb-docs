@@ -14,12 +14,12 @@
 📃 .REGISTER:
 
 # Assert the inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Script
     Texts: Script
 
 # Save the temporary talker
-- SAVE|Host.Talkers >> $talker:
+- SAVE Host.Talkers >> $talker:
     Domain: $.Hosted.Domain
     Key: .UUID
     Script: $Script

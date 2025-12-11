@@ -12,10 +12,10 @@
 
 ```yaml
 # Verify the signature
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Alias, Locator
     Texts: Alias, Locator
 
@@ -24,18 +24,18 @@
     Locator: $.Msg.Locator
 
 # Only create Alias for Hosts
-- IFNOT|$locator.Schema.Is(.HOST):
+- IFNOT $locator.Schema.Is(.HOST):
     RETURN:
       Status: UNHOST
 
 # Save on the table
-- SAVE|Printer.Aliases >> $locator:
+- SAVE Printer.Aliases >> $locator:
     Alias: $.Msg.Alias
     Locator: $.Msg.Locator 
     .OnBlocked: $blocked
 
 # Check if blocked
-- IF|$blocked:
+- IF $blocked:
 
     # Return blocked
     Then: 

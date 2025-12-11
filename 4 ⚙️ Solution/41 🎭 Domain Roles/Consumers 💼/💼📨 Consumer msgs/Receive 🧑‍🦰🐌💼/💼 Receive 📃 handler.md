@@ -16,7 +16,7 @@
 📃 Receive@Consumer:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Query
 
 # Resolve the callback
@@ -25,7 +25,7 @@
     Key: $.Msg.Query
 
 # Save the received token
-- SAVE|$query:
+- SAVE $query:
     .State: RECEIVED
     Token: $.Msg.Shared
 ```

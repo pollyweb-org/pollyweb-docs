@@ -14,7 +14,7 @@
 ## How to run
 
 ```yaml
-RUN|.EMOJI: 
+- RUN .EMOJI: 
     Emoji: 😶
 ```
 

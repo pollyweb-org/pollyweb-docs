@@ -15,7 +15,7 @@
 ## How to call
 
 ```yaml
-- RUN|.GOODBYE
+- RUN .GOODBYE
 ```
 Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
 
@@ -27,7 +27,7 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
 📃 .GOODBYE:
 
 # Save the chat
-- SAVE|$.Chat.Item:
+- SAVE $.Chat.Item:
     .State: GOODBYE    
 ```
 

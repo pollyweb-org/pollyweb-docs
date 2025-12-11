@@ -47,7 +47,7 @@
     
     ```yaml
     📃 Verify the Message:
-    - VERIFY|$.Msg
+    - VERIFY $.Msg
     ```
 
     It calls [`PublicKey@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) with the `From` in the [Message 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
@@ -60,11 +60,11 @@
 1. **What's the syntax for messages from [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)?**
 
     ```yaml
-    - VERIFY|$.Msg:
+    - VERIFY $.Msg:
         Key: $publicKey
 
     # One-liner version
-    - VERIFY|$.Msg|$publicKey
+    - VERIFY $.Msg|$publicKey
     ```
 
     | Input| Purpose |
@@ -88,7 +88,7 @@
         Key: $.Msg.Header.From
 
     # Verify the Message.
-    - VERIFY|$.Msg:
+    - VERIFY $.Msg:
         Key: $wallet.PublicKey
     ```
     Uses: [`$.Msg`](<../../../📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<🔐 VERIFY ⌘ cmd.md>)
@@ -113,7 +113,7 @@
             Chat: $.Msg.Chat
 
     # Verify the Message.
-    - VERIFY|$.Msg:
+    - VERIFY $.Msg:
         Key: $chat.PublicKey
     ```
     Uses: [`$.Msg`](<../../../📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>) [`READ`](<../../⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) [`VERIFY`](<🔐 VERIFY ⌘ cmd.md>)
@@ -127,10 +127,10 @@
 
     ```yaml
     # Blocker version (raises error if invalid)
-    - VERIFY|$token 
+    - VERIFY $token 
     
     # Safe version (stores result in $isValid)
-    - VERIFY|$token >> $isValid
+    - VERIFY $token >> $isValid
     ```
 
     | Input| Purpose |
@@ -148,11 +148,11 @@
 
     ```yaml
     # Blocker version (raises error if invalid)
-    - VERIFY|$data:
+    - VERIFY $data:
         Schema: $schema
     
     # Safe version (stores result in $isValid)
-    - VERIFY|$data >> $isValid:
+    - VERIFY $data >> $isValid:
         Schema: <schema>
     ```
 

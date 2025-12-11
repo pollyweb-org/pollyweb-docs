@@ -19,10 +19,10 @@
 📃 Inform@Broker:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the required inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat, Hook, Form
     UUIDs: Chat, Hook
     Texts: Form
@@ -37,7 +37,7 @@
         Chat.State: ACTIVE
 
 # Save the request
-- SAVE|Broker.Forms:
+- SAVE Broker.Forms:
     $.Msg.Chat:
     $.Msg.Hook:
     $.Msg.Form:

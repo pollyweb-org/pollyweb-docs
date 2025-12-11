@@ -49,7 +49,7 @@
 1. **What is the syntax of the PARALLEL for blocks?**
 
     ```yaml
-    PARALLEL|$list|$item:
+    PARALLEL $list >> $item:
         # List of commands
         - <command-1>|$item
         - <command-n>|$item
@@ -81,8 +81,8 @@
     Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
     ```yaml
-    - PARALLEL|[1,2,3]|$n:
-        - INFO|Item `{$n}` in random order
+    - PARALLEL [1,2,3] >> $n:
+        - INFO Item `{$n}` in random order
     ```
 
     ---

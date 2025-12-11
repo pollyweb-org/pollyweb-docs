@@ -13,7 +13,7 @@
 📃 Opened@Broker:
 
 # Verify the required inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat, PublicKey
     UUIDs: Chat, From
     Texts: PublicKey
@@ -24,7 +24,7 @@
     Key: $.Msg.From
 
 # Verify the message with the Wallet's PublicKey
-- VERIFY|$.Msg:
+- VERIFY $.Msg:
     PublicKey: $wallet.PublicKey
 
 # Read the chat
@@ -35,7 +35,7 @@
         Wallet: $wallet.ID
 
 # Process the Chat state
-- SAVE|$chat:
+- SAVE $chat:
     .State: OPENED
     PublicKey: $.Msg.PublicKey
 ```

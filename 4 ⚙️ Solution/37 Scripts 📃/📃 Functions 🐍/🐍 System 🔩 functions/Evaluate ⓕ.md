@@ -58,8 +58,8 @@
     Values inside `{}` are evaluated first, as in the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT|1 >> $a
-    PUT|a >> $b
+    PUT 1 >> $a
+    PUT a >> $b
     ```
     
     |Input |Output| Same as | Same as | 
@@ -78,8 +78,8 @@
     Single-line comma-separated values (CSV) are converted to YAML [arrays](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>), as in the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT| A,B,C  >> $l1
-    PUT|[A,B,C] >> $l2
+    PUT  A,B,C  >> $l1
+    PUT [A,B,C] >> $l2
     ```
     
     |Input |Output| 
@@ -97,8 +97,8 @@
     Arrays are merged with the [`.Append`](<Append ⓕ.md>) function, as in the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT|[1,2] >> $l1
-    PUT|[3,4] >> $l2
+    PUT [1,2] >> $l1
+    PUT [3,4] >> $l2
     ```
 
     |Input<br/>lines |Function<br/>output| Same with <br>CSV input | Same with <br> Array input | Same with <br>Object input
@@ -114,7 +114,7 @@
     Properties are named if more than one, as in the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT|{A:1,B:2:C:3} >> $x
+    PUT {A:1,B:2:C:3} >> $x
     ```
     
     |Input<br/>lines |Function<br/>output| Same with <br> Array input | Same with <br>Object input 
@@ -135,7 +135,7 @@
     See the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT|{D:4, E:5} >> $y
+    PUT {D:4, E:5} >> $y
     ```
     
     |Input<br/>lines |Function<br/>output| Same with <br>CSV input | Same with <br> Array input | Same with <br>Object input
@@ -151,7 +151,7 @@
     See the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT|{F:{G:6}} >> $z
+    PUT {F:{G:6}} >> $z
     ```
 
     |Input<br/>lines |Function<br/>output| Same with <br>CSV input | Same with <br> Array input | Same with <br>Object input

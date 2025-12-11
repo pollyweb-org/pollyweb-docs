@@ -25,17 +25,17 @@
         Collect: $Query.Collect.Require
 
 # Verify the schema
-- VERIFY|$data.valid >> $valid:
+- VERIFY $data.valid >> $valid:
     Schema: $Query.Schema
 
 # Progress the state
-- IF|$valid:
+- IF $valid:
     Then:
-        - SAVE|$Query:
+        - SAVE $Query:
             .State: COLLECTED
             Data: $data
     Else:
-        - SAVE|$Query:
+        - SAVE $Query:
             .State: BROKEN
             Data: $data
 ```

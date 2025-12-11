@@ -68,16 +68,16 @@
    # 😃 Talker 
    💬 Offer:
 
-   - INFO|Issuing your token...
+   - INFO Issuing your token...
 
    - ISSUE >> $token:
         Schema: any-authority.dom/ANY-SCHEMA:1.0
         Properties: 
             Number: 123456789
 
-   - IF|$token:
-        Then: DONE|Saved to your wallet.
-        Else: FAIL|You declined the token.
+   - IF $token:
+        Then: DONE Saved to your wallet.
+        Else: FAIL You declined the token.
    ```
    Uses: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)  
    

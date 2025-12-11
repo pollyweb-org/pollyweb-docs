@@ -9,7 +9,7 @@
 ## How to call
 
 ```yaml
-- RUN|.TRUSTS:
+- RUN .TRUSTS:
     Schema: my-schema
     Trusted: trusted-entity.dom
     Truster: optional-truster.dom   # Optional
@@ -22,12 +22,12 @@
 📃 .TRUSTS:
 
 # Default inputs
-- DEFAULT|$.Inputs:
+- DEFAULT $.Inputs:
     Truster: $.Msg.To 
     Role: ANY
 
 # Assert inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Schema, Trusted
     Texts: Schema, Trusted, Truster
     Role.IsIn: VAULT, CONSUMER, ANY
@@ -44,7 +44,7 @@
         Schema: $Schema
 
 # Assert if it's trusted
-- ASSERT|$answer:
+- ASSERT $answer:
     Trusted: True
 ```
 

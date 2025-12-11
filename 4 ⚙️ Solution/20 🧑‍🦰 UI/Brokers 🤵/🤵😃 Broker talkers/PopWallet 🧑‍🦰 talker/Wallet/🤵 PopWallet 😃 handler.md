@@ -36,7 +36,7 @@
     Localize: PopWalletLocalize
 
 # Handle the selection
-- RUN|$handler: $wallet
+- RUN $handler: $wallet
 ```
 
 Uses||

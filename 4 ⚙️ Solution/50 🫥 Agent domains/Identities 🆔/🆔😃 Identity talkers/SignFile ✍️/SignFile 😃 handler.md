@@ -14,40 +14,40 @@
 
 ```yaml
 # Assert the inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Context, Bind
 
 # Assert the context
-- ASSERT|$Context:
+- ASSERT $Context:
     AllOf: Title, Appendix
     Texts: Title
     Appendix.IsBase64:
     Appendix.IsPDF:
 
 # Sign the file
-- CONFIRM|Sign {$Context.Title}?:
+- CONFIRM Sign {$Context.Title}?:
     Appendix: $Context.Appendix
 
 # Initiate the face recognition
-- CALL|Identify >> $selfie:
+- CALL Identify >> $selfie:
     Bind: $Bind.ID
     Reference: $Bind.Reference
 
 # Show the selfie web view
-- WEB|Let me see if it's you.:
+- WEB Let me see if it's you.:
     URL: $selfie.URL
     
 # Wait for the selfie validation
-- WAIT|$selfie.Hook
+- WAIT $selfie.Hook
 
 # Initiate the face recognition
-- CALL|SignFile >> $signed:
+- CALL SignFile >> $signed:
     Raw: $Context.Appendix
     Bind: $Bind.ID
     Reference: $Bind.Reference
 
 # Return the signed file
-- RETURN|$signed
+- RETURN $signed
 ```
 
 Uses ||

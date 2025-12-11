@@ -16,7 +16,7 @@
 📃 Locate@Broker:
 
 # Verify the required inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Locator, Hook
     Texts: Locator 
     UUIDs: Hook
@@ -27,11 +27,11 @@
     Key: $.Msg.From
 
 # Verify the signature
-- VERIFY|$.Msg:
+- VERIFY $.Msg:
     Key: $wallet.PublicKey
 
 # Create a new Chat
-- SAVE|Broker.Chats >> $chat:
+- SAVE Broker.Chats >> $chat:
     .State: ASKED
     Hook: $.Msg.Hook
     Origin: $.Msg.Origin

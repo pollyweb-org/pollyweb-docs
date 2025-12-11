@@ -21,7 +21,7 @@
     $Chat
 
 # Progress the Chat state
-- SAVE|$Chat:
+- SAVE $Chat:
     .State: ACTIVE
 
 # Return to the CHAT command

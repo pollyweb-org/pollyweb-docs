@@ -20,12 +20,12 @@
 📃 Onboard@Broker:
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: PublicKey, Language
     Texts: PublicKey, Language
 
 # Verify the Message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Verify the Notifier as a client
 - READ >> $notifier:
@@ -35,7 +35,7 @@
         .State: ACTIVE
 
 # Save the Wallet
-- SAVE|Broker.Wallets >> $wallet:
+- SAVE Broker.Wallets >> $wallet:
     Notifier: $.Msg.From
     PublicKey: $.Msg.PublicKey
     Language: $.Msg.Language

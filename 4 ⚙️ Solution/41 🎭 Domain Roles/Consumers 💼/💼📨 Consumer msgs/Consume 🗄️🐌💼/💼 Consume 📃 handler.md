@@ -16,10 +16,10 @@
 📃 Consumer@Consumer:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Query, Collect, Schema
     UUIDs: Query, Collect
     Schema.IsSchema:
@@ -35,7 +35,7 @@
         Schemas.Contains: $.Msg.Schema
 
 # Save the collect hook
-- SAVE|$query:
+- SAVE $query:
     .State: CONSUME
     Collect: $.Msg.Collect
 ```

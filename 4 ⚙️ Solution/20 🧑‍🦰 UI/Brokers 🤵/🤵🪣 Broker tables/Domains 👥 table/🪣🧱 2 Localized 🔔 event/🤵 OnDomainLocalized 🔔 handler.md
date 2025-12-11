@@ -18,7 +18,7 @@
 📃 OnDomainLocalized:
 
 # Assert the Domain
-- ASSERT|$Domain:
+- ASSERT $Domain:
     AllOf: Name, Language
     Texts: Name, Language
 
@@ -28,7 +28,7 @@
     To: $Domain.Language
     
 # Save the translation
-- SAVE|$Domain:
+- SAVE $Domain:
     Title: $graph.Domain.Title
     Description: $graph.Domain.Description
 ```

@@ -37,7 +37,7 @@
         Language: $Form.Chat.Language.Require
 
 # Set the chat language and context
-- CHAT|$Form.Chat 
+- CHAT $Form.Chat 
 
 # Ask for confirmation to proceed
 - CONFIRM: 
@@ -48,12 +48,12 @@
     Details: ´$form.Details´
 
 # Set the form on the Chat
-- SAVE|$Form.Chat:
+- SAVE $Form.Chat:
     Form: $Form.ID
     FormSchemas: $form.Steps.Schema
 
 # Progress the state
-- SAVE|$Form:
+- SAVE $Form:
     Schemas: $form.Steps.Schema
     .State: INFORMED
 ```

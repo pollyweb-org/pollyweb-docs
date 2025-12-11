@@ -21,7 +21,7 @@
     Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
     
     ```yaml
-    - INFO|This is the text
+    - INFO This is the text
     ```
 
     ---

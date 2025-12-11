@@ -12,7 +12,7 @@ Path: /CRUD/ENTITY/PROPERTY/INTERNAL
 Title: Internal list property
 
 Description: >
-  Loads ONE|MANY options from an internal entity.
+  Loads ONE MANY options from an internal entity.
   - The entity should remain unavailable until there is at least one
     item in the table of the dependent entities.
 

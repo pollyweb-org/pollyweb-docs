@@ -17,7 +17,7 @@
 Here are the outputs of the [`Parse@Hosted` 🚀 call](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 call.md>)
 
 ```yaml
-- RUN|.STARS:
+- RUN .STARS:
     {PROMPT inputs}
 ```
 
@@ -32,12 +32,12 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
 📃 .STARS:
 
 # Ask the user to answer
-- RUN|.PROMPT >> $reply:
+- RUN .PROMPT >> $reply:
     :$.Inputs:
     Format: STARS
 
 # Return the reply.
-- RETURN|$reply
+- RETURN $reply
 ```
 
 Uses||

@@ -69,9 +69,9 @@
 
     ```yaml
     # 😃 Talker
-    - CONFIRM|Confirm first?
-    - CONFIRM|Confirm second?
-    - CONFIRM|Confirm third? # Never gets here.
+    - CONFIRM Confirm first?
+    - CONFIRM Confirm second?
+    - CONFIRM Confirm third? # Never gets here.
     ```
 
     <br/>
@@ -113,10 +113,10 @@
 
     ```yaml
     # 😃 Talker
-    - CONFIRM|Approve the task?:
-        Then: INFO|You approved the task.
-        Else: INFO|You rejected the task.
-    - CONFIRM|How about the other?
+    - CONFIRM Approve the task?:
+        Then: INFO You approved the task.
+        Else: INFO You rejected the task.
+    - CONFIRM How about the other?
     ```
 
     ---

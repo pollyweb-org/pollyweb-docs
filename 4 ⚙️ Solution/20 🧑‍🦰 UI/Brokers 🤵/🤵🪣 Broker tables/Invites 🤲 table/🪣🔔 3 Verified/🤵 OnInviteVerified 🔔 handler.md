@@ -29,17 +29,17 @@
 # Confirm with the Wallet
 - CONFIRM >> $confirmed:
     Text: Allow {$translation.Domain}?
-- IFNOT|$confirmed:
-    RETURN|REJECTED
+- IFNOT $confirmed:
+    RETURN REJECTED
 
 # Add the chat participant, if not already added
-- SAVE|Broker.Chatters:
+- SAVE Broker.Chatters:
     Chat: $Invite.Chat
     Domain: $Invite.Helper
     Role: HELPER
 
 # Progress the chat
-- RETURN|ADDED
+- RETURN ADDED
 ```
 
 Uses ||

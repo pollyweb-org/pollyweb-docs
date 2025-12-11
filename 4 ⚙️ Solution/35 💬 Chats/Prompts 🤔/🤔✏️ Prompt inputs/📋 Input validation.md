@@ -32,7 +32,7 @@
     Here's a [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
-    - QUANTITY|How many players? >> $qt:
+    - QUANTITY How many players? >> $qt:
         MinValue: 2
         MaxLength: 10
     ```
@@ -65,10 +65,10 @@
 
     ```yaml
     📃 Example:
-    - DIGITS|What's the code? >> code:
+    - DIGITS What's the code? >> code:
         MinLength: 6
         MaxLength: 6
-    - DONE|Code validated!
+    - DONE Code validated!
     ```
 
     Here's the [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>).
@@ -102,17 +102,17 @@
     # Talker 😃
 
     💬 Form:
-    - RUN|get-code
-    - DONE|Code validated!
+    - RUN get-code
+    - DONE Code validated!
 
     get-code:
-    - TEXT|What's the code? >> $code:
+    - TEXT What's the code? >> $code:
         Details: This is a 6 digit number
-    - IF|{IsInvalid($code)}|failure-script
+    - IF {IsInvalid($code)}|failure-script
 
     failure-script:
-    - FAIL|Enter a 6 digit number
-    - RUN|get-code
+    - FAIL Enter a 6 digit number
+    - RUN get-code
     ```
 
     Here's the [Function 🐍 handler](<../../Scripts 📃/Function 🐍.md>).

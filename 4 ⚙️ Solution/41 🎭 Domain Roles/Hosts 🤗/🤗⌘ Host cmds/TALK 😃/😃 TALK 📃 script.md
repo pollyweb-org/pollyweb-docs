@@ -12,7 +12,7 @@
 ## How to call
 
 ```yaml
-- RUN|.TALK
+- RUN .TALK
 ```
 
 ## Script
@@ -28,7 +28,7 @@
         Key: $.Chat.Key
 
 # Run the script
-- RUN|$talker.Script:
+- RUN $talker.Script:
     $talker.Inputs:
     $.Chat.Inputs:
 ```

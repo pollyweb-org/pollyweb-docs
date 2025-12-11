@@ -45,7 +45,7 @@
 
     ```yaml
     # Inline
-    INFO|<text> 
+    INFO <text> 
     ```
 
     | Input| Purpose | Example
@@ -91,7 +91,7 @@
     
     ```yaml
     📃 Example:
-    - INFO|Simple info.
+    - INFO Simple info.
     ```
     
     <br/>

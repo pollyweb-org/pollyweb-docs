@@ -11,12 +11,12 @@
 📃 Removed@Issuer:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Token
     UUIDs: Token
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Get the Token
 - READ >> $token:
@@ -26,7 +26,7 @@
         Broker: $.Msg.From
 
 # Save the Token
-- SAVE|$token:
+- SAVE $token:
     .State: REMOVED
 ```
 

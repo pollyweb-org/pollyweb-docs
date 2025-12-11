@@ -10,15 +10,15 @@
 📃 Start@Logger:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     Texts: Delete
     Lists: Groups
 
 # Save the thread
-- SAVE|Logger.Threads >> $thread:
+- SAVE Logger.Threads >> $thread:
     ID: .UUID
     Started: $.Msg.Header.Timestamp 
     Domain: $.Msg.Header.From

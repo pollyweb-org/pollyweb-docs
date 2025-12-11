@@ -18,7 +18,7 @@
 📃 OnWalletLocalized:
 
 # Assert the Wallet
-- ASSERT|$Wallet:
+- ASSERT $Wallet:
     AllOf: Language
     Texts: Language
 
@@ -26,28 +26,28 @@
 - PARALLEL:
 
     # Update all Binds in this Wallet
-    - PARALLEL|$Wallet.Binds|$bind:
-        SAVE|$bind:
+    - PARALLEL $Wallet.Binds >> $bind:
+        SAVE $bind:
             Language: $Wallet.Language
 
     # Update all Chats in this Wallet
-    - PARALLEL|$Wallet.Chats|$chat:
-        SAVE|$chat:
+    - PARALLEL $Wallet.Chats >> $chat:
+        SAVE $chat:
             Language: $Wallet.Language
 
     # Update all Domains in this Wallet
-    - PARALLEL|$Wallet.Domains|$domain:
-        SAVE|$domain:
+    - PARALLEL $Wallet.Domains >> $domain:
+        SAVE $domain:
             Language: $Wallet.Language
 
     # Update all Schemas in this Wallet
-    - PARALLEL|$Wallet.Schemas|$schema:
-        SAVE|$schema:
+    - PARALLEL $Wallet.Schemas >> $schema:
+        SAVE $schema:
             Language: $Wallet.Language
 
     # Update all Tokens in this Wallet
-    - PARALLEL|$Wallet.Tokens|$token:
-        SAVE|$token:
+    - PARALLEL $Wallet.Tokens >> $token:
+        SAVE $token:
             Language: $Wallet.Language
 ```
 

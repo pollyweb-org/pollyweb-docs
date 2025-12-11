@@ -17,7 +17,7 @@
 ## How to call
 
 ```yaml
-- RUN|.BIND:
+- RUN .BIND:
     Schema: schema-1
     Reference: my-user
     Internals:
@@ -33,7 +33,7 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
 📃 .BIND:
 
 # Assert the inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Schema
     Texts: Schema, Reference
 
@@ -43,11 +43,11 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
         Schema: $.Inputs.Schema
 
 # Return if found
-- IF|$bind:
-    RETURN|$bind
+- IF $bind:
+    RETURN $bind
 
 # Save the bind
-- SAVE|Vault.Binds >> $bind:
+- SAVE Vault.Binds >> $bind:
     .State: OFFERED
 
     # From $.Inputs

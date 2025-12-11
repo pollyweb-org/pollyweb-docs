@@ -24,7 +24,7 @@
         Bill: $Help.Bill
 
 # Progress the state
-- RETURN|BILLED
+- RETURN BILLED
 ```
 
 Uses ||

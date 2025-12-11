@@ -19,7 +19,7 @@
 
     ```yaml
     # Simplest
-    - CASE|{function}:
+    - CASE {function}:
         <value>: <action>
     ```
 
@@ -37,7 +37,7 @@
 
     ```yaml
     # One line values
-    - CASE|{function}:
+    - CASE {function}:
         $: <action-$>
         <value-1>: <action-1>
         <value-n>: <action-n>
@@ -51,7 +51,7 @@
 
     ```yaml 
     # Multi-line values
-    - CASE|{function}:
+    - CASE {function}:
         $: 
             - <cmd-$>
         <value-1>: 
@@ -69,7 +69,7 @@
 
     ```yaml 
     # Attributions
-    - CASE|$input >> $output:
+    - CASE $input >> $output:
         <when-1>: <then-1>
         <when-n>: <then-n>
     ```
@@ -97,13 +97,13 @@
     # 😃 Talker
 
     💬 Example:
-    - CASE|{customer-type}:
+    - CASE {customer-type}:
         STANDARD: ShowStandardOptions
         ADVANCED: ShowAdvancedOptions
         PREMIUM: ShowPremiumOptions
 
     ShowPremiumOptions:
-    - INFO|Hi, premium customer!
+    - INFO Hi, premium customer!
     ```
 
 
@@ -139,11 +139,11 @@
         Options: A,B,C 
 
     - CASE: # Default to last input.
-        B: INFO|You selected option B.
+        B: INFO You selected option B.
         $: WhenUnmatched
 
     WhenUnmatched:
-    - INFO|You selected option {$x}.
+    - INFO You selected option {$x}.
     ```
     Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
@@ -167,16 +167,16 @@
     📃 Example: 
 
     # Collect a number
-    - DIGITS|Number from 1 to 3? >> $input
+    - DIGITS Number from 1 to 3? >> $input
 
     # Translate the number
-    - CASE|$input >> $output:
+    - CASE $input >> $output:
         1: one
         2: two
         3: three
 
     # Show the translation 
-    - INFO|You said `{$output}`
+    - INFO You said `{$output}`
     ```    
     Uses: [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
@@ -194,19 +194,19 @@
 
     ```yaml
     📃 Using multiple IFs:
-    - IF|$holder.Is(0):
-        PUT|ZERO >> $result
-    - IF|$holder.IsAbove(0):
-        PUT|POSITIVE >> $result
-    - IF|$holder.IsBelow(0):
-        PUT|NEGATIVE >> $result
+    - IF $holder.Is(0):
+        PUT ZERO >> $result
+    - IF $holder.IsAbove(0):
+        PUT POSITIVE >> $result
+    - IF $holder.IsBelow(0):
+        PUT NEGATIVE >> $result
     ```
 
     `CASE` makes the script more readable and easier to maintain.
 
     ```yaml
     📃 Using CASE with a common holder:
-    - CASE|$holder >> $result:
+    - CASE $holder >> $result:
         .Is(0): ZERO
         .IsAbove(0): POSITIVE
         .IsBelow(0): NEGATIVE
@@ -223,12 +223,12 @@
 
     ```yaml
     📃 Using multiple IFs:
-    - IF|$A.Is(0):
-        PUT|ZERO >> $result
-    - IF|$B.IsAbove(0):
-        PUT|POSITIVE >> $result
-    - IF|$C.IsBelow(0):
-        PUT|NEGATIVE >> $result
+    - IF $A.Is(0):
+        PUT ZERO >> $result
+    - IF $B.IsAbove(0):
+        PUT POSITIVE >> $result
+    - IF $C.IsBelow(0):
+        PUT NEGATIVE >> $result
     ```
 
     `CASE` makes the script more readable and easier to maintain.

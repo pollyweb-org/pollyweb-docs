@@ -22,9 +22,9 @@
     Role: CONSUMER
 
 # Progress the state
-- IF|$trusted:
-    Then: RETURN|TRUSTED
-    Else: RETURN|UNTRUSTED
+- IF $trusted:
+    Then: RETURN TRUSTED
+    Else: RETURN UNTRUSTED
 ```
 
 Uses ||

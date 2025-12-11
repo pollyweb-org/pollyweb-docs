@@ -19,7 +19,7 @@
 📃 OnSchemaLocalized:
 
 # Assert the Domain
-- ASSERT|$Schema:
+- ASSERT $Schema:
     AllOf: Code, Language
     Texts: Code, Language
 
@@ -29,7 +29,7 @@
     To: $Schema.Language
     
 # Save the translation
-- SAVE|$Schema:
+- SAVE $Schema:
     Title: $graph.Schema.Title
     Description: $graph.Schema.Description
 ```

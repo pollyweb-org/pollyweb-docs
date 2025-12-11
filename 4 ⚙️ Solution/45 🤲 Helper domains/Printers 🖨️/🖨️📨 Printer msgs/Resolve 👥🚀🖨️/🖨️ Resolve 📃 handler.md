@@ -14,7 +14,7 @@
 📃 Resolve@Printer:
 
 # Verify the signature
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Get the alias.
 - READ >> $alias:

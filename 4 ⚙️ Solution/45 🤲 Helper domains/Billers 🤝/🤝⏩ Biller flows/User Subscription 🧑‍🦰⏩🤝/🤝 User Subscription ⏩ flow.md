@@ -41,8 +41,8 @@ The corresponding [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script �
 
 ```yaml
 💬 Register:                # Entry menu
-- INFORM|Register           # Provide instructions
-- BIND|.VAULT               # Bind to Wallet
+- INFORM Register           # Provide instructions
+- BIND .VAULT               # Bind to Wallet
 
 - INVITE >> $billed:        
     Invitee: any-biller.dom # Invite the Biller
@@ -52,9 +52,9 @@ The corresponding [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script �
     Billed: $billed         # Add billing info
     Chat: $.Chat            # Add context
 
-- CALL|Save($inputs)        # Save the register
+- CALL Save($inputs)        # Save the register
 
-- DONE|Done!             # Inform success
+- DONE Done!             # Inform success
 - GOODBYE                   # Show advertisement
 ```
 

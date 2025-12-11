@@ -44,7 +44,7 @@
 
     ```yaml
     # Simplest.
-    DIGITS|<text> >> $holder
+    DIGITS <text> >> $holder
     ```
 
     | Input| Purpose 
@@ -98,7 +98,7 @@
     Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
     
     ```yaml
-    - DIGITS|What's the code? >> $code:
+    - DIGITS What's the code? >> $code:
         MinLength: 3 # Server-side validation
         MaxLength: 5 # Server-side validation
     ```

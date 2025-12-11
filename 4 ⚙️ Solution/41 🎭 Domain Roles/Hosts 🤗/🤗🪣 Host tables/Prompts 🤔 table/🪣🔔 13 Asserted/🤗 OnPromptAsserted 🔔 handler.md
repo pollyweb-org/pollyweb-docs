@@ -18,7 +18,7 @@
 📃 OnAsserted:
 
 # Assert readiness for Prompt@Broker
-- ASSERT|$Prompt:
+- ASSERT $Prompt:
     AllOf: ID, Chat, Format, Expires, Broker
     Texts: Emoji, Format, Broker
     Times: Expires

@@ -103,13 +103,13 @@
     📃 Examples:
 
     # With static values
-    - IF|.IsIn(1, [1,2,3]):
-        INFO|Found!    
+    - IF .IsIn(1, [1,2,3]):
+        INFO Found!    
 
     # With holders
-    - PUT|1 >> $p
-    - IF|$p.IsIn(1,2,3):
-        INFO|Found!   
+    - PUT 1 >> $p
+    - IF $p.IsIn(1,2,3):
+        INFO Found!   
         
     # With Asserts
     - ASSERT:

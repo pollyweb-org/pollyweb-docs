@@ -25,7 +25,7 @@
         Invite: $Help.Invite
 
 # Progress the state
-- RETURN|BILLABLE
+- RETURN BILLABLE
 ```
 
 Uses ||

@@ -64,21 +64,21 @@
     📃 Example:
 
     # 1st call
-    - RUN|Great:
+    - RUN Great:
         Name: Alice
         Felling: happy
 
     # 2nd call
-    - RUN|Great:
+    - RUN Great:
         Name: David
         Felling: glad
 
-    - DONE|Example finished.
+    - DONE Example finished.
     ```
 
     ```yaml
     📃 Great:
-    - INFO|Hi, {$Name}! I'm {$Feeling}.
+    - INFO Hi, {$Name}! I'm {$Feeling}.
     ```
 
     Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
@@ -104,25 +104,25 @@
     📃 Example:
     
     # Get a number
-    - QUANTITY|Give me a number. >> $n1
+    - QUANTITY Give me a number. >> $n1
 
     # Show the number
-    - RUN|ShowNumber:
+    - RUN ShowNumber:
         n: $n1
 
     # Get another number
-    - QUANTITY|Give me another. >> $n2
+    - QUANTITY Give me another. >> $n2
 
     # Show the second number
-    - RUN|ShowNumber:
+    - RUN ShowNumber:
         n: $n2
 
-    - DONE|Example finished.
+    - DONE Example finished.
     ```
 
     ```yaml
     📃 ShowNumber:
-    - INFO|You gave me number {$n}.
+    - INFO You gave me number {$n}.
     ```
 
     Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`QUANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/↕️ QUANTITY ⌘ cmd.md>) [`RUN`](<🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
@@ -149,20 +149,20 @@
     📃 Example:
 
     # Get the 1st random number
-    - RUN|ShowNumber: 
+    - RUN ShowNumber: 
         n: {get-random-number}
 
     # Get the second random number
-    - RUN|ShowNumber:
+    - RUN ShowNumber:
         n: {get-random-number}
 
     # Finish the script
-    - DONE|Example finished.
+    - DONE Example finished.
     ```
 
     ```yaml
     📃 ShowNumber:
-    - INFO|Here's number {$n}.
+    - INFO Here's number {$n}.
     ```
 
     Uses: [`ASSERT`](<../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
@@ -194,22 +194,22 @@
     📃 Example:
 
     # Calculate 
-    - RUN|Calculate >> result
+    - RUN Calculate >> result
 
     # Check the result
-    - CASE|{$result}:
-        Won: DONE|Congrats, you won!
-        Lost: FAIL|Sorry, you lost! 
+    - CASE {$result}:
+        Won: DONE Congrats, you won!
+        Lost: FAIL Sorry, you lost! 
     ```
 
     ```yaml
     📃 Calculate:
 
     # Exit with a result
-    - RETURN|Won
+    - RETURN Won
 
     # It should't get to this line
-    - FAIL|This is a bug.
+    - FAIL This is a bug.
     ```
 
     Uses: [`CASE`](<../CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`FAIL`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
@@ -238,23 +238,23 @@
     📃 Example:
 
     # First calculation
-    - RUN|AddFive(2) >> n
-    - DONE|The first result is {$n}.
+    - RUN AddFive(2) >> n
+    - DONE The first result is {$n}.
 
     # Second calculation
-    - RUN|AddFive(3) >> n
-    - DONE|The second result is {$n}.
+    - RUN AddFive(3) >> n
+    - DONE The second result is {$n}.
     ```
 
     ```yaml
     📃 AddFive:
 
     # Calculate and exit the script
-    - INFO|Adding 5 to {$1}...
-    - RETURN|.Add($1, 5)
+    - INFO Adding 5 to {$1}...
+    - RETURN .Add($1, 5)
 
     # It shouldn't get to this line
-    - FAIL|This is a bug.
+    - FAIL This is a bug.
     ```
 
     Uses: [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
@@ -274,16 +274,16 @@
     📃 Example:
     
     # Option 1, name the arguments
-    - RUN|Handler:
+    - RUN Handler:
         Name: $Name
         City: $City
 
     # Option 2, just pass the holders
-    - RUN|Handler:
+    - RUN Handler:
         $Name, $City
 
     # Option 3, pass holder properties 
-    - RUN|Handler:
+    - RUN Handler:
         $user.Name
         $user.City
     ```
@@ -306,9 +306,9 @@
 
     ```yaml
     📃 Main:
-    - PUT|1 >> $a    # set $a:1
-    - PUT|2 >> $b    # set $b:2
-    - RUN|Sub($a)     # pass only $a
+    - PUT 1 >> $a    # set $a:1
+    - PUT 2 >> $b    # set $b:2
+    - RUN Sub($a)     # pass only $a
     ```
 
     ```yaml

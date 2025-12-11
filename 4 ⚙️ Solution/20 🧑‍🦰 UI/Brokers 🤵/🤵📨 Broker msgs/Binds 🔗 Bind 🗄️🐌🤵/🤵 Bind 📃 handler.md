@@ -18,10 +18,10 @@
 📃 Bind@Broker:
 
 # Verify the signature
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat, Hook, Schemas
     UUIDs: Chat, Hook
     Texts: Schema
@@ -32,11 +32,11 @@
     Key: $.Msg.Chat
 
 # Check if it's the host
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     From: $chat.Host
 
 # Save the bind
-- SAVE|Broker.Binds:
+- SAVE Broker.Binds:
 
     # Bind lifecycle
     .State: OFFERED

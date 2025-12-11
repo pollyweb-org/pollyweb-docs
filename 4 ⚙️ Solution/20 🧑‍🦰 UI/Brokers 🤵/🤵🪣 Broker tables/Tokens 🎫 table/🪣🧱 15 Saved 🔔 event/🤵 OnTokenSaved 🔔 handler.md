@@ -20,7 +20,7 @@
 📃 OnTokenAccepted:
 
 # Assert the inputs
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Issuer, Token
     UUIDs: Token
     Texts: Issuer

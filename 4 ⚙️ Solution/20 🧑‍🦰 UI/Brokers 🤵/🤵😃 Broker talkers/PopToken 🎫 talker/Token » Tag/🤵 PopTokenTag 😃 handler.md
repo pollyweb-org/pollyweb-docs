@@ -13,21 +13,21 @@
 📃 PopTokenTag:
 
 # Verify inputs
-- ASSERT|$token
+- ASSERT $token
 
 # Ask for the tag
-- TEXT|What to tag? >> $tag:
+- TEXT What to tag? >> $tag:
     Details: Provide an alias that you recognize.
     Default: $token.Tag
     Nullable: True
 
 # Update the Token
-- SAVE|$token:
+- SAVE $token:
     Tag: $tag
     Title: $tag
 
 # Inform the user
-- DONE|Changed.
+- DONE Changed.
 - GOODBYE
 ```
 

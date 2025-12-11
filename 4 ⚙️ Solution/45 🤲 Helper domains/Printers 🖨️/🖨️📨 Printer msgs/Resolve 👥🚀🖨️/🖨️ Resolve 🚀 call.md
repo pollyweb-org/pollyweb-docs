@@ -52,7 +52,7 @@ Property|Type|Description
 
 ```yaml
 # Verify the signature.
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Get from the table.
 - READ >> $alias:

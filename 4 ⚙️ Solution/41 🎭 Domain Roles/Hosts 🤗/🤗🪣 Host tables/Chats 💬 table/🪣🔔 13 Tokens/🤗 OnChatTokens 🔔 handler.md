@@ -17,7 +17,7 @@
 📃 OnChatTokens:
 
 # Process each Token in parallel
-- PARALLEL|$Chat.Tokens|$id:
+- PARALLEL $Chat.Tokens >> $id:
 
     # Read the Token from the table
     - READ >> $token:
@@ -25,14 +25,14 @@
         Key: $id
     
     # Add the details to the chat
-    - SET|$tokens:
+    - SET $tokens:
         $token.ID:
             ID: $token.ID
             Issuer: $token.Issuer
             Schema: $token.Schema
 
 # Add the Tokens
-- SAVE|$Chat:
+- SAVE $Chat:
     Tokens: $tokens
 
 # Progress the state

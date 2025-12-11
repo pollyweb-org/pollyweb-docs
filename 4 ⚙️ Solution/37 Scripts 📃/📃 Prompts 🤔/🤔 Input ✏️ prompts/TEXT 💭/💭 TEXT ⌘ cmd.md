@@ -134,7 +134,7 @@
     
     ```yaml
     📃 Example:
-    - TEXT|How are you today? 
+    - TEXT How are you today? 
     ```
 
 
@@ -175,7 +175,7 @@
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
-    - TEXT|What's the IP address? >> $ip:
+    - TEXT What's the IP address? >> $ip:
         Output: 990.990.990.990
         Pattern: ^((25[0-5]|2[0-4][0-9]|[01]?...{4}$
         Details: "Hint: 123.123.123.123"
@@ -183,13 +183,13 @@
     
     ```yaml
     # Built-in alternative, preferred.
-    - TEXT|What's the IP address? >> $ip:
+    - TEXT What's the IP address? >> $ip:
         Pattern: IPv4
     ```
 
     ```yaml
     # Formatted output
-    - DONE|You entered `$ip`
+    - DONE You entered `$ip`
     ```
 
     <br/>
@@ -241,7 +241,7 @@
     
     ```yaml
     # Explicit, not recommended, just for the exercise.
-    - TEXT|How much? >> $money:
+    - TEXT How much? >> $money:
         Hint: $1.23
         Output: $#,##0.00
         Pattern: ^\(?\$?-?\s?...)?$
@@ -257,7 +257,7 @@
 
     ```yaml
     # Formatted output
-    - DONE|You entered `$money`
+    - DONE You entered `$money`
     ```
 
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose

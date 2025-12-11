@@ -15,10 +15,10 @@
 📃 Informed@Consumer:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the message
-- ASSERT|$.Msg.Hook
+- ASSERT $.Msg.Hook
 
 # Continue the chat
 - RACE|$.Msg.Hook

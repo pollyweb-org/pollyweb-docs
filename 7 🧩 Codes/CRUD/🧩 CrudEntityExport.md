@@ -15,7 +15,7 @@ Description: >
 
 Blueprint:
   Properties:
-    - Format  # Export only one item, or all items: ONE|MANY
+    - Format  # Export only one item, or all items: ONE MANY
     - If      # Export only if the given property is True.
     - Map     # Dictionary of properties to export in <name>:<value>.
     - Rank    # Name of rank property to sort the items.

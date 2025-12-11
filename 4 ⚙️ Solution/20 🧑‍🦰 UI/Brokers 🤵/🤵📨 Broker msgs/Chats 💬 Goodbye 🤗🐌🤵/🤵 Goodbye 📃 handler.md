@@ -13,10 +13,10 @@
 📃 Goodbye@Broker:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Verify the required inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat
     UUIDs: Chat
 
@@ -30,7 +30,7 @@
         Role: HOST
 
 # Process the Chat state
-- SAVE|$chatter.Chat:
+- SAVE $chatter.Chat:
     .State: CLOSED
 ```
 

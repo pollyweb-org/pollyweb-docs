@@ -24,12 +24,12 @@
     Role: VAULT
 
 # Progress the state
-- IF|$trusted:
+- IF $trusted:
     Then: 
-        SAVE|$Query:
+        SAVE $Query:
             .State: TRUSTED
     Else:
-        SAVE|$Query:
+        SAVE $Query:
             .State: UNTRUSTED
 ```
 

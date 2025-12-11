@@ -14,10 +14,10 @@
 📃 Queried@Consumer:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Query, Schema
     UUIDs: Query
     Texts: Schema

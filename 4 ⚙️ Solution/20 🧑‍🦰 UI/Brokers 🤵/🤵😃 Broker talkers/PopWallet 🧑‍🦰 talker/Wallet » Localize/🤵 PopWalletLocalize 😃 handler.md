@@ -17,7 +17,7 @@
 📃 PopWalletLocalize:
 
 # Assert the Wallet
-- ASSERT|$wallet:
+- ASSERT $wallet:
     AllOf: Language, Region
     Texts: Language, Region
 
@@ -27,7 +27,7 @@
     $wallet.Region
 
 # Inform current region
-- INFO|Your current region is {$old.Region}.
+- INFO Your current region is {$old.Region}.
 
 # Get the regions
 - SELECT >> $regions:
@@ -35,38 +35,38 @@
     From: .Hosted.Assets.Regions
 
 # Prompt the user for the region
-- ONE|Change to what region? >> $new:
+- ONE Change to what region? >> $new:
     Options: $regions
 
 # Ignore if already on that language
-- IF|$old.Language.Is($new.ID):
-    - DONE|Already set to {$new.Title}!
+- IF $old.Language.Is($new.ID):
+    - DONE Already set to {$new.Title}!
     - RETURN
 
 # Confirm before changing
-- CONFIRM|Set to {$new.Title}?
+- CONFIRM Set to {$new.Title}?
 
 # Process the user's option
-- SAVE|$wallet:
+- SAVE $wallet:
     Language: $new.ID
     Region: $new.Title
 
 # Inform success, but allow an undo
-- DONE|Done! >> $success:
+- DONE Done! >> $success:
     Options: 
         - ↩️ /Revert to {$old.Region}
 
 # Process undo request
-- CASE|$success:
+- CASE $success:
     Revert: 
     
         # Save back the previous language
-        - SAVE|$wallet:
+        - SAVE $wallet:
             Language: $old.Language
             Region: $old.Region
 
         # Inform success of reversal
-        - DONE|Region reverted.
+        - DONE Region reverted.
 ```
 
 Uses||

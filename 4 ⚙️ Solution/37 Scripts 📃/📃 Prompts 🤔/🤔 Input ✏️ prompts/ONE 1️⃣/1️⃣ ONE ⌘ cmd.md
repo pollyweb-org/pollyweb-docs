@@ -33,7 +33,7 @@
 
     ```yaml
     # Simplest.
-    ONE|<text>|<options> >> $holder
+    ONE <text>|<options> >> $holder
     ```
 
     | Input| Purpose | Example
@@ -82,7 +82,7 @@
     
     ```yaml
     📃 Example:
-    - ONE|Which one?:
+    - ONE Which one?:
         Options: 
           - Option /A
           - Option /B

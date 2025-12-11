@@ -45,7 +45,7 @@
 
     ```yaml
     # Simplest
-    - READ|<set>|<key> >> $item
+    - READ <set>|<key> >> $item
     ```
 
     | Input| Purpose | Example
@@ -110,8 +110,8 @@
 
     ```yaml
     📃 Script:
-    - READ|MyPool|Key2 >> $myItem
-    - INFO|{$myItem.PropA} 
+    - READ MyPool|Key2 >> $myItem
+    - INFO {$myItem.PropA} 
     ```
 
     Uses: [`READ`](<🧲 READ ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
@@ -142,7 +142,7 @@
     📃 Script:
 
     # Get the item code.
-    - DIGITS|What's the item number? >> $n
+    - DIGITS What's the item number? >> $n
 
     # Get the item.
     - READ >> $item:
@@ -150,7 +150,7 @@
         Key: $n
 
     # Confirm the item name.
-    - CONFIRM|A {$item.Name}?
+    - CONFIRM A {$item.Name}?
     ```
 
     Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>) [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS ⌘ cmd.md>) [`READ`](<🧲 READ ⌘ cmd.md>)

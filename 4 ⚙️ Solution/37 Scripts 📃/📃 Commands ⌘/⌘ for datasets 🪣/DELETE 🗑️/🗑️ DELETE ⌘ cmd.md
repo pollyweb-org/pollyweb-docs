@@ -61,7 +61,7 @@
 
     ```yaml
     # Get the item from the database.
-    - READ|myPool|myKey >> $item
+    - READ myPool|myKey >> $item
     
     # Delete the item.
     - DELETE|$item 
