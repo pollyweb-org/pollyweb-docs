@@ -4,3 +4,4 @@ __pycache__
 __dumps__
 __cache__
 .tools/profile.out
+.pytest_cache
