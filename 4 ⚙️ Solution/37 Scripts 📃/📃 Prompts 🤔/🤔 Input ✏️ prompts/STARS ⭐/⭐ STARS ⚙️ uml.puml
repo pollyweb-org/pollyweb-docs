@@ -1,8 +1,8 @@
-@startuml RATE
+@startuml STARS
  
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "RATE ⭐" as many
+    participant "STARS ⭐" as many
     participant "PROMPT ⌘" as prompt
     'participant "Host 🤗" as host
     'participant "Consumer 💼" as consumer
@@ -12,7 +12,7 @@ end box
 participant "Wallet 👱" as wallet
 
 activate script
-    script -> many: RATE ⭐ {text}
+    script -> many: STARS ⭐ {text}
 deactivate script
 
 activate many

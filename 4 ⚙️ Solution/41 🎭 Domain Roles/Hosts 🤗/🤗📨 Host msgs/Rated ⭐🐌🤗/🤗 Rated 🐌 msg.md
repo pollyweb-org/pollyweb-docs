@@ -22,7 +22,7 @@ Body:
 
 |Object|Property|Type|Description | Origin
 |-|-|-|-|-
-| Header    |`From`|text| {{Reviewer}} name
-| |`To`|text| {{Host}} name | 
+| Header    |`From`|text| [Reviewer ⭐ agent](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) name
+| |`To`|text| [Host 🤗 domain](<../../🤗 Host role/🤗🎭 Host role.md>) name | 
 | | `Subject`     | string    | `Rated@Host`
 | Body      | `Rate`    | uuid      | Reply to {{}}

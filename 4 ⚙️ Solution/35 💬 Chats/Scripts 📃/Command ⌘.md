@@ -50,7 +50,7 @@
     | ↕️ [`QUANTITY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/↕️ QUANTITY ⌘ cmd.md>) | 123| Numbers with ⬆️ ⬇️ arrows |
     | 🔢 [`DIGITS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS ⌘ cmd.md>) |0123| Numerics with 0 prefix | 
     | 💰 [`AMOUNT`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/AMOUNT 💰/💰 AMOUNT ⌘ cmd.md>) |  1.23 | Decimals and currency
-    | ⭐ [`RATE`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/RATE ⭐/⭐ RATE ⌘ cmd.md>) | 5 ⭐ | Integer from 1 to 5
+    | ⭐ [`STARS`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/STARS ⭐/⭐ STARS ⌘ cmd.md>) | 5 ⭐ | Integer from 1 to 5
     | 🔑 [`OTP`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/OTP 🔑/🔑 OTP ⌘ cmd.md>) | 0123 | SIM one time password
     | 👍 [`CONFIRM`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>) | Yes | `Yes` `No` `Cancel` answer
     | 🔠 [`MANY`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/MANY 🔠/🔠 MANY ⌘ cmd.md>) | [A,B] |
