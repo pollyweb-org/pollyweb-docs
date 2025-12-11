@@ -21,17 +21,17 @@
     Key: $Help.Schema
 
 # Run the schema script
-- RUN|$script >> $helped:
+- RUN $script >> $helped:
     Schema: $Help.Schema
     Context: $Help.Context
     Consumer: $Help.Consumer
 
 # Verify the helped data
-- VERIFY|$helped:
+- VERIFY $helped:
     Schema: $Help.Schema
 
 # Save the Help details
-- SAVE|$Help:
+- SAVE $Help:
     .State: HELPED
     Helped: $helped
 ```

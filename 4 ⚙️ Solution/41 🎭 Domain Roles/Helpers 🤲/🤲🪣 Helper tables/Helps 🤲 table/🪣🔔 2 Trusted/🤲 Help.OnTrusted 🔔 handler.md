@@ -25,11 +25,11 @@
         Schema: $Help.Schema
 
 # Block if not authorized
-- IF|$response.Result.IsNot(AUTHORIZED):
-    RETURN|BLOCKED
+- IF $response.Result.IsNot(AUTHORIZED):
+    RETURN BLOCKED
 
 # Progress the state
-- SAVE|$Help:
+- SAVE $Help:
     .State: AUTHORIZED  
     Bill: $response.Bill
 ```

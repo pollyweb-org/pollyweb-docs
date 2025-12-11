@@ -15,7 +15,7 @@
 ## How to call
 
 ```yaml
-- RUN|.CALL:
+- RUN .CALL:
     Name: <name>
     Inputs: {...}           # Optional
 ```
@@ -28,28 +28,28 @@
 📃 .CALL:
 
 # Assert the inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Name
 
 # Return immediately for internal functions
-- IF|$Name.StartsWith(.):
+- IF $Name.StartsWith(.):
     RETURN:
         .Evaluate:
             - $Name
             - $Inputs
 
 # If it got here, then it's external
-- PUT|.UUID >> $uuid:     # Generate a unique ID
-- IMPRINT|$uuid           # Save the current state
+- PUT .UUID >> $uuid:     # Generate a unique ID
+- IMPRINT $uuid           # Save the current state
 
 - ASYNC:                  # Call Handle@Hosted
     Hook: $uuid           # Placed@, Place@, Handled@ hook
     Name: $Name           # Hosted function name
     Inputs: $Inputs       # Hosted function inputs
 
-- WAIT|$uuid >> $result:  # Wait for the RACE command
-- RECALL|$uuid            # Restore the previous state
-- RETURN|$result          # Return the result of the call
+- WAIT $uuid >> $result:  # Wait for the RACE command
+- RECALL $uuid            # Restore the previous state
+- RETURN $result          # Return the result of the call
 ```
 
 |Uses||

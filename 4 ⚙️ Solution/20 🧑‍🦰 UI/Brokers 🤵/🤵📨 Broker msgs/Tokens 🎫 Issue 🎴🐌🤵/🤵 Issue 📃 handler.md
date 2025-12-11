@@ -19,10 +19,10 @@
 📃 Issue@Broker:
 
 # Verify the Issuer's message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the required inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat, Token, Schema
     UUIDs: Chat, Token
     Texts: Schema
@@ -38,11 +38,11 @@
         .State: ACTIVE
 
 # Only allow offers from the Host
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     From: $chat.Host
 
 # Save the Offer
-- SAVE|Broker.Tokens:
+- SAVE Broker.Tokens:
     .State: OFFERED
     Status: ACTIVE
     Token: $.Msg.Token

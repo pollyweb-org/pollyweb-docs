@@ -18,7 +18,7 @@
 📃 OnChatterHelper:
 
 # Assert the inputs for invites
-- ASSERT|$.Chatter:
+- ASSERT $.Chatter:
     AllOf: Schema, Invite
 
 # Invite the helper to the chat

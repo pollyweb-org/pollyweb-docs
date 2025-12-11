@@ -24,15 +24,15 @@
         Invite: $Help.Invite
 
 # Verify the schema of the context
-- VERIFY|$context >> $valid:
+- VERIFY $context >> $valid:
     Schema: "{$Help.Schema}/CONTEXT"
 
 # Fail if not valid
-- IFNOT|$valid:
-    RETURN|BROKEN
+- IFNOT $valid:
+    RETURN BROKEN
 
 # Progress if valid
-- SAVE|$Help:
+- SAVE $Help:
     .State: VALID
     Context: $context
 ```

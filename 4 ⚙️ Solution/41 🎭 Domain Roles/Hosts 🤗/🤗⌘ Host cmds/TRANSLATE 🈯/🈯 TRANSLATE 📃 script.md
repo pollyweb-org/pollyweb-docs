@@ -9,7 +9,7 @@
 ## How to call
 
 ```yaml
-- RUN|.TRANSLATE:
+- RUN .TRANSLATE:
     From: en-us
     To: pt-br
     Domain: any-domain.dom
@@ -23,29 +23,29 @@
 📃 .TRANSLATE:
 
 # Assert inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     Texts: From, To, Text
     Lists: Domains, Schemas
 
 # Default the languages
-- DEFAULT|$.Inputs:
+- DEFAULT $.Inputs:
     From: $.Script.Language
     To: $.Chat.Language, $.Msg.Language
 
 # Get the domain info
-- IF|$Domain:
-    RUN|.TRANSLATE-DOMAIN >> $domain:
+- IF $Domain:
+    RUN .TRANSLATE-DOMAIN >> $domain:
         $Domain
 
 # Get the schema info
-- IF|$Domain:
-    RUN|.TRANSLATE-SCHEMA >> $schema:
+- IF $Domain:
+    RUN .TRANSLATE-SCHEMA >> $schema:
         $Schema
 
 # Translate the text, if any
-- IF|$Text:
+- IF $Text:
     PUT >> $text:
-        $Text.Translate($From, $To)
+        $Text.Translate: $From, $To
 
 # Return the translations
 - RETURN: 

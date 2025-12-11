@@ -18,26 +18,26 @@
 📃 OnInserted:
 
 # Assert the Prompt
-- ASSERT|$Prompt:
+- ASSERT $Prompt:
     AllOf: Language, Chat, Chat.Language
     UUIDs: Chat
     Texts: Language, Chat.Language, Text, Details
     Lists: Options
 
 # Assert the options
-- ASSERT|$Prompt.Options:
+- ASSERT $Prompt.Options:
     AllOf: Title
     Texts: Title
 
 # Translate only if languages differ
-- IF|$Prompt.Language.Differs($Prompt.Chat.Language):
+- IF $Prompt.Language.Differs($Prompt.Chat.Language):
     TRANSLATE|$Prompt:
         From: Chat.Language
         To: Language
         All: Text, Details, Options.Title
 
 # Progress the state
-- SAVE|$Prompt:
+- SAVE $Prompt:
     .State: TRANSLATED
 ```
 

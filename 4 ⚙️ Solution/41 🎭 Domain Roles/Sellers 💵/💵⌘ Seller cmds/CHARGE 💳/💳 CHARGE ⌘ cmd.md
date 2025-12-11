@@ -12,7 +12,7 @@
     ```
 
     ```yaml
-    CHARGE|<amount>|<bill-id>
+    CHARGE <amount>|<bill-id>
     ```
 
    * Calls [💵🐌🤵 Charge @ Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Payments 💵 Charge 💵🐌🤵/🤵 Charge 🐌 msg.md>)

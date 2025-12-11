@@ -40,7 +40,7 @@
     Implicitly, via the [`DEFAULT`](<../../📃 Commands ⌘/⌘ for holders 🧠/DEFAULT 📭/📭 DEFAULT ⌘ cmd.md>) command.
 
     ```yaml
-    DEFAULT|$in:
+    DEFAULT $in:
         - A: 123
         - B: 456
     ```
@@ -56,7 +56,7 @@
     Using interpolation with commands like [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>).
 
     ```yaml
-    INFO|The value is {$in.A.Default(123)}
+    INFO The value is {$in.A.Default(123)}
     ```
 
     ---

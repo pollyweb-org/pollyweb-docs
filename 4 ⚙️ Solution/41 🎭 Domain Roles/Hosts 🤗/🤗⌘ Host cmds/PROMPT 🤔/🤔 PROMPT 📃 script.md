@@ -23,7 +23,7 @@
 ## How to call
 
 ```yaml
-- RUN|.PROMPT:
+- RUN .PROMPT:
     Format: ONE
     Text: Which credit card to use? 
     Emoji: 😃               # Optional, defaults to 😃
@@ -49,19 +49,19 @@
 # ------------------------------------
 
 # Assert CHAT was called
-- ASSERT|$.Chat:  
+- ASSERT $.Chat:  
 
 # Assert required inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Format, Text
     Texts: Format, Text, Emoji, Details
     Nums: MinValue, MaxValue
     
 # Assert the appendix if provided
-- IF|$.Inputs.Has(Appendix):
+- IF $.Inputs.Has(Appendix):
 
     # Assert appendix fields
-    - ASSERT|$.Inputs.Appendix:
+    - ASSERT $.Inputs.Appendix:
         AllOf: Content, Type
         Texts: Content, Type
         Nums: Pages
@@ -69,7 +69,7 @@
         Pages.IsAbove: 0
 
     # Require Pages if Type is PDF
-    - IF|$.Inputs.Appendix.Type.Is(PDF):
+    - IF $.Inputs.Appendix.Type.Is(PDF):
         ASSERT|$.Inputs.Appendix.Pages
 
 
@@ -96,15 +96,15 @@
 # ------------------------------------
 
 # Stage the prompt
-- SAVE|Host.Prompts >> $prompt:
+- SAVE Host.Prompts >> $prompt:
     :$.Inputs.Minus(Appendix):
     Chat: $.Chat.Chat
     Broker: $.Chat.Broker
     OnReply: $onReply
 
 # Stage the Appendix if provided
-- IF|$.Inputs.Has(Appendix):
-    - SAVE|Host.Appendixes:
+- IF $.Inputs.Has(Appendix):
+    - SAVE Host.Appendixes:
         Prompt: $prompt.ID
         Chat: $.Chat.Chat
         :$.Inputs.Appendix:
@@ -115,14 +115,14 @@
 # ------------------------------------
 
 # Check for blocking inputs
-- IF|$onReply.Is(RACE):
+- IF $onReply.Is(RACE):
 
     # Block and wait for a reply
     - WAIT >> $reply:
         Hook: $prompt.ID
 
     # Return the reply
-    - RETURN|$reply
+    - RETURN $reply
 
 
 # ------------------------------------
@@ -130,7 +130,7 @@
 # ------------------------------------
 
 # For non-blocking prompts, return
-- IF|$onReply.Is(NOTHING): 
+- IF $onReply.Is(NOTHING): 
     RETURN
 
 
@@ -138,21 +138,21 @@
 # NON-BLOCKING STATUS WITH OPTIONS
 # ------------------------------------
 
-- IF|$onReply.Is(REEL):
+- IF $onReply.Is(REEL):
 
     # Clone holders for later recall
-    - IMPRINT|$prompt.ID 
+    - IMPRINT $prompt.ID 
 
     # Create a return point
     - HOOK >> $reply: 
         Hook: $prompt.ID
 
     # If a REEL was received, restore holders
-    - IF|$reply:
-        RECALL|$prompt.ID  # Restore holders
+    - IF $reply:
+        RECALL $prompt.ID  # Restore holders
 
     # Return the reply
-    - RETURN|$reply
+    - RETURN $reply
 ```
 
 

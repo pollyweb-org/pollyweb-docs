@@ -34,16 +34,16 @@
     ```yaml
     💬 Order:
 
-    - INFORM|order     # Inform the steps.
-    - RUN|Selection  # Select from the menu.
-    - RUN|Payment    # Ask for the payment
-    - RUN|WaitReady  # Wait for it to be ready.
+    - INFORM order     # Inform the steps.
+    - RUN Selection  # Select from the menu.
+    - RUN Payment    # Ask for the payment
+    - RUN WaitReady  # Wait for it to be ready.
 
     # Inform readiness.
-    - CASE|$status.Code:
-        Ready: DONE|Pick up your order.
-        Canceled: INFO|Order canceled.
-        $: FAIL|Unexpected problem.
+    - CASE $status.Code:
+        Ready: DONE Pick up your order.
+        Canceled: INFO Order canceled.
+        $: FAIL Unexpected problem.
     ```
     
     Uses: [`CASE`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/CASE ⏯️/⏯️ CASE ⌘ cmd.md>) [`INFORM`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) [`RUN`](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
@@ -60,13 +60,13 @@
           Review: {$review}
 
     # Submit order.
-    - CALL|Order >> $order:
+    - CALL Order >> $order:
         Selection: $selection
 
     # Allow it to be changed.
-    - INFO|{$order.Summary} >> $change:
+    - INFO {$order.Summary} >> $change:
         Options: Change
-    - IF|$change:
+    - IF $change:
         Then: REPEAT
     
     # Ask the user's Vitalogist to review.
@@ -76,10 +76,10 @@
           Order: {$order.Details}
 
     # Repeat if rejected
-    - IF|$review.Rejected:
+    - IF $review.Rejected:
         Then: REPEAT
 
-    - RETURN|$order
+    - RETURN $order
     ```
     
     ```yaml
@@ -91,7 +91,7 @@
         Bill: {$order.Summary}
 
     # Submit the order.
-    - CALL|Submit >> $status:
+    - CALL Submit >> $status:
         Order: $order
     
     # Inform submitted.
@@ -99,7 +99,7 @@
         Text: Eat-in submitted
         Details: {$order.Summary}
 
-    - RETURN|$status
+    - RETURN $status
     ```
 
     ```yaml
@@ -111,15 +111,15 @@
         Options: Cancel
 
     # Allow it to be cancelled.
-    - CASE|$temp:
+    - CASE $temp:
         Cancel: 
-            - CALL|Cancel($order)
+            - CALL Cancel($order)
             - RETURN
 
     # Monitor status changes.
-    - WAIT|$status
-    - IFNOT|$status.Pending:
-        RETURN|$status
+    - WAIT $status
+    - IFNOT $status.Pending:
+        RETURN $status
 
     # Continue to wait.
     - REPEAT

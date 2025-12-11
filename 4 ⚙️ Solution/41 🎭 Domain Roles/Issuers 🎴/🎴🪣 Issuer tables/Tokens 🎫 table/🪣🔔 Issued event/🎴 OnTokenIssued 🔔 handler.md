@@ -15,7 +15,7 @@
 📃 OnTokenIssued:
 
 # Assert the Token
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Broker, Chat, Schema, Starts
     UUIDs: Chat
     Texts: Broker, Schema

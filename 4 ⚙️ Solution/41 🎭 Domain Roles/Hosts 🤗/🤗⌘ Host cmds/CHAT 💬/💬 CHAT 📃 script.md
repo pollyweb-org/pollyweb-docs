@@ -19,7 +19,7 @@
 
 ```yaml
 # Existing chat
-RUN|.CHAT:
+- RUN .CHAT:
     Broker: any-broker.dom
     Chat: <chat-uuid>
 ```
@@ -32,11 +32,11 @@ RUN|.CHAT:
 📃 .CHAT:
 
 # Return if $.Chat is already set
-- IF|$.Chat.Exists:
+- IF $.Chat.Exists:
     RETURN
 
 # Assert the required fields
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Broker, Chat
     UUIDs: Chat
     Broker.IsDomain:
@@ -50,15 +50,15 @@ RUN|.CHAT:
     Default: 
 
 # Set $.Chat if Host.Chat exists
-- IF|$chat.ID.IsNotEmpty:
-    - PUT|$chat >> $.Chat
+- IF $chat.ID.IsNotEmpty:
+    - PUT $chat >> $.Chat
     - RETURN
 
 # Save the Chat if it's new
-- SAVE|$chat
+- SAVE $chat
 
 # Wait for the Chat to be ready
-- WAIT|$chat.ID
+- WAIT $chat.ID
 ```
 
 Uses||

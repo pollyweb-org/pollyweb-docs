@@ -16,7 +16,7 @@
 
     ```yaml
     # Give a holder name to avoid exceptions.
-    - SAVE|AnyTable:
+    - SAVE AnyTable:
         .OnBlocked: onBlocked
     ```
 

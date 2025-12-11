@@ -18,7 +18,7 @@
 📃 OnTokenRemoved:
 
 # Assert the inputs
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Token, Issuer, Wallet
     UUIDs: Token, Wallet
     Texts: Issuer

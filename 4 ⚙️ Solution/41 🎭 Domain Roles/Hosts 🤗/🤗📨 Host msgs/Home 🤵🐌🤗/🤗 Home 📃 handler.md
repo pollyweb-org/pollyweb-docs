@@ -10,10 +10,10 @@
 📃 Home@Host: 
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat
     UUIDs: Chat
 

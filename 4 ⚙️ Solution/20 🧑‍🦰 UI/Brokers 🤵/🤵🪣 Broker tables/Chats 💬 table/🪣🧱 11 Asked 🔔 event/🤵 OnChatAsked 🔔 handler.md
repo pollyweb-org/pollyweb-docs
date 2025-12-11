@@ -19,8 +19,8 @@
 📃 OnChatAsked:
 
 # If already resolved, set state and exit
-- IF|$Chat.Host:
-    - SAVE|$Chat:
+- IF $Chat.Host:
+    - SAVE $Chat:
         .State: RESOLVED
     - RETURN
 
@@ -29,7 +29,7 @@
     Locator: $Chat.Locator
 
 # Resolve any ALIAS locator
-- WHILE|$locator.IsAlias:
+- WHILE $locator.IsAlias:
 
     # Send the request to the Printer
     - SEND >> $resolved:
@@ -44,7 +44,7 @@
         Locator: $resolved
 
 # Finally, set the Chat to RESOLVED
-- SAVE|$Chat:
+- SAVE $Chat:
     .State: RESOLVED
     Host: $locator.Host
     Key: $locator.Key

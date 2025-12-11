@@ -17,16 +17,16 @@
 📃 OnInviteHelped:
 
 # Verify the help schema
-- VERIFY|$Invite.Help >> $valid:
+- VERIFY $Invite.Help >> $valid:
     Schema: $Invite.Schema
 
 # Progress the state
-- IF|$valid:
+- IF $valid:
     Then: 
-        SAVE|$Invite:
+        SAVE $Invite:
             .State: VALID
     Else:
-        SAVE|$Invite:
+        SAVE $Invite:
             .State: INVALID
 ```
 

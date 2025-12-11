@@ -40,7 +40,7 @@
     Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
-    - TEXT|Who is in the picture?:
+    - TEXT Who is in the picture?:
         Appendix: {/photos/elvis.png}
     ```
 

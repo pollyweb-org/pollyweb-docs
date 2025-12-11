@@ -16,10 +16,10 @@
 📃 Revise@Broker:
 
 # Verify the Issuer's message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the required inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Token, Status, Starts
     UUIDs: Token
     Texts: Status, Locator
@@ -35,7 +35,7 @@
         Token: $.Msg.Token
 
 # Save the revision
-- SAVE|Broker.Tokens:
+- SAVE Broker.Tokens:
     Status: $.Msg.Status
     Starts: $.Msg.Starts
     Expires: $.Msg.Expires

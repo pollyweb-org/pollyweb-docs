@@ -17,7 +17,7 @@
 📃 Download@Host:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Appendix
     UUIDs: Appendix
     Nums: Page, MaxWidth, MaxHeight
@@ -30,11 +30,11 @@
         Chat.State: ACTIVE
 
 # Verify the wallet signature
-- VERIFY|$.Msg:
+- VERIFY $.Msg:
     Key: $.Chat.PublicKey
 
 # Format the appendix content
-- CASE|$appendix.Type >> $content:
+- CASE $appendix.Type >> $content:
 
     PDF: # allow PDF pagination
         $appendix.Content:

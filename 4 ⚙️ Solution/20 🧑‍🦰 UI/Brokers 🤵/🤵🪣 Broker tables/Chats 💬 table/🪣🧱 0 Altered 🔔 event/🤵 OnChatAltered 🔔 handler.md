@@ -29,7 +29,7 @@
     Key: $Item.Wallet
 
 # Prepare the response
-- PUT|$wallet.Chats >> $chats:
+- PUT $wallet.Chats >> $chats:
     Chat: Chat
     Host: Host
     HostTitle: Host.Title
@@ -42,7 +42,7 @@
     Key: $wallet.ID
 
 # Replace only the Frontend Chats.
-- SAVE|$frontend:
+- SAVE $frontend:
     Chats: $chats
 ```
 

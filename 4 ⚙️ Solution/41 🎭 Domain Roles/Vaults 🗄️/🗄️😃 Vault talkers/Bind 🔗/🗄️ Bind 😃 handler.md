@@ -12,8 +12,8 @@
 
 ```yaml
 💬 Bind:
-- INFORM|Bind
-- BIND|.VAULT/SELF
+- INFORM Bind
+- BIND .VAULT/SELF
 ```
 
 Uses||

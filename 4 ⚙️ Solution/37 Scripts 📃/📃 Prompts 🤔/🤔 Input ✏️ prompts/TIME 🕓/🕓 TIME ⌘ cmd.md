@@ -71,10 +71,10 @@
 
     ```yaml
     💬 Schedule for tomorrow:
-    - ONE|What time tomorrow?|{TimeOptions} >> my-var
-    - CASE|{$my-var}:
+    - ONE What time tomorrow?|{TimeOptions} >> my-var
+    - CASE {$my-var}:
         Another: TIME|When exactly? >> my-var
-    - DONE|Thanks!
+    - DONE Thanks!
     ```
 
     ```python

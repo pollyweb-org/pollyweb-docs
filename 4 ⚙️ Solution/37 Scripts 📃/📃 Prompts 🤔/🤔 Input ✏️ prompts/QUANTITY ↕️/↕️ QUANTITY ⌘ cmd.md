@@ -31,7 +31,7 @@
 
     ```yaml
     # Simplest.
-    QUANTITY|<text> >> $holder
+    QUANTITY <text> >> $holder
     ```
 
     | Input| Purpose 
@@ -150,13 +150,13 @@
         Text: For how many?
         Options: 1,2,more
 
-    - CASE|{$p}:
+    - CASE {$p}:
         more: 
-          - QUANTITY|How many exactly? >> $p:
+          - QUANTITY How many exactly? >> $p:
                 MinValue: 3
                 MaxValue: 12
 
-    - TEMP|Checking availability...
+    - TEMP Checking availability...
     ```
 
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
@@ -197,9 +197,9 @@
     
     ```yaml
     # 😃 Talker 
-    - QUANTITY|How much? >> $p:
+    - QUANTITY How much? >> $p:
         Precision: 2  
-    - INFO|You entered $p
+    - INFO You entered $p
     - REPEAT
     ```
 
@@ -217,7 +217,7 @@
 
     ```yaml
     # 😃 Talker
-    - QUANTITY|How much? >> $p:
+    - QUANTITY How much? >> $p:
     ```
 
     | Input| Content | Example
@@ -249,9 +249,9 @@
     ```yaml
     # 😃 Talker 
     💬 Example:
-    - QUANTITY|Give me a quantity >> $p
-    - INFO|I'm storing `{$p}`
-    - INFO|Although you typed `{$p.Text}`
+    - QUANTITY Give me a quantity >> $p
+    - INFO I'm storing `{$p}`
+    - INFO Although you typed `{$p.Text}`
     ```
 
 

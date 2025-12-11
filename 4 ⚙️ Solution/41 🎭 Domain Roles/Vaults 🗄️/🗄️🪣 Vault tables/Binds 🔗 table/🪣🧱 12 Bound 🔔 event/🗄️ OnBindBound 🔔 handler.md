@@ -20,7 +20,7 @@
 📃 OnBindBound:
 
 # Inform the Hosted if there's a reference
-- IF|$Bind.Reference:
+- IF $Bind.Reference:
     ASYNC|OnBound:
         Bind: $Bind.ID
         Reference: $Bind.Reference

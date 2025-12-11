@@ -21,11 +21,11 @@
 📃 OnPromptInserted:
 
 # Set the emoji
-- RUN|OnPromptEmoji >> $emoji:
+- RUN OnPromptEmoji >> $emoji:
     $Prompt
 
 # Update the Prompt with the emoji
-- SAVE|$Prompt:
+- SAVE $Prompt:
     .State: EMOJIED
     Emoji: $emoji
 ```
@@ -35,55 +35,55 @@ Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control 
 📃 OnPromptEmoji:
 
 # Verify the Prompt
-- ASSERT|$Prompt:
+- ASSERT $Prompt:
     AllOf: Format, Role
     Texts: Format, Role, PromptEmoji, ChatEmoji
 
 # Set the emoji
-- CASE|$Prompt.Format:
+- CASE $Prompt.Format:
 
-    TEMP: RETURN|⏳
+    TEMP: RETURN ⏳
 
-    FAIL: RETURN|❌
+    FAIL: RETURN ❌
 
     INFO: 
         CASE|$Prompt.Role:
-            VAULT: RETURN|ⓘ
-            $: RETURN|ℹ️
+            VAULT: RETURN ⓘ
+            $: RETURN ℹ️
 
     DONE: 
         CASE|$Prompt.Role:
-            VAULT: RETURN|☑️
-            $: RETURN|✅
+            VAULT: RETURN ☑️
+            $: RETURN ✅
 
     TEXT:
         CASE|$Prompt.Role:
-            VAULT: RETURN|💭
-            $: RETURN|💬
+            VAULT: RETURN 💭
+            $: RETURN 💬
 
     $: 
         # Agents always ask with 🫥
-        - IF|$Prompt.Role.Is(VAULT):
-            RETURN|🫥
+        - IF $Prompt.Role.Is(VAULT):
+            RETURN 🫥
 
 # Default emoji
-- PUT|😃 >> $emoji
+- PUT 😃 >> $emoji
 
 # Override if in Chat
-- IF|$Prompt.ChatEmoji:
-    PUT|$Prompt.ChatEmoji >> $emoji
+- IF $Prompt.ChatEmoji:
+    PUT $Prompt.ChatEmoji >> $emoji
 
 # Override if in Prompt
-- IF|$Prompt.PromptEmoji: 
-    PUT|$Prompt.PromptEmoji >> $emoji
+- IF $Prompt.PromptEmoji: 
+    PUT $Prompt.PromptEmoji >> $emoji
 
 # Block special emojis
-- IF|$emoji.IsIn(⏳❌ⓘℹ️☑️✅😃🫥💬💭):
-    RETURN|😃
+- IF $emoji.IsIn(⏳❌ⓘℹ️☑️✅😃🫥💬💭):
+    RETURN 😃
 
 # Allow limited customizations
-- IF|$emoji.IsIn(😐😶😌😊😕🙁😔🥺🤣😅✏️):
-    RETURN|$emoji
+- IF $emoji.IsIn(😐😶😌😊😕🙁😔🥺🤣😅✏️):
+    RETURN $emoji
 
 # Default
 - RETURN 😃

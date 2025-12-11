@@ -21,7 +21,7 @@
 
     ```yaml
     # On-line syntax
-    - HTTP|<code>|<message>
+    - HTTP <code>|<message>
 
     # Multi-line syntax
     - HTTP:
@@ -52,16 +52,16 @@
 
     ```yaml
     📃 Example:
-    - TEMP|Waiting forever...
-    - RUN|Test 
-    - FAIL|This command never runs.
+    - TEMP Waiting forever...
+    - RUN Test 
+    - FAIL This command never runs.
     
     📃 Test:
-    - HTTP|500
-    - FAIL|This command also never runs.
+    - HTTP 500
+    - FAIL This command also never runs.
     ```
 
-    Uses: [`TEMP`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
+    Uses: [`TEMP`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`HTTP`](<💥 HTTP ⌘ cmd.md>)
     
     ---
     <br/>

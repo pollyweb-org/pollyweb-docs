@@ -17,7 +17,7 @@
 📃 OnTrusted:
 
 # Assert the Disclose
-- ASSERT|$Disclose:
+- ASSERT $Disclose:
     AllOf: Consumer, Query, Bind.Schema
     Texts: Consumer, Bind.Schema
     UUIDs: Query
@@ -32,7 +32,7 @@
         Schema: $Disclose.Bind.Schema
 
 # Save the data for collection
-- SAVE|$Disclose:
+- SAVE $Disclose:
     .State: DETAILED
     Context: $context
 ```

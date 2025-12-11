@@ -17,12 +17,12 @@
 📃 Abandoned@Host:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat
     UUIDs: Chat
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Read the chat
 - READ >> $chat:
@@ -32,7 +32,7 @@
         Broker: $.Msg.From
 
 # Mark the chat as abandoned
-- SAVE|$chat:
+- SAVE $chat:
     .State: ABANDONED
 ```
 

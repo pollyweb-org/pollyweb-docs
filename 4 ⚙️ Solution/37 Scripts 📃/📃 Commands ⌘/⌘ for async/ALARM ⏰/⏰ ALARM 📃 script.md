@@ -5,7 +5,7 @@
 ## How to run
 
 ```yaml
-- RUN|.ALARM:
+- RUN .ALARM:
     When: 1 day
     Call: MyMethod
     With: {A:, B:2}
@@ -17,7 +17,7 @@
 📃 .ALARM:
 
 # Assert parameters
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: When, Call, With
     Times: When
     Texts: Call
@@ -47,13 +47,13 @@ Uses||
 📃 Triggered@Alarm:
 
 # Verify the hook
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert if it's the right helper
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     From: $.Hosted.Alarm
 
 # Call the method
-- RUN|$.Msg.Hook.Call:
+- RUN $.Msg.Hook.Call:
     $Hook.With
 ```

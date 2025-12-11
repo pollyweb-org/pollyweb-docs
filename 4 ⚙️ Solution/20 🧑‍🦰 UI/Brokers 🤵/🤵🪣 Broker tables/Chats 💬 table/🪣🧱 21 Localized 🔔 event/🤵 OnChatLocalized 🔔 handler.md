@@ -23,7 +23,7 @@
     To: $Chat.Language
     
 # Save the translation
-- SAVE|$Chat:
+- SAVE $Chat:
     HostTitle: $domain.Title
     Description: $domain.Description
 ```

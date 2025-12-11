@@ -14,7 +14,7 @@
 Here are the outputs of the [`Parse@Hosted` 🚀 call](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 call.md>)
 
 ```yaml
-- RUN|.WEB:
+- RUN .WEB:
     {PROMPT inputs}
 ```
 
@@ -28,21 +28,21 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
 📃 .WEB:
 
 # Assert the inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: URL, Hook
     UUIDs: Hook
     URL.IsURL:
 
 # Send it as a non-blocking prompt
-- RUN|.PROMPT:
+- RUN .PROMPT:
     :$.Inputs:
     Format: WEB
 
 # Wait for the hook to be called
-- WAIT|$Hook >> $result
+- WAIT $Hook >> $result
 
 # Return the result
-- RETURN|$result
+- RETURN $result
 ```
 
 Uses ||

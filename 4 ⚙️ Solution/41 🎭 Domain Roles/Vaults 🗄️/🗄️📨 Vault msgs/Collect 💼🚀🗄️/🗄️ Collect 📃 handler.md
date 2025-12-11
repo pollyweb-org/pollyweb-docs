@@ -19,12 +19,12 @@
 📃 Collect@Vault:
 
 # Verify the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Disclose
     UUIDs: Disclose
 
 # Verify the signature
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Get the disclose
 - READ >> $disclose:

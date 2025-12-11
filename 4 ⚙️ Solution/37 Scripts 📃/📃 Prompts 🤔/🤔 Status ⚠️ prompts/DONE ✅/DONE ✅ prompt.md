@@ -61,7 +61,7 @@
 
     ```yaml
     # Inline
-    DONE|<text> 
+    DONE <text> 
     ```
 
     | Input| Purpose | Example
@@ -105,7 +105,7 @@
     
     ```yaml
     📃 Example:
-    - DONE|Simple success.
+    - DONE Simple success.
     ```
 
 

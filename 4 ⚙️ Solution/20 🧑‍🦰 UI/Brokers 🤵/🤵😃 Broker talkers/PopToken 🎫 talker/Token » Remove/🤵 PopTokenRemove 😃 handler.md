@@ -17,7 +17,7 @@
 📃 PopTokenRemove:
 
 # Verify inputs
-- ASSERT|$token
+- ASSERT $token
 
 # Ask for confirmation 🤔
 - CONFIRM:

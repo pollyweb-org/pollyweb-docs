@@ -11,8 +11,8 @@
 📃 Translate-Domain:
 
 # Exit if Domain or Target are missing
-- IF|$.Msg.Domain.IsEmpty: RETURN
-- IF|$.Msg.Target.IsEmpty: RETURN
+- IF $.Msg.Domain.IsEmpty: RETURN
+- IF $.Msg.Target.IsEmpty: RETURN
 
 # Read the about item
 - READ >> $item:
@@ -20,14 +20,14 @@
     Key: $.Msg.Domain
 
 # Translate if languages differ
-- IF|$item.Language.IsNot($.Msg.Language):
+- IF $item.Language.IsNot($.Msg.Language):
     
     # Try to get an existing translation
     - PUT >> $translation:
         $item.Translations.First({Language: $.Msg.Language}) 
     
     # If found...
-    - IF|$translation:
+    - IF $translation:
 
         # Use the translation
         SET|$output:
@@ -35,10 +35,10 @@
             Description: $translation.Description
     
     # If not found...
-    - IF|$translation.IsEmpty:
+    - IF $translation.IsEmpty:
 
         # Translate it on the fly
-        - SET|$output:
+        - SET $output:
             Title.Translate(Language, $.Msg.Language),
             Description.Translate(Language, $.Msg.Language)
 
@@ -47,7 +47,7 @@
             Language: $.Msg.Language
             Title: $output.Title
             Description: $output.Description
-        - SAVE|$item:
+        - SAVE $item:
             Translations.Append($translation)
 
 # Return the output

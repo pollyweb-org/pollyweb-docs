@@ -18,10 +18,10 @@
 📃 Helped@Consumer:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Invite, Help
     UUID: Invite
 
@@ -31,7 +31,7 @@
     Key: $.Msg.Invite
 
 # Save the received token
-- SAVE|$invite:
+- SAVE $invite:
     .State: HELPED
     Token: $.Msg.Help
 ```

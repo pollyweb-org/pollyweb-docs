@@ -45,7 +45,7 @@
         $schema
 
     # Simplest inline
-    - BIND|$schema
+    - BIND $schema
     ```
     | Input| Purpose 
     |-|-
@@ -62,8 +62,8 @@
 
     ```yaml
     # For a required schema.
-    - BIND|$schema
-    - DONE|Bound!
+    - BIND $schema
+    - DONE Bound!
     ```
 
     | Input| Purpose 
@@ -72,10 +72,10 @@
 
     ```yaml
     # For an optional schema.
-    - BIND|$schema >> $bound
-    - IF|$bound:
-        Then: DONE|Bound.
-        Else: FAIL|Not bound.
+    - BIND $schema >> $bound
+    - IF $bound:
+        Then: DONE Bound.
+        Else: FAIL Not bound.
     ```
 
     | Input| Purpose
@@ -114,9 +114,9 @@
        some-authority.dom/SOME-CODE
 
    # Verify it was bound.
-   - IF|$bound:
-       Then: DONE|Your wallet is bound.
-       Else: FAIL|Not bounded.
+   - IF $bound:
+       Then: DONE Your wallet is bound.
+       Else: FAIL Not bounded.
    ```
 
    Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAIL`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) 
@@ -134,12 +134,12 @@
    💬 Bind:
 
    # Offer the schemas
-   - BIND|$schema >> $bound
+   - BIND $schema >> $bound
 
    # Check if any was bound
-   - IF|$bound:
-       Then: DONE|Your wallet is bound.
-       Else: FAIL|Not bounded.
+   - IF $bound:
+       Then: DONE Your wallet is bound.
+       Else: FAIL Not bounded.
    ```
 
    Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAIL`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)

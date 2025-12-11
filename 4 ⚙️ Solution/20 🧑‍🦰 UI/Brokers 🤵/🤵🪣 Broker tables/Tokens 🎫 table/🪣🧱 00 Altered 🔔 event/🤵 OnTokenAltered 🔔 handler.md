@@ -22,7 +22,7 @@
 📃 OnTokenAltered:
 
 # Assert the inputs
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Wallet
     UUIDs: Wallet
 
@@ -37,11 +37,11 @@
     Key: $wallet.ID
 
 # Prepare the response:
-- PUT|$wallet.Tokens.FRONTEND >> $tokens:
+- PUT $wallet.Tokens.FRONTEND >> $tokens:
     Token, Title, Issuer, Schema, Status
 
 # Replace only the Frontend Tokens.
-- SAVE|$frontend:
+- SAVE $frontend:
     Tokens: $tokens
 ```
 

@@ -17,24 +17,24 @@
 📃 OnQueryReceived:
 
 # Validate the Token
-- ASSERT|$Query.Token >> $valid:
+- ASSERT $Query.Token >> $valid:
     AllOf: Starts, Issuer
     Starts.IsFuture:
     Expires.IsPast:
     Schema.IsIn: $Query.Schemas
 
 # Exit if invalid
-- IFNOT|$valid:
-    - SAVE|$Query:
+- IFNOT $valid:
+    - SAVE $Query:
         .State: INVALID
     - RETURN
 
 # Verify the Token signature and schema
-- VERIFY|$Query.Token >> $valid
+- VERIFY $Query.Token >> $valid
 
 # Exit if corrupted
-- IFNOT|$valid:
-    - SAVE|$Query:
+- IFNOT $valid:
+    - SAVE $Query:
         .State: CORRUPTED
     - RETURN
 
@@ -45,13 +45,13 @@
     Role: VAULT
 
 # Exit if untrusted
-- IFNOT|$trusted:
-    - SAVE|$Query:
+- IFNOT $trusted:
+    - SAVE $Query:
         .State: UNTRUSTED
     - RETURN
 
 # Otherwise, progress
-- SAVE|$Query:
+- SAVE $Query:
     .State: TOKENED
 ```
 

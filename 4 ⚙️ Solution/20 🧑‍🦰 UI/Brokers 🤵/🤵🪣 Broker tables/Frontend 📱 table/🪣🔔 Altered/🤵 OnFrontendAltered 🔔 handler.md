@@ -21,7 +21,7 @@
 📃 OnFrontendAltered:
 
 # Assert the inputs
-- ASSERT|$Item:
+- ASSERT $Item:
     AllOf: Wallet, Frontend
     UUIDs: Wallet
 

@@ -18,7 +18,7 @@
 📃 OnQuerySelected:
 
 # Load the Chat
-- CHAT|$Query.Chat
+- CHAT $Query.Chat
 
 # Load the Schema details
 - READ >> $schema:
@@ -37,18 +37,18 @@
         ´$schema.Details´
 
 # Exit if no trust was selected
-- IFNOT|$confirm:
-    RETURN|REJECTED
+- IFNOT $confirm:
+    RETURN REJECTED
 
 # Assign the trust data to the Query
-- CASE|$Query.Selected.Type:
+- CASE $Query.Selected.Type:
     BIND: 
-        SAVE|$Query:
+        SAVE $Query:
             .State: DISCLOSED
             Bind: $Query.Selected.ID.Require
             Vault: $Query.Selected.Domain.Require
     TOKEN:
-        SAVE|$Query:
+        SAVE $Query:
             .State: SHARED
             Token: $Query.Selected.ID.Require
             Issuer: $Query.Selected.Domain.Require

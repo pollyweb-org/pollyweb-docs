@@ -19,7 +19,7 @@
 📃 Frontend@Broker:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     UUIDs: From
     Enums: Sets
     Sets.IsIn: Chats, Binds, Tokens, Domains, Schemas
@@ -30,7 +30,7 @@
     Key: $.Msg.From
 
 # Verify the signature
-- VERIFY|$.Msg:
+- VERIFY $.Msg:
     Key: $frontend.PublicKey
 
 # Filter the lists
@@ -38,13 +38,13 @@
     $frontend.Format: $.Msg.Sets
 
 # Filter the fields and items of each list
-- FOR|$return.Keys|$key:
-    - SET|$return.{$key}:
+- FOR $return.Keys >> $key:
+    - SET $return.{$key}:
         .Format: $.Msg.Outputs.{$key}
         .Filter: $.Msg.Asserts.{$key}
 
 # Always add the wallet data
-- SET|$return:
+- SET $return:
     Wallet: 
         Language: $frontend.Wallet.Language
 

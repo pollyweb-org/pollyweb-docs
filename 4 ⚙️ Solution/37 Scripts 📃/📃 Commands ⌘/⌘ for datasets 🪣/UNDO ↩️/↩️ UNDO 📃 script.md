@@ -8,7 +8,7 @@
 
 ```yaml
 # With an item
-- RUN|.DELETE:
+- RUN .DELETE:
     Set: $deleted.Set
     Key: $deleted.Key
     Script: MyScript 
@@ -20,7 +20,7 @@
 📃 .UNDO:
 
 # Fill the $item
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Set, Key
     Texts: Set
     Lists: Key

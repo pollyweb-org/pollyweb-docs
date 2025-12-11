@@ -26,7 +26,7 @@
 
     ```yaml
     # Comprehensive
-    SHARE|<schema-1> >> $shared: # For a single inline schema
+    SHARE <schema-1> >> $shared: # For a single inline schema
         Schema: <schema-2>       # For a single multiline schema
         Schemas:                 # For multiple alternatives
             - <schema-3>
@@ -37,12 +37,12 @@
 
     ```yaml
     # Single schema, no context
-    SHARE|<code> >> $shared
+    SHARE <code> >> $shared
     ```
 
     ```yaml
     # Single schema, with context
-    SHARE|<code> >> $shared:
+    SHARE <code> >> $shared:
         Context: {context}
     ```
 
@@ -74,8 +74,8 @@
     * Consider the following equal examples.
 
         ```yaml
-        SHARE|.IDENTITY/OVER21 >> $social          
-        SHARE|nlweb.dom/IDENTITY/OVER21 >> $social 
+        - SHARE .IDENTITY/OVER21 >> $social          
+        - SHARE nlweb.dom/IDENTITY/OVER21 >> $social 
         ```
 
     ---
@@ -90,17 +90,20 @@
     | 💼 [Consumer](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | ℹ️ Received: [Change] <br/> - Name: Alice <br/> - Pronouns: she/her
     | 💼 [Consumer](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | ✅ Hi, Alice!
 
-    
+    <br/>
+
+    Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
     ```yaml
-    # 😃 Talker
-    INFO|Tell me your name.
-    SHARE|.PERSONA/NAME/SOCIAL >> $social
-    DONE|Hi, {$social.Name}!
+    📃 Example:
+    - INFO Tell me your name.
+    - SHARE .PERSONA/NAME/SOCIAL >> $social
+    - DONE Hi, {$social.Name}!
     ```
 
     Uses: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`SHARE`](<💼 SHARE ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
 
+    <br/>
 
     The structure of the shared data is as follows.
    

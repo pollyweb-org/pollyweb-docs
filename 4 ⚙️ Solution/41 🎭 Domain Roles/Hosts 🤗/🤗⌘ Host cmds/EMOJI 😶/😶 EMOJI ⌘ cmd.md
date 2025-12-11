@@ -48,15 +48,15 @@
     📃 Example:
 
     # Default prompt.
-    - CONFIRM|Joyful? 
+    - CONFIRM Joyful? 
 
     # Change the emoji.
-    - INFO|Changing to neutral.
-    - EMOJI|😶
+    - INFO Changing to neutral.
+    - EMOJI 😶
     
     # Confirm two sequential prompts.
-    - CONFIRM|Now neutral?
-    - CONFIRM|Still neutral?
+    - CONFIRM Now neutral?
+    - CONFIRM Still neutral?
     ```
     Uses: [`CONFIRM`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>) [`EMOJI`](<😶 EMOJI ⌘ cmd.md>) [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 

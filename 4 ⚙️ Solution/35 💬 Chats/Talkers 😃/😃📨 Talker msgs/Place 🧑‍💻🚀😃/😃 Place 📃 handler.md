@@ -13,10 +13,10 @@
 📃 Place@Talker:
 
 # Verify the domain signature
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Holder, Reason, Chat, Value
     Texts: Holder, Reason
     UUIDs: Chat
@@ -27,7 +27,7 @@
     Key: $.Msg.Chat
 
 # Save the holder
-- SAVE|Talker.Holders:
+- SAVE Talker.Holders:
     Chat: $.Msg.Chat
     Holder: $.Msg.Holder.Diff($)
     Value: $.Msg.Value

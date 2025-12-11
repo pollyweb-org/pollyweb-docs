@@ -17,7 +17,7 @@
 📃 OnPromptReplied:
 
 # Continue the caller script
-- CASE|$Prompt.OnReply:
+- CASE $Prompt.OnReply:
 
     RACE: # There's a WAIT command pending
         RACE|$Prompt.ID:

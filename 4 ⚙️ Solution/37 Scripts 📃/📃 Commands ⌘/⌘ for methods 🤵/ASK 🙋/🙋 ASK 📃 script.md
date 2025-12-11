@@ -13,7 +13,7 @@
 Here are the outputs of the [`Parse@Hosted` 🚀 call](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 call.md>)
 
 ```yaml
-- RUN|.ASK:
+- RUN .ASK:
     Options:
       - A: option-1
         B: Option One
@@ -30,13 +30,13 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
 📃 .ASK:
 
 # Assert the inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Options, ID, Title
     Lists: Options
     Texts: ID, Title, Text
 
 # Format the options into {ID,Title}
-- PUT|$Options >> $options:
+- PUT $Options >> $options:
     ID: {$ID}
     Title: {$Title}
 
@@ -51,7 +51,7 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
     Where: $$ID.IsIn($result.ID)
 
 # Return the list of items selected.
-- RETURN|$selected
+- RETURN $selected
 ```
 
 Uses||

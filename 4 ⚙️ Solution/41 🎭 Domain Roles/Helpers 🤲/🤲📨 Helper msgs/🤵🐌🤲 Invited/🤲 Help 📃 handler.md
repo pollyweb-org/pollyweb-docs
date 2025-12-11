@@ -20,21 +20,21 @@
 📃 Help@Helper:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat, Invite, Schema, Consumer
     UUIDs: Chat, Invite
     Schema.IsSchema:
     Consumer.IsDomain:
 
 # Verify the signature
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Check if the Broker is trustworthy
 - TRUSTS|$.Msg.From:
     Schema: .BROKER
 
 # Register the help request
-- SAVE|Helper.Helps:
+- SAVE Helper.Helps:
     .State: INVITED
     Chat: $.Msg.Chat
     Broker: $.Msg.From

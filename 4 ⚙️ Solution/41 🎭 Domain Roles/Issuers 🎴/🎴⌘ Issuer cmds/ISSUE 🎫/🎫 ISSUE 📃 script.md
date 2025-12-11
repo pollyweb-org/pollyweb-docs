@@ -16,7 +16,7 @@
 ## How to call
 
 ```yaml
-- RUN|.ISSUE:
+- RUN .ISSUE:
     Schema: any-authority.dom/ANY-SCHEMA
     Starts: 2018-12-10T13:45:00.000Z
     Expires: 2018-12-10T13:45:00.000Z
@@ -33,13 +33,13 @@
 📃 .ISSUE:
 
 # Assert inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Schema
     Texts: Schema
     Times: Starts, Expires
 
 # Save the hook
-- SAVE|Issuer.Tokens >> $token:
+- SAVE Issuer.Tokens >> $token:
     Broker: $.Chat.Broker
     Chat: $.Chat.Chat
     PublicKey: $.Chat.PublicKey
@@ -54,8 +54,8 @@
     Hook: $token.ID
 
 # Return the token
-- IF|$accepted:
-    RETURN|$token
+- IF $accepted:
+    RETURN $token
 ```
 
 Uses||

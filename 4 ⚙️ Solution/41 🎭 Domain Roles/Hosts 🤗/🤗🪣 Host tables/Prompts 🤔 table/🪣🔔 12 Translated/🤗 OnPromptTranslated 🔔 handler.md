@@ -19,7 +19,7 @@
 📃 OnTranslated:
 
 # Assert readiness for Prompted@Host
-- ASSERT|$Prompt:
+- ASSERT $Prompt:
     AllOf: Text
     Nums: MinValue, MaxValue
     UUIDs: Appendix
@@ -31,14 +31,14 @@
     Details.Length.IsBelow: 2500
     
 # Assert the option items
-- ASSERT|$Prompt.Options:
+- ASSERT $Prompt.Options:
     AllOf: ID, Title
     Texts: ID, Title, Locator
     ID.Length.IsBelow: 250
     Title.Length.IsBelow: 250
 
 # Progress the state
-- SAVE|$Prompt:
+- SAVE $Prompt:
     .State: ASSERTED
     Expires: .Now.Add(5 minutes)
 ```

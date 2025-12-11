@@ -23,7 +23,7 @@
 📃 Prompted@Host: 
 
 # Assert inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Prompt
     UUIDs: Prompt
 
@@ -35,11 +35,11 @@
         Expires.IsFuture
 
 # Verify the message
-- VERIFY|$.Msg:
+- VERIFY $.Msg:
     Key: $prompt.Chat.PublicKey
 
 # Returned the prompt details
-- RETURN|$prompt:
+- RETURN $prompt:
     Text
     MinValue
     MaxValue

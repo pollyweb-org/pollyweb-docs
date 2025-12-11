@@ -9,7 +9,7 @@
 
 ```yaml
 # 📃 With multiple parameters
-- RUN|.DELETE >> $deleted:
+- RUN .DELETE >> $deleted:
     Set: MySet
     Key: [Key1, Key2]
     Script: MyScript    
@@ -18,7 +18,7 @@
 
 ```yaml
 # 📃 With an item
-- RUN|.DELETE >> $deleted:
+- RUN .DELETE >> $deleted:
     Set: $item.Set
     Key: $item.Key
     Script: MyScript 
@@ -31,7 +31,7 @@
 📃 .DELETE:
 
 # Fill the $item
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Set, Key
     Texts: Set
     Lists: Key, Undo, Script
@@ -48,7 +48,7 @@
         Script: $Script
 
 # Return the deleted object
-- RETURN|$deleted
+- RETURN $deleted
 ```
 
 

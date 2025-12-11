@@ -14,7 +14,7 @@
 ## How to call
 
 ```yaml
-- RUN|.INVITE:
+- RUN .INVITE:
     Helper: any-helper.dom
     Schema: any-authority.dom/ANY-SCHEMA
     Context: {...}
@@ -29,12 +29,12 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
 📃 .INVITE:
 
 # Default to $.Chat info
-- DEFAULT|$.Inputs:
+- DEFAULT $.Inputs:
     Broker: $.Chat.Broker
     Chat: $.Chat.ID
 
 # Verify the inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Helper, Schema, Context, Broker, Chat
     UUIDs: Chat
     Texts: Broker, Helper, Schema
@@ -43,7 +43,7 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
     Schema.IsSchema:
 
 # Save the invite
-- SAVE|Consumer.Invites >> $invite:
+- SAVE Consumer.Invites >> $invite:
     Broker: $.Chat.Broker
     Chat: $.Chat.ID
     Helper: $Domain
@@ -55,7 +55,7 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
     Hook: $invite.ID
 
 # Return the received data
-- RETURN|$data
+- RETURN $data
 ```
 
 Uses||

@@ -53,7 +53,7 @@
         b: 2
 
     # Change to {a:1, b:x, c:z}
-    - SET|$p:
+    - SET $p:
         b: x
         c: z
     ```

@@ -29,10 +29,10 @@
 
     ```yaml
     # Function syntax
-    - LOG|{function}
+    - LOG {function}
 
     # String syntax
-    - LOG|<string>
+    - LOG <string>
 
     # Object syntax
     - LOG:
@@ -55,10 +55,10 @@
 
     ```yaml
     # Strings
-    - LOG|An error occurred.
+    - LOG An error occurred.
 
     # Functions
-    - LOG|{$event}
+    - LOG {$event}
     
     # Objects
     - LOG:

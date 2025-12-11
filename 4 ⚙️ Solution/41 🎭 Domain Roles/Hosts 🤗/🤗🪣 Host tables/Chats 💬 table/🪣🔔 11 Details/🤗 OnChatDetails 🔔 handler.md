@@ -18,7 +18,7 @@
 📃 OnChatDetails:
 
 # Assert the Chat key
-- ASSERT|$Chat:
+- ASSERT $Chat:
     AllOf: Broker, Chat
 
 # Call Chat@Broker
@@ -30,7 +30,7 @@
         Chat: $Chat.Chat
 
 # Save the details into the Item
-- SAVE|$Chat:
+- SAVE $Chat:
 
     # Details
     PublicKey: $details.PublicKey

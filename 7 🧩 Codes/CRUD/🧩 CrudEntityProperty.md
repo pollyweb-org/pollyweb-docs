@@ -14,13 +14,13 @@ Blueprint:
   Properties:
     - Default   # Default value for the user prompt.
     - Details   # Additional user prompt message.
-    - External  # Loads ONE|MANY options from an external domain.
+    - External  # Loads ONE MANY options from an external domain.
     - Format    # Prompt format for the wallet user, e.g. TEXT.
     - If        # Show this property if another is True.
-    - Internal  # Loads ONE|MANY options from an internal entity.
+    - Internal  # Loads ONE MANY options from an internal entity.
     - MaxLength # Maximum lenght for TEXT|EMAIL formats.
     - MinLength # Minimum lenght for TEXT|EMAIL formats.
-    - Options   # Lodas ONE|MANY options with static values.
+    - Options   # Lodas ONE MANY options with static values.
     - Send      # Array of properties to send to a Supplier.
     - Title     # Display override for the name of the property.
     - Unique    # Is there a unique index in the property? 

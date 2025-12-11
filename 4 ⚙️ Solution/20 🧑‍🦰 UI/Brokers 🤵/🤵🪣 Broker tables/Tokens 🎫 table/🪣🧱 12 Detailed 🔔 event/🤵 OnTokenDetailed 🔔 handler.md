@@ -20,11 +20,11 @@
 📃 OnTokenDetailed:
 
 # Assert the inputs
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Chat
 
 # Load the chat
-- CHAT|$Token.Chat
+- CHAT $Token.Chat
 
 # Ask for confirmation
 - CONFIRM >> $accepted:
@@ -33,7 +33,7 @@
         - `{$Token.Title}`
 
 # Update with the answer
-SAVE|$Token:
+- SAVE $Token:
     .State: OFFERED
     Accepted: $accepted
 ```

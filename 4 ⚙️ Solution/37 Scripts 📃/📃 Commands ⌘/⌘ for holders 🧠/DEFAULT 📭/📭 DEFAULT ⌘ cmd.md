@@ -21,7 +21,7 @@
     > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml
-    DEFAULT|$input:
+    DEFAULT $input:
         <property-1>: <default-1>
         <property-n>: <default-n>, <default-m>
     ```
@@ -42,7 +42,7 @@
     ```yaml
     📃 Example:
     
-    - DEFAULT|$.Msg:
+    - DEFAULT $.Msg:
         Truster: $.Msg.From
         Role: ANY
     ```

@@ -54,13 +54,13 @@
     📃 Examples:
 
     # With static values
-    - IF|.Is(1, 1):
-        INFO|It is!    
+    - IF .Is(1, 1):
+        INFO It is!    
 
     # With holders
-    - PUT|1 >> $p
-    - IF|$p.Is(1):
-        INFO|It is!    
+    - PUT 1 >> $p
+    - IF $p.Is(1):
+        INFO It is!    
     ```
     Uses: [`IF`](<../../📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 

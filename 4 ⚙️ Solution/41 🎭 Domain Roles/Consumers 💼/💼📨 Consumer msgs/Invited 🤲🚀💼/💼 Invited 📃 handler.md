@@ -14,10 +14,10 @@
 📃 Invited@Consumer:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Invite
     UUIDs: Invite
 

@@ -18,7 +18,7 @@
 📃 OnSchemaInserted:
 
 # Assert the Schema
-- ASSERT|$Schema:
+- ASSERT $Schema:
     AllOf: Code, Wallet
     Texts: Code
     UUIDs: Wallet
@@ -33,7 +33,7 @@
         Language: $Schema.Wallet.Language.Require
 
 # Save the Schema info
-- SAVE|$Schema:
+- SAVE $Schema:
     Language: $Schema.Wallet.Language.Require
     Title: $schema.Title.Require
     Description: $schema.Description

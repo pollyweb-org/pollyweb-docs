@@ -18,7 +18,7 @@
 📃 OnTokenRevised:
 
 # Assert the inputs
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Token, Issuer, Status, Starts, Wallet
     UUIDs: Token, Wallet
     Texts: Status, Issuer

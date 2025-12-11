@@ -79,11 +79,11 @@
     📃 Example:
 
     # Let's set a list
-    - PUT|1,2,3 >> $p
+    - PUT 1,2,3 >> $p
 
     # Use with IFs
-    - IF|$p.Contains(1): 
-        INFO|Found!   
+    - IF $p.Contains(1): 
+        INFO Found!   
 
     # Use with ASSERTs
     - ASSERT:           

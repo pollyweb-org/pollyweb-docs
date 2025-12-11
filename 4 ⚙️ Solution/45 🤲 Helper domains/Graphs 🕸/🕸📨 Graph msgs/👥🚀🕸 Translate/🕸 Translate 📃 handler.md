@@ -11,22 +11,22 @@
 📃 Translate@Graph:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Default the language to american english
-- DEFAULT|$.Msg:
+- DEFAULT $.Msg:
     Language: en-us
     Source: en-us
 
 # Assert required fields
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Language
     AnyOf: Domain, Domains, Schema, Schemas, Text
     Texts: Language, Text, Source, Domain, Schema
     Lists: Domains, Schemas
 
 # Process Domain(s) translation
-- IF|$.Msg.Domain:
+- IF $.Msg.Domain:
     - SEND >> $about:
         Header:
             To: .Hosted.Domain

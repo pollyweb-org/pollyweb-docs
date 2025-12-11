@@ -23,7 +23,7 @@
 📃 OnDomainAltered:
 
 # Assert the inputs
-- ASSERT|$Domain:
+- ASSERT $Domain:
     AllOf: Wallet
     UUIDs: Wallet
 
@@ -38,11 +38,11 @@
     Key: $wallet.ID
 
 # Prepare the response:
-- PUT|$wallet.Domains >> $domains:
+- PUT $wallet.Domains >> $domains:
     Name, Title, Description, SmallIcon, BigIcon
 
 # Replace only the Frontend Tokens.
-- SAVE|$frontend:
+- SAVE $frontend:
     Domains: $domains
 ```
 

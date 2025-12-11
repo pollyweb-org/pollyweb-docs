@@ -12,7 +12,7 @@ Path: /CRUD/ENTITY/PROPERTY/EXTERNAL
 Title: External list property
 
 Descrition: >
-  Loads ONE|MANY options from an external domain.
+  Loads ONE MANY options from an external domain.
 
 Blueprint:
   Properties:

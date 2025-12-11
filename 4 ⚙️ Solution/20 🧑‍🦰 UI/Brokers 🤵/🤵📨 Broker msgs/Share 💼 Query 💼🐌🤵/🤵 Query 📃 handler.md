@@ -21,10 +21,10 @@
 📃 Query@Handler:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat, Query, Schemas
     UUIDs: Chat, Query
     Lists: Schemas
@@ -40,7 +40,7 @@
         Chat.State: ACTIVE
 
 # Save que Query
-- SAVE|Broker.Queries:
+- SAVE Broker.Queries:
     .State: QUERIED
     Chat: $.Msg.Chat
     Query: $.Msg.Query

@@ -5,9 +5,9 @@
 ```yaml
 💬 Register Domain:
 
-- BIND|.HOST >> $bind
-- SHARE|.HOST/ADMIN >> $token
-- SAVE|Supplier.Domains >> $domain:
+- BIND .HOST >> $bind
+- SHARE .HOST/ADMIN >> $token
+- SAVE Supplier.Domains >> $domain:
     Domain: $token.Issuer
     Bind: $bind.ID
     Token: $token

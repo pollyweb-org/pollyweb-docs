@@ -29,28 +29,28 @@
         Wallet: $.Chat.Wallet
 
 # Prepare options
-- IF|$chat.State.Is(ACTIVE):
+- IF $chat.State.Is(ACTIVE):
     - PUT +> $options: /Abandon Chat
-    - IF|$chat.Muted:
+    - IF $chat.Muted:
         PUT +> $options: /Unmute Chat
-    - IFNOT|$chat.Muted:
+    - IFNOT $chat.Muted:
         PUT +> $options: /Mute Chat
 
 # Exit if there are no options available
-- IFNOT|$options:
+- IFNOT $options:
     - RETURN
 
 # Prompt the user for options
-- ONE|What do you need? >> $option:
+- ONE What do you need? >> $option:
     Options: $options
 
 # Process the user's option
-- CASE|$option >> $handler:
+- CASE $option >> $handler:
     Mute: PopChatMute
     Unmute: PopChatUnmute
     Abandon: PopChatAbandon
 
-- RUN|$handler: $chat
+- RUN $handler: $chat
 ```
 
 Uses||

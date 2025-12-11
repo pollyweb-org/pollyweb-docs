@@ -17,11 +17,11 @@
 📃 PopChatMuted:
 
 # Process the user's option
-- SAVE|$.Chat:
+- SAVE $.Chat:
     Muted: true
 
 # Inform success
-- DONE|Chat muted!
+- DONE Chat muted!
 - GOODBYE
 ```
 

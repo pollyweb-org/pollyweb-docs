@@ -18,7 +18,7 @@
 📃 Issued@Issuer:
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Token
     UUIDs: Token
 
@@ -30,7 +30,7 @@
         .State: ISSUED
 
 # Verify the Message
-- VERIFY|$.Msg:
+- VERIFY $.Msg:
     Key: $token.PublicKey
 
 # Return the token

@@ -17,7 +17,7 @@
 📃 OnDiscloseTrusted:
 
 # Assert the Disclose
-- ASSERT|$Disclose:
+- ASSERT $Disclose:
     AllOf: Chat, Consumer, Language, Bind.Schema, Bind.User
     Texts: Language, Consumer, Bind.Schema, Bind.User
     UUIDs: Chat
@@ -33,11 +33,11 @@
     Chat: $Disclose.Chat
 
 # Execute the handler
-- RUN|$schema.Script >> $data:
+- RUN $schema.Script >> $data:
     $Disclose
 
 # Save the data for collection
-- SAVE|$Disclose:
+- SAVE $Disclose:
     .State: READY
     Data: $data
     Expires: .Now.Add(5 minutes)

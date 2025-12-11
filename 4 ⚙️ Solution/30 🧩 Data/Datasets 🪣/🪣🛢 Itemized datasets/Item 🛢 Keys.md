@@ -33,7 +33,7 @@
     ┌────────────────────────┐   ┌───────────────────┐ 
     │ Save without key       │   │ Read with auto ID │
     ├────────────────────────┤   ├───────────────────┤
-    │ SAVE|ORDERS >> $order: │   │ READ >> $order2:  │
+    │ SAVE ORDERS >> $order: │   │ READ >> $order2:  │
     │   DATE: .Today         │   │   Set: ORDERS     │
     │                        │   │   Key: $order.ID  │
     └────────────────────────┘   └───────────────────┘    
@@ -77,7 +77,7 @@
     ┌─────────────────────────────┐   
     │ Save with unique key        │ 
     ├─────────────────────────────┤
-    │ SAVE|COUNTRIES >> $country: │   
+    │ SAVE COUNTRIES >> $country: │   
     │   NAME: Switzerland         │ 
     └─────────────────────────────┘   
     ```
@@ -127,7 +127,7 @@
     ┌───────────────────────────┐
     │ SAVE.                     │ 
     ├───────────────────────────┤
-    │ SAVE|ORDER_LINES >> $line │
+    │ SAVE ORDER_LINES >> $line │
     │   ORDER_ID: $order.ID     │ 
     │   LINE_NUMBER: 123        │ 
     └───────────────────────────┘    

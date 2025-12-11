@@ -51,7 +51,7 @@
     ┌───────────────────────┬──────────────────────────┐
     │ Explicit with CALL    │ Implicit with SET        │
     ├───────────────────────┼──────────────────────────┤
-    │ CALL|.Set >> $output: │ - SET|$input >> $output: │
+    │ CALL|.Set >> $output: │ - SET $input >> $output: │
     │   - $input            │     A.Add(70):           │
     │   - A.Add(70)         │     B.Remove(1):         │
     │   - B.Remove(1)       │     C: D                 │

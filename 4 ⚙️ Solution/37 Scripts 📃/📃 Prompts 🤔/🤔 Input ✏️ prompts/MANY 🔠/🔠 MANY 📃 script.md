@@ -17,7 +17,7 @@
 Here are the outputs of the [`Parse@Hosted` 🚀 call](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Parse 😃🚀📦/📦 Parse 🚀 call.md>)
 
 ```yaml
-- RUN|.MANY:
+- RUN .MANY:
     {PROMPT inputs}
 ```
 
@@ -31,16 +31,16 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
 📃 .MANY:
 
 # Assert the inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Options
 
 # Ask the user to answer
-- RUN|.PROMPT >> $reply:
+- RUN .PROMPT >> $reply:
     :$.Inputs:
     Format: MANY
 
 # Return the reply.
-- RETURN|$reply
+- RETURN $reply
 ```
 
 Uses||

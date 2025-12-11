@@ -13,21 +13,21 @@
 📃 PopBindTag:
 
 # Verify inputs
-- ASSERT|$bind
+- ASSERT $bind
 
 # Ask for the tag
-- TEXT|What to tag? >> $tag:
+- TEXT What to tag? >> $tag:
     Details: Provide an alias that you recognize.
     Default: $bind.Tag
     Nullable: True
 
 # Update the Bind
-- SAVE|$bind:
+- SAVE $bind:
     Tag: $tag
     Title: $tag
 
 # Inform the user
-- DONE|Changed.
+- DONE Changed.
 - GOODBYE
 ```
 

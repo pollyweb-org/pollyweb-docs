@@ -10,10 +10,10 @@
 📃 Stop@Logger:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Thread
     UUIDs: Thread
 
@@ -23,11 +23,11 @@
     Key: $.Msg.Thread
 
 # Assert the sender
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     From: $thread.Domain
 
 # Update the thread
-- SAVE|$thread:
+- SAVE $thread:
     Stopped: $.Msg.Header.Timestamp
 ```
 

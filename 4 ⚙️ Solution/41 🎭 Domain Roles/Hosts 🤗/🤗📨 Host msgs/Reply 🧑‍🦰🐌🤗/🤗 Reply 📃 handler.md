@@ -26,7 +26,7 @@
 📃 Reply@Host:
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Prompt, Result 
     UUIDs: Prompt
     # Answer may be empty
@@ -38,11 +38,11 @@
     Key: $.Msg.Prompt
 
 # Verify the message
-- VERIFY|$.Msg:
+- VERIFY $.Msg:
     Key: $prompt.Chat.PublicKey
 
 # Set the result
-- SAVE|$prompt:
+- SAVE $prompt:
     $.Msg.Result
     $.Msg.Answer 
 ```

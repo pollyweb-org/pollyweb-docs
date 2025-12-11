@@ -21,7 +21,7 @@
 1. **What is the syntax of the FOR command?**
 
     ```yaml
-    WHILE|<assertion>:
+    WHILE <assertion>:
         # List of commands
         - <command-1>|$item
         - <command-n>|$item

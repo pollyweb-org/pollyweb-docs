@@ -25,7 +25,7 @@
     To: $Bind.Language
 
 # Save the bind
-- SAVE|$Bind:
+- SAVE $Bind:
     VaultTitle: $graph.Domain.Title
     SchemaTitle: $graph.Schema.Title
     Description: $graph.Schema.Description

@@ -17,7 +17,7 @@
 📃 OnChatBinds:
 
 # Process each Bind in parallel
-- PARALLEL|$Chat.Binds|$id:
+- PARALLEL $Chat.Binds >> $id:
 
     # Read the Bind from the table
     - READ >> $bind:
@@ -25,7 +25,7 @@
         Key: $id
 
     # Add the details to the chat
-    - SET|$binds:
+    - SET $binds:
         $bind.ID:
             ID: $bind.ID
             Schema: $bind.Schema
@@ -39,7 +39,7 @@
         Schema: .BIND
 
 # Add to the Chat item
-- SAVE|$Chat:
+- SAVE $Chat:
     Binds: $binds
     Wallet: $wallet
 

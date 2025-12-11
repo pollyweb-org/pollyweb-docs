@@ -11,14 +11,14 @@
 📃 Offered@Issuer:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Token, Answer
     UUIDs: Token
     Texts: Answer
     Answer.IsIn: ACCEPTED, DECLINED
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Get the Token
 - READ >> $token:
@@ -28,7 +28,7 @@
         Broker: $.Msg.From
 
 # Save the Token
-- SAVE|$token:
+- SAVE $token:
     .State: OFFERED
     Answer: $.Msg.Answer
 ```

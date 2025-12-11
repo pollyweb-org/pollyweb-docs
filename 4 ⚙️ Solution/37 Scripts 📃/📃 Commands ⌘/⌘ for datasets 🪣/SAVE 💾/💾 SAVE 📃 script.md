@@ -9,7 +9,7 @@
 
 ```yaml
 # With multiple parameters
-- RUN|.SAVE >> $saved:
+- RUN .SAVE >> $saved:
     Item: {A:1, B:1}
     Set: MySet
     Script: SaveToken       
@@ -20,7 +20,7 @@
 
 ```yaml
 # With an item
-- RUN|.SAVE >> $saved:
+- RUN .SAVE >> $saved:
     Item: $item
     Set: $item.Set
     Script: SaveToken
@@ -35,7 +35,7 @@
 📃 .SAVE:
 
 # Fill the $item
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Set, Item
     Texts: Script, Set, OnBlocked, Delete
     UUIDs: Version
@@ -53,19 +53,19 @@
         Delete: $Delete
 
 # Check the status
-- CASE|$saved.Status:
+- CASE $saved.Status:
 
     # Return the saved item
-    OK: RETURN|$saved.Item
+    OK: RETURN $saved.Item
 
     # Ask for a rerun
-    OUTDATED: HTTP|412|Outdated
+    OUTDATED: HTTP 412|Outdated
 
     # If blocked, see if there's a handler
     BLOCKED: 
-        IF|$OnBlocked:
-            Then: PUT|True >> $.Parent.{$OnBlocked}
-            Else: HTTP|423|Blocked
+        IF $OnBlocked:
+            Then: PUT True >> $.Parent.{$OnBlocked}
+            Else: HTTP 423|Blocked
 ```
 
 

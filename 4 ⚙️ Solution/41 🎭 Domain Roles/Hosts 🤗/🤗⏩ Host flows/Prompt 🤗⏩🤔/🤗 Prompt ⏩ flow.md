@@ -35,8 +35,8 @@ Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Ch
 The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>), with one line per [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>), could be the following.
 
 ```yaml
-- INFO|Hello World!
-- ONE|Like sports? >> $answer:
+- INFO Hello World!
+- ONE Like sports? >> $answer:
     Options: Yes, No, I [love] it, I [hate] it
 ```
 

@@ -20,10 +20,10 @@
 📃 Emoji@Broker:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat, Emoji
     UUIDs: Chat
     Texts: Emoji
@@ -40,7 +40,7 @@
         Chat.State: ACTIVE   
 
 # Update the Chat emoji
-- SAVE|$chatter.Chat:
+- SAVE $chatter.Chat:
     Emoji: $.Msg.Emoji
 ```
 

@@ -17,19 +17,19 @@
 📃 ChatAbandon:
 
 # Ignore if not active
-- IF|$.Chat.State.IsNot(ACTIVE):
-    - FAIL|The chat is not active.
+- IF $.Chat.State.IsNot(ACTIVE):
+    - FAIL The chat is not active.
     - RETURN
 
 # Confirm before abandoning
-- CONFIRM|Abandon this chat?
+- CONFIRM Abandon this chat?
 
 # Process the user's option
-- SAVE|$.Chat:
+- SAVE $.Chat:
     .State: ABANDONED
 
 # Inform success
-- DONE|Chat abandoned!
+- DONE Chat abandoned!
 - GOODBYE
 ```
 

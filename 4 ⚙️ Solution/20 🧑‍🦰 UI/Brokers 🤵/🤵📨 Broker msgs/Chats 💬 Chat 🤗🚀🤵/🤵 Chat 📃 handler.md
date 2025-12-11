@@ -16,12 +16,12 @@
 📃 Chat@Broker:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat
     UUIDs: Chat
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Get the chatter item
 - READ >> $chatter:
@@ -31,15 +31,15 @@
         Chat: $.Msg.Chat
 
 # Add the Chat details to the response
-- SET|$chatter.Chat >> $resp:
+- SET $chatter.Chat >> $resp:
     ID, PublicKey, Language, Timezone
 
 # Add the Chatter details to the response
-- SET|$chatter >> $resp:
+- SET $chatter >> $resp:
     Key, Properties, Binds, Tokens
 
 # Respond
-- RETURN|$resp
+- RETURN $resp
 ```
 
 Uses||

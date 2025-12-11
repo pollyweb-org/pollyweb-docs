@@ -9,7 +9,7 @@
 ## How to call
 
 ```yaml
-- RUN|.SHARE:
+- RUN .SHARE:
     Schemas: 
       - any-authority.dom/ANY-SCHEMA
     Context: {...}
@@ -22,14 +22,14 @@
 📃 .SHARE:
 
 # Assert the inputs
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Schemas
     Lists: Schemas
     Domain.IsDomain:
     Schemas.Each.IsSchema:
 
 # Save the hook
-- SAVE|Consumer.Queries >> $query:
+- SAVE Consumer.Queries >> $query:
     Broker: $.Chat.Broker
     Chat: $.Chat.Chat
     Schemas: $Schemas

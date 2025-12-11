@@ -16,19 +16,19 @@ TODO: Add the flow to the Manifest
 💬|[Buy] an item:
 
 # Set the Chat's flow.
-- INFORM|Buy
+- INFORM Buy
 
 # Ask for the item number.
-- DIGITS|What's the item number? >> $number
+- DIGITS What's the item number? >> $number
 
 # Confirm using the item's name.
-- READ|Items|$number >> $item
+- READ Items|$number >> $item
 - CONFIRM:
     Text: A {$item.Name}?
 
 # Ask proof of over 21 if needed.
-- IF|$item.21+:
-    Then: SHARE|.IDENTITY/OVER-21
+- IF $item.21+:
+    Then: SHARE .IDENTITY/OVER-21
 
 # Charge the item price.
 # * FREEZE is executed automatically.
@@ -38,13 +38,13 @@ TODO: Add the flow to the Manifest
         Name: $item.Name
 
 # Deliver the item.
-- TEMP|Delivering...   
+- TEMP Delivering...   
 
 # Find the MachineKey from the Chat Locator
-- READ|Locators|$.Chat.Key >> $locator
+- READ Locators|$.Chat.Key >> $locator
 
 # Relay the Open command to the vending machine.
-- RELAY|Machines|$locator.MachineKey >> relayed:
+- RELAY Machines|$locator.MachineKey >> relayed:
     Script: Open({$item.Number})
     OnFailure: Failure
     OnSuccess: Success
@@ -53,8 +53,8 @@ TODO: Add the flow to the Manifest
 ```yaml
 # Show error.
 📃 fail:
-- FAIL|It didn't work!   # Inform the user
-- REFUND|$charge            # Refund the value
+- FAIL It didn't work!   # Inform the user
+- REFUND $charge            # Refund the value
 - LOG:
     Machine: $.Chat.Key
     Item: $item.Number
@@ -65,9 +65,9 @@ TODO: Add the flow to the Manifest
 ```yaml
 # Show success.
 📃 Success:
-- DONE|Pick up the item. # Inform the user
+- DONE Pick up the item. # Inform the user
 - GOODBYE                   # Show review, ads
-- CALL|Deduct:              # Deduct the stock
+- CALL Deduct:              # Deduct the stock
     Machine: $.Chat.Key
     Item: $item.Number    
 ```

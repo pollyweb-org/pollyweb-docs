@@ -28,9 +28,9 @@
         Role: HELPER
 
 # Progress the state
-- IF|$exists:
-    Then: RETURN|ADDED
-    Else: RETURN|VERIFIED
+- IF $exists:
+    Then: RETURN ADDED
+    Else: RETURN VERIFIED
 ```
 
 Uses ||

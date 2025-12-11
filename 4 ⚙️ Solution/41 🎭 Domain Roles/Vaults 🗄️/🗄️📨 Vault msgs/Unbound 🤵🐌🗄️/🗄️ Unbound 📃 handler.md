@@ -13,12 +13,12 @@
 🗄️📃 Unbound@Vault:
 
 # Verify the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Bind
     UUIDs: Bind
 
 # Verify the domain signature
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Check if the Broker is still trustworthy
 - TRUSTS|$.Msg.From:
@@ -33,7 +33,7 @@
         .State: BOUND
 
 # Remove the bind
-- SAVE|$bind:
+- SAVE $bind:
     .State: UNBOUND
 ```
 

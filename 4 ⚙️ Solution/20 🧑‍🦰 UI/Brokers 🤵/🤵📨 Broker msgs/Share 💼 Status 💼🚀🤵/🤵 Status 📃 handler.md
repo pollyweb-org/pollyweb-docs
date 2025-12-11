@@ -14,7 +14,7 @@
 
 ```yaml
 # Verify the Consumer message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Get the Token, if ever given to the Consumer
 - READ >> $token:

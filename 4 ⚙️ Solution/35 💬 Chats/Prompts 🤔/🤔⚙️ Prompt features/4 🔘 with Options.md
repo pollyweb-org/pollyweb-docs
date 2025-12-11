@@ -151,15 +151,15 @@
     # 😃 Talker
 
     # Ask the question.
-    - ONE|What to do?:
+    - ONE What to do?:
         Options:
             - /Play music 
             - /Share list
 
     # Check the answer.
     - CASE: # Default to last input.
-        Play : INFO|You opted to play.
-        Share: INFO|You choose to share.
+        Play : INFO You opted to play.
+        Share: INFO You choose to share.
     ```
 
     | [Command ⌘](<../../Scripts 📃/Command ⌘.md>) | Purpose
@@ -232,8 +232,8 @@
 
     # Check the answer.
     - CASE: 
-        Play : INFO|You opted to play.
-        Share: INFO|You choose to share.
+        Play : INFO You opted to play.
+        Share: INFO You choose to share.
         # [Speak] never gets here.
     ```
 

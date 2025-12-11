@@ -14,10 +14,10 @@
 📃 Invite@Broker:
 
 # Verify the message
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Chat, Helper, Schema, Invite
     UUIDs: Chat, Invite
     Texts: Helper, Schema
@@ -32,7 +32,7 @@
         Domain: $.Msg.From
 
 # Add the invite
-- SAVE|Broker.Invites:
+- SAVE Broker.Invites:
     Chat: $.Msg.Chat
     Consumer: $.Msg.From
     Invite: $.Msg.Invite

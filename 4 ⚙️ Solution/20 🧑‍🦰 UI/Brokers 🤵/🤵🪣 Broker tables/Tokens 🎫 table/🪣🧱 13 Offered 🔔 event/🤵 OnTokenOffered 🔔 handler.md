@@ -19,15 +19,15 @@
 📃 OnTokenOffered:
 
 # Assert the inputs
-- ASSERT|$Token:
+- ASSERT $Token:
     AllOf: Wallet, Token, Issuer, Accepted
     UUIDs: Wallet, Token
     Texts: Issuer
     Bools: Accepted
 
 # Ignore if not accepted
-- IFNOT|$Token.Accepted:
-    RETURN|DECLINED
+- IFNOT $Token.Accepted:
+    RETURN DECLINED
 
 # Otherwise, ask the wallet to save the token
 - SEND:

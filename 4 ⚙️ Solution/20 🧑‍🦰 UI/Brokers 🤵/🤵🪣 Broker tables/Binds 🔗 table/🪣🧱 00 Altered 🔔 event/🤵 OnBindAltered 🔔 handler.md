@@ -21,7 +21,7 @@
 ## How to call
 
 ```yaml
-- RUN|OnBindAltered:
+- RUN OnBindAltered:
     Item: 
         Wallet: <wallet-id>
 ```
@@ -37,7 +37,7 @@
     Key: $Item.Wallet
 
 # Prepare the response
-- PUT|$wallet.Binds >> $binds:
+- PUT $wallet.Binds >> $binds:
     Bind, Vault, Vault$, Schema, Schema$
 
 # Get the Wallet's Frontend
@@ -46,7 +46,7 @@
     Key: $wallet.ID
 
 # Replace only the Frontend Binds.
-- SAVE|$frontend:
+- SAVE $frontend:
     Binds: $binds
 ```
 

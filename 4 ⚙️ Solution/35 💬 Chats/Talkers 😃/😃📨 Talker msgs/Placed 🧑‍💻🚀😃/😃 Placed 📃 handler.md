@@ -16,10 +16,10 @@
 📃 Placed@Talker:
 
 # Verify the domain signature
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Assert the inputs
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Hook, Holder
     UUIDs: Hook
     Texts: Holder

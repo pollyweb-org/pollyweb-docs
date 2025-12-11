@@ -70,9 +70,9 @@
 
     ```yaml
     📃 Example:
-    - CONFIRM|Add a database row?
-    - CALL|addRow >> $count
-    - DONE|The database now has {$count} rows.
+    - CONFIRM Add a database row?
+    - CALL addRow >> $count
+    - DONE The database now has {$count} rows.
     - REPEAT
     ```
 

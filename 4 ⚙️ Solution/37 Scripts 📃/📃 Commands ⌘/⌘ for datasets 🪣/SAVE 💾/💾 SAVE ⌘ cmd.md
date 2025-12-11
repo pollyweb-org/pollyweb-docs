@@ -23,7 +23,7 @@
     
     ```yaml
     # Single item
-    - SAVE|<set> >> $inserted:
+    - SAVE <set> >> $inserted:
         :{object}:
         .Delete: <duration>   # Optional
         .OnBlocked: <holder>  # Optional
@@ -51,20 +51,20 @@
 
     ```yaml
     # With an object
-    - SAVE|mySet:
+    - SAVE mySet:
         A: 1
         B: 2
         .Delete: 1 day
         .OnBlocked: onBlocked
 
     # With a holder
-    - SAVE|mySet:
+    - SAVE mySet:
         $myItem
 
 
     # With a mix of both, 
     #   by adding surrounding ":" to placeholders
-    - SAVE|mySet:
+    - SAVE mySet:
         A: 1
         B: 2
         :{$partA}:
@@ -80,10 +80,10 @@
 
     ```yaml
     # Simplest
-    - SAVE|$item
+    - SAVE $item
 
     # Comprehensive
-    - SAVE|$item: 
+    - SAVE $item: 
         :{changes}:
         .Delete: <period>
         .OnBlocked: <holder>
@@ -111,7 +111,7 @@
 
     # Change a single property
     # Save or fail on concurrent saves
-    - SAVE|$item:
+    - SAVE $item:
         a: 1
     ```
 
@@ -136,7 +136,7 @@
             b: 2
 
     # Save {a:1, b:2}
-    - SAVE|$item:
+    - SAVE $item:
         a: 1
     ```
 
@@ -168,7 +168,7 @@
         From: $list
         Where: B.Is($item.B)
     
-    - SAVE|$item
+    - SAVE $item
     ```
     Uses: [`SELECT`](<../../⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>)
 
@@ -180,7 +180,7 @@
     Consider the following [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [`Issue@Broker` 🐌 msg](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>).
     
     ```yaml
-    SAVE|$item:
+    SAVE $item:
         .Delete: 
             .Lower:
                 $expiration,

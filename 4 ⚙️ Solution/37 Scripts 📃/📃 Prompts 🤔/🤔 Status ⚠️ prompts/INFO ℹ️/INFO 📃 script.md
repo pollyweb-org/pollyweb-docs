@@ -8,7 +8,7 @@
 ## How to use
 
 ```yaml
-- RUN|.INFO:
+- RUN .INFO:
     Text: Simple info.
 ```
 
@@ -18,12 +18,12 @@
 📃 .INFO:
 
 # Verify the inputs:
-- ASSERT|$.Inputs:
+- ASSERT $.Inputs:
     AllOf: Text
     Texts: Text
 
 # The the message
-- RUN|.PROMPT:
+- RUN .PROMPT:
     $.Inputs: 
     Format: INFO
 ```

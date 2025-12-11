@@ -19,7 +19,7 @@
 📃 OnQueryMatched:
 
 # Verify the trust of each match
-- PARALLEL|$Query.Matches|$match:
+- PARALLEL $Query.Matches >> $match:
 
     # Ask if the Consumer trusts the Vault
     - TRUSTS >> $trustedVault:
@@ -36,11 +36,11 @@
         Role: CONSUMER
 
     # If trusted, add to the trusted list
-    - IF|.AllOf($trustedVault, $trustedConsumer):
-        PUT|$match +> $trusted:
+    - IF .AllOf($trustedVault, $trustedConsumer):
+        PUT $match +> $trusted:
 
 # Set the trusted matches to the Query item
-- SAVE|$Query:
+- SAVE $Query:
     Trusted: $trusted
     .State: .If($trusted, TRUSTED, UNTRUSTED)
 ```

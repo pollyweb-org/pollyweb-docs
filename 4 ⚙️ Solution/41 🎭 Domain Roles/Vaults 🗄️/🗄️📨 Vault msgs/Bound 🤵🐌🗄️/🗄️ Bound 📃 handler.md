@@ -22,12 +22,12 @@
 📃 Bound@Vault:
 
 # Assert the message
-- ASSERT|$.Msg:
+- ASSERT $.Msg:
     AllOf: Bind, Answer
     Answer.IsIn: ACCEPTED, DECLINED
 
 # Verify the domain signature
-- VERIFY|$.Msg
+- VERIFY $.Msg
 
 # Check if the Broker is still trustworthy
 - TRUSTS|$.Msg.From:
@@ -42,12 +42,12 @@
         .State: OFFERED
 
 # Save the Bind
-- CASE|$.Msg.Answer:
+- CASE $.Msg.Answer:
     ACCEPTED: 
-        SAVE|$bind:
+        SAVE $bind:
             .State: BOUND
     DECLINED:
-        SAVE|$bind:
+        SAVE $bind:
             .State: DECLINED
 ```
 

@@ -28,7 +28,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    - RELAY|<set>|<key> >> $result:
+    - RELAY <set>|<key> >> $result:
         Script: <script>
         OnFailure: <failure>
         OnSuccess: <success>
@@ -58,21 +58,21 @@
     # 😃 Talker 
 
     💬 Open locker door:
-    - INFO|This is Locker {$locker}
-    - TEMP|Opening door {$door}...
+    - INFO This is Locker {$locker}
+    - TEMP Opening door {$door}...
 
     # Relay the open message.
-    - RELAY|Lockers|{$locker} >> $result:
+    - RELAY Lockers|{$locker} >> $result:
         Script: Open({$door})
         OnFailure: FailureHandler
         OnSuccess: SuccessHandler
 
     FailureHandler:
-    - FAIL|Try again.     # Notify the user
-    - LOG|$result            # Log the result
+    - FAIL Try again.     # Notify the user
+    - LOG $result            # Log the result
 
     SuccessHandler:
-    - DONE|Locker opened. # Notify the user
+    - DONE Locker opened. # Notify the user
     ```
 
     Uses: [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`LOG`](<../../⌘ for control ▶️/LOG 🪵/🪵 LOG ⌘ cmd.md>) [`RELAY`](<🛰️ RELAY ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`TEMP`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>)

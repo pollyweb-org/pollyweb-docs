@@ -32,9 +32,9 @@
         $Bind.Description
 
 # Save the bind
-- IF|$accepted:
-    Then: RETURN|ACTIVE
-    Else: RETURN|REJECTED
+- IF $accepted:
+    Then: RETURN ACTIVE
+    Else: RETURN REJECTED
 ```
 
 Uses||

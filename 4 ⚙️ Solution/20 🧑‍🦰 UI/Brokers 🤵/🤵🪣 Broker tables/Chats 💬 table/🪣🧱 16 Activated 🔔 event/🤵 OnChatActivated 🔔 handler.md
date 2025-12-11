@@ -17,7 +17,7 @@
 📃 OnChatActivated:
 
 # Add the HOST participant
-SAVE|Broker.Chatters:
+- SAVE Broker.Chatters:
     .State: HOST
     Chat: $Chat.ID
     Domain: $Chat.Host

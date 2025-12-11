@@ -38,8 +38,8 @@
     
     ```yaml
     # 😃 Talker 
-    - INFO|Any non-blocking status.
-    - CONFIRM|I'm blocking inputs, OK?
+    - INFO Any non-blocking status.
+    - CONFIRM I'm blocking inputs, OK?
     ```
 
     ---
@@ -71,13 +71,13 @@
 
     💬 Example:
     # Non-blocking
-    - INFO|With options >> $selected:
+    - INFO With options >> $selected:
         Options: 
           - "[Cancel] later"
           - "[Play] music"
 
     # Deferred decision tree
-    - CASE|{$selected}:
+    - CASE {$selected}:
         $: ContinueProc
         Cancel: CancelProc
         Play: PlayProc

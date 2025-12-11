@@ -14,12 +14,12 @@
     Lists: $Set, $Filters
 
 # Filter the list
-- CALL|.Filter >> $output:
+- CALL .Filter >> $output:
     - $Set
     - $Filters
 
 # Return the output
-- RETURN|$output
+- RETURN $output
 ```
 
 Uses||

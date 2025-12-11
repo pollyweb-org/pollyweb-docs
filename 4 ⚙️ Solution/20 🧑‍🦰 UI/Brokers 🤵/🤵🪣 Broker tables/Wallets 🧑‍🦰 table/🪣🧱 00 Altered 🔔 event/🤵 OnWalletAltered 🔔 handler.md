@@ -22,13 +22,13 @@
 📃 OnWalletAltered:
 
 # Assert the Wallet item
-- ASSERT|$Wallet:
+- ASSERT $Wallet:
     AllOf: ID, Language, PublicKey
     UUIDs: ID
     Texts: Language, PublicKey
 
 # Insert or update the Frontend
-- SAVE|Broker.Frontend:
+- SAVE Broker.Frontend:
     Wallet: $Wallet.ID
     Language: $Wallet.Language
     PublicKey: $Wallet.PublicKey

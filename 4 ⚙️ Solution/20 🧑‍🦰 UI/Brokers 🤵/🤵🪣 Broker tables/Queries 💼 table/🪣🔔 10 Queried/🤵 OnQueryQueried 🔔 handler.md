@@ -26,9 +26,9 @@
     $Query.Chat.FormSchemas
 
 # Check if only informed schemas were queried
-- IF|$queried.IsIn($informed):
-    Then: RETURN|INFORMED   # Continue
-    Else: RETURN|ABRUPT     # Stop
+- IF $queried.IsIn($informed):
+    Then: RETURN INFORMED   # Continue
+    Else: RETURN ABRUPT     # Stop
 ```
 
 Uses||

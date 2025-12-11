@@ -19,13 +19,13 @@
 📃 OnChatOpened:
 
 # Assert the Chat
-- ASSERT|$Chat:
+- ASSERT $Chat:
     AllOf: Host
     Texts: Host
 
 # Activate the Chat on Pop@Broker
-- IF|$Chat.Host.Is($.Hosted.Domain):
-    RETURN|ACTIVE
+- IF $Chat.Host.Is($.Hosted.Domain):
+    RETURN ACTIVE
 
 # Otherwise, add the Finder to the Chat
 - INVITE:
@@ -46,7 +46,7 @@
     Schema: .CHAT/INTRO/BROKER
 
 # Return presented
-- RETURN|ACTIVE
+- RETURN ACTIVE
 ```
 
 
