@@ -1,18 +1,24 @@
 @startuml SignToken
 
-participant "Consumer 💼" as consumer
+participant "Issuer 🎴" as issuer
+participant "Broker 🤵" as broker
 box Identity 🆔 domain #FFFFFA
     participant "SignToken 😃" as script
-    participant "Tokens 🪣" as tokens
+    participant "Stamps 🪣" as tokens
 end box
 
 
-consumer --> script: 🐌 Query@Broker 🧩 TOKEN/SIGN
+activate issuer
+issuer -> broker: SHARE 💼 \n  .ID/TOKEN/SIGN 🧩
+
+activate broker
+    broker --> script: Disclose@Vault 🐌 
+deactivate broker
 
 activate script
-    script -> tokens: SAVE 💾 {wallet, consumer}
+    script -> tokens: SAVE 💾 {wallet, issuer}
 
-    script --> consumer: Consume@Consumer 🐌 {key}
+    script -> issuer: {stamp}
 deactivate script
 
     
