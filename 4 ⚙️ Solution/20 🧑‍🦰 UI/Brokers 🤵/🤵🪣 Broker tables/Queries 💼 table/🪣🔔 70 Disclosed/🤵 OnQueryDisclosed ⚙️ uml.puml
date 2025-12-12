@@ -5,6 +5,7 @@ box Broker 🤵 domain #FFFFFA
     participant "OnDisclosed 🔔" as handler
 end box
 participant "Vault 🗄️" as vault
+participant "Consumer 💼" as consumer
 
 activate table
     table --> handler: DISCLOSED 🔔
@@ -13,5 +14,10 @@ deactivate table
 activate handler
     handler --> vault: SEND 📬 {Disclose@ 🐌}
 deactivate handler
+
+activate vault
+    vault --> consumer: Consume@ 🐌 {data}
+deactivate vault
+    
 
 @enduml

@@ -1,18 +1,25 @@
 @startuml VerifyToken
 
 participant "Consumer 💼" as consumer
+participant "Broker 🤵" as broker
 box Identity 🆔 domain #FFFFFA
-    participant "VerifyToken  😃" as script
-    participant "Tokens 🪣" as tokens
+    participant "VerifyToken 😃" as script
+    participant "Stamps 🪣" as tokens
     participant "Selfie 📸" as identify
 end box
 participant "Wallet 👱" as wallet
 
 
-consumer --> script: 🐌 Query@Broker 🧩 TOKEN/VERIFY \n{issuer, token, signature}
+activate consumer
+consumer -> broker: INVITE 🤲 .\n  ID/TOKEN/PROXY 🧩 \n  {identity, stamp}
+
+
+activate broker
+    broker -> script: INVITE 🤲 \n  TOKEN/VERIFY 🧩 {stamp}
+deactivate broker
 
 activate script
-    script -> tokens: READ 🧲
+    script -> tokens: READ 🧲 {stamp}
     script -> identify: RUN {user}
 deactivate script
 
@@ -23,8 +30,13 @@ deactivate identify
 
 
 activate script
-    script --> consumer: Consume@Consumer 🐌 {result}
+    script -> broker: 
 deactivate script
+
+activate broker
+    broker -> consumer: 
+deactivate broker
+
 
     
 @enduml
