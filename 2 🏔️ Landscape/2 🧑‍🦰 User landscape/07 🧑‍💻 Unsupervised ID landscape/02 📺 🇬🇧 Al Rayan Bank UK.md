@@ -1,6 +1,10 @@
 📺 How does 🇬🇧 Al Rayan Bank UK onboard customers remotely?
 ---
 
+> Part of [🧑‍💻 Unsupervised ID authentication landscape](<00 🧑‍💻 Unsupervised ID index.md>)
+
+<br/>
+
 In 2023, the Al Rayan Bank in UK published the following video, titled *"Registering for Mobile Banking with Face ID"*.
 
 - The video shows how to register for mobile banking using Face ID. 

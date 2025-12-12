@@ -1,6 +1,11 @@
 📺 What does Microsoft offer for remote ID verification?
 ---
 
+> Part of [🧑‍💻 Unsupervised ID authentication landscape](<00 🧑‍💻 Unsupervised ID index.md>)
+
+<br/>
+
+
 Microsoft is also involved with the Decentralized Identity Foundation (DIF) and the World Wide Web Consortium (W3C) to ensure interoperability across different platforms.
 
 - In 2022, Microsoft launched the Azure AD Verifiable Credentials, and the Microsoft's Decentralized Identity (DID) projects. 

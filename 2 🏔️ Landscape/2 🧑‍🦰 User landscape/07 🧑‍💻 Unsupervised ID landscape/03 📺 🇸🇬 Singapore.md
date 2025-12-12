@@ -1,6 +1,10 @@
 📺 How did 🇸🇬 Singapore adopt biometrics in their national identity program?
 ---
 
+> Part of [🧑‍💻 Unsupervised ID authentication landscape](<00 🧑‍💻 Unsupervised ID index.md>)
+
+<br/>
+
 In 2020, the CCTV Video News Agency released the following video, titled *"Singapore Adopts Facial Verification System for National Identity Program"*.
 
 - The video discusses the Singapore government's adoption of a facial verification system for its national identity program. 

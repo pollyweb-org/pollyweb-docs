@@ -1,6 +1,11 @@
 📺 How does 🇸🇬 OCBC Bank Singapore implement face ID in ATMs?
 ---
 
+> Part of [🧑‍💻 Unsupervised ID authentication landscape](<00 🧑‍💻 Unsupervised ID index.md>)
+
+<br/>
+
+
 In the 2021, The Straits Times released the following video, titled *"OCBC ATM with facial recognition technology"*.
 
 - The video shows how customers of the OCBC Bank in Singapore can simply need to enter their National Registration Identity Card (NRIC) number and face a camera to check their account balances at the bank's ATMs.

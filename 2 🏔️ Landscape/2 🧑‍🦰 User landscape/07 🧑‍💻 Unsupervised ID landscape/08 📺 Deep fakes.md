@@ -1,6 +1,11 @@
 📺 How can Generative AI be used to fake a person?
 ---
 
+> Part of [🧑‍💻 Unsupervised ID authentication landscape](<00 🧑‍💻 Unsupervised ID index.md>)
+
+<br/>
+
+
 In 2024, CGTN (a Chinese media organization) published the following video, titled *"How does China regulate generative AI use, curbing 'face theft'?*".
 
 - The video discusses how China is regulating generative AI, particularly focusing on the protection of portrait rights. 
