@@ -31,9 +31,10 @@
     - thieves can [replace the face ID 📺](<07 📺 Apple's thief.md>) to drain the owner's bank accounts;
     - and hackers can use [Generative AI 📺](<08 📺 Deep fakes.md>) to interfere with the device's face biometrics.
 
-- How remotely-controlled liveness checks are safer than phone's face biometrics, e.g.:
+- How remotely-controlled liveness checks may be safer than phone's face biometrics, e.g.:
     - [Amazon 📺](<09 📺 Amazon liveness.md>), with Amazon Rekognition Liveness Check;
     - and [Microsoft 📺](<10 📺 Microsoft liveness.md>), with Microsoft Entra Verified ID.
 
+- Why IBM recommends [multi-factor authentication (MFA) 📺](<11 📺 IBM MFA.md>) with hardware tokens or mobile authenticators when leveraging biometric factors.
 
 ---
