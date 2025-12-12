@@ -3,8 +3,7 @@
 
 > Part of [Identity 🆔 domains](<../../🆔 Identity agent/🆔 Identity 🫥 agent.md>)
 
- <br/>
-
+## FAQ
 
 1. **What is an Identity-bound Token?**
 

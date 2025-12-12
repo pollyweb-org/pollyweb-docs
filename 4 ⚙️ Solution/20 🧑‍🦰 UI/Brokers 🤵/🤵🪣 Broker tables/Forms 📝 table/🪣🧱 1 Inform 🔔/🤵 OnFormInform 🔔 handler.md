@@ -45,17 +45,18 @@
     Then: # ...ask for confirmation to proceed 
         - CONFIRM: 
             Text: >
-                Continue?
+                Ready to continue?
                 **´{$form.Title.Require}´**
                 ´{$form.Steps.Purpose.Require}´
             Details: ´$form.Details´
 
     Else: # ...otherwise, just inform
         - INFO:
-            Text: >
-                **´{$form.Title.Require}´**
+            Text: Flow: ´{$form.Title.Require}´
+            Details: > 
+                Steps: 
                 ´{$form.Steps.Purpose.Require}´
-            Details: ´$form.Details´
+                ´$form.Details´
 
 # Set the form on the Chat
 - SAVE $Form.Chat:
