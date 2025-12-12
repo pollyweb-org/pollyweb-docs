@@ -40,7 +40,7 @@
     # Listen to only one trigger:
     #   either a timeout or a hook.
 
-    - WAIT <something> >> $result
+    - WAIT: <something> >> $result
     ```
 
     | Input| Purpose 
@@ -61,7 +61,7 @@
     # 😃 Talker 
     💬 Clock:
     - TEMP: It's {.Now}
-    - WAIT 00:00:01 
+    - WAIT: 00:00:01 
     - REPEAT
     ```
 

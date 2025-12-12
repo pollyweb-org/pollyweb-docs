@@ -206,7 +206,7 @@
     📃 Calculate:
 
     # Exit with a result
-    - RETURN Won
+    - RETURN: Won
 
     # It should't get to this line
     - FAIL: This is a bug.
@@ -251,7 +251,7 @@
 
     # Calculate and exit the script
     - INFO: Adding 5 to {$1}...
-    - RETURN .Add($1, 5)
+    - RETURN: .Add($1, 5)
 
     # It shouldn't get to this line
     - FAIL: This is a bug.
@@ -306,8 +306,8 @@
 
     ```yaml
     📃 Main:
-    - PUT 1 >> $a    # set $a:1
-    - PUT 2 >> $b    # set $b:2
+    - PUT: 1 >> $a    # set $a:1
+    - PUT: 2 >> $b    # set $b:2
     - RUN Sub($a)     # pass only $a
     ```
 

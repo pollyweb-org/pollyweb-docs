@@ -120,8 +120,8 @@
     
     ```yaml
     📃 Example:
-    - PUT A +> $list
-    - PUT B +> $list
+    - PUT: A +> $list
+    - PUT: B +> $list
     # Results in [A,B]    
     ```
 
@@ -129,8 +129,8 @@
 
     ```yaml
     📃 Example:
-    - PUT A >> $list
-    - PUT $list.Add(A) >> $list
+    - PUT: A >> $list
+    - PUT: $list.Add(A) >> $list
     # Results in [A,B]    
     ```
     

@@ -39,7 +39,7 @@
     Key, Properties, Binds, Tokens
 
 # Respond
-- RETURN $resp
+- RETURN: $resp
 ```
 
 Uses||

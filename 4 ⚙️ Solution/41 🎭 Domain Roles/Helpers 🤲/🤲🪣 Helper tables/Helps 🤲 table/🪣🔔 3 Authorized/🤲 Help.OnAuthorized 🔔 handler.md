@@ -29,7 +29,7 @@
 
 # Fail if not valid
 - IFNOT $valid:
-    RETURN BROKEN
+    RETURN: BROKEN
 
 # Progress if valid
 - SAVE $Help:

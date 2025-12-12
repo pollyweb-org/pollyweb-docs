@@ -167,7 +167,7 @@
     📃 Example: 
 
     # Collect a number
-    - DIGITS Number from 1 to 3? >> $input
+    - DIGITS: Number from 1 to 3? >> $input
 
     # Translate the number
     - CASE $input >> $output:

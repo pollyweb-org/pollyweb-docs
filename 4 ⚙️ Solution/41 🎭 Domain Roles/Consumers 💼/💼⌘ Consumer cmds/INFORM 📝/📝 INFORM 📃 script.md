@@ -27,7 +27,7 @@
     Texts: Form
 
 # Create a hook
-- PUT .UUID >> $hook:
+- PUT: .UUID >> $hook
 
 # Send the INFORM message
 - SEND:
@@ -40,7 +40,7 @@
         Hook: $hook
 
 # Wait for the confirmation
-- WAIT $hook
+- WAIT: $hook
 ```
 
 Uses||

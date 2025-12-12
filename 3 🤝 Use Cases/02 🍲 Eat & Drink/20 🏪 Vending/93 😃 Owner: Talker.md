@@ -19,7 +19,7 @@ TODO: Add the flow to the Manifest
 - INFORM: Buy
 
 # Ask for the item number.
-- DIGITS What's the item number? >> $number
+- DIGITS: What's the item number? >> $number
 
 # Confirm using the item's name.
 - READ Items|$number >> $item
@@ -27,8 +27,10 @@ TODO: Add the flow to the Manifest
     Text: A {$item.Name}?
 
 # Ask proof of over 21 if needed.
-- IF $item.21+:
-    SHARE .IDENTITY/OVER-21
+- IF:
+    $item.21+
+- THEN:
+    SHARE: .IDENTITY/OVER-21
 
 # Charge the item price.
 # * FREEZE is executed automatically.

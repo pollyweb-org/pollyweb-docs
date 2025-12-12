@@ -51,7 +51,7 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
     Where: $$ID.IsIn($result.ID)
 
 # Return the list of items selected.
-- RETURN $selected
+- RETURN: $selected
 ```
 
 Uses||

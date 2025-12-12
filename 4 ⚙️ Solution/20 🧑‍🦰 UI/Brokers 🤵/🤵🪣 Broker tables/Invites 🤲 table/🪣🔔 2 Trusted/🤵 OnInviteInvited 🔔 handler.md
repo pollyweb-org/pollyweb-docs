@@ -29,9 +29,9 @@
 
 # Progress the state
 - IF $exists:
-    RETURN ADDED
+    RETURN: ADDED
 - ELSE:
-    RETURN VERIFIED
+    RETURN: VERIFIED
 ```
 
 Uses ||

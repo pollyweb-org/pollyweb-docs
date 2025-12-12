@@ -48,7 +48,7 @@
     With the [`SET`](<../../📃 Commands ⌘/⌘ for holders 🧠/SET ↘️/↘️ SET ⌘ cmd.md>) command.
 
     ```yaml
-    SET|$in:
+    SET $in:
         - A.Default(123)
         - B.Default(456)
     ```

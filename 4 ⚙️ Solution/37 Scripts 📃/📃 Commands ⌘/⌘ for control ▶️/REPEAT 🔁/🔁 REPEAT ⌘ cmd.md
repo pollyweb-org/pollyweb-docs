@@ -18,7 +18,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    - REPEAT <text>
+    - REPEAT: <text>
     ```
 
     | Input| Purpose
@@ -46,7 +46,7 @@
     ```yaml
     💬|Show time:
     - DONE: The time is {.Now}.
-    - REPEAT Check again?
+    - REPEAT: Check again?
     ```
 
     Uses: [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>)
@@ -127,18 +127,18 @@
     📃 AddItems:
 
     # Ask the ser for a code
-    - DIGITS  What's the item code? >> $code:
+    - DIGITS: What's the item code? >> $code
         
     # Call the custom function 
     #    to add it to the ERP 
     #    and get the description
-    - CALL AddItem($code) >> $description:
+    - CALL: AddItem($code) >> $description
 
     # Show the description to the user
     - INFO: Added `{$description}`
 
     # Repeat after the user confirms
-    - REPEAT Add another?
+    - REPEAT: Add another?
     ```
     Uses:  [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS ⌘ cmd.md>) [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>) 
 
@@ -173,17 +173,16 @@
 
     ```yaml
     💬 Play guess:                      
-    - PUT .Random(1,9) >> $target       # Set the target
-    - INFO: You have 3 attempts.          # Inform the rules
-    - PUT >> $tries:                     # Reset the counter
-        3
-    - RUN: TryLoop >> $result             # Run the loop
-    - CASE $result:                      # Check the result
+    - PUT: .Random(1,9) >> $target       # Set the target
+    - INFO: You have 3 attempts.        # Inform the rules
+    - PUT: 3 >> $tries                  # Reset the counter
+    - RUN: TryLoop >> $result           # Run the loop
+    - CASE $result:                     # Check the result
         Won: DONE You won! 🥳
         Lost: FAIL You lost! 😮
-    - REPEAT Play again?                 # Ask to play again
-    - INFO: OK, see you next time!        # Exit the game
-    - GOODBYE                            # Show ads
+    - REPEAT: Play again?               # Ask to play again
+    - INFO: OK, see you next time!      # Exit the game
+    - GOODBYE                           # Show ads
 
     TryLoop:      
 
@@ -198,7 +197,7 @@
         # If matched, the user won.             
         $target: RETURN Won
         # If not matched, then decrease the tries
-        $: SET|$tries.Minus(1)
+        $: SET $tries.Minus(1)
 
     # Verify the number of tries.
     - CASE $tries:               

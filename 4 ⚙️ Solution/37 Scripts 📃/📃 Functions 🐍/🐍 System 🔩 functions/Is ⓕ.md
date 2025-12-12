@@ -58,7 +58,7 @@
         INFO It is!    
 
     # With holders
-    - PUT 1 >> $p
+    - PUT: 1 >> $p
     - IF $p.Is(1):
         INFO It is!    
     ```

@@ -86,7 +86,7 @@
         A: 1
 
     # Wait for the output
-    - WAIT $hook >> $output
+    - WAIT: $hook >> $output
     ```
     Uses: [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>)
 
@@ -104,10 +104,10 @@
     📃 Example: 
 
     # Generate a common hook
-    - PUT .UUID >> $hook
+    - PUT: .UUID >> $hook
 
     # Imprint holders before ASYNC
-    - IMPRINT $hook
+    - IMPRINT: $hook
 
     # Call ASYNC
     - ASYNC:
@@ -133,10 +133,10 @@
     📃 Example: 
 
     # Generate a common hook
-    - PUT .UUID >> $hook
+    - PUT: .UUID >> $hook
 
     # Imprint holders before ASYNC
-    - IMPRINT $hook
+    - IMPRINT: $hook
 
     # Call ASYNC
     - ASYNC:
@@ -146,10 +146,10 @@
             A: 1
 
     # Wait for the output
-    - WAIT $hook >> $output
+    - WAIT: $hook >> $output
 
     # Recall holders after ASYNC
-    - RECALL $hook
+    - RECALL: $hook
     ```
     Uses: [`IMPRINT`](<../IMPRINT 🦶/🦶 IMPRINT ⌘ cmd.md>) [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>) [`RECALL`](<../RECALL 🪶/🪶 RECALL ⌘ cmd.md>)
     

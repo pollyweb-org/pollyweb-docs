@@ -25,7 +25,7 @@
 
 # Activate the Chat on Pop@Broker
 - IF $Chat.Host.Is($.Hosted.Domain):
-    RETURN ACTIVE
+    RETURN: ACTIVE
 
 # Otherwise, add the Finder to the Chat
 - INVITE:
@@ -46,7 +46,7 @@
     Schema: .CHAT/INTRO/BROKER
 
 # Return presented
-- RETURN ACTIVE
+- RETURN: ACTIVE
 ```
 
 

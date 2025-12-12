@@ -55,7 +55,7 @@
 
 # Return the token
 - IF $accepted:
-    RETURN $token
+    RETURN: $token
 ```
 
 Uses||

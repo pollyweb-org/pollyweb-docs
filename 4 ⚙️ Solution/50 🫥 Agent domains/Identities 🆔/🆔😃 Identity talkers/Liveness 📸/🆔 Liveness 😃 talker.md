@@ -37,7 +37,7 @@
     URL: $liveness.URL
     
 # Wait for the selfie validation
-- WAIT $liveness.Hook
+- WAIT: $liveness.Hook
 ```
 
 Uses ||

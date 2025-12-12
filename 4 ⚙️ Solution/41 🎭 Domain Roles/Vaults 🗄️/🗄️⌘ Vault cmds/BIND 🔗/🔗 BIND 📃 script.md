@@ -44,7 +44,7 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
 
 # Return if found
 - IF $bind:
-    RETURN $bind
+    RETURN: $bind
 
 # Save the bind
 - SAVE Vault.Binds >> $bind:

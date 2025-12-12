@@ -38,7 +38,7 @@
 
 # Exit if no trust was selected
 - ELSE:
-    RETURN REJECTED
+    RETURN: REJECTED
 
 # Assign the trust data to the Query
 - CASE $Query.Selected.Type:

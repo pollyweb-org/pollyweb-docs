@@ -107,7 +107,7 @@
         INFO Found!    
 
     # With holders
-    - PUT 1 >> $p
+    - PUT: 1 >> $p
     - IF $p.IsIn(1,2,3):
         INFO Found!   
         

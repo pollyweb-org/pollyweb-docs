@@ -18,7 +18,7 @@
     - $lists
 
 # Return the output
-- RETURN $output
+- RETURN: $output
 ```
 
 Uses||

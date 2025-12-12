@@ -55,7 +55,7 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
     Hook: $invite.ID
 
 # Return the received data
-- RETURN $data
+- RETURN: $data
 ```
 
 Uses||

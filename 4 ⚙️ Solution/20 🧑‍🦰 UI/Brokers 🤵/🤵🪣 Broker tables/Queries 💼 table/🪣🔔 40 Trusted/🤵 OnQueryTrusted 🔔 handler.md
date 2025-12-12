@@ -40,7 +40,7 @@
 
 # Exit if no trust was selected
 - IFNOT $selected:
-    RETURN UNSELECTED
+    RETURN: UNSELECTED
 
 # Save the selected trust and mark as SELECTED
 - SAVE $Query:

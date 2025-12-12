@@ -26,7 +26,7 @@
 
 # Block if not authorized
 - IF $response.Result.IsNot(AUTHORIZED):
-    RETURN BLOCKED
+    RETURN: BLOCKED
 
 # Progress the state
 - SAVE $Help:
