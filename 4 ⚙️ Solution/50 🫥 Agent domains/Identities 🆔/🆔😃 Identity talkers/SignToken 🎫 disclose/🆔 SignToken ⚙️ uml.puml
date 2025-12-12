@@ -17,7 +17,6 @@ deactivate broker
 
 activate script
     script -> tokens: SAVE 💾 {wallet, issuer}
-
     script -> issuer: {stamp}
 deactivate script
 

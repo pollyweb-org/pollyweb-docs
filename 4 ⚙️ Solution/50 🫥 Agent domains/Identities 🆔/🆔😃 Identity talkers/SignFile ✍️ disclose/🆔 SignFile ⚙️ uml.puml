@@ -13,7 +13,7 @@ consumer --> script: Query@Broker 🐌 {SIGN-FILE, raw-file}
 
 activate script
     script -> wallet: CONFIRM 👍 "sign?" {raw-file}
-    script -> identify: RUN {user}
+    script --> identify: RUN {user}
 deactivate script
 
 activate identify
