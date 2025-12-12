@@ -24,4 +24,6 @@
     - 🇺🇸 [Microsoft](<09 📺 Sovereignty @ Azure.md>), with the Microsoft Cloud for Sovereignty;
     - and 🇺🇸 [Amazon](<10 📺 Sovereignty @ AWS.md>), with the AWS European Sovereign Cloud.
 
+- What's the future of IT sovereignty, according to 🇺🇸 [Gartner](<11 📺 Sovereignty @ Gartner.md>).
+
 ---
