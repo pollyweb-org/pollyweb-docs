@@ -138,7 +138,7 @@
     |-|-
     | [`.MANIFEST/CODE` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>) | CODE properties
     | [`.MANIFEST/DELEGATE` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 DELEGATE.md>) | Delegation to other [Authorities 🏛️](<../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>)
-    | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>) | Generic referenceable types
+    | [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES.md>) | Generic referenceable types
 
     ---
     <br/>
@@ -209,7 +209,7 @@
     Yes.
     * Using the `Inherits` property
         * defined in [`.MANIFEST/CODE` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>).
-    * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
+    * Consider [`.LOCATOR` 🧩](<../../../7 🧩 Codes/$/🧩 LOCATOR.md>)
         * who defines properties `Schema`, `Domain`, `Resource`.
     * It is inherited by [`.TOKEN` 🧩](<../Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
         * who adds properties `Issued`, `Starts`, `Expires`, `Signature`.
@@ -249,7 +249,7 @@
     * See [`.MANIFEST/TRUST` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 TRUST.md>)
         * whose property `Domain`
         * references `Domain@.TYPES`
-        * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES code.md>).
+        * defined in [`.TYPES` 🧩](<../../../7 🧩 Codes/$/🧩 TYPES.md>).
     * See [`.PERSONA/ADDRESS` 🧩](<../../50 🫥 Agent domains/Personas 🧢/🧢🧩 Persona schemas/🧩 ADDRESS.md>)
         * whose property `Country`
         * references `Alpha2@standards.any-igo.dom/3166-1`

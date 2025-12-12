@@ -1,7 +1,9 @@
 
-# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) [Schema Code](<../../Codes 🧩/🧩 Schema Code.md>): Token
+# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) `.TOKEN`
 
-> Schema of a [Token 🎫](<../🎫 Token/🎫 Token.md>)
+> About
+* Schema of a [Token 🎫](<../🎫 Token/🎫 Token.md>)
+* Inherits from [`.LOCATOR` 🧩](<../../../../7 🧩 Codes/$/🧩 LOCATOR.md>)
 
 <br/>
 
@@ -11,33 +13,41 @@
 
 ```yaml
 Path: /TOKEN
+Version: 1.0
+Inherits: .LOCATOR
+
+Emoji: 🎫
 Title: Token
 Description: >
   Base schema for verifiable tokens.
   The * can be replaced by schemas that inherit this.  
 
-Emoji: 🎫
+Example: 
 
-Blueprint:
-  Version: 1.0
-  Inherits: nlweb.dom/LOCATOR:1.0
+  # From .LOCATOR
+  Schema: .TOKEN          # Schema derived from .TOKEN
+  Domain: any-issuer.dom  # The Issuer name
+  Key: token-1234         # Resource key in the Issuer
+  Properties:             # Any optional data fields
+      Property1: Value1
+      Property2: Value2
 
-  Properties:
-    - Issued   #date
-    - Starts   #date 
-    - Expires  #date
-    - '*'
-    - Signature
+  # From .TOKEN
+  Schema: who.int/VACCINES/COVID-2:1.0
+  Issued: 2024-09-21T12:34:00Z
+  Starts: 2024-01-10T13:45:00.000Z
+  Expires: 2028-12-10T13:45:00.000Z
+  Signature: ABCMIQDALK2Fd...
+  DKIM: pk1
 
-  Format:
-    type: object
-    properties:
-      Issued:
-        type: date
-      Starts:
-        type: date
-      Expires:
-        type: date
-      Signature:
-        type: string
+Fields:
+  - Issued   #date
+  - Starts   #date 
+  - Expires  #date
+  - '*'
+  - Signature
+
+Asserts:
+  AllOf: Issued, Starts, Signature
+  Times: Issued, Starts, Expires
 ```        

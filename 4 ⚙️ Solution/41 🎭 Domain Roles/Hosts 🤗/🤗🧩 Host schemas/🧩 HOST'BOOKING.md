@@ -1,7 +1,7 @@
 
-# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [`HOST`](<🧩 HOST.md>)/`BOOKING`
+# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [`.HOST`](<🧩 HOST.md>)/`BOOKING`
 
-> Inherits from [`nlweb.dom/TOKEN 🧩`](<../../../30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
+> Inherits from [`.TOKEN 🧩`](<../../../30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
 
 <br/>
 

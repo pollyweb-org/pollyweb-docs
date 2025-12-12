@@ -2,7 +2,7 @@
 # [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `.HOST`
 
 > About
-* Inherits from [`.LOCATOR` 🧩](<../../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)
+* Inherits from [`.LOCATOR` 🧩](<../../../../7 🧩 Codes/$/🧩 LOCATOR.md>)
 * Used by [Printer 🖨️ domain](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>)
 
 
