@@ -58,7 +58,9 @@
     Nums: MinValue, MaxValue
     
 # Assert the appendix if provided
-- IF $.Inputs.Has(Appendix):
+- IF:
+    $.Inputs.Has: Appendix
+- THEN:
 
     # Assert appendix fields
     - ASSERT $.Inputs.Appendix:
@@ -69,8 +71,10 @@
         Pages.IsAbove: 0
 
     # Require Pages if Type is PDF
-    - IF $.Inputs.Appendix.Type.Is(PDF):
-        ASSERT|$.Inputs.Appendix.Pages
+    - IF: 
+        $.Inputs.Appendix.Type: PDF
+    - THEN:
+        ASSERT: $.Inputs.Appendix.Pages
 
 
 # ------------------------------------
@@ -103,7 +107,9 @@
     OnReply: $onReply
 
 # Stage the Appendix if provided
-- IF $.Inputs.Has(Appendix):
+- IF:
+    $.Inputs.Has: Appendix
+- THEN:
     - SAVE Host.Appendixes:
         Prompt: $prompt.ID
         Chat: $.Chat.Chat
@@ -115,7 +121,9 @@
 # ------------------------------------
 
 # Check for blocking inputs
-- IF $onReply.Is(RACE):
+- IF:
+    $onReply: RACE
+- THEN:
 
     # Block and wait for a reply
     - WAIT >> $reply:
@@ -130,7 +138,9 @@
 # ------------------------------------
 
 # For non-blocking prompts, return
-- IF $onReply.Is(NOTHING): 
+- IF: 
+    $onReply: NOTHING
+- THEN:
     RETURN
 
 
@@ -138,7 +148,9 @@
 # NON-BLOCKING STATUS WITH OPTIONS
 # ------------------------------------
 
-- IF $onReply.Is(REEL):
+- IF:
+    $onReply: REEL
+- THEN:
 
     # Clone holders for later recall
     - IMPRINT: $prompt.ID 
@@ -149,7 +161,7 @@
 
     # If a REEL was received, restore holders
     - IF $reply:
-        RECALL $prompt.ID  # Restore holders
+        RECALL: $prompt.ID  # Restore holders
 
     # Return the reply
     - RETURN: $reply
