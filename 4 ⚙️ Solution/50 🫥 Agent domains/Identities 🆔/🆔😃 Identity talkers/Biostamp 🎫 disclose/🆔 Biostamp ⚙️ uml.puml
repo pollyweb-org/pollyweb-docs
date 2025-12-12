@@ -9,7 +9,7 @@ end box
 
 
 activate issuer
-issuer -> broker: SHARE 💼 \n  .ID/TOKEN/SIGN 🧩
+issuer -> broker: SHARE 💼 \n  .ID/BIOSTAMP 🧩
 
 activate broker
     broker --> script: Disclose@Vault 🐌 
@@ -17,7 +17,7 @@ deactivate broker
 
 activate script
     script -> tokens: SAVE 💾 {wallet, issuer}
-    script -> issuer: {stamp}
+    script -> issuer: {biostamp}
 deactivate script
 
     
