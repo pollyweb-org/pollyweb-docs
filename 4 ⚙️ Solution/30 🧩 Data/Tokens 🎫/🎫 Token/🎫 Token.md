@@ -180,60 +180,39 @@
     
 1. **What data is contained in a Token?**
 
-    [Tokens 🎫](<🎫 Token.md>) derive from [Locators 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>), so they contain the following properties.
-
     ```yaml
-    Schema: .TOKEN
+    Token: token-1234
     Domain: any-issuer.dom
-    Key: token-1234
-    Properties:
-        Property1: Value1
-        Property2: Value2
-    ```
+    Schema: any-authority.com/ANY/PATH:1.0
+    Context: {A:1,B:2}
 
-    |Property| Type | Details
-    |-|-|-
-    | `Schema` |text|  [`.TOKEN`](<../🧩 Token schemas/🧩 TOKEN.md>)
-    | `Domain` |text| The [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
-    | `Key` |text| Resource key in the [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
-    | `Properties` | object | Any optional data fields
-    |
-
-    
-    
-    Additionally, a basic [Token 🎫](<🎫 Token.md>) contains the following properties.
-    
-    ```yaml
-    Schema: who.int/VACCINES/COVID-2:1.0
     Issued: 2024-09-21T12:34:00Z
     Starts: 2024-01-10T13:45:00.000Z
     Expires: 2028-12-10T13:45:00.000Z
+
+    Identity: any-identity.dom
+    Biostamp: person-1234
+
     Signature: ABCMIQDALK2Fd...
     DKIM: pk1
     ```
-    |Property| Type | Details
-    |-|-|-
-    |`Schema` |text| The Token's [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)
-    | `Issued` | timestamp | When it was issued
-    |`Starts` |timestamp| Valid from
-    |`Expires`|timestamp| Valid until (optional)
-    | `Signature`|text| The Issuer's [signature](<../../Messages 📨/📨 Message/📨 Message.md>) 📨 
-    | `DKIM`|text| The [DKIM 📨](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) key used to sign
-    |
-
-
-    An identity-bound [Token 🎫](<🎫 Token.md>) also contains the following.
-
-    ```yaml
-    Identity: any-identity.dom
-    IdentityKey: person-1234
-    ```
 
     |Property| Type | Details
     |-|-|-
-    |`Identity` |text|The [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) 
-    | `IdentityKey` |text| The resource key in the [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>)
+    | `Token` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| Resource key in the [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
+    | `Domain` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
+    |`Schema` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The Token's [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)
+    | `Context` | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) | Any optional data fields
+    | `Issued` | [time](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) | When it was issued
+    |`Starts` |[time](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>)| Valid from
+    |`Expires`|[time](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>)| Valid until (optional)
+    |`Identity` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)|The [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) 
+    | `Biostamp` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The stamp in the [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>)
+    | `Signature`|[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The Issuer's [signature](<../../Messages 📨/📨 Message/📨 Message.md>) 📨 
+    | `DKIM`|[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The [DKIM 📨](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) key used to sign
+    
 
 
     ---
     <br/>
+

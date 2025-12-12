@@ -23,6 +23,8 @@
 ## Script
 
 ```yaml
+📃 Liveness:
+
 # Assert the inputs
 - ASSERT $.Inputs:
     AllOf: Citizen

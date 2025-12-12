@@ -30,7 +30,7 @@
     Appendix: $Context.Appendix
 
 # Initiate the face recognition
-- CALL Identify >> $selfie:
+- CALL Liveness >> $selfie:
     Bind: $Bind.ID
     Reference: $Bind.Reference
 

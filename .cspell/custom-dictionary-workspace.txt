@@ -1,9 +1,11 @@
 # Custom Dictionary Words
 ABAC
+ABCMIQDALK
 Abouts
 Agentic
 Alexa
 Bindables
+Biostamp
 CLDR
 Cognifying
 Cust
