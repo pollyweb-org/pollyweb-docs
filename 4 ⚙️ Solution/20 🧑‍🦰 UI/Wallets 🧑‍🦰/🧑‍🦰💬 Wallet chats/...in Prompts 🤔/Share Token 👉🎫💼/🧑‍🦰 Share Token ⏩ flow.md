@@ -10,7 +10,7 @@
 
 Consider the following excerpt from the [Flight check in 🤝 use case](<../../../../../../3 🤝 Use Cases/03 🧳 Travel/09 🧳 Travel by air 💺/14 💺 Ticket/05 Flight check in.md>) as an example.
 
-|Service|Prompt|User
+| [Domain](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 | 🛩️ Airline     | ℹ️ I need Alice's passport.
 | 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Share passport?  [No] <br/> - [ 🇬🇧 UK Alice ]<br/>- [ 🇬🇧 UK Teresa ]<br/>- [ 🇺🇸 US Teresa ] | > 🇬🇧 UK Alice 

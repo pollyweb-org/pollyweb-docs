@@ -16,7 +16,13 @@ deactivate table
 activate handler
     handler -> graph: Form @ Graph 🚀
     handler -> handler: CHAT 💬
-    handler -> user: CONFIRM 👍
+
+    alt IF only 1 step is needed
+        handler -> user: INFO ⓘ
+    else if only 1 step is needed
+        handler -> user: CONFIRM 👍 
+    end
+    
     handler -> chats:  💾 {form}
     handler -> table:  💾 INFORMED
 deactivate handler
