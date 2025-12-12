@@ -52,8 +52,8 @@
 
     ```yaml
     📃 Example:
-    - TEMP Waiting forever...
-    - RUN Test 
+    - TEMP: Waiting forever...
+    - RUN: Test 
     - FAIL: This command never runs.
     
     📃 Test:

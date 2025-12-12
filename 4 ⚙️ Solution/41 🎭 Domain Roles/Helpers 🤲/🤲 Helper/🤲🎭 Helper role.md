@@ -100,8 +100,8 @@
 
     ```yaml
     💬 Register:                # Entry menu
-    - INFORM Register           # Provide instructions
-    - BIND .VAULT               # Bind to Wallet
+    - INFORM: Register           # Provide instructions
+    - BIND: .VAULT               # Bind to Wallet
 
     - INVITE >> $billed:        
         Invitee: any-biller.dom # Invite the Biller

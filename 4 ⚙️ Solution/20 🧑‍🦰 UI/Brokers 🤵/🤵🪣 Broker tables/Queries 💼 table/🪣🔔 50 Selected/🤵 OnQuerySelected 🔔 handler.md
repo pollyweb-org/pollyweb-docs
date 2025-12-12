@@ -28,7 +28,7 @@
         Wallet: $Query.Wallet
 
 # Confirm the share
-- CONFIRM >> $confirm:
+- CONFIRM:
     Text: > 
         Send this data?
         Send: ´{$Query.Selected.Title.Require}´
@@ -37,7 +37,7 @@
         ´$schema.Details´
 
 # Exit if no trust was selected
-- IFNOT $confirm:
+- ELSE:
     RETURN REJECTED
 
 # Assign the trust data to the Query

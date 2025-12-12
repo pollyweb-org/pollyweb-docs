@@ -45,8 +45,9 @@
         $schema
 
     # Simplest inline
-    - BIND $schema
+    - BIND: $schema
     ```
+
     | Input| Purpose 
     |-|-
     | `Schema` | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Bind@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Binds 🔗 Bind 🗄️🐌🤵/🤵 Bind 🐌 msg.md>) 
@@ -62,7 +63,7 @@
 
     ```yaml
     # For a required schema.
-    - BIND $schema
+    - BIND: $schema
     - DONE: Bound!
     ```
 
@@ -72,7 +73,7 @@
 
     ```yaml
     # For an optional schema.
-    - BIND $schema >> $bound
+    - BIND: $schema >> $bound
     - IF $bound:
         DONE Bound.
     - ELSE:
@@ -95,10 +96,10 @@
     Consider the following equal examples.
 
     ```yaml
-    BIND|.IDENTITY/OVER21
+    BIND: .IDENTITY/OVER21
     ```
     ```yaml
-    BIND|nlweb.dom/IDENTITY/OVER21
+    BIND: nlweb.dom/IDENTITY/OVER21
     ```
 
     ---
@@ -111,7 +112,7 @@
 
     # Offer a bind.
     - BIND >> $bound:
-        some-authority.dom/SOME-CODE
+        Schema: some-authority.dom/SOME-CODE
 
     # Verify it was bound.
     - IF $bound:
@@ -134,7 +135,7 @@
     💬 Bind:
 
     # Offer the schemas
-    - BIND $schema >> $bound
+    - BIND: $schema >> $bound
 
     # Check if any was bound
     - IF $bound:

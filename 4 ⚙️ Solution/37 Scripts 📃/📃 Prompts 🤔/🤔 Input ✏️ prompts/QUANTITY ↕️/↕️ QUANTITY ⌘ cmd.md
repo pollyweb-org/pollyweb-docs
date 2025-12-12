@@ -156,7 +156,7 @@
                 MinValue: 3
                 MaxValue: 12
 
-    - TEMP Checking availability...
+    - TEMP: Checking availability...
     ```
 
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose

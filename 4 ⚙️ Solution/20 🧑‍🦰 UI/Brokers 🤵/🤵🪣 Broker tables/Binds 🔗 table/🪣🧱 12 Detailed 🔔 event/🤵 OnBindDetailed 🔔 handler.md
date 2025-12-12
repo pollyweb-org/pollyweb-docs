@@ -23,16 +23,14 @@
     Chat: $Bind.Chat
 
 # Ask for confirmation
-- CONFIRM >> $accepted: 
+- CONFIRM: 
     Text: |
         Accept bind? 
         - Schema: ´$Bind.SchemaTitle´
         - Vault: ´$Bind.VaultTitle´ 
     Details:
         $Bind.Description
-
-# Save the bind
-- IF $accepted: 
+- THEN: 
     RETURN ACTIVE
 - ELSE: 
     RETURN REJECTED

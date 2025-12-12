@@ -75,7 +75,7 @@
 
     ```yaml
     # Talker
-    - INFORM Order a meal
+    - INFORM: Order a meal
     ```
 
     <br/>

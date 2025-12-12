@@ -28,7 +28,7 @@ Here's the [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
 ```yaml
 # Talker
-- INFORM TableOrder
+- INFORM: TableOrder
 ```
 
 | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose

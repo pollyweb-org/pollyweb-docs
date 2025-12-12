@@ -59,7 +59,7 @@
 
     💬 Open locker door:
     - INFO: This is Locker {$locker}
-    - TEMP Opening door {$door}...
+    - TEMP: Opening door {$door}...
 
     # Relay the open message.
     - RELAY Lockers|{$locker} >> $result:

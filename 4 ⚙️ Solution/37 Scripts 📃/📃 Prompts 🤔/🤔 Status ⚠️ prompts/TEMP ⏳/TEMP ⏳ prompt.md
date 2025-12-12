@@ -101,7 +101,7 @@
     
     ```yaml
     📃 Example:
-    - TEMP Simple temp.
+    - TEMP: Simple temp.
     ```
     
     <br/>

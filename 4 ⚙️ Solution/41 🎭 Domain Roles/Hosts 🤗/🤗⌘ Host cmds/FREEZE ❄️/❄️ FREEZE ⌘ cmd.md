@@ -49,14 +49,14 @@
     💬 Book something:
     
     # Instructions
-    - INFORM Book                           
+    - INFORM: Book                           
     
     # Editable inputs
     - ONE When?|Today,Tomorrow >> $date   # When?
     - SHARE .PERSONA/BOOKING >> $contacts # Contacts?
     
     # Last chance to change the previous inputs.
-    - CONFIRM Confirm booking?  
+    - CONFIRM: Confirm booking?  
     - FREEZE >> $inputs:
         Date: {$date}
         Contacts: {$contacts}

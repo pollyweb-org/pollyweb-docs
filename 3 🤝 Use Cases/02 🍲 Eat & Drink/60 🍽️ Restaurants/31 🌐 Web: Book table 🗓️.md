@@ -35,9 +35,9 @@
 
 - READ Places|$.Chat.Key >> $place  # Get the restaurant info
 - INFO {$place.Name}                # Show the restaurant name
-- CONFIRM Hi! Book a table?         # Confirm booking intent
-- CONFIRM At {$place.Name}?         # Confirm the restaurant   
-- INFORM Book                       # Announce query intents
+- CONFIRM: Hi! Book a table?         # Confirm booking intent
+- CONFIRM: At {$place.Name}?         # Confirm the restaurant   
+- INFORM: Book                       # Announce query intents
 - CALL Slots|$place.ID >> $slots    # Get available slots
 - READ Files|{$place.ID}.md >> $inf # Get restaurant details
 - SHARE .SCHEDULER/BOOK >> $slot:   # Ask for slot selection
@@ -46,7 +46,7 @@
 - SHARE .PERSONA/BOOKING >> $call   # Ask for user contacts
 - SHARE >> $likes:                  # Ask for preferences
     Schema: .PERSONA/MEAL/LIKES
-- CONFIRM Confirm booking?          # Ask for confirmation
+- CONFIRM: Confirm booking?          # Ask for confirmation
 - FREEZE                            # Lock the inputs
 - SAVE Bookings >> $booking:        # Save the booking
     Place: $place.ID
