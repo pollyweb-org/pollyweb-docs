@@ -1,13 +1,19 @@
 @startuml OnQueryTokened
 
 box Consumer 💼 domain #FFFFFA
+    participant "OnReceived 🔔" as received
     participant "Queries 🪣" as table
     participant "OnTokened 🔔" as handler
     participant "SHARE ⌘" as share
     participant "Script 📃" as script
 end box
 
-table --> handler: TOKENED 🔔 
+
+received -> table: 💾 {TOKENED} 
+
+activate table
+    table --> handler: TOKENED 🔔 
+deactivate table
 
 activate handler
     handler -> share: RACE 🏁 {data}
