@@ -1,6 +1,11 @@
 📺 What's IBM recommendation for biometrics?
 ---
 
+> Part of [🧑‍💻 Unsupervised ID authentication landscape](<00 🧑‍💻 Unsupervised ID index.md>)
+
+<br/>
+
+
 This 2025 video by IBM Technology, a US-based multinational technology corporation that provides hardware, software, and consulting services, explains how biometric security systems work by storing numerical templates rather than actual images of fingerprints or faces. 
 
 It discusses privacy concerns, emphasizing that while biometrics are not secret, proper consent and multi-factor authentication (MFA) are essential to prevent deepfake attacks and ensure user security.

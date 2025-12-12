@@ -2,6 +2,11 @@
 📺 What is Apple's Face ID phone unlock system?
 ---
 
+> Part of [🧑‍💻 Unsupervised ID authentication landscape](<00 🧑‍💻 Unsupervised ID index.md>)
+
+<br/>
+
+
 In 2024, the YouTube channel "everything but the code" published the following video, titled *"The Tech Behind Apple's Face ID"*.
 
 - The video explains how Apple's Face ID works using an infrared camera and structured light. 

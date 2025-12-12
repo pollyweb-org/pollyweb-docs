@@ -1,5 +1,8 @@
-📺 What is 🌎 Uber doing with remote ID verification?
----
+## 📺 What is 🌎 Uber doing with remote ID verification?
+
+> Part of [🧑‍💻 Unsupervised ID authentication landscape](<00 🧑‍💻 Unsupervised ID index.md>)
+
+<br/>
 
 In 2016, Microsoft released the following video, titled *"How Uber is using driver selfies to enhance security, powered by Microsoft Cognitive Services"*.
 - The video shows how Uber is using driver selfies and Microsoft Cognitive Services to enhance security by verifying driver identities in real-time. 

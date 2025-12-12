@@ -1,6 +1,11 @@
 📺 What is Amazon doing with remote ID verification?
 ---
 
+> Part of [🧑‍💻 Unsupervised ID authentication landscape](<00 🧑‍💻 Unsupervised ID index.md>)
+
+<br/>
+
+
 In 2023, Amazon Web Services (AWS) announced the Liveness Check feature for Amazon Rekognition.
 
 - This is a web-based component that records a video using the browser's camera API, examining eye reactions to a sequence of colorful lights before returning the final picture of the user's face to the backend service. 
