@@ -2,7 +2,7 @@
 ===
 
 > About
-* Part of [Identity 🆔 domains](<../../🆔 Identity agent/🆔🫥 Identity agent.md>)
+* Part of [Identity 🆔 domains](<../../🆔 Identity agent/🆔 Identity 🫥 agent.md>)
 * Addresses the [supervised identity landscape 🏔️](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>)
 
 ## FAQ
@@ -11,7 +11,7 @@
 
     ![](<🆔🏞️ Register biometrics.png>)
 
-    [Identity 🆔 vaults](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
+    [Identity 🆔 vaults](<../../🆔 Identity agent/🆔 Identity 🫥 agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
 
     ---
     <br/>
