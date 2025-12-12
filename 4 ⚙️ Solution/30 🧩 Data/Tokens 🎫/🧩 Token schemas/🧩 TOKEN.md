@@ -1,9 +1,8 @@
 
-# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) `.TOKEN`
+# [🧩](<../../Codes 🧩/🧩 Schema Code.md>) `.TOKEN` Schema
 
 > About
 * Schema of a [Token 🎫](<../🎫 Token/🎫 Token.md>)
-* Inherits from [`.LOCATOR` 🧩](<../../../../7 🧩 Codes/$/🧩 LOCATOR.md>)
 
 <br/>
 
@@ -14,7 +13,6 @@
 ```yaml
 Path: /TOKEN
 Version: 1.0
-Inherits: .LOCATOR
 
 Emoji: 🎫
 Title: Token
@@ -23,31 +21,24 @@ Description: >
   The * can be replaced by schemas that inherit this.  
 
 Example: 
-
-  # From .LOCATOR
-  Schema: .TOKEN          # Schema derived from .TOKEN
-  Domain: any-issuer.dom  # The Issuer name
-  Key: token-1234         # Resource key in the Issuer
-  Properties:             # Any optional data fields
-      Property1: Value1
-      Property2: Value2
-
-  # From .TOKEN
-  Schema: who.int/VACCINES/COVID-2:1.0
+  Token: token-1234       
+  Issuer: any-issuer.dom  
+  Schema: any-authority.com/ANY/PATH:1.0 
+  Context: {A:1,B:2} 
   Issued: 2024-09-21T12:34:00Z
   Starts: 2024-01-10T13:45:00.000Z
   Expires: 2028-12-10T13:45:00.000Z
+  Identity: any-identity.dom
+  Biostamp: person-1234
   Signature: ABCMIQDALK2Fd...
   DKIM: pk1
 
-Fields:
-  - Issued   #date
-  - Starts   #date 
-  - Expires  #date
-  - '*'
-  - Signature
-
 Asserts:
-  AllOf: Issued, Starts, Signature
+  AllOf: Token, Issuer, Schema, Issued, Starts, Signature, DKIM
+  UUID: Token, Biostamp
+  Texts: Signature, DKIM
   Times: Issued, Starts, Expires
+  Issuer.IsDomain:
+  Identity.IsDomain:
+  Schema.IsSchema:
 ```        

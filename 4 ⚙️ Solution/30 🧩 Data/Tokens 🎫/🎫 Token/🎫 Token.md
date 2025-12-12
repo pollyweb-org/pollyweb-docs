@@ -3,7 +3,7 @@
 
 1. **What is a Token?**
 
-    [Tokens 🎫](<🎫 Token.md>) are NFC/QR [Locators 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 
+    [Tokens 🎫](<🎫 Token.md>) are verifiable credentials
     * issued and signed by an [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>), 
     * that contain data to be shared with [Consumer 💼 domains](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>).
 
@@ -182,17 +182,20 @@
 
     ```yaml
     Token: token-1234
-    Domain: any-issuer.dom
+    Issuer: any-issuer.dom
     Schema: any-authority.com/ANY/PATH:1.0
     Context: {A:1,B:2}
 
+    # Time related
     Issued: 2024-09-21T12:34:00Z
     Starts: 2024-01-10T13:45:00.000Z
     Expires: 2028-12-10T13:45:00.000Z
 
+    # Identity bound
     Identity: any-identity.dom
     Biostamp: person-1234
 
+    # Signature for verification
     Signature: ABCMIQDALK2Fd...
     DKIM: pk1
     ```
@@ -200,7 +203,7 @@
     |Property| Type | Details
     |-|-|-
     | `Token` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| Resource key in the [Issuer 🎴](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>)
-    | `Domain` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
+    | `Issuer` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The [Issuer 🎴 domain](<../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
     |`Schema` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The Token's [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>)
     | `Context` | [map](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) | Any optional data fields
     | `Issued` | [time](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) | When it was issued
