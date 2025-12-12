@@ -99,18 +99,18 @@
     * thus, the follow two blocks are equivalent.
   
     ```yaml
-    📃 OnStateTransition:
+    📃 Exit transition with RETURN:
 
-    # Exit with state
     - IF $Item.HasErrors:
-        Then: RETURN ERROR_STATE
-        Else: RETURN VALID_STATE
+        RETURN ERROR_STATE
+    - ELSE:
+        RETURN VALID_STATE
     ```
 
     Uses: [`IF`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)
 
     ```yaml
-    📃 OnStateTransition:
+    📃 Exit transition with SAVE:
 
     # Exit with errors
     - IF $Item.HasErrors:

@@ -28,7 +28,7 @@ TODO: Add the flow to the Manifest
 
 # Ask proof of over 21 if needed.
 - IF $item.21+:
-    Then: SHARE .IDENTITY/OVER-21
+    SHARE .IDENTITY/OVER-21
 
 # Charge the item price.
 # * FREEZE is executed automatically.

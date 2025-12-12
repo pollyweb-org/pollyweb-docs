@@ -22,7 +22,7 @@
     Answer.IsIn: ACCEPTED, DECLINED
 
 # Continue the Talker
-- REEL|$Token.Token:
+- REEL $Token.Token:
     $Token.Answer.Is(ACCEPTED)
 ```
 

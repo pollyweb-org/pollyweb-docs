@@ -25,5 +25,5 @@
     .State: ACTIVE
 
 # Return to the CHAT command
-- RACE|$Chat.ID:
+- RACE $Chat.ID:
 ```

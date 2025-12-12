@@ -64,8 +64,9 @@
     # If blocked, see if there's a handler
     BLOCKED: 
         IF $OnBlocked:
-            Then: PUT True >> $.Parent.{$OnBlocked}
-            Else: HTTP 423|Blocked
+            PUT True >> $.Parent.{$OnBlocked}
+        ELSE:
+            HTTP 423|Blocked
 ```
 
 

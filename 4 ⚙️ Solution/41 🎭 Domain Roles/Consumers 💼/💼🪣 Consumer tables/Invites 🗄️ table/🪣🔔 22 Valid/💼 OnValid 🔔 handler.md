@@ -17,7 +17,7 @@
 📃 OnInviteValid:
 
 # Continue the WAIT
-- RACE|$Invite.ID:
+- RACE $Invite.ID:
     $Invite.Help
 ```
 

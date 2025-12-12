@@ -39,25 +39,25 @@
 # Set the chat language and context
 - CHAT $Form.Chat 
 
-# If there are many steps...
+# If there are many steps, ask for confirmation
 - IF form.Steps.AreMany:
 
-    Then: # ...ask for confirmation to proceed 
-        - CONFIRM: 
-            Text: >
-                Ready to continue?
-                **´{$form.Title.Require}´**
-                ´{$form.Steps.Purpose.Require}´
-            Details: ´$form.Details´
+    CONFIRM: 
+        Text: >
+            Ready to continue?
+            **´{$form.Title.Require}´**
+            ´{$form.Steps.Purpose.Require}´
+        Details: ´$form.Details´
 
-    Else: # ...otherwise, just inform
-        - INFO:
-            Text: 
-                Flow: ´{$form.Title.Require}´
-            Details: > 
-                Steps: 
-                ´{$form.Steps.Purpose.Require}´
-                ´$form.Details´
+- ELSE: # otherwise, just inform
+
+    INFO:
+        Text: 
+            Flow: ´{$form.Title.Require}´
+        Details: > 
+            Steps: 
+            ´{$form.Steps.Purpose.Require}´
+            ´$form.Details´
 
 # Set the form on the Chat
 - SAVE $Form.Chat:

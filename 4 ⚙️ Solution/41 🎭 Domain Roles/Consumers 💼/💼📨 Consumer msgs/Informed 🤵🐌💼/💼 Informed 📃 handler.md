@@ -21,7 +21,7 @@
 - ASSERT $.Msg.Hook
 
 # Continue the chat
-- RACE|$.Msg.Hook
+- RACE $.Msg.Hook
 ```
 
 Uses||

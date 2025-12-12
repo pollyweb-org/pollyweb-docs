@@ -133,25 +133,25 @@
     # 😃 Talker with multi-line IF-THEN (no ELSE).
     
     💬 If-them example:
-    - INFO Test started
+    - INFO: Test started
     - IF {code-is-correct}:
-        Then: 
-          - DONE Code is correct!
-          - INFO Test finished
+        - DONE: Code is correct!
+        - INFO: Test finished
     ```
 
     ```yaml
     # 😃 Talker with multi-line IF-THEN-ELSE.
 
     💬 If-then-else example:
-    - INFO Test started
+    - INFO: Test started
     - IF {code-is-correct}:
-        Then: DONE Code is correct!
-        Else: ErrorHandlingProcedure
-    - INFO Test finished
+        DONE: Code is correct!
+    - ELSE:
+        RUN: ErrorHandlingProcedure
+    - INFO: Test finished
         
     ErrorHandlingProcedure:
-    - FAIL Code is wrong!
+    - FAIL: Code is wrong!
     ```
 
 

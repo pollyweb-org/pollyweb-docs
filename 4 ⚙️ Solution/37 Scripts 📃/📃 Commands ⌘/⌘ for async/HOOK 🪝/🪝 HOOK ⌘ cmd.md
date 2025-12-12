@@ -33,7 +33,7 @@
     
     ```yaml
     # One-line
-    - HOOK|$hook
+    - HOOK $hook
 
     # Comprehensive
     - HOOK >> $response:

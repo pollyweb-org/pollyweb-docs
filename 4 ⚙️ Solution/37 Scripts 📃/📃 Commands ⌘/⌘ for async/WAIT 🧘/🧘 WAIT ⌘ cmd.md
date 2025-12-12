@@ -112,12 +112,10 @@
         Hook: $hook
 
     # Check the response
-    - IF $status.Ready:          
-        # End if ready
-        Then: RETURN             
-        
-        # Show status otherwise
-        Else: TEMP $status.Message    
+    - IF $status.Ready: # End 
+        RETURN 
+    - ELSE: # Show status 
+        TEMP $status.Message    
 
     # Repeat the script
     - REPEAT                     

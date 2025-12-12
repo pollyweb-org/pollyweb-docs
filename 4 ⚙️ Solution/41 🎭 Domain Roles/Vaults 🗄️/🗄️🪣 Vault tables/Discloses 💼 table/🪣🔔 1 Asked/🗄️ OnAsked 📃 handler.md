@@ -31,12 +31,9 @@
 
 # Save the answer
 - IF $trusted:
-    Then: 
-        SAVE $Share:
-            .State: TRUSTED
-    Else: 
-        SAVE $Share:
-            .State: UNTRUSTED
+    RETURN: TRUSTED
+- ELSE: 
+    RETURN: UNTRUSTED
 ```
 
 |Uses||
