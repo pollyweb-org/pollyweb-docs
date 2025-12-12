@@ -1,0 +1,17 @@
+# 😃🔩 Talker `{.IsURL}` function
+
+> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+
+## FAQ
+
+
+1. **What is the .IsURL function?**
+
+    `{.IsURL}`
+    * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
+    * that returns `True` if the input is a URL [text](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)
+    * and returns `True` if the all listed properties of a [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) are URL holders
+    * or `False` otherwise.
+
+    ---
+    <br/>

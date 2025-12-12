@@ -1,6 +1,10 @@
 🧑‍🦰 Wallet URL navigation 🌐
 ===
 
+> Part of [🔆 Locators](<../🔆 Locator.md>)
+
+## FAQ
+
 1. **How can app developers handle NLWeb URLs?**
 
     An NLWeb [Locator 🔆](<../🔆 Locator.md>) link is an Uniform Resource Locator (URL) starting with the custom protocol `nlweb://` (e.g., a locator `ABC` can be handled with the URL `nlweb://ABC`). 

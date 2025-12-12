@@ -1,0 +1,121 @@
+# 😃🔩 Talker `{.IsIn}` function
+
+> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+
+## FAQ
+
+
+1. **What is the .IsIn function?**
+
+    `{.IsIn}`
+    * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
+    * that verifies if a value is in a list, 
+    * similar to [`.Contains`](<Contains ⓕ.md>) from the value's perspective.
+
+    ---
+    <br/>
+
+1. **What's the .IsIn syntax?**
+
+    ```yaml
+    .IsIn(value, list...)
+    ```
+
+    | Inputs | Purpose | Examples
+    |-|-|-
+    | `value`  | Value to look for | `1` `ABC` 
+    | `list...` | List to look into | `1` `A,B` `[A,BC]`  
+
+    ---
+    <br/>
+
+1. **What are examples of .IsIn for values?**
+
+    |Value 1 | Value 2 |Result
+    |-|-|-
+    | `{empty}` | ... | ❌ False
+    |`A` | `B,C,D,A` | ✅ True
+    |`X` | `Y,Z` | ❌ False
+    
+    ---
+    <br/>
+
+
+1. **What are examples of .IsIn for strings?**
+
+    Value 1 | Value 2 |Result
+    |-|-|-
+    | `{empty}` | ... | ❌ False
+    | `AB` | `ABC`| ✅ True
+    | `BA` | `ABC`| ❌ False
+
+    ---
+    <br/>
+
+1. **What are examples of .IsIn for lists?**
+
+    Value 1 | Value 2 |Result
+    |-|-|-
+    | `{empty}` | ... | ❌ False
+    | `[]` | ... | ❌ False
+    | `B,A` | `A,B,C` | ✅ True
+
+    ---
+    <br/>
+
+
+
+1. **What are examples of .IsIn for objects?**
+
+    Value 1 | Value 2 |Result
+    |-|-|-
+    | `{empty}` | ... | ❌ False
+    |`B` | `{A:1,B:2,C:3}` | ✅ True
+    |`B:2` | `{A:1,B:2,C:3}` | ✅ True
+    |`B:4` | `{A:1,B:2,C:3}` | ❌ False
+
+    ---
+    <br/>
+
+
+1. **What are examples of .IsIn for times?**
+
+    For times, the behavior is the same as [`.IsBetween`](<IsBetween ⓕ.md>) - i.e., only two values are required in the input list: the lower end and the upper end.
+
+    Value  | List |Result
+    |-|-|-
+    [`.Now`](<Now ⓕ.md>) | [`.This`](<This ⓕ.md>)`(year)` | ✅ True
+    [`.Now`](<Now ⓕ.md>)| [`.Last`](<Last ⓕ.md>)`(year)` | ✅ True
+    [`.Now`](<Now ⓕ.md>)| [`.Previous`](<Previous ⓕ.md>)`(day)`| ❌ False
+    
+    
+    ---
+    <br/>
+
+
+
+
+1. **How to use .IsIn in a Script?**
+
+    Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+
+    ```yaml
+    📃 Examples:
+
+    # With static values
+    - IF .IsIn(1, [1,2,3]):
+        INFO Found!    
+
+    # With holders
+    - PUT: 1 >> $p
+    - IF $p.IsIn(1,2,3):
+        INFO Found!   
+        
+    # With Asserts
+    - ASSERT:
+        $p.IsIn(1,2,3)
+    ```
+    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`IF`](<../../📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
+
+    ---
+    <br/>

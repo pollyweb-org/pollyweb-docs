@@ -1,6 +1,8 @@
 🔆 NFC/QR Locators
 ===
 
+## FAQ
+
 1. **What are Locators?**
 
     In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<🔆 Locator.md>) that opens a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
