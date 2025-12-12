@@ -2,15 +2,16 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-<br/>
+## FAQ
 
 
 1. **What's an IF flow?**
 
     An `IF` ⤵️
     * is a flow [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)  
-    * that runs a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) or [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)
-    * based on the evaluation of a holder or [{Function}](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>).
+    * that evaluates of a holder or [{Function}](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+    * then either runs a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) or [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>)
+    * or delegates them to the [`THEN`](<../THEN ⤵️/⤵️ THEN ⌘ cmd.md>) and [`ELSE`](<../ELSE ⤵️/⤵️ ELSE ⌘ cmd.md>) commands.
 
     ---
     <br/>
@@ -21,19 +22,21 @@
 
     ```yaml
     IF:
-        Assert: assertions... # Optionally, last user input
-        Then: commands...     # Optional
-        Else: commands...     # Optional
+        [assertions...] 
     ```
 
     | Input| Purpose | Example
     |-|-|-
-    | `Assert` | List of inputs to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)  | `$h` `.f(*)`
-    || Defaults to last [input prompt ✏️](<../../../../35 💬 Chats/Prompts 🤔/🤔⚙️ Prompt features/9 ✏️ as Input.md>) | [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>) [`TEXT`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/TEXT 💭/💭 TEXT ⌘ cmd.md>)
-    | `Then` | List of [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) if `True` | [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)` 123`
-    | | Or a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) name to [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) | `If-True-Script`
-    | `Else` | List of [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) if `False` | [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)` 456`
-    | | Or a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) name to [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) | `If-False-Script`
+    | `assertions` | List of inputs to [`.Assert`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)  | `$h` `.f(*)`
+
+    ```yaml
+    IF <assertion>:
+        [commands...]
+    ```
+
+    | Input| Purpose | Example
+    |-|-|-
+    | `commands...` | List of [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) if `True` | [`RETURN`](<../RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)` 123`
     
 
     ---
@@ -42,28 +45,26 @@
 1. **What are alternative syntaxes?**
     
     ```yaml
-    # Inline then 
-    - IF <assertion>|<then-script>
+    - IF: 
+        <assertions...>
     ```
 
     ```yaml
-    # Inline then else
-    - IF <assertion>|<then-script>|<else-script>
+    - IF <assertion>: <then>
     ```
-
+    
     ```yaml
-    # Broken-line single then (a text)
-    - IF <assertion>:
-        <then>
-    ```
-
-    ```yaml
-    # Multiple then-actions (a list)
     - IF <assertion>:
         - <then-1>
         - <then-n>
     ```
-    
+
+    ```yaml
+    - IF: <assertion>
+    - THEN: <then-script>
+    - ELSE: <else-script>
+    ```
+
     ---
     <br/>
 
@@ -84,19 +85,26 @@
 
     💬 If-then example:
     - INFO: Test started
-    - IF {code-is-correct}|CorrectCode
+    - IF code-is-correct:
+        RUN: CorrectCode
     - INFO: Test finished
 
     CorrectCode:
     - DONE: Code is correct!
     ```
+    
+    Uses: [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>)
+
+    <br/>
 
     ```yaml
     # 😃 Talker with inline IF-THEN-ELSE.
 
     💬 If-then-else example:
     - INFO: Test started
-    - IF {code-is-correct}|CorrectCode|WrongCode
+    - IF: code-is-correct
+    - THEN: RUN CorrectCode
+    - ELSE: RUN WrongCode
     - INFO: Test finished
 
     CorrectCode:
@@ -105,7 +113,10 @@
     WrongCode:
     - FAIL: Code is wrong!
     ```
+    
+    Uses: [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`ELSE`](<../ELSE ⤵️/⤵️ ELSE ⌘ cmd.md>) [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`THEN`](<../THEN ⤵️/⤵️ THEN ⌘ cmd.md>)
 
+    <br/>
 
     ```python
     # 🐍 Python handler
@@ -134,7 +145,7 @@
     
     💬 If-them example:
     - INFO: Test started
-    - IF {code-is-correct}:
+    - IF code-is-correct:
         - DONE: Code is correct!
         - INFO: Test finished
     ```
@@ -144,7 +155,8 @@
 
     💬 If-then-else example:
     - INFO: Test started
-    - IF {code-is-correct}:
+    - IF: code-is-correct
+    - THEN:
         DONE: Code is correct!
     - ELSE:
         RUN: ErrorHandlingProcedure

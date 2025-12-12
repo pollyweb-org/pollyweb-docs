@@ -31,7 +31,7 @@
 
     ```yaml
     # Multi-field assertions
-    ASSERT|$object >> $valid:
+    ASSERT $object >> $valid:
         AllOf: <fields> # Required fields
         AnyOf: <fields> # One or more of these
         OneOf: <fields> # Only one of these
@@ -73,7 +73,7 @@
     > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```js
-    ASSERT|$object >> $valid:
+    ASSERT $object >> $valid:
         <key>
         <key>.f: ?
         <key>: <val>
@@ -103,7 +103,7 @@
 
     ```yaml
     # Simplest inline
-    ASSERT|<assertion>
+    ASSERT <assertion>
     ```
 
     ```yaml
@@ -137,7 +137,7 @@
         - {A:12, B:22}
 
     # Verify the list items.
-    ASSERT|$list:
+    ASSERT $list:
         AllOf: A, B
         A.IsBetween: 10, 19
         B.IsBetween: 20, 29
