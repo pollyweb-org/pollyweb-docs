@@ -11,11 +11,11 @@ participant "Wallet 👱" as wallet
 
 
 activate consumer
-consumer -> broker: INVITE 🤲 .\n  ID/TOKEN/PROXY 🧩 \n  {identity, stamp}
+consumer -> broker: INVITE 🤲 \n  {identity, stamp} \n  .ID/TOKEN/PROXY 🧩 
 
 
 activate broker
-    broker -> script: INVITE 🤲 \n  TOKEN/VERIFY 🧩 {stamp}
+    broker -> script: INVITE 🤲 {stamp} \n .ID/TOKEN/VERIFY 🧩 
 deactivate broker
 
 activate script
