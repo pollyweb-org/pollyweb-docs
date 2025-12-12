@@ -5,8 +5,8 @@
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - 
-| 🆔 [Identity](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 [Sign terms?](<../../🆔⏩ Identity flows/5 Verify Signatures 🆔⏩🔏/🆔⏩ Verify Signatures 🔏.md>) 📄 [Yes, No] | > Yes
-| 🆔 [Identity](<../../🆔 Identity agent/🆔🫥 Identity agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
+| 🆔 [Identity](<../../🆔 Identity agent/🆔 Identity 🫥 agent.md>) | 🫥 [Sign terms?](<../../🆔⏩ Identity flows/5 Verify Signatures 🆔⏩🔏/🆔⏩ Verify Signatures 🔏.md>) 📄 [Yes, No] | > Yes
+| 🆔 [Identity](<../../🆔 Identity agent/🆔 Identity 🫥 agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
 
 <br/>
 

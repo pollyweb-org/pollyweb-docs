@@ -238,10 +238,10 @@ Successful Tests:
   # 🆔 Identity domain
   - Given: '{{Identity}}'
     LinkText: "Identity 🆔 domain"
-    LinkFile: "🆔🫥 Identity agent.md"
+    LinkFile: "🆔 Identity 🫥 agent.md"
   - Given: '{{Identities}}'
     LinkText: "Identity 🆔 domains"
-    LinkFile: "🆔🫥 Identity agent.md"
+    LinkFile: "🆔 Identity 🫥 agent.md"
 
   # 🛢 Itemizer helper domain
   - Given: '{{Itemized dataset}}'

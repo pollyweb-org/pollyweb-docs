@@ -10,7 +10,7 @@
 
 1. **How can users pay to a salesperson with Userables?**
 
-    [Custodians 🧳](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) integrate with [💳 Payers](<../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) to allow users to pay with their [Userables 💍](<../💍💠 Userable thing.md>) after being authenticated by their [Identity 🆔](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔🫥 Identity agent.md>) (e.g., face scan). 
+    [Custodians 🧳](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) integrate with [💳 Payers](<../../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) to allow users to pay with their [Userables 💍](<../💍💠 Userable thing.md>) after being authenticated by their [Identity 🆔](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) (e.g., face scan). 
     
     * This allows sales people to use their own [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) as a chat interface for the user. 
 

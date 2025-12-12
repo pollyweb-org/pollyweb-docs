@@ -46,7 +46,6 @@
 1. **What's an example of FREEZE?**
 
     ```yaml
-    # 😃 Talker 
     💬 Book something:
     
     # Instructions
