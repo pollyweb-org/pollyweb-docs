@@ -222,10 +222,10 @@ Successful Tests:
   # ☁️ Hoster helper domain
   - Given: "{{Hoster}}"
     LinkText: "Hoster ☁️ helper domain"
-    LinkFile: "☁️🤲 Hoster helper.md"
+    LinkFile: "☁️ Hoster 🤲 helper.md"
   - Given: "{{Hosters}}"
     LinkText: "Hoster ☁️ helper domains"
-    LinkFile: "☁️🤲 Hoster helper.md"
+    LinkFile: "☁️ Hoster 🤲 helper.md"
 
   # 🎴 Issuer role
   - Given: '{{Issuer}}'

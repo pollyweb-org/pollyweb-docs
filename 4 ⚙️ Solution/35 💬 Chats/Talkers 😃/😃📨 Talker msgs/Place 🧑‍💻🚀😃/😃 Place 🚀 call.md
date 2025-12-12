@@ -1,7 +1,7 @@
 # 🧑‍💻🚀😃 Write @ Hoster
 
 > Implementation 
-* Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️🤲 Hoster helper.md>)
+* Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️ Hoster 🤲 helper.md>)
 * Implemented by the [`Place` 📃 handler](<😃 Place 📃 handler.md>)
 
 > Flow
@@ -33,7 +33,7 @@ Body:
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
 | Header    |`From`|text| [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) name
-|           |`To`|text| [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️🤲 Hoster helper.md>) name
+|           |`To`|text| [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️ Hoster 🤲 helper.md>) name
 |           | `Subject`     | string    | `Place@Talker`
 | Body      | `Hook`      | uuid      | Handling context | [`Handle@Hosted`](<../../../../55 👷 Build domains/Hosteds 📦/📦🅰️ Hosted methods/Handle 😃🐌📦/📦 Handle 🐌 msg.md>)
 |           | `Holder` | string    | [Holder 🧠](<../../../Scripts 📃/Holder 🧠.md>) name

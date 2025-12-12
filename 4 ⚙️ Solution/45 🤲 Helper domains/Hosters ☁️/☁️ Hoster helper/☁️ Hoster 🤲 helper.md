@@ -1,12 +1,12 @@
 # ☁️🛠️ Hoster helper
 
-> 
+> Part of [Helper 🤲 domains](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>)
 
-<br/> 
+## FAQ
 
 1. **What is a Hoster?**
 
-    A [Hoster ☁️](<☁️🤲 Hoster helper.md>) is 
+    A [Hoster ☁️](<☁️ Hoster 🤲 helper.md>) is 
     * any [Helper 🤲 domain](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>)
     * that provides the infrastructure of a [Hosted 📦 domain](<../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
     * and allow their owners to manage them with a [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
