@@ -54,11 +54,11 @@
     📃 Example:
     - TEMP Waiting forever...
     - RUN Test 
-    - FAIL This command never runs.
+    - FAIL: This command never runs.
     
     📃 Test:
     - HTTP 500
-    - FAIL This command also never runs.
+    - FAIL: This command also never runs.
     ```
 
     Uses: [`TEMP`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`HTTP`](<💥 HTTP ⌘ cmd.md>)

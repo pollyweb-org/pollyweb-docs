@@ -94,13 +94,13 @@
     - ASYNC Submit >> $hook      
 
     # Inform the user about the submission
-    - INFO Order submitted       
+    - INFO: Order submitted       
 
     # Show the wait status
     - RUN WaitForReady           
 
     # Inform the user that it's done
-    - DONE Order ready!       
+    - DONE: Order ready!       
     ```
     Uses: [`ASYNC`](<../../⌘ for async/ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) 
   

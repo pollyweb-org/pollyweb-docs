@@ -60,11 +60,11 @@
     ```yaml
     📃 Example:
     - RUN Test 
-    - DONE No failure occurred.
+    - DONE: No failure occurred.
     
     📃 Test:
     - RETURN
-    - FAIL This command never runs.
+    - FAIL: This command never runs.
     ```
 
     Uses: [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
@@ -91,15 +91,15 @@
 
     # Run without arguments
     - RUN StringProc >> $x
-    - INFO String return `{$x}`
+    - INFO: String return `{$x}`
     
     # Run with 123
     - RUN PlaceholderProc(123) >> $x
-    - INFO Holder return `{$x}`
+    - INFO: Holder return `{$x}`
     
     # Run with 1,2,3
     - RUN FunctionProc(1,2,3) >> $x
-    - INFO Function return 1+2+3= {$x}
+    - INFO: Function return 1+2+3= {$x}
     ```
 
     ```yaml

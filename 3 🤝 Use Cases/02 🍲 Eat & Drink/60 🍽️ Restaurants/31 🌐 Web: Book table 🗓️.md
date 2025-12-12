@@ -56,7 +56,7 @@
 - ISSUE:                            # Issue a Token
     Schema: .HOST/BOOKING/SELF
     Key: $booking.ID
-- DONE Done. See you then!          # Confirm booking
+- DONE: Done. See you then!          # Confirm booking
 - GOODBYE                           # Show follow-up actions
 ```
 

@@ -53,7 +53,7 @@ TODO: Add the flow to the Manifest
 ```yaml
 # Show error.
 📃 fail:
-- FAIL It didn't work!   # Inform the user
+- FAIL: It didn't work!   # Inform the user
 - REFUND $charge            # Refund the value
 - LOG:
     Machine: $.Chat.Key
@@ -65,7 +65,7 @@ TODO: Add the flow to the Manifest
 ```yaml
 # Show success.
 📃 Success:
-- DONE Pick up the item. # Inform the user
+- DONE: Pick up the item. # Inform the user
 - GOODBYE                   # Show review, ads
 - CALL Deduct:              # Deduct the stock
     Machine: $.Chat.Key

@@ -189,7 +189,7 @@
 
     ```yaml
     # Formatted output
-    - DONE You entered `$ip`
+    - DONE: You entered `$ip`
     ```
 
     <br/>
@@ -257,7 +257,7 @@
 
     ```yaml
     # Formatted output
-    - DONE You entered `$money`
+    - DONE: You entered `$money`
     ```
 
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose

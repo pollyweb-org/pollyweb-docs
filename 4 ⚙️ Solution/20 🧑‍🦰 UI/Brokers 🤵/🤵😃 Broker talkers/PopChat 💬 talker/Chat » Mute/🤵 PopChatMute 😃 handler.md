@@ -21,7 +21,7 @@
     Muted: true
 
 # Inform success
-- DONE Chat muted!
+- DONE: Chat muted!
 - GOODBYE
 ```
 

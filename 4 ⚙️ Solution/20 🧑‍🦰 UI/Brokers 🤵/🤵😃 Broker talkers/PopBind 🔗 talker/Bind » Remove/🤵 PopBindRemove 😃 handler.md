@@ -24,7 +24,7 @@
     .State: REMOVED
 
 # Inform the user 🤔
-- DONE Done.
+- DONE: Done.
 - GOODBYE
 ```
 

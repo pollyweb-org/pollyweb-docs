@@ -38,7 +38,7 @@
     
     ```yaml
     # 😃 Talker 
-    - INFO Any non-blocking status.
+    - INFO: Any non-blocking status.
     - CONFIRM I'm blocking inputs, OK?
     ```
 
@@ -71,7 +71,8 @@
 
     💬 Example:
     # Non-blocking
-    - INFO With options >> $selected:
+    - INFO >> $selected:
+        Text: With options
         Options: 
           - "[Cancel] later"
           - "[Play] music"

@@ -27,7 +27,7 @@
     Title: $tag
 
 # Inform the user
-- DONE Changed.
+- DONE: Changed.
 - GOODBYE
 ```
 

@@ -51,7 +51,7 @@
     - CONFIRM Joyful? 
 
     # Change the emoji.
-    - INFO Changing to neutral.
+    - INFO: Changing to neutral.
     - EMOJI 😶
     
     # Confirm two sequential prompts.

@@ -91,7 +91,7 @@
     
     ```yaml
     📃 Example:
-    - INFO Simple info.
+    - INFO: Simple info.
     ```
     
     <br/>

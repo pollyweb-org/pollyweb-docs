@@ -69,7 +69,8 @@
     Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
     
     ```yaml
-    - INFO Expandable info:
+    - INFO:
+        Text: Expandable info
         Details: |
             1. Markdown bullet one
             1. Markdown bullet two

@@ -18,7 +18,7 @@
 
 # Ignore if not active
 - IF $.Chat.State.IsNot(ACTIVE):
-    - FAIL The chat is not active.
+    - FAIL: The chat is not active.
     - RETURN
 
 # Confirm before abandoning
@@ -29,7 +29,7 @@
     .State: ABANDONED
 
 # Inform success
-- DONE Chat abandoned!
+- DONE: Chat abandoned!
 - GOODBYE
 ```
 

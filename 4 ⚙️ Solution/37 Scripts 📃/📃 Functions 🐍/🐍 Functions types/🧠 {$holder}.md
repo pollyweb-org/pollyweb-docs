@@ -18,9 +18,9 @@
         $: my default
         A: another property
 
-    - INFO {$p}   # Prints "my default"
-    - INFO {$p.$} # Prints "my default"
-    - INFO {$p.A} # Prints "another property"
+    - INFO: {$p}   # Prints "my default"
+    - INFO: {$p.$} # Prints "my default"
+    - INFO: {$p.A} # Prints "another property"
     ```
 
     | [Command ⌘](<../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose
@@ -50,8 +50,8 @@
     # 😃 Talker 
     💬 Example:
     - QUANTITY Give me a quantity >> $n
-    - INFO I'm saving `{$n}`
-    - INFO Although you typed `{$n.Text}`
+    - INFO: I'm saving `{$n}`
+    - INFO: Although you typed `{$n.Text}`
     ```
 
     | [Command ⌘](<../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose

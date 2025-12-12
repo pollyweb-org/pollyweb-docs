@@ -96,9 +96,9 @@
 
     ```yaml
     📃 Example:
-    - INFO Tell me your name.
+    - INFO: Tell me your name.
     - SHARE .PERSONA/NAME/SOCIAL >> $social
-    - DONE Hi, {$social.Name}!
+    - DONE: Hi, {$social.Name}!
     ```
 
     Uses: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`SHARE`](<💼 SHARE ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)

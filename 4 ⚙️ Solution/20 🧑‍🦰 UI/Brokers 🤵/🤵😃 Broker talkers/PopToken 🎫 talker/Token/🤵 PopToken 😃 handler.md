@@ -28,7 +28,7 @@
         Wallet: $.Chat.Wallet
 
 # Show info about the Token
-- INFO Token: ´{$token.Title}´
+- INFO: 'Token: ´{$token.Title}´'
 
 # Add general options
 - IF $token.State.IsIn(ACTIVE, REMOVED):
