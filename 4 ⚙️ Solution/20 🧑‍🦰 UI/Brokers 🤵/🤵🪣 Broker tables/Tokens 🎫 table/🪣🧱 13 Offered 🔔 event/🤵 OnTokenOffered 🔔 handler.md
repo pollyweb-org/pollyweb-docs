@@ -27,7 +27,7 @@
 
 # Ignore if not accepted
 - IFNOT $Token.Accepted:
-    RETURN DECLINED
+    RETURN: DECLINED
 
 # Otherwise, ask the wallet to save the token
 - SEND:

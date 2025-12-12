@@ -124,7 +124,7 @@
     📃 Example: 
     
     # Evaluate [A,B,C] into $list
-    - PUT A,B,C >> $list 
+    - PUT: A,B,C >> $list 
 
     # This shows C, A, and B, in any order
     - PARALLEL $list >> $number:
@@ -144,7 +144,7 @@
     📃 Example: 
 
     # Create a list
-    - PUT A,B,C >> $list # [A,B,C]
+    - PUT: A,B,C >> $list # [A,B,C]
 
     # Show the length
     - INFO: $list.Length # Shows 3
@@ -164,7 +164,9 @@
     📃 Example: 
 
     # Create a list of objects
-    - PUT {A:1},{A:2} >> $list
+    - PUT >> $list:
+        - {A:1}
+        - {A:2}
 
     # Show the list of values in property A
     - INFO: $list.A   # Shows [1,2]

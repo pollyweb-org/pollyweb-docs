@@ -31,9 +31,9 @@
     Details:
         $Bind.Description
 - THEN: 
-    RETURN ACTIVE
+    RETURN: ACTIVE
 - ELSE: 
-    RETURN REJECTED
+    RETURN: REJECTED
 ```
 
 Uses||

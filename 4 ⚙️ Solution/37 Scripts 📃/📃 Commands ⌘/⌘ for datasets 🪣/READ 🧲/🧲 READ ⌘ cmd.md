@@ -142,7 +142,7 @@
     📃 Script:
 
     # Get the item code.
-    - DIGITS What's the item number? >> $n
+    - DIGITS: What's the item number? >> $n
 
     # Get the item.
     - READ >> $item:

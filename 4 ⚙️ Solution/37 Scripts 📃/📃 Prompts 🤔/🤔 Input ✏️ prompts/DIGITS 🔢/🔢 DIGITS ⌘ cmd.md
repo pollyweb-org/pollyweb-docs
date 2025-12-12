@@ -98,7 +98,8 @@
     Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
     
     ```yaml
-    - DIGITS What's the code? >> $code:
+    - DIGITS >> $code:
+        Text: What's the code? 
         MinLength: 3 # Server-side validation
         MaxLength: 5 # Server-side validation
     ```

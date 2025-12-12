@@ -82,7 +82,7 @@
     - IF $review.Rejected:
         REPEAT
 
-    - RETURN $order
+    - RETURN: $order
     ```
     
     ```yaml
@@ -102,7 +102,7 @@
         Text: Eat-in submitted
         Details: {$order.Summary}
 
-    - RETURN $status
+    - RETURN: $status
     ```
 
     ```yaml
@@ -120,9 +120,9 @@
             - RETURN
 
     # Monitor status changes.
-    - WAIT $status
+    - WAIT: $status
     - IFNOT $status.Pending:
-        RETURN $status
+        RETURN: $status
 
     # Continue to wait.
     - REPEAT

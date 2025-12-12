@@ -22,7 +22,7 @@
     - Hook
 
 # Return the list
-- RETURN $ret
+- RETURN: $ret
 ```
 
 Uses||

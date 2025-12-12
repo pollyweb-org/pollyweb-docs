@@ -40,7 +40,7 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
     Format: ONE
 
 # Return the reply.
-- RETURN $reply
+- RETURN: $reply
 ```
 
 Uses||

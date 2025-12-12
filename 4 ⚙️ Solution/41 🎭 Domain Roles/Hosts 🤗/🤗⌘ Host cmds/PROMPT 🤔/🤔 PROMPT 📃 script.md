@@ -122,7 +122,7 @@
         Hook: $prompt.ID
 
     # Return the reply
-    - RETURN $reply
+    - RETURN: $reply
 
 
 # ------------------------------------
@@ -141,7 +141,7 @@
 - IF $onReply.Is(REEL):
 
     # Clone holders for later recall
-    - IMPRINT $prompt.ID 
+    - IMPRINT: $prompt.ID 
 
     # Create a return point
     - HOOK >> $reply: 
@@ -152,7 +152,7 @@
         RECALL $prompt.ID  # Restore holders
 
     # Return the reply
-    - RETURN $reply
+    - RETURN: $reply
 ```
 
 

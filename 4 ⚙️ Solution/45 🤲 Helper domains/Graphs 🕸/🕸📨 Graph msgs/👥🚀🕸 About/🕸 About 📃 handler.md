@@ -45,7 +45,7 @@
     - IF $translation:
 
         # Use the translation
-        SET|$output:
+        SET $output:
             Title: $translation.Title
             Description: $translation.Description
     

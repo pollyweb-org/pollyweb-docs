@@ -37,7 +37,7 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
     Format: QUANTITY
 
 # Return the reply.
-- RETURN $reply
+- RETURN: $reply
 ```
 
 Uses||

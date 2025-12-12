@@ -89,7 +89,9 @@
     📃 Example:
     
     # Create a holder
-    - PUT {A:1,B:2} >> $context
+    - PUT >> $context:
+        A: 1
+        B: 2
 
     # Without context
     - SEND:

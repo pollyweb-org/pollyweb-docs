@@ -39,10 +39,10 @@ Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>
     Format: WEB
 
 # Wait for the hook to be called
-- WAIT $Hook >> $result
+- WAIT: $Hook >> $result
 
 # Return the result
-- RETURN $result
+- RETURN: $result
 ```
 
 Uses ||

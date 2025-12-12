@@ -65,7 +65,8 @@
 
     ```yaml
     📃 Example:
-    - DIGITS What's the code? >> code:
+    - DIGITS >> code:
+        Text: What's the code?
         MinLength: 6
         MaxLength: 6
     - DONE: Code validated!

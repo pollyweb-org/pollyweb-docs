@@ -24,9 +24,9 @@
 
 # Progress the state
 - IF $trusted:
-    RETURN TRUSTED
+    RETURN: TRUSTED
 - ELSE:
-    RETURN UNTRUSTED
+    RETURN: UNTRUSTED
 ```
 
 Uses||

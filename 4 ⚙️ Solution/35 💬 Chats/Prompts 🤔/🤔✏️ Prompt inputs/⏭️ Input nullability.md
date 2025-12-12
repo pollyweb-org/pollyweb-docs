@@ -39,9 +39,10 @@
 
     ```yaml
     # 😃 Talker
-    - DIGITS What's the code? >> $code
+    - DIGITS: What's the code? >> $code
     - DONE: Your code is `{$code}`
     ```
+    Uses: [`DIGITS`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS ⌘ cmd.md>) [`DONE`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
     
     ---
     <br/>
@@ -76,14 +77,16 @@
     ```yaml
     📃 Example:
 
-    - DIGITS What's the code? >> $code:
+    - DIGITS >> $code:
+        Text: What's the code? 
         Nullable: True
 
     - IF $code:
-        DONE Your code is `{$code}`
+        DONE: Your code is `{$code}`
     - ELSE:
-        DONE You didn't provide a code.
+        FAIL: You didn't provide a code.
     ```
+    Uses: [`DIGITS`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS ⌘ cmd.md>) [`DONE`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`FAIL`](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) 
 
     <br/>
 

@@ -52,14 +52,14 @@
 
 # Set $.Chat if Host.Chat exists
 - IF $chat.ID.IsNotEmpty:
-    - PUT $chat >> $.Chat
+    - PUT: $chat >> $.Chat
     - RETURN
 
 # Save the Chat if it's new
 - SAVE $chat
 
 # Wait for the Chat to be ready
-- WAIT $chat.ID
+- WAIT: $chat.ID
 ```
 
 Uses||

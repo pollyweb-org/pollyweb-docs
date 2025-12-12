@@ -39,7 +39,7 @@
     URL: $selfie.URL
     
 # Wait for the selfie validation
-- WAIT $selfie.Hook
+- WAIT: $selfie.Hook
 
 # Initiate the face recognition
 - CALL SignFile >> $signed:
@@ -48,7 +48,7 @@
     Reference: $Bind.Reference
 
 # Return the signed file
-- RETURN $signed
+- RETURN: $signed
 ```
 
 Uses ||

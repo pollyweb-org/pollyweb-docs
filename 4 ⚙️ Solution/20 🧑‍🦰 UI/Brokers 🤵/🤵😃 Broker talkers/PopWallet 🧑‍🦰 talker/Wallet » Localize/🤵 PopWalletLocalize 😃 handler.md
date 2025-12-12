@@ -35,7 +35,8 @@
     From: .Hosted.Assets.Regions
 
 # Prompt the user for the region
-- ONE Change to what region? >> $new:
+- ONE >> $new:
+    Text: Change to what region?
     Options: $regions
 
 # Ignore if already on that language

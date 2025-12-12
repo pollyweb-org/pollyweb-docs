@@ -22,9 +22,9 @@
 
 # Progress the state
 - IF $valid:
-    RETURN VALID
+    RETURN: VALID
 - ELSE:
-    RETURN INVALID
+    RETURN: INVALID
 ```
 
 Uses ||

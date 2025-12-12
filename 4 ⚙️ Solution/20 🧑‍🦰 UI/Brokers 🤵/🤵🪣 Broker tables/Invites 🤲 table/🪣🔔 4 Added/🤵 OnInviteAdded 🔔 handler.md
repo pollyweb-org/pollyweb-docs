@@ -30,7 +30,7 @@
         Invite: $Invite.Invite
 
 # Mark as done
-- RETURN DONE
+- RETURN: DONE
 ```
 
 Uses ||
