@@ -52,7 +52,8 @@
 
     Else: # ...otherwise, just inform
         - INFO:
-            Text: Flow: ´{$form.Title.Require}´
+            Text: 
+                Flow: ´{$form.Title.Require}´
             Details: > 
                 Steps: 
                 ´{$form.Steps.Purpose.Require}´

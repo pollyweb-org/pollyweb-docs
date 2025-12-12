@@ -1,18 +1,18 @@
-@startuml Identify
+@startuml Liveness
 
 box Identity 🆔 domain #FFFFFA
     participant "Caller 📃" as caller
-    participant "Selfie 📸" as script
+    participant "Liveness 📸" as script
     participant "Handled 🐌" as handled
     participant "Hosted 📦" as hosted
 end box
 participant "Wallet 👱" as wallet
 
 
-caller -> script: RUN {user}
+caller -> script: RUN {citizen}
 
 activate script
-    script -> hosted: CALL 🧮 {Identify, user}
+    script -> hosted: CALL 🧮 {Liveness, citizen}
 deactivate script
 
 activate hosted
