@@ -55,7 +55,7 @@
 
     ```yaml
     # 😃 Talker
-    - CONFIRM Continue?
+    - CONFIRM: Continue?
     ```
 
     <br/>
@@ -109,7 +109,8 @@
     Here's a [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
-    - CONFIRM Are you OK?:
+    - CONFIRM:
+        Text: Are you OK?
         Emoji: 😕 
     ```
     

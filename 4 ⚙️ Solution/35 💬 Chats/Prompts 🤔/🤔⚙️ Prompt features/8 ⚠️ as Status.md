@@ -39,7 +39,7 @@
     ```yaml
     # 😃 Talker 
     - INFO: Any non-blocking status.
-    - CONFIRM I'm blocking inputs, OK?
+    - CONFIRM: I'm blocking inputs, OK?
     ```
 
     ---

@@ -16,7 +16,7 @@ TODO: Add the flow to the Manifest
 💬|[Buy] an item:
 
 # Set the Chat's flow.
-- INFORM Buy
+- INFORM: Buy
 
 # Ask for the item number.
 - DIGITS What's the item number? >> $number
@@ -38,7 +38,7 @@ TODO: Add the flow to the Manifest
         Name: $item.Name
 
 # Deliver the item.
-- TEMP Delivering...   
+- TEMP: Delivering...   
 
 # Find the MachineKey from the Chat Locator
 - READ Locators|$.Chat.Key >> $locator

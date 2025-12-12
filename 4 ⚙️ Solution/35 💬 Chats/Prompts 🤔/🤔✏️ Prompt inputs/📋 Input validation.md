@@ -112,7 +112,7 @@
 
     failure-script:
     - FAIL: Enter a 6 digit number
-    - RUN get-code
+    - RUN: get-code
     ```
 
     Here's the [Function 🐍 handler](<../../Scripts 📃/Function 🐍.md>).

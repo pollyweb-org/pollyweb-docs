@@ -27,8 +27,8 @@
 
 ```yaml
 📃 Bind Domain:
-- INFORM Bind Domain    # Announce what's coming
-- BIND .HOST/ADMIN      # Ask to bind the domain
+- INFORM: Bind Domain    # Announce what's coming
+- BIND: .HOST/ADMIN      # Ask to bind the domain
 - DONE: Domain bound!    # Confirmation
 ```
 

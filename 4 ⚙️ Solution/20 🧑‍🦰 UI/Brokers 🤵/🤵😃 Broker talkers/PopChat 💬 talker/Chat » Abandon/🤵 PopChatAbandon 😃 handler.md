@@ -22,7 +22,7 @@
     - RETURN
 
 # Confirm before abandoning
-- CONFIRM Abandon this chat?
+- CONFIRM: Abandon this chat?
 
 # Process the user's option
 - SAVE $.Chat:

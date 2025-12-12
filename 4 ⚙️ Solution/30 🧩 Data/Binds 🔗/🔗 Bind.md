@@ -45,8 +45,8 @@
 
     ```yaml
     💬|[Bla]:
-    - INFORM bla
-    - BIND any-authority.org/ANY-SCHEMA-CODE
+    - INFORM: bla
+    - BIND: any-authority.org/ANY-SCHEMA-CODE
     - DONE: Done!
     ```
 

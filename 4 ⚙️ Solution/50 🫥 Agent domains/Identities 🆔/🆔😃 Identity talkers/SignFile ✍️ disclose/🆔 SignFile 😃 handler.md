@@ -25,7 +25,8 @@
     Appendix.IsPDF:
 
 # Sign the file
-- CONFIRM Sign {$Context.Title}?:
+- CONFIRM:
+    TexT: Sign {$Context.Title}?
     Appendix: $Context.Appendix
 
 # Initiate the face recognition

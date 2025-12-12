@@ -24,10 +24,11 @@ Consider the following [Chat 💬](<../../4 ⚙️ Solution/35 💬 Chats/Chats 
 The associated [Script 📃](<../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃/Script 📃.md>) would be the following.
 
 ```yaml
-- CONFIRM Start risky task?
-- SELFIE
+- CONFIRM: Start risky task?
+- SELFIE:
 - DONE: Starting task...
 ```
+Uses: [`CONFIRM`](<../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>) [`DONE`](<../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) {{SELFIE}}
 
 <br/>
 

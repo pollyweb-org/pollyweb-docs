@@ -24,7 +24,7 @@
 
 ```yaml
 📃 Bind Wallet:
-- BIND .VAULT/SELF     # Ask to bind the wallet
+- BIND: .VAULT/SELF     # Ask to bind the wallet
 - DONE: Wallet bound!   # Confirmation
 ```
 

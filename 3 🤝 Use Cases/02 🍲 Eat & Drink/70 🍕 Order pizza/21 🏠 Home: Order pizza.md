@@ -49,15 +49,20 @@ Order a pizza for home delivery
 
     ```yaml
     💬 Order:
-    - INFO Pizza request received.
-    - INFORM order
+    - INFO: Pizza request received.
+    - INFORM: order
 
     # Collect order details.
-    - SHARE .NAVIGATOR/DESTINATION >> $destination # 🧭 
-    - SHARE .CONCIERGE/COURIER >> $courier: # 🛎️ 
+    - SHARE >> $destination: # 🧭 
+        Schema: .NAVIGATOR/DESTINATION
+    - SHARE >> $courier: # 🛎️ 
+        Schema: .CONCIERGE/COURIER
         Destination: $destination
-    - READ menus|pizzas.yaml >> $menu
-    - SHARE .CURATOR/ORDER >> $choice:  # 🧚 
+    - READ >> $menu:
+        Set: menus
+        Key: pizzas.yaml
+    - SHARE: 
+        Schema: .CURATOR/ORDER >> $choice  # 🧚 
         Menu: $menu
     - CALL Order >> $order:
         Destination: $destination
@@ -65,19 +70,30 @@ Order a pizza for home delivery
         Choice: $choice
     
     # Confirm order details and create a Biller 🤝 ID.
-    - INFO $order.summary|Change
-    - SHARE .VITALOGIST/REVIEW|$order.details # 💖
-    - SHARE .CONCIERGE/REVIEW|$order.details # 🛎️
-    - SHARE .SCHEDULER/REVIEW|$order.details # 🗓️
+    - INFO: 
+        Text: $order.summary
+        Options: Change
+    - SHARE: # 💖
+        Schema: .VITALOGIST/REVIEW  
+        Context: $order.details 
+    - SHARE: # 🛎️
+        Schema: .CONCIERGE/REVIEW 
+        Context: $order.details 
+    - SHARE: # 🗓️
+        Schema: .SCHEDULER/REVIEW 
+        Context: $order.details 
 
     # Request aggregated payment.
     - CHARGE {amount}|{biller-id} # 💳
     
     # Successful order.
-    - DONE: Order confirmed:
+    - DONE: 
+        Text: Order confirmed
         Details: $order.summary
-    - SHARE .CONCIERGE/CONFIRM # 🛎️
-    - TEMP Preparing your order...:
+    - SHARE: 
+        Schema: .CONCIERGE/CONFIRM # 🛎️
+    - TEMP: 
+        Text: Preparing your order...
         Details: $order.summary
     ```
 

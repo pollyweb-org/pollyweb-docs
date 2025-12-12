@@ -150,7 +150,7 @@
         Key: $n
 
     # Confirm the item name.
-    - CONFIRM A {$item.Name}?
+    - CONFIRM: A {$item.Name}?
     ```
 
     Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>) [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS ⌘ cmd.md>) [`READ`](<🧲 READ ⌘ cmd.md>)

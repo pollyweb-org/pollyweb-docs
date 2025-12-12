@@ -59,7 +59,7 @@
 
     ```yaml
     📃 Example:
-    - RUN Test 
+    - RUN: Test 
     - DONE: No failure occurred.
     
     📃 Test:
@@ -90,15 +90,15 @@
     💬 Example:
 
     # Run without arguments
-    - RUN StringProc >> $x
+    - RUN: StringProc >> $x
     - INFO: String return `{$x}`
     
     # Run with 123
-    - RUN PlaceholderProc(123) >> $x
+    - RUN: PlaceholderProc(123) >> $x
     - INFO: Holder return `{$x}`
     
     # Run with 1,2,3
-    - RUN FunctionProc(1,2,3) >> $x
+    - RUN: FunctionProc(1,2,3) >> $x
     - INFO: Function return 1+2+3= {$x}
     ```
 

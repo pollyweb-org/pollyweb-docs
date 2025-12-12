@@ -70,7 +70,7 @@
 
     ```yaml
     💬|Show time:
-    - CONFIRM Want to know the time? 
+    - CONFIRM: Want to know the time? 
     - DONE: The time is {.Now}.
     - REPEAT
     ```
@@ -105,13 +105,13 @@
     💬|[Order] a list of items:
 
     # Call the AddItems procedure
-    - RUN AddItems
+    - RUN: AddItems
 
     # Show the order summary
     - INFO: {OrderSummary}
 
     # Ask the user to confirm the submission
-    - CONFIRM Submit order?
+    - CONFIRM: Submit order?
 
     # Call the custom function 
     #   to pending submit the order 
@@ -177,7 +177,7 @@
     - INFO: You have 3 attempts.          # Inform the rules
     - PUT >> $tries:                     # Reset the counter
         3
-    - RUN TryLoop >> $result             # Run the loop
+    - RUN: TryLoop >> $result             # Run the loop
     - CASE $result:                      # Check the result
         Won: DONE You won! 🥳
         Lost: FAIL You lost! 😮

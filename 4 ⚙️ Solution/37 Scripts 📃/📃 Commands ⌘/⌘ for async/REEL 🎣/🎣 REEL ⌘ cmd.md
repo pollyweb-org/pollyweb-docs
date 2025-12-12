@@ -64,7 +64,7 @@ then the last 3 will never be executed because REEL will exit the script.
 
     ```yaml
     📃 Example:
-    - BIND .BIND >> $bound
+    - BIND: .BIND >> $bound
     - IF $bound: 
         DONE Your wallet is bound.
     - ELSE: 

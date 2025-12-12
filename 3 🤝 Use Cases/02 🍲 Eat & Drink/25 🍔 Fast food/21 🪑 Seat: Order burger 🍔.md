@@ -34,10 +34,10 @@
     ```yaml
     💬 Order:
 
-    - INFORM order     # Inform the steps.
-    - RUN Selection  # Select from the menu.
-    - RUN Payment    # Ask for the payment
-    - RUN WaitReady  # Wait for it to be ready.
+    - INFORM: order     # Inform the steps.
+    - RUN: Selection  # Select from the menu.
+    - RUN: Payment    # Ask for the payment
+    - RUN: WaitReady  # Wait for it to be ready.
 
     # Inform readiness.
     - CASE $status.Code:
