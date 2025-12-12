@@ -31,7 +31,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-| Header    |`From`|text| [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️🤲 Hoster helper.md>) name
+| Header    |`From`|text| [Hoster ☁️ domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️ Hoster 🤲 helper.md>) name
 |           |`To`|text| [Hosted 📦 domain](<../../📦👥 Hosted domain.md>) name
 |           | `Subject`     | string    | `Handle@Hosted`
 | Body      | `Hook`    | uuid      | Hook for [`Handled@Talker`](<../../../../35 💬 Chats/Talkers 😃/😃📨 Talker msgs/Handled 🧑‍💻🐌😃/😃 Handled 🐌 msg.md>)

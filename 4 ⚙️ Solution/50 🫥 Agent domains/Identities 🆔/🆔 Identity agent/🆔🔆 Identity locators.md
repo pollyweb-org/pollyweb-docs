@@ -2,7 +2,7 @@
 
 > About
 * These are the [Scripts 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>) invoked by [`Hello@Host` 🐌 msg](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-* This map is loaded into the [`Host.Talkers` 🪣 table](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Talkers 😃 table/Talkers 🪣/😃 Host.Talkers 🪣 table.md>) by [Hoster ☁️ helper domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️🤲 Hoster helper.md>)
+* This map is loaded into the [`Host.Talkers` 🪣 table](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗🪣 Host tables/Talkers 😃 table/Talkers 🪣/😃 Host.Talkers 🪣 table.md>) by [Hoster ☁️ helper domains](<../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️ Hoster 🤲 helper.md>)
 
 <br/>
 
