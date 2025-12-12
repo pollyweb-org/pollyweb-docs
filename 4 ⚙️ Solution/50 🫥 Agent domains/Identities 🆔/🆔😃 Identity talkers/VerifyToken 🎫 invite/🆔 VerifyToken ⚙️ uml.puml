@@ -20,7 +20,7 @@ deactivate broker
 
 activate script
     script -> tokens: READ 🧲 {stamp}
-    script -> identify: RUN {user}
+    script --> identify: RUN {user}
 deactivate script
 
 activate identify
