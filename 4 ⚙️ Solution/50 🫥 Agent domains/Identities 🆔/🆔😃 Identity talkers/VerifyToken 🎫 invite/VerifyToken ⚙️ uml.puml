@@ -1,0 +1,30 @@
+@startuml VerifyToken
+
+participant "Consumer 💼" as consumer
+box Identity 🆔 domain #FFFFFA
+    participant "VerifyToken  😃" as script
+    participant "Tokens 🪣" as tokens
+    participant "Selfie 📸" as identify
+end box
+participant "Wallet 👱" as wallet
+
+
+consumer --> script: 🐌 Query@Broker 🧩 TOKEN/VERIFY \n{issuer, token, signature}
+
+activate script
+    script -> tokens: READ 🧲
+    script -> identify: RUN {user}
+deactivate script
+
+activate identify
+    identify -> wallet: selfie 📸
+    identify -> script: 
+deactivate identify
+
+
+activate script
+    script --> consumer: Consume@Consumer 🐌 {result}
+deactivate script
+
+    
+@enduml
