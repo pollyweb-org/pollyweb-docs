@@ -1,0 +1,19 @@
+@startuml SignToken
+
+participant "Consumer 💼" as consumer
+box Identity 🆔 domain #FFFFFA
+    participant "SignToken 😃" as script
+    participant "Tokens 🪣" as tokens
+end box
+
+
+consumer --> script: 🐌 Query@Broker 🧩 TOKEN/SIGN
+
+activate script
+    script -> tokens: SAVE 💾 {wallet, consumer}
+
+    script --> consumer: Consume@Consumer 🐌 {key}
+deactivate script
+
+    
+@enduml

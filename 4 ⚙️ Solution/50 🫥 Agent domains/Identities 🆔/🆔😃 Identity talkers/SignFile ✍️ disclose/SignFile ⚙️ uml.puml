@@ -2,17 +2,17 @@
 
 participant "Consumer 💼" as consumer
 box Identity 🆔 domain #FFFFFA
-    participant "SignFile ✍️" as script
-    participant "Identify 🆔" as identify
+    participant "SignFile  😃" as script
+    participant "Selfie 📸" as identify
     participant "Hosted 📦" as hosted
 end box
 participant "Wallet 👱" as wallet
 
 
-consumer --> script: Query@Broker 🐌 {SIGN, raw}
+consumer --> script: Query@Broker 🐌 {SIGN-FILE, raw-file}
 
 activate script
-    script -> wallet: CONFIRM 👍 "sign?" {raw}
+    script -> wallet: CONFIRM 👍 "sign?" {raw-file}
     script -> identify: RUN {user}
 deactivate script
 
@@ -22,11 +22,11 @@ activate identify
 deactivate identify
 
 activate script
-    script -> hosted: CALL 🧮 {Sign, file}
+    script -> hosted: CALL 🧮 {Sign, raw-file}
 deactivate script
 
 activate hosted
-    hosted -> script: {signed}
+    hosted -> script: {signed-file}
 deactivate hosted
 
 activate script
