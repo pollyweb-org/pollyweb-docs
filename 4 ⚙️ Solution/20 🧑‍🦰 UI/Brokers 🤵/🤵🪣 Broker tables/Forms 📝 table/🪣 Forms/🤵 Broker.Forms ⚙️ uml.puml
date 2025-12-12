@@ -17,7 +17,7 @@ deactivate broker
 
 activate table
     table -> chats:  💾 {form}
-    chats -> table:  💾 {INFORMED}
+    table -> table:  💾 {INFORMED}
     table -> consumer: Informed 🐌
 deactivate table
 
