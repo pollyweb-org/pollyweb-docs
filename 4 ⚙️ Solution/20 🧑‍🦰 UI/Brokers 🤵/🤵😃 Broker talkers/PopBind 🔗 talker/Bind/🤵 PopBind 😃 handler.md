@@ -31,7 +31,7 @@
         Wallet: $.Chat.Wallet
 
 # Show info about the bind
-- INFO Bind: ´{$bind.Title}´
+- INFO: 'Bind: ´{$bind.Title}´'
 
 # Add general options
 - IF $bind.State.IsIn(ACTIVE, REMOVED):

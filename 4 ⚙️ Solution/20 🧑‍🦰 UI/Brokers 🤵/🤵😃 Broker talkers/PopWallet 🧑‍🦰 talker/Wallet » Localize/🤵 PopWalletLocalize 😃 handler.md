@@ -27,7 +27,7 @@
     $wallet.Region
 
 # Inform current region
-- INFO Your current region is {$old.Region}.
+- INFO: Your current region is {$old.Region}.
 
 # Get the regions
 - SELECT >> $regions:
@@ -39,12 +39,14 @@
     Options: $regions
 
 # Ignore if already on that language
-- IF $old.Language.Is($new.ID):
-    - DONE Already set to {$new.Title}!
+- IF:
+    $old.Language: $new.ID
+- THEN:
+    - DONE: Already set to {$new.Title}!
     - RETURN
 
 # Confirm before changing
-- CONFIRM Set to {$new.Title}?
+- CONFIRM: Set to {$new.Title}?
 
 # Process the user's option
 - SAVE $wallet:
@@ -52,12 +54,13 @@
     Region: $new.Title
 
 # Inform success, but allow an undo
-- DONE Done! >> $success:
+- DONE >> $options:
+    Text: Done!
     Options: 
         - ↩️ /Revert to {$old.Region}
 
 # Process undo request
-- CASE $success:
+- CASE $options:
     Revert: 
     
         # Save back the previous language
@@ -66,7 +69,7 @@
             Region: $old.Region
 
         # Inform success of reversal
-        - DONE Region reverted.
+        - DONE: Region reverted.
 ```
 
 Uses||

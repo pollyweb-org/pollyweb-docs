@@ -63,7 +63,7 @@
 
     # Save the booking
     - CALL SaveBooking($inputs)
-    - DONE Done.
+    - DONE: Done.
     - GOODBYE
     ```
 

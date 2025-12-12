@@ -106,8 +106,8 @@
         B: 20
         $: 30
 
-    - INFO $p.A.  # show 10
-    - INFO $p     # show 30
+    - INFO: $p.A.  # show 10
+    - INFO: $p     # show 30
     ```
     Uses: [`CALL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
@@ -128,7 +128,7 @@
 
     # This shows C, A, and B, in any order
     - PARALLEL $list >> $number:
-        - INFO $number
+        - INFO: $number
     ```
     Uses: [`CALL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PARALLEL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/PARALLEL *️⃣/*️⃣ PARALLEL ⌘ cmd.md>) [`PUT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
@@ -147,8 +147,8 @@
     - PUT A,B,C >> $list # [A,B,C]
 
     # Show the length
-    - INFO $list.Length() # Shows 3
-    - INFO $list.Size() # Shows 3
+    - INFO: $list.Length # Shows 3
+    - INFO: $list.Size   # Shows 3
     ```
     Uses: [`CALL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PUT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
@@ -167,7 +167,7 @@
     - PUT {A:1},{A:2} >> $list
 
     # Show the list of values in property A
-    - INFO $list.A   # Shows [1,2]
+    - INFO: $list.A   # Shows [1,2]
     ```
     Uses: [`CALL`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`INFO`](<../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PUT`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
@@ -261,7 +261,7 @@
 
     - PUT p >> $name
     - PUT 123 >> {$name}
-    - INFO The value of $p is {$p}
+    - INFO: The value of $p is {$p}
 
     # This shows: 
     #    The value of p is 123

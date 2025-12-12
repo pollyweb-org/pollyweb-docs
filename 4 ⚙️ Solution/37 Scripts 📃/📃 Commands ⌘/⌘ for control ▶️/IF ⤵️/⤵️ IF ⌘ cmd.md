@@ -83,27 +83,27 @@
     # 😃 Talker with inline IF-THEN (no ELSE).
 
     💬 If-then example:
-    - INFO Test started
+    - INFO: Test started
     - IF {code-is-correct}|CorrectCode
-    - INFO Test finished
+    - INFO: Test finished
 
     CorrectCode:
-    - DONE Code is correct!
+    - DONE: Code is correct!
     ```
 
     ```yaml
     # 😃 Talker with inline IF-THEN-ELSE.
 
     💬 If-then-else example:
-    - INFO Test started
+    - INFO: Test started
     - IF {code-is-correct}|CorrectCode|WrongCode
-    - INFO Test finished
+    - INFO: Test finished
 
     CorrectCode:
-    - DONE Code is correct!
+    - DONE: Code is correct!
 
     WrongCode:
-    - FAIL Code is wrong!
+    - FAIL: Code is wrong!
     ```
 
 

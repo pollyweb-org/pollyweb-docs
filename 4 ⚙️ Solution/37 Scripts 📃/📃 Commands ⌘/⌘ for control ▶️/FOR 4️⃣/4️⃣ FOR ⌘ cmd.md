@@ -64,7 +64,7 @@
     ```yaml
     📃 Example:
     - FOR [1,2,3] >> $n:
-        - INFO Item `{$n}` in random order
+        - INFO: Item `{$n}` in random order
     ```
 
     ---

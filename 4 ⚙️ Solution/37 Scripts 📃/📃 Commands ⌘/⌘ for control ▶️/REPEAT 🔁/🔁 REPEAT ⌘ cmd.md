@@ -45,7 +45,7 @@
 
     ```yaml
     💬|Show time:
-    - DONE The time is {.Now}.
+    - DONE: The time is {.Now}.
     - REPEAT Check again?
     ```
 
@@ -71,7 +71,7 @@
     ```yaml
     💬|Show time:
     - CONFIRM Want to know the time? 
-    - DONE The time is {.Now}.
+    - DONE: The time is {.Now}.
     - REPEAT
     ```
     Uses: ANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>)
@@ -108,7 +108,7 @@
     - RUN AddItems
 
     # Show the order summary
-    - INFO {OrderSummary}
+    - INFO: {OrderSummary}
 
     # Ask the user to confirm the submission
     - CONFIRM Submit order?
@@ -118,7 +118,7 @@
     - CALL Submit 
 
     # Show the successful submission
-    - DONE Order submitted!
+    - DONE: Order submitted!
     ```
 
     Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>)  [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)  [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)
@@ -135,7 +135,7 @@
     - CALL AddItem($code) >> $description:
 
     # Show the description to the user
-    - INFO Added `{$description}`
+    - INFO: Added `{$description}`
 
     # Repeat after the user confirms
     - REPEAT Add another?
@@ -174,7 +174,7 @@
     ```yaml
     💬 Play guess:                      
     - PUT .Random(1,9) >> $target       # Set the target
-    - INFO You have 3 attempts.          # Inform the rules
+    - INFO: You have 3 attempts.          # Inform the rules
     - PUT >> $tries:                     # Reset the counter
         3
     - RUN TryLoop >> $result             # Run the loop
@@ -182,7 +182,7 @@
         Won: DONE You won! 🥳
         Lost: FAIL You lost! 😮
     - REPEAT Play again?                 # Ask to play again
-    - INFO OK, see you next time!        # Exit the game
+    - INFO: OK, see you next time!        # Exit the game
     - GOODBYE                            # Show ads
 
     TryLoop:      

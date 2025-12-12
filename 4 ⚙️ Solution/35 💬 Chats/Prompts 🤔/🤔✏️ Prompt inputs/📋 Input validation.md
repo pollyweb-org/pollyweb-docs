@@ -68,7 +68,7 @@
     - DIGITS What's the code? >> code:
         MinLength: 6
         MaxLength: 6
-    - DONE Code validated!
+    - DONE: Code validated!
     ```
 
     Here's the [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>).
@@ -103,7 +103,7 @@
 
     💬 Form:
     - RUN get-code
-    - DONE Code validated!
+    - DONE: Code validated!
 
     get-code:
     - TEXT What's the code? >> $code:
@@ -111,7 +111,7 @@
     - IF {IsInvalid($code)}|failure-script
 
     failure-script:
-    - FAIL Enter a 6 digit number
+    - FAIL: Enter a 6 digit number
     - RUN get-code
     ```
 

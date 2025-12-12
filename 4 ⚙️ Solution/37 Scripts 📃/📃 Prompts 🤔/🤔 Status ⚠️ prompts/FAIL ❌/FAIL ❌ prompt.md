@@ -95,7 +95,7 @@
     
     ```yaml
     📃 Example:
-    - FAIL Simple failure.
+    - FAIL: Simple failure.
     ```
 
     <br/>

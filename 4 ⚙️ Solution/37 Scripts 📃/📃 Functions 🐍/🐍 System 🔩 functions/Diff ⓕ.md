@@ -64,12 +64,12 @@
     📃 Example: 
     
     # Process the period
-    - CALL .Diff >> $period
+    - CALL .Diff >> $period:
         - .Today 
         - .Now
     
     # Show the total number of seconds since midnight
-    - INFO {$period.Seconds} seconds from midnight:
+    - INFO: '{$period.Seconds} seconds from midnight'
     ```
     Uses: [`.Today`](<Today ⓕ.md>) [`.Now`](<Now ⓕ.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 

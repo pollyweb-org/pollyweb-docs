@@ -45,7 +45,7 @@
 
     ```yaml
     📃 .ECHO:
-    - INFO Custom echo `{$UserInput}`
+    - INFO: Custom echo `{$UserInput}`
     ```
     Uses: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 

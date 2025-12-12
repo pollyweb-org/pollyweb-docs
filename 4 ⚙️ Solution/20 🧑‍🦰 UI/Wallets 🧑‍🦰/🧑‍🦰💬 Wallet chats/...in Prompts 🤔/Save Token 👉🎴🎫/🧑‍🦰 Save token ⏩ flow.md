@@ -30,7 +30,7 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 The associated [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) uses the [`ISSUE`](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴⌘ Issuer cmds/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) command.
 
 ```yaml
-- INFO Issuing your token...
+- INFO: Issuing your token...
 - ISSUE .HOST >> $token
 
 - IF $token:

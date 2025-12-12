@@ -111,7 +111,7 @@
     ```yaml
     📃 Script:
     - READ MyPool|Key2 >> $myItem
-    - INFO {$myItem.PropA} 
+    - INFO: {$myItem.PropA} 
     ```
 
     Uses: [`READ`](<🧲 READ ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)

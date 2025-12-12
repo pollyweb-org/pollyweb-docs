@@ -33,7 +33,7 @@
     
     ```yaml
     📃 TestScript:
-    - INFO Hi!
+    - INFO: Hi!
     - CONFIRM Are you OK? >> $answer
     ```
     

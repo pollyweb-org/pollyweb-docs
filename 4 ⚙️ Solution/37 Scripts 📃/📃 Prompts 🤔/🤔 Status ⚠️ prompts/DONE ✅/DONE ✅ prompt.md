@@ -105,7 +105,7 @@
     
     ```yaml
     📃 Example:
-    - DONE Simple success.
+    - DONE: Simple success.
     ```
 
 

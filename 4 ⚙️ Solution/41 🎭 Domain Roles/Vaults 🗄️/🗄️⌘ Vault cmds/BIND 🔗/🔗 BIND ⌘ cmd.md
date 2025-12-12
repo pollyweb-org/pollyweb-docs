@@ -63,7 +63,7 @@
     ```yaml
     # For a required schema.
     - BIND $schema
-    - DONE Bound!
+    - DONE: Bound!
     ```
 
     | Input| Purpose 

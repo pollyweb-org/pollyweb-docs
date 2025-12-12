@@ -34,11 +34,11 @@ Consider the following [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Ch
 The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) is as follows.
 
 ```yaml
-- INFO I'll ask my Helper for a random number.
+- INFO: I'll ask my Helper for a random number.
 - INVITE >> $number:
     Invitee: host-b.dom
     Schema: any-authority.org/RANDOM-NUMBER
-- INFO {number}, got it! Thanks, Any Helper!  
+- INFO: '{number}, got it! Thanks, Any Helper!'
 ```
 
 Sure: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`INVITE`](<../../../Consumers 💼/💼⌘ Consumer cmds/INVITE 🤲/🤲 INVITE ⌘ cmd.md>)

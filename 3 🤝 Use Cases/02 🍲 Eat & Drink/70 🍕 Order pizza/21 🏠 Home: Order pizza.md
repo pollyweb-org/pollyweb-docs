@@ -74,7 +74,7 @@ Order a pizza for home delivery
     - CHARGE {amount}|{biller-id} # 💳
     
     # Successful order.
-    - DONE Order confirmed:
+    - DONE: Order confirmed:
         Details: $order.summary
     - SHARE .CONCIERGE/CONFIRM # 🛎️
     - TEMP Preparing your order...:

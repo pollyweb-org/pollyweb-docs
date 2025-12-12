@@ -42,7 +42,8 @@
         Undo: 30 days
 
     # Inform the user 
-    - DONE Removed:
+    - DONE: 
+        Text: Removed.
         # Non-blocking undo option
         Options: Undo 
 

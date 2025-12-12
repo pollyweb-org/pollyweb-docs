@@ -54,7 +54,7 @@ The corresponding [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script �
 
 - CALL Save($inputs)        # Save the register
 
-- DONE Done!             # Inform success
+- DONE: Done!             # Inform success
 - GOODBYE                   # Show advertisement
 ```
 

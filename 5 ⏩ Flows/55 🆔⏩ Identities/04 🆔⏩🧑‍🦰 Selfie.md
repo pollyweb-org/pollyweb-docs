@@ -26,7 +26,7 @@ The associated [Script 📃](<../../4 ⚙️ Solution/35 💬 Chats/Scripts 📃
 ```yaml
 - CONFIRM Start risky task?
 - SELFIE
-- DONE Starting task...
+- DONE: Starting task...
 ```
 
 <br/>

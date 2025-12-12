@@ -40,7 +40,7 @@
     ```yaml
     # 😃 Talker
     - DIGITS What's the code? >> $code
-    - DONE Your code is `{$code}`
+    - DONE: Your code is `{$code}`
     ```
     
     ---

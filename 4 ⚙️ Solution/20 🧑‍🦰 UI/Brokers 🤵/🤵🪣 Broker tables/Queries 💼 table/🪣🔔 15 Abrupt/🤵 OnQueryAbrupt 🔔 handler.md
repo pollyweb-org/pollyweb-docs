@@ -22,7 +22,7 @@
 - CHAT $Query.Chat
 
 # Fail the Chat due to ABRUPT Query
-- FAIL Unannounced request blocked.
+- FAIL: Unannounced request blocked.
 ```
 
 Uses||

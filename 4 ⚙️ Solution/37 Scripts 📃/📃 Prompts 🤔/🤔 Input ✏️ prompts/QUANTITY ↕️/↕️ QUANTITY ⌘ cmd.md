@@ -199,7 +199,7 @@
     # 😃 Talker 
     - QUANTITY How much? >> $p:
         Precision: 2  
-    - INFO You entered $p
+    - INFO: You entered $p
     - REPEAT
     ```
 
@@ -250,8 +250,8 @@
     # 😃 Talker 
     💬 Example:
     - QUANTITY Give me a quantity >> $p
-    - INFO I'm storing `{$p}`
-    - INFO Although you typed `{$p.Text}`
+    - INFO: I'm storing `{$p}`
+    - INFO: Although you typed `{$p.Text}`
     ```
 
 

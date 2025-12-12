@@ -103,7 +103,7 @@
         PREMIUM: ShowPremiumOptions
 
     ShowPremiumOptions:
-    - INFO Hi, premium customer!
+    - INFO: Hi, premium customer!
     ```
 
 
@@ -143,7 +143,7 @@
         $: WhenUnmatched
 
     WhenUnmatched:
-    - INFO You selected option {$x}.
+    - INFO: You selected option {$x}.
     ```
     Uses: [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
@@ -176,7 +176,7 @@
         3: three
 
     # Show the translation 
-    - INFO You said `{$output}`
+    - INFO: You said `{$output}`
     ```    
     Uses: [`DIGITS`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/DIGITS 🔢/🔢 DIGITS ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
