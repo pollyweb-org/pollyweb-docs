@@ -34,7 +34,7 @@
 
     ```yaml
     # With an auto-generated hook
-    ASYNC|<name> >> $hook: 
+    ASYNC <name> >> $hook: 
         {inputs}
     ```
 
@@ -51,7 +51,7 @@
 
     ```yaml
     # Task without a inputs and outputs
-    - ASYNC MyTask
+    - ASYNC: MyTask
     ```
 
     ```yaml

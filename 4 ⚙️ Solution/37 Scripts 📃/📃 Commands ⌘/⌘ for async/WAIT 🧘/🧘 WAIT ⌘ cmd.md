@@ -91,7 +91,7 @@
     💬 Test:
 
     # Submit an async task
-    - ASYNC Submit >> $hook      
+    - ASYNC: Submit >> $hook      
 
     # Inform the user about the submission
     - INFO: Order submitted       
@@ -143,7 +143,7 @@
     💬 Check-in:
 
     # Add the person to a waiting line
-    - ASYNC AddToLine >> $hook
+    - ASYNC: AddToLine >> $hook
 
     # Show line updates
     - RUN WaitInLine
