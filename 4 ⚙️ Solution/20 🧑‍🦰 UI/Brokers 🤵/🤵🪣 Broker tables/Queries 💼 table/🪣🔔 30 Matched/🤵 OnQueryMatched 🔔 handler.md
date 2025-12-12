@@ -36,7 +36,9 @@
         Role: CONSUMER
 
     # If trusted, add to the trusted list
-    - IF .AllOf($trustedVault, $trustedConsumer):
+    - IF:
+        .AllOf: $trustedVault, $trustedConsumer
+    - THEN:
         PUT $match +> $trusted:
 
 # Set the trusted matches to the Query item

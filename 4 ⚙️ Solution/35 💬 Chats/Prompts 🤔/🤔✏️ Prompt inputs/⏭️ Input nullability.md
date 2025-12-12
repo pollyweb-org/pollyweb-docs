@@ -74,12 +74,15 @@
     Here's the [Script 📃](<../../Scripts 📃/Script 📃.md>).
 
     ```yaml
-    # 😃 Talker
+    📃 Example:
+
     - DIGITS What's the code? >> $code:
         Nullable: True
+
     - IF $code:
-        Then: DONE Your code is `{$code}`
-        Else: DONE You didn't provide a code.
+        DONE Your code is `{$code}`
+    - ELSE:
+        DONE You didn't provide a code.
     ```
 
     <br/>

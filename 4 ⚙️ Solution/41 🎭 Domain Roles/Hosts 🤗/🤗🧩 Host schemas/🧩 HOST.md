@@ -1,5 +1,5 @@
 
-# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `HOST`
+# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `.HOST`
 
 > About
 * Inherits from [`.LOCATOR` 🧩](<../../../../7 🧩 Codes/$/🧩 LOCATOR code.md>)

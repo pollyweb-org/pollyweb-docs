@@ -74,8 +74,9 @@
     # For an optional schema.
     - BIND $schema >> $bound
     - IF $bound:
-        Then: DONE Bound.
-        Else: FAIL Not bound.
+        DONE Bound.
+    - ELSE:
+        FAIL Not bound.
     ```
 
     | Input| Purpose
@@ -105,19 +106,19 @@
 
 1. **What does a Talker look like for static codes?**
     
-   ```yaml
-   # 😃 Talker 
-   💬 Bind:
+    ```yaml
+    💬 Bind:
 
-   # Offer a bind.
-   - BIND >> $bound:
-       some-authority.dom/SOME-CODE
+    # Offer a bind.
+    - BIND >> $bound:
+        some-authority.dom/SOME-CODE
 
-   # Verify it was bound.
-   - IF $bound:
-       Then: DONE Your wallet is bound.
-       Else: FAIL Not bounded.
-   ```
+    # Verify it was bound.
+    - IF $bound:
+        DONE Your wallet is bound.
+    - ELSE:
+        FAIL Not bound.
+    ```
 
    Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAIL`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) 
 
@@ -129,17 +130,17 @@
 
 1. **What does a Talker look like for holder codes?**
     
-   ```yaml
-   # 😃 Talker 
-   💬 Bind:
+    ```yaml
+    💬 Bind:
 
-   # Offer the schemas
-   - BIND $schema >> $bound
+    # Offer the schemas
+    - BIND $schema >> $bound
 
-   # Check if any was bound
-   - IF $bound:
-       Then: DONE Your wallet is bound.
-       Else: FAIL Not bounded.
+    # Check if any was bound
+    - IF $bound:
+        DONE Your wallet is bound.
+    - ELSE:
+        FAIL Not bound.
    ```
 
    Uses: [`BIND`](<🔗 BIND ⌘ cmd.md>) [`FAIL`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>)

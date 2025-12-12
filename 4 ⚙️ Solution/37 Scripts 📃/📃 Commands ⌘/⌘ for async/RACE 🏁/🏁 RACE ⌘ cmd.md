@@ -19,7 +19,7 @@
 1. **What's the syntax of RACE?**
    
     ```yaml
-    RACE|$hook:
+    RACE $hook:
       {response}
     ```
 

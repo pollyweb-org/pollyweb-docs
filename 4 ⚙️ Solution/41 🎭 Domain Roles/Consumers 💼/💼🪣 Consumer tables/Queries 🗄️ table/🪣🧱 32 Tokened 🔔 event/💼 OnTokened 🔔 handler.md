@@ -17,7 +17,7 @@
 📃 OnQueryTokened:
 
 # Continue the talker 
-- RACE|$Query.ID:
+- RACE $Query.ID:
     $Query.Token
 ```
 

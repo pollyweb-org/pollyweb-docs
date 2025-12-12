@@ -47,24 +47,26 @@ Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control 
     FAIL: RETURN ❌
 
     INFO: 
-        CASE|$Prompt.Role:
+        CASE $Prompt.Role:
             VAULT: RETURN ⓘ
             $: RETURN ℹ️
 
     DONE: 
-        CASE|$Prompt.Role:
+        CASE $Prompt.Role:
             VAULT: RETURN ☑️
             $: RETURN ✅
 
     TEXT:
-        CASE|$Prompt.Role:
+        CASE $Prompt.Role:
             VAULT: RETURN 💭
             $: RETURN 💬
 
     $: 
         # Agents always ask with 🫥
-        - IF $Prompt.Role.Is(VAULT):
-            RETURN 🫥
+        - IF:
+            $Prompt.Role: VAULT
+        - THEN:
+            RETURN: 🫥
 
 # Default emoji
 - PUT 😃 >> $emoji
@@ -78,15 +80,19 @@ Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control 
     PUT $Prompt.PromptEmoji >> $emoji
 
 # Block special emojis
-- IF $emoji.IsIn(⏳❌ⓘℹ️☑️✅😃🫥💬💭):
-    RETURN 😃
+- IF:
+    $emoji.IsIn: ⏳❌ⓘℹ️☑️✅😃🫥💬💭
+- THEN:
+    RETURN: 😃
 
 # Allow limited customizations
-- IF $emoji.IsIn(😐😶😌😊😕🙁😔🥺🤣😅✏️):
-    RETURN $emoji
+- IF:
+    $emoji.IsIn: 😐😶😌😊😕🙁😔🥺🤣😅✏️
+- THEN:
+    RETURN: $emoji
 
 # Default
-- RETURN 😃
+- RETURN: 😃
 ```
 
 Uses||

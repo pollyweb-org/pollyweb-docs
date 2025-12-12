@@ -22,12 +22,9 @@
 
 # Progress the state
 - IF $valid:
-    Then: 
-        SAVE $Invite:
-            .State: VALID
-    Else:
-        SAVE $Invite:
-            .State: INVALID
+    RETURN VALID
+- ELSE:
+    RETURN INVALID
 ```
 
 Uses ||

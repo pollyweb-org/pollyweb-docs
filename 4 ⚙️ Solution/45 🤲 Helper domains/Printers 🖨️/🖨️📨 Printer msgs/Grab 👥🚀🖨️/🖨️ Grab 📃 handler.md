@@ -35,16 +35,11 @@
     .OnBlocked: $blocked
 
 # Check if blocked
-- IF $blocked:
-
-    # Return blocked
-    Then: 
-      RETURN:
+- IF $blocked: 
+    RETURN:
         Status: BLOCKED
-
-    # Respond with the Locator
-    Else: 
-      RETURN:
+- ELSE: 
+    RETURN:
         Status: OK
 ```
 

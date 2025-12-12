@@ -27,8 +27,9 @@
 
 # Check if only informed schemas were queried
 - IF $queried.IsIn($informed):
-    Then: RETURN INFORMED   # Continue
-    Else: RETURN ABRUPT     # Stop
+    RETURN INFORMED   # Continue
+- ELSE: 
+    RETURN ABRUPT     # Stop
 ```
 
 Uses||

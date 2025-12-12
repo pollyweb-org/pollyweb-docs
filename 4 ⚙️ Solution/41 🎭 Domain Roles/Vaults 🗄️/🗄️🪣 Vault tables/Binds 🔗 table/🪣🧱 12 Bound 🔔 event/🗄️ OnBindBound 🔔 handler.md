@@ -27,7 +27,7 @@
         Internals: $Bind.Internals
 
 # Return the bind
-- REEL|$Bind.ID:
+- REEL $Bind.ID:
     $Bind
 ```
 

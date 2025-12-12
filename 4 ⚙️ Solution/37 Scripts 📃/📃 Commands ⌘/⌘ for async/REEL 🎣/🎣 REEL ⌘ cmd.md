@@ -25,7 +25,7 @@ then the last 3 will never be executed because REEL will exit the script.
 1. **What's the syntax of REEL for Synchronous Requests?**
 
     ```yaml
-    REEL|<http-code>:
+    REEL <http-code>:
       {response}
     ```
     
@@ -40,7 +40,7 @@ then the last 3 will never be executed because REEL will exit the script.
 1. **What's the syntax of REEL for Async Messages?**
    
     ```yaml
-    REEL|$hook:
+    REEL $hook:
       {response}
     ```
 
@@ -65,9 +65,10 @@ then the last 3 will never be executed because REEL will exit the script.
     ```yaml
     📃 Example:
     - BIND .BIND >> $bound
-    - IF $bound:
-        Then: DONE Your wallet is bound.
-        Else: FAIL Not bounded.
+    - IF $bound: 
+        DONE Your wallet is bound.
+    - ELSE: 
+        FAIL Not bounded.
     ```
 
     Uses: [`BIND`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`IF`](<../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)
@@ -85,7 +86,7 @@ then the last 3 will never be executed because REEL will exit the script.
         Set: Talker.Waits
         Key: $.Msg.Hook
 
-    - REEL|$wait
+    - REEL $wait
     ```
 
     | [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | Purpose

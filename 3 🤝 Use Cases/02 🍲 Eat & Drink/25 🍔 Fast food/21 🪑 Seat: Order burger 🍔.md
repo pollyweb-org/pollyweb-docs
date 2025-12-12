@@ -64,10 +64,13 @@
         Selection: $selection
 
     # Allow it to be changed.
-    - INFO {$order.Summary} >> $change:
+    - INFO >> $change:
+        Text: {$order.Summary} 
         Options: Change
+
+    # Repeat if changed.
     - IF $change:
-        Then: REPEAT
+        REPEAT
     
     # Ask the user's Vitalogist to review.
     - SHARE >> $review: # 💖
@@ -77,7 +80,7 @@
 
     # Repeat if rejected
     - IF $review.Rejected:
-        Then: REPEAT
+        REPEAT
 
     - RETURN $order
     ```

@@ -24,12 +24,9 @@
 
 # Progress the state
 - IF $trusted:
-    Then: 
-        SAVE $Query:
-            .State: TRUSTED
-    Else:
-        SAVE $Query:
-            .State: UNTRUSTED
+    RETURN TRUSTED
+- ELSE:
+    RETURN UNTRUSTED
 ```
 
 Uses||

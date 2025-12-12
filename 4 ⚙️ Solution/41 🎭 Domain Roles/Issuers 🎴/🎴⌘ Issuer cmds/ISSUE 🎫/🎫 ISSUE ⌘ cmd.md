@@ -40,7 +40,7 @@
 1. **What's the ISSUE syntax?**
 
     ```yaml
-    ISSUE|<schema> >> $token:
+    ISSUE <schema> >> $token:
         Schema: <schema>
         Starts: <iso-utc-date>
         Expires: <iso-utc-date>
@@ -64,23 +64,23 @@
 
 1. **What does a Talker look like?**
     
-   ```yaml
-   # 😃 Talker 
-   💬 Offer:
+    ```yaml
+    💬 Offer:
 
-   - INFO Issuing your token...
+    - INFO: Issuing your token...
 
-   - ISSUE >> $token:
+    - ISSUE >> $token:
         Schema: any-authority.dom/ANY-SCHEMA:1.0
         Properties: 
             Number: 123456789
 
-   - IF $token:
-        Then: DONE Saved to your wallet.
-        Else: FAIL You declined the token.
-   ```
-   Uses: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>)  
+    - IF $token:
+        DONE: Saved to your wallet.
+    - ELSE: 
+        FAIL: You declined the token.
+    ```
+    Uses: [`INFO`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`IF`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`FAIL`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>)
    
-   ---
-   <br/>
+    ---
+    <br/>
 

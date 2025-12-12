@@ -19,7 +19,7 @@
 📃 OnBindDeclined:
 
 # Return empty if declined
-- REEL|$Bind.ID
+- REEL $Bind.ID
 ```
 
 Uses||
