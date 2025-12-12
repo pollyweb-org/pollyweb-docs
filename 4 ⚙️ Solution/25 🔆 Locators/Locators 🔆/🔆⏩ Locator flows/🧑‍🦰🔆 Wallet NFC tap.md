@@ -1,6 +1,10 @@
 🧑‍🦰 Wallet NFC tap 🔆
 ===
 
+> Part of [🔆 Locators](<../🔆 Locator.md>)
+
+## FAQ
+
 1. **How do Wallets tap an NFC Locator?**
 
     NLWeb NFC tags are standard NDEF Records of type URI starting with `https://nlweb.dom/go/`. 
