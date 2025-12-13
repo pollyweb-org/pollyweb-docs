@@ -1,8 +1,9 @@
 # 😃🤲 Talker `INVITE` command
 
 > About
-* Relates to [Invite ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>)
-* Used by [Helper 🤲 domain](<../../../Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>)
+* Part of the [Invite ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>)
+* Used by [Helper 🤲 domains](<../../../Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>)
+* Implemented by the [`INVITE` 📃 script](<🤲 INVITE 📃 script.md>)
 
 ## FAQ
 
