@@ -24,8 +24,7 @@
 
 # Save the biostamp
 - SAVE Identity.Stamps >> $stamp:
-    Consumer: $Consumer
-    Query: $Query
+    Issuer: $Issuer
     Bind: $Bind
 
 # Return the biostamp
