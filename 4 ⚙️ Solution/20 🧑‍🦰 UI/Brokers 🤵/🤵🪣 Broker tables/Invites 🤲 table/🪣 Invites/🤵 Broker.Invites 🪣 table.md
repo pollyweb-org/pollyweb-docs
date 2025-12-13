@@ -15,8 +15,8 @@
 
 | Blame | OnSuccess ✅ | OnFailure ❌ | Next state
 |-|-|-|-
-| [`Invite@Broker` 🐌](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | [`INVITED`](<../🪣🔔 1 Invited/🤵 OnInviteInvited 🔔 handler.md>)  | `INVALID` `UNTRUSTED` | [`TRUSTED`](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🪣 Consumer tables/Invites 🗄️ table/🪣🔔 12 Trusted/💼 OnTrusted 🔔 handler.md>) 
-|| [`TRUSTED`](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🪣 Consumer tables/Invites 🗄️ table/🪣🔔 12 Trusted/💼 OnTrusted 🔔 handler.md>) || [`VERIFIED`](<../🪣🔔 3 Verified/🤵 OnInviteVerified 🔔 handler.md>) [`ADDED`](<../🪣🔔 4 Added/🤵 OnInviteAdded 🔔 handler.md>)
+| [`Invite@Broker` 🐌](<../../../🤵📨 Broker msgs/Share 💼 Invite 💼🐌🤵/🤵 Invite 🐌 msg.md>) | [`INVITED`](<../🪣🔔 1 Invited/🤵 OnInviteInvited 🔔 handler.md>)  | `INVALID` `UNTRUSTED` | [`TRUSTED`](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🪣 Consumer tables/Invites 🤲 table/🪣🔔 12 Trusted/💼 OnTrusted 🔔 handler.md>) 
+|| [`TRUSTED`](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼🪣 Consumer tables/Invites 🤲 table/🪣🔔 12 Trusted/💼 OnTrusted 🔔 handler.md>) || [`VERIFIED`](<../🪣🔔 3 Verified/🤵 OnInviteVerified 🔔 handler.md>) [`ADDED`](<../🪣🔔 4 Added/🤵 OnInviteAdded 🔔 handler.md>)
 || [`VERIFIED`](<../🪣🔔 3 Verified/🤵 OnInviteVerified 🔔 handler.md>) |  `REJECTED` | [`ADDED`](<../🪣🔔 4 Added/🤵 OnInviteAdded 🔔 handler.md>) 
 || [`ADDED`](<../🪣🔔 4 Added/🤵 OnInviteAdded 🔔 handler.md>) | | `DONE`
 

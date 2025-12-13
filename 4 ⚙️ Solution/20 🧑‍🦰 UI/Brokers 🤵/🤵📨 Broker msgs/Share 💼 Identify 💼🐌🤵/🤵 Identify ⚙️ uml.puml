@@ -11,7 +11,7 @@ participant "Wallet 👱" as wallet
 
 
 activate consumer
-    consumer -> broker: Identify@Broker 🐌 \n  {identity, biostamp} 
+    consumer -> broker: Identify@Broker 🐌 {identity, biostamp} 
 
 activate broker
     broker -> graph: VERIFY 🔐 {msg}
@@ -26,7 +26,7 @@ activate script
 deactivate script
 
 activate broker
-    broker -> consumer: Identified@Consumer 🐌
+    broker -> consumer: SEND 📬 { Identified@Consumer 🐌 }
 deactivate broker
 
 
