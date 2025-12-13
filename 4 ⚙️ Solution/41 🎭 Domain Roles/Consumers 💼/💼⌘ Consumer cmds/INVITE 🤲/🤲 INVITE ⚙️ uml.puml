@@ -11,11 +11,11 @@ participant "Wallet 👱" as wallet
 
 
 activate script
-    script -> cmd: INVITE 🤲 {cmd, schema}
+    script -> cmd: INVITE 🤲 {helper, schema, context}
 deactivate script
 
 activate cmd
-    cmd -> table: SAVE 💾 {INVITE}
+    cmd -> table: SAVE 💾 {INVITE, context}
 
 activate table
     table --> broker: Invite @ Broker 🐌
@@ -28,17 +28,22 @@ deactivate cmd
 deactivate broker
 
 activate helper
+    
     helper -> table: Invited @ Consumer 🚀 {data}
+    activate table
+        table -> helper: {context}
+    deactivate table
+
     helper --> wallet: Prompt @ Broker 🐌 
     helper --> table: Helped @ Consumer 🐌 {data}
 deactivate helper
     
 activate table
-    table -> cmd: RACE 🏁 {cmd, data}
+    table -> cmd: RACE 🏁 {data}
 deactivate table
 
 activate cmd
-    cmd -> script: RETURN {cmd, data}
+    cmd -> script: RETURN {data}
 deactivate cmd
 
 activate script

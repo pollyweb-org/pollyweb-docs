@@ -1,17 +1,22 @@
 @startuml VerifyToken
 
 participant "Consumer 💼" as consumer
-participant "Broker 🤵" as broker
+box Broker 🤵 #FFFFFA
+    participant "Identify 🐌" as broker
+    participant "Chatters 🪣" as chatters
+end box
+participant "Graph 🕸" as graph
 participant "Identity 🆔" as script
 participant "Wallet 👱" as wallet
 
 
 activate consumer
-consumer -> broker: Identify@Broker 🐌 \n  {identity, biostamp} 
-
+    consumer -> broker: Identify@Broker 🐌 \n  {identity, biostamp} 
 
 activate broker
-    broker -> script: INVITE 🤲 {biostamp} \n .ID/VERIFY 🧩 
+    broker -> graph: VERIFY 🔐 {msg}
+    broker -> chatters: READ 🧲
+    broker -> script: INVITE 🤲 .ID/VERIFY 🧩 {biostamp}  
 deactivate broker
 
 
