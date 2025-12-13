@@ -3,7 +3,7 @@
 participant "Issuer 🎴" as issuer
 participant "Broker 🤵" as broker
 box Identity 🆔 domain #FFFFFA
-    participant "SignToken 😃" as script
+    participant "Biostamp 😃" as script
     participant "Stamps 🪣" as tokens
 end box
 
@@ -17,7 +17,7 @@ deactivate broker
 
 activate script
     script -> tokens: SAVE 💾 {wallet, issuer}
-    script -> issuer: {biostamp}
+    script -> issuer: {stamp}
 deactivate script
 
     

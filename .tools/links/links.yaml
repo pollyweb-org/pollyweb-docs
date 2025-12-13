@@ -660,6 +660,13 @@ Successful Tests:
     LinkFile: '🤵 Broker.Chats 🪣 table.md'
     Reasons: same as {{Talker.Waits table}}.
 
+  - Given: '{{Identity.Stamps table}}'
+    LinkText: '`Identity.Stamps` 🪣 table'
+    LinkFile: '🆔 Identity.Stamps 🪣 table.md'
+    Reasons: same as {{Talker.Waits table}}.
+
+    
+
   FLOWS ⏩:
 
   - Given: "{{Consume flow}}"
