@@ -3,27 +3,37 @@
 box Consumer 💼 domain #FFFFFA
     participant "Script 📃" as script
     participant "IDENTIFY 🆔" as identify
+    participant "Identified 🐌" as identified
 end box
 participant "Broker 🤵" as broker
 participant "Identity 🆔" as identity
 participant "Wallet 👱" as wallet
 
 activate script
-    script -> identify: IDENTITY 🆔 {key}
+    script -> identify: IDENTIFY 🆔 {identity, biostamp}
 deactivate script
 
 activate identify
-    identify -> broker: INVITE {domain, schema}
+    identify --> broker: SEND 📬 Identify@Broker 🐌 
+activate broker
+    identify -> identify: WAIT ⏳ 
 deactivate identify
 
-activate broker
-    broker --> identity: Invited 🐌 
+    broker --> identity: INVITE 🤲 
 deactivate broker
 
 activate identity
     identity --> wallet: 
-    identity --> identify: 
+    identity --> broker: 
 deactivate identity
+
+activate broker
+    broker --> identified: Identified@Consumer 🐌
+deactivate broker
+
+activate identified 
+    identified --> identify: RACE 🏁 
+deactivate identified
 
 activate identify
     identify -> script

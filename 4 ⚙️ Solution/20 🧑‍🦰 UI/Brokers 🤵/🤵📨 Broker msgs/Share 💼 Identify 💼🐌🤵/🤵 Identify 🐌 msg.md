@@ -1,6 +1,10 @@
 # 💼🐌🤵 Identify @ Broker
 
+> About
+* Asks an [Identity 🆔 domain](<../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) to verify if a user is holding the device
+* Implemented by the [`Identify` 📃 handler](<🤵 Identify 📃 handler.md>)
 
+<br/>
 
 ## Async Message 🐌
 
@@ -24,5 +28,5 @@ Body:
 |Body|`Chat`   | uuid    | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Identity` |text| [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) name || 
 ||`Biostamp`  | uuid    | [Identity 🆔](<../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) biostamp || 
-||`Identified`  | uuid    | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) hook || 
+||`Identified`  | uuid    | [Consumer 💼](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) hook || [`Identified@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Identified 🤵🐌💼/💼 Identified 🐌 msg.md>)
 |
