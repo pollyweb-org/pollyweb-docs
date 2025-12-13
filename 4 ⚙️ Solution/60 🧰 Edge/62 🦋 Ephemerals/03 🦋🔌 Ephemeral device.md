@@ -8,6 +8,7 @@
     An Ephemeral 🦋 is a [Pluggable 🔌 device](<../61 🔌 Pluggables/01 🔌 Pluggable device.md>) that generates rotating temporary QR/NFC [Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) to force users to be next to the device when they [tap 🔆](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) or [scan ✨](<../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>). 
 
     ---
+    <br/>
 
 1. **Isn't a rotating NFC tag enough?**
 
@@ -21,6 +22,7 @@
     - Faulty NFC readers on smartphones might be due to 1/ missing features on low-end brands, 2/ conflicting installations with other NFC reader apps, or 3/ unintended disabled functionality by less knowledgeable users.
    
     ---
+    <br/>
 
 1. **How is an Ephemeral applicable to the financial industry?**
 
@@ -39,6 +41,7 @@
 
 
     ---
+    <br/>
 
 1. **How is an Ephemeral applicable to building security?**
 
@@ -50,3 +53,29 @@
     - An Ephemeral 🦋 prevents this by periodically changing the [Locator 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
 
     ---
+    <br/>
+
+1. **Why not use geolocation instead of Ephemerals?**
+
+    Geolocation is not reliable enough to guarantee that the user is physically next to the device.
+    - GPS can have an error margin of 5-10 meters in urban environments, which is not precise enough for many use cases.
+    - Indoor geolocation technologies (e.g., Wi-Fi triangulation, Bluetooth beacons) can be easily spoofed or manipulated by attackers.
+    - Geolocation also raises significant privacy concerns, as it involves tracking the user's location over time.
+
+    Ephemeral 🦋 devices provide a more secure and privacy-preserving way to ensure that users are physically present at the device's location when performing sensitive actions.
+
+    ---
+    <br/>
+
+1. **How about BLE for proximity detection, like Apple's MacOS Passkeys?**
+
+    The reasons are similar to why Meta opted to use rotating QR codes instead of BLE proximity detection when linking devices to WhatsApp. 
+   
+    WhatsApp defends itself by saying:
+
+    * *“Desktop linking requires physical possession of the already-authenticated phone, explicit user intent, short-lived cryptographic pairing, and offers full revocation. That is sufficient for our threat model.”*
+
+    See [this chat](https://chatgpt.com/share/693cc14d-33bc-8002-a83d-58e158dda8d6) for details.
+
+    ---
+    <br/>
