@@ -10,7 +10,7 @@ except Exception:  # pragma: no cover - best effort import
     _emoji_mod = None
 
 _GENERAL_EMOJI_RE = re.compile(
-    "[\U0001F1E6-\U0001F1FF\U0001F300-\U0001FAFF\u2190-\u21FF\u2300-\u23FF\u25A0-\u25FF\u2600-\u26FF\u2700-\u27BF\u2B00-\u2BFF]\uFE0F?",
+    "[\U0001F100-\U0001F1FF\U0001F300-\U0001FAFF\u2190-\u21FF\u2300-\u23FF\u25A0-\u25FF\u2600-\u26FF\u2700-\u27BF\u2B00-\u2BFF]\uFE0F?",
     re.UNICODE,
 )
 
