@@ -1,21 +1,12 @@
-# 🆔 Liveness 😃 talker
+# 🆔 Biostamp 😃 talker
 
 > Part of [Identity 🆔 domain](<../../🆔 Identity agent/🆔 Identity 🫥 agent.md>)
 
 <br/>
 
-## Chat
-
-| [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-| - | - | - 
-| 🆔 [Identity](<../../🆔 Identity agent/🆔 Identity 🫥 agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
-
-<br/>
-
-
 ## Diagram
 
-![alt text](<🆔 Liveness ⚙️ uml.png>)
+![alt text](<🆔 Biostamp ⚙️ uml.png>)
 
 <br/>
 
@@ -23,28 +14,55 @@
 ## Script
 
 ```yaml
-📃 Liveness:
+📃 Biostamp:
 
-# Assert the inputs
+# Require a Bind
 - ASSERT $.Inputs:
-    AllOf: Citizen
-    Texts: Citizen
+    AllOf: Consumer, Query, Bind
+    UUIDs: Query, Bind
+    Consumer.IsDomain:
 
-# Initiate the face recognition
-- CALL Liveness >> $liveness:
-    Citizen: $Citizen
+# Save the biostamp
+- SAVE Identity.Stamps >> $stamp:
+    Consumer: $Consumer
+    Query: $Query
+    Bind: $Bind
 
-# Show the selfie web view
-- WEB Let me see if it's you.:
-    URL: $liveness.URL
-    
-# Wait for the selfie validation
-- WAIT: $liveness.Hook
+# Return the biostamp
+- RETURN: $stamp
 ```
 
 Uses ||
 |-|-
-| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>)  [`WAIT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for async/WAIT 🧘/🧘 WAIT ⌘ cmd.md>) [`WEB`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/WEB 🌐/🌐 WEB ⌘ cmd.md>) |
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`SAVE`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) |
+| [Datasets 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | {{Identity.Stamps table}} 
+| [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsDomain`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>)  |
 
 ---
 <br/>
+
+
+## FAQ
+
+1. **Why not simplify and have a single ID per bind?**
+
+    Having a single ID on multiple [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) would allow correlation of multiple [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) to same person, which is not desirable for privacy.
+
+    ---
+    <br/>
+
+1. **Why not a canonical approach using `Issuer` and `Token`?**
+
+    Using the `Issuer` and `Token` fields from a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>), instead of a Biomarker, would allow an [Identity 🆔 domain](<../../🆔 Identity agent/🆔 Identity 🫥 agent.md>) to track the usage of Tokens an map them to a citizen.
+    * Assuming that [Identity 🆔 domains](<../../🆔 Identity agent/🆔 Identity 🫥 agent.md>) will predominantly be implemented by nations or by their agents, this would allow a nation to track their citizens worldwide in daily interactions with businesses.
+
+    ---
+    <br/>
+
+1. **Can biostamps be revoked?**
+
+    No, but what for? 
+    * An attacker with a Biostamp can only force the user holding the device to confirm that they are holding the device, which is redundant and not a security risk by itself.
+
+    ---
+    <br/>

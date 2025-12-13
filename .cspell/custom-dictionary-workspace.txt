@@ -6,6 +6,7 @@ Agentic
 Alexa
 Bindables
 Biostamp
+Biostamps
 CLDR
 Cognifying
 Cust

@@ -48,3 +48,15 @@ Uses ||
 
 ---
 <br/>
+
+
+
+## FAQ
+
+1. **Why do we need the first call to the [Hosted 📦 domain](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)?**
+
+    The first call to the {{Liveness}} hosted function allows for passing the context data in the backend, instead of sending the context to the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
+    * This increases privacy, as the context is a personally identifiable information (PII) that should not be exposed to the client side.
+
+    ---
+    <br/>
