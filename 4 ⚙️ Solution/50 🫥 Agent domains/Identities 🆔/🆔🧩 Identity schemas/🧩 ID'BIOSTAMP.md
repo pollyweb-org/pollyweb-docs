@@ -1,7 +1,7 @@
-# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `.VAULT/SELF`
+# [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `.ID/BIOSTAMP`
 
 > About
-* Default [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [Vault 🗄️ domains](<../🗄️ Vault/🗄️🎭 Vault role.md>)
+* Schema for the [`Biostamp` 😃 talker](<../🆔😃 Identity talkers/Biostamp 🎫 disclose/🆔 Biostamp 😃 talker.md>)
 
 <br/>
 
@@ -10,8 +10,6 @@
 > [🤝:](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [`.MANIFEST/CODE`](<../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
-Path: /VAULT/SELF
-Title: Self Bind
-Purpose: You bind with us 🔗
-Description: Binding code for personalization
+Path: /ID/BIOSTAMP
+Title: Biostamp
 ```

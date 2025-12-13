@@ -2,11 +2,7 @@
 
 participant "Consumer 💼" as consumer
 participant "Broker 🤵" as broker
-box Identity 🆔 domain #FFFFFA
-    participant "VerifyToken 😃" as script
-    participant "Stamps 🪣" as tokens
-    participant "Selfie 📸" as identify
-end box
+participant "Identity 🆔" as script
 participant "Wallet 👱" as wallet
 
 
@@ -18,18 +14,9 @@ activate broker
     broker -> script: INVITE 🤲 {biostamp} \n .ID/VERIFY 🧩 
 deactivate broker
 
-activate script
-    script -> tokens: READ 🧲 {biostamp}
-    script --> identify: RUN {user}
-deactivate script
-
-activate identify
-    identify -> wallet: selfie 📸
-    identify -> script: 
-deactivate identify
-
 
 activate script
+    script -> wallet: selfie 📸
     script -> broker: 
 deactivate script
 
