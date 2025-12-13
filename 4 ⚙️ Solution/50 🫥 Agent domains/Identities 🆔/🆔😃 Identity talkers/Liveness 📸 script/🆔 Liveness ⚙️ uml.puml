@@ -9,6 +9,7 @@ end box
 participant "Wallet 👱" as wallet
 
 
+activate caller
 caller -> script: RUN {citizen}
 
 activate script
