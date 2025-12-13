@@ -43,6 +43,17 @@
     Schema: .ID/VERIFY
     Context: 
         Biostamp: $.Msg.Biostamp
+
+# Send the Identified@Consumer message
+- SEND:
+    Header: 
+        To: $.Msg.From
+        Subject: Identified@Consumer
+    Body:
+        Chat: $.Msg.Chat
+        Identity: $.Msg.Identity
+        Biostamp: $.Msg.Biostamp
+        Identified: $.Msg.Identified
 ```
 
 Uses||

@@ -1,0 +1,18 @@
+@startuml Identified@Consumer
+
+participant "Broker 🤵" as helper
+box Consumer 💼 domain #FFFFFA
+    participant "Identified 🐌" as consumer
+    participant "IDENTIFY ⌘" as invites
+end box
+participant "Graph 🕸" as graph
+
+
+helper --> consumer: Identified 🐌 {hook}
+
+activate consumer
+    consumer -> graph: VERIFY 🔐 {msg}
+    consumer -> invites: RACE 🏁 {hook}
+deactivate consumer
+
+@enduml 
