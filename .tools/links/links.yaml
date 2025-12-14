@@ -86,13 +86,13 @@ Successful Tests:
   # 🧠 Bool holder
   - Given: '{{bool}}'
     LinkText: "bool"
-    LinkFile: "Bool holders.md"
+    LinkFile: "🧠 Bool holders.md"
   - Given: '{{Bool}}'
     LinkText: "Bool 🧠 holder"
-    LinkFile: "Bool holders.md"
+    LinkFile: "🧠 Bool holders.md"
   - Given: '{{Bools}}'
     LinkText: "Bool 🧠 holders"
-    LinkFile: "Bool holders.md"
+    LinkFile: "🧠 Bool holders.md"
 
   # 🤵🤲 Broker helper
   - Given: '{{Broker}}'
