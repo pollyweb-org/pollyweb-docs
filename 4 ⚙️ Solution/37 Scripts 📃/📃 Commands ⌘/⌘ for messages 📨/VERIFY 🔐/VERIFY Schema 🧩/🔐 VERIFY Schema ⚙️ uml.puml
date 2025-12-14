@@ -8,27 +8,18 @@ participant "Graph 🕸" as graph
 
 
 activate script
-    script -> verify: VERIFY 🔐 {message [,key]}
+    script -> verify: VERIFY 🔐 {data, schema}
 
 activate verify
     
     verify -x script: ASSERT 🚦 .IsSchema
-
-    alt IF key not provided
-        verify -> graph: SEND 📬 {PublicKey@Graph 🚀 from, dkim}
-        activate graph
-            graph -> verify: {key}
-        deactivate graph
-    end alt
-
-    verify -x script: invalid signature 💥
 
     verify -> graph: SEND 📬 {Schema@Graph 🚀 code}
     activate graph
         graph -> verify: {schema}
     deactivate graph
 
-    verify -x script: invalid body 💥
+    verify -x script: invalid schema 💥
 
     verify -> script: RETURN ✅ 
 
