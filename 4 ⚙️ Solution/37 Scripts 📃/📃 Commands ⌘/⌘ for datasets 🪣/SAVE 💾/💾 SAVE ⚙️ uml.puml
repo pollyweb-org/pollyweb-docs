@@ -14,7 +14,7 @@ activate script
 activate cmd
     
     alt if $.Chat
-        cmd --> broker: FREEZE ❄️ 
+        cmd --> broker: FREEZE 
     end alt
 
     cmd -> itemizer: SEND 📬 Save@Itemizer 🚀 
