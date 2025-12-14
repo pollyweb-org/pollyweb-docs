@@ -1,21 +1,20 @@
 @startuml Goodbye
-' ------------------
 
 participant "Host 🤗" as host
-
 box Broker 🤵 domain #FFFFFA
     participant "Goodbye 🐌" as broker
-    'participant "Wallets 🪣" as wallets
     participant "Chatters 🪣" as chatters
     participant "Chats 🪣" as chats
 end box
+participant "Graph 🕸" as graph
 
 
 activate host
     host --> broker: Goodbye 🐌
 deactivate host
 
-activate broker    
+activate broker
+    broker -> graph: VERIFY 🔐 {msg}
     broker -> chatters: READ 🧲
     broker -> chats: SAVE 💾 {CLOSED}
 deactivate broker

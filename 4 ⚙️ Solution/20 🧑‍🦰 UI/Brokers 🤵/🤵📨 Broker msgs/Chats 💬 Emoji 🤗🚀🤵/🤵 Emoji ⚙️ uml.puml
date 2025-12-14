@@ -2,17 +2,19 @@
 
 
 participant "Host 🤗" as host 
-
 box Broker 🤵 domain #FFFFFA
     participant "Emoji 🚀" as broker
     participant "Chatters 🪣" as chatters
     participant "Chats 🪣" as chats
 end box
+participant "Graph 🕸" as graph
+
 
 activate host
 host -> broker: Emoji 🚀 {chat, emoji}
 
     activate broker
+        broker -> graph: VERIFY 🔐 {msg}
         broker -> chatters: READ 🧲
         broker -> chats: SAVE 💾 {emoji}
         broker -> host: 
