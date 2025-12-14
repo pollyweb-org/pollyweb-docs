@@ -13,7 +13,6 @@ from .mentions import (
 from .tables import add_emoji_to_table_rows
 from .tokens import (
     clear_simple_replacer_cache,
-    replace_bool_tokens,
     replace_dot_function_tokens,
     replace_function_tokens,
     replace_functions_tokens,
@@ -44,7 +43,6 @@ __all__ = [
     "find_dynamic_target",
     "format_dynamic_link_text",
     "find_uppercase_token_target",
-    "replace_bool_tokens",
     "replace_curly_at_mentions",
     "replace_curly_upper_mentions",
     "replace_dot_function_tokens",

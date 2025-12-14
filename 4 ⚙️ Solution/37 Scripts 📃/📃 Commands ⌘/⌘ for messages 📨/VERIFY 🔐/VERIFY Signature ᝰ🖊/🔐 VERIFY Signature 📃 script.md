@@ -23,14 +23,10 @@
     Key.IsPEM:           # PEM public key
     Hash.IsBase64:       # Base 64 hash
     Signature.IsBase64:  # Base 64 signature
-
-# Verify the hash
-- ASSERT:
-    .IsHashed: $Data, $Hash
-
-# Verify the signature
-- ASSERT:
-    .IsSigned: $Data, $Key, $Signature
+    Data.IsHashed: Hash  # Data matches the hash
+    Data.IsSigned:       # Signature is valid
+        PublicKey: Key
+        Signature: Signature
 ```
 
 Uses||

@@ -11,7 +11,7 @@
 
     `.Value`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that given a {{Map}} and a key name
+    * that given a [Map 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) and a key name
     * returns the value associated with that key.
 
     ---
