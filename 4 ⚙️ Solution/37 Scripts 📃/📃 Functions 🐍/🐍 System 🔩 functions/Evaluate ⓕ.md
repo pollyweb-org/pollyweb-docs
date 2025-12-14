@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Evaluate}` function
+# 😃ⓕ Talker `.Evaluate` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is the .Evaluate function?**
 
-    `{.Evaluate}`
+    `.Evaluate`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that extends the YAML syntax
     * allowing for additional ways to merge YAML lists and objects

@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{$set.Format}` function
+# 😃ⓕ Talker `$set.Format` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -8,7 +8,7 @@
 
 1. **What is the .Format function?**
 
-    `{.Format}`
+    `.Format`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that calls [`.Evaluate`](<Evaluate ⓕ.md>)
     * to format every item of a [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)

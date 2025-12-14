@@ -1,4 +1,4 @@
-# 😃ⓕ `set.Filter` extension
+# 😃ⓕ `$set.Filter` extension
 
 > About
 * Part of [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)

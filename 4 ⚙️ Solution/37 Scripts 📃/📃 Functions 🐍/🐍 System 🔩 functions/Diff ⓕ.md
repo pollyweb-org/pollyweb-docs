@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Diff}` function
+# 😃ⓕ Talker `.Diff` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is a .Diff command?**
 
-    `{.Diff}`
+    `.Diff`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that outputs the difference between [Holders 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
 

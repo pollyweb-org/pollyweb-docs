@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{$num.Calculate}` function
+# 😃ⓕ Talker `$num.Calculate` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -8,7 +8,7 @@
 
 1. **What is the .Calculate function?**
 
-    `{.Calculate}`
+    `.Calculate`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that applies a mathematical formula 
     * to a [Num 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>).

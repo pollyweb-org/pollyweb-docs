@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.AreMany}` function
+# 😃ⓕ Talker `.AreMany` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is the .AreMany function?**
 
-    `{.AreMany}`
+    `.AreMany`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if a [List 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) as more than 1 item
     * or `False` otherwise.

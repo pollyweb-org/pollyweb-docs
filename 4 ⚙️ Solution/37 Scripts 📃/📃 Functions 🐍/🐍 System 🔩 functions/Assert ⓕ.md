@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Assert}` function
+# 😃ⓕ Talker `.Assert` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -8,7 +8,7 @@
 
 1. **What is the .Assert function?**
 
-    `{.Assert}`
+    `.Assert`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that evaluates an assertion on a [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>).
     

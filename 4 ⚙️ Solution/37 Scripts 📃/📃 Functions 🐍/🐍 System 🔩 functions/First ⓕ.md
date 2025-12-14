@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.First}` function
+# 😃ⓕ Talker `.First` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -8,7 +8,7 @@
 
 1. **What is the .First function?**
 
-    `{.First}`
+    `.First`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the start of a [Text 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>), [List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>), or [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>).
 
