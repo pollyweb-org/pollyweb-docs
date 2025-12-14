@@ -20,12 +20,12 @@
 1. **What's the .Calculate syntax?**
 
     ```yaml
-    .Calculate(number, formula)
+    $number.Calculate: formula
     ```
 
     | Inputs | Purpose | Examples
     |-|-|-
-    | `number` | Base [Num 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) | `123.45`
+    | `$number` | Base [Num 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) | `123.45`
     | `formula`  | Formula to apply | `2x` `5%` `1/3` 
 
     ---

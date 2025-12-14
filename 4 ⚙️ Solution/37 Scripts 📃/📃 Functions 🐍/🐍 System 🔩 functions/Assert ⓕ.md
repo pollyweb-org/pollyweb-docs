@@ -19,7 +19,7 @@
 1. **What's the .Assert syntax?**
 
     ```yaml
-    .Assert(assertion)
+    .Assert: assertion
     ```
     
     Input|Purpose|Example

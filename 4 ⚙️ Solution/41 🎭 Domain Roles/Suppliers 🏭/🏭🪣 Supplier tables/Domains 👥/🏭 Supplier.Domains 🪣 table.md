@@ -15,7 +15,7 @@ Item: Domain
 
 <br/>
 
-The [Item 🛢 Parents](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are [`Supplier.Binds`](<../Binds 🔗/🏭 Supplier.Binds 🪣 table.md>).
+The [Item 🛢 Parents](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Parents.md>) are `Supplier.Binds`
 
 ```yaml
 Parents: Binds

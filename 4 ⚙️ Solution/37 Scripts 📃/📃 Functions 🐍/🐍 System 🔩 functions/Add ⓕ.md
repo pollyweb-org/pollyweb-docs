@@ -21,12 +21,12 @@
 1. **What's the .Add syntax?**
 
     ```yaml
-    .Add(source, additions...)
+    $source.Add: [additions...]
     ```
 
     Input | Purpose
     |-|-
-    | `source`| base value
+    | `$source`| base value
     | `additions...` | [List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) of values to add
 
 

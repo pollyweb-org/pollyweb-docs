@@ -21,7 +21,7 @@
 1. **What's the .Contains syntax?**
 
     ```yaml
-    .Contains($source, value)
+    $source.Contains: value
     ```
 
     | Inputs | Purpose | Examples
@@ -76,20 +76,32 @@
     Here's a [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
     ```yaml
-    📃 Example:
-
-    # Let's set a list
+    📃 Set a list:
+    
     - PUT: 1,2,3 >> $p
-
-    # Use with IFs
-    - IF $p.Contains(1): 
-        INFO Found!   
-
-    # Use with ASSERTs
-    - ASSERT:           
-        $p.Contains(1)
     ```
-    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`CALL`](<../../📃 Commands ⌘/⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) [`IF`](<../../📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+    
+    Uses: [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
+
+    ```yaml
+    📃 Use with IFs:
+
+    - IF:
+        $p.Contains: 1
+    - THEN:
+        INFO Found!   
+    ```
+    
+    Uses: [`IF`](<../../📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`THEN`](<../../📃 Commands ⌘/⌘ for control ▶️/THEN ⤵️/⤵️ THEN ⌘ cmd.md>)
+    
+    ```yaml
+    📃 Use with ASSERTs:
+
+    - ASSERT:           
+        $p.Contains: 1
+    ```
+    
+    Uses: [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) 
 
     ---
     <br/>

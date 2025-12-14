@@ -19,7 +19,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    $time.Advance(period)
+    $time.Advance: period
     ```
 
     Input|Purpose|Example

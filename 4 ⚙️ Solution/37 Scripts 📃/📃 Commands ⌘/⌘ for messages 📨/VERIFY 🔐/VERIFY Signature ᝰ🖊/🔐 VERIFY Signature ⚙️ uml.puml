@@ -1,8 +1,8 @@
-@startuml VERIFY Signature 🖋️
+@startuml VERIFY Signature ᝰ🖊
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "VERIFY ⌘ Signature 🖋️" as verify
+    participant "VERIFY ⌘ Signature ᝰ🖊" as verify
 end box
 
 
