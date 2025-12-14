@@ -20,9 +20,9 @@
 - ASSERT $Inputs:
     AllOf: Hash, Signature, Key, Data
     Texts: Hash, Signature, Key
+    Key.IsPEM:           # PEM public key
     Hash.IsBase64:       # Base 64 hash
     Signature.IsBase64:  # Base 64 signature
-    Key.IsPEM:           # PEM public key
 
 # Verify the hash
 - ASSERT:
