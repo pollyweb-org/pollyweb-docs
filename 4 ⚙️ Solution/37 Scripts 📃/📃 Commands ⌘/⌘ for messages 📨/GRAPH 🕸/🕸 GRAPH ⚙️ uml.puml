@@ -1,0 +1,29 @@
+@startuml VERIFY Schema 🧩
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "VERIFY ⌘ Schema 🧩" as verify
+end box
+participant "Graph 🕸" as graph
+
+
+activate script
+    script -> verify: VERIFY 🔐 {data, schema}
+
+activate verify
+    
+    verify -x script: ASSERT 🚦 .IsSchema
+
+    verify -> graph: SEND 📬 {Schema@Graph 🚀 schema}
+    activate graph
+        graph -> verify: {definition}
+    deactivate graph
+
+    verify -x script: invalid data structure 💥
+
+    verify -> script: RETURN ✅ 
+
+deactivate verify
+
+          
+@enduml

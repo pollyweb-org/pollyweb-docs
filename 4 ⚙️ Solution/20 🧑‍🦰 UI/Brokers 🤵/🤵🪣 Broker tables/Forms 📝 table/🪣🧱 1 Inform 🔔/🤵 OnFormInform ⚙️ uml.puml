@@ -14,7 +14,7 @@ activate table
 deactivate table
 
 activate handler
-    handler -> graph: Form @ Graph 🚀
+    handler -> graph: GRAPH 🕸 Form 
     handler -> handler: CHAT 💬
 
     alt IF only 1 step is needed

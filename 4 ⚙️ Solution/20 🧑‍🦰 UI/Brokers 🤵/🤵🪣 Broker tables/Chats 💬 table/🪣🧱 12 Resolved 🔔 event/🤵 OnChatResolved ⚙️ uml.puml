@@ -16,7 +16,7 @@ activate table
 deactivate table
 
 activate handler
-    handler -> graph: SEND 📬 {About@ 🚀}
+    handler -> graph: GRAPH 🕸 About
     handler -> table: SAVE 💾 {DETAILED}
 deactivate handler
 
