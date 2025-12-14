@@ -30,20 +30,20 @@
 - ASSERT: $.Chat.Wallet     # Ensure there's a wallet
 
 - INFORM: Bind Domain       # Open the form
-- SHARE: .DOMAIN/ADMIN >> $token # Get a domain Token
+- SHARE: .DOMAIN >> $token  # Get a domain Token
 - VERIFY: $token            # Verify the Token
 - IDENTIFY: $token          # Verify the Token's user
 
 - SAVE Helper.Domains:      # Save the binding
     Domain: $token.Issuer
     Wallet: $.Chat.Wallet
-- GOODBYE: Domain bound!    # Confirmation
+- GOODBYE: Domain bound!    # Show confirmation
 ```
 
 Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`BIND`](<../../../Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`IDENTIFY`](<../../../Consumers 💼/💼⌘ Consumer cmds/IDENTIFY 🆔/🆔 IDENTIFY ⌘ cmd.md>) [`INFORM`](<../../../Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) 
-| [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`.DOMAIN/ADMIN`](<../../../Hosts 🤗/🤗🧩 Host schemas/🧩 DOMAIN'ADMIN.md>)
+| [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`.DOMAIN/ADMIN`](<../../../../40 👥 Domains/👥🧩 Domain schemas/🧩 DOMAIN'ADMIN.md>)
 
 <br/>
 
