@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsPEM}` function
+# 😃ⓕ Talker `.IsPEM` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -9,7 +9,7 @@
 
 1. **What is the .IsPEM function?**
 
-    `{.IsPEM}`
+    `.IsPEM`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * to validate signatures and keys
     * that returns `True` if a given holder is in [PEM format](https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail) 

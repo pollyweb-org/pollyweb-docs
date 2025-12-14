@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Differs}` function
+# 😃ⓕ Talker `.Differs` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is the .Differs function?**
 
-    `{.Differs}`
+    `.Differs`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the opposite to [`.Equals`](<Equals ⓕ.md>).
 
@@ -38,7 +38,7 @@
     |[Text 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| Different meaning | `a`|`b`  
     |[Num 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>)| Different math results| `1` | `1.1`
     |[List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)| Different sequence | `[1,3,2]` | `[1,2,3]`
-    |[Map 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)| Different pair content | `{A:2}` | `{A:1}`
+    |[Map 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)| Different pair content | `A:2` | `A:1`
     
     ---
     <br/>

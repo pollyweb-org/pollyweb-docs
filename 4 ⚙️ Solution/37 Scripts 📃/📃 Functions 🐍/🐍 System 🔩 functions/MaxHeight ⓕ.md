@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.MaxHeight}` function
+# 😃ⓕ Talker `.MaxHeight` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -9,7 +9,7 @@
 
 1. **What is the .MaxHeight function?**
 
-    `{.MaxHeight}`
+    `.MaxHeight`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that given a Base64 string representation of an image 
     * returns the Base64 content of the image 

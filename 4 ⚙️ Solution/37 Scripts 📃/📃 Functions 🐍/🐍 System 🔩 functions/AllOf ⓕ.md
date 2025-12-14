@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.AllOf}` function
+# 😃ⓕ Talker `.AllOf` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -9,7 +9,7 @@
 
 1. **What is the .AllOf function?**
 
-    `{.AllOf}` 
+    `.AllOf` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if all of the given assertions return [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)
     * or `False` otherwise.

@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Last}` function
+# 😃ⓕ Talker `.Last` function
 
 > About
 * Counts back from a starting point.

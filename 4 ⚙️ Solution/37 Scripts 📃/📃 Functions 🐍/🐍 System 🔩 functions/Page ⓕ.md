@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Page}` function
+# 😃ⓕ Talker `.Page` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .Page function?**
 
-    `{.Page}`
+    `.Page`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that given a Base64 string representation of a PDF 
     * returns the Base64 content of a specific page number, 

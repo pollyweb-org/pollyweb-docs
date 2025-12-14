@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.AnyOf}` function
+# 😃ⓕ Talker `.AnyOf` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -9,7 +9,7 @@
 
 1. **What is the .AnyOf function?**
 
-    `{.AnyOf}` 
+    `.AnyOf` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if any of the given assertion returns [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>)
     * or `False` otherwise.

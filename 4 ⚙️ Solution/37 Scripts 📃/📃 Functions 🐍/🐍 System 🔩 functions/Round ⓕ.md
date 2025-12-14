@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{$num.Round}` function
+# 😃ⓕ Talker `$num.Round` function
 
 > About 
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -8,7 +8,7 @@
 
 1. **What is the .Round function?**
 
-    `{.Round}` 
+    `.Round` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that rounds a [Num 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>).
 

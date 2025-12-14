@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsSigned}` function
+# 😃ⓕ Talker `.IsSigned` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -9,7 +9,7 @@
 
 1. **What is the .IsSigned function?**
 
-    `{.IsSigned}`
+    `.IsSigned`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * to validate the signature of a payload with a public key
     * that returns `True` the signature is valid

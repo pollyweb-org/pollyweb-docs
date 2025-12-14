@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsHashed}` function
+# 😃ⓕ Talker `.IsHashed` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -9,7 +9,7 @@
 
 1. **What is the .IsHashed function?**
 
-    `{.IsHashed}`
+    `.IsHashed`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * to validate signatures and keys
     * that returns `True` if a given holder is in [hashed format](https://en.wikipedia.org/wiki/Cryptographic_hash_function) 

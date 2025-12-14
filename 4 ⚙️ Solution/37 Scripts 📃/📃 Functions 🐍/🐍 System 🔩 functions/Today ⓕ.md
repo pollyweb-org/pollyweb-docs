@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Today}` function
+# 😃ⓕ Talker `.Today` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .Today function?**
 
-    `{.Today}` 
+    `.Today` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the current date
     * based on the [`$.Chat`](<../../📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>) timezone and language.

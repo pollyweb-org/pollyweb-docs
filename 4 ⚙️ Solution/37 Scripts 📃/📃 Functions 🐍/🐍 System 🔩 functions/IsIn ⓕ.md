@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsIn}` function
+# 😃ⓕ Talker `.IsIn` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .IsIn function?**
 
-    `{.IsIn}`
+    `.IsIn`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that verifies if a value is in a list, 
     * similar to [`.Contains`](<Contains ⓕ.md>) from the value's perspective.

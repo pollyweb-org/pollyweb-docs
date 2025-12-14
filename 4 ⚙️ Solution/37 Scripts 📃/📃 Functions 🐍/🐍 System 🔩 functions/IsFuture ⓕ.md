@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsFuture}` function
+# 😃ⓕ Talker `.IsFuture` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .IsFuture function?**
 
-    `{.IsFuture}`
+    `.IsFuture`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if the input is a future [Time 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>)
     * or `False` otherwise.

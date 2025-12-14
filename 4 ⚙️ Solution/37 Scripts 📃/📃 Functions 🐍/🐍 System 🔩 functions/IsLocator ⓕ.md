@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsLocator}` function
+# 😃ⓕ Talker `.IsLocator` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .IsLocator function?**
 
-    `{.IsLocator}`
+    `.IsLocator`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if the input is a [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
     * or `False` otherwise.

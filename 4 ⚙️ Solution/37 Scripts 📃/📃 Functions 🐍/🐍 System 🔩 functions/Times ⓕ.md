@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{$num.Times}` function
+# 😃ⓕ Talker `$num.Times` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is the .Times function?**
 
-    `{.Times}` 
+    `.Times` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that multiplies a [Num 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>) by a number.
 

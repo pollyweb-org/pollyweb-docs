@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Or}` function
+# 😃ⓕ Talker `.Or` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .Or function?**
 
-    `{.Or}`
+    `.Or`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns True if the result of one of two functions is True
     * or false otherwise.

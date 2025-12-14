@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Size}` function
+# 😃ⓕ Talker `.Size` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is the .Size function?**
 
-    `{.Size}` 
+    `.Size` 
     * also known as [`.Length`](<Length ⓕ.md>)
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the size or length 
