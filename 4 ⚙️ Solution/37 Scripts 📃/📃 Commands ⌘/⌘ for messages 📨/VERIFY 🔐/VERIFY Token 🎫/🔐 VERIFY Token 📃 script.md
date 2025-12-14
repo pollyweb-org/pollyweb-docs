@@ -11,19 +11,23 @@
 
 <br/>
 
+## How to call
+
+```yaml
+- RUN .VERIFY-Token:
+    Token: {...}
+```
+
 ## Script 
 
 ```yaml
 📃 .VERIFY-Token:
 
 # Assert the data structure
+- ASSERT: $Token.IsToken
+
+# Assert the validity period
 - ASSERT $Token:
-    AllOf: Issued, Starts, Schema, Issuer, Signature, DKIM
-    Times: Issued, Starts, Expires
-    Texts: Signature, DKIM
-    Issuer.IsDomain:    # Valid domain name
-    Schema.IsSchema:    # Valid schema code
-    Issued.IsPast:      # Issued is in the past
     Starts.IsPast:      # Is currently activate
     Expires.IsFuture:   # Has not expired
 
@@ -35,6 +39,10 @@
     Body:
         Issuer: $Token.Issuer
         DKIM: $Token.DKIM
+
+- GRAPH Trusts >> $schema:
+    Issuer: $Token.Issuer
+    DKIM: $Token.DKIM
 
 - ASSERT:
     
