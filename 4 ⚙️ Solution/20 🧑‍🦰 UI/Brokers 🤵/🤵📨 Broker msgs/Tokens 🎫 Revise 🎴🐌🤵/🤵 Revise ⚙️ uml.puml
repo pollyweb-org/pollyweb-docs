@@ -6,6 +6,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Revise 🐌" as broker
     participant "Tokens 🪣" as tokens
 end box
+participant "Graph 🕸" as graph
 
 
 activate issuer
@@ -13,6 +14,7 @@ activate issuer
 deactivate issuer
 
 activate broker
+    broker -> graph: VERIFY 🔐 {msg}
     broker -> tokens: READ 🧲 {issuer, token}
     broker -> tokens: SAVE 💾 {status}
 deactivate broker

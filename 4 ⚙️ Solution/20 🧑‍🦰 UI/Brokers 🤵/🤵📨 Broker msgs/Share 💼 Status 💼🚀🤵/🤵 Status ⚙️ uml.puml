@@ -16,9 +16,10 @@ consumer -> broker: Status 🚀
 activate consumer
     
     activate broker
+        broker -> graph: VERIFY 🔐 {msg}
         broker -> tokens: READ 🧲 {token}
         broker -> queries: Consumed in the past?
-        broker -> graph: TRUSTS 🫡 Trusts @ Graph 🚀    
+        broker -> graph: TRUSTS 🫡 {issuer, consumer, schema} 
         broker -> consumer: {status}
     deactivate broker
 

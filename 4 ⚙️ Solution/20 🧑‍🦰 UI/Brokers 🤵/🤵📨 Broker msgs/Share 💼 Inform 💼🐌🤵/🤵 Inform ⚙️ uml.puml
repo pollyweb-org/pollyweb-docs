@@ -6,11 +6,13 @@ box Broker 🤵 #FFFFFA
     participant "Chatters 🪣" as chatters
     participant "Forms 🪣" as forms
 end box
+participant "Graph 🕸" as graph
 
 
 consumer --> broker: Inform 🐌
 
 activate broker
+    broker -> graph: VERIFY 🔐 {msg}
     broker -> chatters: READ 🧲
     broker -> forms: SAVE 💾 {INFORM}
 deactivate broker

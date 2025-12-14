@@ -6,6 +6,7 @@ box "Broker 🤵" #FFFFFA
     participant "Chats 🪣" as chats
     participant "Invites 🪣" as invites
 end box
+participant "Graph 🕸" as graph
 
 
 activate host
@@ -13,6 +14,7 @@ activate host
 deactivate host
 
 activate broker
+    broker -> graph: VERIFY 🔐 {msg}
     broker -> chats: READ 🧲 
     broker -> invites: SAVE 💾 {HELPER} 
 deactivate broker

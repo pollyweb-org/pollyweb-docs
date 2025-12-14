@@ -7,6 +7,7 @@ box Broker 🤵 domain #FFFFFA
     participant "Chats 🪣" as chats
     participant "Tokens 🪣" as tokens
 end box
+participant "Graph 🕸" as graph
 
     
 activate issuer
@@ -14,6 +15,7 @@ activate issuer
 deactivate issuer
 
 activate broker
+    broker -> graph: VERIFY 🔐 {msg}
     broker -> chats: READ 🧲 {chat}
     broker -> tokens: SAVE 💾 {OFFERED}
 deactivate broker
