@@ -6,25 +6,33 @@
 
 ## FAQ
 
-1. **What's the behavior of .Value?**
-   
-    |Type|Input #1|Input #2|Output
-    |-|-|-|-
-    |[Maps 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)|`{A:1}` | | `1`
 
+1. **What is the .Value function?**
 
+    `.Value`
+    * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
+    * that given a {{Map}} and a key name
+    * returns the value associated with that key.
 
     ---
     <br/>
 
+
 1. **What's the .Value syntax?**
 
     ```yaml
-    # For Maps
     $map.Value: $key
     ```
+    
+    ---
+    <br/>
 
-    ```yaml
-    # For Sets
-    $map.Value: $key
-    ```
+1. **What are examples of .Value?**
+
+    |Holder|Key|Output
+    |-|-|-
+    | `{A:1,B:2}`| `A` | `1`
+    | `{A:1,B:{C:3,C:4}}`| `B` | `{C:3,C:4}`
+
+    ---
+    <br/>

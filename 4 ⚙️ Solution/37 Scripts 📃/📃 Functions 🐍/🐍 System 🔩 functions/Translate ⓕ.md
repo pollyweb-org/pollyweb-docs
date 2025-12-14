@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Translate}` function
+# 😃ⓕ Talker `.Translate` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -7,9 +7,9 @@
 ## FAQ
 
 
-1. **What is the .Translate function?**
+1. **What is the `.Translate` function?**
 
-    `{.Translate}`
+    `.Translate`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that translates a [Text 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) between two languages.
 

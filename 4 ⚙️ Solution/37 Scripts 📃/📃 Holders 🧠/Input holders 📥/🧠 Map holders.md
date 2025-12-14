@@ -8,7 +8,7 @@
 
     Map holders 
     * are [Holders 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
-    * store key-value pair structures - e.g. `{A:1,B:2}`
+    * store key-value [pair](<🧠 Pair holders.md>) structures - e.g. `{A:1,B:2}`
 
     ---
     <br/>
