@@ -13,28 +13,28 @@ activate script
 
 activate verify
     
-    verify -x script: ASSERT 🚦 {starts, expires}
+    verify -x script: 🚦 ASSERT {starts, expires}
 
-    verify -> graph: SEND 📬 {PublicKey@Graph 🚀 issuer, dkim}
+    verify -> graph: 📬 SEND 🚀 PublicKey@Graph {issuer, dkim}
     activate graph
         graph -> verify: {key}
     deactivate graph
 
-    verify -x script: invalid signature 💥
+    verify -x script: 🔐 VERIFY 🖋️ Signature 💥
 
-    verify -> graph: SEND 📬 {Schema@Graph 🚀 code}
+    verify -> graph: 📬 SEND 🚀 Schema@Graph {code}
     activate graph
         graph -> verify: {schema}
     deactivate graph
 
-    verify -x script: invalid context 💥
+    verify -x script: 🔐 VERIFY 🧩 Schema 💥
 
-    verify -> broker: SEND 📬 {Status@Broker 🚀 token, issuer}
+    verify -> broker: 📬 SEND 🚀 Status@Broker {token, issuer}
     activate broker
         broker -> verify: {status}
     deactivate broker
 
-    verify -x script: not-active 💥
+    verify -x script: 🚦 ASSERT {active} 💥
 
     verify -> script: RETURN ✅ 
 
