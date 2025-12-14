@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `.IsSigned` function
+# 😃ⓕ Talker `.Signs` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -7,9 +7,9 @@
 ## FAQ
 
 
-1. **What is the .IsSigned function?**
+1. **What is the .Signs function?**
 
-    `.IsSigned`
+    `.Signs`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * to validate the signature of a payload with a public key
     * that returns `True` the signature is valid
@@ -18,16 +18,16 @@
     ---
     <br/>
 
-1. **What's the syntax of .IsSigned?**
+1. **What's the syntax of .Signs?**
 
     ```yaml
-    $payload.IsSigned:
-        Signature: $signature
+    $signature.Signs:
+        Data: $data
         PublicKey: $publicKey
     ```
 
     | Inputs     | Purpose                      | Examples                          |
     |-|-|-
-    | `$payload`   | original data to verify  | `Hello!` `{A:1,B2}`
+    | `$data`   | original data to verify  | `Hello!` `{A:1,B2}`
     | `$signature` | base64 signature to validate   | `...`|
     | `$publicKey` | base64 key for verification | `...` |

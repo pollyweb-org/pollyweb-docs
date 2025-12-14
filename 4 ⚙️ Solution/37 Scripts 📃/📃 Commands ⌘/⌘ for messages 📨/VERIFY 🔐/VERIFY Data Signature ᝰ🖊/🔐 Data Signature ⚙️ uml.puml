@@ -2,7 +2,7 @@
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "VERIFY ⌘ Signature ᝰ🖊" as verify
+    participant "VERIFY ⌘ Data Signature ᝰ🖊" as verify
 end box
 
 

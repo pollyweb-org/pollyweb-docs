@@ -1,0 +1,30 @@
+@startuml VERIFY Signature ᝰ🖊
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "VERIFY ⌘ Domain Signature ᝰ🖊" as verify
+end box
+participant "Graph 🕸" as graph 
+
+
+activate script
+    script -> verify: VERIFY 🔐 {data...}
+
+activate verify
+
+    verify -x script: invalid hash 💥
+
+    verify -> graph: GRAPH 🕸 PublicKey 🚀 {domain, dkim}
+
+    activate graph
+        graph -> verify: {key}
+    deactivate graph
+
+    verify -> script: 🔐 VERIFY ᝰ🖊 Signature {signature, key, ...}
+
+    verify -x script: invalid signature 💥
+
+deactivate verify
+
+          
+@enduml
