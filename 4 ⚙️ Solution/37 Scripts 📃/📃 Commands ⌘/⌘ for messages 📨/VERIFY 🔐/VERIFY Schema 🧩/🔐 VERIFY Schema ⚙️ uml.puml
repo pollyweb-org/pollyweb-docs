@@ -19,7 +19,7 @@ activate verify
         graph -> verify: {schema}
     deactivate graph
 
-    verify -x script: invalid schema 💥
+    verify -x script: invalid data structure 💥
 
     verify -> script: RETURN ✅ 
 
