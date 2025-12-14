@@ -1,4 +1,0 @@
-```yaml
-💬 Bind Wallet:
-- BIND
-```

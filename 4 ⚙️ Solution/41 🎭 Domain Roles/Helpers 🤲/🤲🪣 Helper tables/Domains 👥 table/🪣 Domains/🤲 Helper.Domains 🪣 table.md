@@ -20,5 +20,13 @@ Key: Domain
 
 ```yaml
 Domain: any-domain.dom 
-Wallet: <wallet-uuid>  
+
+# Wallet
+Bind: <bind-uuid>
+
+# DOMAIN token
+Token: <token-uuid>
+Issuer: any-domain.dom
+Broker: any-broker.dom
+Expires: 2025-01-01T00:00:00Z
 ```

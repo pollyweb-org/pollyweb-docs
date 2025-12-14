@@ -1,4 +1,4 @@
-# 😃⤴️ Talker `HTTP` command 
+# 😃💥 Talker `HTTP` command 
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 

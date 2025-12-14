@@ -1,0 +1,27 @@
+@startuml TRUSTS
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "TRUSTS ⌘" as trusts
+end box
+participant "Graph 🕸" as graph
+
+
+activate script
+    script -> trusts: TRUSTS 🫡 {schema, role}
+
+activate trusts
+    
+    trusts -> graph: SEND 📬 {Trusts@Graph 🚀 schema, role}
+    
+    activate graph
+        graph -> trusts: {trusted}
+    deactivate graph
+
+    trusts -x script: ASSERT 💥
+    trusts -> script: RETURN ✅ 
+
+deactivate trusts
+
+          
+@enduml
