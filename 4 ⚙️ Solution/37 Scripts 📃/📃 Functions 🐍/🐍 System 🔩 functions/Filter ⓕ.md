@@ -10,7 +10,7 @@
 1. **What's the .Filter syntax?**
 
     ```yaml
-    .Filter($set, filters...)
+    $set.Filter: [filters...]
     ```
 
     Inputs|Type|Details | Example

@@ -19,7 +19,27 @@
 1. **What's the syntax of .If?**
     
     ```yaml
-    .If(Condition, ValueIfTrue, ValueIfFalse)
+    # Without context
+    .If: 
+        .function($context), 
+        $true-value, 
+        $false-value
+    ```
+
+    ```yaml
+    # With context
+    $context.If: 
+        .function, 
+        $true-value, 
+        $false-value
+    ```
+
+    ```yaml
+    # Comprehensive syntax
+    $context.If: 
+        Assert: .function
+        Then: $true-value
+        Else: $false-value
     ```
     ---
     <br/>

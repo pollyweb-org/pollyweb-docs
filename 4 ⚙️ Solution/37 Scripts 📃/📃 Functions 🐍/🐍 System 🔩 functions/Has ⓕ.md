@@ -13,3 +13,9 @@
     ---
     <br/>
 
+
+1. **What's the syntax of .Has?**
+
+    ```yaml
+    $holder.Has: $value
+    ```

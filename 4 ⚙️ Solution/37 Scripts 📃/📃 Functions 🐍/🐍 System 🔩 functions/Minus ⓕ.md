@@ -31,4 +31,13 @@
     | `[A,B,A,C].Minus(A)` | `[B,C]` | `[A,B,C,D]`[`.Remove`](<Remove ⓕ.md>)`(A)`
     | [`.Today`](<Today ⓕ.md>)`.Minus(1 month)` | A month ago | [`.Today`](<Today ⓕ.md>)[`.GoBack`](<GoBack ⓕ.md>)`(1 month ago)`
     | [`.Now`](<Now ⓕ.md>)`.Minus(1 hour)` | An hour ago | [`.Now`](<Now ⓕ.md>)[`.GoBack`](<GoBack ⓕ.md>)`(1 hour ago)`
-    |
+    
+
+    ---
+    <br/>
+
+1. **What's the syntax of .Minus?**
+
+    ```yaml
+    $source.Minus: [subtractions...]
+    ```

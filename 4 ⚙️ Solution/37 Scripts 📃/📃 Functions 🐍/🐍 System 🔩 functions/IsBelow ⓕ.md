@@ -30,3 +30,9 @@
 
     ---
     <br/>
+
+1. **What's the syntax of .IsBelow?**
+    
+    ```yaml
+    $value1.IsBelow: $value2    
+    ```

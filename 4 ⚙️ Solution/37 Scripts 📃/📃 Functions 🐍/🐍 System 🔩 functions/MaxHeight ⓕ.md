@@ -22,7 +22,7 @@
 1. **What's the syntax of the .MaxHeight function?**
 
     ```yaml
-    .MaxHeight($image, <maxHeight>)
+    $image.MaxHeight: <maxHeight>
     ```
 
     |Property|Type|Description

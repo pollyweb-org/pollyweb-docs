@@ -19,7 +19,7 @@
 1. **What's the syntax of the .Page function?**
 
     ```yaml
-    .Page($pdf, <page>)
+    $pdf.Page: <page>
     ```
 
     |Property|Type|Description

@@ -16,3 +16,8 @@
     ---
     <br/>
 
+1. **What's the syntax of .IsAtMost?**
+    
+    ```yaml
+    $value1.IsAtMost: $value2
+    ```

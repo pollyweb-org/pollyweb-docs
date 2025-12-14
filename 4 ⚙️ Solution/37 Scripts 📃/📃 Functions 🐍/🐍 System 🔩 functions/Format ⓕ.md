@@ -24,13 +24,13 @@
 1. **What's the .Format syntax?**
 
     ```yaml
-    .Format($set, format...)
+    $set.Format: <format>
     ```
 
     Inputs|Details | Example
     |-|-|-|
     |`$set`| [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>) to format | `{A:1},{A:2}`
-    |`format...`| Format to apply | `A` `A,B` `[A,B]` `{X:A, Y:B}`
+    |`format`| Format to apply | `A` `A,B` `[A,B]` `{X:A, Y:B}`
     
 
     ---

@@ -15,3 +15,9 @@
 
     ---
     <br/>
+
+1. **What's the syntax of .IsList?**
+    
+    ```yaml
+    $holder.IsList
+    ```

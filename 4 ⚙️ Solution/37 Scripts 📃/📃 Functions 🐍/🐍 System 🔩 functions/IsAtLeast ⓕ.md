@@ -16,3 +16,9 @@
     ---
     <br/>
 
+
+1. **What's the syntax of .IsAtLeast?**
+    
+    ```yaml
+    $value1.IsAtLeast: $value2
+    ```

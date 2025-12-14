@@ -14,3 +14,9 @@
 
     ---
     <br/>
+
+1. **What's the syntax of .IsLocator?**
+    
+    ```yaml
+    $holder.IsLocator
+    ```

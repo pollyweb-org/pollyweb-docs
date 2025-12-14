@@ -15,3 +15,9 @@
     ---
     <br/>
 
+
+1. **What's the syntax of .IsOne?**
+    
+    ```yaml
+    $listHolder.IsOne
+    ```

@@ -14,3 +14,8 @@
     ---
     <br/>
 
+1. **What's the syntax of .IsNotIn?**
+    
+    ```yaml
+    $value1.IsNotIn: [List...]
+    ```

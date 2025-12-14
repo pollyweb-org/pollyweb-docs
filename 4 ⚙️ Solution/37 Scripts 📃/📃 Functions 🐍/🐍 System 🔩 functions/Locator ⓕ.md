@@ -18,8 +18,8 @@
 
 1. **What's the .Locator syntax?**
 
-    ```r
-    {.Locator}($holder)
+    ```yaml
+    $holder.Locator
     ```
 
     | Inputs | Purpose

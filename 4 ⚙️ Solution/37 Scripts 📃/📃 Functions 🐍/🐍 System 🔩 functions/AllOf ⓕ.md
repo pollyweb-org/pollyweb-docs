@@ -20,9 +20,15 @@
 1. **What's the syntax?**
 
     ```yaml
+    # Without context
     .AllOf: [assertions...]
     ```
-   
+
+    ```yaml
+    # With context
+    $context.AllOf: [assertions...]
+    ```
+
     Input | Purpose
     |-|-
     | `assertions...` | [List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) of assertions for [`.Assert`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Assert ⓕ.md>) parsed by [`.ToList`](<ToList ⓕ.md>)

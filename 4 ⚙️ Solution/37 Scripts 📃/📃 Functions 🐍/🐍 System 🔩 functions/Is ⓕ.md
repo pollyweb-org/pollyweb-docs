@@ -36,12 +36,12 @@
 1. **What's the .Is syntax?**
 
     ```yaml
-    .Is(<value1>, <value2>)
+    $value1.Is: $value2
     ```
 
     | Inputs | Purpose | Examples
     |-|-|-
-    | `<value>`  | Values to compare | `1` `ABC` 
+    | `$value`  | Values to compare | `1` `ABC` 
 
     ---
     <br/>
@@ -54,15 +54,19 @@
     📃 Examples:
 
     # With static values
-    - IF .Is(1, 1):
-        INFO It is!    
+    - IF:
+        1.Is: 1
+    - THEN:
+        INFO: It is!    
 
     # With holders
     - PUT: 1 >> $p
-    - IF $p.Is(1):
-        INFO It is!    
+    - IF:
+        $p.Is: 1
+    - THEN:
+        INFO: It is!    
     ```
-    Uses: [`IF`](<../../📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
+    Uses: [`IF`](<../../📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`THEN`](<../../📃 Commands ⌘/⌘ for control ▶️/THEN ⤵️/⤵️ THEN ⌘ cmd.md>)
 
     ---
     <br/>

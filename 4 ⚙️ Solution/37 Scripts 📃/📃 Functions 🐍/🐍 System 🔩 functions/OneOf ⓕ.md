@@ -1,10 +1,9 @@
 # 😃ⓕ Talker `{.OneOf}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Used by [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
-
-> Similar to [`.AllOf`](<AllOf ⓕ.md>) [`.AnyOf`](<AnyOf ⓕ.md>)
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Used by [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
+* Similar to [`.AllOf`](<AllOf ⓕ.md>) [`.AnyOf`](<AnyOf ⓕ.md>)
 
 ## FAQ
 
@@ -21,7 +20,13 @@
 1. **What's the syntax?**
 
     ```yaml
-    .OneOf(assertions...)
+    # Without context
+    .OneOf: [assertions...]
+    ```
+
+    ```yaml
+    # With context
+    $context.OneOf: [assertions...]
     ```
    
     Input | Purpose
@@ -35,8 +40,11 @@
 1. **How to use?**
 
      ```yaml
-    - IF .OneOf($a, $b):
-        RUN Something  
+    - IF:
+        .OneOf: $a, $b
+    - THEN:
+        RUN: Something  
     ```
+    Uses: [`IF`](<../../📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RUN`](<../../📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`THEN`](<../../📃 Commands ⌘/⌘ for control ▶️/THEN ⤵️/⤵️ THEN ⌘ cmd.md>)
 
     <br/>

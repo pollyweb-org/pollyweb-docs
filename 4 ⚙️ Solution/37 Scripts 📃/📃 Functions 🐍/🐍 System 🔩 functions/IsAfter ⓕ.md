@@ -25,3 +25,9 @@
 
     ---
     <br/>
+
+1. **What's the syntax of .IsAfter?**
+    
+    ```yaml
+    $time1.IsAfter: $time2
+    ```

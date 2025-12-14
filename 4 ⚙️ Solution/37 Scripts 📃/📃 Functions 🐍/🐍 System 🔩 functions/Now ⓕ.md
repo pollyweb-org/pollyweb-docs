@@ -18,9 +18,9 @@
 
 1. **What's the syntax of .Now?**
 
-    ```r
+    ```yaml
     .Now
-    ````
+    ```
 
     ---
     <br/>

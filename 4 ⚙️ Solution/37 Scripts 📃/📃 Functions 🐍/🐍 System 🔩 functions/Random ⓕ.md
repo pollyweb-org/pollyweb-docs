@@ -10,14 +10,23 @@
 1. **What's the .Random syntax?**
 
     ```yaml
-    .Random(min=1, max=9, decs=0)
+    # Positional
+    .Random: <minimum=1>, <maximum=9>, <decimals=0>
+    ```
+
+    ```yaml
+    # With named parameters
+    .Random:
+        Minimum: 1 
+        Maximum: 9
+        Decimals: 0
     ```
 
     Input|Purpose  | Default  | Example
     |-|-|-|-
-    |`min` | Minimum number | `1` | `-123`
-    |`max` | Maximum number | `9` | `123`
-    |`decs` | Decimal places | `0` | `5`
+    |`Minimum` | Minimum number | `1` | `-123`
+    |`Maximum` | Maximum number | `9` | `123`
+    |`Decimals` | Decimal places | `0` | `5`
     
     ---
     <br/>
