@@ -27,14 +27,17 @@
 
 ```yaml
 📃 Bind Domain:
-- ASSERT: $.Chat.Wallet  # Ensure there's a wallet
-- INFORM: Bind Domain    # Announce what's coming
-- SHARE: .DOMAIN/ADMIN >> $token # Ask for a domain
-- IDENTIFY: $token       # Identify the Token's user
-- SAVE Helper.Domains:
+- ASSERT: $.Chat.Wallet     # Ensure there's a wallet
+
+- INFORM: Bind Domain       # Open the form
+- SHARE: .DOMAIN/ADMIN >> $token # Get a domain Token
+- VERIFY: $token            # Verify the Token
+- IDENTIFY: $token          # Verify the Token's user
+
+- SAVE Helper.Domains:      # Save the binding
     Domain: $token.Issuer
     Wallet: $.Chat.Wallet
-- DONE: Domain bound!    # Confirmation
+- GOODBYE: Domain bound!    # Confirmation
 ```
 
 Uses||

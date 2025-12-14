@@ -1,10 +1,9 @@
 # 😃💾 Talker `SAVE` command
 
-> Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
-
-> Implemented by the [`.SAVE` 📃 script](<💾 SAVE 📃 script.md>)
-
-> Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
+> About
+* Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
+* Implemented by the [`.SAVE` 📃 script](<💾 SAVE 📃 script.md>)
+* Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
 ## FAQ
 
