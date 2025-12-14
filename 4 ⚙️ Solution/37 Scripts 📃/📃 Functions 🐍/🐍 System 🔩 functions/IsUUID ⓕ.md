@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.IsUUID}` function
+# 😃ⓕ Talker `{.IsUUID}` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 

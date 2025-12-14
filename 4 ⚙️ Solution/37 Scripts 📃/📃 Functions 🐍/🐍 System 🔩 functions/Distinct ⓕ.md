@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.Distinct}` function
+# 😃ⓕ Talker `{.Distinct}` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 

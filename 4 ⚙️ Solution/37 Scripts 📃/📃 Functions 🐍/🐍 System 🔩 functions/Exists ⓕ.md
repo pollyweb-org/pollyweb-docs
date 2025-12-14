@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.Exists}` function
+# 😃ⓕ Talker `{.Exists}` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -14,3 +14,8 @@
     ---
     <br/>
 
+1. **What's the syntax of .Exists?**
+
+    ```yaml
+    $holder.Exists
+    ```

@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.IsHashed}` function
+# 😃ⓕ Talker `{.IsHashed}` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)

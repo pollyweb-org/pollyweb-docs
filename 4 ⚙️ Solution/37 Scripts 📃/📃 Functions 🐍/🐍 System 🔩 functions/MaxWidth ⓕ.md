@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.MaxWidth}` function
+# 😃ⓕ Talker `{.MaxWidth}` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
