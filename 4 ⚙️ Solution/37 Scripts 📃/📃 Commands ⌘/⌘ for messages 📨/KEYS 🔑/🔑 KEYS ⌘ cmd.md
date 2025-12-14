@@ -15,7 +15,7 @@
     <br/>
 
 
-1. **How to use a PARSE?**
+1. **How to use KEYS?**
 
     Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
