@@ -1,8 +1,8 @@
 # 😃ⓕ Talker `{.Remove}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Used by [`.Diff`](<Diff ⓕ.md>) [`.Minus`](<Minus ⓕ.md>)
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Used by [`.Diff`](<Diff ⓕ.md>) [`.Minus`](<Minus ⓕ.md>)
 
 ## FAQ 
 
@@ -20,7 +20,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    .Remove(from, remove)
+    $from.Remove: $remove
     ```
 
     ---

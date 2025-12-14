@@ -22,4 +22,12 @@
     | `ABC` | 3 | Length of a text.
     | `[A,B,C]` | 3 | Length of a list.
     | `{A:1,B:2}` | 2 | Number of properties.
-    |
+    
+    ---
+    <br/>
+
+1. **What's the syntax of .Size?**
+
+    ```yaml
+    $holder.Size
+    ```

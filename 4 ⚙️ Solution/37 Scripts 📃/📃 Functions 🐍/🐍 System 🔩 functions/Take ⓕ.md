@@ -22,7 +22,7 @@
 1. **What's the .Take syntax?**
 
     ```yaml
-    .Take(source, dimension)
+    $source.Take: $dimension
     ```
 
     Inputs|Details | Example

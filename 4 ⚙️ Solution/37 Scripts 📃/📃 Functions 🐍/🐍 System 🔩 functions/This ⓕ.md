@@ -17,7 +17,7 @@
 1. **What't the syntax of .This?**
 
     ```yaml
-    .This(period)
+    .This: period
     ```
 
     Input | Purpose | Example

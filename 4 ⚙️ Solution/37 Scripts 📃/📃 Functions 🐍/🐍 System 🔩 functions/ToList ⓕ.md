@@ -18,7 +18,7 @@
 1. **What's the .ToList syntax?**
 
     ```yaml
-    .ToList(holders...)
+    .ToList: [$holders...]
     ```
 
     ---

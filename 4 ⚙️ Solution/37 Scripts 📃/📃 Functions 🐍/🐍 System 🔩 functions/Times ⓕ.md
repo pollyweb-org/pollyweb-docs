@@ -16,7 +16,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    .Times(first, second)
+    $first.Times: $second
     ```
 
     Input|Purpose|Example

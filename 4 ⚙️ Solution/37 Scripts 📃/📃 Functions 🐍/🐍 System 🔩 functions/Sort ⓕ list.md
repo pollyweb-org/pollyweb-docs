@@ -9,7 +9,7 @@
 1. **What's the List.Sort syntax?**
 
     ```yaml
-    $list.Sort(order...)
+    $list.Sort: [order...]
     ```
 
     Inputs|Details | Example

@@ -1,8 +1,8 @@
 # 😃ⓕ Talker `{.Schema}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Used by [`.Is`](<Is ⓕ.md>) [`.IsNot`](<IsNot ⓕ.md>)
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Used by [`.Is`](<Is ⓕ.md>) [`.IsNot`](<IsNot ⓕ.md>)
 
 ## FAQ 
 
@@ -18,7 +18,7 @@
 1. **What is the .Schema syntax?**
 
     ```yaml
-    .Schema($code)
+    $code.Schema
     ```
     | Input | Purpose | Examples
     |-|-|-

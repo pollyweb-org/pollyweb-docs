@@ -10,7 +10,7 @@
 1. **What's the Set.Sort syntax?**
 
     ```yaml
-    $set.Sort(order...)
+    $set.Sort: [order...]
     ```
 
     Inputs|Details | Example
