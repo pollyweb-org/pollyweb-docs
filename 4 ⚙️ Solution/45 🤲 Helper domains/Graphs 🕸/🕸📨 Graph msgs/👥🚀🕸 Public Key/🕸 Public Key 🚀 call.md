@@ -24,7 +24,7 @@ Header:
     Subject: PublicKey@Graph
 
 Body:
-    Issuer: any-issuer.dom
+    Domain: any-issuer.dom
     DKIM: pk1
 ```
 
@@ -33,7 +33,7 @@ Body:
 | Header|`From`|text| The name of the [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) asking
 |       |`To`|text| [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>) name
 |       | `Subject` |text| `PublicKey@Graph`
-|Body   | `Issuer`  |text| [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name
+|Body   | `Domain`  |text| [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
 |       | `DKIM`|text| [DKIM 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) name
 |
 

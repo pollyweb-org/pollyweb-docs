@@ -16,21 +16,21 @@ activate verify
     verify -x script: 🚦 ASSERT .IsToken
     verify -x script: 🚦 ASSERT {starts, expires}
 
-    verify -> graph: GRAPH 🕸 PublicKey {issuer, dkim}
+    verify -> graph: GRAPH 🕸 PublicKey 🚀 {issuer, dkim}
     activate graph
         graph -> verify: {key}
     deactivate graph
 
     verify -x script: 🔐 VERIFY ᝰ🖊 Signature 💥
 
-    verify -> graph: GRAPH 🕸 Schema {code}
+    verify -> graph: GRAPH 🕸 Schema 🚀 {code}
     activate graph
         graph -> verify: {schema}
     deactivate graph
 
     verify -x script: 🔐 VERIFY 🧩 Schema 💥
 
-    verify -> broker: GRAPH 🕸 Status {token, issuer}
+    verify -> broker: SEND 📬 Status@Broker 🚀 {token, issuer}
     activate broker
         broker -> verify: {status}
     deactivate broker

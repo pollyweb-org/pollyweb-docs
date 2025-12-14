@@ -33,22 +33,27 @@
     - ASSERT $Token:
 
         # Group validations
-        AllOf: Issued, Starts, Schema, Issuer, Signature, DKIM
+        AllOf: Issued, Starts, Schema, Issuer, Hash, Signature, DKIM
         Times: Issued, Starts, Expires
-        Texts: Signature, DKIM
+        Texts: DKIM
         
         # Field validations
         Schema.IsSchema:
         Issuer.IsDomain:
         Identity.IsDomain:
-        Signature.IsBase64:
 
         # Time validations
         Issued.IsPast:
         Expires.IsAfter: Starts
+
+        # Signature validations
+        Hash.IsBase64:
+        Signature.IsBase64:
+        Hash.Hashes: 
+            $Token.Minus: Hash, Signature
     ```
 
-    Uses: [`.IsDomain`](<IsDomain ⓕ.md>) [`.IsSchema`](<IsSchema ⓕ.md>) 
+    Uses: [`.Hashes`](<Hashes ⓕ.md>) [`.IsAfter`](<IsAfter ⓕ.md>) [`.IsBase64`](<IsBase64 ⓕ.md>) [`.IsDomain`](<IsDomain ⓕ.md>) [`.IsPast`](<IsPast ⓕ.md>) [`.IsSchema`](<IsSchema ⓕ.md>) [`.Minus`](<Minus ⓕ.md>) 
 
     ---
     <br/>
