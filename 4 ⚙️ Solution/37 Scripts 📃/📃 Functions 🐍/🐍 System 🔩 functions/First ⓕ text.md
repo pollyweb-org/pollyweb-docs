@@ -21,7 +21,7 @@
 
     |Input|Behavior
     |-|-
-    |[`$txt`](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)`.First(n)`| Returns the first `n` characters of a [Text 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)
+    |[`$txt`](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)`.First: n`| Returns the first `n` characters of a [Text 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)
     |               |If `n` exceeds [`.Length`](<Length ⓕ.md>), returns the [Text 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)
     |[`$txt`](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)`.First` | Equals `$txt.First(1)`
     

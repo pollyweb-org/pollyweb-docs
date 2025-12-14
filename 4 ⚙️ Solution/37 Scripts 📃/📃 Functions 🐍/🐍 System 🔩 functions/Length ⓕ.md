@@ -11,3 +11,9 @@
 
     ---
     <br/>
+
+1. **What's the syntax of .Length?**
+
+    ```yaml
+    $holder.Length
+    ```

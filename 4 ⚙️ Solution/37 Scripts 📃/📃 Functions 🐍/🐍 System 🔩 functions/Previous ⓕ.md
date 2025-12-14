@@ -21,7 +21,7 @@
 1. **What't the syntax of .Previous?**
 
     ```yaml
-    .Previous(period)
+    .Previous: $period
     ```
 
     Input | Purpose | Example

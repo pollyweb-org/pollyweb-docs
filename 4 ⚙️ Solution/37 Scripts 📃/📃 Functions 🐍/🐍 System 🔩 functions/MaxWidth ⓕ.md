@@ -22,7 +22,7 @@
 1. **What's the syntax of the .MaxWidth function?**
 
     ```yaml
-    .MaxWidth($image, <maxWidth>)
+    $image.MaxWidth: <maxWidth>
     ```
 
     |Property|Type|Description

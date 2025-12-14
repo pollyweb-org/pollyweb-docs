@@ -17,7 +17,7 @@
 1. **What's the .IsBetween syntax?**
 
     ```yaml
-    .IsBetween(<value>, <lower>, <upper>)
+    $value.IsBetween: $lower, $upper
     ```
 
     | Inputs | Purpose | Examples

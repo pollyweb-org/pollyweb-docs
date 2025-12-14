@@ -14,3 +14,10 @@
 
     ---
     <br/>
+
+1. **What's the syntax of .IsPast?**
+    
+    ```yaml
+    $timeHolder.IsPast
+    ```
+    

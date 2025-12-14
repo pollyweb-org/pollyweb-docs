@@ -13,7 +13,7 @@
     * or `False` otherwise.
 
     ---
-    <br/>
+    <br/>  
 
 
 1. **How does .Above comparisons work?**
@@ -31,3 +31,9 @@
 
     ---
     <br/>
+
+1. **What's the syntax of .IsAbove?**
+    
+    ```yaml
+    $value1.IsAbove: $value2
+    ```

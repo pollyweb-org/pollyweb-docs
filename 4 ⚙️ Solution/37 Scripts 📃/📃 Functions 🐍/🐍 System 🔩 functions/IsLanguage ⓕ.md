@@ -14,3 +14,9 @@
 
     ---
     <br/>
+
+1. **What's the syntax of .IsLanguage?**
+    
+    ```yaml
+    $holder.IsLanguage
+    ```

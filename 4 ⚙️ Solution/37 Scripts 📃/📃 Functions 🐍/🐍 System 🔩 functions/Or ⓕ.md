@@ -18,14 +18,14 @@
 1. **What is the .Or syntax?**
 
     ```yaml
-    $holder.Func1.Or.Func2
+    $holder.<func1>.Or.<func2>
     ```
 
     | Input | Purpose | Examples
     |-|-|-
     | `$holder` | Any [Holder 🧠](<../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | `$p` `$user`
-    | `Func1` | 1st function to evaluate on `$holder` | `.IsEmpty` `.IsPast`
-    | `Func2` | 2nd function to evaluate on `$holder` | `.IsFuture` `.Is(X)`
+    | `func1` | 1st function to evaluate on `$holder` | `.IsEmpty` `.IsPast`
+    | `func2` | 2nd function to evaluate on `$holder` | `.IsFuture` `.Is(X)`
 
     ---
     <br/>

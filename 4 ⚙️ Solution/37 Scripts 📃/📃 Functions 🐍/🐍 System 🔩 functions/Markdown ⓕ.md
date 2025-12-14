@@ -24,3 +24,9 @@
     ---
     <br/>
     
+
+1. **What's the syntax of .Markdown?**
+
+    ```yaml
+    $holder.Markdown
+    ```

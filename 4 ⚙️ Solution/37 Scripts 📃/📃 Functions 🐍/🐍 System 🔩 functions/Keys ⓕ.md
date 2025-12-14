@@ -1,10 +1,9 @@
-<!-- TODO: beautify -->
+# 😃ⓕ Talker `{.Keys}` function
 
-# 🔩 {.Keys}
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Works with [`.Key`](<Key ⓕ.md>) and [`.Value`](<Value ⓕ.md>)
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Works with [`.Key`](<Key ⓕ.md>) and [`.Value`](<Value ⓕ.md>)
 
 ## FAQ
 
@@ -22,9 +21,15 @@
     Consider the following [Script 📃](<../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
     ```yaml
     - FOR $map.Keys >> $key:
-        INFO Iterating key {$key}
+        INFO: Iterating key {$key}
     ```
     Uses: [`FOR`](<../../📃 Commands ⌘/⌘ for control ▶️/FOR 4️⃣/4️⃣ FOR ⌘ cmd.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
 
     ---
     <br/>
+
+1. **What's the syntax of .Keys?**
+
+    ```yaml
+    $holder.Keys
+    ```

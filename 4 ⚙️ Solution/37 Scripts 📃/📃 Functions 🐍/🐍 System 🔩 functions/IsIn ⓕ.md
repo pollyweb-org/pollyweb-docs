@@ -18,7 +18,7 @@
 1. **What's the .IsIn syntax?**
 
     ```yaml
-    .IsIn(value, list...)
+    $value.IsIn: [list...]
     ```
 
     | Inputs | Purpose | Examples

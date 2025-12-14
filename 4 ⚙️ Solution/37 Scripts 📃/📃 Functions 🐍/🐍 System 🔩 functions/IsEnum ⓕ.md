@@ -37,3 +37,9 @@
 
     ---
     <br/>
+
+1. **What's the syntax of .IsEnum?**
+
+    ```yaml
+    $holder.IsEnum
+    ```

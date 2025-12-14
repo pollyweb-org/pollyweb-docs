@@ -20,7 +20,13 @@
 1. **What's the syntax?**
 
     ```yaml
+    # Without context
     .AnyOf: [assertions...]
+    ```
+
+    ```yaml
+    # With context
+    $context.AnyOf: [assertions...]
     ```
 
     Input | Purpose

@@ -13,6 +13,7 @@ activate script
 
 activate verify
     
+    verify -x script: 🚦 ASSERT .IsToken
     verify -x script: 🚦 ASSERT {starts, expires}
 
     verify -> graph: 📬 SEND 🚀 PublicKey@Graph {issuer, dkim}

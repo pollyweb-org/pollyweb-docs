@@ -14,3 +14,8 @@
     ---
     <br/>
 
+1. **What's the syntax of .IsNot?**
+    
+    ```yaml
+    $value1.IsNot: $value2
+    ```

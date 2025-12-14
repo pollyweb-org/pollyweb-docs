@@ -20,7 +20,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    .Plus(original, additional)
+    $original.Plus: <additional>
     ```
 
     Input|Purpose|Example

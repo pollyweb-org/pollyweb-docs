@@ -12,7 +12,7 @@ activate script
 
 activate verify
     
-    verify -x script: ASSERT 🚦 {fields...}
+    verify -x script: ASSERT 🚦 .IsMessage
 
     alt IF key not provided
         verify -> graph: SEND 📬 {PublicKey@Graph 🚀 from, dkim}

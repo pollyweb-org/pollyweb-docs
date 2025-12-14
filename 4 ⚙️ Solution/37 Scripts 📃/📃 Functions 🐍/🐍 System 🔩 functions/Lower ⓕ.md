@@ -1,8 +1,8 @@
 # 😃ⓕ Talker `{.Lower}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Opposite to [`.Higher`](<Higher ⓕ.md>)
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Opposite to [`.Higher`](<Higher ⓕ.md>)
 
 ## FAQ
 
@@ -14,3 +14,9 @@
 
     ---
     <br/>
+
+1. **What's the syntax of .Lower?**
+
+    ```yaml
+    $listHolder.Lower
+    ```
