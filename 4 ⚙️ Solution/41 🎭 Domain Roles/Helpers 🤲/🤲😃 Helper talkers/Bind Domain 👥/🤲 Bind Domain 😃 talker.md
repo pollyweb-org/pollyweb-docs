@@ -27,15 +27,20 @@
 
 ```yaml
 📃 Bind Domain:
+- ASSERT: $.Chat.Wallet  # Ensure there's a wallet
 - INFORM: Bind Domain    # Announce what's coming
-- BIND: .HOST/ADMIN      # Ask to bind the domain
+- SHARE: .DOMAIN/ADMIN >> $token # Ask for a domain
+- IDENTIFY: $token       # Identify the Token's user
+- SAVE Helper.Domains:
+    Domain: $token.Issuer
+    Wallet: $.Chat.Wallet
 - DONE: Domain bound!    # Confirmation
 ```
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`BIND`](<../../../Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`INFORM`](<../../../Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) 
-| [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`.HOST/ADMIN`](<../../../Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>)
+| [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`BIND`](<../../../Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`IDENTIFY`](<../../../Consumers 💼/💼⌘ Consumer cmds/IDENTIFY 🆔/🆔 IDENTIFY ⌘ cmd.md>) [`INFORM`](<../../../Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) 
+| [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`.DOMAIN/ADMIN`](<../../../Hosts 🤗/🤗🧩 Host schemas/🧩 DOMAIN'ADMIN.md>)
 
 <br/>
 
@@ -43,6 +48,6 @@ Uses||
 
 ```yaml
 Forms: 
-    Bind Domain: .HOST/ADMIN
+    Bind Domain: .DOMAIN/ADMIN
 ```
 

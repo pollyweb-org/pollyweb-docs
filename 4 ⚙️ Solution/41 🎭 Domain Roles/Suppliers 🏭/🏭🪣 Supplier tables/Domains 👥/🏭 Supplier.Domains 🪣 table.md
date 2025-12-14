@@ -45,7 +45,7 @@ Bind: <bind-uuid>       # Wallet bound
 Domain: any-domain.dom  # Domain to administer
 ```
 
-[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) of [`HOST/ADMIN` 🧩 schema](<../../../Hosts 🤗/🤗🧩 Host schemas/🧩 HOST'ADMIN.md>).
+[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) of [`HOST/ADMIN` 🧩 schema](<../../../Hosts 🤗/🤗🧩 Host schemas/🧩 DOMAIN'ADMIN.md>).
 
 ```yaml
 Token: 

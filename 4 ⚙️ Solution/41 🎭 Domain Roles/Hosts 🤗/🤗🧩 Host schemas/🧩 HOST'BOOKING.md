@@ -11,12 +11,9 @@
 
 ```yaml
 Path: /HOST/BOOKING
-Version: 1.0
-Inherits: .TOKEN
 
 Title: Booking 
 Description: Token for a booking
-
 Translations:
     pt-br: Agendamento
 

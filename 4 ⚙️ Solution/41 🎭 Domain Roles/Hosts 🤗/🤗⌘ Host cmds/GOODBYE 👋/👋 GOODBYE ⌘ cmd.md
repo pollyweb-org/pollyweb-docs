@@ -18,7 +18,15 @@
 1. **What's the GOODBYE syntax?**
 
     ```yaml
+    # Simplest form
     GOODBYE
     ```
+    ```yaml
+    # With DONE message
+    GOODBYE: <message>
+    ```
+
+
+
     ---
     <br/>
