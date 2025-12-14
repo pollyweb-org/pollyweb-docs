@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Inputs}` function
+# 😃ⓕ Talker `.Inputs` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -8,7 +8,7 @@
 
 1. **What is the .Inputs function?**
 
-    `{.Inputs}`
+    `.Inputs`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the [`$.Inputs` 🧠 holder](<../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>).
 

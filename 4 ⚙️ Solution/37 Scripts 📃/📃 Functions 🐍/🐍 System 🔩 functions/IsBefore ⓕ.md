@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsBefore}` function
+# 😃ⓕ Talker `.IsBefore` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is the .IsBefore function?**
 
-    `{.IsBefore}`
+    `.IsBefore`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if a [Time 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) input is before the other
     * or `False` otherwise.

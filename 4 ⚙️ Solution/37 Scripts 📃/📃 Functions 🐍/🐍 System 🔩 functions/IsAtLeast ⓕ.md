@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsAtLeast}` function
+# 😃ⓕ Talker `.IsAtLeast` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .IsAtLeast function?**
 
-    `{.IsAtLeast}`
+    `.IsAtLeast`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` 
     * if one input [`.Equals`](<Equals ⓕ.md>) or [`.IsAbove`](<IsAbove ⓕ.md>) the other

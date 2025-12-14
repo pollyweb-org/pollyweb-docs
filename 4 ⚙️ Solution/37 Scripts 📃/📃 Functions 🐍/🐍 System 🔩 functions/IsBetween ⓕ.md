@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsBetween}` function
+# 😃ⓕ Talker `.IsBetween` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .IsBetween function?**
 
-    `{.IsBetween}`
+    `.IsBetween`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that verifies if a value is in between two other values.
 

@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsBelow}` function
+# 😃ⓕ Talker `.IsBelow` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is the .IsBelow function?**
 
-    `{.IsBelow}`
+    `.IsBelow`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if one input if below the other
     * or `False` otherwise.
