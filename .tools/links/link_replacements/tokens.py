@@ -209,6 +209,83 @@ def _replace_simple(
     return total
 
 
+def _replace_literal_variants(
+    md_files: Iterable[str],
+    pattern: re.Pattern[str],
+    replacements: Dict[str, str],
+    normalized_map: Dict[str, str],
+    needles: Iterable[str],
+) -> int:
+    """Replace tokens while honoring case-specific replacements."""
+
+    total = 0
+    needle_list = list(needles)
+
+    for md_file in md_files:
+        path = Path(md_file)
+        entry = _get_cached_entry(path)
+        if entry is None:
+            continue
+
+        content = entry.get("content")
+        if not isinstance(content, str) or "{{" not in content:
+            continue
+
+        if needle_list:
+            if not any(needle in content for needle in needle_list):
+                lower = entry.get("lower")
+                if lower is None:
+                    lower = content.lower()
+                    entry["lower"] = lower
+                if not any(needle.lower() in lower for needle in needle_list):
+                    continue
+
+        if not pattern.search(content):
+            continue
+
+        link_spans = entry.get("link_spans")
+        if link_spans is None:
+            link_spans = [m.span() for m in LINK_PATTERN.finditer(content)]
+            entry["link_spans"] = link_spans
+
+        def inside_link(pos: int) -> bool:
+            return any(a <= pos < b for a, b in link_spans)
+
+        changes = 0
+
+        def _repl(match: re.Match[str]) -> str:
+            nonlocal changes
+            pos = match.start()
+            if inside_link(pos):
+                return match.group(0)
+
+            literal = match.group(1)
+            replacement = replacements.get(literal)
+            if replacement is None:
+                replacement = normalized_map.get(normalize_string(literal))
+            if replacement is None:
+                return match.group(0)
+
+            changes += 1
+            return replacement
+
+        new_content = pattern.sub(_repl, content)
+        if not changes:
+            continue
+
+        try:
+            path.write_text(new_content, encoding="utf-8")
+        except Exception:
+            continue
+
+        entry["content"] = new_content
+        entry["link_spans"] = None
+        entry["lower"] = None
+        total += changes
+
+    return total
+
+
 def _simple_pattern_for(token_literal: str) -> re.Pattern[str]:
     """Build a simple regex pattern matching {{ `Token` }} variants for a token literal."""
 
@@ -823,6 +900,8 @@ def _register_yaml_hardcoded_handlers() -> None:
 
     tests = list(_iter_successful_tests(raw_successful))
 
+    grouped: Dict[str, Dict[str, object]] = {}
+
     for test in tests:
         section = normalize_string(str(test.get("_section", "")))
         test.pop("_section", None)
@@ -847,23 +926,76 @@ def _register_yaml_hardcoded_handlers() -> None:
         if token_key in HARDCODED_HANDLERS:
             continue
 
-        replacement = f"[{link_text}](<{link_file}>)"
-        pattern = _simple_pattern_for(token_literal)
+        bucket = grouped.setdefault(token_key, {"order": [], "variants": {}})
+        order = bucket["order"]  # type: ignore[assignment]
+        variants = bucket["variants"]  # type: ignore[assignment]
+        if token_literal not in variants:
+            order.append(token_literal)
+        variants[token_literal] = (link_text, link_file)
 
-        def _make_replacer(pat: re.Pattern[str], literal: str, repl: str):
+    for token_key, payload in grouped.items():
+        order = payload["order"]  # type: ignore[index]
+        variants = payload["variants"]  # type: ignore[index]
+        if not order:
+            continue
+
+        if len(order) == 1:
+            literal = order[0]
+            link_text, link_file = variants[literal]
+            replacement = f"[{link_text}](<{link_file}>)"
+            pattern = _simple_pattern_for(literal)
+
+            def _make_single(pat: re.Pattern[str], needle: str, repl: str):
+                def _replacer(md_files: Iterable[str]) -> int:
+                    return _replace_simple(md_files, pat, repl, needle=needle)
+
+                return _replacer
+
+            replacer = _make_single(pattern, literal, replacement)
+            func_name = f"replace_{token_key}_tokens_from_yaml"
+            replacer.__name__ = func_name
+            globals()[func_name] = replacer
+            HARDCODED_HANDLERS[token_key] = {
+                "func": replacer,
+                "replacement": replacement,
+                "token_label": literal,
+            }
+            continue
+
+        replacements: Dict[str, str] = {}
+        normalized_map: Dict[str, str] = {}
+        needles: list[str] = []
+
+        # Sort by length (desc) then literal to stabilize regex order
+        ordered_literals = sorted(order, key=lambda item: (-len(item), item))
+        for literal in ordered_literals:
+            link_text, link_file = variants[literal]
+            replacement = f"[{link_text}](<{link_file}>)"
+            replacements[literal] = replacement
+            normalized_map[normalize_string(literal)] = replacement
+            needles.append(literal)
+
+        alternation = "|".join(re.escape(lit) for lit in ordered_literals)
+        pattern = re.compile(
+            rf"\{{\{{[\s\u00A0\u200B\u200C\u200D]*`?({alternation})`?[\s\u00A0\u200B\u200C\u200D]*\}}\}}"
+        )
+
+        def _make_multi(pat: re.Pattern[str], reps: Dict[str, str], norm_map: Dict[str, str], hints: Iterable[str]):
             def _replacer(md_files: Iterable[str]) -> int:
-                return _replace_simple(md_files, pat, repl, needle=literal)
+                return _replace_literal_variants(md_files, pat, reps, norm_map, hints)
 
             return _replacer
 
-        replacer = _make_replacer(pattern, token_literal, replacement)
-        func_name = f"replace_{token_key}_tokens_from_yaml"
+        replacer = _make_multi(pattern, replacements, normalized_map, needles)
+        func_name = f"replace_{token_key}_tokens_from_yaml_variants"
         replacer.__name__ = func_name
         globals()[func_name] = replacer
+
+        combined_replacement = " | ".join(replacements[literal] for literal in order)
         HARDCODED_HANDLERS[token_key] = {
             "func": replacer,
-            "replacement": replacement,
-            "token_label": token_literal,
+            "replacement": combined_replacement,
+            "token_label": "/".join(order),
         }
 
 

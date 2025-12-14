@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.UUID}` function
+# 😃ⓕ Talker `.UUID` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,9 +6,9 @@
 ## FAQ
 
 
-1. **What is the .UUID function?**
+1. **What is the `.UUID` function?**
 
-    `{.UUID}`
+    `.UUID`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns a Universally Unique Identifier (UUID) of version 4.
 
