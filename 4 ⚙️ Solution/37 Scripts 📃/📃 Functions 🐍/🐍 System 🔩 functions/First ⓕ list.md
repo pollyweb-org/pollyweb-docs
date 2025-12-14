@@ -1,6 +1,6 @@
 <!-- MERGE -->
 
-# 😃🔩 Talker `{$list.First}` function
+# 😃ⓕ Talker `$list.First` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -10,7 +10,7 @@
 
 1. **What is the $list.First function?**
 
-    `{$list.First}`
+    `$list.First`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the start of a [List 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>).
 

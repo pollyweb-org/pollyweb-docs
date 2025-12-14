@@ -1,6 +1,6 @@
 <!-- MERGE -->
 
-# 😃🔩 Talker `{$set.First}` function
+# 😃ⓕ Talker `$set.First` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -10,7 +10,7 @@
 
 1. **What is the $set.First function?**
 
-    `{$set.First}`
+    `$set.First`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the start of a [Set 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>).
 
