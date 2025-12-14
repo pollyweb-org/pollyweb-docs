@@ -20,7 +20,6 @@
     | `Name` | [text](<../Input holders 📥/🧠 Text holders.md>) | [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name
     | `Title` | [text](<../Input holders 📥/🧠 Text holders.md>) | Calls and caches [`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>)
     | `Description` | [text](<../Input holders 📥/🧠 Text holders.md>) | Calls and caches [`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>)
-    | `IsSecure`| [bool](<../Input holders 📥/Bool holders.md>) | Calls [`.IsSecure`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsSecure ⓕ.md>) 
     
     ---
     <br/>
@@ -30,7 +29,6 @@
 
     [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)|Input|Purpose
     |-|-|-
-    |[`.IsSecure`](<../../📃 Functions 🐍/🐍 System 🔩 functions/IsSecure ⓕ.md>) || Indicates if DNSSEC is in place 
     |[`.Translate`](<../../📃 Functions 🐍/🐍 System 🔩 functions/Translate ⓕ.md>)|Language| Fills `Title` and `Description` 
 
     ---
