@@ -1,0 +1,38 @@
+@startuml VERIFY Domain Message 📨
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "VERIFY ⌘" as verify
+end box
+participant "Graph 🕸" as graph
+
+
+activate script
+    script -> verify: VERIFY 🔐 {message [,key]}
+
+activate verify
+    
+    verify -x script: ASSERT 🚦 {fields...}
+
+    alt IF key not provided
+        verify -> graph: SEND 📬 {PublicKey@Graph 🚀 from, dkim}
+        activate graph
+            graph -> verify: {key}
+        deactivate graph
+    end alt
+
+    verify -x script: invalid signature 💥
+
+    verify -> graph: SEND 📬 {Schema@Graph 🚀 code}
+    activate graph
+        graph -> verify: {schema}
+    deactivate graph
+
+    verify -x script: invalid body 💥
+
+    verify -> script: RETURN ✅ 
+
+deactivate verify
+
+          
+@enduml
