@@ -43,7 +43,7 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`BIND`](<../../../Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) [`DONE`](<../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`IDENTIFY`](<../../../Consumers 💼/💼⌘ Consumer cmds/IDENTIFY 🆔/🆔 IDENTIFY ⌘ cmd.md>) [`INFORM`](<../../../Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) 
-| [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`.DOMAIN/ADMIN`](<../../../../40 👥 Domains/👥🧩 Domain schemas/🧩 DOMAIN'ADMIN.md>)
+| [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | [`.DOMAIN`](<../../../../40 👥 Domains/👥🧩 Domain schemas/🧩 DOMAIN.md>)
 
 <br/>
 
@@ -51,6 +51,6 @@ Uses||
 
 ```yaml
 Forms: 
-    Bind Domain: .DOMAIN/ADMIN
+    Bind Domain: .DOMAIN
 ```
 

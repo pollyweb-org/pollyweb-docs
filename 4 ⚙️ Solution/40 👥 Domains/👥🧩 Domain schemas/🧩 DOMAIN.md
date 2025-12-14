@@ -1,5 +1,6 @@
 
-# [🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [`HOST`](<../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>)/`ADMIN`
+# [🧩](<../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) `DOMAIN`
+
 
 
 ## Definition
@@ -7,7 +8,7 @@
 > 🤝: [`.MANIFEST/CODE`](<../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>)
 
 ```yaml
-Path: /HOST/ADMIN
+Path: /DOMAIN
 
 Title: Domain admin
 Translations:

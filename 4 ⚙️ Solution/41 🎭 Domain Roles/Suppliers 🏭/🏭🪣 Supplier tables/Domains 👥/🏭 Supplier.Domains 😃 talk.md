@@ -6,7 +6,7 @@
 💬 Register Domain:
 
 - BIND: .HOST >> $bind
-- SHARE: .DOMAIN/ADMIN >> $token
+- SHARE: .DOMAIN >> $token
 - SAVE Supplier.Domains >> $domain:
     Domain: $token.Issuer
     Bind: $bind.ID
