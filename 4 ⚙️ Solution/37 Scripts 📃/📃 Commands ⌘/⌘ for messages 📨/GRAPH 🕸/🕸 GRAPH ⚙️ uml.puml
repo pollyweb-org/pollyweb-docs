@@ -2,26 +2,22 @@
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "VERIFY ⌘ Schema 🧩" as verify
+    participant "GRAPH ⌘" as verify
 end box
 participant "Graph 🕸" as graph
 
 
 activate script
-    script -> verify: VERIFY 🔐 {data, schema}
+    script -> verify: GRAPH 🕸 {subject, payload}
 
 activate verify
     
-    verify -x script: ASSERT 🚦 .IsSchema
-
-    verify -> graph: SEND 📬 {Schema@Graph 🚀 schema}
+    verify -> graph: 📬 SEND 🚀 <subject>@Graph {payload}
     activate graph
-        graph -> verify: {definition}
+        graph -> verify: {response}
     deactivate graph
 
-    verify -x script: invalid data structure 💥
-
-    verify -> script: RETURN ✅ 
+    verify -> script: RETURN {response}
 
 deactivate verify
 
