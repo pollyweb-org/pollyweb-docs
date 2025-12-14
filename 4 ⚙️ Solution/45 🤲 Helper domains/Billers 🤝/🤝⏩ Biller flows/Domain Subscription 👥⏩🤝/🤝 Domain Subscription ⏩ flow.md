@@ -5,12 +5,12 @@
     ![](<🤝 Domain Subscription 🏞️ img.png>)
 
     Users with ADMIN [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) sign contracts on behalf of [Issuer 🎴 domains](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) that issued them 
-    * e.g., for `any-biller.dom` to accept the signature of a user on behalf of `any-domain.dom`, the user needs to hold a [`.DOMAIN/ADMIN 🧩`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 DOMAIN'ADMIN.md>) [Token](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by `any-domain.dom`;
+    * e.g., for `any-biller.dom` to accept the signature of a user on behalf of `any-domain.dom`, the user needs to hold a [`.DOMAIN/ADMIN 🧩`](<../../../../40 👥 Domains/👥🧩 Domain schemas/🧩 DOMAIN'ADMIN.md>) [Token](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by `any-domain.dom`;
 
     The following additional preconditions must be met:
-    - the user has a [`.DOMAIN/ADMIN 🧩`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 DOMAIN'ADMIN.md>) [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by the domain.
+    - the user has a [`.DOMAIN/ADMIN 🧩`](<../../../../40 👥 Domains/👥🧩 Domain schemas/🧩 DOMAIN'ADMIN.md>) [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by the domain.
 
     The subscription workflow as the following additional steps:
-    - the [Seller 💵 domain](<../../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) asks the user to share the domain's [`.DOMAIN/ADMIN 🧩`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 DOMAIN'ADMIN.md>) [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
+    - the [Seller 💵 domain](<../../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) asks the user to share the domain's [`.DOMAIN/ADMIN 🧩`](<../../../../40 👥 Domains/👥🧩 Domain schemas/🧩 DOMAIN'ADMIN.md>) [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     ---
