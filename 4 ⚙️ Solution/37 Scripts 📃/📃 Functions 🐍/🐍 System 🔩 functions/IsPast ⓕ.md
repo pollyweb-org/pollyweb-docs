@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.IsPast}` function
+# 😃ⓕ Talker `{.IsPast}` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 

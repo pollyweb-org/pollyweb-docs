@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.Cross}` function
+# 😃ⓕ Talker `{.Cross}` function
 
 > About
 * Crosses multiple [Set 🧠 holders](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)

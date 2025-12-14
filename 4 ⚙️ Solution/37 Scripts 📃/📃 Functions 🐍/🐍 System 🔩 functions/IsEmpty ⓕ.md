@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.IsEmpty}` function
+# 😃ⓕ Talker `{.IsEmpty}` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 

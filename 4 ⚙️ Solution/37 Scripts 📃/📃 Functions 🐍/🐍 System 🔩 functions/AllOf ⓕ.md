@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.AllOf}` function
+# 😃ⓕ Talker `{.AllOf}` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)

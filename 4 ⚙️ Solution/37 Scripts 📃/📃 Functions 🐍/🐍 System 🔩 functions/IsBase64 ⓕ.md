@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{.IsBase64}` function
+# 😃ⓕ Talker `{.IsBase64}` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
