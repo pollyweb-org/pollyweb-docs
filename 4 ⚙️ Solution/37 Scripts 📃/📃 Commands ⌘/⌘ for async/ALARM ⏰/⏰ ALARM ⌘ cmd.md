@@ -35,10 +35,11 @@
 
     ```yaml
     # Calculate the time into a holder
-    - PUT: Now.Add(1 day) >> $time
+    - PUT >> $time: 
+        Now.Add: 1 day
 
     # Pass the holder with the exact time
-    - ALARM|$time:
+    - ALARM $time:
         MyHandler: 
             A: 1
             B: 2
@@ -52,7 +53,7 @@
 
     ```yaml
     # Same as .Add(.Now, 1 day)
-    - ALARM|1 day:
+    - ALARM 1 day:
         MyHandler: 
             A: 1
             B: 2

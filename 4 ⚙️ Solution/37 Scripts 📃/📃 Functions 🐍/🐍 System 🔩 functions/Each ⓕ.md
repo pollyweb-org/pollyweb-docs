@@ -14,3 +14,9 @@
 
     ---
     <br/>
+
+1. **What's the .Each syntax?**
+
+    ```yaml
+    $list.Each: <function>
+    ```

@@ -104,7 +104,7 @@
     📃 Example: 
 
     # Generate a common hook
-    - PUT: .UUID >> $hook
+    - PUT >> $hook: .UUID 
 
     # Imprint holders before ASYNC
     - IMPRINT: $hook
@@ -133,7 +133,7 @@
     📃 Example: 
 
     # Generate a common hook
-    - PUT: .UUID >> $hook
+    - PUT >> $hook: .UUID 
 
     # Imprint holders before ASYNC
     - IMPRINT: $hook

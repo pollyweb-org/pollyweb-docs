@@ -69,7 +69,7 @@ Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control 
             RETURN: 🫥
 
 # Default emoji
-- PUT: 😃 >> $emoji
+- PUT >> $emoji: 😃
 
 # Override if in Chat
 - IF $Prompt.ChatEmoji:

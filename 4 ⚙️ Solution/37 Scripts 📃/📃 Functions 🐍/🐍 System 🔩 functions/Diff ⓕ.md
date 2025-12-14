@@ -29,13 +29,13 @@
 1. **What's the .Diff syntax?**
 
     ```yaml
-    .Diff(from, to)
+    $from.Diff: $to
     ```
 
     | Inputs | Purpose | Examples
     |-|-|-
-    | `from`  | Base value    | `1` `ABC` `.Today` 
-    | `to`    | Changed value | `5` `ABE` `.Now` 
+    | `$from`  | Base value    | `1` `ABC` `.Today` 
+    | `$to`    | Changed value | `5` `ABE` `.Now` 
 
     ---
     <br/>
@@ -64,14 +64,13 @@
     📃 Example: 
     
     # Process the period
-    - CALL .Diff >> $period:
-        - .Today 
-        - .Now
+    - PUT >> $period:
+        .Today.Diff: .Now
     
     # Show the total number of seconds since midnight
     - INFO: '{$period.Seconds} seconds from midnight'
     ```
-    Uses: [`.Today`](<Today ⓕ.md>) [`.Now`](<Now ⓕ.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)
+    Uses: [`.Today`](<Today ⓕ.md>) [`.Now`](<Now ⓕ.md>) [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>)
 
     ---
     <br/>

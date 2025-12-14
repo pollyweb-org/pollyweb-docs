@@ -19,7 +19,7 @@
 1. **What's the .Distinct syntax?**
 
     ```yaml
-    .Distinct(lists...)
+    .Distinct: [lists...]
     ```
 
 
