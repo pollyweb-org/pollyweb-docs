@@ -17,13 +17,13 @@
 1. **What's the .Differs syntax?**
 
     ```yaml
-    .Differs(this, that)
+    $this.Differs: $that
     ```
 
     | Inputs | Purpose | Examples
     |-|-|-
-    | `this`  | Base for comparison    | `1` `ABC` `.Today` 
-    | `that`  | Target for comparison | `5` `ABE` `.Now` 
+    | `$this`  | Base for comparison    | `1` `ABC` `.Today` 
+    | `$that`  | Target for comparison | `5` `ABE` `.Now` 
 
     ---
     <br/>

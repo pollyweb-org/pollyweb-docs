@@ -1,8 +1,8 @@
 # 😃🔩 Talker `{.Default}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Used by [`DEFAULT`](<../../📃 Commands ⌘/⌘ for holders 🧠/DEFAULT 📭/📭 DEFAULT ⌘ cmd.md>)
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Used by the [`DEFAULT` ⌘ command](<../../📃 Commands ⌘/⌘ for holders 🧠/DEFAULT 📭/📭 DEFAULT ⌘ cmd.md>)
 
 ## FAQ
 
@@ -10,7 +10,7 @@
 1. **What's the .Default syntax?**
 
     ```yaml
-    .Default($holder, defaults...)
+    $holder.Default: [defaults...]
     ```
 
     | Inputs | Purpose 
@@ -40,23 +40,23 @@
     Implicitly, via the [`DEFAULT`](<../../📃 Commands ⌘/⌘ for holders 🧠/DEFAULT 📭/📭 DEFAULT ⌘ cmd.md>) command.
 
     ```yaml
-    DEFAULT $in:
-        - A: 123
-        - B: 456
+    - DEFAULT $in:
+        A: 123
+        B: 456
     ```
 
     With the [`SET`](<../../📃 Commands ⌘/⌘ for holders 🧠/SET ↘️/↘️ SET ⌘ cmd.md>) command.
 
     ```yaml
-    SET $in:
-        - A.Default(123)
-        - B.Default(456)
+    - SET $in:
+        A.Default: 123
+        B.Default: 456
     ```
     
     Using interpolation with commands like [`INFO`](<../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>).
 
     ```yaml
-    INFO The value is {$in.A.Default(123)}
+    - INFO: The value is {$in.A.Default(123)}
     ```
 
     ---

@@ -17,8 +17,8 @@
 
 1. **What's the .Domain syntax?**
 
-    ```
-    {.Domain}($holder)
+    ```yaml
+    $holder.Domain
     ```
 
     | Inputs | Purpose

@@ -44,7 +44,7 @@
 
 
     ```yaml
-    💬|Show time:
+    💬 Show time:
     - DONE: The time is {.Now}.
     - REPEAT: Check again?
     ```
@@ -69,12 +69,12 @@
     Here's the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
 
     ```yaml
-    💬|Show time:
+    💬 Show time:
     - CONFIRM: Want to know the time? 
     - DONE: The time is {.Now}.
     - REPEAT
     ```
-    Uses: ANTITY`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/QUANTITY ↕️/QUANTITY ↕️ prompt.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>)
+    Uses: [`CONFIRM`](<../../../📃 Prompts 🤔/🤔 Input ✏️ prompts/CONFIRM 👍/👍 CONFIRM ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`REPEAT`](<🔁 REPEAT ⌘ cmd.md>)
     
     ---
     <br/>
@@ -102,7 +102,7 @@
 
 
     ```yaml
-    💬|[Order] a list of items:
+    💬 [Order] a list of items:
 
     # Call the AddItems procedure
     - RUN: AddItems
@@ -173,18 +173,20 @@
 
     ```yaml
     💬 Play guess:                      
-    - PUT: .Random(1,9) >> $target       # Set the target
+    - PUT >> $target:                   # Set the target
+        .Random: 1, 9
     - INFO: You have 3 attempts.        # Inform the rules
-    - PUT: 3 >> $tries                  # Reset the counter
+    - PUT >> $tries: 3                  # Reset the counter
     - RUN: TryLoop >> $result           # Run the loop
     - CASE $result:                     # Check the result
         Won: DONE You won! 🥳
         Lost: FAIL You lost! 😮
     - REPEAT: Play again?               # Ask to play again
-    - INFO: OK, see you next time!      # Exit the game
-    - GOODBYE                           # Show ads
+    - GOODBYE: OK, see you next time!   # Exit the game
+    ```
 
-    TryLoop:      
+    ```yaml
+    📃 TryLoop:      
 
     # Ask for a number between 1 and 9
     - QUANTITY >> $guess:

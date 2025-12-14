@@ -44,7 +44,7 @@
     The Vault's [Script 📃](<../../35 💬 Chats/Scripts 📃/Script 📃.md>) may look like the following.
 
     ```yaml
-    💬|[Bla]:
+    💬 [Bla]:
     - INFORM: bla
     - BIND: any-authority.org/ANY-SCHEMA-CODE
     - DONE: Done!

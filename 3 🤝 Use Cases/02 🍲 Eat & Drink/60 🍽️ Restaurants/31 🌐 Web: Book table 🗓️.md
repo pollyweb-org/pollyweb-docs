@@ -31,7 +31,7 @@
 ## Talker
 
 ```yaml
-💬|Reserve a table:
+💬 Reserve a table:
 
 - READ >> $place:                   # Get the restaurant info
     Set: Places

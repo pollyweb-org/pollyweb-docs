@@ -20,13 +20,13 @@
 1. **What's the .Equals syntax?**
 
     ```yaml
-    .Equals(this, that)
+    $this.Equals: $that
     ```
 
     | Inputs | Purpose | Examples
     |-|-|-
-    | `this`  | Base for comparison    | `1` `ABC` `.Today` 
-    | `that`  | Target for comparison | `5` `ABE` `.Now` 
+    | `$this`  | Base for comparison    | `1` `ABC` `.Today` 
+    | `$that`  | Target for comparison | `5` `ABE` `.Now` 
 
     ---
     <br/>

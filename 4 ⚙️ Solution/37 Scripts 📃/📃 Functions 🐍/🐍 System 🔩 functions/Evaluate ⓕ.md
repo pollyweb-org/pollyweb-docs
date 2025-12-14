@@ -18,7 +18,13 @@
 1. **What is the .Evaluate syntax?**
 
     ```yaml
-    .Evaluate(context={}, inputs...)
+    # With context
+    $context.Evaluate: [inputs...]
+    ```
+
+    ```yaml
+    # Without context
+    .Evaluate: [inputs...]
     ```
 
     Input | Purpose
@@ -53,13 +59,13 @@
     <br/>
 
 
-1. **How does .Evaluate work with interpolation?**
+1. **How does `.Evaluate` work with interpolation?**
 
     Values inside `{}` are evaluated first, as in the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT 1 >> $a
-    PUT a >> $b
+    - PUT >> $a: 1
+    - PUT >> $b: a
     ```
     
     |Input |Output| Same as | Same as | 
@@ -73,13 +79,13 @@
 
 
 
-1. **How does .Evaluate work with CSV?**
+1. **How does `.Evaluate` work with CSV?**
 
     Single-line comma-separated values (CSV) are converted to YAML [arrays](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>), as in the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT  A,B,C  >> $l1
-    PUT [A,B,C] >> $l2
+    - PUT >> $l1: A,B,C
+    - PUT >> $l2: [A,B,C]
     ```
     
     |Input |Output| 
@@ -92,13 +98,13 @@
     ---
     <br/>
 
-1. **How does .Evaluate work with YAML arrays?**
+1. **How does `.Evaluate` work with YAML arrays?**
 
     Arrays are merged with the [`.Append`](<Append ⓕ.md>) function, as in the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT [1,2] >> $l1
-    PUT [3,4] >> $l2
+    - PUT >> $l1: [1,2]
+    - PUT >> $l2: [3,4]
     ```
 
     |Input<br/>lines |Function<br/>output| Same with <br>CSV input | Same with <br> Array input | Same with <br>Object input
@@ -109,12 +115,15 @@
     ---
     <br/>
 
-1. **How does .Evaluate work with YAML objects?**
+1. **How does `.Evaluate` work with YAML objects?**
 
     Properties are named if more than one, as in the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT {A:1,B:2:C:3} >> $x
+    - PUT >> $x:
+        A: 1
+        B: 2
+        C: 3
     ```
     
     |Input<br/>lines |Function<br/>output| Same with <br> Array input | Same with <br>Object input 
@@ -130,12 +139,14 @@
     ---
     <br/>
 
-1. **How does .Evaluate work with multiple YAML objects?**
+1. **How does `.Evaluate` work with multiple YAML objects?**
 
     See the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT {D:4, E:5} >> $y
+    - PUT >> $y:
+        D: 4
+        E: 5
     ```
     
     |Input<br/>lines |Function<br/>output| Same with <br>CSV input | Same with <br> Array input | Same with <br>Object input
@@ -146,12 +157,14 @@
     ---
     <br/>
 
-1. **How does .Evaluate work with YAML objects inside other objects?**
+1. **How does `.Evaluate` work with YAML objects inside other objects?**
 
     See the following [`PUT`](<../../📃 Commands ⌘/⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) example.
 
     ```yaml
-    PUT {F:{G:6}} >> $z
+    - PUT >> $z:
+        F:
+            G: 6
     ```
 
     |Input<br/>lines |Function<br/>output| Same with <br>CSV input | Same with <br> Array input | Same with <br>Object input

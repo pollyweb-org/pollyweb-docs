@@ -35,5 +35,5 @@
 Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)  [`SEND`](<../../SEND 📬/📬 SEND ⌘ cmd.md>)
-| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsBase64`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsBase64 ⓕ.md>) [`.IsHashed`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsHashed ⓕ.md>) [`.IsPEM`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsPEM ⓕ.md>) [`.IsSigned`](<../../../📃 Functions 🐍/🐍 Security 🔐 functions/IsSigned ⓕ.md>)
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsBase64`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsBase64 ⓕ.md>) [`.IsHashed`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsHashed ⓕ.md>) [`.IsPEM`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsPEM ⓕ.md>) [`.IsSigned`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsSigned ⓕ.md>)
 |

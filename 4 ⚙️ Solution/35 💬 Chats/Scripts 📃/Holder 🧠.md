@@ -124,7 +124,7 @@
     📃 Example: 
     
     # Evaluate [A,B,C] into $list
-    - PUT: A,B,C >> $list 
+    - PUT >> $list: A,B,C
 
     # This shows C, A, and B, in any order
     - PARALLEL $list >> $number:

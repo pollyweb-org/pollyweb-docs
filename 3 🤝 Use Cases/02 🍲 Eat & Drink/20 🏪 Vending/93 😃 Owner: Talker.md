@@ -13,7 +13,7 @@ TODO: Add the flow to the Manifest
 -->
 
 ```yaml
-💬|[Buy] an item:
+💬 [Buy] an item:
 
 # Set the Chat's flow.
 - INFORM: Buy

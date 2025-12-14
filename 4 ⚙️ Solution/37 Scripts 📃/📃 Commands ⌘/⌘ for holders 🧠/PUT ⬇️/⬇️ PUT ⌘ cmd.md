@@ -56,7 +56,7 @@
     📃 Example:
     
     # First message.
-    - PUT 3 >> $A:
+    - PUT: 3 >> $A
 
     - INFO: The A holder has {$A}.
 
