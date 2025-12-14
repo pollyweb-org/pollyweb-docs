@@ -9,11 +9,15 @@ box Broker 🤵️ domain #FFFFFA
     participant "Notifiers 🪣" as notifiers
     participant "Wallets 🪣" as wallets
 end box
+participant "Graph 🕸" as graph
+
+
 
 activate wallet
     wallet -> broker: Onboard 🚀
 
     activate broker
+        broker -> graph: VERIFY 🔐 {msg}
         broker -> notifiers: READ 🧲 
         broker -> wallets: SAVE 💾
         broker -> wallet: {wallet.ID}

@@ -13,6 +13,7 @@ wallet -> broker: Frontend 🚀
 
     activate broker
         broker -> frontend: READ 🧲
+        broker -> frontend: VERIFY 🔐 {msg, publicKey}
         broker -> wallet: RETURN {$frontend}
     deactivate broker
 

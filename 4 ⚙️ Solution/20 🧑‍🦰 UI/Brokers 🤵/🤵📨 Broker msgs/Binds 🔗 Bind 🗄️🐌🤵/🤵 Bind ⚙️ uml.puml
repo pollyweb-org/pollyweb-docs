@@ -10,18 +10,16 @@ box Broker 🤵 domain  #FFFFFA
     participant "Chats 🪣" as chats
     participant "Binds 🪣" as binds
 end box
+participant "Graph 🕸" as graph
 
-'participant "Graph 🕸" as graph
-'participant "Wallet 👱" as wallet
 
 
 vault --> broker: Bind 🐌 
 deactivate vault    
 
 activate broker
-    'Read the chats
+    broker -> graph: VERIFY 🔐 {msg}
     broker -> chats: READ 🧲 
-    'broker -> binds: 
     broker -> binds: SAVE 💾 {OFFERED}
 deactivate broker
 
