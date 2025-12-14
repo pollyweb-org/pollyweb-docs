@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Has}` function
+# 😃ⓕ Talker `.Has` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is a .Has function?**
 
-    `{.Has}`
+    `.Has`
     * is an alias [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the same as [`.Contains`](<Contains ⓕ.md>).
 

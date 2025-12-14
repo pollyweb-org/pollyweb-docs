@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsAfter}` function
+# 😃ⓕ Talker `.IsAfter` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is the .IsAfter function?**
 
-    `{.IsAfter}`
+    `.IsAfter`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if a [Time 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) input is after the other
     * or `False` otherwise.

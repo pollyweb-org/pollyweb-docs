@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.If}` function
+# 😃ⓕ Talker `.If` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .If function?**
 
-    `{.If}`
+    `.If`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that evaluates a 1st boolean input, 
     * then returns of 2nd input if `True` 

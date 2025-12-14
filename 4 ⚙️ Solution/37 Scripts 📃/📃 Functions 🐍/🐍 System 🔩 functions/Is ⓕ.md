@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Is}` function
+# 😃ⓕ Talker `.Is` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -9,7 +9,7 @@
 
 1. **What is a .Is function?**
 
-    `{.Is}`
+    `.Is`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * similar to [`.Equals`](<Equals ⓕ.md>) but more flexible
     * that verifies if a value is similar to another.

@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsAtMost}` function
+# 😃ⓕ Talker `.IsAtMost` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .IsAtMost function?**
 
-    `{.IsAtMost}`
+    `.IsAtMost`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` 
     * if one input [`.Equals`](<Equals ⓕ.md>) or [`.IsBelow`](<IsBelow ⓕ.md>) the other
