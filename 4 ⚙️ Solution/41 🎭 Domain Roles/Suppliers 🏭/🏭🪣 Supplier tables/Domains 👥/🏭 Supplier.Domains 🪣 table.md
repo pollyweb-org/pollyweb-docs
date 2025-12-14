@@ -30,7 +30,7 @@ Assert:
     AllOf: Bind, Domain
 
     # Token assertions
-    Token.Schema: .HOST/ADMIN   # Admin
+    Token.Schema: .DOMAIN   # Admin
     Token.Issuer: Domain        # Matching domain
     Token.Starts.IsPast:        # Activate
     Token.Expires.IsFuture:     # Not expired
@@ -45,11 +45,11 @@ Bind: <bind-uuid>       # Wallet bound
 Domain: any-domain.dom  # Domain to administer
 ```
 
-[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) of [`HOST/ADMIN` 🧩 schema](<../../../../40 👥 Domains/👥🧩 Domain schemas/🧩 DOMAIN.md>).
+[Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) of [`DOMAIN` 🧩 schema](<../../../../40 👥 Domains/👥🧩 Domain schemas/🧩 DOMAIN.md>).
 
 ```yaml
 Token: 
-    Schema: .HOST/ADMIN
+    Schema: .DOMAIN
     Starts: 2024-01-01T00:00:00Z
     Expires: 2025-01-01T00:00:00Z
     Issuer: any-domain.dom
