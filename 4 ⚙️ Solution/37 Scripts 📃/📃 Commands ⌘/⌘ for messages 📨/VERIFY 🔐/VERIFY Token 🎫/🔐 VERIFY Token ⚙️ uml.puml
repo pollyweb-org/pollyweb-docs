@@ -2,9 +2,9 @@
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "VERIFY ⌘" as verify
+    participant "VERIFY ⌘ Token 🎫" as verify
 end box
-participant "Graph 🕸" as graph
+participant "Graph 🕸" as graph 
 participant "Broker 🤵" as broker
 
 

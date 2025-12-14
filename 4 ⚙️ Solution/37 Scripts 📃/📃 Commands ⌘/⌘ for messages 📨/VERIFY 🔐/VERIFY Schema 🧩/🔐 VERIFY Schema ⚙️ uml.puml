@@ -1,8 +1,8 @@
-@startuml VERIFY Domain Message 📨
+@startuml VERIFY Schema 🧩
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "VERIFY ⌘ Message 📨" as verify
+    participant "VERIFY ⌘ Schema 🧩" as verify
 end box
 participant "Graph 🕸" as graph
 

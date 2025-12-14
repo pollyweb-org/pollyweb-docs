@@ -1,1 +1,0 @@
-# 😃🔩 Talker {.IsSecure} function
