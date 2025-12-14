@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.OneOf}` function
+# 😃ⓕ Talker `.OneOf` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -9,7 +9,7 @@
 
 1. **What is the .OneOf function?**
 
-    `{.OneOf}` 
+    `.OneOf` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if one (and only one) of the given inputs returns [`.IsNotEmpty`](<IsNotEmpty ⓕ.md>)
     * or `False` otherwise.

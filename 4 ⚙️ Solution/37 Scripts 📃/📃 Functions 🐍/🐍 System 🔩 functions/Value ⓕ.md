@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Value}` function
+# 😃ⓕ Talker `$map.Value` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)

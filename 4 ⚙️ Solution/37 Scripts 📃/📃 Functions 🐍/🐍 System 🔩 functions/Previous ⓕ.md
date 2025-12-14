@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Previous}` function
+# 😃ⓕ Talker `.Previous` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .Previous function?**
 
-    `{.Previous}` 
+    `.Previous` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * similar to [`.This`](<This ⓕ.md>)
     * that returns a [Period 🧠 holder](<../../📃 Holders 🧠/Output holders 📤/Period holders.md>)

@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsLanguage}` function
+# 😃ⓕ Talker `.IsLanguage` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .IsLanguage function?**
 
-    `{.IsLanguage}`
+    `.IsLanguage`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if the input is an ISO language code (e.g., `en`, `pt-br`)
     * or `False` otherwise.

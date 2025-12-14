@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Now}` function
+# 😃ⓕ Talker `.Now` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .Now function?**
 
-    `{.Now}` 
+    `.Now` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the current time
     * based on the [`$.Chat`](<../../📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>) timezone and language.

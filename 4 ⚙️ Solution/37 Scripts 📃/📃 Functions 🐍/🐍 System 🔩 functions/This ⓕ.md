@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.This}` function
+# 😃ⓕ Talker `.This` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -6,7 +6,7 @@
 
 1. **What is the .This function?**
 
-    `{.This}` 
+    `.This` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns a [Period 🧠 holder](<../../📃 Holders 🧠/Output holders 📤/Period holders.md>)
     * to be used with the [`.IsIn` function](<IsIn ⓕ.md>).

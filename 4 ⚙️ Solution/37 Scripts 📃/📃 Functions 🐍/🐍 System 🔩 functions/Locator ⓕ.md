@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Locator}` function
+# 😃ⓕ Talker `.Locator` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -8,7 +8,7 @@
 
 1. **What is the .Locator function?**
 
-    `{.Locator}` 
+    `.Locator` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that parses a [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
 

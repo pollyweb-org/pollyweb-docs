@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{$num.Sum}` function
+# 😃ⓕ Talker `$num.Sum` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -8,7 +8,7 @@
 
 1. **What is the .Sum function?**
 
-    `{.Sum}` 
+    `.Sum` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that adds numbers and [`.Calculate`](<Calculate ⓕ.md>) formulas
     * to an original [Num 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Num holders.md>).

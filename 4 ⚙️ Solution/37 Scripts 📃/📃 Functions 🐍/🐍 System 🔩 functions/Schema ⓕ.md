@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Schema}` function
+# 😃ⓕ Talker `.Schema` function
 
 > About
 * Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
@@ -8,7 +8,7 @@
 
 1. **What is the .Schema function?**
 
-    `{.Schema}` 
+    `.Schema` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that parses a [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>).
 

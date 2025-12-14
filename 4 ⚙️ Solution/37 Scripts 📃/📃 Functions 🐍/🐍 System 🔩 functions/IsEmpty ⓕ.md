@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsEmpty}` function
+# 😃ⓕ Talker `.IsEmpty` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .IsEmpty function?**
 
-    `{.IsEmpty}`
+    `.IsEmpty`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns `True` if the input is empty
     * or `False` otherwise.

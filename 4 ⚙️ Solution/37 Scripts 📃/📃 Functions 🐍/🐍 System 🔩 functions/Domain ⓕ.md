@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.Domain}` function
+# 😃ⓕ Talker `.Domain` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .Domain function?**
 
-    `{.Domain}` 
+    `.Domain` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that parses a [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) name into a [Domain 🧠 holders](<../../📃 Holders 🧠/Output holders 📤/Domain holders.md>).
 

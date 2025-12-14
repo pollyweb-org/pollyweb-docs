@@ -1,4 +1,4 @@
-# 😃ⓕ Talker `{.IsNotIn}` function
+# 😃ⓕ Talker `.IsNotIn` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -7,7 +7,7 @@
 
 1. **What is the .IsNotIn function?**
 
-    `{.IsNotIn}`
+    `.IsNotIn`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that returns the opposite to [`.IsIn`](<IsIn ⓕ.md>).
 

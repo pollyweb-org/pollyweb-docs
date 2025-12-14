@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{$Values}` function
+# 😃ⓕ Talker `$map.Values` function
     
 > About
 * Extract values from [Maps 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>)
@@ -32,7 +32,7 @@
    
     |Inputs|Output
     |-|-
-    |`{A:1,B:2}` | `[1,2]`
+    |`A:1,B:2` | `[1,2]`
 
     ---
     <br/>

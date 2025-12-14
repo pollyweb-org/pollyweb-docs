@@ -1,4 +1,4 @@
-# 😃🔩 Talker `{$time.Advance}` function
+# 😃🔩 Talker `$time.Advance` function
 
 > Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
 
@@ -8,7 +8,7 @@
 
 1. **What is the .Advance function?**
 
-    `{.Advance}` 
+    `.Advance` 
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
     * that advances a period from a given [Time 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>)
     * as opposed to [`.GoBack`](<GoBack ⓕ.md>).
