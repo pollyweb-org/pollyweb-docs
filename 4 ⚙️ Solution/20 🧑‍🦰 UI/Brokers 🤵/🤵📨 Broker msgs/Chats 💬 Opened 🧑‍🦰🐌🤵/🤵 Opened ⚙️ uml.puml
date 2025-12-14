@@ -4,6 +4,7 @@ participant "Wallet 👱" as wallet
 
 box "Broker 🤵 domain"  #FFFFFA
     participant "Opened 🐌" as broker
+    participant "Wallets 🪣" as wallets
     participant "Chats 🪣" as chats
 end box
     
@@ -13,6 +14,7 @@ activate wallet
 deactivate wallet
 
 activate broker
+    broker -> wallets: VERIFY 🔐 {msg}
     broker -> chats: READ 🧲 
     broker -> chats: SAVE 💾 {OPENED}
 deactivate broker

@@ -23,6 +23,7 @@ deactivate wallet
 activate broker
 
     broker -> wallets: READ 🧲 {from}
+    broker -> wallets: VERIFY 🔐 {msg}
     broker -> chats: SAVE 💾 
 
 deactivate broker

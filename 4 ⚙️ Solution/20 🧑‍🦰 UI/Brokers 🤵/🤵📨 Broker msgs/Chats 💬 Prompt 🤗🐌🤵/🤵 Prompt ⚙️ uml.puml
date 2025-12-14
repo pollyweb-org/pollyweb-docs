@@ -7,6 +7,7 @@ box "Broker 🤵 domain"  #FFFFFA
     participant "Chatters 🪣" as chatters
     participant "Prompts 🪣" as prompts
 end box
+participant "Graph 🕸" as graph
     
 
 activate wallet
@@ -14,6 +15,7 @@ activate wallet
 deactivate wallet
 
 activate broker
+    broker -> graph: VERIFY 🔐 {msg}
     broker -> chatters: READ 🧲 
     broker -> prompts: SAVE 💾 
 deactivate broker

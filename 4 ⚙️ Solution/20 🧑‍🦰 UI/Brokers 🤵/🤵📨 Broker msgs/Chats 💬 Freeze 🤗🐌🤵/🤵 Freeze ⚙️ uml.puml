@@ -1,13 +1,11 @@
 @startuml Freeze@Broker
 
 participant "Host 🤗" as host
-
 box Broker 🤵 domain #FFFFFA
     participant "Freeze 🐌" as broker
-    'participant "Wallets 🪣" as wallets
-    'participant "Chats 🪣" as chats
+    participant "Chatters 🪣" as chatters
 end box
-
+participant "Graph 🕸" as graph
 participant "Wallet 👱" as wallet
 
 
@@ -16,6 +14,8 @@ activate host
 deactivate host
 
 activate broker
+    broker -> graph: VERIFY 🔐 {msg}
+    broker -> chatters: READ 🧲
     broker --> wallet: SEND 📬 {Frozen@}
 deactivate broker
 
