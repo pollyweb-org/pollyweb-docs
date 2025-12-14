@@ -18,12 +18,21 @@
 
 1. **What's the syntax?**
 
-    ```r
-    # Comprehensive
-    .Translate(text, from, to)
+    ```yaml
+    # With positional inputs
+    $text.Translate: $from, $to
+    ```
 
+    ```yaml
+    # With named inputs
+    $text.Translate: 
+        From: $from
+        To: $to
+    ```
+
+    ```yaml
     # Simplest
-    .Translate(text)
+    $text.Translate
     ```
 
     | Parameter | Details | Example | Default

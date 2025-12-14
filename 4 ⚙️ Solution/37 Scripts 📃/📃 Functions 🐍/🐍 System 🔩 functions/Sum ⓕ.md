@@ -19,7 +19,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    .Sum(original, additional)
+    $original.Sum: $additional
     ```
 
     Input|Purpose|Example

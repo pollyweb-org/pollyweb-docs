@@ -18,7 +18,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    .Round(original, digits)
+    $original.Round: <digits>
     ```
 
     Input|Purpose|Example

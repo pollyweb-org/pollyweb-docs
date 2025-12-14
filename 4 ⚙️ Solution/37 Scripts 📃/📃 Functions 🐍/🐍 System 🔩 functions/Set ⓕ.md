@@ -10,14 +10,14 @@
 1. **What's the syntax for .Set?**
 
     ```yaml
-    .Set(original, change)
+    $original.Set: $change
     ```
 
     Input | Purpose | Example
     |-|-|-
-    | `original` | Original [Map 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) | `{A:1,B:2}`
+    | `$original` | Original [Map 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 Map holders.md>) | `{A:1,B:2}`
     |           | or [List 🧠 holder](<../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>) of maps | `{A:1},{A:2}`
-    | `change`   | Object with keys/values to set | `{B:3,C:4}`
+    | `$change`   | Object with keys/values to set | `{B:3,C:4}`
 
     ---
     <br/>
