@@ -319,6 +319,17 @@ Successful Tests:
     LinkText: "Num 🧠 holders"
     LinkFile: "🧠 Num holders.md"
 
+  # 🧠 Pair holder
+  - Given: '{{pair}}'
+    LinkText: "pair"
+    LinkFile: "🧠 Pair holders.md"
+  - Given: '{{Pair}}'
+    LinkText: "Pair 🧠 holder"
+    LinkFile: "🧠 Pair holders.md"
+  - Given: '{{Pairs}}'
+    LinkText: "Pair 🧠 holders"
+    LinkFile: "🧠 Pair holders.md"
+
   # 🧠 Period holder
   - Given: '{{Period}}'
     LinkText: "Period 🧠 holder"
