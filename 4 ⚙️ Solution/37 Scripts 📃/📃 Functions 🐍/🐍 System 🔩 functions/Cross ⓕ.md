@@ -1,11 +1,9 @@
 # 😃🔩 Talker `{.Cross}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Purpose
+> About
 * Crosses multiple [Set 🧠 holders](<../../📃 Holders 🧠/Input holders 📥/🧠 Set holders.md>)
-
-> Used by [`SELECT`](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Used by the [`SELECT` ⌘ command](<../../📃 Commands ⌘/⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>)
 
 ## FAQ
 
@@ -14,7 +12,7 @@
 1. **What's the .Cross syntax?**
 
     ```yaml
-    .Cross(sets...)
+    .Cross: [sets...]
     ```
 
     | Inputs | Purpose | Examples

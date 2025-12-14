@@ -7,13 +7,13 @@
 1. **What's the syntax of $text.Append?**
 
     ```yaml
-    .Append($text, appendixes...)
+    $text.Append: [appendixes...]
     ```
 
     Input | Purpose | Example
     |-|-|-
     |`$text` | Original [Text 🧠](<../../📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>) | `AB` `$str`
-    |`appendixes...` | string to append | `CD`
+    |`appendixes...` | string(s) to append | `CD` 
     
 
     ---
@@ -33,7 +33,7 @@
 1. **What's the syntax of $list.Append?**
 
     ```yaml
-    $list.Append(appendixes...)
+    $list.Append: [appendixes...]
     ```
 
     Input | Purpose | Example

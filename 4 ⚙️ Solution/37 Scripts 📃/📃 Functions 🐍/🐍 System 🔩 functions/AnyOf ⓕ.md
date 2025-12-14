@@ -1,10 +1,9 @@
 # 😃🔩 Talker `{.AnyOf}` function
 
-> Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
-
-> Used by [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
-
-> Similar to [`.AllOf`](<AllOf ⓕ.md>) [`.OneOf`](<OneOf ⓕ.md>)
+> About
+* Part of [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>)
+* Used by [`ASSERT`](<../../📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)
+* Similar to [`.AllOf`](<AllOf ⓕ.md>) [`.OneOf`](<OneOf ⓕ.md>)
 
 ## FAQ
 
@@ -21,7 +20,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    .AnyOf(assertions...)
+    .AnyOf: [assertions...]
     ```
 
     Input | Purpose

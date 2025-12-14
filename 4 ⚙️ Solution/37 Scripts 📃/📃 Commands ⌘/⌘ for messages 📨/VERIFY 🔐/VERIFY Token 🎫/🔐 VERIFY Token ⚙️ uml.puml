@@ -20,7 +20,7 @@ activate verify
         graph -> verify: {key}
     deactivate graph
 
-    verify -x script: 🔐 VERIFY 🖋️ Signature 💥
+    verify -x script: 🔐 VERIFY ᝰ🖊 Signature 💥
 
     verify -> graph: 📬 SEND 🚀 Schema@Graph {code}
     activate graph

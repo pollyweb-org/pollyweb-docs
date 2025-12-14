@@ -20,7 +20,7 @@
 1. **What's the syntax?**
 
     ```yaml
-    .AllOf(assertions...)
+    .AllOf: [assertions...]
     ```
    
     Input | Purpose
