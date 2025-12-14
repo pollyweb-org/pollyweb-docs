@@ -60,5 +60,3 @@
     
     ---
     <br/>
-
-[bool]: <Bool holders.md>
