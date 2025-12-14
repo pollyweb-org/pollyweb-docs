@@ -30,12 +30,8 @@
     Schema.IsSchema:     # Valid schema code
 
 # Get the schema definition
-- SEND >> $definition:
-    Header: 
-        To: $.Hosted.Graph
-        Subject: Schema@Graph
-    Body:
-        Schema: $Schema
+- GRAPH Schema >> $definition:
+    Schema: $Schema
 
 # Assert that the Data matches the Schema definition
 - ASSERT: 
@@ -44,6 +40,6 @@
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`SEND`](<../../SEND 📬/📬 SEND ⌘ cmd.md>)
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`GRAPH`](<../../GRAPH 🕸/🕸 GRAPH ⌘ cmd.md>)
 | [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Conforms`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/Conforms ⓕ.md>) [`.IsSchema`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
-| [Holders 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Hosted`](<../../../../📃 Holders 🧠/System holders 🔩/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>) [`$.Inputs`](<../../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)
+| [Holders 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) |  [`$.Inputs`](<../../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)

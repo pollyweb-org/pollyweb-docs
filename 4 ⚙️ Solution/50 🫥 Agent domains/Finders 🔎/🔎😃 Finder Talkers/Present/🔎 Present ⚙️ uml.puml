@@ -18,8 +18,8 @@ participant "Graph 🕸\ndomain" as graph
       finder -> finder: PARALLEL
       activate finder
         finder -> reviewer: SEND: Reviews 🚀
-        finder -> graph: SEND: Identity 🚀
-        finder -> graph: SEND: Translate 🚀
+        finder -> graph: GRAPH 🕸 About 
+        finder -> graph: TRANSLATE 🈯
       deactivate finder
         
       finder --> broker: ⓘ INFO

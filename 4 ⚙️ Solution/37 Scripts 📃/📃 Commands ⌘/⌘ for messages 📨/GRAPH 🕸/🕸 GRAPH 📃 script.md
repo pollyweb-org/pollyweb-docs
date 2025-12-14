@@ -1,7 +1,18 @@
+# 🕸 GRAPH 📃 script 
 
 > About
 * Invokes methods on a [Graph 🕸 domain](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>)
 * Implements the [`GRAPH`](<🕸 GRAPH ⌘ cmd.md>) command
+
+<br/>
+
+
+## Diagram
+
+![alt text](<🕸 GRAPH ⚙️ uml.png>)
+
+<br/>
+
 
 ## Script
 

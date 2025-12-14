@@ -12,7 +12,7 @@ activate script
 
 activate trusts
     
-    trusts -> graph: SEND 📬 {Trusts@Graph 🚀 schema, role}
+    trusts -> graph: GRAPH 🕸 Trusts {schema, role}
     
     activate graph
         graph -> trusts: {trusted}
