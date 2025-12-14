@@ -12,7 +12,6 @@ activate script
 activate verify
     
     verify -x script: ASSERT 🚦 {hash, signature, key}
-
     verify -x script: invalid hash 💥
     verify -x script: invalid signature 💥
     verify -> script: RETURN ✅ 
