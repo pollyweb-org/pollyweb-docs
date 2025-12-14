@@ -14,9 +14,9 @@ activate verify
     
     verify -x script: ASSERT 🚦 .IsSchema
 
-    verify -> graph: SEND 📬 {Schema@Graph 🚀 code}
+    verify -> graph: SEND 📬 {Schema@Graph 🚀 schema}
     activate graph
-        graph -> verify: {schema}
+        graph -> verify: {definition}
     deactivate graph
 
     verify -x script: invalid data structure 💥
