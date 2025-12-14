@@ -1,7 +1,6 @@
 
 # [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [`HOST`](<🧩 HOST.md>)/`ADMIN`
 
-<br/>
 
 ## Definition
 
@@ -9,11 +8,19 @@
 
 ```yaml
 Path: /HOST/ADMIN
-Title: Domain admin
 
+Title: Domain admin
 Translations:
     pt-br: Admin de domínio
 
-Version: 1.0
-Inherits: nlweb.dom/TOKEN:1.0  
+Fields: 
+    Domain: Domain to administer
+
+Example:
+    Domain: mydomain.dom
+
+Asserts:
+    AllOf: Domain
+    Domain.IsDomain: 
 ```    
+Use: [`.IsDomain`](<../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>)

@@ -27,7 +27,6 @@
 
 1. **What does a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) look like?**
 
-    
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
     | 🎴 [Issuer](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
@@ -40,28 +39,46 @@
 1. **What's the ISSUE syntax?**
 
     ```yaml
-    ISSUE <schema> >> $token:
+    ISSUE >> $token:
+        Token: <token-uuid>
         Schema: <schema>
         Starts: <iso-utc-date>
         Expires: <iso-utc-date>
-        Properties: 
-            {properties}
-        Internals:
-            {internals}
+        Context: {A:1,B:2}
     ```
 
    
     | Input| Purpose | Example
     |-|-|-
     | `$token`| The [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued | `{Token:X, Schema:Y}`| `Schema`  | The [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `.TOKEN:1.0`
+    | `Token` | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID | `<token-uuid>`
+    || Defaults to [`.UUID`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/UUID ⓕ.md>)
     | `Starts` | Optional ISO UTC date | `2024-09-21T12:34:00Z`
+    |           | Defaults to [`.Now`](<../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>)
     | `Expires` | Optional ISO UTC date | `2024-09-21T12:34:00Z`
-    | `Properties`| User public properties | `{A:1, B:2}`
-    | `Properties`| [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) internal notes | `{A:1, B:2}`
+    | `Context`| User public properties | `{A:1,B:2}`
 
     ---
     <br/>
 
+1. **What are alternative syntaxes?**
+
+    ```yaml
+    ISSUE: <schema> >> $token
+    ```
+
+    ```yaml
+    ISSUE: <schema>
+    ```
+
+    ```yaml
+    ISSUE >> $token:
+        Schema: <schema>
+    ```
+
+    ---
+    <br/>
+   
 1. **What does a Talker look like?**
     
     ```yaml
@@ -71,7 +88,7 @@
 
     - ISSUE >> $token:
         Schema: any-authority.dom/ANY-SCHEMA:1.0
-        Properties: 
+        Context: 
             Number: 123456789
 
     - IF $token:

@@ -13,6 +13,11 @@ activate script
 deactivate script
 
 activate goodbye
+    
+    alt if $Message
+        goodbye -> broker: DONE ✅ {$.Message}
+    end alt
+
     goodbye -> chats: READ 🧲 {$.Chat.Item}
     goodbye -> chats: SAVE 💾 {GOODBYE}
 deactivate goodbye
