@@ -13,7 +13,14 @@ activate script
 
 activate verify
     
-    verify -x script: not-started, expired 💥
+    verify -x script: ASSERT 🚦 {starts, expires}
+
+    verify -> graph: SEND 📬 {PublicKey@Graph 🚀 issuer, dkim}
+    activate graph
+        graph -> verify: {key}
+    deactivate graph
+
+    verify -x script: invalid signature 💥
 
     verify -> graph: SEND 📬 {Schema@Graph 🚀 code}
     activate graph
