@@ -32,6 +32,7 @@
     ```yaml
     # Multi-field assertions
     ASSERT $object >> $valid:
+        Error: <error-message>  # Error message
         AllOf: <fields> # Required fields
         AnyOf: <fields> # One or more of these
         OneOf: <fields> # Only one of these
@@ -49,6 +50,7 @@
     | `$object`| Optional initial context | `$.Msg`
     | `$valid` | Optional boolean result | `$isValid` |
     | | If omitted, stops when failed |
+    | `Error` | Custom error message | `Too long!` | [`HTTP`](<../../⌘ for control ▶️/HTTP 💥/💥 HTTP ⌘ cmd.md>)
     | `AllOf` | All should have values |  `A,B` `[A,B]` | [`.AllOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>)
     | `AnyOf` | One or more have values |  `A,B` `[A,B]` | [`.AnyOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/AnyOf ⓕ.md>)
     | `OneOf` | Only one should have value | `A,B` `[A,B]` | [`.OneOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/OneOf ⓕ.md>)
