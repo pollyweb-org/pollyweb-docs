@@ -50,7 +50,7 @@
     | `$object`| Optional initial context | `$.Msg`
     | `$valid` | Optional boolean result | `$isValid` |
     | | If omitted, stops when failed |
-    | `Error` | Custom error message | `Too long!` | [`HTTP`](<../../⌘ for control ▶️/HTTP 💥/💥 HTTP ⌘ cmd.md>)
+    | `Error` | Custom error message | `Too long!` | [`ERROR`](<../../⌘ for control ▶️/ERROR 💥/💥 ERROR ⌘ cmd.md>)
     | `AllOf` | All should have values |  `A,B` `[A,B]` | [`.AllOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>)
     | `AnyOf` | One or more have values |  `A,B` `[A,B]` | [`.AnyOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/AnyOf ⓕ.md>)
     | `OneOf` | Only one should have value | `A,B` `[A,B]` | [`.OneOf`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/OneOf ⓕ.md>)
