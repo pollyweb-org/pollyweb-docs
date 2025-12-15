@@ -20,7 +20,7 @@
 
     | Scenario | Purpose
     |-|-
-    | [`$.Inputs` 🧠 holder](<../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)      | Assert inputs from [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) commands
+    | [`$.Inputs` 🧠 holder](<../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/🏃 $.Inputs 🧠 holder.md>)      | Assert inputs from [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) commands
     | [`$.Msg` 🧠 holder](<../../../📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>)         | Assert incoming [Messages 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
     | [`List` holders 🧠](<../../../📃 Holders 🧠/Input holders 📥/🧠 List holders.md>)  | Assert items in list [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>)
 

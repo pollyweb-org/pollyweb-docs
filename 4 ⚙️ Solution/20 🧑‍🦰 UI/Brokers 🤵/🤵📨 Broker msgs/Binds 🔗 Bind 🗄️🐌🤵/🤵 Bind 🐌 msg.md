@@ -11,7 +11,7 @@
     * to a [Schema Code 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) 
     * via a [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>).
 
-* Called by [🧑‍🦰 Bind Vault ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind Vault ⏩ flow.md>).
+* Called by [🧑‍🦰 Bind Vault ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>).
 
 
 ## Async Message  🐌

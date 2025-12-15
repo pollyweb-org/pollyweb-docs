@@ -56,5 +56,5 @@
 |-|-
 | [Commands ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`ASYNC`](<../ASYNC 👷🏼/👷🏼 ASYNC ⌘ cmd.md>) [`IMPRINT`](<../IMPRINT 🦶/🦶 IMPRINT ⌘ cmd.md>)   [`PUT`](<../../⌘ for holders 🧠/PUT ⬇️/⬇️ PUT ⌘ cmd.md>) [`RECALL`](<../RECALL 🪶/🪶 RECALL ⌘ cmd.md>) [`RETURN`](<../../⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`WAIT`](<../WAIT 🧘/🧘 WAIT ⌘ cmd.md>) |
 | [{Functions} 🐍](<../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.UUID`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/UUID ⓕ.md>) [`.StartsWith`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/StartsWith ⓕ.md>) [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>)
-| [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Inputs`](<../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)
+| [Holders 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Inputs`](<../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/🏃 $.Inputs 🧠 holder.md>)
 |
