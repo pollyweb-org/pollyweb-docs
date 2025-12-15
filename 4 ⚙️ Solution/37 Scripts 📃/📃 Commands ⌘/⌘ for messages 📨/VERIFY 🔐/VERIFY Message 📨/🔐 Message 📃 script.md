@@ -1,4 +1,4 @@
-# 🔐 Schema 📃 script
+# 🔐 Message 📃 script
 
 > About
 * Part of the [`VERIFY` ⌘ command](<../VERIFY ⌘/🔐 VERIFY ⌘ cmd.md>)
@@ -7,39 +7,51 @@
 
 ## Diagram
 
-![alt text](<../VERIFY Schema 🧩/🔐 Schema ⚙️ uml.png>)
+![alt text](<🔐 Message ⚙️ uml.png>)
 
 <br/>
 
 ## How to call
 
 ```yaml
-- RUN .VERIFY-Schema:
-    Data: {...}
-    Schema: any-authority.dom/ANY/SCHEMA:1.0.0
+- RUN .VERIFY-Message:
+    Message: {...}
+    Key: <public-key>  # Optional
 ```
 
 ## Script 
 
 ```yaml
-📃 .VERIFY-Schema:
+📃 .VERIFY-Message:
 
 # Assert the data structure
-- ASSERT $.Inputs:
-    AllOf: Schema        # Allows for empty data
-    Schema.IsSchema:     # Valid schema code
+- ASSERT $Message:
+    AllOf: Hash, Signature, From, DKIM
+    Texts: DKIM
+    From.IsDomain:
+    Signature.IsBase64:
+    Hash.IsBase64:
+    Hash.Hashes: 
+        $Token.Minus: Hash, Signature
 
-# Get the schema definition
-- GRAPH Schema >> $definition:
-    Schema: $Schema
-
-# Assert that the Data matches the Schema definition
-- ASSERT: 
-    $Data.Conforms: $definition   
+- IF $Key:
+    # Verify the signature using the provided public key
+    - RUN .VERIFY-Signature:
+        Signature: Message.Signature
+        PublicKey: $Key
+        Data: 
+            $Message.Minus: Signature
+- ELSE:
+    # Verify the domain's public key
+    - RUN .VERIFY-Domain:
+        Signature: $Message.Signature
+        Domain: $Message.From
+        DKIM: $Message.DKIM
+        Data: 
+            $Message.Minus: Signature
 ```
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`GRAPH`](<../../GRAPH 🕸/🕸 GRAPH ⌘ cmd.md>)
-| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Conforms`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/Conforms ⓕ.md>) [`.IsSchema`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
-| [Holders 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) |  [`$.Inputs`](<../../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`ELSE`](<../../../⌘ for control ▶️/ELSE ⤵️/⤵️ ELSE ⌘ cmd.md>) [`IF`](<../../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RUN`](<../../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
+| [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.Hashes`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/Hashes ⓕ.md>) [`.IsBase64`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsBase64 ⓕ.md>) [`.IsDomain`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.Minus`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/Minus ⓕ.md>)

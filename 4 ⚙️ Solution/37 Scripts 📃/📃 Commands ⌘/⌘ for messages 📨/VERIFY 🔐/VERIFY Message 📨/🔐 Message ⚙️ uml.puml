@@ -12,23 +12,14 @@ activate script
 
 activate verify
     
-    verify -x script: ASSERT 🚦 .IsMessage
+    verify -x script: invalid hash 💥
 
-    alt IF key not provided
-        verify -> graph: SEND 📬 {PublicKey@Graph 🚀 from, dkim}
-        activate graph
-            graph -> verify: {key}
-        deactivate graph
+    alt IF key is not empty
+        verify -x script: VERIFY 🔐 Signature ᝰ🖊
+    else IF key is empty
+        verify -> graph: VERIFY 🔐 Domain 👥
+        verify -x script: invalid signature 💥
     end alt
-
-    verify -x script: invalid signature 💥
-
-    verify -> graph: SEND 📬 {Schema@Graph 🚀 code}
-    activate graph
-        graph -> verify: {schema}
-    deactivate graph
-
-    verify -x script: invalid body 💥
 
     verify -> script: RETURN ✅ 
 
