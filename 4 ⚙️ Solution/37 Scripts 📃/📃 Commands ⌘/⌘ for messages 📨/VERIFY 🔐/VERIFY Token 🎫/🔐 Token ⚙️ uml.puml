@@ -13,8 +13,8 @@ activate script
 
 activate verify
     
-    verify -x script: 🚦 ASSERT .IsToken 💥
-    verify -x script: 🚦 ASSERT {starts, expires} 💥
+    verify -x script: invalid hash 💥
+    verify -x script: token not started or expired 💥
 
     verify -> graph: TRUSTS 🫡 {issuer, schema}
     verify -x script: untrusted issuer 💥 
