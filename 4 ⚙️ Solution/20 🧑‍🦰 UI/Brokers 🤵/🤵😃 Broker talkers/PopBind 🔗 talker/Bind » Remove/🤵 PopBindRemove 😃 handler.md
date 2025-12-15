@@ -21,7 +21,7 @@
 
 # Remove the bind
 - SAVE $bind:
-    .State: REMOVED
+    State: REMOVED
 
 # Inform the user 🤔
 - DONE: Done.

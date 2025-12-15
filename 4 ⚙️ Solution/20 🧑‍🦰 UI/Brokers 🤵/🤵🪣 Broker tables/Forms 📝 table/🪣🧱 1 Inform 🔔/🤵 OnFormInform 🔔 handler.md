@@ -35,10 +35,11 @@
 # Set the chat language and context
 - CHAT $Form.Chat 
 
-# If there are many steps, ask for confirmation
-- IF form.Steps.AreMany:
+# If there are many steps
+- IF: form.Steps.AreMany
 
-    CONFIRM: 
+- THEN: # ask for confirmation
+    - CONFIRM: 
         Text: >
             Ready to continue?
             **´{$form.Title.Require}´**
@@ -46,8 +47,7 @@
         Details: ´$form.Details´
 
 - ELSE: # otherwise, just inform
-
-    INFO:
+    - INFO:
         Text: 
             Flow: ´{$form.Title.Require}´
         Details: > 
@@ -63,7 +63,7 @@
 # Progress the state
 - SAVE $Form:
     Schemas: $form.Steps.Schema
-    .State: INFORMED
+    State: INFORMED
 ```
 
 |Uses ||

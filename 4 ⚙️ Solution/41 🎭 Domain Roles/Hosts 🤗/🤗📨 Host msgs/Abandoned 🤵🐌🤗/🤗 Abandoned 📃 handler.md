@@ -33,7 +33,7 @@
 
 # Mark the chat as abandoned
 - SAVE $chat:
-    .State: ABANDONED
+    State: ABANDONED
 ```
 
 Uses ||

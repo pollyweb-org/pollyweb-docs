@@ -30,7 +30,7 @@
 
 # Progress the state
 - SAVE $Help:
-    .State: AUTHORIZED  
+    State: AUTHORIZED  
     Bill: $response.Bill
 ```
 

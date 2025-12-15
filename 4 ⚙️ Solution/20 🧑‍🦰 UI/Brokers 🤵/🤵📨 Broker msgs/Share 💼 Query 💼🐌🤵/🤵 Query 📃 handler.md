@@ -41,7 +41,7 @@
 
 # Save que Query
 - SAVE Broker.Queries:
-    .State: QUERIED
+    State: QUERIED
     Chat: $.Msg.Chat
     Query: $.Msg.Query
     Schemas: $.Msg.Schemas

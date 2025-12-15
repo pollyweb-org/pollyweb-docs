@@ -44,7 +44,7 @@
 # Set the trusted matches to the Query item
 - SAVE $Query:
     Trusted: $trusted
-    .State: .If($trusted, TRUSTED, UNTRUSTED)
+    State: .If($trusted, TRUSTED, UNTRUSTED)
 ```
 
 Uses ||

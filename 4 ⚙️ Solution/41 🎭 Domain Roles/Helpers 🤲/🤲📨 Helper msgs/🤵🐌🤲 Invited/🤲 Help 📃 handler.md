@@ -35,7 +35,7 @@
 
 # Register the help request
 - SAVE Helper.Helps:
-    .State: INVITED
+    State: INVITED
     Chat: $.Msg.Chat
     Broker: $.Msg.From
     Schema: $.Msg.Schema

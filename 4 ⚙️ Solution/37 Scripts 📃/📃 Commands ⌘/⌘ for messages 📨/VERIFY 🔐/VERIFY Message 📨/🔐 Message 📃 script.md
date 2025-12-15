@@ -39,14 +39,15 @@
     Hash.Hashes: 
         $Token.Minus: Hash, Signature
 
-- IF $Key:
-    # Verify the signature using the provided public key
+# Verify the signature using the provided public key
+- IF: $Key
+- THEN:
     - RUN .VERIFY-Signature:
         Signature: Message.Signature
         PublicKey: $Key
         Data: 
             $Message.Minus: Signature
-            
+
 - ELSE:
     # Verify the domain's public key
     - RUN .VERIFY-Domain:

@@ -26,7 +26,7 @@
 
 # Update the Prompt with the emoji
 - SAVE $Prompt:
-    .State: EMOJIED
+    State: EMOJIED
     Emoji: $emoji
 ```
 Uses: [`RUN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) 

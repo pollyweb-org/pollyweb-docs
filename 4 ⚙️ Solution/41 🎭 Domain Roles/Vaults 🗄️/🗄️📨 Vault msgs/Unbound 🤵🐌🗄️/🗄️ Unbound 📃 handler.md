@@ -30,11 +30,11 @@
     Key: $.Bind
     Assert: 
         Broker: $.Msg.From
-        .State: BOUND
+        State: BOUND
 
 # Remove the bind
 - SAVE $bind:
-    .State: UNBOUND
+    State: UNBOUND
 ```
 
 |Uses||

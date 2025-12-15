@@ -28,7 +28,7 @@
 
 # Save the bind
 - SAVE $Bind:
-    .State: DETAILED
+    State: DETAILED
     VaultTitle: $graph.Domain.Title
     SchemaTitle: $graph.Schema.Title
     Description: $graph.Schema.Description

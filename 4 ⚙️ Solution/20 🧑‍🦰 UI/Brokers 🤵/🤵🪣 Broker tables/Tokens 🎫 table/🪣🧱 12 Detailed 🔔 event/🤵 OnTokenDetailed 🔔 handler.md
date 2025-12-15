@@ -34,7 +34,7 @@
 
 # Update with the answer
 - SAVE $Token:
-    .State: OFFERED
+    State: OFFERED
     Accepted: $accepted
 ```
 
