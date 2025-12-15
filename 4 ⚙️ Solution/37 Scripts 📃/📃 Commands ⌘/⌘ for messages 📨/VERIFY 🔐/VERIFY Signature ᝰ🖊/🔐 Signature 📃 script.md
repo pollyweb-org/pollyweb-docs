@@ -29,16 +29,25 @@
 
 # Assert the data structure
 - ASSERT $.Inputs:
-    Error: Signature verification failed
-
+    Error: Invalid signature structure
+    
     # Group assertions
     AllOf: Signature, PublicKey, Data
     Texts: Signature, PublicKey
 
-    # Individual assertions
-    Signature.IsBase64:  # Base 64 signature
-    PublicKey.IsPEM:     # PEM public key
-    Signature.Signs:     # Signature is valid
+    # Base 64 encryption
+    PublicKey.IsBase64:    
+    Signature.IsBase64:  
+
+# Assert the PEM public key
+- ASSERT $.Inputs:
+    Error: Invalid public key PEM
+    PublicKey.IsPEM:
+
+# Assert the signature is valid
+- ASSERT $.Inputs:
+    Error: Signature verification failed
+    Signature.Signs:     
         Data: Data
         PublicKey: PublicKey
 ```

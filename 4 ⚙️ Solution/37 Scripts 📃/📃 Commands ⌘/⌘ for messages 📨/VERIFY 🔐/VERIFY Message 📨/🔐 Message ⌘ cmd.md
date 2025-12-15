@@ -10,7 +10,7 @@
 1. **What's the syntax for messages from domains?**
 
     ```yaml
-    VERIFY|$.Msg
+    VERIFY $.Msg
     ```
 
     | Input| Purpose |
