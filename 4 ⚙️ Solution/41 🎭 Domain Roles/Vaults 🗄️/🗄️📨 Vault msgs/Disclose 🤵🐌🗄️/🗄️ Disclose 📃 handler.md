@@ -37,11 +37,11 @@
     Key: $.Msg.Bind
     Assert:
         Broker: $.Msg.From
-        .State: BOUND
+        State: BOUND
 
 # Create the collect
 - SAVE Vault.Discloses:
-    .State: ASKED
+    State: ASKED
     Bind: $.Msg.Bind
     Chat: $.Msg.Chat
     Query: $.Msg.Query

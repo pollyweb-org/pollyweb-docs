@@ -115,12 +115,12 @@
     # Exit with errors
     - IF $Item.HasErrors:
         - SAVE Table:
-            .State: ERROR_STATE
+            State: ERROR_STATE
         - RETURN
 
     # Exit successfully
     - SAVE $Item:
-        .State: VALID_STATE
+        State: VALID_STATE
     ```
 
     Uses: [`IF`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`RETURN`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)

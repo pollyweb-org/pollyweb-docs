@@ -37,7 +37,7 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
 
 # Save the chat
 - SAVE $.Chat.Item:
-    .State: GOODBYE    
+    State: GOODBYE    
 ```
 
 |Uses||

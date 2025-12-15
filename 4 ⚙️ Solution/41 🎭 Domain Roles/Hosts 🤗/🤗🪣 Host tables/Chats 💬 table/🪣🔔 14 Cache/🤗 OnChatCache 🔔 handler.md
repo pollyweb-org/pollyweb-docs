@@ -22,7 +22,7 @@
 
 # Progress the Chat state
 - SAVE $Chat:
-    .State: ACTIVE
+    State: ACTIVE
 
 # Return to the CHAT command
 - RACE $Chat.ID:

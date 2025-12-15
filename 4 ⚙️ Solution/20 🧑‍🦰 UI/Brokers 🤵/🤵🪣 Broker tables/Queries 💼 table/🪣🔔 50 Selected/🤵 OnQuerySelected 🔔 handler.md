@@ -44,12 +44,12 @@
 - CASE $Query.Selected.Type:
     BIND: 
         SAVE $Query:
-            .State: DISCLOSED
+            State: DISCLOSED
             Bind: $Query.Selected.ID.Require
             Vault: $Query.Selected.Domain.Require
     TOKEN:
         SAVE $Query:
-            .State: SHARED
+            State: SHARED
             Token: $Query.Selected.ID.Require
             Issuer: $Query.Selected.Domain.Require
 ```

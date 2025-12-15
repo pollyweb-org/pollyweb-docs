@@ -24,7 +24,7 @@
 
 # Save the Host info
 - SAVE $Chat:
-    .State: DETAILED
+    State: DETAILED
     Language: $Chat.Wallet.Language.Require
     HostTitle: $domain.Title
     Description: $domain.Description

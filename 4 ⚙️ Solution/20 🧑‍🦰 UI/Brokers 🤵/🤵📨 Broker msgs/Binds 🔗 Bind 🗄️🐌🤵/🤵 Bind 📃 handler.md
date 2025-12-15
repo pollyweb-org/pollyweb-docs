@@ -39,7 +39,7 @@
 - SAVE Broker.Binds:
 
     # Bind lifecycle
-    .State: OFFERED
+    State: OFFERED
     .Delete: 1 hour
 
     # From Bind@Broker

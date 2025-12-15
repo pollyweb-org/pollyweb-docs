@@ -32,7 +32,7 @@
 
 # Save the received token
 - SAVE $invite:
-    .State: HELPED
+    State: HELPED
     Token: $.Msg.Help
 ```
 

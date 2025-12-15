@@ -32,7 +32,7 @@
     Set: Broker.Notifiers
     Key: $.Msg.From
     Assert: 
-        .State: ACTIVE
+        State: ACTIVE
 
 # Save the Wallet
 - SAVE Broker.Wallets >> $wallet:

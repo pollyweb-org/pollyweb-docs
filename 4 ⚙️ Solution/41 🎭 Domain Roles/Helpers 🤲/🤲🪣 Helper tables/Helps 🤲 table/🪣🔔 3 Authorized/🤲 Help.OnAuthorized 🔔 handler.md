@@ -29,12 +29,13 @@
         Schema: "{$Help.Schema}/CONTEXT"
 
 # Fail if not valid
-- IF $error:
+- IF: $error
+- THEN:
     RETURN: BROKEN
 
 # Progress if valid
 - SAVE $Help:
-    .State: VALID
+    State: VALID
     Context: $context
 ```
 

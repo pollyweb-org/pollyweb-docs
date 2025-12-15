@@ -48,7 +48,7 @@ Uses: [`RUN`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶
 
 # Save the bind
 - SAVE Vault.Binds >> $bind:
-    .State: OFFERED
+    State: OFFERED
 
     # From $.Inputs
     Schema: $Schema

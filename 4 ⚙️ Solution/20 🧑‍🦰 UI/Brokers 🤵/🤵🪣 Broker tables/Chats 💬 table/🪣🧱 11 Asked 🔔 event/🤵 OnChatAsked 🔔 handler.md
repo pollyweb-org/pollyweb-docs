@@ -21,7 +21,7 @@
 # If already resolved, set state and exit
 - IF $Chat.Host:
     - SAVE $Chat:
-        .State: RESOLVED
+        State: RESOLVED
     - RETURN
 
 # Parse the locator
@@ -45,7 +45,7 @@
 
 # Finally, set the Chat to RESOLVED
 - SAVE $Chat:
-    .State: RESOLVED
+    State: RESOLVED
     Host: $locator.Host
     Key: $locator.Key
     Inputs: $locator.Inputs

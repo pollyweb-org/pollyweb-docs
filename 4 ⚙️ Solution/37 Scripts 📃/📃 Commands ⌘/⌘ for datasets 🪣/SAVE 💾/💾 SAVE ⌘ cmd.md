@@ -86,7 +86,7 @@
         :{changes}:
         .Delete: <period>
         .OnBlocked: <holder>
-        .State: <state>
+        State: <state>
         .Change:
             Status: <event>
             After: <condition>

@@ -24,19 +24,21 @@
     Schema.IsIn: $Query.Schemas
 
 # Exit if invalid
-- IFNOT $valid:
+- IFNOT: $valid
+- THEN:
     - SAVE $Query:
-        .State: INVALID
+        State: INVALID
     - RETURN
 
 # Verify the Token signature and schema
 - TRY >> $error:
-    - VERIFY $Query.Token
+    - VERIFY: $Query.Token
 
 # Exit if corrupted
-- IF $error:
+- IF: $error
+- THEN:
     - SAVE $Query:
-        .State: CORRUPTED
+        State: CORRUPTED
     - RETURN
 
 # Check the trust
@@ -46,14 +48,15 @@
     Role: VAULT
 
 # Exit if untrusted
-- IFNOT $trusted:
+- IFNOT: $trusted
+- THEN:
     - SAVE $Query:
-        .State: UNTRUSTED
+        State: UNTRUSTED
     - RETURN
 
 # Otherwise, progress
 - SAVE $Query:
-    .State: TOKENED
+    State: TOKENED
 ```
 
 Uses||

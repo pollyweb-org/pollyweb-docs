@@ -26,7 +26,7 @@
 
 # Save the received token
 - SAVE $query:
-    .State: RECEIVED
+    State: RECEIVED
     Token: $.Msg.Shared
 ```
 

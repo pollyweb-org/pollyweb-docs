@@ -42,7 +42,7 @@
     $.Msg.Hook:
     $.Msg.Form:
     Consumer: $.Msg.From
-    .State: INFORM
+    State: INFORM
 ```
 
 Uses||

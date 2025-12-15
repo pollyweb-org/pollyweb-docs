@@ -31,7 +31,7 @@
 
 # Process the Chat state
 - SAVE $chatter.Chat:
-    .State: CLOSED
+    State: CLOSED
 ```
 
 Uses||

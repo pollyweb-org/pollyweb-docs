@@ -30,14 +30,14 @@
         Schema: $Query.Schema
 
 # Progress the state
-- IFNOT $error:
+- IF $error:
 - THEN:
     - SAVE $Query:
-        State: COLLECTED
+        State: BROKEN
         Data: $data
 - ELSE:
     - SAVE $Query:
-        State: BROKEN
+        State: COLLECTED
         Data: $data
 ```
 

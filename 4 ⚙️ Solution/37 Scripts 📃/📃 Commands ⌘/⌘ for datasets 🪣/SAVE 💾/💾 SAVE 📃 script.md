@@ -50,8 +50,8 @@
     UUIDs: Version
 
 # Freeze the current chat, if any
-- IF $.Chat:
-    - FREEZE
+- IF: $.Chat
+- THEN: FREEZE
 
 # Send the request and wait.
 - SEND >> $saved:
@@ -78,7 +78,8 @@
 
     # If blocked, see if there's a handler
     BLOCKED: 
-        - IF $OnBlocked:
+        - IF: $OnBlocked
+        - THEN:
             - PUT: True >> $.Parent.{$OnBlocked}
         - ELSE:
             - ERROR: Blocked item
