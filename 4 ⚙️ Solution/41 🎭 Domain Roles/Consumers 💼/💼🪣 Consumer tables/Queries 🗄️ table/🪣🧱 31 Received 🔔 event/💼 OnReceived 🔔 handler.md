@@ -16,51 +16,20 @@
 ```yaml
 📃 OnQueryReceived:
 
-# Validate the Token
-- ASSERT $Query.Token >> $valid:
-    AllOf: Starts, Issuer
-    Starts.IsFuture:
-    Expires.IsPast:
+# Validate the Schema
+- ASSERT $Query.Token:
+    Error: Unexpected schema
     Schema.IsIn: $Query.Schemas
 
-# Exit if invalid
-- IFNOT: $valid
-- THEN:
-    - SAVE $Query:
-        State: INVALID
-    - RETURN
-
 # Verify the Token signature and schema
-- TRY >> $error:
-    - VERIFY: $Query.Token
-
-# Exit if corrupted
-- IF: $error
-- THEN:
-    - SAVE $Query:
-        State: CORRUPTED
-    - RETURN
-
-# Check the trust
-- TRUSTS >> $trusted:
-    Trusted: $Query.Token.Issuer
-    Schema: $Query.Token.Schema
-    Role: VAULT
-
-# Exit if untrusted
-- IFNOT: $trusted
-- THEN:
-    - SAVE $Query:
-        State: UNTRUSTED
-    - RETURN
+- VERIFY: $Query.Token
 
 # Otherwise, progress
-- SAVE $Query:
-    State: TOKENED
+- RETURN: TOKENED
 ```
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`IFNOT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/IFNOT ⤵️/⤵️ IFNOT ⌘ cmd.md>) [`RETURN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)  [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) [`TRUSTS`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/TRUSTS 🫡/🫡 TRUSTS ⌘ cmd.md>) [`TRY`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/TRY 🧪/🧪 TRY ⌘ cmd.md>) [`VERIFY`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/VERIFY ⌘/🔐 VERIFY ⌘ cmd.md>) 
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`RETURN`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>)   [`VERIFY`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for messages 📨/VERIFY 🔐/VERIFY ⌘/🔐 VERIFY ⌘ cmd.md>) 
 |[{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsPast`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsPast ⓕ.md>) [`.IsFuture`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsFuture ⓕ.md>) [`.IsIn`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsIn ⓕ.md>)
 | [Datasets 🪣](<../../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | [`Consumer.Queries`](<../🪣 Queries/💼 Consumer.Queries 🪣 table.md>)

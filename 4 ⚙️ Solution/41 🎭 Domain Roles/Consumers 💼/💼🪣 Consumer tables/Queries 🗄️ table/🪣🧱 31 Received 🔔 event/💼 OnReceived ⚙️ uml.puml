@@ -9,11 +9,11 @@ participant "Graph 🕸" as graph
 table --> handler: RECEIVED 🔔 
 
 activate handler
-    handler -x table: SAVE 💾 INVALID ❌ 
-    handler -> graph: VERIFY 🔐 {signature, schema}
-    handler -x table: SAVE 💾 BROKEN ❌ 
-    handler -> graph: TRUSTS 🫡 {issuer, schema, VAULT}
-    handler -x table: SAVE 💾 UNTRUSTED ❌
+    handler -x table: unexpected schema ❌ 
+    handler -> graph: VERIFY 🔐 {token}
+    handler -x table: invalid token ❌ 
+    handler -x table: issuer not trusted ❌ 
+    handler -x table: broker state not active ❌ 
     handler -> table: SAVE 💾 TOKENED ✅
     
     
