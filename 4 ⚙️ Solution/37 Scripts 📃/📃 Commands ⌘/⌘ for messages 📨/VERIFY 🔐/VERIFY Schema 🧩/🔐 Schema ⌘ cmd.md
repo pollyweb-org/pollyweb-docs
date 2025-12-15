@@ -2,7 +2,7 @@
 
 > About
 * Part of the [`VERIFY` ⌘ command](<../VERIFY ⌘/🔐 VERIFY ⌘ cmd.md>)
-
+* Implemented by the [`.VERIFY-Schema` 📃 script](<🔐 Schema 📃 script.md>)
 
 ## FAQ
 
