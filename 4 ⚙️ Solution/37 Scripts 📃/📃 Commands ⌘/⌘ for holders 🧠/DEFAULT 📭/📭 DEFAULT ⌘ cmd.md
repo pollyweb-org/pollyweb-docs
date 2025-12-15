@@ -21,14 +21,14 @@
     > This follows the [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) syntax.
 
     ```yaml
-    DEFAULT $input:
+    DEFAULT $context:
         <property-1>: <default-1>
         <property-n>: <default-n>, <default-m>
     ```
     
     | Input| Purpose | Examples
     |-|-|-
-    | `$input`| Initial context | `$.Msg`
+    | `$context`| Initial context | `$.Msg`
     | `<property>` | Property to assign default | `Role` 
     | `<default>` | List of possible default values | `*`
     

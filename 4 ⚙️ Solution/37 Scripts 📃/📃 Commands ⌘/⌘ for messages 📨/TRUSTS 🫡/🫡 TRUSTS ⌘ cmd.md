@@ -26,6 +26,7 @@
     ```yaml
     # Comprehensive
     TRUSTS >> $trusts:
+        Error: <error-message> # optional
         Trusted: <trusted>
         Truster: <truster> # defaults to current domain
         Schema: <schema>
@@ -42,6 +43,7 @@
     |-|-|-
     |`$trusts`| Trusts result [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | 
     |         | If omitted, fails if not trusted | 
+    | `Error` | Optional error message on failure | `Untrusted domain`
     | `Trusted` | [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) | `any-domain.dom`
     | `Truster` | Optional [Domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) trusting | `my-domain.dom` 
     ||Defaults to [`$.Hosted`](<../../../📃 Holders 🧠/System holders 🔩/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>).`Domain`

@@ -29,6 +29,7 @@
 
 # Assert the Token structure
 - ASSERT $Token:
+    Error: Invalid token structure
 
     # Group validations
     AllOf: Issued, Starts, Schema, Issuer, Hash, Signature, DKIM
@@ -40,23 +41,33 @@
     Issuer.IsDomain:
     Identity.IsDomain:
 
-    # Time validations
+# Time validations
+- ASSERT $Token:
+    Error: Invalid token dates
     Issued.IsPast:
     Expires.IsAfter: Starts
 
-    # Signature validations
+# Signature validations
+- ASSERT $Token:
+    Error: Invalid token hash 
     Hash.IsBase64:
     Signature.IsBase64:
     Hash.Hashes: 
         $Token.Minus: Hash, Signature
 
-# Assert that we're in the validity period
+# Assert is currently activate
 - ASSERT $Token:
-    Starts.IsPast:      # Is currently activate
-    Expires.IsFuture:   # Has not expired
+    Error: Token not yet active
+    Starts.IsPast: 
+
+# Assert has not expired
+- ASSERT $Token:
+    Error: Token expired
+    Expires.IsFuture:   
 
 # Check if the issuer is trusted
 - TRUSTS:
+    Error: Untrusted schema issuer
     Trusted: $Token.Issuer
     Schema: $Token.Schema
     Role: VAULT
@@ -82,7 +93,10 @@
     Body:
         Token: $Token.Token
         Issuer: $Token.Issuer
+
+# Fail if not active
 - ASSERT: 
+    Error: Token is {{$status.Status}}
     $status.Status: ACTIVE
 ```
 

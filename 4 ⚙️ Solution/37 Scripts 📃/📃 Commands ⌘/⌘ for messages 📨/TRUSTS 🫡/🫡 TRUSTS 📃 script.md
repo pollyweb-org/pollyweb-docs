@@ -16,6 +16,7 @@
 
 ```yaml
 - RUN .TRUSTS:
+    Error: Untrusted domain
     Schema: my-schema
     Trusted: trusted-entity.dom
     Truster: optional-truster.dom   # Optional
@@ -35,7 +36,7 @@
 # Assert inputs
 - ASSERT $.Inputs:
     AllOf: Schema, Trusted
-    Texts: Schema, Trusted, Truster
+    Texts: Schema, Trusted, Truster, Error
     Role.IsIn: VAULT, CONSUMER, ANY
 
 # Send the request
@@ -47,6 +48,7 @@
 
 # Assert if it's trusted
 - ASSERT $answer:
+    Error: $Error
     Trusted: True
 ```
 
