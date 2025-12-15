@@ -52,7 +52,7 @@
 
 Uses||
 |-|-
-| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`HTTP`](<../../../⌘ for control ▶️/HTTP 💥/💥 HTTP ⌘ cmd.md>) [`IF`](<../../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../../⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`THEN`](<../../../⌘ for control ▶️/THEN ⤵️/⤵️ THEN ⌘ cmd.md>) 
+| [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ERROR`](<../../../⌘ for control ▶️/ERROR 💥/💥 ERROR ⌘ cmd.md>) [`IF`](<../../../⌘ for control ▶️/IF ⤵️/⤵️ IF ⌘ cmd.md>) [`RETURN`](<../../../⌘ for control ▶️/RETURN ⤴️/⤴️ RETURN ⌘ cmd.md>) [`RUN`](<../../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) [`THEN`](<../../../⌘ for control ▶️/THEN ⤵️/⤵️ THEN ⌘ cmd.md>) 
 | [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.AllOF`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/AllOf ⓕ.md>) [`.AnyOf`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/AnyOf ⓕ.md>)
 | [Scripts 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | [`.VERIFY-Message`](<../VERIFY Message 📨/🔐 Message 📃 script.md>) [`.VERIFY-Schema`](<../VERIFY Schema 🧩/🔐 Schema 📃 script.md>) [`.VERIFY-Token`](<../VERIFY Token 🎫/🔐 Token 📃 script.md>)
 |
