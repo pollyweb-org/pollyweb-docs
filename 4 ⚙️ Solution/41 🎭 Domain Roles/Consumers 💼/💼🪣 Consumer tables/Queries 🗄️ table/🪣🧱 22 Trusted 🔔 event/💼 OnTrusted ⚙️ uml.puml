@@ -19,7 +19,7 @@ activate handler
 
     handler -> graph: VERIFY 🔐 {schema}
 
-    handler -x table: SAVE 💾 {BROKEN, data}
+    handler -x table: unmatched schema ❌
     handler -> table: SAVE 💾 {COLLECTED, data}
 
 deactivate handler
