@@ -33,7 +33,7 @@
 
 1. **What's an example of a `TRY` for [`ASSERT`](<../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)?**
 
-    The [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) below displays `Caught dummy error`.
+    The [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) below displays `❌ Caught dummy error`.
 
     ```yaml
     📃 Example:
@@ -46,11 +46,11 @@
 
     # Handle the error
     - IF $error:
-        - INFO: Caught {$error}
+        - FAIL: Caught {$error}
     - ELSE:
-        - INFO: No errors
+        - DONE: No errors
     ```
-    Uses: [`ASSERT`](<../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>) [`.Equals`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ.md>)
+    Uses: [`ASSERT`](<../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`FAIL`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/FAIL ❌/FAIL ❌ prompt.md>) [`.Equals`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Equals ⓕ.md>)
 
     ---
     <br/>
