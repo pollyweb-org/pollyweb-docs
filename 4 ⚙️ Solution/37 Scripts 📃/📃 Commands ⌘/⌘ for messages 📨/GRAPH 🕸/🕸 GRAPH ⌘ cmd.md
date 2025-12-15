@@ -20,14 +20,17 @@
 
     ```yaml
     GRAPH <subject> >> $output:
-        {payload}
+        Error: <not-found-error-message>
+        :$payload:
     ```
 
     |Input|Description|Example
     |-|-|-
     | `<subject>`| The Graph message subject| `PublicKey` `Schema`
     | `$output`| [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) to store the response
-    | `{payload}`| The message body payload 
+    | `Error`| Custom error message when not found | `Unknown domain`
+    | | Use `.Error` if the payload has `Error`
+    | `$payload`| The message body payload 
 
     ---
     <br/>
