@@ -109,7 +109,6 @@
 
     |Method|Description
     |-|-
-    |[👥🚀 Trusted](<../🕸📨 Graph msgs/👥🚀🕸 Trusted/🕸 Trusted 🚀 call.md>) | Can I trust that other domain?
     |[👥🚀 Trusts](<../🕸📨 Graph msgs/👥🚀🕸 Trusts/🕸 Trusts 🚀 call.md>) | Do these  domains trust each other? 
     |[👥🚀 Identity](<../🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 🚀 call.md>) | Return the identity of a domain.
     |[👥🚀 Queryable](<../🕸📨 Graph msgs/👥🚀🕸 Queryable/🕸 Queryable 🚀 call.md>) | Select only the trustable codes.

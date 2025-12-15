@@ -6,16 +6,12 @@
 
 > Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 
-> Purpose
-
 * Verifies if there’s a path of [Trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) 
   * between two [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) 
   * regarding a [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
   * as defined in the [`.MANIFEST/TRUST` 🧩](<../../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 TRUST.md>) part
   * of [domain Manifests 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 
-* Similar to [`Trusted@Graph`](<../👥🚀🕸 Trusted/🕸 Trusted 🚀 call.md>), 
-  * but for verification by another [domain 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
   
 > Used in
 * [🧑‍🦰👉💼 Share Token 🎫 flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) 
@@ -31,7 +27,7 @@
 Header: 
     From: any-domain.dom
     To: any-graph.dom
-    Subject: Trusted@Graph
+    Subject: Trusts@Graph
 
 Body:
     Truster: any-vault.dom
