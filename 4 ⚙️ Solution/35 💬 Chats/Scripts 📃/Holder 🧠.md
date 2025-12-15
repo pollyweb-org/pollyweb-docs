@@ -57,7 +57,7 @@
     |-|-
     | [`$.Chat`](<../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Chat 💬/💬 $.Chat 🧠 holder.md>) | Contains the details of the current  [Chat 💬](<../Chats 💬/💬 Chat.md>) 
     | [`$.Hosted`](<../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>) | Contains the settings of the [Hosted 📦 domain](<../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)
-    | [`$.Inputs`](<../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>) | Contains the inputs of the current [`RUN` command](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) 
+    | [`$.Inputs`](<../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/🏃 $.Inputs 🧠 holder.md>) | Contains the inputs of the current [`RUN` command](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) 
     | [`$.Msg`](<../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Msg 📨/📨 $.Msg 🧠 holder.md>) | Contains the properties of the current [Message 📨](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
     | [`$.Parent`](<../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Parent ▶️/▶️ $.Parent 🧠 holder.md>) | References the [Holders 🧠](<Holder 🧠.md>) in the [`RUN`](<../../37 Scripts 📃/📃 Commands ⌘/⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>) caller
     

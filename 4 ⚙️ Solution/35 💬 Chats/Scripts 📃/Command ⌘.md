@@ -74,7 +74,7 @@
 
     |Command|Purpose
     |-|-
-    | 🔗 [`BIND`](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) | Calls the [`Bind Vault` ⏩ flow](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind Vault ⏩ flow.md>) 
+    | 🔗 [`BIND`](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) | Calls the [`Bind Vault` ⏩ flow](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) 
     | 🎫 [`ISSUE`](<../../41 🎭 Domain Roles/Issuers 🎴/🎴⌘ Issuer cmds/ISSUE 🎫/🎫 ISSUE ⌘ cmd.md>) | Calls the [`Save Token` ⏩ flow](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) 
     | 👋 [`GOODBYE`](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⌘ Host cmds/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>) | Calls the [`Goodbye` ⏩ flow](<../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Goodbye 🤗⏩👋/🤗 Goodbye ⏩ flow.md>).
     | 📜 [`FLOW`](<../../41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>)
@@ -177,7 +177,7 @@
     | `$out`| Output [Holder 🧠](<Holder 🧠.md>) | `$reply`
     | `<prop-n>` | Property of an object |`Details`
     | `<val-n>` | Value of a property   | `Hi!`
-    | `$holder-n` | [Holder 🧠](<Holder 🧠.md>)    | [`$.Inputs`](<../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)
+    | `$holder-n` | [Holder 🧠](<Holder 🧠.md>)    | [`$.Inputs`](<../../37 Scripts 📃/📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/🏃 $.Inputs 🧠 holder.md>)
 
     ---
     <br/>

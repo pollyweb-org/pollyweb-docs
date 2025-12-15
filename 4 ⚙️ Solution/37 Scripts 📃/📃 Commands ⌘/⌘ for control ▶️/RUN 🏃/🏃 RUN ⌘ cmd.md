@@ -43,7 +43,7 @@
     | `*`  | Optional inputs to [`.Evaluate`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Evaluate ⓕ.md>) | `1,2` `A,$B` `{A:1,$B}`
     |           | Read `$n`  inside the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$1` `$2`
     | | Read `$name` in the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) | `$B`|
-    | | Read with [`{.Inputs}`](<../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>) | `.Inputs.B` `$.Inputs.B`
+    | | Read with [`{.Inputs}`](<../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/🏃 $.Inputs 🧠 holder.md>) | `.Inputs.B` `$.Inputs.B`
     
     ---
     <br/>

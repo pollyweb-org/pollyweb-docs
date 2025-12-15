@@ -28,7 +28,7 @@
 📃 .VERIFY-Signature:
 
 # Assert the data structure
-- ASSERT $.Inputs:
+- ASSERT $.Inputs >> ${$.Output}:
 
     # Group assertions
     AllOf: Signature, PublicKey, Data
@@ -46,5 +46,5 @@ Uses||
 |-|-
 | [Commands ⌘](<../../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) | [`ASSERT`](<../../../⌘ for holders 🧠/ASSERT 🚦/🚦 ASSERT ⌘ cmd.md>)  [`SEND`](<../../SEND 📬/📬 SEND ⌘ cmd.md>)
 | [{Functions} 🐍](<../../../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) | [`.IsBase64`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsBase64 ⓕ.md>)  [`.IsPEM`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/IsPEM ⓕ.md>) [`.Signs`](<../../../../📃 Functions 🐍/🐍 System 🔩 functions/Signs ⓕ.md>)
-| [Holders 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Hosted`](<../../../../📃 Holders 🧠/System holders 🔩/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>) [`$.Inputs`](<../../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>)
+| [Holders 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) | [`$.Hosted`](<../../../../📃 Holders 🧠/System holders 🔩/$.Hosted 📦/📦 $.Hosted 🧠 holder.md>) [`$.Inputs`](<../../../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/🏃 $.Inputs 🧠 holder.md>) [`$.Output`](<../../../../📃 Holders 🧠/System holders 🔩/$.Output/🏃 $.Output 🧠 holder.md>)
 |

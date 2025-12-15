@@ -532,7 +532,7 @@ Successful Tests:
 
   - Given: '{{$.Inputs}}'
     LinkText: "`$.Inputs` 🧠 holder"
-    LinkFile: "▶️ $.Inputs 🧠 holder.md"
+    LinkFile: "🏃 $.Inputs 🧠 holder.md"
     Reasons: Same as {{$.Msg}}.
 
   - Given: '{{$.Msg}}'

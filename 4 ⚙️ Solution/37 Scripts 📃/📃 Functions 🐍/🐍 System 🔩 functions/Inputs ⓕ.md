@@ -10,7 +10,7 @@
 
     `.Inputs`
     * is a [{Function} 🐍](<../../../35 💬 Chats/Scripts 📃/Function 🐍.md>) 
-    * that returns the [`$.Inputs` 🧠 holder](<../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/▶️ $.Inputs 🧠 holder.md>).
+    * that returns the [`$.Inputs` 🧠 holder](<../../📃 Holders 🧠/System holders 🔩/$.Inputs 🏃/🏃 $.Inputs 🧠 holder.md>).
 
     ---
     <br/>
