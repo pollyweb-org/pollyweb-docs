@@ -70,18 +70,18 @@
 
     # Return the saved item
     OK: 
-        RETURN: $saved.Item
+        - RETURN: $saved.Item
 
     # Ask for a rerun
     OUTDATED: 
-        HTTP: 412|Outdated
+        - ERROR: Outdated item
 
     # If blocked, see if there's a handler
     BLOCKED: 
-        IF $OnBlocked:
-            PUT: True >> $.Parent.{$OnBlocked}
-        ELSE:
-            HTTP: 423|Blocked
+        - IF $OnBlocked:
+            - PUT: True >> $.Parent.{$OnBlocked}
+        - ELSE:
+            - ERROR: Blocked item
 ```
 
 

@@ -1,37 +1,35 @@
-# 😃💥 Talker `HTTP` command 
+# 😃💥 Talker `ERROR` command 
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
 <br/>
 
 
-1. **What's a HTTP command?**
+1. **What's a ERROR command?**
 
-    A `HTTP` ⤴️
+    A `ERROR` ⤴️
     * is a flow [Command ⌘](<../../../../35 💬 Chats/Scripts 📃/Command ⌘.md>) 
-    * that raises an HTTP exception
-    * and immediately stops the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>).
+    * that raises an error 
+    * and immediately stops the [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) if not inside a [`TRY`](<../TRY 🧪/🧪 TRY ⌘ cmd.md>).
 
 
     ---
     <br/>
 
 
-1. **What's the HTTP syntax?**
+1. **What's the ERROR syntax?**
 
     ```yaml
     # On-line syntax
-    - HTTP <code>|<message>
+    - ERROR: <message>
 
     # Multi-line syntax
-    - HTTP:
-        Code: <code>
+    - ERROR:
         Message: <message>
     ```
 
     | Input| Purpose | Example
     |-|-|-
-    | `Code`| HTTP error code | `403`
     | `Message` | Optional details about the error | `MyError`
     
     ---
@@ -39,9 +37,9 @@
 
 
 
-1. **What happens after a HTTP?**
+1. **What happens after a ERROR?**
 
-    Nothing runs on a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) after an `HTTP`.
+    Nothing runs on a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) after an `ERROR`.
 
     | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     | - | - | - |
@@ -57,11 +55,11 @@
     - FAIL: This command never runs.
     
     📃 Test:
-    - HTTP 500
+    - ERROR: Stop here
     - FAIL: This command also never runs.
     ```
 
-    Uses: [`TEMP`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`HTTP`](<💥 HTTP ⌘ cmd.md>)
+    Uses: [`TEMP`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/TEMP ⏳/TEMP ⏳ prompt.md>) [`RUN`](<../RUN 🏃/🏃 RUN ⌘ cmd.md>) [`DONE`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/DONE ✅/DONE ✅ prompt.md>) [`ERROR`](<💥 ERROR ⌘ cmd.md>)
     
     ---
     <br/>

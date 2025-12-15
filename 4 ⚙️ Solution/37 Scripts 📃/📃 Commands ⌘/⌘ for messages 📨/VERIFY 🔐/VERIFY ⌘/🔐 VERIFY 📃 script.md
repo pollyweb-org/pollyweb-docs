@@ -47,7 +47,7 @@
 
 # Invalid input if none matched
 # ------------------------------
-- HTTP: 400|Invalid input
+- ERROR: Invalid VERIFY input
 ```
 
 Uses||
