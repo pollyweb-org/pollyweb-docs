@@ -16,7 +16,6 @@
 ```yaml
 - RUN .VERIFY-Token:
     Token: {...}
-    Checks: ACTIVE, TRUSTED
 ```
 
 <br/>
@@ -30,10 +29,15 @@
 - ASSERT: $Token.IsToken
 
 # Assert that we're in the validity period
-- IF $Active:
-    - ASSERT $Token:
-        Starts.IsPast:      # Is currently activate
-        Expires.IsFuture:   # Has not expired
+- ASSERT $Token:
+    Starts.IsPast:      # Is currently activate
+    Expires.IsFuture:   # Has not expired
+
+# Check if the issuer is trusted
+- TRUSTS:
+    Trusted: $Token.Issuer
+    Schema: $Token.Schema
+    Role: VAULT
 
 # Verify the domain signature
 - RUN .VERIFY-Domain:
@@ -43,22 +47,21 @@
     Domain: $Token.Issuer
     Signature: $Token.Signature
 
-# Get the schema definition
+# Verify the schema
 - RUN .VERIFY-Schema:
     Data: $Token.Context 
     Schema: $Token.Schema
 
 # Check that the status on the broker
-- IF $Active:
-    - SEND >> $status:
-        Header:
-            To: $Token.Broker
-            Subject: Status@Broker
-        Body:
-            Token: $Token.Token
-            Issuer: $Token.Issuer
-    - ASSERT: 
-        $status: ACTIVE
+- SEND >> $status:
+    Header:
+        To: $Token.Broker
+        Subject: Status@Broker
+    Body:
+        Token: $Token.Token
+        Issuer: $Token.Issuer
+- ASSERT: 
+    $status.Status: ACTIVE
 ```
 
 Uses||

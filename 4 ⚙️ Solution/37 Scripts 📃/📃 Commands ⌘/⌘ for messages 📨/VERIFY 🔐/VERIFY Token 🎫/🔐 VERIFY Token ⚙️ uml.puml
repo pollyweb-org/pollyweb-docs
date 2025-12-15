@@ -13,8 +13,11 @@ activate script
 
 activate verify
     
-    verify -x script: 🚦 ASSERT .IsToken
-    verify -x script: 🚦 ASSERT {starts, expires}
+    verify -x script: 🚦 ASSERT .IsToken 💥
+    verify -x script: 🚦 ASSERT {starts, expires} 💥
+
+    verify -> graph: TRUSTS 🫡 {issuer, schema}
+    verify -x script: untrusted issuer 💥 
 
     verify -> graph: VERIFY 🔐 Domain 👥
     verify -x script: invalid signature 💥 
@@ -23,12 +26,8 @@ activate verify
     verify -x script: invalid schema 💥
 
     verify -> broker: SEND 📬 Status@Broker 🚀 {token, issuer}
-    activate broker
-        broker -> verify: {status}
-    deactivate broker
-
-    verify -x script: 🚦 ASSERT {ACTIVE} 💥
-
+    verify -x script: token not active 💥
+    
     verify -> script: RETURN ✅ 
 
 deactivate verify
