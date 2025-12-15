@@ -18,16 +18,14 @@
 📃 OnQueryConsume:
 
 # Verify if the Vault is trusted
-- TRUSTS >> $trusted:
+- TRUSTS:
+    Error: Untrusted vault
     Trusted: $Query.Vault
     Schema: $Query.Schema
     Role: VAULT
 
 # Progress the state
-- IF $trusted:
-    RETURN: TRUSTED
-- ELSE:
-    RETURN: UNTRUSTED
+- RETURN: TRUSTED
 ```
 
 Uses ||
