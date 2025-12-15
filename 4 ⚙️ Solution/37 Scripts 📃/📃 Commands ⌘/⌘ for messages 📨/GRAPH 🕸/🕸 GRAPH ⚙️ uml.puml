@@ -12,11 +12,14 @@ activate script
 
 activate verify
     
+    verify -x script: invalid inputs 💥
+
     verify -> graph: 📬 SEND 🚀 <subject>@Graph {payload}
     activate graph
         graph -> verify: {response}
     deactivate graph
 
+    verify -x script: empty response 💥
     verify -> script: RETURN {response}
 
 deactivate verify

@@ -42,9 +42,6 @@
     ```yaml
     - VERIFY $.Msg:
         Key: $publicKey
-
-    # One-liner version
-    - VERIFY $.Msg|$publicKey
     ```
 
     | Input| Purpose |

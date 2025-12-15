@@ -40,7 +40,7 @@ Uses: [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
 # Assert the Subject is valid
 - ASSERT $.Inputs:
     Error: Invalid Graph subject 
-    Subject.IsIn: About, PublicKey, Schema, Trusts
+    Subject.IsIn: About, Form, PublicKey, Schema, Trusts
 
 # Assert the Hosted Graph configuration
 - ASSERT $.Hosted:
@@ -58,6 +58,7 @@ Uses: [`RUN`](<../../⌘ for control ▶️/RUN 🏃/🏃 RUN ⌘ cmd.md>)
 
 # Customize error messages
 - CASE $Subject >> $msg:
+    Form: Unknown form
     About: Unknown domain
     Schema: Unknown schema
     Trusts: Unknown domain(s)
