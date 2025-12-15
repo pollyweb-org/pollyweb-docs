@@ -1,4 +1,4 @@
-# 🔐 Talker `VERIFY` Token 🎫
+# 🔐 Token 📃 script
 
 > About
 * Part of the [`VERIFY` ⌘ command](<../VERIFY ⌘/🔐 VERIFY ⌘ cmd.md>)

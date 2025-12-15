@@ -7,7 +7,7 @@
 
 ## Diagram
 
-![alt text](<🔐 Schema ⚙️ uml.png>)
+![alt text](<../VERIFY Schema 🧩/🔐 Schema ⚙️ uml.png>)
 
 <br/>
 
