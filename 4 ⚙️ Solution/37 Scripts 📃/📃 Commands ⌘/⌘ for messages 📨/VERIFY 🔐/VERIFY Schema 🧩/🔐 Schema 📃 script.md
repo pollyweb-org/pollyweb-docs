@@ -26,6 +26,7 @@
 
 # Assert the data structure
 - ASSERT $.Inputs:
+    Error: Invalid schema structure
     AllOf: Schema        # Allows for empty data
     Schema.IsSchema:     # Valid schema code
 
@@ -35,6 +36,7 @@
 
 # Assert that the Data matches the Schema definition
 - ASSERT: 
+    Error: Data does not conform to schema
     $Data.Conforms: $definition   
 ```
 

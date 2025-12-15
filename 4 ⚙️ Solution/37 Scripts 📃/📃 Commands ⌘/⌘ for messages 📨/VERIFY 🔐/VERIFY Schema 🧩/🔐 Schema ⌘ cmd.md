@@ -10,21 +10,14 @@
 1. **What's the syntax for Schema validation?**
 
     ```yaml
-    # Blocker version (raises error if invalid)
-    - VERIFY:
+    VERIFY:
         Data: $data
         Schema: $schema
-    
-    # Safe version (stores result in $isValid)
-    - VERIFY >> $isValid:
-        Data: $data
-        Schema: <schema>
     ```
 
     | Input| Purpose |
     |-|-
     | `$data`| [Holder 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with data to be validated
-    | `$isValid`| [Holder 🧠](<../../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) that will store `True` or `False`
     | `<schema>`| [Schema Code 🧩](<../../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) to validate the data against
 
 

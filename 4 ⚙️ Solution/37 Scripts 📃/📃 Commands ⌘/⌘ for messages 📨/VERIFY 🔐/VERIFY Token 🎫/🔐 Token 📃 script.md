@@ -96,7 +96,7 @@
 
 # Fail if not active
 - ASSERT: 
-    Error: Token is {{$status.Status}}
+    Error: Token is {$status.Status}
     $status.Status: ACTIVE
 ```
 
