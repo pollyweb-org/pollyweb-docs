@@ -1,14 +1,14 @@
 # 🔐 Talker `VERIFY` Token 🎫
 
 > About
-* Part of the [`VERIFY` ⌘ command](<../VERIFY ⌘/🔐 VERIFY ⌘ cmd.md>)
+* Part of the [`VERIFY` ⌘ command](<🔐 VERIFY ⌘ cmd.md>)
 
 <br/>
 
 
 ## Diagram
 
-![alt text](<🔐 Token ⚙️ uml.png>)
+![alt text](<../VERIFY Token 🎫/🔐 Token ⚙️ uml.png>)
 
 <br/>
 

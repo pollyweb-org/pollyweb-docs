@@ -1,7 +1,7 @@
 # 🔐 Talker `VERIFY` Domain 👥
 
 > About
-* Part of the [`VERIFY` ⌘ command](<../🔐 VERIFY ⌘ cmd.md>)
+* Part of the [`VERIFY` ⌘ command](<../VERIFY ⌘/🔐 VERIFY ⌘ cmd.md>)
 
 <br/>
 
