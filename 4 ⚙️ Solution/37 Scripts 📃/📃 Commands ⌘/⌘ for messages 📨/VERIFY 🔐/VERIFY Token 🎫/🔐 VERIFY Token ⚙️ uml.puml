@@ -2,7 +2,7 @@
 
 box Talker 😃 domain #FFFFFA
     participant "Script 📃" as script
-    participant "VERIFY ⌘ Token 🎫" as verify
+    participant "VERIFY 🔐 Token 🎫" as verify
 end box
 participant "Graph 🕸" as graph 
 participant "Broker 🤵" as broker
@@ -16,26 +16,18 @@ activate verify
     verify -x script: 🚦 ASSERT .IsToken
     verify -x script: 🚦 ASSERT {starts, expires}
 
-    verify -> graph: GRAPH 🕸 PublicKey 🚀 {issuer, dkim}
-    activate graph
-        graph -> verify: {key}
-    deactivate graph
+    verify -> graph: VERIFY 🔐 Domain 👥
+    verify -x script: invalid signature 💥 
 
-    verify -x script: 🔐 VERIFY ᝰ🖊 Signature 💥
-
-    verify -> graph: GRAPH 🕸 Schema 🚀 {code}
-    activate graph
-        graph -> verify: {schema}
-    deactivate graph
-
-    verify -x script: 🔐 VERIFY 🧩 Schema 💥
+    verify -> graph: VERIFY 🔐 Schema 🧩
+    verify -x script: invalid schema 💥
 
     verify -> broker: SEND 📬 Status@Broker 🚀 {token, issuer}
     activate broker
         broker -> verify: {status}
     deactivate broker
 
-    verify -x script: 🚦 ASSERT {active} 💥
+    verify -x script: 🚦 ASSERT {ACTIVE} 💥
 
     verify -> script: RETURN ✅ 
 

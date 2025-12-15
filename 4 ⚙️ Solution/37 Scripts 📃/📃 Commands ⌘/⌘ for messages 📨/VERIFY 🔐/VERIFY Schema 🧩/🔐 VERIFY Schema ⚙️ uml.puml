@@ -14,7 +14,7 @@ activate verify
     
     verify -x script: ASSERT 🚦 .IsSchema
 
-    verify -> graph: SEND 📬 {Schema@Graph 🚀 schema}
+    verify -> graph: GRAPH 🕸 Schema 🚀 {schema}
     activate graph
         graph -> verify: {definition}
     deactivate graph

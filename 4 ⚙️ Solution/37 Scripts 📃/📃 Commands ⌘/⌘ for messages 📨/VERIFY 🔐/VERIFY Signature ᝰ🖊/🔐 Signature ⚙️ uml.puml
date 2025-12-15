@@ -1,0 +1,20 @@
+@startuml VERIFY Signature ᝰ🖊
+
+box Talker 😃 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "VERIFY 🔐 Signature ᝰ🖊" as verify
+end box
+
+
+activate script
+    script -> verify: VERIFY 🔐 {data, signature, key}
+
+activate verify
+    
+    verify -x script: ASSERT 🚦 .Signs 💥 invalid signature 
+    verify -> script: RETURN ✅ 
+
+deactivate verify
+
+          
+@enduml
