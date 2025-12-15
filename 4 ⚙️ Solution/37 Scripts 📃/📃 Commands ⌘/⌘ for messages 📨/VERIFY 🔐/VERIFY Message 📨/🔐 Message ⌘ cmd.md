@@ -2,6 +2,7 @@
 
 > About
 * Part of the [`VERIFY` ⌘ command](<../VERIFY ⌘/🔐 VERIFY ⌘ cmd.md>)
+* Implemented by the [`VERIFY-Message` 📃 script](<🔐 Message 📃 script.md>)
 
 ## FAQ
 

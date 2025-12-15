@@ -1,8 +1,8 @@
 # 🔐 Talker `VERIFY` Token 🎫
 
 > About
-* Part of [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
-* Implemented by the [`VERIFY` 📃 script](<../VERIFY ⌘/🔐 VERIFY 📃 script.md>)
+* Part of the [`VERIFY` ⌘ command](<../VERIFY ⌘/🔐 VERIFY ⌘ cmd.md>)
+* Implemented by the [`VERIFY-Token` 📃 script](<🔐 Token 📃 script.md>)
 
 ## FAQ
 
