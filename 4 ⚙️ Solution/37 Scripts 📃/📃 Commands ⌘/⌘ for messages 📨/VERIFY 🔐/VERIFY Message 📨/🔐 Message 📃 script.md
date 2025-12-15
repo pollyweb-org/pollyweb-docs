@@ -26,11 +26,16 @@
 
 # Assert the data structure
 - ASSERT $Message:
+    Error: Invalid message structure
     AllOf: Hash, Signature, From, DKIM
     Texts: DKIM
     From.IsDomain:
     Signature.IsBase64:
     Hash.IsBase64:
+
+# Verify the message hash
+- ASSERT $Message:
+    Error: Invalid message hash
     Hash.Hashes: 
         $Token.Minus: Hash, Signature
 
@@ -41,6 +46,7 @@
         PublicKey: $Key
         Data: 
             $Message.Minus: Signature
+            
 - ELSE:
     # Verify the domain's public key
     - RUN .VERIFY-Domain:
