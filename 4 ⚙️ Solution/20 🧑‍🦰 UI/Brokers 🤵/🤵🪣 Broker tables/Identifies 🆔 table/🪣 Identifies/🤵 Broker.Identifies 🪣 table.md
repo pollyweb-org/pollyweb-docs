@@ -1,5 +1,9 @@
 # 🤵 Broker.Identifies 🪣 table
 
+> About
+* Part of a [Broker 🤵 helper domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
+
+
 ## Schema
 
 Here's the [Itemized 🛢 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) schema.
