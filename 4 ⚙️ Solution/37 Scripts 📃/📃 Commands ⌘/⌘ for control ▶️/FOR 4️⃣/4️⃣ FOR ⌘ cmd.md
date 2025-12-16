@@ -1,16 +1,10 @@
 
-<!-- TODO: detail -->
-
 # 😃4️⃣ Talker `FOR` command
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-> Example: [Pop Vault 🔆](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵😃 Broker talkers/PopBind 🔗 talker/Bind » Remove/🤵 PopBindRemove 😃 handler.md>)
 
-
-<br/>
-
-
+## FAQ
 
 
 1. **What is a FOR command?**

@@ -25,7 +25,6 @@
     - SAVE <set> >> $inserted:
         :{object}:
         .Delete: <duration>   # Optional
-        .OnBlocked: <holder>  # Optional
     ```
 
     ```yaml
@@ -40,7 +39,6 @@
     | `<set>` | Name of the [Dataset 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) item to save in the pool | `MyKey` `$key`
     | `.Delete` | Automatic cleanup with [`{.Add}`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) | `30 days`
-    | `.OnBlocked`| [`$Holder`](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) name to set `True` | `onBlocked`
     | `$inserted` | [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the insertion | `$item`
 
     ---
@@ -54,7 +52,6 @@
         A: 1
         B: 2
         .Delete: 1 day
-        .OnBlocked: onBlocked
 
     # With a holder
     - SAVE mySet:
@@ -69,7 +66,6 @@
         :{$partA}:
         :{$partB}:
         .Delete: 1 day
-        .OnBlocked: onBlocked
     ```
 
     ---
@@ -85,7 +81,6 @@
     - SAVE $item: 
         :{changes}:
         .Delete: <period>
-        .OnBlocked: <holder>
         STATE: <state>
     ```
 

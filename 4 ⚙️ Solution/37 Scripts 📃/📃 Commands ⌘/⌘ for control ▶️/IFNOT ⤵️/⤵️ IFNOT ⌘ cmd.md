@@ -2,7 +2,7 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-<br/>
+## FAQ
 
 
 1. **What's an IFNOT flow command?**
