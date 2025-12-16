@@ -1,4 +1,4 @@
-# 🤵 Broker.Identifies 🪣 table
+# 🤵 Broker.IDChecks 🪣 table
 
 > About
 * Part of a [Broker 🤵 helper domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
@@ -10,8 +10,8 @@ Here's the [Itemized 🛢 dataset](<../../../../../30 🧩 Data/Datasets 🪣/�
 
 ```yaml
 Prefix: Broker
-Table: Identifies
-Item: Identify
+Table: IDChecks
+Item: IDCheck
 Key: Identify, Consumer
 ```
 
