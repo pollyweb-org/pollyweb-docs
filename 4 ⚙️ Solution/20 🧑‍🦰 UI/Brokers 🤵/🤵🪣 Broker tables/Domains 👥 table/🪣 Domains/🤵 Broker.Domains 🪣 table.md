@@ -38,7 +38,7 @@ Here's the [Item 🛢 Handlers](<../../../../../30 🧩 Data/Datasets 🪣/🪣�
 
 ```yaml
 Handlers:
-    UNBOUND  >> OnDomainUnbound:    # Sets Bind.State: REMOVED
+    UNBOUND  >> OnDomainUnbound:    # Sets Bind.STATE: REMOVED
     INSERTED >> OnDomainInserted:   # Calls About@Graph
     UPDATED  >> OnDomainLocalized:  # Calls TRANSLATE
         Assert: New.Language

@@ -39,16 +39,16 @@
     Key: $.Msg.Bind
     Assert: 
         Broker: $.Msg.From
-        State: OFFERED
+        STATE: OFFERED
 
 # Save the Bind
 - CASE $.Msg.Answer:
     ACCEPTED: 
         SAVE $bind:
-            State: BOUND
+            STATE: BOUND
     DECLINED:
         SAVE $bind:
-            State: DECLINED
+            STATE: DECLINED
 ```
 
 Uses||

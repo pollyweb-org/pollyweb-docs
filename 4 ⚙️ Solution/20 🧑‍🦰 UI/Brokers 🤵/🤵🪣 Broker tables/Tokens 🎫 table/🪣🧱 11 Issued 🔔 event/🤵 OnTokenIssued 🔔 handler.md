@@ -33,7 +33,7 @@
         
 # Save the token
 - SAVE $Token:
-    State: DETAILED
+    STATE: DETAILED
     Title: $graph.Text
     IssuerTitle: $graph.Domain.Title
     SchemaTitle: $graph.Schema.Title

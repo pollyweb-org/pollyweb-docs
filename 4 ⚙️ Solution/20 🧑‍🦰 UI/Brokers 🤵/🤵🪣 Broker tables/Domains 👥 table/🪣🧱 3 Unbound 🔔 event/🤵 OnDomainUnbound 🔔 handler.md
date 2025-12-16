@@ -16,9 +16,9 @@
 # Remove all Binds for the Domain
 - PARALLEL $Domain.Binds >> $bind:
     - SAVE $bind:
-        State: REMOVED
+        STATE: REMOVED
 
 # Reset the Domain
 - SAVE $Domain:
-    State: 
+    STATE: 
 ```

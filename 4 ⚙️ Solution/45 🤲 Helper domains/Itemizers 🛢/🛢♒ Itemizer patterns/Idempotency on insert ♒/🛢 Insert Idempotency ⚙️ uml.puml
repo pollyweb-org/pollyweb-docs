@@ -17,22 +17,26 @@ activate script
     
 activate handler
     handler -> table: SAVE 💾 {hook, sender}
-deactivate handler
-
 activate table
+    table -> handler: saved ✅
+deactivate handler
     table --> event: Event 🔔 {INSERTED}
 deactivate table
 
-    script --> handler: SEND 📬 {hook}
+    script -> script: retry 
+    activate script
+        script --> handler: SEND 📬 {hook}
+    deactivate script
 deactivate script
 
 activate handler
     handler -> table: SAVE 💾 {hook, sender}
-deactivate handler
 
 
 activate table
-    table -> table: Ignore duplicate key ❌ 
+    table -> handler: ignore duplicate key if fields are equal ✅ 
+deactivate handler
+    table -x handler: raise error on duplicate key if fields differ ❌ 
 deactivate table
 
 

@@ -27,7 +27,7 @@
     Set: Host.Appendixes
     Key: $.Msg.Appendix
     Assert: # only if the chat is active
-        Chat.State: ACTIVE
+        Chat.STATE: ACTIVE
 
 # Verify the wallet signature
 - VERIFY $.Msg:

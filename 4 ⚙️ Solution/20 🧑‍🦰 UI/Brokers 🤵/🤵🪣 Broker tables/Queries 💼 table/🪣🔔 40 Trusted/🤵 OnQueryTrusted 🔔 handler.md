@@ -44,7 +44,7 @@
 
 # Save the selected trust and mark as SELECTED
 - SAVE $Query:
-    State: SELECTED
+    STATE: SELECTED
     Selected: $selected
 ```
 

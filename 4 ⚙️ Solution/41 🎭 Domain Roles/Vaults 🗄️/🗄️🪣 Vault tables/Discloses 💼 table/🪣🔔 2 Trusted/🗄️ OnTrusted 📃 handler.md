@@ -33,7 +33,7 @@
 
 # Save the data for collection
 - SAVE $Disclose:
-    State: DETAILED
+    STATE: DETAILED
     Context: $context
 ```
 

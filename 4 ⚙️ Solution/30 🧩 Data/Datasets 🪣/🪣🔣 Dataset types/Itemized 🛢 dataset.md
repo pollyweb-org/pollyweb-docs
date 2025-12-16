@@ -120,8 +120,8 @@
             Events: UPDATED
             Assert: 
                 Item.Expires.IsFuture:
-                New.State: NEW_STATE
-                Old.State: OLD_STATE
+                New.STATE: NEW_STATE
+                Old.STATE: OLD_STATE
     ```
     
     Uses||

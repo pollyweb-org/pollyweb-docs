@@ -33,7 +33,7 @@
         Chat: $.Msg.Chat
         Domain: $.Msg.From
     Assert:
-        Chat.State: ACTIVE
+        Chat.STATE: ACTIVE
 
 # Ask for the Identity verification
 - INVITE:

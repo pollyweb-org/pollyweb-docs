@@ -39,7 +39,7 @@
 
 # Progress the state
 - SAVE $Prompt:
-    State: ASSERTED
+    STATE: ASSERTED
     Expires: .Now.Add(5 minutes)
 ```
 

@@ -33,7 +33,7 @@
 
 # Assert the Chat is active
 - ASSERT $chatter.Chat:
-    State: ACTIVE
+    STATE: ACTIVE
 
 # Save the Prompt
 - SAVE Broker.Prompts:

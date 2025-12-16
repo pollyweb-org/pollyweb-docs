@@ -37,7 +37,7 @@
         Domain: $.Msg.From
     Assert:
         Role.IsIn: HOST, HELPER
-        Chat.State: ACTIVE   
+        Chat.STATE: ACTIVE   
 
 # Update the Chat emoji
 - SAVE $chatter.Chat:

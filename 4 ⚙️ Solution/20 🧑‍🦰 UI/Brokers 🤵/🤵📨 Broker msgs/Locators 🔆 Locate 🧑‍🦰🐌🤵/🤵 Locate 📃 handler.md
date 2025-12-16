@@ -32,7 +32,7 @@
 
 # Create a new Chat
 - SAVE Broker.Chats >> $chat:
-    State: ASKED
+    STATE: ASKED
     Hook: $.Msg.Hook
     Origin: $.Msg.Origin
     Wallet: $wallet.ID

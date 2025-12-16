@@ -27,7 +27,7 @@
     Set: Issuer.Token
     Key: $.Msg.Token
     Assert: 
-        State: ISSUED
+        STATE: ISSUED
 
 # Verify the Message
 - VERIFY $.Msg:

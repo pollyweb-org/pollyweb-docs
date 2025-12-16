@@ -38,7 +38,7 @@
 
 # Progress the state
 - SAVE $Prompt:
-    State: TRANSLATED
+    STATE: TRANSLATED
 ```
 
 Uses||

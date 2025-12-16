@@ -35,7 +35,7 @@
     Set: Broker.Chats
     Key: $.Msg.Chat
     Assert:
-        State: ACTIVE
+        STATE: ACTIVE
 
 # Only allow offers from the Host
 - ASSERT $.Msg:
@@ -43,7 +43,7 @@
 
 # Save the Offer
 - SAVE Broker.Tokens:
-    State: OFFERED
+    STATE: OFFERED
     Status: ACTIVE
     Token: $.Msg.Token
     Issuer: $.Msg.From

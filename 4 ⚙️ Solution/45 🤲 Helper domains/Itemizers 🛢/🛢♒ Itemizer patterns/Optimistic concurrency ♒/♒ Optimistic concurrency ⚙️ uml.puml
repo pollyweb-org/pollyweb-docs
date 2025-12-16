@@ -1,0 +1,34 @@
+@startuml Optimistic concurrency 
+
+participant "Script-1 📃" as script1
+participant "Dataset 🪣" as table
+participant "Script-2 📃" as script2
+
+
+
+
+activate script1
+activate script2
+
+    script1 -> table: READ 🧲 {x:100, version:1}
+    script2 -> table: READ 🧲 {x:100, version:1}
+
+    script1 -> script1: x = x+1
+    script2 -> script2: x = x+1
+
+    script1 -> table: SAVE 💾 {x:101, version: 1}
+deactivate script1
+activate table
+    table -> table: version: 1 -> 2 ✅
+deactivate table
+
+    script2 -> table: SAVE 💾 {x:101, version: 1}
+deactivate script2
+activate table
+    table -> table: Version conflict, retry ❌
+deactivate table
+
+
+
+
+@enduml

@@ -63,7 +63,7 @@
 # Progress the state
 - SAVE $Form:
     Schemas: $form.Steps.Schema
-    State: INFORMED
+    STATE: INFORMED
 ```
 
 |Uses ||

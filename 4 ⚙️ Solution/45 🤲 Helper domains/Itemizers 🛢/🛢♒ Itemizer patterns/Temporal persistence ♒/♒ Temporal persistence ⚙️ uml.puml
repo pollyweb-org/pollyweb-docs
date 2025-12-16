@@ -1,0 +1,20 @@
+@startuml Temporal persistence
+
+participant "Script 📃" as script
+participant "Dataset 🪣" as table
+participant "Alarm ⏰" as alarm
+
+
+activate script
+    script -> table: SAVE 💾 >> item
+    script -> table: DELETE 🗑 {item, timeout}
+deactivate script
+
+activate table
+    table --> alarm: SET ⏰ {item, timeout}
+deactivate table
+
+activate script
+    script -> table: READ 🧲 {x:100, version:1}
+
+@enduml
