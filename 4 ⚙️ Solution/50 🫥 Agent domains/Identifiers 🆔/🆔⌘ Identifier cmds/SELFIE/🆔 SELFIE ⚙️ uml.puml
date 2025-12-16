@@ -5,7 +5,7 @@ actor User as user
 participant "Wallet 👱\n(app)" as wallet
 participant "Notifier 📣\n(domain)" as notifier
 participant "Broker 🤵\n(domain)" as broker
-participant "Identity 🆔\n(vault)" as identity
+participant "Identifier 🆔\n(vault)" as identity
 
 
 identity --> broker: 1) Prompt 🐌

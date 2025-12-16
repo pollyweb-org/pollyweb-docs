@@ -28,7 +28,7 @@ Example:
   Issued: 2024-09-21T12:34:00Z
   Starts: 2024-01-10T13:45:00.000Z
   Expires: 2028-12-10T13:45:00.000Z
-  Identity: any-identity.dom
+  Identifier: any-identity.dom
   Biostamp: person-1234
   Signature: ABCMIQDALK2Fd...
   DKIM: pk1

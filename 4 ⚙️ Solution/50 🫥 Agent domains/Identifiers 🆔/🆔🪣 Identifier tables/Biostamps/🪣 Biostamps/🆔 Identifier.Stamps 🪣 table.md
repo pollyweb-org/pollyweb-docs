@@ -1,6 +1,6 @@
 # 🆔 Stamps 🪣 table
 
-> Part of [Identity 🆔 domain](<../../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
+> Part of [Identifier 🆔 domain](<../../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
 
 <br/>
 
@@ -9,7 +9,7 @@
 Here's the [Itemized 🪣 schema](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
 
 ```yaml
-Prefix: Identity
+Prefix: Identifier
 Table: Stamps
 Item: Stamp
 ```

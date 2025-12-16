@@ -1,7 +1,7 @@
 @startuml SignFile
 
 participant "Consumer 💼" as consumer
-box Identity 🆔 domain #FFFFFA
+box Identifier 🆔 domain #FFFFFA
     participant "SignFile  😃" as script
     participant "Selfie 📸" as identify
     participant "Hosted 📦" as hosted

@@ -1,6 +1,6 @@
 # 🆔 Biostamp 😃 talker
 
-> Part of [Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
+> Part of [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
 
 <br/>
 
@@ -52,8 +52,8 @@ Uses ||
 
 1. **Why not a canonical approach using `Issuer` and `Token`?**
 
-    Using the `Issuer` and `Token` fields from a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>), instead of a Biomarker, would allow an [Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to track the usage of Tokens an map them to a citizen.
-    * Assuming that [Identity 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) will predominantly be implemented by nations or by their agents, this would allow a nation to track their citizens worldwide in daily interactions with businesses.
+    Using the `Issuer` and `Token` fields from a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>), instead of a Biomarker, would allow an [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to track the usage of Tokens an map them to a citizen.
+    * Assuming that [Identifier 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) will predominantly be implemented by nations or by their agents, this would allow a nation to track their citizens worldwide in daily interactions with businesses.
 
     ---
     <br/>

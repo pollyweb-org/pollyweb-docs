@@ -17,7 +17,7 @@
 
 ```yaml
 - RUN .IDENTITY:
-    Identity: any-identity.dom
+    Identifier: any-identity.dom
     Biostamp: <biostamp-uuid>
 ```
 
@@ -36,7 +36,7 @@
 # Assert the identity inputs
 - ASSERT $.Inputs:
     Error: Invalid IDENTITY inputs
-    AllOf: Identity, Biostamp
+    AllOf: Identifier, Biostamp
     UUIDs: Biostamp
     Identifier.IsDomain:
 
@@ -50,7 +50,7 @@
         Subject: Identify@Broker
     Body:
         Chat: $.Chat.Chat
-        Identity: $Identity
+        Identifier: $Identifier
         Biostamp: $Biostamp
         Identified: $hook
 

@@ -2,7 +2,7 @@
 
 participant "Issuer 🎴" as issuer
 participant "Broker 🤵" as broker
-box Identity 🆔 domain #FFFFFA
+box Identifier 🆔 domain #FFFFFA
     participant "Biostamp 😃" as script
     participant "Stamps 🪣" as tokens
 end box

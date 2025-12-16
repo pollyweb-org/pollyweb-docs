@@ -30,8 +30,8 @@
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>)| 😐 Activate emergency? [Yes, No] <br/> - I'll need your location <br/> - your contact details <br/>- and an identity check | > Yes
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | [📍 Share location?](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/LOCATION 📍/📍 LOCATION ⌘ cmd.md>) [Yes, No] | > Yes
     | 🧢 [Persona](<../../../50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share contacts ? [Yes, No] | > Yes
-    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
-    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
+    | 🆔 [Identifier](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
+    | 🆔 [Identifier](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | ✅ Emergency activated [+]
     
     ---
@@ -80,7 +80,7 @@
     To avoid harassment frauds, before issuing the emergency alarm, 
     * owners may request their [Custodian 🧳 agent](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) 
     * to request guests to be authenticated 
-    * by a [trusted 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>).
+    * by a [trusted 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) [Identifier 🆔 domain](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>).
 
     ---
     <br/>

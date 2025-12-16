@@ -2,16 +2,16 @@
 ===
 
 > About
-* Part of [Identity 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
+* Part of [Identifier 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
 * Addresses the [supervised identity landscape 🏔️](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>)
 
 ## FAQ
 
-1. **How do users set up an Identity vault?**
+1. **How do users set up an Identifier vault?**
 
     ![](<🆔🏞️ Register biometrics.png>)
 
-    [Identity 🆔 vaults](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
+    [Identifier 🆔 vaults](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) require users to collect their biometric signatures in a [supervised 👮](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) biometric collection center, typically managed by public authorities.
 
     ---
     <br/>

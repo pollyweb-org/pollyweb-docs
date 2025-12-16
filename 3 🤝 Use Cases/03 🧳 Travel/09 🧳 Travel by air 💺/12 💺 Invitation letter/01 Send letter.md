@@ -19,7 +19,7 @@ Send an invitation letter before a trip
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Council (4.4 ⭐) [+]
 | 🏛️ Council | ℹ️ Invitation letter requested [+]
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to request it? [Yes, No] <br/> - your ID identifies you 🆔   <br/> - your contracts confirm our address <br/> - your persona sets your job title 🧢 <br/> - you provide the hosting period 🗓️ <br/> - you forward ID request to guests 🤵  <br/> - your persona sets the guests 🧢 <br/> - guests' IDs identify them 🆔 <br/> - your ID signs your responsibility 🆔 <br/> - your payer pays the service 💳 <br/> - you forward the letter to guests 🤵 | > Yes
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
+| 🆔 [Identifier](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share identity? [Yes, No] | > Yes
 | 🏛️ Council | ℹ️ Thanks, Alice!
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Share contract address? [No] <br> - Any Utility 💡 <br/> - Any Bank 🏦 | > Any Bank 🏦
 | 🏛️ Council | ℹ️ Addresses match.
@@ -33,8 +33,8 @@ Send an invitation letter before a trip
 | 📇 [Mingler](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Minglers 📇/$ 📇🫥 Mingler agent.md>) | ⏳ Waiting 1/2 items, 17 mins left... <br/>- [ change request ] <br/>- [ list received ] 
 | 🏛️ Council | ℹ️ Guest IDs received [+] <br> - Marco Moreau <br/> - Sierra Sinclair
 | 🏛️ Council | ℹ️ Review the letter and sign.
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
+| 🆔 [Identifier](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Sign terms? 📄 [Yes, No] | > Yes
+| 🆔 [Identifier](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
 | 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Pay $10.00 bill? 🧾 [No] <br/>- [ card ABC ] + $0.10<br/>- [ card DEF ] (free) | > card ABC
 | 🏛️ Council | ✅ Invitation letter issued 📄
 | 📇 [Mingler](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Minglers 📇/$ 📇🫥 Mingler agent.md>) | 🫥 Forward letter? [Yes, No] <br/> - to 🐭 mouse, 🧕 sissy   | > Yes

@@ -8,7 +8,7 @@ Receive an invitation letter before a trip
 | 🦋 Butterfly | ℹ️ I'm requesting the doc [+] | `tks`
 | 🦋 Butterfly | ℹ️ wait for an approval [+] | `👍`
 | 📇 [Mingler](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Minglers 📇/$ 📇🫥 Mingler agent.md>) | ⓘ Forwarded request [+]
-| 🆔 [Identity](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share identity? [Yes, No] <br/> - with Any Council 🏛️ <br/> - for an invitation letter | > Yes
+| 🆔 [Identifier](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share identity? [Yes, No] <br/> - with Any Council 🏛️ <br/> - for an invitation letter | > Yes
 | 🦋 Butterfly | ℹ️ thanks! I'm almost done [+]
 | 📇 [Mingler](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Minglers 📇/$ 📇🫥 Mingler agent.md>) | ⓘ Forwarded token [+]
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Save letter? 📄 [Yes, No]  | > Yes

@@ -43,7 +43,7 @@
 
     NLWeb advocates for reviews to be sent only by humans. 
     
-    - When a user submits a review about a domain, Reviewers domains ask the user's Identity to authentication the user.
+    - When a user submits a review about a domain, Reviewers domains ask the user's Identifier to authentication the user.
     - This way, the Reviewer can be certain that the human owner of the Wallet is submitting the comment and not a bot, while now knowing which human it was.
 
     ---
@@ -58,9 +58,9 @@
 
     NLWeb advocates for users to provide a single review about a domain, while being able to change that same review over time. 
     
-    - When users are submitting a new review to a domain, Reviewer domains send a Reviewer-context to the user's Identity, and ask the Identity to progress with the authentication only if the user has not previously interacted with that Reviewer-context. 
+    - When users are submitting a new review to a domain, Reviewer domains send a Reviewer-context to the user's Identifier, and ask the Identifier to progress with the authentication only if the user has not previously interacted with that Reviewer-context. 
     
-    - After the user submits the review, the Reviewer informs the Identity of the success action in the Reviewer-context. This allows Reviewers to block users submitting twice to the same domain, while blocking Reviewers from identifying the user.
+    - After the user submits the review, the Reviewer informs the Identifier of the success action in the Reviewer-context. This allows Reviewers to block users submitting twice to the same domain, while blocking Reviewers from identifying the user.
 
     ---
 

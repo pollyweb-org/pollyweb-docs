@@ -1,7 +1,7 @@
 🎫 Identity-bound Tokens
 ===
 
-> Part of [Identity 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
+> Part of [Identifier 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
 
 ## FAQ
 
@@ -33,7 +33,7 @@
     | - | - | - |
     | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 A beer? [Yes, No]         | > Yes
     | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Share over 21? [Yes, No]     | > Yes
-    | 🆔 [Identity](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
+    | 🆔 [Identifier](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
     | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ✅ A beer coming up!
 
     ---
@@ -81,12 +81,12 @@
 
     <br/>
 
-    The flow of an [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) issuing a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with [Identity 🆔](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)  is as follows.
+    The flow of an [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) issuing a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with [Identifier 🆔](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)  is as follows.
 
     |#|Category|Step
     |-|-|-
     | A| `Hello`| The user initiates a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with an [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>): <br/>• the user asks the [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) to issue a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) (e.g., flight ticket).
-    | B| `Locator` | The [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) asks the user's [Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to generate a unique [Identity Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with a given expiration date:<br/>• unique [Locators 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) prevent attackers from relating any two [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from the same user; <br/>• expiration dates allow [Identity 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to charge the [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) for the commitment length.
+    | B| `Locator` | The [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) asks the user's [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to generate a unique [Identity Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with a given expiration date:<br/>• unique [Locators 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) prevent attackers from relating any two [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from the same user; <br/>• expiration dates allow [Identifier 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to charge the [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) for the commitment length.
     |C| `Token` | The [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) offers the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) for the user to download: <br/> • the user downloads the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) and stores it offline in the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
     |
 
@@ -97,8 +97,8 @@
     |#|Category|Step
     |-|-|-
     | 1| `Share` | The user initiates a chat session with a [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>): <br/> • the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) asks the user to share [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) of a specific [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>); <br/> • if the [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is marked as `SELF` and the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) is the [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>), then the sharing is silent;<br/> • otherwise, the user has to explicitly select the [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) to share; <br/> • the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) verifies if the signature of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)  matches the [DKIM 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) of the [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
-    | 2| `Verify` | The [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>), via the [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>), asks the [Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) in the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) to verify the user, ensuring that the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) holder is the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) owner <br/> - i.e. the human referenced in the [Identity Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
-    | 3 | `Selfie` | The [Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) authenticates the user (e.g., face scan, OTP, security questions); <br/> • the [Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) confirms to the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) that the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) holder is the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) owner.
+    | 2| `Verify` | The [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>), via the [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>), asks the [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) in the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) to verify the user, ensuring that the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) holder is the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) owner <br/> - i.e. the human referenced in the [Identity Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
+    | 3 | `Selfie` | The [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) authenticates the user (e.g., face scan, OTP, security questions); <br/> • the [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) confirms to the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) that the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) holder is the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) owner.
 
 
     ---
@@ -117,13 +117,13 @@
         - at airports, this can be the border-control gate for passport verification;
         - at an embassy or a bank, this can be a fixed kiosk;
         - at a traffic checkpoint, this can be a police agent holding an Android device;
-    - 2/ the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) verifies the [Trust 🫡 relationships](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)  with the [Token's Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) and [Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>);
+    - 2/ the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) verifies the [Trust 🫡 relationships](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>)  with the [Token's Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) and [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>);
     - 3/ the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) verifies if the [Token's 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) signature matches the [DKIM 📨](<../../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)  of the [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>);
     - 4/ the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) collects the user's biometrics;
         - for general services, this can be a scanner taking the user's palm biometrics;
         - for authorized public services, this could be a camera on an mobile device;
-    - 5/ the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) asks the [Token's Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to match the biometrics with the [Identity Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>);
-    - 6/ the [Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) confirms to the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) that the biometrics match the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) owner.
+    - 5/ the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) asks the [Token's Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to match the biometrics with the [Identity Locator 🔆](<../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>);
+    - 6/ the [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) confirms to the [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) that the biometrics match the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) owner.
 
     ---
     
@@ -138,7 +138,7 @@
       - 3/ obtaining age benefits (e.g., buying discounted tickets for elderly); or 
       - 4/ claiming accessibility needs (e.g., a wheelchair at an airport). 
       
-    - For that, users first need to bind their wallet to an [🆔 Identifier Vault](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) (typically a governmental authority that issues passports) to set up authentication mechanisms (e.g., voice and face biometric signatures collected in a supervised center) - users may then ask the Identity Vault for an age-related [Token 🎫](<🆔⏩ Verify Tokens.md>) (e.g., over 16 years old). 
+    - For that, users first need to bind their wallet to an [🆔 Identifier Vault](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) (typically a governmental authority that issues passports) to set up authentication mechanisms (e.g., voice and face biometric signatures collected in a supervised center) - users may then ask the Identifier Vault for an age-related [Token 🎫](<🆔⏩ Verify Tokens.md>) (e.g., over 16 years old). 
     
     - When interacting with the [Seller 💵](<../../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>)'s domain, the Seller can then ask for the Token before providing the service or granting the entrance. 
     

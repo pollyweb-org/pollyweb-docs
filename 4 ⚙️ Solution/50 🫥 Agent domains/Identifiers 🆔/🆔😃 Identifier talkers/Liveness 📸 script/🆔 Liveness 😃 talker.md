@@ -1,6 +1,6 @@
 # 🆔 Liveness 😃 talker
 
-> Part of [Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
+> Part of [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
 
 <br/>
 
@@ -8,7 +8,7 @@
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - 
-| 🆔 [Identity](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
+| 🆔 [Identifier](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
 
 <br/>
 
@@ -55,7 +55,7 @@ Uses ||
 
 1. **Why do we need the first call to the [Hosted 📦 domain](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>)?**
 
-    The first call to the `Liveness` function on the [Hosted 📦 domain](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) allows the [Identity 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to pass the context data in the backend, instead of sending the context to the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
+    The first call to the `Liveness` function on the [Hosted 📦 domain](<../../../../55 👷 Build domains/Hosteds 📦/📦👥 Hosted domain.md>) allows the [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to pass the context data in the backend, instead of sending the context to the [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
     * This increases privacy, as the context is a personally identifiable information (PII) that should not be exposed to the client side.
 
     ---

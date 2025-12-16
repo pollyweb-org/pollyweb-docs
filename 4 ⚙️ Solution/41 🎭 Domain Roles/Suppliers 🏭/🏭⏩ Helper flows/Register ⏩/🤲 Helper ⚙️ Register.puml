@@ -4,7 +4,7 @@ participant "Helper 🤲" as helper
 participant "Broker 🤵" as broker
 participant "Biller 🤝" as biller
 participant "Payer 💳" as payer
-participant "Identity 🆔" as id
+participant "Identifier 🆔" as id
 participant "Wallet 🧑" as user
 
 activate helper
