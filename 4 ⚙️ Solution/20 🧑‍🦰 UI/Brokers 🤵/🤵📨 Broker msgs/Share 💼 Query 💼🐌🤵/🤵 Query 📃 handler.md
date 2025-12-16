@@ -37,11 +37,11 @@
         Chat: $.Msg.Chat
         Domain: $.Msg.From
     Assert: 
-        Chat.State: ACTIVE
+        Chat.STATE: ACTIVE
 
 # Save que Query
 - SAVE Broker.Queries:
-    State: QUERIED
+    STATE: QUERIED
     Chat: $.Msg.Chat
     Query: $.Msg.Query
     Schemas: $.Msg.Schemas

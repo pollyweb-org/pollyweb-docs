@@ -76,7 +76,7 @@ Assert:
     # Inputs
     Consumer.IsDomain:      # Consumer that requested the query
     Schemas.Each.IsSchema:  # List of Schemas queried
-    Chat.State: ACTIVE      # Progress if the Chat is active
+    Chat.STATE: ACTIVE      # Progress if the Chat is active
     
     # Outputs
     Matches.Each.Type.IsIn: BIND, TOKEN

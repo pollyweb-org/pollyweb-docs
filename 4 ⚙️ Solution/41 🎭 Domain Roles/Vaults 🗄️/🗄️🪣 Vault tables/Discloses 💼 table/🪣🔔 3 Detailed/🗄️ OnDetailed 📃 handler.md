@@ -38,7 +38,7 @@
 
 # Save the data for collection
 - SAVE $Disclose:
-    State: READY
+    STATE: READY
     Data: $data
     Expires: .Now.Add(5 minutes)
 ```

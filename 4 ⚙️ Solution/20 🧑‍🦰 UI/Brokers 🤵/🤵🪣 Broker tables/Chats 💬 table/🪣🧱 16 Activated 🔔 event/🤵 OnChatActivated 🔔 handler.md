@@ -18,7 +18,7 @@
 
 # Add the HOST participant
 - SAVE Broker.Chatters:
-    State: HOST
+    STATE: HOST
     Chat: $Chat.ID
     Domain: $Chat.Host
     Role: HOST

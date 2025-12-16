@@ -1,0 +1,33 @@
+@startuml Event sourcing
+
+participant "Script 📃" as script
+participant "Dataset 🪣" as table
+participant "Log 🪣" as log
+participant "OnEvent-A 🔔" as eventA
+participant "OnEvent-B 🔔" as eventB
+
+activate script
+    script -> table: SAVE 💾 {fields...}
+deactivate script
+
+activate table
+    table --> log: SAVE 💾 {fields...}
+    table --> eventA: Event 🔔 {fields...}
+    table --> eventB: Event 🔔 {fields...}
+deactivate table
+
+
+    script -> table: READ 🧲 {fields...}
+activate script 
+    script -> table: SAVE 💾 {changes}
+deactivate script
+
+activate table
+    table --> log: SAVE 💾 {changes}
+    table --> eventA: Event 🔔 {changes}
+    table --> eventB: Event 🔔 {changes}
+deactivate table
+
+
+
+@enduml

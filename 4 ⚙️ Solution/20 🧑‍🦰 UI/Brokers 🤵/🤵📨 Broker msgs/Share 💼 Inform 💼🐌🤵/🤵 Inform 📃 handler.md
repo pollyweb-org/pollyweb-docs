@@ -34,7 +34,7 @@
         Chat: $.Msg.Chat
         Domain: $.Msg.From
     Assert:
-        Chat.State: ACTIVE
+        Chat.STATE: ACTIVE
 
 # Save the request
 - SAVE Broker.Forms:
@@ -42,7 +42,7 @@
     $.Msg.Hook:
     $.Msg.Form:
     Consumer: $.Msg.From
-    State: INFORM
+    STATE: INFORM
 ```
 
 Uses||

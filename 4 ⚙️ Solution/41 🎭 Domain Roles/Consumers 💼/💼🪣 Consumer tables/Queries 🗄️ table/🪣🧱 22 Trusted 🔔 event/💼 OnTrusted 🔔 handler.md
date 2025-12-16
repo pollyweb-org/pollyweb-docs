@@ -30,7 +30,7 @@
 
 # Progress the state
 - SAVE $Query:
-    State: COLLECTED
+    STATE: COLLECTED
     Data: $data
 ```
 

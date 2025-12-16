@@ -64,7 +64,7 @@ Assert:
     Schema.IsSchema:
 
     # Dependencies
-    Chat.State: ACTIVE 
+    Chat.STATE: ACTIVE 
 ```
 Uses: [`.IsDomain`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsDomain ⓕ.md>) [`.IsSchema`](<../../../../../37 Scripts 📃/📃 Functions 🐍/🐍 System 🔩 functions/IsSchema ⓕ.md>)
 

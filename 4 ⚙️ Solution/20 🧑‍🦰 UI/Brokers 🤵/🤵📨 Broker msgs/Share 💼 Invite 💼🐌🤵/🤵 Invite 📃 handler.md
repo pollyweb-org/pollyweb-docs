@@ -38,7 +38,7 @@
     Invite: $.Msg.Invite
     Helper: $.Msg.Helper
     Schema: $.Msg.Schema
-    State: .INVITED
+    STATE: .INVITED
 ```
 
 Uses||

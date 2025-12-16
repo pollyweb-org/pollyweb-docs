@@ -26,7 +26,7 @@
 
 # Process the user's option
 - SAVE $.Chat:
-    State: ABANDONED
+    STATE: ABANDONED
 
 # Inform success
 - DONE: Chat abandoned!

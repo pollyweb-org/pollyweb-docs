@@ -32,7 +32,7 @@
 
 # Save the Help details
 - SAVE $Help:
-    State: HELPED
+    STATE: HELPED
     Helped: $helped
 ```
 

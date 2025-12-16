@@ -24,18 +24,20 @@
     Locator: $.Msg.Locator
 
 # Only create Alias for Hosts
-- IFNOT $locator.Schema.Is(.HOST):
-    RETURN:
-      Status: UNHOST
+- IFNOT: 
+    $locator.Schema.Is: .HOST
+- THEN:
+    - RETURN:
+        Status: UNHOST
 
 # Save on the table
-- SAVE Printer.Aliases >> $locator:
-    Alias: $.Msg.Alias
-    Locator: $.Msg.Locator 
-    .OnBlocked: $blocked
+- TRY >> $error:
+    - SAVE Printer.Aliases:
+        Alias: $.Msg.Alias
+        Locator: $.Msg.Locator 
 
 # Check if blocked
-- IF $blocked: 
+- IF $error: 
     RETURN:
         Status: BLOCKED
 - ELSE: 

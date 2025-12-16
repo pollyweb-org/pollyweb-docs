@@ -26,7 +26,7 @@
 # Assert rules
 - ASSERT >> $valid:
     Chat.Host: $Invite.Consumer   # Only from the host
-    Chat.State: ACTIVE   # While the chat is active
+    Chat.STATE: ACTIVE   # While the chat is active
 
 # Exit if invalid
 - IFNOT $valid: 

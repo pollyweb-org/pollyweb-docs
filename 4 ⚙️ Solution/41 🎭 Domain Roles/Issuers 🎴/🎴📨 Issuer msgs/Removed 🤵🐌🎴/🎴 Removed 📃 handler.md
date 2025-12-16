@@ -27,7 +27,7 @@
 
 # Save the Token
 - SAVE $token:
-    State: REMOVED
+    STATE: REMOVED
 ```
 
 Uses||

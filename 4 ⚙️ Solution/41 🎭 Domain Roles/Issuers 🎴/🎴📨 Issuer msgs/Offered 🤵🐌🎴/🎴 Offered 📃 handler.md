@@ -29,7 +29,7 @@
 
 # Save the Token
 - SAVE $token:
-    State: OFFERED
+    STATE: OFFERED
     Answer: $.Msg.Answer
 ```
 
