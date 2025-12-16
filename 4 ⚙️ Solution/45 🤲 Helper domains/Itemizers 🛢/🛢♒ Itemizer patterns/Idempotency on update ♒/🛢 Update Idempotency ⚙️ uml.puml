@@ -19,7 +19,8 @@ deactivate script
 activate handler
     handler --x inbox: Message 🐌 {hook, result}
 activate inbox
-    inbox -> table: SAVE 💾 {hook, result, STATE-2}
+    inbox -> table: READ 🧲 {hook} >> item
+    inbox -> table: SAVE 💾 item {result, STATE-2}
 
 activate table
     table -> inbox: 
@@ -31,7 +32,8 @@ deactivate table
 deactivate handler
 
 activate inbox
-    inbox -> table: SAVE 💾 {hook, result, STATE-2}
+    inbox -> table: READ 🧲 {hook} >> item
+    inbox -> table: SAVE 💾 item {result, STATE-2}
 activate table
     table -> inbox: No event raised ✅
 deactivate table
