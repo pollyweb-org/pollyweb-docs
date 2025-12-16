@@ -24,7 +24,6 @@
     Key: .UUID
     Script: $Script
     Inputs: $Inputs
-    .Delete: 1 minute
 
 # Return the locator
 - RETURN: 

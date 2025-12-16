@@ -24,21 +24,12 @@
     # Single item
     - SAVE <set> >> $inserted:
         :{object}:
-        .Delete: <duration>   # Optional
-    ```
-
-    ```yaml
-    # Multiple items in all-or-nothing transaction.
-    - SAVE:
-        - <pool-1>: {object-1}
-        - <pool-n>: {object-n}
     ```
 
     | Input| Purpose | Example
     |-|-|-
     | `<set>` | Name of the [Dataset 🪣](<../../../../30 🧩 Data/Datasets 🪣/🪣 Dataset.md>) | `MySet`
     | `{object}` | [`CALL`](<../../⌘ for async/CALL 🧮/🧮 CALL ⌘ cmd.md>) item to save in the pool | `MyKey` `$key`
-    | `.Delete` | Automatic cleanup with [`{.Add}`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) | `30 days`
     | `$inserted` | [Holder 🧠](<../../../../35 💬 Chats/Scripts 📃/Holder 🧠.md>) with the insertion | `$item`
 
     ---
@@ -51,7 +42,6 @@
     - SAVE mySet:
         A: 1
         B: 2
-        .Delete: 1 day
 
     # With a holder
     - SAVE mySet:
@@ -65,7 +55,6 @@
         B: 2
         :{$partA}:
         :{$partB}:
-        .Delete: 1 day
     ```
 
     ---
@@ -80,7 +69,6 @@
     # Comprehensive
     - SAVE $item: 
         :{changes}:
-        .Delete: <period>
         STATE: <state>
     ```
 
@@ -136,12 +124,6 @@
     ---
     <br/>
 
-1. **How do handled blocked tables?**
-
-    Raises a 409 HTTP error in a [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) when trying to update an [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) with the `NoUpdate` flag active - e.g. [`Grab@Printer`](<../../../../45 🤲 Helper domains/Printers 🖨️/🖨️📨 Printer msgs/Grab 👥🚀🖨️/🖨️ Grab 🚀 call.md>).
-
-    ---
-    <br/>
 
 1. **How to save with reference data?**
 
@@ -159,26 +141,9 @@
         From: $list
         Where: B.Is($item.B)
     
-    - SAVE $item
+    - SAVE: $item
     ```
     Uses: [`SELECT`](<../../⌘ for holders 🧠/SELECT 🅾️/🅾️ SELECT ⌘ cmd.md>) [`.Is`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Is ⓕ.md>)
-
-    ---
-    <br/>
-
-1. **How to use functions on .Delete?**
-
-    Consider the following [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) excerpt from [`Issue@Broker` 🐌 msg](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>).
-    
-    ```yaml
-    SAVE $item:
-        .Delete: 
-            .Lower:
-                $expiration,
-                Now.Add(30 days)
-    ```
-
-    Uses: [`.Lower`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Lower ⓕ.md>) [`.Now`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Now ⓕ.md>) [`.Add`](<../../../📃 Functions 🐍/🐍 System 🔩 functions/Add ⓕ.md>) 
 
     ---
     <br/>

@@ -104,8 +104,8 @@ Item:
     | Status | Details
     |-|-
     | `OK`        | The item was saved successfully.
-    | `BLOCKED` | There is already an item with the same key and a different content, and the table schema was configured with `NoUpdates` to block any changes after the first [`Save@Itemizer` 🚀 call](<🛢 Save 🚀 call.md>).
-    | `OUTDATED`  | The `.Version` of the item saved in the dataset (let's call it `A`) is different from the one given in `Item.Version` (let's call it B), meaning that item `A` has changed since item `B` was pulled with the [`Read@Itemizer` 🚀 call](<../Item Read 👥🚀🛢/🛢 Read 🚀 call.md>) call.
+    | `BLOCKED` | On Insert, the key is already used by an item with a different content. If the content is the same, the operation is idempotent and returns `OK`.
+    | `OUTDATED`  | On update, the `.Version` of the item saved in the dataset (let's call it `A`) is different from the one given in `Item.Version` (let's call it B), meaning that item `A` has changed since item `B` was pulled with the [`Read@Itemizer` 🚀 call](<../Item Read 👥🚀🛢/🛢 Read 🚀 call.md>) call.
     
     ---
     <br/>

@@ -52,12 +52,6 @@
     Expires: $.Msg.Expires
     Wallet: $chat.Wallet.ID
     Chat: $chat.ID
-    
-    # Set the cache expiration
-    .Delete: 
-        .Lower:
-            $.Msg.Expires,
-            Now.Add(30 days)
 ```
 
 Uses||

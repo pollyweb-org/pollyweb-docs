@@ -43,7 +43,6 @@
 # Cancel the scheduled deletion on Issue@
 - SAVE $token:
     STATE: SAVED
-    .Delete: 
 ```
 
 |Uses||

@@ -2,6 +2,7 @@
 
 > Part of [Printer 🖨️ helper domain](<../../🖨️🤲 Printer helper.md>)
 
+<br/>
 
 ## Schema
 
@@ -11,16 +12,15 @@ Here's the [Itemized 🛢 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣�
 # Aliases.yaml
 Name: Aliases
 Key: Alias
-NoUpdates: True
 ```
 
+<br/>
 
 ## Example
 
 Here's the [`READ` command](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) result.
 
 ```yaml
-# READ|Aliases|ANY-ALIAS
 Alias: ANY-ALIAS
 Schema: .HOST
 Host: any-host.dom
