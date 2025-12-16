@@ -41,7 +41,6 @@
     - DELETE:
         Set: <set>
         Key: {key}
-        Undo: <undo> <days|hours|minutes|months>
     ```
 
 
@@ -51,8 +50,6 @@
     | `Key` | Key(s) to delete from the set |-
     ||  `<key>` as a string or array | `A` `A,B` `$a` 
     || `{key}` as a dictionary | `{A:1,B:2}`
-    | `Undo` | Hide to allow an [`UNDO`](<../UNDO ↩️/↩️ UNDO ⌘ cmd.md>) later | `30 days`
-    | | `days` `hours` `minutes` `months`
     
     ---
     <br/>
