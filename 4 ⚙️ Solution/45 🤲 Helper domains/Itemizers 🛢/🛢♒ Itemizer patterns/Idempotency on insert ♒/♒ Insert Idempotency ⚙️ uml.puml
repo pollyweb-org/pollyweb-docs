@@ -1,0 +1,39 @@
+@startuml Idempotency
+
+box sender 👥 domain #FFFFFA
+    participant "Script 📃" as script
+end box
+
+box receiver 👥 domain #FFFFFA
+    participant "Handler 🐌" as handler
+    participant "Dataset 🪣 Key: hook, sender" as table
+    participant "OnInserted 🔔" as event
+end box
+
+
+activate script
+    script -> script: .UUID >> hook
+    script --x handler: SEND 📬 {hook}
+    
+activate handler
+    handler -> table: SAVE 💾 {hook, sender}
+deactivate handler
+
+activate table
+    table --> event: Event 🔔 {INSERTED}
+deactivate table
+
+    script --> handler: SEND 📬 {hook}
+deactivate script
+
+activate handler
+    handler -> table: SAVE 💾 {hook, sender}
+deactivate handler
+
+
+activate table
+    table -> table: Ignore duplicate key ❌ 
+deactivate table
+
+
+@enduml
