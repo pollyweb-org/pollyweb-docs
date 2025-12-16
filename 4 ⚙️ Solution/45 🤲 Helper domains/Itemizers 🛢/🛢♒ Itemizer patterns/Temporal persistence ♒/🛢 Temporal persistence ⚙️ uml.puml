@@ -1,0 +1,34 @@
+@startuml Temporal persistence
+
+participant "Script 📃" as script
+participant "Dataset 🪣 A:1hour, B:2days" as table
+participant "Alarm ⏰" as alarm
+
+
+activate script
+    script -> table: SAVE 💾 {id:1, state:B}
+deactivate script
+
+activate table
+    table --> alarm: trigger ⏰ {id:1, now+2days}
+deactivate table
+
+activate alarm
+
+activate script
+    script -> table: READ 🧲 {id:1} ✅ success
+deactivate script
+
+    alarm --> table: timeout ⏰ {id:1}
+deactivate alarm
+
+activate table
+    table -> table: DELETE 🗑 
+deactivate table
+
+activate script
+    script -x table: READ 🧲 {id:1} 💥 error
+deactivate script
+
+
+@enduml
