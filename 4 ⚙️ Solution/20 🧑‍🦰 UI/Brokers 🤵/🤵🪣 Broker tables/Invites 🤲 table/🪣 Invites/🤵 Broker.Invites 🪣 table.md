@@ -1,7 +1,8 @@
 # 🤵 Broker.Invites 🪣 table
 
 > About
-* Part of the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) role
+* Part of a [Broker 🤵 helper domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
+
 
 <br/>
 
