@@ -147,3 +147,15 @@
 
     ---
     <br/>
+
+
+
+1. **What are the possible errors?**
+
+    | Status | Details
+    |-|-
+    | `BLOCKED` | On insert with [`SAVE`](<💾 SAVE ⌘ cmd.md>), the key is already used by an item with a different content. If the content is the same, then no error is raised.
+    | `OUTDATED`  | On update, i.e. a [`SAVE`](<💾 SAVE ⌘ cmd.md>) after [`READ`](<../READ 🧲/🧲 READ ⌘ cmd.md>), the item was changed by a concurrent [`SAVE`](<💾 SAVE ⌘ cmd.md>).
+    
+    ---
+    <br/>
