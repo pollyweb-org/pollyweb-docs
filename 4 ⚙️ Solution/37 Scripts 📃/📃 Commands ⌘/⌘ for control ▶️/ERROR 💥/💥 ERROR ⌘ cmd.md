@@ -2,7 +2,7 @@
 
 > Part of [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>)
 
-<br/>
+## FAQ
 
 
 1. **What's a ERROR command?**
@@ -63,3 +63,21 @@
     
     ---
     <br/>
+
+1. **How to catch ERRORs?**
+
+    Use the [`TRY`](<../TRY 🧪/🧪 TRY ⌘ cmd.md>) command.
+
+    ```yaml
+    📃 Example:
+
+    # Raise the error
+    - TRY >> $error:
+        ERROR: An error occurred
+
+    # Handle the error
+    - IF $error:
+        INFO: Caught "{$error}"
+    ```
+
+    Uses: [`TRY`](<../TRY 🧪/🧪 TRY ⌘ cmd.md>) [`IF`](<../IF ⤵️/⤵️ IF ⌘ cmd.md>) [`THEN`](<../THEN ⤵️/⤵️ THEN ⌘ cmd.md>) [`INFO`](<../../../📃 Prompts 🤔/🤔 Status ⚠️ prompts/INFO ℹ️/INFO ℹ️ prompt.md>)

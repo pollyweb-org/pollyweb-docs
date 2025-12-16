@@ -22,7 +22,6 @@
     Script: SaveToken       
     Version: <version-uuid>  # Optional
     Delete: 30 days          # Optional
-    OnBlocked: myPlaceholder # Optional
 ```
 
 ```yaml
@@ -33,7 +32,6 @@
     Script: SaveToken
     Version: <version-uuid>  # Optional
     Delete: 30 days          # Optional
-    OnBlocked: myPlaceholder # Optional
 ```
 
 <br/>
@@ -46,7 +44,7 @@
 # Fill the $item
 - ASSERT $.Inputs:
     AllOf: Set, Item
-    Texts: Script, Set, OnBlocked, Delete
+    Texts: Script, Set, Delete
     UUIDs: Version
 
 # Freeze the current chat, if any
@@ -78,11 +76,8 @@
 
     # If blocked, see if there's a handler
     BLOCKED: 
-        - IF: $OnBlocked
         - THEN:
             - PUT: True >> $.Parent.{$OnBlocked}
-        - ELSE:
-            - ERROR: Blocked item
 ```
 
 

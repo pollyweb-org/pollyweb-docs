@@ -8,7 +8,7 @@
 
 > Relates to [Tables 🪣 folder](<../../../../55 👷 Build domains/Hosteds 📦/📦📄 Hosted files/🪣📂 Tables folder.md>)
 
-<br/>
+## FAQ
 
 1. **What is a DELETE command?**
 

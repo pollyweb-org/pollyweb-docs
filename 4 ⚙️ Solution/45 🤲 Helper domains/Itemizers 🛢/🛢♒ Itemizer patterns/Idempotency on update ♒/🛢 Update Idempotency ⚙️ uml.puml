@@ -20,23 +20,22 @@ activate handler
     handler --x inbox: Message 🐌 {hook, result}
 activate inbox
     inbox -> table: SAVE 💾 {hook, result, STATE-2}
-deactivate inbox
 
 activate table
+    table -> inbox: 
+deactivate inbox
     <-- table  : Event 🔔 {STATE-2}
 deactivate table
-
 
     handler --> inbox: Message 🐌 {hook, result}
 deactivate handler
 
 activate inbox
     inbox -> table: SAVE 💾 {hook, result, STATE-2}
-deactivate inbox
-
 activate table
-    table -> table: Ignored, no changes ❌
+    table -> inbox: No event raised ✅
 deactivate table
+deactivate inbox
 
 
 @enduml
