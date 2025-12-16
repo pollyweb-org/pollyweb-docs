@@ -9,14 +9,15 @@ participant "Broker 🤵" as broker
 participant "Identity 🆔" as identity
 participant "Wallet 👱" as wallet
 
+
 activate script
-    script -> identify: IDENTIFY 🆔 {identity, biostamp}
+    script -> identify: IDENTIFY 🆔 {token}
 deactivate script
 
 activate identify
-    identify --> broker: SEND 📬 Identify@Broker 🐌 
+    identify --> broker: SEND 📬 Identify@Broker 🐌 {identity, biostamp, hook}
 activate broker
-    identify -> identify: WAIT ⏳ 
+    identify -> identify: WAIT ⏳ {hook}
 deactivate identify
 
     broker --> identity: INVITE 🤲 
@@ -28,11 +29,11 @@ activate identity
 deactivate identity
 
 activate broker
-    broker --> identified: Identified@Consumer 🐌
+    broker --> identified: Identified@Consumer 🐌 {hook}
 deactivate broker
 
 activate identified 
-    identified --> identify: RACE 🏁 
+    identified --> identify: RACE 🏁 {hook}
 deactivate identified
 
 activate identify

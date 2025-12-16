@@ -1,0 +1,46 @@
+@startuml State machine
+
+box sender 👥 domain #FFFFFA
+    participant "Script 📃" as script
+    participant "OnState-2 🔔" as event
+    participant "Dataset 🪣 Key: hook" as table
+    participant "Inbox 📥" as inbox
+end box
+
+box receiver 👥 domain #FFFFFA
+    participant "Handler 🐌" as handler
+end box
+
+
+activate script
+    script -> table: SAVE 💾 {hook, STATE-1}
+    script --> handler: SEND 📬 {hook}
+deactivate script
+
+activate handler
+    handler --x inbox: Message 🐌 {hook, result}
+activate inbox
+    inbox -> table: SAVE 💾 {hook, result, STATE-2}
+deactivate inbox
+
+activate table
+    table --> event: Event 🔔 {STATE-2}
+deactivate table
+
+activate event
+    event -> table: SAVE 💾 {STATE-3}
+deactivate event
+
+
+    handler --> inbox: Message 🐌 {hook, result}
+deactivate handler
+
+activate inbox
+    inbox -> table: SAVE 💾 {hook, result, STATE-2}
+deactivate inbox
+
+activate table
+    table -> table: Ignored, out of state order ❌
+deactivate table
+
+@enduml

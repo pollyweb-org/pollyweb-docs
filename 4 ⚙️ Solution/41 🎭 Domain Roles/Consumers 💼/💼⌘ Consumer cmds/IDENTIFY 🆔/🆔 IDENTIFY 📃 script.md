@@ -29,9 +29,14 @@
 ```yaml
 📃 .IDENTITY:
 
-# Assert the chat and identity inputs
+# Assert the chat
+- ASSERT $.Chat:
+    Error: CHAT missing
+
+# Assert the identity inputs
 - ASSERT $.Inputs:
-    AllOf: $.Chat, Identity, Biostamp
+    Error: Invalid IDENTITY inputs
+    AllOf: Identity, Biostamp
     UUIDs: Biostamp
     Identity.IsDomain:
 
