@@ -38,7 +38,7 @@
     Error: Invalid IDENTITY inputs
     AllOf: Identity, Biostamp
     UUIDs: Biostamp
-    Identity.IsDomain:
+    Identifier.IsDomain:
 
 # Set a hook for the Identified@Consumer message
 - PUT: .UUID >> $hook

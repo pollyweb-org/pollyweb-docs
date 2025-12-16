@@ -13,7 +13,7 @@ Buy entry for a club
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Club (4.4 ⭐) [+]
 | 🕺 Club       | 😃 What do you need? <br/>- [ Buy ] entry (£3.00) <br/>- [ Something else ] | > Buy
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to book? [Yes, No] <br/> - your ID proves you're  21+ 🆔 <br/>- baristas need your name 🧢<br/>- your curator orders 🧚<br/>- the entry is paid upfront 💳 <br/> - save it in your wallet 🤵 <br/> - tap the door on entering ✨  <br/> - we check IDs on entry 🆔 <br/>- orders are paid inside 💳  | > Yes
-| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) | 🫥 Share over 21? [Yes, No] | > Yes
+| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share over 21? [Yes, No] | > Yes
 | 🕺 Club       | ℹ️ ID check on entry.
 | 🧢 [Persona](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share social name? [No] <br/> - [ 🧑‍🦰 personal ] <br/> - [ 💼 work ] <br/> - [ 🦋 private ]      | > 🦋 private 
 | 🕺 Club       | ℹ️ Thanks, Ms. Butterfly!

@@ -79,7 +79,7 @@ Domain:
 If the request contains `Domains` and `Language`.
 ```yaml
 Domains: 
-    any-domain.dom:         # Identity domain name
+    any-domain.dom:         # Identifier domain name
         Title: Any Domain   # in the target language
         Description: Bla... # in the target language
 ```

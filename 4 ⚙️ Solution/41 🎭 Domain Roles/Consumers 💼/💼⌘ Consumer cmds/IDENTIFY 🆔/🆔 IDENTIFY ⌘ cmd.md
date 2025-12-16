@@ -16,7 +16,7 @@
     ---
     <br/>
 
-1. **How to use IDENTIFY with an [Identity 🆔 domain](<../../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) biostamp?**
+1. **How to use IDENTIFY with an [Identity 🆔 domain](<../../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) biostamp?**
 
     ```yaml
     # With identity and biostamp

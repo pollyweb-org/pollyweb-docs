@@ -4,7 +4,7 @@ How do pizza makers fulfill an order at the pizzeria?
 
 > From [🍕 Order Pizza](<01 🍕 Index.md>)
 
-> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>)
+> Mentioned in [Verify Identity-bound Tokens 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>)
 
 <br/>
 
@@ -18,7 +18,7 @@ How do pizza makers fulfill an order at the pizzeria?
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ Staff [🪪 token](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared [+]
 | 🍕 Pizzeria   | 😃 Hi Daniel, what's up? <br/>- [ Serve ] customers <br/>- [ Something else ] | > Serve
 | 🍕 Pizzeria | [📍 Share location?](<../../../4 ⚙️ Solution/37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/LOCATION 📍/📍 LOCATION ⌘ cmd.md>) | > Yes
-| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
+| 🆔 [Identity](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you.  | [📸 selfie](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
 | 🍕 Pizzeria   | 😃 By roles! [Yes, No] <br/>- [ Chef ] <br/>- [ Support ] | > Chef
 | 🍕 Pizzeria   | ⏳ Waiting orders... <br/>- [ Take a break ] <br/>- [ End shift ]
 ...

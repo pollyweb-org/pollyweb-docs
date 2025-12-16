@@ -235,13 +235,13 @@ Successful Tests:
     LinkText: "Issuer 🎴 domains"
     LinkFile: "🎴🎭 Issuer role.md"
 
-  # 🆔 Identity domain
-  - Given: '{{Identity}}'
-    LinkText: "Identity 🆔 domain"
-    LinkFile: "🆔 Identity 🫥 agent.md"
-  - Given: '{{Identities}}'
-    LinkText: "Identity 🆔 domains"
-    LinkFile: "🆔 Identity 🫥 agent.md"
+  # 🆔 Identifier domain
+  - Given: '{{Identifier}}'
+    LinkText: "Identifier 🆔 domain"
+    LinkFile: "🆔 Identifier 🫥 agent.md"
+  - Given: '{{Identifiers}}'
+    LinkText: "Identifier 🆔 domains"
+    LinkFile: "🆔 Identifier 🫥 agent.md"
 
   # 🛢 Itemizer helper domain
   - Given: '{{Itemized dataset}}'
@@ -671,9 +671,9 @@ Successful Tests:
     LinkFile: '🤵 Broker.Chats 🪣 table.md'
     Reasons: same as {{Talker.Waits table}}.
 
-  - Given: '{{Identity.Stamps table}}'
-    LinkText: '`Identity.Stamps` 🪣 table'
-    LinkFile: '🆔 Identity.Stamps 🪣 table.md'
+  - Given: '{{Identifier.Stamps table}}'
+    LinkText: '`Identifier.Stamps` 🪣 table'
+    LinkFile: '🆔 Identifier.Stamps 🪣 table.md'
     Reasons: same as {{Talker.Waits table}}.
 
     

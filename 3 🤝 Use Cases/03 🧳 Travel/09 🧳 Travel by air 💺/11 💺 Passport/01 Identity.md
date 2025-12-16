@@ -3,7 +3,7 @@
 What if the user has two passports from different countries?
 ----
 
-Wallets allow for a single 🆔 Identity vault to be the default. 
+Wallets allow for a single 🆔 Identifier vault to be the default. 
 - If the user multiple citizenship, then they'll need to set the default identity on the broker.
 
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)

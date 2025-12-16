@@ -45,8 +45,8 @@
     | 4| `Userable`| When the NFC of the [Userable 💍 thing](<../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) is [tapped 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) on the [scanner ✨ device](<../../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>), the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) shares the [Tokens 🎫](<🎫 Token.md>).
     |5| `Printed`| From the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), users can print a [Token 🎫](<🎫 Token.md>).
     |6| `Printed` | The user can then present the printed [Token 🎫](<🎫 Token.md>) to the [scanner ✨ device](<../../../60 🧰 Edge/66 ✨ Scanners/06 ✨🔌 Scanner device.md>) of a [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>).
-    |7| `Identity` | If the [Token 🎫](<🎫 Token.md>) contains the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of an [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>), then it means that the [Token 🎫](<🎫 Token.md>) was issued to a specific person only.
-    |8| `Identity`| The [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) to verify if it is really that person holding the presented [Token 🎫](<🎫 Token.md>) or not.
+    |7| `Identity` | If the [Token 🎫](<🎫 Token.md>) contains the [Locator 🔆](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) of an [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>), then it means that the [Token 🎫](<🎫 Token.md>) was issued to a specific person only.
+    |8| `Identity`| The [Consumer 💼 domain](<../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) can then ask the [Token's Identity 🆔 domain](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to verify if it is really that person holding the presented [Token 🎫](<🎫 Token.md>) or not.
 
     ---
     <br/>
@@ -82,10 +82,10 @@
 
     Yes, [Tokens 🎫](<🎫 Token.md>) can be identity-bound;
     - i.e., they can allow [Consumer 💼 domains](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) to confirm that the holder of the Token is effectively the human for whom the [Token 🎫](<🎫 Token.md>)  was issue to. 
-    - [Identity-bound 🆔 tokens](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>).
+    - [Identity-bound 🆔 tokens](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>) reference a trusted [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) that is able to authenticate the user - e.g., with a [Face scan 😶](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>).
 
 
-    The following [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>).
+    The following [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) excerpt from the [Casino Entry 🤝 use case](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/10 🎰 Casinos/11 🚪 Enter anonymously.md>) illustrates the usage of an [Identity-bound 🆔 token](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>).
 
 
     | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
@@ -93,8 +93,8 @@
     | | | 🔆 [tap](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
     | 🔎 [Finder](<../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Casino (4.4 ⭐) [+]
     | 🎰 Casino   | ℹ️ Request for minimum age. [+]
-    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
-    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
+    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share over 21? [Yes, No]      | > Yes
+    | 🆔 [Identity](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
     | 🎰 Casino   | ✅ Welcome, please enter!
     
 
@@ -209,8 +209,8 @@
     | `Issued` | [time](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>) | When it was issued
     |`Starts` |[time](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>)| Valid from
     |`Expires`|[time](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Time holders.md>)| Valid until (optional)
-    |`Identity` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)|The [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) 
-    | `Biostamp` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The stamp in the [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>)
+    |`Identity` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)|The [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) 
+    | `Biostamp` |[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The stamp in the [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
     | `Signature`|[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The Issuer's [signature](<../../Messages 📨/📨 Message/📨 Message.md>) 📨 
     | `DKIM`|[text](<../../../37 Scripts 📃/📃 Holders 🧠/Input holders 📥/🧠 Text holders.md>)| The [DKIM 📨](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Public Key/🕸 Public Key 🚀 call.md>) key used to sign
     
