@@ -30,7 +30,6 @@ Body:
     Children: {...}
     Distincts: {...}
     Handlers: {...}
-    NoUpdates: True  # it's False by default
 ```
 |Object|Property|Type|Description
 |-|-|-|-
@@ -43,7 +42,6 @@ Body:
 |           | [`Propagate`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Propagate.md>) | string[] | List of parents to propagate
 |           | [`Children`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Children.md>) |map	| List of children items
 |           | [`Distincts`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Distincts.md>) |	map |	List of grouped fields
-|           | [`NoUpdates`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 NoUpdates.md>) | bool | Blocks item updates
 |           | [`Handlers`](<../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Handlers.md>) | map | [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) for [`Raised@Itemizer` 🔔](<../../🛢🔔 Itemizer events/🛢🔔 Raised.md>)
 |
 

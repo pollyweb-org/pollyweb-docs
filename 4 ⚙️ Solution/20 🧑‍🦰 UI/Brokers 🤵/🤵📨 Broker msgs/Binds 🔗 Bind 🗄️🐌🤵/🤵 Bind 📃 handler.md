@@ -40,7 +40,6 @@
 
     # Bind lifecycle
     STATE: OFFERED
-    .Delete: 1 hour
 
     # From Bind@Broker
     Hook: $.Msg.Hook 

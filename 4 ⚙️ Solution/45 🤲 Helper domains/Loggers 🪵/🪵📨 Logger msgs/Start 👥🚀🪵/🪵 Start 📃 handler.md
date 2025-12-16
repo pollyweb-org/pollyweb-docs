@@ -23,7 +23,7 @@
     Started: $.Msg.Header.Timestamp 
     Domain: $.Msg.Header.From
     Groups: $.Msg.Groups
-    .Delete: $.Msg.Delete
+    Delete: $.Msg.Delete
 
 # Return the thread ID
 - RETURN:
