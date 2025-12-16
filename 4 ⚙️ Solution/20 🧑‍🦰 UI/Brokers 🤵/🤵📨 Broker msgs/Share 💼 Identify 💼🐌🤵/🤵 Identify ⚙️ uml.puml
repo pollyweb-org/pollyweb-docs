@@ -6,7 +6,7 @@ box Broker 🤵 #FFFFFA
     participant "Chatters 🪣" as chatters
 end box
 participant "Graph 🕸" as graph
-participant "Identity 🆔" as script
+participant "Identifier 🆔" as script
 participant "Wallet 👱" as wallet
 
 

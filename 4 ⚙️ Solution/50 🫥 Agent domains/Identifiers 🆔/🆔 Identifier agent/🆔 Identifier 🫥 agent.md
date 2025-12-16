@@ -3,7 +3,7 @@
 
 1. **What is an Identifier domain in NLWeb?**
 
-    An Identity 🆔 domain
+    An Identifier 🆔 domain
     * is an [Agent 🫥 vault](<../../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) 
     * that verifies the identity of the user
     * on behalf of other [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>).
@@ -28,7 +28,7 @@
     ---
     <br/>
 
-1. **Why are Identity domains important?**
+1. **Why are Identifier domains important?**
 
     They ensure that the person physically holding the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     * is either is the mentioned in the identification document,
@@ -41,7 +41,7 @@
 
     
     
-1. **Do Identity domains always authenticate users the same way?**
+1. **Do Identifier domains always authenticate users the same way?**
 
     No. It depends on the legislation, registration, and context.
 
@@ -54,10 +54,10 @@
     ---
     <br/>
     
-1. **Can users with dual nationality bind to two Identity domains?**
+1. **Can users with dual nationality bind to two Identifier domains?**
 
     Yes. 
-    * Users with dual nationality may even have two or more bound [Identity 🆔 vault](<🆔 Identifier 🫥 agent.md>), one per nationality. 
+    * Users with dual nationality may even have two or more bound [Identifier 🆔 vault](<🆔 Identifier 🫥 agent.md>), one per nationality. 
 
     ---
     <br/>
@@ -65,7 +65,7 @@
 1. **What authentication mechanisms are supported by Wallets?**
 
     NLWeb natively supports key pairs (passkeys) and one time passwords (OTP). 
-    * However, [Identity 🆔 vault](<🆔 Identifier 🫥 agent.md>) are free to implement whatever authentication mechanisms they want using the generic tools available. 
+    * However, [Identifier 🆔 vault](<🆔 Identifier 🫥 agent.md>) are free to implement whatever authentication mechanisms they want using the generic tools available. 
     
     For example: 
     - security questions can be implemented with generic inputs (e.g., text, lists, numbers); 

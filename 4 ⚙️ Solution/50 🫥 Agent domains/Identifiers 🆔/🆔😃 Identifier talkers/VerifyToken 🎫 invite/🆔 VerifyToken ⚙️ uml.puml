@@ -2,7 +2,7 @@
 
 participant "Consumer 💼" as consumer
 participant "Broker 🤵" as broker
-box Identity 🆔 domain #FFFFFA
+box Identifier 🆔 domain #FFFFFA
     participant "VerifyToken 😃" as script
     participant "Stamps 🪣" as tokens
     participant "Selfie 📸" as identify

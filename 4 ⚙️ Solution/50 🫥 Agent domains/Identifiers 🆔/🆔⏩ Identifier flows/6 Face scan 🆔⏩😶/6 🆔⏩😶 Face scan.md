@@ -1,7 +1,7 @@
 🆔 Identifier face verification
 ===
 
-> Part of [Identity 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
+> Part of [Identifier 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
 
 <br/> 
 
@@ -9,7 +9,7 @@
 1. **What is a face verification?**
 
     A [Face scan 😶](<6 🆔⏩😶 Face scan.md>)
-    * is a [face verification 📺](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>)  by an [Identity 🆔 vault](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) 
+    * is a [face verification 📺](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>)  by an [Identifier 🆔 vault](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) 
     * to verify if the person in front of the camera
     * is really the owner of something they are presenting
     * has part of a multi-factor authentication workflow.

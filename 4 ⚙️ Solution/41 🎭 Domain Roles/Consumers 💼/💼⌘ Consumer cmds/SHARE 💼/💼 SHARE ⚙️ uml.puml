@@ -9,7 +9,7 @@ end box
 participant "Broker 🤵" as broker
 participant "Vault 🗄️" as vault
 participant "Wallet 👱" as wallet
-participant "Identity 🆔" as identity
+participant "Identifier 🆔" as identity
 
 activate script
     script -> talker: SHARE 💼 {schemas}

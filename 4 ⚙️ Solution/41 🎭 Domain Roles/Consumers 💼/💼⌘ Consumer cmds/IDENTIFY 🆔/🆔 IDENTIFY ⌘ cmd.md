@@ -16,12 +16,12 @@
     ---
     <br/>
 
-1. **How to use IDENTIFY with an [Identity 🆔 domain](<../../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) biostamp?**
+1. **How to use IDENTIFY with an [Identifier 🆔 domain](<../../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) biostamp?**
 
     ```yaml
     # With identity and biostamp
     - IDENTIFY:
-        Identity: any-identity.dom
+        Identifier: any-identity.dom
         Biostamp: <biostamp-uuid>
     ```
 

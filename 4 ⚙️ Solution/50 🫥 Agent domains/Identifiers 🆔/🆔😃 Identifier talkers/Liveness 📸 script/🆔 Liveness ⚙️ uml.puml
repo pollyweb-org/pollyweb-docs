@@ -1,6 +1,6 @@
 @startuml Liveness
 
-box Identity 🆔 domain #FFFFFA
+box Identifier 🆔 domain #FFFFFA
     participant "Caller 📃" as caller
     participant "Liveness 📸" as script
     participant "Handled 🐌" as handled

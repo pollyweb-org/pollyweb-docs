@@ -2,7 +2,7 @@
 ===
 
 
-> Part of [Identity 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
+> Part of [Identifier 🆔 domains](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
 
  <br/>
 

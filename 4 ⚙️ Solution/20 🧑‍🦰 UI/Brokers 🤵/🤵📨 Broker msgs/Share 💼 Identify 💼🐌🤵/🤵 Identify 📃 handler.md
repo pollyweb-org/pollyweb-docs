@@ -20,7 +20,7 @@
 
 # Assert the required inputs
 - ASSERT $.Msg:
-    AllOf: Chat, Identity, Biostamp, Identified
+    AllOf: Chat, Identifier, Biostamp, Identified
     UUIDs: Chat, Biostamp, Identified
 
 # Verify the message
@@ -35,11 +35,11 @@
     Assert:
         Chat.STATE: ACTIVE
 
-# Ask for the Identity verification
+# Ask for the Identifier verification
 - INVITE:
     Chat: $.Msg.Chat
     Broker: $.Hosted.Domain
-    Helper: $Identity
+    Helper: $Identifier
     Schema: .ID/VERIFY
     Context: 
         Biostamp: $.Msg.Biostamp

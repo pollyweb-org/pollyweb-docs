@@ -6,7 +6,7 @@ box Consumer 💼 domain #FFFFFA
     participant "Identified 🐌" as identified
 end box
 participant "Broker 🤵" as broker
-participant "Identity 🆔" as identity
+participant "Identifier 🆔" as identity
 participant "Wallet 👱" as wallet
 
 

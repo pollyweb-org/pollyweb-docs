@@ -26,7 +26,7 @@
     |🧚| [Curator](<../Curators 🧚/🧚 Curator/🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
     |🧳| [Custodian](<../Custodians 🧳/🧳🫥 Custodian agent.md>) | FindMy | Manages the user's [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>), including [Userables 💍](<../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) and [⌚ Tapbands](<../../25 🔆 Locators/Tapbands ⌚/⌚💠 Tapband thing.md>).
     |🔎| [Finder](<../Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>), and  introduces them when they start a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>).
-    |🆔|[Identity](<../Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
+    |🆔|[Identifier](<../Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
     |🌼| [Keybox](<../Keyboxes 🌼/$ 🌼🫥 Keybox agent.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) keys.
     |📇| [Mingler](<../Minglers 📇/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
     |🧭| [Navigator](<../Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | G.Maps | Helps users going from point A to B.
@@ -56,7 +56,7 @@
 
         * One use case where this is important is when a user has two nationalities (e.g., French and Japanese), and each nation needs its own [Identifier 🆔 agent](<../Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>).
 
-        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) will ask the user to select which of the two [Identity 🆔 agents](<../Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) should receive the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) request.
+        * When this happens, the user's [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) will ask the user to select which of the two [Identifier 🆔 agents](<../Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) should receive the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) request.
 
     ---
     <br/>
