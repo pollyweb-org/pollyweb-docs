@@ -24,8 +24,7 @@
     |[`Read@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Read 👥🚀🛢/🛢 Read 🚀 call.md>)|[`READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>)  | Retrieves an item
     |[`Save@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)|[`SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>)   | Inserts or updates an item
     |[`Delete@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)|[`DELETE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | Deletes an item
-    | [`Undo@Itemizer`](<../../../45 🤲 Helper domains/Itemizers 🛢/🛢📨 Itemizer msgs/Item Undo 👥🚀🛢/🛢 Undo 🚀 call.md>) | [`UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) | Reverts an item deletion
-
+    
     ---
     <br/>
 
@@ -108,8 +107,6 @@
 
     Handlers:
         # Handlers these OnX scripts
-        OnTimeout: 
-            Events: EXPIRED, PURGED
         OnChange: 
             Events: ALTERED
         OnSomeState:

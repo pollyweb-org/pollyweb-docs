@@ -8,10 +8,8 @@
 
 * An [Itemizer 🛢 helper](<../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>) domain 
     * streams an event with its [Streamer 🌬️ domain role](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>) 
-    * saying that an [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) item has expired 
-    * after being deleted with an [`UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) possibility
-    * via the [`Delete@Itemizer`](<../🛢📨 Itemizer msgs/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>) method.
-
+    * saying that an [Itemized 🛢 dataset](<../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) item has changed.
+    
 <br/>
 
 ## Async Message 🐌
@@ -23,7 +21,7 @@ Header:
     Subject: Raised@Itemizer
 
 Body:
-    Event: EXPIRED
+    Event: ALTERED
     On: 2018-12-10T13:45:00.000Z
     Handler: MyHandler
     Item: 

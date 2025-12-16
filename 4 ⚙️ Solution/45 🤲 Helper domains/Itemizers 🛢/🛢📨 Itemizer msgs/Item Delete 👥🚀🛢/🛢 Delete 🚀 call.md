@@ -25,7 +25,6 @@ Body:
     Script: MyScript
     Set: MySet
     Key: [ MyKey1, MyKey2 ]
-    Undo: 30 days # Optional
 ```
 
 |Object|Property|Type|Description
@@ -36,7 +35,6 @@ Body:
 | Body    | `Script`     | string    | [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) for traceability
 |         | `Set`    | string  | `Set` from [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>)
 |         | `Key`     | string[]  | Case insensitive keys
-|         | `Undo` | string  | Optional [`UNDO`](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) time
 |
 
 <br/>
@@ -52,23 +50,6 @@ Body:
 ## FAQ
 
 
-1. **What's the format of `Undo`?**
-
-    The `Undo` parameter 
-    * expects `<number>` `<period>` 
-    * where `<period>` is in `days` `hours` `minutes` `months`
-    * e.g, `30 days`.
-
-    ---
-    <br/>
-
-1. **How to know if the item was deleted on timeout?**
-
-    [Talker 😃 helper domains](<../../../../35 💬 Chats/Talkers 😃/😃 Talker/😃🤲 Talker helper.md>) can register a hook on [`Build@Itemizer`](<../Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) to listen to delete events on the [Itemized 🪣 dataset](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>).
-    * Upon deletion, [Itemizer 🛢 helper domains](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>) invoke the [`Raised@Itemizer` 🔔 event](<../../🛢🔔 Itemizer events/🛢🔔 Raised.md>).
-
-    ---
-    <br/>
 
 1. **Why not an async message?**
 

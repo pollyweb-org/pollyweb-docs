@@ -20,7 +20,6 @@
     |Item   | [🚀 `Delete`](<../🛢📨 Itemizer msgs/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)| Delete an item
     |       | [🚀 `Get`](<../🛢📨 Itemizer msgs/Item Read 👥🚀🛢/🛢 Read 🚀 call.md>) | Get an item
     |       | [🚀 `Save`](<../🛢📨 Itemizer msgs/Item Save 👥🚀🛢/🛢 Save 🚀 call.md>) | Save an item
-    |       | [🚀 `Undo`](<../🛢📨 Itemizer msgs/Item Undo 👥🚀🛢/🛢 Undo 🚀 call.md>) | Undo a delete
     |Table  | [🐌 `Build`](<../🛢📨 Itemizer msgs/Table Build 👥🐌🛢/🛢 Build 🐌 msg.md>) | Build a table
     |       | [🐌 `Burn`](<../🛢📨 Itemizer msgs/Table Burn 👥🐌🛢/🛢 Burn 🐌 msg.md>) | Destroy a table
     |       | [🚀 `List`](<../🛢📨 Itemizer msgs/Table List 👥🚀🛢/🛢 List 🚀 call.md>) | List all tables
@@ -41,7 +40,6 @@
     |[🧲 `READ`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | Calls [`Read@Itemizer` 🅰️ ](<../🛢📨 Itemizer msgs/Item Read 👥🚀🛢/🛢 Read 🚀 call.md>)
     |[💾 `SAVE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) | Calls [`Save@Itemizer` 🅰️ ](<../🛢📨 Itemizer msgs/Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
     |[🗑️ `DELETE`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/DELETE 🗑️/🗑️ DELETE ⌘ cmd.md>) | Calls [`Delete@Itemizer` 🅰️ ](<../🛢📨 Itemizer msgs/Item Delete 👥🚀🛢/🛢 Delete 🚀 call.md>)
-    |[↩️ `UNDO`](<../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/UNDO ↩️/↩️ UNDO ⌘ cmd.md>) | Calls [`Undo@Itemizer` 🅰️ ](<../🛢📨 Itemizer msgs/Item Undo 👥🚀🛢/🛢 Undo 🚀 call.md>)
 
     ---
     <br/>
