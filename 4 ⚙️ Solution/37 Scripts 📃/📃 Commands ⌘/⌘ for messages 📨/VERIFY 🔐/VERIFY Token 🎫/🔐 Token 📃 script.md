@@ -39,7 +39,7 @@
     # Field validations
     Schema.IsSchema:
     Issuer.IsDomain:
-    Identity.IsDomain:
+    Identifier.IsDomain:
 
 # Time validations
 - ASSERT $Token:

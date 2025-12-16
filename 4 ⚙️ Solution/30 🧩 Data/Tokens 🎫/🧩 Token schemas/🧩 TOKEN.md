@@ -39,6 +39,6 @@ Asserts:
   Texts: Signature, DKIM
   Times: Issued, Starts, Expires
   Issuer.IsDomain:
-  Identity.IsDomain:
+  Identifier.IsDomain:
   Schema.IsSchema:
 ```        

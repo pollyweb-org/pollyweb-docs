@@ -44,7 +44,7 @@
     | [⬆️&nbsp;UPLOAD](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/UPLOAD ⬆️/⬆️ UPLOAD ⌘ cmd.md>)| Asks to upload a file or photo
     | [📍&nbsp;LOCATION](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/LOCATION 📍/📍 LOCATION ⌘ cmd.md>) | Asks for the current location
     | [🗺️&nbsp;TRACK](<../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Input ✏️ prompts/TRACK 🗺️/🗺️ TRACK ⌘ cmd.md>) | Asks to track the location
-    | [👤&nbsp;IDENTIFY](<../../../41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/IDENTIFY 🆔/🆔 IDENTIFY ⌘ cmd.md>) | Asks the user's [Identity 🆔 agent](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) to verify the user
+    | [👤&nbsp;IDENTIFY](<../../../41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/IDENTIFY 🆔/🆔 IDENTIFY ⌘ cmd.md>) | Asks the user's [Identifier 🆔 agent](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to verify the user
 
 
 

@@ -5,7 +5,7 @@
 | | | ✨ scan folder QR
 | 🔎 [Finder](<../../Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Folder (4.3 ⭐)  [+]
 | 🧑‍💻 [Editor](<../🧑‍💻🫥 Editor agent.md>) | ℹ️ Open editor requested.
-| 🆔 [Identity](<../../Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../Identities 🆔/🆔⏩ Identity flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
+| 🆔 [Identity](<../../Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you.   | [📸 selfie](<../../Identifiers 🆔/🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
 | 🧑‍💻 Editor   | ✅ Editor opened.
 | ⭐ [Rate](<../../Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 ||

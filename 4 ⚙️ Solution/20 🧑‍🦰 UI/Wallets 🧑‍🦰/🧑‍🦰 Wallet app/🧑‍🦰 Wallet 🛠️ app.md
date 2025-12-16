@@ -71,10 +71,10 @@
 
 1. **How do users migrate a Wallet to another phone?**
 
-    To migrate a [Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet 🛠️ app.md>) to another phone, a user first needs to bind an [Identity 🆔 agent domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
+    To migrate a [Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet 🛠️ app.md>) to another phone, a user first needs to bind an [Identifier 🆔 agent domain](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) on the old phone, and then generate a migration QR [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
     
     * On the new phone, the user needs to install a [Wallet 🧑‍🦰 app](<🧑‍🦰 Wallet 🛠️ app.md>), then scan the migration QR of the old Wallet.
-    * The [Broker 🤵 domain](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) will invoke the [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identities 🆔/🆔 Identity agent/🆔 Identity 🫥 agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
+    * The [Broker 🤵 domain](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) will invoke the [Identity 🆔 domain](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) on the new phone to perform an identity authentication (e.g., face scan), and then will automatically decommission the old Wallet.
 
     ---
     <br/>
@@ -146,7 +146,7 @@
     |🎫 Tokens| [👉 Save](<../🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Save Token 👉🎴🎫/🧑‍🦰 Save token ⏩ flow.md>) | Save a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) in the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet 🛠️ app.md>)
     || [👉 Remove](<../🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>) | Remove a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) from the [Wallet 🧑‍🦰](<🧑‍🦰 Wallet 🛠️ app.md>)
     || [👉 Share](<../🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>) | Share a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) with a [Consumer 💼](<../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>)
-    || [👉 Verify ID](<../🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Share and [verify the user Identity 🆔](<../../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>)
+    || [👉 Verify ID](<../🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>) | Share and [verify the user Identity 🆔](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>)
 
     ---
     <br/>

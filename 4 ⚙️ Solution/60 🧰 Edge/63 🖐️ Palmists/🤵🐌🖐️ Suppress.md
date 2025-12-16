@@ -5,7 +5,7 @@
 
 # 🤵🐌🗄️ Suppress @ Vault
 
-> Suppress [🖐️ Palm scans](<../../50 🫥 Agent domains/Identities 🆔/🆔⏩ Identity flows/7 Palm scan 🆔⏩🖐️/7 🆔⏩🖐️ Palm scan.md>) on Palmist devices.
+> Suppress [🖐️ Palm scans](<../../50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/7 Palm scan 🆔⏩🖐️/7 🆔⏩🖐️ Palm scan.md>) on Palmist devices.
 
 ## Async Message 🐌
 
