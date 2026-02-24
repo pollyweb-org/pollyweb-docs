@@ -57,7 +57,7 @@ Body:
 
 1. **Is the `Queue` used for at-least-once delivery?**
     
-    No. NLWeb requests are already idempotent with the `Correlation` property of [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
+    No. PollyWeb requests are already idempotent with the `Correlation` property of [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
 
     ---
     <br/>

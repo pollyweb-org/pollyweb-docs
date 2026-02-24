@@ -16,7 +16,7 @@
 
 1. **How do receiver domains reply to incoming messages?**
 
-    NLWeb advocates for communications to be asynchronous by default to minimize wait times in HTTPS communications and reduce the serverless compute cost of sending outbound messages. 
+    PollyWeb advocates for communications to be asynchronous by default to minimize wait times in HTTPS communications and reduce the serverless compute cost of sending outbound messages. 
     
     - Thus, the receiver is expected to store the envelope in a resilient queue and immediately return a successful HTTPS 200 response. 
     

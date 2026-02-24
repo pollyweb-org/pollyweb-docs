@@ -1,11 +1,11 @@
 🧑‍🦰 Wallet app
 ===
 
-1. **What is an NLWeb Wallet app?**
+1. **What is an PollyWeb Wallet app?**
 
     [Wallets 🧑‍🦰](<🧑‍🦰 Wallet 🛠️ app.md>) are 
     * apps for mobile devices (e.g. Android-based phones, iPhones) 
-    * that implement the NLWeb protocol.
+    * that implement the PollyWeb protocol.
 
     ---
     <br/>
@@ -39,7 +39,7 @@
     ---
     <br/>
 
-1. **What happens when users install an NLWeb Wallet?**
+1. **What happens when users install an PollyWeb Wallet?**
 
     On its first use, [Wallet 🧑‍🦰 apps](<🧑‍🦰 Wallet 🛠️ app.md>):
     1. create a key-pair for user and store it in the secure area of the device;

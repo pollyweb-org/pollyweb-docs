@@ -1,7 +1,7 @@
 🧑‍💻 Editor agent
 ===
 
-1. **What is an NLWeb Editor?**
+1. **What is an PollyWeb Editor?**
 
     An [Editor 🧑‍💻 agent](<🧑‍💻🫥 Editor agent.md>) is a [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) that exposes a desktop app designed to concentrate into a single editor the CRUD datasets from multiple user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>).
 

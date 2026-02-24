@@ -52,7 +52,7 @@
 
     No. 
     - PollyWeb [Chats 💬](<💬 Chat.md>) don't implement WhatsApp's free flow conversation, where users can send multiple messages in sequence that humans typically interpret as a flow. 
-    - Instead, NLWeb [Chats 💬](<💬 Chat.md>) work like ChatGPT, with one party sending only one message then waiting for the other party to reply. 
+    - Instead, PollyWeb [Chats 💬](<💬 Chat.md>) work like ChatGPT, with one party sending only one message then waiting for the other party to reply. 
     - A similar mechanism is used by Amazon Retail for web and mobile customer support backed by AI workflows.
 
     ---

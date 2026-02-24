@@ -18,7 +18,7 @@
         
 ---
 
-💬 NLWeb advocates for an inversion of control somewhat similar to India's ONDC:
+💬 PollyWeb advocates for an inversion of control somewhat similar to India's ONDC:
 - sellers fan out their offers once to any interested reseller or advertiser;
 - consumers use a single app to find any product from any seller;
 - sellers control the user experience with commands sent to the app.

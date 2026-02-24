@@ -27,7 +27,7 @@
 
 1. **How are users protected from stalking from Hosts?**
 
-    NLWeb sees [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) as temporary sessions, always initiated by users; 
+    PollyWeb sees [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) as temporary sessions, always initiated by users; 
     - i.e., the [Host 🤗 domain](<🤗🎭 Host role.md>) receives a temporary ID from the [user's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) when the [Chat 💬 session](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  is open, but no other ID to track the user across sessions;
     - although [Host 🤗 domains](<🤗🎭 Host role.md>) can proactively send messages on an open [Chat 💬 session](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>), users can close the session at any time. 
 
@@ -54,7 +54,7 @@
 1. **What proxy services are involved in the flow?**
 
     [Messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) sent from [Host 🤗 domains](<🤗🎭 Host role.md>) first reach the user's [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) via HTTPS POST:
-    - these [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) are responsible for orchestrating [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) between users and [Host 🤗 domains](<🤗🎭 Host role.md>) using the NLWeb protocol, 
+    - these [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) are responsible for orchestrating [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) between users and [Host 🤗 domains](<🤗🎭 Host role.md>) using the PollyWeb protocol, 
     - and they are typically implemented by a main cloud provider that is able to ensure high availability and low latency communication between globally dispersed entities. 
     
     The [user's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) then sends the message to a [user's Notifier 📣 domain](<../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>), also via HTTPS POST:

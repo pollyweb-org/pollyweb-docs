@@ -94,9 +94,9 @@
     
     * In [W3C Verifiable Credentials (VCs)](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>), this is an anti-pattern often called "phone-home check", "issuer call-back verification", or "online status checking" — the W3C recommendation is for VC implementers to adopt the bitmap-like Status List 2021 approach published by the W3C CCG (Credentials Community Group).
 
-    * NLWeb avoids bitmap status lists because of their scaling limitations and their overhead on the businesses that own [Issuer 🎴 domains](<🎴🎭 Issuer role.md>).
+    * PollyWeb avoids bitmap status lists because of their scaling limitations and their overhead on the businesses that own [Issuer 🎴 domains](<🎴🎭 Issuer role.md>).
     
-    * Instead, in NLWeb, [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) protect the privacy of users by answering the online [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) status queries by [Consumer 💼 domains](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>), based on the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) status update events sent asynchronously by [Issuer 🎴 domains](<🎴🎭 Issuer role.md>).
+    * Instead, in PollyWeb, [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) protect the privacy of users by answering the online [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) status queries by [Consumer 💼 domains](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>), based on the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) status update events sent asynchronously by [Issuer 🎴 domains](<🎴🎭 Issuer role.md>).
     
     * Furthermore, because [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) simplify the process by only sharing active [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) when [Consumer 💼 domains](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) send sharing requests in a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>), this allows [Consumer 💼 domains](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) to only need to verify the status of [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) presented in an offline fashion (e.g., a printed QR on a paper).
 
@@ -106,7 +106,7 @@
     
     * Consider also a scenario where a commercial flight cannot wait for the [Issuer 🎴 domain](<🎴🎭 Issuer role.md>) of a travel agency to come back online before allowing a traveler to board a plane with a [ticket Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>). 
     
-    * [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) are expected to have the required level of high availability and low latency, while having to pass the protocol compliancy requirements of NLWeb before being trusted by the [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) of the NLWeb Organization.
+    * [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) are expected to have the required level of high availability and low latency, while having to pass the protocol compliancy requirements of PollyWeb before being trusted by the [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) of the PollyWeb Organization.
 
 
     ---

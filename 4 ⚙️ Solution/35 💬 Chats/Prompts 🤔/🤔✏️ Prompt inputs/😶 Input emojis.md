@@ -14,7 +14,7 @@
     * Emojis are not specified in the [`Prompted@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>) message.
         * Thus, [Host 🤗 domains](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) can send simple strings to [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
   
-    * However, NLWeb advocates for emojis.
+    * However, PollyWeb advocates for emojis.
         * They align with human's non-verbal communication, from wish our brain process the underlying meaning of ambiguous text-only sentences. 
             * e.g., who never misunderstood an ambiguous and apparently threatening text conversation, to  immediately clarify in the first 3 seconds of a follow-up video call with a very friendly 🤗 and joyful 😃 sender on the other end of call?
         * Emojis also reduce brain effort when reading and interpreting text.

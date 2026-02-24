@@ -9,7 +9,7 @@
 
 ---
 
-💬 NLWeb's approach is to generalize the user experience at airports to any in-person ID verification, while delegating to public entities the biometric verification step.
+💬 PollyWeb's approach is to generalize the user experience at airports to any in-person ID verification, while delegating to public entities the biometric verification step.
 
 - By delegation verifications to users' trusted nations, the ecosystem scales globally.
 - Because each nation verifies their citizens, the ecosystem remains law compliant.

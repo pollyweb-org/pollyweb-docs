@@ -5,7 +5,7 @@
 
 1. **How do domains avoid interacting with bad actors?**
 
-    The NLWeb implements a domain trust framework that allows:
+    The PollyWeb implements a domain trust framework that allows:
     * [sender domains 📤](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) to know if they can [trust 🫡](<🫡 Domain Trust.md>) a [receiver domain 📥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a specific [Schema 🧩](<../Codes 🧩/🧩 Schema Code.md>) path - e.g. `pollyweb.org/PERSONA/*`, and vice-versa.
     
     For example:
@@ -83,7 +83,7 @@
 
 1. **How is it related to the Gaia-X initiative?**
 
-    The NLWeb and the *Gaia-X Trust Frameworks* share the same goal: to safeguard data protection, transparency, security, portability, and flexibility within their ecosystems. 
+    The PollyWeb and the *Gaia-X Trust Frameworks* share the same goal: to safeguard data protection, transparency, security, portability, and flexibility within their ecosystems. 
     * However, they have different geopolitical ambitions and technical approaches.
 
     ---

@@ -88,7 +88,7 @@
 
 1. **When does a Padlock considers a sequence expired?**    
 
-    NLWeb advocates for 24 horas, although [🔐 KeyMakers](<../../45 🤲 Helper domains/Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) may define different intervals or allow Padlock owners to set their own expiration interval.
+    PollyWeb advocates for 24 horas, although [🔐 KeyMakers](<../../45 🤲 Helper domains/Keymakers 🔐/05  🔐🏭 Keymaker supplier.md>) may define different intervals or allow Padlock owners to set their own expiration interval.
 
     ---
 

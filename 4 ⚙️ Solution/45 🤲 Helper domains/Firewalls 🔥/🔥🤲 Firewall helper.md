@@ -36,7 +36,7 @@
 1. **Do Firewalls monitor Listeners and Graphs?**
 
     Yes. 
-    * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) and [Graph 🕸 domain streams](<../Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) to monitor their robustness, reliability, and conformity to the NLWeb protocol, revoking their [Trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) when necessary;
+    * [Firewall 🔥 helper domains](<🔥🤲 Firewall helper.md>) subscribe to [Listener 👂 domain streams](<../Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) and [Graph 🕸 domain streams](<../Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) to monitor their robustness, reliability, and conformity to the PollyWeb protocol, revoking their [Trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) when necessary;
         * e.g., compare information about a random [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) in three or more [Listener 👂 domains](<../Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) or [Graph 🕸 domains](<../Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) to identify discrepancies.
 
     ---
@@ -53,7 +53,7 @@
 1. **Do Firewalls report on suspicions before blocking?**
 
     No. 
-    * NLWeb advocates the usage of [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to assess the level of trustworthiness of another [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
+    * PollyWeb advocates the usage of [Reviewer ⭐ domains](<../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to assess the level of trustworthiness of another [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 
     ---
     <br/>

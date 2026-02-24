@@ -10,7 +10,7 @@
 - and when remote areas where there are no nearby mobile antennas.
 
 
-💬 NLWeb assumes that internet connectivity is available in all use cases. 
+💬 PollyWeb assumes that internet connectivity is available in all use cases. 
 
 - While this is not true today, it seems inevitable in a near future.
 - Airports, airplanes, and underground stations are already enabling Wi-Fi and 5G.

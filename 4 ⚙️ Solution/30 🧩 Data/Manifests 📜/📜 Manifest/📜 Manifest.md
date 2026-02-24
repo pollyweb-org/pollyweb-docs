@@ -4,7 +4,7 @@
 
 1. **How do domains publicize their identity?**
 
-    In NLWeb, [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) publish their metadata in the form a [domain Manifest 📜](<📜 Manifest.md>).
+    In PollyWeb, [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) publish their metadata in the form a [domain Manifest 📜](<📜 Manifest.md>).
 
     ---
     <br/>
@@ -12,7 +12,7 @@
 
 1. **How can a domain inspect another domain's Manifest?**
 
-    [Domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) leverage Manifest 📜 caches, called [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>), that keep up-to-date representations of NLWeb [domain Manifests 📜](<📜 Manifest.md>).
+    [Domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) leverage Manifest 📜 caches, called [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>), that keep up-to-date representations of PollyWeb [domain Manifests 📜](<📜 Manifest.md>).
     * Manifest queries to these [Graphs 🕸](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) are synchronous and expected to have millisecond latency.
     * This is similar to what DNS records do for Web 2.0, but with a more complex data schema. 
 

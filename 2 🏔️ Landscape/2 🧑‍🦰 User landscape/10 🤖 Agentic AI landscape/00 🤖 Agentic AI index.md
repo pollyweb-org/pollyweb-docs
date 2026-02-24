@@ -9,13 +9,13 @@
 ---
 
 🤔 However, a few parts were missing from the puzzle until now, e.g.:
-- first-party knowledge about the requester - tackled by NLWeb's 🗄️ [Vaults](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>);
-- third-party tool discovery by requesters - tackled by NLWeb's 📜 [Manifests](<../../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>);
-- and requester-initiated contracts - tackled by NLWeb's 📨 [Messages](<../../../4 ⚙️ Solution/30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
+- first-party knowledge about the requester - tackled by PollyWeb's 🗄️ [Vaults](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>);
+- third-party tool discovery by requesters - tackled by PollyWeb's 📜 [Manifests](<../../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>);
+- and requester-initiated contracts - tackled by PollyWeb's 📨 [Messages](<../../../4 ⚙️ Solution/30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>).
 
 ---
 
-💬 NLWeb sees delegation with the following combination:
+💬 PollyWeb sees delegation with the following combination:
 - user assistants, responsible for:
     - **user interaction** - speaks with the user in natural language;
     - **user privacy** - serves as a trusted broker to the user's data;

@@ -5,7 +5,7 @@
 
 1. **What are Locators?**
 
-    In NLWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<🔆 Locator.md>) that opens a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
+    In PollyWeb, non-humans (e.g., organizations, places, objects, animals) are represented by a [Locator 🔆](<🔆 Locator.md>) that opens a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with a [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
     * It may be a [QR code ✨](<🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>), an [NFC tag 🔆](<🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>), a [Web link 🌐](<🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>), or a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) option.
     * Users can [tap 🔆](<🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>), [scan ✨](<🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>), [click 🌐](<🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>), or [select 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) them.
 
@@ -82,7 +82,7 @@
     User's best option to detect whether a [Locator 🔆](<🔆 Locator.md>) is genuine or fake, is to see if it opens their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) or if it opens a web page.
 
     - If it opens their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), then they'll know that all messages will safely go through a trustworthy [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>).
-    - Instead, if the [Locator 🔆](<🔆 Locator.md>) opens a web page, then it's most probably not an NLWeb [Locator 🔆](<🔆 Locator.md>).
+    - Instead, if the [Locator 🔆](<🔆 Locator.md>) opens a web page, then it's most probably not an PollyWeb [Locator 🔆](<🔆 Locator.md>).
     - Exceptionally, users will be directed to the `pollyweb.org` website if they do not have a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed on their smartphone.
 
     Given that the [Wallet's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:

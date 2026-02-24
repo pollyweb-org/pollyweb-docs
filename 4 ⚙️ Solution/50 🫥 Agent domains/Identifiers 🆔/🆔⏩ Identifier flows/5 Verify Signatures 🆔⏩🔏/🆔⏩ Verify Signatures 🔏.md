@@ -9,9 +9,9 @@ TODO: Create the API methods
 
 <br/> 
 
-1. **How does NLWeb address digital signatures**?
+1. **How does PollyWeb address digital signatures**?
 
-    NLWeb advocates for senders to transfer files in PDF and PNG with a signature that receivers can verify 
+    PollyWeb advocates for senders to transfer files in PDF and PNG with a signature that receivers can verify 
     * these two formats accept metadata and cover the majority of use cases where paper was traditionally used before computers became ubiquitous, from contracts to photographs.
 
     ---
@@ -46,7 +46,7 @@ TODO: Create the API methods
 1. **How do users sign a document?**
 
 
-    On NLWeb, documents are files (e.g., PDF, PNG) 
+    On PollyWeb, documents are files (e.g., PDF, PNG) 
     * this allows users to visualize the full final version of the document, similar to what humans do today with any paper document. 
 
     A user signature is an offline [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by an [Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) that they [trust 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) confirming that:

@@ -6,7 +6,7 @@
 
 ---
 
-💬 NLWeb advocates for the transformation of apps into natural language-based systems to make smart glasses more intuitive, hands-free, and accessible. 
+💬 PollyWeb advocates for the transformation of apps into natural language-based systems to make smart glasses more intuitive, hands-free, and accessible. 
 - AI-driven interactions would replace screens, enabling seamless AR, real-time assistance, and context-aware responses. 
 - This shift reduces hardware constraints, expands accessibility, and accelerates adoption, but requires improvements in AI, privacy, and connectivity.
 

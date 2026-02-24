@@ -14,7 +14,7 @@
 
 ---
 
-💬 NLWeb advocates for the third option, on all customer-to-business interactions, regardless of being human-to-human or human-to-machine.    
+💬 PollyWeb advocates for the third option, on all customer-to-business interactions, regardless of being human-to-human or human-to-machine.    
 - Until recently, humans were forced to use forms and clicks because machines didn't understand natural language.
 
 ---

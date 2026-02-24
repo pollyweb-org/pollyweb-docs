@@ -7,7 +7,7 @@
 
 1. **How do client-side validations work?**
 
-    NLWeb does not guarantee client-side validations.
+    PollyWeb does not guarantee client-side validations.
 
     * It's close to impossible to enforce [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to comply with the rules across a large landscape of vendors and user interface (UI) technologies: 
         * e.g., web browsers, mobile operating systems, shell consoles.

@@ -146,14 +146,14 @@
 1. **Does pollyweb.org define Schema Codes?**
 
     Yes. 
-    - The NLWeb protocol is supported by a set of [Schema Codes 🧩](<🧩 Schema Code.md>) defined in the `pollyweb.org` [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>). 
+    - The PollyWeb protocol is supported by a set of [Schema Codes 🧩](<🧩 Schema Code.md>) defined in the `pollyweb.org` [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>). 
     
-    - This high-level manifest includes the schema definition for all communications explicitly supported by the core NLWeb protocol, but also a set of auxiliary schemas used to implement various business use cases. 
+    - This high-level manifest includes the schema definition for all communications explicitly supported by the core PollyWeb protocol, but also a set of auxiliary schemas used to implement various business use cases. 
 
     ---
     <br/>
 
-1. **Is the NLWeb Manifest a single point of failure?**
+1. **Is the PollyWeb Manifest a single point of failure?**
 
     No. 
     - [Domains 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) don't need `pollyweb.org` to be online to access its [domain Manifest 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) (nor the one of any other [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>), for that matter).
@@ -163,7 +163,7 @@
     <br/>
 
 
-1. **Are NLWeb Schema definitions compatible with JSON Schema?**
+1. **Are PollyWeb Schema definitions compatible with JSON Schema?**
 
     Yes. 
     - PollyWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.

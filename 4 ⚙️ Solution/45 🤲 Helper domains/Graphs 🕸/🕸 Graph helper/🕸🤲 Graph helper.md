@@ -31,7 +31,7 @@
     <br/>
 
 
-1. **How are NLWeb Graphs updated?**
+1. **How are PollyWeb Graphs updated?**
 
     ![](<🕸🏞️ Graph img.png>)
 
@@ -39,7 +39,7 @@
 
     - Domains have the responsibility to raise an event every time they publish a new version of their [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) or [📨 DKIM](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>). 
     
-    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>), NLWeb provides a cluster of [Listener 👂 nodes](<../../Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) for [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<🕸🤲 Graph helper.md>) to receive notifications from. 
+    - To allow any graph to subscribe to changes in any [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>), PollyWeb provides a cluster of [Listener 👂 nodes](<../../Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) for [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to publish change notifications to, and for [Graph 🕸 domains](<🕸🤲 Graph helper.md>) to receive notifications from. 
     
     - Upon receiving a notification, [Graph 🕸 domains](<🕸🤲 Graph helper.md>) update their graph representations. 
 
@@ -48,9 +48,9 @@
 
 1. **Are Graphs like a self-sovereign identity (SSI) ledger?**
 
-    No. NLWeb doesn't use ledgers nor [decentralized identifiers (DIDs) 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>). 
-    * Instead of DIDs, NLWeb uses DNS and the web's Public Key Infrastructure (PKI) to identify domains — thus, it doesn't need an additional database for registration and discovery. 
-    * [Graph 🕸 domains](<🕸🤲 Graph helper.md>) are cached representations of the NLWeb, contributing to maximizing performance, resilience, and onboarding.
+    No. PollyWeb doesn't use ledgers nor [decentralized identifiers (DIDs) 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>). 
+    * Instead of DIDs, PollyWeb uses DNS and the web's Public Key Infrastructure (PKI) to identify domains — thus, it doesn't need an additional database for registration and discovery. 
+    * [Graph 🕸 domains](<🕸🤲 Graph helper.md>) are cached representations of the PollyWeb, contributing to maximizing performance, resilience, and onboarding.
 
     ---
     <br/>
@@ -81,7 +81,7 @@
     ---
     <br/>
 
-1. **How is a new NLWeb trust graph populated?**
+1. **How is a new PollyWeb trust graph populated?**
 
     Whenever a new [Graph 🕸 domain](<🕸🤲 Graph helper.md>) is "born", 
     * it can ask a [Listener 👂 domain](<../../Listeners 👂/👂 Listener helper/👂🤲 Listener helper.md>) 

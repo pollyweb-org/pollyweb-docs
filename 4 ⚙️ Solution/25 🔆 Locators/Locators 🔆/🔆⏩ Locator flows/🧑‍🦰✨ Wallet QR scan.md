@@ -5,9 +5,9 @@
 
 ## FAQ
 
-1. **How can website developers render an NLWeb QR?**
+1. **How can website developers render an PollyWeb QR?**
 
-    Website developers can use NLWeb's proxy at `pollyweb.org/go`;
+    Website developers can use PollyWeb's proxy at `pollyweb.org/go`;
     - e.g., a [Locator 🔆](<../🔆 Locator.md>)Locator `XPTO` is defined as an HTML image with source `https://pollyweb.org/go/XPTO`. 
     
     If in a mobile web browser, the proxy renders a button; 
@@ -17,11 +17,11 @@
     ---
     <br/>
 
-1. **How do Wallet apps scan an NLWeb QR?**
+1. **How do Wallet apps scan an PollyWeb QR?**
 
-    An NLWeb QR contains a redirect URL starting with `https://pollyweb.org/go/`. 
+    An PollyWeb QR contains a redirect URL starting with `https://pollyweb.org/go/`. 
     
-    * When a user scans the QR with an NLWeb Wallet app, the Wallet reads the [Locator 🔆](<../🔆 Locator.md>) from the URL and opens a chat with the Locator's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
+    * When a user scans the QR with an PollyWeb Wallet app, the Wallet reads the [Locator 🔆](<../🔆 Locator.md>) from the URL and opens a chat with the Locator's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 
 
     ---
@@ -29,7 +29,7 @@
 
 1. **What if users use the default QR reader instead?**
 
-    If a user with an NLWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed decides to use the mobile device's default QR scanner instead (e.g., Google Lens in Android) then a web browser opens the NLWeb HTTPS proxy (e.g., `https://pollyweb.org/go/ABC`), which in turn redirect to a `pollyweb` URL, signaling the OS to open the Wallet - the Wallet then opens with a chat to the QR's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
+    If a user with an PollyWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed decides to use the mobile device's default QR scanner instead (e.g., Google Lens in Android) then a web browser opens the PollyWeb HTTPS proxy (e.g., `https://pollyweb.org/go/ABC`), which in turn redirect to a `pollyweb` URL, signaling the OS to open the Wallet - the Wallet then opens with a chat to the QR's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
     - Wallets should identify this redirect and educate users to prefer using the Wallet to perform the QR scan.
 
 
@@ -38,14 +38,14 @@
 
 1. **What if users without a Wallet scan a QR?**
 
-    If a user doesn't have an NLWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed and scans an NLWeb QR with the mobile device's default QR scanner (e.g., Google Lens in Android) then a web browser will open on `https://pollyweb.org/install` educating the user to find and install a compatible NLWeb app. 
+    If a user doesn't have an PollyWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed and scans an PollyWeb QR with the mobile device's default QR scanner (e.g., Google Lens in Android) then a web browser will open on `https://pollyweb.org/install` educating the user to find and install a compatible PollyWeb app. 
 
     ---
     <br/>
 
-1. **What's NLWeb view on entitlement QR codes?**
+1. **What's PollyWeb view on entitlement QR codes?**
 
-    NLWeb is generally against entitlement QR codes;
+    PollyWeb is generally against entitlement QR codes;
 
     - these are one-time QR codes that customers need to present to other users or machines to prove entitlement;
     - example #1: an online-store may ask customers to present a one-time pick-up QR code upon delivery by the courier, to prove that the entitlement of the recipient to receive the package;
@@ -58,15 +58,15 @@
     - customers with a working phone may also face difficulties, with QR scanners unable to read QR codes from low-light and/or auto-rotating screens;
     - often, well-intended airport security personal take the phone out of the customer's hand to scan the QR on their behalf, raising the risk of dropping and breaking the phone.
   
-    On NLWeb, QR codes are to be scanned by customers, not businesses;
+    On PollyWeb, QR codes are to be scanned by customers, not businesses;
     - i.e., apart from rare exceptions where two [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) are co-operating, users are not required present a QR.
 
     ---
     <br/>
 
-1. **What's NLWeb view on pin codes for entitlement?**
+1. **What's PollyWeb view on pin codes for entitlement?**
 
-    NLWeb generally advocates for simple pin codes for entitlement;
+    PollyWeb generally advocates for simple pin codes for entitlement;
 
     - these are short strings off letters and numbers for confirming a previous step;
     - they also commonly referred as "one-time passwords", or OTPs;
@@ -90,7 +90,7 @@
     - pin codes don't fit this requirement because they can be easily shared with anyone else; 
     - for example, a child will be able to by alcohol on vending machine by scanning their parent's identification document, if only requested to provide their parent's pin as confirmation.
 
-    Note that NLWeb does not enforce the usage of pins and biometric validation for entitlement confirmation;
+    Note that PollyWeb does not enforce the usage of pins and biometric validation for entitlement confirmation;
     - i.e., the choice to use pins and/or biometrics falls into the custom defined workflow of each business;
     - PollyWeb does provide [Chat 💬 prompts](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) to render OTPs and face scans;
     

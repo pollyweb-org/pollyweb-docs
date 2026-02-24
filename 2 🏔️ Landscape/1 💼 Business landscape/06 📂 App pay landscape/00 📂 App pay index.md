@@ -1,7 +1,7 @@
 📂 Payment apps landscape
 ===
 
-💬 NLWeb advocates for payment simplicity for the benefit of users:
+💬 PollyWeb advocates for payment simplicity for the benefit of users:
 
 - Inversion of control in the available payment options;
     - i.e., consumers may always use their home payment provider, regardless of the country they are traveling to for holidays.

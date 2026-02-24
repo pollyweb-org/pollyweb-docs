@@ -7,7 +7,7 @@
 
 
 ---
-💬 NLWeb advocates for users to search for products and services:
+💬 PollyWeb advocates for users to search for products and services:
 - with any trusted search engine of their choice;
 - disclosing ambient preferences and context;
 - and communicating with natural language and images.

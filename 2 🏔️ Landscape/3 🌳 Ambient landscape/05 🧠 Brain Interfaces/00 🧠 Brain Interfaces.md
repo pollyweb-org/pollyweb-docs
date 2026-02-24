@@ -6,7 +6,7 @@
 
 ---
 
-💬 NLWeb advocates for transforming all apps into natural language-based systems.
+💬 PollyWeb advocates for transforming all apps into natural language-based systems.
 - This would greatly enhance BCI by enabling seamless, intuitive brain-to-app interactions. 
 - Instead of complex commands, users could think in natural language. 
 - AI-driven context understanding would optimize responses, reducing cognitive load and accelerating BCI adoption.

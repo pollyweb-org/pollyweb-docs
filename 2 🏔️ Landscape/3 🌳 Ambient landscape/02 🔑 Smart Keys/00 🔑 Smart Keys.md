@@ -27,7 +27,7 @@
     
 ---
 
-💬 NLWeb advocates for a combination of:
+💬 PollyWeb advocates for a combination of:
 
 - 🔑 Active key holders:
     - run on a semi-connected smart device (e.g., watch, phone);

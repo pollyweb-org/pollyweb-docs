@@ -12,7 +12,7 @@
 
     ![](<💳 Payer agent.png>)
 
-    On NLWeb, payment transactions with users are handled between:
+    On PollyWeb, payment transactions with users are handled between:
     * [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) -  these are [Consumer 💼](<../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) domains that request payments;
     * Payers 💳 - these are user-bound [Vaults 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) with access to the user's money; and
     * [Collector 🏦 helpers](<../../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) - these are [Helper 🤲 domains](<../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) able to deposit money on the [Sellers 💵](<../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) bank account. 
@@ -59,7 +59,7 @@
     - Users should ask their Payer 💳 domain for the receipt:
         - e.g., a payment gateway may allow the receipts to be downloaded from the transaction list on their website, or they can send each receipt to a chat window every time there is a payment. 
     
-    - For user data protection and device storage optimization, NLWeb discourages domains from sending receipts via chat to be downloaded on the device.
+    - For user data protection and device storage optimization, PollyWeb discourages domains from sending receipts via chat to be downloaded on the device.
 
     ---
     <br/>

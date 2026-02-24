@@ -4,7 +4,7 @@
 
 🎯 Digital ID wallets allow users to replace a physical wallet by a digital one, aggregating all of the user's digital methods of identification, authorization, and payment.
 
-- 💬 NLWeb's approach is to leverage and extend the existing concepts for digital ID wallets, incorporating chat features similar to those found on Meta's WhatsApp.
+- 💬 PollyWeb's approach is to leverage and extend the existing concepts for digital ID wallets, incorporating chat features similar to those found on Meta's WhatsApp.
 
 ---
 

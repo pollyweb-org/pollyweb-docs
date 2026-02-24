@@ -9,7 +9,7 @@
 
 1. **What is a Tapband?**
 
-    In NLWeb, Tapbands are smart bands with the following features:
+    In PollyWeb, Tapbands are smart bands with the following features:
 
     - **Semi-online**: 
         - is able to periodically connect to the internet 

@@ -24,7 +24,7 @@
 
 - When a consumer is using the business premise (e.g., relaxing in table):
     - they want to be able to remain online, even if in an underground facility;
-    - for this, NLWeb leverages the passwordless experiences provided by the [Wi-Fi Alliance](<06 📺 Wi-fi easy connect.md>).
+    - for this, PollyWeb leverages the passwordless experiences provided by the [Wi-Fi Alliance](<06 📺 Wi-fi easy connect.md>).
 
 - When a business interacts with other businesses (e.g., to buy coffee grains):
     - they want to be able to perform a transaction without needing to fill a registration form;
@@ -34,7 +34,7 @@
 
 ---
 
-💬 NLWeb advocates for:
+💬 PollyWeb advocates for:
 - a protocol like Chrome's passkey between consumers and businesses;
 - and a protocol like email server authentication between businesses. 
 
