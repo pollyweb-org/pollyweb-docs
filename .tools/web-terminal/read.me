@@ -12,3 +12,22 @@ python .tools/web-terminal/main.py
 When the window appears, type a message and press the **Send & Close** button to print it in the terminal (the window will close automatically), or close it using the title-bar control / `Ctrl+C`.
 
 If you hit `ImportError: WKScriptMessageHandler`, upgrade PyObjC with `python -m pip install --upgrade pyobjc-framework-WebKit` and retry.
+
+## Prevent committing secrets
+
+- Common secret file patterns are now in `.gitignore`.
+- To scan for secrets before every commit, set up [git-secrets](https://github.com/awslabs/git-secrets) or a [pre-commit hook](https://pre-commit.com/):
+
+```shell
+# Install git-secrets
+brew install git-secrets
+cd /Users/jorgemf/Git/nlweb-docs
+git secrets --install
+# Add patterns for tokens/keys
+git secrets --add 'password|secret|token|key|api|credential|private|auth|client_id|client_secret'
+```
+
+# Or use pre-commit
+pip install pre-commit
+pre-commit install
+# Add a secret scanning hook in .pre-commit-config.yaml
