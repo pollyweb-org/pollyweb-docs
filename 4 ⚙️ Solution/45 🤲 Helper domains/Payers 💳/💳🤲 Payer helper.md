@@ -1,7 +1,7 @@
 💳🛠️ Payer helper
 ===
 
-1. **What is a Payer helper in NLWeb?**
+1. **What is a Payer helper in PollyWeb?**
    
     Payer 💳🤲 Helpers 
     * are [Payer 🎭 domains](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) 

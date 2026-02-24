@@ -20,7 +20,7 @@
 
     Handlers: # where to forward messages to.
         dev: https://quiet-lane-3168.grok.app 
-        prod: https://my-domain.dom/nlweb/prod/inbox
+        prod: https://my-domain.dom/pollyweb/prod/inbox
         $: $prod # if no key is provided, run prod.
     ```
 

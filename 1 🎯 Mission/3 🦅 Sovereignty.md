@@ -3,7 +3,7 @@
 
 > NLWeb envisions a new era of the internet built on trust, resilience, and sovereignty. 
 - This sovereignty pledge outlines the guidelines to provide users, businesses, and governments with greater control over their data and digital presence. 
-- NLWeb prioritizes privacy, security, and localized governance, ensuring every stakeholder retains autonomy in a connected world.
+- PollyWeb prioritizes privacy, security, and localized governance, ensuring every stakeholder retains autonomy in a connected world.
 
 
 > The NLWeb sovereignty pledge focuses on three main stakeholders:

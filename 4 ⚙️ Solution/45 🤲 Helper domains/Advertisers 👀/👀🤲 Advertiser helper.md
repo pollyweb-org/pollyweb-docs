@@ -3,7 +3,7 @@
 👀 Advertiser helper domains
 ===
 
-1. **What is an Advertiser helper domain in NLWeb?**
+1. **What is an Advertiser helper domain in PollyWeb?**
 
     Advertisers 👀 are [Helper 🤲 domains](<../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) that intermediate the registration, distribution, and payment flows for ads on NLWeb. 
 

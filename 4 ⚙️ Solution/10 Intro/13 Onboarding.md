@@ -12,7 +12,7 @@ Onboarding
 
     ---
 
-1. **What are the steps for a user to onboard NLWeb?**
+1. **What are the steps for a user to onboard PollyWeb?**
 
     1. Install an NLWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) from an app store;
     1. Fill out the [Persona 🧢 agent](<../50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) agent with standard data sets;
@@ -21,7 +21,7 @@ Onboarding
 
     ---
 
-1. **What is the effort for organizations to onboard NLWeb?**
+1. **What is the effort for organizations to onboard PollyWeb?**
 
     The main effort will be on enablement, workflow customization, and integration with the organization's downstream services. 
     - Organizations can leverage the NLWeb Stack to bootstrap, which includes a [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), deployment services, and support services. 
@@ -29,7 +29,7 @@ Onboarding
 
     ---
 
-1. **What are the steps for a Seller to onboard NLWeb?**
+1. **What are the steps for a Seller to onboard PollyWeb?**
 
     1. Bootstrap the [Seller 💵](<../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) domain (e.g., pw.any-seller.dom);
     2. Integrate the [Collector 🏦](<../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) with the organization's bank and ERP;
@@ -43,12 +43,12 @@ Onboarding
 1. **Can NLWeb be integrated into existing apps?**
 
     Yes. 
-    - NLWeb can be added as a chat window to an existing mobile app, allowing the user to interact with the service via text. 
+    - PollyWeb can be added as a chat window to an existing mobile app, allowing the user to interact with the service via text. 
     - The chat component must support the minimum feature requirements for chat over the NLWeb protocol.
 
     ---
 
-1. **Do wallets from Google, Apple, and the EU support NLWeb?**
+1. **Do wallets from Google, Apple, and the EU support PollyWeb?**
 
     No. 
     - As of 2025, these wallets don't support the NLWeb protocol.

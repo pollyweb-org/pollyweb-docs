@@ -1,7 +1,7 @@
 🤗 Host domain role
 ===
 
-1. **What is a Host domain role in NLWeb?**
+1. **What is a Host domain role in PollyWeb?**
 
     A [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a [Host 🤗 domain role](<🤗🎭 Host role.md>) is any [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) that
     * hosts a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) 
@@ -88,7 +88,7 @@
 
     - Unencrypted JSON requests sent over HTTPS are a standard practice in the service APIs of the major cloud providers (e.g., AWS, GCP), and are widely viewed as secure.
 
-    - NLWeb relies on the HTTPS ability to continue to evolve has [post-quantum 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/10 📺 Post-quantum keys.md>) cryptography attacks become more sophisticated.
+    - PollyWeb relies on the HTTPS ability to continue to evolve has [post-quantum 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/10 📺 Post-quantum keys.md>) cryptography attacks become more sophisticated.
 
     ---
     <br/>

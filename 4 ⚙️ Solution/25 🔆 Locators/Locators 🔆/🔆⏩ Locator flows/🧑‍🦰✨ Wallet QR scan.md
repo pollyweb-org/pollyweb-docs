@@ -29,7 +29,7 @@
 
 1. **What if users use the default QR reader instead?**
 
-    If a user with an NLWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed decides to use the mobile device's default QR scanner instead (e.g., Google Lens in Android) then a web browser opens the NLWeb HTTPS proxy (e.g., `https://pollyweb.org/go/ABC`), which in turn redirect to a `nlweb` URL, signaling the OS to open the Wallet - the Wallet then opens with a chat to the QR's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
+    If a user with an NLWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed decides to use the mobile device's default QR scanner instead (e.g., Google Lens in Android) then a web browser opens the NLWeb HTTPS proxy (e.g., `https://pollyweb.org/go/ABC`), which in turn redirect to a `pollyweb` URL, signaling the OS to open the Wallet - the Wallet then opens with a chat to the QR's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
     - Wallets should identify this redirect and educate users to prefer using the Wallet to perform the QR scan.
 
 
@@ -92,7 +92,7 @@
 
     Note that NLWeb does not enforce the usage of pins and biometric validation for entitlement confirmation;
     - i.e., the choice to use pins and/or biometrics falls into the custom defined workflow of each business;
-    - NLWeb does provide [Chat 💬 prompts](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) to render OTPs and face scans;
+    - PollyWeb does provide [Chat 💬 prompts](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) to render OTPs and face scans;
     
     Consider the following workflow examples with pin usage:
     <!-- TODO: add examples -->

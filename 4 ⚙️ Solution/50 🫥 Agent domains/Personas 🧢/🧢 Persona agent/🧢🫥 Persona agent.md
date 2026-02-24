@@ -2,7 +2,7 @@
 ===
 
 
-1. **What is a Persona in NLWeb?**
+1. **What is a Persona in PollyWeb?**
 
     A [Persona 🧢 domain](<🧢🫥 Persona agent.md>) is an [Agent 🫥 vault](<../../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) specialized in user preferences.
 

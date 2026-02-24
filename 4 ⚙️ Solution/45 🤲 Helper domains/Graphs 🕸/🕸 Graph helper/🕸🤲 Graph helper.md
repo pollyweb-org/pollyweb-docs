@@ -1,7 +1,7 @@
 🕸 Graph helper domains
 ===
 
-1. **What is a Graph domain in NLWeb?**
+1. **What is a Graph domain in PollyWeb?**
 
     A [Graph 🕸 domain](<🕸🤲 Graph helper.md>) is 
     * any [Helper 🤲 domain](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) 

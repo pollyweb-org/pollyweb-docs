@@ -3,7 +3,7 @@
 
 ![](<⭐⚙️ Reviewer uml.png>)
 
-1. **What is a Reviewer domain in NLWeb?**
+1. **What is a Reviewer domain in PollyWeb?**
 
     A Reviewer ⭐ is a [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) domain that holds user feedback about other domains. 
     - Feedback includes ratings (e.g., 5 stars), comments, reports of improper behavior, and others.

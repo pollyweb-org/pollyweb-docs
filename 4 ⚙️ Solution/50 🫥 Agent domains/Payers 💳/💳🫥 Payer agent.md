@@ -1,7 +1,7 @@
 💳🫥 Payer agent
 ===
 
-1. **What is a Payer agent in NLWeb?**
+1. **What is a Payer agent in PollyWeb?**
 
     Payer agents are [Payer 💳 domains](<../../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) that act as [Agent 🫥 vault domains](<../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) for users with [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), interacting in [Chats 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Seller 💵 host domains](<../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>).
 

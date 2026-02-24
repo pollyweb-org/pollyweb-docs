@@ -1,7 +1,7 @@
 👥 Domains
 ===
 
-1. **What is a Domain in NLWeb?**
+1. **What is a Domain in PollyWeb?**
 
     In NLWeb, a [domain 👥](<👥 Domain.md>) is any public web service that
     * sends and receives domain [Messages 📨](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)

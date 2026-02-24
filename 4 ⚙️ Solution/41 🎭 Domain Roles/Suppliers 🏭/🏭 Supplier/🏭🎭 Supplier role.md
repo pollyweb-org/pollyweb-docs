@@ -3,7 +3,7 @@
 
 
 
-1. **What is a Supplier domain role in NLWeb?**
+1. **What is a Supplier domain role in PollyWeb?**
 
     A [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a [Supplier 🏭 role](<🏭🎭 Supplier role.md>) is 
     * an [Integrator 🪢 domain](<../../Integrators 🪢/🪢🎭 Integrator role.md>) 

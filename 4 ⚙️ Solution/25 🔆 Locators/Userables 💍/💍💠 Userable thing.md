@@ -1,7 +1,7 @@
 💍 Userable Things
 ===
 
-1. **What are Userable Things in NLWeb?**
+1. **What are Userable Things in PollyWeb?**
     
     [Userables 💍](<💍💠 Userable thing.md>) are [Things 💠](<../Things 💠/💠🔆 Thing locator.md>) 
     * that [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) embedded into objects for a user to carry 

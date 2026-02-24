@@ -1,7 +1,7 @@
 💳🎭 Payer domain role
 ===
 
-1. **What is a Payer domain in NLWeb?**
+1. **What is a Payer domain in PollyWeb?**
 
     A Payer 💳 is any [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) that sends payments to [Collector 🏦 domains](<../../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) under two categories:
 
@@ -64,7 +64,7 @@
 1. **How does it differ from India's ONDC?**
 
     The [Open Network for Digital Commerce (ONDC) 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>) is a centralized shared network specific for the retail industry in India. 
-    - NLWeb can also address that niche, 
+    - PollyWeb can also address that niche, 
         - but NLWeb os a generalist, global, and distributed protocol based on natural language.  
     - Conversely, NLWeb is against any form of central governance for payments 
         - i.e., there should be multiple channels for [Payer 💳 domains](<💳🎭 Payer role.md>) and [Collector 🏦 domains](<../../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) to communicate;
@@ -76,7 +76,7 @@
 1. **Does NLWeb allow a user to type a credit card number?**
 
     Although technically possible, it is highly discouraged. 
-    - NLWeb advocates for minimum user-typing during a transaction. 
+    - PollyWeb advocates for minimum user-typing during a transaction. 
     - Instead, businesses should rely on the user's payment vaults to handle the payment in a standard frictionless way within the check-out phase.
 
     ---

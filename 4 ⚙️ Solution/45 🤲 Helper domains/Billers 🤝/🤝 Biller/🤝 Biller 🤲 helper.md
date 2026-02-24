@@ -3,7 +3,7 @@
 
 
 
-1. **What is a Biller domain in NLWeb?**
+1. **What is a Biller domain in PollyWeb?**
 
     A Biller 🤝 is 
     * a [Helper 🤲 domain](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) 

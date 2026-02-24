@@ -1,7 +1,7 @@
 🔌🎭 Integrator domain role
 ===
 
-1. **What is an Integrator domain role in NLWeb?**
+1. **What is an Integrator domain role in PollyWeb?**
 
     An Integrator is any [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) 
     * that exposes a public API 

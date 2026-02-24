@@ -3,7 +3,7 @@
 
 
 
-1. **What is a Notifier domain in NLWeb?**
+1. **What is a Notifier domain in PollyWeb?**
 
     A [Notifier 📣](<📣 Notifier 👥 domain.md>) is any backend-for-frontend (BFF) [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) that acts as a proxy for a [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>). 
     

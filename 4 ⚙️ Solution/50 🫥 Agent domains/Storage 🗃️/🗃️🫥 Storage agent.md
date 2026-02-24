@@ -3,7 +3,7 @@
 
 ![](<. 📎 Assets/🗃️ Storage.png>)
 
-1. **What is a Storage domain in NLWeb?**
+1. **What is a Storage domain in PollyWeb?**
 
     A [Storage 🗃️ domain](<🗃️🫥 Storage agent.md>) is a shared repository [Vault 🗄️](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) that users can subscribe to keep their data in the cloud, similar to Dropbox and Google Drive, with the intent of being shared with other services. 
 

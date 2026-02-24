@@ -3,7 +3,7 @@
 🖐️ Palmist domains
 ===
 
-1. **What is an Palmist domain in NLWeb?**
+1. **What is an Palmist domain in PollyWeb?**
 
 
     An Palmist 🖐️ domain is a [Supplier 🏭](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭 Supplier/🏭🎭 Supplier role.md>) of [Palmist 🖐️ device](<01 🖐️🔌 Palmist device.md>) that allow other domains to buy devices. 

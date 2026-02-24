@@ -1,7 +1,7 @@
 🔒 Padlock device
 ===
 
-1. **What is a Padlock in NLWeb?**
+1. **What is a Padlock in PollyWeb?**
 
     Padlocks are offline devices (i.e., internet connectivity) that open locks when users use a [🔑 KeyHolder](<../77 🔑 Keyholders/$ 🔑💠 Keyholder device.md>) device to tap on the Padlock.
 

@@ -1,7 +1,7 @@
 💼 Consumer domain role
 ===
 
-1. **What is a Consumer domain role in NLWeb?**
+1. **What is a Consumer domain role in PollyWeb?**
 
     Consumers 💼 
     * are [Host 🤗 domains](<../../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
@@ -97,7 +97,7 @@
 
     Yes. 
     
-    - NLWeb advocates for domains to ask [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) for the [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../../Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) when verifying [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>). 
+    - PollyWeb advocates for domains to ask [Graph 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) for the [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>) of the [Issuer 🎴 domain](<../../Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) when verifying [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>). 
 
     ---
     <br/>

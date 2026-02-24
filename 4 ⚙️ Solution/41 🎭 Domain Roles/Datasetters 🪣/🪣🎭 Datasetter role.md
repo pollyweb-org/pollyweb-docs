@@ -3,7 +3,7 @@
 
 ![](<.📎 Assets/🪣 Datasetter.png>)
 
-1. **What is a Datasetter domain role in NLWeb?**
+1. **What is a Datasetter domain role in PollyWeb?**
 
     A Datasetter is an [🪢 Integrator](<../Integrators 🪢/🪢🎭 Integrator role.md>) domain that exposes a synchronous data API. 
 
