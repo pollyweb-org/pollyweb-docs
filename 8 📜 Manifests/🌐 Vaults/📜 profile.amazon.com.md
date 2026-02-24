@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): profile.amazon.dom
-<!--# 🧢 https://quip.com/XsoCA8E6EEU9/-AnyPersonacom-->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

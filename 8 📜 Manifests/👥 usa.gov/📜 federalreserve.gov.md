@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): federalreserve.gov
-<!--# 🇺🇸 https://quip.com/VtTHA12LzVsr/-USAgov-->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

@@ -1,7 +1,7 @@
 <!-- TODO: replace call links -->
 
 # 😃 Talker domain role
-<!-- https://quip.com/J24GAMbu7HKF/-Talker -->
+
 
 > Implemented by [Hoster ☁️ helper domain](<../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️ Hoster 🤲 helper.md>)
 

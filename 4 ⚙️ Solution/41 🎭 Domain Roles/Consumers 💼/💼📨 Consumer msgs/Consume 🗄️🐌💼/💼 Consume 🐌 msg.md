@@ -1,4 +1,3 @@
-<!-- https://quip.com/UbokAEferibV#temp:C:Yfbbd64684ba1df4ea683cf4e49b -->
 # 🗄️🐌💼 Consume @ Consumer
 
 > Implementation

@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): biometrics.any-nation.dom
-<!--# 🏳️🆔 https://quip.com/KUnAAt2utXFQ/-AnyBiometricuk-->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

@@ -1,5 +1,3 @@
-<!-- https://quip.com/b8a0AHaXf3C6#temp:C:DPS9f5401c512ad42d89656f6b4e -->
-
 # 🧑‍🦰👉🗄️ Bind Vault @ Wallet 
 
 > Purpose

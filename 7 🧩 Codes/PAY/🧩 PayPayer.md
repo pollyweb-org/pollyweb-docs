@@ -12,8 +12,6 @@ Path: /PAY/PAYER
 Title: Payer
 Description: Share code for payers.
 
-References:
-  PollyWeb: 💳 https://quip.com/HyzNATeThi0Q/-PayNLWEBorg
 
 Translations:
   - Language: pt-br

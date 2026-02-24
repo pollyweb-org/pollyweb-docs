@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): hairdresser.any-business.dom
-<!-- # 🧪💈 https://quip.com/gs2UAKnJ0dz0/-Beauty-Hairdresser -->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

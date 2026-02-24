@@ -1,6 +1,5 @@
 
 # 📜 [Manifest](<../../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): europa.eu
-<!--# 🇪🇺 https://quip.com/bBbpAAGfOCIz/-Europaeu-->
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

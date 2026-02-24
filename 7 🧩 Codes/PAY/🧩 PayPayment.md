@@ -11,7 +11,4 @@
 Path: /PAY/PAYMENT
 Description: Charge request for sellers.
 
-References:
-  PollyWeb: 💳 https://quip.com/HyzNATeThi0Q/-PayNLWEBorg
-
 ```

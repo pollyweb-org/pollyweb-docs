@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): hhs.gov
-<!--# 🇺🇸🏥 https://quip.com/xt4NAtlVAjQJ/-HHSgov-->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

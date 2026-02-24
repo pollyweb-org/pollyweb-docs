@@ -1,6 +1,3 @@
-<!-- Docs: https://quip.com/zaYoA4kibXAP/-Broker-Wallets#temp:C:DQN1f2d80d98fdd4e69a98a32887 -->
-<!-- Source: https://github.com/jorgemjfonseca/domain-trust-framework/blob/143c4c876bdd0dd8b120bdfecf20ef6b268ad20f/python/roles/broker/BROKER_WALLETS.py#L40 -->
-
 <!-- TODO: add a script diagram -->
 
 # 📣🚀🤵 Onboard @ Broker

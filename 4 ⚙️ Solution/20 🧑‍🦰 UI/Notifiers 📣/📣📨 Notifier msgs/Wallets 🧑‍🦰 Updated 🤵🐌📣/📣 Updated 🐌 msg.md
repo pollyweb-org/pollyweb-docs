@@ -1,9 +1,3 @@
-
-<!-- Docs: https://quip.com/PCunAKUqSObO/-Notifier -->
-<!-- Source: -->
-<!-- Test: -->
-
-
 # 🤵🐌📣 Updated @ Notifier
 
 > Implements the [Notifier 📣 domain](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>)

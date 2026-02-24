@@ -1,5 +1,3 @@
-<!-- https://quip.com/YdJpA3idWduO#temp:C:afPf2204358162a42529b4a902e9 -->
-
 # 🧑‍🦰 `Save Token` ⏩ flow
 
 > Purpose

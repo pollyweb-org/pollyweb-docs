@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): health.any-nation.dom
-<!--# 🏳️🏥 https://quip.com/jneKAp8Lbg7M/-NHSuk-->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST
