@@ -204,7 +204,7 @@
     
 1. **How can users do selective disclosure?**
 
-    [Selective disclosure 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/07 📺 SSI selective disclosure.md>) (i.e., the ability for a user to select which fields to disclose from a given schema code) is not allowed by design on NLWeb. 
+    [Selective disclosure 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/07 📺 SSI selective disclosure.md>) (i.e., the ability for a user to select which fields to disclose from a given schema code) is not allowed by design on PollyWeb. 
     
     * Instead, PollyWeb advocates for purpose-driven datasets that are self-contained and requested under the principle of least-privilege, e.g.:
         - a hotel should not ask for all passport fields for a check-in; 

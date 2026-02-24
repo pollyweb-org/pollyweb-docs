@@ -5,7 +5,7 @@ Vendor Lock-in
 
 1. **Can a user surf PollyWeb with a browser other than Octan's?**
 
-    Yes, any compatible browser can be used to surf NLWeb.
+    Yes, any compatible browser can be used to surf PollyWeb.
 
 1. **Can organizations deploy on any cloud provider?**
 

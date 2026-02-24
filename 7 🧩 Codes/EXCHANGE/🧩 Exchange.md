@@ -8,6 +8,6 @@ Title: Exchange Group
 Description: Grouping, not intended to share.
 
 References:
-  NLWEB: 💰 https://quip.com/aFtfA9e0CqQX/-ExchangeNLWEBorg
+  PollyWeb: 💰 https://quip.com/aFtfA9e0CqQX/-ExchangeNLWEBorg
 
 ```

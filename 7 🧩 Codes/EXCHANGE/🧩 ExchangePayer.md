@@ -8,7 +8,7 @@ Title: Payer
 Description: Payer QR in an Exchange.
 
 References:
-  NLWEB: https://quip.com/aFtfA9e0CqQX/-ExchangeNLWEBorg
+  PollyWeb: https://quip.com/aFtfA9e0CqQX/-ExchangeNLWEBorg
 
 Blueprint:
   Inherits: pollyweb.org/LOCATOR:1.0      

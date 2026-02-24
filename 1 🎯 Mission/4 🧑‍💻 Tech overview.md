@@ -17,7 +17,7 @@ Shared responsibility
 
 User experience
 --
-> PollyWeb works with chat super-apps over an open protocol. A user only needs to install a single compatible chat app to have access to a multitude of businesses APIs available in the NLWeb. 
+> PollyWeb works with chat super-apps over an open protocol. A user only needs to install a single compatible chat app to have access to a multitude of businesses APIs available in the PollyWeb. 
 
 |  |  Email | Website | App | PollyWeb 
 | - | - | - | - | - 

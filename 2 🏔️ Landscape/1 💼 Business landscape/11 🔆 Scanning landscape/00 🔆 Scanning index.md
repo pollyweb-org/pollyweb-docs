@@ -25,7 +25,7 @@ To address fraud with URL redirect by replacing real QR codes with fake ones:
 
 ## 💬 Proposed solution
 
-NLWeb advocates QR/NFC usage with the following improvements.
+PollyWeb advocates QR/NFC usage with the following improvements.
 
 |Component|Objective
 |-|-

@@ -17,7 +17,7 @@
 
 1. **How does it help with data residency compliance?**
 
-    [Storage 🗃️ domains](<🗃️🫥 Storage agent.md>) align with the [NLWeb Sovereignty pledge 🦅](<../../../1 🎯 Mission/3 🦅 Sovereignty.md>) - e.g.:
+    [Storage 🗃️ domains](<🗃️🫥 Storage agent.md>) align with the [PollyWeb Sovereignty pledge 🦅](<../../../1 🎯 Mission/3 🦅 Sovereignty.md>) - e.g.:
     - to ensure data privacy compliance, a U.S. service can store the data of a German citizen in a Storage service hosted in the [AWS European Sovereign Cloud 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/10 📺 Sovereignty @ AWS.md>), which is managed by European staff and located within German borders.
 
     ---

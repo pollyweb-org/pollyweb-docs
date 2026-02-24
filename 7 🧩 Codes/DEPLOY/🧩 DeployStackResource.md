@@ -162,7 +162,7 @@ Blueprint:
 
           Name:
             description: Name of the parameter.
-            example: /NLWEB/Config/DomainName
+            example: /PollyWeb/Config/DomainName
             type: string
             
 

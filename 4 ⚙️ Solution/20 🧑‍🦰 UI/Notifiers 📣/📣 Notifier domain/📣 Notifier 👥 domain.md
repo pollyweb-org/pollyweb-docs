@@ -30,7 +30,7 @@
 
 1. **Do Notifier domains store user data?**
 
-    Not for NLWeb. 
+    Not for PollyWeb. 
     
     * In PollyWeb, domain orchestration is done by [Broker 🤵 domains](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>), and storage of user data is done by [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) domains, while a [Notifier 📣 domain's](<📣 Notifier 👥 domain.md>) only responsibility is to proxy [domain messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) to and from the [Broker 🤵 domain](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>). 
     

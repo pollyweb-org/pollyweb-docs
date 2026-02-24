@@ -111,7 +111,7 @@
     The following table compares some of the top payment technologies.
     * PollyWeb has a high security when we evaluate what the user has, is, and knows.
 
-    | Something<br/>the user | Apple<br/>Pay | Google<br/>Pay | Asian<br/>Wallets | PollyWeb <br/>Wallet | Western<br/>ATMs | Asian<br/>ATMs | NLWeb<br/>Userable |
+    | Something<br/>the user | Apple<br/>Pay | Google<br/>Pay | Asian<br/>Wallets | PollyWeb <br/>Wallet | Western<br/>ATMs | Asian<br/>ATMs | PollyWeb<br/>Userable |
     |-|-|-|-|-|-|-|-
     | `Has`   | Phone | Phone | QR code | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | NFC card | - | [NFC 💍](<../../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) |
     | `Is`    | - | - | - | [Face 📸](<6 🆔⏩😶 Face scan.md>) | - | Face | [Face 📸](<6 🆔⏩😶 Face scan.md>) |

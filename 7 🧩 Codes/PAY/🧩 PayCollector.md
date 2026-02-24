@@ -13,7 +13,7 @@ Title: Collector
 Description: Share code for collectors.
 
 References:
-  NLWEB: 💳 https://quip.com/HyzNATeThi0Q/-PayNLWEBorg
+  PollyWeb: 💳 https://quip.com/HyzNATeThi0Q/-PayNLWEBorg
 
 Translations:
   - Language: pt-br
