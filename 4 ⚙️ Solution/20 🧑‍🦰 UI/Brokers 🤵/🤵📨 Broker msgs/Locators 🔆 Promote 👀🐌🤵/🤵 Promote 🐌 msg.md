@@ -22,7 +22,7 @@ Header:
     
 Body:
     Chat: <chat-uuid>
-    Locator: nlweb.dom/LOCATOR:1.0,any-domain.dom,ANY-RESOURCE
+    Locator: pollyweb.org/LOCATOR:1.0,any-domain.dom,ANY-RESOURCE
 ```
 
 |Object|Property|Type|Description|Origin

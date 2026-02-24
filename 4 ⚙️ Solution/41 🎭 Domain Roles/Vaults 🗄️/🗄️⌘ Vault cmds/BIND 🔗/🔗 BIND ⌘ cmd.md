@@ -90,8 +90,8 @@
 
 1. **What does the dot mean in a schema?**
 
-    Given that the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defined by `nlweb.dom` will be widely used, 
-    * [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) accept a dot as a prefix of `nlweb.dom/`.
+    Given that the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defined by `pollyweb.org` will be widely used, 
+    * [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) accept a dot as a prefix of `pollyweb.org/`.
     
     Consider the following equal examples.
 
@@ -99,7 +99,7 @@
     BIND: .IDENTITY/OVER21
     ```
     ```yaml
-    BIND: nlweb.dom/IDENTITY/OVER21
+    BIND: pollyweb.org/IDENTITY/OVER21
     ```
 
     ---

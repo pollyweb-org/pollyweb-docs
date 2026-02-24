@@ -3,7 +3,7 @@
 <!--# 🇲🇹 https://quip.com/WtVuAnRgeyD9/-Govmt-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: gov.mt

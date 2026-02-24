@@ -3,7 +3,7 @@
 <!--# 🇺🇳 https://quip.com/OV9hAzKhb8Wf/-UNorg-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: nations.any-igo.dom
@@ -19,10 +19,10 @@ Trusts:
 
   # Allow countries to share profiles of citizens.
   - Queries:
-      - nlweb.dom/EXCHANGE
-      - nlweb.dom/PAY
-      - nlweb.dom/PERSONA      
-      - nlweb.dom/STORAGE         
+      - pollyweb.org/EXCHANGE
+      - pollyweb.org/PAY
+      - pollyweb.org/PERSONA      
+      - pollyweb.org/STORAGE         
     Domains: 
       - europa.eu       # European Union
       - any-nation.dom  # Any Nation

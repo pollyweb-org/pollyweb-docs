@@ -34,8 +34,8 @@ Blueprint:
         type: string
 
       Country: 
-        $ref: Country@nlweb.dom/PERSONA/ADDRESS:1.0
+        $ref: Country@pollyweb.org/PERSONA/ADDRESS:1.0
 
       Address:
-        $ref: Address@nlweb.dom/PERSONA/ADDRESS:1.0
+        $ref: Address@pollyweb.org/PERSONA/ADDRESS:1.0
 ```

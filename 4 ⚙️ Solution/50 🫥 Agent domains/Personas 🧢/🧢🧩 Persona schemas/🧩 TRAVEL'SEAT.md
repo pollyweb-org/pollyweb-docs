@@ -36,29 +36,29 @@ Blueprint:
     type: object
     properties:
       FaceForward:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       FaceBackwards:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       WithTable:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       WithoutTable:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       AtWindow:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       AtAisle:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       AtMiddle:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       AtFront:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       AtBack:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       OverWing:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       NearToilets:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       LongSeat:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
       WideSeat:
-        $ref: Rank@nlweb.dom/TYPES
+        $ref: Rank@pollyweb.org/TYPES
 ```

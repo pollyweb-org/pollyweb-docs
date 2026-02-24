@@ -3,7 +3,7 @@
 <!-- 👱 https://quip.com/vTSSAUYt4OGo/-AnyWalletcom -->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: any-notifier.dom

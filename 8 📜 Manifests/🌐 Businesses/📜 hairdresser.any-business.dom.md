@@ -3,7 +3,7 @@
 <!-- # 🧪💈 https://quip.com/gs2UAKnJ0dz0/-Beauty-Hairdresser -->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: hairdresser.any-business.dom
@@ -14,7 +14,7 @@ Trusts:
 
   # Trust all profile info from anyone.
   - Role: VAULT
-    Query: nlweb.dom/PERSONA/*
+    Query: pollyweb.org/PERSONA/*
     Domains: '*'
 
 ```

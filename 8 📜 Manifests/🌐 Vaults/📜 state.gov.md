@@ -3,7 +3,7 @@
 <!--# 🇺🇸🆔 https://quip.com/LAaBAIKj3afu/-Stategov-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: state.gov

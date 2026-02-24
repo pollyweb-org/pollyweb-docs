@@ -34,7 +34,7 @@
 
     | Key | Example value | Details
     |-|-|-
-    | [`Schema`](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `nlweb.dom/HOST:1.0` | What's the [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)?
+    | [`Schema`](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) | `pollyweb.org/HOST:1.0` | What's the [Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)?
     | [`IsAlias`](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🧩 Printer schemas/🧩 ALIAS.md>)  | `False` | Needs a [Printer 🖨️ helper](<../../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) to resolve?
     | [`Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | `any-host.dom` | Who is the [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)?
     | `Key` | `ANY-RESOURCE`| What's the [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) resource?

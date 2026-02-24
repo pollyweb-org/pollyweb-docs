@@ -30,7 +30,7 @@ Blueprint:
   Example: 
     Dataset: Code@standards.any-igo.dom/639-1
     Requires:
-      Language: nlweb.dom/LOCALE/LANGUAGE:1.0
+      Language: pollyweb.org/LOCALE/LANGUAGE:1.0
 
   Format: 
     type: object
@@ -38,11 +38,11 @@ Blueprint:
     properties: 
 
       Dataset:
-        $ref: Schema@nlweb.dom/TYPES
-        example: nlweb.dom/LOCALE/COUNTRY:1.0
+        $ref: Schema@pollyweb.org/TYPES
+        example: pollyweb.org/LOCALE/COUNTRY:1.0
  
       Requires:
         type: object
         additionalProperties:
-          $ref: Schema@nlweb.dom/TYPES
+          $ref: Schema@pollyweb.org/TYPES
 ```

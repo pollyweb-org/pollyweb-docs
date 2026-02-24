@@ -2,10 +2,10 @@
 # 📜 [Manifest](<../../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): ec.europa.eu
 <!--# 🇪🇺 https://quip.com/bBbpAAGfOCIz/-Europaeu-->
 
-> Inherits from [`nlweb.dom/TOKEN 🧩`](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
+> Inherits from [`pollyweb.org/TOKEN 🧩`](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: ec.europa.eu
@@ -43,6 +43,6 @@ Schemas:
         
     Schemas:
       - Version: 1.0
-        Inherits: nlweb.dom/TOKEN:1.0
+        Inherits: pollyweb.org/TOKEN:1.0
         Format: Name, Surname, DateOfBirth, SerialNumber
 ```

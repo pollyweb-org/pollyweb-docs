@@ -47,7 +47,7 @@
         Chat: <chat-uuid>
         Invitee: any-identity.dom
         Callback: <callback-uuid>
-        Schema: nlweb.dom/IDENTITY/VERIFY
+        Schema: pollyweb.org/IDENTITY/VERIFY
         Parameters:
             IdentityKey: <token-identity-key>
     ```

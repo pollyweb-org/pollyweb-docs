@@ -12,7 +12,7 @@ Path: /STORAGE/FILE
 Description: Schema of a file share when migrating storages.
 
 Blueprint:
-  Location: https://nlweb.dom/schemas/file.json
+  Location: https://pollyweb.org/schemas/file.json
   Format:
     type: object
     properties:

@@ -3,7 +3,7 @@
 <!--# 🏳️💺 https://quip.com/Yp6rADERIDPv/-Air-France-Airline -->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: airline.any-business.dom

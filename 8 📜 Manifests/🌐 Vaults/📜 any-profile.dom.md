@@ -2,7 +2,7 @@
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): any-profile.dom
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: any-profile.dom
@@ -16,5 +16,5 @@ Trusts:
     
   # Trust all requests from anyone.
   - Role: CONSUMER
-    Query: nlweb.dom/PERSONA/*
+    Query: pollyweb.org/PERSONA/*
 ```

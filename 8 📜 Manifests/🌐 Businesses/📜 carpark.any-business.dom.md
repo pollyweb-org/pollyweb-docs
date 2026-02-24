@@ -3,7 +3,7 @@
 <!--# 🏳️🅿️ https://quip.com/0feVAAuto4SI-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: carpark.any-business.dom
@@ -14,7 +14,7 @@ Trusts:
 
   - Role: VAULT
     Queries:
-      - nlweb.dom/PERSONA/VEHICLE/PARKING
+      - pollyweb.org/PERSONA/VEHICLE/PARKING
     Domains:
       - nations.any-igo.dom
 ```

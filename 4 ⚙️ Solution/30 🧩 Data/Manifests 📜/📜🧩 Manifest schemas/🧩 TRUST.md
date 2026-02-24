@@ -13,7 +13,7 @@
 | Property | Type | Notes| Examples
 |-|-|-|-
 | `Expires`        |text| Date limit  in UTC timestamp | `2024-01-10`
-| `Domain` |text| [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) <br/>- defaults to `ANY` | `ANY` `nlweb.dom` 
+| `Domain` |text| [Domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) <br/>- defaults to `ANY` | `ANY` `pollyweb.org` 
 | or `Domains` | array | Additional list of domains  | `[a.co, b.co]`
 | `Query`  |text| [Schema Codes 🧩](<../../Codes 🧩/🧩 Schema Code.md>) to [Trust 🫡](<../../Trusts 🫡/🫡 Domain Trust.md>) | `ANY` `/PERSONA/*`
 | or `Queries`  | array | Additional list of queries | `[*]`
@@ -63,7 +63,7 @@
   ```yaml
   # Certified Helpers
   - Action: GRANT
-    Domain: nlweb.dom
+    Domain: pollyweb.org
     Query: .HELPER/*
   ```
 
@@ -91,7 +91,7 @@ Blueprint:
         properties: 
           Query:
             type: string
-            example: nlweb.dom/PERSONA/*
+            example: pollyweb.org/PERSONA/*
 
       - required: [Queries]
         properties:
@@ -111,16 +111,16 @@ Blueprint:
         default: GRANT
 
       Expires:
-        $ref: Timestamp@nlweb.dom/TYPES
+        $ref: Timestamp@pollyweb.org/TYPES
 
       Domain:
-        $ref: Domain@nlweb.dom/TYPES
+        $ref: Domain@pollyweb.org/TYPES
         default: ANY
 
       Domains:
         type: array
         items: 
-          $ref: Domain@nlweb.dom/TYPES
+          $ref: Domain@pollyweb.org/TYPES
         minItems: 1
 
       Role:

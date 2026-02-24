@@ -2,7 +2,7 @@
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): utility.any-business.dom
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: utility.any-business.dom
@@ -10,7 +10,7 @@ About:
 
 Trusts:
 
-  - Query: nlweb.dom/PERSONA/*
-    Domain: nlweb.dom
+  - Query: pollyweb.org/PERSONA/*
+    Domain: pollyweb.org
 
 ```

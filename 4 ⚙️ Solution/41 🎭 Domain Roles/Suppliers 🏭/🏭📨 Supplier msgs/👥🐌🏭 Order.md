@@ -16,7 +16,7 @@ Header:
     Subject: Order@Supplier
 Body:
     OrderID: <order-uuid>
-    ItemCode: nlweb.dom/PRINTER/ORDER/ITEM
+    ItemCode: pollyweb.org/PRINTER/ORDER/ITEM
     Items: 
       - {item-1}
       - {item-2}

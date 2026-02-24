@@ -1,10 +1,10 @@
 
 # BANK-VAULT
 ```yaml
-🤝: nlweb.dom/MANIFEST/TRUST
+🤝: pollyweb.org/MANIFEST/TRUST
 
 Title: Holder bank.
-Query: nlweb.dom/BANK/*
+Query: pollyweb.org/BANK/*
 Role: VAULT
 Domain: any-bank.dom
 ``` 

@@ -3,7 +3,7 @@
 <!-- 👂 https://quip.com/wJICAbOcyHUM/-AnyListenerorg -->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: any-listener.dom

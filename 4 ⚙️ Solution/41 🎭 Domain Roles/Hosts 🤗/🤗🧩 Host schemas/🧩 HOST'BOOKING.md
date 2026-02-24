@@ -50,7 +50,7 @@ Asserts:
 ```yaml
 Blueprint:  
   Version: 1.0
-  Inherits: nlweb.dom/TOKEN:1.0
+  Inherits: pollyweb.org/TOKEN:1.0
   
   Properties: 
     - For       # ex. Flight AB123

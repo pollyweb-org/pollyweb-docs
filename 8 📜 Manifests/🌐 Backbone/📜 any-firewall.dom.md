@@ -6,7 +6,7 @@
 <br/> 
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: any-firewall.org

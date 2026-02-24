@@ -20,7 +20,7 @@
     # 🤲 Helpers.yaml
     
     Listeners: # to send Manifest 📜 updates.
-        - listeners.nlweb.dom
+        - listeners.pollyweb.org
         - any-listener.dom
 
     Graphs: # to verify Trust 🫡 chains.

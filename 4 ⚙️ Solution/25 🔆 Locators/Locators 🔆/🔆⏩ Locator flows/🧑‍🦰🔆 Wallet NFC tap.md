@@ -7,11 +7,11 @@
 
 1. **How do Wallets tap an NFC Locator?**
 
-    NLWeb NFC tags are standard NDEF Records of type URI starting with `https://nlweb.dom/go/`. 
+    NLWeb NFC tags are standard NDEF Records of type URI starting with `https://pollyweb.org/go/`. 
     
     * On install, NLW [Wallet apps 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) register on the OS as the default NFC reader - this differs from NFC payments, and does not interfere with the default NFC payment mechanisms of Google and Apple Wallets. 
     
-    * When users read an NFC tag, Wallets discard any URL tag that doesn't start with `https://nlweb.dom/go/`, and open a chat to the [Locator 🔆](<../🔆 Locator.md>)'s [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
+    * When users read an NFC tag, Wallets discard any URL tag that doesn't start with `https://pollyweb.org/go/`, and open a chat to the [Locator 🔆](<../🔆 Locator.md>)'s [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 
     ---
     <br/>

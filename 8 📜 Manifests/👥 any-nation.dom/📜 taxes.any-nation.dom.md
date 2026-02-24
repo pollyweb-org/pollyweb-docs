@@ -3,7 +3,7 @@
 <!--# 🏳️🏛️ https://quip.com/cVKTAXdzJmY6-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: taxes.any-nation.dom
@@ -15,7 +15,7 @@ Trusts:
   # Allow parkings to consume licence plates.
   - Role: CONSUMER
     Queries: 
-      - nlweb.dom/PERSONA/VEHICLE/PARKING
+      - pollyweb.org/PERSONA/VEHICLE/PARKING
     Domains: 
       - carpark.any-business.dom
       

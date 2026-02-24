@@ -45,7 +45,7 @@ Blueprint:
           - Tipically, a description of the field.
 
       External:
-        $ref: nlweb.dom/CRUD/ENTITY/PROPERTY/EXTERNAL
+        $ref: pollyweb.org/CRUD/ENTITY/PROPERTY/EXTERNAL
 
       Format: 
         enum: [AMOUNT, CONFIRM, EMAIL, DIGITS, MANY, ONE, OTP, PHONE, TEXT]
@@ -63,7 +63,7 @@ Blueprint:
           - The conditional property must have format CONFIRM.
 
       Internal:
-        $ref: nlweb.dom/CRUD/ENTITY/PROPERTY/INTERNAL
+        $ref: pollyweb.org/CRUD/ENTITY/PROPERTY/INTERNAL
 
       MaxLength:
         type: integer

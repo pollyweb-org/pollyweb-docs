@@ -29,21 +29,21 @@ Blueprint:
     properties:
 
       Name:
-        $ref: nlweb.dom/PERSONA/NAME/SOCIAL
+        $ref: pollyweb.org/PERSONA/NAME/SOCIAL
 
       Pronouns:
-        $ref: nlweb.dom/PERSONA/NAME/PRONOUNS
+        $ref: pollyweb.org/PERSONA/NAME/PRONOUNS
 
       Phones:
         type: array
         minItems: 1
         items:
-          $ref: nlweb.dom/PERSONA/PHONE
+          $ref: pollyweb.org/PERSONA/PHONE
 
       Emails:
         type: array
         minItems: 1
         items:
-          type: nlweb.dom/PERSONA/EMAIL
+          type: pollyweb.org/PERSONA/EMAIL
 
 ```

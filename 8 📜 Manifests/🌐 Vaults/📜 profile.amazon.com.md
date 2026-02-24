@@ -3,7 +3,7 @@
 <!--# 🧢 https://quip.com/XsoCA8E6EEU9/-AnyPersonacom-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: profile.amazon.com
@@ -18,5 +18,5 @@ Trusts:
 
   # Trust all requests from anyone.
   - Role: CONSUMER
-    Query: nlweb.dom/PERSONA/*
+    Query: pollyweb.org/PERSONA/*
 ```    
