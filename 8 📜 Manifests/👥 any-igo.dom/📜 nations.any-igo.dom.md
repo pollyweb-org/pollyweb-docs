@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): nations.any-igo.dom
-<!--# 🇺🇳 https://quip.com/OV9hAzKhb8Wf/-UNorg-->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

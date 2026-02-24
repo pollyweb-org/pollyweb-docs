@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): any-broker.dom
-<!-- 🤵 https://quip.com/hPaFAIsyMxpq/-AnyBrokercom -->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

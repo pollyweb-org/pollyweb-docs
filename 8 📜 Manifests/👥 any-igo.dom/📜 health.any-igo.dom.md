@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): health.any-igo.dom
-<!--# 🇺🇳 https://quip.com/PcpmA0e2TORI/-WHOint-->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

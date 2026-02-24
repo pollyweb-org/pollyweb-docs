@@ -1,7 +1,4 @@
 <!-- #TODO -->
-
-<!-- https://quip.com/EzmaAjGwmvRq#temp:C:bSR232c2e6eecff4c639e0bf6068 -->
-
 # 🧑‍🦰🐌💳 Endorse @ [Payer](<../../💳🎭 Payer role.md>)
 
 > Used in [Charge 💵👉🧑‍🦰](<../../../Sellers 💵/💵⏩ Seller flows/Charge 💵⏩🧑‍🦰/💵 Charge ⏩ flow.md>)

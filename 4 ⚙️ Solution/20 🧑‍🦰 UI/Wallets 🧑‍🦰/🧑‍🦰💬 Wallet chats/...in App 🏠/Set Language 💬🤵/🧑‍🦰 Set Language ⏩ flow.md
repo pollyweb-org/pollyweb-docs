@@ -1,5 +1,3 @@
-<!-- https://quip.com/u9H6AsA6azmA#temp:C:aXGd01a597ee468481d9af56aa02 -->
-
 # 🧑‍🦰💬🤵 Set language @ Wallet
 
 > Implements a [Wallet 🧑‍🦰 app](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)

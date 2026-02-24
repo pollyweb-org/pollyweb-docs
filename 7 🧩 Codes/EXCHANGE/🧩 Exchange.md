@@ -7,7 +7,4 @@ Path: /EXCHANGE
 Title: Exchange Group
 Description: Grouping, not intended to share.
 
-References:
-  PollyWeb: 💰 https://quip.com/aFtfA9e0CqQX/-ExchangeNLWEBorg
-
 ```

@@ -51,7 +51,6 @@ Blueprint:
         enum: [AMOUNT, CONFIRM, EMAIL, DIGITS, MANY, ONE, OTP, PHONE, TEXT]
         default: TEXT
         description: >
-          See details in https://quip.com/CDrjAxNKwLpI
           - If [ONE,MANY] requires Options or Lookup.
           - If [OTP] requires Data.
 

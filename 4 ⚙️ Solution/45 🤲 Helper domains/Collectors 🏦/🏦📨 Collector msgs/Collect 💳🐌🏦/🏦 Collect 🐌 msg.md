@@ -1,8 +1,5 @@
 <!-- #TODO -->
 
-<!-- Docs: https://quip.com/TkhkAIHSg8Pp#temp:C:TQGa949e2cdc69f4d63900ca6c1b -->
-<!-- Test: https://github.com/jorgemjfonseca/domain-trust-framework/blob/2896911396280f90ec68c32b50aa99dc4a3c90e2/python/payments/collector/COLLECTOR_TESTS.py#L16 -->
-
 
 # 💳🐌🏦 Collect @ [Collector](<../../🏦 Collector/🏦🤲 Collector helper.md>)
 

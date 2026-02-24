@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): governo.it
-<!--# 🇮🇹 https://quip.com/Aa9oAaGzmFFh/-Governoit-->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

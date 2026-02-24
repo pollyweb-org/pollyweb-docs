@@ -1,5 +1,3 @@
-<!-- https://quip.com/b8a0AHaXf3C6#temp:C:DPSe1a859381bc449598713c8c71 -->
-
 # 🧑‍🦰💬🤵 Unbind @ Wallet
 
 > Implemented by the [`Pop Vault` script](<../../../../Brokers 🤵/🤵😃 Broker talkers/PopBind 🔗 talker/Bind » Remove/🤵 PopBindRemove 😃 handler.md>).

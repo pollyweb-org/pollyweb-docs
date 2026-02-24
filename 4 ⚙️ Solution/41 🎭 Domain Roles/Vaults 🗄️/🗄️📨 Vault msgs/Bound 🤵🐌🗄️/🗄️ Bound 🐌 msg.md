@@ -1,8 +1,3 @@
-<!-- 
-🗄️🐌 https://quip.com/oSzpA7HRICjq/-Broker-Binds#temp:C:DSD3f7309f961e24f0ebb5897e2f 
-🗄️🐌 https://quip.com/IZapAfPZPnOD#temp:C:PDZf81764583b31439f999550159  
--->
-
 # 🤵🐌🗄️ Bound @ Vault
 
 > About

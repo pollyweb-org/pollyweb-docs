@@ -1,5 +1,3 @@
-<!-- Docs: https://quip.com/CDrjAxNKwLpI/-Prompt -->
-
 # 🤗⏩🧑‍🦰 Prompt @ Host
 
 > Purpose

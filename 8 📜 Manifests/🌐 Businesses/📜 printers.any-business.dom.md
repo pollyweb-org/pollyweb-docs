@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): printers.any-business.dom
-<!--# 🇺🇸🎨 https://quip.com/AyM1AawqzCDT/-AnyPrinterSellercom-->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

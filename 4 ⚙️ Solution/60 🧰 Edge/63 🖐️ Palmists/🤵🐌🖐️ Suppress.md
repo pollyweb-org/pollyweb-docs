@@ -1,7 +1,5 @@
 <!-- #TODO -->
 
-<!-- https://quip.com/IZapAfPZPnOD#temp:C:PDZeda25d5a05a3470a994e6689d -->
-
 
 # 🤵🐌🗄️ Suppress @ Vault
 

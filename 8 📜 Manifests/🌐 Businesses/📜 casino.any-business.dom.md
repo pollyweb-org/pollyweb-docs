@@ -1,6 +1,5 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): casino.any-business.dom
-<!--# 🏳️🎰 https://quip.com/RUmtAj6kpz6p/-AnyCasinoit-->
 
 ```yaml
 🤝: pollyweb.org/MANIFEST

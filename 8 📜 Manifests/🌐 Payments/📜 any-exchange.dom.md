@@ -1,6 +1,6 @@
 
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): any-exchange.dom
-<!--# 🏳️💰 https://quip.com/lK1UAE08VIGB/-AnyExchangeuk-->
+
 
 ```yaml
 🤝: pollyweb.org/MANIFEST
