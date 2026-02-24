@@ -168,7 +168,7 @@
 
     # Put the locator in a holder
     - PARSE >> $locator:
-        nlweb.org/HOST:1.0,any-host.dom,ANY-RESOURCE
+        pollyweb.org/HOST:1.0,any-host.dom,ANY-RESOURCE
 
     # Assert for equivalence to .HOST
     - ASSERT $locator:

@@ -33,7 +33,7 @@
 
     * If no mobile app opens the `nlweb://` URL, then the proxy redirects to a fallback webpage explaining to the user how to find and install an app that supports the NLWeb protocol. 
 
-    * Website developers can also opt to link the JavaScript library `https://pollyweb.org/sdk/nlweb.js` - this allows [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to achieve the same behavior without browser redirects.
+    * Website developers can also opt to link the JavaScript library `https://pollyweb.org/sdk/pollyweb.js` - this allows [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to achieve the same behavior without browser redirects.
     
     * See [here](<https://gist.github.com/diachedelic/0d60233dab3dcae3215da8a4dfdcd434>) for details.
 

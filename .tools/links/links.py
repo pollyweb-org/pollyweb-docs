@@ -1527,10 +1527,10 @@ def test_immutable_token_replacements():
     print("All immutable token replacement tests passed! ✅")
 
 if __name__ == "__main__":
-    # entryPoint = "nlweb-docs"
+    # entryPoint = "pollyweb-docs"
     # Default project directory to the parent of .tools
     project_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    entryPoint = "nlweb-docs"
+    entryPoint = "pollyweb-docs"
 
     # Run the tests
     test_immutable_token_replacements()

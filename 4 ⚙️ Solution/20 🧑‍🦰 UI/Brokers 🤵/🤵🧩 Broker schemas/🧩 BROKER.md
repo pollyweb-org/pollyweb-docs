@@ -15,7 +15,7 @@
 ```yaml
 Trusts: 
   - Schema: .BROKER
-    Domain: nlweb.org
+    Domain: pollyweb.org
 ```
 
 <br/>
