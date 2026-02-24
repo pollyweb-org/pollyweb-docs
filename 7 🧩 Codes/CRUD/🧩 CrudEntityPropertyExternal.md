@@ -33,7 +33,7 @@ Blueprint:
 
       Read:
         format: string
-        example: nlweb.dom/LOCALE/DIALCODE
+        example: pollyweb.org/LOCALE/DIALCODE
         description: Code structure to read from the source.
 
       Show: 

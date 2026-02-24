@@ -20,7 +20,7 @@
   
     For example:
     * `.HOST,any-domain.dom,ANY-KEY,A=1,B=2`
-    * `nlweb.dom/ALIAS:1.0,any-printer.dom,ANY-KEY`
+    * `pollyweb.org/ALIAS:1.0,any-printer.dom,ANY-KEY`
     
 
     |Component| Examples | Purpose
@@ -83,7 +83,7 @@
 
     - If it opens their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), then they'll know that all messages will safely go through a trustworthy [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>).
     - Instead, if the [Locator 🔆](<🔆 Locator.md>) opens a web page, then it's most probably not an NLWeb [Locator 🔆](<🔆 Locator.md>).
-    - Exceptionally, users will be directed to the `nlweb.dom` website if they do not have a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed on their smartphone.
+    - Exceptionally, users will be directed to the `pollyweb.org` website if they do not have a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed on their smartphone.
 
     Given that the [Wallet's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:
 

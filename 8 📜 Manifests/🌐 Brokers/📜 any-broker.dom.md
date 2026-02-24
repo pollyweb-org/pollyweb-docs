@@ -3,7 +3,7 @@
 <!-- 🤵 https://quip.com/hPaFAIsyMxpq/-AnyBrokercom -->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: any-broker.dom

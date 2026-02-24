@@ -3,7 +3,7 @@
 <!--# 🇺🇸💳 https://quip.com/otqrA6r0s9cC/-AnyPayercom-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: any-payer.dom
@@ -16,8 +16,8 @@ Trusts:
   # Pay to limited collectors.
   - Role: CONSUMER
     Queries: 
-      - nlweb.dom/PAY/PAYER
-      - nlweb.dom/PAY/PAYMENT
+      - pollyweb.org/PAY/PAYER
+      - pollyweb.org/PAY/PAYMENT
     Domains: 
       - any-collector.dom
       - any-exchange.dom

@@ -3,7 +3,7 @@
 <!--# 🇺🇸📶 https://quip.com/7u1wAVuC6aDM/-AnyWiFicom-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: wifi.any-supplier.dom

@@ -13,5 +13,5 @@ Brokers only share these credentials with the issuers;
 ```yaml
 Path: /HOST/BOOKING/SELF
 Title: Token for a self booking.
-Inherits: nlweb.dom/HOST/BOOKING:1.0
+Inherits: pollyweb.org/HOST/BOOKING:1.0
 ```

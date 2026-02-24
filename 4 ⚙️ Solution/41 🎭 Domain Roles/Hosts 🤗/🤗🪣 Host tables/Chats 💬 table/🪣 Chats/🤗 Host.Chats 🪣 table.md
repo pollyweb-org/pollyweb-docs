@@ -60,7 +60,7 @@ Timezone: UTC+1         # For formatting dates
 Language: en-us         # For translations
 
 # Locator
-Schema: nlweb.dom/THING
+Schema: pollyweb.org/THING
 Key: MY-THING-ID
 Parameters: 
     Param1: Value1

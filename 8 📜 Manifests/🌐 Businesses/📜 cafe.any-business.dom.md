@@ -2,7 +2,7 @@
 # 📜 [Manifest](<../../4 ⚙️ Solution/30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>): cafe.any-business.dom
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: cafe.any-business.dom

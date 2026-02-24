@@ -6,7 +6,7 @@
 1. **How do domains avoid interacting with bad actors?**
 
     The NLWeb implements a domain trust framework that allows:
-    * [sender domains 📤](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) to know if they can [trust 🫡](<🫡 Domain Trust.md>) a [receiver domain 📥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a specific [Schema 🧩](<../Codes 🧩/🧩 Schema Code.md>) path - e.g. `nlweb.dom/PERSONA/*`, and vice-versa.
+    * [sender domains 📤](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) to know if they can [trust 🫡](<🫡 Domain Trust.md>) a [receiver domain 📥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a specific [Schema 🧩](<../Codes 🧩/🧩 Schema Code.md>) path - e.g. `pollyweb.org/PERSONA/*`, and vice-versa.
     
     For example:
       * `any-buyer.dom` may accept payment requests 
@@ -20,7 +20,7 @@
 
     [Trusts 🫡](<🫡 Domain Trust.md>) 
     * are defined in [domain Manifests 📜](<../Manifests 📜/📜 Manifest/📜 Manifest.md>) 
-    * using the schema code [nlweb.dom/MANIFEST/TRUST 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 TRUST.md>).
+    * using the schema code [pollyweb.org/MANIFEST/TRUST 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 TRUST.md>).
 
     ```yaml
     # Trust example
@@ -28,8 +28,8 @@
       Expires: '2050-01-01T10:00:00.000Z' # Empty = forever
       Action: GRANT                       # Empty = grant
       Roles: CONSUMER                     # Empty = both
-      Query: nlweb.dom/PERSONA/*          # Empty = anything
-      Domain: nlweb.dom                   # Empty = everyone
+      Query: pollyweb.org/PERSONA/*          # Empty = anything
+      Domain: pollyweb.org                   # Empty = everyone
     ```
 
     Property | Type | Description

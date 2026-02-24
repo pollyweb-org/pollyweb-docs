@@ -43,7 +43,7 @@ Timezone: UTC+1
 Language: en-us
 
 # Locator
-Schema: nlweb.dom/THING
+Schema: pollyweb.org/THING
 Key: MY-THING-ID
 Inputs: 
     Param1: Value1

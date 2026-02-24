@@ -3,7 +3,7 @@
 <!--# 💺🏛️ https://quip.com/FuTpA83cGJ3L-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: airlines.any-igo.dom

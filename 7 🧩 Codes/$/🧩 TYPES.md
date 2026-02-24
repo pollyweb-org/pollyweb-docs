@@ -16,12 +16,12 @@ Blueprint:
 
       Code:
         type: string
-        example: nlweb.dom/LOCATOR
+        example: pollyweb.org/LOCATOR
         description: >
           Reference to a data type defined by the manifest of an authority.
           It's composed by the authority's domain and code path.
-          For example, for [nlweb.dom/LOCATOR]:
-          - the manifest is at http://nlweb.dom/manifest;
+          For example, for [pollyweb.org/LOCATOR]:
+          - the manifest is at http://pollyweb.org/manifest;
           - the schema definition is at 'Path:/LOCATOR' inside the manifest.
           Note: the manifest may delegate the definition to sub manifests.
 
@@ -43,15 +43,15 @@ Blueprint:
 
       Schema: 
         type: string
-        example: nlweb.dom/LOCATOR:3.11
+        example: pollyweb.org/LOCATOR:3.11
         description: >
           Reference to the schema of data type defined by the manifest of an authority.
           It's composed by the authority's domain, code path, and an optional version.
-          For example, for [nlweb.dom/LOCATOR:3.11]:
-          - the manifest is at http://nlweb.dom/manifest;
+          For example, for [pollyweb.org/LOCATOR:3.11]:
+          - the manifest is at http://pollyweb.org/manifest;
           - the schema definition is at 'Path: /LOCATOR' inside the manifest;
           - the version of the schema is 3.11 (if omitted, defaults to 1.0).
-          For example, for [nlweb.dom/LOCATOR]:
+          For example, for [pollyweb.org/LOCATOR]:
           - the version of the schema is 1.0 (the default).
           Note: the manifest may delegate the definition to sub manifests.
 

@@ -1,10 +1,10 @@
 
 # BANK-CONSUMER
 ```yaml
-🤝: nlweb.dom/MANIFEST/TRUST
+🤝: pollyweb.org/MANIFEST/TRUST
 
 Title: Holder cash-machine
-Query: nlweb.dom/BANK/*
+Query: pollyweb.org/BANK/*
 Role: CONSUMER
 Domain: atm.any-fintech.dom
 ```

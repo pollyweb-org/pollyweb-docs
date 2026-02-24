@@ -3,7 +3,7 @@
 <!--# 🇺🇸 https://quip.com/VtTHA12LzVsr/-USAgov-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 ```
 ```yaml
 About:
@@ -39,7 +39,7 @@ Trusts:
 
 ```yaml      
   # Allow domains to share profiles of citizens.
-  - Query: nlweb.dom/PERSONA/*
+  - Query: pollyweb.org/PERSONA/*
     Domains: 
       - irs.gov     # Internal Revenue Service
       - nations.any-igo.dom      # Any IGO   
@@ -47,6 +47,6 @@ Trusts:
 
 ```yaml
   # Delegate bank trusts to the federal reserve.
-  - Query: nlweb.dom/BANK/*
+  - Query: pollyweb.org/BANK/*
     Domain: federalreserve.gov
 ```

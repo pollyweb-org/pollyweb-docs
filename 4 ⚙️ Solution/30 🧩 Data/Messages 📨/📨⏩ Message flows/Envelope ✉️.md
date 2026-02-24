@@ -9,11 +9,11 @@
 
     Messages from [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) are sent in JSON envelopes similar to email messages. 
     
-    * The [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) is defined at [`nlweb.dom/MSG 🧩`](<../📨🧩 Message schemas/🧩 MSG.md>).
+    * The [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) is defined at [`pollyweb.org/MSG 🧩`](<../📨🧩 Message schemas/🧩 MSG.md>).
     * Consider the the following example, converted from JSON to YAML for readability.
 
     ```yaml
-    🤝: nlweb.dom/MSG:1.0
+    🤝: pollyweb.org/MSG:1.0
 
     Header:
         From: any-sender.dom
@@ -34,7 +34,7 @@
 
 1. **What is contained in a domain message envelope?**
 
-    The following properties are a summary of the schema at [`nlweb.dom/MSG 🧩`](<../📨🧩 Message schemas/🧩 MSG.md>).
+    The following properties are a summary of the schema at [`pollyweb.org/MSG 🧩`](<../📨🧩 Message schemas/🧩 MSG.md>).
 
     |Property| Description
     |-|-
@@ -56,7 +56,7 @@
 1. **How do receiver domains handle upgraded schema versions?**
 
     An NLWeb envelop contains a [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
-    - e.g., `🤝: nlweb.dom/MSG:1.0`
+    - e.g., `🤝: pollyweb.org/MSG:1.0`
     - Envelopes with unsupported versions are discarded.
 
     ---

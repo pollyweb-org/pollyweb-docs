@@ -3,7 +3,7 @@
 <!--# 🏳️💰 https://quip.com/lK1UAE08VIGB/-AnyExchangeuk-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: any-exchange.dom
@@ -15,7 +15,7 @@ Trusts:
 
   - Role: VAULT
     Queries: 
-      - nlweb.dom/PAY/PAYER
+      - pollyweb.org/PAY/PAYER
     Domains: 
       - any-payer.dom
 ```

@@ -4,7 +4,7 @@
 > About
 * Used by [`Hello@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) [`Help@Helper`](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>) [`Disclose@Vault`](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>)
   * to verify if a [Broker 🤵](<../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
-  * is certified by `nlweb.dom`.
+  * is certified by `pollyweb.org`.
 
 <br/>
 

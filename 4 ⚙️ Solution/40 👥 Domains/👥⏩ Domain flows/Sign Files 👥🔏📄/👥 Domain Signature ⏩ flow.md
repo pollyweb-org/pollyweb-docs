@@ -49,7 +49,7 @@
     Domain stamps contain the following properties.
     
     ```yaml
-    Schema: nlweb.dom/SIGNATURE:1.0
+    Schema: pollyweb.org/SIGNATURE:1.0
     Domain: any-domain.dom
     Signed: '2024-09-21T12:34:00Z'
     DKIM: pk1
@@ -59,7 +59,7 @@
 
     |Property| Type | Details
     |-|-|-
-    | `Schema` |text|  `nlweb.dom/SIGNATURE:1.0`
+    | `Schema` |text|  `pollyweb.org/SIGNATURE:1.0`
     | `Domain` |text| The [domain 👥](<../../👥 Domain/👥 Domain.md>) name
     | `Hash` |text|  The hash of the file
     | `Signed` | timestamp | When it was signed

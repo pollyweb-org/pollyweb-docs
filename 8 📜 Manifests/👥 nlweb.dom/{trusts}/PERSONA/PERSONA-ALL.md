@@ -1,10 +1,10 @@
 
 # PERSONA-ALL
 ```yaml
-🤝: nlweb.dom/MANIFEST/TRUST
+🤝: pollyweb.org/MANIFEST/TRUST
 
 Title: Trusted Personas
-Query: nlweb.dom/PERSONA/*
+Query: pollyweb.org/PERSONA/*
 Role: VAULT
 Domain: any-profile.dom
 ```

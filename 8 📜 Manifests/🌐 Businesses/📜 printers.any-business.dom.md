@@ -3,7 +3,7 @@
 <!--# 🇺🇸🎨 https://quip.com/AyM1AawqzCDT/-AnyPrinterSellercom-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: printers.any-business.dom

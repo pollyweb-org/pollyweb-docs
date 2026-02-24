@@ -1,7 +1,7 @@
 
 # [🧩](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [Schema Code](<../../4 ⚙️ Solution/30 🧩 Data/Codes 🧩/🧩 Schema Code.md>): Palm16+
 
-> Inherits from [`nlweb.dom/TOKEN 🧩`](<../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
+> Inherits from [`pollyweb.org/TOKEN 🧩`](<../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
 
 <br/>
 
@@ -15,6 +15,6 @@ Description: Token for 16+
 
 Blueprint:  
   Version: 1.0
-  Inherits: nlweb.dom/TOKEN:1.0
+  Inherits: pollyweb.org/TOKEN:1.0
 
 ```

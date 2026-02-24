@@ -24,18 +24,18 @@ Blueprint:
     properties:
       
       About:
-        $ref: nlweb.dom/CRUD/ENTITY/ABOUT
+        $ref: pollyweb.org/CRUD/ENTITY/ABOUT
 
       Properties:
         type: object
         additionalProperties:
-          $ref: nlweb.dom/CRUD/ENTITY/PROPERTY
+          $ref: pollyweb.org/CRUD/ENTITY/PROPERTY
         description: List of properties in the entity.
 
       Exports:
         type: object
         additionalProperties:
-          $ref: nlweb.dom/CRUD/ENTITY/EXPORT
+          $ref: pollyweb.org/CRUD/ENTITY/EXPORT
         description: List of codes exported by the entity.
 
 ```

@@ -3,7 +3,7 @@
 #  
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: trigger.any-supplier.dom

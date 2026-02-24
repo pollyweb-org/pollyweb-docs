@@ -3,7 +3,7 @@
 <!--# 🏳️🏥 https://quip.com/jneKAp8Lbg7M/-NHSuk-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: health.any-nation.dom

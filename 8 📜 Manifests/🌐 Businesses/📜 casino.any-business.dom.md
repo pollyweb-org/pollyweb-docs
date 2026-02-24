@@ -3,7 +3,7 @@
 <!--# 🏳️🎰 https://quip.com/RUmtAj6kpz6p/-AnyCasinoit-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: casino.any-business.dom
@@ -19,7 +19,7 @@ Trusts:
   # Trusts 16+ tokens that Italy trusts.
   - Role: CONSUMER
     Queries: 
-      - nlweb.dom/PALM/16+
+      - pollyweb.org/PALM/16+
     Domains: 
       - governo.it
       

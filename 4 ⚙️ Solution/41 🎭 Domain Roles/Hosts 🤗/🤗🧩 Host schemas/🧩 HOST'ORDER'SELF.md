@@ -3,7 +3,7 @@
 # [🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) [`HOST`](<🧩 HOST.md>)/`ORDER`/`SELF`
 
 
-> Inherits from [`nlweb.dom/TOKEN 🧩`](<../../../30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
+> Inherits from [`pollyweb.org/TOKEN 🧩`](<../../../30 🧩 Data/Tokens 🎫/🧩 Token schemas/🧩 TOKEN.md>)
 
 <br/>
 
@@ -14,7 +14,7 @@
 ```yaml
 Path: /HOST/ORDER/SELF
 Version: 1.0
-Inherits: nlweb.dom/TOKEN:1.0
+Inherits: pollyweb.org/TOKEN:1.0
 
 Title: Order
 Description: Token for a self order

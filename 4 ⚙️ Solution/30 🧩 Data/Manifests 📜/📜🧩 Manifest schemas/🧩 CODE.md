@@ -82,14 +82,14 @@ Blueprint:
 
 * Example of a parent sequence:
   ```yaml 
-  # Blueprint: nlweb.dom/TOKEN:1.0
+  # Blueprint: pollyweb.org/TOKEN:1.0
   Properties: [ Code, Version, Issuer, Locator, Issued, Expires, '*', Signature ]
   ```
 
 * Example of an inherited token with additional metadata:
   ```yaml
   # Blueprint: airlines.any-igo.dom/SSR/WCHR:1.0
-  Inherits: nlweb.dom/TOKEN:1.0
+  Inherits: pollyweb.org/TOKEN:1.0
   Properties: [ IsElectric, Size, NeedsAssistant, DateOfBirth ]
   ```
 
@@ -122,7 +122,7 @@ Blueprint:
         type: string
 
       Delegator:
-        $ref: Domain@nlweb.dom/TYPES
+        $ref: Domain@pollyweb.org/TYPES
 
       Emoji: 
         type: string

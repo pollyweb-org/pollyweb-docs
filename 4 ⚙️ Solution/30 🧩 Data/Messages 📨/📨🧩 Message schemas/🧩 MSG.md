@@ -57,7 +57,7 @@ Blueprint:
 
           Schema:
             type: string
-            default: nlweb.dom/MSG:1.0
+            default: pollyweb.org/MSG:1.0
             description: >
               Code schema to validate the content of the body.
               Defined as <domain>/<code-path>:<schema-version>.

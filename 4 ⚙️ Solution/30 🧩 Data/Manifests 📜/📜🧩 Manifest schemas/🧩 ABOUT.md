@@ -55,7 +55,7 @@ Blueprint:
     properties:
       
       Domain: 
-        $ref: Domain@nlweb.dom/TYPES
+        $ref: Domain@pollyweb.org/TYPES
       
       Title: 
         type: string

@@ -3,7 +3,7 @@
 <!--# 🧪🏧 https://quip.com/I3iqAi8aUTjg/-Cash-Machine-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: any-bank.dom
@@ -13,15 +13,15 @@ About:
 Trusts: 
 
   # Trust the placeholders.
-  - Query: nlweb.dom/BANK/*
-    Domain: bank.nlweb.dom
+  - Query: pollyweb.org/BANK/*
+    Domain: bank.pollyweb.org
 
 
   # Pay to limited collectors.
   - Role: CONSUMER
     Queries: 
-      - nlweb.dom/PAY/PAYER
-      - nlweb.dom/PAY/PAYMENT
+      - pollyweb.org/PAY/PAYER
+      - pollyweb.org/PAY/PAYMENT
     Domains: 
       - any-collector.dom
 ```

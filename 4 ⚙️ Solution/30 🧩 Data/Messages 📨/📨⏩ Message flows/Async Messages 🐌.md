@@ -35,7 +35,7 @@
        * Domains get of the [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) by calling the [About@Graph 🚀 request](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 🚀 call.md>).
   
         ```yaml
-        🤝: nlweb.dom/MANIFEST/ABOUT
+        🤝: pollyweb.org/MANIFEST/ABOUT
         About:
           Domain: any-sender.dom
           Feedback: any-buffer.dom
@@ -43,7 +43,7 @@
 
     * The feedback is sent via a [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../45 🤲 Helper domains/Buffers ⏳/⏳📨 Buffer msgs/👥🐌⏳ Feedback.md>). 
         ```yaml
-        🤝: nlweb.dom/MSG:1.0
+        🤝: pollyweb.org/MSG:1.0
         Header:
             From: any-receiver.dom
             To: any-buffer.dom

@@ -33,15 +33,15 @@ Blueprint:
           Name of the person or organization waiting for the delivery.
 
       Country: 
-        $ref: Country@nlweb.dom/PERSONA/ADDRESS:1.0
+        $ref: Country@pollyweb.org/PERSONA/ADDRESS:1.0
 
       Address:
-        $ref: Address@nlweb.dom/PERSONA/ADDRESS:1.0
+        $ref: Address@pollyweb.org/PERSONA/ADDRESS:1.0
 
       Phones:
         type: array
         items:
-          $ref: nlweb.dom/PERSONA/PHONE:1.0
+          $ref: pollyweb.org/PERSONA/PHONE:1.0
 
       Notes:
         type: string

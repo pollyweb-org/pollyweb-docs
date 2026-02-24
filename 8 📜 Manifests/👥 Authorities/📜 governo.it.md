@@ -3,7 +3,7 @@
 <!--# 🇮🇹 https://quip.com/Aa9oAaGzmFFh/-Governoit-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: governo.it
@@ -29,7 +29,7 @@ Trusts:
       
   # Trusts 16+ tokens from the nation.
   - Role: CONSUMER
-    Query: nlweb.dom/PALM/16+
+    Query: pollyweb.org/PALM/16+
     Domains: 
       - any-nation.dom
       

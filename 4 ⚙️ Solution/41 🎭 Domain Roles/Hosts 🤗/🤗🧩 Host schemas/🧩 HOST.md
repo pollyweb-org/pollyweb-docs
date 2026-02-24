@@ -15,5 +15,5 @@
 ```yaml
 Path: /HOST
 Description: Locator of a Host.
-Inherits: nlweb.dom/LOCATOR:1.0
+Inherits: pollyweb.org/LOCATOR:1.0
 ```

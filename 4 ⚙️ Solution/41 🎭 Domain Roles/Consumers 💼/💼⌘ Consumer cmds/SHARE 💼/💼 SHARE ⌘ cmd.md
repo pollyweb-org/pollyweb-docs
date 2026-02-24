@@ -57,7 +57,7 @@
     | Input| Purpose
     |-|-
     | `Schema`  | [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) for [`Query@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) 
-    ||For readability, a dot replaces `nlweb.dom/`
+    ||For readability, a dot replaces `pollyweb.org/`
     | `Context`| Object with context, when applicable
     | `Domain`| Optional specific domain for the [`Share Token+ID` ⏩ flow](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token+ID 👉🆔💼/🧑‍🦰 Share Token+ID ⏩ flow.md>)
     | `$shared`| [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) data returned by [`Collect@Vault`](<../../../Vaults 🗄️/🗄️📨 Vault msgs/Collect 💼🚀🗄️/🗄️ Collect 🚀 call.md>)
@@ -69,13 +69,13 @@
 
 1. **What does the dot mean in a code?**
 
-    Given that the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defined by `nlweb.dom` will be widely used, 
-    * [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) accept a dot as a prefix of `nlweb.dom/`.
+    Given that the [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) defined by `pollyweb.org` will be widely used, 
+    * [Scripts 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) accept a dot as a prefix of `pollyweb.org/`.
     * Consider the following equal examples.
 
         ```yaml
         - SHARE .IDENTITY/OVER21 >> $social          
-        - SHARE nlweb.dom/IDENTITY/OVER21 >> $social 
+        - SHARE pollyweb.org/IDENTITY/OVER21 >> $social 
         ```
 
     ---
@@ -109,7 +109,7 @@
    
     | Data | [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
     |-|-
-    | Social Name |  [`nlweb.dom/PERSONA/NAME/SOCIAL` 🧩](<../../../../50 🫥 Agent domains/Personas 🧢/🧢🧩 Persona schemas/🧩 NAME'SOCIAL.md>)
+    | Social Name |  [`pollyweb.org/PERSONA/NAME/SOCIAL` 🧩](<../../../../50 🫥 Agent domains/Personas 🧢/🧢🧩 Persona schemas/🧩 NAME'SOCIAL.md>)
    
     ---
     <br/>

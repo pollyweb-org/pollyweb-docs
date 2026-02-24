@@ -3,7 +3,7 @@
 <!--# 🇺🇸 https://quip.com/VtTHA12LzVsr/-USAgov-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: federalreserve.gov
@@ -18,7 +18,7 @@ Trusts:
       
 
   # Allow bank operations with other countries.
-  - Query: nlweb.dom/BANK/*
+  - Query: pollyweb.org/BANK/*
     Domains: 
       # American banks
       - bankofamerica.dom

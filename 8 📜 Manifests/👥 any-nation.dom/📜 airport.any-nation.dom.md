@@ -3,7 +3,7 @@
 <!--# 🏳️🛩️ https://quip.com/YJvcAJB72qzI-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: airport.any-nation.dom
@@ -26,6 +26,6 @@ Trusts:
 
   # Notify AnyAirline that a passenger was found at gate.
   - Role: CONSUMER
-    Query: nlweb.dom/PALM/FOUND
+    Query: pollyweb.org/PALM/FOUND
     Domains: [ airline.any-business.dom ]
 ```

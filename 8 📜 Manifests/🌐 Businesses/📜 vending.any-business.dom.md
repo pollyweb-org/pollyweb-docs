@@ -3,7 +3,7 @@
 <!--# 🍫 https://quip.com/u2A0AZ8kTUAj/-AnyVendingcom-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: vending.any-business.dom

@@ -3,7 +3,7 @@
 <!--# 🧪🔑 https://quip.com/W27vArlsLa9c/-Door-Keys-Building-->
 
 ```yaml
-🤝: nlweb.dom/MANIFEST
+🤝: pollyweb.org/MANIFEST
 
 About:
   Domain: keys.any-business.dom
