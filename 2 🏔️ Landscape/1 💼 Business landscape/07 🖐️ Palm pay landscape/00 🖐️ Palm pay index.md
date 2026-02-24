@@ -2,7 +2,7 @@
 ===
     
 
-💬 NLWeb advocates for payment simplicity for the benefit of users, while looking to ensure the following safeguards:
+💬 PollyWeb advocates for payment simplicity for the benefit of users, while looking to ensure the following safeguards:
 
 - A consumer's palm should only be matched to their payment methods by entities that already hold the consumer's Personally Identifiable Information (PII).
 - For business that don't know the consumer, there should be an intermediary (trusted by both the consumer and the business) that obfuscates the matching to protect the consumer's privacy.

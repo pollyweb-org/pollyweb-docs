@@ -6,7 +6,7 @@
 
 - 🤔 Previous attempts to unify user identities by tech giants have failed, mostly due to privacy concerns and regulatory scrutiny - e.g.: Facebook Digital Identity, Microsoft Passport in 2020, and Google+ Identity Services;
 
-- 💬 NLWeb's approach is to delegate the authentication step of service workflows to the increasing number of governments worldwide that are transforming their citizens' physical identity documents into digital formats.
+- 💬 PollyWeb's approach is to delegate the authentication step of service workflows to the increasing number of governments worldwide that are transforming their citizens' physical identity documents into digital formats.
 
 ---
 

@@ -9,7 +9,7 @@
 
     A Finder is 
     * any [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) 
-    * that helps users find other domains on the NLWeb, 
+    * that helps users find other domains on the PollyWeb, 
     * sorting the findings according to users' preferences and context.
 
     ---
@@ -32,7 +32,7 @@
     | - | - | - |
     | | | 🔆 [tap](<../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
     | 🔎 [Finder](<🔎 Finder 🫥 agent.md>) | ⓘ Any Host (4.3 ⭐) [+] | (expand)
-    | 🔎 [Finder](<🔎 Finder 🫥 agent.md>) | ⓘ Any Host (4.3 ⭐)  [-] <br/> This host sells shoes.<br/>- They were founded in 1987.<br/>- Joined NLWeb 2 years ago.<br/>User feedback:<br/>- Delivery 4.7⭐ by 357 users<br/>- Support 3.5⭐ by 21 users
+    | 🔎 [Finder](<🔎 Finder 🫥 agent.md>) | ⓘ Any Host (4.3 ⭐)  [-] <br/> This host sells shoes.<br/>- They were founded in 1987.<br/>- Joined PollyWeb 2 years ago.<br/>User feedback:<br/>- Delivery 4.7⭐ by 357 users<br/>- Support 3.5⭐ by 21 users
 
     ---
     <br/>
@@ -65,9 +65,9 @@
 
     |[Streamer&nbsp;🎭](<../../../41 🎭 Domain Roles/Streamers 🌬️/🌬️🎭 Streamer role.md>)|Purpose
     |-|-
-    | [🕸&nbsp;Graphs](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) to receive updates on [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) across the NLWeb, including their public identity, [trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>). 
+    | [🕸&nbsp;Graphs](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) | Finders subscribe to [Graphs 🕸 domains](<../../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) to receive updates on [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) across the PollyWeb, including their public identity, [trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships, and supported [integrations 🪢](<../../../41 🎭 Domain Roles/Integrators 🪢/🪢🎭 Integrator role.md>). 
     | [🔥&nbsp;Firewalls](<../../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) | Finders subscribe to [Firewall 🔥 domains](<../../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to quickly react to threats. 
-    | [⭐&nbsp;Reviewers](<../../Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | Finders subscribe to [Reviewer ⭐ domains](<../../Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to receive updates of domain ranks across the NLWeb, as a result of user feedback. 
+    | [⭐&nbsp;Reviewers](<../../Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | Finders subscribe to [Reviewer ⭐ domains](<../../Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to receive updates of domain ranks across the PollyWeb, as a result of user feedback. 
     | [👀&nbsp;Advertisers](<../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) | Finders subscribe to [Advertiser 👀 domains](<../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) to know which ads to show to users in addition to search results from [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>). 
 
     ---

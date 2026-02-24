@@ -22,7 +22,7 @@
 
 1. **What input formats can Hosts ask Wallets to render?**
 
-    Similar to HTTP, on NLWeb the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) servers request the [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to render the requested [Prompts 🤔](<🤔 Prompt.md>).
+    Similar to HTTP, on PollyWeb the [Host 🤗 domain](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) servers request the [Wallet 🧑‍🦰 apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to render the requested [Prompts 🤔](<🤔 Prompt.md>).
 
     * The supported [Prompt 🤔](<🤔 Prompt.md>) formats are as follow.
 

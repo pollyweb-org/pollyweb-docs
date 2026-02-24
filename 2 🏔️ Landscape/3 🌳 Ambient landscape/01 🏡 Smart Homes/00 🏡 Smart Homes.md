@@ -1,7 +1,7 @@
 🏡 Smart home landscape
 ===
 
-🎯 On its mission to connect and cognify nearly every service, place, and thing, NLWeb looks for seamless integration between the digital and the physical world. 
+🎯 On its mission to connect and cognify nearly every service, place, and thing, PollyWeb looks for seamless integration between the digital and the physical world. 
 
 ---
 
@@ -13,7 +13,7 @@
 
 ---
 
-💬 NLWeb advocates for a combination of:
+💬 PollyWeb advocates for a combination of:
 
 - wireless charging for powering devices,
 - Matter protocol for device interoperability,

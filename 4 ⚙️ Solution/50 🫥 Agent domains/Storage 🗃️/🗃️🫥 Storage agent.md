@@ -34,7 +34,7 @@
 
     - [Storage 🗃️ vaults](<🗃️🫥 Storage agent.md>) fully segregate each user-domain section, so that no domain can see user data from another domain, and no users can see data from other users. 
 
-    - In parallel, NLWeb advocates for domains writing to a [Storage 🗃️ service](<🗃️🫥 Storage agent.md>) to encrypt their data. 
+    - In parallel, PollyWeb advocates for domains writing to a [Storage 🗃️ service](<🗃️🫥 Storage agent.md>) to encrypt their data. 
 
     ---
 
@@ -49,7 +49,7 @@
 1. **Can users change to a different Storage domain?**
 
     Yes. 
-    - The NLWeb protocol includes a mechanism from transfer between [Storage 🗃️ domains](<🗃️🫥 Storage agent.md>). 
+    - The PollyWeb protocol includes a mechanism from transfer between [Storage 🗃️ domains](<🗃️🫥 Storage agent.md>). 
     - Failure to comply causes [Firewalls 🔥](<../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to block the domain.
 
     ---

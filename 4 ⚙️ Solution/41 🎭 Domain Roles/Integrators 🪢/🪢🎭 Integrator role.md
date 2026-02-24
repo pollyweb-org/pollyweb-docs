@@ -49,7 +49,7 @@
 
 1. **How can domains leverage Integrators?**
 
-    Integrators allow domains to find available services on NLWeb with a standard way to use those services across domains.
+    Integrators allow domains to find available services on PollyWeb with a standard way to use those services across domains.
 
     ---
     <br/>

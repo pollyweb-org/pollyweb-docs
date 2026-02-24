@@ -17,7 +17,7 @@
 
 ---
 
-💬 NLWeb advocates for a combination of:
+💬 PollyWeb advocates for a combination of:
 
 - 1/ a personal time-series vault for each user;
 - 2/ multiple inputs feeding each user's vault;

@@ -64,7 +64,7 @@
     
 1. **What authentication mechanisms are supported by Wallets?**
 
-    NLWeb natively supports key pairs (passkeys) and one time passwords (OTP). 
+    PollyWeb natively supports key pairs (passkeys) and one time passwords (OTP). 
     * However, [Identifier 🆔 vault](<🆔 Identifier 🫥 agent.md>) are free to implement whatever authentication mechanisms they want using the generic tools available. 
     
     For example: 
@@ -79,7 +79,7 @@
     
 1. **How is voice recognition secured with an audio input?**
 
-    NLWeb discourages voice recognition as authentication method,
+    PollyWeb discourages voice recognition as authentication method,
     * except in [supervised 👮 scenarios](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) (e.g., a government office),
     * because Generative AI can mimic a person's voice with 3 seconds of original audio.
 

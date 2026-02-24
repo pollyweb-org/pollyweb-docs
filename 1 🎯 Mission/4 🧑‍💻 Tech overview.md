@@ -1,9 +1,9 @@
 
 Shared responsibility
 --
-> While in traditional Web 2.0 business own the full end-to-end user experience, NLWeb separates between anonymous business APIs and user sovereign UI and personalization.
+> While in traditional Web 2.0 business own the full end-to-end user experience, PollyWeb separates between anonymous business APIs and user sovereign UI and personalization.
 
-|  | Web 2.0 Biz | NLWeb Biz | NLWeb User
+|  | Web 2.0 Biz | PollyWeb Biz | PollyWeb User
 | - | - | - | -
 | Interface  | - Website, App | - Broker 🤵 | - Shared chat app 💬
 | Navigation | - Google Maps | -  Physical signs <br/> - Sign jumps |  - Persona agent 🧢 <br/> - Navigator agent 🧭
@@ -17,9 +17,9 @@ Shared responsibility
 
 User experience
 --
-> NLWeb works with chat super-apps over an open protocol. A user only needs to install a single compatible chat app to have access to a multitude of businesses APIs available in the NLWeb. 
+> PollyWeb works with chat super-apps over an open protocol. A user only needs to install a single compatible chat app to have access to a multitude of businesses APIs available in the NLWeb. 
 
-|  |  Email | Website | App | NLWeb 
+|  |  Email | Website | App | PollyWeb 
 | - | - | - | - | - 
 | Interface 🧑‍🦰 |      Email client 📧  | Browser 🌐   | Device OS 📱 | Chat Apps 📱
 | Channel 💼 | Newsletter 📧       | Website 📑 | App 📱 | Chat 💬
@@ -30,9 +30,9 @@ User experience
 
 Data
 --
-> NLWeb inverts the location and ownership of user data, aligned with the concept of self-sovereignty.
+> PollyWeb inverts the location and ownership of user data, aligned with the concept of self-sovereignty.
 
-|  | Web 2.0 | NLWeb 
+|  | Web 2.0 | PollyWeb 
 | - | - | - | 
 | User wallet apps 🧑‍🦰 | Hidden seller cookies | Shareable user tokens
 | Seller domains 💼 |  Hidden user data | Shareable seller data
@@ -44,14 +44,14 @@ Data
 Personalization
 --
 
-|  | Email | Website | App | NLWeb 
+|  | Email | Website | App | PollyWeb 
 | - | - | - | - | - 
 | Businesses 💼 | Guess 🧠 | Guess 🧠 | Guess 🧠 | Show all options 📚
 | Customers 🧑‍🦰 |  Settings ⚙️ | Filters 🎚️ | Filters 🎚️ | AI curators 🧠
 
 B2C channels 
 --
-|  | Email | Website | App | NLWeb 
+|  | Email | Website | App | PollyWeb 
 |  - | - | - | - | -
 | Content 📝 | Email 📧        | robots.txt 📄  | App Store 🍏 | Manifest 📜 
 | Locators ✨  | -         | URL/QR ✨ | URL/QR✨ | URL/QR ✨
@@ -63,7 +63,7 @@ B2C channels
 B2B API 
 --
 
-|  | Email API | Web API | NLWeb API
+|  | Email API | Web API | PollyWeb API
 |  - | - | - | - 
 | API Requests 🔁    | Async 🐌        | Sync 🚀 | Async 🐌
 | Schema Definition 🧩   | -        | Swagger 📖 | Manifest 📜 
@@ -73,7 +73,7 @@ B2B API
 Cross server messaging
 --
 
-|  | Email Server | Web Server | NLWeb Server
+|  | Email Server | Web Server | PollyWeb Server
 | - | - | - | - 
 | Name 🌐     | DNS             | DNS  | DNSSEC 🔒
 | Protocol 🛠️     | SMTP             | HTTP/S  | HTTPS 🔒

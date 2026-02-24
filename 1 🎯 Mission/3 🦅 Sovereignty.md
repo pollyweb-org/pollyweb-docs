@@ -1,12 +1,12 @@
 🦅 Sovereignty pledge
 ===
 
-> NLWeb envisions a new era of the internet built on trust, resilience, and sovereignty. 
+> PollyWeb envisions a new era of the internet built on trust, resilience, and sovereignty. 
 - This sovereignty pledge outlines the guidelines to provide users, businesses, and governments with greater control over their data and digital presence. 
 - PollyWeb prioritizes privacy, security, and localized governance, ensuring every stakeholder retains autonomy in a connected world.
 
 
-> The NLWeb sovereignty pledge focuses on three main stakeholders:
+> The PollyWeb sovereignty pledge focuses on three main stakeholders:
 
 * 🧑‍🦰 [Users](#Users) (i.e., citizens)
 * 💼 [Businesses](#Businesses) (i.e., private sector)

@@ -32,7 +32,7 @@
 
 1. **Why not leverage the Open Banking protocol?**
 
-    While NLWeb follows the Open Banking rational for payments, it requires features not available in Open Banking;
+    While PollyWeb follows the Open Banking rational for payments, it requires features not available in Open Banking;
     - e.g., the ability to jump between bank entities from within a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) in the user's [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
 
     ---
@@ -48,7 +48,7 @@
     
 1. **How does a user bind to their traditional bank?**
 
-    The bank needs to onboard into NLWeb as a [Payer 💳 domain](<💳🎭 Payer role.md>).
+    The bank needs to onboard into PollyWeb as a [Payer 💳 domain](<💳🎭 Payer role.md>).
 
     ---
     <br/>
@@ -65,15 +65,15 @@
 
     The [Open Network for Digital Commerce (ONDC) 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>) is a centralized shared network specific for the retail industry in India. 
     - PollyWeb can also address that niche, 
-        - but NLWeb os a generalist, global, and distributed protocol based on natural language.  
-    - Conversely, NLWeb is against any form of central governance for payments 
+        - but PollyWeb os a generalist, global, and distributed protocol based on natural language.  
+    - Conversely, PollyWeb is against any form of central governance for payments 
         - i.e., there should be multiple channels for [Payer 💳 domains](<💳🎭 Payer role.md>) and [Collector 🏦 domains](<../../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) to communicate;
         - e.g., if SWIFT doesn't work, send it via TransferWise.
 
     ---
     <br/>
     
-1. **Does NLWeb allow a user to type a credit card number?**
+1. **Does PollyWeb allow a user to type a credit card number?**
 
     Although technically possible, it is highly discouraged. 
     - PollyWeb advocates for minimum user-typing during a transaction. 
@@ -82,20 +82,20 @@
     ---
     <br/>
     
-1. **Does NLWeb allow users to pay with NFC contactless?**
+1. **Does PollyWeb allow users to pay with NFC contactless?**
 
-    No. NLWeb does not use the standard payment NFC protocol. 
+    No. PollyWeb does not use the standard payment NFC protocol. 
     
-    - However, users can tap on a NLWeb [🔆 NFC Locator](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with their devices to check out an NLWeb transaction, while continuing to use the device's standard NFC payments for traditional point of sale (POS) terminals. 
+    - However, users can tap on a PollyWeb [🔆 NFC Locator](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with their devices to check out an PollyWeb transaction, while continuing to use the device's standard NFC payments for traditional point of sale (POS) terminals. 
     
-    - The user experience should be similar in both cases, but with NLWeb there is no need for businesses to acquire expensive payment terminals because the UX is in the user's device - only a passive NFC tag costing less than $1.00 is required.
+    - The user experience should be similar in both cases, but with PollyWeb there is no need for businesses to acquire expensive payment terminals because the UX is in the user's device - only a passive NFC tag costing less than $1.00 is required.
 
     ---
     <br/>
     
-1. **Does NLWeb allow for offline payments in airplanes?**
+1. **Does PollyWeb allow for offline payments in airplanes?**
 
-    No. NLWeb requires internet connectivity on the user's device. 
+    No. PollyWeb requires internet connectivity on the user's device. 
     
     - This will be a non-problem soon, as internet becomes ubiquitous. 
     - [Starlink 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/03 📺 Starlink @ phones.md>) and [Project Kuiper 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/04 📺 Amazon's Kuiper.md>) will provide internet [worldwide 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/01 📺 Starlink @ remote areas.md>) and [in airplanes 📺](<../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/02 📺 Starlink @ airplanes.md>).
@@ -133,7 +133,7 @@
     
 1. **Why not use blockchain to perform the money transfer?**
 
-    NLWeb discourages the usage of blockchain in this scenario for multiple reasons:
+    PollyWeb discourages the usage of blockchain in this scenario for multiple reasons:
 
     - **simplicity:** if only two entities ([Payer 💳 domain](<💳🎭 Payer role.md>) and [Collector 🏦 domain](<../../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>)) need to communicate, then two simple mutually authenticated API endpoints are enough to do the job.
   
@@ -148,7 +148,7 @@
     
 1. **How is money laundry prevented?**
 
-    NLWeb leverages payment transfers to be made using existing platforms and transfers protocols that already have international guardrails implemented, thus inheriting these guardrails.
+    PollyWeb leverages payment transfers to be made using existing platforms and transfers protocols that already have international guardrails implemented, thus inheriting these guardrails.
 
     ---
     <br/>

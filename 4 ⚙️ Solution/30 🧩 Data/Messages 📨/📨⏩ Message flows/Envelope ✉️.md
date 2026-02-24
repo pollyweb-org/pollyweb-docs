@@ -55,7 +55,7 @@
 
 1. **How do receiver domains handle upgraded schema versions?**
 
-    An NLWeb envelop contains a [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
+    An PollyWeb envelop contains a [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
     - e.g., `🤝: pollyweb.org/MSG:1.0`
     - Envelopes with unsupported versions are discarded.
 
@@ -65,7 +65,7 @@
 
 1. **How do receiver domains know who sent a message?**
 
-    An NLWeb envelope resembles an email message, containing a `Header` and a `Body`. 
+    An PollyWeb envelope resembles an email message, containing a `Header` and a `Body`. 
     - The header contains the sender’s domain name (e.g., `any-sender.dom`) and the receiver’s domain name (e.g., `any-receiver.dom`), as well as other metadata. 
     - Receivers discard envelopes not intended to them.
 
@@ -74,7 +74,7 @@
 
 1. **How do receiver domains prevent replay attacks?**
 
-    An NLWeb envelop contains the sender’s `Timestamp` in UTC format.
+    An PollyWeb envelop contains the sender’s `Timestamp` in UTC format.
     - Receivers discard envelopes with a timestamp outside accepted time boundaries. 
     
     An envelope also contains a `Correlation` UUID.
@@ -86,7 +86,7 @@
 
 1. **How do receiver domains differentiate methods?**
 
-    An NLWeb envelop contains a `Subject` that identifies how the receiver should handle the message:
+    An PollyWeb envelop contains a `Subject` that identifies how the receiver should handle the message:
     - e.g., `Hello@Host` refers to the [Hello 🐌 method](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) in the [Host 🤗 domain role](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
     - The possible `Subject` values are defined by the APIs implemented by [Roles 🎭](<../../../40 👥 Domains/👥 Domain/👥🎭 Domain Role.md>).
     - Receivers discard envelopes with unexpected subjects.
@@ -98,7 +98,7 @@
 
 1. **Why are Messages in JSON while Manifests are in YAML?** 
 
-    NLWeb uses JSON, YAML, or MARKDOWN depending on the requirements.
+    PollyWeb uses JSON, YAML, or MARKDOWN depending on the requirements.
 
     | Format | Rational
     |-|-

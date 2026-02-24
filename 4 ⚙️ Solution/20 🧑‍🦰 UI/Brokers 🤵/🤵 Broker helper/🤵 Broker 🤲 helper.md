@@ -52,13 +52,13 @@
 
 1. **Why aren't Brokers and Notifiers the same domain?**
     
-    Separating the responsibilities of [Broker 🤵 domains](<🤵 Broker 🤲 helper.md>) and [Notifier 📣 domains](<../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) allows cloud providers (e.g., AWS, Azure, GCP) and independent software vendors (ISVs) to offload from mobile startups the undifferentiated heavy lifting of implementing the NLWeb protocol in the most robust, secure, and compliant way. 
+    Separating the responsibilities of [Broker 🤵 domains](<🤵 Broker 🤲 helper.md>) and [Notifier 📣 domains](<../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) allows cloud providers (e.g., AWS, Azure, GCP) and independent software vendors (ISVs) to offload from mobile startups the undifferentiated heavy lifting of implementing the PollyWeb protocol in the most robust, secure, and compliant way. 
     
     * These startups can then focus on the [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) and [Notifier 📣 domain](<../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) to create great frontend user experiences.
 
-    * [Broker 🤵 domains](<🤵 Broker 🤲 helper.md>) are responsible for validating if the [Notifier 📣 domains](<../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) they serve are compliant with NLWeb protocol, blocking them if necessary.
+    * [Broker 🤵 domains](<🤵 Broker 🤲 helper.md>) are responsible for validating if the [Notifier 📣 domains](<../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) they serve are compliant with PollyWeb protocol, blocking them if necessary.
 
-    * The NLWeb organization is responsible for verifying and onboarding [Broker 🤵 domains](<🤵 Broker 🤲 helper.md>), listing them as [trustworthy 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) on its public [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>), so that other [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) can inherit that [trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>).
+    * The PollyWeb organization is responsible for verifying and onboarding [Broker 🤵 domains](<🤵 Broker 🤲 helper.md>), listing them as [trustworthy 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) on its public [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>), so that other [domains 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) can inherit that [trust 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>).
 
     ---
     <br/>
@@ -73,12 +73,12 @@
     ---
     <br/>
 
-1. **How do Brokers ensure Wallets are NLWeb compliant?**
+1. **How do Brokers ensure Wallets are PollyWeb compliant?**
 
     [Broker 🤵 domains](<🤵 Broker 🤲 helper.md>) are responsible for testing the compliance of [Wallet 🧑‍🦰 apps](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) and [Notifier 📣 domains](<../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) by performing a set of automated tests before allowing new Wallet versions to be used.
 
     * [Notifier 📣 domains](<../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) are responsible for informing [Broker 🤵 domains](<🤵 Broker 🤲 helper.md>) about changes in the software version, allowing [Broker 🤵 domains](<🤵 Broker 🤲 helper.md>) to manage the test and release lifecycle of new versions 
-    * Failure to inform may force the [Broker 🤵 domain](<🤵 Broker 🤲 helper.md>) to cut the Wallet's communication to NLWeb by blocking its [Notifier 📣 domain](<../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>).
+    * Failure to inform may force the [Broker 🤵 domain](<🤵 Broker 🤲 helper.md>) to cut the Wallet's communication to PollyWeb by blocking its [Notifier 📣 domain](<../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>).
 
     ---
     <br/>

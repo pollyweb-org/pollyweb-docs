@@ -11,7 +11,7 @@
         - and if the flight has not yet departed. 
         
     Traditionally, when using their phones, users could struggle with the phone's screen rotation and brightness. 
-    - With NLWeb, users can download their tickets as tokens when checking in, so that they can pass these gates by just tapping the gate with their mobile device.  
+    - With PollyWeb, users can download their tickets as tokens when checking in, so that they can pass these gates by just tapping the gate with their mobile device.  
 
 
 
@@ -20,7 +20,7 @@
 1. **How to board a flight at an airport with face biometrics?**
 
     Boarding a flight traditionally required users to scan the ticket, then an airline personal to confirm the flight number, the passport's name, and the photo. 
-    - With NLWeb, users can just tap their phone then take a photo on a fixed camera to match it with the ticket.
+    - With PollyWeb, users can just tap their phone then take a photo on a fixed camera to match it with the ticket.
 
     ---
 

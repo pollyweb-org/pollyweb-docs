@@ -1,9 +1,9 @@
-🪢 NLWeb Ecosystem
+🪢 PollyWeb Ecosystem
 ===
 
 ![](<.📎 Assets/Ecosystem.png>)
 
-The NLWeb ecosystem aims to simplify everyday business transactions by streamlining interactions between users, organizations, and things, while ensuring security and performance at a global scale.
+The PollyWeb ecosystem aims to simplify everyday business transactions by streamlining interactions between users, organizations, and things, while ensuring security and performance at a global scale.
 
 * Users interact with [Domains 👥](<../40 👥 Domains/👥 Domain/👥 Domain.md>) using their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
 

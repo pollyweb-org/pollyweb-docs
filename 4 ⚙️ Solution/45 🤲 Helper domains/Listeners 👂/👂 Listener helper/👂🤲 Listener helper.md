@@ -28,7 +28,7 @@
 
 1. **Why are Listeners necessary?**
 
-    NLWeb relies on a distributed cache of [Graph 🕸 helper domains](<../../Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>), which allows Manifest-owners to go offline without impacting whoever needs the information contained in the [Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>). 
+    PollyWeb relies on a distributed cache of [Graph 🕸 helper domains](<../../Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>), which allows Manifest-owners to go offline without impacting whoever needs the information contained in the [Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>). 
     * [Listener 👂 domains](<👂🤲 Listener helper.md>) ensure that the cache in these [Graph 🕸 domains](<../../Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>) is updated in near-real-time by propagating domain update notifications to [Graph 🕸 domains](<../../Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>). 
 
     ---
@@ -52,8 +52,8 @@
 
 1. **How do domains discover Listeners?**
 
-    Domains can either contact a [Listener 👂 domain](<👂🤲 Listener helper.md>) directly, or they can use the NLWeb cluster at `listeners.pollyweb.org`. 
-    * NLWeb advocates for a combination of both, defaulting to the cluster, and falling back to a named [Listener 👂 domain](<👂🤲 Listener helper.md>) in case the cluster is compromised.
+    Domains can either contact a [Listener 👂 domain](<👂🤲 Listener helper.md>) directly, or they can use the PollyWeb cluster at `listeners.pollyweb.org`. 
+    * PollyWeb advocates for a combination of both, defaulting to the cluster, and falling back to a named [Listener 👂 domain](<👂🤲 Listener helper.md>) in case the cluster is compromised.
 
     ---
     <br/>
@@ -145,7 +145,7 @@
 
     * **Interoperability**: Cloud event buses have limited capacity to hold event content, with 256 KB being the lowest common denominator amongst the well-known cloud providers - this about 30 pages of a narrative.
 
-    * **Simplicity**: by limiting the size of the events, NLWeb allows changes to be propagated across many cloud providers without the need for round trips (i.e., returning to the origin to download the content).
+    * **Simplicity**: by limiting the size of the events, PollyWeb allows changes to be propagated across many cloud providers without the need for round trips (i.e., returning to the origin to download the content).
 
     * **Scalability**: multiple small events can scale horizontally, virtually to infinite, by using cloud functions with small memory footprints - otherwise, single download of the [Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) of an [🏛️ Authority](<../../Authorities 🏛️/🏛️🤲 Authority helper.md>) could require several gigabytes of memory to be parsed.
 
@@ -189,7 +189,7 @@
 
 1. **How are new Listener nodes added to the cluster?**
 
-    New nodes first rebase by replaying NLWeb's history from another [Listener 👂 domain](<👂🤲 Listener helper.md>), then join the cluster.
+    New nodes first rebase by replaying PollyWeb's history from another [Listener 👂 domain](<👂🤲 Listener helper.md>), then join the cluster.
 
     ---
     <br/>
@@ -244,8 +244,8 @@
 1. **Is the cluster endpoint a single point of failure?**
 
     No. 
-    * The NLWeb cluster endpoint is a latency-based routing visible at a well-known DNS name (`listeners.pollyweb.org`). 
-    * While this endpoint is managed by the NLWeb foundation under the supervision of a consortium of multiple cloud providers, domains should nonetheless fall back to using a specific [Listener 👂 node](<👂🤲 Listener helper.md>) in case the cluster is unavailable.
+    * The PollyWeb cluster endpoint is a latency-based routing visible at a well-known DNS name (`listeners.pollyweb.org`). 
+    * While this endpoint is managed by the PollyWeb foundation under the supervision of a consortium of multiple cloud providers, domains should nonetheless fall back to using a specific [Listener 👂 node](<👂🤲 Listener helper.md>) in case the cluster is unavailable.
 
     ---
     <br/>

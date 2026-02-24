@@ -20,13 +20,13 @@
 
     Reviews about any given subject may differ depending on users' culture, biases, geography, and interests. 
     - Thus, a comment relevant to a group of individuals may not be relevant to others. 
-    - Because of that, NLWeb supports many Reviewer ⭐ domains in parallel, and advocates for Wallets to allow users to change their Reviewer ⭐ provider at any time.
+    - Because of that, PollyWeb supports many Reviewer ⭐ domains in parallel, and advocates for Wallets to allow users to change their Reviewer ⭐ provider at any time.
 
     ---
 
 1. **How can the mentioned domains defend themselves?**
 
-    When a domain is mentioned in feedbacks, Reviewers inform the referred domain using the domain's NLWeb feedback endpoint. 
+    When a domain is mentioned in feedbacks, Reviewers inform the referred domain using the domain's PollyWeb feedback endpoint. 
     - Domain admins can then contest or reply to the feedback.
 
     ---
@@ -41,7 +41,7 @@
 
 1. **How do Reviewers block bots from submitting reviews?**
 
-    NLWeb advocates for reviews to be sent only by humans. 
+    PollyWeb advocates for reviews to be sent only by humans. 
     
     - When a user submits a review about a domain, Reviewers domains ask the user's Identifier to authentication the user.
     - This way, the Reviewer can be certain that the human owner of the Wallet is submitting the comment and not a bot, while now knowing which human it was.
@@ -56,7 +56,7 @@
 
 1. **How do Reviewers block spam from anonymous users?**
 
-    NLWeb advocates for users to provide a single review about a domain, while being able to change that same review over time. 
+    PollyWeb advocates for users to provide a single review about a domain, while being able to change that same review over time. 
     
     - When users are submitting a new review to a domain, Reviewer domains send a Reviewer-context to the user's Identifier, and ask the Identifier to progress with the authentication only if the user has not previously interacted with that Reviewer-context. 
     

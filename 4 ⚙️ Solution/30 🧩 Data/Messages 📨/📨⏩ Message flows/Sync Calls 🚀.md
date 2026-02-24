@@ -44,7 +44,7 @@
     * This is because the difference in size of the responses measured by the attacker can be quite small. 
     * Any noise in the side-channel makes the attack more difficult (though not impossible). 
 
-    BREACH was assessed for NLWeb, and it was determined that the protocol is not exposed to these specific risks.
+    BREACH was assessed for PollyWeb, and it was determined that the protocol is not exposed to these specific risks.
 
     ---
     <br/>

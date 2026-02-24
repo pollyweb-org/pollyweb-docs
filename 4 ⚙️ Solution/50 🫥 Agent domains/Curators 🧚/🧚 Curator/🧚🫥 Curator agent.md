@@ -99,7 +99,7 @@
 
 1. **How much user data should a curator store?**
 
-    NLWeb advocates for [Curator 🧚 agents](<🧚🫥 Curator agent.md>) to rely on [Persona 🧢 vaults](<../../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) to assess user intent, while storing the nuances of those intents in the Curator's 🧚 memory:
+    PollyWeb advocates for [Curator 🧚 agents](<🧚🫥 Curator agent.md>) to rely on [Persona 🧢 vaults](<../../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) to assess user intent, while storing the nuances of those intents in the Curator's 🧚 memory:
     - this addresses the different speed of developments between humans and machines; 
     - i.e., humans change their tastes and behaviors slower as they age, while new and better machine algorithms appear exponentially faster;
     - this separation of concerns allows users to retain their legacy [Persona 🧢 vault](<../../Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) while constantly upgrading to new smarter [Curator 🧚 agents](<🧚🫥 Curator agent.md>) as they are released.

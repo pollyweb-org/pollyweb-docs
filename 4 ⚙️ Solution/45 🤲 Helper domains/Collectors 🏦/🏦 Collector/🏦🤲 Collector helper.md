@@ -63,7 +63,7 @@
 1. **Do Collectors have invoicing responsibilities?**
 
     No.
-    * [Collector 🏦 domains](<🏦🤲 Collector helper.md>) don't have invoicing responsibilities on the NLWeb protocol, but they may implement the feature for simple invoices as an option when issuing receipts.
+    * [Collector 🏦 domains](<🏦🤲 Collector helper.md>) don't have invoicing responsibilities on the PollyWeb protocol, but they may implement the feature for simple invoices as an option when issuing receipts.
     * This is especially relevant for startups and SMBs.
 
     ---

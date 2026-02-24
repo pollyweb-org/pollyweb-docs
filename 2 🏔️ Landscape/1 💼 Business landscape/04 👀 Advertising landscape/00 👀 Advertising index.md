@@ -20,7 +20,7 @@
 
 ---
 
-💬 NLWeb advocates for a combination of:
+💬 PollyWeb advocates for a combination of:
 
 - a competitive advertising market, where advertises can leverage multiple agencies; 
 - user privacy assured by trusted [vaults 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>), who proxy target audience on users' behalf;

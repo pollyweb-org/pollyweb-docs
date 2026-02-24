@@ -14,15 +14,15 @@
     - and with zero-knowledge proof, for users to prove entitlement without sharing any PII.
 
 
-💬 NLWeb advocates for data privacy with a combination of:
+💬 PollyWeb advocates for data privacy with a combination of:
 - **[personal vaults 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>)**, implemented by the same organizations that already own PII; 
 - **[zero knowledge proof 🆔](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/3 Verify Tokens 🆔⏩🎫/🆔⏩ Verify Tokens.md>)**, where proof is delegated to [vaults 🗄️](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) in [online 🔗](<../../../4 ⚙️ Solution/30 🧩 Data/Binds 🔗/🔗 Bind.md>) and [offline 🎫](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) fashion;
 - **multiple self-sovereign digital twins**, where the same person can anonymously share different preferences with same organization depending on the situation 
   - e.g., a person has different preferences when traveling for business or leisure.
 
-💬 NLWeb does not advocate for **selective discloser**:
+💬 PollyWeb does not advocate for **selective discloser**:
 - Taking from the experience of accepting cookies on websites, users typically default to give away all that they are being asked for by businesses, either due to laziness or fear of being denied the service or product by the business.
-- Instead of selective discloser, NLWeb advocates for business to request data schemas that are purpose driven and limited to the specific purpose - e.g., when selling alcohol in the UK:
+- Instead of selective discloser, PollyWeb advocates for business to request data schemas that are purpose driven and limited to the specific purpose - e.g., when selling alcohol in the UK:
     - bars and pubs should ask "are you over 21, yes or no?";
     - instead of asking "can you selectively disclose only the date of birth from your identity card?".
 - For transparency, businesses need to publicly manifest all their potential requests to customers:

@@ -9,7 +9,7 @@
 
 ---
 
-💬 NLWeb advocates for facial verification with remotely-controlled web-based [liveness-checks 📺](<09 📺 Amazon liveness.md>):
+💬 PollyWeb advocates for facial verification with remotely-controlled web-based [liveness-checks 📺](<09 📺 Amazon liveness.md>):
 
 - This limits the ability of bad actors to interfere with user devices.
 - It allows delegating the verification to the user's citizenship trusted nation.

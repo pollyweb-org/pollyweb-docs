@@ -13,7 +13,7 @@
 - Next, governments asked for physical locally-managed data residency (e.g., sovereignty clouds).
 
 ---
-💬 NLWeb advocates for the benefits of data gathering without misuse, by combining:
+💬 PollyWeb advocates for the benefits of data gathering without misuse, by combining:
 - **global sharing of real-time data**, via tech-agnostic subscriptions; and
 - **sovereignty control to data owners**, with transparent sharing policies.
 

@@ -55,7 +55,7 @@
 1. **Can Tokens be downloaded into the Wallet?**
 
     Yes.
-    * Thus the term [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) when referring to NLWeb browsers. 
+    * Thus the term [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) when referring to PollyWeb browsers. 
 
     ---
     <br/>
@@ -72,7 +72,7 @@
 1. **Are these crypto tokens from blockchain?**
 
     No. 
-    * NLWeb does not use blockchain nor cryptocurrencies. 
+    * PollyWeb does not use blockchain nor cryptocurrencies. 
     * Global blockchain databases are known to have scaling issues without fully delivering the promise of decentralization, and were already abandoned by [W3C Verifiable Credential 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md>) players like IATA, and by crypto start-ups like [Sam Altman's World 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/11 📺 Sam Altman's World.md>).
 
     ---
@@ -146,7 +146,7 @@
 
     Not via [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), no, because Wallets need Internet connectivity to share the [Token 🎫](<🎫 Token.md>) with other domains. 
     
-    - **Note**: NLWeb assumes the inevitability of internet becoming ubiquitous in time - in 2024, internet is already available on London subways, on United Airline flights, and in remote regions of the globe with [Starlink 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/03 📺 Starlink @ phones.md>), while [Project Kuiper 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/04 📺 Amazon's Kuiper.md>) is on track general availability in 2026.
+    - **Note**: PollyWeb assumes the inevitability of internet becoming ubiquitous in time - in 2024, internet is already available on London subways, on United Airline flights, and in remote regions of the globe with [Starlink 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/03 📺 Starlink @ phones.md>), while [Project Kuiper 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/04 📺 Amazon's Kuiper.md>) is on track general availability in 2026.
 
     ---
     <br/>

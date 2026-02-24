@@ -4,17 +4,17 @@ Onboarding
 ![](<.📎 Assets/Wallet.png>)
 
 
-1. **What does a user need to engage in an NLWeb chat?**
+1. **What does a user need to engage in an PollyWeb chat?**
 
-    To engage in a NLWeb [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>), a user needs an NLWeb-compatible [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
-    - This is any app that supports the NLWeb protocol, from any vendor.
+    To engage in a PollyWeb [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>), a user needs an NLWeb-compatible [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
+    - This is any app that supports the PollyWeb protocol, from any vendor.
     - The user experience is similar to Meta's [WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>). 
 
     ---
 
 1. **What are the steps for a user to onboard PollyWeb?**
 
-    1. Install an NLWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) from an app store;
+    1. Install an PollyWeb [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) from an app store;
     1. Fill out the [Persona 🧢 agent](<../50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) agent with standard data sets;
     1. Add payment methods to the [Payer 💳 agent](<../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) agent;
     1. Start touching/scanning NFC/QR [Locators 🔆](<../25 🔆 Locators/Locators 🔆/🔆 Locator.md>).
@@ -24,7 +24,7 @@ Onboarding
 1. **What is the effort for organizations to onboard PollyWeb?**
 
     The main effort will be on enablement, workflow customization, and integration with the organization's downstream services. 
-    - Organizations can leverage the NLWeb Stack to bootstrap, which includes a [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), deployment services, and support services. 
+    - Organizations can leverage the PollyWeb Stack to bootstrap, which includes a [Wallet app 🧑‍🦰](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), deployment services, and support services. 
 
 
     ---
@@ -40,17 +40,17 @@ Onboarding
 
     ---
 
-1. **Can NLWeb be integrated into existing apps?**
+1. **Can PollyWeb be integrated into existing apps?**
 
     Yes. 
     - PollyWeb can be added as a chat window to an existing mobile app, allowing the user to interact with the service via text. 
-    - The chat component must support the minimum feature requirements for chat over the NLWeb protocol.
+    - The chat component must support the minimum feature requirements for chat over the PollyWeb protocol.
 
     ---
 
 1. **Do wallets from Google, Apple, and the EU support PollyWeb?**
 
     No. 
-    - As of 2025, these wallets don't support the NLWeb protocol.
+    - As of 2025, these wallets don't support the PollyWeb protocol.
 
     ---

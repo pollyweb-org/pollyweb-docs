@@ -9,7 +9,7 @@
     
     * This allows [Broker 🤵 domains](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to communicate in standard HTTPS with the [Notifier 📣 domain](<📣 Notifier 👥 domain.md>), while the [Notifier 📣 domain](<📣 Notifier 👥 domain.md>) communicates via mobile-friendly real-time protocols with the [Wallet 🧑‍🦰 app](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) (e.g., MQTT, web sockets, mobile notifications). 
     
-    * Because of this tight integration between pairs of [Notifier 📣 domains](<📣 Notifier 👥 domain.md>) and [Wallet 🧑‍🦰 apps](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), NLWeb advocates for each pair to be built and managed by the same team.
+    * Because of this tight integration between pairs of [Notifier 📣 domains](<📣 Notifier 👥 domain.md>) and [Wallet 🧑‍🦰 apps](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), PollyWeb advocates for each pair to be built and managed by the same team.
 
     ---
     <br/>
@@ -32,9 +32,9 @@
 
     Not for NLWeb. 
     
-    * In NLWeb, domain orchestration is done by [Broker 🤵 domains](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>), and storage of user data is done by [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) domains, while a [Notifier 📣 domain's](<📣 Notifier 👥 domain.md>) only responsibility is to proxy [domain messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) to and from the [Broker 🤵 domain](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>). 
+    * In PollyWeb, domain orchestration is done by [Broker 🤵 domains](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>), and storage of user data is done by [Vault 🗄️](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) domains, while a [Notifier 📣 domain's](<📣 Notifier 👥 domain.md>) only responsibility is to proxy [domain messages 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) to and from the [Broker 🤵 domain](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>). 
     
-    * This is by design, allowing resilient [Broker 🤵 domain](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) implementations (e.g., AWS, GCP, Azure) to assume the complexity of the undifferentiated NLWeb protocol, while allowing app start-ups to focus on user experience differentiation. 
+    * This is by design, allowing resilient [Broker 🤵 domain](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) implementations (e.g., AWS, GCP, Azure) to assume the complexity of the undifferentiated PollyWeb protocol, while allowing app start-ups to focus on user experience differentiation. 
     
     * Of course, companies developing [Wallet 🧑‍🦰 apps](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) may wish to support unique features not supported by [Broker 🤵 domain](<../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>), which may eventually result in the need to store user data on the [Notifier 📣 domain](<📣 Notifier 👥 domain.md>).
 

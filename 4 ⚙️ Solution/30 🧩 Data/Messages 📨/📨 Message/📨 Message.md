@@ -41,7 +41,7 @@
     
     - Conversely, W3C advocates for Verifiable Credentials (VCs) supported by DIDs that can be printed into a QR code just like a URL;
         - the DID key needs to be translated into a DID Document by an online key-value database before the consumer domain can read and validate its content;
-        - because of this limitation, NLWeb does not implement DIDs.
+        - because of this limitation, PollyWeb does not implement DIDs.
 
     ---
     <br/>

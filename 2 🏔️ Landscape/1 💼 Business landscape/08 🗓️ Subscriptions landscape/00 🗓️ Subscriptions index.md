@@ -8,7 +8,7 @@
 
 ---
 
-💬 NLWeb advocates for an inversion of control in the management of subscriptions.
+💬 PollyWeb advocates for an inversion of control in the management of subscriptions.
 
 - Businesses connect to consumers' subscription manager.
 - Consumers manage all of their subscriptions from a single place.

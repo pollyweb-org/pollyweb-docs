@@ -32,7 +32,7 @@
 
 1. **How is face recognition secured with a selfie input?**
 
-    NLWeb discourages face recognition via selfie pictures,
+    PollyWeb discourages face recognition via selfie pictures,
     * except in [supervised 👮 scenarios](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/00 👮 Supervised ID Index.md>) (e.g., a government office),
     * because hackers can use [Generative AI 📺](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/08 📺 Deep fakes.md>) to interfere with the device's face biometrics.
     
@@ -79,7 +79,7 @@
 
 1. **What are the conditions for face biometrics to be spoofed?**
 
-    On NLWeb, the [face biometric verification 📺](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) works as follows:
+    On PollyWeb, the [face biometric verification 📺](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md>) works as follows:
 
     - the user always first presents *something they own* (e.g., a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)) plus context information (e.g., GPS coordinates and device configuration);
 
@@ -106,12 +106,12 @@
     ---
     <br/>
 
-1. **How does NLWeb face verification compares with other technologies?**
+1. **How does PollyWeb face verification compares with other technologies?**
 
     The following table compares some of the top payment technologies.
-    * NLWeb has a high security when we evaluate what the user has, is, and knows.
+    * PollyWeb has a high security when we evaluate what the user has, is, and knows.
 
-    | Something<br/>the user | Apple<br/>Pay | Google<br/>Pay | Asian<br/>Wallets | NLWeb <br/>Wallet | Western<br/>ATMs | Asian<br/>ATMs | NLWeb<br/>Userable |
+    | Something<br/>the user | Apple<br/>Pay | Google<br/>Pay | Asian<br/>Wallets | PollyWeb <br/>Wallet | Western<br/>ATMs | Asian<br/>ATMs | NLWeb<br/>Userable |
     |-|-|-|-|-|-|-|-
     | `Has`   | Phone | Phone | QR code | [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | NFC card | - | [NFC 💍](<../../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) |
     | `Is`    | - | - | - | [Face 📸](<6 🆔⏩😶 Face scan.md>) | - | Face | [Face 📸](<6 🆔⏩😶 Face scan.md>) |

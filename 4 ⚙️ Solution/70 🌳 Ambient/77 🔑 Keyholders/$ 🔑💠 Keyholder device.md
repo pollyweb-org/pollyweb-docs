@@ -5,7 +5,7 @@
 
 1. **What is a Keyholder?**
 
-    In NLWeb, a Keyholder is a device that can scan and unlock [Padlock 🔒](<../75 🔒 Padlocks/$ 🔒 Padlock device.md>) devices.
+    In PollyWeb, a Keyholder is a device that can scan and unlock [Padlock 🔒](<../75 🔒 Padlocks/$ 🔒 Padlock device.md>) devices.
 
     Examples of Keyholders include:
     * 🧑‍🦰 [Wallet apps](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) - Wallets support the Keyholder protocol natively.

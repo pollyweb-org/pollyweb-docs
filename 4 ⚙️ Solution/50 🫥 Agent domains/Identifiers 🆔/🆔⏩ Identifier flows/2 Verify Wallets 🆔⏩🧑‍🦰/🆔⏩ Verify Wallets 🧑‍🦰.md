@@ -55,7 +55,7 @@
 
 1. **How are users' face biometrics protected from Sellers?**
 
-    NLWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) and [Identifier 🆔 vaults](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>), without sharing user biometrics with [Seller 💵 domains](<../../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>);
+    PollyWeb advocates for online face authentication between [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) and [Identifier 🆔 vaults](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>), without sharing user biometrics with [Seller 💵 domains](<../../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>);
     - e.g., when a [Seller 💵 domain](<../../../../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) needs to match a person with a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>), 
     - it contacts the [Token's  Identifier 🆔 domain](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to perform the authentication 
     - via the user's [Wallet 🧑‍🦰 app](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) in a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>), 

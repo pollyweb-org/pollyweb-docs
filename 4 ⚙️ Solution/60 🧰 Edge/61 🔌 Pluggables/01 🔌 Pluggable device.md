@@ -4,7 +4,7 @@
 
 1. **What is a Pluggable?**
 
-    In NLWeb, Pluggables 🔌 are a domain-owned peripheral devices that domains can send commands to and receive events from.
+    In PollyWeb, Pluggables 🔌 are a domain-owned peripheral devices that domains can send commands to and receive events from.
 
     ---
 

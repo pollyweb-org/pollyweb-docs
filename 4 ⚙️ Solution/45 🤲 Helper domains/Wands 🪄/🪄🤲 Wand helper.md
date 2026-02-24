@@ -62,7 +62,7 @@
 
 1. **Why are Wands important?**
 
-    * **For businesses**, [Wand 🪄 domains](<🪄🤲 Wand helper.md>) remove the overhead for [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) in implementing the NLWeb protocol.
+    * **For businesses**, [Wand 🪄 domains](<🪄🤲 Wand helper.md>) remove the overhead for [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) in implementing the PollyWeb protocol.
     
     * **For users**, [Wand 🪄 domains](<🪄🤲 Wand helper.md>) ensure a seamless experience when interacting with [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>) from any [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>), given that the [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>) session of a [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>) is controlled by the [Wand 🪄 domain](<🪄🤲 Wand helper.md>).
 
@@ -81,7 +81,7 @@
 
     No.
     * The owner of a [Thing 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>) is hidden from [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) by [Custodian 🧳 vault domains](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>). 
-    * Of course, [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) can find alternative ways to get that information, but those are not part of the NLWeb protocol.
+    * Of course, [Brand 🍏 domains](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) can find alternative ways to get that information, but those are not part of the PollyWeb protocol.
 
     ---
     <br/>

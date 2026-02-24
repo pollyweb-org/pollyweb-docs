@@ -18,7 +18,7 @@
     | `Banks` | These hold and revoke customers' bank accounts.
     | `Hospitals` | These hold and control patients' medical records.
     | `Governments` | These hold and revoke citizens' identity documents.
-    |[🫥 `Agents`](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | These are [Vaults 🗄️](<🗄️🎭 Vault role.md>) with well-known NLWeb APIs.
+    |[🫥 `Agents`](<../../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | These are [Vaults 🗄️](<🗄️🎭 Vault role.md>) with well-known PollyWeb APIs.
     
 
     ---
@@ -83,7 +83,7 @@
 1. **Do users have private vaults, like the Solid Project?**
 
     No. 
-    * Unlike the [Solid Project 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>), by Sir Tim Berners-Lee, NLWeb users don't have a private repository (a.k.a. [Vault 🗄️](<🗄️🎭 Vault role.md>)) for all their data, so they don't effectively own their data. 
+    * Unlike the [Solid Project 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md>), by Sir Tim Berners-Lee, PollyWeb users don't have a private repository (a.k.a. [Vault 🗄️](<🗄️🎭 Vault role.md>)) for all their data, so they don't effectively own their data. 
     * Instead, a user's data is scattered across a number of [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) managed by different providers who decide how much of the user's data is accessible and by whom.
   
     This is a better representation of reality as we know it - e.g., 
@@ -121,7 +121,7 @@
     * and the knowledge to manage it;
     * and that is not expected to change any time soon.
   
-    Conversely, our global society is built on the trust that we have in the ability of corporations to deliver, and the ability of public institutions to regulate them — NLWeb aims to replicate our modern society with the following mechanisms:
+    Conversely, our global society is built on the trust that we have in the ability of corporations to deliver, and the ability of public institutions to regulate them — PollyWeb aims to replicate our modern society with the following mechanisms:
     * [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) controlled by corporations;
     * [Trusts 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) in [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) to represent partnerships;
     * [Authority 🏛️ domains](<../../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) for intergovernmental agreements;
@@ -134,7 +134,7 @@
 
 1. **How about a central place for user preferences?**
 
-    Exceptionally, NLWeb advocates for the use of [Persona 🧢 vault](<../../../50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) aimed for preference-based personalization 
+    Exceptionally, PollyWeb advocates for the use of [Persona 🧢 vault](<../../../50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) aimed for preference-based personalization 
     - e.g., nicknames, seat preferences, film genres;
     - but, even here, users rent storage on [Persona 🧢 vault](<../../../50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) as a service that is owned and managed by a company.
 
@@ -206,7 +206,7 @@
 
     [Selective disclosure 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/07 📺 SSI selective disclosure.md>) (i.e., the ability for a user to select which fields to disclose from a given schema code) is not allowed by design on NLWeb. 
     
-    * Instead, NLWeb advocates for purpose-driven datasets that are self-contained and requested under the principle of least-privilege, e.g.:
+    * Instead, PollyWeb advocates for purpose-driven datasets that are self-contained and requested under the principle of least-privilege, e.g.:
         - a hotel should not ask for all passport fields for a check-in; 
         - instead, it should ask only for required booking data like first/last name, check-in/out dates, and PNR.
 

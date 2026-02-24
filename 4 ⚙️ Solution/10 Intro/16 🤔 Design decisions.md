@@ -1,19 +1,19 @@
 Design Decisions
 ===
 
-1. **What is NLWeb's approach to end-user natural language?**
+1. **What is PollyWeb's approach to end-user natural language?**
 
-    NLWeb is designed for Q&A flows (like ChatGPT), where a [Host 🤗 domain](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) asks the questions and defines the format that users are allowed to answer them. 
+    PollyWeb is designed for Q&A flows (like ChatGPT), where a [Host 🤗 domain](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) asks the questions and defines the format that users are allowed to answer them. 
     
 
     ---
     <br/>
 
-1. **What is NLWeb's approach to conversational commerce?**
+1. **What is PollyWeb's approach to conversational commerce?**
 
-    In NLWeb, [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) are the way for users to communicate with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
+    In PollyWeb, [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) are the way for users to communicate with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
     
-    - Similar to [Meta's WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), NLWeb [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) allow users to keep a list of active [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
+    - Similar to [Meta's WhatsApp 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md>), PollyWeb [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) allow users to keep a list of active [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
 
     - Like in [India's ONDC 📺](<../../2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md>), domains can configure multiple types of user inputs - e.g., number, dropdown, calendar. 
     
@@ -26,21 +26,21 @@ Design Decisions
     <br/>
 
 
-1. **What is NLWeb's approach to location-based interactions?**
+1. **What is PollyWeb's approach to location-based interactions?**
 
-    While NLWeb advocates for ambient computing, it does not advocate for the ambient to proactively initiate the interactions (e.g., showing personalized ads to a person when they are standing on a bus stop).
+    While PollyWeb advocates for ambient computing, it does not advocate for the ambient to proactively initiate the interactions (e.g., showing personalized ads to a person when they are standing on a bus stop).
     
     - These solutions typically require either location features enabled on the user's phone (like accurate GPS location) or proximity features (like the proximity bluetooth feature used during the 2020 pandemic), both impacting the user's privacy and the battery life of their mobile devices.
 
-    - Instead, NLWeb advocates for [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) interactions to always start with the user's explicit intent, either by [scanning ✨ a QR code](<../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) or by [tapping 🔆 an NFC tag](<../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>).
+    - Instead, PollyWeb advocates for [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) interactions to always start with the user's explicit intent, either by [scanning ✨ a QR code](<../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) or by [tapping 🔆 an NFC tag](<../25 🔆 Locators/Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>).
 
     ---
     <br/>
 
 
-1. **What is NLWeb's approach to end-user autofill?**
+1. **What is PollyWeb's approach to end-user autofill?**
 
-    NLWeb advocates for domains to ask users for well-known common data types (e.g., address) instead of generic text values. 
+    PollyWeb advocates for domains to ask users for well-known common data types (e.g., address) instead of generic text values. 
 
     - Users [bind 🔗](<../30 🧩 Data/Binds 🔗/🔗 Bind.md>) their [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to multiple [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) holding parts of their personal data (e.g., banks, hospitals, governments);
 
@@ -72,9 +72,9 @@ Design Decisions
     ---
     <br/>
 
-1. **What is NLWeb's approach to end-user payments?**
+1. **What is PollyWeb's approach to end-user payments?**
 
-    NLWeb integrates payments in [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) between users and [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>). 
+    PollyWeb integrates payments in [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) between users and [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>). 
     
     - As preconditions, users must first bind their [Wallet 🧑‍🦰 apps](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to one or more [Payer 💳 vaults](<../41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) (e.g., their bank), while [Seller 💵 domains](<../41 🎭 Domain Roles/Sellers 💵/💵 Seller /💵🎭 Seller role.md>) must bind to [Collector 🏦 vaults](<../45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) (e.g., a payment gateway). 
 
@@ -91,13 +91,13 @@ Design Decisions
 
 <!--
     ---
-1. **What is NLWeb's approach to ads?**
+1. **What is PollyWeb's approach to ads?**
 
-    NLWeb advocates for cross-selling on next-best actions for the user based on personalization and context awareness;
+    PollyWeb advocates for cross-selling on next-best actions for the user based on personalization and context awareness;
     
      - e.g., when buying an airline ticket, the airline may say *"it may take 30 minutes to pass security in Heathrow on Monday morning - do you want to buy fast-track for £12.50?"*. 
     
-    For that, NLWeb supports supply and demand matching at the end of chats: 
+    For that, PollyWeb supports supply and demand matching at the end of chats: 
     
     1. chat [Host 🤗 domain](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) sends a summary of the [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) to the user's [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>); 
     2. the [Wallet 🧑‍🦰 app](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) generates a list of next-best actions based on user preferences and contextual awareness; 

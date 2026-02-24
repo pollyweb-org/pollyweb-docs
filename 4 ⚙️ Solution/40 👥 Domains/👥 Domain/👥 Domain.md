@@ -3,7 +3,7 @@
 
 1. **What is a Domain in PollyWeb?**
 
-    In NLWeb, a [domain 👥](<👥 Domain.md>) is any public web service that
+    In PollyWeb, a [domain 👥](<👥 Domain.md>) is any public web service that
     * sends and receives domain [Messages 📨](<../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>)
     * exposes an API defined by a [Role 🎭](<👥🎭 Domain Role.md>)
     * and publishes a [domain Manifest 📜](<../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).

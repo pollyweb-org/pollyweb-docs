@@ -22,7 +22,7 @@
 
 1. **How do Datasets handle data API requests?**
 
-    When using the NLWeb SDK, Datasets can point the data APIs 
+    When using the PollyWeb SDK, Datasets can point the data APIs 
     * to static datasets (e.g., CSV files), 
     * to databases (e.g., PostgreSQL), 
     * or to custom-built handlers (e.g., Python).
@@ -32,10 +32,10 @@
 
 1. **How can Hosts leverage Datasets on chats?**
 
-    When using the NLWeb SDK, Hosts can reference these APIs in workflow and schema-based CRUD dialogs by using NLWeb locators. 
+    When using the PollyWeb SDK, Hosts can reference these APIs in workflow and schema-based CRUD dialogs by using PollyWeb locators. 
     
-    * The NLWeb SDK will pull the data schema from the Datasetter's Manifest, and map it to the CRUD schema of the Host. 
-    * When chatting with users, the NLWeb SDK invokes the Datasetter's end-point.
+    * The PollyWeb SDK will pull the data schema from the Datasetter's Manifest, and map it to the CRUD schema of the Host. 
+    * When chatting with users, the PollyWeb SDK invokes the Datasetter's end-point.
 
     ---
     <br/>

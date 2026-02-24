@@ -19,7 +19,7 @@
     - by hijacking the signer's email or social network.
 
 
-    💬 NLWeb advocates for signatures stamped by a trusted broker, with the following steps:
+    💬 PollyWeb advocates for signatures stamped by a trusted broker, with the following steps:
     - step 1: the business asks the signer to sign the contract file (e.g., an image or PDF);
     - step 2: the signer delegates the signature to a commonly trusted broker;
     - step 3: the broker delegates the biometric authentication to the signer's sovereign nation;

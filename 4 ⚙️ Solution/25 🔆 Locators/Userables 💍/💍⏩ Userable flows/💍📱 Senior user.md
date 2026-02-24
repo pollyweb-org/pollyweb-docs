@@ -14,7 +14,7 @@
     * Nowadays, we don't memorize phone numbers, so the person can't call a relative.
     * FindMy apps (e.g., Apple) and [UWB tags 📺](<../../../../2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/11 📺 Apple Key UWB.md>)  can't help, because the owner typically needs another of his authenticated devices (e.g., a phone, a tablet, or laptop).
 
-    With NLWeb, the person can ask anyone else (e.g., the staff from a restaurant nearby) to use their [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) and [tap 🔆](<../../Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) one of the person's [Userable 💍 things](<../💍💠 Userable thing.md>) (e.g., wedding ring, neckless, watch) in order to:
+    With PollyWeb, the person can ask anyone else (e.g., the staff from a restaurant nearby) to use their [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) and [tap 🔆](<../../Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) one of the person's [Userable 💍 things](<../💍💠 Userable thing.md>) (e.g., wedding ring, neckless, watch) in order to:
     - read their landing notes for memory tips, 
     - authenticate to access their owner area (e.g., face scan),
     - call any of their emergency contacts,

@@ -7,7 +7,7 @@
 
 1. **How do Wallets tap an NFC Locator?**
 
-    NLWeb NFC tags are standard NDEF Records of type URI starting with `https://pollyweb.org/go/`. 
+    PollyWeb NFC tags are standard NDEF Records of type URI starting with `https://pollyweb.org/go/`. 
     
     * On install, NLW [Wallet apps 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) register on the OS as the default NFC reader - this differs from NFC payments, and does not interfere with the default NFC payment mechanisms of Google and Apple Wallets. 
     
@@ -18,14 +18,14 @@
 
 1. **What if users use the default NFC reader instead?**
 
-    Users will have an experience similar to users not using the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to [scan NLWeb QR codes](<🧑‍🦰✨ Wallet QR scan.md>). Also in this case, Wallets should educate users to set the Wallet as the default NFC reader.
+    Users will have an experience similar to users not using the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to [scan PollyWeb QR codes](<🧑‍🦰✨ Wallet QR scan.md>). Also in this case, Wallets should educate users to set the Wallet as the default NFC reader.
 
     ---
     <br/>
 
 1. **What if users without a Wallet tap an NFC?**
 
-    If a user doesn't have an NLWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed and taps an NFC with the mobile device's default NFC reader scanner then a web browser opens with an experience similar to [scanning a QR](<🧑‍🦰✨ Wallet QR scan.md>) without a Wallet. 
+    If a user doesn't have an PollyWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed and taps an NFC with the mobile device's default NFC reader scanner then a web browser opens with an experience similar to [scanning a QR](<🧑‍🦰✨ Wallet QR scan.md>) without a Wallet. 
 
     ---
     <br/>
