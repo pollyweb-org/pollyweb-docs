@@ -2,9 +2,7 @@ import os
 import urllib.parse
 
 # Hardcoded folder path
-FOLDER_PATH = "/Users/jorgemf/Git/PollyWeb/docs"
-#FOLDER_PATH = "/Users/jorgemf/Git/PollyWeb/docs/PR-FAQ"
-#FOLDER_PATH = "/Users/jorgemf/Git/PollyWeb/docs/PR-FAQ/1.3 🏔️ Landscape/2 🧑‍🦰 User Landscape/"
+FOLDER_PATH = "../pollyweb-docs"
 
 def decode_url_encoded_text(text):
     """Decodes any URL-encoded text in the given string."""
