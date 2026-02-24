@@ -29,7 +29,7 @@ In this chapter, you will learn:
 
 ## 💬 Proposed Solution
 
-NLWeb aims to seamlessly incorporate payments into interaction workflows, while simplifying the experience to both users and businesses.
+PollyWeb aims to seamlessly incorporate payments into interaction workflows, while simplifying the experience to both users and businesses.
 
 |Domain | Purpose
 |-|-
