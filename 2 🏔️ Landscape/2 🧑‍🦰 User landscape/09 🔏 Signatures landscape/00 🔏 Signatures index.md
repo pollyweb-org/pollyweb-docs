@@ -1,7 +1,7 @@
 🔏 Digital signatures landscape
 ===
 
-1. **Why are digital signatures important for NLWeb?**
+1. **Why are digital signatures important for PollyWeb?**
 
 
     🎯 Signing contracts is a ubiquitous part of society: 

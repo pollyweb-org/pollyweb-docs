@@ -3,7 +3,7 @@
 
 ![](<../../30 🧩 Data/Trusts 🫡/.📎 Assets/🫡 Authority.png>)
 
-1. **What is an Authority domain in NLWeb?**
+1. **What is an Authority domain in PollyWeb?**
 
     An Authority is a domain focused on supporting data exchange among domains in the NLWeb via: 
     - converting legal agreements into [trust 🫡](<../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) relationships (e.g., international commerce federations);

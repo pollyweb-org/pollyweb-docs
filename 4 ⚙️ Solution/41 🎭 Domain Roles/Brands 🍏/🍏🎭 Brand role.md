@@ -2,7 +2,7 @@
 ===
 
 
-1. **What is a Brand domain role in NLWeb?**
+1. **What is a Brand domain role in PollyWeb?**
 
     A [Brand 🍏](<🍏🎭 Brand role.md>) 
     * is any [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) 

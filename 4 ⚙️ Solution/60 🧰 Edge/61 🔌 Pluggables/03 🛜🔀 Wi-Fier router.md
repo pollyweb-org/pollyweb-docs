@@ -1,7 +1,7 @@
 🛜 Wi-Fier device feature
 ===
 
-1. **What is a Wi-Fier device feature in NLWeb?**
+1. **What is a Wi-Fier device feature in PollyWeb?**
 
     A [Wi-Fier 🛜](<03 🛜🔀 Wi-Fier router.md>) is a device feature for connecting to the internet on a Wi-Fi network.
 

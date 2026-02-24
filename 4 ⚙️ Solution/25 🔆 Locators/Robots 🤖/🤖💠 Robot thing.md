@@ -1,7 +1,7 @@
 🤖 Robot Things
 ===
 
-1. **What are Robots in NLWeb?**
+1. **What are Robots in PollyWeb?**
 
     Robots 🤖 are [Things 💠](<../Things 💠/💠🔆 Thing locator.md>) that [Brands 🍏](<../../41 🎭 Domain Roles/Brands 🍏/🍏🎭 Brand role.md>) embed into physical devices to enable them to be controlled locally or remotely using natural language and without the need for a digital display (e.g., a coffee machine, a printer, or a vehicle). 
 

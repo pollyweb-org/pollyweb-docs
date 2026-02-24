@@ -1,7 +1,7 @@
 🗄️ Vault domain role
 ===
 
-1. **What is a Vault domain role in NLWeb?**
+1. **What is a Vault domain role in PollyWeb?**
 
     A [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a [Vault 🗄️ role](<🗄️🎭 Vault role.md>) 
     * is any [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) that stores user data,

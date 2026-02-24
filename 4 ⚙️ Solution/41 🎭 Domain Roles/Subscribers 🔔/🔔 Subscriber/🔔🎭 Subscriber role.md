@@ -1,7 +1,7 @@
 🔔 Subscriber domain role
 ===
 
-1. **What is a Subscriber domain role in NLWeb?**
+1. **What is a Subscriber domain role in PollyWeb?**
 
     A Subscriber 🔔 is any [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) that 
     * leverages a [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) 

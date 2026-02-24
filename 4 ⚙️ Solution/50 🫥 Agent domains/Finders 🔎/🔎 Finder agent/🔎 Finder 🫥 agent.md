@@ -5,7 +5,7 @@
 
 
 
-1. **What is a Finder domain in NLWeb?**
+1. **What is a Finder domain in PollyWeb?**
 
     A Finder is 
     * any [Vault 🗄️ domain](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) 

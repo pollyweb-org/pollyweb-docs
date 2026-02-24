@@ -166,7 +166,7 @@
 1. **Are NLWeb Schema definitions compatible with JSON Schema?**
 
     Yes. 
-    - NLWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.
+    - PollyWeb schemas are defined by [JSON Schema](https://json-schema.org/understanding-json-schema/reference) converted to YAML.
     - Details are available at [`pollyweb.org/MANIFEST/CODE` 🧩](<../Manifests 📜/📜🧩 Manifest schemas/🧩 CODE.md>).
   
 
@@ -198,7 +198,7 @@
 
     Yes, JSON is much faster than YAML. 
     - But, because of [Graph 🕸 helper domains](<../../45 🤲 Helper domains/Graphs 🕸/🕸 Graph helper/🕸🤲 Graph helper.md>), the performance of either protocol is irrelevant in this context. 
-    - NLWeb advocates for human readability, with YAML format allowing comments and being closer to structured natural language in this context.
+    - PollyWeb advocates for human readability, with YAML format allowing comments and being closer to structured natural language in this context.
 
     ---
     <br/>

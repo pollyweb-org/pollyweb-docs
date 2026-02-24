@@ -1,7 +1,7 @@
 🪄 Wand supplier domains
 ===
 
-1. **What is a Wand domain in NLWeb?**
+1. **What is a Wand domain in PollyWeb?**
 
     A [Wand 🪄](<🪄🤲 Wand helper.md>) is
     * any [Helper 🤲 domain](<../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) 

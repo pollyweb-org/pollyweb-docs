@@ -9,7 +9,7 @@
     ---
 
 
-1. **Why are Selfie devices important for NLWeb?**
+1. **Why are Selfie devices important for PollyWeb?**
 
     Selfie 📸 devices allow [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) to request the user's [Identifier 🆔 agent](<../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) to perform a [Face scan 🆔😶](<../../50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>) on the user in a physical place whenever the user doesn't have a smartphone with them, or doesn't have internet.
 

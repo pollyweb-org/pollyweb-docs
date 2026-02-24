@@ -16,11 +16,11 @@
     - they want to be able to buy a coffee without needing to fill a registration form;
     - they want to be remembered when returning 5 minutes complaining about the coffee;
     - they don't want to be traced when entering other brands of the same owner;
-    - NLWeb achieves these consumer expectations by replicating how, since 2022, online users interact with site registrations when [FIDO passkeys](<02 📺 FIDO passkeys.md>) are supported.
+    - PollyWeb achieves these consumer expectations by replicating how, since 2022, online users interact with site registrations when [FIDO passkeys](<02 📺 FIDO passkeys.md>) are supported.
 
 - When a consumer is paying for the goods (e.g., the coffee):
     - both the consumer and the business want it to be as fast as possible;
-    - NLWeb achieves these expectations by leveraging the ubiquitous [contactless NFC](<05 📺 Financial industry.md>) experiences of payment cards across the entire business interaction.
+    - PollyWeb achieves these expectations by leveraging the ubiquitous [contactless NFC](<05 📺 Financial industry.md>) experiences of payment cards across the entire business interaction.
 
 - When a consumer is using the business premise (e.g., relaxing in table):
     - they want to be able to remain online, even if in an underground facility;
@@ -30,7 +30,7 @@
     - they want to be able to perform a transaction without needing to fill a registration form;
     - they want to access a given level of service (e.g., net 30 payment terms) by presenting a reputation credential issued by a mutually trusted entity (e.g., a state issued incorporation certificate);
     - they want to be able to affect the credit reputation of the other party if they default;
-    - NLWeb achieves these business expectations in part by replicating the authentication and reputation strategies applied by [email servers](<07 📺 Email DKIM.md>) when interacting with other unknown email servers. 
+    - PollyWeb achieves these business expectations in part by replicating the authentication and reputation strategies applied by [email servers](<07 📺 Email DKIM.md>) when interacting with other unknown email servers. 
 
 ---
 

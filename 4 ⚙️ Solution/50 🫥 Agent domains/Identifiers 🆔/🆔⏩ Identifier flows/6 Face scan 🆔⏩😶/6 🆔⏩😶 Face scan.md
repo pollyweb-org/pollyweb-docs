@@ -37,7 +37,7 @@
     * because hackers can use [Generative AI 📺](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/08 📺 Deep fakes.md>) to interfere with the device's face biometrics.
     
     Instead, 
-    - NLWeb recommends using [liveness-checks 📺](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/09 📺 Amazon liveness.md>) from a remote service exposed via a Web 2.0 browser;
+    - PollyWeb recommends using [liveness-checks 📺](<../../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/09 📺 Amazon liveness.md>) from a remote service exposed via a Web 2.0 browser;
     - e.g., by using Amazon Rekognition Face Liveness or other similar products. 
 
     ---

@@ -5,7 +5,7 @@
 
 ## FAQ
 
-1. **What is a Streamer domain role in NLWeb?**
+1. **What is a Streamer domain role in PollyWeb?**
 
     A Streamer 🌬️ is any [domain 👥](<../../40 👥 Domains/👥 Domain/👥 Domain.md>) that 
     * pushes and replays events to [Subscriber 🔔 domains](<../Subscribers 🔔/🔔 Subscriber/🔔🎭 Subscriber role.md>) 

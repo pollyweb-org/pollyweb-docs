@@ -53,7 +53,7 @@ Schemas:
       - Version: 1.0
         Inherits: pollyweb.org/TOKEN:1.0
         Format: IsElectric, Size, NeedsAssistant, DateOfBirth
-        Location: https://airlines.any-igo.dom/nlweb/schemas/SSR-WCHR.json
+        Location: https://airlines.any-igo.dom/pollyweb/schemas/SSR-WCHR.json
 ```
 
 ```yaml

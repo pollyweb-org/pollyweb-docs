@@ -2,7 +2,7 @@
 ===
 
 
-1. **What are Concierge domains in NLWeb?**
+1. **What are Concierge domains in PollyWeb?**
 
     A [Concierge 🛎️ domain](<🛎️🫥 Concierge agent.md>) is
     * a user's [Agent 🫥 vault](<../$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) 
@@ -12,7 +12,7 @@
     ---
     <br/>
 
-1. **What are examples for Concierge usages in NLWeb?**
+1. **What are examples for Concierge usages in PollyWeb?**
 
     |text|Usage
     |-|-

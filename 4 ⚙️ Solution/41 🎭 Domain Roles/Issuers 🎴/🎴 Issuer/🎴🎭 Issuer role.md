@@ -1,7 +1,7 @@
 🎴 Issuer domain role
 ===
 
-1. **What is an Issuer domain role in NLWeb?**
+1. **What is an Issuer domain role in PollyWeb?**
 
     A [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) with a [Issuer 🎴 role](<🎴🎭 Issuer role.md>) is any [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) that 
     * issues [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)

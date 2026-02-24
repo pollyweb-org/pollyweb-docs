@@ -7,7 +7,7 @@
 
 ## FAQ
 
-1. **What is a Buffer domain in NLWeb?**
+1. **What is a Buffer domain in PollyWeb?**
 
     A [Buffer ⏳ domain](<⏳🤲 Buffer helper.md>) 
     * is a point-to-point [Helper 🤲 domain](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>)

@@ -46,7 +46,7 @@ Description: >
     Assistência para passageiros com mobilidade reduzida, incluindo cadeira de rodas, andadores, muletas.
 Version: 2.1
 Inherits: pollyweb.org/CREDENTIAL:1
-Location: https://iata.org/nlweb/schemas/SSR-WCHR.json
+Location: https://iata.org/pollyweb/schemas/SSR-WCHR.json
 Format: IsElectric, Size, NeedsAssistant, DateOfBirth
 ```
 

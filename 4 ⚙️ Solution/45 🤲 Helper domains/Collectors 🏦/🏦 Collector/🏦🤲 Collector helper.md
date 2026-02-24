@@ -1,7 +1,7 @@
 🏦 Collector domains
 ===
 
-1. **What is a Collector domain in NLWeb?**
+1. **What is a Collector domain in PollyWeb?**
 
     A [Collector 🏦](<🏦🤲 Collector helper.md>) is 
     * any [Helper 🤲 domain](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) 

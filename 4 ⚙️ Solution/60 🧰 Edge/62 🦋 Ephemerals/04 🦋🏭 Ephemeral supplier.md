@@ -3,7 +3,7 @@
 🦋 Ephemeral domains
 ===
 
-1. **What is an Ephemeral domain in NLWeb?**
+1. **What is an Ephemeral domain in PollyWeb?**
 
     An Ephemeral 🦋 domain is a [Supplier 🏭](<../../41 🎭 Domain Roles/Suppliers 🏭/🏭 Supplier/🏭🎭 Supplier role.md>) of [Ephemeral 🦋](<03 🦋🔌 Ephemeral device.md>) devices that allow other domains to buy devices. 
     * It handles the orders, delivery, and management of the devices on behalf of the buyer.

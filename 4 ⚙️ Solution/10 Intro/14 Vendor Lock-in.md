@@ -11,11 +11,11 @@ Vendor Lock-in
 
     Yes. Octan released a set of services to bootstrap the NLWeb adoption, but organizations can build and deploy NLWeb compatible services on any environment that supports it.
 
-1. **Can an organization built its own full stack in NLWeb?**
+1. **Can an organization built its own full stack in PollyWeb?**
 
     Yes, like in Web 2.0, as long as it complies with the protocol.
 
-1. **Can an organization built an independent NLWeb?**
+1. **Can an organization built an independent PollyWeb?**
 
     Yes, the same one could build an independent Web 2.0 Internet.
 
@@ -23,7 +23,7 @@ Vendor Lock-in
 
     Yes, there's a cluster of multi-cloud servers similar to the Top-level DNS (Domain Name System) servers.
 
-1. **Who maintains and evolves NLWeb?**
+1. **Who maintains and evolves PollyWeb?**
 
     NLWeb follows the principles of the Web 2.0 Internet.
     

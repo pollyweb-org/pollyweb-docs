@@ -1,7 +1,7 @@
 🖨️ Printer domains
 ===
 
-1. **What is a Printer domain in NLWeb?**
+1. **What is a Printer domain in PollyWeb?**
 
     Printers 🖨️ are [Helper 🤲 domains](<../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) 
     * specialized in printing and managing [NFC/QR Locators 🔆](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) 

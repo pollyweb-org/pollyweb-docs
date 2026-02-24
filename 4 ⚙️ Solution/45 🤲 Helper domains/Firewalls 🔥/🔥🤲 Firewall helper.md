@@ -1,7 +1,7 @@
 🔥 Firewall helper domains
 ===
 
-1. **What is a Firewall domain in NLWeb?**
+1. **What is a Firewall domain in PollyWeb?**
 
     A [Firewall 🔥 domain](<🔥🤲 Firewall helper.md>) is 
     * a [Helper 🤲 domain](<../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) 
