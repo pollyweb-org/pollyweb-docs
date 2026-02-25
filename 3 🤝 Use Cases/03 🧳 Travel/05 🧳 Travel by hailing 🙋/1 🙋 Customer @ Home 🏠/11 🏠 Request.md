@@ -4,7 +4,7 @@ How to request an immediate ride?
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 ||| > Hailing 🔗
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | ⓘ Any Ride Hailing (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Ride Hailing (4.4 ⭐) [+]
 | 🙋 Hailing | 😃 Hi! What do you need? <br/>- [ Ride now ] <br/>- [ Book ride ] <br/> - [ Something else ] | > Ride now
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to ride? [Yes, No] <br/>- your navigator sets where 🧭 <br/> - your persona sets preferences 🧢 <br/> - your scheduler sets when 🗓️ <br/> - your payer pays the bill 💳 <br/>- your navigator guides you 🧭<br/> - tap the car's seat on entering ✨ | > Yes
 | 🙋 Hailing | ℹ️ Received route: [Change] <br/> - pick-up at St. Mary's street, 68 <br/> - drop-off at Valerian road, 231-B <br/> - drive via Whistle Woods road

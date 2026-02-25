@@ -13,7 +13,7 @@ Use a washing machine on a self-service laundry
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | ⓘ Any Laundry (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Laundry (4.4 ⭐) [+]
 | 🫧 Laundry | 😃 Hi! What do you need? <br/>- [ Wash ] <br/>- [ Something else ] | > Wash
 | 🫧 Laundry | 😃 How many minutes? [15, 60]| > 60
 | 🫧 Laundry | 😃 What temperature? [40°C, 60°C ] | > 40°C

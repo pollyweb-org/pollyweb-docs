@@ -23,9 +23,9 @@
     | |Agent 🫥 | Example | Responsibilities 
     |-|-|-|-
     | 🛎️| [Concierge](<../Concierges 🛎️/🛎️🫥 Concierge agent.md>) | TaskRabbit | Orchestrates tasks with 3rd parties (e.g., deliveries, repairs).
-    |🧚| [Curator](<../Curators 🧚/$/🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
+    |🧚| [Curator](<../Curators 🧚/🧚 Curator/🧚🫥 Curator agent.md>) | ChatGPT | Filters options sent by [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
     |🧳| [Custodian](<../Custodians 🧳/🧳🫥 Custodian agent.md>) | FindMy | Manages the user's [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>), including [Userables 💍](<../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) and [⌚ Tapbands](<../../25 🔆 Locators/Tapbands ⌚/⌚💠 Tapband thing.md>).
-    |🔎| [Finder](<../Finders 🔎/$/🔎 Finder 🫥 agent.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>), and  introduces them when they start a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>).
+    |🔎| [Finder](<../Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | Google | Searches for [Host 🤗 domains](<../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>), and  introduces them when they start a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>).
     |🆔|[Identifier](<../Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | IDOne | Confirms that the user is physically present behind the remote screen.
     |🌼| [Keybox](<../Keyboxes 🌼/$ 🌼🫥 Keybox agent.md>) | FindMy | Stores and manages the user's [Padlock 🔒](<../../70 🌳 Ambient/75 🔒 Padlocks/$ 🔒 Padlock device.md>) keys.
     |📇| [Mingler](<../Minglers 📇/$ 📇🫥 Mingler agent.md>) | WhatsApp | Connects multiple users in a [Chat 💬](<../../35 💬 Chats/Chats 💬/💬 Chat.md>), allowing them to exchange [Tokens 🎫](<../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
@@ -75,7 +75,7 @@
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 💬 How can I help? <br/> - Open [ 🧭 Navigator ] <br/> - [ Something else ] | > 🧭 Navigator 
     | 🤵 [Broker](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Over to 🧭 Navigator.
     | [ new chat ]
-    | 🔎 [Finder](<../Finders 🔎/$/🔎 Finder 🫥 agent.md>) | ⓘ Any Navigator (4.4 ⭐) [+]
+    | 🔎 [Finder](<../Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Navigator (4.4 ⭐) [+]
     | 🧭 [Navigator](<../Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | ℹ️ Request: return to hotel [+]
     | 🧭 [Navigator](<../Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | 😃 Go to `Any Hotel`? [Yes, No]| > Yes
     | ...
