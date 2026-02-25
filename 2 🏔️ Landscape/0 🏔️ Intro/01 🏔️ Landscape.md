@@ -14,7 +14,7 @@
 
 ---
 
-## **💼 <a id='Business'>Business</a> landscape index**
+## **💼 <a id='Business'>Business</a> landscape**
 
 - 🕵 [Profiling](<../1 💼 Business landscape/01 🕵 Profiling landscape/00 🕵 Profiling Index.md>): 
     - how tech giants collect, use, and share vast amounts of user data; 
