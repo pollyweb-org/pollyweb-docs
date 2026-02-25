@@ -5,7 +5,7 @@
 
 ## FAQ
 
-1. **How can website developers render an PollyWeb QR?**
+1. **How can website developers render a PollyWeb QR?**
 
     Website developers can use PollyWeb's proxy at `pollyweb.org/go`;
     - e.g., a [Locator 🔆](<../🔆 Locator.md>)Locator `XPTO` is defined as an HTML image with source `https://pollyweb.org/go/XPTO`. 
@@ -17,11 +17,11 @@
     ---
     <br/>
 
-1. **How do Wallet apps scan an PollyWeb QR?**
+1. **How do Wallet apps scan a PollyWeb QR?**
 
     An PollyWeb QR contains a redirect URL starting with `https://pollyweb.org/go/`. 
     
-    * When a user scans the QR with an PollyWeb Wallet app, the Wallet reads the [Locator 🔆](<../🔆 Locator.md>) from the URL and opens a chat with the Locator's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
+    * When a user scans the QR with a PollyWeb Wallet app, the Wallet reads the [Locator 🔆](<../🔆 Locator.md>) from the URL and opens a chat with the Locator's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 
 
     ---
@@ -29,7 +29,7 @@
 
 1. **What if users use the default QR reader instead?**
 
-    If a user with an PollyWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed decides to use the mobile device's default QR scanner instead (e.g., Google Lens in Android) then a web browser opens the PollyWeb HTTPS proxy (e.g., `https://pollyweb.org/go/ABC`), which in turn redirect to a `pollyweb` URL, signaling the OS to open the Wallet - the Wallet then opens with a chat to the QR's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
+    If a user with a PollyWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed decides to use the mobile device's default QR scanner instead (e.g., Google Lens in Android) then a web browser opens the PollyWeb HTTPS proxy (e.g., `https://pollyweb.org/go/ABC`), which in turn redirect to a `pollyweb` URL, signaling the OS to open the Wallet - the Wallet then opens with a chat to the QR's [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
     - Wallets should identify this redirect and educate users to prefer using the Wallet to perform the QR scan.
 
 
@@ -38,7 +38,7 @@
 
 1. **What if users without a Wallet scan a QR?**
 
-    If a user doesn't have an PollyWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed and scans an PollyWeb QR with the mobile device's default QR scanner (e.g., Google Lens in Android) then a web browser will open on `https://pollyweb.org/install` educating the user to find and install a compatible PollyWeb app. 
+    If a user doesn't have a PollyWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed and scans a PollyWeb QR with the mobile device's default QR scanner (e.g., Google Lens in Android) then a web browser will open on `https://pollyweb.org/install` educating the user to find and install a compatible PollyWeb app. 
 
     ---
     <br/>

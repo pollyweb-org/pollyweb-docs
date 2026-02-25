@@ -45,7 +45,7 @@
     | [✨ Physical QR code](<🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) | Scan a physical [QR code ✨](<🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) printed by anyone
     | [🔆 Physical NFC tag](<🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) | Tap a physical [NFC tag 🔆](<🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>) written by anyone
     | [✨ Digital QR code](<🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>)  | Scan an image of a [QR code ✨](<🔆⏩ Locator flows/🧑‍🦰✨ Wallet QR scan.md>) rendered by a webpage
-    | [🌐 Web page link](<🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>)  |  Click on an PollyWeb-compatible [URL link 🌐](<🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>) on a webpage
+    | [🌐 Web page link](<🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>)  |  Click on a PollyWeb-compatible [URL link 🌐](<🔆⏩ Locator flows/🧑‍🦰🌐 Wallet URLs.md>) on a webpage
     | [🖨️ Printer domains](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>) | Tap/scan a static NFC/QR issue by any [Printer 🖨️ domain](<../../45 🤲 Helper domains/Printers 🖨️/🖨️🤲 Printer helper.md>)
     | [🦋 Ephemeral devices](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>) | Tap/scan a dynamic NFC/QR  by an [Ephemeral 🦋 device](<../../60 🧰 Edge/62 🦋 Ephemerals/03 🦋🔌 Ephemeral device.md>)
     | [🛜 Wi-Fier devices](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) | Tap/scan a [Wi-Fier 🛜 device](<../../60 🧰 Edge/61 🔌 Pluggables/03 🛜🔀 Wi-Fier router.md>) to connect it to the internet
@@ -82,7 +82,7 @@
     User's best option to detect whether a [Locator 🔆](<🔆 Locator.md>) is genuine or fake, is to see if it opens their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) or if it opens a web page.
 
     - If it opens their [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>), then they'll know that all messages will safely go through a trustworthy [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>).
-    - Instead, if the [Locator 🔆](<🔆 Locator.md>) opens a web page, then it's most probably not an PollyWeb [Locator 🔆](<🔆 Locator.md>).
+    - Instead, if the [Locator 🔆](<🔆 Locator.md>) opens a web page, then it's most probably not a PollyWeb [Locator 🔆](<🔆 Locator.md>).
     - Exceptionally, users will be directed to the `pollyweb.org` website if they do not have a [Wallet 🧑‍🦰 app](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed on their smartphone.
 
     Given that the [Wallet's Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) serves as a protector, user can trust its mechanism to protect them from [phishing sites 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md>), just like Google Chrome does with [SSL certificate validation 📺](<../../../2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md>) and other phishing detection/blocking features - these mechanisms include:

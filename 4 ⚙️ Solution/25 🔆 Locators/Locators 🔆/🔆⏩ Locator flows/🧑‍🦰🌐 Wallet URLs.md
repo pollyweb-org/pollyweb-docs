@@ -16,11 +16,11 @@
     ---
     <br/>
 
-1. **What if an PollyWeb Wallet is not installed in the device?**
+1. **What if a PollyWeb Wallet is not installed in the device?**
 
     PollyWeb advocates for developers to use the redirect script at `https://pollyweb.org/go/` so that users without an installed [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) can fallback to a page with instructions on how to install one. 
     
-    * If a user with an PollyWeb [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed navigates to a redirect link (e.g., `https://pollyweb.org/go/ABC`), the browser redirects to a `pollyweb` URL, signaling the OS to open the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) - the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) then opens with a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) to the link's host. 
+    * If a user with a PollyWeb [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed navigates to a redirect link (e.g., `https://pollyweb.org/go/ABC`), the browser redirects to a `pollyweb` URL, signaling the OS to open the [Wallet 🧑‍🦰 app](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) - the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) then opens with a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) to the link's host. 
 
     ---
     <br/>
@@ -44,7 +44,7 @@
 
     * Users using their [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) as the default NFC/QR reader won't notice any difference, because the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) will parse the destination [Host 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) from the URL.
 
-    * Conversely, users without a Wallet will see an HTTP 404 error on their web browsers when interacting with an PollyWeb NFC/QR, because the OS will navigate to the fallback URL which points to `pollyweb.org`.
+    * Conversely, users without a Wallet will see an HTTP 404 error on their web browsers when interacting with a PollyWeb NFC/QR, because the OS will navigate to the fallback URL which points to `pollyweb.org`.
 
     ---
     <br/>

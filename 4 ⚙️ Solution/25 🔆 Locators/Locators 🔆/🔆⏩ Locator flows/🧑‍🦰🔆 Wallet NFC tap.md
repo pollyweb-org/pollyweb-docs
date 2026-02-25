@@ -25,7 +25,7 @@
 
 1. **What if users without a Wallet tap an NFC?**
 
-    If a user doesn't have an PollyWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed and taps an NFC with the mobile device's default NFC reader scanner then a web browser opens with an experience similar to [scanning a QR](<🧑‍🦰✨ Wallet QR scan.md>) without a Wallet. 
+    If a user doesn't have a PollyWeb [Wallet app 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) installed and taps an NFC with the mobile device's default NFC reader scanner then a web browser opens with an experience similar to [scanning a QR](<🧑‍🦰✨ Wallet QR scan.md>) without a Wallet. 
 
     ---
     <br/>
