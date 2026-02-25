@@ -1,6 +1,6 @@
 # 🪣 Editors
 
-> [Editor 🧑‍💻 domains](<../../../../../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>)
+> [Editor 🧑‍💻 domains](<../../../../../50 🫥 Agent domains/Editors 🧑‍💻/$/🧑‍💻🫥 Editor agent.md>)
 
 <br/>
 

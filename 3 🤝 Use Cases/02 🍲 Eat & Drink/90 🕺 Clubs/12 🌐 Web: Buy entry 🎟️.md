@@ -10,7 +10,7 @@ Buy entry for a club
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 | | | 🔆 [tap](<../../../4 ⚙️ Solution/25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
-| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Club (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | ⓘ Any Club (4.4 ⭐) [+]
 | 🕺 Club       | 😃 What do you need? <br/>- [ Buy ] entry (£3.00) <br/>- [ Something else ] | > Buy
 | 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to book? [Yes, No] <br/> - your ID proves you're  21+ 🆔 <br/>- baristas need your name 🧢<br/>- your curator orders 🧚<br/>- the entry is paid upfront 💳 <br/> - save it in your wallet 🤵 <br/> - tap the door on entering ✨  <br/> - we check IDs on entry 🆔 <br/>- orders are paid inside 💳  | > Yes
 | 🆔 [Identifier](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share over 21? [Yes, No] | > Yes
