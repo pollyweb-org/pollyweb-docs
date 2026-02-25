@@ -20,8 +20,6 @@ Body:
     Read: {...}  # Inputs for Read@Helper
 ```
 
-<br/>
-
 
 |Object|Property|Type|Purpose
 |-|-|-|-
