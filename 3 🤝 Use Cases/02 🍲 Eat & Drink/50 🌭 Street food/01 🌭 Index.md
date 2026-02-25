@@ -18,7 +18,7 @@
 ||[Serve 🌭](<92 🧑‍🍳 Chef: Serve 🌭.md>)
 ||[Bill wallet 💳](<93 🧑‍🍳 Chef: Bill wallet 💳.md>) | [`🏦 Collector`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>)
 ||[Bill userable 💍](<94 🧑‍🍳 Chef: Bill userable 💍.md>) | [`🏦 Collector`](<../../../4 ⚙️ Solution/45 🤲 Helper domains/Collectors 🏦/🏦 Collector/🏦🤲 Collector helper.md>) [`💳 Payer`](<../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) 
-|`💼 Business` | [Menu](<11 🏢 Owner: Menu.md>) | [`Editor 🧑‍💻`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻 $/🧑‍💻🫥 Editor agent.md>)
+|`💼 Business` | [Menu](<11 🏢 Owner: Menu.md>) | [`Editor 🧑‍💻`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/$/🧑‍💻🫥 Editor agent.md>)
 |
 
 <br/>

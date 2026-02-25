@@ -15,8 +15,8 @@
 ||[Save shared intake](<23 🏠 Home: Save shared intake.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>)  [`📇 Mingler`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Minglers 📇/$ 📇🫥 Mingler agent.md>)
 ||[Intake via photo](<24 🏠 Home: Intake via photo.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>)
 ||[Intake via barcode](<25 🏠 Home: Intake via barcode.md>) | [`💖 Vitalogist`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Vitalogists 💖/💖🫥 Vitalogist agent.md>)
-|`💼 Owner` |[Menu](<91 🏢 Owner: Menu.md>) | [`Editor 🧑‍💻`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻 $/🧑‍💻🫥 Editor agent.md>) 
-||[Slots 🐘](<92 🏢 Owner: Slots.md>)       | [`Editor 🧑‍💻`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻 $/🧑‍💻🫥 Editor agent.md>) 
+|`💼 Owner` |[Menu](<91 🏢 Owner: Menu.md>) | [`Editor 🧑‍💻`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/$/🧑‍💻🫥 Editor agent.md>) 
+||[Slots 🐘](<92 🏢 Owner: Slots.md>)       | [`Editor 🧑‍💻`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/$/🧑‍💻🫥 Editor agent.md>) 
 |`🧑‍🍳 Chef` |[Start shift](<61 🧑‍🍳 Chef: Start shift.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) [`🆔 Identifier`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
 ||[Prepare](<62 🧑‍🍳 Chef: Prepare.md>) | `Slots 🐘`
 ||[Multi-task](<63 🧑‍🍳 Chef: Multi-task.md>) | `Slots 🐘`
