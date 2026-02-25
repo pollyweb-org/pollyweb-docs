@@ -60,7 +60,7 @@
 
 1. **Can users leverage their social network instead?**
 
-    Yes. A [Persona 🧢](<🧢🫥 Persona agent.md>) is an PollyWeb role that can be implemented by any social network. Thus, once the user's social network onboards to PollyWeb as a Persona, users can use it.
+    Yes. A [Persona 🧢](<🧢🫥 Persona agent.md>) is a PollyWeb role that can be implemented by any social network. Thus, once the user's social network onboards to PollyWeb as a Persona, users can use it.
 
     ---
     <br/>

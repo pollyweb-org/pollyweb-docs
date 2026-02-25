@@ -86,7 +86,7 @@
 
     No. PollyWeb does not use the standard payment NFC protocol. 
     
-    - However, users can tap on a PollyWeb [🔆 NFC Locator](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with their devices to check out an PollyWeb transaction, while continuing to use the device's standard NFC payments for traditional point of sale (POS) terminals. 
+    - However, users can tap on a PollyWeb [🔆 NFC Locator](<../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>) with their devices to check out a PollyWeb transaction, while continuing to use the device's standard NFC payments for traditional point of sale (POS) terminals. 
     
     - The user experience should be similar in both cases, but with PollyWeb there is no need for businesses to acquire expensive payment terminals because the UX is in the user's device - only a passive NFC tag costing less than $1.00 is required.
 
