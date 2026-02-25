@@ -49,7 +49,7 @@
    |Emoji|Usage
    |-|-
    |💬| The speech emoji 💬 represents the chat's [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) and any [Helper 🤲 domains](<../../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) that it may [invite ⏩](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Invite 🤗⏩🤲/🤗 Invite ⏩ flow.md>).
-   |💭| The thought emoji 💭 represents user [Agent 🫥 vaults](<../../../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>).
+   |💭| The thought emoji 💭 represents user [Agent 🫥 vaults](<../../../../50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>).
 
     ---
     <br/>

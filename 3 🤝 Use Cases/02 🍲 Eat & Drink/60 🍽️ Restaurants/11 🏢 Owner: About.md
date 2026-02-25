@@ -5,7 +5,7 @@
 > Edited via a [Editor 🧑‍💻 agent](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>)
 
 
-> Information to pass to customers' [Agent 🫥 vaults](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>).
+> Information to pass to customers' [Agent 🫥 vaults](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>).
 
 ### Owner's content
 

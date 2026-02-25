@@ -36,7 +36,7 @@
 
 1. **What user Agents do Wands typically invoke?**
 
-    | [User Agent 🫥](<../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | Purpose
+    | [User Agent 🫥](<../../50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>) | Purpose
     |-|-
     | [🧳 Custodian](<../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) | To allow users to manage their [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>).
     | [🆔 Identifier](<../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | To authenticate users as owners of their [Things 💠](<../../25 🔆 Locators/Things 💠/💠🔆 Thing locator.md>). 

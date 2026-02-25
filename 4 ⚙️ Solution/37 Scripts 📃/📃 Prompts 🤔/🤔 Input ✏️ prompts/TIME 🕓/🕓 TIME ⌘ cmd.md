@@ -43,7 +43,7 @@
     | Domain | [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | User
     | - | - | - |
     | [🤗 Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 What time? | 🕓 10:30:00
-    [🫥 Agent](<../../../../50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | 🫥 What time? | 🕓 10:30:00
+    [🫥 Agent](<../../../../50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>) | 🫥 What time? | 🕓 10:30:00
     | [🤲 Helper](<../../../../41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) | 🫥 What time? | 🕓 10:30:00
 
 
