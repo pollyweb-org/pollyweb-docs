@@ -55,7 +55,7 @@
 
 ---
 
-## **🧑‍🦰 <a id='User'>User</a> landscape index**
+## **🧑‍🦰 <a id='User'>User</a> landscape**
 
 - 🛰️ [Connecting](<../2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/00 🛰️ Connectivity index.md>):
     - how SpaceX, Amazon, and China are in a race to deliver internet via satellites;
@@ -102,7 +102,7 @@
 
 ---
 
-## **🌳 <a id='Ambient'>Ambient</a> landscape index**
+## **🌳 <a id='Ambient'>Ambient</a> landscape**
 
 - 🏡 [Smart Homes](<../3 🌳 Ambient landscape/01 🏡 Smart Homes/00 🏡 Smart Homes.md>):
     - what is ambient intelligence, the foundation of smart homes, buildings, and cities;
