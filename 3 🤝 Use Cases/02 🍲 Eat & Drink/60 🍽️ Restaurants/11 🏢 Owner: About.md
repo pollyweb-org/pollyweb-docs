@@ -2,7 +2,7 @@
 
 > From [Eat at restaurants 🍽️](<01 🍽️ Index.md>)
 
-> Edited via a [Editor 🧑‍💻 agent](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/$/🧑‍💻🫥 Editor agent.md>)
+> Edited via a [Editor 🧑‍💻 agent](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻 $/🧑‍💻🫥 Editor agent.md>)
 
 
 > Information to pass to customers' [Agent 🫥 vaults](<../../../4 ⚙️ Solution/50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>).
