@@ -36,22 +36,21 @@
 
 1. **What are examples of Navigator usage?**
 
-    [text](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>)
-    [text](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>)
-    [text](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/11 🌐 Web: Find club 🔎.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/02 🧳 Travel by bus 🚎/02 🚎 Traveler @ Stop/21 Buy smart tickets.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/02 🧳 Travel by bus 🚎/03 🚎 Traveler @ Bus/32 Board navigating.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/02 🧳 Travel by bus 🚎/03 🚎 Traveler @ Bus/33 Unboard navigating.md>)
-
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/21 Buy at station.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/23 Pass gates N persons.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/24 Find platform.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/03 🚂 Customer @ Platform/31 At platform.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/03 🚂 Customer @ Platform/32 Report something.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/04 🚂 Customer@ Train/41 Board train.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/04 🚂 Customer@ Train/42 Exit train.md>)
-    [text](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/05 🚂 Customer @ Exit/51 Exit station.md>)
+    - **Find a Bar:** [Web: Find a bar](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/30 🍸 Bars/11 🌐 Web: Find a bar.md>)
+    - **Order Pizza at Home:** [Home: Order pizza](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>)
+    - **Find a Club:** [Web: Find club](<../../../3 🤝 Use Cases/02 🍲 Eat & Drink/90 🕺 Clubs/11 🌐 Web: Find club 🔎.md>)
+    - **Buy Smart Bus Tickets:** [Traveler @ Stop: Buy smart tickets](<../../../3 🤝 Use Cases/03 🧳 Travel/02 🧳 Travel by bus 🚎/02 🚎 Traveler @ Stop/21 Buy smart tickets.md>)
+    - **Boarding a Bus:** [Traveler @ Bus: Board navigating](<../../../3 🤝 Use Cases/03 🧳 Travel/02 🧳 Travel by bus 🚎/03 🚎 Traveler @ Bus/32 Board navigating.md>)
+    - **Unboarding a Bus:** [Traveler @ Bus: Unboard navigating](<../../../3 🤝 Use Cases/03 🧳 Travel/02 🧳 Travel by bus 🚎/03 🚎 Traveler @ Bus/33 Unboard navigating.md>)
+    - **Buy Train Tickets at Station:** [Customer @ Station: Buy at station](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/21 Buy at station.md>)
+    - **Pass Train Gates (1 Person):** [Customer @ Station: Pass gates 1 person](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/22 Pass gates 1 person.md>)
+    - **Pass Train Gates (N Persons):** [Customer @ Station: Pass gates N persons](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/23 Pass gates N persons.md>)
+    - **Find Train Platform:** [Customer @ Station: Find platform](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/02 🚂 Customer @ Station/24 Find platform.md>)
+    - **At the Train Platform:** [Customer @ Platform: At platform](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/03 🚂 Customer @ Platform/31 At platform.md>)
+    - **Report an Issue at Platform:** [Customer @ Platform: Report something](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/03 🚂 Customer @ Platform/32 Report something.md>)
+    - **Board a Train:** [Customer @ Train: Board train](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/04 🚂 Customer@ Train/41 Board train.md>)
+    - **Exit a Train:** [Customer @ Train: Exit train](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/04 🚂 Customer@ Train/42 Exit train.md>)
+    - **Exit the Train Station:** [Customer @ Exit: Exit station](<../../../3 🤝 Use Cases/03 🧳 Travel/03 🧳 Travel by train 🚂/05 🚂 Customer @ Exit/51 Exit station.md>)
     ---
     <br/>
 
