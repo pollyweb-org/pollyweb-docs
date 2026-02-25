@@ -21,7 +21,7 @@
     | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     |-|-|-
     | | | 🔆 [tap](<../../Locators 🔆/🔆⏩ Locator flows/🧑‍🦰🔆 Wallet NFC tap.md>)
-    | 🔎 [Finder](<../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
+    | 🔎 [Finder](<../../../50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | ⓘ Any Wand (4.3 ⭐)  [+] 
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | ℹ️ Userable: wedding ring [+]
     | 🪄 [Wand](<../../../45 🤲 Helper domains/Wands 🪄/🪄🤲 Wand helper.md>) | 😃 Hi! What do you need? <br/>- [ Emergency ] trigger <br/>- [ Something else ] | > Emergency
     | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ Flow: emergency [+]

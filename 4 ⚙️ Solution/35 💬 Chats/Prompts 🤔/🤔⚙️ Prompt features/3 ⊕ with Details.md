@@ -16,7 +16,7 @@
 
 1. **What are example use cases?**
    
-    * [Finder 🔎 vault](<../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>)
+    * [Finder 🔎 vault](<../../../50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>)
     * [Book restaurant table online 🍽️](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/60 🍽️ Restaurants/31 🌐 Web: Book table 🗓️.md>)
   
     ---

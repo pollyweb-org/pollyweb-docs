@@ -17,7 +17,7 @@ The PollyWeb ecosystem aims to simplify everyday business transactions by stream
   
     * These are [Domains 👥](<../40 👥 Domains/👥 Domain/👥 Domain.md>) that can share user data with [Consumer 💼 domains](<../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>).
     
-    * [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Editor 🧑‍💻 agent](<../50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻🫥 Editor agent.md>).
+    * [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) may allow users to edit their data through the user's [Editor 🧑‍💻 agent](<../50 🫥 Agent domains/Editors 🧑‍💻/$/🧑‍💻🫥 Editor agent.md>).
 
 * Users designate [Agents 🫥 domains](<../50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) (e.g., payments).
 

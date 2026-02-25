@@ -7,7 +7,7 @@
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 || | > Book 🔗
-| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Restaurant (4.3 ⭐)  [+]
+| 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | ⓘ Any Restaurant (4.3 ⭐)  [+]
 | 🍽️ Restaurant | ℹ️ The Guild, Soho
 | 🍽️ Restaurant | 😃 Hi! Book a table? [Yes, No] | > Yes
 | 🍽️ Restaurant | 😃 At The Guild, Soho? [Yes, No] | > Yes
