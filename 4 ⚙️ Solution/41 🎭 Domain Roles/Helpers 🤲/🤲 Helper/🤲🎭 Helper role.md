@@ -46,7 +46,7 @@
     | [Role 🎭](<../../../40 👥 Domains/👥 Domain/👥🎭 Domain Role.md>) | Purpose
     |-|-
     | [🤗 Host](<../../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | To open [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with domain-admin users
-    | [🪢 Integrator](<../../Integrators 🪢/🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../../50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>)
+    | [🪢 Integrator](<../../Integrators 🪢/🪢🎭 Integrator role.md>) | To manifest its services to  [Finder 🔎 domains](<../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>)
     | [🗄️ Vault](<../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) | To store user profiles with [`.VAULT/SELF` 🧩](<../../Vaults 🗄️/🗄️🧩 Vault schemas/🧩 VAULT'SELF.md>)
     | [💵 Seller](<../../Sellers 💵/💵 Seller /💵🎭 Seller role.md>) | To sell the usage plans via a [Biller 💳 helper domain](<../../../45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝 Biller 🤲 helper.md>)
     
@@ -71,7 +71,7 @@
 
     |#| Group | Step
     |-|-|-
-    |1| `Find` | [Find 🔎](<../../../50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) a [Helper 🤲 ](<🤲🎭 Helper role.md>) with the desired services
+    |1| `Find` | [Find 🔎](<../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) a [Helper 🤲 ](<🤲🎭 Helper role.md>) with the desired services
     |2| `Chat` | [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) with the Helper's [Host 🤗 role](<../../Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
     |3| `Bind`| [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) to the Helper's [Vault 🗄️ role](<../../Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>)
     |4| `Bill` | Subscribe a plan in the Helper's [Biller 🤝](<../../../45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝 Biller 🤲 helper.md>)

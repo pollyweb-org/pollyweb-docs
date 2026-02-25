@@ -8,15 +8,15 @@ Send an invitation letter before a trip
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ℹ️ None of your vaults supports it [+]
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Over to 🔎 Finder.
 | [ new chat ]
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | ℹ️ Request received [+] <br/> - I need the hosting address.
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ℹ️ Request received [+] <br/> - I need the hosting address.
 | 🧢 [Persona](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>) | 🫥 Share address? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] | > 🏠 home
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | ⏳ Looking around...
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | 💬 Here are suggestions: <br/> - [ Any Council 🏛️ ] (4.4 ⭐) <br/> - [ Find 🔎 ] alternatives | > Any Council 🏛️
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | ℹ️ Any Council 🏛️ (4.4 ⭐): <br/> - responsible for your address <br/> - supports online letter requests.
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | 💬 Suggested next steps: <br/> - [ Request ] online <br/> - [ Find 🔎 ] alternatives | > Request
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⏳ Looking around...
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | 💬 Here are suggestions: <br/> - [ Any Council 🏛️ ] (4.4 ⭐) <br/> - [ Find 🔎 ] alternatives | > Any Council 🏛️
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ℹ️ Any Council 🏛️ (4.4 ⭐): <br/> - responsible for your address <br/> - supports online letter requests.
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | 💬 Suggested next steps: <br/> - [ Request ] online <br/> - [ Find 🔎 ] alternatives | > Request
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Over to Any Council 🏛️
 | [ new chat ]
-| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/$/🔎 Finder 🫥 agent.md>) | ⓘ Any Council (4.4 ⭐) [+]
+| 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Council (4.4 ⭐) [+]
 | 🏛️ Council | ℹ️ Invitation letter requested [+]
 | 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to request it? [Yes, No] <br/> - your ID identifies you 🆔   <br/> - your contracts confirm our address <br/> - your persona sets your job title 🧢 <br/> - you provide the hosting period 🗓️ <br/> - you forward ID request to guests 🤵  <br/> - your persona sets the guests 🧢 <br/> - guests' IDs identify them 🆔 <br/> - your ID signs your responsibility 🆔 <br/> - your payer pays the service 💳 <br/> - you forward the letter to guests 🤵 | > Yes
 | 🆔 [Identifier](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share identity? [Yes, No] | > Yes

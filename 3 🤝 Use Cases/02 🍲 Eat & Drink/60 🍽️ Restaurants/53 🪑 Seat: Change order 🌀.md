@@ -10,10 +10,10 @@ How to change an order at a restaurant?
 | ...
 | 🍽️ Restaurant | ⏳ Preparing your order... [+] | > +
 | 🍽️ Restaurant | ⏳ Preparing your order... <br/> - [ Change ] order  | > Change
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/$/🧚🫥 Curator agent.md>) | 💭 Change what? <br/> - [ ] 1 tap water 🚰 <br/> - [ ] 1 dark paella 🥘 <br/> - [ ] red wine glass 🍷 | `no wine`
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/$/🧚🫥 Curator agent.md>) | ⓘ OK, let's cancel the wine.
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚 Curator/🧚🫥 Curator agent.md>) | 💭 Change what? <br/> - [ ] 1 tap water 🚰 <br/> - [ ] 1 dark paella 🥘 <br/> - [ ] red wine glass 🍷 | `no wine`
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚 Curator/🧚🫥 Curator agent.md>) | ⓘ OK, let's cancel the wine.
 | 🍽️ Restaurant | ✅ Item cancelled: <br/> - 1 red wine glass 🍷
-| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/$/🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No] | > No
+| 🧚 [Curator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚 Curator/🧚🫥 Curator agent.md>) | 💭 Anything else? [Yes, No] | > No
 | 🍽️ Restaurant | ⏳ Preparing your order... [+] 
 | ...
 ||
