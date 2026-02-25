@@ -6,8 +6,6 @@
 > Used in [🧑‍🦰👉🤵 Remove token](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Tokens 🎫/Remove 💬🎫🤵 /🧑‍🦰 Remove Token ⏩ flow.md>)
 
 
-<br/>
-
 ## Async Message 🐌
 ```yaml
 Header:
