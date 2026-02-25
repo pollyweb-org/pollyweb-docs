@@ -4,7 +4,7 @@
 
 <br/>
 
-| Use case| [Agents 🫥](<../../4 ⚙️ Solution/50 🫥 Agent domains/$ Agent Vaults 🫥/🫥🗄️ Agent vault.md>) | [Helpers 🤲](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) 
+| Use case| [Agents 🫥](<../../4 ⚙️ Solution/50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>) | [Helpers 🤲](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) 
 |-|-|-
 | [🎰 Casinos](<10 🎰 Casinos/01 🎰 Index.md>) | [`🆔 Identifier`](<../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>)
 | [🏪 Vending](<20 🏪 Vending/01 🏪 Index.md>) | [`🆔 Identifiererer`](<../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) [`💳 Payer`](<../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) 
