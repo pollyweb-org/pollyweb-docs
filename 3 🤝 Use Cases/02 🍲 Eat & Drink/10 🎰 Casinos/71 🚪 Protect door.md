@@ -2,7 +2,6 @@
 
 > From [Entering casinos 🎰](<01 🎰 Index.md>)
 
-<br/> 
 
 ## 💬 Chat
 
