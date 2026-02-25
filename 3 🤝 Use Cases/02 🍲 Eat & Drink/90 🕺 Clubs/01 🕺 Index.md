@@ -20,5 +20,5 @@
 |`💁‍♀️ Barista`|[Start shift](<81 💁‍♀️ Barista: Start shift.md>) | [`🎫 Token`](<../../../4 ⚙️ Solution/30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) [`🆔 Identifier`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) 
 ||[Prepare drink](<82 💁‍♀️ Barista: Prepare.md>) | -
 ||[Hand over](<83 💁‍♀️ Barista: Hand over.md>) | -
-|`🏢 Owner`|[Menu](<91 🏢 Owner: Menu.md>) | [`Editor 🧑‍💻`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/🧑‍💻 $/🧑‍💻🫥 Editor agent.md>)
+|`🏢 Owner`|[Menu](<91 🏢 Owner: Menu.md>) | [`Editor 🧑‍💻`](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Editors 🧑‍💻/$/🧑‍💻🫥 Editor agent.md>)
 |
