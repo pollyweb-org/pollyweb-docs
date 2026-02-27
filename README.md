@@ -25,13 +25,10 @@ Use this map as your starting point:
 
 | Area | Path | What you will find |
 | --- | --- | --- |
-| Mission | [`🎯 Mission`](<4 ⚙️ Solution/README.md>) | Vision, press-style positioning, sovereignty pledge, technical overview |
-| Landscape | [`🏔️ Landscape`](<./2 🏔️ Landscape/README.md>) | Business, user, and ambient ecosystem research |
-| Use Cases | [`🤝 Use Cases`](<./3 🤝 Use Cases/README.md>) | Practical user and operator journeys across industries |
-| Solution | [`⚙️ Solution`](<./4 ⚙️ Solution/README.md>) | Protocol architecture, domains, roles, data models, and operations |
-| Flows | [`⏩ Flows`](<./5 ⏩ Flows/README.md>) | Flow-focused notes and working materials |
-| Codes | [`🧩 Codes`](<./7 🧩 Codes/README.md>) | Reusable domain/schema primitives |
-| Manifests | [`📜 Manifests`](<./8 📜 Manifests/README.md>) | Public domain manifests and trust/discovery definitions |
+| Mission | [`🎯 Mission`](<1 🎯 Mission/0 🎯 Mission.md>) | Vision, press-style positioning, sovereignty pledge, technical overview |
+| Landscape | [`🏔️ Landscape`](<2 🏔️ Landscape/$/🏔️ Landscape.md>) | Business, user, and ambient ecosystem research |
+| Use Cases | [`🤝 Use Cases`](<3 🤝 Use Cases/00 🤝 Intro/🤝 Use Cases.md>) | Practical user and operator journeys across industries |
+| Solution | [`⚙️ Solution`](<4 ⚙️ Solution/$/⚙️ Solution.md>) | Protocol architecture, domains, roles, data models, and operations |
 
 ## Core protocol themes
 
