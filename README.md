@@ -25,7 +25,7 @@ Use this map as your starting point:
 
 | Area | Path | What you will find |
 | --- | --- | --- |
-| Mission | [`🎯 Mission`](<./1 🎯 Mission/README.md>) | Vision, press-style positioning, sovereignty pledge, technical overview |
+| Mission | [`🎯 Mission`](<4 ⚙️ Solution/README.md>) | Vision, press-style positioning, sovereignty pledge, technical overview |
 | Landscape | [`🏔️ Landscape`](<./2 🏔️ Landscape/README.md>) | Business, user, and ambient ecosystem research |
 | Use Cases | [`🤝 Use Cases`](<./3 🤝 Use Cases/README.md>) | Practical user and operator journeys across industries |
 | Solution | [`⚙️ Solution`](<./4 ⚙️ Solution/README.md>) | Protocol architecture, domains, roles, data models, and operations |
