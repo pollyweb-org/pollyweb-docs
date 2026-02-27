@@ -1,8 +1,8 @@
 # Instructions on how to run this script:
 # > python3 -m venv .venv
 # > source .venv/bin/activate
-# > pip3 install -r requirements.txt
 # > cd .tools/links
+# > pip3 install -r requirements.txt
 # > python3 links.py
 
 
@@ -89,89 +89,6 @@ MAX_PARALLEL_WORKERS = max(1, min(32, (os.cpu_count() or 1)))
 YAML_FENCE_OPEN_RE = re.compile(r"^(?:```|~~~)+\s*(yaml|yml)\b", re.IGNORECASE)
 YAML_FENCE_CLOSE_RE = re.compile(r"^(?:```|~~~)+\s*$")
 MSG_LABEL_PATTERN = re.compile(r"\[(?P<label>[^\]]*?)📨 msg\]\(<(?P<target>[^>]+)>\)")
-
-
-def _count_report_entries(entries_by_file: dict[str, list]) -> int:
-    return sum(len(entries) for entries in entries_by_file.values())
-
-
-def _rank_problem_files(
-    broken_links: dict[str, list],
-    malformed_links: dict[str, list],
-    replacement_char_hits: dict[str, list],
-    limit: int = 8,
-) -> list[tuple[str, int]]:
-    scores: dict[str, int] = {}
-    for bucket in (broken_links, malformed_links, replacement_char_hits):
-        for file_path, entries in bucket.items():
-            scores[file_path] = scores.get(file_path, 0) + len(entries)
-
-    ranked = sorted(scores.items(), key=lambda item: (-item[1], item[0]))
-    return ranked[:limit]
-
-
-def emit_llm_failure_guidance(
-    *,
-    broken_links: dict[str, list],
-    malformed_links: dict[str, list],
-    replacement_char_hits: dict[str, list],
-    project_directory: str,
-) -> None:
-    """Print a compact machine-readable summary for LLM-friendly error reporting."""
-
-    broken_count = _count_report_entries(broken_links)
-    malformed_count = _count_report_entries(malformed_links)
-    replacement_count = _count_report_entries(replacement_char_hits)
-    total_issues = broken_count + malformed_count + replacement_count
-
-    if total_issues == 0:
-        return
-
-    ranked_files = _rank_problem_files(broken_links, malformed_links, replacement_char_hits)
-    top_files = []
-    for file_path, score in ranked_files:
-        try:
-            rel = os.path.relpath(file_path, project_directory)
-        except Exception:
-            rel = file_path
-        top_files.append((rel, score))
-
-    primary_cause = "broken_links"
-    if malformed_count >= broken_count and malformed_count >= replacement_count:
-        primary_cause = "malformed_links"
-    elif replacement_count >= broken_count and replacement_count >= malformed_count:
-        primary_cause = "replacement_characters"
-
-    print("\n## LLM guidance for git push failure")
-    print("Use this section to build a concise, human-readable failure message.")
-    print(f"- Status: FAIL")
-    print(f"- Reason: pre-push link validation failed")
-    print(f"- Total issues: {total_issues}")
-    print(f"- Broken links: {broken_count}")
-    print(f"- Malformed links: {malformed_count}")
-    print(f"- Replacement-char hits: {replacement_count}")
-    print(f"- Primary cause: {primary_cause}")
-    print("- Suggested human message: "
-          f"git push was blocked by the pre-push link checker ({total_issues} issues: "
-          f"{broken_count} broken, {malformed_count} malformed, {replacement_count} replacement-char). "
-          "Fix the listed files and retry git push.")
-    if top_files:
-        print("- Priority files:")
-        for rel_path, score in top_files:
-            print(f"  - {rel_path} ({score} issue entries)")
-
-    print("LLM_SUMMARY_START")
-    print("status=FAIL")
-    print("reason=pre_push_link_validation_failed")
-    print(f"total_issues={total_issues}")
-    print(f"broken_links={broken_count}")
-    print(f"malformed_links={malformed_count}")
-    print(f"replacement_char_hits={replacement_count}")
-    print(f"primary_cause={primary_cause}")
-    for index, (rel_path, score) in enumerate(top_files, start=1):
-        print(f"priority_file_{index}={rel_path}|{score}")
-    print("suggested_action=fix_reported_links_and_rerun_git_push")
-    print("LLM_SUMMARY_END")
 
 
 def _parallel_process(paths: List[str], worker, executor: Optional[ThreadPoolExecutor] = None):
@@ -1253,13 +1170,6 @@ def runit(project_directory, entryPoint):
 
         if not changes and not broken_links and not malformed_links and not replacement_char_hits:
             break
-
-    emit_llm_failure_guidance(
-        broken_links=broken_links,
-        malformed_links=malformed_links,
-        replacement_char_hits=replacement_char_hits,
-        project_directory=project_directory,
-    )
     # As a final targeted pass, ensure holder-style tokens like '{{$.Inputs}}'
     # from the YAML Successful Tests are actually replaced in files. The work
     # is done per file to avoid re-reading the same document multiple times and
