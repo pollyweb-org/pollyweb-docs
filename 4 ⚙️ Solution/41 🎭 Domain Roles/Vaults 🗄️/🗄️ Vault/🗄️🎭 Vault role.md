@@ -159,7 +159,7 @@
     
     - [Storage vaults 🗃️](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) are multi-tenant cloud repositories rented by users, where users can allow bound vaults to write their data into. 
     
-    - The [Storage vault 🗃️](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) will comply with the user's [data-residency 🏔️](<../../../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) requirements by choosing in which region to store the user's data. 
+    - The [Storage vault 🗃️](<../../../50 🫥 Agent domains/Storage 🗃️/🗃️🫥 Storage agent.md>) will comply with the user's [data-residency 🏔️](<../../../../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty landscape.md>) requirements by choosing in which region to store the user's data. 
     
     - This solution also allows for free services to offload the cost of storage to the user.
 

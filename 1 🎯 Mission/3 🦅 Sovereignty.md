@@ -23,7 +23,7 @@
 1. [keep](<../4 ⚙️ Solution/41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) the data output of services, and [share](<../4 ⚙️ Solution/41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) it with other businesses;
 1. own their multi-persona [digital twins](<../4 ⚙️ Solution/50 🫥 Agent domains/Personas 🧢/🧢 Persona agent/🧢🫥 Persona agent.md>), and decide when to share them;
 1. influence their [advertising](<../2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/00 👀 Advertising index.md>) persona and contextual next-best actions;
-1. [search](<../2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/00 🔎 Searching index.md>), [interact](<../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/00 💬 Chatting index.md>), and pay for services in their language from any app;
+1. [search](<../2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/00 🔎 Searching landscape.md>), [interact](<../2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/00 💬 Chatting index.md>), and pay for services in their language from any app;
 1. pay with their [preferred method](<../2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/00 💳 Payments index.md>), regardless of where they are;
 1. manage all only debits and credits from a [central user experience](<../4 ⚙️ Solution/45 🤲 Helper domains/Billers 🤝/🤝 Biller/🤝 Biller 🤲 helper.md>).
 1. can delegate business interactions to their AI assistants.
