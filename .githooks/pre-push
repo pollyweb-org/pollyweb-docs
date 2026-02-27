@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(git rev-parse --show-toplevel)"
+cd "$ROOT_DIR"
+
+PYTHON_BIN="./.venv/bin/python"
+CHECKER="./.tools/links/links.py"
+
+if [[ ! -x "$PYTHON_BIN" ]]; then
+  echo "pre-push: missing $PYTHON_BIN"
+  echo "pre-push: create the venv and install ./.tools/links/requirements.txt"
+  exit 1
+fi
+
+if [[ ! -f "$CHECKER" ]]; then
+  echo "pre-push: missing $CHECKER"
+  exit 1
+fi
+
+OUTPUT_FILE="$(mktemp)"
+trap 'rm -f "$OUTPUT_FILE"' EXIT
+
+# Run non-interactively so prompts fail fast instead of hanging.
+if ! "$PYTHON_BIN" "$CHECKER" </dev/null >"$OUTPUT_FILE" 2>&1; then
+  cat "$OUTPUT_FILE"
+  echo "pre-push: blocked (links.py exited with errors)"
+  exit 1
+fi
+
+if grep -Eq "^## Broken links found|^## Malformed links found" "$OUTPUT_FILE"; then
+  cat "$OUTPUT_FILE"
+  echo "pre-push: blocked (links.py reported link issues)"
+  exit 1
+fi
+
+echo "pre-push: links.py passed"

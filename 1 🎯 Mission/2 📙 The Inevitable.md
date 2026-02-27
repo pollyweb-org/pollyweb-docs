@@ -85,7 +85,7 @@
 ## 🔗 <a id='Tracking'>Tracking</a> (Transparency & Surveillance)
 - **Summary:** Everything is being tracked, from our movements to our behaviors, creating both unprecedented transparency and massive privacy concerns.
 - **Status: Embedded in Daily Life** – IoT devices, [smart cities 📺](<../2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/07 📺 Smart cities.md>), and biometric tracking make real-time surveillance nearly ubiquitous. 
-    *Example: [Governments 🏳️](<../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty index.md>) and [corporations 💼](<../2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/00 🕵 Profiling Index.md>) using AI-driven analytics to monitor behavior and enforce regulations.*
+    *Example: [Governments 🏳️](<../2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/00 🏳️ Sovereignty landscape.md>) and [corporations 💼](<../2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/00 🕵 Profiling landscape.md>) using AI-driven analytics to monitor behavior and enforce regulations.*
 - **Risk: Loss of Privacy** – Citizens and consumers have little control over their data, with tracking often happening without consent.
 - **Mitigation:** **Implement decentralized identity and personal data vaults** that allow individuals to control and monetize their own data instead of surrendering it to companies and governments.
 - **Challenge:** Widespread adoption requires strong legal protections and technical standards that balance convenience with ethical concerns.

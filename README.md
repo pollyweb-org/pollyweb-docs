@@ -25,13 +25,13 @@ Use this map as your starting point:
 
 | Area | Path | What you will find |
 | --- | --- | --- |
-| Mission | [`1 🎯 Mission`](./1%20🎯%20Mission) | Vision, press-style positioning, sovereignty pledge, technical overview |
-| Landscape | [`2 🏔️ Landscape`](./2%20🏔️%20Landscape) | Business, user, and ambient ecosystem research |
-| Use Cases | [`3 🤝 Use Cases`](./3%20🤝%20Use%20Cases) | Practical user and operator journeys across industries |
-| Solution | [`4 ⚙️ Solution`](./4%20⚙️%20Solution) | Protocol architecture, domains, roles, data models, and operations |
-| Flows | [`5 ⏩ Flows`](./5%20⏩%20Flows) | Flow-focused notes and working materials |
-| Codes | [`7 🧩 Codes`](./7%20🧩%20Codes) | Reusable domain/schema primitives |
-| Manifests | [`8 📜 Manifests`](./8%20📜%20Manifests) | Public domain manifests and trust/discovery definitions |
+| Mission | [`1 🎯 Mission`](<./1 🎯 Mission/README.md>) | Vision, press-style positioning, sovereignty pledge, technical overview |
+| Landscape | [`2 🏔️ Landscape`](<./2 🏔️ Landscape/README.md>) | Business, user, and ambient ecosystem research |
+| Use Cases | [`3 🤝 Use Cases`](<./3 🤝 Use Cases/README.md>) | Practical user and operator journeys across industries |
+| Solution | [`4 ⚙️ Solution`](<./4 ⚙️ Solution/README.md>) | Protocol architecture, domains, roles, data models, and operations |
+| Flows | [`5 ⏩ Flows`](<./5 ⏩ Flows/README.md>) | Flow-focused notes and working materials |
+| Codes | [`7 🧩 Codes`](<./7 🧩 Codes/README.md>) | Reusable domain/schema primitives |
+| Manifests | [`8 📜 Manifests`](<./8 📜 Manifests/README.md>) | Public domain manifests and trust/discovery definitions |
 
 ## Core protocol themes
 
