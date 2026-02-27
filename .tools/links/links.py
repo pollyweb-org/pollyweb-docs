@@ -1,3 +1,11 @@
+# Instructions on how to run this script:
+# > python3 -m venv .venv
+# > source .venv/bin/activate
+# > pip3 install -r requirements.txt
+# > cd .tools/links
+# > python3 links.py
+
+
 import os
 import re
 import unicodedata
@@ -13,12 +21,7 @@ REFERENCE_DEFINITION_PATTERN = re.compile(r"^\[[^\]]+\]:\s*<[^>]+>\s*$")
 REFERENCE_DEFINITION_CAPTURE_PATTERN = re.compile(r"^\[(?P<label>[^\]]+)\]:\s*<(?P<target>[^>]+)>\s*$")
 REFERENCE_LINK_USAGE_PATTERN = re.compile(r"\[(?P<text>[^\]]+)\]\[(?P<label>[^\]]+)\]")
 
-# Instructions on how to run this script:
-# > python3 -m venv .venv
-# > source .venv/bin/activate
-# > pip3 install -r requirements.txt
-# > cd .tools/links
-# > python3 links.py
+
 
 from broken_links import (
     check_broken_links,
