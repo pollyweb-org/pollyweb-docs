@@ -1,6 +1,6 @@
 # 🧳 Travel use cases
 
-> Part of [Use cases 🤝](<../00 🤝 Intro/🤝 Index.md>)
+> Part of [Use cases 🤝](<../00 🤝 Intro/🤝 Use Cases.md>)
 
 <br/>
 
