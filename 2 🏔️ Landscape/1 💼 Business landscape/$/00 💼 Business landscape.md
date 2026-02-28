@@ -34,7 +34,7 @@
     - why China's super-apps are hard to replicated in the fragmented U.S. market;
     - why India chose to create a central product catalog accessible by any app;
     - and how PollyWeb connects apps to distributed self-sovereign product catalogs.
-- 💬 [Chatting](<../10 💬 Chatting landscape/00 💬 Chatting index.md>):
+- 💬 [Chatting](<../10 💬 Chatting landscape/00 💬 Chatting landscape.md>):
     - what do Google, Meta, Tencent, and Walmart envision for business messaging;
     - and why PollyWeb advocates for business transactions in natural language.
 - 🔆 [Scanning](<../11 🔆 Scanning landscape/00 🔆 Scanning index.md>):
