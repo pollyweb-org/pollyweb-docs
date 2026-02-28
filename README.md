@@ -1,60 +1,51 @@
-# Docs @ PollyWeb
+# PollyWeb Docs
 
-Welcome to the PollyWeb documentation repository.
-This repository is the source of truth for the protocol vision, user and business landscapes, solution architecture, use-case flows, schemas, and manifests that power PollyWeb.
+> A neutral, open, and global web protocol that allows any person or AI agent to chat with any business, place, or thing.
 
-PollyWeb is a neutral, open, and global protocol that enables people and AI agents to chat with businesses, places, and things using existing chat apps.
+[pollyweb.org](https://www.pollyweb.org) · [Newsletter](https://www.pollyweb.org/#newsletter) · [LinkedIn](https://www.pollyweb.org/#linkedin)
 
-- Website: [pollyweb.org](https://www.pollyweb.org/)
-- Organization: [PollyWeb-org](https://github.com/PollyWeb-org)
-- Repo: [pollyweb-docs](https://github.com/PollyWeb-org/pollyweb-docs)
+---
 
-## Why this repo exists
+## What is PollyWeb?
 
-This docs repository captures the foundations of PollyWeb:
+PollyWeb is an internet layer built on top of existing infrastructure (HTTPS, DNSSEC, chat apps) that lets humans and their AI assistants interact in natural language with organizations, places, objects, and services — without installing new apps or surrendering personal data to any platform.
 
-- Protocol-level principles and sovereignty commitments
-- Real-world market, user, and infrastructure landscapes
-- End-to-end journeys and interaction flows
-- Domain, message, and schema building blocks
-- Concrete manifests for interoperable trust and discovery
+By scanning or clicking a PollyWeb locator with any compatible chat app, users can share credentials, ask questions, fill forms, execute workflows, and pay for transactions — while retaining full sovereignty over their data and payment methods.
 
-## Explore the docs
+## Core Principles
 
-Use this map as your starting point:
+| | |
+|-|-|
+| 💬 **Open Chat Protocol** | Neutral and chat-native. Universal access via any chat app, preventing platform capture. |
+| 🫥 **Multi-Agent Cooperation** | Any person or AI agent can seamlessly interact with businesses, places, and services. |
+| 🎫 **Wallet-Stored Credentials** | Sovereign credentials and user control. No OS gatekeeper, no repeated PII entry. |
+| 💳 **User-Sovereign Payments** | Your payment methods, your choice — not dictated by the host platform or the business. |
+| 🧚 **Personal AI Curator** | User-sovereign preferences managed by your personal AI. |
+| 🔒 **Privacy by Design** | Nation-sovereign biometric ID, issuer-blind verification, and domain-sovereign trust manifests. |
 
-| Area | Path | What you will find |
-| --- | --- | --- |
-| Mission | [`🎯 Mission`](<1 🎯 Mission/0 🎯 Mission.md>) | Vision, press-style positioning, sovereignty pledge, technical overview |
-| Landscape | [`🏔️ Landscape`](<2 🏔️ Landscape/$/🏔️ Landscape.md>) | Business, user, and ambient ecosystem research |
-| Use Cases | [`🤝 Use Cases`](<3 🤝 Use Cases/00 🤝 Intro/🤝 Use Cases.md>) | Practical user and operator journeys across industries |
-| Solution | [`⚙️ Solution`](<4 ⚙️ Solution/$/⚙️ Solution.md>) | Protocol architecture, domains, roles, data models, and operations |
+## Sovereignty Pledge
 
-## Core protocol themes
+PollyWeb commits to giving all stakeholders genuine control:
 
-- Open chat protocol: Interactions happen in chat-native interfaces, not locked to one platform.
-- Multi-agent cooperation: Users and AI agents can interact with any compliant domain.
-- Wallet-stored credentials: Users control credential sharing and reduce repeated PII disclosure.
-- User-sovereign payments: Payment choice stays with the user.
-- Privacy by design: Sovereign, compliance-aware data exchange and verification patterns.
+- **Users** — own their digital twins, choose what data to share, authenticate with passkeys (not passwords), pay with their preferred method, and delegate interactions to AI assistants.
+- **Businesses** — publish services via open manifests, authenticate with domain certificates (not API keys), and access third-party services on-demand without onboarding.
+- **Governments** — interact directly with citizens, keep citizen data within sovereign borders, and enforce laws and regulations on the network.
 
-## Contributing
+## Repository Structure
 
-Contributions are welcome.
+This repository contains the PollyWeb specification, research landscape, use cases, and solution architecture.
 
-1. Open an issue for bugs, content gaps, or clarifications.
-2. Submit a pull request with focused doc changes.
-3. Keep links and naming consistent with existing folder conventions.
-
-Start here:
-
-- [Issues](https://github.com/PollyWeb-org/pollyweb-docs/issues)
-- [Pull requests](https://github.com/PollyWeb-org/pollyweb-docs/pulls)
-
-## Feedback
-
-If you want to discuss the protocol direction, implementation details, or integration use cases, open an issue in this repository.
+```
+1 🎯 Mission/          — Vision, press release, sovereignty pledge, tech overview
+2 🏔️ Landscape/        — Research: business, user, ambient, and regulatory landscapes
+3 🤝 Use Cases/        — End-to-end flows for personas and scenarios
+4 ⚙️ Solution/         — Protocol specification: data, roles, agents, and domains
+.tools/               — Developer tooling (link checker, video utilities, web terminal)
+```
 
 ## License
 
-This repository is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+You are free to share and adapt the material for any purpose, provided appropriate credit is given.
+
+© 2026 PollyCore LTD.
