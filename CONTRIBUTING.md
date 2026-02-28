@@ -39,7 +39,7 @@ python links.py
 
 ## Licensing
 
-By contributing, you agree that your contributions will be licensed under the same [CC BY 4.0](LICENSE) license that covers this repository.
+By contributing, you agree that your contributions will be licensed under the same [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license that covers this repository.
 
 ## Questions
 
