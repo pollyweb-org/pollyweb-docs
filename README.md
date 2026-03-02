@@ -14,7 +14,7 @@ By scanning or clicking a PollyWeb locator with any compatible chat app, users c
 
 ## Core Principles
 
-| | |
+| Principle | |
 |-|-|
 | 💬 **Open Chat Protocol** | Neutral and chat-native. Universal access via any chat app, preventing platform capture. |
 | 🫥 **Multi-Agent Cooperation** | Any person or AI agent can seamlessly interact with businesses, places, and services. |
