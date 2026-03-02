@@ -37,11 +37,10 @@ This repository contains the PollyWeb specification, research landscape, use cas
 
 | Folder | Description |
 |-|-|
-| [1 🎯 Mission](./1%20🎯%20Mission/) | Vision, press release, sovereignty pledge, tech overview |
-| [2 🏔️ Landscape](./2%20🏔️%20Landscape/) | Research: business, user, ambient, and regulatory landscapes |
-| [3 🤝 Use Cases](./3%20🤝%20Use%20Cases/) | End-to-end flows for personas and scenarios |
-| [4 ⚙️ Solution](./4%20⚙️%20Solution/) | Protocol specification: data, roles, agents, and domains |
-| [.tools](./.tools/) | Developer tooling (link checker, video utilities, web terminal) |
+| [🎯 Mission](./1%20🎯%20Mission/) | Vision, press release, sovereignty pledge, tech overview |
+| [🏔️ Landscape](./2%20🏔️%20Landscape/) | Research: business, user, ambient, and regulatory landscapes |
+| [🤝 Use Cases](./3%20🤝%20Use%20Cases/) | End-to-end flows for personas and scenarios |
+| [⚙️ Solution](./4%20⚙️%20Solution/) | Protocol specification: data, roles, agents, and domains |
 
 ## License
 
