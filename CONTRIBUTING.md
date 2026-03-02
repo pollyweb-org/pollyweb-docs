@@ -33,6 +33,12 @@ pip install -r requirements.txt
 python links.py
 ```
 
+**Pre-push enforcement** — pushes are blocked by `.githooks/pre-push` when either:
+- there are pending local changes (staged, unstaged, or untracked files), or
+- `links.py` reports broken/malformed links.
+
+If you fix issues after a failed push, commit those fixes first, then push again.
+
 **Assets** — place images and PDFs in a `.📎 Assets/` subfolder alongside the markdown files that reference them.
 
 **Tone** — neutral and factual for landscape research; precise and unambiguous for specification content.
