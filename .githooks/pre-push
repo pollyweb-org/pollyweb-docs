@@ -7,6 +7,24 @@ cd "$ROOT_DIR"
 PYTHON_BIN="./.venv/bin/python"
 CHECKER="./.tools/links/links.py"
 
+has_pending_changes() {
+  git update-index -q --refresh || true
+
+  if ! git diff --quiet --ignore-submodules --; then
+    return 0
+  fi
+
+  if ! git diff --cached --quiet --ignore-submodules --; then
+    return 0
+  fi
+
+  if [[ -n "$(git ls-files --others --exclude-standard)" ]]; then
+    return 0
+  fi
+
+  return 1
+}
+
 if [[ ! -x "$PYTHON_BIN" ]]; then
   echo "pre-push: missing $PYTHON_BIN"
   echo "pre-push: create the venv and install ./.tools/links/requirements.txt"
@@ -18,6 +36,18 @@ if [[ ! -f "$CHECKER" ]]; then
   exit 1
 fi
 
+if has_pending_changes; then
+  echo "\n❌ Git push blocked: repository has pending uncommitted changes."
+  echo "🤖 LLM instruction: inspect git status and decide remediation before pushing."
+  echo "   - Commit required fixes so they are included in the push."
+  echo "   - Or stash/discard unrelated local changes, then retry push."
+  echo "👉 Suggested commands:"
+  echo "    git status --short"
+  echo "    git add -A && git commit -m \"commit pending fixes\""
+  echo "After remediating pending changes, run 'git push' again."
+  exit 1
+fi
+
 OUTPUT_FILE="$(mktemp)"
 trap 'rm -f "$OUTPUT_FILE"' EXIT
 
@@ -25,18 +55,35 @@ trap 'rm -f "$OUTPUT_FILE"' EXIT
 if ! "$PYTHON_BIN" "$CHECKER" </dev/null >"$OUTPUT_FILE" 2>&1; then
   cat "$OUTPUT_FILE"
   echo "\n❌ Git push blocked: links.py exited with errors."
-  echo "👉 To fix these errors, run:"
+  echo "🤖 LLM instruction: run the checker command below and decide what to do from its output."
+  echo "   - If links are broken/malformed, fix them and retry push."
+  echo "   - If it's an environment/tooling issue, repair setup and retry push."
+  echo "👉 Checker command:"
   echo "    $PYTHON_BIN $CHECKER"
-  echo "Then review the output, correct any issues, and try 'git push' again."
+  echo "After decision and remediation, run 'git push' again."
   exit 1
 fi
 
 if grep -Eq "^## Broken links found|^## Malformed links found" "$OUTPUT_FILE"; then
   cat "$OUTPUT_FILE"
   echo "\n❌ Git push blocked: broken or malformed links detected by links.py."
-  echo "👉 To fix these issues, run:"
+  echo "🤖 LLM instruction: run the checker command below and decide remediation based on findings."
+  echo "   - Fix malformed links and broken targets reported by links.py."
+  echo "   - Re-run checker until clean, then retry push."
+  echo "👉 Checker command:"
   echo "    $PYTHON_BIN $CHECKER"
-  echo "Review the output, correct any broken or malformed links, and try 'git push' again."
+  echo "After decision and remediation, run 'git push' again."
+  exit 1
+fi
+
+if has_pending_changes; then
+  echo "\n❌ Git push blocked: checks completed but repository now has pending changes."
+  echo "🤖 LLM instruction: checker remediation changed files; commit them before pushing."
+  echo "   - Review changes, commit them, and then retry push."
+  echo "👉 Suggested commands:"
+  echo "    git status --short"
+  echo "    git add -A && git commit -m \"apply link/checker fixes\""
+  echo "After committing the fixes, run 'git push' again."
   exit 1
 fi
 
