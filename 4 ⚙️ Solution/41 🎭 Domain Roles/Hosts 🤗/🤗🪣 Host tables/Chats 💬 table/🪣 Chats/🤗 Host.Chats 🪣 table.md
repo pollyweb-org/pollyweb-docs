@@ -107,7 +107,7 @@ Emoji: 🤖
 
 | Property | Type | Details
 |-|-|-
-| `Broker`  |text| [Broker 🤵 domain](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
+| `Broker`  |text| [Broker 🤵 domain](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) name
 | `Chat`    | uuid | [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
 | `PublicKey` |text| From [`Hello@Host`](<../../../🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | `Timezone` |text| Timezone code, e.g. `UTC+1`, `PST`

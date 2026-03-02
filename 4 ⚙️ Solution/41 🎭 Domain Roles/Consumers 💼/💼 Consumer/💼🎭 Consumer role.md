@@ -33,7 +33,7 @@
 
 1. **How do Consumers receive downloaded Tokens?**
 
-    [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) are shared with Consumers 💼 by [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) in a number of ways.
+    [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) are shared with Consumers 💼 by [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) in a number of ways.
 
     - **Request on a chat**: 
         - in a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>), [Consumers 💼](<💼🎭 Consumer role.md>) can ask the user to share a specific [Schema 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
@@ -41,11 +41,11 @@
         - e.g., an airline may ask a user to share their passport [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>).
 
     - **On chat hello**: 
-        - when a [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) initiates a chat session with a [Consumer 💼 domain](<💼🎭 Consumer role.md>), it automatically shares the [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by that [Consumer 💼 domain](<💼🎭 Consumer role.md>) if the [Token's Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is marked as SELF;
+        - when a [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) initiates a chat session with a [Consumer 💼 domain](<💼🎭 Consumer role.md>), it automatically shares the [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by that [Consumer 💼 domain](<💼🎭 Consumer role.md>) if the [Token's Schema Code 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) is marked as SELF;
         - e.g., booking and ticket [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) typically allow users to tap on for check-in when arrival at the place of destination, like a restaurant.
 
     - **When users tap/scan offline Tokens**: 
-        - when users tap or scan an offline [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) on a scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a printed flight ticket at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can validate the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) without the need for a chat or any interactions with the [user's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>).
+        - when users tap or scan an offline [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) on a scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a printed flight ticket at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can validate the [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) without the need for a chat or any interactions with the [user's Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>).
 
     - **When users tap Userables**: 
         - when users tap a [Userable 💍](<../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) on the scanner of a [Consumer 💼 domain](<💼🎭 Consumer role.md>) (e.g., a wristband at an airport gate), the [Consumer 💼 domain](<💼🎭 Consumer role.md>) can ask the [user's Custodian 🧳 domain](<../../../50 🫥 Agent domains/Custodians 🧳/🧳🫥 Custodian agent.md>) to silently share all [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) marked as public by the user and matching a list of expected [Schema Codes 🧩](<../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>);
@@ -175,17 +175,17 @@
 
 1. **How are consumers prevented from collecting too much user data?**
 
-    To protect users from [Consumer 💼 domains](<💼🎭 Consumer role.md>) that collect too much Personally Identifiable Information (PII), [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) verify if any [Consumer 💼 domain](<💼🎭 Consumer role.md>) request is explicitly mentioned on their [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
+    To protect users from [Consumer 💼 domains](<💼🎭 Consumer role.md>) that collect too much Personally Identifiable Information (PII), [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) verify if any [Consumer 💼 domain](<💼🎭 Consumer role.md>) request is explicitly mentioned on their [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 
     * [Consumer 💼 domains](<💼🎭 Consumer role.md>) must publicly manifest their potential sharing requests in their [domain Manifest 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>), in a similar way apps must manifest it when publishing into Apple's App Store or Google Play.
     
     * [Consumer 💼 domains](<💼🎭 Consumer role.md>) manifest the unique contexts in which they will collect data, and what data is collected in each context.
   
-    * When interacting in a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) need to notify the [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) of a context change before requesting data under that context.
+    * When interacting in a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) need to notify the [Broker 🤵 domain](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) of a context change before requesting data under that context.
 
-    * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) only process sharing requests that are publicly manifested in advance.
+    * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) only process sharing requests that are publicly manifested in advance.
 
-    * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context - e.g., [Order pizza 🍕](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>), [Hotel check-in 🛎️](<../../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>).
+    * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) inform users of every context change, identifying the data that may be collected, then block any data request from the Consumer that does not comply with that context - e.g., [Order pizza 🍕](<../../../../3 🤝 Use Cases/02 🍲 Eat & Drink/70 🍕 Order pizza/21 🏠 Home: Order pizza.md>), [Hotel check-in 🛎️](<../../../../3 🤝 Use Cases/03 🧳 Travel/08 🧳 Stay at hotels 🏨/03 🏨 Guest @ Reception 🛎️/04 🛎️ Check-in.md>).
 
     * Because the [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) are public and prone to automatic evaluation by domains like [Firewall 🔥 domains](<../../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) and [Reviewer ⭐ domains](<../../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>), [Consumer 💼 domains](<💼🎭 Consumer role.md>) are exposed to public scrutiny regarding the data  their are collecting, namely: what, why, how, and how much.
 
@@ -216,7 +216,7 @@
         | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
         |-|-|-|
         | 🏨 Hotel  | 😃 Hi! What do you need? <br/> - [ Check-in ] <br/> - [ Something else ] | > Check-in 
-        | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to check-in? [Yes, No] <br/> - your identity 🆔 shares your ID <br/> - your curator 🧚 sets the room  <br/> - your payer 💳 pays the stay   <br/> - your broker 🤵 saves the room key  | > Yes
+        | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 Ready to check-in? [Yes, No] <br/> - your identity 🆔 shares your ID <br/> - your curator 🧚 sets the room  <br/> - your payer 💳 pays the stay   <br/> - your broker 🤵 saves the room key  | > Yes
         | 🆔 [Identifier](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Share identity? [Yes, No] |
         | ... | 
 

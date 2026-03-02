@@ -40,8 +40,8 @@
     | [Domain](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
     |-|-|-
     | ☁️ Hoster | 😃 Hi! What do you need? <br/>- [ Host ] a domain | > Host
-    | [🤵 Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🧩 Vault schemas/🧩 VAULT'SELF.md>) | > Yes 
-    | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Save token? [Yes, No] <br/> - [Host Admin 🧩](<../../../40 👥 Domains/👥🧩 Domain schemas/🧩 DOMAIN.md>)  | > Yes
+    | [🤵 Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Bind 👉🗄️🔗/🧑‍🦰 Bind vault ⏩ flow.md>) [Yes, No, +] <br/>- [Vault 🧩](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️🧩 Vault schemas/🧩 VAULT'SELF.md>) | > Yes 
+    | 🤵 [Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 Save token? [Yes, No] <br/> - [Host Admin 🧩](<../../../40 👥 Domains/👥🧩 Domain schemas/🧩 DOMAIN.md>)  | > Yes
     | ☁️ Hoster | ℹ️ [Clone](<../../../55 👷 Build domains/Syncers 🔃/🔃⏩ Syncer flows/10 🔃⏩🗂️ Clone.md>) with: `syncer \`<br/>`clone any-hoster.dom 12345`
     | ☁️ Hoster | ⏳ Waiting for one minute... | (clone)
     | ☁️ Hoster | ℹ️ Received `67890`.

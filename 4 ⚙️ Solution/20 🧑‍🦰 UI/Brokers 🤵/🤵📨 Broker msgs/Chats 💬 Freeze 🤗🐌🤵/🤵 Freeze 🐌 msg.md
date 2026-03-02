@@ -1,7 +1,7 @@
 # 🤗🐌🤵 Freeze @ Broker
 
 > Implementation
-* Implements a [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implements a [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>)
 * Implemented by the [`Freeze` 📃 handler](<🤵 Freeze 📃 handler.md>)
 
 > Purpose
@@ -28,7 +28,7 @@ Body:
 |Object|Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
 |Header|`From`|text| [Host 🤗](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-||`To`|string  | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+||`To`|string  | [Broker 🤵](<../../🤵/🤵 Broker 🤲 helper.md>) | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject` |text| `Freeze@Broker`
 |Body|`Chat`   | uuid    | ID of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | [`Frozen@Notifier`](<../../../Notifiers 📣/📣📨 Notifier msgs/Chats 💬 Frozen 🤵🐌📣/📣 Frozen 🐌 msg.md>)
 |

@@ -39,11 +39,11 @@
 
 1. **What are default Vaults?**
 
-    To streamline user onboarding, [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) may automatically [bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to default [Agent 🫥 vault domains](<../../../50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>).
+    To streamline user onboarding, [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) may automatically [bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) new [Wallet 🧑‍🦰 apps](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to default [Agent 🫥 vault domains](<../../../50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>).
         
     | | Workflow |  Description
     |-|-|-
-    ||[👉 Onboard](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰✨ Wallet onboard 🤵/...in App/🧑‍🦰 Onboard 💬 flow.md>) | Register the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) on a [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+    ||[👉 Onboard](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰✨ Wallet onboard 🤵/...in App/🧑‍🦰 Onboard 💬 flow.md>) | Register the [Wallet 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) on a [Broker 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>)
 
     ---
     <br/>
@@ -125,7 +125,7 @@
     * [Vault 🗄️ domains](<🗄️🎭 Vault role.md>) controlled by corporations;
     * [Trusts 🫡](<../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) in [domain Manifests 📜](<../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>) to represent partnerships;
     * [Authority 🏛️ domains](<../../../45 🤲 Helper domains/Authorities 🏛️/🏛️🤲 Authority helper.md>) for intergovernmental agreements;
-    * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to protect users from bad corporate actors;
+    * [Broker 🤵 domains](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) to protect users from bad corporate actors;
     * [Reviewer ⭐ domains](<../../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to collect social feedback on corporations;
     * [Firewall 🔥 domains](<../../../45 🤲 Helper domains/Firewalls 🔥/🔥🤲 Firewall helper.md>) to monitor and penalize bad corporate actors.
     
@@ -229,7 +229,7 @@
    
     | [From 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Subject 📨](<../../../30 🧩 Data/Messages 📨/📨 Message/📨 Message.md>) | Description |
     |-|--------|-------------|
-    | [🤵 Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Bound`](<../🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>) | A [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was added |
+    | [🤵 Broker](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | [`Bound`](<../🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>) | A [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was added |
     |  | [`Unbound`](<../🗄️📨 Vault msgs/Unbound 🤵🐌🗄️/🗄️ Unbound 🐌 msg.md>) | A [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) was removed |
     | | [`Disclose`](<../🗄️📨 Vault msgs/Disclose 🤵🐌🗄️/🗄️ Disclose 🐌 msg.md>) | Disclose the data of a [Bind 🔗](<../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) |
     | | [`Suppress`](<../../../60 🧰 Edge/63 🖐️ Palmists/🤵🐌🖐️ Suppress.md>) | Suppress [🖐️ Palm scans](<../../../50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/7 Palm scan 🆔⏩🖐️/7 🆔⏩🖐️ Palm scan.md>) |

@@ -9,13 +9,13 @@ How to book a room at a hotel?
 
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 |-|-|-|
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 😃 Hi! What do you need? | `a hotel`
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 💬 How can I help with that? <br> - [ Book ] with 🌍 Any Agency <br/> - [ Something else ] | > Book
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Over to 🌍 Any Agency.
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 😃 Hi! What do you need? | `a hotel`
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 💬 How can I help with that? <br> - [ Book ] with 🌍 Any Agency <br/> - [ Something else ] | > Book
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | ✅ Over to 🌍 Any Agency.
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Agency (4.4 ⭐) [+]
 | 🌍 Agency   | ℹ️ Received booking request.
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Ready to book?](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) [Yes, No] <br/> - your scheduler sets when 🗓️  <br/> - your curator filters options 🧚 <br/> - your persona sets contacts 🧢 <br/> - your payer associates a card 💳 <br/> - save the booking on wallet 🤵 <br/> - click the booking to change 🎫  <br/> - tap a hotel tag on arrival ✨ | > Yes
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 [Ready to book?](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) [Yes, No] <br/> - your scheduler sets when 🗓️  <br/> - your curator filters options 🧚 <br/> - your persona sets contacts 🧢 <br/> - your payer associates a card 💳 <br/> - save the booking on wallet 🤵 <br/> - click the booking to change 🎫  <br/> - tap a hotel tag on arrival ✨ | > Yes
 | [🗓️ Scheduler](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Schedulers 🗓️/$ 🗓️🫥 Scheduler agent.md>) | 🫥 Any of these trips? [No] <br/>- [ Feb 18-20 ] to Madrid 🇪🇸 <br/>- [ Mar 26-28 ] to London 🇬🇧 | > Feb 18-20
 | 🌍 Agency   | ℹ️ Received information: <br/> - 1 person for 2 nights <br/>- in Madrid, Spain <br/> - near Cuatro Torres  <br/> - from Feb 18 to Feb 20
 | 🌍 Agency   | ⏳ Searching... 
@@ -32,7 +32,7 @@ How to book a room at a hotel?
 | 🆔 [Identifier](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 [Sign terms?](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/5 Verify Signatures 🆔⏩🔏/🆔⏩ Verify Signatures 🔏.md>) 📄 [Yes, No] | > Yes
 | 🆔 [Identifier](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's you. | [📸 selfie](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Identifiers 🆔/🆔⏩ Identifier flows/6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
 | 💳 [Payer](<../../../../4 ⚙️ Solution/41 🎭 Domain Roles/Payers/💳🎭 Payer role.md>) | 🫥 Authorize card? 📄 [No] <br/>- [ Card ABC ] + $0.10 <br/>- [ Card DEF ] (free) | > Card ABC |
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Save booking? [Yes, No] | > Yes 
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 Save booking? [Yes, No] | > Yes 
 | 🌍 Agency   | ✅ Booked!   
 | ⭐ [Rate](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) | 🫥 Experience feedback? | ⭐ 5 |
 | 🌍 Agency   | ⏳ Upcoming bookings: <br/> - [ #1 ] Feb 18-20 at Any Hotel

@@ -1,7 +1,7 @@
 # 🤵 Welcome 😃 handler
 
 > About
-* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) where the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
+* [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) where the [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>) 
     * informs the user about the origin of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>), 
     * as well as the [Binds 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>) and [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) shared with the [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 
@@ -16,8 +16,8 @@
 
 | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
-| 🤵 [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ From another chat: <br/>- [Return] to original chat
-| 🤵 [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ⓘ Tokens shared [-] <br/>- 🎟️ Any Token, by Any Issuer<br/>- 🪪 Another Token, by Another Issuer
+| 🤵 [Broker](<../../🤵/🤵 Broker 🤲 helper.md>) | ⓘ From another chat: <br/>- [Return] to original chat
+| 🤵 [Broker](<../../🤵/🤵 Broker 🤲 helper.md>) | ⓘ Tokens shared [-] <br/>- 🎟️ Any Token, by Any Issuer<br/>- 🪪 Another Token, by Another Issuer
 
 
 ## Script

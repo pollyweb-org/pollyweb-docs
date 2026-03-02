@@ -15,8 +15,8 @@
 ...
 | 🤗 [Host](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 More spam? [Yes, No] 
 | | | > Broker 🤵 |
-| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 What do you need? <br/> - [ Abandon ] Chat <br/> - [ Something else ] | > Abandon
-| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Chat abandoned.
+| 🤵 [Broker](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 What do you need? <br/> - [ Abandon ] Chat <br/> - [ Something else ] | > Abandon
+| 🤵 [Broker](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | ✅ Chat abandoned.
 ||
 
 <br/>
@@ -28,9 +28,9 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [`Locate@Broker` 🐌 msg](<../../../../Brokers 🤵/🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)| Call the [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) in a [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  with a [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
-| 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Ask the [Broker 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to abandon the [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
-| 3 | [🤵🐌🤗 `Abandoned@Host`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | [Brokers 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) inform  [Hosts 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) about it
+| 1 | [`Locate@Broker` 🐌 msg](<../../../../Brokers 🤵/🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)| Call the [Broker 🤵](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) in a [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)  with a [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) 
+| 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | Ask the [Broker 🤵](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) to abandon the [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
+| 3 | [🤵🐌🤗 `Abandoned@Host`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | [Brokers 🤵](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) inform  [Hosts 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) about it
 |
 
 <br/>

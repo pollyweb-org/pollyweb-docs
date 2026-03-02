@@ -1,9 +1,9 @@
 # 🤵🐌📣 Open @ Notifier
 
-> Implements the [Notifier 📣 domain](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>)
+> Implements the [Notifier 📣 domain](<../../📣/📣 Notifier 👥 domain.md>)
 
 
-> [Broker 🤵 domains](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) tell [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) about a new [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
+> [Broker 🤵 domains](<../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) tell [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) about a new [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
 
 ## Message
@@ -27,8 +27,8 @@ Body:
 
 |Object|Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
-|Header|`From`|text| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Locate@`](<../../../Brokers 🤵/🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)
-||`To`|text| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../../../Brokers 🤵/🤵📨 Broker msgs/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
+|Header|`From`|text| [Broker 🤵](<../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | [`Locate@`](<../../../Brokers 🤵/🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>)
+||`To`|text| [Notifier 📣](<../../📣/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../../../Brokers 🤵/🤵📨 Broker msgs/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
 ||`Subject`|text|`Open@Notifier`
 |Body  |`Wallet` |uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | [`Locate@`](<../../../Brokers 🤵/🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) 
 |       | `Hook`| uuid | `Hook` | [`Locate@`](<../../../Brokers 🤵/🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) 

@@ -2,7 +2,7 @@
 
 > Purpose
 
-* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to inform a [Notifier 📣 domain](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) 
+* [Script 📃](<../../../../../35 💬 Chats/Scripts 📃/Script 📃.md>) to inform a [Notifier 📣 domain](<../../../../Notifiers 📣/📣/📣 Notifier 👥 domain.md>) 
     * that the UI need to be refreshed 
     * on the [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 

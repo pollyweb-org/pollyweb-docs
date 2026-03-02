@@ -1,7 +1,7 @@
 # 🤵🪣 Wallets @ Broker table
 
 > About
-* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implements the [Broker 🤵 domain](<../../../🤵/🤵 Broker 🤲 helper.md>)
 * [Itemized 🪣 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) that stores [Wallet 🧑‍🦰 apps](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 
 <br/>
@@ -11,7 +11,7 @@
 Flow | Actor | [`READ`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/READ 🧲/🧲 READ ⌘ cmd.md>) | [`SAVE`](<../../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE ⌘ cmd.md>) |Purpose
 |-|-|:-:|:-:|-|
 || [`Onboard@Broker` 📃](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 📃 handler.md>) | | X | Registers a [Wallet 🧑‍🦰 app](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-|[`Localize`](<../🪣🧱 20 Localize ⏩ flow/🤵 Broker.Wallets.Localize ⏩ flow.md>)| Pop 🎈  | X | X | Opens a [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
+|[`Localize`](<../🪣🧱 20 Localize ⏩ flow/🤵 Broker.Wallets.Localize ⏩ flow.md>)| Pop 🎈  | X | X | Opens a [Broker 🤵](<../../../🤵/🤵 Broker 🤲 helper.md>) [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
 |
 
 <br/>

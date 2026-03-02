@@ -21,7 +21,7 @@ Body:
 
 |Object|Property|Type|Description
 |-|-|-|-
-|Header|`From`|text| [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+|Header|`From`|text| [Broker 🤵 domain](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>)
 ||`To`|text| [Vault 🗄️ domain](<../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>)
 || `Subject` |text| `Suppress@Vault`
 |Body| `Consumer` |text| [Consumer 💼 domain](<../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>)

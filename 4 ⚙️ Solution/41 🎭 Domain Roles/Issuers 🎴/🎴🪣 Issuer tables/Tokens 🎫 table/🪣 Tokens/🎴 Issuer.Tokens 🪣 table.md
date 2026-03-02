@@ -2,7 +2,7 @@
 
 > Purpose
 * Stores [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) issued by an [Issuer 🎴 domain](<../../../🎴 Issuer/🎴🎭 Issuer role.md>).
-* Mirrors the [`Broker.Tokens` 🪣 table](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) on [Broker 🤵 domains](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>).
+* Mirrors the [`Broker.Tokens` 🪣 table](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵🪣 Broker tables/Tokens 🎫 table/🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>) on [Broker 🤵 domains](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>).
 
 <br/>
 

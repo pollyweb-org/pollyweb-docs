@@ -1,14 +1,14 @@
 # 🤵 Broker.Chatters 🪣 table
 
 > About
-* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implements the [Broker 🤵 domain](<../../../🤵/🤵 Broker 🤲 helper.md>)
 * Stores [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) participants
 
 <br/>
 
 ## Usage
 
-| [Role 🎭](<../../../../../40 👥 Domains/👥 Domain/👥🎭 Domain Role.md>) | [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [domain 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | Details
+| [Role 🎭](<../../../../../40 👥 Domains/👥 Domain/👥🎭 Domain Role.md>) | [Broker 🤵](<../../../🤵/🤵 Broker 🤲 helper.md>) | [domain 👥](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | Details
 |-|-|-|-
 | [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | [`Locate@Broker`](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Hello@Host`](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)| Done
 | [Finder 🔎](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | [`Locate@Broker`](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) | [`Present@Finder`](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎😃 Finder Talkers/Present/🔎 Present 🐌 msg.md>) | Done

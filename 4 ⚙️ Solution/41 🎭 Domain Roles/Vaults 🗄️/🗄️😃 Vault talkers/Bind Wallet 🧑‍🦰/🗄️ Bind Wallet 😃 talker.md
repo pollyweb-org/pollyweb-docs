@@ -14,7 +14,7 @@
 | [Domain](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 | 🗄️ [Vault](<../../🗄️ Vault/🗄️🎭 Vault role.md>) |  😃 Hi! What do you need? <br/>- [ Bind ] my Wallet | > Bind
-| 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<../../🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) [Yes, No] <br/> - Vault Personalization 🧩 <br/> - By Any Vault 🗄️ <br/> - Description: Bla, bla | > Yes
+| 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 [Bind?](<../../🗄️⌘ Vault cmds/BIND 🔗/🔗 BIND ⌘ cmd.md>) [Yes, No] <br/> - Vault Personalization 🧩 <br/> - By Any Vault 🗄️ <br/> - Description: Bla, bla | > Yes
 | 🗄️ [Vault](<../../🗄️ Vault/🗄️🎭 Vault role.md>) | ✅ Wallet bound!
 
 

@@ -10,13 +10,13 @@ Order a pizza for home delivery
 
 | [Domain](<../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 |-|-|-|
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 😃 Hi! What do you need? | `pizza`
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 💬 How can I help with that? <br> - [ Order ] from 🍕 Any Pizzeria <br/> - [ Find 🔎 ] a pizzeria to go to<br/> - [ Something else ] | > Order
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Over to 🍕 Any Pizzeria.
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 😃 Hi! What do you need? | `pizza`
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 💬 How can I help with that? <br> - [ Order ] from 🍕 Any Pizzeria <br/> - [ Find 🔎 ] a pizzeria to go to<br/> - [ Something else ] | > Order
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | ✅ Over to 🍕 Any Pizzeria.
 | [ new chat ]
 | 🔎 [Finder](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Pizzeria (4.4 ⭐) [+]
 | 🍕 Pizzeria   | ℹ️ Pizza request received.
-| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your curator orders 🧚 <br/> - your vitalogist reviews 💖 <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳 <br/> - your vitalogist records it 💖 | > Yes
+| 🤵 [Broker](<../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your curator orders 🧚 <br/> - your vitalogist reviews 💖 <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳 <br/> - your vitalogist records it 💖 | > Yes
 | 🧭 [Navigator](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Navigators 🧭/$ 🧭🫥 Navigator agent.md>) | 🫥 Share destination? [No] <br> - [ 🏠 home ] <br/> - [ 🏡 Daniel's ] <br/> - [ 📍 current location ] <br/> - [ 🗺️ Somewhere else ] | > 🏠 home
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Concierges 🛎️/🛎️🫥 Concierge agent.md>) | ⓘ Given destination: [Change]<br/>- Ryan street, 98, 2D 
 | 🛎️ [Concierge](<../../../4 ⚙️ Solution/50 🫥 Agent domains/Concierges 🛎️/🛎️🫥 Concierge agent.md>) | ⏳ Looking for couriers...

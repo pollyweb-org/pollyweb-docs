@@ -1,6 +1,6 @@
 # 🤵 OnChatterHost 🔔 handler
 
-> Part of [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+> Part of [Broker 🤵 domain](<../../../🤵/🤵 Broker 🤲 helper.md>)
 
 <br/>
 

@@ -22,6 +22,6 @@ $ syncer chat
 |-|-|-
 |1| [`$ syncer chat`](<../🔃🛠️ Syncer tool.md>) | Users run the `chat` command line
 |2| [🔃🐌🗂️ `Chat@Filer`](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️📨 Filer msgs/🔃🐌🗂️ Chat.md>) | [Syncers 🔃](<../🔃🛠️ Syncer tool.md>) ask for a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) 
-|3| [🗄️⏩🧑‍🦰 Engage 💬](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/Engage 🗄️⏩💬/🗄️ Engage ⏩ flow.md>) | [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) ask [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) for help
+|3| [🗄️⏩🧑‍🦰 Engage 💬](<../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️⏩ Vault flows/Engage 🗄️⏩💬/🗄️ Engage ⏩ flow.md>) | [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) ask [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) for help
 |4| [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Filer 🗂️](<../../../41 🎭 Domain Roles/Filer 🗂️/🗂️🎭 Filer role.md>) ask users what they need
 |

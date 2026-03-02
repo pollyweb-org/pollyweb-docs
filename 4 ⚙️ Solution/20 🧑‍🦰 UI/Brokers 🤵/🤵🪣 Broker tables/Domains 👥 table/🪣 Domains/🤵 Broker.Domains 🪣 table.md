@@ -1,7 +1,7 @@
 # 🤵🪣 Broker.Domains table
 
 > About
-* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implements the [Broker 🤵 domain](<../../../🤵/🤵 Broker 🤲 helper.md>)
 * Similar to the [`Broker.Schemas` 🪣 table](<../../Schemas 🧩 table/🪣 Schemas/🤵 Broker.Schemas 🪣 table.md>), but for Domains 👥
 
 <br/>
