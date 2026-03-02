@@ -35,13 +35,13 @@ PollyWeb commits to giving all stakeholders genuine control:
 
 This repository contains the PollyWeb specification, research landscape, use cases, and solution architecture.
 
-```
-1 🎯 Mission/          — Vision, press release, sovereignty pledge, tech overview
-2 🏔️ Landscape/        — Research: business, user, ambient, and regulatory landscapes
-3 🤝 Use Cases/        — End-to-end flows for personas and scenarios
-4 ⚙️ Solution/         — Protocol specification: data, roles, agents, and domains
-.tools/               — Developer tooling (link checker, video utilities, web terminal)
-```
+| Folder | Description |
+|-|-|
+| [1 🎯 Mission](./1%20🎯%20Mission/) | Vision, press release, sovereignty pledge, tech overview |
+| [2 🏔️ Landscape](./2%20🏔️%20Landscape/) | Research: business, user, ambient, and regulatory landscapes |
+| [3 🤝 Use Cases](./3%20🤝%20Use%20Cases/) | End-to-end flows for personas and scenarios |
+| [4 ⚙️ Solution](./4%20⚙️%20Solution/) | Protocol specification: data, roles, agents, and domains |
+| [.tools](./.tools/) | Developer tooling (link checker, video utilities, web terminal) |
 
 ## License
 
