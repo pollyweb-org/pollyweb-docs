@@ -1,7 +1,7 @@
 # 🤵🐌📣 Frozen @ Notifier 
 
 > Implementation
-* Implements the [Notifier 📣 domain](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>)
+* Implements the [Notifier 📣 domain](<../../📣/📣 Notifier 👥 domain.md>)
 
 > Flow
 * Part of the [`Freeze` ⏩ flow](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Freeze 🤗⏩❄️/🤗 Freeze ⏩ flow.md>)
@@ -22,8 +22,8 @@ Body:
 
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
-|Header|`From`|text|[Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) name|[`Onboard@Broker`](<../../../Brokers 🤵/🤵📨 Broker msgs/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
-||`To`|text|[Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) name|[`Onboard@Broker`](<../../../Brokers 🤵/🤵📨 Broker msgs/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
+|Header|`From`|text|[Broker 🤵](<../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) name|[`Onboard@Broker`](<../../../Brokers 🤵/🤵📨 Broker msgs/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
+||`To`|text|[Notifier 📣](<../../📣/📣 Notifier 👥 domain.md>) name|[`Onboard@Broker`](<../../../Brokers 🤵/🤵📨 Broker msgs/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
 ||`Subject`|text|`Frozen@Notifier`
 |Body|`Wallet`|uuid|[Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) ID|[`Onboard@Broker`](<../../../Brokers 🤵/🤵📨 Broker msgs/Wallets 🧑‍🦰 Onboard 📣🚀🤵/🤵 Onboard 🚀 call.md>)
 ||`Chat`|uuid|[Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID|[`Open@Notifier`](<../Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>)

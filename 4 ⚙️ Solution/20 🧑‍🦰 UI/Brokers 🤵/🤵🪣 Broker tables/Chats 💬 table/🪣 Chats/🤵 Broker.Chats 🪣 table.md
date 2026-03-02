@@ -1,7 +1,7 @@
 # 🤵🪣 Chats @ Broker table
 
 > Abouts
-* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implements the [Broker 🤵 domain](<../../../🤵/🤵 Broker 🤲 helper.md>)
 * Stores [Chats 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>)
 
 <br/>
@@ -15,7 +15,7 @@
 ||[`RESOLVED`](<../🪣🧱 12 Resolved 🔔 event/🤵 OnChatResolved 🔔 handler.md>) || [`About@Graph` 🚀](<../../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 About/🕸 About 📃 handler.md>) | Final [Locator 🔆](<../../../../../25 🔆 Locators/Locators 🔆/🔆 Locator.md>)
 ||[`DETAILED`](<../🪣🧱 13 Detailed 🔔 event/🤵 OnChatDetailed 🔔 handler.md>) || [`Open@Notifier` 🐌](<../../../../Notifiers 📣/📣📨 Notifier msgs/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) | With translations
 ||[`OPENED`](<../🪣🧱 14 Opened 🔔 event/🤵 OnChatOpened 🔔 handler.md>) |[`Opened` 🐌](<../../../🤵📨 Broker msgs/Chats 💬 Opened 🧑‍🦰🐌🤵/🤵 Opened 📃 handler.md>)| [`Present@Finder` 🐌](<../../../../../50 🫥 Agent domains/Finders 🔎/🔎😃 Finder Talkers/Present/🔎 Present 🐌 msg.md>) | Open on [Wallet 🧑‍🦰](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
-||[`ACTIVATED`](<../🪣🧱 16 Activated 🔔 event/🤵 OnChatActivated 🔔 handler.md>)|| [`Hello@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | With [Broker 🤵](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) intro
+||[`ACTIVATED`](<../🪣🧱 16 Activated 🔔 event/🤵 OnChatActivated 🔔 handler.md>)|| [`Hello@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | With [Broker 🤵](<../../../🤵/🤵 Broker 🤲 helper.md>) intro
 |[`Abandon`](<../🪣🧱 40 Abandon ⏩ flow/🤵 Broker.Chats.Abandon ⏩ flow.md>)|[`ABANDONED`](<../🪣🧱 41 Abandoned 🔔 event/🤵 OnChatAbandoned 🔔 handler.md>)| [`Locate` 🐌](<../../../🤵📨 Broker msgs/Locators 🔆 Locate 🧑‍🦰🐌🤵/🤵 Locate 🐌 msg.md>) |[`Abandoned@Host` 🐌](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Abandoned 🤵🐌🤗/🤗 Abandoned 🐌 msg.md>) | Abandoned by user
 |[`Wrap`](<../🪣🧱 50 Wrap ⏩ flow/🤵 Broker.Chats.Wrap ⏩ flow.md>)|[`WRAPPED`](<../🪣🧱 51 Wrap 🔔 event/🤵 OnChatWrapped 🔔 handler.md>)| [`Goodbye` 🐌](<../../../🤵📨 Broker msgs/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 📃 handler.md>) ||Closed by [Host 🤗](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)
 |

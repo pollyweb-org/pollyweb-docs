@@ -5,7 +5,7 @@
 * Part of [Graph 🕸 domain](<../../🕸 Graph helper/🕸🤲 Graph helper.md>)
 
 > Purpose
-* [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
+* [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) 
     * request translation for [Schema Codes 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>) and [domains 👥](<../../../../40 👥 Domains/👥 Domain/👥 Domain.md>),
     * obtained [domain Manifests 📜](<../../../../30 🧩 Data/Manifests 📜/📜 Manifest/📜 Manifest.md>).
 

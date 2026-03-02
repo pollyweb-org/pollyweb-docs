@@ -49,8 +49,8 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md
 
 | # | Call | Description
 |-|-|-
-| 1 | [🤗🐌🤵 `Prompt@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) | [Hosts 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) of [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) intents
-| 2 | [🤵🐌📣 `Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) push to [Wallets 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) via [Notifiers 📣](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
+| 1 | [🤗🐌🤵 `Prompt@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) | [Hosts 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) of [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) intents
+| 2 | [🤵🐌📣 `Prompt@Notifier`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) push to [Wallets 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) via [Notifiers 📣](<../../../../20 🧑‍🦰 UI/Notifiers 📣/📣/📣 Notifier 👥 domain.md>)
 | 3 | [🧑‍🦰🚀🤗 `Prompted@Host`](<../../🤗📨 Host msgs/Prompted 🧑‍🦰🚀🤗/🤗 Prompted 🚀 call.md>) | [Wallets 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) pull the content from the [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>)
 | 4| [🧑‍🦰🚀🤗 `Download@Host`](<../../🤗📨 Host msgs/Download 🧑‍🦰🚀🤗/🤗 Download 🚀 call.md>) | [Wallets 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) download files from the [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>)
 | 5 | [🧑‍🦰🐌🤗 `Reply@Host`](<../../🤗📨 Host msgs/Reply 🧑‍🦰🐌🤗/🤗 Reply 🐌 msg.md>) | The [Wallet 🧑‍🦰](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) replies directly to the [Host 🤗](<../../🤗 Host role/🤗🎭 Host role.md>)
@@ -62,7 +62,7 @@ The associated [`Script`](<../../../../35 💬 Chats/Scripts 📃/Script 📃.md
 
 1. **Why the Prompted callback to get the Prompt?**
    
-    `Privacy` To protect the user's privacy, the content of the [Prompts 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) is not proxied via [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>).
+    `Privacy` To protect the user's privacy, the content of the [Prompts 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) is not proxied via [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>).
     - Instead, [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) download the [Prompt's 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) content and attachments directly from [Host 🤗 domains](<../../🤗 Host role/🤗🎭 Host role.md>).
     - Replies to [Prompts 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) are also sent directly to [Host 🤗 domains](<../../🤗 Host role/🤗🎭 Host role.md>) by [Wallet 🧑‍🦰 apps](<../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>).
 

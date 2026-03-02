@@ -28,7 +28,7 @@
 
 1. **Couldn't these responsibilities be handled by a Broker?**
 
-    [Brokers 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) see [Wallet apps 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) as unique entities;
+    [Brokers 🤵](<../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) see [Wallet apps 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) as unique entities;
     - while Minglers 📇 can associate and disassociate multiple entry points to the same [Wallet app 🧑‍🦰](<../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>);
     - this allows users to be forgotten and be perceived differently by different groups.
 

@@ -88,7 +88,7 @@ Appendix:                           # Optional
 
 1. **Why aren't the `Format` and `Emoji` properties provided?**
 
-    Those [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) properties are provided directly via the [`Prompt@Broker` 🐌 msg](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) so that [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) can enforce standardization of [emojis](<../../🤗⌘ Host cmds/EMOJI 😶/😶 EMOJI ⌘ cmd.md>) for the benefit of users.
+    Those [Prompt 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) properties are provided directly via the [`Prompt@Broker` 🐌 msg](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) so that [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) can enforce standardization of [emojis](<../../🤗⌘ Host cmds/EMOJI 😶/😶 EMOJI ⌘ cmd.md>) for the benefit of users.
 
     ---
     <br/>

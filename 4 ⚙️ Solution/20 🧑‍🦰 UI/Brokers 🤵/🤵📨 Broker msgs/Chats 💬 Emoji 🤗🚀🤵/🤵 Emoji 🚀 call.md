@@ -1,7 +1,7 @@
 # 🤗🚀🤵 Emoji @ Broker
 
 > About
-* Part of [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Part of [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>)
 * Changes the default emoji of [Prompts 🤔](<../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>)
 * Implemented by the [`Emoji 📃 handler`](<🤵 Emoji 📃 handler.md>)
 
@@ -23,7 +23,7 @@ Body:
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
 |Header|`From`|text| [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)|[`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-||To|text| [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)|[`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+||To|text| [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>)|[`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject` |text| `Emoji@Broker`
 |Body|`Chat`   | uuid    | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>) | 
 ||`Emoji`  | text    | New emoji 

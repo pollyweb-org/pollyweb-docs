@@ -11,7 +11,7 @@
 
 | [Domain](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
-| 🤵 [Broker](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 [Continue?](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) [Yes, No] <br/> **Order a meal**<br/>- your curator orders 🧚<br/> - your payer pays 💳  | > Yes
+| 🤵 [Broker](<../../../🤵/🤵 Broker 🤲 helper.md>) | 🫥 [Continue?](<../../../../../41 🎭 Domain Roles/Consumers 💼/💼⌘ Consumer cmds/INFORM 📝/📝 INFORM ⌘ cmd.md>) [Yes, No] <br/> **Order a meal**<br/>- your curator orders 🧚<br/> - your payer pays 💳  | > Yes
 
 <br/>
 

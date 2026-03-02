@@ -1,7 +1,7 @@
 # 🤵 `Broker.Tokens.Issue` ⏩ flow
 
 > About
-* Part of the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) role
+* Part of the [Broker 🤵 domain](<../../../🤵/🤵 Broker 🤲 helper.md>) role
 * Part of the [`Broker.Tokens` 🪣 table](<../🪣 Tokens/🤵 Broker.Tokens 🪣 table.md>)
 * Counterpart of the [🎴 `Issuer.Tokens.Issue` ⏩ flow](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴🪣 Issuer tables/Tokens 🎫 table/🪣⏩ Issued flow/🎴 Issuer.Tokens.Issued ⏩ flow.md>)
 

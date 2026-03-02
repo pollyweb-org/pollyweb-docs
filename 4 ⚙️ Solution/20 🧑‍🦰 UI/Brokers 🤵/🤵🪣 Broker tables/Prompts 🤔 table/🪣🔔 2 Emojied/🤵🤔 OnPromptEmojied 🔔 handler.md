@@ -3,7 +3,7 @@
 > About
 * Part of the [`Broker.Prompts` 🪣 table](<../🪣 Prompts/🤵🤔 Broker.Prompts 🪣 table.md>)
 * Calls the [`Prompt@Notifier` 🐌 msg](<../../../🤵📨 Broker msgs/Chats 💬 Prompt 🤗🐌🤵/🤵 Prompt 🐌 msg.md>) 
-    * to forward the emojied prompt to the [Notifier 📣 domain](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>).
+    * to forward the emojied prompt to the [Notifier 📣 domain](<../../../../Notifiers 📣/📣/📣 Notifier 👥 domain.md>).
 
 <br/>
 

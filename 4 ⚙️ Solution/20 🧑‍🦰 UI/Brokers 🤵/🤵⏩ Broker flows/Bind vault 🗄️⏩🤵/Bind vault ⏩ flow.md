@@ -1,4 +1,4 @@
-# 🤵⏩🗄️ Bind vault @ [Broker](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+# 🤵⏩🗄️ Bind vault @ [Broker](<../../🤵/🤵 Broker 🤲 helper.md>)
 
 > Purpose
 
@@ -21,7 +21,7 @@
 
 | # | API | Description |
 |-|-|-
-| 1 | [👥🚀🕸 `Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | The [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) translates into the user's language
-| 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | The [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) informs the user about the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
+| 1 | [👥🚀🕸 `Translate@Graph`](<../../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Translate/🕸 Translate 🚀 call.md>) | The [Broker 🤵](<../../🤵/🤵 Broker 🤲 helper.md>) translates into the user's language
+| 2 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | The [Broker 🤵](<../../🤵/🤵 Broker 🤲 helper.md>) informs the user about the [Bind 🔗](<../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>)
 | 3 | [🤵🐌🗄️ `Bound@Vault`](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️📨 Vault msgs/Bound 🤵🐌🗄️/🗄️ Bound 🐌 msg.md>)| Tell [Vaults 🗄️](<../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) about each bound [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)
 ||

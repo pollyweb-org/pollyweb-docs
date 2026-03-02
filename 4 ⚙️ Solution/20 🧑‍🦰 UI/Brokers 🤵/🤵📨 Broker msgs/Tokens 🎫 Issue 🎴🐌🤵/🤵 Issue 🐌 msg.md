@@ -5,13 +5,13 @@
 * Followed by the [`Save@Notifier` 🐌 msg](<../../../Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)
 
 > Implementation
-* Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implements the [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>)
 * Implemented by the [`Offer` 📃 handler](<🤵 Issue 📃 handler.md>)
 
 > Purpose
 * An [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) 
     * issues a [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) 
-    * and asks a [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
+    * and asks a [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>) 
     * to offer it to the user in a [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>).
 
 
@@ -36,7 +36,7 @@ Body:
 |Object|Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
 |Header|`From`|text| [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) |[`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
-||`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
+||`To`|text| [Broker 🤵](<../../🤵/🤵 Broker 🤲 helper.md>) | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 ||`Subject`|text|`Issue@Broker`
 |Body  |`Chat` |uuid  | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Hello@`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 | |`Token` |uuid  | [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) key || [`Issued@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴📨 Issuer msgs/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>) [`Accepted@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴📨 Issuer msgs/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) [`Share@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>)
@@ -54,9 +54,9 @@ Body:
 
     | Reason | Details
     |-|-
-    |`Reject`| [Broker 🤵 domains](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) verify if the lifespan of the offered [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) is worth showing to the user, rejecting [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) already expired or too far ahead in the future.
-    `Translate` | [Broker 🤵 domains](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) need to translate the [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) language.
-    `Share`| When [Broker 🤵 domains](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) answer a [Query@Broker](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) call, they need to filter only the [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) and active [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) of a certain [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  within a version interval to be shared.
+    |`Reject`| [Broker 🤵 domains](<../../🤵/🤵 Broker 🤲 helper.md>) verify if the lifespan of the offered [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) is worth showing to the user, rejecting [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) already expired or too far ahead in the future.
+    `Translate` | [Broker 🤵 domains](<../../🤵/🤵 Broker 🤲 helper.md>) need to translate the [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  into for users in their [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) language.
+    `Share`| When [Broker 🤵 domains](<../../🤵/🤵 Broker 🤲 helper.md>) answer a [Query@Broker](<../Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) call, they need to filter only the [Trusted 🫡](<../../../../30 🧩 Data/Trusts 🫡/🫡 Domain Trust.md>) and active [Tokens 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) of a certain [Schema 🧩](<../../../../30 🧩 Data/Codes 🧩/🧩 Schema Code.md>)  within a version interval to be shared.
     |
 
     

@@ -3,9 +3,9 @@ Remotely print a PDF and delivery at home
 
 | [Domain](<../../../../4 ⚙️ Solution/40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../4 ⚙️ Solution/35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 |-|-|-|
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 😃 Hi! What do you need? | `print`
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 💬 How can I help with that? <br/> - [ Find ] printing services <br/> - [ Something else ] | > Find
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | ✅ Over to 🔎 Finder.
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 😃 Hi! What do you need? | `print`
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 💬 How can I help with that? <br/> - [ Find ] printing services <br/> - [ Something else ] | > Find
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | ✅ Over to 🔎 Finder.
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ℹ️ Find printing service.
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | 💬 Here are options: <br/> - [ #1 ] 🖨️ Local Printer `$$$` `1hr` <br/> - [ #2 ] 🇬🇧 Amazon Printer `$$` `1day` <br/> - [ #3 ] 🇨🇳 Overseas Printer `$`  `1wk` | > #1
@@ -13,7 +13,7 @@ Remotely print a PDF and delivery at home
 | [ new chat ]
 | 🔎 [Finder](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Finders 🔎/🔎 Finder agent/🔎 Finder 🫥 agent.md>) | ⓘ Any Printer (4.4 ⭐) [+]
 | 🖨️ Printer   | ℹ️ Print request received.
-| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚 <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳  | > Yes
+| 🤵 [Broker](<../../../../4 ⚙️ Solution/20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 Ready to order? [Yes, No] <br/> - your curator orders 🧚 <br/> - your navigator sets where 🧭 <br/> - your concierge sets how 🛎️ <br/> - your scheduler reviews 🗓️  <br/> - your payer pays the bill 💳 <br/> - your concierge delivers 🛎️ <br/> - your payer tips the courier 💳  | > Yes
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚 Curator/🧚🫥 Curator agent.md>) | ⏳ Analyzing services... 
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚 Curator/🧚🫥 Curator agent.md>) | 💭 What do you want to print? | `a PDF`
 | 🧚 [Curator](<../../../../4 ⚙️ Solution/50 🫥 Agent domains/Curators 🧚/🧚 Curator/🧚🫥 Curator agent.md>) | 💭 Upload the PDF | ⬆️ upload

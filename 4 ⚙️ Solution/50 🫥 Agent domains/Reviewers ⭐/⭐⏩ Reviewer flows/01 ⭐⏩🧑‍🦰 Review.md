@@ -9,7 +9,7 @@
 
 | # | Call | Notes
 |-|-|-
-| 1 | [`Help@Helper` 🐌](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) ask [Reviewers ⭐](<../⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to review
+| 1 | [`Help@Helper` 🐌](<../../../41 🎭 Domain Roles/Helpers 🤲/🤲📨 Helper msgs/🤵🐌🤲 Invited/🤲 Help 🐌 msg.md>) | [Brokers 🤵](<../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) ask [Reviewers ⭐](<../⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to review
 | 2 | [👥🚀🕸 `Service@Graph`](<../../../45 🤲 Helper domains/Graphs 🕸/🕸📨 Graph msgs/👥🚀🕸 Offer/🕸 Offer 🚀 call.md>) | [Reviewers ⭐](<../⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) pull specific service questions 
 | 3 | [🤗⏩🧑‍🦰 Prompt 🤔](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | [Reviewers ⭐](<../⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) ask [Wallets 🧑‍🦰](<../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) for feedback
 | 4 | [⭐🐌🤗 `Rated@Host`](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Rated ⭐🐌🤗/🤗 Rated 🐌 msg.md>) | Later, [Reviewers ⭐](<../⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) may report to [Hosts 🤗](<../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>)

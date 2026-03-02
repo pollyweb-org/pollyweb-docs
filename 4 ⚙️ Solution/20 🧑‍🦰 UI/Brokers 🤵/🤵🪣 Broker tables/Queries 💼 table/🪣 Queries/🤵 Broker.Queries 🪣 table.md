@@ -1,7 +1,7 @@
 # 🤵 Broker.Queries 🪣 table
 
 > About
-* Part of the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) helper
+* Part of the [Broker 🤵 domain](<../../../🤵/🤵 Broker 🤲 helper.md>) helper
 
 <br/>
 

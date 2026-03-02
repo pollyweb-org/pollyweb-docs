@@ -18,7 +18,7 @@ Consider the following excerpt from the [Book restaurant table 🤝 use case](<.
 | [Domain](<../../../../../40 👥 Domains/👥 Domain/👥 Domain.md>) | [Prompt](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) | [User](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)
 | - | - | - |
 | 🎴 [Issuer](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) | ℹ️ Issuing your token...
-| 🤵 [Broker](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Save token? [Yes, No]  | > Yes
+| 🤵 [Broker](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 Save token? [Yes, No]  | > Yes
 | 🎴 [Issuer](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) | ✅ Saved to your wallet.
 
 <br/>
@@ -50,10 +50,10 @@ Uses: [`FAIL`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠
 |1| [🤗⏩🧑‍🦰 Prompt](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | ℹ️ Issuing your token...
 |2| [🎴🐌🤵 `Issue@Broker`](<../../../../Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | In the [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>), [Issuers 🎴](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) offer a [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>)
 |3| [🤗⏩🧑‍🦰 Prompt](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | 🫥 Save token? [Yes, No]
-|4| [🤵🐌📣 `Save@Notifier`](<../../../../Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | [Brokers 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) send the [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID
+|4| [🤵🐌📣 `Save@Notifier`](<../../../../Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | [Brokers 🤵](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) send the [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) ID
 |5| [🧑‍🦰🚀🎴 `Issued@Issuer`](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴📨 Issuer msgs/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>) | [Wallets 🧑‍🦰](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) download it and save it
-|6| [🧑‍🦰🐌🤵 `Saved@Broker`](<../../../../Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) | [Wallets 🧑‍🦰](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) tell [Brokers 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) it's saved
-|7| [🤵🐌🎴 `Offered@Issuer`](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴📨 Issuer msgs/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) | [Brokers 🤵](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) tell [Issuers 🎴](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) of acceptance
+|6| [🧑‍🦰🐌🤵 `Saved@Broker`](<../../../../Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Saved 🧑‍🦰🐌🤵/🤵 Saved 🐌 msg.md>) | [Wallets 🧑‍🦰](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) tell [Brokers 🤵](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) it's saved
+|7| [🤵🐌🎴 `Offered@Issuer`](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴📨 Issuer msgs/Offered 🤵🐌🎴/🎴 Offered 🐌 msg.md>) | [Brokers 🤵](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) tell [Issuers 🎴](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) of acceptance
 |8| [🤗⏩🧑‍🦰 Prompt](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗⏩ Host flows/Prompt 🤗⏩🤔/🤗 Prompt ⏩ flow.md>) | ✅ Saved to your wallet.
 |
 
@@ -63,9 +63,9 @@ Uses: [`FAIL`](<../../../../../37 Scripts 📃/📃 Prompts 🤔/🤔 Status ⚠
 
 1. **Why the extra step to download the Token?**
 
-    `Privacy` [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) are not proxied via the [Broker 🤵 domain](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to protect user's privacy.    
+    `Privacy` [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) are not proxied via the [Broker 🤵 domain](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) to protect user's privacy.    
     * Instead, [Wallet 🧑‍🦰 apps](<../../../🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) download the [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) directly from [Issuer 🎴 domain](<../../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>).
-    * Accepted [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) are stored locally, and only the path is sent to the [Broker 🤵 domain](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>).
+    * Accepted [Tokens 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) are stored locally, and only the path is sent to the [Broker 🤵 domain](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>).
 
     ---
     <br/>

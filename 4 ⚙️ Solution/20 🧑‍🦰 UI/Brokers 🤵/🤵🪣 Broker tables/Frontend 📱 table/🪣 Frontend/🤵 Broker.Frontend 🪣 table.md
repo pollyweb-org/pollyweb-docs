@@ -1,8 +1,8 @@
 # 🤵🪣 Frontend @ Broker table
 
 > About
-* Implements the [Broker 🤵 domain](<../../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
-* [Itemized 🪣 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) that manages CQRS projections for [Notifier 📣 domains](<../../../../Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>)
+* Implements the [Broker 🤵 domain](<../../../🤵/🤵 Broker 🤲 helper.md>)
+* [Itemized 🪣 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) that manages CQRS projections for [Notifier 📣 domains](<../../../../Notifiers 📣/📣/📣 Notifier 👥 domain.md>)
 * Supports the [`Frontend@Broker` 📨 msg](<../../../🤵📨 Broker msgs/Wallets 🧑‍🦰 Frontend 🧑‍🦰🚀🤵/🤵 Frontend 📃 handler.md>)
 
 <br/>

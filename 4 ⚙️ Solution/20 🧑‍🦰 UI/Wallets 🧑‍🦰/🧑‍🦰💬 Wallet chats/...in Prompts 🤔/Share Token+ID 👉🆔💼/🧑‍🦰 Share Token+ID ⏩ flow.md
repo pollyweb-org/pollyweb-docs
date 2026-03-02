@@ -25,7 +25,7 @@
 
 1. **Why do we need to get the user's approval?**
 
-    Users expect to have only their own [Vaults 🗄️ domains](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) on the [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>), apart from the [Host 🤗 domain](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) and the [Broker 🤵 domain](<../../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>).
+    Users expect to have only their own [Vaults 🗄️ domains](<../../../../../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) on the [Chat 💬](<../../../../../35 💬 Chats/Chats 💬/💬 Chat.md>), apart from the [Host 🤗 domain](<../../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) and the [Broker 🤵 domain](<../../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>).
     * If the [Identifier 🆔 vault](<../../../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) referenced by the [Token 🎫](<../../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) is listed as a user [Bind 🔗](<../../../../../30 🧩 Data/Binds 🔗/🔗 Bind.md>), then no approval is required.
     * However, if it is an unknown [Identifier 🆔 vault](<../../../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>), then the user needs to approve to clearly understand that it's not their bounded [Identifier 🆔 agent](<../../../../../50 🫥 Agent domains/Identifiers 🆔/🆔 Identifier agent/🆔 Identifier 🫥 agent.md>).
     * The later is the case when a user is trying to interact with a [Userable 💍](<../../../../../25 🔆 Locators/Userables 💍/💍💠 Userable thing.md>) from another person in the [Confused senior user 👴🏻](<../../../../../25 🔆 Locators/Userables 💍/💍⏩ Userable flows/💍📱 Senior user.md>) scenario.

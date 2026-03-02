@@ -24,13 +24,19 @@ trap 'rm -f "$OUTPUT_FILE"' EXIT
 # Run non-interactively so prompts fail fast instead of hanging.
 if ! "$PYTHON_BIN" "$CHECKER" </dev/null >"$OUTPUT_FILE" 2>&1; then
   cat "$OUTPUT_FILE"
-  echo "pre-push: blocked (links.py exited with errors)"
+  echo "\n❌ Git push blocked: links.py exited with errors."
+  echo "👉 To fix these errors, run:"
+  echo "    $PYTHON_BIN $CHECKER"
+  echo "Then review the output, correct any issues, and try 'git push' again."
   exit 1
 fi
 
 if grep -Eq "^## Broken links found|^## Malformed links found" "$OUTPUT_FILE"; then
   cat "$OUTPUT_FILE"
-  echo "pre-push: blocked (links.py reported link issues)"
+  echo "\n❌ Git push blocked: broken or malformed links detected by links.py."
+  echo "👉 To fix these issues, run:"
+  echo "    $PYTHON_BIN $CHECKER"
+  echo "Review the output, correct any broken or malformed links, and try 'git push' again."
   exit 1
 fi
 

@@ -4,7 +4,7 @@
 
 > About
 
-* Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implements the [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>)
 * Implemented by the [`Status` 📃 handler](<🤵 Status 📃 handler.md>)
 * Part of the [🧑‍🦰 `Share Token` ⏩ flow](<../../../Wallets 🧑‍🦰/🧑‍🦰💬 Wallet chats/...in Prompts 🤔/Share Token 👉🎫💼/🧑‍🦰 Share Token ⏩ flow.md>)
 
@@ -27,9 +27,9 @@ Body:
 |Object|Property|Type|Description|Origin
 |-|-|-|-|-
 | Header|`From`|text| [Consumer 💼 domain](<../../../../41 🎭 Domain Roles/Consumers 💼/💼 Consumer/💼🎭 Consumer role.md>) | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
-| |`To`|text| [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
+| |`To`|text| [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>) | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
 | | `Subject`|text| `Status@Broker`
-| Body | `Token`| uuid | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) key | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
+| Body | `Token`| uuid | [Broker 🤵](<../../🤵/🤵 Broker 🤲 helper.md>) key | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
 |   | `Issuer` | text | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) name | [`Receive@`](<../../../../41 🎭 Domain Roles/Consumers 💼/💼📨 Consumer msgs/Receive 🧑‍🦰🐌💼/💼 Receive 🐌 msg.md>)
 |
     

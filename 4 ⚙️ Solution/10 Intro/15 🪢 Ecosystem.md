@@ -9,9 +9,9 @@ The PollyWeb ecosystem aims to simplify everyday business transactions by stream
 
     * A [Wallet 🧑‍🦰](<../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) is a PollyWeb-compatible mobile app from any vendor (e.g., `any-wallet.dom`).
   
-    * Each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) for device-specific communications (e.g., WebSockets, MQTT).
+    * Each app depends on a [Notifier 📣 domain](<../20 🧑‍🦰 UI/Notifiers 📣/📣/📣 Notifier 👥 domain.md>) for device-specific communications (e.g., WebSockets, MQTT).
     
-    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/Notifiers 📣/📣 Notifier domain/📣 Notifier 👥 domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) for [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) orchestration with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
+    * Each [Notifier 📣 domain](<../20 🧑‍🦰 UI/Notifiers 📣/📣/📣 Notifier 👥 domain.md>) depends on a [Broker 🤵 domain](<../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) for [Chat 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) orchestration with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>). 
 
 * Users store their data in [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>).
   
@@ -21,7 +21,7 @@ The PollyWeb ecosystem aims to simplify everyday business transactions by stream
 
 * Users designate [Agents 🫥 domains](<../50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>) to handle specific well-defined roles in [Chats 💬](<../35 💬 Chats/Chats 💬/💬 Chat.md>) with [Host 🤗 domains](<../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) (e.g., payments).
 
-    * These [Agents 🫥](<../50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) to invoke by default when a role is required.
+    * These [Agents 🫥](<../50 🫥 Agent domains/$/🫥🗄️ Agent vault.md>) are [Vault 🗄️ domains](<../41 🎭 Domain Roles/Vaults 🗄️/🗄️ Vault/🗄️🎭 Vault role.md>) that the user told their [Broker 🤵 domain](<../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) to invoke by default when a role is required.
 
 
 

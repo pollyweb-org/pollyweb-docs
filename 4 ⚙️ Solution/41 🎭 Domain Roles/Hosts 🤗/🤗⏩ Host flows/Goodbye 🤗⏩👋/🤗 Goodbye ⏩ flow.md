@@ -2,7 +2,7 @@
 
 > About
 * [Host 🤗 domains](<../../🤗 Host role/🤗🎭 Host role.md>) 
-    * inform [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ending, 
+    * inform [Broker 🤵 domains](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) of the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ending, 
     * for them to trigger the [Advertisement 👀 ](<../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) flow.
 * Activated by:
     * [👋 Talker `GOODBYE` command](<../../🤗⌘ Host cmds/GOODBYE 👋/👋 GOODBYE ⌘ cmd.md>)
@@ -43,7 +43,7 @@ The associated [Script 📃](<../../../../35 💬 Chats/Scripts 📃/Script 📃
 
 | # | Call | Notes
 |-|-|-
-| 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 🐌 msg.md>) | [Hosts 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) of [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) endings
-| 2 | [👀⏩🧑‍🦰 Advertise 👀](<../../../../45 🤲 Helper domains/Advertisers 👀/👀⏩ Advertiser flows/Advertise 👀⏩🧑‍🦰/👀 Advertise ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) ask [Advertisers 👀](<../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) to advertise
-| 3 | [⭐⏩🧑‍🦰 Review ⭐](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐⏩ Reviewer flows/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) ask [Reviewers ⭐](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to review
+| 1 | [🤗🐌🤵 `Goodbye@Broker`](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵📨 Broker msgs/Chats 💬 Goodbye 🤗🐌🤵/🤵 Goodbye 🐌 msg.md>) | [Hosts 🤗](<../../🤗 Host role/🤗🎭 Host role.md>) tell [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) of [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) endings
+| 2 | [👀⏩🧑‍🦰 Advertise 👀](<../../../../45 🤲 Helper domains/Advertisers 👀/👀⏩ Advertiser flows/Advertise 👀⏩🧑‍🦰/👀 Advertise ⏩ flow.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) ask [Advertisers 👀](<../../../../45 🤲 Helper domains/Advertisers 👀/👀🤲 Advertiser helper.md>) to advertise
+| 3 | [⭐⏩🧑‍🦰 Review ⭐](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐⏩ Reviewer flows/01 ⭐⏩🧑‍🦰 Review.md>) | [Brokers 🤵](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) ask [Reviewers ⭐](<../../../../50 🫥 Agent domains/Reviewers ⭐/⭐ Reviewer agent/⭐ Reviewer 🫥 agent.md>) to review
 ||

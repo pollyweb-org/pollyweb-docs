@@ -4,7 +4,7 @@
 
 > About
 * Part of [Host 🤗 domains](<../../../🤗 Host role/🤗🎭 Host role.md>)
-* Stores [Prompts 🤔](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) sent to [Wallets 🧑‍🦰](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) via [Brokers 🤵](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Stores [Prompts 🤔](<../../../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) sent to [Wallets 🧑‍🦰](<../../../../../20 🧑‍🦰 UI/Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) via [Brokers 🤵](<../../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>)
 
 <br/>
 

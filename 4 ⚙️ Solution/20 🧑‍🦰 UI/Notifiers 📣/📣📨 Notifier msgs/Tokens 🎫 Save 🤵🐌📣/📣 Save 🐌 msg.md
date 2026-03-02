@@ -1,6 +1,6 @@
 # 🤵🐌📣 Save @ Notifier
 
-> Implements the [Notifier 📣 domain](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>)
+> Implements the [Notifier 📣 domain](<../../📣/📣 Notifier 👥 domain.md>)
 
 > Purpose
 * Calls the [`Issued@Issuer` 🚀 call](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴📨 Issuer msgs/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>) 
@@ -30,8 +30,8 @@ Body:
 
 |Object|Property|Type|Description | Origin | Purpose
 |-|-|-|-|-|-
-|Header|`From`|text| [Broker 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Issue@`](<../../../Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
-||`To`|text| [Notifier 📣](<../../📣 Notifier domain/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
+|Header|`From`|text| [Broker 🤵](<../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | [`Issue@`](<../../../Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>)
+||`To`|text| [Notifier 📣](<../../📣/📣 Notifier 👥 domain.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 ||`Subject`|text|`Save@Notifier`
 |Body  |`Wallet`| uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | [`Onboard@`](<../Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 ||`Issuer`|text| [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) domain  | [`Issue@`](<../../../Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) | [`Issued@`](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴📨 Issuer msgs/Issued 🧑‍🦰🚀🎴/🎴 Issued 🚀 call.md>)
@@ -50,7 +50,7 @@ Body:
     |||
     |-|-
     |`Offer`| This is a pointer to the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) at the [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>), allowing [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) to collect all [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) details except for the `Key`. It's only used in the [`Offer`](<../../../../30 🧩 Data/Manifests 📜/📜🧩 Manifest schemas/🧩 OFFER.md>) flow.
-    |`Key`| Contains the unique identifier of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) at the [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>). [Brokers 🤵](<../../../Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) keep this `Key` hidden from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) until there is a [`Query@Broker`](<../../../Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) message that triggers the [`Share@Notifier`](<../Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>) message. Even if there are multiple [`Issue@Broker`](<../../../Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) calls, only the first `Key` will be sent to the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) via [`Share@Notifier`](<../Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>).
+    |`Key`| Contains the unique identifier of the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) at the [Issuer 🎴 domain](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>). [Brokers 🤵](<../../../Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) keep this `Key` hidden from [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) until there is a [`Query@Broker`](<../../../Brokers 🤵/🤵📨 Broker msgs/Share 💼 Query 💼🐌🤵/🤵 Query 🐌 msg.md>) message that triggers the [`Share@Notifier`](<../Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>) message. Even if there are multiple [`Issue@Broker`](<../../../Brokers 🤵/🤵📨 Broker msgs/Tokens 🎫 Issue 🎴🐌🤵/🤵 Issue 🐌 msg.md>) calls, only the first `Key` will be sent to the [Wallet 🧑‍🦰 app](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) via [`Share@Notifier`](<../Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>).
 
     ---
     <br/>

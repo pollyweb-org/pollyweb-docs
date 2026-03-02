@@ -1,11 +1,11 @@
 # 🧑‍🦰🚀🤵 Chat @ Broker
 
 > Implementation 
-* Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implements the [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>)
 * Implemented by the [`Chat` 📃 handler](<🤵 Chat 📃 handler.md>)
 
 > Purpose
-* The [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
+* The [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>) 
     * returns the [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) details
     * to a [Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>).
 
@@ -27,7 +27,7 @@ Body:
 | Object | Property | Type  | Description|Origin
 |-|-|-|-|-
 | Header    |`From`| uuid  | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
-|           |`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
+|           |`To`|text| [Broker 🤵](<../../🤵/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)
 |           | `Subject`|text|  `Chat@Broker`
 | Body|`Chat`| uuid | [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID | [`Hello@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗📨 Host msgs/Hello 🤵🐌🤗/🤗 Hello 🐌 msg.md>)
 |

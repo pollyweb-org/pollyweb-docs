@@ -25,7 +25,7 @@
 
     Input|Purpose
     |-|-
-    |`Broker`| [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) name
+    |`Broker`| [Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) name
     |`Chat`| [Chat 💬](<../../../../35 💬 Chats/Chats 💬/💬 Chat.md>) ID
 
     ---
@@ -36,7 +36,7 @@
 
     [Role 🎭](<../../../../40 👥 Domains/👥 Domain/👥🎭 Domain Role.md>) | 
     |-|-
-    |[Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 
+    |[Broker 🤵 domain](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 
     |[Host 🤗 domain](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | [`Helper@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>)
     |[Helper 🤲 domain](<../../../Helpers 🤲/🤲 Helper/🤲🎭 Helper role.md>) | [`Invited@Host`](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗🧩 Host schemas/🧩 HOST.md>)
     

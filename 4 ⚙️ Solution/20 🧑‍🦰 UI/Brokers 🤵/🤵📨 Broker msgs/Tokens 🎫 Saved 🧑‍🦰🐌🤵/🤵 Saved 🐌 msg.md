@@ -1,12 +1,12 @@
 # 🧑‍🦰🐌🤵 Saved @ Broker
 
 > Implementation
-* Implements the [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>)
+* Implements the [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>)
 * Implemented by the [`Saved` 📃 script](<🤵 Saved 📃 handler.md>)
 
 > Purpose
 * [Wallet 🧑‍🦰 apps](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) 
-    * inform [Broker 🤵 domain](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) 
+    * inform [Broker 🤵 domain](<../../🤵/🤵 Broker 🤲 helper.md>) 
     * where the file with the [Token 🎫](<../../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) details 
     * was stored locally on the device.
 
@@ -33,9 +33,9 @@ Body:
 |Object|Property|Type|Description|Origin|Purpose
 |-|-|-|-|-|-
 |Header|`From`|uuid | [Wallet 🧑‍🦰](<../../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>)  | [`Onboard@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>) | 
-||`To`|text| [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>) | 
+||`To`|text| [Broker 🤵](<../../🤵/🤵 Broker 🤲 helper.md>) | [`Onboard@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>) | 
 ||`Subject`|text|`Saved@Broker` 
 |Body  |`Issuer`| text | [Issuer 🎴](<../../../../41 🎭 Domain Roles/Issuers 🎴/🎴 Issuer/🎴🎭 Issuer role.md>) domain | [`Save@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | 
-||`Token` |uuid  | [Broker 🤵](<../../🤵 Broker helper/🤵 Broker 🤲 helper.md>) key | [`Save@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | 
+||`Token` |uuid  | [Broker 🤵](<../../🤵/🤵 Broker 🤲 helper.md>) key | [`Save@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | 
 |  |`Path` |text  | Local saved path  |  | [`Remove@`](<../../../Notifiers 📣/📣📨 Notifier msgs/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>)
 |

@@ -24,7 +24,7 @@
     | - | - | - |
     | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ℹ️ Userable 💍 presented.
     | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | 😃 Are you the owner? [Yes, No] | > No
-    | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵 Broker helper/🤵 Broker 🤲 helper.md>) | 🫥 Allow guest vaults? [Yes, No]  <br/> -  #1: Any Identifier 🆔 <br/>- [ Always ] for Any Host 🤗 | > Always
+    | 🤵 [Broker](<../../../../20 🧑‍🦰 UI/Brokers 🤵/🤵/🤵 Broker 🤲 helper.md>) | 🫥 Allow guest vaults? [Yes, No]  <br/> -  #1: Any Identifier 🆔 <br/>- [ Always ] for Any Host 🤗 | > Always
     | 🆔 [Identifier](<../../🆔 Identifier agent/🆔 Identifier 🫥 agent.md>) | 🫥 Let me see if it's the owner.   | [📸 selfie](<../6 Face scan 🆔⏩😶/6 🆔⏩😶 Face scan.md>)
     | 🤗 [Host](<../../../../41 🎭 Domain Roles/Hosts 🤗/🤗 Host role/🤗🎭 Host role.md>) | ✅ Ownership confirmed.
     
