@@ -16,6 +16,32 @@ Thank you for your interest in contributing. This repository holds the PollyWeb 
 2. Make your changes following the conventions below.
 3. Open a pull request with a clear description of what changed and why.
 
+## VS Code setup (recommended)
+
+For day-to-day editing in this repository, use the following VS Code addons:
+
+- **Open files in external apps (including `.pptx`)**: `yutengjing.open-in-external-app`
+- **PlantUML image generation**: `goohan.plantumlautogenerator` (optional companion: `jebbs.plantuml`)
+- **Markdown link linting**: built-in Markdown validation + `davidanson.vscode-markdownlint`
+- **Update links when renaming/moving markdown files**: `mathiassoeholm.markdown-link-updater` (or built-in `markdown.updateLinksOnFileMove.enabled`)
+
+Recommended workspace settings (`.vscode/settings.json`):
+
+```jsonc
+{
+	"markdown.validate.enabled": true,
+	"markdown.validate.fileLinks.enabled": "error",
+	"markdown.validate.fragmentLinks.enabled": "warning",
+	"markdown.updateLinksOnFileMove.enabled": "always"
+}
+```
+
+Notes:
+
+- To open a `.pptx`, right-click the file in Explorer and choose **Open in External App**.
+- For PlantUML, save a `.puml`/`.plantuml` file to trigger auto-generation; if needed, run **Generate diagram image** from the Command Palette.
+- If both link-updating mechanisms are enabled (built-in + extension), keep an eye on duplicate updates; if you notice this, keep one mechanism and disable the other.
+
 ## Conventions
 
 **File naming** — follow the existing emoji-prefixed naming pattern (e.g., `01 📺 Article title.md`). Emoji prefixes carry meaning:
