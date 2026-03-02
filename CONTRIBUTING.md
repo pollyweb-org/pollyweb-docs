@@ -18,12 +18,16 @@ Thank you for your interest in contributing. This repository holds the PollyWeb 
 
 ## VS Code setup (recommended)
 
-For day-to-day editing in this repository, use the following VS Code addons:
+For day-to-day editing in this repository, use the following VS Code addons (click to install):
 
-- **Open files in external apps (including `.pptx`)**: `yutengjing.open-in-external-app`
-- **PlantUML image generation**: `goohan.plantumlautogenerator` (optional companion: `jebbs.plantuml`)
-- **Markdown link linting**: built-in Markdown validation + `davidanson.vscode-markdownlint`
-- **Update links when renaming/moving markdown files**: `mathiassoeholm.markdown-link-updater` (or built-in `markdown.updateLinksOnFileMove.enabled`)
+- [Open in External App](https://marketplace.visualstudio.com/items?itemName=yutengjing.open-in-external-app) (`yutengjing.open-in-external-app`)
+- [PlantUML auto generator](https://marketplace.visualstudio.com/items?itemName=goohan.plantumlautogenerator) (`goohan.plantumlautogenerator`)
+- [PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) (`jebbs.plantuml`, optional)
+- [Markdown Link Updater](https://marketplace.visualstudio.com/items?itemName=mathiassoeholm.markdown-link-updater) (`mathiassoeholm.markdown-link-updater`)
+- [Markdownlint](https://marketplace.visualstudio.com/items?itemName=davidanson.vscode-markdownlint) (`davidanson.vscode-markdownlint`)
+
+Built-in features:
+- Markdown link validation and auto link update on rename/move (no install needed)
 
 Recommended workspace settings (`.vscode/settings.json`):
 
