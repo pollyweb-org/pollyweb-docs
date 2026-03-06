@@ -19,10 +19,10 @@ Related context:
 - OpenAI has already tested shopping experiences in ChatGPT results, including product cards and merchant links.
 - The Information's reporting indicates internal debate around trust, incentives, and how commercial intent should appear in assistant responses.
 
-<!-- https://youtu.be/65be2VPEp-g --><br/>
-[openai-checkout-chatgpt.mp4](<00 📎 Assets/openai-checkout-chatgpt.mp4>)
 
----
+<!-- https://youtu.be/65be2VPEp-g --><br/>
+<!!! Broken link: openai-checkout-chatgpt.mp4 removed>
+
 
 Sources:
 
