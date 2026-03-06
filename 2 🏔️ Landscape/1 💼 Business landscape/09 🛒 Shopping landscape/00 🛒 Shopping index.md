@@ -35,5 +35,6 @@
     - build contextualized web-based [mini programs](<04 📺 🇨🇳 WeChat programs.md>);
     - access to [platforms](<05 📺 🇨🇳 WeChat platforms.md>) for businesses and developers.
 - Why the [🇺🇸 United States](<06 📺 🇺🇸 US superapps.md>) don't have super apps.
+- Why OpenAI may be [scaling back direct checkout in ChatGPT](<07 📺 OpenAI checkout in ChatGPT.md>).
 
 ---
