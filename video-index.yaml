@@ -1,0 +1,2335 @@
+videos:
+  - filename: "00 🔆 Scanning index__39084f14-e65b-4fa1-a472-4baa73af7a01.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/39084f14-e65b-4fa1-a472-4baa73af7a01"
+    youtube_source: "https://youtu.be/siEksdUEn9o"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/00 🔆 Scanning index.md"
+        line: 77
+        label: null
+  - filename: "00 🔆 Scanning index__cbed4a39-7773-4de1-bf57-921d7a5cac48.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/cbed4a39-7773-4de1-bf57-921d7a5cac48"
+    youtube_source: "https://youtu.be/SwfBla2vw7E"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/00 🔆 Scanning index.md"
+        line: 94
+        label: null
+  - filename: "00 🔆 Scanning index__d12d417b-b93b-41a7-a231-9a2a4e925229.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/d12d417b-b93b-41a7-a231-9a2a4e925229"
+    youtube_source: "https://youtu.be/TPMsXAtGGZ8"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/00 🔆 Scanning index.md"
+        line: 109
+        label: null
+  - filename: "00 🔑 Smart Keys__193b213d-a8fd-4f97-b9d0-6c32978bd268.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/193b213d-a8fd-4f97-b9d0-6c32978bd268"
+    youtube_source: "https://youtu.be/lXxWh2tkKgk"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/00 🔑 Smart Keys.md"
+        line: 82
+        label: null
+  - filename: "00 🔑 Smart Keys__2337609a-a49f-4495-b439-4dd729dc661d.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/2337609a-a49f-4495-b439-4dd729dc661d"
+    youtube_source: "https://youtu.be/T-qHrr-tW9Y"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/00 🔑 Smart Keys.md"
+        line: 90
+        label: null
+  - filename: "00 🔑 Smart Keys__60d9f5b6-f164-41c9-860c-5461250cbc1a.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/60d9f5b6-f164-41c9-860c-5461250cbc1a"
+    youtube_source: "https://youtu.be/fqng1jegl0U"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/00 🔑 Smart Keys.md"
+        line: 101
+        label: null
+  - filename: "00 🔑 Smart Keys__e69ab0f3-f6e5-46f7-9bab-1ecf86b0ba3e.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/e69ab0f3-f6e5-46f7-9bab-1ecf86b0ba3e"
+    youtube_source: "https://youtu.be/BkDIgbzMkQ0"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/00 🔑 Smart Keys.md"
+        line: 111
+        label: null
+  - filename: "01 📺 Browser cookies__102f2fe7-9e9c-4772-ab2d-956c86eaed77.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/102f2fe7-9e9c-4772-ab2d-956c86eaed77"
+    youtube_source: "https://youtu.be/18En4NBbw3c"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/01 📺 Browser cookies.md"
+        line: 10
+        label: "webm"
+  - filename: "01 📺 🇺🇸 PRISM scandal__291d8769-8aad-4e74-9b4d-7a010072f7ee.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/291d8769-8aad-4e74-9b4d-7a010072f7ee"
+    youtube_source: "https://youtu.be/JR6YyYdF8ho"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/01 📺 🇺🇸 PRISM scandal.md"
+        line: 8
+        label: null
+  - filename: "02 📺 Cambridge Analytica__87cdcf71-4569-4361-82aa-d048068846d9.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/87cdcf71-4569-4361-82aa-d048068846d9"
+    youtube_source: "https://youtu.be/olysFQkYkCA"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/02 📺 Cambridge Analytica.md"
+        line: 20
+        label: null
+  - filename: "04 📺 Google's vision__282e4e73-a2b8-4c19-8195-51e8736e45d5.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/282e4e73-a2b8-4c19-8195-51e8736e45d5"
+    youtube_source: "https://youtu.be/UI_-y-g0G8s"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/04 📺 Google's vision.md"
+        line: 9
+        label: null
+  - filename: "05 📺 Apple Wallet__9ca87915-2aad-4154-b9ed-2755d1ef4e26.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9ca87915-2aad-4154-b9ed-2755d1ef4e26"
+    youtube_source: "https://www.youtube.com/watch?v=ZfvqT-rYomA"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/05 📂 ID Wallets landscape/05 📺 Apple Wallet.md"
+        line: 22
+        label: null
+  - filename: "05 📺 Smart padlocks__c12bc774-7a13-4505-8a91-bc5b9076ca71.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/c12bc774-7a13-4505-8a91-bc5b9076ca71"
+    youtube_source: "https://youtu.be/NOr0r0vBZbk"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/05 📺 Smart padlocks.md"
+        line: 25
+        label: null
+  - filename: "06 📺 QR phishing__80a1dfe1-a1ea-43a9-be46-b3c6dcf952d0.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/80a1dfe1-a1ea-43a9-be46-b3c6dcf952d0"
+    youtube_source: "https://www.youtube.com/watch?v=AAifKrbnPqw"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md"
+        line: 19
+        label: null
+  - filename: "06 📺 🇨🇳 China's privacy law__f5f1d77a-3e82-4e92-af49-5a0ce1032aa9.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f5f1d77a-3e82-4e92-af49-5a0ce1032aa9"
+    youtube_source: "https://youtu.be/TQw0qj8jAIs"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/06 📺 🇨🇳 China's privacy law.md"
+        line: 18
+        label: null
+  - filename: "07 📺 Top smart locks__278aacdb-682d-4c37-acb6-2604c87ff185.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/278aacdb-682d-4c37-acb6-2604c87ff185"
+    youtube_source: "https://youtu.be/O_JZh3tiTv0"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/07 📺 Top smart locks.md"
+        line: 22
+        label: null
+  - filename: "07 📺 Top smart locks__4f23359e-7b95-4837-a04c-cc0ea0f4e1eb.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4f23359e-7b95-4837-a04c-cc0ea0f4e1eb"
+    youtube_source: "https://youtu.be/daO0VzpcZ5s"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/07 📺 Top smart locks.md"
+        line: 33
+        label: null
+  - filename: "07 📺 Top smart locks__50518e79-56e0-4edc-93f4-2656500eea74.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/50518e79-56e0-4edc-93f4-2656500eea74"
+    youtube_source: "https://youtu.be/xBUGgbnzD7g"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/07 📺 Top smart locks.md"
+        line: 46
+        label: null
+  - filename: "07 📺 Top smart locks__69b435d1-8854-4b21-a10a-18384da48d22.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/69b435d1-8854-4b21-a10a-18384da48d22"
+    youtube_source: "https://youtu.be/mGR3h6KTntc"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/07 📺 Top smart locks.md"
+        line: 65
+        label: null
+  - filename: "07 📺 Top smart locks__9287e03d-2f8a-4fbd-86de-639a24999e6e.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9287e03d-2f8a-4fbd-86de-639a24999e6e"
+    youtube_source: "https://youtu.be/U5gqOwQROTg"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/07 📺 Top smart locks.md"
+        line: 78
+        label: null
+  - filename: "07 📺 Top smart locks__d12c664c-bdb1-48b4-b2cf-c8262cf572b7.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/d12c664c-bdb1-48b4-b2cf-c8262cf572b7"
+    youtube_source: "https://youtu.be/m_MX96MVD00"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/07 📺 Top smart locks.md"
+        line: 54
+        label: null
+  - filename: "07 📺 🇪🇺 Europe's GDPR__f2c9ddd9-089b-44e6-837c-850cd323dc76.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f2c9ddd9-089b-44e6-837c-850cd323dc76"
+    youtube_source: "https://youtu.be/acijNEErf-c"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/07 📺 🇪🇺 Europe's GDPR.md"
+        line: 10
+        label: null
+  - filename: "100mb-379530460-eabc4b8d-43ae-44b5-aff7-7e069f687f13.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/3e3d130f-3b17-4cc3-bd0e-ab16f2739092"
+    youtube_source: "https://youtu.be/bCOWSfPXuP8"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/11 📺 Sam Altman's World.md"
+        line: 10
+        label: "100mb-379530460-eabc4b8d-43ae-44b5-aff7-7e069f687f13.webm"
+  - filename: "100mb-380800691-8788247c-f23a-4950-becd-77478f489726.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/33dcf5c1-f120-491f-b8ea-4a0f5eb6ce69"
+    youtube_source: "https://youtu.be/byYcpwe53Gs"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/04 📺 🇺🇸 PayPal.md"
+        line: 16
+        label: "100mb-380800691-8788247c-f23a-4950-becd-77478f489726.webm"
+  - filename: "100mb-400407603-e21ff580-af9a-487c-a5a7-10037fac74c0.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b18d7a5d-e80d-44f6-b4eb-ba49320e8601"
+    youtube_source: "https://youtu.be/l-9VC_uJw4U"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/14 📺 🇺🇸 P2P Venmo.md"
+        line: 10
+        label: "100mb-400407603-e21ff580-af9a-487c-a5a7-10037fac74c0.webm"
+  - filename: "100mb-400409331-3ab11f3b-dd26-4793-86c6-adc360aaeb53.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/20a52070-344b-4d7f-9bb9-5450ac30d7b8"
+    youtube_source: "https://youtu.be/0Is_gfHTWM0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/15 📺 🇺🇸 P2P Square.md"
+        line: 11
+        label: "100mb-400409331-3ab11f3b-dd26-4793-86c6-adc360aaeb53.webm"
+  - filename: "100mb-400434120-a092207a-7adf-45a5-9e54-db60f710e733.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/49075396-fcc6-4d3f-b514-e9dc4d2aaa88"
+    youtube_source: "https://youtu.be/o7KqSTaS3bs"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/16 📺 🇧🇷 Nubank.md"
+        line: 10
+        label: "100mb-400434120-a092207a-7adf-45a5-9e54-db60f710e733.webm"
+  - filename: "100mb-400485109-772f0cf7-00f0-4da2-8067-1b255ad91a6b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b7658c00-e25f-4458-a147-8c64476bb66c"
+    youtube_source: "https://www.youtube.com/watch?v=uvlJvqwNGuc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/03 📺 Just Walk Out.md"
+        line: 11
+        label: "100mb-400485109-772f0cf7-00f0-4da2-8067-1b255ad91a6b.webm"
+  - filename: "100mb-400532744-bbe193ef-2823-445f-ad05-e20af3bbe7b2.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/cd599205-519c-4468-84b7-473a2dd2fccb"
+    youtube_source: "https://youtu.be/zptP3GiaulE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape/02 📺 Consumer frictions.md"
+        line: 11
+        label: "100mb-400532744-bbe193ef-2823-445f-ad05-e20af3bbe7b2.webm"
+  - filename: "100mb-401291146-a64f2d68-b6ec-44cb-a61a-54e8ff090544.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/854ede47-3b9c-49b2-a8bf-84d4da2b1478"
+    youtube_source: "https://youtu.be/12xYSwfsSj0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/04 📺 Amazon's Kuiper.md"
+        line: 11
+        label: "100mb-401291146-a64f2d68-b6ec-44cb-a61a-54e8ff090544.webm"
+  - filename: "100mb-403082923-1111eaa0-0a77-4026-a17d-ed5996568b5b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/ffc6482b-fcec-40ac-884f-8efbcbc1e58f"
+    youtube_source: "https://youtu.be/DRVD6kpWui0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/02 📺 Top scams 2024.md"
+        line: 13
+        label: "100mb-403082923-1111eaa0-0a77-4026-a17d-ed5996568b5b.webm"
+  - filename: "100mb-403090857-b48dff0c-f03d-46c4-bb96-4fb18870b7db.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0ab5d5c7-0912-4285-96fb-7f43715ec9ac"
+    youtube_source: "https://youtu.be/Oo_FM3mjBCY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/03 📺 🇨🇳 SharpEyes project.md"
+        line: 10
+        label: "100mb-403090857-b48dff0c-f03d-46c4-bb96-4fb18870b7db.webm"
+  - filename: "100mb-403135654-9e3fe729-3d6c-49c6-9d1c-3aa1887438bf.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/d5127d43-d504-44fc-9288-34e01eddbb7f"
+    youtube_source: "https://youtu.be/QNa-4LSuN-s"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/14 📺 🇺🇸 Financial credit.md"
+        line: 10
+        label: "100mb-403135654-9e3fe729-3d6c-49c6-9d1c-3aa1887438bf.webm"
+  - filename: "100mb-403173275-7f752856-af7c-4b17-bfe1-be73880ba0b3.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/95220edd-753f-41a4-a730-e548c3c371dd"
+    youtube_source: "https://youtu.be/lQb0g_fkiqo"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/05 📺 🇺🇸 Google in US.md"
+        line: 11
+        label: "100mb-403173275-7f752856-af7c-4b17-bfe1-be73880ba0b3.webm"
+  - filename: "100mb-404081464-84e9a3cd-d789-43e5-b529-f5cb735ad4ec.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/77d35259-d74a-49b4-a5ed-a51dd316afd4"
+    youtube_source: "https://youtu.be/KeH1e_m3AuY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/11 📺 Google's 3PC revert.md"
+        line: 10
+        label: "100mb-404081464-84e9a3cd-d789-43e5-b529-f5cb735ad4ec.webm"
+  - filename: "100mb-404609567-95d8d963-6fa6-4cd9-a5b9-f87ef586c96e.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a36d5977-6cf6-46d9-bec3-8ca9ab1d1059"
+    youtube_source: "https://youtu.be/gi96HKr2vo8"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/07 📺 Apple's thief.md"
+        line: 17
+        label: "100mb-404609567-95d8d963-6fa6-4cd9-a5b9-f87ef586c96e.webm"
+  - filename: "100mb-420088672-737304b5-9f30-4df1-8b81-f0118cf61e09.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b5f032ba-2f27-4a13-88c0-7ff3d986c6a7"
+    youtube_source: "https://youtu.be/ii09M-VsuPg"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/08 📺 Global Identity Crisis.md"
+        line: 11
+        label: "100mb-420088672-737304b5-9f30-4df1-8b81-f0118cf61e09.webm"
+  - filename: "16 📺 🇨🇳 Social credit__a76a1e75-e618-4f29-bc6d-7604fabdc1df.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a76a1e75-e618-4f29-bc6d-7604fabdc1df"
+    youtube_source: "https://youtu.be/NXyzpMDtpSE"
+    name_source: "inferred_from_markdown_path"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/16 📺 🇨🇳 Social credit.md"
+        line: 9
+        label: null
+  - filename: "379484962-356a0323-e593-48dc-bf01-c8636c38e370.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/14dc74ac-e78a-4cf8-87c6-35b011ebb933"
+    youtube_source: "https://youtu.be/eQMXvZ36BlI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/13 📺 🇬🇧 UK's DID.md"
+        line: 11
+        label: "379484962-356a0323-e593-48dc-bf01-c8636c38e370.webm"
+  - filename: "379486096-89d73758-9e57-4be0-8797-c82d41c4fb2a.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9220c789-a363-4175-89a4-88cf7fff3048"
+    youtube_source: "https://youtu.be/1sSBAWwKGiQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/14 📺 🇺🇳 UN's DID.md"
+        line: 10
+        label: "379486096-89d73758-9e57-4be0-8797-c82d41c4fb2a.webm"
+  - filename: "379486982-819fd92b-8894-447e-b4c4-64cb149e0eaa.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b91f711d-80e6-4cca-9910-46594524917d"
+    youtube_source: "https://youtu.be/uduF7ecW0F8"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/06 📺 🇨🇦 Canada's DID.md"
+        line: 11
+        label: "379486982-819fd92b-8894-447e-b4c4-64cb149e0eaa.webm"
+  - filename: "379488354-9c9827e7-bee5-4d95-9139-929a350a0b91.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0277deb5-2c6a-4964-90c1-1e72401052fd"
+    youtube_source: "https://youtu.be/qkMkn4fXUf4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/05 📺 🇦🇺 Australia's DID.md"
+        line: 11
+        label: "379488354-9c9827e7-bee5-4d95-9139-929a350a0b91.webm"
+  - filename: "379489668-f8a8e359-b20b-4133-86f0-9223d3b5493f.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8a772940-ca5d-4ab8-b026-37f8f6d374ed"
+    youtube_source: "https://youtu.be/jLcEzTu429E"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/07 📺 🇺🇸 US' TSA.md"
+        line: 12
+        label: "379489668-f8a8e359-b20b-4133-86f0-9223d3b5493f.webm"
+  - filename: "379496936-e94b9148-b73a-4920-bc57-c9c85437b489.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/6244b2f0-cc03-4118-bfe4-464ce1052f85"
+    youtube_source: "https://youtu.be/KlWMHTmsDxg"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/04 📺 ICAO's PKD.md"
+        line: 12
+        label: "379496936-e94b9148-b73a-4920-bc57-c9c85437b489.webm"
+  - filename: "379500160-58a947c5-8ce9-4b60-8ad5-17c88791a33f.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/023fe227-4c03-4dd9-9063-b6406468e34d"
+    youtube_source: "https://youtu.be/ogTQ_EtBNPk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/05 📺 IATA's digital ID.md"
+        line: 11
+        label: "379500160-58a947c5-8ce9-4b60-8ad5-17c88791a33f.webm"
+  - filename: "379501438-ec93d658-dc55-4939-b405-4c4407dc4344.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4d8de4ff-4371-4117-9273-c844a1ef5725"
+    youtube_source: "https://youtu.be/JGh6U06J07o"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/01 📺 SITA's digital ID.md"
+        line: 11
+        label: "379501438-ec93d658-dc55-4939-b405-4c4407dc4344.webm"
+  - filename: "379504317-858c5714-8c65-4e26-ab6d-059bebb8dba7.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/722c4d26-3ba0-472c-91b9-8b10a71dcec7"
+    youtube_source: "https://www.youtube.com/watch?v=FfGc2CokFpM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/16 📺 🇺🇸 US' mDL.md"
+        line: 12
+        label: "379504317-858c5714-8c65-4e26-ab6d-059bebb8dba7.webm"
+  - filename: "379508712-4d3bc764-84d3-4764-b252-da75103313dd.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f93b19de-c1e3-4fd0-87ef-11ed91995c86"
+    youtube_source: "https://youtu.be/4YXqziHLe5c"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/07 📺 🇨🇳 China's DID.md"
+        line: 12
+        label: "379508712-4d3bc764-84d3-4764-b252-da75103313dd.webm"
+  - filename: "379514190-0dbc44ab-8ad4-46b2-8178-b6c26eb9f0e3.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/75890714-97c7-4745-ac2b-48e50fb1af5c"
+    youtube_source: "https://youtu.be/HG6-aLnDoM0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/10 📺 Microsoft liveness.md"
+        line: 19
+        label: "379514190-0dbc44ab-8ad4-46b2-8178-b6c26eb9f0e3.webm"
+  - filename: "379515367-69bdf80a-2b2d-4c5b-a0f7-b584eb80cc21.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4fc658a7-475e-4b58-8103-2e58f4f2be37"
+    youtube_source: "https://youtu.be/smiM0GFRu_w"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/05 📂 ID Wallets landscape/01 📺 EU Wallet.md"
+        line: 12
+        label: "379515367-69bdf80a-2b2d-4c5b-a0f7-b584eb80cc21.webm"
+  - filename: "379516823-479bd59f-2315-43dc-af96-df87826bab92.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/64f472a2-6d06-460d-a775-9de835054855"
+    youtube_source: "https://youtu.be/PxvNzzgoJX8"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/05 📂 ID Wallets landscape/04 📺 Thales's DID Wallet.md"
+        line: 11
+        label: "379516823-479bd59f-2315-43dc-af96-df87826bab92.webm"
+  - filename: "379523848-5d329da5-0956-4bbe-b084-f3d249406aac.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/5bce99cb-b64c-4513-8316-895016fd70cd"
+    youtube_source: "https://youtu.be/VNcZaPlKyTA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/09 📺 Amazon One.md"
+        line: 12
+        label: "379523848-5d329da5-0956-4bbe-b084-f3d249406aac.webm"
+  - filename: "379527047-5d6e5f9d-d986-46ae-9a09-31050c250ccd.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/76fd41d6-0815-4b72-9087-7d5eb0bb35cb"
+    youtube_source: "https://youtu.be/mVhUbAFsADk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/07 📺 🇦🇪 Dubai airports.md"
+        line: 13
+        label: "379527047-5d6e5f9d-d986-46ae-9a09-31050c250ccd.webm"
+  - filename: "379536393-72d4549a-9730-4c50-8414-afea6d07e303.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8b57ffc9-32ca-445f-97e0-32e2cd0d8f1d"
+    youtube_source: "https://youtu.be/3eKF_kEjy-I"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/05 📂 ID Wallets landscape/06 📺 Google Wallet.md"
+        line: 10
+        label: "379536393-72d4549a-9730-4c50-8414-afea6d07e303.webm"
+  - filename: "379540771-39d17d37-090b-477a-ab39-7d6b5dbe9c8f.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/22d38d84-25d2-4a45-9270-755404a6bd8e"
+    youtube_source: "https://www.youtube.com/watch?v=q-1dNsPJlnw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/05 📂 ID Wallets landscape/07 📺 Samsung Wallet.md"
+        line: 9
+        label: "379540771-39d17d37-090b-477a-ab39-7d6b5dbe9c8f.webm"
+  - filename: "379545952-52904f37-5899-43a6-9f94-98ac24dec2a1.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9b936f1e-c38c-4505-a31c-4a9786447cb7"
+    youtube_source: "https://youtu.be/Axq1WORUTC0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/09 📺 🇮🇳 India's Aadhaar.md"
+        line: 15
+        label: "379545952-52904f37-5899-43a6-9f94-98ac24dec2a1.webm"
+  - filename: "379802151-91f5fd4b-2c3c-4d98-a60b-9aa92c299c3d.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/bfc3ea86-3a53-48ea-9b7f-75a278d5a72a"
+    youtube_source: "https://youtu.be/Qi2LAAYfe5o"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/04 📺 🇺🇸 US airports.md"
+        line: 10
+        label: "379802151-91f5fd4b-2c3c-4d98-a60b-9aa92c299c3d.webm"
+  - filename: "379912903-70f65957-fa3b-4420-887c-3fa615819ee7.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/fcdfd3e8-61e5-4c4d-8ee2-d556270e9fa5"
+    youtube_source: "https://youtu.be/1I2LReFSUjE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/02 📺 🇰🇷 South Korea.md"
+        line: 9
+        label: "379912903-70f65957-fa3b-4420-887c-3fa615819ee7.webm"
+  - filename: "379916740-80b4de8b-8ca6-4199-814f-9d388ea7ad17.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b1d67d4f-6bf1-4ad0-bab3-8dd4bde69b21"
+    youtube_source: "https://youtu.be/bdp8RdjV6PU"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/04 📺 Microsoft passkeys.md"
+        line: 10
+        label: "379916740-80b4de8b-8ca6-4199-814f-9d388ea7ad17.webm"
+  - filename: "379922413-01c42d7e-90c0-449a-bdb4-92a2e8e6096f.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/26c668e6-e255-4d35-9da4-c85a3f91203e"
+    youtube_source: "https://youtu.be/2xdV-xut7EQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/03 📺 Google passkeys.md"
+        line: 12
+        label: "379922413-01c42d7e-90c0-449a-bdb4-92a2e8e6096f.webm"
+  - filename: "379937041-41580fd2-89ab-4bdc-bc14-670640d38d78.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/95499ec4-7033-4d2b-b450-a5fc75ca5a72"
+    youtube_source: "https://www.youtube.com/watch?v=oPdGmJUquyM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md"
+        line: 12
+        label: "379937041-41580fd2-89ab-4bdc-bc14-670640d38d78.webm"
+  - filename: "380085055-31408076-549c-409a-a442-ce3e20bf8213.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/74881be2-4538-4460-b8e6-09a3dae9083c"
+    youtube_source: "https://youtu.be/DOKp7FmNJVE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/06 📺 WhatsApp business.md"
+        line: 15
+        label: "380085055-31408076-549c-409a-a442-ce3e20bf8213.webm"
+  - filename: "380089853-47ae05f6-985f-4217-9343-e3732d4ddb2c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/84a8b409-3ce2-44b4-ac33-d9d44d4cb2fe"
+    youtube_source: "https://youtu.be/lgcmM_QOEkQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/08 📺 🇧🇷 B2C WhatsApp.md"
+        line: 15
+        label: "380089853-47ae05f6-985f-4217-9343-e3732d4ddb2c.webm"
+  - filename: "380150229-5780ca3a-697f-4042-9f4a-f43722ca191d.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/076fd770-87d8-48f8-9a75-6608aecd2c9f"
+    youtube_source: "https://youtu.be/6UDRHwCjmTA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/13 📺 🇧🇷 P2P PIX WhatsApp.md"
+        line: 10
+        label: "380150229-5780ca3a-697f-4042-9f4a-f43722ca191d.webm"
+  - filename: "380193048-dd755c48-d62e-40e2-abac-b36e3d5e3f8c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a4814fed-b6e9-4e1a-a8fc-c383459f8285"
+    youtube_source: "https://youtu.be/TOluedENQgQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/08 📺 WhatsApp forms.md"
+        line: 10
+        label: "380193048-dd755c48-d62e-40e2-abac-b36e3d5e3f8c.webm"
+  - filename: "380298445-d55794dc-65e9-44bf-b1a9-adb1c9ca8456.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8f00ac61-8f42-4a5d-a6ad-c178e457575d"
+    youtube_source: "https://youtu.be/jqx18KgIzAE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/08 📺 Anthropic agents.md"
+        line: 12
+        label: "380298445-d55794dc-65e9-44bf-b1a9-adb1c9ca8456.webm"
+  - filename: "380308711-70b7e0c8-a7e4-464d-838f-15d167fc87e5.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7a252e34-3d7e-4cd1-b3f3-81a243dfb3f0"
+    youtube_source: "https://youtu.be/UxrU9_087lk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/07 📺 WhatsApp carts.md"
+        line: 11
+        label: "380308711-70b7e0c8-a7e4-464d-838f-15d167fc87e5.webm"
+  - filename: "380309559-fd773c9d-cb05-47f8-994c-7e29e1eae7f3.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a9a886ba-b559-46a1-b752-14c5dc0e1966"
+    youtube_source: "https://youtu.be/ZRwQDJPVwqI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/01 📺 🇮🇳 India's ONDC.md"
+        line: 11
+        label: "380309559-fd773c9d-cb05-47f8-994c-7e29e1eae7f3.webm"
+  - filename: "380320552-fa0a2004-f1be-41f8-9423-fd9ef67ae41c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/837cfdf9-edb5-4df1-bca7-0b84497acab9"
+    youtube_source: "https://youtu.be/zkAtVnpBZag"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/08 📺 🇮🇳 India's UPI.md"
+        line: 10
+        label: "380320552-fa0a2004-f1be-41f8-9423-fd9ef67ae41c.webm"
+  - filename: "380326409-ce415a4b-f95c-4b36-9c15-534479693358.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9df0312c-71cf-4770-8bdb-566652dd4ad3"
+    youtube_source: "https://youtu.be/q1KnEdFsN7s"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape/05 📺 Google Play.md"
+        line: 11
+        label: "380326409-ce415a4b-f95c-4b36-9c15-534479693358.webm"
+  - filename: "380331237-13eb979a-cc3f-4e2c-8ad4-73fdf2705ea6.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/5975a987-d6d6-4d48-88e7-49086c8558d2"
+    youtube_source: "https://youtu.be/wcvI5UZoBvo"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/01 📺 Google Search ads.md"
+        line: 10
+        label: "380331237-13eb979a-cc3f-4e2c-8ad4-73fdf2705ea6.webm"
+  - filename: "380408528-51eb8500-c34a-4218-bb53-0297b7b105c6.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/eae670ab-682b-40f3-a2c2-b7d2c24d75a6"
+    youtube_source: "https://youtu.be/TK32TwvnDQQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/04 📺 🌍 Africa's PAPSS.md"
+        line: 10
+        label: "380408528-51eb8500-c34a-4218-bb53-0297b7b105c6.webm"
+  - filename: "380417129-ab9fc8a4-f94c-4f72-9aca-7e874174c516.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/ba1581f6-7dc6-4db6-bbc6-4d1b8bd22e6e"
+    youtube_source: "https://youtu.be/JbZW_oCUlsg"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/02 📺 Amazon One.md"
+        line: 9
+        label: "380417129-ab9fc8a4-f94c-4f72-9aca-7e874174c516.webm"
+  - filename: "380419650-3e521166-6807-4c4e-b996-9a3f65370e30.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0fe3bb17-5e35-40dc-9ef8-b697e4dce087"
+    youtube_source: "https://youtu.be/d-6iceHaQoI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/07 🖐️ Palm pay landscape/01 📺 🇨🇳 Tencent palm.md"
+        line: 10
+        label: "380419650-3e521166-6807-4c4e-b996-9a3f65370e30.webm"
+  - filename: "380449127-ec22c2f6-eaf1-45ce-973b-b1ef49f6d42d.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a79fab33-9e24-4f99-bace-33dad1ab94c8"
+    youtube_source: "https://youtu.be/0NP_FtyaC9Y"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/06 📺 🇨🇳 Alipay.md"
+        line: 9
+        label: "380449127-ec22c2f6-eaf1-45ce-973b-b1ef49f6d42d.webm"
+  - filename: "380449923-6282e93d-330a-44db-bbba-d049a3323b83.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8478120a-25f6-4804-bf5d-bf722f1afd36"
+    youtube_source: "https://youtu.be/5IEAjBK9EOo"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/06 📺 🇨🇳 Alibaba+Tencent.md"
+        line: 11
+        label: "380449923-6282e93d-330a-44db-bbba-d049a3323b83.webm"
+  - filename: "380451349-5c63e8d4-8144-488f-b7a1-da73edf5852c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/2d8727d0-cb4b-46f8-854e-58ff6cd8ad96"
+    youtube_source: "https://youtu.be/ugjhVHcYbMU"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/10 📺 🇺🇸 Apple vs Banks.md"
+        line: 9
+        label: "380451349-5c63e8d4-8144-488f-b7a1-da73edf5852c.webm"
+  - filename: "380782569-bde496cb-a504-4a84-b7a4-0cd2cc7da08f.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f131109e-ab1e-4301-8e68-b6d6d5751acd"
+    youtube_source: "https://youtu.be/REscpOYqGII"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/06 📺 Amazon Ads.md"
+        line: 11
+        label: "380782569-bde496cb-a504-4a84-b7a4-0cd2cc7da08f.webm"
+  - filename: "380789550-d1371d40-a315-401f-b7da-d52814fd47a2.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/62c6ec66-a435-4dbf-9de9-da0fb67cc67d"
+    youtube_source: "https://youtu.be/p0Xug7cg36Q"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/02 📺 🇺🇸 Google Pay.md"
+        line: 12
+        label: "380789550-d1371d40-a315-401f-b7da-d52814fd47a2.webm"
+  - filename: "380792458-a04024df-05a8-42d7-b3fc-2667a1572dc1.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4aa0e6a3-b26e-45fa-a1c2-9a7a1781357b"
+    youtube_source: "https://www.youtube.com/watch?v=p0Xug7cg36Q&t=370s"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/05 📂 ID Wallets landscape/06 📺 Google Wallet.md"
+        line: 23
+        label: "380792458-a04024df-05a8-42d7-b3fc-2667a1572dc1.webm"
+  - filename: "380797789-618a031b-c81c-41fb-9812-55b513ce8f42.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/cab51613-195c-44d2-937b-3e68143d667d"
+    youtube_source: "https://youtu.be/OFVUZtJpSgk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/12 📺 🇬🇧 Samsung Pay+.md"
+        line: 10
+        label: "380797789-618a031b-c81c-41fb-9812-55b513ce8f42.webm"
+  - filename: "380800257-2e878000-ed42-49f5-8c79-fee1b621b4c7.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9a50b70a-4cc0-4820-945e-770438cada4a"
+    youtube_source: "https://youtu.be/q-1dNsPJlnw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/03 📺 🇰🇷 Samsung Pay.md"
+        line: 10
+        label: "380800257-2e878000-ed42-49f5-8c79-fee1b621b4c7.webm"
+  - filename: "387416935-d7bab8be-feff-4953-ae99-6c8a8e4b3cc8.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/6e029b76-4b25-440d-bbdf-b7002f0fec33"
+    youtube_source: "https://youtu.be/mGGUfmaxEEA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/04 📺 RCS.md"
+        line: 11
+        label: "387416935-d7bab8be-feff-4953-ae99-6c8a8e4b3cc8.webm"
+  - filename: "387417469-38915ef4-f532-4ae0-93e6-d4360227b201.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/5c7ba5ba-cb08-499a-8249-aa506a78b0ea"
+    youtube_source: "https://youtu.be/qxMi-tLg4MA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/10 📺 Microsoft agents.md"
+        line: 11
+        label: "387417469-38915ef4-f532-4ae0-93e6-d4360227b201.webm"
+  - filename: "387418283-a34c7fba-361e-4d11-814b-497470abf1a5.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/68a6e11f-ddd6-4bc2-be26-df3ecb23a717"
+    youtube_source: "https://youtu.be/MLK_oV8eIDQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/11 📺 🇺🇸 Walmart vs Apple.md"
+        line: 10
+        label: "387418283-a34c7fba-361e-4d11-814b-497470abf1a5.webm"
+  - filename: "387418378-4c9beba2-1c03-4d83-bf6f-0651c1957f10.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/020729fa-ba49-415e-8f29-c1601a0bb09a"
+    youtube_source: "https://youtu.be/wazHMMaiDEA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/06 📺 Agentic AI tech.md"
+        line: 12
+        label: "387418378-4c9beba2-1c03-4d83-bf6f-0651c1957f10.webm"
+  - filename: "387420071-48ec953b-3ff8-48ca-aa42-7f7e2ea3a3c4.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/ddfb86ad-7e70-47a0-a847-ee1b6c3e60d4"
+    youtube_source: "https://youtu.be/QptuIq9HmUA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/07 📺 AWS Bedrock.md"
+        line: 12
+        label: "387420071-48ec953b-3ff8-48ca-aa42-7f7e2ea3a3c4.webm"
+  - filename: "387420379-d1052dd3-bead-47ce-a69a-f7bc1bc10960.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a3e9081b-3de1-42da-a3af-e78d9cb448c5"
+    youtube_source: "https://youtu.be/XHqXW9MMI5k"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/03 📺 🇨🇳 WeChat users.md"
+        line: 9
+        label: "387420379-d1052dd3-bead-47ce-a69a-f7bc1bc10960.webm"
+  - filename: "387420743-433f9d97-ee36-46f0-a095-48bab57a980e.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a8f02a21-b2ec-4554-b3d4-953d25d1a3f9"
+    youtube_source: "https://youtu.be/ul2Wc1bTwoM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/02 📺 Ambient computing.md"
+        line: 10
+        label: "387420743-433f9d97-ee36-46f0-a095-48bab57a980e.webm"
+  - filename: "387421012-3f72e10c-db5d-41d1-ab3e-d6b200f4809c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/c65861e2-0765-47eb-a92c-3d6567f3fed3"
+    youtube_source: "https://youtu.be/r5-t9DnqLnI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/02 📺 Arm's vision.md"
+        line: 10
+        label: "387421012-3f72e10c-db5d-41d1-ab3e-d6b200f4809c.webm"
+  - filename: "387421807-551a9b9a-6c51-41f8-b71a-93820cb9c8cb.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/581a4741-43bb-4889-b3a5-0ed33c0b933b"
+    youtube_source: "https://www.youtube.com/watch?v=p5hihaKDx1w"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/11 📺 🇬🇧 Curve.md"
+        line: 10
+        label: "387421807-551a9b9a-6c51-41f8-b71a-93820cb9c8cb.webm"
+  - filename: "387423522-f8e03c0b-4578-461b-8bf0-6b807d6aa99c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f0d363d2-2bd8-416b-9a90-25e4a9043961"
+    youtube_source: "https://youtu.be/iPLL8-919Bc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/06 📺 🇺🇸 US superapps.md"
+        line: 11
+        label: "387423522-f8e03c0b-4578-461b-8bf0-6b807d6aa99c.webm"
+  - filename: "387423652-f049b393-ed8d-4ecc-8f6e-6e15732f436b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/412f48d2-e12e-4e85-a421-3aa54d0f06bd"
+    youtube_source: "https://youtu.be/gQeXOIdIcpM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/01 📺 Amazon's vision.md"
+        line: 10
+        label: "387423652-f049b393-ed8d-4ecc-8f6e-6e15732f436b.webm"
+  - filename: "387424065-4b3e2ee0-a128-4fd2-894e-c72ff25a92aa.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f7906950-9e12-4641-ae7f-a6e4d07e329f"
+    youtube_source: "https://youtu.be/YwE6DINJsgY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/01 📺 Doctors' opinion.md"
+        line: 11
+        label: "387424065-4b3e2ee0-a128-4fd2-894e-c72ff25a92aa.webm"
+  - filename: "387428638-ebbbb1a0-fbb2-483e-8ac2-5a1fac5ed2ca.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4b428514-5bca-4512-a1e8-42923db9ea6e"
+    youtube_source: "https://youtu.be/H-lQdDF3rPw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/15 📺 Matter benefits.md"
+        line: 16
+        label: "387428638-ebbbb1a0-fbb2-483e-8ac2-5a1fac5ed2ca.webm"
+  - filename: "388839489-6b30a443-bbc4-49c4-8c0a-1c21253f32a7.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/fe24d8ad-7dd4-4772-bf02-fb1da1bc9516"
+    youtube_source: "https://youtu.be/fFX_BqbyBIM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/08 📺 🇺🇸 TSA with iPhone.md"
+        line: 11
+        label: "388839489-6b30a443-bbc4-49c4-8c0a-1c21253f32a7.webm"
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/09 📺 🇺🇸 TSA with Android.md"
+        line: 10
+        label: "388839489-6b30a443-bbc4-49c4-8c0a-1c21253f32a7.webm"
+  - filename: "399592223-12cbb7e5-b4b8-4d0a-b1f1-420a2c109f0b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/e190c55a-3ae0-4ede-b67c-c1ae5ed05b2a"
+    youtube_source: "https://youtu.be/qWVTjMsv7AE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/05 📺 Berners-Lee vaults.md"
+        line: 13
+        label: "399592223-12cbb7e5-b4b8-4d0a-b1f1-420a2c109f0b.webm"
+  - filename: "399592588-b0266aa6-3e33-45eb-82e3-ffff6db903aa.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/af8e6454-14d6-4bef-9121-6173e35164f7"
+    youtube_source: "https://youtu.be/4F-JsLukpyE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/13 📺 Amazon Sidewalk.md"
+        line: 19
+        label: "399592588-b0266aa6-3e33-45eb-82e3-ffff6db903aa.webm"
+  - filename: "400026832-c370e7f3-efd9-4a59-8922-1ce4097d0ac9.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/c708cea0-93df-4399-9d3b-853fdebd80c1"
+    youtube_source: "https://youtu.be/70LnBGFcooY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/10 📺 Google on 3P cookies.md"
+        line: 9
+        label: "400026832-c370e7f3-efd9-4a59-8922-1ce4097d0ac9.webm"
+  - filename: "400034189-c4be5cd4-b5a5-43e0-b6e0-2a9d20e95777.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7b360c28-0c2a-49ea-86e8-ac47ae6cd50c"
+    youtube_source: "https://youtu.be/6PS14piDGw4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/12 📺 🇸🇪 Sweden's Bank ID.md"
+        line: 8
+        label: "400034189-c4be5cd4-b5a5-43e0-b6e0-2a9d20e95777.webm"
+  - filename: "400034700-04c7814c-c575-48d9-afbb-8c73759e1a84.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4c8ebc1a-0008-4400-b4fe-5cd371f88392"
+    youtube_source: "https://youtu.be/m1vUbl2Z5xM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/04 📺 Visa on DID.md"
+        line: 10
+        label: "400034700-04c7814c-c575-48d9-afbb-8c73759e1a84.webm"
+  - filename: "400041454-9b471338-d535-451f-ac81-1a89c88d59d8.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/1ebe2723-395a-4349-a4f3-825be5287a58"
+    youtube_source: "https://youtu.be/gz-dDXWNA4I"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/11 📺 🇪🇸 Spain's e-certificates.md"
+        line: 8
+        label: "400041454-9b471338-d535-451f-ac81-1a89c88d59d8.webm"
+  - filename: "400046372-4dc89145-c4dc-4fe5-97a9-80e6df1a8425.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/5739e7ea-6216-4138-bb7f-053f3c75fdfb"
+    youtube_source: "https://www.youtube.com/watch?v=zacNBxADPH4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/10 📺 🇸🇬 Singapore's DID.md"
+        line: 11
+        label: "400046372-4dc89145-c4dc-4fe5-97a9-80e6df1a8425.webm"
+  - filename: "400088031-7efec767-c2f6-447a-8866-34a2b87b5bea.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/cdd2989b-099e-4fb6-8038-720ad6086f59"
+    youtube_source: "https://youtu.be/jTUc4hj9Kk8"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/03 📺 Amadeus Travel Ready.md"
+        line: 11
+        label: "400088031-7efec767-c2f6-447a-8866-34a2b87b5bea.webm"
+  - filename: "400090431-5a7fc667-6099-491b-b155-d75d201f6f18.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/ca420144-1d27-4a7f-b0b6-5bb23b4c2a13"
+    youtube_source: "https://youtu.be/L9kSwei92vM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/02 📺 IDEMIA's DTC-1.md"
+        line: 12
+        label: "400090431-5a7fc667-6099-491b-b155-d75d201f6f18.webm"
+  - filename: "400094714-64f506d3-e4e5-4883-917d-8c52898a8f22.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/c56ca88f-b37a-4ea9-932e-a8cb99f55af5"
+    youtube_source: "https://youtu.be/EnQYShsF76w"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/06 📺 🇮🇳 India's DigiYatra.md"
+        line: 11
+        label: "400094714-64f506d3-e4e5-4883-917d-8c52898a8f22.webm"
+  - filename: "400145237-61f0cf0e-eb28-4bea-ad18-6151acba0ffa.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/fd560651-e8c4-4516-b61a-313befb8bbea"
+    youtube_source: "https://youtu.be/9TG31dOttMM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/03 📺 🇬🇧 UK airports.md"
+        line: 13
+        label: "400145237-61f0cf0e-eb28-4bea-ad18-6151acba0ffa.webm"
+  - filename: "400148050-c6e46ed7-19fe-4c7c-9a25-3a3a1b3f19a7.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9ae01244-35a3-464d-b62c-9a60891e0d83"
+    youtube_source: "https://www.youtube.com/watch?v=0RvwhxuM1DI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/06 📺 🇹🇷 Turkey airports.md"
+        line: 12
+        label: "400148050-c6e46ed7-19fe-4c7c-9a25-3a3a1b3f19a7.webm"
+  - filename: "400151563-d649fca0-bee3-456b-bef9-854557363a74.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/d444b72f-a914-4953-9e43-b90498643ee6"
+    youtube_source: "https://www.youtube.com/watch?v=CCawIvwUeh0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/10 📺 Amazon One fitness.md"
+        line: 10
+        label: "400151563-d649fca0-bee3-456b-bef9-854557363a74.webm"
+  - filename: "400154514-dc33d215-bdeb-4b54-918d-1d403d46db48.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f99f2b6f-9632-4033-8914-0f5399f2bc0e"
+    youtube_source: "https://www.youtube.com/watch?v=QYd8cIclxwg"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/05 📺 🇪🇺 EU entry-exit.md"
+        line: 14
+        label: "400154514-dc33d215-bdeb-4b54-918d-1d403d46db48.webm"
+  - filename: "400157122-1a7a657d-4b89-4369-aa15-6e91eb50dd89.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/3523db1f-fdea-479e-85ed-62005f11fd82"
+    youtube_source: "https://www.youtube.com/watch?v=aEBi4OpXU4Q"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/01 📺 Uber remote ID.md"
+        line: 12
+        label: "400157122-1a7a657d-4b89-4369-aa15-6e91eb50dd89.webm"
+  - filename: "400162938-870afc94-5108-4b0e-a1ed-468bc27a972b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/5a81ddd6-360b-4b76-83a8-5f9146c9bbea"
+    youtube_source: "https://youtu.be/FnsYkUbhhqk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/02 📺 🇬🇧 Al Rayan Bank UK.md"
+        line: 15
+        label: "400162938-870afc94-5108-4b0e-a1ed-468bc27a972b.webm"
+  - filename: "400163003-77e47d43-3258-47d6-922d-67351fd7b465.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/e9ffd6ff-ff25-4978-9d08-c3587164df39"
+    youtube_source: "https://youtu.be/ahWQpXSq4IQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/04 📺 🇸🇬 OCBC Bank.md"
+        line: 16
+        label: "400163003-77e47d43-3258-47d6-922d-67351fd7b465.webm"
+  - filename: "400165310-d2faf70d-c18a-4299-97aa-7097c8bbd7fb.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/564549bb-58c0-4dca-8e76-4bb0d359f8c7"
+    youtube_source: "https://www.youtube.com/watch?v=cnyDQrfZFyo"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/01 📺 Difference.md"
+        line: 18
+        label: "400165310-d2faf70d-c18a-4299-97aa-7097c8bbd7fb.webm"
+  - filename: "400166524-25824755-21dd-42db-acfd-3ac3535221f2.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f54e517f-e20d-49e1-9817-f2a00ccb2f58"
+    youtube_source: "https://www.youtube.com/watch?v=nguUY7EAMBk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/03 📺 🇸🇬 Singapore.md"
+        line: 17
+        label: "400166524-25824755-21dd-42db-acfd-3ac3535221f2.webm"
+  - filename: "400167096-8ba79f61-e10a-43b8-88d8-5bfc33b40c8e.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/136e9dc8-424a-4d8b-85ee-a0119a993545"
+    youtube_source: "https://www.youtube.com/watch?v=fLRsjktcN_k"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/06 👮 Supervised ID landscape/08 📺 🇪🇸 CaixaBank ATMs.md"
+        line: 11
+        label: "400167096-8ba79f61-e10a-43b8-88d8-5bfc33b40c8e.webm"
+  - filename: "400168323-654c36c7-4645-40ac-874a-939f7fd419ca.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/aed47ab9-7dcb-4069-b3dc-cda781aee38e"
+    youtube_source: "https://www.youtube.com/watch?v=BhvZBysgNp0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/02 📺 FIDO passkeys.md"
+        line: 14
+        label: "400168323-654c36c7-4645-40ac-874a-939f7fd419ca.webm"
+  - filename: "400170082-8ce7dfb8-315c-4d05-885a-43a7840176d6.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/aee49236-3d96-455d-8da8-713ee4a62f08"
+    youtube_source: "https://www.youtube.com/watch?v=S7dWigI7Soc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/05 📺 Financial industry.md"
+        line: 11
+        label: "400170082-8ce7dfb8-315c-4d05-885a-43a7840176d6.webm"
+  - filename: "400170180-acde7a89-90a9-4162-846e-e54520749267.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/e52ea1ac-fa33-43f3-b270-5358b0db247a"
+    youtube_source: "https://www.youtube.com/watch?v=ZcStV3gWFA4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/06 📺 Wi-fi easy connect.md"
+        line: 12
+        label: "400170180-acde7a89-90a9-4162-846e-e54520749267.webm"
+  - filename: "400240484-89bccbe1-ac4a-455c-96b7-bd831145e3c5.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/05d2ab10-79de-481b-8586-0038fe0f1f3b"
+    youtube_source: "https://youtu.be/TVjs6B6AorQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/07 📺 🇪🇺 Europe's EPI.md"
+        line: 16
+        label: "400240484-89bccbe1-ac4a-455c-96b7-bd831145e3c5.webm"
+  - filename: "400246537-55f5f7e1-9d1d-439f-b283-96b000cbecbe.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/e32e6f23-ea88-4d53-9405-03459aba2808"
+    youtube_source: "https://youtu.be/aRtEC0oR9Vw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/02 📺 X's verified ID.md"
+        line: 11
+        label: "400246537-55f5f7e1-9d1d-439f-b283-96b000cbecbe.webm"
+  - filename: "400246816-055529fa-37eb-4cd5-8e33-8b6b0cad3648.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b57d957b-cb63-4f3a-9711-4c68162494ea"
+    youtube_source: "https://youtu.be/kPfdKk7p9Nk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/03 📺 Meta's verified ID.md"
+        line: 11
+        label: "400246816-055529fa-37eb-4cd5-8e33-8b6b0cad3648.webm"
+  - filename: "400363337-700993f2-51f2-4aec-a995-2d707bc0bf07.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9a68058d-ed1b-4cf9-82b7-7d8411dc81f7"
+    youtube_source: "https://youtu.be/xbOgrF4pNRw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/05 📺 🇺🇸 Square.md"
+        line: 10
+        label: "400363337-700993f2-51f2-4aec-a995-2d707bc0bf07.webm"
+  - filename: "400380611-decd6d0a-b4b8-4331-9968-8899a0c83298.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0c16a852-2765-419f-bdd9-7a654868b063"
+    youtube_source: "https://youtu.be/SonCIejcwjQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/05 📺 🇧🇷 Brazil's Pix.md"
+        line: 10
+        label: "400380611-decd6d0a-b4b8-4331-9968-8899a0c83298.webm"
+  - filename: "400395244-49df5b82-b347-4a12-8892-7138996b5499.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/31f46302-bb46-4cff-8514-0954b2cd607e"
+    youtube_source: "https://youtu.be/AynHulTaafk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/08 📺 🇪🇺 EU's DID Wallet.md"
+        line: 12
+        label: "400395244-49df5b82-b347-4a12-8892-7138996b5499.webm"
+  - filename: "400398049-f6dd6394-dbab-491a-b832-e931eed99509.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/2bc02261-21ff-460b-8853-dbc249121fb1"
+    youtube_source: "https://youtu.be/WM88AbmBU74"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/09 📺 🇵🇹 Portugal's MBWay.md"
+        line: 11
+        label: "400398049-f6dd6394-dbab-491a-b832-e931eed99509.webm"
+  - filename: "400415734-75d39514-7f96-45c1-91c7-13236a999476.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9f703cd3-d69d-45bf-ab5e-9a674f0ddfd0"
+    youtube_source: "https://youtu.be/yCdW06KER14"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/09 📺 🇮🇳 UPI QR WhatsApp.md"
+        line: 12
+        label: "400415734-75d39514-7f96-45c1-91c7-13236a999476.webm"
+  - filename: "400418796-dc5cdcc2-906d-4807-918d-9a0c81bb81ca.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/c2cb185c-515f-4804-bfb2-20b12d2fd36a"
+    youtube_source: "https://youtu.be/YIV2yYmN2CY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/05 💳 Payments landscape/12 📺 Meta's Libra.md"
+        line: 12
+        label: "400418796-dc5cdcc2-906d-4807-918d-9a0c81bb81ca.webm"
+  - filename: "400434890-4535e847-d301-4e46-8e72-06d120d8b063.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7c565fd5-a878-493d-a8a9-9e2bea7034c0"
+    youtube_source: "https://youtu.be/NSt44GVZsvQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/17 📺 🇬🇧 Revolut.md"
+        line: 10
+        label: "400434890-4535e847-d301-4e46-8e72-06d120d8b063.webm"
+  - filename: "400437142-b150396e-6e5b-4cba-8f41-71ca91e10041.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8187b0b3-4d2b-43e9-b4a3-589c6e647e0a"
+    youtube_source: "https://youtu.be/ewikM1kcD7U"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/18 📺 🇺🇸 Stripe.md"
+        line: 10
+        label: "400437142-b150396e-6e5b-4cba-8f41-71ca91e10041.webm"
+  - filename: "400438946-1ec4a114-723c-4c6c-a518-b7243017b060.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/47141cbc-3d80-4094-b780-8a3b6e1d6ec2"
+    youtube_source: "https://youtu.be/H-IR8bq1TX4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/10 📺 🇮🇳 Amazon Pay.md"
+        line: 10
+        label: "400438946-1ec4a114-723c-4c6c-a518-b7243017b060.webm"
+  - filename: "400442757-a3bf4e1a-7373-4694-823c-e869dd6c77fc.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/816da11a-bbcd-4319-85d3-59a836570288"
+    youtube_source: "https://youtu.be/IJoS8L6OmFE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/19 📺 🇬🇧 Wise.md"
+        line: 10
+        label: "400442757-a3bf4e1a-7373-4694-823c-e869dd6c77fc.webm"
+  - filename: "400533357-c82e2933-d3ad-4e7b-aeb3-0c4f8a7d3ad5.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4617a897-0b61-433c-aa8b-bf35032d1ada"
+    youtube_source: "https://youtu.be/Qs8xWSwI3js"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape/03 📺 Amazon RxPass.md"
+        line: 11
+        label: "400533357-c82e2933-d3ad-4e7b-aeb3-0c4f8a7d3ad5.webm"
+  - filename: "400533709-bd2c2c60-477f-42ea-b929-e01b136b5c14.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b585d3ed-b75f-47f3-bc16-74b65c561c6f"
+    youtube_source: "https://youtu.be/X-tahQ36q6Y"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape/06 📺 Square store.md"
+        line: 10
+        label: "400533709-bd2c2c60-477f-42ea-b929-e01b136b5c14.webm"
+  - filename: "400533998-c00e00b3-d242-4296-99cc-ea3e752890be.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f3e04283-7784-4097-94f1-3f0f7c6cfa02"
+    youtube_source: "https://youtu.be/Omg2e7kbEdo"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape/07 📺 Stripe billing.md"
+        line: 7
+        label: "400533998-c00e00b3-d242-4296-99cc-ea3e752890be.webm"
+  - filename: "400563913-831bf8fd-44db-4952-89f3-40e94b516ad7.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f0b3b76e-5c2f-4001-aad9-acc26c67d1b0"
+    youtube_source: "https://www.youtube.com/watch?v=8MfjrltahnA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/08 🗓️ Subscriptions landscape/04 📺 Apple Store.md"
+        line: 11
+        label: "400563913-831bf8fd-44db-4952-89f3-40e94b516ad7.webm"
+  - filename: "400794639-48aee640-5a90-4f9b-a901-aafc4c08188f.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/2002b01e-7257-47fe-bbc2-a41a425f3145"
+    youtube_source: "https://youtu.be/WNt25gLhKMQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/01 📺 Why drop passwords.md"
+        line: 13
+        label: "400794639-48aee640-5a90-4f9b-a901-aafc4c08188f.webm"
+  - filename: "400799794-590d84be-2442-476d-8269-ff74f8115146.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/cac95991-b410-4fb8-8f83-07341f697536"
+    youtube_source: "https://www.youtube.com/watch?v=1ph-XMW4osQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/03 📺 Google chats.md"
+        line: 10
+        label: "400799794-590d84be-2442-476d-8269-ff74f8115146.webm"
+  - filename: "400858726-375345e7-f051-4834-b2e0-72193d3aac2a.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9739960c-8fa1-46a8-8cec-7fe38bb863bd"
+    youtube_source: "https://www.youtube.com/watch?v=gefmygtzZR8"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/02 📺 🇮🇳 India's Beckn.md"
+        line: 12
+        label: "400858726-375345e7-f051-4834-b2e0-72193d3aac2a.webm"
+  - filename: "400864112-dc169961-2b86-44dd-9bde-0233baf6e27b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7ce89e5a-8a01-4e82-9a61-19b0523af916"
+    youtube_source: "https://www.youtube.com/watch?v=efWNg_ME63k"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/07 📺 🇨🇳 WeChat.md"
+        line: 9
+        label: "400864112-dc169961-2b86-44dd-9bde-0233baf6e27b.webm"
+  - filename: "400878481-5d577f07-812e-4efa-a5cc-d4a494c20f32.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/129aa285-119b-4ff7-8a03-d783607ad532"
+    youtube_source: "https://www.youtube.com/watch?v=OKcdUT3ZSwA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/04 📺 🇨🇳 WeChat programs.md"
+        line: 10
+        label: "400878481-5d577f07-812e-4efa-a5cc-d4a494c20f32.webm"
+  - filename: "400881731-e39abaac-264b-47aa-b34c-b4970b1a2539.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/d72f7ae1-d8ad-4f99-827d-7c3e9b89f368"
+    youtube_source: "https://www.youtube.com/watch?v=OKcdUT3ZSwA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/05 📺 🇨🇳 WeChat platforms.md"
+        line: 15
+        label: "400881731-e39abaac-264b-47aa-b34c-b4970b1a2539.webm"
+  - filename: "401284720-5d94b414-a792-471a-9fc0-31f624dd4c11.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/032ea0f1-35bf-496c-8807-49390f80f605"
+    youtube_source: "https://youtu.be/sREKZ39bnmI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/01 📺 Starlink @ remote areas.md"
+        line: 12
+        label: "401284720-5d94b414-a792-471a-9fc0-31f624dd4c11.webm"
+  - filename: "401287343-dda8d30b-028e-401d-be97-15298ed1a500.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/19da5e5b-3b98-490b-a011-3732d3c8fc09"
+    youtube_source: "https://youtu.be/Xb3OwFDEjiM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/02 📺 Starlink @ airplanes.md"
+        line: 12
+        label: "401287343-dda8d30b-028e-401d-be97-15298ed1a500.webm"
+  - filename: "401289541-60688758-7f46-4cf5-860c-29525c706682.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/d7a18958-013c-45ff-b57e-7a46a49ab48b"
+    youtube_source: "https://youtu.be/SWIkbxTGoRI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/03 📺 Starlink @ phones.md"
+        line: 13
+        label: "401289541-60688758-7f46-4cf5-860c-29525c706682.webm"
+  - filename: "401292404-4b0e32b3-ca60-4bd8-a66b-75f88a0bfb97.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/c47f49da-d326-4856-bc83-53c017027dc5"
+    youtube_source: "https://youtu.be/AJTWy_sz4YI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/01 🛰️ Connectivity landscape/05 📺 6G internet.md"
+        line: 13
+        label: "401292404-4b0e32b3-ca60-4bd8-a66b-75f88a0bfb97.webm"
+  - filename: "402853010-4d629d70-35c2-408a-a935-748b8e29345e.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7963b1b5-81d8-4a76-93e9-5adc83789494"
+    youtube_source: "https://youtu.be/aqrolPymsFw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/01 📺 Random PII smart glasses.md"
+        line: 13
+        label: "402853010-4d629d70-35c2-408a-a935-748b8e29345e.webm"
+  - filename: "402853445-d3a074f2-212e-441b-aca7-4b9a295a16e8.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/ade48aa2-8972-4f4d-a533-24e881f1f59b"
+    youtube_source: "https://youtu.be/UnVlAfQCRO0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/03 📺 🇺🇸 Google's search delete.md"
+        line: 13
+        label: "402853445-d3a074f2-212e-441b-aca7-4b9a295a16e8.webm"
+  - filename: "402853753-95fa2ebf-6508-451c-8add-0d441f8e7ede.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4b996900-170a-4057-be28-1f044d93ac96"
+    youtube_source: "https://youtu.be/oLMsDvjpJ8Y"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/02 📺 Social media.md"
+        line: 12
+        label: "402853753-95fa2ebf-6508-451c-8add-0d441f8e7ede.webm"
+  - filename: "403080265-83dd031d-ce75-4f24-84ca-f841bbb58b06.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/c32f87ad-9f6c-46dd-87bf-77590a9b5981"
+    youtube_source: "https://youtu.be/0KFpUZT7go4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/04 📺 Big techs in finance.md"
+        line: 11
+        label: "403080265-83dd031d-ce75-4f24-84ca-f841bbb58b06.webm"
+  - filename: "403082367-1263f426-7651-4317-aec4-e2f5eb8abc78.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/66e4b3ff-851b-49a7-a055-3d63827f48ed"
+    youtube_source: "https://youtu.be/CKPTPG8svlk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/04 📺 Huawei 5G.md"
+        line: 10
+        label: "403082367-1263f426-7651-4317-aec4-e2f5eb8abc78.webm"
+  - filename: "403082664-e88d0b75-d90b-420c-8427-9d599b20d38c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/1591470e-d654-4ea0-b090-03b072394a34"
+    youtube_source: "https://youtu.be/mtWi2Fn0K2g"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/06 📺 🇨🇳 China's privacy law.md"
+        line: 10
+        label: "403082664-e88d0b75-d90b-420c-8427-9d599b20d38c.webm"
+  - filename: "403083505-8adfd7c0-7671-4f1d-a3a2-af2fc246df38.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/43c424e3-b874-4498-8258-234e4b047321"
+    youtube_source: "https://youtu.be/p1GvhS8fp94"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/08 📺 OpenAI vs Google.md"
+        line: 10
+        label: "403083505-8adfd7c0-7671-4f1d-a3a2-af2fc246df38.webm"
+  - filename: "403083777-cc5af6ef-0080-4103-b871-ad8ffac804ed.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a01f49dd-08f0-4b0d-a5bb-52a6e8b216b7"
+    youtube_source: "https://youtu.be/LSxJx1-mn8c"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/08 📺 🇺🇸 NSA data collection.md"
+        line: 10
+        label: "403083777-cc5af6ef-0080-4103-b871-ad8ffac804ed.webm"
+  - filename: "403084726-a3aa6080-7036-426f-a231-73327fb73128.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0136fd7d-cbb7-42d8-9404-8e64bf597e86"
+    youtube_source: "https://youtu.be/auwP7tJtMkY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/05 📺 Medical records.md"
+        line: 10
+        label: "403084726-a3aa6080-7036-426f-a231-73327fb73128.webm"
+  - filename: "403086696-c179cedc-eba5-4e7a-b5a1-e569dbf6238c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/1d67c556-f5e9-458e-ad64-ff1f7ac93c63"
+    youtube_source: "https://youtu.be/_fqdkUHb7Tc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/05 📺 Internet gov.md"
+        line: 11
+        label: "403086696-c179cedc-eba5-4e7a-b5a1-e569dbf6238c.webm"
+  - filename: "403095300-df4c185d-f157-44c4-b5e4-4c88749d1788.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/5f963cff-415a-436c-931d-328632a0c029"
+    youtube_source: "https://youtu.be/a70wGpzASUI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/06 📺 Project Nightingale.md"
+        line: 10
+        label: "403095300-df4c185d-f157-44c4-b5e4-4c88749d1788.webm"
+  - filename: "403099063-0e8e5a9f-881a-42e6-abbd-9a3a2c5848ea.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0d8addab-fcb5-4342-9733-f491e3764d30"
+    youtube_source: "https://youtu.be/xs0fzKbkuWQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/07 📺 Auto makers.md"
+        line: 12
+        label: "403099063-0e8e5a9f-881a-42e6-abbd-9a3a2c5848ea.webm"
+  - filename: "403100384-d8ce0638-1ee3-4fcf-b9e5-72e2a35f2f88.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9800d81e-815f-4288-8643-acef2005f93e"
+    youtube_source: "https://youtu.be/aoiYa0G_SpA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/13 📺 🇺🇸 Insurance premium.md"
+        line: 10
+        label: "403100384-d8ce0638-1ee3-4fcf-b9e5-72e2a35f2f88.webm"
+  - filename: "403101450-75fb914f-6c60-42ed-b40c-480110123456.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0616d949-9ebb-4277-bbef-682cdc9c66c6"
+    youtube_source: "https://youtu.be/U4qooWtovhU"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/02 📺 Cambridge Analytica.md"
+        line: 11
+        label: "403101450-75fb914f-6c60-42ed-b40c-480110123456.webm"
+  - filename: "403113936-9cc56482-a751-4a0b-b2bc-703773ab6443.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/70d6f4a2-13c5-4011-b9b3-4bce7dc75ed2"
+    youtube_source: "https://youtu.be/xmsYHsyyJdc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/11 📺 Personal Health.md"
+        line: 15
+        label: "403113936-9cc56482-a751-4a0b-b2bc-703773ab6443.webm"
+  - filename: "403135305-9e9af4c0-5fd1-4d38-b3ac-4552b28373d0.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/e290ee94-0824-4e13-b9e5-b015f7b9f26e"
+    youtube_source: "https://youtu.be/p8yyNOtJ3kw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/09 📺 WhatsApp monetize.md"
+        line: 10
+        label: "403135305-9e9af4c0-5fd1-4d38-b3ac-4552b28373d0.webm"
+  - filename: "403153498-35b61be0-064c-453a-93e5-e5084e307319.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/3ee1db85-add0-45c4-bea4-48b2b845e665"
+    youtube_source: "https://youtu.be/EBRhJXOdYco"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/12 📺 🇺🇸 Driver's points.md"
+        line: 10
+        label: "403153498-35b61be0-064c-453a-93e5-e5084e307319.webm"
+  - filename: "403159634-bbe65ed5-30ad-4de9-8055-971b0fad84ca.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f88c43e8-db87-4e69-be71-1da40488fb25"
+    youtube_source: "https://youtu.be/dM7Fshl0Mxg"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/15 📺 Uber 2-way rating.md"
+        line: 10
+        label: "403159634-bbe65ed5-30ad-4de9-8055-971b0fad84ca.webm"
+  - filename: "403167457-bfa8de0f-1f0e-49b0-b78b-76937a6909c4.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/1833e40a-9f78-4a4d-b3ca-1e99de537f95"
+    youtube_source: "https://youtu.be/0cGB8dCDf3c"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/16 📺 🇨🇳 Social credit.md"
+        line: 20
+        label: "403167457-bfa8de0f-1f0e-49b0-b78b-76937a6909c4.webm"
+  - filename: "403172342-3b5b847a-5c72-4719-9c94-71e40cfc2b06.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8783677d-2ad4-4f2a-b01e-32dc93683d6a"
+    youtube_source: "https://youtu.be/7rH_W5PN8ns"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/04 📺 🇪🇺 Google in Europe.md"
+        line: 11
+        label: "403172342-3b5b847a-5c72-4719-9c94-71e40cfc2b06.webm"
+  - filename: "403176508-49e1b125-a7dc-4cf0-85e8-020814f1b055.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/c23c9135-cafb-4338-982b-50dcd8dfe0b7"
+    youtube_source: "https://youtu.be/cxOdFGg3Sgs"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/06 📺 🇨🇳 Baidu vs Google.md"
+        line: 10
+        label: "403176508-49e1b125-a7dc-4cf0-85e8-020814f1b055.webm"
+  - filename: "403177143-7798dcd1-94f5-4afa-8088-070c0875f461.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/e94bbe12-4628-466b-8975-4c96f194c40a"
+    youtube_source: "https://youtu.be/X34AyeJHxN4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/03 📺 🇨🇳 Google in China.md"
+        line: 10
+        label: "403177143-7798dcd1-94f5-4afa-8088-070c0875f461.webm"
+  - filename: "403178531-146a1296-7052-45bc-8e39-402a024775b0.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/355c983e-ba74-44c5-86be-101c04a5108b"
+    youtube_source: "https://youtu.be/m5yFhJFqw5w"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/02 📺 Tencent chats.md"
+        line: 10
+        label: "403178531-146a1296-7052-45bc-8e39-402a024775b0.webm"
+  - filename: "403181480-75bfb4d7-627a-4784-a609-3a4ad3f9a968.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/cc1d5cbf-1d74-4c27-bbfd-69d7438507a6"
+    youtube_source: "https://youtu.be/luWf6Zfyvms"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/07 📺 TikTok vs Google.md"
+        line: 10
+        label: "403181480-75bfb4d7-627a-4784-a609-3a4ad3f9a968.webm"
+  - filename: "403459273-e709e06f-234a-4e01-adb8-d1ffcd5f3f2b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/5d0906da-8d5c-4160-870e-3c7834c2c470"
+    youtube_source: "https://youtu.be/7TVlel5GXEs"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/07 📺 🇪🇺 Europe's GDPR.md"
+        line: 20
+        label: "403459273-e709e06f-234a-4e01-adb8-d1ffcd5f3f2b.webm"
+  - filename: "403463103-0a295664-7a58-4e56-888e-c6992ced1823.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a491922f-57e7-4f8e-8672-99add06a3b74"
+    youtube_source: "https://youtu.be/QwvhNEKQUkw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/04 📺 🇨🇳 China's privacy law.md"
+        line: 11
+        label: "403463103-0a295664-7a58-4e56-888e-c6992ced1823.webm"
+  - filename: "403543631-a1043d2f-f51c-4422-b242-184c38c465c0.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f0c37b69-5094-4831-b3ea-351cafe166ab"
+    youtube_source: "https://youtu.be/spwHNuZGiDk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/05 📂 ID Wallets landscape/03 📺 Open Source Wallet.md"
+        line: 12
+        label: "403543631-a1043d2f-f51c-4422-b242-184c38c465c0.webm"
+  - filename: "403544206-e458a64e-84ff-4e19-b2e8-a7863d6e1f08.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8e883127-873a-4741-809f-48dd1bb5edfb"
+    youtube_source: "https://youtu.be/iwoMCXCwS7w"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/13 📺 Apple's StoreKit.md"
+        line: 11
+        label: "403544206-e458a64e-84ff-4e19-b2e8-a7863d6e1f08.webm"
+  - filename: "403583322-3166f09f-5dcf-4d8e-bf49-e3eb494a0c1c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/652e5ce5-9e16-49ac-98bf-f992ac4807d4"
+    youtube_source: "https://youtu.be/q8cARq6Cixw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/01 🕵 Profiling landscape/03 📺 OpenAI copyright.md"
+        line: 11
+        label: "403583322-3166f09f-5dcf-4d8e-bf49-e3eb494a0c1c.webm"
+  - filename: "403584001-ad355b7c-ed9d-4369-82db-497b3c721e55.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0a881f4a-503f-4d4f-bc10-35e01c943e62"
+    youtube_source: "https://youtu.be/L35eKUN4ZZ8"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/09 📺 Sovereignty @ Azure.md"
+        line: 11
+        label: "403584001-ad355b7c-ed9d-4369-82db-497b3c721e55.webm"
+  - filename: "403586468-8c5826aa-2c07-4f03-81f7-a5052be51783.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/38a799d2-1e24-439d-9ef3-a37cdcfcd8dc"
+    youtube_source: "https://youtu.be/LRGUsN_2lY0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/10 📺 Sovereignty @ AWS.md"
+        line: 10
+        label: "403586468-8c5826aa-2c07-4f03-81f7-a5052be51783.webm"
+  - filename: "403616276-8fabcc5b-54d1-46f8-93df-c9651afb29ba.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8063ce32-84a8-4ae5-a60e-1ff08353b38d"
+    youtube_source: "https://youtu.be/DEAlEYTZCxk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/12 📺 Affinidi.md"
+        line: 12
+        label: "403616276-8fabcc5b-54d1-46f8-93df-c9651afb29ba.webm"
+  - filename: "403616409-543ddbb7-cc6f-4494-b088-44844054a5ae.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7daf6130-f94f-43fa-8c8e-4e571cb63455"
+    youtube_source: "https://youtu.be/5nf78OuCqjE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/13 📺 PayPal Fastlane.md"
+        line: 12
+        label: "403616409-543ddbb7-cc6f-4494-b088-44844054a5ae.webm"
+  - filename: "403617145-018a3bdd-abd1-44cb-b12d-5526aa774ffd.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/03dcd19a-b61e-42f0-bbcd-460171fd1a74"
+    youtube_source: "https://youtu.be/kJAapPG_jBY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/08 📺 SSI zero knowledge proof.md"
+        line: 12
+        label: "403617145-018a3bdd-abd1-44cb-b12d-5526aa774ffd.webm"
+  - filename: "403617428-5faa161f-6c6e-4f9d-8a54-cf9708399bc5.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/34affe7f-78a3-40ae-84e0-3aedeb2ffa31"
+    youtube_source: "https://youtu.be/pGbuWu-0z9I"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/06 📺 SSI form auto filling.md"
+        line: 13
+        label: "403617428-5faa161f-6c6e-4f9d-8a54-cf9708399bc5.webm"
+  - filename: "403617579-ab8688a7-feb7-42f3-9570-e628508acf50.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4db44124-1f5d-4c8f-9e31-511cb0d58d8c"
+    youtube_source: "https://youtu.be/JJBfXg_vdS0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/07 📺 SSI selective disclosure.md"
+        line: 10
+        label: "403617579-ab8688a7-feb7-42f3-9570-e628508acf50.webm"
+  - filename: "403617661-818cffa6-4f6d-4a26-bd85-7f01f4f95154.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/186616a8-db3a-47cc-ab49-7c6f1c2a2371"
+    youtube_source: "https://youtu.be/PW068ZarNrU"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/09 📺 Passwordless login.md"
+        line: 11
+        label: "403617661-818cffa6-4f6d-4a26-bd85-7f01f4f95154.webm"
+  - filename: "404069996-0b7172f1-f0e4-4c10-a620-237eca5db233.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/1660fe13-0b49-4f3e-b1f9-39adbb1ea83a"
+    youtube_source: "https://youtu.be/-z0Ne8G_OPs"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/07 📺 Do-not-track button.md"
+        line: 10
+        label: "404069996-0b7172f1-f0e4-4c10-a620-237eca5db233.webm"
+  - filename: "404070549-8dd4fd30-d948-4cd2-b678-0dd144d2e9e8.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/64d07809-e822-47b5-8c83-9415b3130be3"
+    youtube_source: "https://youtu.be/WutEOfwRFxA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/08 📺 Google Ad ID.md"
+        line: 11
+        label: "404070549-8dd4fd30-d948-4cd2-b678-0dd144d2e9e8.webm"
+  - filename: "404082137-52d8a335-71e9-49f9-b44c-d63c2e5d9a6d.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/288a88a9-549f-4972-8225-c6c9b171c0b1"
+    youtube_source: "https://youtu.be/8Q7zPKEF7_I"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/09 📺 Google Sandbox.md"
+        line: 10
+        label: "404082137-52d8a335-71e9-49f9-b44c-d63c2e5d9a6d.webm"
+  - filename: "404082654-3c0c6fe2-20cc-4825-b64f-6a3e59fcaf70.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/2feccbdd-6205-4fd1-8af9-831274a89455"
+    youtube_source: "https://youtu.be/lHqlRYJsXGQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/14 📺 Apple's ATT.md"
+        line: 12
+        label: "404082654-3c0c6fe2-20cc-4825-b64f-6a3e59fcaf70.webm"
+  - filename: "404305014-e6cc810c-c677-4171-95ba-bf380888b390.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b878d4fd-1564-4615-9c44-260997cbc9db"
+    youtube_source: "https://youtu.be/TgZ-9sfo5i0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/05 📺 Meta ads on apps.md"
+        line: 7
+        label: "404305014-e6cc810c-c677-4171-95ba-bf380888b390.webm"
+  - filename: "404406360-2216aed3-c7b5-4e8d-a1e2-6a94f143e134.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/9055f9c1-3ead-47c6-88b1-65cb45aabc7a"
+    youtube_source: "https://youtu.be/SiutZmJeRlk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/14 📺 Gartner twins.md"
+        line: 12
+        label: "404406360-2216aed3-c7b5-4e8d-a1e2-6a94f143e134.webm"
+  - filename: "404409734-e0c66c5d-c32c-4578-ab26-92941a4f8560.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/028a2e0b-a15e-4170-8dcc-d72011bb1def"
+    youtube_source: "https://youtu.be/73akzobLE3Q"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/03 🔎 Searching landscape/02 📺 Google on iPhones.md"
+        line: 10
+        label: "404409734-e0c66c5d-c32c-4578-ab26-92941a4f8560.webm"
+  - filename: "404474550-4d7ae82e-e28a-4f93-a7c8-328d74a6c92a.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/346cdc1e-08b4-4d26-8557-a74e181ccade"
+    youtube_source: "https://youtu.be/JfzwVl1wy0s"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/09 📺 Amazon liveness.md"
+        line: 17
+        label: "404474550-4d7ae82e-e28a-4f93-a7c8-328d74a6c92a.webm"
+  - filename: "404596977-c04e7f59-4ecb-4971-9c84-a27085f68efe.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a4e7ebc3-a355-4534-a494-3f016eba90ae"
+    youtube_source: "https://youtu.be/VIcBpRpiBoc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/09 🔏 Signatures landscape/01 📺 Signature benefits.md"
+        line: 11
+        label: "404596977-c04e7f59-4ecb-4971-9c84-a27085f68efe.webm"
+  - filename: "404597134-201849d9-f384-42c5-8a1c-bf024f071dcd.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b33d6b08-922a-4c65-a97d-1af48071efb2"
+    youtube_source: "https://youtu.be/rxD6qGUpi9U"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/09 🔏 Signatures landscape/02 📺 Signature regulations.md"
+        line: 9
+        label: "404597134-201849d9-f384-42c5-8a1c-bf024f071dcd.webm"
+  - filename: "404598254-13bf1d9d-5cbf-4c88-bdc8-260d978c793b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0e817813-b2e7-4ca3-9447-72513cea0b8d"
+    youtube_source: "https://youtu.be/smGBYnB6sJo"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/09 🔏 Signatures landscape/03 📺 Signature mechanisms.md"
+        line: 12
+        label: "404598254-13bf1d9d-5cbf-4c88-bdc8-260d978c793b.webm"
+  - filename: "404598376-4c1943c1-1f94-40aa-9318-81ab690132c5.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/43fe3190-1a95-4736-bb31-ef2c7566036f"
+    youtube_source: "https://youtu.be/XJQodZznPu0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/09 🔏 Signatures landscape/04 📺 Docusign EU regulation.md"
+        line: 13
+        label: "404598376-4c1943c1-1f94-40aa-9318-81ab690132c5.webm"
+  - filename: "404598591-845ababb-7a64-4ea7-885a-58a26f8c6933.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/97dc0b48-059f-481d-89bd-809575c0160d"
+    youtube_source: "https://youtu.be/jF2WJGz3foY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/09 🔏 Signatures landscape/05 📺 Recommendations.md"
+        line: 11
+        label: "404598591-845ababb-7a64-4ea7-885a-58a26f8c6933.webm"
+  - filename: "404604551-d8e8f940-da58-43ac-84cb-76011be4e2fa.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/296292f0-3cdb-4617-bc26-5de734c00d25"
+    youtube_source: "https://youtu.be/tyvpXsF5HL4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/01 📺 🇺🇸 PRISM scandal.md"
+        line: 17
+        label: "404604551-d8e8f940-da58-43ac-84cb-76011be4e2fa.webm"
+  - filename: "404680826-3a6568f5-76df-484a-b9d8-476aa3161c75.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/bd1a1c5f-27ce-4bab-bdda-538cd4fbf58e"
+    youtube_source: "https://youtu.be/ku23RM3demA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/02 🧢 Personalization landscape/10 📺 COVID.md"
+        line: 12
+        label: "404680826-3a6568f5-76df-484a-b9d8-476aa3161c75.webm"
+  - filename: "404680912-5ce068d4-c1a2-40c0-ae09-1a1b73aadb3b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/15b558ec-e2e8-4c50-a753-ffd33d94a2a2"
+    youtube_source: "https://youtu.be/rsjOspFXwDY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/05 📺 Apple Face ID.md"
+        line: 17
+        label: "404680912-5ce068d4-c1a2-40c0-ae09-1a1b73aadb3b.webm"
+  - filename: "404683902-2f8bc8de-b73d-4ee9-b2d1-edd0b884c634.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/1865eda7-0142-4e41-a57d-84fda1ff7c49"
+    youtube_source: "https://youtu.be/hSPjlhLiCV4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/06 📺 Apple's security.md"
+        line: 17
+        label: "404683902-2f8bc8de-b73d-4ee9-b2d1-edd0b884c634.webm"
+  - filename: "404684669-7aa08543-1347-4f66-b391-1bfa2d20ef28.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/bdb471f3-3de9-487a-88ef-8440229321dc"
+    youtube_source: "https://youtu.be/alvQtqDkw0I"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/08 📺 Deep fakes.md"
+        line: 16
+        label: "404684669-7aa08543-1347-4f66-b391-1bfa2d20ef28.webm"
+  - filename: "404688552-71106733-c6c1-468d-abea-dddd6f71f10b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4fcaf1ab-9681-4440-9814-df6e2a27a5cb"
+    youtube_source: "https://www.youtube.com/watch?v=m9qjraDsaGI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/03 📺 Gartner's vision.md"
+        line: 16
+        label: "404688552-71106733-c6c1-468d-abea-dddd6f71f10b.webm"
+  - filename: "404689299-8bfffdae-3459-47b2-a866-b714b99368da.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/819295cf-8c01-4adb-bb96-d3f47f904110"
+    youtube_source: "https://youtu.be/m9qjraDsaGI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/05 📺 Gartner's vision.md"
+        line: 15
+        label: "404689299-8bfffdae-3459-47b2-a866-b714b99368da.webm"
+  - filename: "404697068-c2190acc-70a8-4839-b2e1-7043e2d2203d.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b4abc052-1be6-42a0-95c2-ef952dd470ee"
+    youtube_source: "https://youtu.be/LELufh_XbN4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/13 📺 NFC tap distance.md"
+        line: 11
+        label: "404697068-c2190acc-70a8-4839-b2e1-7043e2d2203d.webm"
+  - filename: "404697094-61ad138e-fb92-42d8-8813-b5dad94343b4.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/11a49fff-33a7-4dde-852f-462d253d4c26"
+    youtube_source: "https://youtu.be/-qCanuYrR0g"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/02 📺 Google restaurant.md"
+        line: 11
+        label: "404697094-61ad138e-fb92-42d8-8813-b5dad94343b4.webm"
+  - filename: "404704224-eb3685e1-3cb7-4311-b0ac-7bd8530cc85f.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0da07995-dc61-4904-818c-39544d3d8071"
+    youtube_source: "https://youtu.be/1_pvzLHKIgc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/02 📺 Personalization.md"
+        line: 10
+        label: "404704224-eb3685e1-3cb7-4311-b0ac-7bd8530cc85f.webm"
+  - filename: "404704231-c926162c-3bc6-4a39-83bf-52f7186215cf.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7da39fc7-8eb9-4a36-83f6-dc5c775ee3eb"
+    youtube_source: "https://youtu.be/9AqDn3sMVDA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/09 📺 NFC tags.md"
+        line: 11
+        label: "404704231-c926162c-3bc6-4a39-83bf-52f7186215cf.webm"
+  - filename: "404704249-971f3161-2702-4454-ab10-3fcf0ce855ae.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/6f48099f-4583-49c1-9570-7b1ca04bf573"
+    youtube_source: "https://youtu.be/Hb90JvOeNLQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/15 📺 NFC on metal.md"
+        line: 11
+        label: "404704249-971f3161-2702-4454-ab10-3fcf0ce855ae.webm"
+  - filename: "404704256-5bb89ee1-2656-4a48-beb8-a42304b5e1a6.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b91548be-573e-4f0d-b82e-0713817bf458"
+    youtube_source: "https://youtu.be/I5ETrpF20sU"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/14 📺 NFC in clothing.md"
+        line: 11
+        label: "404704256-5bb89ee1-2656-4a48-beb8-a42304b5e1a6.webm"
+  - filename: "404704263-6c2a257e-86b0-4f2f-a416-a62c25dbe616.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b59d60b1-8079-4477-abda-b15686630bd5"
+    youtube_source: "https://youtu.be/LVLuJFHV8uY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/02 📺 Fob keys.md"
+        line: 10
+        label: "404704263-6c2a257e-86b0-4f2f-a416-a62c25dbe616.webm"
+  - filename: "404704276-fce35e0d-636f-4905-a48d-32e6f371141d.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/88971504-c748-4278-b2e5-d26529183071"
+    youtube_source: "https://youtu.be/NzRaXW1xkOk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/04 📺 Smart car keys.md"
+        line: 10
+        label: "404704276-fce35e0d-636f-4905-a48d-32e6f371141d.webm"
+  - filename: "404704305-1ae21701-3f96-4e39-ba9c-7314629acb5d.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/e342e0d2-5c1c-4bc6-8a82-7b7356e79875"
+    youtube_source: "https://youtu.be/ZFN881RKVZI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/11 📺 NFC authentication.md"
+        line: 13
+        label: "404704305-1ae21701-3f96-4e39-ba9c-7314629acb5d.webm"
+  - filename: "404704315-354028b0-e245-4f36-80dc-1061405fbaf3.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/d015b96f-e724-4eb1-ae1c-0e798652f02e"
+    youtube_source: "https://youtu.be/e7WizGGRdvY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/12 📺 NFC tamper aware.md"
+        line: 12
+        label: "404704315-354028b0-e245-4f36-80dc-1061405fbaf3.webm"
+  - filename: "404704343-8108a503-0f97-4910-8dcf-11d7583cb216.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/fdabe66e-cf95-43d9-a53c-6933fed02e58"
+    youtube_source: "https://youtu.be/m0wXeSxQj9I"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/10 📺 NFC vs RFID.md"
+        line: 10
+        label: "404704343-8108a503-0f97-4910-8dcf-11d7583cb216.webm"
+  - filename: "404704369-f81c6dab-5d6d-4dc3-9afe-b9246416428f.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/02a04726-91f2-4397-b562-b043dcabe92b"
+    youtube_source: "https://youtu.be/tHbrV4UgtiY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/16 📺 NFC dynamic url.md"
+        line: 10
+        label: "404704369-f81c6dab-5d6d-4dc3-9afe-b9246416428f.webm"
+  - filename: "404704377-9e00a0a7-0996-4b1f-97c9-41518af05fee.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b77fd1fb-7e19-4e77-a0e7-140d8cef670d"
+    youtube_source: "https://youtu.be/y_M4Y_XvuXc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/04 📺 QR dynamic url.md"
+        line: 10
+        label: "404704377-9e00a0a7-0996-4b1f-97c9-41518af05fee.webm"
+  - filename: "404704381-43cb1d45-77f0-4e04-a227-83187699050b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4bdc9fde-7b64-4255-9953-b73e971ead52"
+    youtube_source: "https://youtu.be/zZXCt1Ud_zE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/03 📺 QR codes.md"
+        line: 11
+        label: "404704381-43cb1d45-77f0-4e04-a227-83187699050b.webm"
+  - filename: "404706860-ebe81b73-22e8-40ef-bb33-94978a6974c3.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/e3b5e8a3-eac8-4ee9-a7d2-b39091bca567"
+    youtube_source: "https://youtu.be/cxxnuofREcM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/03 📺 Security badges.md"
+        line: 11
+        label: "404706860-ebe81b73-22e8-40ef-bb33-94978a6974c3.webm"
+  - filename: "404706880-71273f17-b689-4cf5-b5b5-42ba1a728576.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/cdbec1e8-1914-405e-82fb-6a41fab6d507"
+    youtube_source: "https://youtu.be/8jaGeYXJKgE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/09 📺 Air charge tech.md"
+        line: 11
+        label: "404706880-71273f17-b689-4cf5-b5b5-42ba1a728576.webm"
+  - filename: "404706890-e646c02d-1e73-4f72-b891-feef8d472f62.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/315ee2f5-fa9a-4810-9485-d65aabb8e3e9"
+    youtube_source: "https://youtu.be/OizL96l-eNU"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/11 📺 Air charge cost.md"
+        line: 10
+        label: "404706890-e646c02d-1e73-4f72-b891-feef8d472f62.webm"
+  - filename: "404706905-45154775-aed5-41d0-b64b-2a44bd05440c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/1d307208-0ebc-4770-87ea-24966ff6b1d0"
+    youtube_source: "https://youtu.be/XRNBBCo44wE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/10 📺 Air charge distance.md"
+        line: 10
+        label: "404706905-45154775-aed5-41d0-b64b-2a44bd05440c.webm"
+  - filename: "404706917-a7339bfb-d4f9-4615-bbd6-b346b2ef6ca5.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/05298ad5-e859-4852-bc30-80dc057c06a3"
+    youtube_source: "https://youtu.be/_W1tLiK0_BM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/08 📺 Air charge vision.md"
+        line: 11
+        label: "404706917-a7339bfb-d4f9-4615-bbd6-b346b2ef6ca5.webm"
+  - filename: "404870623-242b9344-9112-4bba-9bee-75ca8b496033.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/5ba6c915-b198-41d6-b7fb-60cbe016ee4b"
+    youtube_source: "https://youtu.be/UL3MXSBZIf0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/12 📺 Air charge security.md"
+        line: 11
+        label: "404870623-242b9344-9112-4bba-9bee-75ca8b496033.webm"
+  - filename: "404942045-3d31e421-b856-4640-868d-c30a661bb078.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f04e21a4-a9fe-4806-89ff-ae4c901871c8"
+    youtube_source: "https://youtu.be/ogfYd705cRs"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/01 📺 Google haircut.md"
+        line: 14
+        label: "404942045-3d31e421-b856-4640-868d-c30a661bb078.webm"
+  - filename: "404942097-3be01bc5-5d82-4617-8cf1-1c513135f914.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/dfcd3b01-7bf9-437b-bbea-8c0c0d05c224"
+    youtube_source: "https://youtu.be/kopoLzvh5jY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/04 📺 OpenAI's vision.md"
+        line: 11
+        label: "404942097-3be01bc5-5d82-4617-8cf1-1c513135f914.webm"
+  - filename: "404944257-ad1b9ee1-a59a-4b48-9f40-126f544ebf69.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/780d675e-3f1c-4628-a0f2-8cb904051ec9"
+    youtube_source: "https://youtu.be/ogfYd705cRs"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/03 📺 Google challenges.md"
+        line: 17
+        label: "404944257-ad1b9ee1-a59a-4b48-9f40-126f544ebf69.webm"
+  - filename: "405002926-2cac80a1-40fc-4415-9a49-87952be47d43.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/ec66a859-2aa1-475f-9cef-2d8608b32ebf"
+    youtube_source: "https://youtu.be/-1w3-pIL3pw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/06 📺 Smart lock safety.md"
+        line: 11
+        label: "405002926-2cac80a1-40fc-4415-9a49-87952be47d43.webm"
+  - filename: "405003166-27753f89-fdb8-4a7c-8e1d-ef3e0d642828.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/bb5d6401-7f49-47aa-b720-1a289711d513"
+    youtube_source: "https://youtu.be/uFroTufv6es?t=1095"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/09 📺 Google agents.md"
+        line: 16
+        label: "405003166-27753f89-fdb8-4a7c-8e1d-ef3e0d642828.webm"
+  - filename: "405036561-ffa890d8-78e0-432c-9bd1-bc8c90105f62.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/afe3b50b-a8ab-447c-99a1-555544d8af65"
+    youtube_source: "https://youtu.be/sGPRIkqWh3g"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/14 📺 Matter protocol.md"
+        line: 15
+        label: "405036561-ffa890d8-78e0-432c-9bd1-bc8c90105f62.webm"
+  - filename: "405773597-3efbfd6c-85b8-4c7b-a7c8-d6cffc953128.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0497b89f-bd5e-408c-a79d-57cdde683f30"
+    youtube_source: "https://youtu.be/0vyGNK_NWbI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/10 💬 Chatting landscape/05 📺 Walmart.md"
+        line: 7
+        label: "405773597-3efbfd6c-85b8-4c7b-a7c8-d6cffc953128.webm"
+  - filename: "405773691-c72047cc-3631-4d6e-b795-60287c3a2edd.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/3e00e27c-3229-4954-8fe6-7fcd262e8949"
+    youtube_source: "https://youtu.be/DGdsIrAjp3k"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/01 📺 Metal keys.md"
+        line: 10
+        label: "405773691-c72047cc-3631-4d6e-b795-60287c3a2edd.webm"
+  - filename: "405775458-4a040ce5-85c7-46a2-ae16-8535870bb27b.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/73b3f1db-5d8e-4568-8df2-6c9c39345646"
+    youtube_source: "https://youtu.be/L0Q_0IZULJs"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/11 📺 Apple Key UWB.md"
+        line: 13
+        label: "405775458-4a040ce5-85c7-46a2-ae16-8535870bb27b.webm"
+  - filename: "405775536-9548af0f-aa75-45b0-802f-e68249584298.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a8a89603-ee59-4ddd-b705-d2d49f94cedf"
+    youtube_source: "https://youtu.be/OAbbKNopja0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/07 📺 Top smart locks.md"
+        line: 9
+        label: "405775536-9548af0f-aa75-45b0-802f-e68249584298.webm"
+  - filename: "405775630-938e0cc3-e04e-41f2-b492-e7f9133a8583.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/cb8ababd-ca9b-4dc6-bc23-86fb51b32597"
+    youtube_source: "https://youtu.be/xmbgDxBCeDE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/05 📺 Smart padlocks.md"
+        line: 10
+        label: "405775630-938e0cc3-e04e-41f2-b492-e7f9133a8583.webm"
+  - filename: "405785931-bc458f11-b0f3-4203-951f-196848c44fec.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/dade0387-e439-4a2a-9ac7-81f80ab97aae"
+    youtube_source: "https://youtu.be/0VErAv4izro"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/05 📂 ID Wallets landscape/02 📺 CA DMV Wallet mDL.md"
+        line: 11
+        label: "405785931-bc458f11-b0f3-4203-951f-196848c44fec.webm"
+  - filename: "405786141-3449a1e7-80a9-4060-8352-029c35a302fb.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/1a343784-e31e-4e78-ae81-b01d4378c40a"
+    youtube_source: null
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/04 🆔 Digital ID landscape/15 📺 🇺🇸 US' resident e-card.md"
+        line: 11
+        label: "405786141-3449a1e7-80a9-4060-8352-029c35a302fb.webm"
+  - filename: "406147467-bb292eb3-0973-46ca-91ce-7337ca28a195.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/14549d10-e28e-46f8-a17c-21e92696ef14"
+    youtube_source: "https://youtu.be/Htg-J86Usig"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/11 📺 NVIDIA agentic AI.md"
+        line: 12
+        label: "406147467-bb292eb3-0973-46ca-91ce-7337ca28a195.webm"
+  - filename: "406357857-bdcef291-e610-4e7d-84fe-402a2425f9f6.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/e5d3f1de-a116-4f92-a3d7-55b4df81c6c9"
+    youtube_source: "https://www.youtube.com/watch?v=UI_-y-g0G8s"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/04 📺 Google's vision.md"
+        line: 23
+        label: "406357857-bdcef291-e610-4e7d-84fe-402a2425f9f6.webm"
+  - filename: "406393594-2e473dfd-09a4-41cc-ab4b-807674281ee9.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/6b4b1945-b230-4c7f-8b6b-07466480626b"
+    youtube_source: "https://youtu.be/Br5aJa6MkBc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/07 📺 Smart cities.md"
+        line: 10
+        label: "406393594-2e473dfd-09a4-41cc-ab4b-807674281ee9.webm"
+  - filename: "406393631-120ec3f9-aae4-4910-a52c-29ea16a1c02a.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/83e98dfa-484a-41c0-a081-ae7e5521320f"
+    youtube_source: "https://youtu.be/BwYPeijrQKE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/16 📺 Matter devices.md"
+        line: 11
+        label: "406393631-120ec3f9-aae4-4910-a52c-29ea16a1c02a.webm"
+  - filename: "406393680-0f37e105-adb5-464d-b224-782b7c3193cb.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7fb32ee2-2626-4efb-9736-12213f7c7752"
+    youtube_source: "https://youtu.be/IC0mkHh7MaA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/06 📺 Smart buildings.md"
+        line: 11
+        label: "406393680-0f37e105-adb5-464d-b224-782b7c3193cb.webm"
+  - filename: "406431990-f4b9f769-682f-4d75-9326-b3dffbc6ce01.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0f5c8070-e53c-4d1c-a59f-38827e9ff5e2"
+    youtube_source: "https://youtu.be/WNI9UINdytc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/08 📺 Google's Risk API.md"
+        line: 10
+        label: "406431990-f4b9f769-682f-4d75-9326-b3dffbc6ce01.webm"
+  - filename: "406432065-6b071b08-4eed-4062-ac6d-ef6ea0e5c16a.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/fd2b7f8f-9d3b-4f81-a540-803bb1289977"
+    youtube_source: "https://youtu.be/DU_y85NlSeY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/05 📺 QR safety.md"
+        line: 11
+        label: "406432065-6b071b08-4eed-4062-ac6d-ef6ea0e5c16a.webm"
+  - filename: "406619625-b97aa099-046d-46fc-a85f-4de851ef42b6.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/451d1a04-9cf7-43b2-ab47-01c484809f5e"
+    youtube_source: "https://youtu.be/8uijLSZjZDc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/06 📺 QR phishing.md"
+        line: 11
+        label: "406619625-b97aa099-046d-46fc-a85f-4de851ef42b6.webm"
+  - filename: "406619650-648188c6-809b-4a97-9601-37785577c5d8.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/5c54662a-521e-4887-a03a-a40451523fb1"
+    youtube_source: "https://youtu.be/IqP_iojZXxQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/18 📺 App Clip Codes.md"
+        line: 8
+        label: "406619650-648188c6-809b-4a97-9601-37785577c5d8.webm"
+  - filename: "406619717-ef12db1c-de3c-4179-92d9-71569aed118e.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4bc79387-c662-4deb-86ab-59b7f47626b2"
+    youtube_source: "https://youtu.be/cmrdnxJBA0I"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/07 📺 QR scanner.md"
+        line: 10
+        label: "406619717-ef12db1c-de3c-4179-92d9-71569aed118e.webm"
+  - filename: "406619761-ede99543-6cb6-48cc-83fb-4facf7b5fb1c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/23893ed4-f733-46b5-9f25-71984aafce8f"
+    youtube_source: "https://www.youtube.com/watch?v=lll4tOXEuI0"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/05 📂 ID Wallets landscape/05 📺 Apple Wallet.md"
+        line: 18
+        label: "406619761-ede99543-6cb6-48cc-83fb-4facf7b5fb1c.webm"
+  - filename: "406619780-447c855f-50c8-40a4-830c-e059b64eef3c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/48925ddf-b8e7-4e47-8909-b1a5eabd5653"
+    youtube_source: "https://youtu.be/oDiPvLzzNm4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/10 📺 Apple Key + BMW.md"
+        line: 13
+        label: "406619780-447c855f-50c8-40a4-830c-e059b64eef3c.webm"
+  - filename: "406619847-e9874d89-b7b3-4031-8329-b6e621ca4547.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/32ca1990-12d7-4a84-800c-ef4498307e6f"
+    youtube_source: "https://youtu.be/wlCTN-vnQ_E"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/17 📺 Apple's App Clips.md"
+        line: 10
+        label: "406619847-e9874d89-b7b3-4031-8329-b6e621ca4547.webm"
+  - filename: "406620191-afc01448-00a3-4436-baed-ce1c54212e26.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/c7490799-6f04-4af9-a49e-d6ed5c707ae4"
+    youtube_source: "https://youtu.be/iPTiVcKwdLk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/01 🏡 Smart Homes/05 📺 Apple's vision.md"
+        line: 11
+        label: "406620191-afc01448-00a3-4436-baed-ce1c54212e26.webm"
+  - filename: "406696453-00a3f142-79af-48b6-b964-3411b950e5f9.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0dc18685-1639-4705-9ea5-a5bfbd3be258"
+    youtube_source: "https://youtu.be/lya1cTDZgmE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/09 📺 Enterprise access.md"
+        line: 10
+        label: "406696453-00a3f142-79af-48b6-b964-3411b950e5f9.webm"
+  - filename: "406696464-4f965138-12b8-4e2e-adf3-2f456f1b35db.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b67e6a65-5855-45e2-8566-5b4d4d90aa2d"
+    youtube_source: "https://youtu.be/R0zLt7sVJes"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/02 🔑 Smart Keys/08 📺 Biometrics access.md"
+        line: 10
+        label: "406696464-4f965138-12b8-4e2e-adf3-2f456f1b35db.webm"
+  - filename: "406749278-763e71ac-cf65-40e8-ba86-416b4bb19e95.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/d91aa3ad-b321-455a-89b9-08aec7c41d30"
+    youtube_source: "https://youtu.be/-qGwdLDNumE"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/03 📺 Journalists' opinion.md"
+        line: 10
+        label: "406749278-763e71ac-cf65-40e8-ba86-416b4bb19e95.webm"
+  - filename: "406749315-661ecdbe-9195-4488-889d-a88be704e662.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8a8a1175-c478-426c-a15a-7e8770ba472b"
+    youtube_source: "https://youtu.be/RyV7a60p52o"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/09 📺 Data collection.md"
+        line: 10
+        label: "406749315-661ecdbe-9195-4488-889d-a88be704e662.webm"
+  - filename: "406749320-c9f6abc1-1608-4efc-b312-4c5fae24de7c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8f6181ac-6075-4be5-aacc-9d38a71ef210"
+    youtube_source: "https://youtu.be/2CZnaPEixfs"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/06 📺 Samsung ring.md"
+        line: 10
+        label: "406749320-c9f6abc1-1608-4efc-b312-4c5fae24de7c.webm"
+  - filename: "406753363-66663b44-b5e4-45e0-8b6b-80b5567abf5d.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/51d0245a-4e03-4c7c-be8f-011152547ea0"
+    youtube_source: "https://youtu.be/RXeOiIDNNek"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/05 📺 Apple Watch.md"
+        line: 12
+        label: "406753363-66663b44-b5e4-45e0-8b6b-80b5567abf5d.webm"
+  - filename: "406753389-13596c12-b73e-47f2-a226-4df19723400e.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4370925b-4d62-47f2-857b-671de40a138b"
+    youtube_source: "https://youtu.be/iwtjAY81ZzU"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/08 📺 Wearables' data.md"
+        line: 11
+        label: "406753389-13596c12-b73e-47f2-a226-4df19723400e.webm"
+  - filename: "406753400-d7b1a14b-098e-4b22-8cd5-3c1915d415fd.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7af5a86c-79f3-4fda-afa1-9c7010b3c3bf"
+    youtube_source: "https://youtu.be/RxDb1mqNWrI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/11 📺 Data regulation.md"
+        line: 10
+        label: "406753400-d7b1a14b-098e-4b22-8cd5-3c1915d415fd.webm"
+  - filename: "406753420-9d09afb3-e895-4081-a99a-5576dda64990.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/05408e82-437b-4a43-a61d-446f433ba73c"
+    youtube_source: "https://youtu.be/hejeSv5RWCM"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/07 📺 Whoop wearable.md"
+        line: 10
+        label: "406753420-9d09afb3-e895-4081-a99a-5576dda64990.webm"
+  - filename: "406754400-81895bd0-b2e5-4801-9c73-db3e79a693b5.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/dc0c830c-e96e-40a8-9cfe-055755524789"
+    youtube_source: "https://youtu.be/Iaa2ivg8v3k"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/10 📺 Data sharing.md"
+        line: 10
+        label: "406754400-81895bd0-b2e5-4801-9c73-db3e79a693b5.webm"
+  - filename: "406762995-0cd5f017-4ddd-45a3-b726-670c5d395ce6.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/d6a810d8-fdf6-4fef-9bea-ad107913f0bc"
+    youtube_source: "https://youtu.be/qetKUFDDF4A"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/02 📺 Hospitals' opinion.md"
+        line: 10
+        label: "406762995-0cd5f017-4ddd-45a3-b726-670c5d395ce6.webm"
+  - filename: "406763014-4024cdee-30cb-4e9a-9329-7153da3356df.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/b82d4a74-3f4b-4d13-9170-7f8674315bc3"
+    youtube_source: "https://youtu.be/g632EG9s1Mc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/03 ❤️ Smart Health/04 📺 NVIDIA.md"
+        line: 11
+        label: "406763014-4024cdee-30cb-4e9a-9329-7153da3356df.webm"
+  - filename: "415685509-7391743f-b8c7-46b7-94c6-b11e1e8d04f2.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f68fa931-c408-4fdc-b98a-ab1fbd288864"
+    youtube_source: "https://youtu.be/-p9BtBd-Al8"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/04 😎 Smart glasses/04 📺 Android XR.md"
+        line: 11
+        label: "415685509-7391743f-b8c7-46b7-94c6-b11e1e8d04f2.webm"
+  - filename: "415685642-363df8ca-8fc7-4edb-9ac8-090c736919de.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7bf3648b-f3e5-421e-bb08-bb1d39300073"
+    youtube_source: "https://youtu.be/3ADYQj90GmI"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/07 📺 Synchron+Alexa.md"
+        line: 10
+        label: "415685642-363df8ca-8fc7-4edb-9ac8-090c736919de.webm"
+  - filename: "415685768-ee6e1cc0-04ac-4d0f-8e53-2c215e2fdc31.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/049894ab-de98-4b97-909c-968f7df49ac1"
+    youtube_source: "https://youtu.be/3jwVBroYd3Q"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/02 📺 🇺🇸 US.md"
+        line: 10
+        label: "415685768-ee6e1cc0-04ac-4d0f-8e53-2c215e2fdc31.webm"
+  - filename: "415685906-4e16fbf6-a628-4aa9-aca2-48ac38905a28.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/d8b70e7a-03d5-45ca-aea1-ae29e95c0afb"
+    youtube_source: "https://youtu.be/E1LW_MteTho"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/04 😎 Smart glasses/05 📺 Meta's Ray-Ban.md"
+        line: 10
+        label: "415685906-4e16fbf6-a628-4aa9-aca2-48ac38905a28.webm"
+  - filename: "415686062-3731fd48-37ff-4d9f-b2a9-42c4627a616e.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/a8c816e8-fd2a-46f6-9456-97ae6e1f536e"
+    youtube_source: "https://youtu.be/I1YwrRAvcLw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/08 📺 Synchron+Apple.md"
+        line: 10
+        label: "415686062-3731fd48-37ff-4d9f-b2a9-42c4627a616e.webm"
+  - filename: "415686212-a22904ab-e7b2-4db5-943c-3caf3992d6e1.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/1131f040-34e9-47ed-87a6-c3382dd85543"
+    youtube_source: "https://youtu.be/Mqu5WikXiGA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/04 😎 Smart glasses/02 📺 🇨🇳 China.md"
+        line: 11
+        label: "415686212-a22904ab-e7b2-4db5-943c-3caf3992d6e1.webm"
+  - filename: "415686352-6eea7e6a-6928-40f0-8077-e3aefcd74261.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/efb74b6c-fb17-4f3e-a343-b014b6ae2982"
+    youtube_source: "https://youtu.be/TX9qSaGXFyg"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/04 😎 Smart glasses/03 📺 Apple Vision Pro.md"
+        line: 10
+        label: "415686352-6eea7e6a-6928-40f0-8077-e3aefcd74261.webm"
+  - filename: "415686513-b3273b95-12a7-4858-9223-7479c4fc1d31.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/2cd6eb95-3af6-48b0-988e-e62d3c19bd18"
+    youtube_source: "https://youtu.be/UeJvc2pjALk"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/05 📺 Neuralink.md"
+        line: 10
+        label: "415686513-b3273b95-12a7-4858-9223-7479c4fc1d31.webm"
+  - filename: "415686646-2f9891f9-5507-47d2-80ea-67aa31c507a2.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/40a09101-d541-4c2d-aef5-1ed5ed1dbfa6"
+    youtube_source: "https://youtu.be/aVxhZ29f8dA"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/04 😎 Smart glasses/01 📺 🇺🇸 US.md"
+        line: 10
+        label: "415686646-2f9891f9-5507-47d2-80ea-67aa31c507a2.webm"
+  - filename: "415686772-449ef6c6-479a-463b-9a07-64c6d433ff4f.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/7821fa4b-83d7-46bd-b76c-5930fad4d3b7"
+    youtube_source: "https://youtu.be/h6iFwcQMh9o"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/03 📺 🇨🇳 China.md"
+        line: 10
+        label: "415686772-449ef6c6-479a-463b-9a07-64c6d433ff4f.webm"
+  - filename: "415686883-d4028e16-5473-489c-8f51-0adf46830ed8.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/6199c464-7c59-44b3-aed0-a153ae05d06e"
+    youtube_source: "https://youtu.be/nzZ7EIIjXY4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/09 📺 Synchron+ChatGPT.md"
+        line: 10
+        label: "415686883-d4028e16-5473-489c-8f51-0adf46830ed8.webm"
+  - filename: "415687017-fba9db44-c3da-4278-8f49-a1ea94c24bf3.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/51658d6d-92c6-4be1-9c35-58a5a88b6ec0"
+    youtube_source: "https://youtu.be/uJhcQ0rK-Mw"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/06 📺 Synchron.md"
+        line: 11
+        label: "415687017-fba9db44-c3da-4278-8f49-a1ea94c24bf3.webm"
+  - filename: "415687866-697322fc-6fee-4e5a-86d3-91d3330377d9.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/f69fb77c-056a-4a3e-863b-1ac5d8e42bbf"
+    youtube_source: "https://youtu.be/w36gKjepUNg"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/04 😎 Smart glasses/09 📺 OpenAI + Envision.md"
+        line: 11
+        label: "415687866-697322fc-6fee-4e5a-86d3-91d3330377d9.webm"
+  - filename: "415763846-acf5b0d0-1f07-44ef-8e57-0e8a4edf5d81.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/97f4a26d-629d-460c-8281-bc68463ac6c2"
+    youtube_source: "https://youtu.be/mpKKcqWnTus"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/04 😎 Smart glasses/06 📺 Meta's AR glasses.md"
+        line: 10
+        label: "415763846-acf5b0d0-1f07-44ef-8e57-0e8a4edf5d81.webm"
+  - filename: "415763858-095d3a85-b1c6-468f-8076-89c989dba3e8.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/940f87b0-2f0e-4e99-9d7a-bd882a8e6ae7"
+    youtube_source: "https://youtu.be/oAf5M4Q0Pu8"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/04 😎 Smart glasses/07 📺 Meta's Quest 3s.md"
+        line: 10
+        label: "415763858-095d3a85-b1c6-468f-8076-89c989dba3e8.webm"
+  - filename: "415776123-89ab1654-6bcf-4c17-8d26-1a27a8b3c5cf.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/fa2ad976-750f-4f54-8037-e921ddf8b8c9"
+    youtube_source: null
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/04 📺 Meta.md"
+        line: 9
+        label: "415776123-89ab1654-6bcf-4c17-8d26-1a27a8b3c5cf.webm"
+  - filename: "415793229-a649801a-837a-4d03-80e0-3946a43671c2.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/75d94b62-849a-4cdf-ae0f-bf2ace308343"
+    youtube_source: "https://youtu.be/KwNUJ69RbwY"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/04 😎 Smart glasses/08 📺 OpenAI + Be My Eyes.md"
+        line: 10
+        label: "415793229-a649801a-837a-4d03-80e0-3946a43671c2.webm"
+  - filename: "415840509-96b65bc3-7511-4f17-8ffc-dd9199fccefe.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/6a25653a-6b19-428f-8e42-cf194772ecdb"
+    youtube_source: "https://youtu.be/K8uijjp6hfc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/3 🌳 Ambient landscape/05 🧠 Brain Interfaces/01 📺 What's BCI.md"
+        line: 10
+        label: "415840509-96b65bc3-7511-4f17-8ffc-dd9199fccefe.webm"
+  - filename: "420087427-20cb7b73-73a3-4896-953c-dea231ead2a3.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/3e9bf01b-152d-4bd8-8a4e-ba01bead5445"
+    youtube_source: "https://youtu.be/N-HWt5Si6Oc"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/15 📺 Apple's Hide my email.md"
+        line: 9
+        label: "420087427-20cb7b73-73a3-4896-953c-dea231ead2a3.webm"
+  - filename: "420087460-3a3f517b-b1ef-4fc0-9299-339ec4417ab1.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/bf954e1a-f429-478c-abca-f5c2183ece48"
+    youtube_source: "https://youtu.be/5nt3gE9dGHQ"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/04 👀 Advertising landscape/16 📺 Gmail priority inbox.md"
+        line: 8
+        label: "420087460-3a3f517b-b1ef-4fc0-9299-339ec4417ab1.webm"
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/06 📂 App pay landscape/01 📺 🇺🇸 Apple Pay.md"
+        line: 10
+        label: "420087460-3a3f517b-b1ef-4fc0-9299-339ec4417ab1.webm"
+  - filename: "420088568-e30dc024-755a-44fc-86a9-8718d7fd9254.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4b165a8b-e8da-4e06-8535-3f90f09e6a4d"
+    youtube_source: "https://youtu.be/DDkhnK202z4"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/10 📺 W3C VC Ledgers.md"
+        line: 17
+        label: "420088568-e30dc024-755a-44fc-86a9-8718d7fd9254.webm"
+  - filename: "420088609-de483573-43d8-4646-a467-16df7a0ff89f.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/8ecaf93c-fac7-4e16-800f-a2477ce736f7"
+    youtube_source: "https://youtu.be/so6oZ5opAA8-->"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/03 🛂 Travel ID landscape/11 📺  Web3.md"
+        line: 11
+        label: "420088609-de483573-43d8-4646-a467-16df7a0ff89f.webm"
+  - filename: "420088700-28c4b740-3953-42bf-90bb-67612cb26417.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/40e4f7ab-94f0-4ef5-a73b-ba4def479b45"
+    youtube_source: "https://youtu.be/0ctat6RBrFo"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/09 📺 PKI certificates.md"
+        line: 11
+        label: "420088700-28c4b740-3953-42bf-90bb-67612cb26417.webm"
+  - filename: "420088770-897a6a62-5085-45d7-81ca-24733947572c.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/765f0698-a306-4e50-9c70-e193d123401a"
+    youtube_source: "https://youtu.be/uE_Y1C4QPU8"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/10 📺 Post-quantum keys.md"
+        line: 12
+        label: "420088770-897a6a62-5085-45d7-81ca-24733947572c.webm"
+  - filename: "420088828-7e9967f7-818b-4ddf-a2d7-f76626c5e279.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/377829d6-4ad5-4c70-8ebc-f8807600788d"
+    youtube_source: "https://youtu.be/YYbAJ2nh25M"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/12 📺 Amazon Alexa+.md"
+        line: 12
+        label: "420088828-7e9967f7-818b-4ddf-a2d7-f76626c5e279.webm"
+  - filename: "420088875-ccaf2532-7068-414e-9a44-e6b44dcfbc40.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/990b3c69-495a-49ab-9432-39b134f144d2"
+    youtube_source: "https://youtu.be/X0agPRWKja8-->"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/10 🤖 Agentic AI landscape/13 📺 OpenAI Operator.md"
+        line: 12
+        label: "420088875-ccaf2532-7068-414e-9a44-e6b44dcfbc40.webm"
+  - filename: "BgRN5H6vdvo.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/c6e93229-a1d2-40cc-a6d9-e90087159769"
+    youtube_source: "https://youtu.be/BgRN5H6vdvo"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/11 🔆 Scanning landscape/01 📺 Product IDs.md"
+        line: 11
+        label: "BgRN5H6vdvo.webm"
+  - filename: "fetX12f3Z-I.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/4fbe0c43-695f-4532-87fa-d09ab4db9b60"
+    youtube_source: "https://youtu.be/fetX12f3Z-I"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/2 🧑‍🦰 User landscape/07 🧑‍💻 Unsupervised ID landscape/11 📺 IBM MFA.md"
+        line: 14
+        label: "fetX12f3Z-I.webm"
+  - filename: "LNfPQ4d570g_00-15-03-00-17-50.webm"
+    github_asset_url: "https://github.com/user-attachments/assets/0d671b0b-c443-45cf-b5b3-68bfb5491587"
+    youtube_source: "https://youtu.be/LNfPQ4d570g"
+    name_source: "markdown_link_label"
+    references:
+      - markdown_path: "2 🏔️ Landscape/1 💼 Business landscape/02 🏳️ Sovereignty landscape/11 📺 Sovereignty @ Gartner.md"
+        line: 11
+        label: "LNfPQ4d570g_00-15-03-00-17-50.webm"
