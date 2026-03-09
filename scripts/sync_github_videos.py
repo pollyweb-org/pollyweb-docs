@@ -10,7 +10,7 @@ import re
 import shutil
 import subprocess
 import sys
-import threading
+import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -18,6 +18,7 @@ from typing import Iterable
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 INDEX_PATH = PROJECT_ROOT / "video-index.yaml"
 VIDEO_DIR = PROJECT_ROOT / ".videos"
+DONE_DIR = VIDEO_DIR / "done"
 CURL_BIN = shutil.which("curl")
 
 ASSET_URL_RE = re.compile(r"https://github\.com/user-attachments/assets/[0-9a-fA-F-]+")
@@ -207,36 +208,45 @@ def write_yaml(index_items: list[dict[str, object]], path: Path) -> None:
 def download_one(item: dict[str, object], timeout: int) -> tuple[str, bool, str]:
     filename = str(item["filename"])
     url = str(item["github_asset_url"])
-    destination = VIDEO_DIR / filename
+    destination = DONE_DIR / filename
+    legacy_destination = VIDEO_DIR / filename
 
     if destination.exists() and destination.stat().st_size > 0:
         return filename, True, "skipped-existing"
+    if legacy_destination.exists() and legacy_destination.stat().st_size > 0:
+        DONE_DIR.mkdir(parents=True, exist_ok=True)
+        os.replace(legacy_destination, destination)
+        return filename, True, "moved-existing"
 
-    destination.parent.mkdir(parents=True, exist_ok=True)
-    tmp_path = destination.with_suffix(destination.suffix + ".part")
+    DONE_DIR.mkdir(parents=True, exist_ok=True)
+    VIDEO_DIR.mkdir(parents=True, exist_ok=True)
+    tmp_path = VIDEO_DIR / f"{filename}.part"
 
     try:
-        if tmp_path.exists():
-            tmp_path.unlink(missing_ok=True)
-
+        token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
         if CURL_BIN:
+            curl_cmd = [
+                CURL_BIN,
+                "-L",
+                "--fail",
+                "--silent",
+                "--show-error",
+                "--connect-timeout",
+                "20",
+                "--max-time",
+                str(timeout),
+                "-H",
+                "User-Agent: pollyweb-video-sync/1.0",
+            ]
+            if token:
+                curl_cmd.extend(["-H", f"Authorization: Bearer {token}"])
+            curl_cmd.extend(["-o", str(tmp_path), url])
+            if tmp_path.exists() and tmp_path.stat().st_size > 0:
+                curl_cmd.insert(1, "-C")
+                curl_cmd.insert(2, "-")
+
             proc = subprocess.run(
-                [
-                    CURL_BIN,
-                    "-L",
-                    "--fail",
-                    "--silent",
-                    "--show-error",
-                    "--connect-timeout",
-                    "20",
-                    "--max-time",
-                    str(timeout),
-                    "-H",
-                    "User-Agent: pollyweb-video-sync/1.0",
-                    "-o",
-                    str(tmp_path),
-                    url,
-                ],
+                curl_cmd,
                 capture_output=True,
                 text=True,
                 check=False,
@@ -247,7 +257,10 @@ def download_one(item: dict[str, object], timeout: int) -> tuple[str, bool, str]
         else:
             import urllib.request
 
-            req = urllib.request.Request(url, headers={"User-Agent": "pollyweb-video-sync/1.0"})
+            headers = {"User-Agent": "pollyweb-video-sync/1.0"}
+            if token:
+                headers["Authorization"] = f"Bearer {token}"
+            req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=timeout) as resp, tmp_path.open("wb") as out:
                 while True:
                     chunk = resp.read(1024 * 1024)
@@ -272,18 +285,36 @@ def download_all(
     ok_count = 0
     fail_count = 0
     failures: list[tuple[str, str]] = []
-    lock = threading.Lock()
+    total = len(index_items)
+    started_at = time.monotonic()
+    last_report_at = started_at
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
-        futures = [executor.submit(download_one, item, timeout) for item in index_items]
-        for future in concurrent.futures.as_completed(futures):
-            filename, ok, info = future.result()
-            with lock:
+        pending = {executor.submit(download_one, item, timeout) for item in index_items}
+        while pending:
+            done, pending = concurrent.futures.wait(
+                pending,
+                timeout=60,
+                return_when=concurrent.futures.FIRST_COMPLETED,
+            )
+
+            for future in done:
+                filename, ok, info = future.result()
                 if ok:
                     ok_count += 1
                 else:
                     fail_count += 1
                     failures.append((filename, info))
+
+            now = time.monotonic()
+            if now - last_report_at >= 60 and pending:
+                finished = ok_count + fail_count
+                elapsed = int(now - started_at)
+                print(
+                    f"Progress: completed={finished}/{total}, success={ok_count}, failed={fail_count}, elapsed={elapsed}s",
+                    flush=True,
+                )
+                last_report_at = now
 
     return ok_count, fail_count, sorted(failures)
 
@@ -298,6 +329,11 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--workers", type=int, default=12, help="parallel download workers")
     parser.add_argument("--timeout", type=int, default=600, help="per-download timeout in seconds")
+    parser.add_argument(
+        "--allow-missing-404",
+        action="store_true",
+        help="treat 404 download failures as non-fatal (report-only)",
+    )
     return parser.parse_args()
 
 
@@ -317,13 +353,34 @@ def main() -> int:
         return 0
 
     VIDEO_DIR.mkdir(parents=True, exist_ok=True)
+    DONE_DIR.mkdir(parents=True, exist_ok=True)
     ok_count, fail_count, failures = download_all(index_items, max(1, args.workers), max(30, args.timeout))
     print(f"Download results: success={ok_count}, failed={fail_count}, target_dir={VIDEO_DIR}")
 
     if failures:
-        print("Failures:")
+        missing_404: list[tuple[str, str]] = []
+        hard_failures: list[tuple[str, str]] = []
         for filename, reason in failures:
-            print(f"- {filename}: {reason}")
+            if "404" in reason:
+                missing_404.append((filename, reason))
+            else:
+                hard_failures.append((filename, reason))
+
+        if missing_404:
+            print("Missing assets (404):")
+            for filename, reason in missing_404:
+                print(f"- {filename}: {reason}")
+
+        if hard_failures:
+            print("Failures:")
+            for filename, reason in hard_failures:
+                print(f"- {filename}: {reason}")
+            return 2
+
+        if args.allow_missing_404:
+            print(f"Ignored {len(missing_404)} missing 404 assets due to --allow-missing-404")
+            return 0
+
         return 2
 
     return 0
