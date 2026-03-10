@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(git rev-parse --show-toplevel)"
+cd "$ROOT_DIR"
+
+source ./.githooks/secret_guard.sh
+
+STAGED_FILES_RAW="$(git diff --cached --name-only --diff-filter=ACM)"
+
+if [[ -z "$STAGED_FILES_RAW" ]]; then
+  exit 0
+fi
+
+while IFS= read -r staged_file; do
+  [[ -z "$staged_file" ]] && continue
+  if is_blocked_secret_path "$staged_file"; then
+    echo "❌ Secret guard: blocked file path detected: $staged_file"
+    echo "Add this file to .gitignore and keep secrets outside the repository."
+    exit 1
+  fi
+done <<< "$STAGED_FILES_RAW"
+
+PATCH_ADDITIONS="$(git diff --cached --unified=0 --no-color | sed -n 's/^+//p' | sed '/^+++/d')"
+if ! check_patch_for_secret_patterns "$PATCH_ADDITIONS"; then
+  exit 1
+fi
+
+echo "pre-commit: secret guard passed"

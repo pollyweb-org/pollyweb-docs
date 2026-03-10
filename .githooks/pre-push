@@ -3,6 +3,9 @@ set -euo pipefail
 
 ROOT_DIR="$(git rev-parse --show-toplevel)"
 cd "$ROOT_DIR"
+source ./.githooks/secret_guard.sh
+
+PUSH_REFS="$(cat)"
 
 PYTHON_BIN="./.venv/bin/python"
 CHECKER="./.tools/links/links.py"
@@ -23,6 +26,45 @@ has_pending_changes() {
   fi
 
   return 1
+}
+
+scan_pushed_commits_for_secrets() {
+  local refs_text="$1"
+  local had_error=0
+
+  # pre-push stdin lines: <local ref> <local sha> <remote ref> <remote sha>
+  while read -r local_ref local_sha remote_ref remote_sha; do
+    [[ -z "${local_sha:-}" ]] && continue
+    [[ "$local_sha" =~ ^0+$ ]] && continue
+
+    local range
+    if [[ "${remote_sha:-}" =~ ^0+$ ]]; then
+      range="$local_sha"
+    else
+      range="$remote_sha..$local_sha"
+    fi
+
+    local commit
+    for commit in $(git rev-list "$range"); do
+      while IFS= read -r changed_file; do
+        [[ -z "$changed_file" ]] && continue
+        if is_blocked_secret_path "$changed_file"; then
+          echo "❌ Secret guard: blocked file path detected in pushed commit $commit: $changed_file"
+          echo "Push blocked on ref $local_ref."
+          had_error=1
+        fi
+      done < <(git diff-tree --no-commit-id --name-only -r "$commit")
+
+      local additions
+      additions="$(git show --pretty=format: --unified=0 --no-color "$commit" | sed -n 's/^+//p' | sed '/^+++/d')"
+      if ! check_patch_for_secret_patterns "$additions"; then
+        echo "Push blocked by commit $commit on ref $local_ref."
+        had_error=1
+      fi
+    done
+  done <<< "$refs_text"
+
+  return "$had_error"
 }
 
 if [[ ! -x "$PYTHON_BIN" ]]; then
@@ -84,6 +126,12 @@ if has_pending_changes; then
   echo "    git status --short"
   echo "    git add -A && git commit -m \"apply link/checker fixes\""
   echo "After committing the fixes, run 'git push' again."
+  exit 1
+fi
+
+if ! scan_pushed_commits_for_secrets "$PUSH_REFS"; then
+  echo "\n❌ Git push blocked: secret guard detected blocked files or secret patterns."
+  echo "Remove secrets from commits/history, then retry push."
   exit 1
 fi
 
