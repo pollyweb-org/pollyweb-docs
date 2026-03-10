@@ -15,7 +15,7 @@ In 2021, CNBC Television (a U.S.-based business news and financial television ch
 
 https://youtu.be/TQw0qj8jAIs
 
-https://github.com/user-attachments/assets/f5f1d77a-3e82-4e92-af49-5a0ce1032aa9
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_f5f1d77a-3e82-4e92-af49-5a0ce1032aa9.webm
 -->
 
 ---

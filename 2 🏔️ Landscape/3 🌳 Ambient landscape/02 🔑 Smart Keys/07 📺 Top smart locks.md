@@ -19,7 +19,7 @@ In 2024, The Review Lab (a U.S.-based YouTube tech channel) published the follow
 - The video reviews the best smart door locks for 2025, comparing features like keyless entry methods (fingerprint, keypad, app), smart home integration (Apple HomeKit, Alexa, Google Assistant), security features (auto-lock, alarm), and ease of installation.
 
 !-- https://youtu.be/O_JZh3tiTv0 --<br/>
-https://github.com/user-attachments/assets/278aacdb-682d-4c37-acb6-2604c87ff185
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_278aacdb-682d-4c37-acb6-2604c87ff185.webm
 
 
 1. Apple HomeKey
@@ -30,7 +30,7 @@ In 2022, HomeKit Authority (YouTube channel about smart homes) published the fol
 - It shows the process of adding a Home Key to a digital wallet and using it to unlock a door.
 
 !-- https://youtu.be/daO0VzpcZ5s --<br/>
-https://github.com/user-attachments/assets/4f23359e-7b95-4837-a04c-cc0ea0f4e1eb
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_4f23359e-7b95-4837-a04c-cc0ea0f4e1eb.webm
 
 
 
@@ -43,7 +43,7 @@ In 2024, Yale Home US (a U.S.-based home security company) published the followi
 - HomeKit is a smart home platform that allows you to control compatible devices, while Home Key is a digital key stored in your Wallet app that lets you unlock your Yale Assure Lock 2 Plus using your iPhone or Apple Watch.
 
 !-- https://youtu.be/xBUGgbnzD7g --<br/>
-https://github.com/user-attachments/assets/50518e79-56e0-4edc-93f4-2656500eea74
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_50518e79-56e0-4edc-93f4-2656500eea74.webm
 
 
 
@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/50518e79-56e0-4edc-93f4-2656500eea74
 
 published the following video, titled *"[1480] $329 Smart Lock Opened in Seconds (Level Lock)"*.
 https://youtu.be/m_MX96MVD00
-https://github.com/user-attachments/assets/d12c664c-bdb1-48b4-b2cf-c8262cf572b7
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_d12c664c-bdb1-48b4-b2cf-c8262cf572b7.webm
 
 
 
@@ -62,7 +62,7 @@ published the following video, titled *"
 [1514] Schlage's "100% Pick-Proof" Smart Lock (LOL)"*.
 
 https://youtu.be/mGR3h6KTntc
-https://github.com/user-attachments/assets/69b435d1-8854-4b21-a10a-18384da48d22
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_69b435d1-8854-4b21-a10a-18384da48d22.webm
 
 
 
@@ -75,7 +75,7 @@ https://github.com/user-attachments/assets/69b435d1-8854-4b21-a10a-18384da48d22
 - He finds that while the smart lock offers convenience and some security advantages, it's not completely immune to physical attacks.
 
 https://youtu.be/U5gqOwQROTg 
-https://github.com/user-attachments/assets/9287e03d-2f8a-4fbd-86de-639a24999e6e
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_9287e03d-2f8a-4fbd-86de-639a24999e6e.webm
 
 
 -->

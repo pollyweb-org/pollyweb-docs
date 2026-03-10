@@ -6,7 +6,7 @@
 FRANCE 24 English
 China ranks 'good' and 'bad' citizens with 'social credit' system
 https://youtu.be/NXyzpMDtpSE
-https://github.com/user-attachments/assets/a76a1e75-e618-4f29-bc6d-7604fabdc1df
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_a76a1e75-e618-4f29-bc6d-7604fabdc1df.webm
 -->
 
 In 2019, NBC News (a U.S.-based news organization) published the following video, titled *"A Look Inside China's Social Credit System | NBC News Now"*.

@@ -16,7 +16,7 @@ AAifKrbnPqw
 https://www.youtube.com/watch?v=AAifKrbnPqw
 19 News
 How to protect yourself from "quishing" scams
-https://github.com/user-attachments/assets/80a1dfe1-a1ea-43a9-be46-b3c6dcf952d0
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_80a1dfe1-a1ea-43a9-be46-b3c6dcf952d0.webm
 -->
 
 

@@ -19,6 +19,6 @@ In 2024, Apple released the following video, titled *"Full Apple Wallet feature 
 
 <!-- 
 https://www.youtube.com/watch?v=ZfvqT-rYomA 
-https://github.com/user-attachments/assets/9ca87915-2aad-4154-b9ed-2755d1ef4e26
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_9ca87915-2aad-4154-b9ed-2755d1ef4e26.webm
 -->
 

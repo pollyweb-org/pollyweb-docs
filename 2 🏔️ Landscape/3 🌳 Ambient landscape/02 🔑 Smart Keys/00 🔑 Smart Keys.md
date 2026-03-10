@@ -79,7 +79,7 @@
     published the following video, titled *"
     How AirTags Work
     https://youtu.be/lXxWh2tkKgk
-    https://github.com/user-attachments/assets/193b213d-a8fd-4f97-b9d0-6c32978bd268
+    https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_193b213d-a8fd-4f97-b9d0-6c32978bd268.webm
     
     
     2021
@@ -87,7 +87,7 @@
     published the following video, titled *"
     Apple AirTags: Hands-on with the tiny tracker
     https://youtu.be/T-qHrr-tW9Y
-    https://github.com/user-attachments/assets/2337609a-a49f-4495-b439-4dd729dc661d
+    https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_2337609a-a49f-4495-b439-4dd729dc661d.webm
     
     
 
@@ -98,7 +98,7 @@
     CNET
     Apple vs Google: Find My Device Challenge
     https://youtu.be/fqng1jegl0U
-    https://github.com/user-attachments/assets/60d9f5b6-f164-41c9-860c-5461250cbc1a
+    https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_60d9f5b6-f164-41c9-860c-5461250cbc1a.webm
 
 
     -->
@@ -108,7 +108,7 @@
     Samsung Singapore
     Galaxy SmartTag+: Tag it. Find it. Simply smart with AR. | Samsung
     https://youtu.be/BkDIgbzMkQ0
-    https://github.com/user-attachments/assets/e69ab0f3-f6e5-46f7-9bab-1ecf86b0ba3e
+    https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_e69ab0f3-f6e5-46f7-9bab-1ecf86b0ba3e.webm
     
 
     -->

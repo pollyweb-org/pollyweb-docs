@@ -6,7 +6,7 @@
 AI: Towards ambient intelligence | Yossi Matias | TEDxTelAviv
 - Yossi Matias, Vice President at Google, and Head of Google Research, including Conversational AI (Google Duplex, Call Screen, Live Relay, Live Caption, Euphonia). 
 
-https://github.com/user-attachments/assets/282e4e73-a2b8-4c19-8195-51e8736e45d5
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_282e4e73-a2b8-4c19-8195-51e8736e45d5.webm
 -->
 
 In 2022, Google published the following video, titled *"Devices & Services | Google I/O 2022"*.

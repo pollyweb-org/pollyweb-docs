@@ -5,7 +5,7 @@
 In 2013, CBS News (a U.S.-based news organization) published the following video, titled *"How does internet surveillance program PRISM work?"*. 
 
 https://youtu.be/JR6YyYdF8ho 
-https://github.com/user-attachments/assets/291d8769-8aad-4e74-9b4d-7a010072f7ee
+https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_291d8769-8aad-4e74-9b4d-7a010072f7ee.webm
 -->
 
 In 2013, the Wall Street Journal (a U.S.-based news media) published the following video, titled *"Government's Secret Surveillance Program Explained - "The Short Answer"*.

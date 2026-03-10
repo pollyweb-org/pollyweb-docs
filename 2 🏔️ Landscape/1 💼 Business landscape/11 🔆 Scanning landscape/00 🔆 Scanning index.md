@@ -74,7 +74,7 @@ In this chapter, you will learn:
     Seritag NFC Tags (a UK-based NFC tag provider)
     published the following video, titled *"
     https://youtu.be/siEksdUEn9o
-    https://github.com/user-attachments/assets/39084f14-e65b-4fa1-a472-4baa73af7a01
+    https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_39084f14-e65b-4fa1-a472-4baa73af7a01.webm
 
 
     ---
@@ -91,7 +91,7 @@ In this chapter, you will learn:
     - It explains the different materials, finishes, and chip options available, as well as the production process and turnaround times.
 
     -- https://youtu.be/SwfBla2vw7E --<br/>
-    https://github.com/user-attachments/assets/cbed4a39-7773-4de1-bf57-921d7a5cac48
+    https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_cbed4a39-7773-4de1-bf57-921d7a5cac48.webm
     
 
 
@@ -106,7 +106,7 @@ In this chapter, you will learn:
 
 
     !-- https://youtu.be/TPMsXAtGGZ8 --<br/>
-    https://github.com/user-attachments/assets/d12d417b-b93b-41a7-a231-9a2a4e925229
+    https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_d12d417b-b93b-41a7-a231-9a2a4e925229.webm
 
 
     -->

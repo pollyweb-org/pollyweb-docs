@@ -22,7 +22,7 @@ In 2023, LockPickingLawyer (a U.S.-based expert providing insights into lock vul
     published the following video, titled *"2023's Must-Have Smart Padlocks: Reviews and Recommendations"
 
     https://youtu.be/NOr0r0vBZbk
-    https://github.com/user-attachments/assets/c12bc774-7a13-4505-8a91-bc5b9076ca71
+    https://github.com/pollyweb-org/pollyweb-docs/releases/download/reupload-blocked-assets-2026-03-10/asset_c12bc774-7a13-4505-8a91-bc5b9076ca71.webm
     
     
 
