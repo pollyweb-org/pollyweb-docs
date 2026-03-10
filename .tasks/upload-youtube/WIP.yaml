@@ -55,3 +55,12 @@ quota:
 do_not:
   - "Do not paste tokens in chat."
   - "Do not run upload batches if uploadLimitExceeded persists."
+
+cleanup_when_finished:
+  - step: "1) Stop and remove launchd agents"
+    run:
+      - "./.tasks/upload-youtube/manage_launchd_agents.sh uninstall"
+  - step: "2) Optional local cleanup of runtime artifacts/logs"
+    run:
+      - "rm -f .tasks/upload-youtube/hourly_rename.pid .tasks/upload-youtube/hourly_progress.pid .tasks/upload-youtube/notify_progress.pid .tasks/upload-youtube/terminal_digest.pid .tasks/upload-youtube/.notify_state"
+      - "rm -f .tasks/upload-youtube/hourly_rename.log .tasks/upload-youtube/hourly_progress.log .tasks/upload-youtube/notify_progress.log .tasks/upload-youtube/terminal_progress.log .tasks/upload-youtube/launchd.*.log"

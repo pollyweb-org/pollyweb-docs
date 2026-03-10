@@ -31,3 +31,10 @@ secrets.txt
 .tasks/upload-youtube/youtube-oauth-token.json
 .tasks/upload-youtube/tokens.yaml
 .tasks/upload-youtube/hourly_rename.pid
+.tasks/upload-youtube/hourly_progress.pid
+.tasks/upload-youtube/.notify_state
+.tasks/upload-youtube/notify_progress.pid
+.tasks/upload-youtube/terminal_digest.pid
+.tasks/upload-youtube/launchd/com.pollyweb.youtube.hourly-rename.plist
+.tasks/upload-youtube/launchd/com.pollyweb.youtube.notify-progress.plist
+.tasks/upload-youtube/launchd/com.pollyweb.youtube.terminal-digest.plist
