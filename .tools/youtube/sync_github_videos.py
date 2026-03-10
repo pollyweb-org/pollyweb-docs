@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Scan markdown GitHub video assets, build video-index.yaml, and download videos in parallel."""
+"""Scan markdown GitHub video assets, build .tools/youtube/video-index.yaml, and download videos in parallel."""
 
 from __future__ import annotations
 
@@ -15,8 +15,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-INDEX_PATH = PROJECT_ROOT / "video-index.yaml"
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+INDEX_PATH = PROJECT_ROOT / ".tools" / "youtube" / "video-index.yaml"
 VIDEO_DIR = PROJECT_ROOT / ".videos"
 DONE_DIR = VIDEO_DIR / "done"
 CURL_BIN = shutil.which("curl")

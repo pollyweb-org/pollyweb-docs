@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Publish YouTube videos listed in .videos/youtube-upload-map.csv.
+"""Publish YouTube videos listed in .tools/youtube/youtube-upload-map.csv.
 
-Reads OAuth client credentials from tokens.yaml:
+Reads OAuth client credentials from .tools/youtube/tokens.yaml:
   youtube.client_id
   youtube.client_secret
 
@@ -24,10 +24,11 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-TOKENS_PATH = PROJECT_ROOT / "tokens.yaml"
-MAP_PATH = PROJECT_ROOT / ".videos" / "youtube-upload-map.csv"
-OAUTH_TOKEN_PATH = PROJECT_ROOT / ".tools" / "youtube-oauth-token.json"
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+YOUTUBE_TOOLS_DIR = Path(__file__).resolve().parent
+TOKENS_PATH = YOUTUBE_TOOLS_DIR / "tokens.yaml"
+MAP_PATH = YOUTUBE_TOOLS_DIR / "youtube-upload-map.csv"
+OAUTH_TOKEN_PATH = YOUTUBE_TOOLS_DIR / "youtube-oauth-token.json"
 SCOPES = ["https://www.googleapis.com/auth/youtube"]
 WATCH_URL_RE = re.compile(r"(?:v=|youtu\.be/|/shorts/)([A-Za-z0-9_-]{11})")
 
@@ -162,6 +163,7 @@ def main() -> int:
 
     print(f"Found {len(video_ids)} mapped YouTube videos in CSV")
     to_update: list[tuple[str, str]] = []
+    status_counts = {"public": 0, "unlisted": 0, "private": 0, "other": 0}
 
     for ids in chunked(video_ids, 50):
         resp = (
@@ -173,10 +175,22 @@ def main() -> int:
             video_id = item["id"]
             title = item.get("snippet", {}).get("title", "")
             current = item.get("status", {}).get("privacyStatus", "")
+            if current in status_counts:
+                status_counts[current] += 1
+            else:
+                status_counts["other"] += 1
             if current == args.privacy_status:
                 continue
             to_update.append((video_id, title))
             print(f"PLAN {video_id} :: {current} -> {args.privacy_status} :: {title}")
+
+    print(
+        "Current status counts:"
+        f" public={status_counts['public']},"
+        f" unlisted={status_counts['unlisted']},"
+        f" drafts(private)={status_counts['private']},"
+        f" other={status_counts['other']}"
+    )
 
     if not to_update:
         print("Nothing to update.")
