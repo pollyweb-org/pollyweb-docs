@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Upload missing mapped videos and rename mapped YouTube titles from .tools/youtube/video-index.yaml."""
+"""Upload missing mapped videos and rename mapped YouTube titles from .tasks/upload-youtube/video-index.yaml."""
 
 from __future__ import annotations
 

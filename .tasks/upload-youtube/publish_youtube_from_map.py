@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Publish YouTube videos listed in .tools/youtube/youtube-upload-map.csv.
+"""Publish YouTube videos listed in .tasks/upload-youtube/youtube-upload-map.csv.
 
-Reads OAuth client credentials from .tools/youtube/tokens.yaml:
+Reads OAuth client credentials from .tasks/upload-youtube/tokens.yaml:
   youtube.client_id
   youtube.client_secret
 

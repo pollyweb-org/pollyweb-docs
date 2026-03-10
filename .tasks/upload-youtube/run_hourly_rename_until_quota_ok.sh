@@ -3,8 +3,8 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "$0")/../.." && pwd)"
 PY="$ROOT_DIR/.venv/bin/python3.14"
-TASK="$ROOT_DIR/.tools/youtube/youtube_map_ops.py"
-LOG="$ROOT_DIR/.tools/youtube/hourly_rename.log"
+TASK="$ROOT_DIR/.tasks/upload-youtube/youtube_map_ops.py"
+LOG="$ROOT_DIR/.tasks/upload-youtube/hourly_rename.log"
 
 echo "[$(date -u +"%Y-%m-%dT%H:%M:%SZ")] starting hourly rename runner" >> "$LOG"
 

@@ -28,6 +28,6 @@ __cache__
 secrets.txt
 .videos/
 2 🏔️ Landscape/1 💼 Business landscape/09 🛒 Shopping landscape/00 📎 Assets/openai-checkout-chatgpt.mp4
-.tools/youtube/youtube-oauth-token.json
-.tools/youtube/tokens.yaml
-.tools/youtube/hourly_rename.pid
+.tasks/upload-youtube/youtube-oauth-token.json
+.tasks/upload-youtube/tokens.yaml
+.tasks/upload-youtube/hourly_rename.pid
