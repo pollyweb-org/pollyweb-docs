@@ -12,7 +12,7 @@ LOCK_CMD_FILE="$LOCK_DIR/cmd"
 # Guardrails:
 # - Limit upload/rename operations per run to cap quota spend.
 RENAME_LIMIT_PER_RUN="${RENAME_LIMIT_PER_RUN:-10}"
-UPLOAD_LIMIT_PER_RUN="${UPLOAD_LIMIT_PER_RUN:-3}"
+UPLOAD_LIMIT_PER_RUN="${UPLOAD_LIMIT_PER_RUN:-8}"
 PUBLISH_LIMIT_PER_RUN="${PUBLISH_LIMIT_PER_RUN:-20}"
 SLEEP_ON_QUOTA_SECONDS="${SLEEP_ON_QUOTA_SECONDS:-3600}"
 
@@ -68,9 +68,9 @@ while true; do
   fi
 
   SUMMARY_LINE="$(grep -E "SUMMARY uploads=[0-9]+ renames=[0-9]+ publishes=[0-9]+" <<<"$OUT" | tail -n 1 || true)"
-  UPLOADS="$(sed -nE 's/.*uploads=([0-9]+).*/\1/p' <<<"$SUMMARY_LINE")"
-  RENAMES="$(sed -nE 's/.*renames=([0-9]+).*/\1/p' <<<"$SUMMARY_LINE")"
-  PUBLISHES="$(sed -nE 's/.*publishes=([0-9]+).*/\1/p' <<<"$SUMMARY_LINE")"
+  UPLOADS="$(awk '{for(i=1;i<=NF;i++) if ($i ~ /^uploads=[0-9]+$/) {split($i,a,\"=\"); print a[2]}}' <<<"$SUMMARY_LINE" | head -n1)"
+  RENAMES="$(awk '{for(i=1;i<=NF;i++) if ($i ~ /^renames=[0-9]+$/) {split($i,a,\"=\"); print a[2]}}' <<<"$SUMMARY_LINE" | head -n1)"
+  PUBLISHES="$(awk '{for(i=1;i<=NF;i++) if ($i ~ /^publishes=[0-9]+$/) {split($i,a,\"=\"); print a[2]}}' <<<"$SUMMARY_LINE" | head -n1)"
   UPLOADS="${UPLOADS:-0}"
   RENAMES="${RENAMES:-0}"
   PUBLISHES="${PUBLISHES:-0}"

@@ -4,9 +4,11 @@
 from __future__ import annotations
 
 import argparse
+import concurrent.futures
 import csv
 import json
 import re
+import threading
 from pathlib import Path
 from typing import Iterable
 
@@ -28,6 +30,7 @@ URL_RE = re.compile(r"(?:v=|youtu\.be/|/shorts/)([A-Za-z0-9_-]{11})")
 UUID_RE = re.compile(
     r"([0-9a-fA-F]{8})[^0-9a-fA-F]+([0-9a-fA-F]{4})[^0-9a-fA-F]+([0-9a-fA-F]{4})[^0-9a-fA-F]+([0-9a-fA-F]{4})[^0-9a-fA-F]+([0-9a-fA-F]{12})"
 )
+THREAD_LOCAL = threading.local()
 
 
 def parse_args() -> argparse.Namespace:
@@ -40,6 +43,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--youtube-profile", default="testing", help="tokens.yaml youtube profile")
     p.add_argument("--limit", type=int, default=0, help="limit per operation, 0=unlimited")
     p.add_argument("--upload-limit", type=int, default=0, help="limit uploads, overrides --limit when >0")
+    p.add_argument("--upload-workers", type=int, default=4, help="parallel upload workers")
     p.add_argument("--rename-limit", type=int, default=0, help="limit renames, overrides --limit when >0")
     p.add_argument("--publish-limit", type=int, default=0, help="limit publish updates, overrides --limit when >0")
     p.add_argument(
@@ -77,6 +81,38 @@ def load_service(token_path: Path) -> object:
         SCOPES,
     )
     return build("youtube", "v3", credentials=creds)
+
+
+def get_thread_service(token_path: Path) -> object:
+    svc = getattr(THREAD_LOCAL, "youtube_service", None)
+    svc_key = getattr(THREAD_LOCAL, "youtube_service_key", "")
+    key = str(token_path)
+    if svc is None or svc_key != key:
+        svc = load_service(token_path)
+        THREAD_LOCAL.youtube_service = svc
+        THREAD_LOCAL.youtube_service_key = key
+    return svc
+
+
+def upload_one_video(
+    token_path: Path, path: Path, desired_title: str, privacy: str
+) -> tuple[bool, str]:
+    youtube = get_thread_service(token_path)
+    try:
+        req = youtube.videos().insert(
+            part="snippet,status",
+            body={
+                "snippet": {"title": desired_title},
+                "status": {"privacyStatus": privacy},
+            },
+            media_body=MediaFileUpload(str(path), resumable=True),
+        )
+        resp = req.execute()
+        return True, str(resp["id"])
+    except HttpError as e:
+        return False, str(e)
+    except Exception as e:  # noqa: BLE001
+        return False, f"{type(e).__name__}: {e}"
 
 
 def iter_chunks(values: list[str], size: int) -> Iterable[list[str]]:
@@ -297,8 +333,9 @@ def main() -> int:
     publish_limit = args.publish_limit if args.publish_limit > 0 else args.limit
 
     if args.do_upload:
-        for row in rows:
-            if upload_limit and uploads_done >= upload_limit:
+        upload_candidates: list[tuple[int, str, Path, str, str]] = []
+        for idx, row in enumerate(rows):
+            if upload_limit and len(upload_candidates) >= upload_limit:
                 break
             aid = (row.get("asset_id") or "").lower().strip()
             if not aid:
@@ -321,29 +358,29 @@ def main() -> int:
             desired_title = title_by_asset.get(aid, Path(upload_name).stem)[:100]
             privacy = "public" if args.publish_new else "private"
             print(f"UPLOAD {path.name} -> {desired_title} ({privacy})")
-            if not args.apply:
-                uploads_done += 1
-                continue
-            try:
-                req = youtube.videos().insert(
-                    part="snippet,status",
-                    body={
-                        "snippet": {"title": desired_title},
-                        "status": {"privacyStatus": privacy},
-                    },
-                    media_body=MediaFileUpload(str(path), resumable=True),
-                )
-                resp = req.execute()
-                vid = resp["id"]
-                row["youtube_url"] = f"https://www.youtube.com/watch?v={vid}"
-                by_asset_channel[aid] = vid
-                uploads_done += 1
-                touched = True
-                print(f"UPLOADED {vid}")
-            except HttpError as e:
-                print(f"UPLOAD_ERROR {aid}: {e}")
-                if "quotaExceeded" in str(e):
-                    break
+            upload_candidates.append((idx, aid, path, desired_title, privacy))
+
+        if not args.apply:
+            uploads_done += len(upload_candidates)
+        elif upload_candidates:
+            workers = max(1, args.upload_workers)
+            with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+                future_map = {
+                    executor.submit(upload_one_video, OAUTH_TOKEN_PATH, path, desired_title, privacy): (idx, aid)
+                    for idx, aid, path, desired_title, privacy in upload_candidates
+                }
+                for future in concurrent.futures.as_completed(future_map):
+                    idx, aid = future_map[future]
+                    ok, payload = future.result()
+                    if ok:
+                        vid = payload
+                        rows[idx]["youtube_url"] = f"https://www.youtube.com/watch?v={vid}"
+                        by_asset_channel[aid] = vid
+                        uploads_done += 1
+                        touched = True
+                        print(f"UPLOADED {vid}")
+                    else:
+                        print(f"UPLOAD_ERROR {aid}: {payload}")
 
     if args.do_rename:
         rename_count = 0
