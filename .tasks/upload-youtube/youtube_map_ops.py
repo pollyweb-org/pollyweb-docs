@@ -108,15 +108,33 @@ def find_local_file(upload_filename: str) -> Path | None:
 
 
 def fetch_mine_videos(youtube: object) -> dict[str, dict[str, str]]:
+    channel = youtube.channels().list(part="contentDetails", mine=True, maxResults=1).execute()
+    items = channel.get("items", [])
+    if not items:
+        return {}
+    uploads_playlist = (
+        items[0].get("contentDetails", {}).get("relatedPlaylists", {}).get("uploads", "")
+    )
+    if not uploads_playlist:
+        return {}
+
     ids: list[str] = []
     token = None
     while True:
         resp = (
-            youtube.search()
-            .list(part="id", forMine=True, type="video", maxResults=50, pageToken=token)
+            youtube.playlistItems()
+            .list(
+                part="contentDetails",
+                playlistId=uploads_playlist,
+                maxResults=50,
+                pageToken=token,
+            )
             .execute()
         )
-        ids.extend(it["id"]["videoId"] for it in resp.get("items", []))
+        for it in resp.get("items", []):
+            vid = it.get("contentDetails", {}).get("videoId")
+            if vid:
+                ids.append(vid)
         token = resp.get("nextPageToken")
         if not token:
             break
@@ -129,6 +147,7 @@ def fetch_mine_videos(youtube: object) -> dict[str, dict[str, str]]:
             out[it["id"]] = {
                 "title": it.get("snippet", {}).get("title", ""),
                 "privacy": it.get("status", {}).get("privacyStatus", ""),
+                "snippet": it.get("snippet", {}),
             }
     return out
 
@@ -226,11 +245,9 @@ def main() -> int:
                 rename_done += 1
                 continue
             try:
-                full = youtube.videos().list(part="snippet", id=vid).execute()
-                items = full.get("items", [])
-                if not items:
+                snippet = dict(meta.get("snippet", {}) or {})
+                if not snippet:
                     continue
-                snippet = items[0].get("snippet", {})
                 snippet["title"] = desired[:100]
                 youtube.videos().update(part="snippet", body={"id": vid, "snippet": snippet}).execute()
                 rename_done += 1

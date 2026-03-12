@@ -38,3 +38,4 @@ secrets.txt
 .tasks/upload-youtube/launchd/com.pollyweb.youtube.hourly-rename.plist
 .tasks/upload-youtube/launchd/com.pollyweb.youtube.notify-progress.plist
 .tasks/upload-youtube/launchd/com.pollyweb.youtube.terminal-digest.plist
+.tasks/upload-youtube/.last_runner_attempt_epoch

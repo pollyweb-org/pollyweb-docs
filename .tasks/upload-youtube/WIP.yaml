@@ -40,7 +40,7 @@ restart_checklist:
       - "../pollyweb-docs/.venv/bin/python3.14 - <<'PY'\nfrom pathlib import Path\nimport csv,re,json\nfrom google.oauth2.credentials import Credentials\nfrom googleapiclient.discovery import build\nroot=Path('../pollyweb-docs')\nmap_path=root/'.tasks'/'upload-youtube'/'youtube-upload-map.csv'\nrows=list(csv.DictReader(map_path.open(newline='',encoding='utf-8')))\nfields=list(rows[0].keys())\ncreds=Credentials.from_authorized_user_info(json.loads((root/'.tasks'/'upload-youtube'/'youtube-oauth-token.json').read_text()),['https://www.googleapis.com/auth/youtube'])\nyt=build('youtube','v3',credentials=creds)\nids=[]; tok=None\nwhile True:\n r=yt.search().list(part='id',forMine=True,type='video',maxResults=50,pageToken=tok).execute(); ids += [i['id']['videoId'] for i in r.get('items',[])]; tok=r.get('nextPageToken');\n if not tok: break\nids=list(dict.fromkeys(ids))\npat=re.compile(r'([0-9a-fA-F]{8})[^0-9a-fA-F]+([0-9a-fA-F]{4})[^0-9a-fA-F]+([0-9a-fA-F]{4})[^0-9a-fA-F]+([0-9a-fA-F]{4})[^0-9a-fA-F]+([0-9a-fA-F]{12})')\nby={}\nfor i in range(0,len(ids),50):\n v=yt.videos().list(part='snippet',id=','.join(ids[i:i+50]),maxResults=50).execute()\n for it in v.get('items',[]):\n  m=pat.search(it.get('snippet',{}).get('title',''))\n  if m: by['-'.join(g.lower() for g in m.groups())]=f\"https://www.youtube.com/watch?v={it['id']}\"\nfor r in rows:\n aid=(r.get('asset_id') or '').lower();\n if aid in by: r['youtube_url']=by[aid]\nwith map_path.open('w',newline='',encoding='utf-8') as f:\n w=csv.DictWriter(f,fieldnames=fields); w.writeheader(); w.writerows(rows)\nprint('synced_rows_with_url',sum(1 for r in rows if (r.get('youtube_url') or '').strip()))\nPY"
   - step: "4) Run rename-only pass (recommended after daily quota reset)"
     run:
-      - "../pollyweb-docs/.venv/bin/python3.14 ../pollyweb-docs/.tasks/upload-youtube/youtube_map_ops.py --do-rename --apply"
+      - "../pollyweb-docs/.venv/bin/python3.14 ../pollyweb-docs/.tasks/upload-youtube/youtube_map_ops.py --do-rename --apply --limit 10"
   - step: "5) Verify final privacy/title status summary"
     run:
       - "../pollyweb-docs/.venv/bin/python3.14 ../pollyweb-docs/.tasks/upload-youtube/publish_youtube_from_map.py --youtube-profile testing"
@@ -51,6 +51,10 @@ quota:
   strategy:
     - "Prioritize rename-only on reset window."
     - "Avoid uploads during rename catch-up to preserve quota."
+  guardrails:
+    - "launchd runner uses StartInterval=3600 (no KeepAlive respawn loop)."
+    - "Runner enforces cooldown between attempts and a per-run rename cap."
+    - "Tune via env vars: MIN_SECONDS_BETWEEN_ATTEMPTS and RENAME_LIMIT_PER_RUN."
 
 do_not:
   - "Do not paste tokens in chat."
