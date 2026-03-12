@@ -31,20 +31,8 @@ PollyWeb commits to giving all stakeholders genuine control:
 - **Businesses** — publish services via open manifests, authenticate with domain certificates (not API keys), and access third-party services on-demand without onboarding.
 - **Governments** — interact directly with citizens, keep citizen data within sovereign borders, and enforce laws and regulations on the network.
 
-## Repository Structure
-
-This repository contains the PollyWeb specification, research landscape, use cases, and solution architecture.
-
-| Folder | Description |
-|-|-|
-| [🎯 Mission](<./1 🎯 Mission/0 🎯 Mission.md>) | Vision, press release, sovereignty pledge, tech overview |
-| [🏔️ Landscape](<./2 🏔️ Landscape/README.md>) | Research: business, user, ambient, and regulatory landscapes |
-| [🤝 Use Cases](<./3 🤝 Use Cases/README.md>) | End-to-end flows for personas and scenarios |
-| [⚙️ Solution](<./4 ⚙️ Solution/README.md>) | Protocol specification: data, roles, agents, and domains |
 
 ## License
 
 This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 You are free to share and adapt the material for any purpose, provided appropriate credit is given.
-
-© 2026 PollyCore LTD.
