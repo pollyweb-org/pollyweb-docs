@@ -1,4 +1,4 @@
-# 4 ⚙️ Solution
+# ⚙️ Solution
 
 This section describes the protocol architecture, domains, data model, and runtime roles.
 
@@ -11,11 +11,11 @@ This section describes the protocol architecture, domains, data model, and runti
 
 ## Main Areas
 
-- `20 🧑‍🦰 UI`
-- `30 🧩 Data`
-- `35 💬 Chats`
-- `40 👥 Domains`
-- `41 🎭 Domain Roles`
-- `45 🤲 Helper domains`
-- `50 🫥 Agent domains`
-- `60 🧰 Edge`
+- [🧑‍🦰 UI](<../20 🧑‍🦰 UI/>)
+- [🧩 Data](<../30 🧩 Data/>)
+- [💬 Chats](<../35 💬 Chats/>)
+- [👥 Domains](<../40 👥 Domains/>)
+- [🎭 Domain Roles](<../41 🎭 Domain Roles/>)
+- [🤲 Helper domains](<../45 🤲 Helper domains/>)
+- [🫥 Agent domains](<../50 🫥 Agent domains/>)
+- [🧰 Edge](<../60 🧰 Edge/>)
