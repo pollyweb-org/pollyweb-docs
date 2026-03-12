@@ -2,7 +2,7 @@
 
 > A neutral, open, and global web protocol that allows any person or AI agent to chat with any business, place, or thing.
 
-[pollyweb.org](https://www.pollyweb.org) · [Newsletter](https://www.pollyweb.org/#newsletter) · [LinkedIn](https://www.pollyweb.org/#linkedin)
+[PollyWeb.org](https://www.pollyweb.org) · [Newsletter](https://www.linkedin.com/newsletters/pollyweb-protocol-7429131674325704705/) · [LinkedIn](https://www.linkedin.com/company/pollyweb)
 
 ---
 
