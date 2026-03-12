@@ -17,7 +17,7 @@ snapshot() {
       status="running"
     fi
   fi
-  summary_line="$(grep -E "SUMMARY uploads=|RENAMED_TOTAL|completed without quotaExceeded|quota exceeded" "$RUNNER_LOG" 2>/dev/null | tail -n 1 || true)"
+  summary_line="$(grep -E "PENDING uploads=|SUMMARY uploads=|RENAMED_TOTAL|PUBLISHED_TOTAL|finished: no more upload/rename/publish work found|completed without quotaExceeded|quota exceeded" "$RUNNER_LOG" 2>/dev/null | tail -n 1 || true)"
   rename_events="$(grep -c "^RENAME " "$RUNNER_LOG" 2>/dev/null || true)"
   upload_events="$(grep -c "^UPLOADED " "$RUNNER_LOG" 2>/dev/null || true)"
   quota_events="$(grep -c "quotaExceeded" "$RUNNER_LOG" 2>/dev/null || true)"

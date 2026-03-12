@@ -12,7 +12,7 @@ if [ -f "$STATE_FILE" ]; then
 fi
 
 while true; do
-  latest="$(grep -E "RENAMED_TOTAL|SUMMARY uploads=|completed without quotaExceeded|quota exceeded|UPLOAD_ERROR|RENAME_ERROR" "$RUNNER_LOG" 2>/dev/null | tail -n 1 || true)"
+  latest="$(grep -E "PENDING uploads=|RENAMED_TOTAL|PUBLISHED_TOTAL|SUMMARY uploads=|finished: no more upload/rename/publish work found|completed without quotaExceeded|quota exceeded|UPLOAD_ERROR|RENAME_ERROR|PUBLISH_ERROR" "$RUNNER_LOG" 2>/dev/null | tail -n 1 || true)"
   sig="$(printf '%s' "$latest" | shasum | awk '{print $1}')"
   if [ -n "$latest" ] && [ "$sig" != "$last_sig" ]; then
     ts="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"

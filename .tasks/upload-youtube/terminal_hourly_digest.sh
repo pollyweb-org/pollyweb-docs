@@ -16,7 +16,7 @@ emit() {
       status="running"
     fi
   fi
-  last="$(grep -E "RENAMED_TOTAL|SUMMARY uploads=|completed without quotaExceeded|quota exceeded|UPLOAD_ERROR|RENAME_ERROR" "$RUNNER_LOG" 2>/dev/null | tail -n 1 || true)"
+  last="$(grep -E "PENDING uploads=|RENAMED_TOTAL|PUBLISHED_TOTAL|SUMMARY uploads=|finished: no more upload/rename/publish work found|completed without quotaExceeded|quota exceeded|UPLOAD_ERROR|RENAME_ERROR|PUBLISH_ERROR" "$RUNNER_LOG" 2>/dev/null | tail -n 1 || true)"
   printf '[%s] runner=%s pid=%s\n' "$ts" "$status" "$pid" >> "$DIGEST_LOG"
   if [ -n "$last" ]; then
     printf '[%s] last: %s\n' "$ts" "$last" >> "$DIGEST_LOG"
