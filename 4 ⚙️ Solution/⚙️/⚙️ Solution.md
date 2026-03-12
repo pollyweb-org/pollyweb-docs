@@ -11,11 +11,11 @@ This section describes the protocol architecture, domains, data model, and runti
 
 ## Main Areas
 
-- [🧑‍🦰 UI](<../20 🧑‍🦰 UI/>)
-- [🧩 Data](<../30 🧩 Data/>)
-- [💬 Chats](<../35 💬 Chats/>)
-- [👥 Domains](<../40 👥 Domains/>)
-- [🎭 Domain Roles](<../41 🎭 Domain Roles/>)
-- [🤲 Helper domains](<../45 🤲 Helper domains/>)
-- [🫥 Agent domains](<../50 🫥 Agent domains/>)
-- [🧰 Edge](<../60 🧰 Edge/>)
+- [🧑‍🦰 UI](<../20 🧑‍🦰 UI/🧑‍🦰/🧑‍🦰 User Interface (UI).md>)
+- [🧩 Data](<../30 🧩 Data/🧩/🧩 Data.md>)
+- [💬 Chats](<../35 💬 Chats/💬/💬 Chats.md>)
+- [👥 Domains](<../40 👥 Domains/👥/👥 Domains.md>)
+- [🎭 Domain Roles](<../41 🎭 Domain Roles/🎭/🎭 Domain Roles.md>)
+- [🤲 Helper domains](<../45 🤲 Helper domains/🤲/🤲 Helper domains.md>)
+- [🫥 Agent domains](<../50 🫥 Agent domains/🫥/🫥 Agent domains.md>)
+- [🧰 Edge](<../60 🧰 Edge/🧰/🧰 Edge.md>)
