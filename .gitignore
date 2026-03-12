@@ -41,3 +41,4 @@ secrets.txt
 .tasks/upload-youtube/.last_runner_attempt_epoch
 .tasks/upload-youtube/.runner.lock/pid
 .tasks/upload-youtube/.runner.lock/cmd
+${workspaceFolder*}/
