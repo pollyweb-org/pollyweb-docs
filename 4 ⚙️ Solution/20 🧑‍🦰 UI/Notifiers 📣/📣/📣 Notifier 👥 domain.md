@@ -49,15 +49,15 @@
 
     | Message | Group | Description |
     |---|---|---|
-    | [`Frozen` 🤵🐌](<../📣📨 Notifier msgs/Chats 💬 Frozen 🤵🐌📣/📣 Frozen 🐌 msg.md>) | [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | Indicates a chat or wallet has been frozen. |
-    | [`Open` 🤵🐌](<../📣📨 Notifier msgs/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) | [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | Opens a new chat for a [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>). |
-    | [`Prompt` 🤵🐌](<../📣📨 Notifier msgs/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>) | [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | Sends a [Prompt 🤔](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) to the wallet for user input. |
-    | [`Charge` 🤵🐌](<../📣📨 Notifier msgs/Payments 💳 Charge 🤵🐌📣/📣 Charge 🐌 msg.md>) | 💳 Payments | Requests a payment or charge from the wallet. |
-    | [`Remove` 🤵🐌](<../📣📨 Notifier msgs/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | Removes a token or item from the wallet. |
-    | [`Save` 🤵🐌](<../📣📨 Notifier msgs/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | Saves a new token or credential to the wallet. |
-    | [`Share` 🤵🐌](<../📣📨 Notifier msgs/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>) | [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | Shares a token or credential with another domain. |
-    | [`Onboard` 🧑‍🦰🚀](<../📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>) | [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | Registers (onboards) a new wallet with the [Notifier 📣](<📣 Notifier 👥 domain.md>). |
-    | [`Updated` 🤵🐌](<../📣📨 Notifier msgs/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | Notifies the wallet of an update to its data or state. |
+    | [🤵🐌 Frozen](<../📣📨 Notifier msgs/Chats 💬 Frozen 🤵🐌📣/📣 Frozen 🐌 msg.md>) | [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | Indicates a [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) or [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) has been frozen. |
+    | [🤵🐌 Open](<../📣📨 Notifier msgs/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>) | [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | Opens a new [Chat 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) for a [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>). |
+    | [🤵🐌 Prompt](<../📣📨 Notifier msgs/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>) | [Chats 💬](<../../../35 💬 Chats/Chats 💬/💬 Chat.md>) | Sends a [Prompt 🤔](<../../../35 💬 Chats/Chats 💬/🤔 Prompt.md>) to the [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) for user input. |
+    | [🤵🐌 Charge](<../📣📨 Notifier msgs/Payments 💳 Charge 🤵🐌📣/📣 Charge 🐌 msg.md>) | 💳 Payments | Requests a payment or charge from the [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>). |
+    | [🤵🐌 Remove](<../📣📨 Notifier msgs/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>) | [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | Removes a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) or item from the [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>). |
+    | [🤵🐌 Save](<../📣📨 Notifier msgs/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>) | [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | Saves a new [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) or credential to the [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>). |
+    | [🤵🐌 Share](<../📣📨 Notifier msgs/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>) | [Tokens 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) | Shares a [Token 🎫](<../../../30 🧩 Data/Tokens 🎫/🎫 Token/🎫 Token.md>) or credential with another domain. |
+    | [🧑‍🦰🚀 Onboard](<../📣📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>) | [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | Registers (onboards) a new [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) with the [Notifier 📣](<📣 Notifier 👥 domain.md>). |
+    | [🤵🐌 Updated](<../📣📨 Notifier msgs/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>) | [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) | Notifies the [Wallet 🧑‍🦰](<../../Wallets 🧑‍🦰/🧑‍🦰 Wallet app/🧑‍🦰 Wallet 🛠️ app.md>) of an update to its data or state. |
 
 
 
