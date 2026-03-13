@@ -43,8 +43,8 @@
 
     * The feedback is sent via a [Buffer ⏳ helper domain](<../../../45 🤲 Helper domains/Buffers ⏳/⏳ Buffer/⏳🤲 Buffer helper.md>) defined by the sender's domain, using the [Feedback@Buffer 🐌 API message](<../../../45 🤲 Helper domains/Buffers ⏳/⏳📨 Buffer msgs/👥🐌⏳ Feedback.md>). 
         ```yaml
-        🤝: pollyweb.org/MSG:1.0
         Header:
+            Schema: pollyweb.org/MSG:1.0
             From: any-receiver.dom
             To: any-buffer.dom
             Subject: Feedback@Buffer

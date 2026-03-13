@@ -13,15 +13,14 @@
     * Consider the the following example, converted from JSON to YAML for readability.
 
     ```yaml
-    🤝: pollyweb.org/MSG:1.0
-
     Header:
+        Schema: pollyweb.org/MSG:1.0
         From: any-sender.dom
         To: any-receiver.dom
         Subject: AnyMethod
         Correlation: 125a5c75-cb72-43d2-9695-37026dfcaa48
         Timestamp: 2018-12-10T13:45:00.000Z
-        DKIM: pk1
+        Selector: pk1
 
     Body: {...}
 
@@ -38,7 +37,7 @@
 
     |Property| Description
     |-|-
-    | `🤝` | The versioned [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) of the envelope.
+    | `Schema` | The versioned [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) of the envelope.
     |`From`| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) who sent the message.
     |`To`| The name of the [domain 👥](<../../../40 👥 Domains/👥 Domain/👥 Domain.md>) for whom the message is intended.
     | `Correlation`| The unique ID in the sender, for deduping.
@@ -47,7 +46,7 @@
     | `Body`| The content inside the envelope.
     | `Hash`| The canonical hash of the envelope's header and body.
     | [`Signature`](<Signatures 🔏.md>)| The signature of the envelope (except the body) using the sender's private key.
-    | 📺 [`DKIM`](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>)| The name of the corresponding public key in the sender's [DKIM 📺](<../../../../2 🏔️ Landscape/2 🧑‍🦰 User landscape/08 🔐 Passwordless ID landscape/07 📺 Email DKIM.md>).
+    | `Selector` | The name of the corresponding public key in the sender's DKIM DNS records.
 
     ---
     <br/>
@@ -56,7 +55,7 @@
 1. **How do receiver domains handle upgraded schema versions?**
 
     An PollyWeb envelop contains a [Schema 🧩](<../../Codes 🧩/🧩 Schema Code.md>) that allows receivers to support multiple versions concurrently, handling incoming envelopes differently depending on its version;
-    - e.g., `🤝: pollyweb.org/MSG:1.0`
+    - e.g., `Header.Schema: pollyweb.org/MSG:1.0`
     - Envelopes with unsupported versions are discarded.
 
     ---
@@ -108,4 +107,3 @@
     
     ---
     <br/>
-

@@ -23,7 +23,7 @@ Blueprint:
 
       Header:
         type: object
-        required: [From, To, Subject, Correlation, Timestamp]
+        required: [From, To, Subject, Correlation, Timestamp, Selector]
         properties:
 
           From: 
@@ -54,6 +54,12 @@ Blueprint:
             format: utc.datetime
             example: 2024-09-21T12:34:00Z
             description: Date and time when the request was sent, in UTC.
+
+          Selector:
+            type: string
+            example: pw1
+            description: >
+              DKIM selector used to locate the sender's public key in DNS.
 
           Schema:
             type: string
