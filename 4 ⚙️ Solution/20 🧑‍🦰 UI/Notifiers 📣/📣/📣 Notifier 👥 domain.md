@@ -41,6 +41,29 @@
     ---
     <br/>
 
+
+
+1. **What are the Notifier message methods?**
+
+    The following table lists the main Notifier 📣 message methods (subjects) and their purpose:
+
+    | Message          | Group                |Description|
+    |-----------------------|----------------------------|-----------------------------------|
+    | [🤵🐌 Frozen](<../📨 Notifier msgs/Chats 💬 Frozen 🤵🐌📣/📣 Frozen 🐌 msg.md>)      | 💬 Chats      | Indicates a chat or wallet has been frozen.                        |
+    | [🤵🐌 Open](<../📨 Notifier msgs/Chats 💬 Open 🤵🐌📣/📣 Open 🐌 msg.md>)        | 💬 Chats        | Opens a new chat for a wallet.                                     |
+    | [🤵🐌 Prompt](<../📨 Notifier msgs/Chats 💬 Prompt 🤵🐌📣/📣 Prompt 🐌 msg.md>)      | 💬 Chats      | Sends a prompt to the wallet for user input.                       |
+    | [🤵🐌 Charge](<../📨 Notifier msgs/Payments 💳 Charge 🤵🐌📣/📣 Charge 🐌 msg.md>)      | 💳 Payments    | Requests a payment or charge from the wallet.                      |
+    | [🤵🐌 Remove](<../📨 Notifier msgs/Tokens 🎫 Remove 🤵🐌📣/📣 Remove 🐌 msg.md>)      | 🎫 Tokens      | Removes a token or item from the wallet.                           |
+    | [🤵🐌 Save](<../📨 Notifier msgs/Tokens 🎫 Save 🤵🐌📣/📣 Save 🐌 msg.md>)        | 🎫 Tokens        | Saves a new token or credential to the wallet.                     |
+    | [🤵🐌 Share](<../📨 Notifier msgs/Tokens 🎫 Share 🤵🐌📣/📣 Share 🐌 msg.md>)       | 🎫 Tokens       | Shares a token or credential with another domain.                  |
+    | [🤵🐌 Onboard](<../📨 Notifier msgs/Wallets 🧑‍🦰 Onboard 🧑‍🦰🚀📣/📣 Onboard 🚀 call.md>)     | 🧑‍🦰 Wallets     | Registers (onboards) a new wallet with the Notifier domain.        |
+    | [🤵🐌 Updated](<../📨 Notifier msgs/Wallets 🧑‍🦰 Updated 🤵🐌📣/📣 Updated 🐌 msg.md>)     | 🧑‍🦰 Wallets     | Notifies the wallet of an update to its data or state.             |
+
+
+
+    ---
+    <br/>
+
 1. **How can messages flow in Notifier domains with WebSockets?**
 
     The following diagram shows the message flow with WebSockets.
@@ -48,3 +71,4 @@
     ![alt text](<📣⚙️ Notifier uml.png>)
 
     ---
+    <br/>
