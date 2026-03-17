@@ -1,4 +1,4 @@
-# 🧑‍💻🚀😃 Write @ Hoster
+# 🧑‍💻🚀😃 Place @ Hoster
 
 > Implementation 
 * Implements [Hoster ☁️ helper domain](<../../../../45 🤲 Helper domains/Hosters ☁️/☁️ Hoster helper/☁️ Hoster 🤲 helper.md>)
