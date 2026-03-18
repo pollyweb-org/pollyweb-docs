@@ -1,4 +1,4 @@
-# 👥🐌🛢 Destroy
+# 👥🐌🛢 Burn
 
 > Part of [Itemizer 🛢 helper](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>)
 
