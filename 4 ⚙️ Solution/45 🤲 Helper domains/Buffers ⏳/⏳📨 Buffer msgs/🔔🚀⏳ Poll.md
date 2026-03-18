@@ -37,7 +37,7 @@ Body:
 Poll: <poll-uuid>
 Messages: 
     - ID: <message-uuid>
-    - Content: <encrypted-message>
+      Content: <encrypted-message>
 ```
 
 |Object|Property|Type|Description
