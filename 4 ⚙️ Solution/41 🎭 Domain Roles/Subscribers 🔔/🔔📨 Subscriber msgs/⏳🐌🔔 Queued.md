@@ -15,7 +15,7 @@
 Header:
     From: any-buffer.dom
     To: any-subscriber.dom
-    Subject: Wake-up@Subscriber
+    Subject: Queued@Subscriber
 Body:
     Queue: <queue-uuid>
 ```
