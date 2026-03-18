@@ -14,7 +14,7 @@ Header:
     From: any-buffer.dom
     To: any-subscriber.dom
     Subject: Wake-up@Subscriber
-From:
+Body:
     
 ```
 
