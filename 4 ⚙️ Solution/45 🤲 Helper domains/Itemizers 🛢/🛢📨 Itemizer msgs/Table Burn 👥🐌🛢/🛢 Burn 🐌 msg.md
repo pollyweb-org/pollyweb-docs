@@ -15,7 +15,7 @@ Header:
     Subject: Burn@Itemizer
 
 Body:
-    Table: MyTable
+    Set: MyTable
 ```
 
 |Object|Property|Type|Description
@@ -23,5 +23,5 @@ Body:
 | Header    |`From`|text| [Talker 😃 domain](<../../../../35 💬 Chats/Talkers 😃/😃 Talker/😃🤲 Talker helper.md>) name
 |           |`To`|text| [Itemizer 🛢 domain](<../../🛢 Itemizer helper/🛢🤲 Itemizer helper.md>) name
 |           | `Subject`     | string    | `Destroy@Itemizer`
-| Body      | `Table`     | string    | Name of the table
+| Body      | `Set`     | string    | Name of the table
 |
