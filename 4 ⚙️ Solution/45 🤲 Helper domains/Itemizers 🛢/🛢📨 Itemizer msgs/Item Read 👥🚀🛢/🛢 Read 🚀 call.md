@@ -40,14 +40,14 @@ Body:
 ## Synchronous Response
 
 ```yaml
-:{Item}:
-.Table: MyTable
-.Version: <version-uuid>
+Item: :{Item}:
+Set: MyTable
+Version: <version-uuid>
 ```
 
 ||Property|Type|Description
 |-|-|-|-
 || `Item`        | object    | [Item 🛢](<../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) saved on the [`Save@Itemizer` 🚀 call](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
-|| `.Table`   |text| Table name for the [`SAVE` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
-|| `.Version` | uuid   | Version for the [`Save@Itemizer` 🚀 call](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
+|| `Set`   |text| Table name for the [`SAVE` 📃 script](<../../../../37 Scripts 📃/📃 Commands ⌘/⌘ for datasets 🪣/SAVE 💾/💾 SAVE 📃 script.md>)
+|| `Version` | uuid   | Version for the [`Save@Itemizer` 🚀 call](<../Item Save 👥🚀🛢/🛢 Save 🚀 call.md>)
 |
