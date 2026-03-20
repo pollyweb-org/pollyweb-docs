@@ -19,8 +19,7 @@
 Here's the [Itemized 🪣 dataset](<../../../../../30 🧩 Data/Datasets 🪣/🪣🔣 Dataset types/Itemized 🛢 dataset.md>) schema.
 
 ```yaml
-Prefix: Host
-Table: Prompts
+Set: Prompts
 ```
 
 <br/>
