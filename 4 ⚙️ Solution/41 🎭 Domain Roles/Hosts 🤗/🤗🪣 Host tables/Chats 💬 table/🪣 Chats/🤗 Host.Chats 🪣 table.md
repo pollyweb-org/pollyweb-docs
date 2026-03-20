@@ -25,7 +25,7 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 ```yaml
 Set: Chats
 Item: Chat
-Key: Broker, Chat
+Key: [Broker, Chat]
 ```
 
 Here's the [Item 🛢 Assert](<../../../../../30 🧩 Data/Datasets 🪣/🪣🛢 Itemized datasets/Item 🛢 Assert.md>) definition.
