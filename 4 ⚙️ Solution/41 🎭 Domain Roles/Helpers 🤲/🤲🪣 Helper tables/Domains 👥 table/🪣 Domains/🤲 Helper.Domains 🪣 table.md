@@ -8,8 +8,7 @@
 ## Schema
 
 ```yaml
-Prefix: Helper
-Table: Domains
+Set: Domains
 Item: Domain
 Key: Domain
 ```
