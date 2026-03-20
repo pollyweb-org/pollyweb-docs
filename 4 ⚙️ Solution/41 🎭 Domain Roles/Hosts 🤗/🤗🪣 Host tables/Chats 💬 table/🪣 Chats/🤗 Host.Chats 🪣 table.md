@@ -23,8 +23,7 @@ Here's the [Itemized 🛢 schema](<../../../../../30 🧩 Data/Datasets 🪣/�
 
 
 ```yaml
-Prefix: Host
-Name: Chats
+Set: Chats
 Item: Chat
 Key: Broker, Chat
 ```
